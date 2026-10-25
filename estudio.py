@@ -105,7 +105,8 @@ def buscar_pixabay(busca: str, chave: str, usados: set[int]) -> tuple[int, str] 
     with urllib.request.urlopen(req, timeout=30) as r:
         dados = json.load(r)
     opcoes = []
-    proibidas = ("green screen", "chroma", "animation", "cartoon", "3d", "baseball", "american football", "rugby")
+    proibidas = ("green screen", "chroma", "animation", "cartoon", "3d", "baseball", "american football", "rugby",
+                 "table soccer", "foosball", "kicker", "table football", "subbuteo", "toy", "game", "miniature", "figure")
     for v in dados.get("hits", []):
         if v.get("duration", 0) < 4:
             continue
