@@ -3,7 +3,7 @@ name: Estúdio Lances Eternos
 on:
   push:
     branches: [main]
-    paths: ["roteiros/**", "musicas/**", ".github/workflows/**"]
+    paths: ["roteiros/**", "musicas/**", ".github/workflows/**", "estudio.py"]
   workflow_dispatch: {}
   schedule:
     - cron: "17 15 * * *"   # rede de segurança diária (15:17 UTC)

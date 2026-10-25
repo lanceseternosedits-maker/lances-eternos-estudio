@@ -1,16 +1,1 @@
-{
-  "videos": [
-    {
-      "id": "LE-1024-H1",
-      "data": "2026-10-24",
-      "jogador": "Neymar",
-      "arquivo": "le-1024-h1_neymar.mp4",
-      "url": "https://github.com/lanceseternosedits-maker/lances-eternos-estudio/releases/download/videos/le-1024-h1_neymar.mp4",
-      "legenda": "A estreia e a despedida no mesmo estádio. Obrigado por tudo, Neymar.\n\n👇 Qual craque você quer ver no próximo edit?\n\n#neymar #selecaobrasileira #futebol #edit #lanceseternos #futebolarte",
-      "duracao": 22.11,
-      "musica": "lances_eternos_01_despedida.mp3",
-      "renderizado_em": "2026-10-25T04:37:07+00:00",
-      "status": "pronto"
-    }
-  ]
-}
+{"videos": []}

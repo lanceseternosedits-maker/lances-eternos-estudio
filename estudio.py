@@ -41,7 +41,7 @@ CFG_ESTUDIO = {
     "segundos_min_cena": 2.6, "segundos_max_cena": 5.5,
     "velocidade_cena": 0.8,     # 0.8 = levemente em câmera lenta
     "granulado": 8, "assinatura": "LANCES ETERNOS",
-    "preset": "veryfast", "crf": 18,
+    "preset": "veryfast", "crf": 21,
 }
 
 
@@ -105,8 +105,11 @@ def buscar_pixabay(busca: str, chave: str, usados: set[int]) -> tuple[int, str] 
     with urllib.request.urlopen(req, timeout=30) as r:
         dados = json.load(r)
     opcoes = []
+    proibidas = ("green screen", "chroma", "animation", "cartoon", "3d", "baseball", "american football", "rugby")
     for v in dados.get("hits", []):
         if v.get("duration", 0) < 4:
+            continue
+        if any(p in (v.get("tags") or "").lower() for p in proibidas):
             continue
         tamanhos = [t for t in (v.get("videos") or {}).values() if t.get("url") and (t.get("height") or 0) >= 720]
         if not tamanhos:
@@ -145,7 +148,8 @@ def obter_cena(busca: str, usados: set[int]) -> Path:
     if os.environ.get("PEXELS_API_KEY", "").strip():
         fontes.append(("pexels", buscar_pexels, os.environ["PEXELS_API_KEY"].strip()))
     for nome, buscar, chave in fontes:
-        for termo in [busca, "soccer stadium", "football"]:
+        termo_base = busca if any(k in busca.lower() for k in ("soccer", "football", "futebol")) else f"soccer {busca}"
+        for termo in [termo_base, "soccer stadium", "soccer ball"]:
             try:
                 achado = buscar(termo, chave, usados)
             except Exception as e:  # noqa: BLE001
@@ -253,7 +257,8 @@ def montar_historia(cfg: dict, video: dict, destino: Path, usados: set[int]) -> 
         ed.rodar([cfg["ffmpeg"], "-y", "-v", "error", "-i", str(junto), "-ss", f"{inicio_musica:.3f}", "-i", str(musica),
                   "-filter_complex", f"[0:v]{vf}[v];[1:a]{af}[a]", "-map", "[v]", "-map", "[a]", "-t", f"{total:.3f}",
                   "-c:v", "libx264", "-preset", c["preset"], "-crf", str(c["crf"]), "-profile:v", "high",
-                  "-pix_fmt", "yuv420p", "-r", str(c["fps"]), "-c:a", "aac", "-b:a", "192k",
+                  "-pix_fmt", "yuv420p", "-r", str(c["fps"]), "-maxrate", "10M", "-bufsize", "20M",
+                  "-c:a", "aac", "-b:a", "192k",
                   "-movflags", "+faststart", str(destino)])
     return {"musica": musica.name, "duracao": round(total, 2)}
 
