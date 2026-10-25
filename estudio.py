@@ -110,8 +110,11 @@ def buscar_pixabay(busca: str, chave: str, usados: set[int]) -> tuple[int, str] 
     for v in dados.get("hits", []):
         if v.get("duration", 0) < 4:
             continue
-        if any(p in (v.get("tags") or "").lower() for p in proibidas):
+        tags = (v.get("tags") or "").lower()
+        if any(p in tags for p in proibidas):
             continue
+        if not any(k in tags for k in ("soccer", "football", "stadium", "goal", "pitch", "futbol", "fans", "goalkeeper")):
+            continue  # só cenas que são mesmo de futebol
         tamanhos = [t for t in (v.get("videos") or {}).values() if t.get("url") and (t.get("height") or 0) >= 720]
         if not tamanhos:
             continue
@@ -124,7 +127,7 @@ def buscar_pixabay(busca: str, chave: str, usados: set[int]) -> tuple[int, str] 
     escolha.sort(key=lambda o: not o[2])  # verticais primeiro
     if not escolha:
         return None
-    o = random.choice(escolha[:8])
+    o = random.choice(escolha[:5])
     return o[0], o[1]
 
 
