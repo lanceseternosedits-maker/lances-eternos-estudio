@@ -3,7 +3,7 @@ name: Estúdio Lances Eternos
 on:
   push:
     branches: [main]
-    paths: ["roteiros/**"]
+    paths: ["roteiros/**", "musicas/**", ".github/workflows/**"]
   workflow_dispatch: {}
   schedule:
     - cron: "17 15 * * *"   # rede de segurança diária (15:17 UTC)
@@ -35,6 +35,24 @@ jobs:
           mkdir -p fontes
           curl -sSfL -o fontes/Lora-Italic.ttf "https://github.com/google/fonts/raw/main/ofl/lora/Lora-Italic%5Bwght%5D.ttf" || echo "Lora indisponível, usando DejaVu"
 
+      - name: Validar chave do Pixabay
+        run: |
+          if [ -z "$PIXABAY_API_KEY" ] && [ -z "$PEXELS_API_KEY" ]; then
+            echo "::error::Nenhuma chave configurada. Crie o secret PIXABAY_API_KEY."; exit 1
+          fi
+          if [ -n "$PIXABAY_API_KEY" ]; then
+            code=$(curl -s -o resp.json -w "%{http_code}" "https://pixabay.com/api/videos/?key=${PIXABAY_API_KEY}&q=soccer&per_page=3")
+            if [ "$code" != "200" ]; then echo "::error::Chave do Pixabay recusada (HTTP $code). Confira o secret PIXABAY_API_KEY."; exit 1; fi
+            echo "Chave do Pixabay OK: $(python -c "import json;print(json.load(open('resp.json'))['totalHits'])") vídeos de futebol disponíveis"
+            rm -f resp.json
+          fi
+
+      - name: Conferir músicas
+        run: |
+          n=$(ls musicas/*.mp3 musicas/*.wav musicas/*.m4a 2>/dev/null | wc -l)
+          echo "Músicas encontradas: $n"
+          if [ "$n" -eq 0 ]; then echo "::warning::Pasta musicas vazia: envie de 3 a 5 músicas licenciadas para renderizar."; fi
+
       - name: Garantir o release público dos vídeos
         run: gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "Vídeos Lances Eternos" --notes "Vídeos renderizados pelo estúdio."
 
@@ -50,7 +68,7 @@ jobs:
         run: |
           git config user.name "estudio-lances-eternos"
           git config user.email "estudio@users.noreply.github.com"
-          git add fila.json pexels_usados.json historico_musicas.json 2>/dev/null || true
+          for f in fila.json pexels_usados.json historico_musicas.json; do [ -f "$f" ] && git add "$f"; done
           git diff --cached --quiet || git commit -m "Estúdio: fila atualizada"
           git pull --rebase --autostash
           git push
