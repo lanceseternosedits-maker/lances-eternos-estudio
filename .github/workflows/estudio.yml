@@ -1,0 +1,56 @@
+name: Estúdio Lances Eternos
+
+on:
+  push:
+    branches: [main]
+    paths: ["roteiros/**"]
+  workflow_dispatch: {}
+  schedule:
+    - cron: "17 15 * * *"   # rede de segurança diária (15:17 UTC)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: estudio
+  cancel-in-progress: false
+
+jobs:
+  renderizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      GH_TOKEN: ${{ github.token }}
+      TAG: videos
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar FFmpeg, fontes e Python
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          python -m pip install --quiet numpy
+          mkdir -p fontes
+          curl -sSfL -o fontes/Lora-Italic.ttf "https://github.com/google/fonts/raw/main/ofl/lora/Lora-Italic%5Bwght%5D.ttf" || echo "Lora indisponível, usando DejaVu"
+
+      - name: Garantir o release público dos vídeos
+        run: gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "Vídeos Lances Eternos" --notes "Vídeos renderizados pelo estúdio."
+
+      - name: Renderizar roteiros novos
+        run: python estudio.py --url-base "https://github.com/${{ github.repository }}/releases/download/${TAG}/"
+
+      - name: Publicar vídeos no release
+        run: |
+          shopt -s nullglob
+          for f in saida/*.mp4; do gh release upload "$TAG" "$f" --clobber; done
+
+      - name: Salvar fila e histórico
+        run: |
+          git config user.name "estudio-lances-eternos"
+          git config user.email "estudio@users.noreply.github.com"
+          git add fila.json pexels_usados.json historico_musicas.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Estúdio: fila atualizada"
+          git pull --rebase --autostash
+          git push
