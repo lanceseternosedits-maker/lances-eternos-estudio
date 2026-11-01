@@ -14,6 +14,11 @@ Manual que o agente segue a cada execução. Marca: **IA em 60s** (@iaem60s), a 
 5. **Imagens:** só de fontes oficiais (README do repositório, página oficial do produto ou blog da empresa), com crédito no slide. Sem imagem confiável, use o item de citação (sem `img`) ou o de código (`code`).
 6. **Não repetir:** consultar `estado.json → temas_usados` e evitar assuntos dos últimos 14 dias.
 
+## Referências e apoio visual
+- Antes de produzir, leia `referencias.md` (atualizado todo dia pelo agente de referências) e use os ganchos, formatos e estilos visuais que estão em alta, sem copiar layout, texto ou imagem de ninguém.
+- O público responde a **apoio visual**. Todo item da lista deve ter imagem quando houver uma fonte confiável: print ou imagem oficial do produto, README, página oficial, blog da empresa (sempre com crédito). O item só de citação fica como último recurso.
+- **Imagens geradas por IA:** se houver um conector de geração de imagem disponível na sessão (Adobe Firefly ou Canva), gere a capa e as ilustrações dos itens (objetos, cenas e personagens originais, nunca pessoas reais nem logos de terceiros) e marque `instagramData.isAiGenerated: true`. Sem conector, siga com imagens oficiais.
+
 ## Pesquisa (todo dia)
 - **Em alta no X:** WebSearch com consultas como "AI trending on X today", "viral AI tweet" e o nome das IAs do momento; o X entra como radar. Não usar a API do X.
 - **Notícias em inglês, últimas 24–48 h:** blogs oficiais (OpenAI, Anthropic, Google/DeepMind, Meta AI, Microsoft, Apple, NVIDIA), The Verge, TechCrunch, Ars Technica, VentureBeat, Hacker News.
