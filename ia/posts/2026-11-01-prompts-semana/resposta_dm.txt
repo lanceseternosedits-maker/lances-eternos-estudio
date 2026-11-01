@@ -1,0 +1,5 @@
+Os 4 prompts pra organizar sua semana:
+1. "Vou colar tudo o que tenho pra fazer esta semana. Agrupe por área (trabalho, estudo, casa) e remova o que estiver repetido: [cole aqui]"
+2. "Classifique cada tarefa em: urgente e importante, importante, urgente, ou pode cortar. Explique em uma linha cada decisão."
+3. "Tenho livre: [seus horários]. Monte uma agenda de segunda a sexta com as tarefas prioritárias, blocos de no máximo 90 min e 20% de folga."
+4. "Isto foi o que eu fiz e o que ficou pendente: [cole]. O que funcionou, o que travou e quais 3 tarefas devem abrir a próxima semana?"

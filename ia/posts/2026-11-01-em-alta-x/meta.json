@@ -1,0 +1,32 @@
+{
+  "pilar": "em_alta",
+  "formato": "lista",
+  "temas": [
+    "limites de uso",
+    "checagem de fatos",
+    "direitos autorais",
+    "agentes de IA"
+  ],
+  "empresas": [
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "Microsoft",
+    "DeepSeek"
+  ],
+  "fontes": [
+    "OpenAI Help Center",
+    "Artificially Intimidating",
+    "explainx.ai",
+    "Engadget",
+    "github.com/deepseek-ai/dsh-superagent-prototype"
+  ],
+  "paleta": 1,
+  "horarios": {
+    "instagram": "20:45",
+    "tiktok": "20:45",
+    "youtube": "20:55"
+  },
+  "cta": "FONTES",
+  "data": "2026-11-01"
+}

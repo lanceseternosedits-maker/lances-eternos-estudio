@@ -78,7 +78,9 @@ function cover() {
 }
 
 function item(it, i) {
-  const media = !it.code && !it.img
+  const media = it.prompt
+    ? `<div class="media" style="display:flex;flex-direction:column;justify-content:center;padding:44px 48px"><div style="font-family:Mono;font-size:22px;color:${C.mute};letter-spacing:2px;margin-bottom:22px">${it.prompt_label || "PROMPT · COPIE E COLE"}</div><div style="font-family:Mono;font-size:31px;line-height:1.45;color:${C.ink}">${it.prompt}</div><span class="credit">${it.repo}</span></div>`
+    : !it.code && !it.img
     ? `<div class="media" style="display:flex;align-items:center;padding:50px"><div style="font-family:Head;font-size:58px;line-height:1.1;letter-spacing:-2px" class="g">${it.quote || it.title}</div><span class="credit">fonte: ${it.repo}</span></div>`
     : it.code
     ? `<div class="media"><div class="code">${it.code.map((c) => `<b>/</b>${c}`).join("<br>")}</div><span class="credit">${it.repo}</span></div>`

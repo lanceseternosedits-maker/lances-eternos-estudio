@@ -135,16 +135,98 @@
    "label": "Hackernoon"
   },
   {
-   "id": "2026-11-01-github-agentes",
+   "id": "2026-11-01-em-alta-x",
    "tipo": "post",
-   "label": "github-agentes",
+   "label": "em-alta-x",
    "data": "2026-11-01",
    "score": null
+  },
+  {
+   "id": "pilar:em_alta",
+   "tipo": "pilar",
+   "label": "em_alta"
+  },
+  {
+   "id": "formato:lista",
+   "tipo": "formato",
+   "label": "lista"
   },
   {
    "id": "paleta:paleta 1",
    "tipo": "paleta",
    "label": "paleta 1"
+  },
+  {
+   "id": "cta:FONTES",
+   "tipo": "cta",
+   "label": "FONTES"
+  },
+  {
+   "id": "tema:limites de uso",
+   "tipo": "tema",
+   "label": "limites de uso"
+  },
+  {
+   "id": "tema:checagem de fatos",
+   "tipo": "tema",
+   "label": "checagem de fatos"
+  },
+  {
+   "id": "tema:direitos autorais",
+   "tipo": "tema",
+   "label": "direitos autorais"
+  },
+  {
+   "id": "empresa:Google",
+   "tipo": "empresa",
+   "label": "Google"
+  },
+  {
+   "id": "empresa:Microsoft",
+   "tipo": "empresa",
+   "label": "Microsoft"
+  },
+  {
+   "id": "empresa:DeepSeek",
+   "tipo": "empresa",
+   "label": "DeepSeek"
+  },
+  {
+   "id": "fonte:OpenAI Help Center",
+   "tipo": "fonte",
+   "label": "OpenAI Help Center"
+  },
+  {
+   "id": "fonte:Artificially Intimidating",
+   "tipo": "fonte",
+   "label": "Artificially Intimidating"
+  },
+  {
+   "id": "fonte:explainx.ai",
+   "tipo": "fonte",
+   "label": "explainx.ai"
+  },
+  {
+   "id": "fonte:Engadget",
+   "tipo": "fonte",
+   "label": "Engadget"
+  },
+  {
+   "id": "fonte:github.com/deepseek-ai/dsh-superagent-prototype",
+   "tipo": "fonte",
+   "label": "github.com/deepseek-ai/dsh-superagent-prototype"
+  },
+  {
+   "id": "horario:20h",
+   "tipo": "horario",
+   "label": "20h"
+  },
+  {
+   "id": "2026-11-01-github-agentes",
+   "tipo": "post",
+   "label": "github-agentes",
+   "data": "2026-11-01",
+   "score": null
   },
   {
    "id": "tema:programação",
@@ -160,11 +242,6 @@
    "id": "empresa:GitHub",
    "tipo": "empresa",
    "label": "GitHub"
-  },
-  {
-   "id": "empresa:Microsoft",
-   "tipo": "empresa",
-   "label": "Microsoft"
   },
   {
    "id": "fonte:GitHub Octoverse 2026",
@@ -256,14 +333,56 @@
    "label": "Opera"
   },
   {
-   "id": "empresa:Google",
-   "tipo": "empresa",
-   "label": "Google"
-  },
-  {
    "id": "fonte:Opera",
    "tipo": "fonte",
    "label": "Opera"
+  },
+  {
+   "id": "2026-11-01-prompts-semana",
+   "tipo": "post",
+   "label": "prompts-semana",
+   "data": "2026-11-01",
+   "score": null
+  },
+  {
+   "id": "pilar:tutorial",
+   "tipo": "pilar",
+   "label": "tutorial"
+  },
+  {
+   "id": "formato:tutorial",
+   "tipo": "formato",
+   "label": "tutorial"
+  },
+  {
+   "id": "cta:AGENDA",
+   "tipo": "cta",
+   "label": "AGENDA"
+  },
+  {
+   "id": "tema:prompts",
+   "tipo": "tema",
+   "label": "prompts"
+  },
+  {
+   "id": "tema:produtividade",
+   "tipo": "tema",
+   "label": "produtividade"
+  },
+  {
+   "id": "tema:organização",
+   "tipo": "tema",
+   "label": "organização"
+  },
+  {
+   "id": "fonte:IA em 60s",
+   "tipo": "fonte",
+   "label": "IA em 60s"
+  },
+  {
+   "id": "horario:22h",
+   "tipo": "horario",
+   "label": "22h"
   },
   {
    "id": "2026-11-01-semana-em-ia",
@@ -271,11 +390,6 @@
    "label": "semana-em-ia",
    "data": "2026-11-01",
    "score": null
-  },
-  {
-   "id": "formato:lista",
-   "tipo": "formato",
-   "label": "lista"
   },
   {
    "id": "paleta:paleta 2",
@@ -353,6 +467,33 @@
    "id": "horario:12h",
    "tipo": "horario",
    "label": "12h"
+  },
+  {
+   "id": "2026-11-01-tutorial-projetos-claude",
+   "tipo": "post",
+   "label": "tutorial-projetos-claude",
+   "data": "2026-11-01",
+   "score": null
+  },
+  {
+   "id": "cta:PROJETO",
+   "tipo": "cta",
+   "label": "PROJETO"
+  },
+  {
+   "id": "tema:Claude Projects",
+   "tipo": "tema",
+   "label": "Claude Projects"
+  },
+  {
+   "id": "fonte:support.claude.com",
+   "tipo": "fonte",
+   "label": "support.claude.com"
+  },
+  {
+   "id": "horario:21h",
+   "tipo": "horario",
+   "label": "21h"
   }
  ],
  "links": [
@@ -466,6 +607,10 @@
   },
   {
    "source": "tema:agentes de IA",
+   "target": "2026-11-01-em-alta-x"
+  },
+  {
+   "source": "tema:agentes de IA",
    "target": "2026-11-01-github-agentes"
   },
   {
@@ -482,11 +627,23 @@
   },
   {
    "source": "empresa:Anthropic",
+   "target": "2026-11-01-em-alta-x"
+  },
+  {
+   "source": "empresa:Anthropic",
    "target": "2026-11-01-semana-em-ia"
   },
   {
    "source": "empresa:Anthropic",
    "target": "2026-11-01-skills-claude-code"
+  },
+  {
+   "source": "empresa:Anthropic",
+   "target": "2026-11-01-tutorial-projetos-claude"
+  },
+  {
+   "source": "empresa:OpenAI",
+   "target": "2026-11-01-em-alta-x"
   },
   {
    "source": "empresa:OpenAI",
@@ -514,6 +671,10 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-01-em-alta-x"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-01-github-agentes"
   },
   {
@@ -523,6 +684,10 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-01-opera-webai"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-01-prompts-semana"
   },
   {
    "source": "rede:instagram",
@@ -533,8 +698,16 @@
    "target": "2026-11-01-skills-claude-code"
   },
   {
+   "source": "rede:instagram",
+   "target": "2026-11-01-tutorial-projetos-claude"
+  },
+  {
    "source": "rede:tiktok",
    "target": "2026-11-01-anthropic-ipo-p3"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-01-em-alta-x"
   },
   {
    "source": "rede:tiktok",
@@ -547,6 +720,10 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-01-opera-webai"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-01-prompts-semana"
   },
   {
    "source": "rede:tiktok",
@@ -557,8 +734,16 @@
    "target": "2026-11-01-skills-claude-code"
   },
   {
+   "source": "rede:tiktok",
+   "target": "2026-11-01-tutorial-projetos-claude"
+  },
+  {
    "source": "rede:youtube",
    "target": "2026-11-01-anthropic-ipo-p3"
+  },
+  {
+   "source": "rede:youtube",
+   "target": "2026-11-01-em-alta-x"
   },
   {
    "source": "rede:youtube",
@@ -574,7 +759,15 @@
   },
   {
    "source": "rede:youtube",
+   "target": "2026-11-01-prompts-semana"
+  },
+  {
+   "source": "rede:youtube",
    "target": "2026-11-01-semana-em-ia"
+  },
+  {
+   "source": "rede:youtube",
+   "target": "2026-11-01-tutorial-projetos-claude"
   },
   {
    "source": "horario:19h",
@@ -609,6 +802,10 @@
    "target": "fonte:Hackernoon"
   },
   {
+   "source": "paleta:paleta 3",
+   "target": "2026-11-01-prompts-semana"
+  },
+  {
    "source": "tema:IPO",
    "target": "2026-11-01-semana-em-ia"
   },
@@ -617,8 +814,100 @@
    "target": "2026-11-01-semana-em-ia"
   },
   {
-   "source": "2026-11-01-github-agentes",
+   "source": "2026-11-01-em-alta-x",
+   "target": "pilar:em_alta"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "formato:lista"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
    "target": "paleta:paleta 1"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "cta:FONTES"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "tema:limites de uso"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "tema:checagem de fatos"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "tema:direitos autorais"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "empresa:Google"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "empresa:Microsoft"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "empresa:DeepSeek"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "fonte:OpenAI Help Center"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "fonte:Artificially Intimidating"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "fonte:explainx.ai"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "fonte:Engadget"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "fonte:github.com/deepseek-ai/dsh-superagent-prototype"
+  },
+  {
+   "source": "2026-11-01-em-alta-x",
+   "target": "horario:20h"
+  },
+  {
+   "source": "formato:lista",
+   "target": "2026-11-01-semana-em-ia"
+  },
+  {
+   "source": "formato:lista",
+   "target": "2026-11-01-skills-claude-code"
+  },
+  {
+   "source": "paleta:paleta 1",
+   "target": "2026-11-01-github-agentes"
+  },
+  {
+   "source": "paleta:paleta 1",
+   "target": "2026-11-01-openai-offline"
+  },
+  {
+   "source": "paleta:paleta 1",
+   "target": "2026-11-01-opera-webai"
+  },
+  {
+   "source": "paleta:paleta 1",
+   "target": "2026-11-01-skills-claude-code"
+  },
+  {
+   "source": "empresa:Google",
+   "target": "2026-11-01-opera-webai"
+  },
+  {
+   "source": "empresa:Microsoft",
+   "target": "2026-11-01-github-agentes"
   },
   {
    "source": "2026-11-01-github-agentes",
@@ -631,10 +920,6 @@
   {
    "source": "2026-11-01-github-agentes",
    "target": "empresa:GitHub"
-  },
-  {
-   "source": "2026-11-01-github-agentes",
-   "target": "empresa:Microsoft"
   },
   {
    "source": "2026-11-01-github-agentes",
@@ -655,18 +940,6 @@
   {
    "source": "2026-11-01-github-agentes",
    "target": "horario:17h"
-  },
-  {
-   "source": "paleta:paleta 1",
-   "target": "2026-11-01-openai-offline"
-  },
-  {
-   "source": "paleta:paleta 1",
-   "target": "2026-11-01-opera-webai"
-  },
-  {
-   "source": "paleta:paleta 1",
-   "target": "2026-11-01-skills-claude-code"
   },
   {
    "source": "tema:GitHub",
@@ -746,10 +1019,6 @@
   },
   {
    "source": "2026-11-01-opera-webai",
-   "target": "empresa:Google"
-  },
-  {
-   "source": "2026-11-01-opera-webai",
    "target": "fonte:Opera"
   },
   {
@@ -765,8 +1034,48 @@
    "target": "2026-11-01-semana-em-ia"
   },
   {
-   "source": "2026-11-01-semana-em-ia",
-   "target": "formato:lista"
+   "source": "2026-11-01-prompts-semana",
+   "target": "pilar:tutorial"
+  },
+  {
+   "source": "2026-11-01-prompts-semana",
+   "target": "formato:tutorial"
+  },
+  {
+   "source": "2026-11-01-prompts-semana",
+   "target": "cta:AGENDA"
+  },
+  {
+   "source": "2026-11-01-prompts-semana",
+   "target": "tema:prompts"
+  },
+  {
+   "source": "2026-11-01-prompts-semana",
+   "target": "tema:produtividade"
+  },
+  {
+   "source": "2026-11-01-prompts-semana",
+   "target": "tema:organização"
+  },
+  {
+   "source": "2026-11-01-prompts-semana",
+   "target": "fonte:IA em 60s"
+  },
+  {
+   "source": "2026-11-01-prompts-semana",
+   "target": "horario:22h"
+  },
+  {
+   "source": "pilar:tutorial",
+   "target": "2026-11-01-tutorial-projetos-claude"
+  },
+  {
+   "source": "formato:tutorial",
+   "target": "2026-11-01-tutorial-projetos-claude"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-01-tutorial-projetos-claude"
   },
   {
    "source": "2026-11-01-semana-em-ia",
@@ -781,8 +1090,8 @@
    "target": "tema:resumo da semana"
   },
   {
-   "source": "formato:lista",
-   "target": "2026-11-01-skills-claude-code"
+   "source": "paleta:paleta 2",
+   "target": "2026-11-01-tutorial-projetos-claude"
   },
   {
    "source": "2026-11-01-skills-claude-code",
@@ -827,6 +1136,22 @@
   {
    "source": "2026-11-01-skills-claude-code",
    "target": "horario:12h"
+  },
+  {
+   "source": "2026-11-01-tutorial-projetos-claude",
+   "target": "cta:PROJETO"
+  },
+  {
+   "source": "2026-11-01-tutorial-projetos-claude",
+   "target": "tema:Claude Projects"
+  },
+  {
+   "source": "2026-11-01-tutorial-projetos-claude",
+   "target": "fonte:support.claude.com"
+  },
+  {
+   "source": "2026-11-01-tutorial-projetos-claude",
+   "target": "horario:21h"
   }
  ]
 }

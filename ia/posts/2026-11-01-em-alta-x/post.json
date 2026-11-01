@@ -1,0 +1,84 @@
+{
+ "slug": "em-alta-x",
+ "formato": "lista",
+ "cover": {
+  "title_html": "O que bombou<br><span class=\"g\">no X de IA hoje.</span>",
+  "sub": "4 assuntos, checados nas fontes",
+  "imgs": []
+ },
+ "items": [
+  {
+   "n": "01",
+   "repo": "OpenAI Help Center",
+   "kick": "OpenAI · planos",
+   "title": "ChatGPT e Codex vão dividir o mesmo limite.",
+   "body": "Nos planos Plus, Pro e Business, o uso dos dois vai sair de um saldo único de tokens. A OpenAI fala em dezembro, sem data exata.",
+   "quote": "Um saldo só para os dois.",
+   "chips": [
+    [
+     "Planos",
+     "Plus, Pro, Business"
+    ],
+    [
+     "Quando",
+     "dezembro"
+    ]
+   ]
+  },
+  {
+   "n": "02",
+   "repo": "checagem: Mai Yang, Artificially Intimidating",
+   "kick": "Checagem · viral no X",
+   "title": "“O prompt acabou”? Não foi bem assim.",
+   "body": "Um post viral atribuiu à Anthropic que 99% dos engenheiros usam enxames de 300+ agentes. A palestra citada não diz isso.",
+   "quote": "Número viral, fonte inexistente.",
+   "chips": [
+    [
+     "Status",
+     "Não confirmado"
+    ]
+   ]
+  },
+  {
+   "n": "03",
+   "repo": "Engadget, OpenAI",
+   "kick": "Direitos · sites",
+   "title": "Uma linha para o site recusar treino de IA.",
+   "body": "Google, Anthropic, OpenAI e Microsoft vão respeitar uma regra única no robots.txt para quem não quer o conteúdo usado em treino.",
+   "chips": [
+    [
+     "Empresas",
+     "4"
+    ],
+    [
+     "Status",
+     "proposta IETF"
+    ]
+   ],
+   "prompt": "User-agent: __usage_ai-training<br>Disallow: /",
+   "prompt_label": "NO ROBOTS.TXT DO SEU SITE"
+  },
+  {
+   "n": "04",
+   "repo": "github.com/deepseek-ai/dsh-superagent-prototype",
+   "kick": "DeepSeek · agentes",
+   "title": "O agente que nunca fica offline.",
+   "body": "A DeepSeek mostrou um “superagente” que recebe pedidos de chats, GitHub e e-mail e distribui o trabalho para outros agentes.",
+   "quote": "Um roteador, vários agentes, um vigia.",
+   "chips": [
+    [
+     "Licença",
+     "MIT"
+    ],
+    [
+     "Status",
+     "protótipo"
+    ]
+   ]
+  }
+ ],
+ "cta": {
+  "key": "FONTES",
+  "promise": "Os links de cada assunto, pra você conferir com os próprios olhos."
+ }
+}

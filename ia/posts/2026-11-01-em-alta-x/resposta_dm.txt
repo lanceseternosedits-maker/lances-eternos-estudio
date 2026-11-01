@@ -1,0 +1,5 @@
+Aqui estão as fontes de cada assunto:
+1. ChatGPT + Codex com limite único: help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits
+2. Checagem do post viral "o prompt acabou": artificiallyintimidating.com/p/ai-brief-november-1-2026
+3. robots.txt contra treino de IA: engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/
+4. Superagente da DeepSeek: github.com/deepseek-ai/dsh-superagent-prototype
