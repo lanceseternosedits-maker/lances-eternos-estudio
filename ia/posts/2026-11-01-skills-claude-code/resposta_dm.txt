@@ -1,0 +1,10 @@
+Opa! Aqui estão os 5 links:
+
+1. Anatomy (ilustrações interativas): github.com/wheresryan22/anatomy
+2. Universal Modder (mods de jogos): github.com/rehan-remade/universal-modder
+3. Replica (clonar apps): github.com/Jakeschincariol/replica-skill
+4. ESP32 iPhone Agent (IA no iPhone): github.com/onehumanbeing/esp32-iphone-agent
+5. Unslop (tirar a cara de IA do layout): github.com/heydamir/unslop
+
+Como instalar: no Claude Code, cole o link do repositório e peça "install skill", ou siga o README de cada um.
+Eu começaria pelo Unslop se você cria sites, ou pelo Anatomy se você explica coisas.

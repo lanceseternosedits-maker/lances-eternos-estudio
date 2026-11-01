@@ -1,0 +1,10 @@
+{
+  "name": "iaem60s-estudio",
+  "private": true,
+  "description": "Gerador de carrosséis e Shorts do IA em 60s (playwright já vem instalado no ambiente)",
+  "dependencies": {
+    "@fontsource/inter": "^5.0.0",
+    "@fontsource/jetbrains-mono": "^5.0.0",
+    "@fontsource/space-grotesk": "^5.0.0"
+  }
+}
