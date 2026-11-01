@@ -25,12 +25,19 @@ Manual que o agente segue a cada execução. Marca: **IA em 60s** (@iaem60s), a 
 - **Ferramentas e repositórios:** GitHub (busca por repositórios novos com muitas estrelas: `gh api search/repositories` funciona; para ler READMEs, `git clone --depth 1` numa pasta temporária, sem executar nada), Hugging Face trending, Product Hunt (só leitura).
 - Prioridade: o que o brasileiro comum entende e salva (ferramentas grátis, "como usar", curiosidades) acima de bastidores de mercado.
 
-## Produção: 3 conteúdos por dia
+## Produção
+**6 conteúdos por dia**, cada um nas 3 redes (18 publicações):
+
 | Horário (Brasília) | Conteúdo | Formato |
 |---|---|---|
-| 07:30 | **Novidade** do dia (a maior de IA nas últimas 24 h) | lista de 4–5 fatos |
-| 12:30 | **Ensinando a usar IA**: tutorial prático (Claude em primeiro lugar, mas também ChatGPT, Gemini e outras) | passo a passo de 4–6 passos |
-| 18:30 | **Recomendação**: dias pares, ferramentas/repositórios grátis; dias ímpares, assunto em alta no X ou curiosidade | lista de 5 itens |
+| 07:00 | **Novidade** do dia (a maior de IA nas últimas 24 h) | lista de 4–5 fatos |
+| 09:30 | **Ensinando a usar IA**: tutorial prático (Claude em primeiro lugar, mas também ChatGPT, Gemini e outras) | passo a passo de 4–6 passos |
+| 12:00 | **Recomendação**: ferramentas/repositórios grátis | lista de 5 itens |
+| 14:30 | **Novidade 2** ou curiosidade (outro assunto, outra empresa) | lista de 4–5 fatos |
+| 17:00 | **Ensinando a usar IA 2**: prompts prontos ou um recurso novo | passo a passo de 4–6 passos |
+| 19:30 | **Em alta no X**: o assunto de IA mais comentado do dia | lista de 4–5 itens |
+
+Se faltar assunto verificável para um horário, troque por outro pilar em vez de baixar o padrão (nada inventado, 2 ou mais fontes).
 
 ### Pilar "Ensinando a usar IA"
 - Um resultado concreto por post ("Como fazer o Claude resumir um PDF de 50 páginas", "3 prompts pra organizar sua semana", "Como criar um Projeto no Claude"). Nada de teoria solta.
