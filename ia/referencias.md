@@ -19,3 +19,10 @@
 ## Observações
 - Quase toda capa que performa tem imagem forte; só texto rende menos.
 - Bastidores do próprio perfil (o "escritório de agentes" do IA em 60s) é um tema natural para um post.
+
+## Reels animados de referência (enviados pelo Vitor em 01/11, perfil _aighostlab)
+- **Formato:** 30–40 s, narração rápida e animada (~3 palavras/s), 1 cena nova a cada frase (corte a cada 1–3 s). Cada cena ilustra literalmente o que está sendo dito: contador de views girando, pilha de tutoriais, cadeira de diretor, máquina "texto + voz" → anima / legenda / entrega, rolo de filme sendo cortado, diorama 3D de uma sala com a TV.
+- **Mascote fixo** em todas as cenas (cubo laranja de olhos simples, às vezes com boina), em cenários 3D tipo diorama/isométrico, com cubos caindo com física e câmera sempre em movimento.
+- **Texto na tela:** etiqueta curta em caixa alta no topo resumindo a cena ("MEIO MILHÃO DE VIEWS", "CUSTA CARO E LEVA DIAS"); legenda de 1–3 palavras por vez, grande, no centro-baixo, numa caixa (balão creme), com a palavra-chave colorida.
+- **Roteiro:** gancho com resultado ou notícia ("isso tá explodindo na internet") → origem da história → o que faz, com números concretos (25 apps, 43 mil estrelas, 300 modelos) → como usar (colar um prompt no Claude Code) → tranquilizar ("dá pra restaurar") → "Comenta PALAVRA e me segue que eu te mando o link".
+- **Temas que renderam:** skills do Claude (ex.: skill de motion), projetos virais do GitHub feitos com Claude Code.
