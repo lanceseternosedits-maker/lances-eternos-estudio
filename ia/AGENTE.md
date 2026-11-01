@@ -14,6 +14,11 @@ Manual que o agente segue a cada execução. Marca: **IA em 60s** (@iaem60s), a 
 5. **Imagens:** só de fontes oficiais (README do repositório, página oficial do produto ou blog da empresa), com crédito no slide. Sem imagem confiável, use o item de citação (sem `img`) ou o de código (`code`).
 6. **Não repetir:** consultar `estado.json → temas_usados` e evitar assuntos dos últimos 14 dias.
 
+## Grafo de conteúdo (antes e depois de produzir)
+- **Antes de escolher os assuntos:** rode `python3 grafo.py` e leia `grafo/GRAFO.md`. Evite os temas e empresas marcados como saturados, priorize os pilares sem post nos últimos 7 dias e, quando houver métricas, favoreça os pilares, temas, horários e paletas que mais rendem.
+- **Para cada post:** grave `posts/<pasta>/meta.json` com `data`, `pilar` (novidade, tutorial, recomendacao ou em_alta), `formato`, `temas`, `empresas`, `fontes`, `paleta`, `horarios` (rede → HH:MM de Brasília) e `cta`. Modelo: `posts/2026-11-01-semana-em-ia/meta.json`.
+- **No fim:** rode `python3 grafo.py` de novo e inclua a pasta `grafo/` no commit.
+
 ## Referências e apoio visual
 - Antes de produzir, leia `referencias.md` (atualizado todo dia pelo agente de referências) e use os ganchos, formatos e estilos visuais que estão em alta, sem copiar layout, texto ou imagem de ninguém.
 - O público responde a **apoio visual**. Todo item da lista deve ter imagem quando houver uma fonte confiável: print ou imagem oficial do produto, README, página oficial, blog da empresa (sempre com crédito). O item só de citação fica como último recurso.

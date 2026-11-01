@@ -1,0 +1,33 @@
+{
+  "pilar": "novidade",
+  "formato": "lista",
+  "temas": [
+    "resumo da semana",
+    "agentes de IA",
+    "segurança de IA",
+    "IA local",
+    "IPO"
+  ],
+  "empresas": [
+    "GitHub",
+    "OpenAI",
+    "1Password",
+    "Opera",
+    "Anthropic"
+  ],
+  "fontes": [
+    "GitHub Octoverse 2026",
+    "OpenAI",
+    "1Password",
+    "Opera",
+    "Anthropic S-1"
+  ],
+  "paleta": 2,
+  "horarios": {
+    "instagram": "19:30",
+    "tiktok": "19:30",
+    "youtube": "19:35"
+  },
+  "cta": "SEMANA",
+  "data": "2026-11-01"
+}

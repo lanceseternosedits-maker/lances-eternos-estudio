@@ -1,0 +1,26 @@
+{
+  "pilar": "novidade",
+  "formato": "noticia",
+  "temas": [
+    "agentes de IA",
+    "programação",
+    "GitHub"
+  ],
+  "empresas": [
+    "GitHub",
+    "Microsoft"
+  ],
+  "fontes": [
+    "GitHub Octoverse 2026",
+    "Simon Willison",
+    "The Stack"
+  ],
+  "paleta": 1,
+  "horarios": {
+    "instagram": "18:30",
+    "tiktok": "17:50",
+    "youtube": "17:55"
+  },
+  "cta": null,
+  "data": "2026-11-01"
+}

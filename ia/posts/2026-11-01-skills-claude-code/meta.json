@@ -1,0 +1,28 @@
+{
+  "pilar": "recomendacao",
+  "formato": "lista",
+  "temas": [
+    "Claude Code",
+    "skills",
+    "repositórios grátis",
+    "GitHub"
+  ],
+  "empresas": [
+    "Anthropic",
+    "GitHub"
+  ],
+  "fontes": [
+    "github.com/wheresryan22/anatomy",
+    "github.com/rehan-remade/universal-modder",
+    "github.com/Jakeschincariol/replica-skill",
+    "github.com/onehumanbeing/esp32-iphone-agent",
+    "github.com/heydamir/unslop"
+  ],
+  "paleta": 1,
+  "horarios": {
+    "instagram": "17:45",
+    "tiktok": "12:45"
+  },
+  "cta": "SKILL",
+  "data": "2026-11-01"
+}

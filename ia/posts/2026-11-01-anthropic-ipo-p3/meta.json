@@ -1,0 +1,25 @@
+{
+  "pilar": "novidade",
+  "formato": "noticia",
+  "temas": [
+    "mercado",
+    "IPO"
+  ],
+  "empresas": [
+    "Anthropic"
+  ],
+  "fontes": [
+    "Anthropic S-1",
+    "The Next Web",
+    "Bloomberg",
+    "Hackernoon"
+  ],
+  "paleta": 3,
+  "horarios": {
+    "instagram": "19:15",
+    "tiktok": "19:15",
+    "youtube": "19:20"
+  },
+  "cta": null,
+  "data": "2026-11-01"
+}
