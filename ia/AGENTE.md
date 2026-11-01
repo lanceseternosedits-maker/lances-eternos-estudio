@@ -28,9 +28,16 @@ Manual que o agente segue a cada execução. Marca: **IA em 60s** (@iaem60s), a 
 ## Produção: 3 conteúdos por dia
 | Horário (Brasília) | Conteúdo | Formato |
 |---|---|---|
-| 07:30 | Notícia do dia (a maior de IA nas últimas 24 h) | lista de 4–5 fatos |
-| 12:30 | Ferramentas / repositórios grátis | lista de 5 itens |
-| 18:30 | Curiosidade ou assunto em alta no X | lista de 4–5 itens |
+| 07:30 | **Novidade** do dia (a maior de IA nas últimas 24 h) | lista de 4–5 fatos |
+| 12:30 | **Ensinando a usar IA**: tutorial prático (Claude em primeiro lugar, mas também ChatGPT, Gemini e outras) | passo a passo de 4–6 passos |
+| 18:30 | **Recomendação**: dias pares, ferramentas/repositórios grátis; dias ímpares, assunto em alta no X ou curiosidade | lista de 5 itens |
+
+### Pilar "Ensinando a usar IA"
+- Um resultado concreto por post ("Como fazer o Claude resumir um PDF de 50 páginas", "3 prompts pra organizar sua semana", "Como criar um Projeto no Claude"). Nada de teoria solta.
+- Cada passo diz onde clicar ou o que digitar, com o prompt pronto para copiar dentro do slide (item `code`) ou o print oficial da ferramenta (central de ajuda ou blog da empresa, com crédito).
+- Confirme cada recurso na documentação oficial do dia, porque os produtos mudam. Se um recurso for pago, diga em qual plano ele está.
+- Último slide: "Comenta PALAVRA que eu te mando o prompt completo", com o prompt completo em `resposta_dm.txt`.
+- Alterne as ferramentas ao longo da semana, mas mantenha o Claude em pelo menos 3 dos 7 dias.
 
 Para cada conteúdo:
 1. Criar `posts/AAAA-MM-DD-slug/post.json` (modelo: `posts/2026-11-01-skills-claude-code/post.json`). Campos: `cover.title_html` (use `<span class="g">` na parte de destaque), `cover.sub`, `cover.imgs` (0–3), `items[]` (`n`, `repo` = fonte, `kick`, `title`, `body` de até 2 linhas, `img` ou `code` ou nenhum, `chips` com números reais), `cta.key` (palavra curta em maiúsculas) e `cta.promise`.
