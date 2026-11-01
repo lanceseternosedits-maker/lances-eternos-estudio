@@ -1,0 +1,9 @@
+Mais de 40% dos pull requests no GitHub já começam com um agente de IA. Em março eram 17%.
+
+Os números do Octoverse 2026, explicados em 60 segundos. 👉
+
+Você já usa agente pra programar? Conta aqui nos comentários.
+
+Fontes: GitHub Octoverse 2026, apresentação no GitHub Universe (28/out/2026), Simon Willison, The Stack.
+
+#inteligenciaartificial #programacao #github #desenvolvedor #ia

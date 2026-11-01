@@ -38,6 +38,12 @@ Para cada conteúdo:
 - **TikTok** (+10 min): carrossel de fotos com `tiktokData.title` (até 90 caracteres, obrigatório) e `autoAddMusic: true`. Legenda curta, terminando com uma pergunta para gerar comentários, mais 3–5 hashtags.
 - **YouTube Shorts** (+20 min): `short.mp4` com `youtubeData.type = "short"`, `title` de até 90 caracteres terminando em `#shorts`, `category: "SCIENCE_TECHNOLOGY"`, `madeForKids: false`, tags, e descrição com fontes e "Se inscreva".
 
+## Música nativa das redes
+- **TikTok:** sempre `autoAddMusic: true` nos carrosséis de fotos; o TikTok escolhe uma música da biblioteca licenciada dele. A API não permite escolher uma música específica.
+- **Instagram:** a música só pode ser escolhida via API em **Reels** (`instagramData.audioConfiguration.audioId` com o nome da música em alta). Isso exige que o Instagram esteja conectado ao Metricool **pelo Facebook** (conta comercial com Página). Se o Metricool recusar por isso, publique sem música e avise o Vitor. Carrossel de fotos não aceita música via API.
+- **YouTube Shorts:** a API não tem biblioteca de músicas; o `short.mp4` já sai com a trilha original do `short.py`.
+- Para saber o que está em alta: WebSearch "músicas em alta Reels/TikTok Brasil semana". Use só a biblioteca nativa das redes, nunca um arquivo de música de terceiros dentro do vídeo.
+
 ## Publicação
 1. `git add` da pasta do post (sem `_short/`), commit e `git push origin midia-ia`. Mídia pública: `https://raw.githubusercontent.com/lanceseternosedits-maker/lances-eternos-estudio/midia-ia/ia/posts/<pasta>/slides/NN.jpg` e `.../short.mp4`. Esperar o link responder 200 antes de agendar.
 2. Agendar no Metricool (`createScheduledPost`, `autoPublish: true`), um post por rede.

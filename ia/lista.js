@@ -54,9 +54,11 @@ p.body{font-size:35px;line-height:1.36;color:${C.soft};margin-top:34px}
 .chip b{font-family:Head;font-size:36px;letter-spacing:-1px}
 .foot{display:flex;justify-content:space-between;font-family:Mono;font-size:22px;color:${C.mute};margin-top:26px;letter-spacing:2px}`;
 
-const mark = (s) => `<svg width="${s}" height="${s}" viewBox="0 0 100 100"><defs><linearGradient id="m${s}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${C.c1}"/><stop offset="1" stop-color="${C.c2}"/></linearGradient></defs>
-<path d="M50 12 A38 38 0 1 1 22 23" fill="none" stroke="url(#m${s})" stroke-width="9" stroke-linecap="round"/><rect x="44" y="0" width="12" height="8" rx="2" fill="${C.c1}"/>
-<text x="50" y="64" text-anchor="middle" font-family="Head" font-weight="700" font-size="36" fill="url(#m${s})">60</text></svg>`;
+// Logo oficial (rede neural + selo 60s), recolorida na paleta do post. ids únicos por tamanho.
+const LOGO = fs.readFileSync(path.join(__dirname, "logo.svg"), "utf8");
+const mark = (s) => LOGO.replace(/#5CE1FF/g, C.c1).replace(/#FF4FD8/g, C.c2).replace(/#0B0820/g, C.bg)
+  .replace(/id="g"/g, `id="g${s}"`).replace(/url\(#g\)/g, `url(#g${s})`).replace(/id="glow"/g, `id="gl${s}"`).replace(/url\(#glow\)/g, `url(#gl${s})`)
+  .replace('width="1080" height="1080"', `width="${s}" height="${s}"`);
 const top = (i) => `<div class="top"><div class="logo">${mark(48)}<span>IA em <span class="g">60s</span></span></div><span class="count">${String(i).padStart(2, "0")} / ${String(N).padStart(2, "0")}</span></div>`;
 const page = (inner, glows = "") => `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body><div class="bg"></div>${glows}<div class="wrap">${inner}</div></body></html>`;
 const glow = (x, y, c, a = .28) => `<div class="glow" style="left:${x}px;top:${y}px;background:radial-gradient(closest-side,${c}${Math.round(a * 255).toString(16)},transparent)"></div>`;
