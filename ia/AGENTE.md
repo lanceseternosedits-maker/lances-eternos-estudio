@@ -15,7 +15,7 @@ Manual que o agente segue a cada execução. Marca: **IA em 60s** (@iaem60s), a 
 6. **Não repetir:** consultar `estado.json → temas_usados` e evitar assuntos dos últimos 14 dias.
 
 ## Grafo de conteúdo (antes e depois de produzir)
-- **Antes de escolher os assuntos:** rode `python3 grafo.py` e leia `grafo/GRAFO.md`. Evite os temas e empresas marcados como saturados, priorize os pilares sem post nos últimos 7 dias e, quando houver métricas, favoreça os pilares, temas, horários e paletas que mais rendem.
+- **Antes de escolher os assuntos:** rode `python3 grafo.py` (se faltar o networkx: `pip install --break-system-packages networkx`) e leia `grafo/GRAFO.md`. Evite os temas e empresas marcados como saturados, priorize os pilares sem post nos últimos 7 dias e, quando houver métricas, favoreça os pilares, temas, horários e paletas que mais rendem.
 - **Para cada post:** grave `posts/<pasta>/meta.json` com `data`, `pilar` (novidade, tutorial, recomendacao ou em_alta), `formato`, `temas`, `empresas`, `fontes`, `paleta`, `horarios` (rede → HH:MM de Brasília) e `cta`. Modelo: `posts/2026-11-01-semana-em-ia/meta.json`.
 - **No fim:** rode `python3 grafo.py` de novo e inclua a pasta `grafo/` no commit.
 
