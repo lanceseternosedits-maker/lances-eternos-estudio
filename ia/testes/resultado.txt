@@ -1,0 +1,5 @@
+Teste de voz ElevenLabs - IA em 60s (2026-11-02T15:36Z)
+chave: ausente
+codigo HTTP ElevenLabs: nao executado (sem chave)
+tamanho do audio: 0 bytes (audio nao gerado)
+creditos restantes: indisponivel (sem chave para consultar /v1/user/subscription)
