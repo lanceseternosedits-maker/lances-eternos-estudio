@@ -1,5 +1,6 @@
-Teste de voz ElevenLabs - IA em 60s (2026-11-02T15:36Z)
-chave: ausente
-codigo HTTP ElevenLabs: nao executado (sem chave)
-tamanho do audio: 0 bytes (audio nao gerado)
-creditos restantes: indisponivel (sem chave para consultar /v1/user/subscription)
+Teste de voz ElevenLabs - IA em 60s (2026-11-02 16:00 UTC)
+Chave: chave ausente
+Código HTTP ElevenLabs (TTS): não executado (sem chave)
+Tamanho do áudio: 0 bytes (áudio não gerado)
+Créditos restantes: não consultado (sem chave)
+Observação: a variável ELEVENLABS_API_KEY não existe no ambiente da tarefa agendada.
