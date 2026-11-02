@@ -1,0 +1,12 @@
+Opa! Resumo do Gemini 4 Carbon:
+• Lançado pelo Google em 28/10, duas semanas depois do Gemini 4 Argon. É o modelo mais forte da empresa, focado em código e cibersegurança.
+• Acha vulnerabilidades, testa e escreve a correção. Em testes internos, gera código seguro 2x mais que o Argon.
+• Acesso: primeiro para especialistas em segurança (programa Fairwind). Sem data pro público geral.
+• API: US$ 2 por milhão de tokens de entrada e US$ 10 de saída.
+
+3 dicas pra proteger suas contas hoje:
+1. Ative a verificação em duas etapas (de preferência por app autenticador ou chave de acesso) no e-mail e no banco.
+2. Use um gerenciador de senhas e nunca repita senha.
+3. Atualize celular, navegador e apps: a maioria das falhas exploradas já tem correção.
+
+Fontes: Khaleej Times, IT Brief, Constellation Research.

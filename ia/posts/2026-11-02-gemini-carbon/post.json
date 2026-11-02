@@ -1,0 +1,14 @@
+{
+  "slug": "gemini-carbon",
+  "formato": "lista",
+  "cover": { "title_html": "O Google fez uma IA<br><span class=\"g\">que caça falhas.</span>", "sub": "Gemini 4 Carbon: 5 fatos do modelo mais forte do Google", "imgs": ["capa.jpg"] },
+  "dor": { "kick": "O PROBLEMA", "title": "Brecha em software aparece mais rápido do que dá pra corrigir.", "body": "E quem ataca também usa IA. Do lado de quem defende, achar e consertar falha ainda é trabalho lento e manual.", "carimbo": "LENTO" },
+  "items": [
+    { "n": "01", "repo": "Khaleej Times, IT Brief, Constellation Research", "kick": "O que é", "title": "O modelo mais forte do Google até agora.", "body": "Lançado em 28/10, duas semanas depois do Gemini 4 Argon. O foco é programação e cibersegurança.", "img": "capa.jpg", "fit": "cover", "pos": "50% 50%", "credit": "ilustração gerada por IA", "chips": [["Lançamento", "28/out"], ["Antes dele", "Gemini 4 Argon"]] },
+    { "n": "02", "repo": "Khaleej Times, IT Brief", "kick": "O que faz", "title": "Acha a falha, testa e escreve o conserto.", "body": "Segundo o Google, ele é o melhor do mercado em achar vulnerabilidades, explorá-las em teste e corrigir o código.", "quote": "achar → testar → corrigir", "chips": [["Foco", "cibersegurança"]] },
+    { "n": "03", "repo": "Khaleej Times, IT Brief, Constellation Research", "kick": "Código seguro", "title": "Escreve código seguro 2× mais que o Argon.", "body": "É o resultado dos testes internos do Google, ainda sem confirmação independente.", "quote": "2× mais código seguro", "chips": [["Comparação", "vs. Gemini 4 Argon"], ["Fonte", "teste interno"]] },
+    { "n": "04", "repo": "Khaleej Times, IT Brief, Constellation Research", "kick": "Quem usa primeiro", "title": "Primeiro, só quem defende sistemas.", "body": "O acesso começa por um grupo de especialistas em segurança, no programa Fairwind. Não há data para o público geral.", "quote": "Defensores primeiro.", "chips": [["Programa", "Fairwind"], ["Público geral", "sem data"]] },
+    { "n": "05", "repo": "Khaleej Times, IT Brief, Constellation Research", "kick": "Quanto custa (API)", "title": "US$ 2 pra ler, US$ 10 pra escrever.", "body": "Por milhão de tokens, o mesmo preço de lançamento do Argon. Quem usa o app Gemini não paga isso direto.", "quote": "US$ 2 / US$ 10", "chips": [["Entrada", "US$ 2/mi tokens"], ["Saída", "US$ 10/mi tokens"]] }
+  ],
+  "cta": { "key": "CARBON", "promise": "O resumo do Carbon e 3 dicas pra proteger suas contas hoje." }
+}
