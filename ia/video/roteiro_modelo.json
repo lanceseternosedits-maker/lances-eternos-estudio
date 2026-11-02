@@ -1,0 +1,56 @@
+{
+ "ritmo": 1.1,
+ "chave": "SKILL",
+ "segmentos": [
+  {
+   "cena": "hook",
+   "tag": "1 ARQUIVO = 1 FUNÇÃO",
+   "fala": "Agora você ensina qualquer função nova pro Claude com um único arquivo de texto!",
+   "legenda": "Agora você ensina qualquer função nova pro Claude com um único arquivo de texto!"
+  },
+  {
+   "cena": "nome",
+   "tag": "SKILLS",
+   "fala": "Isso se chama skill, e tá bombando no GitHub.",
+   "legenda": "Isso se chama skill, e tá bombando no GitHub.",
+   "pausa": 0.2
+  },
+  {
+   "cena": "pasta",
+   "tag": "SKILL.MD",
+   "fala": "É só uma pasta com um arquivo skill ponto MD: o nome, quando usar, e o passo a passo.",
+   "legenda": "É só uma pasta com um arquivo SKILL.md: o nome, quando usar, e o passo a passo."
+  },
+  {
+   "cena": "escolhe",
+   "tag": "USA SOZINHO",
+   "fala": "O Claude lê a descrição e puxa a skill certa sozinho, só quando precisa.",
+   "legenda": "O Claude lê a descrição e puxa a skill certa sozinho, só quando precisa."
+  },
+  {
+   "cena": "scripts",
+   "tag": "+ SCRIPTS",
+   "fala": "Dá pra colocar até scripts junto, que ele roda pra você.",
+   "legenda": "Dá pra colocar até scripts junto, que ele roda pra você."
+  },
+  {
+   "cena": "projetos",
+   "tag": "TODOS OS PROJETOS",
+   "fala": "Salvou na sua pasta pessoal de skills? Vale em todos os seus projetos.",
+   "legenda": "Salvou na sua pasta pessoal de skills? Vale em todos os seus projetos."
+  },
+  {
+   "cena": "comando",
+   "tag": "/NOME-DA-SKILL",
+   "fala": "E pra chamar na hora, é só digitar barra e o nome dela.",
+   "legenda": "E pra chamar na hora, é só digitar / e o nome dela.",
+   "pausa": 0.25
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA SKILL",
+   "fala": "Quer as melhores? Comenta skill que eu te mando a lista.",
+   "legenda": "Quer as melhores? Comenta SKILL que eu te mando a lista."
+  }
+ ]
+}

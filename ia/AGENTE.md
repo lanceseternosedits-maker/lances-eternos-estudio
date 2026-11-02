@@ -45,10 +45,10 @@ Checklist antes de publicar: a capa funciona sozinha no feed? Dá vontade de sal
 | Horário (Brasília) | Conteúdo | Formato |
 |---|---|---|
 | 07:00 | **Novidade** do dia (a maior de IA nas últimas 24 h) | lista de 4–5 fatos |
-| 09:30 | **Ensinando a usar IA**: tutorial prático (Claude em primeiro lugar, mas também ChatGPT, Gemini e outras) | passo a passo de 4–6 passos |
+| 09:30 | **Ensinando a usar IA**: tutorial prático (Claude em primeiro lugar, mas também ChatGPT, Gemini e outras) | **Reel animado** (ver "Reels animados") |
 | 12:00 | **Recomendação**: ferramentas/repositórios grátis | lista de 5 itens |
 | 14:30 | **Novidade 2** ou curiosidade (outro assunto, outra empresa) | lista de 4–5 fatos |
-| 17:00 | **Ensinando a usar IA 2**: prompts prontos ou um recurso novo | passo a passo de 4–6 passos |
+| 17:00 | **Ensinando a usar IA 2**: skill, recurso novo ou projeto viral com Claude | **Reel animado** |
 | 19:30 | **Em alta no X**: o assunto de IA mais comentado do dia | lista de 4–5 itens |
 
 Se faltar assunto verificável para um horário, troque por outro pilar em vez de baixar o padrão (nada inventado, 2 ou mais fontes).
@@ -65,6 +65,19 @@ Para cada conteúdo:
 2. `CONTENT=posts/<pasta>/post.json PALETTE=<n> node lista.js`, depois `python3 short.py posts/<pasta>`.
 3. **Conferir** pelo menos a capa e um slide com a ferramenta Read: texto cortado ou sobreposto, imagem quebrada. Corrigir antes de seguir.
 4. Escrever na pasta `legenda_instagram.txt`, `legenda_tiktok.txt`, `youtube.json` e `resposta_dm.txt` (a resposta pronta para quem comentar a palavra).
+
+## Reels animados (2 por dia)
+Dos 6 conteúdos, **09:30 e 17:00 viram Reel animado** de 25–35 s; os outros 4 continuam carrossel. Estilo: o das referências em `referencias.md` (mascote em cenário 3D contínuo, uma cena nova a cada frase, etiqueta no topo, selo contador no canto, legenda palavra por palavra, "COMENTA PALAVRA" no fim). Para checagem de boato use o estilo colagem em papel (4º exemplo).
+**Roteiro:** gancho de notícia ou resultado → o que é → como funciona com números reais → como usar no Claude → chamada. ~3 palavras/s, frases curtas, uma frase = uma cena. Nada inventado: cada número com 2 fontes; sem fonte, sem número.
+**Voz:** ElevenLabs, voz Gabriel (`fcJDpjLCtoGvTUQmNdkr`, já é o padrão do script). A chave vem na variável `ELEVENLABS_API_KEY` (passada no pedido da tarefa); **nunca grave a chave em arquivo do repositório** (o repositório é público). Cada vídeo gasta ~500 créditos de 40 mil/mês: confira `GET /v1/user/subscription` antes; se faltar crédito, faça carrossel no lugar e avise o Vitor.
+**Passo a passo** (pasta `ia/video/`):
+1. Escreva `posts/<pasta>/roteiro.json` no formato de `video/roteiro_modelo.json` (cada segmento: `cena`, `tag`, `fala`, `legenda`; `chave` = palavra do comenta).
+2. `python3 video/tts_eleven.py posts/<pasta>/roteiro.json posts/<pasta>/out` → voz.wav + timeline.json com o tempo exato de cada palavra. Rode uma transcrição (faster-whisper small) e confira se a fala bate com o texto.
+3. Copie `video/cena_modelo` para `video/cena_<pasta>` e reescreva as cenas em `index.html` (Three.js; `SHOT` = enquadramento de cada cena; `setT(t)` desenha tudo como função do tempo). Reaproveite a sala, o mascote, a mesa, o monitor com texto e as etiquetas; crie os objetos que ilustram cada frase.
+4. Teste antes de renderizar tudo: `cd video && WWW=cena_<pasta> OUT=../posts/<pasta>/out TL=../posts/<pasta>/out/timeline.json ROT=../posts/<pasta>/roteiro.json PALETTE=<n> node render.js --teste t1,t2,...` (um quadro por cena e os quadros logo antes/depois de cada corte). Olhe as imagens: nada cortado nas bordas, nada cobrindo o rosto do mascote ou o título, nada sumindo no meio do movimento.
+5. Render completo (mesmo comando sem `--teste`, ~15 min), `python3 video/musica.py posts/<pasta>/out` e `bash video/montar.sh posts/<pasta>/out` → `reel.mp4`. Copie para `posts/<pasta>/reel.mp4` e apague `out/frames` antes do commit.
+6. Publique como Reel no Instagram (`instagramData.type: "REEL"`), vídeo no TikTok e Short no YouTube, com o mesmo texto adaptado a cada rede.
+**Regras de animação que já deram bug:** corte seco entre cenas (nada de câmera viajando enquanto objetos somem); a legenda nunca fica vazia na troca; nada aleatório por quadro (tremedeira); o que voa precisa chegar num lugar que faça sentido (mão do mascote, tela).
 
 ## Cada rede do seu jeito
 - **Instagram** (no horário): carrossel (`instagramData.type = "POST"`). Legenda: gancho na primeira linha, "arrasta", "Comenta PALAVRA que eu te mando…", fontes, 5 hashtags.
