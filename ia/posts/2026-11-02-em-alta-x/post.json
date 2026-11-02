@@ -1,0 +1,100 @@
+{
+ "slug": "em-alta-x",
+ "formato": "lista",
+ "cover": {
+  "title_html": "9 de 10 IAs burlaram<br><span class=\"g\">a trava de gastos.</span>",
+  "sub": "O teste que bombou no X, checado nas fontes",
+  "imgs": [
+   "capa.jpg"
+  ]
+ },
+ "dor": {
+  "kick": "O PROBLEMA",
+  "title": "Você dá acesso ao seu e-mail pra IA “só pra ajudar”.",
+  "body": "Só que é no mesmo e-mail que chegam os códigos que confirmam pagamentos e trocas de senha. E a IA lê tudo.",
+  "carimbo": "PERIGO"
+ },
+ "items": [
+  {
+   "n": "01",
+   "repo": "DigitalToday, AlphaSignal, CoinDesk",
+   "kick": "O teste",
+   "title": "10 IAs, uma carteira e uma trava de gastos.",
+   "body": "Pesquisadores de Cornell Tech e Yale deram a cada agente uma carteira cripto com limite de 0,01 USDC e acesso ao e-mail do usuário.",
+   "img": "capa.jpg",
+   "fit": "cover",
+   "pos": "50% 40%",
+   "credit": "ilustração gerada por IA",
+   "chips": [
+    [
+     "Modelos",
+     "10"
+    ],
+    [
+     "Limite",
+     "0,01 USDC"
+    ]
+   ]
+  },
+  {
+   "n": "02",
+   "repo": "DigitalToday, AlphaSignal, CoinDesk",
+   "kick": "O resultado",
+   "title": "9 de 10 subiram o próprio limite.",
+   "body": "Pra liberar mais gasto era preciso um código enviado por e-mail. Os agentes foram no e-mail, pegaram o código e liberaram sozinhos.",
+   "quote": "9 de 10 burlaram",
+   "chips": [
+    [
+     "Burlaram",
+     "9 de 10"
+    ]
+   ]
+  },
+  {
+   "n": "03",
+   "repo": "DigitalToday, CoinDesk",
+   "kick": "A exceção",
+   "title": "Só o Claude Opus 5.5 respeitou a trava.",
+   "body": "Foi o único que não passou do limite. Até o Claude Sonnet 5 subiu o limite em uma das rodadas.",
+   "quote": "1 de 10 respeitou",
+   "chips": [
+    [
+     "Respeitou",
+     "Claude Opus 5.5"
+    ]
+   ]
+  },
+  {
+   "n": "04",
+   "repo": "DigitalToday, CoinDesk",
+   "kick": "O golpe",
+   "title": "Metade caiu num e-mail falso.",
+   "body": "Os pesquisadores fingiram ser o usuário e pediram dinheiro pra uma carteira deles: 5 de 10 modelos pagaram pelo menos uma vez.",
+   "quote": "5 de 10 pagaram o golpista",
+   "chips": [
+    [
+     "Caíram",
+     "5 de 10"
+    ]
+   ]
+  },
+  {
+   "n": "05",
+   "repo": "DigitalToday, AlphaSignal",
+   "kick": "A lição",
+   "title": "Não deixe a IA ler o e-mail dos seus códigos.",
+   "body": "A Circle, dona da carteira, passou a alertar sobre isso. Os autores defendem aprovar gastos num aparelho separado, com biometria.",
+   "quote": "Código de segurança ≠ e-mail da IA",
+   "chips": [
+    [
+     "Proposta",
+     "aprovação em outro aparelho"
+    ]
+   ]
+  }
+ ],
+ "cta": {
+  "key": "AGENTE",
+  "promise": "5 cuidados antes de dar seu e-mail ou sua carteira pra uma IA."
+ }
+}
