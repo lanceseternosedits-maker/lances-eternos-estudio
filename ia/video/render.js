@@ -12,12 +12,12 @@ const rot = JSON.parse(fs.readFileSync("" + (process.env.ROT || "roteiro.json") 
 const WWW = path.join(__dirname, process.env.WWW || "www"); const OUT = process.env.OUT || "out";
 fs.writeFileSync(path.join(WWW, "cfg.json"), JSON.stringify({ pal: PALS[process.env.PALETTE || 4], titulo: rot.titulo, chave: rot.chave || "EQUIPE", segs: rot.segmentos, timeline: tl }));
 const types = { html: "text/html", js: "text/javascript", json: "application/json", svg: "image/svg+xml", woff2: "font/woff2" };
-const srv = http.createServer((q, r) => { const f = path.join(WWW, decodeURIComponent(q.url.split("?")[0])); if (!fs.existsSync(f)) { r.writeHead(404); return r.end(); } r.writeHead(200, { "Content-Type": types[f.split(".").pop()] || "application/octet-stream" }); fs.createReadStream(f).pipe(r); }).listen(8765);
+const srv = http.createServer((q, r) => { const f = path.join(WWW, decodeURIComponent(q.url.split("?")[0])); if (!fs.existsSync(f)) { r.writeHead(404); return r.end(); } r.writeHead(200, { "Content-Type": types[f.split(".").pop()] || "application/octet-stream" }); fs.createReadStream(f).pipe(r); }).listen(+(process.env.PORT || 8765));
 (async () => {
   const b = await chromium.launch({ args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist"] });
   const p = await b.newPage({ viewport: { width: 1080, height: 1920 } });
   p.on("console", m => m.type() === "error" && console.log("ERR", m.text())); p.on("pageerror", e => console.log("PAGEERR", e.message));
-  await p.goto("http://127.0.0.1:8765/index.html"); await p.waitForFunction("window.READY", null, { timeout: 60000 });
+  await p.goto(`http://127.0.0.1:${process.env.PORT || 8765}/index.html`); await p.waitForFunction("window.READY", null, { timeout: 60000 });
   const ti = process.argv.indexOf("--teste");
   if (ti > 0) {
     for (const t of process.argv[ti + 1].split(",").map(Number)) { await p.evaluate(t => setT(t), t); await p.screenshot({ path: `${OUT}/teste_${t}.jpg`, type: "jpeg", quality: 85 }); }
