@@ -25,7 +25,7 @@ const HANDLE = "@iaem60s";
 const KEY = POST.cta.key;
 
 const ITEMS = POST.items;
-const N = ITEMS.length + 2;
+const DOR = POST.dor; const N = ITEMS.length + 2 + (DOR ? 1 : 0);
 
 const css = `${fonts}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -93,6 +93,17 @@ function item(it, i) {
   glow(-400, 900, C.c2, .22) + glow(600, -400, C.c1, .14));
 }
 
+// pág. 2 = a dor (o problema que o público sente), antes da solução
+function dor() {
+  return page(`${top(2)}
+  <div style="flex:1;display:flex;flex-direction:column;justify-content:center;position:relative">
+    <div class="kick" style="margin-bottom:34px">${DOR.kick || "O PROBLEMA"}</div>
+    <div style="font-family:Head;font-weight:700;font-size:92px;line-height:1.0;letter-spacing:-3px">${DOR.title}</div>
+    <p class="body" style="margin-top:44px;font-size:42px">${DOR.body}</p>
+    ${DOR.carimbo ? `<div style="position:absolute;right:30px;top:60px;transform:rotate(-9deg);border:8px solid ${C.c2};color:${C.c2};font-family:Head;font-weight:700;font-size:64px;padding:6px 26px;border-radius:14px;opacity:.9">${DOR.carimbo}</div>` : ""}
+  </div>`, glow(500, 700, C.c2, .25));
+}
+
 function cta() {
   return page(`${top(N)}
   <div style="flex:1;display:flex;flex-direction:column;justify-content:center;text-align:center">
@@ -108,7 +119,7 @@ function cta() {
 (async () => {
   const out = path.join(IMG, "slides"); fs.mkdirSync(out, { recursive: true });
   const b = await chromium.launch(); const pg = await b.newPage({ viewport: { width: 1080, height: 1350 } });
-  const pages = [cover(), ...ITEMS.map((it, k) => item(it, k + 2)), cta()];
+  const off = DOR ? 3 : 2; const pages = [cover(), ...(DOR ? [dor()] : []), ...ITEMS.map((it, k) => item(it, k + off)), cta()];
   for (let i = 0; i < pages.length; i++) {
     await pg.setContent(pages[i], { waitUntil: "load" }); await pg.evaluate(() => document.fonts.ready);
     await pg.screenshot({ path: path.join(out, `${String(i + 1).padStart(2, "0")}.jpg`), type: "jpeg", quality: 92 });

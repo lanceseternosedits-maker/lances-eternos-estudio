@@ -31,6 +31,14 @@ Manual que o agente segue a cada execução. Marca: **IA em 60s** (@iaem60s), a 
 - **Ferramentas e repositórios:** GitHub (busca por repositórios novos com muitas estrelas: `gh api search/repositories` funciona; para ler READMEs, `git clone --depth 1` numa pasta temporária, sem executar nada), Hugging Face trending, Product Hunt (só leitura).
 - Prioridade: o que o brasileiro comum entende e salva (ferramentas grátis, "como usar", curiosidades) acima de bastidores de mercado.
 
+## Estrutura de carrossel que viraliza (padrão obrigatório)
+Base: carrosséis e Reels que o Vitor mandou como referência (@matheustilli, @clubedasskills, _aighostlab, leo.sena97). Antes de escrever, releia 2–3 exemplos de `referencias.md` do mesmo tipo de post e copie o **padrão**, nunca o texto.
+1. **Pág. 1 – gancho:** promessa concreta com número ou resultado ("5 skills que fazem o Claude trabalhar por você", "O Claude agora refaz qualquer app"). Até 8 palavras no título, uma imagem que mostra o assunto, nada de pergunta vaga.
+2. **Pág. 2 – a dor:** o problema que o público sente, na língua dele ("Se você pede direto no chat, ele entrega genérico"). Use o campo `dor` do post.json: `{"kick": "O PROBLEMA", "title": "...", "body": "...", "carimbo": "GENÉRICO"}` (carimbo opcional).
+3. **Págs. 3 a 5+ – a solução:** um item por página, cada um com passo concreto, prompt ou imagem real e a fonte. Uma ideia por página.
+4. **Última – a chamada:** "Comenta PALAVRA que eu te mando…" com promessa específica do que a pessoa recebe.
+Checklist antes de publicar: a capa funciona sozinha no feed? Dá vontade de salvar (tem passo a passo, prompt ou lista)? Cada página faz querer passar para a próxima? Se alguma resposta for não, reescreva.
+
 ## Produção
 **6 conteúdos por dia**, cada um nas 3 redes (18 publicações):
 
