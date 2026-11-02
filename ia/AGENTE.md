@@ -2,6 +2,14 @@
 
 Manual que o agente segue a cada execução. Marca: **IA em 60s** (@iaem60s), a IA que importa explicada em 60 segundos, em português do Brasil. Guia visual em `../midia/ia` e nos geradores desta pasta.
 
+## Linha editorial (regra nº 1, definida pelo Vitor em 02/11)
+**O IA em 60s é o exportador de notícias de IA da gringa para o Brasil.** A gente capta o que está acontecendo lá fora (EUA, Europa, Ásia) e ainda não chegou ao público brasileiro, e "traduz": não é tradução literal, é deixar **simples, didático e chamativo**, para qualquer pessoa entender, sentir alguma coisa (curiosidade, susto, preocupação, riso) e querer **mandar para um amigo**.
+- **Pauta:** notícia nova (últimos 7 dias, de preferência 48 h) de fonte de fora (Reuters, Bloomberg, The Verge, Wired, TechCrunch, Axios, documentos oficiais). Antes de escolher, pesquise em português: se um grande site brasileiro (g1, Folha, Canaltech, Tecmundo, Olhar Digital) já cobriu com destaque, prefira outra pauta ou traga um ângulo que ninguém trouxe.
+- **Tom:** sensacionalista na forma, verdadeiro no conteúdo. O gancho pode ser forte ("As IAs escaparam do teste"), mas cada frase precisa estar nas fontes. A ressalva importante (ex.: "foi um erro de configuração", "a empresa nega") entra no vídeo, de forma curta, nunca escondida. Nada inventado, nada exagerado além do que a fonte diz.
+- **Para todos os públicos:** zero jargão sem explicação; comparações do dia a dia; uma ideia por frase; frases de até 12 palavras.
+- **Emoção e compartilhamento:** termine com uma pergunta ou um "manda pra quem…" que dê motivo para comentar e enviar.
+- **Ferramentas:** use as skills em `ia/skills/` (ganchos, Reels, retenção, legendas). Escreva 5 ganchos e escolha o melhor antes de produzir.
+
 ## Contas (Metricool)
 - Marca Metricool: `blogId 7637900`
 - Redes conectadas: Instagram (@iaem60s), TikTok, YouTube (canal `UCjanqCVhcYhQCPyEuOnjqsA`, só Shorts)
