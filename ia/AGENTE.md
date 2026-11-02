@@ -4,6 +4,7 @@ Manual que o agente segue a cada execução. Marca: **IA em 60s** (@iaem60s), a 
 
 ## Linha editorial (regra nº 1, definida pelo Vitor em 02/11)
 **O IA em 60s traz da gringa para o Brasil as ferramentas e novidades de IA que a pessoa pode USAR hoje** para ganhar tempo no trabalho ou ganhar dinheiro (renda extra, vender mais, trabalhar menos). Vale para todo roteiro, vídeo e post de fotos.
+- **De onde vem a pauta:** do que **já está viralizando nos perfis de IA dos EUA e de fora** (Reels, TikToks e Shorts com centenas de milhares ou milhões de visualizações nos últimos 7 dias, e o que está em alta no X). Comece por `referencias.md` (o caçador de referências lista esses posts com link e números). Todo roteiro e todo post leva a **prova de que bombou lá fora** (link do post de referência e os números que aparecem nele) junto das fontes do fato. Notícia de comunicado de imprensa sozinha não basta.
 - **Pauta certa:** ferramenta, recurso ou truque novo (de preferência lançado lá fora nos últimos 7 dias e ainda pouco falado no Brasil), **fácil de usar**, que resolve uma dor concreta: "faz sua planilha", "responde seus clientes", "edita seu vídeo", "cria seu site", "monta sua apresentação". Mostre o passo a passo simples.
 - **Pauta errada:** notícia de alerta, medo, polêmica, processo, golpe, "IA te zoando", bastidor de empresa, mercado financeiro. Só entra se virar algo útil para a pessoa (ex.: "o recurso novo que protege sua conta em 1 clique").
 - **Preço:** não precisa ser grátis. Se for pago, não é obrigatório citar o preço; mas **nunca diga "grátis" se não for**.
@@ -62,10 +63,10 @@ Checklist antes de publicar: a capa funciona sozinha no feed? Dá vontade de sal
 | Horário (Brasília) | Conteúdo | Formato |
 |---|---|---|
 | 07:00 | **Novidade** do dia (a maior de IA nas últimas 24 h) | lista de 4–5 fatos |
-| 09:30 | **Ensinando a usar IA**: tutorial prático (Claude em primeiro lugar, mas também ChatGPT, Gemini e outras) | fotos em Reel (passo a passo); o roteiro do vídeo animado do dia vai para aprovação |
+| 09:30 | **Ensinando a usar IA**: tutorial prático (Claude em primeiro lugar, mas também ChatGPT, Gemini e outras) | carrossel (passo a passo); o roteiro do vídeo animado do dia vai para aprovação |
 | 12:00 | **Recomendação**: ferramentas/repositórios grátis | lista de 5 itens |
 | 14:30 | **Novidade 2** ou curiosidade (outro assunto, outra empresa) | lista de 4–5 fatos |
-| 17:00 | **Ensinando a usar IA 2**: skill, recurso novo ou projeto viral com Claude | fotos em Reel; o 2º roteiro de vídeo animado vai para aprovação |
+| 17:00 | **Ensinando a usar IA 2**: skill, recurso novo ou projeto viral com Claude | carrossel; o 2º roteiro de vídeo animado vai para aprovação |
 | 19:30 | **Em alta no X**: o assunto de IA mais comentado do dia | lista de 4–5 itens |
 
 Se faltar assunto verificável para um horário, troque por outro pilar em vez de baixar o padrão (nada inventado, 2 ou mais fontes).
@@ -84,9 +85,9 @@ Para cada conteúdo:
 4. Escrever na pasta `legenda_instagram.txt`, `legenda_tiktok.txt`, `youtube.json` e `resposta_dm.txt` (a resposta pronta para quem comentar a palavra).
 
 ## Regra do Vitor (02/11): foto vira Reel, vídeo animado só com aprovação
-- **Todo post de fotos vai como Reel no Instagram:** gere o carrossel com `lista.js`, transforme em vídeo com `short.py` (slides com música) e publique o `short.mp4` com `instagramData.type: "REEL"`. Nada de carrossel de fotos no Instagram. A legenda não diz "arrasta pro lado"; diz algo como "em 30 segundos". No TikTok, siga no modo foto com `autoAddMusic: true` (é o formato com música nativa de lá).
+- **Post de fotos = carrossel de verdade (arrastar pro lado), nunca vídeo de slides com temporizador** (correção do Vitor, 02/11). No Instagram: `instagramData.type: "POST"` com as imagens dos slides, legenda com "arrasta pro lado". Música: a API não coloca música em carrossel do Instagram, então o padrão é **publicação automática sem música** (`autoPublish: true`). Quando o Vitor disser nesta conversa que vai colocar a música naquele dia, agende os carrosséis do Instagram com `autoPublish: false`: o app do Metricool avisa ele no horário e ele escolhe a música em alta e publica. No TikTok, carrossel em modo foto com `autoAddMusic: true` (música automática de lá). `short.py` não é mais usado para posts de fotos.
 - **Vídeo animado (mascote 3D, narração) nunca é publicado sem aprovação.** Fluxo: (1) escreva o roteiro (texto falado frase a frase + o que aparece em cada cena + fontes) e envie ao Vitor; pare e espere a resposta dele na conversa desta sessão. (2) Só depois do "aprovado", gere o vídeo, olhe cada corte, e envie o MP4 para ele (envie o arquivo e avise que está pronto). (3) Só agende depois do segundo "aprovado", no próximo horário livre entre 06:30 e 20:00. Se ele pedir mudanças, refaça e envie de novo.
-- Os 6 horários do dia são preenchidos com posts de fotos-em-Reel (publicação automática). Os vídeos animados aprovados entram como extras, sem tirar nenhum dos 6.
+- Os 6 horários do dia são preenchidos com carrosséis (publicação automática). Os vídeos animados aprovados entram como extras, sem tirar nenhum dos 6.
 - **YouTube está pausado (decisão do Vitor, 02/11):** publique só no Instagram e no TikTok. Não agende nada no YouTube até ele pedir de volta.
 
 ## Reels animados (com aprovação)
