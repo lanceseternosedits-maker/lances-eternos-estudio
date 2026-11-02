@@ -1,0 +1,3 @@
+{"title": "Extensão falsa do Claude Code: veja se você tem #shorts",
+ "description": "Versões 2.1.312 e 2.1.313 da extensão do Claude Code na loja do Cursor (29/10/2026) instalavam um backdoor SSH. Como checar: veja a versão da extensão e procure a chave svc-telemetry em ~/.ssh/authorized_keys. Se achar: só desinstalar não basta, isole a máquina e troque senhas e chaves.\n\nFontes: aviso de segurança do Cursor (29–30/10/2026); Help Net Security (30/10/2026); The Hacker News.\nNarração com voz sintética.\n\nSe inscreva pra receber a IA que importa em 60 segundos.",
+ "tags": ["claude code", "cursor", "backdoor", "ciberseguranca", "extensao", "programacao"]}

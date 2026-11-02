@@ -1,0 +1,18 @@
+Opa! Passo a passo completo (baseado no aviso oficial do Cursor):
+
+O que aconteceu: em 29/10, as versões 2.1.312 e 2.1.313 da extensão "Anthropic.claude-code" na loja de extensões do Cursor (macOS e Windows) vieram adulteradas. Segundo o Cursor, não foram feitas pela Anthropic. Elas adicionavam a chave do atacante no seu SSH e abriam um túnel pra ele entrar.
+
+1) Veja a versão: no Cursor, abra Extensões › Claude Code. Se você instalou ou atualizou em 29/10 e está/esteve na 2.1.312 ou 2.1.313, siga os próximos passos.
+
+2) Procure a chave do invasor:
+• Mac/Linux, no Terminal:
+grep -qs svc-telemetry ~/.ssh/authorized_keys && echo "ACHOU" || echo "não achou"
+• Windows: abra %USERPROFILE%\.ssh\authorized_keys (e C:\ProgramData\ssh\administrators_authorized_keys) no Bloco de Notas e procure "svc-telemetry".
+
+3) Se achou:
+• Desconecte a máquina da rede.
+• Use o script de limpeza oficial do Cursor (link no aviso: cursor.com/blog/claude-code-extension-security-notice).
+• Só desinstalar a extensão não basta. Considere reinstalar o sistema.
+• De outro computador confiável, troque senhas, chaves SSH, tokens de API e encerre sessões abertas.
+
+Fontes: aviso de segurança do Cursor; Help Net Security; The Hacker News.

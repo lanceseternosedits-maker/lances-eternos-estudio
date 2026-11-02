@@ -1,0 +1,55 @@
+{
+ "titulo": "EXTENSÃO FALSA",
+ "chave": "SEGURO",
+ "segmentos": [
+  {
+   "cena": "hook",
+   "tag": "ALERTA",
+   "fala": "Uma versão envenenada da extensão do Clód Code abriu uma porta dos fundos no PC de programadores!",
+   "legenda": "Uma versão envenenada da extensão do Claude Code abriu uma porta dos fundos no PC de programadores!"
+  },
+  {
+   "cena": "onde",
+   "tag": "CURSOR · 29/10",
+   "fala": "Ela apareceu na loja de extensões do Cursor, no dia vinte e nove de outubro.",
+   "legenda": "Ela apareceu na loja de extensões do Cursor, no dia 29 de outubro."
+  },
+  {
+   "cena": "quantos",
+   "tag": "ATÉ 5 MIL",
+   "fala": "Segundo o Cursor, até cinco mil pessoas podem ter instalado.",
+   "legenda": "Segundo o Cursor, até 5 mil pessoas podem ter instalado."
+  },
+  {
+   "cena": "faz",
+   "tag": "BACKDOOR SSH",
+   "fala": "Ela colocava a chave do atacante no seu computador e abria um túnel pra ele entrar.",
+   "legenda": "Ela colocava a chave do atacante no seu computador e abria um túnel pra ele entrar."
+  },
+  {
+   "cena": "versao",
+   "tag": "PASSO 1",
+   "fala": "Primeiro, veja se a sua extensão é a versão dois ponto um ponto trezentos e doze, ou trezentos e treze.",
+   "legenda": "Primeiro, veja se a sua extensão é a versão 2.1.312 ou 2.1.313."
+  },
+  {
+   "cena": "chave",
+   "tag": "PASSO 2",
+   "fala": "Depois, procure no arquivo authorized keys uma chave chamada svc telemetry.",
+   "legenda": "Depois, procure no arquivo authorized_keys uma chave chamada svc-telemetry."
+  },
+  {
+   "cena": "limpar",
+   "tag": "PASSO 3",
+   "fala": "Se encontrou, só desinstalar não basta: isole a máquina e troque todas as senhas e chaves.",
+   "legenda": "Se encontrou, só desinstalar não basta: isole a máquina e troque todas as senhas e chaves.",
+   "pausa": 0.25
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA SEGURO",
+   "fala": "Comenta seguro que eu te mando o passo a passo completo.",
+   "legenda": "Comenta SEGURO que eu te mando o passo a passo completo."
+  }
+ ]
+}
