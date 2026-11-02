@@ -3,12 +3,21 @@
 Manual que o agente segue a cada execução. Marca: **IA em 60s** (@iaem60s), a IA que importa explicada em 60 segundos, em português do Brasil. Guia visual em `../midia/ia` e nos geradores desta pasta.
 
 ## Linha editorial (regra nº 1, definida pelo Vitor em 02/11)
-**O IA em 60s é o exportador de notícias de IA da gringa para o Brasil.** A gente capta o que está acontecendo lá fora (EUA, Europa, Ásia) e ainda não chegou ao público brasileiro, e "traduz": não é tradução literal, é deixar **simples, didático e chamativo**, para qualquer pessoa entender, sentir alguma coisa (curiosidade, susto, preocupação, riso) e querer **mandar para um amigo**.
-- **Pauta:** notícia nova (últimos 7 dias, de preferência 48 h) de fonte de fora (Reuters, Bloomberg, The Verge, Wired, TechCrunch, Axios, documentos oficiais). Antes de escolher, pesquise em português: se um grande site brasileiro (g1, Folha, Canaltech, Tecmundo, Olhar Digital) já cobriu com destaque, prefira outra pauta ou traga um ângulo que ninguém trouxe.
-- **Tom:** sensacionalista na forma, verdadeiro no conteúdo. O gancho pode ser forte ("As IAs escaparam do teste"), mas cada frase precisa estar nas fontes. A ressalva importante (ex.: "foi um erro de configuração", "a empresa nega") entra no vídeo, de forma curta, nunca escondida. Nada inventado, nada exagerado além do que a fonte diz.
-- **Para todos os públicos:** zero jargão sem explicação; comparações do dia a dia; uma ideia por frase; frases de até 12 palavras.
-- **Emoção e compartilhamento:** termine com uma pergunta ou um "manda pra quem…" que dê motivo para comentar e enviar.
-- **Ferramentas:** use as skills em `ia/skills/` (ganchos, Reels, retenção, legendas). Escreva 5 ganchos e escolha o melhor antes de produzir.
+**O IA em 60s traz da gringa para o Brasil as ferramentas e novidades de IA que a pessoa pode USAR hoje** para ganhar tempo no trabalho ou ganhar dinheiro (renda extra, vender mais, trabalhar menos). Vale para todo roteiro, vídeo e post de fotos.
+- **Pauta certa:** ferramenta, recurso ou truque novo (de preferência lançado lá fora nos últimos 7 dias e ainda pouco falado no Brasil), **fácil de usar**, que resolve uma dor concreta: "faz sua planilha", "responde seus clientes", "edita seu vídeo", "cria seu site", "monta sua apresentação". Mostre o passo a passo simples.
+- **Pauta errada:** notícia de alerta, medo, polêmica, processo, golpe, "IA te zoando", bastidor de empresa, mercado financeiro. Só entra se virar algo útil para a pessoa (ex.: "o recurso novo que protege sua conta em 1 clique").
+- **Preço:** não precisa ser grátis. Se for pago, não é obrigatório citar o preço; mas **nunca diga "grátis" se não for**.
+- **Simples e para todos:** zero jargão sem explicação, comparação do dia a dia, uma ideia por frase, até 12 palavras por frase. Verdade sempre: cada afirmação precisa estar na fonte oficial da ferramenta ou em 2 fontes.
+- Antes de escolher, pesquise em português: se um grande site brasileiro já cobriu com destaque, prefira outra ferramenta ou traga um uso que ninguém mostrou.
+
+## Ganchos (critério determinante: sem gancho forte, não publica)
+Todo roteiro, capa de post e primeira frase de vídeo usa um destes 5 tipos. Escreva 5 opções, escolha a mais forte e coloque o gancho em 3 camadas ao mesmo tempo (o que se vê, o que se ouve e o texto na tela dizendo a mesma coisa no 1º segundo; ver `ia/skills/viral-hooks/references/three-layer-hook.md`).
+1. **Resultado logo no 1º segundo:** "Essa IA fez minha planilha em 10 segundos."
+2. **Antes e depois:** "Eu levava 2 horas nisso. Agora levo 5 minutos."
+3. **Segredo:** "Você não sabe o que essa ferramenta faz agora." / "Ninguém tá falando dessa IA."
+4. **Lista com número:** "3 IAs que fazem o seu trabalho por você."
+5. **Problema resolvido:** "Seus problemas com planilha acabaram."
+Para dinheiro, use "renda extra", "vender mais", "cobrar por isso"; **não prometa "ficar rico"** nem valores garantidos (as redes derrubam o alcance e geram denúncia). Feche sempre com "Comenta PALAVRA que eu te mando o link/passo a passo" ou "manda pra quem precisa disso".
 
 ## Contas (Metricool)
 - Marca Metricool: `blogId 7637900`
