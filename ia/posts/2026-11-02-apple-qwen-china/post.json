@@ -1,0 +1,108 @@
+{
+ "slug": "apple-qwen-china",
+ "formato": "lista",
+ "cover": {
+  "title_html": "A Siri da China<br><span class=\"g\">vai usar IA chinesa.</span>",
+  "sub": "Apple + Alibaba: 5 fatos do acordo, testes a partir de 4/11",
+  "imgs": [
+   "capa.jpg"
+  ]
+ },
+ "dor": {
+  "kick": "O PROBLEMA",
+  "title": "Na China, a Apple Intelligence nunca chegou.",
+  "body": "Lá o ChatGPT não roda e a IA precisa de aprovação do governo. Resultado: o iPhone chinês ficou sem os recursos de IA que o resto do mundo já usa.",
+  "carimbo": "BLOQUEADO"
+ },
+ "items": [
+  {
+   "n": "01",
+   "repo": "Apple (comunicado na China), via MacRumors e CGTN",
+   "kick": "O acordo",
+   "title": "O Qwen, da Alibaba, entra no lugar do ChatGPT.",
+   "body": "Na China, quem responde dentro da Siri, das Ferramentas de Escrita e da Inteligência Visual é o Qwen.",
+   "quote": "Siri + Qwen",
+   "chips": [
+    [
+     "Parceira",
+     "Alibaba"
+    ],
+    [
+     "Modelo",
+     "Qwen"
+    ]
+   ]
+  },
+  {
+   "n": "02",
+   "repo": "MacRumors, Phemex/PANews",
+   "kick": "Quando",
+   "title": "Teste começa em 4 de novembro.",
+   "body": "A primeira versão beta do iOS 27.3 para desenvolvedores sai nesta quarta. Para o público, chega em dezembro.",
+   "quote": "4/11 → dezembro",
+   "chips": [
+    [
+     "Beta",
+     "4/nov"
+    ],
+    [
+     "Público",
+     "dez/2026"
+    ]
+   ]
+  },
+  {
+   "n": "03",
+   "repo": "MacRumors, Phemex/PANews",
+   "kick": "O que chega",
+   "title": "Tradução ao vivo, Genmoji e Limpar foto.",
+   "body": "Também Ferramentas de Escrita, resumo de notificações e Inteligência Visual. São os recursos que já existem fora da China.",
+   "img": "capa.jpg",
+   "fit": "cover",
+   "pos": "50% 50%",
+   "credit": "ilustração gerada por IA",
+   "chips": [
+    [
+     "Recursos",
+     "7"
+    ]
+   ]
+  },
+  {
+   "n": "04",
+   "repo": "MacRumors, Phemex/PANews",
+   "kick": "O que fica de fora",
+   "title": "A nova Siri com IA não vem agora.",
+   "body": "Os recursos anunciados na WWDC 2026 e o Image Playground ficam de fora do iOS 27.3 na China.",
+   "quote": "Siri nova: ainda não.",
+   "chips": [
+    [
+     "Image Playground",
+     "fora"
+    ]
+   ]
+  },
+  {
+   "n": "05",
+   "repo": "MacRumors, Phemex/PANews",
+   "kick": "Quem pode usar",
+   "title": "Só iPhone 15 Pro em diante.",
+   "body": "Também vale para iPhone 16 e iPhone Air em diante. Mac e iPad esperam nova aprovação do governo chinês.",
+   "quote": "iPhone 15 Pro+",
+   "chips": [
+    [
+     "Aparelhos",
+     "iPhone 15 Pro+"
+    ],
+    [
+     "Mac/iPad",
+     "depois"
+    ]
+   ]
+  }
+ ],
+ "cta": {
+  "key": "SIRI",
+  "promise": "O resumo do acordo e o que muda (ou não) pro iPhone no Brasil."
+ }
+}
