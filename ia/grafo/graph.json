@@ -494,6 +494,268 @@
    "id": "horario:21h",
    "tipo": "horario",
    "label": "21h"
+  },
+  {
+   "id": "2026-11-02-apple-qwen-china",
+   "tipo": "post",
+   "label": "apple-qwen-china",
+   "data": "2026-11-02",
+   "score": null
+  },
+  {
+   "id": "cta:SIRI",
+   "tipo": "cta",
+   "label": "SIRI"
+  },
+  {
+   "id": "tema:IA no celular",
+   "tipo": "tema",
+   "label": "IA no celular"
+  },
+  {
+   "id": "tema:assistentes de voz",
+   "tipo": "tema",
+   "label": "assistentes de voz"
+  },
+  {
+   "id": "tema:China",
+   "tipo": "tema",
+   "label": "China"
+  },
+  {
+   "id": "empresa:Apple",
+   "tipo": "empresa",
+   "label": "Apple"
+  },
+  {
+   "id": "empresa:Alibaba",
+   "tipo": "empresa",
+   "label": "Alibaba"
+  },
+  {
+   "id": "fonte:Apple via MacRumors",
+   "tipo": "fonte",
+   "label": "Apple via MacRumors"
+  },
+  {
+   "id": "fonte:CGTN",
+   "tipo": "fonte",
+   "label": "CGTN"
+  },
+  {
+   "id": "fonte:Phemex/PANews",
+   "tipo": "fonte",
+   "label": "Phemex/PANews"
+  },
+  {
+   "id": "horario:07h",
+   "tipo": "horario",
+   "label": "07h"
+  },
+  {
+   "id": "2026-11-02-em-alta-x",
+   "tipo": "post",
+   "label": "em-alta-x",
+   "data": "2026-11-02",
+   "score": null
+  },
+  {
+   "id": "cta:AGENTE",
+   "tipo": "cta",
+   "label": "AGENTE"
+  },
+  {
+   "id": "tema:cripto",
+   "tipo": "tema",
+   "label": "cripto"
+  },
+  {
+   "id": "empresa:Circle",
+   "tipo": "empresa",
+   "label": "Circle"
+  },
+  {
+   "id": "fonte:DigitalToday",
+   "tipo": "fonte",
+   "label": "DigitalToday"
+  },
+  {
+   "id": "fonte:AlphaSignal",
+   "tipo": "fonte",
+   "label": "AlphaSignal"
+  },
+  {
+   "id": "fonte:CoinDesk",
+   "tipo": "fonte",
+   "label": "CoinDesk"
+  },
+  {
+   "id": "2026-11-02-extensao-falsa",
+   "tipo": "post",
+   "label": "extensao-falsa",
+   "data": "2026-11-02",
+   "score": null
+  },
+  {
+   "id": "formato:reel",
+   "tipo": "formato",
+   "label": "reel"
+  },
+  {
+   "id": "cta:SEGURO",
+   "tipo": "cta",
+   "label": "SEGURO"
+  },
+  {
+   "id": "tema:extensões",
+   "tipo": "tema",
+   "label": "extensões"
+  },
+  {
+   "id": "empresa:Cursor",
+   "tipo": "empresa",
+   "label": "Cursor"
+  },
+  {
+   "id": "fonte:Cursor (aviso de segurança)",
+   "tipo": "fonte",
+   "label": "Cursor (aviso de segurança)"
+  },
+  {
+   "id": "fonte:Help Net Security",
+   "tipo": "fonte",
+   "label": "Help Net Security"
+  },
+  {
+   "id": "fonte:The Hacker News",
+   "tipo": "fonte",
+   "label": "The Hacker News"
+  },
+  {
+   "id": "2026-11-02-ferramentas-gratis",
+   "tipo": "post",
+   "label": "ferramentas-gratis",
+   "data": "2026-11-02",
+   "score": null
+  },
+  {
+   "id": "cta:GRATIS",
+   "tipo": "cta",
+   "label": "GRATIS"
+  },
+  {
+   "id": "tema:ferramentas grátis",
+   "tipo": "tema",
+   "label": "ferramentas grátis"
+  },
+  {
+   "id": "tema:open source",
+   "tipo": "tema",
+   "label": "open source"
+  },
+  {
+   "id": "tema:jogos",
+   "tipo": "tema",
+   "label": "jogos"
+  },
+  {
+   "id": "fonte:READMEs oficiais",
+   "tipo": "fonte",
+   "label": "READMEs oficiais"
+  },
+  {
+   "id": "fonte:GitHub (estrelas)",
+   "tipo": "fonte",
+   "label": "GitHub (estrelas)"
+  },
+  {
+   "id": "2026-11-02-gemini-carbon",
+   "tipo": "post",
+   "label": "gemini-carbon",
+   "data": "2026-11-02",
+   "score": null
+  },
+  {
+   "id": "cta:CARBON",
+   "tipo": "cta",
+   "label": "CARBON"
+  },
+  {
+   "id": "tema:cibersegurança",
+   "tipo": "tema",
+   "label": "cibersegurança"
+  },
+  {
+   "id": "tema:modelos de IA",
+   "tipo": "tema",
+   "label": "modelos de IA"
+  },
+  {
+   "id": "fonte:Khaleej Times",
+   "tipo": "fonte",
+   "label": "Khaleej Times"
+  },
+  {
+   "id": "fonte:IT Brief",
+   "tipo": "fonte",
+   "label": "IT Brief"
+  },
+  {
+   "id": "fonte:Constellation Research",
+   "tipo": "fonte",
+   "label": "Constellation Research"
+  },
+  {
+   "id": "horario:14h",
+   "tipo": "horario",
+   "label": "14h"
+  },
+  {
+   "id": "2026-11-02-trend-esculacho",
+   "tipo": "post",
+   "label": "trend-esculacho",
+   "data": "2026-11-02",
+   "score": null
+  },
+  {
+   "id": "cta:ZOEIRA",
+   "tipo": "cta",
+   "label": "ZOEIRA"
+  },
+  {
+   "id": "tema:trend",
+   "tipo": "tema",
+   "label": "trend"
+  },
+  {
+   "id": "tema:memória do chatbot",
+   "tipo": "tema",
+   "label": "memória do chatbot"
+  },
+  {
+   "id": "fonte:Central de Ajuda da OpenAI",
+   "tipo": "fonte",
+   "label": "Central de Ajuda da OpenAI"
+  },
+  {
+   "id": "fonte:Showmetech",
+   "tipo": "fonte",
+   "label": "Showmetech"
+  },
+  {
+   "id": "fonte:Metrópoles",
+   "tipo": "fonte",
+   "label": "Metrópoles"
+  },
+  {
+   "id": "fonte:TechTudo",
+   "tipo": "fonte",
+   "label": "TechTudo"
+  },
+  {
+   "id": "horario:09h",
+   "tipo": "horario",
+   "label": "09h"
   }
  ],
  "links": [
@@ -590,6 +852,14 @@
    "target": "2026-11-01-semana-em-ia"
   },
   {
+   "source": "pilar:novidade",
+   "target": "2026-11-02-apple-qwen-china"
+  },
+  {
+   "source": "pilar:novidade",
+   "target": "2026-11-02-gemini-carbon"
+  },
+  {
    "source": "formato:noticia",
    "target": "2026-11-01-anthropic-ipo-p3"
   },
@@ -606,6 +876,14 @@
    "target": "2026-11-01-opera-webai"
   },
   {
+   "source": "paleta:paleta 4",
+   "target": "2026-11-02-apple-qwen-china"
+  },
+  {
+   "source": "paleta:paleta 4",
+   "target": "2026-11-02-extensao-falsa"
+  },
+  {
    "source": "tema:agentes de IA",
    "target": "2026-11-01-em-alta-x"
   },
@@ -616,6 +894,18 @@
   {
    "source": "tema:agentes de IA",
    "target": "2026-11-01-semana-em-ia"
+  },
+  {
+   "source": "tema:agentes de IA",
+   "target": "2026-11-02-em-alta-x"
+  },
+  {
+   "source": "tema:segurança",
+   "target": "2026-11-02-extensao-falsa"
+  },
+  {
+   "source": "tema:segurança",
+   "target": "2026-11-02-ferramentas-gratis"
   },
   {
    "source": "empresa:1Password",
@@ -642,6 +932,14 @@
    "target": "2026-11-01-tutorial-projetos-claude"
   },
   {
+   "source": "empresa:Anthropic",
+   "target": "2026-11-02-em-alta-x"
+  },
+  {
+   "source": "empresa:Anthropic",
+   "target": "2026-11-02-extensao-falsa"
+  },
+  {
    "source": "empresa:OpenAI",
    "target": "2026-11-01-em-alta-x"
   },
@@ -652,6 +950,10 @@
   {
    "source": "empresa:OpenAI",
    "target": "2026-11-01-semana-em-ia"
+  },
+  {
+   "source": "empresa:OpenAI",
+   "target": "2026-11-02-trend-esculacho"
   },
   {
    "source": "fonte:1Password",
@@ -702,6 +1004,30 @@
    "target": "2026-11-01-tutorial-projetos-claude"
   },
   {
+   "source": "rede:instagram",
+   "target": "2026-11-02-apple-qwen-china"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-02-em-alta-x"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-02-extensao-falsa"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-02-ferramentas-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-02-gemini-carbon"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-02-trend-esculacho"
+  },
+  {
    "source": "rede:tiktok",
    "target": "2026-11-01-anthropic-ipo-p3"
   },
@@ -738,6 +1064,30 @@
    "target": "2026-11-01-tutorial-projetos-claude"
   },
   {
+   "source": "rede:tiktok",
+   "target": "2026-11-02-apple-qwen-china"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-02-em-alta-x"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-02-extensao-falsa"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-02-ferramentas-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-02-gemini-carbon"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-02-trend-esculacho"
+  },
+  {
    "source": "rede:youtube",
    "target": "2026-11-01-anthropic-ipo-p3"
   },
@@ -770,12 +1120,40 @@
    "target": "2026-11-01-tutorial-projetos-claude"
   },
   {
+   "source": "rede:youtube",
+   "target": "2026-11-02-apple-qwen-china"
+  },
+  {
+   "source": "rede:youtube",
+   "target": "2026-11-02-em-alta-x"
+  },
+  {
+   "source": "rede:youtube",
+   "target": "2026-11-02-extensao-falsa"
+  },
+  {
+   "source": "rede:youtube",
+   "target": "2026-11-02-ferramentas-gratis"
+  },
+  {
+   "source": "rede:youtube",
+   "target": "2026-11-02-gemini-carbon"
+  },
+  {
+   "source": "rede:youtube",
+   "target": "2026-11-02-trend-esculacho"
+  },
+  {
    "source": "horario:19h",
    "target": "2026-11-01-anthropic-ipo-p3"
   },
   {
    "source": "horario:19h",
    "target": "2026-11-01-semana-em-ia"
+  },
+  {
+   "source": "horario:19h",
+   "target": "2026-11-02-em-alta-x"
   },
   {
    "source": "2026-11-01-anthropic-ipo-p3",
@@ -804,6 +1182,10 @@
   {
    "source": "paleta:paleta 3",
    "target": "2026-11-01-prompts-semana"
+  },
+  {
+   "source": "paleta:paleta 3",
+   "target": "2026-11-02-gemini-carbon"
   },
   {
    "source": "tema:IPO",
@@ -878,12 +1260,32 @@
    "target": "horario:20h"
   },
   {
+   "source": "pilar:em_alta",
+   "target": "2026-11-02-em-alta-x"
+  },
+  {
    "source": "formato:lista",
    "target": "2026-11-01-semana-em-ia"
   },
   {
    "source": "formato:lista",
    "target": "2026-11-01-skills-claude-code"
+  },
+  {
+   "source": "formato:lista",
+   "target": "2026-11-02-apple-qwen-china"
+  },
+  {
+   "source": "formato:lista",
+   "target": "2026-11-02-em-alta-x"
+  },
+  {
+   "source": "formato:lista",
+   "target": "2026-11-02-ferramentas-gratis"
+  },
+  {
+   "source": "formato:lista",
+   "target": "2026-11-02-gemini-carbon"
   },
   {
    "source": "paleta:paleta 1",
@@ -902,12 +1304,28 @@
    "target": "2026-11-01-skills-claude-code"
   },
   {
+   "source": "paleta:paleta 1",
+   "target": "2026-11-02-em-alta-x"
+  },
+  {
+   "source": "paleta:paleta 1",
+   "target": "2026-11-02-trend-esculacho"
+  },
+  {
    "source": "empresa:Google",
    "target": "2026-11-01-opera-webai"
   },
   {
+   "source": "empresa:Google",
+   "target": "2026-11-02-gemini-carbon"
+  },
+  {
    "source": "empresa:Microsoft",
    "target": "2026-11-01-github-agentes"
+  },
+  {
+   "source": "empresa:DeepSeek",
+   "target": "2026-11-02-ferramentas-gratis"
   },
   {
    "source": "2026-11-01-github-agentes",
@@ -942,6 +1360,14 @@
    "target": "horario:17h"
   },
   {
+   "source": "tema:programação",
+   "target": "2026-11-02-extensao-falsa"
+  },
+  {
+   "source": "tema:programação",
+   "target": "2026-11-02-gemini-carbon"
+  },
+  {
    "source": "tema:GitHub",
    "target": "2026-11-01-skills-claude-code"
   },
@@ -968,6 +1394,10 @@
   {
    "source": "horario:17h",
    "target": "2026-11-01-skills-claude-code"
+  },
+  {
+   "source": "horario:17h",
+   "target": "2026-11-02-extensao-falsa"
   },
   {
    "source": "2026-11-01-openai-offline",
@@ -998,6 +1428,10 @@
    "target": "2026-11-01-semana-em-ia"
   },
   {
+   "source": "tema:segurança de IA",
+   "target": "2026-11-02-em-alta-x"
+  },
+  {
    "source": "fonte:OpenAI",
    "target": "2026-11-01-semana-em-ia"
   },
@@ -1024,6 +1458,10 @@
   {
    "source": "tema:IA local",
    "target": "2026-11-01-semana-em-ia"
+  },
+  {
+   "source": "tema:privacidade",
+   "target": "2026-11-02-trend-esculacho"
   },
   {
    "source": "empresa:Opera",
@@ -1070,6 +1508,14 @@
    "target": "2026-11-01-tutorial-projetos-claude"
   },
   {
+   "source": "pilar:tutorial",
+   "target": "2026-11-02-extensao-falsa"
+  },
+  {
+   "source": "pilar:tutorial",
+   "target": "2026-11-02-trend-esculacho"
+  },
+  {
    "source": "formato:tutorial",
    "target": "2026-11-01-tutorial-projetos-claude"
   },
@@ -1092,6 +1538,10 @@
   {
    "source": "paleta:paleta 2",
    "target": "2026-11-01-tutorial-projetos-claude"
+  },
+  {
+   "source": "paleta:paleta 2",
+   "target": "2026-11-02-ferramentas-gratis"
   },
   {
    "source": "2026-11-01-skills-claude-code",
@@ -1138,6 +1588,14 @@
    "target": "horario:12h"
   },
   {
+   "source": "pilar:recomendacao",
+   "target": "2026-11-02-ferramentas-gratis"
+  },
+  {
+   "source": "horario:12h",
+   "target": "2026-11-02-ferramentas-gratis"
+  },
+  {
    "source": "2026-11-01-tutorial-projetos-claude",
    "target": "cta:PROJETO"
   },
@@ -1152,6 +1610,190 @@
   {
    "source": "2026-11-01-tutorial-projetos-claude",
    "target": "horario:21h"
+  },
+  {
+   "source": "2026-11-02-apple-qwen-china",
+   "target": "cta:SIRI"
+  },
+  {
+   "source": "2026-11-02-apple-qwen-china",
+   "target": "tema:IA no celular"
+  },
+  {
+   "source": "2026-11-02-apple-qwen-china",
+   "target": "tema:assistentes de voz"
+  },
+  {
+   "source": "2026-11-02-apple-qwen-china",
+   "target": "tema:China"
+  },
+  {
+   "source": "2026-11-02-apple-qwen-china",
+   "target": "empresa:Apple"
+  },
+  {
+   "source": "2026-11-02-apple-qwen-china",
+   "target": "empresa:Alibaba"
+  },
+  {
+   "source": "2026-11-02-apple-qwen-china",
+   "target": "fonte:Apple via MacRumors"
+  },
+  {
+   "source": "2026-11-02-apple-qwen-china",
+   "target": "fonte:CGTN"
+  },
+  {
+   "source": "2026-11-02-apple-qwen-china",
+   "target": "fonte:Phemex/PANews"
+  },
+  {
+   "source": "2026-11-02-apple-qwen-china",
+   "target": "horario:07h"
+  },
+  {
+   "source": "tema:IA no celular",
+   "target": "2026-11-02-ferramentas-gratis"
+  },
+  {
+   "source": "2026-11-02-em-alta-x",
+   "target": "cta:AGENTE"
+  },
+  {
+   "source": "2026-11-02-em-alta-x",
+   "target": "tema:cripto"
+  },
+  {
+   "source": "2026-11-02-em-alta-x",
+   "target": "empresa:Circle"
+  },
+  {
+   "source": "2026-11-02-em-alta-x",
+   "target": "fonte:DigitalToday"
+  },
+  {
+   "source": "2026-11-02-em-alta-x",
+   "target": "fonte:AlphaSignal"
+  },
+  {
+   "source": "2026-11-02-em-alta-x",
+   "target": "fonte:CoinDesk"
+  },
+  {
+   "source": "2026-11-02-extensao-falsa",
+   "target": "formato:reel"
+  },
+  {
+   "source": "2026-11-02-extensao-falsa",
+   "target": "cta:SEGURO"
+  },
+  {
+   "source": "2026-11-02-extensao-falsa",
+   "target": "tema:extensões"
+  },
+  {
+   "source": "2026-11-02-extensao-falsa",
+   "target": "empresa:Cursor"
+  },
+  {
+   "source": "2026-11-02-extensao-falsa",
+   "target": "fonte:Cursor (aviso de segurança)"
+  },
+  {
+   "source": "2026-11-02-extensao-falsa",
+   "target": "fonte:Help Net Security"
+  },
+  {
+   "source": "2026-11-02-extensao-falsa",
+   "target": "fonte:The Hacker News"
+  },
+  {
+   "source": "formato:reel",
+   "target": "2026-11-02-trend-esculacho"
+  },
+  {
+   "source": "2026-11-02-ferramentas-gratis",
+   "target": "cta:GRATIS"
+  },
+  {
+   "source": "2026-11-02-ferramentas-gratis",
+   "target": "tema:ferramentas grátis"
+  },
+  {
+   "source": "2026-11-02-ferramentas-gratis",
+   "target": "tema:open source"
+  },
+  {
+   "source": "2026-11-02-ferramentas-gratis",
+   "target": "tema:jogos"
+  },
+  {
+   "source": "2026-11-02-ferramentas-gratis",
+   "target": "fonte:READMEs oficiais"
+  },
+  {
+   "source": "2026-11-02-ferramentas-gratis",
+   "target": "fonte:GitHub (estrelas)"
+  },
+  {
+   "source": "2026-11-02-gemini-carbon",
+   "target": "cta:CARBON"
+  },
+  {
+   "source": "2026-11-02-gemini-carbon",
+   "target": "tema:cibersegurança"
+  },
+  {
+   "source": "2026-11-02-gemini-carbon",
+   "target": "tema:modelos de IA"
+  },
+  {
+   "source": "2026-11-02-gemini-carbon",
+   "target": "fonte:Khaleej Times"
+  },
+  {
+   "source": "2026-11-02-gemini-carbon",
+   "target": "fonte:IT Brief"
+  },
+  {
+   "source": "2026-11-02-gemini-carbon",
+   "target": "fonte:Constellation Research"
+  },
+  {
+   "source": "2026-11-02-gemini-carbon",
+   "target": "horario:14h"
+  },
+  {
+   "source": "2026-11-02-trend-esculacho",
+   "target": "cta:ZOEIRA"
+  },
+  {
+   "source": "2026-11-02-trend-esculacho",
+   "target": "tema:trend"
+  },
+  {
+   "source": "2026-11-02-trend-esculacho",
+   "target": "tema:memória do chatbot"
+  },
+  {
+   "source": "2026-11-02-trend-esculacho",
+   "target": "fonte:Central de Ajuda da OpenAI"
+  },
+  {
+   "source": "2026-11-02-trend-esculacho",
+   "target": "fonte:Showmetech"
+  },
+  {
+   "source": "2026-11-02-trend-esculacho",
+   "target": "fonte:Metrópoles"
+  },
+  {
+   "source": "2026-11-02-trend-esculacho",
+   "target": "fonte:TechTudo"
+  },
+  {
+   "source": "2026-11-02-trend-esculacho",
+   "target": "horario:09h"
   }
  ]
 }
