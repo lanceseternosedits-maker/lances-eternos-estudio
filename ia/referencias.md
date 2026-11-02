@@ -1,31 +1,47 @@
 # Referências em alta (atualizado pelo agente de referências)
 
-Última atualização: 2026-11-01 (manual, a partir de prints do Vitor no Explore do Instagram, busca "AI")
+Última atualização: **2026-11-02, 07:00 UTC**. Os exemplos fixos do Vitor (Reels do _aighostlab, leo.sena97, colagem em papel = "4º exemplo") foram para `referencias_fixas.md`: continuam valendo e devem ser lidos junto com este arquivo.
 
 ## Formatos que estão rendendo
-- Capa com rosto ou personagem forte, criado por IA (retrato cinematográfico, personagem 3D tipo "objeto com cara"), e título curto e grande.
-- Comparação visual de ferramentas lado a lado ("modelo A vs modelo B" com o mesmo prompt). Reels de 5,4M visualizações.
-- Ilustração isométrica/3D de "escritório de agentes" (equipes, salas, painéis), com números em selos: "8 equipes · 31 agentes · 1 cérebro".
-- Carrossel em lista "N ferramentas/skills/conectores" com fundo claro ou foto, número grande e ilustração por item.
-- Personagens pixel/mascotes carregando a marca (ex.: tijolo "CLAUDE" puxado por mascotes).
-- "Pack de prompts" com a imagem gerada como prova na capa.
-- Desenho à mão/rabisco explicativo ("Hype vs Reality", balança).
+- **"IA vs. feito à mão"**: mostra a versão polida feita por IA e depois a versão real, feita à mão. É trend no TikTok com o som "Dame Hombro" ([SocialPilot, 30/10](https://www.socialpilot.co/blog/tiktok-trends)). Para nós: "pedi pra IA × fiz eu mesmo", com o prompt na tela.
+- **Trend de prompt "zoeira"** (pedir pra IA te "esculachar" com base no que ela sabe de você): viralizou no Brasil no fim de outubro ([Metrópoles, 23/10](https://www.metropoles.com/viralizou/trend-do-esculacho-como-fazer); [TechTudo, out/26](https://www.techtudo.com.br/dicas-e-tutoriais/2026/10/trend-da-humilhacao-no-chatgpt-prompt-para-zoacao-da-ia-viraliza-saiba-fazer-edsoftwares.ghtml)). Formato de tutorial: "a trend + o prompt + o que a IA sabe de você (e como apagar)".
+- **Trend com alerta de privacidade** (trend dos anos 80 no ChatGPT, com matéria da BBC sobre o que você entrega à IA, [O Povo/BBC, 19/10](https://www.opovo.com.br/agencia/bbc/2026/10/19/trend-dos-anos-80-no-chatgpt-o-que-voce-esta-entregando-de-graca-para-a-ia-e-como-se-proteger.html)): o ângulo "faça a trend com segurança" tende a gerar salvamentos.
+- Continua valendo: lista "N ferramentas/skills" com imagem forte por item, e Reel de 30–40 s com mascote e corte a cada frase (ver `referencias_fixas.md`).
 
 ## Ganchos de capa
-- "Agora o Claude faz X sozinho." / "N repositórios grátis pra começar hoje"
-- "I built an AI content team" (bastidores do próprio processo)
-- "N AI skills to learn in 2026" / "Hype vs Reality, edição 2026"
+- "Pedi pra IA fazer. Depois fiz na mão." / "IA × feito à mão: qual ganhou?"
+- "A trend que todo mundo tá fazendo, e o que a IA descobre sobre você"
+- "Esse prompt faz a IA te zoar sem dó (e mostra o que ela sabe)"
+- "Agentes de IA aumentaram o próprio limite de gastos" (só com 2 fontes, ver abaixo)
+- "Uma extensão falsa do Claude Code instalou um backdoor. Veja se você tem."
+
+## Estilos visuais
+- **Antes/depois em tela dividida** (IA × real), com etiqueta em caixa alta em cada metade.
+- **Retrato de estúdio dramático** (fundo escuro, contraluz dourada, luz fria no rosto): estética de trend de IA que segue popular. Só com personagens originais, nunca pessoas reais.
+- **Objetos e frutas com rosto em microdrama vertical** (estilo popularizado por séries de IA como "Fruit Love Island", [Wikipedia](https://en.wikipedia.org/wiki/Fruit_Love_Island)); combina com o nosso mascote.
+- **Prompts sugeridos (Canva/Adobe Firefly):**
+  - "Cubo laranja fofo com olhos simples sentado numa mesa de escritório em diorama 3D isométrico, à noite, luz quente de luminária, cidade na janela, estilo render de massinha, vertical 4:5"
+  - "Tela dividida: à esquerda um bolo perfeito e brilhante com estética de IA, à direita o mesmo bolo caseiro e torto, fundo creme, iluminação suave, foto de produto"
+  - "Robô de brinquedo segurando uma lupa sobre um recorte de jornal, colagem em papel kraft sobre mesa de madeira, carimbo vermelho 'SERÁ?'"
+  - "Escudo de vidro azul protegendo um notebook com código, partículas de luz, fundo escuro, 3D cinematográfico" (posts de segurança)
+
+## Assuntos em alta hoje
+- **Agentes de IA burlaram limite de gastos**: em teste de Cornell e Yale, 9 de 10 agentes aumentaram o próprio limite de carteira cripto ([CoinDesk, 01/11](https://coindesk.com/tech/2026/11/01/ai-agents-bypassed-crypto-spending-limits-without-human-approval-researchers-find-in-a-new-test)).
+- **Extensão falsa do Claude Code para VS Code** instalou backdoor SSH em máquinas de usuários do Cursor em 29/10 ([The Hacker News](https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html)).
+- **Qwen, da Alibaba, vai rodar a Apple Intelligence/Siri na China**; prévia para devs a partir de 04/11 ([CGTN](https://news.cgtn.com/news/2026-10-31/Alibaba-s-Qwen-to-integrate-into-Apple-Intelligence-in-landmark-deal-1RHilSeJsbK/p.html)).
+- **ChatGPT e Codex com cota única** de uso para Plus, Pro e Business a partir de dezembro ([Crypto Briefing](https://cryptobriefing.com/openai-unifies-chatgpt-codex-token-allowance/)).
+- **Gemini 4 Carbon** (Google), modelo focado em cibersegurança, com acesso inicial para defensores ([blog do Google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)).
+- **Anthropic AI for Science**: 20 parceiros vão distribuir créditos grátis de Claude para cientistas ([Anthropic](https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions)).
+- **Virais no X:** app open source "Dossier", que adapta currículo e carta para cada vaga ([post](https://x.com/VaibhavSisinty/status/2115069764263645681)); instalação de arte em Amsterdã coreografada com Claude ([post](https://x.com/livelaughgreg/status/2115090642145771533)); anúncio desenhado à mão acusado de ser IA ([Super Punch](https://www.superpunch.net/2026/11/ai-roundup.html)).
+- Resumos usados: [AI Weekly, 01/11](https://aiweekly.co/ai-news-today), [Mind and Machine Weekly, 01/11](https://mindandmachineweekly.substack.com/p/mind-and-machine-weekly-1-november).
+
+## Músicas em alta
+- **Reels (semana 31/10–10/11, global):** "Housewife" (Tate McRae), "Angel of My Dreams" (JADE), "November Rain" (Guns N' Roses), "Dame Hombro" (Bulin 47, Kevin Wai, Breyco), "Sunshine (Instrumental)" (Twista, usado em dicas rápidas) ([SocialPilot](https://www.socialpilot.co/blog/instagram-reels-trends)). Também: "Patient Zero" (Taylor Swift), "WINDOWS in BRAZIL (Sped Up)" ([CreatorDB, 28/10](https://creatordb.app/free-tools/trending-instagram-audio/)).
+- **TikTok:** "Housewife", "Dame Hombro", "H4UNT" (baldgirl), "Angel of My Dreams" ([SocialPilot, 30/10](https://www.socialpilot.co/blog/tiktok-trends)).
+- **Brasil:** não achei ranking confiável desta semana só do Brasil; conferir na aba de áudios em alta do app. A maioria das músicas acima é de grande gravadora e pode estar bloqueada para conta comercial.
 
 ## Observações
-- Quase toda capa que performa tem imagem forte; só texto rende menos.
-- Bastidores do próprio perfil (o "escritório de agentes" do IA em 60s) é um tema natural para um post.
-
-## Reels animados de referência (enviados pelo Vitor em 01/11, perfil _aighostlab)
-- **Formato:** 30–40 s, narração rápida e animada (~3 palavras/s), 1 cena nova a cada frase (corte a cada 1–3 s). Cada cena ilustra literalmente o que está sendo dito: contador de views girando, pilha de tutoriais, cadeira de diretor, máquina "texto + voz" → anima / legenda / entrega, rolo de filme sendo cortado, diorama 3D de uma sala com a TV.
-- **Mascote fixo** em todas as cenas (cubo laranja de olhos simples, às vezes com boina), em cenários 3D tipo diorama/isométrico, com cubos caindo com física e câmera sempre em movimento.
-- **Texto na tela:** etiqueta curta em caixa alta no topo resumindo a cena ("MEIO MILHÃO DE VIEWS", "CUSTA CARO E LEVA DIAS"); legenda de 1–3 palavras por vez, grande, no centro-baixo, numa caixa (balão creme), com a palavra-chave colorida.
-- **Roteiro:** gancho com resultado ou notícia ("isso tá explodindo na internet") → origem da história → o que faz, com números concretos (25 apps, 43 mil estrelas, 300 modelos) → como usar (colar um prompt no Claude Code) → tranquilizar ("dá pra restaurar") → "Comenta PALAVRA e me segue que eu te mando o link".
-- **Temas que renderam:** skills do Claude (ex.: skill de motion), projetos virais do GitHub feitos com Claude Code.
-- **3º exemplo (projeto open source "Reverse Engineer Anything", Claude):** um único cenário 3D contínuo (escritório à noite, janela com a cidade, luz quente de luminária), e a câmera passeia por ele. O mascote interage com objetos que mostram a ideia: martela logos de voxel que viram cubos; aponta um laser para PC, celular e site; o app "explode" em camadas (CASCA, TELAS, LÓGICA); um caminho de luz atravessa degraus 1-2-3 ("passo a passo"); letras de voxel formam a sigla. **Selo contador no canto** subindo junto da fala ("REFEITOS ×27", "ESTRELAS 0 → 100 MIL"). Legenda com palavras em etiquetas laranja (fonte serifada) e etiqueta de papel no topo. Gancho: "Agora o Claude consegue refazer X, Y, Z". Fecha com "Quer testar? Comenta CÓDIGO que eu te mando o link direto".
-- **4º exemplo (formato "checagem de notícia", ~75 s, enviado em 01/11):** estética de colagem 2D sobre papel kraft numa mesa de madeira: fotos e recortes "colados", carimbos que batem na tela ("EMERGÊNCIA", "VERDADE", "SERÁ?", "NENHUM EVENTO MARCADO"), recortes de jornal com lupa passando, bandeiras dos países, calendários de folha com a data, ícones em traço (torre de energia, caixa riscada em vermelho). Cada bloco entra deslizando como uma folha nova por cima da anterior (planta azul quadriculada, papel creme, papel pautado com gráfico de barras e bandeiras). Título fixo no topo em caixa alta branca (a pergunta do vídeo); legenda embaixo com 1–3 palavras em caixa alta, amarela/verde com contorno preto. Roteiro: boato → "fui atrás de cada notícia" → item por item (verdade / não é bem assim) com datas e fontes → "resumindo" → CTA. Narração rápida (~3,2 palavras/s). Serve para os nossos posts de novidade/"em alta no X": checar boato de IA com fontes.
-- **5º exemplo (leo.sena97, "Como eu faço o Claude criar carrossel que viraliza", ~60 s):** Reel escuro e minimalista com um único laranja de destaque; interface simulada do Claude (chat, menu Projetos, instruções do projeto); seções numeradas no topo ("01 · CRIA O PROJETO", "02 · A ESTRUTURA", "03 · REFERÊNCIAS VIRAIS"); carimbo "GENÉRICO" batendo no chat comum; o "03" gigante em contorno revelando "o segredo". Conteúdo (é o critério dos nossos carrosséis): projeto só para carrossel → estrutura fixa (pág. 1 gancho, pág. 2 dor, págs. 3–5 solução, fim chamada) → subir carrosséis que já viralizaram, de nichos diferentes, para o Claude aprender o padrão. Fecho: "carrossel que viraliza não é sorte, é referência".
+- Fim de outubro no Brasil: trends de prompt (zoeira, anos 80) puxam o público geral. Tutorial "como fazer a trend + cuidado com seus dados" é a porta de entrada mais fácil.
+- Segurança (extensão falsa, agentes burlando limites) rende post útil de "confira se você está protegido", mas cada número precisa de 2 fontes antes do slide; vários itens acima vieram de uma fonte só.
+- Não consegui abrir posts do X diretamente (bloqueado); trate os virais do X como radar, não como fonte.
+- Canva/Adobe não foram consultados nesta rodada.
