@@ -1,0 +1,85 @@
+{
+ "slug": "ias-trabalham",
+ "formato": "lista",
+ "cover": {
+  "title_html": "3 IAs que trabalham<br><span class=\"g\">por você.</span>",
+  "sub": "Entre as mais votadas do Product Hunt em 02/11",
+  "imgs": [
+   "capa.jpg",
+   "embage.jpg",
+   "claws.jpg"
+  ]
+ },
+ "dor": {
+  "kick": "O PROBLEMA",
+  "title": "Você às 23h respondendo cliente, e-mail e pesquisa.",
+  "body": "Dá pra entregar o rascunho de tudo isso pra uma IA. Você só revisa e aprova.",
+  "carimbo": "23H"
+ },
+ "items": [
+  {
+   "n": "01",
+   "repo": "clawsgo.ai",
+   "kick": "ClawsGO Science · pesquisa",
+   "title": "Faz sua pesquisa por horas, sozinha.",
+   "body": "Descreva o tema em uma frase. Ela lê artigos, analisa dados e entrega relatório em PDF.",
+   "img": "claws.jpg",
+   "fit": "cover",
+   "pos": "50% 50%",
+   "chips": [
+    [
+     "Product Hunt",
+     "279 votos"
+    ],
+    [
+     "Aviso",
+     "confira as fontes"
+    ]
+   ]
+  },
+  {
+   "n": "02",
+   "repo": "embage.com",
+   "kick": "Embage · atendimento",
+   "title": "Atende os clientes do seu site.",
+   "body": "Responde por chat ou voz, consulta seus documentos e salva contatos. Sua equipe assume quando quiser.",
+   "img": "embage.jpg",
+   "fit": "cover",
+   "pos": "50% 50%",
+   "chips": [
+    [
+     "Product Hunt",
+     "171 votos"
+    ],
+    [
+     "Tem",
+     "plano Free"
+    ]
+   ]
+  },
+  {
+   "n": "03",
+   "repo": "fluentmac.app",
+   "kick": "Fluent 2 · Mac",
+   "title": "Reescreve sua resposta em qualquer app.",
+   "body": "Aperte ⌥ Espaço, peça o que precisa e ele escreve ali mesmo. Funciona até com IA local.",
+   "img": "fl_sent.jpg",
+   "fit": "cover",
+   "pos": "0% 0%",
+   "chips": [
+    [
+     "Product Hunt",
+     "74 votos"
+    ],
+    [
+     "Teste",
+     "7 dias"
+    ]
+   ]
+  }
+ ],
+ "cta": {
+  "key": "LINKS",
+  "promise": "Os 3 links e qual usar primeiro no seu caso."
+ }
+}

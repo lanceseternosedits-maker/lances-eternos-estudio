@@ -1,0 +1,5 @@
+Opa! Aqui estão 👇
+1. ClawsGO Science (pesquisa e relatório): https://clawsgo.ai/ — melhor pra quem estuda ou precisa de levantamento com fontes. Confira as referências antes de usar.
+2. Embage (atendente de IA pro site): https://embage.com/ — melhor pra quem vende online. Tem plano Free usando sua própria chave de IA (OpenRouter ou Vercel AI Gateway); os pagos têm 7 dias de teste.
+3. Fluent 2 (Mac): https://fluentmac.app/ — melhor pra quem responde muito e-mail. Teste de 7 dias, depois compra única.
+Por onde começar: vende online → Embage. Estuda → ClawsGO. Vive no e-mail → Fluent. 😉
