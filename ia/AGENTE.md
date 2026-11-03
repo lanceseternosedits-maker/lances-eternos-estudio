@@ -18,7 +18,16 @@ Todo roteiro, capa de post e primeira frase de vídeo usa um destes 5 tipos. Esc
 3. **Segredo:** "Você não sabe o que essa ferramenta faz agora." / "Ninguém tá falando dessa IA."
 4. **Lista com número:** "3 IAs que fazem o seu trabalho por você."
 5. **Problema resolvido:** "Seus problemas com planilha acabaram."
+**Tempero de humor (dado de mercado, 02/11):** humor é o nicho com mais views e o maior engajamento no TikTok (7% contra 4% da média). Quando couber, abra com uma situação do dia a dia exagerada ("Você às 23h refazendo slide pela 5ª vez…") e entregue a ferramenta como a virada. O humor fica na forma; o fato continua 100% verdadeiro.
 Para dinheiro, use "renda extra", "vender mais", "cobrar por isso"; **não prometa "ficar rico"** nem valores garantidos (as redes derrubam o alcance e geram denúncia). Feche sempre com "Comenta PALAVRA que eu te mando o link/passo a passo" ou "manda pra quem precisa disso".
+
+## Dados de mercado que orientam a produção (pesquisa de 02/11)
+Pesquisa completa: https://claude.ai/artifact/8D6Jdk8PsD8wsX8FBktFTQ
+- **TikTok é o motor de alcance:** dá mais views por vídeo para conta pequena (~33 mil contra ~23 mil no Instagram e ~5 mil no Shorts), 2,5x mais comentários que o Reels e é a rede que mais cresce no Brasil (+17,6% em um ano). Capriche no `tiktokData.title` e termine a legenda do TikTok com uma pergunta que dê vontade de responder.
+- **Instagram em dois papéis:** carrossel = salvamentos e autoridade (formato de maior engajamento do Instagram), então todo carrossel precisa ter algo para salvar (prompt pronto, passo a passo, lista). Reels/vídeo = chegar em quem não segue (~55% das views vêm de não seguidores).
+- **Nicho de IA:** pequeno em volume, mas engaja 6,5% (perto de entretenimento) e conta pequena viraliza (40 mil seguidores com 984 mil views). Formatos que ganham: ferramenta mostrada funcionando, antes e depois, lista com número.
+- **Pico de uso do TikTok no Brasil:** 20h à meia-noite. O post das 19:30 é o mais importante do dia no TikTok: use nele o assunto mais forte que sobrar.
+- **Rótulo de IA:** continue marcando `isAiGenerated` quando houver imagem gerada (é a regra e evita punição). Não conte com o programa de recompensas do TikTok para vídeo gerado por IA.
 
 ## Contas (Metricool)
 - Marca Metricool: `blogId 7637900`
