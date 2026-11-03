@@ -1,0 +1,15 @@
+{
+ "voz": "Puck",
+ "chave": "VAGA",
+ "fontes": ["https://github.com/AienTech/dossier", "https://alphasignal.ai/news/a-developer-built-dossier-for-his-wife-and-open-sourced-it"],
+ "prova_viral": "Dossier viral no X (post de @VaibhavSisinty, listado em referencias.md de 02/11) e 1.000+ estrelas no GitHub (AlphaSignal)",
+ "segmentos": [
+  {"cena": "pilha", "tag": "CURRÍCULO", "fala": "Você manda o mesmo currículo pra cinquenta vagas e ninguém te chama?", "legenda": "Você manda o mesmo currículo pra 50 vagas e ninguém te chama?"},
+  {"cena": "dev", "tag": "A HISTÓRIA", "fala": "Um programador criou uma IA pra esposa conseguir emprego.", "legenda": "Um programador criou uma IA pra esposa conseguir emprego."},
+  {"cena": "vaga", "tag": "COMO FUNCIONA", "fala": "Ela colava a vaga, e a IA reescrevia o currículo e a carta só pra aquela vaga.", "legenda": "Ela colava a vaga, e a IA reescrevia o currículo e a carta só pra aquela vaga."},
+  {"cena": "estrelas", "tag": "RESULTADO", "fala": "Ela foi contratada. Ele abriu o código, e o app passou de mil estrelas no GitHub.", "legenda": "Ela foi contratada. Ele abriu o código, e o app passou de 1.000 estrelas no GitHub."},
+  {"cena": "chat", "tag": "SEM INSTALAR", "fala": "Você faz igual sem instalar nada: cola seu currículo e a vaga no Clód ou no ChatGPT.", "legenda": "Você faz igual sem instalar nada: cola seu currículo e a vaga no Claude ou no ChatGPT."},
+  {"cena": "prompt", "tag": "O PROMPT", "fala": "E pede: adapte meu currículo pra essa vaga, sem inventar experiência.", "legenda": "E pede: adapte meu currículo pra essa vaga, sem inventar experiência."},
+  {"cena": "cta", "tag": "COMENTA", "fala": "Comenta VAGA que eu te mando o prompt completo.", "legenda": "Comenta VAGA que eu te mando o prompt completo."}
+ ]
+}
