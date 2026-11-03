@@ -1,0 +1,33 @@
+Reel "Currículo com IA" (IA em 60s) - 03/11/2026 - aguardando 2ª aprovação do Vitor (nada publicado nem agendado)
+
+MODELOS (todos pela mesma chave do Gemini)
+- Voz: gemini-3.1-flash-tts-preview, voz Puck (video/tts_gemini.py); tempos de palavra pelo faster-whisper small.
+  Transcrição conferida: bate com o roteiro (o Whisper escreve "Clod" e "Chat XPT" para Clód/ChatGPT, mas a fala está certa). 85/91 palavras medidas.
+- Mascote: gemini-3.1-flash-image (Nano Banana), 1 imagem 9:16 -> mascote.jpg (robozinho laranja original, tela com olhos ciano).
+- Cenas: gemini-omni-1.1-flash pela Interactions API (POST v1beta/interactions, response_format {type: video, aspect_ratio 9:16,
+  resolution 720p, duration "Ns"}, background + polling), mascote.jpg como imagem de referência em todas. 720x1280, 24 fps.
+  (Veo 3.1 Preview foi desligado em 22/10 segundo a página do modelo; não foi usado.)
+
+CUSTO ESTIMADO (~US$ 0,10/s em 720p)
+- Vídeo: 56 s gerados (pilha 6, dev 4, vaga 6+6, estrelas 6, chat 6+6, prompt 6, cta 4+6) = ~US$ 5,60
+- Imagem ~US$ 0,07 + voz ~US$ 0,02  ->  TOTAL ~US$ 5,70 (limite US$ 8)
+
+DURAÇÃO FINAL: 31,2 s, 1080x1920, 30 fps, -14,4 LUFS, 17 MB.
+
+PROBLEMAS E CORREÇÕES
+- 1ª tentativa do clipe "prompt" falhou (RESOURCE_EXHAUSTED por gerar 6 clipes ao mesmo tempo; sem cobrança); repetido e saiu bom.
+- "vaga" (1ª e 2ª versões) e "chat" (2ª versão, no fim) mostraram o logo da maçã no monitor, mesmo com o prompt proibindo logos.
+  Corrigido apagando o logo quadro a quadro (video/apaga_logo.py: localiza o logo e pinta por cima com a cor do monitor).
+  No "chat", por ~0,3 s a mão do mascote passa sobre a área apagada e fica levemente borrada.
+- "chat" 1ª versão tinha falsas letras nos balões do chat; refeito com balões vazios.
+- "cta" 1ª versão (e "dev", "vaga") começam com a imagem de referência em fundo cinza por 0,3-0,9 s; resolvido pulando esse
+  trecho (clipes.json: ini do dev 0,4 s, vaga 0,45 s, cta 0,9 s). "prompt" começa em 1,2 s para o check verde aparecer no meio da fala.
+- "COMENTA VAGA" cobria o rosto do mascote no último segmento; movido para baixo da legenda, numa linha.
+- Restam rabiscos ilegíveis em post-its no fundo de algumas cenas (pilha, chat); nenhuma palavra legível.
+- Efeitos sonoros: adicionado o campo "sfx" no roteiro (papel, carimbo, digitação, riser, ding, pop) sem mexer em fala/legenda.
+
+COMO REFAZER
+  python3 video/musica.py posts/2026-11-03-curriculo-ia/out
+  python3 video/sfx_mix.py posts/2026-11-03-curriculo-ia/roteiro.json posts/2026-11-03-curriculo-ia/out
+  python3 video/compor.py posts/2026-11-03-curriculo-ia/roteiro.json posts/2026-11-03-curriculo-ia/out posts/2026-11-03-curriculo-ia/clipes.json
+  (clipes brutos ficam em out/clipes/, que não vai para o repositório)
