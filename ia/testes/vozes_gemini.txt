@@ -1,0 +1,3 @@
+Teste de vozes Gemini TTS - 2026-11-03
+Chave GEMINI_API_KEY presente: nao
+Teste nao executado: a variavel GEMINI_API_KEY nao existe no ambiente desta execucao.
