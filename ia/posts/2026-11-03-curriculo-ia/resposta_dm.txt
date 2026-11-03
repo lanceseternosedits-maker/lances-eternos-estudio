@@ -1,0 +1,15 @@
+Opa! Aqui está o prompt (cola no Claude ou no ChatGPT, junto com seu currículo e o texto da vaga):
+
+"Você é um recrutador experiente. Abaixo estão meu currículo e a descrição de uma vaga.
+1) Liste os requisitos principais da vaga e diga quais eu atendo, com base só no meu currículo.
+2) Reescreva meu currículo para essa vaga: reordene e destaque as experiências mais relevantes, use as palavras-chave da vaga e mantenha tudo verdadeiro. NÃO invente experiência, cargo, data ou número.
+3) Aponte as lacunas que eu deveria preencher ou explicar.
+4) Escreva uma carta de apresentação curta (até 200 palavras), no tom da empresa.
+
+MEU CURRÍCULO:
+[cole aqui]
+
+A VAGA:
+[cole aqui]"
+
+Dica: revise tudo antes de enviar e faça uma versão para cada vaga.
