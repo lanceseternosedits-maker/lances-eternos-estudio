@@ -11,13 +11,12 @@ AUDIO = sys.argv[sys.argv.index("--audio") + 1] if "--audio" in sys.argv else No
 S = R["segmentos"]; INI = 0.25
 MODELO = R.get("modelo", os.environ.get("GEMINI_TTS_MODEL", "gemini-3.1-flash-tts-preview"))
 VOZ = R.get("voz", "Puck")
-ESTILO = R.get("estilo", "Leia em português do Brasil, como um criador de Reels animado e confiante: "
-               "ritmo rápido mas claro, energia alta no começo, sem soar robótico, pausas curtas só na pontuação.")
+ESTILO = R.get("estilo", "Diga em português do Brasil, com energia de criador de Reels, ritmo rápido e natural")
 texto = " ".join(s["fala"].strip() for s in S)
 
 # 1) gerar a voz (PCM 24 kHz mono)
 if not AUDIO:
-    body = {"contents": [{"parts": [{"text": f"{ESTILO}\n\n{texto}"}]}],
+    body = {"contents": [{"parts": [{"text": f"{ESTILO}: {texto}"}]}],
             "generationConfig": {"responseModalities": ["AUDIO"],
                                  "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": VOZ}}}}}
     req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{MODELO}:generateContent",
@@ -40,6 +39,17 @@ segw, _ = WhisperModel("small", compute_type="int8").transcribe(wav, language="p
 ww = [(w.word.strip(), w.start, w.end) for s in segw for w in s.words if w.word.strip()]
 
 norm = lambda w: re.sub(r"\W", "", unicodedata.normalize("NFKD", w.lower()).encode("ascii", "ignore").decode())
+# o TTS às vezes lê a instrução de tom em voz alta: acha onde o roteiro começa de verdade e corta o que vem antes
+alvo = [norm(w) for w in texto.split()[:8]]
+def nota(i): return sum(1 for a, b in zip(alvo, [norm(w) for w, _, _ in ww[i:i + 8]]) if a == b)
+ini = max(range(len(ww)), key=lambda i: (nota(i), i)) if ww else 0
+if ini > 0 and nota(ini) >= 4:
+    corte = max(0.0, ww[ini][1] - 0.12)
+    print(f"aviso: {corte:.1f}s antes do roteiro foram cortados (instrução lida em voz alta)")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{corte:.3f}", "-i", AUDIO, "-b:a", "128k", f"{OUT}/voz_cortada.mp3"], check=True)
+    os.replace(f"{OUT}/voz_cortada.mp3", f"{OUT}/voz.mp3"); AUDIO = f"{OUT}/voz.mp3"
+    ww = [(w, a - corte, b - corte) for w, a, b in ww[ini:]]; dur -= corte
+
 fal = [(k, w) for k, s in enumerate(S) for w in s["fala"].split()]          # palavras do roteiro, com o segmento
 tm = [None] * len(fal)
 sm = difflib.SequenceMatcher(None, [norm(w) for _, w in fal], [norm(w) for w, _, _ in ww], autojunk=False)
