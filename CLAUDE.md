@@ -22,8 +22,9 @@ Perfil de Vitor Gofredo: a IA que importa explicada em 60 segundos, em portuguê
 - **Git:** trabalhe e faça push no ramo `midia-ia` (`git pull --rebase` se o push for rejeitado). Não suba `out/frames`, clipes brutos nem `_short/`.
 
 ## Tarefas agendadas (Claude Code na nuvem)
-- **IA em 60s – caçador de referências:** todo dia às 03:53 de Brasília; atualiza `ia/referencias.md`.
-- **IA em 60s – produção diária:** todo dia às 04:47 de Brasília; produz e agenda até 2 carrosséis (13:00 e, se bater o padrão, 19:30) e manda 1 roteiro de vídeo para aprovação.
+- **IA em 60s – caçador de referências:** seg/qua/sex às 03:53 de Brasília (Sonnet); atualiza `ia/referencias.md`.
+- **IA em 60s – produção:** seg/qua/sex às 04:47 de Brasília (Sonnet); cobre 2 dias (1 carrossel por dia às 13:00) e manda 1 roteiro de Reel para aprovação.
+- **Economia de tokens:** respostas curtas, poucas buscas, 1 folha de miniaturas por peça; trabalho pesado (vídeo 3D) em sessão nova e curta.
 - Metricool: `blogId 7637900`, fuso `America/Sao_Paulo`.
 
 ## Manual do agente
