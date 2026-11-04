@@ -1,0 +1,28 @@
+Reel "YouTube em 2 horas" (HackerTube) - IA em 60s - 04/11/2026 - aguardando 2ª aprovação do Vitor (nada agendado)
+
+ARQUIVOS
+- reel.mp4: versão com trilha própria (TikTok, onde a API não deixa escolher música para vídeo).
+- reel_ig.mp4: mesma edição só com voz + efeitos, para o Instagram receber o áudio em alta por cima (audioConfiguration).
+
+MODELOS (todos pela chave do Gemini; nada de vídeo gerado por IA)
+- Voz: gemini-3.1-flash-tts-preview, voz Puck, gerada FRASE POR FRASE (video/tts_frases.py) porque o modelo do Whisper
+  não baixa nesta rede (huggingface bloqueado). Cada corte de cena cai exatamente na troca de frase; dentro da frase a
+  legenda avança por sílabas. Fala conferida por transcrição do gemini-3.8-flash: bate 100% com o roteiro.
+- Cenas: 7 imagens gemini-3.1-flash-image (Nano Banana), 9:16, 1K, mascote.jpg de referência.
+  Animadas com video/anima_imagens.py (zoom de impacto, zoom suave, câmera ancorada), sem custo.
+- Montagem: video/compor.py (etiqueta no topo, legenda palavra por palavra, COMENTA TUBE no fim, sem selo contador),
+  trilha video/musica.py, efeitos video/sfx_mix.py, -14 LUFS.
+
+CUSTO ESTIMADO (preço por imagem não confirmado; ~US$ 0,04-0,07 por imagem 1K)
+- 19 imagens: 7 cenas + 7 duplicadas por erro meu (um comando antigo em segundo plano rodou de novo) + 3 refeitas
+  (vieram com faixas, como foto horizontal dentro do quadro) + 2 edições (texto no rosto do mascote, logo da maçã no notebook)
+- 2 vozes (a 1ª, numa tomada só, foi descartada) + 1 transcrição de conferência
+- TOTAL estimado: ~US$ 0,85-1,40. ACIMA do teto de US$ 0,50. Sem os 7 duplicados e as 3 refeitas, teria ficado em ~US$ 0,40-0,60.
+  Correção para os próximos: prompt "full-bleed" (sem moldura) já no comando e nunca rodar dois lotes de imagem ao mesmo tempo.
+
+DURAÇÃO FINAL: 29,4 s, 1080x1920, 30 fps.
+
+PROBLEMAS E CORREÇÕES
+- 3 imagens vieram com faixas (foto horizontal dentro do vertical): refeitas; "resultado" ainda tinha a base borrada e foi recortada.
+- "raiva" veio com texto em inglês no rosto do mascote e "voce" com o logo da maçã: corrigidas por edição de imagem.
+- Legenda cobria o rosto do mascote em "funil" e "resultado": câmera ancorada embaixo (mov "base") para subir o personagem.

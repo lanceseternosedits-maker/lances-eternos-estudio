@@ -2,16 +2,129 @@
  "voz": "Puck",
  "estilo": "narrador de notícia surpreendente, enérgico, ritmo rápido, tom de 'você não vai acreditar'",
  "chave": "TUBE",
- "fontes": ["https://x.com/karpathy/status/2116957135661945283", "https://hackertube.org", "Business Today 02/11", "Startup Fortune"],
+ "fontes": [
+  "https://x.com/karpathy/status/2116957135661945283",
+  "https://hackertube.org",
+  "Business Today 02/11",
+  "Startup Fortune"
+ ],
  "prova_viral": "Post do Karpathy no X: +3 milhões de visualizações (01/11)",
  "texto_tela_gancho": "ELE CRIOU UM YOUTUBE EM 2 HORAS",
  "segmentos": [
-  {"cena": "gancho", "tag": "2 HORAS", "fala": "Um dos fundadores da OpenAI criou o próprio YouTube em duas horas.", "legenda": "Um dos fundadores da OpenAI criou o próprio YouTube em 2 horas.", "visual": "mascote bate na mesa ao lado da TV antiga cheia de vídeos; cronômetro gira e trava em 2h", "sfx": [{"t": 0.1, "som": "stamp", "g": 0.8}, {"t": 2.6, "som": "ding", "g": 0.6}]},
-  {"cena": "raiva", "tag": "O MOTIVO", "fala": "O motivo? Ele cansou do algoritmo.", "legenda": "O motivo? Ele cansou do algoritmo.", "visual": "feed infinito enrolado vai parar na lixeira", "sfx": [{"t": 0.9, "som": "paper", "g": 0.6}]},
-  {"cena": "funil", "tag": "43 MILHÕES", "fala": "Ele mandou o Clód ler quarenta e três milhões de comentários de programadores.", "legenda": "Ele mandou o Claude ler 43 milhões de comentários de programadores.", "visual": "montanha de balões de comentário caindo no funil (funil.jpg)", "sfx": [{"t": 0.3, "som": "riser", "g": 0.5}]},
-  {"cena": "resultado", "tag": "6.454 VÍDEOS", "fala": "E sobraram só os seis mil vídeos que eles mais recomendam.", "legenda": "E sobraram só os 6 mil vídeos que eles mais recomendam.", "visual": "cartões de vídeo saem do funil e viram a parede de telas (grade.jpg)", "sfx": [{"t": 1.8, "som": "pop", "g": 0.6}]},
-  {"cena": "sem", "tag": "ZERO ALGORITMO", "fala": "Sem login. Sem algoritmo te prendendo.", "legenda": "Sem login. Sem algoritmo te prendendo.", "visual": "mascote aponta o controle e escolhe uma tela", "sfx": [{"t": 0.2, "som": "ding", "g": 0.5}]},
-  {"cena": "voce", "tag": "VOCÊ TAMBÉM", "fala": "E você faz um app parecido no Clód, só descrevendo, sem programar.", "legenda": "E você faz um app parecido no Claude, só descrevendo, sem programar.", "visual": "mascote digita e um app aparece na tela", "sfx": [{"t": 0.1, "som": "typing", "g": 0.4}, {"t": 2.4, "som": "pop", "g": 0.6}]},
-  {"cena": "cta", "tag": "COMENTA", "fala": "Comenta TUBE que eu te mando o link e o prompt.", "legenda": "Comenta TUBE que eu te mando o link e o prompt.", "visual": "mascote acena para a câmera", "sfx": [{"t": 0.1, "som": "pop", "g": 0.7}]}
+  {
+   "cena": "gancho",
+   "tag": "2 HORAS",
+   "fala": "Um dos fundadores da OpenAI criou o próprio YouTube em duas horas.",
+   "legenda": "Um dos fundadores da OpenAI criou o próprio YouTube em 2 horas.",
+   "visual": "mascote bate na mesa ao lado da TV antiga cheia de vídeos; cronômetro gira e trava em 2h",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "stamp",
+     "g": 0.8
+    },
+    {
+     "t": 2.6,
+     "som": "ding",
+     "g": 0.6
+    }
+   ],
+   "mov": "punch"
+  },
+  {
+   "cena": "raiva",
+   "tag": "O MOTIVO",
+   "fala": "O motivo? Ele cansou do algoritmo.",
+   "legenda": "O motivo? Ele cansou do algoritmo.",
+   "visual": "feed infinito enrolado vai parar na lixeira",
+   "sfx": [
+    {
+     "t": 0.9,
+     "som": "paper",
+     "g": 0.6
+    }
+   ],
+   "mov": "in_br"
+  },
+  {
+   "cena": "funil",
+   "tag": "43 MILHÕES",
+   "fala": "Ele mandou o Clód ler quarenta e três milhões de comentários de programadores.",
+   "legenda": "Ele mandou o Claude ler 43 milhões de comentários de programadores.",
+   "visual": "montanha de balões de comentário caindo no funil (funil.jpg)",
+   "sfx": [
+    {
+     "t": 0.3,
+     "som": "riser",
+     "g": 0.5
+    }
+   ],
+   "mov": "base"
+  },
+  {
+   "cena": "resultado",
+   "tag": "6.454 VÍDEOS",
+   "fala": "E sobraram só os seis mil vídeos que eles mais recomendam.",
+   "legenda": "E sobraram só os 6 mil vídeos que eles mais recomendam.",
+   "visual": "cartões de vídeo saem do funil e viram a parede de telas (grade.jpg)",
+   "sfx": [
+    {
+     "t": 1.8,
+     "som": "pop",
+     "g": 0.6
+    }
+   ],
+   "mov": "base"
+  },
+  {
+   "cena": "sem",
+   "tag": "ZERO ALGORITMO",
+   "fala": "Sem login. Sem algoritmo te prendendo.",
+   "legenda": "Sem login. Sem algoritmo te prendendo.",
+   "visual": "mascote aponta o controle e escolhe uma tela",
+   "sfx": [
+    {
+     "t": 0.2,
+     "som": "ding",
+     "g": 0.5
+    }
+   ],
+   "mov": "in"
+  },
+  {
+   "cena": "voce",
+   "tag": "VOCÊ TAMBÉM",
+   "fala": "E você faz um app parecido no Clód, só descrevendo, sem programar.",
+   "legenda": "E você faz um app parecido no Claude, só descrevendo, sem programar.",
+   "visual": "mascote digita e um app aparece na tela",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "typing",
+     "g": 0.4
+    },
+    {
+     "t": 2.4,
+     "som": "pop",
+     "g": 0.6
+    }
+   ],
+   "mov": "in_tr"
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA",
+   "fala": "Comenta TUBE que eu te mando o link e o prompt.",
+   "legenda": "Comenta TUBE que eu te mando o link e o prompt.",
+   "visual": "mascote acena para a câmera",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "pop",
+     "g": 0.7
+    }
+   ],
+   "mov": "out"
+  }
  ]
 }
