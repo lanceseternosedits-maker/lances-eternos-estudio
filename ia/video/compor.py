@@ -4,7 +4,7 @@
 #   clipes.json: {"<cena>": {"arquivo": "caminho.mp4", "ini": 0.4}, ...}  (ini = segundos a pular no começo do clipe,
 #   p.ex. quando o modelo abre com a imagem de referência). Sem clipes.json: pasta_out/clipes/<cena>.mp4, ini 0.
 # O que faz: corta cada clipe na duração do seu segmento (t0 até o t0 do próximo), emenda em corte seco, descarta o áudio
-# dos clipes, e põe por cima: etiqueta (campo tag) no topo, selo contador (1/7…) no canto, legenda palavra por palavra no
+# dos clipes, e põe por cima: etiqueta (campo tag) no topo, legenda palavra por palavra no
 # terço inferior (palavra atual destacada; nunca fica vazia) e "COMENTA <CHAVE>" no último segmento. Depois mixa voz +
 # trilha (sidechain, baixa) + efeitos, loudnorm -14 LUFS (mesmo filtro do montar.sh).  Saída: pasta_out/reel.mp4 (1080x1920, 30 fps).
 import json, os, sys, subprocess, re, shutil
@@ -62,11 +62,7 @@ def quadro(k, b, i):
     sh = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ds = ImageDraw.Draw(sh)
     caixa_texto(ds, (W / 2 + 6, 190), tag, ft, (0, 0, 0, 0), (0, 0, 0, 110))
     im.alpha_composite(sh); caixa_texto(d, (W / 2, 184), tag, ft, TINTA, CREME + (255,))
-    # selo contador no canto superior direito
-    fs = fonte(F_TAG, 46); txt = f"{k + 1}/{N}"; cx, cy, rr = W - 118, 330, 66
-    d.ellipse([cx - rr + 5, cy - rr + 7, cx + rr + 5, cy + rr + 7], fill=(0, 0, 0, 110))
-    d.ellipse([cx - rr, cy - rr, cx + rr, cy + rr], fill=LARANJA + (255,), outline=CREME + (255,), width=6)
-    d.text((cx, cy), txt, font=fs, fill=(255, 255, 255), anchor="mm")
+    # sem selo contador (decisão do Vitor, 04/11: numeração não aparece para o público)
     # CTA no último segmento
     if k == N - 1:
         # numa linha só, abaixo da legenda (CTA_Y), para não cobrir o rosto do mascote

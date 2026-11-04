@@ -59,7 +59,7 @@ const LOGO = fs.readFileSync(path.join(__dirname, "logo.svg"), "utf8");
 const mark = (s) => LOGO.replace(/#5CE1FF/g, C.c1).replace(/#FF4FD8/g, C.c2).replace(/#0B0820/g, C.bg)
   .replace(/id="g"/g, `id="g${s}"`).replace(/url\(#g\)/g, `url(#g${s})`).replace(/id="glow"/g, `id="gl${s}"`).replace(/url\(#glow\)/g, `url(#gl${s})`)
   .replace('width="1080" height="1080"', `width="${s}" height="${s}"`);
-const top = (i) => `<div class="top"><div class="logo">${mark(48)}<span>IA em <span class="g">60s</span></span></div><span class="count">${String(i).padStart(2, "0")} / ${String(N).padStart(2, "0")}</span></div>`;
+const top = (i) => `<div class="top"><div class="logo">${mark(48)}<span>IA em <span class="g">60s</span></span></div></div>`; // sem numeração de páginas (decisão do Vitor, 04/11)
 const page = (inner, glows = "") => `<!doctype html><html><head><meta charset="utf-8"><style>${css}</style></head><body><div class="bg"></div>${glows}<div class="wrap">${inner}</div></body></html>`;
 const glow = (x, y, c, a = .28) => `<div class="glow" style="left:${x}px;top:${y}px;background:radial-gradient(closest-side,${c}${Math.round(a * 255).toString(16)},transparent)"></div>`;
 
