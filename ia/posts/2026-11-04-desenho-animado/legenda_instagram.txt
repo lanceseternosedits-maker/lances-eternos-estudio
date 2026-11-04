@@ -1,0 +1,11 @@
+Tão criando canal de desenho animado sem saber desenhar. 🎬
+
+Esses desenhos tão bombando no TikTok, no Reels e no YouTube. E agora uma skill grátis faz o Claude criar esses vídeos sozinho: você dá o tema, ele escreve o roteiro, planeja as cenas e anima um vídeo de 1 minuto, com personagens, câmera e trilha. Tudo no seu computador, sem pagar gerador de vídeo.
+
+💬 Comenta DESENHO e me segue que eu te mando a skill e o passo a passo.
+
+Que tema você transformaria em desenho? 👇
+
+Fonte: github.com/mromidev/claude-animated-shorts (licença MIT). Precisa do Claude Code, que vem nos planos pagos do Claude.
+
+#inteligenciaartificial #claude #canaldark #rendaextra #ia

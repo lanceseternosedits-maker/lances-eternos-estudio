@@ -8,3 +8,9 @@ todas aproveitadas na 1ª tentativa; animação video/anima_imagens.py (PLANOS=2
 CUSTO ESTIMADO: 7 imagens (~US$ 0,30-0,50) + voz (~US$ 0,02) = ~US$ 0,30-0,50 (dentro do teto). O mascote (1 imagem pro) é custo único do perfil.
 CORREÇÕES: a etiqueta longa do gancho e o "COMENTA DESENHO" estouravam a largura; o compor.py agora diminui a fonte até caber.
 OBSERVAÇÃO: no plano final o mascote aparece com uma boquinha sorrindo (o resto do vídeo não tem boca); leve, mantido.
+
+VERSÃO FINAL (aprovada pelo Vitor em 04/11): ANIMAÇÃO 3D DE VERDADE
+- Pedido do Vitor: vídeo animado como a referência, não fotos com movimento de câmera.
+- Cena 3D em código: video/cena_palco/index.html (Three.js, mascote de blocos, palco roxo, 2 planos por cena), render quadro a quadro
+  com video/render.js (869 quadros, ~0,5 s/quadro, ~8 min), montagem com video/compor.py + clipes.json apontando para out3d/base.mp4.
+- Custo do vídeo final: só a voz (~US$ 0,02). As 7 imagens Nano Banana desta pasta (cenas/) foram da versão de fotos, descartada.
