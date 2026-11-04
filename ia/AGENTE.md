@@ -67,16 +67,15 @@ Base: carrosséis e Reels que o Vitor mandou como referência (@matheustilli, @c
 Checklist antes de publicar: a capa funciona sozinha no feed? Dá vontade de salvar (tem passo a passo, prompt ou lista)? Cada página faz querer passar para a próxima? Se alguma resposta for não, reescreva.
 
 ## Produção
-**6 conteúdos por dia**, cada um nas 3 redes (18 publicações):
+**3 conteúdos por dia, qualidade acima de volume** (decisão do Vitor, 03/11, depois de o Instagram bloquear carrosséis por excesso de atividade automática). Cada um no Instagram e no TikTok (6 publicações). Use o tempo extra para pesquisa melhor, imagens melhores e revisão de cada página.
 
 | Horário (Brasília) | Conteúdo | Formato |
 |---|---|---|
-| 07:00 | **Novidade** do dia (a maior de IA nas últimas 24 h) | lista de 4–5 fatos |
 | 09:30 | **Ensinando a usar IA**: tutorial prático (Claude em primeiro lugar, mas também ChatGPT, Gemini e outras) | carrossel (passo a passo); o roteiro do vídeo animado do dia vai para aprovação |
-| 12:00 | **Recomendação**: ferramentas/repositórios grátis | lista de 5 itens |
-| 14:30 | **Novidade 2** ou curiosidade (outro assunto, outra empresa) | lista de 4–5 fatos |
-| 17:00 | **Ensinando a usar IA 2**: skill, recurso novo ou projeto viral com Claude | carrossel; o 2º roteiro de vídeo animado vai para aprovação |
-| 19:30 | **Em alta no X**: o assunto de IA mais comentado do dia | lista de 4–5 itens |
+| 13:00 | **Ferramenta/novidade que viralizou lá fora** (a mais forte do dia, útil para ganhar tempo ou dinheiro) | carrossel |
+| 19:30 | **O assunto mais forte que sobrar** (pico do TikTok) | carrossel |
+
+Antes de agendar, consulte `getScheduledPosts` do dia: se um horário já tiver post (reagendado ou vídeo aprovado), pule esse horário. Não passe de 3 posts por dia no Instagram, contando os vídeos aprovados.
 
 Se faltar assunto verificável para um horário, troque por outro pilar em vez de baixar o padrão (nada inventado, 2 ou mais fontes).
 
@@ -96,7 +95,7 @@ Para cada conteúdo:
 ## Regras do Vitor (02/11): carrossel de verdade e vídeo animado só com aprovação
 - **Post de fotos = carrossel de verdade (arrastar pro lado), nunca vídeo de slides com temporizador** (correção do Vitor, 02/11). No Instagram: `instagramData.type: "POST"` com as imagens dos slides, legenda com "arrasta pro lado". Música: a API não coloca música em carrossel do Instagram, então o padrão é **publicação automática sem música** (`autoPublish: true`). Quando o Vitor disser nesta conversa que vai colocar a música naquele dia, agende os carrosséis do Instagram com `autoPublish: false`: o app do Metricool avisa ele no horário e ele escolhe a música em alta e publica. No TikTok, carrossel em modo foto com `autoAddMusic: true` (música automática de lá). `short.py` não é mais usado para posts de fotos.
 - **Vídeo animado (mascote 3D, narração) nunca é publicado sem aprovação.** Fluxo: (1) escreva o roteiro (texto falado frase a frase + o que aparece em cada cena + fontes) e envie ao Vitor; pare e espere a resposta dele na conversa desta sessão. (2) Só depois do "aprovado", gere o vídeo, olhe cada corte, e envie o MP4 para ele (envie o arquivo e avise que está pronto). (3) Só agende depois do segundo "aprovado", no próximo horário livre entre 06:30 e 20:00. Se ele pedir mudanças, refaça e envie de novo.
-- Os 6 horários do dia são preenchidos com carrosséis (publicação automática). Os vídeos animados aprovados entram como extras, sem tirar nenhum dos 6.
+- Os 3 horários do dia são preenchidos com carrosséis (publicação automática). Um vídeo animado aprovado ocupa o lugar de um carrossel no Instagram (máximo de 3 posts por dia lá).
 - **YouTube está pausado (decisão do Vitor, 02/11):** publique só no Instagram e no TikTok. Não agende nada no YouTube até ele pedir de volta.
 
 ## Reels animados (com aprovação)
