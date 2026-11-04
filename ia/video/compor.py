@@ -18,7 +18,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 F_TAG = os.path.join(AQUI, "cena_modelo/f/space-grotesk-latin-700-normal.woff2")
 F_LEG = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
 if not os.path.exists(F_LEG): F_LEG = F_TAG
-CREME, TINTA, LARANJA, AMARELO = (244, 235, 221), (22, 19, 31), (255, 122, 26), (255, 214, 64)
+CREME, TINTA, LARANJA, AMARELO, MARROM = (244, 235, 221), (22, 19, 31), (255, 122, 26), (255, 214, 64), (196, 98, 52)
 fonte = lambda p, s: ImageFont.truetype(p, s)
 
 # ---------- tempos ----------
@@ -70,6 +70,11 @@ def quadro(k, b, i):
         w1 = d.textlength("COMENTA", font=fc) + 76; w2 = d.textlength(chave, font=fc) + 76; x0 = W / 2 - (w1 + w2 + 20) / 2
         caixa_texto(d, (x0 + w1 / 2, y), "COMENTA", fc, (255, 255, 255), LARANJA + (255,), pad=(38, 22), raio=22)
         caixa_texto(d, (x0 + w1 + 20 + w2 / 2, y), chave, fc, TINTA, AMARELO + (255,), pad=(38, 22), raio=22)
+    if os.environ.get("LEGENDA") == "palavra":
+        # estilo _aighostlab: só a palavra falada agora, numa caixa creme embaixo (não cobre o personagem)
+        w_ = re.sub(r"[,.;:!?]+$", "", blocos[b][1][i]["w"]); fp = fonte(F_LEG, 112)
+        caixa_texto(d, (W / 2, int(os.environ.get("LEG_Y", 1610))), w_, fp, MARROM, CREME + (255,), pad=(40, 16), raio=24)
+        return im
     # legenda: bloco atual, palavra atual em amarelo e um pouco maior
     ws = [p["w"] for p in blocos[b][1]]; base, maior = 92, 104
     fl, fm = fonte(F_LEG, base), fonte(F_LEG, maior)

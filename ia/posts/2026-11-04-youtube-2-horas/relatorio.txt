@@ -26,3 +26,9 @@ PROBLEMAS E CORREÇÕES
 - 3 imagens vieram com faixas (foto horizontal dentro do vertical): refeitas; "resultado" ainda tinha a base borrada e foi recortada.
 - "raiva" veio com texto em inglês no rosto do mascote e "voce" com o logo da maçã: corrigidas por edição de imagem.
 - Legenda cobria o rosto do mascote em "funil" e "resultado": câmera ancorada embaixo (mov "base") para subir o personagem.
+
+REFEITO NO ESTILO _aighostlab (pedido do Vitor, 04/11)
+- Mascote novo: cubo laranja de argila (mascote/cubo.jpg, gemini-3-pro-image, 1 imagem).
+- 7 cenas novas (gemini-3.1-flash-image 9:16 1K, palco roxo, piso de madeira, holofotes): todas saíram sem moldura e sem texto na 1ª tentativa.
+- Legenda: uma palavra por vez em caixa creme embaixo (LEGENDA=palavra), sem pontuação. Voz e tempos reaproveitados (sem custo novo).
+- Custo extra: ~US$ 0,40-0,60 (1 imagem pro + 7 flash). TOTAL do Reel, somando a versão do robô: ~US$ 1,25-2,00 (acima do teto de US$ 0,50).

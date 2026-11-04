@@ -44,7 +44,7 @@
      "g": 0.6
     }
    ],
-   "mov": "in_br"
+   "mov": "in"
   },
   {
    "cena": "funil",
@@ -59,7 +59,7 @@
      "g": 0.5
     }
    ],
-   "mov": "base"
+   "mov": "down"
   },
   {
    "cena": "resultado",
@@ -74,7 +74,7 @@
      "g": 0.6
     }
    ],
-   "mov": "base"
+   "mov": "out"
   },
   {
    "cena": "sem",
@@ -126,5 +126,7 @@
    ],
    "mov": "out"
   }
- ]
+ ],
+ "mascote": "mascote/cubo.jpg",
+ "legenda_estilo": "palavra"
 }
