@@ -26,7 +26,7 @@ Pesquisa completa: https://claude.ai/artifact/8D6Jdk8PsD8wsX8FBktFTQ
 - **TikTok é o motor de alcance:** dá mais views por vídeo para conta pequena (~33 mil contra ~23 mil no Instagram e ~5 mil no Shorts), 2,5x mais comentários que o Reels e é a rede que mais cresce no Brasil (+17,6% em um ano). Capriche no `tiktokData.title` e termine a legenda do TikTok com uma pergunta que dê vontade de responder.
 - **Instagram em dois papéis:** carrossel = salvamentos e autoridade (formato de maior engajamento do Instagram), então todo carrossel precisa ter algo para salvar (prompt pronto, passo a passo, lista). Reels/vídeo = chegar em quem não segue (~55% das views vêm de não seguidores).
 - **Nicho de IA:** pequeno em volume, mas engaja 6,5% (perto de entretenimento) e conta pequena viraliza (40 mil seguidores com 984 mil views). Formatos que ganham: ferramenta mostrada funcionando, antes e depois, lista com número.
-- **Pico de uso do TikTok no Brasil:** 20h à meia-noite. O post das 19:30 é o mais importante do dia no TikTok: use nele o assunto mais forte que sobrar.
+- **Pico de uso do TikTok no Brasil:** 20h à meia-noite. Vídeo aprovado vai para o TikTok de preferência perto das 19:30.
 - **Rótulo de IA:** continue marcando `isAiGenerated` quando houver imagem gerada (é a regra e evita punição). Não conte com o programa de recompensas do TikTok para vídeo gerado por IA.
 
 ## Contas (Metricool)
@@ -67,13 +67,13 @@ Base: carrosséis e Reels que o Vitor mandou como referência (@matheustilli, @c
 Checklist antes de publicar: a capa funciona sozinha no feed? Dá vontade de salvar (tem passo a passo, prompt ou lista)? Cada página faz querer passar para a próxima? Se alguma resposta for não, reescreva.
 
 ## Produção
-**3 conteúdos por dia, qualidade acima de volume** (decisão do Vitor, 03/11, depois de o Instagram bloquear carrosséis por excesso de atividade automática). Cada um no Instagram e no TikTok (6 publicações). Use o tempo extra para pesquisa melhor, imagens melhores e revisão de cada página.
+**3 conteúdos por dia, qualidade acima de volume** (decisão do Vitor, 03/11, depois de o Instagram bloquear carrosséis por excesso de atividade automática). **Carrosséis só no Instagram.** O TikTok recebe **só vídeos** (decisão do Vitor, 03/11: post de foto não vira lá), ou seja, os vídeos animados aprovados. Use o tempo extra para pesquisa melhor, imagens melhores e revisão de cada página.
 
 | Horário (Brasília) | Conteúdo | Formato |
 |---|---|---|
 | 09:30 | **Ensinando a usar IA**: tutorial prático (Claude em primeiro lugar, mas também ChatGPT, Gemini e outras) | carrossel (passo a passo); o roteiro do vídeo animado do dia vai para aprovação |
 | 13:00 | **Ferramenta/novidade que viralizou lá fora** (a mais forte do dia, útil para ganhar tempo ou dinheiro) | carrossel |
-| 19:30 | **O assunto mais forte que sobrar** (pico do TikTok) | carrossel |
+| 19:30 | **O assunto mais forte que sobrar** | carrossel |
 
 Antes de agendar, consulte `getScheduledPosts` do dia: se um horário já tiver post (reagendado ou vídeo aprovado), pule esse horário. Não passe de 3 posts por dia no Instagram, contando os vídeos aprovados.
 
@@ -90,10 +90,10 @@ Para cada conteúdo:
 1. Criar `posts/AAAA-MM-DD-slug/post.json` (modelo: `posts/2026-11-01-skills-claude-code/post.json`). Campos: `cover.title_html` (use `<span class="g">` na parte de destaque), `cover.sub`, `cover.imgs` (0–3), `items[]` (`n`, `repo` = fonte, `kick`, `title`, `body` de até 2 linhas, `img` ou `code` ou nenhum, `chips` com números reais), `cta.key` (palavra curta em maiúsculas) e `cta.promise`.
 2. `CONTENT=posts/<pasta>/post.json PALETTE=<n> node lista.js`, depois `python3 short.py posts/<pasta>`.
 3. **Conferir** pelo menos a capa e um slide com a ferramenta Read: texto cortado ou sobreposto, imagem quebrada. Corrigir antes de seguir.
-4. Escrever na pasta `legenda_instagram.txt`, `legenda_tiktok.txt`, `youtube.json` e `resposta_dm.txt` (a resposta pronta para quem comentar a palavra).
+4. Escrever na pasta `legenda_instagram.txt` e `resposta_dm.txt` (a resposta pronta para quem comentar a palavra).
 
 ## Regras do Vitor (02/11): carrossel de verdade e vídeo animado só com aprovação
-- **Post de fotos = carrossel de verdade (arrastar pro lado), nunca vídeo de slides com temporizador** (correção do Vitor, 02/11). No Instagram: `instagramData.type: "POST"` com as imagens dos slides, legenda com "arrasta pro lado". Música: a API não coloca música em carrossel do Instagram, então o padrão é **publicação automática sem música** (`autoPublish: true`). Quando o Vitor disser nesta conversa que vai colocar a música naquele dia, agende os carrosséis do Instagram com `autoPublish: false`: o app do Metricool avisa ele no horário e ele escolhe a música em alta e publica. No TikTok, carrossel em modo foto com `autoAddMusic: true` (música automática de lá). `short.py` não é mais usado para posts de fotos.
+- **Post de fotos = carrossel de verdade (arrastar pro lado), nunca vídeo de slides com temporizador** (correção do Vitor, 02/11). No Instagram: `instagramData.type: "POST"` com as imagens dos slides, legenda com "arrasta pro lado". Música: a API não coloca música em carrossel do Instagram, então o padrão é **publicação automática sem música** (`autoPublish: true`). Quando o Vitor disser nesta conversa que vai colocar a música naquele dia, agende os carrosséis do Instagram com `autoPublish: false`: o app do Metricool avisa ele no horário e ele escolhe a música em alta e publica. **Carrossel não vai para o TikTok** (só vídeos lá). `short.py` não é mais usado para posts de fotos.
 - **Vídeo animado (mascote 3D, narração) nunca é publicado sem aprovação.** Fluxo: (1) escreva o roteiro (texto falado frase a frase + o que aparece em cada cena + fontes) e envie ao Vitor; pare e espere a resposta dele na conversa desta sessão. (2) Só depois do "aprovado", gere o vídeo, olhe cada corte, e envie o MP4 para ele (envie o arquivo e avise que está pronto). (3) Só agende depois do segundo "aprovado", no próximo horário livre entre 06:30 e 20:00. Se ele pedir mudanças, refaça e envie de novo.
 - Os 3 horários do dia são preenchidos com carrosséis (publicação automática). Um vídeo animado aprovado ocupa o lugar de um carrossel no Instagram (máximo de 3 posts por dia lá).
 - **YouTube está pausado (decisão do Vitor, 02/11):** publique só no Instagram e no TikTok. Não agende nada no YouTube até ele pedir de volta.
@@ -115,11 +115,11 @@ Formato de 25–35 s, no estilo das referências em `referencias.md` (mascote em
 
 ## Cada rede do seu jeito
 - **Instagram** (no horário): carrossel (`instagramData.type = "POST"`). Legenda: gancho na primeira linha, "arrasta", "Comenta PALAVRA que eu te mando…", fontes, 5 hashtags.
-- **TikTok** (+10 min): carrossel de fotos com `tiktokData.title` (até 90 caracteres, obrigatório) e `autoAddMusic: true`. Legenda curta, terminando com uma pergunta para gerar comentários, mais 3–5 hashtags.
+- **TikTok: só vídeos aprovados** (nunca carrossel de fotos). `tiktokData.title` (até 90 caracteres, obrigatório), `isAigc: true`. Legenda curta, terminando com uma pergunta para gerar comentários, mais 3–5 hashtags.
 - **YouTube Shorts** (+20 min): `short.mp4` com `youtubeData.type = "short"`, `title` de até 90 caracteres terminando em `#shorts`, `category: "SCIENCE_TECHNOLOGY"`, `madeForKids: false`, tags, e descrição com fontes e "Se inscreva".
 
 ## Música nativa das redes
-- **TikTok:** sempre `autoAddMusic: true` nos carrosséis de fotos; o TikTok escolhe uma música da biblioteca licenciada dele. A API não permite escolher uma música específica.
+- **TikTok:** só vídeos, que já saem com trilha e efeitos próprios (`autoAddMusic: false`).
 - **Instagram:** a música só pode ser escolhida via API em **Reels** (`instagramData.audioConfiguration.audioId` com o nome da música em alta). Isso exige que o Instagram esteja conectado ao Metricool **pelo Facebook** (conta comercial com Página). Se o Metricool recusar por isso, publique sem música e avise o Vitor. Carrossel de fotos não aceita música via API.
 - **YouTube Shorts:** a API não tem biblioteca de músicas; o `short.mp4` já sai com a trilha original do `short.py`.
 - Para saber o que está em alta: WebSearch "músicas em alta Reels/TikTok Brasil semana". Use só a biblioteca nativa das redes, nunca um arquivo de música de terceiros dentro do vídeo.
