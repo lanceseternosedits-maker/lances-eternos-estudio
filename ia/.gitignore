@@ -1,3 +1,5 @@
 node_modules/
 posts/*/_short/
 posts/*/out/
+posts/*/out3d/
+video/cena_*/cfg.json
