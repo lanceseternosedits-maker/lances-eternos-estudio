@@ -3,7 +3,7 @@
  "estilo": "narrador animado e confiante, ritmo rápido, tom de 'finalmente resolveram isso', leve humor",
  "chave": "POST",
  "brinde": "10 prompts prontos pra criar os posts da loja no Canva (resposta_dm.txt)",
- "tese_topo": "ACABOU A LETRA TORTA DA IA",
+ "tese_topo": "TÃO FAZENDO POST COM 1 FRASE",
  "fontes": [
   "https://www.canva.com/newsroom/news/canva-craft/",
   "https://www.cmswire.com/digital-experience/canva-debuts-inhouse-ai-image-model-craft/",
@@ -11,14 +11,14 @@
   "https://smartscope.blog/en/blog/canva-craft-it-use-dream-lab-free-plan-2026/"
  ],
  "prova_viral": "Post de lançamento do @canva no X (22/10): ~1,9 mi de views, ~1 mil salvamentos (Doomers AI, leitura de 03/11)",
- "texto_tela_gancho": "ACABOU A LETRA TORTA DA IA",
+ "texto_tela_gancho": "TÃO FAZENDO POST COM 1 FRASE",
  "segmentos": [
   {
    "cena": "gancho",
-   "tag": "ACABOU A LETRA TORTA",
-   "fala": "A letra torta da IA acabou.",
-   "legenda": "A letra torta da IA acabou.",
-   "visual": "1º segundo: mascote dá uma marretada num cartaz de letras derretidas tipo espaguete, que estilhaça em pedaços (plano aberto → fechado no impacto)",
+   "tag": "POST COM 1 FRASE",
+   "fala": "Tão fazendo o post da loja inteiro com uma frase.",
+   "legenda": "Tão fazendo o post da loja inteiro com 1 frase.",
+   "visual": "1º segundo: o mascote dá uma marretada num cartaz de letras derretidas, que se estilhaça e se remonta num cartaz de loja perfeito (plano aberto → fechado no impacto)",
    "sfx": [
     {
      "t": 0.2,
@@ -31,8 +31,8 @@
   {
    "cena": "dor",
    "tag": "VOCÊ ÀS 23H",
-   "fala": "Sabe aquele cartaz que a IA entrega todo errado?",
-   "legenda": "Sabe aquele cartaz que a IA entrega todo errado?",
+   "fala": "E sem aquela letra torta que a IA sempre erra.",
+   "legenda": "E sem aquela letra torta que a IA sempre erra.",
    "visual": "mascote cercado de bolas de papel amassado, olhar bravo, cartaz com letras retorcidas ao fundo",
    "sfx": [
     {
