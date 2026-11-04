@@ -1,0 +1,10 @@
+Reel "Canal de desenho sem desenhar" (skill claude-animated-shorts) - IA em 60s - 04/11/2026 - aguardando 2ª aprovação do Vitor
+
+ARQUIVOS: reel.mp4 (trilha própria, TikTok) e reel_ig.mp4 (voz + efeitos, para o áudio em alta do Instagram por cima).
+FORMATO: estilo _aighostlab, mascote mascote/clawd.jpg, palco roxo, 7 imagens x 2 planos (aberto + fechado) = 14 planos em 28,9 s
+(~2 s por plano), legenda uma palavra por vez (LEGENDA=palavra), etiqueta com a tese no topo, COMENTA DESENHO no fim.
+MODELOS: voz gemini-3.1-flash-tts-preview (Puck), frase por frase (video/tts_frases.py); 7 cenas gemini-3.1-flash-image 9:16 1K,
+todas aproveitadas na 1ª tentativa; animação video/anima_imagens.py (PLANOS=2); montagem video/compor.py.
+CUSTO ESTIMADO: 7 imagens (~US$ 0,30-0,50) + voz (~US$ 0,02) = ~US$ 0,30-0,50 (dentro do teto). O mascote (1 imagem pro) é custo único do perfil.
+CORREÇÕES: a etiqueta longa do gancho e o "COMENTA DESENHO" estouravam a largura; o compor.py agora diminui a fonte até caber.
+OBSERVAÇÃO: no plano final o mascote aparece com uma boquinha sorrindo (o resto do vídeo não tem boca); leve, mantido.

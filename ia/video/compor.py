@@ -20,6 +20,10 @@ F_LEG = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
 if not os.path.exists(F_LEG): F_LEG = F_TAG
 CREME, TINTA, LARANJA, AMARELO, MARROM = (244, 235, 221), (22, 19, 31), (255, 122, 26), (255, 214, 64), (196, 98, 52)
 fonte = lambda p, s: ImageFont.truetype(p, s)
+def ajusta(p, s, cabe):
+    # diminui a fonte até o texto caber na largura do quadro
+    while s > 30 and not cabe(fonte(p, s)): s -= 2
+    return fonte(p, s)
 
 # ---------- tempos ----------
 fim = [S[k + 1]["t0"] if k + 1 < N else TOTAL for k in range(N)]
@@ -58,7 +62,7 @@ def caixa_texto(d, xy, txt, f, fg, bg, pad=(34, 18), raio=16, ancora="mt"):
 def quadro(k, b, i):
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     # etiqueta no topo (sombra leve + papel creme)
-    tag = S[k].get("tag", "").upper(); ft = fonte(F_TAG, 64)
+    tag = S[k].get("tag", "").upper(); ft = ajusta(F_TAG, 64, lambda f: d.textlength(tag, font=f) <= 900)
     sh = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ds = ImageDraw.Draw(sh)
     caixa_texto(ds, (W / 2 + 6, 190), tag, ft, (0, 0, 0, 0), (0, 0, 0, 110))
     im.alpha_composite(sh); caixa_texto(d, (W / 2, 184), tag, ft, TINTA, CREME + (255,))
@@ -66,7 +70,8 @@ def quadro(k, b, i):
     # CTA no último segmento
     if k == N - 1:
         # numa linha só, abaixo da legenda (CTA_Y), para não cobrir o rosto do mascote
-        chave = R.get("chave", "").upper(); fc = fonte(F_TAG, 100); y = int(os.environ.get("CTA_Y", 1430))
+        chave = R.get("chave", "").upper(); y = int(os.environ.get("CTA_Y", 1430))
+        fc = ajusta(F_TAG, 100, lambda f: d.textlength("COMENTA", font=f) + d.textlength(chave, font=f) + 172 <= 1000)
         w1 = d.textlength("COMENTA", font=fc) + 76; w2 = d.textlength(chave, font=fc) + 76; x0 = W / 2 - (w1 + w2 + 20) / 2
         caixa_texto(d, (x0 + w1 / 2, y), "COMENTA", fc, (255, 255, 255), LARANJA + (255,), pad=(38, 22), raio=22)
         caixa_texto(d, (x0 + w1 + 20 + w2 / 2, y), chave, fc, TINTA, AMARELO + (255,), pad=(38, 22), raio=22)
