@@ -1,0 +1,18 @@
+Um dos fundadores da OpenAI cansou do algoritmo do YouTube. Então criou o próprio YouTube em 2 horas. 🤯
+
+Arrasta pro lado. 👉
+
+Andrej Karpathy (ex-chefe de IA da Tesla) mandou o Claude ler 43 milhões de comentários de 20 anos do Hacker News, um fórum de programadores. A IA separou os 6.454 vídeos que essa turma mais recomenda, em 150 temas. Nasceu o HackerTube: sem login e sem algoritmo decidindo o que você assiste.
+
+Segundo ele, levou cerca de 2 horas com o Claude Opus 5.5. O post dele passou de 3 milhões de visualizações no X.
+
+E você não precisa programar pra fazer algo parecido: no último slide tem o prompt pra criar seu próprio app de vídeos no Claude.
+
+💬 Comenta TUBE que eu te mando o link do HackerTube e o prompt completo.
+
+Você trocaria o YouTube por um site sem algoritmo? 👇
+
+Fontes: post de @karpathy no X (01/11/2026) · hackertube.org · Business Today (02/11) · Startup Fortune.
+Ilustrações geradas por IA.
+
+#inteligenciaartificial #youtube #claude #ia #produtividade

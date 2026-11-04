@@ -21,6 +21,17 @@ Todo roteiro, capa de post e primeira frase de vídeo usa um destes 5 tipos. Esc
 **Tempero de humor (dado de mercado, 02/11):** humor é o nicho com mais views e o maior engajamento no TikTok (7% contra 4% da média). Quando couber, abra com uma situação do dia a dia exagerada ("Você às 23h refazendo slide pela 5ª vez…") e entregue a ferramenta como a virada. O humor fica na forma; o fato continua 100% verdadeiro.
 Para dinheiro, use "renda extra", "vender mais", "cobrar por isso"; **não prometa "ficar rico"** nem valores garantidos (as redes derrubam o alcance e geram denúncia). Feche sempre com "Comenta PALAVRA que eu te mando o link/passo a passo" ou "manda pra quem precisa disso".
 
+## Viralização: como as plataformas distribuem (decisão do Vitor, 04/11: foco total em conteúdo viral)
+Ninguém de fora conhece o algoritmo por dentro; isto é o que as próprias plataformas e os dados públicos mostram. Cada peça é desenhada para esses sinais:
+- **Instagram (Adam Mosseri, chefe do Instagram):** os sinais que mais pesam são **tempo assistido**, **curtidas por alcance** e **envios por DM por alcance** (o mais forte para chegar em quem não segue). Conteúdo **original** é favorecido; repost, marca d'água de outro app e cópia perdem alcance. Carrossel que é arrastado até o fim e **salvo** volta a ser mostrado (quem não arrastou vê a 2ª página).
+- **TikTok:** pesa **taxa de conclusão**, **reassistir**, **compartilhamentos**, comentários e quem segue depois do vídeo. A busca do TikTok lê **a fala, o texto na tela e a legenda**: coloque as palavras que as pessoas buscam (ex.: "YouTube", "ChatGPT", "Claude", "currículo") nos três.
+- **Gancho em até 1,5 s, em 3 camadas** (o que se vê + o que se ouve + texto na tela dizendo a mesma coisa). Primeira frase com **choque, contraste ou autoridade**: "Um dos fundadores da OpenAI criou o próprio YouTube em 2 horas."
+- **Retenção:** uma frase = uma cena, corte a cada 1,5–3 s, 20–35 s no total, nada de introdução ("oi, gente"). Termine de um jeito que **emende no começo** (loop) para gerar reassistida.
+- **Envio e comentário:** toda peça tem um motivo para mandar para alguém ("manda pra quem vive no YouTube") e uma pergunta fácil de responder no fim da legenda, além do "Comenta PALAVRA".
+- **Carrossel:** capa com contraste forte (personagem + verbo + número), pág. 2 com a dor, uma revelação por página, algo para salvar (prompt, passo a passo), 6–8 páginas.
+- **Pauta sensacionalista com fato 100% verdadeiro:** priorize notícias **novas (24–72 h)** que causem "não acredito" (gente famosa da IA, números absurdos, tempo absurdo, antes e depois), sempre com uma utilidade para quem assiste. O exagero fica no **enquadramento**, nunca no fato: título que o conteúdo não entrega derruba a retenção e a conta. Nada de deepfake sexual, golpe ou medo como pauta principal (as redes limitam distribuição).
+- **Modelo pronto:** `posts/2026-11-04-youtube-2-horas/` (carrossel, legenda, DM, roteiro do Reel e meta).
+
 ## Dados de mercado que orientam a produção (pesquisa de 02/11)
 Pesquisa completa: https://claude.ai/artifact/8D6Jdk8PsD8wsX8FBktFTQ
 - **TikTok é o motor de alcance:** dá mais views por vídeo para conta pequena (~33 mil contra ~23 mil no Instagram e ~5 mil no Shorts), 2,5x mais comentários que o Reels e é a rede que mais cresce no Brasil (+17,6% em um ano). Capriche no `tiktokData.title` e termine a legenda do TikTok com uma pergunta que dê vontade de responder.
@@ -67,15 +78,14 @@ Base: carrosséis e Reels que o Vitor mandou como referência (@matheustilli, @c
 Checklist antes de publicar: a capa funciona sozinha no feed? Dá vontade de salvar (tem passo a passo, prompt ou lista)? Cada página faz querer passar para a próxima? Se alguma resposta for não, reescreva.
 
 ## Produção
-**3 conteúdos por dia, qualidade acima de volume** (decisão do Vitor, 03/11, depois de o Instagram bloquear carrosséis por excesso de atividade automática). **Carrosséis só no Instagram.** O TikTok recebe **só vídeos** (decisão do Vitor, 03/11: post de foto não vira lá), ou seja, os vídeos animados aprovados. Use o tempo extra para pesquisa melhor, imagens melhores e revisão de cada página.
+**Menos volume, mais qualidade (decisão do Vitor, 04/11): no máximo 2 conteúdos por dia**, cada um tratado como peça principal (pesquisa, roteiro, imagem, som e legenda caprichados). Se o 2º assunto não bater o padrão, publique só 1. **Carrosséis só no Instagram.** O TikTok recebe **só vídeos** (decisão do Vitor, 03/11), ou seja, os vídeos animados aprovados.
 
 | Horário (Brasília) | Conteúdo | Formato |
 |---|---|---|
-| 09:30 | **Ensinando a usar IA**: tutorial prático (Claude em primeiro lugar, mas também ChatGPT, Gemini e outras) | carrossel (passo a passo); o roteiro do vídeo animado do dia vai para aprovação |
-| 13:00 | **Ferramenta/novidade que viralizou lá fora** (a mais forte do dia, útil para ganhar tempo ou dinheiro) | carrossel |
-| 19:30 | **O assunto mais forte que sobrar** | carrossel |
+| 13:00 | **A notícia/ferramenta mais forte do dia** (nova, viralizando lá fora, com choque ou curiosidade + utilidade) | carrossel; o roteiro do vídeo animado da mesma pauta vai para aprovação |
+| 19:30 (opcional) | **Ensinando a usar IA** ou o 2º assunto mais forte, só se estiver no mesmo nível | carrossel |
 
-Antes de agendar, consulte `getScheduledPosts` do dia: se um horário já tiver post (reagendado ou vídeo aprovado), pule esse horário. Não passe de 3 posts por dia no Instagram, contando os vídeos aprovados.
+Antes de agendar, consulte `getScheduledPosts` do dia: se um horário já tiver post (reagendado ou vídeo aprovado), pule esse horário. Não passe de 2 posts por dia no Instagram, contando os vídeos aprovados.
 
 Se faltar assunto verificável para um horário, troque por outro pilar em vez de baixar o padrão (nada inventado, 2 ou mais fontes).
 
@@ -95,7 +105,7 @@ Para cada conteúdo:
 ## Regras do Vitor (02/11): carrossel de verdade e vídeo animado só com aprovação
 - **Post de fotos = carrossel de verdade (arrastar pro lado), nunca vídeo de slides com temporizador** (correção do Vitor, 02/11). No Instagram: `instagramData.type: "POST"` com as imagens dos slides, legenda com "arrasta pro lado". Música: a API não coloca música em carrossel do Instagram, então o padrão é **publicação automática sem música** (`autoPublish: true`). Quando o Vitor disser nesta conversa que vai colocar a música naquele dia, agende os carrosséis do Instagram com `autoPublish: false`: o app do Metricool avisa ele no horário e ele escolhe a música em alta e publica. **Carrossel não vai para o TikTok** (só vídeos lá). `short.py` não é mais usado para posts de fotos.
 - **Vídeo animado (mascote 3D, narração) nunca é publicado sem aprovação.** Fluxo: (1) escreva o roteiro (texto falado frase a frase + o que aparece em cada cena + fontes) e envie ao Vitor; pare e espere a resposta dele na conversa desta sessão. (2) Só depois do "aprovado", gere o vídeo, olhe cada corte, e envie o MP4 para ele (envie o arquivo e avise que está pronto). (3) Só agende depois do segundo "aprovado", no próximo horário livre entre 06:30 e 20:00. Se ele pedir mudanças, refaça e envie de novo.
-- Os 3 horários do dia são preenchidos com carrosséis (publicação automática). Um vídeo animado aprovado ocupa o lugar de um carrossel no Instagram (máximo de 3 posts por dia lá).
+- Os horários do dia são preenchidos com carrosséis (publicação automática). Um vídeo animado aprovado ocupa o lugar de um carrossel no Instagram (máximo de 2 posts por dia lá).
 - **YouTube está pausado (decisão do Vitor, 02/11):** publique só no Instagram e no TikTok. Não agende nada no YouTube até ele pedir de volta.
 
 ## Reels animados (com aprovação)

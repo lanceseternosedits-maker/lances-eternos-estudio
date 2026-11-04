@@ -16,14 +16,14 @@ Perfil de Vitor Gofredo: a IA que importa explicada em 60 segundos, em portuguê
 
 ## Regras que nunca mudam
 - **Segredos:** o repositório é público. A chave do Gemini vem da variável `GEMINI_API_KEY` ou do D1 (ver "Como carregar a chave do Gemini" no manual) e fica só em `~/.secrets/gemini.env`. Nunca imprima, commite ou envie uma chave.
-- **Publicação:** só entre 06:30 e 20:00 de Brasília, no máximo 3 posts por dia no Instagram. Carrossel só no Instagram; TikTok só recebe vídeo aprovado. YouTube está pausado.
+- **Publicação:** só entre 06:30 e 20:00 de Brasília, no máximo 2 posts por dia no Instagram (menos volume, mais qualidade: decisão do Vitor, 04/11). Carrossel só no Instagram; TikTok só recebe vídeo aprovado. YouTube está pausado.
 - **Vídeo animado:** nunca publica sem as duas aprovações do Vitor (roteiro e MP4). Teto de US$ 0,50 por vídeo; nada de vídeo gerado por IA (Omni/Veo) sem autorização expressa.
 - **Verdade:** nada inventado; todo fato com fonte oficial ou 2 fontes; toda pauta com a prova de que viralizou lá fora.
 - **Git:** trabalhe e faça push no ramo `midia-ia` (`git pull --rebase` se o push for rejeitado). Não suba `out/frames`, clipes brutos nem `_short/`.
 
 ## Tarefas agendadas (Claude Code na nuvem)
 - **IA em 60s – caçador de referências:** todo dia às 03:53 de Brasília; atualiza `ia/referencias.md`.
-- **IA em 60s – produção diária:** todo dia às 04:47 de Brasília; produz e agenda 3 carrosséis (09:30, 13:00, 19:30) e manda 1 roteiro de vídeo para aprovação.
+- **IA em 60s – produção diária:** todo dia às 04:47 de Brasília; produz e agenda até 2 carrosséis (13:00 e, se bater o padrão, 19:30) e manda 1 roteiro de vídeo para aprovação.
 - Metricool: `blogId 7637900`, fuso `America/Sao_Paulo`.
 
 ## Manual do agente

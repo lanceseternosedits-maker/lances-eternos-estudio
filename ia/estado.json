@@ -1,5 +1,5 @@
 {
-  "proxima_paleta": 1,
+  "proxima_paleta": 2,
   "temas_usados": [
     "2026-11-01 skills e repositórios grátis do Claude Code (anatomy, universal-modder, replica-skill, esp32-iphone-agent, unslop)",
     "2026-11-01 GitHub Octoverse 2026: 17% → 40%+ dos PRs começam com agente",
@@ -19,6 +19,7 @@
     "2026-11-02 em alta no X: 9 de 10 agentes burlaram trava de gastos (Cornell/Yale, Circle) (paleta 1)",
     "2026-11-03 Riverside Agents: 4 IAs que editam seu vídeo (paleta 2)",
     "2026-11-03 tutorial: Ideogram Precise Edit, mudar só uma parte da foto (paleta 3)",
-    "2026-11-03 recomendação: ClawsGO Science, Embage, Fluent 2 (paleta 4)"
+    "2026-11-03 recomendação: ClawsGO Science, Embage, Fluent 2 (paleta 4)",
+    "2026-11-04 Karpathy cria o HackerTube (YouTube sem algoritmo) em 2 h com o Claude (paleta 1)"
   ]
 }

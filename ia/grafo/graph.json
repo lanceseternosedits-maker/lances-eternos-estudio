@@ -711,6 +711,33 @@
    "label": "14h"
   },
   {
+   "id": "2026-11-02-reel-skills",
+   "tipo": "post",
+   "label": "reel-skills",
+   "data": "2026-11-02",
+   "score": null
+  },
+  {
+   "id": "formato:reel animado",
+   "tipo": "formato",
+   "label": "reel animado"
+  },
+  {
+   "id": "tema:skills do Claude",
+   "tipo": "tema",
+   "label": "skills do Claude"
+  },
+  {
+   "id": "fonte:https://code.claude.com/docs/en/skills",
+   "tipo": "fonte",
+   "label": "https://code.claude.com/docs/en/skills"
+  },
+  {
+   "id": "horario:13h",
+   "tipo": "horario",
+   "label": "13h"
+  },
+  {
    "id": "2026-11-02-trend-esculacho",
    "tipo": "post",
    "label": "trend-esculacho",
@@ -756,6 +783,219 @@
    "id": "horario:09h",
    "tipo": "horario",
    "label": "09h"
+  },
+  {
+   "id": "2026-11-03-ias-trabalham",
+   "tipo": "post",
+   "label": "ias-trabalham",
+   "data": "2026-11-03",
+   "score": null
+  },
+  {
+   "id": "cta:LINKS",
+   "tipo": "cta",
+   "label": "LINKS"
+  },
+  {
+   "id": "tema:atendimento ao cliente",
+   "tipo": "tema",
+   "label": "atendimento ao cliente"
+  },
+  {
+   "id": "tema:pesquisa",
+   "tipo": "tema",
+   "label": "pesquisa"
+  },
+  {
+   "id": "empresa:ClawsGO",
+   "tipo": "empresa",
+   "label": "ClawsGO"
+  },
+  {
+   "id": "empresa:Embage",
+   "tipo": "empresa",
+   "label": "Embage"
+  },
+  {
+   "id": "empresa:Fluent",
+   "tipo": "empresa",
+   "label": "Fluent"
+  },
+  {
+   "id": "fonte:clawsgo.ai",
+   "tipo": "fonte",
+   "label": "clawsgo.ai"
+  },
+  {
+   "id": "fonte:embage.com",
+   "tipo": "fonte",
+   "label": "embage.com"
+  },
+  {
+   "id": "fonte:fluentmac.app",
+   "tipo": "fonte",
+   "label": "fluentmac.app"
+  },
+  {
+   "id": "fonte:Product Hunt digest 02/11",
+   "tipo": "fonte",
+   "label": "Product Hunt digest 02/11"
+  },
+  {
+   "id": "fonte:The Neuron 02/11",
+   "tipo": "fonte",
+   "label": "The Neuron 02/11"
+  },
+  {
+   "id": "2026-11-03-ideogram-edita",
+   "tipo": "post",
+   "label": "ideogram-edita",
+   "data": "2026-11-03",
+   "score": null
+  },
+  {
+   "id": "cta:FOTO",
+   "tipo": "cta",
+   "label": "FOTO"
+  },
+  {
+   "id": "tema:edição de imagem",
+   "tipo": "tema",
+   "label": "edição de imagem"
+  },
+  {
+   "id": "tema:foto de produto",
+   "tipo": "tema",
+   "label": "foto de produto"
+  },
+  {
+   "id": "tema:design",
+   "tipo": "tema",
+   "label": "design"
+  },
+  {
+   "id": "empresa:Ideogram",
+   "tipo": "empresa",
+   "label": "Ideogram"
+  },
+  {
+   "id": "fonte:ideogram.ai/tools/precise-edit",
+   "tipo": "fonte",
+   "label": "ideogram.ai/tools/precise-edit"
+  },
+  {
+   "id": "fonte:Digg AI 29/10",
+   "tipo": "fonte",
+   "label": "Digg AI 29/10"
+  },
+  {
+   "id": "2026-11-03-riverside-agentes",
+   "tipo": "post",
+   "label": "riverside-agentes",
+   "data": "2026-11-03",
+   "score": null
+  },
+  {
+   "id": "cta:CLIPE",
+   "tipo": "cta",
+   "label": "CLIPE"
+  },
+  {
+   "id": "tema:edição de vídeo",
+   "tipo": "tema",
+   "label": "edição de vídeo"
+  },
+  {
+   "id": "tema:podcast",
+   "tipo": "tema",
+   "label": "podcast"
+  },
+  {
+   "id": "tema:criadores",
+   "tipo": "tema",
+   "label": "criadores"
+  },
+  {
+   "id": "empresa:Riverside",
+   "tipo": "empresa",
+   "label": "Riverside"
+  },
+  {
+   "id": "fonte:riverside.com/agents",
+   "tipo": "fonte",
+   "label": "riverside.com/agents"
+  },
+  {
+   "id": "fonte:Podnews (comunicado 27/10)",
+   "tipo": "fonte",
+   "label": "Podnews (comunicado 27/10)"
+  },
+  {
+   "id": "2026-11-04-youtube-2-horas",
+   "tipo": "post",
+   "label": "youtube-2-horas",
+   "data": "2026-11-04",
+   "score": null
+  },
+  {
+   "id": "cta:TUBE",
+   "tipo": "cta",
+   "label": "TUBE"
+  },
+  {
+   "id": "tema:algoritmo do YouTube",
+   "tipo": "tema",
+   "label": "algoritmo do YouTube"
+  },
+  {
+   "id": "tema:criar app sem programar",
+   "tipo": "tema",
+   "label": "criar app sem programar"
+  },
+  {
+   "id": "tema:Claude",
+   "tipo": "tema",
+   "label": "Claude"
+  },
+  {
+   "id": "tema:curadoria de vídeos",
+   "tipo": "tema",
+   "label": "curadoria de vídeos"
+  },
+  {
+   "id": "empresa:YouTube",
+   "tipo": "empresa",
+   "label": "YouTube"
+  },
+  {
+   "id": "empresa:Hacker News",
+   "tipo": "empresa",
+   "label": "Hacker News"
+  },
+  {
+   "id": "fonte:x.com/karpathy/status/2116957135661945283",
+   "tipo": "fonte",
+   "label": "x.com/karpathy/status/2116957135661945283"
+  },
+  {
+   "id": "fonte:hackertube.org",
+   "tipo": "fonte",
+   "label": "hackertube.org"
+  },
+  {
+   "id": "fonte:businesstoday.in (02/11)",
+   "tipo": "fonte",
+   "label": "businesstoday.in (02/11)"
+  },
+  {
+   "id": "fonte:startupfortune.com",
+   "tipo": "fonte",
+   "label": "startupfortune.com"
+  },
+  {
+   "id": "fonte:pbxscience.com",
+   "tipo": "fonte",
+   "label": "pbxscience.com"
   }
  ],
  "links": [
@@ -860,6 +1100,10 @@
    "target": "2026-11-02-gemini-carbon"
   },
   {
+   "source": "pilar:novidade",
+   "target": "2026-11-03-riverside-agentes"
+  },
+  {
    "source": "formato:noticia",
    "target": "2026-11-01-anthropic-ipo-p3"
   },
@@ -884,6 +1128,10 @@
    "target": "2026-11-02-extensao-falsa"
   },
   {
+   "source": "paleta:paleta 4",
+   "target": "2026-11-03-ias-trabalham"
+  },
+  {
    "source": "tema:agentes de IA",
    "target": "2026-11-01-em-alta-x"
   },
@@ -898,6 +1146,14 @@
   {
    "source": "tema:agentes de IA",
    "target": "2026-11-02-em-alta-x"
+  },
+  {
+   "source": "tema:agentes de IA",
+   "target": "2026-11-03-ias-trabalham"
+  },
+  {
+   "source": "tema:agentes de IA",
+   "target": "2026-11-03-riverside-agentes"
   },
   {
    "source": "tema:segurança",
@@ -938,6 +1194,14 @@
   {
    "source": "empresa:Anthropic",
    "target": "2026-11-02-extensao-falsa"
+  },
+  {
+   "source": "empresa:Anthropic",
+   "target": "2026-11-02-reel-skills"
+  },
+  {
+   "source": "empresa:Anthropic",
+   "target": "2026-11-04-youtube-2-horas"
   },
   {
    "source": "empresa:OpenAI",
@@ -1025,7 +1289,27 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-02-reel-skills"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-02-trend-esculacho"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-03-ias-trabalham"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-03-ideogram-edita"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-03-riverside-agentes"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-04-youtube-2-horas"
   },
   {
    "source": "rede:tiktok",
@@ -1088,6 +1372,18 @@
    "target": "2026-11-02-trend-esculacho"
   },
   {
+   "source": "rede:tiktok",
+   "target": "2026-11-03-ias-trabalham"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-03-ideogram-edita"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-03-riverside-agentes"
+  },
+  {
    "source": "rede:youtube",
    "target": "2026-11-01-anthropic-ipo-p3"
   },
@@ -1156,6 +1452,10 @@
    "target": "2026-11-02-em-alta-x"
   },
   {
+   "source": "horario:19h",
+   "target": "2026-11-03-ias-trabalham"
+  },
+  {
    "source": "2026-11-01-anthropic-ipo-p3",
    "target": "paleta:paleta 3"
   },
@@ -1186,6 +1486,10 @@
   {
    "source": "paleta:paleta 3",
    "target": "2026-11-02-gemini-carbon"
+  },
+  {
+   "source": "paleta:paleta 3",
+   "target": "2026-11-03-ideogram-edita"
   },
   {
    "source": "tema:IPO",
@@ -1264,6 +1568,10 @@
    "target": "2026-11-02-em-alta-x"
   },
   {
+   "source": "pilar:em_alta",
+   "target": "2026-11-04-youtube-2-horas"
+  },
+  {
    "source": "formato:lista",
    "target": "2026-11-01-semana-em-ia"
   },
@@ -1288,6 +1596,18 @@
    "target": "2026-11-02-gemini-carbon"
   },
   {
+   "source": "formato:lista",
+   "target": "2026-11-03-ias-trabalham"
+  },
+  {
+   "source": "formato:lista",
+   "target": "2026-11-03-riverside-agentes"
+  },
+  {
+   "source": "formato:lista",
+   "target": "2026-11-04-youtube-2-horas"
+  },
+  {
    "source": "paleta:paleta 1",
    "target": "2026-11-01-github-agentes"
   },
@@ -1309,7 +1629,15 @@
   },
   {
    "source": "paleta:paleta 1",
+   "target": "2026-11-02-reel-skills"
+  },
+  {
+   "source": "paleta:paleta 1",
    "target": "2026-11-02-trend-esculacho"
+  },
+  {
+   "source": "paleta:paleta 1",
+   "target": "2026-11-04-youtube-2-horas"
   },
   {
    "source": "empresa:Google",
@@ -1398,6 +1726,10 @@
   {
    "source": "horario:17h",
    "target": "2026-11-02-extensao-falsa"
+  },
+  {
+   "source": "horario:17h",
+   "target": "2026-11-03-ideogram-edita"
   },
   {
    "source": "2026-11-01-openai-offline",
@@ -1513,15 +1845,31 @@
   },
   {
    "source": "pilar:tutorial",
+   "target": "2026-11-02-reel-skills"
+  },
+  {
+   "source": "pilar:tutorial",
    "target": "2026-11-02-trend-esculacho"
+  },
+  {
+   "source": "pilar:tutorial",
+   "target": "2026-11-03-ideogram-edita"
   },
   {
    "source": "formato:tutorial",
    "target": "2026-11-01-tutorial-projetos-claude"
   },
   {
+   "source": "formato:tutorial",
+   "target": "2026-11-03-ideogram-edita"
+  },
+  {
    "source": "tema:produtividade",
    "target": "2026-11-01-tutorial-projetos-claude"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-03-ias-trabalham"
   },
   {
    "source": "2026-11-01-semana-em-ia",
@@ -1542,6 +1890,10 @@
   {
    "source": "paleta:paleta 2",
    "target": "2026-11-02-ferramentas-gratis"
+  },
+  {
+   "source": "paleta:paleta 2",
+   "target": "2026-11-03-riverside-agentes"
   },
   {
    "source": "2026-11-01-skills-claude-code",
@@ -1590,6 +1942,14 @@
   {
    "source": "pilar:recomendacao",
    "target": "2026-11-02-ferramentas-gratis"
+  },
+  {
+   "source": "pilar:recomendacao",
+   "target": "2026-11-03-ias-trabalham"
+  },
+  {
+   "source": "cta:SKILL",
+   "target": "2026-11-02-reel-skills"
   },
   {
    "source": "horario:12h",
@@ -1764,6 +2124,30 @@
    "target": "horario:14h"
   },
   {
+   "source": "horario:14h",
+   "target": "2026-11-03-riverside-agentes"
+  },
+  {
+   "source": "2026-11-02-reel-skills",
+   "target": "formato:reel animado"
+  },
+  {
+   "source": "2026-11-02-reel-skills",
+   "target": "tema:skills do Claude"
+  },
+  {
+   "source": "2026-11-02-reel-skills",
+   "target": "fonte:https://code.claude.com/docs/en/skills"
+  },
+  {
+   "source": "2026-11-02-reel-skills",
+   "target": "horario:13h"
+  },
+  {
+   "source": "horario:13h",
+   "target": "2026-11-04-youtube-2-horas"
+  },
+  {
    "source": "2026-11-02-trend-esculacho",
    "target": "cta:ZOEIRA"
   },
@@ -1794,6 +2178,166 @@
   {
    "source": "2026-11-02-trend-esculacho",
    "target": "horario:09h"
+  },
+  {
+   "source": "2026-11-03-ias-trabalham",
+   "target": "cta:LINKS"
+  },
+  {
+   "source": "2026-11-03-ias-trabalham",
+   "target": "tema:atendimento ao cliente"
+  },
+  {
+   "source": "2026-11-03-ias-trabalham",
+   "target": "tema:pesquisa"
+  },
+  {
+   "source": "2026-11-03-ias-trabalham",
+   "target": "empresa:ClawsGO"
+  },
+  {
+   "source": "2026-11-03-ias-trabalham",
+   "target": "empresa:Embage"
+  },
+  {
+   "source": "2026-11-03-ias-trabalham",
+   "target": "empresa:Fluent"
+  },
+  {
+   "source": "2026-11-03-ias-trabalham",
+   "target": "fonte:clawsgo.ai"
+  },
+  {
+   "source": "2026-11-03-ias-trabalham",
+   "target": "fonte:embage.com"
+  },
+  {
+   "source": "2026-11-03-ias-trabalham",
+   "target": "fonte:fluentmac.app"
+  },
+  {
+   "source": "2026-11-03-ias-trabalham",
+   "target": "fonte:Product Hunt digest 02/11"
+  },
+  {
+   "source": "2026-11-03-ias-trabalham",
+   "target": "fonte:The Neuron 02/11"
+  },
+  {
+   "source": "fonte:Product Hunt digest 02/11",
+   "target": "2026-11-03-ideogram-edita"
+  },
+  {
+   "source": "fonte:Product Hunt digest 02/11",
+   "target": "2026-11-03-riverside-agentes"
+  },
+  {
+   "source": "fonte:The Neuron 02/11",
+   "target": "2026-11-03-riverside-agentes"
+  },
+  {
+   "source": "2026-11-03-ideogram-edita",
+   "target": "cta:FOTO"
+  },
+  {
+   "source": "2026-11-03-ideogram-edita",
+   "target": "tema:edição de imagem"
+  },
+  {
+   "source": "2026-11-03-ideogram-edita",
+   "target": "tema:foto de produto"
+  },
+  {
+   "source": "2026-11-03-ideogram-edita",
+   "target": "tema:design"
+  },
+  {
+   "source": "2026-11-03-ideogram-edita",
+   "target": "empresa:Ideogram"
+  },
+  {
+   "source": "2026-11-03-ideogram-edita",
+   "target": "fonte:ideogram.ai/tools/precise-edit"
+  },
+  {
+   "source": "2026-11-03-ideogram-edita",
+   "target": "fonte:Digg AI 29/10"
+  },
+  {
+   "source": "2026-11-03-riverside-agentes",
+   "target": "cta:CLIPE"
+  },
+  {
+   "source": "2026-11-03-riverside-agentes",
+   "target": "tema:edição de vídeo"
+  },
+  {
+   "source": "2026-11-03-riverside-agentes",
+   "target": "tema:podcast"
+  },
+  {
+   "source": "2026-11-03-riverside-agentes",
+   "target": "tema:criadores"
+  },
+  {
+   "source": "2026-11-03-riverside-agentes",
+   "target": "empresa:Riverside"
+  },
+  {
+   "source": "2026-11-03-riverside-agentes",
+   "target": "fonte:riverside.com/agents"
+  },
+  {
+   "source": "2026-11-03-riverside-agentes",
+   "target": "fonte:Podnews (comunicado 27/10)"
+  },
+  {
+   "source": "2026-11-04-youtube-2-horas",
+   "target": "cta:TUBE"
+  },
+  {
+   "source": "2026-11-04-youtube-2-horas",
+   "target": "tema:algoritmo do YouTube"
+  },
+  {
+   "source": "2026-11-04-youtube-2-horas",
+   "target": "tema:criar app sem programar"
+  },
+  {
+   "source": "2026-11-04-youtube-2-horas",
+   "target": "tema:Claude"
+  },
+  {
+   "source": "2026-11-04-youtube-2-horas",
+   "target": "tema:curadoria de vídeos"
+  },
+  {
+   "source": "2026-11-04-youtube-2-horas",
+   "target": "empresa:YouTube"
+  },
+  {
+   "source": "2026-11-04-youtube-2-horas",
+   "target": "empresa:Hacker News"
+  },
+  {
+   "source": "2026-11-04-youtube-2-horas",
+   "target": "fonte:x.com/karpathy/status/2116957135661945283"
+  },
+  {
+   "source": "2026-11-04-youtube-2-horas",
+   "target": "fonte:hackertube.org"
+  },
+  {
+   "source": "2026-11-04-youtube-2-horas",
+   "target": "fonte:businesstoday.in (02/11)"
+  },
+  {
+   "source": "2026-11-04-youtube-2-horas",
+   "target": "fonte:startupfortune.com"
+  },
+  {
+   "source": "2026-11-04-youtube-2-horas",
+   "target": "fonte:pbxscience.com"
   }
  ]
 }
