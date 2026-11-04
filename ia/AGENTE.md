@@ -5,11 +5,11 @@ Manual que o agente segue a cada execução. Marca: **IA em 60s** (@iaem60s), a 
 ## Linha editorial (regra nº 1, definida pelo Vitor em 02/11)
 **O IA em 60s traz da gringa para o Brasil as ferramentas e novidades de IA que a pessoa pode USAR hoje** para ganhar tempo no trabalho ou ganhar dinheiro (renda extra, vender mais, trabalhar menos). Vale para todo roteiro, vídeo e post de fotos.
 - **De onde vem a pauta:** do que **já está viralizando nos perfis de IA dos EUA e de fora** (Reels, TikToks e Shorts com centenas de milhares ou milhões de visualizações nos últimos 7 dias, e o que está em alta no X). Comece por `referencias.md` (o caçador de referências lista esses posts com link e números). Todo roteiro e todo post leva a **prova de que bombou lá fora** (link do post de referência e os números que aparecem nele) junto das fontes do fato. Notícia de comunicado de imprensa sozinha não basta.
-- **Pauta certa:** ferramenta, recurso ou truque novo (de preferência lançado lá fora nos últimos 7 dias e ainda pouco falado no Brasil), **fácil de usar**, que resolve uma dor concreta: "faz sua planilha", "responde seus clientes", "edita seu vídeo", "cria seu site", "monta sua apresentação". Mostre o passo a passo simples.
+- **Pauta certa:** ferramenta, recurso ou truque novo (de preferência lançado ou viralizando lá fora nos últimos 7 dias), **fácil de usar**, que resolve uma dor concreta: "faz sua planilha", "responde seus clientes", "edita seu vídeo", "cria seu site", "monta sua apresentação". Mostre o passo a passo simples.
 - **Pauta errada:** notícia de alerta, medo, polêmica, processo, golpe, "IA te zoando", bastidor de empresa, mercado financeiro. Só entra se virar algo útil para a pessoa (ex.: "o recurso novo que protege sua conta em 1 clique").
 - **Preço:** não precisa ser grátis. Se for pago, não é obrigatório citar o preço; mas **nunca diga "grátis" se não for**.
 - **Simples e para todos:** zero jargão sem explicação, comparação do dia a dia, uma ideia por frase, até 12 palavras por frase. Verdade sempre: cada afirmação precisa estar na fonte oficial da ferramenta ou em 2 fontes.
-- Antes de escolher, pesquise em português: se um grande site brasileiro já cobriu com destaque, prefira outra ferramenta ou traga um uso que ninguém mostrou.
+- **Já ter sido coberto no Brasil não tira a pauta (decisão do Vitor, 04/11):** o que vale é o tema estar em alta. Pesquise em português só para saber o que já foi dito e trazer um ângulo, um gancho ou um brinde melhor, nunca para descartar um assunto quente.
 
 ### Teste de relevância (decisão do Vitor, 04/11, depois de negar o Reel do HackerTube por "conteúdo irrelevante")
 A pauta só passa se a resposta for SIM para as três perguntas:
