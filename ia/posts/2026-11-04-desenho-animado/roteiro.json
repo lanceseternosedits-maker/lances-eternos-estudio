@@ -1,0 +1,20 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, confiante, ritmo rápido, tom de 'olha o que tão fazendo'",
+ "chave": "DESENHO",
+ "mascote": "mascote/clawd.jpg",
+ "legenda_estilo": "palavra",
+ "tese": "CANAL DE DESENHO SEM DESENHAR",
+ "brinde": "link da skill grátis (licença MIT) + passo a passo em português pra instalar no Claude Code",
+ "fontes": ["https://github.com/mromidev/claude-animated-shorts", "https://trendshift.io/repositories/331269", "https://x.com/RoundtableSpace/status/2117236532482396349", "https://x.com/iksly2/status/2117144049232572469"],
+ "prova_viral": "Skill criada em 01/11 com ~1.300 estrelas no GitHub em 3 dias; post do X (RoundtableSpace) com ~63,6 mil views: 'animated story shorts are all over TikTok and Reels'; post de Kemi no X: 'one of the hottest faceless niches... millions of views on YouTube'. Sem cobertura em grande site brasileiro até 04/11.",
+ "segmentos": [
+  {"cena": "gancho", "tag": "CANAL DE DESENHO SEM DESENHAR", "fala": "Tão criando canal de desenho animado sem saber desenhar.", "legenda": "Tão criando canal de desenho animado sem saber desenhar.", "visual": "o mascote parte ao meio uma prancheta de desenho gigante com um golpe; lápis voam (metáfora física no 1º segundo)", "sfx": [{"t": 0.2, "som": "impact", "g": 0.8}, {"t": 0.5, "som": "glitch", "g": 0.4}]},
+  {"cena": "views", "tag": "TÁ BOMBANDO", "fala": "Esses desenhos tão bombando no TikTok, no Reels e no YouTube.", "legenda": "Esses desenhos tão bombando no TikTok, no Reels e no YouTube.", "visual": "mascote em cima de um contador de views mecânico girando", "sfx": [{"t": 0.2, "som": "clock", "g": 0.5}, {"t": 2.6, "som": "ding", "g": 0.6}]},
+  {"cena": "skill", "tag": "SKILL GRÁTIS", "fala": "E agora uma skill grátis faz o Clód criar esses vídeos sozinho.", "legenda": "E agora uma skill grátis faz o Claude criar esses vídeos sozinho.", "visual": "mascote no notebook; uma fita de filme sai voando da tela", "sfx": [{"t": 0.1, "som": "typing", "g": 0.4}, {"t": 2.2, "som": "whoosh", "g": 0.6}]},
+  {"cena": "diretor", "tag": "VOCÊ SÓ DÁ O TEMA", "fala": "Você dá o tema. Ele escreve o roteiro, planeja as cenas e anima.", "legenda": "Você dá o tema. Ele escreve o roteiro, planeja as cenas e anima.", "visual": "mascote na cadeira de diretor com claquete; storyboard e câmera em volta", "sfx": [{"t": 1.2, "som": "stamp", "g": 0.6}, {"t": 2.8, "som": "pop", "g": 0.6}]},
+  {"cena": "resultado", "tag": "1 MINUTO PRONTO", "fala": "Sai um vídeo de um minuto, com personagens, câmera e trilha.", "legenda": "Sai um vídeo de 1 minuto, com personagens, câmera e trilha.", "visual": "mascote assiste num telão de cinema uma cidadezinha pintada em estilo desenho, colorida", "sfx": [{"t": 0.3, "som": "riser", "g": 0.5}]},
+  {"cena": "pc", "tag": "NO SEU COMPUTADOR", "fala": "Tudo no seu computador, sem pagar gerador de vídeo.", "legenda": "Tudo no seu computador, sem pagar gerador de vídeo.", "visual": "mascote ao lado de um PC com luzes; uma moeda volta para o cofrinho", "sfx": [{"t": 1.6, "som": "ding", "g": 0.6}]},
+  {"cena": "cta", "tag": "COMENTA DESENHO", "fala": "Comenta DESENHO e me segue que eu te mando a skill e o passo a passo.", "legenda": "Comenta DESENHO e me segue que eu te mando a skill e o passo a passo.", "visual": "mascote acena com a claquete na mão, confete", "sfx": [{"t": 0.1, "som": "pop", "g": 0.7}]}
+ ]
+}
