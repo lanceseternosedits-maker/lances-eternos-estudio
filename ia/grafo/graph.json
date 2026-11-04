@@ -931,6 +931,125 @@
    "label": "Podnews (comunicado 27/10)"
   },
   {
+   "id": "2026-11-04-canva-craft",
+   "tipo": "post",
+   "label": "canva-craft",
+   "data": "2026-11-04",
+   "score": null
+  },
+  {
+   "id": "cta:POST",
+   "tipo": "cta",
+   "label": "POST"
+  },
+  {
+   "id": "tema:Canva Craft",
+   "tipo": "tema",
+   "label": "Canva Craft"
+  },
+  {
+   "id": "tema:criar post de loja com IA",
+   "tipo": "tema",
+   "label": "criar post de loja com IA"
+  },
+  {
+   "id": "tema:texto legível em imagem de IA",
+   "tipo": "tema",
+   "label": "texto legível em imagem de IA"
+  },
+  {
+   "id": "tema:Magic Layers",
+   "tipo": "tema",
+   "label": "Magic Layers"
+  },
+  {
+   "id": "empresa:Canva",
+   "tipo": "empresa",
+   "label": "Canva"
+  },
+  {
+   "id": "fonte:canva.com/newsroom/news/canva-craft (22/10)",
+   "tipo": "fonte",
+   "label": "canva.com/newsroom/news/canva-craft (22/10)"
+  },
+  {
+   "id": "fonte:cmswire.com (canva-debuts-inhouse-ai-image-model-craft)",
+   "tipo": "fonte",
+   "label": "cmswire.com (canva-debuts-inhouse-ai-image-model-craft)"
+  },
+  {
+   "id": "fonte:winbuzzer.com 23/10",
+   "tipo": "fonte",
+   "label": "winbuzzer.com 23/10"
+  },
+  {
+   "id": "fonte:smartscope.blog (free plan)",
+   "tipo": "fonte",
+   "label": "smartscope.blog (free plan)"
+  },
+  {
+   "id": "2026-11-04-desenho-animado",
+   "tipo": "post",
+   "label": "desenho-animado",
+   "data": "2026-11-04",
+   "score": null
+  },
+  {
+   "id": "formato:reel animado 3D",
+   "tipo": "formato",
+   "label": "reel animado 3D"
+  },
+  {
+   "id": "paleta:paleta 0",
+   "tipo": "paleta",
+   "label": "paleta 0"
+  },
+  {
+   "id": "cta:DESENHO",
+   "tipo": "cta",
+   "label": "DESENHO"
+  },
+  {
+   "id": "tema:canal dark",
+   "tipo": "tema",
+   "label": "canal dark"
+  },
+  {
+   "id": "tema:desenho animado com IA",
+   "tipo": "tema",
+   "label": "desenho animado com IA"
+  },
+  {
+   "id": "tema:skills do Claude Code",
+   "tipo": "tema",
+   "label": "skills do Claude Code"
+  },
+  {
+   "id": "tema:renda extra",
+   "tipo": "tema",
+   "label": "renda extra"
+  },
+  {
+   "id": "fonte:github.com/mromidev/claude-animated-shorts",
+   "tipo": "fonte",
+   "label": "github.com/mromidev/claude-animated-shorts"
+  },
+  {
+   "id": "fonte:trendshift.io/repositories/331269",
+   "tipo": "fonte",
+   "label": "trendshift.io/repositories/331269"
+  },
+  {
+   "id": "fonte:x.com/RoundtableSpace/status/2117236532482396349",
+   "tipo": "fonte",
+   "label": "x.com/RoundtableSpace/status/2117236532482396349"
+  },
+  {
+   "id": "fonte:x.com/iksly2/status/2117144049232572469",
+   "tipo": "fonte",
+   "label": "x.com/iksly2/status/2117144049232572469"
+  },
+  {
    "id": "2026-11-04-youtube-2-horas",
    "tipo": "post",
    "label": "youtube-2-horas",
@@ -1201,6 +1320,10 @@
   },
   {
    "source": "empresa:Anthropic",
+   "target": "2026-11-04-desenho-animado"
+  },
+  {
+   "source": "empresa:Anthropic",
    "target": "2026-11-04-youtube-2-horas"
   },
   {
@@ -1309,6 +1432,14 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-04-canva-craft"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-04-desenho-animado"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-04-youtube-2-horas"
   },
   {
@@ -1384,6 +1515,10 @@
    "target": "2026-11-03-riverside-agentes"
   },
   {
+   "source": "rede:tiktok",
+   "target": "2026-11-04-desenho-animado"
+  },
+  {
    "source": "rede:youtube",
    "target": "2026-11-01-anthropic-ipo-p3"
   },
@@ -1454,6 +1589,14 @@
   {
    "source": "horario:19h",
    "target": "2026-11-03-ias-trabalham"
+  },
+  {
+   "source": "horario:19h",
+   "target": "2026-11-04-canva-craft"
+  },
+  {
+   "source": "horario:19h",
+   "target": "2026-11-04-desenho-animado"
   },
   {
    "source": "2026-11-01-anthropic-ipo-p3",
@@ -1566,6 +1709,10 @@
   {
    "source": "pilar:em_alta",
    "target": "2026-11-02-em-alta-x"
+  },
+  {
+   "source": "pilar:em_alta",
+   "target": "2026-11-04-desenho-animado"
   },
   {
    "source": "pilar:em_alta",
@@ -1856,12 +2003,20 @@
    "target": "2026-11-03-ideogram-edita"
   },
   {
+   "source": "pilar:tutorial",
+   "target": "2026-11-04-canva-craft"
+  },
+  {
    "source": "formato:tutorial",
    "target": "2026-11-01-tutorial-projetos-claude"
   },
   {
    "source": "formato:tutorial",
    "target": "2026-11-03-ideogram-edita"
+  },
+  {
+   "source": "formato:tutorial",
+   "target": "2026-11-04-canva-craft"
   },
   {
    "source": "tema:produtividade",
@@ -1894,6 +2049,10 @@
   {
    "source": "paleta:paleta 2",
    "target": "2026-11-03-riverside-agentes"
+  },
+  {
+   "source": "paleta:paleta 2",
+   "target": "2026-11-04-canva-craft"
   },
   {
    "source": "2026-11-01-skills-claude-code",
@@ -2290,6 +2449,90 @@
   {
    "source": "2026-11-03-riverside-agentes",
    "target": "fonte:Podnews (comunicado 27/10)"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
+   "target": "cta:POST"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
+   "target": "tema:Canva Craft"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
+   "target": "tema:criar post de loja com IA"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
+   "target": "tema:texto legível em imagem de IA"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
+   "target": "tema:Magic Layers"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
+   "target": "empresa:Canva"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
+   "target": "fonte:canva.com/newsroom/news/canva-craft (22/10)"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
+   "target": "fonte:cmswire.com (canva-debuts-inhouse-ai-image-model-craft)"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
+   "target": "fonte:winbuzzer.com 23/10"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
+   "target": "fonte:smartscope.blog (free plan)"
+  },
+  {
+   "source": "2026-11-04-desenho-animado",
+   "target": "formato:reel animado 3D"
+  },
+  {
+   "source": "2026-11-04-desenho-animado",
+   "target": "paleta:paleta 0"
+  },
+  {
+   "source": "2026-11-04-desenho-animado",
+   "target": "cta:DESENHO"
+  },
+  {
+   "source": "2026-11-04-desenho-animado",
+   "target": "tema:canal dark"
+  },
+  {
+   "source": "2026-11-04-desenho-animado",
+   "target": "tema:desenho animado com IA"
+  },
+  {
+   "source": "2026-11-04-desenho-animado",
+   "target": "tema:skills do Claude Code"
+  },
+  {
+   "source": "2026-11-04-desenho-animado",
+   "target": "tema:renda extra"
+  },
+  {
+   "source": "2026-11-04-desenho-animado",
+   "target": "fonte:github.com/mromidev/claude-animated-shorts"
+  },
+  {
+   "source": "2026-11-04-desenho-animado",
+   "target": "fonte:trendshift.io/repositories/331269"
+  },
+  {
+   "source": "2026-11-04-desenho-animado",
+   "target": "fonte:x.com/RoundtableSpace/status/2117236532482396349"
+  },
+  {
+   "source": "2026-11-04-desenho-animado",
+   "target": "fonte:x.com/iksly2/status/2117144049232572469"
   },
   {
    "source": "2026-11-04-youtube-2-horas",

@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador animado e confiante, ritmo rápido, tom de 'finalmente resolveram isso', leve humor",
+ "chave": "POST",
+ "brinde": "10 prompts prontos pra criar os posts da loja no Canva (resposta_dm.txt)",
+ "tese_topo": "ACABOU A LETRA TORTA DA IA",
+ "fontes": [
+  "https://www.canva.com/newsroom/news/canva-craft/",
+  "https://www.cmswire.com/digital-experience/canva-debuts-inhouse-ai-image-model-craft/",
+  "https://winbuzzer.com/2026/10/23/canva-craft-plans-layouts-before-generating-images-xcxwbn/",
+  "https://smartscope.blog/en/blog/canva-craft-it-use-dream-lab-free-plan-2026/"
+ ],
+ "prova_viral": "Post de lançamento do @canva no X (22/10): ~1,9 mi de views, ~1 mil salvamentos (Doomers AI, leitura de 03/11)",
+ "texto_tela_gancho": "ACABOU A LETRA TORTA DA IA",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "ACABOU A LETRA TORTA",
+   "fala": "A letra torta da IA acabou.",
+   "legenda": "A letra torta da IA acabou.",
+   "visual": "1º segundo: mascote dá uma marretada num cartaz de letras derretidas tipo espaguete, que estilhaça em pedaços (plano aberto → fechado no impacto)",
+   "sfx": [
+    {
+     "t": 0.2,
+     "som": "impact",
+     "g": 0.8
+    }
+   ],
+   "mov": "punch"
+  },
+  {
+   "cena": "dor",
+   "tag": "VOCÊ ÀS 23H",
+   "fala": "Sabe aquele cartaz que a IA entrega todo errado?",
+   "legenda": "Sabe aquele cartaz que a IA entrega todo errado?",
+   "visual": "mascote cercado de bolas de papel amassado, olhar bravo, cartaz com letras retorcidas ao fundo",
+   "sfx": [
+    {
+     "t": 0.8,
+     "som": "paper",
+     "g": 0.6
+    }
+   ],
+   "mov": "in"
+  },
+  {
+   "cena": "novidade",
+   "tag": "CANVA CRAFT",
+   "fala": "O Canva lançou a própria IA de imagem: o Canva Craft.",
+   "legenda": "O Canva lançou a própria IA de imagem: o Canva Craft.",
+   "visual": "cortina de palco abre e revela um pincel gigante brilhando num pedestal (objeto genérico, sem logo)",
+   "sfx": [
+    {
+     "t": 0.3,
+     "som": "riser",
+     "g": 0.5
+    },
+    {
+     "t": 1.8,
+     "som": "ding",
+     "g": 0.6
+    }
+   ],
+   "mov": "out"
+  },
+  {
+   "cena": "planta",
+   "tag": "PLANEJA ANTES",
+   "fala": "Ela monta o layout antes de desenhar. Por isso a letra sai legível.",
+   "legenda": "Ela monta o layout antes de desenhar. Por isso a letra sai legível.",
+   "visual": "planta azul quadriculada no chão; blocos coloridos (foto, título, faixa) caem com mola cada um no seu lugar",
+   "sfx": [
+    {
+     "t": 0.5,
+     "som": "pop",
+     "g": 0.6
+    },
+    {
+     "t": 1.4,
+     "som": "pop",
+     "g": 0.6
+    }
+   ],
+   "mov": "down"
+  },
+  {
+   "cena": "frase",
+   "tag": "1 FRASE",
+   "fala": "Você escreve uma frase e sai o post da sua loja pronto.",
+   "legenda": "Você escreve uma frase e sai o post da sua loja pronto.",
+   "visual": "mascote digita num teclado gigante de brinquedo; um cartaz de padaria (barras coloridas no lugar do texto) sai de uma impressora",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "typing",
+     "g": 0.4
+    },
+    {
+     "t": 2.2,
+     "som": "pop",
+     "g": 0.7
+    }
+   ],
+   "mov": "in_tr"
+  },
+  {
+   "cena": "camadas",
+   "tag": "MUDA SÓ UMA PARTE",
+   "fala": "Não gostou do título? Separa em camadas e troca só ele.",
+   "legenda": "Não gostou do título? Separa em camadas e troca só ele.",
+   "visual": "o cartaz se abre em placas de vidro flutuantes (fundo, produto, faixas); o mascote puxa uma camada como gaveta",
+   "sfx": [
+    {
+     "t": 0.6,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ],
+   "mov": "base"
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA POST",
+   "fala": "Comenta POST e me segue que eu te mando dez prompts prontos, grátis.",
+   "legenda": "Comenta POST e me segue que eu te mando dez prompts prontos, grátis.",
+   "visual": "mascote acena segurando um leque de cartões de prompt; luzinhas acendem",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "pop",
+     "g": 0.7
+    }
+   ],
+   "mov": "out"
+  }
+ ],
+ "mascote": "mascote/clawd.jpg",
+ "legenda_estilo": "palavra",
+ "obs": "Sem logo do Canva nas imagens (objetos genéricos). Nunca dizer 'grátis' sobre o Canva Craft: o grátis é o brinde (prompts). Duração estimada: ~76 palavras ≈ 25 s; 7 imagens × 2 planos = 14 planos (~1,8 s cada; dá para cortar 3 planos extras com zoom fechado nas frases longas)."
+}

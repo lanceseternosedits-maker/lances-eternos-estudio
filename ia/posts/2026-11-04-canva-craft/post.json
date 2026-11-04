@@ -1,0 +1,66 @@
+{
+ "slug": "canva-craft",
+ "formato": "tutorial",
+ "cover": {
+  "title_html": "Acabou a letra torta<br><span class=\"g\">da IA.</span>",
+  "sub": "O Canva agora cria o post pronto. E editável.",
+  "imgs": ["capa.jpg", "torta.jpg", "camadas.jpg"]
+ },
+ "dor": {
+  "kick": "O PROBLEMA",
+  "title": "Você pede um cartaz pra IA. Vem letra torta.",
+  "body": "Aí você apaga, refaz e perde a tarde. Ou desiste e paga alguém pra arrumar.",
+  "carimbo": "LETRA TORTA"
+ },
+ "items": [
+  {
+   "n": "01",
+   "repo": "Canva · CMSWire · WinBuzzer (22–23/10)",
+   "kick": "A novidade · Canva Craft",
+   "title": "A IA de imagem do próprio Canva.",
+   "body": "Feita pra cartaz, post e anúncio. Ela planeja o layout antes de desenhar, por isso a letra sai legível.",
+   "img": "capa.jpg", "fit": "cover", "pos": "50% 50%", "credit": "ilustração gerada por IA",
+   "chips": [["Texto em", "55 idiomas"], ["Lançada", "22/10"]]
+  },
+  {
+   "n": "02",
+   "repo": "canva.com/dream-lab",
+   "kick": "Passo 1 · Onde fica",
+   "title": "Abra o Dream Lab no Canva.",
+   "body": "No editor, fica no painel da esquerda. Ou entre direto em canva.com/dream-lab.",
+   "quote": "Canva → Dream Lab → escreva o que você quer.",
+   "chips": [["Onde", "Dream Lab"], ["Pedido em", "português"]]
+  },
+  {
+   "n": "03",
+   "repo": "prompt de exemplo · IA em 60s",
+   "kick": "Passo 2 · Peça em 1 frase",
+   "title": "Diga o texto exato entre aspas.",
+   "body": "Escolha o formato (story, post, cartaz). Sai em até 2K.",
+   "prompt": "Cartaz vertical de promoção de padaria. Título grande: “Pão de queijo quentinho”. Embaixo: “2 por R$ 5 até as 10h”. Fundo creme, estilo moderno.",
+   "chips": [["Resolução", "até 2K"], ["Formatos", "30+"]]
+  },
+  {
+   "n": "04",
+   "repo": "Canva · CMSWire (23/10)",
+   "kick": "Passo 3 · Mude só uma parte",
+   "title": "Separe em camadas e edite.",
+   "body": "O Magic Layers (beta) solta os objetos do fundo e vira o texto em caixa editável. Sem gerar tudo de novo.",
+   "img": "camadas.jpg", "fit": "cover", "pos": "50% 50%", "credit": "ilustração gerada por IA",
+   "chips": [["Magic Layers", "beta"], ["Refazer tudo", "não precisa"]]
+  },
+  {
+   "n": "05",
+   "repo": "WinBuzzer · SmartScope (ajuda do Canva)",
+   "kick": "Antes de usar",
+   "title": "Gasta a cota de IA da sua conta.",
+   "body": "Cada imagem usa os créditos de IA do Canva. No plano grátis, a cota mensal é limitada.",
+   "quote": "Aparece pra quem tem conta no Canva. Só não é ilimitado.",
+   "chips": [["Disponível", "no mundo todo"], ["Plano grátis", "cota limitada"]]
+  }
+ ],
+ "cta": {
+  "key": "POST",
+  "promise": "10 prompts prontos pra criar os posts da sua loja no Canva."
+ }
+}
