@@ -145,5 +145,17 @@
   "https://github.com/xevrion/hatchzip",
   "https://github.com/FrigadeHQ/hob",
   "https://github.com/InukaAsith/TwinDesk"
- ]
+ ],
+ "elementos": {
+  "etiqueta": "b) papel rasgado colado com fita adesiva",
+  "nome": "b) carimbo batendo",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "d) virada de página",
+  "mascote": "óculos redondos + crachá; DIGITA num teclado gigante e arrasta janelas",
+  "camera": "b) top-down que desce em diagonal",
+  "fechamento": "c) post-its na parede com os 5 e o COMENTA PC num post-it maior",
+  "tipografia": "b) Archivo Black + e) Caveat",
+  "som": "trilha 02_memoria; efeitos de papel, carimbo e teclado"
+ }
 }

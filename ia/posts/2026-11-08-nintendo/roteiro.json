@@ -145,5 +145,17 @@
     }
    ]
   }
- ]
+ ],
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando (com uma letra falhando)",
+  "nome": "d) letreiro split-flap de aeroporto",
+  "contador": "e) placar 8-bit HI-SCORE",
+  "legenda": "e) tarja de arcade",
+  "transicao": "e) glitch RGB + 'LEVEL UP'",
+  "mascote": "fone gamer + controle; SE ESCONDE da sirene atrás da máquina e depois joga",
+  "camera": "d) órbita + e) câmera na mão nos sustos",
+  "fechamento": "d) tela 'CONTINUE? 10…9…' com COMENTA JOGO como botão",
+  "tipografia": "d) Press Start 2P + f) Bebas Neue",
+  "som": "trilha 01_despedida acelerada; efeitos 8-bit e moeda"
+ }
 }

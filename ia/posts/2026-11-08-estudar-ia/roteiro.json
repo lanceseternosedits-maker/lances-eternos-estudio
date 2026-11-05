@@ -145,5 +145,17 @@
   "https://github.com/assafkip/claudemy",
   "https://github.com/designfuchen/word-atlas",
   "https://github.com/wquguru/cicada"
- ]
+ ],
+ "elementos": {
+  "etiqueta": "f) página de caderno pautado com margem vermelha",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote de vidro enchendo de estrelas",
+  "legenda": "c) karaokê com marca-texto amarelo deslizando",
+  "transicao": "c) íris circular",
+  "mascote": "mochila + boné; LÊ um livro, vira a página e anota",
+  "camera": "c) travelling lateral pelas estantes",
+  "fechamento": "e) os 5 escritos à mão numa página de caderno, COMENTA ESTUDA sublinhado",
+  "tipografia": "c) Fraunces + e) Caveat",
+  "som": "trilha 03_ultimo_apito; efeitos de máquina de escrever, página e lápis"
+ }
 }

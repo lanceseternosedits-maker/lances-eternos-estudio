@@ -50,6 +50,20 @@ Para listas de skills/ferramentas com número forte. Etiqueta fixa de 3 camadas 
 ## Originalidade (Vitor, 05/11: "quero originalidade a cada vídeo; não fique repetindo cenas e trocando conteúdo")
 O formato pode se repetir (estrutura, etiqueta, contagem, contador, mascote e fonte), mas **cada vídeo tem identidade própria**: cenário (nada de reaproveitar o palco escuro), paleta (`cores` no módulo), gancho (nada de caixa "?" sempre), objeto da nº 1, fechamento e movimentos de câmera. No formato 3, o módulo `itens/<nome>.js` devolve `cores`, `semPalco`, `ACT.gancho`/`ACT.cta` e os próprios objetos. Já usados: palco escuro + caixa "?" + confete (5 skills); sala de estar à noite + TV de tubo + pipoca (TV e celular); ilha de edição + claquete + rolos de filme (editar vídeo). Antes de criar, confira esta lista e não repita.
 
+## Diversidade de elementos (Vitor, 05/11: "diversifique os elementos dos vídeos, urgente")
+Não basta trocar o cenário: **cada vídeo escolhe uma combinação diferente em TODAS as linhas abaixo** e grava no roteiro o campo `elementos`. Nenhuma linha pode repetir a escolha do vídeo anterior, e a mesma combinação inteira nunca se repete. Os 3 primeiros vídeos do formato 3 (5 skills, TV, edição) usaram a opção (a) em quase tudo; ela fica "gasta" até o fim de novembro.
+- **Etiqueta da tese:** (a) caixa creme no topo · (b) papel rasgado com fita adesiva · (c) letreiro neon piscando · (d) faixa diagonal de aviso · (e) tela de terminal · (f) página de caderno · (g) placa de rua/aeroporto.
+- **Revelação do nome:** (a) texto embaralhado decifrando · (b) carimbo batendo · (c) máquina de escrever · (d) letreiro split-flap de aeroporto · (e) letras caindo e encaixando · (f) escrito à mão.
+- **Contador:** (a) número + barra de blocos · (b) odômetro de rolinhos · (c) velocímetro/medidor circular · (d) pote enchendo de estrelas · (e) placar 8-bit HI-SCORE · (f) termômetro.
+- **Legenda:** (a) bloco de 4 palavras com a atual colorida · (b) uma palavra gigante por vez com "pop" · (c) karaokê com marca-texto deslizando · (d) balão de fala do mascote · (e) tarja de TV/arcade.
+- **Transição entre itens:** (a) flash branco · (b) chicote de câmera (whip pan) · (c) íris circular · (d) virada de página · (e) glitch RGB · (f) zoom atravessando uma tela.
+- **Mascote:** sempre um acessório e uma ação principal novos (óculos, boné, fone, mochila, crachá, capa…; digitar, ler, dançar, se esconder, correr, pilotar…). "Apontar" não pode ser a ação principal.
+- **Câmera:** (a) 2 planos frontais · (b) top-down · (c) travelling lateral · (d) órbita · (e) câmera na mão · (f) plongée/contra-plongée.
+- **Fechamento:** (a) lista + pílulas COMENTA · (b) pódio · (c) post-its/cartazes na parede · (d) tela "CONTINUE?" com contagem · (e) página de caderno · (f) cartões que viram.
+- **Tipografia:** (a) Space Grotesk · (b) Archivo Black · (c) Fraunces · (d) Press Start 2P · (e) Caveat (manuscrita) · (f) Bebas Neue. Fontes via npm `@fontsource/*` (grátis).
+- **Som:** alternar as 3 trilhas próprias e o jogo de efeitos (papel, máquina, arcade, natureza…).
+Registro: 5 skills = a/a/a/a/a/apontar/a/a/a · TV = a/a/a/a/a/controle remoto/a/a/a · edição = a/a/a/a/a/claquete/a/a/a.
+
 ## Gastos (decisão do Vitor, 05/11)
 Toda ação paga começa com uma estimativa (por vídeo e por mês) e só roda depois da aprovação do Vitor. Gemini: **tudo na chave paga** (decisão do Vitor, 05/11; `GEMINI_API_KEY` e `GEMINI_API_KEY_PAGA` no D1 são a mesma chave, de projeto com faturamento). Orçamento aprovado: voz ~US$ 0,02 por Reel, ~US$ 0,60/mês com 30 Reels; se a estimativa passar disso, pedir aprovação antes. O erro 429 é limite por minuto do modelo em prévia (o script espera e tenta de novo), não falta de cota; imagem Gemini só com orçamento aprovado antes.
 
