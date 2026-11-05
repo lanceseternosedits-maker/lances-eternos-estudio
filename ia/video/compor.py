@@ -61,6 +61,7 @@ def caixa_texto(d, xy, txt, f, fg, bg, pad=(34, 18), raio=16, ancora="mt"):
 
 def quadro(k, b, i):
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    if os.environ.get("SEM_OVERLAY"): return im   # formato 2 (lista): título, lista e CTA já vêm desenhados na cena
     # etiqueta no topo (sombra leve + papel creme)
     tag = S[k].get("tag", "").upper(); ft = ajusta(F_TAG, 64, lambda f: d.textlength(tag, font=f) <= 900)
     sh = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ds = ImageDraw.Draw(sh)

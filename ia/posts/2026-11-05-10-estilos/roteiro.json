@@ -6,20 +6,178 @@
  "tese": "10 ESTILOS DE ANIMAÇÃO COM O CLAUDE",
  "brinde": "os 10 prompts prontos (um por estilo) pra pedir a animação ao Claude",
  "layout": "formato 2 (lista + demonstração): fundo claro editorial, título fixo no topo, lista numerada à esquerda que se preenche a cada estilo, janela vertical à direita com a MESMA cena 3D do mascote (pula e acena, câmera girando devagar) trocando de estilo no corte; no fim, grade 2x5 com os 10 estilos rodando juntos + COMENTA ESTILO",
- "fontes": ["Referência viral: Reel de @theaigeekk '10 Claude Animation styles' (gravação de tela enviada pelo Vitor em 04/11)"],
+ "fontes": [
+  "Referência viral: Reel de @theaigeekk '10 Claude Animation styles' (gravação de tela enviada pelo Vitor em 04/11)"
+ ],
  "prova_viral": "@theaigeekk: 2.939 curtidas, 2.506 comentários e 2.292 salvamentos em 6 horas (visto na gravação de tela)",
  "segmentos": [
-  {"cena": "gancho", "tag": "10 ESTILOS COM O CLAUDE", "fala": "Dez estilos de animação pra você pedir pro Clód.", "legenda": "10 estilos de animação pra você pedir pro Claude.", "estilo_visual": "argila (o nosso padrão), câmera entrando", "sfx": [{"t": 0.1, "som": "whoosh", "g": 0.6}]},
-  {"cena": "e1", "tag": "ARGILA", "fala": "Argila.", "legenda": "Argila.", "estilo_visual": "massinha fosca com marcas de dedo", "sfx": [{"t": 0.0, "som": "pop", "g": 0.6}]},
-  {"cena": "e2", "tag": "PIXEL ART", "fala": "Pixel art.", "legenda": "Pixel art.", "estilo_visual": "render em baixa resolução ampliado sem suavizar, paleta de videogame", "sfx": [{"t": 0.0, "som": "glitch", "g": 0.5}]},
-  {"cena": "e3", "tag": "GIZ NA LOUSA", "fala": "Giz na lousa.", "legenda": "Giz na lousa.", "estilo_visual": "contornos brancos tremidos sobre lousa verde-escura", "sfx": [{"t": 0.0, "som": "paper", "g": 0.5}]},
-  {"cena": "e4", "tag": "NEON", "fala": "Neon.", "legenda": "Neon.", "estilo_visual": "fundo preto, bordas brilhando em rosa e ciano", "sfx": [{"t": 0.0, "som": "riser", "g": 0.4}]},
-  {"cena": "e5", "tag": "BLOCOS DE MONTAR", "fala": "Blocos de montar.", "legenda": "Blocos de montar.", "estilo_visual": "plástico brilhante com pininhos em cima de cada bloco (sem marca)", "sfx": [{"t": 0.0, "som": "pop", "g": 0.6}]},
-  {"cena": "e6", "tag": "PAPEL RECORTADO", "fala": "Papel recortado.", "legenda": "Papel recortado.", "estilo_visual": "cores chapadas, textura de papel e sombra curta", "sfx": [{"t": 0.0, "som": "paper", "g": 0.6}]},
-  {"cena": "e7", "tag": "LÁPIS", "fala": "Desenho a lápis.", "legenda": "Desenho a lápis.", "estilo_visual": "traço de grafite cinza sobre papel creme", "sfx": [{"t": 0.0, "som": "paper", "g": 0.4}]},
-  {"cena": "e8", "tag": "DESENHO ANIMADO", "fala": "Desenho animado.", "legenda": "Desenho animado.", "estilo_visual": "cel shading com contorno preto grosso", "sfx": [{"t": 0.0, "som": "ding", "g": 0.5}]},
-  {"cena": "e9", "tag": "HOLOGRAMA", "fala": "Holograma.", "legenda": "Holograma.", "estilo_visual": "azul translúcido, linhas de varredura e malha aramada", "sfx": [{"t": 0.0, "som": "glitch", "g": 0.4}]},
-  {"cena": "e10", "tag": "OURO", "fala": "E ouro.", "legenda": "E ouro.", "estilo_visual": "metal dourado polido com brilho", "sfx": [{"t": 0.0, "som": "ding", "g": 0.7}]},
-  {"cena": "cta", "tag": "COMENTA ESTILO", "fala": "Comenta ESTILO e me segue que eu te mando o prompt de cada um.", "legenda": "Comenta ESTILO e me segue que eu te mando o prompt de cada um.", "estilo_visual": "grade 2x5 com os 10 estilos rodando juntos", "sfx": [{"t": 0.1, "som": "whoosh", "g": 0.6}]}
+  {
+   "cena": "gancho",
+   "tag": "10 ESTILOS COM O CLAUDE",
+   "fala": "Dez estilos de animação pra você pedir pro Clód.",
+   "legenda": "10 estilos de animação pra você pedir pro Claude.",
+   "estilo_visual": "argila (o nosso padrão), câmera entrando",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "e1",
+   "tag": "ARGILA",
+   "fala": "Argila.",
+   "legenda": "Argila.",
+   "estilo_visual": "massinha fosca com marcas de dedo",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "pop",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "e2",
+   "tag": "PIXEL ART",
+   "fala": "Pixel art.",
+   "legenda": "Pixel art.",
+   "estilo_visual": "render em baixa resolução ampliado sem suavizar, paleta de videogame",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "e3",
+   "tag": "GIZ NA LOUSA",
+   "fala": "Giz na lousa.",
+   "legenda": "Giz na lousa.",
+   "estilo_visual": "contornos brancos tremidos sobre lousa verde-escura",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "paper",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "e4",
+   "tag": "NEON",
+   "fala": "Neon.",
+   "legenda": "Neon.",
+   "estilo_visual": "fundo preto, bordas brilhando em rosa e ciano",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "riser",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "e5",
+   "tag": "BLOCOS DE MONTAR",
+   "fala": "Blocos de montar.",
+   "legenda": "Blocos de montar.",
+   "estilo_visual": "plástico brilhante com pininhos em cima de cada bloco (sem marca)",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "pop",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "e6",
+   "tag": "PAPEL RECORTADO",
+   "fala": "Papel recortado.",
+   "legenda": "Papel recortado.",
+   "estilo_visual": "cores chapadas, textura de papel e sombra curta",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "paper",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "e7",
+   "tag": "LÁPIS",
+   "fala": "Desenho a lápis.",
+   "legenda": "Desenho a lápis.",
+   "estilo_visual": "traço de grafite cinza sobre papel creme",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "paper",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "e8",
+   "tag": "DESENHO ANIMADO",
+   "fala": "Desenho animado.",
+   "legenda": "Desenho animado.",
+   "estilo_visual": "cel shading com contorno preto grosso",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "ding",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "e9",
+   "tag": "HOLOGRAMA",
+   "fala": "Holograma.",
+   "legenda": "Holograma.",
+   "estilo_visual": "azul translúcido, linhas de varredura e malha aramada",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "e10",
+   "tag": "OURO",
+   "fala": "E ouro maciço.",
+   "legenda": "E ouro maciço.",
+   "estilo_visual": "metal dourado polido com brilho",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "ding",
+     "g": 0.7
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA ESTILO",
+   "fala": "Comenta ESTILO e me segue que eu te mando o prompt de cada um.",
+   "legenda": "Comenta ESTILO e me segue que eu te mando o prompt de cada um.",
+   "estilo_visual": "grade 2x5 com os 10 estilos rodando juntos",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  }
  ]
 }

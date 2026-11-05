@@ -20,5 +20,11 @@ Botão "Quero os prompts" → DM 2:
 Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/post.md
 Me segue pra receber os próximos 😉
 
+## ESTILO (Reel "10 estilos de animação", formato lista)
+DM 1: Opa! Separei o prompt de cada um dos 10 estilos de animação 🎨 Toca no botão 👇
+Botão "Quero os prompts" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/estilo.md
+Funciona no claude.ai. Me segue pra não perder os próximos 😉
+
 ## Novo post
 Criar `brindes/<palavra>.md` a partir do `resposta_dm.txt` e uma automação nova aqui, com a mesma estrutura.

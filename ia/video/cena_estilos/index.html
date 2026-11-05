@@ -1,0 +1,175 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:SG;src:url(f/space-grotesk-latin-700-normal.woff2)}
+@font-face{font-family:IN;src:url(f/inter-latin-500-normal.woff2)}
+*{margin:0;padding:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#f6f1e7}canvas#c{position:absolute;inset:0}
+</style>
+</head><body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// Formato 2 (lista + demonstração): título fixo, lista que se preenche à esquerda, janela à direita com o MESMO mascote
+// trocando de estilo a cada corte; no fim, grade 2x5 com os 10 estilos + COMENTA PALAVRA. Tudo desenhado aqui (sem overlay do compor).
+import * as THREE from "./three.module.min.js";
+const CFG = await (await fetch("cfg.json")).json();
+const SEG = CFG.timeline.segmentos, CHAVE = (CFG.chave || "ESTILO").toUpperCase();
+const NOMES = ["Argila", "Pixel art", "Giz na lousa", "Neon", "Blocos de montar", "Papel recortado", "Lápis", "Desenho animado", "Holograma", "Ouro"];
+await document.fonts.load("700 60px SG"); await document.fonts.load("500 30px IN");
+
+const C = document.getElementById("c"), X = C.getContext("2d");
+const WW = 560, WH = 1180;                                  // janela de demonstração
+const gl = document.createElement("canvas"); gl.width = WW; gl.height = WH;
+const R = new THREE.WebGLRenderer({ canvas: gl, antialias: true, preserveDrawingBuffer: true, alpha: false });
+R.setPixelRatio(1); R.outputColorSpace = THREE.SRGBColorSpace; R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap;
+const S = new THREE.Scene(); const cam = new THREE.PerspectiveCamera(38, WW / WH, .1, 60);
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)), lin = (t, a, b) => cl((t - a) / (b - a)), eo = x => 1 - Math.pow(1 - cl(x), 3);
+
+// ---------- luzes ----------
+const hemi = new THREE.HemisphereLight(0xffffff, 0x8a7a70, 1.2); S.add(hemi);
+const key = new THREE.DirectionalLight(0xffffff, 2.2); key.position.set(3, 7, 5); key.castShadow = true; key.shadow.mapSize.set(1024, 1024);
+Object.assign(key.shadow.camera, { left: -3, right: 3, top: 3, bottom: -3 }); S.add(key);
+const rimL = new THREE.PointLight(0xffffff, 0, 12); rimL.position.set(-3, 3, -2); S.add(rimL);
+const spec = new THREE.PointLight(0xfff2c0, 0, 10); spec.position.set(2, 3.5, 3); S.add(spec);
+
+// ---------- mascote (mesmo de sempre: bloco largo, olhos verticais, bracinhos, perninhas) ----------
+function rgeo(w, h, d, r) {
+  const s = new THREE.Shape(), a = w / 2 - r, b = h / 2 - r, q = r * .6;
+  s.moveTo(-a + q, -b); s.lineTo(a - q, -b); s.quadraticCurveTo(a, -b, a, -b + q); s.lineTo(a, b - q); s.quadraticCurveTo(a, b, a - q, b);
+  s.lineTo(-a + q, b); s.quadraticCurveTo(-a, b, -a, b - q); s.lineTo(-a, -b + q); s.quadraticCurveTo(-a, -b, -a + q, -b);
+  const g = new THREE.ExtrudeGeometry(s, { depth: d - 2 * r, bevelEnabled: true, bevelThickness: r, bevelSize: r, bevelSegments: 4, curveSegments: 6 });
+  g.translate(0, 0, -(d - 2 * r) / 2); g.computeVertexNormals(); return g;
+}
+const partes = [];                                         // {m, papel:'corpo'|'olho'|'chao'|'bola'|'pino'}
+function peca(geo, papel, par, x, y, z) { const m = new THREE.Mesh(geo, new THREE.MeshStandardMaterial()); m.position.set(x, y, z); m.castShadow = m.receiveShadow = true; par.add(m);
+  const e = new THREE.LineSegments(new THREE.EdgesGeometry(geo, 25), new THREE.LineBasicMaterial({ color: 0xffffff })); m.add(e);
+  const o = new THREE.Mesh(geo, new THREE.MeshBasicMaterial({ color: 0x111111, side: THREE.BackSide })); o.scale.setScalar(1.08); o.renderOrder = 2; e.renderOrder = 3; m.renderOrder = 1; m.add(o);
+  partes.push({ m, e, o, papel }); return m; }
+const MAS = new THREE.Group(); S.add(MAS); const corpo = new THREE.Group(); MAS.add(corpo);
+peca(rgeo(1.5, 1.08, 1.0, .1), "corpo", corpo, 0, .96, 0);
+const olhos = [-.27, .27].map(x => peca(new THREE.BoxGeometry(.12, .34, .05), "olho", corpo, x, 1.04, .5));
+const bracos = [-1, 1].map(s => { const p = new THREE.Group(); p.position.set(s * .75, 1.08, 0); corpo.add(p); peca(rgeo(.34, .22, .3, .05), "corpo", p, s * .17, 0, 0); return p; });
+const pernas = [-.48, -.16, .16, .48].map(x => peca(rgeo(.17, .44, .24, .04), "corpo", MAS, x, .22, 0));
+const pinos = new THREE.Group(); corpo.add(pinos);
+for (const x of [-.5, 0, .5]) for (const z of [-.25, .25]) peca(new THREE.CylinderGeometry(.14, .14, .12, 20), "pino", pinos, x, 1.56, z);
+const chao = peca(new THREE.CylinderGeometry(1.8, 1.8, .16, 48), "chao", S, 0, -.08, 0);
+const bola = peca(new THREE.SphereGeometry(.26, 24, 16), "bola", S, 1.25, .26, .55);
+
+// ---------- texturas auxiliares ----------
+function ctex(w, h, f) { const c = document.createElement("canvas"); c.width = w; c.height = h; f(c.getContext("2d"), w, h); const t = new THREE.CanvasTexture(c); t.wrapS = t.wrapT = THREE.RepeatWrapping; return t; }
+let sd = 7; const rnd = () => (sd = (sd * 16807) % 2147483647) / 2147483647;
+const dedos = ctex(256, 256, (g, w, h) => { g.fillStyle = "#808080"; g.fillRect(0, 0, w, h); for (let i = 0; i < 90; i++) { g.fillStyle = `rgba(${rnd() < .5 ? 0 : 255},${0},${0},.0)`;
+  const x = rnd() * w, y = rnd() * h, r = 6 + rnd() * 18; const gr = g.createRadialGradient(x, y, 0, x, y, r); const v = rnd() < .5 ? 60 : 200; gr.addColorStop(0, `rgba(${v},${v},${v},.7)`); gr.addColorStop(1, "rgba(128,128,128,0)"); g.fillStyle = gr; g.beginPath(); g.arc(x, y, r, 0, 7); g.fill(); } });
+const grad2 = (() => { const t = new THREE.DataTexture(new Uint8Array([90, 255]), 2, 1, THREE.RedFormat); t.minFilter = t.magFilter = THREE.NearestFilter; t.needsUpdate = true; return t; })();
+const grad3 = (() => { const t = new THREE.DataTexture(new Uint8Array([70, 170, 255]), 3, 1, THREE.RedFormat); t.minFilter = t.magFilter = THREE.NearestFilter; t.needsUpdate = true; return t; })();
+
+// ---------- os 10 estilos ----------
+const LAR = "#D0623A";
+function aplica(i) {
+  const st = ESTILOS[i]; S.background = new THREE.Color(st.bg); hemi.intensity = st.hemi ?? 1.2; key.intensity = st.key ?? 2.2; rimL.intensity = st.rim ?? 0; spec.intensity = st.spec ?? 0;
+  pinos.visible = !!st.pinos; chao.visible = st.chao !== false;
+  for (const p of partes) { const mat = st.mat(p.papel); p.m.material = mat || p.m.material; p.m.visible = true;
+    p.e.visible = !!st.linha; if (st.linha) { p.e.material.color.set(typeof st.linha === "function" ? st.linha(p.papel) : st.linha); p.e.material.opacity = 1; }
+    p.o.visible = !!st.contorno; if (st.contorno) p.o.material.color.set(typeof st.contorno === "function" ? st.contorno(p.papel) : st.contorno === true ? "#111111" : st.contorno);
+    if (p.papel === "pino") p.m.visible = !!st.pinos; if (p.papel === "chao" && st.chao === false) p.m.visible = false; }
+}
+const cor = (papel, c) => papel === "olho" ? "#141014" : papel === "chao" ? c.chao : papel === "bola" ? c.bola : c.corpo;
+const SOPROF = new THREE.MeshBasicMaterial({ colorWrite: false });
+const ESTILOS = [
+  { bg: "#efe0cc", mat: p => new THREE.MeshStandardMaterial({ color: cor(p, { corpo: LAR, chao: "#d9c3a5", bola: "#5b8cff" }), roughness: 1, bumpMap: dedos, bumpScale: 3 }) },
+  { bg: "#7fd3ff", pixel: 8, mat: p => new THREE.MeshLambertMaterial({ color: cor(p, { corpo: "#ff7a3a", chao: "#5ec95e", bola: "#ffd23f" }) }) },
+  { bg: "#1f3d2c", soLinhas: true, linha: "#f4f4ec", contorno: "#f1f1e6", giz: true, hemi: 0, key: 0, mat: () => SOPROF },
+  { bg: "#07060c", linha: p => p === "olho" ? "#ffffff" : p === "chao" ? "#00e5ff" : p === "bola" ? "#ffe14a" : "#ff2bd6", neon: true, hemi: .05, key: 0, contorno: p => p === "olho" ? "#ffffff" : p === "chao" ? "#00e5ff" : p === "bola" ? "#ffe14a" : "#ff2bd6",
+    mat: () => new THREE.MeshBasicMaterial({ color: "#07060c" }) },
+  { bg: "#e9eef5", pinos: true, spec: 30, mat: p => new THREE.MeshPhysicalMaterial({ color: cor(p, { corpo: "#e3242b", chao: "#2b7de9", bola: "#ffcd00" }), roughness: .18, clearcoat: 1, clearcoatRoughness: .08 }) },
+  { bg: "#f3e6cf", papel: true, key: 1.6, mat: p => new THREE.MeshToonMaterial({ color: cor(p, { corpo: "#ec7a4f", chao: "#7bbf8e", bola: "#4f7cd6" }), gradientMap: grad2 }) },
+  { bg: "#f6f0e2", soLinhas: true, linha: "#55524c", contorno: "#3d3a35", lapis: true, hemi: 0, key: 0, mat: () => SOPROF },
+  { bg: "#ffd84a", contorno: true, mat: p => new THREE.MeshToonMaterial({ color: cor(p, { corpo: "#ff7b3d", chao: "#46c2ff", bola: "#ff4f8b" }), gradientMap: grad3 }) },
+  { bg: "#04122a", linha: "#7fe8ff", holo: true, hemi: .2, key: 0, chao: true,
+    mat: () => new THREE.MeshBasicMaterial({ color: "#2ab8ff", transparent: true, opacity: .28, blending: THREE.AdditiveBlending, depthWrite: false }) },
+  { bg: "#2a1d10", spec: 60, rim: 40, hemi: .6, mat: p => p === "olho" ? new THREE.MeshStandardMaterial({ color: "#1a1208", roughness: .3 })
+    : new THREE.MeshStandardMaterial({ color: "#ffc53a", metalness: .85, roughness: .22, emissive: "#6b4400", emissiveIntensity: .45 }) },
+];
+
+// ---------- animação da MESMA cena (mascote pula e acena, bola quica, câmera gira devagar) ----------
+function cena(t, cam0 = 0) {
+  const ph = (t % .9) / .9, hopY = Math.sin(ph * Math.PI) * .45, sq = ph < .08 || ph > .92 ? .12 : 0;
+  MAS.position.y = hopY; corpo.scale.set(1 + sq * .5, 1 - sq, 1 + sq * .5); MAS.rotation.y = Math.sin(t * 1.3) * .25;
+  bracos[0].rotation.z = -(.3 + Math.sin(t * 6) * .2); bracos[1].rotation.z = 1.7 + Math.sin(t * 11) * .5;
+  pernas.forEach((p, i) => p.position.y = .22 + Math.max(0, Math.sin(t * 9 + i * Math.PI)) * .08);
+  olhos.forEach(o => o.scale.y = (t % 2.4) < .1 ? .15 : 1);
+  bola.position.y = .26 + Math.abs(Math.sin(t * 4.2)) * .6; bola.rotation.z = -t * 3;
+  const a = .35 + t * .22 + cam0; cam.position.set(Math.sin(a) * 6.2, 2.6, Math.cos(a) * 6.2); cam.lookAt(0, .95, 0);
+}
+const PX = document.createElement("canvas");
+function renderEstilo(i, t, w, h) {
+  aplica(i); cena(t); const st = ESTILOS[i];
+  // giz e lápis: linhas tremidas (desenho à mão, refeito ~8x por segundo)
+  if (st.giz || st.lapis) { const k = Math.floor(t * 8); for (const p of partes) { p.e.position.set(Math.sin(k * 7.1 + p.m.id) * .012, Math.cos(k * 5.3 + p.m.id) * .012, 0); } }
+  else for (const p of partes) p.e.position.set(0, 0, 0);
+  if (R.getSize(new THREE.Vector2()).x !== w) { R.setSize(w, h, false); cam.aspect = w / h; cam.updateProjectionMatrix(); }
+  if (st.pixel) { const pw = Math.round(w / st.pixel), ph = Math.round(h / st.pixel); R.setSize(pw, ph, false); R.render(S, cam); PX.width = pw; PX.height = ph; PX.getContext("2d").drawImage(gl, 0, 0); R.setSize(w, h, false); return { src: PX, sw: pw, sh: ph, st }; }
+  R.render(S, cam); return { src: gl, sw: w, sh: h, st };
+}
+const grao = ctex(256, 256, (g, w, h) => { const d = g.createImageData(w, h); for (let i = 0; i < d.data.length; i += 4) { const v = 200 + rnd() * 55; d.data[i] = v; d.data[i + 1] = v * .96; d.data[i + 2] = v * .88; d.data[i + 3] = 255; } g.putImageData(d, 0, 0); }).image;
+function desenhaJanela(i, t, x, y, w, h, raio) {
+  const { src, sw, sh, st } = renderEstilo(i, t, w, h);
+  X.save(); X.beginPath(); X.roundRect(x, y, w, h, raio); X.clip();
+  X.imageSmoothingEnabled = !st.pixel; X.drawImage(src, 0, 0, sw, sh, x, y, w, h); X.imageSmoothingEnabled = true;
+  if (st.neon) { X.globalCompositeOperation = "lighter"; X.filter = "blur(10px)"; X.drawImage(src, 0, 0, sw, sh, x, y, w, h); X.filter = "none"; X.globalCompositeOperation = "source-over"; }
+  if (st.holo) { X.fillStyle = "rgba(127,232,255,.10)"; for (let yy = y + ((t * 60) % 6); yy < y + h; yy += 6) X.fillRect(x, yy, w, 2); }
+  if (st.papel || st.lapis) { X.globalCompositeOperation = "multiply"; X.drawImage(grao, x, y, w, h); X.globalCompositeOperation = "source-over"; }
+  if (st.giz) { X.fillStyle = "rgba(255,255,255,.035)"; for (let k = 0; k < 40; k++) X.fillRect(x + ((k * 97) % w), y + ((k * 211) % h), 60, 3); }
+  X.restore();
+}
+
+// ---------- layout ----------
+const TINTA = "#1b1712", LARJ = "#D0623A", AMA = "#ffd23f";
+function titulo() {
+  X.fillStyle = TINTA; X.textAlign = "center"; X.textBaseline = "alphabetic";
+  X.font = "700 78px SG"; X.fillText("10 estilos de animação", 540, 175);
+  X.font = "700 78px SG"; X.fillStyle = LARJ; X.fillText("com o Claude", 540, 262);
+}
+function lista(at, prog) {
+  X.textAlign = "left"; X.textBaseline = "middle";
+  for (let k = 0; k < 10; k++) { const y = 420 + k * 112, ok = k < at, cur = k === at - 1;
+    if (cur) { X.fillStyle = AMA; X.beginPath(); X.roundRect(34, y - 40, 430, 80, 18); X.fill(); }
+    X.fillStyle = ok ? TINTA : "#b9ad9c"; X.font = "700 44px SG"; X.fillText(String(k + 1).padStart(2, "0"), 52, y);
+    if (ok) { const a = cur ? eo(prog * 4) : 1; X.globalAlpha = a; X.font = `700 ${NOMES[k].length > 13 ? 34 : 40}px SG`; X.fillText(NOMES[k], 128 + (1 - a) * 20, y + 2); X.globalAlpha = 1; }
+    else { X.fillStyle = "#ddd3c4"; X.fillRect(128, y - 3, 220, 6); } }
+}
+function pilula(txt, cx, cy, fs, fundo, cor) { X.font = `700 ${fs}px SG`; const w = X.measureText(txt).width + fs * .9; X.fillStyle = fundo; X.beginPath(); X.roundRect(cx - w / 2, cy - fs * .78, w, fs * 1.56, fs * .35); X.fill(); X.fillStyle = cor; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText(txt, cx, cy + 2); return w; }
+
+window.setT = t => {
+  let k = SEG.findIndex(s => t < s.fim); if (k < 0) k = SEG.length - 1;
+  const s = SEG[k], lt = t - s.t0, d = s.fim - s.t0;
+  X.fillStyle = "#f6f1e7"; X.fillRect(0, 0, 1080, 1920);
+  if (s.cena === "cta") {
+    // grade 2x5 com os 10 estilos rodando juntos + COMENTA ESTILO
+    const ent = eo(lin(lt, 0, .5)); titulo();
+    const gw = 470, gh = 252, gx = [52, 558], gy0 = 330;
+    for (let i = 0; i < 10; i++) { const x = gx[i % 2], y = gy0 + Math.floor(i / 2) * 266, sc = .85 + .15 * eo(lin(lt, i * .04, i * .04 + .4));
+      X.save(); X.translate(x + gw / 2, y + gh / 2); X.scale(sc, sc); X.translate(-(x + gw / 2), -(y + gh / 2));
+      desenhaJanela(i, t + i * .3, x, y, gw, gh, 22);
+      X.restore(); X.font = "700 26px SG"; pilula(NOMES[i], x + 16 + X.measureText(NOMES[i]).width / 2 + 12, y + gh - 30, 26, "rgba(255,255,255,.92)", TINTA); }
+    const p = eo(lin(lt, .25, .7)), cy = 980;
+    X.save(); X.translate(540, cy); X.scale(.6 + .4 * p, .6 + .4 * p); X.globalAlpha = p;
+    X.font = "700 92px SG"; const w1 = X.measureText("COMENTA").width + 80, w2 = X.measureText(CHAVE).width + 80, x0 = -(w1 + w2 + 20) / 2;
+    X.shadowColor = "rgba(0,0,0,.35)"; X.shadowBlur = 30; pilula("COMENTA", x0 + w1 / 2, 0, 92, LARJ, "#fff"); pilula(CHAVE, x0 + w1 + 20 + w2 / 2, 0, 92, AMA, TINTA);
+    X.restore(); X.globalAlpha = 1;
+    X.font = "500 40px IN"; X.fillStyle = TINTA; X.textAlign = "center"; X.globalAlpha = p; X.fillText("que eu te mando o prompt de cada um", 540, 1740); X.globalAlpha = 1;
+  } else {
+    titulo();
+    const at = s.cena === "gancho" ? 0 : +s.cena.slice(1), est = Math.max(0, at - 1);
+    lista(at, lt / d);
+    const x = 488, y = 340, j = s.cena === "gancho" ? eo(lin(lt, 0, .6)) : 1;
+    X.save(); X.fillStyle = "rgba(0,0,0,.12)"; X.beginPath(); X.roundRect(x + 10, y + 14, WW, WH, 34); X.fill(); X.restore();
+    X.save(); X.translate(x + WW / 2, y + WH / 2); X.scale(.9 + .1 * j, .9 + .1 * j); X.translate(-(x + WW / 2), -(y + WH / 2)); X.globalAlpha = j;
+    desenhaJanela(est, t, x, y, WW, WH, 34); X.restore(); X.globalAlpha = 1;
+    // "clique" de corte: flash branco curto no início de cada estilo
+    if (at > 0 && lt < .08) { X.fillStyle = `rgba(255,255,255,${.5 * (1 - lt / .08)})`; X.beginPath(); X.roundRect(x, y, WW, WH, 34); X.fill(); }
+    if (at > 0) pilula(NOMES[est].toUpperCase(), x + WW / 2, y + WH - 70, 46, "rgba(27,23,18,.86)", "#fff");
+    X.font = "500 34px IN"; X.fillStyle = "#8a7d6b"; X.textAlign = "center"; X.fillText("mesma cena, 10 estilos  ·  @iaem60s", 540, 1640);
+  }
+};
+setT(0); window.READY = true;
+</script></body></html>

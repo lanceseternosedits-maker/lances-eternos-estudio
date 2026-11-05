@@ -6,6 +6,14 @@ R = json.load(open(sys.argv[1])); OUT = sys.argv[2]; os.makedirs(OUT, exist_ok=T
 MODELO = R.get("modelo", "gemini-3.1-flash-tts-preview"); VOZ = R.get("voz", "Puck"); INI, GAP = 0.25, 0.12
 ESTILO = R.get("estilo", "Diga em português do Brasil, com energia de criador de Reels, ritmo rápido e natural")
 def gera(k):
+    f = f"{OUT}/f{k}.wav"
+    if os.path.exists(f): return f   # reaproveita frase já gerada (retomada após erro)
+    for tent in range(5):
+        try: return _gera(k)
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or tent == 4: raise
+            import time; time.sleep(20 * (tent + 1))   # limite de requisições: espera e tenta de novo
+def _gera(k):
     body = {"contents": [{"parts": [{"text": f"{ESTILO}. Leia só o texto entre aspas: \"{S[k]['fala']}\""}]}],
             "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": VOZ}}}}}
     req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{MODELO}:generateContent", data=json.dumps(body).encode(),
@@ -15,7 +23,7 @@ def gera(k):
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "s16le", "-ar", "24000", "-ac", "1", "-i", f + ".pcm", "-af",
                     "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse",
                     "-ar", "44100", f], check=True); os.remove(f + ".pcm"); return f
-with cf.ThreadPoolExecutor(4) as ex: arqs = list(ex.map(gera, range(len(S))))
+with cf.ThreadPoolExecutor(2) as ex: arqs = list(ex.map(gera, range(len(S))))
 dur = lambda f: float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f], capture_output=True, text=True).stdout)
 sil = lambda w: max(1, len(re.findall(r"[aeiouáéíóúâêôãõà]+", w.lower())))
 segs, t = [], INI
