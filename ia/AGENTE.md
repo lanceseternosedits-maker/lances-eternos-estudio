@@ -11,6 +11,7 @@ IA que a pessoa pode USAR hoje, explicada em português do Brasil, no Instagram 
 - Gancho em até 1,5 s em 3 camadas (imagem, fala e texto dizem o mesmo). Uma frase por cena, 20–35 s, sem introdução. CTA: "Comenta PALAVRA e me segue que eu te mando [brinde]". Legenda termina com pergunta fácil.
 
 ## Foco em vídeo, com carrossel de reserva (decisão do Vitor, 05/11)
+**Meta (Vitor, 05/11): 2 vídeos por dia, às 13:00 e às 19:30 de Brasília (Instagram + TikTok).** Cada rodada de produção escreve até 4 roteiros (2 por dia), de preferência no formato 3. Os dois slots do Instagram ficam para os Reels; o carrossel de reserva só sai se faltar Reel aprovado.
 Vídeo traz mais resultado: a prioridade é **Reel no Instagram + TikTok**. Cada rodada de produção escreve **1 roteiro de Reel por dia** (2 por rodada) para aprovação, nos formatos 1 (mascote no palco) ou 2 (lista + demonstração).
 **Reserva:** a mesma rodada faz e agenda **1 carrossel por dia às 13:00** no Instagram (pauta diferente da do Reel). Se o Vitor aprovar o Reel daquele dia a tempo, a sessão que agenda o Reel **transforma o carrossel do dia em rascunho** (`draft true`, `autoPublish false`) e coloca o Reel no horário dele; se não aprovar, o carrossel sai sozinho. Nunca 2 posts no mesmo horário.
 

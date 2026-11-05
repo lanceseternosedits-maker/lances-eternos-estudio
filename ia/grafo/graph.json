@@ -1192,7 +1192,7 @@
    "id": "2026-11-07-5-skills",
    "tipo": "post",
    "label": "5-skills",
-   "data": "2026-11-07",
+   "data": "2026-11-06",
    "score": null
   },
   {
@@ -2319,10 +2319,6 @@
    "target": "2026-11-02-ferramentas-gratis"
   },
   {
-   "source": "horario:07h",
-   "target": "2026-11-07-5-skills"
-  },
-  {
    "source": "2026-11-02-em-alta-x",
    "target": "cta:AGENTE"
   },
@@ -2792,6 +2788,10 @@
   },
   {
    "source": "empresa:Anthropic (Claude)",
+   "target": "2026-11-07-5-skills"
+  },
+  {
+   "source": "horario:06h",
    "target": "2026-11-07-5-skills"
   },
   {

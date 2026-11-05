@@ -24,7 +24,7 @@ Perfil de Vitor Gofredo: a IA que importa explicada em 60 segundos, em portuguê
 
 ## Tarefas agendadas (Claude Code na nuvem)
 - **IA em 60s – caçador de referências:** seg/qua/sex às 03:53 de Brasília (Sonnet); atualiza `ia/referencias.md`.
-- **IA em 60s – produção:** seg/qua/sex às 04:47 de Brasília (Sonnet); escreve 2 roteiros de Reel para aprovação (foco em vídeo) e agenda 1 carrossel de reserva por dia às 13:00, que vira rascunho se o Reel do dia for aprovado.
+- **IA em 60s – produção:** seg/qua/sex às 04:47 de Brasília (Sonnet); meta de **2 vídeos por dia (13:00 e 19:30)**: escreve até 4 roteiros de Reel por rodada (de preferência formato 3) e agenda 1 carrossel de reserva às 13:00 só onde o horário estiver livre; ele vira rascunho se o Reel das 13:00 for aprovado.
 - **Economia de tokens:** respostas curtas, poucas buscas, 1 folha de miniaturas por peça; trabalho pesado (vídeo 3D) em sessão nova e curta.
 - Metricool: `blogId 7637900`, fuso `America/Sao_Paulo`.
 
