@@ -89,7 +89,8 @@ const cG = grupo("cta"); const posts = [];
 for (let i = 0; i < 40; i++) { const m = mesh(new THREE.PlaneGeometry(.3, .3), M(["#ffe066", "#ff9fb2", "#a5e3b4", "#9fc9ff"][i % 4], { side: THREE.DoubleSide }), cG, 0, 0, 0); m.castShadow = false; posts.push({ m, x: (rnd() - .5) * 7, z: -2 + rnd() * 4, y0: 3 + rnd() * 5, v: .6 + rnd() * .5, w: rnd() * 5 }); }
 
 // ---------- câmera: de cima, descendo em diagonal ----------
-const TOP = (x, z, alt = 6.4, d = 3.4, tx = x, tz = z) => [V(x, alt, z + d), V(tx, .2, tz)];
+// plongée 3/4 (câmera alta na diagonal, olhando para baixo ~30°): mostra o rosto do mascote e o tampo da mesa
+const TOP = (x, z, alt = 6.4, d = 3.4, tx = x, tz = z) => [V(x - .6, 1.2 + alt * .38, z + 2.4 + d * .75), V(tx, .9, tz)];
 const SHOTS = {
   gancho: [TOP(0, 0, 7.2, 3.6), TOP(.5, 0, 5.2, 2.6, .5, -.2)],
   n5: [TOP(0, .2, 7.0, 3.4), TOP(.2, .2, 5.4, 2.6, .1, .1)], n4: [TOP(0, 0, 7.0, 3.4), TOP(.2, 0, 5.4, 2.6, .1, 0)],
@@ -100,7 +101,7 @@ const ACT = {
   gancho(lt, d) { const ab = eio(lin(lt, .2, .9)); tampa.rotation.x = -1.55 + ab * 1.3; teclado.visible = false; MAS.corpo.rotation.x = 0;
     janelas.forEach((j, i) => { const s = lin(lt, 1.0 + i * .18, 1.9 + i * .18), e = eo(s); j.visible = s > 0; const a = (i - 2) * .55;
       j.position.set(1.1 + Math.sin(a) * 2.6 * e, .5 + e * (1.6 - Math.abs(i - 2) * .25), -.3 + Math.cos(a) * .6 * e - e * .4); j.rotation.set(-1.0 + e * .6, a * .4 * e, (1 - e) * 2 + a * .2); });
-    pose(MAS, { x: -1.6, y: hop(lt, .4, .2), braco: [1.3 + Math.sin(lt * 6) * .3, 1.3 + Math.sin(lt * 6 + 1) * .3], piscar: pisca(lt), sq: Math.max(0, Math.cos(lt * Math.PI / .4)) * .05 }); },
+    pose(MAS, { x: -1.2, y: hop(lt, .4, .2), braco: [1.3 + Math.sin(lt * 6) * .3, 1.3 + Math.sin(lt * 6 + 1) * .3], piscar: pisca(lt), sq: Math.max(0, Math.cos(lt * Math.PI / .4)) * .05 }); },
   n5(lt, d) { pdfT.draw(eio(lin(lt, .4, 1.6)), eio(lin(lt, 1.8, d - .4))); digita(lt, -1.25, -.2);
     const p = eio(lin(lt, .4, 1.6)); marca.visible = lt < 1.8; marca.position.set(.4 + p * 1.3, .1, -.25); marca.rotation.set(0, 0, -.3);
     const a = eio(lin(lt, 1.8, d - .4)); caneta.visible = lt >= 1.6; caneta.position.set(.35 + a * .9, .15 + Math.abs(Math.sin(lt * 14)) * .05, .95 + Math.sin(a * 30) * .06); caneta.rotation.set(.4, 0, -.4); },
@@ -116,7 +117,7 @@ const ACT = {
     const k = Math.floor(Math.max(0, lt - 2.0) / .7) % 4, f = (Math.max(0, lt - 2.0) % .7) / .7, A = telas[k].g.position, B = telas[(k + 1) % 4].g.position; cursor.visible = lt > 2.0;
     cursor.position.set(A.x + (B.x - A.x) * eio(f), 1.0 + Math.sin(f * Math.PI) * .8, A.z + (B.z - A.z) * eio(f) + .15); cursor.lookAt(cam.position);
     arqVoa.visible = lt > 2.0; arqVoa.position.set(cursor.position.x - .1, cursor.position.y - .25, cursor.position.z); arqVoa.rotation.set(.6, 0, Math.sin(lt * 4) * .2);
-    pose(MAS, { x: -1.6, y: hop(lt, .35, .2) * (lt > 1.5 ? 1 : 0), braco: [1.6 + Math.sin(lt * 9) * .3, 1.6 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt), sq: lt > 1.5 ? Math.max(0, Math.cos(lt * Math.PI / .35)) * .06 : 0 });
+    pose(MAS, { x: -1.3, y: hop(lt, .35, .2) * (lt > 1.5 ? 1 : 0), braco: [1.6 + Math.sin(lt * 9) * .3, 1.6 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt), sq: lt > 1.5 ? Math.max(0, Math.cos(lt * Math.PI / .35)) * .06 : 0 });
     return lt > 1.0 && lt < 1.2 ? .02 : 0; },
   cta(lt, d) { teclado.visible = false; MAS.corpo.rotation.x = 0; pose(MAS, { x: 0, y: hop(lt, .5, .15), braco: [.3, 1.9 + Math.sin(lt * 9) * .5], piscar: pisca(lt) });
     posts.forEach(P => { const y = ((P.y0 - lt * P.v * 2) % 5 + 5) % 5; P.m.position.set(P.x + Math.sin(lt * 2 + P.w) * .3, y, P.z); P.m.rotation.set(-Math.PI / 2 + Math.sin(lt * 3 + P.w) * .6, lt * P.w * .3, 0); }); },

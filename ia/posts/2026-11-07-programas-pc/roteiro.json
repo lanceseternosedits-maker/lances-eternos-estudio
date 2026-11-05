@@ -4,7 +4,7 @@
  "formato": "contagem",
  "chave": "PC",
  "tese": "5 PROGRAMAS GRÁTIS PRO SEU PC · +7 MIL ESTRELAS · E O Nº 1 É BIZARRO",
- "conceito": "Mesa de trabalho vista de cima (câmera top-down que desce em diagonal), objetos de papelaria em escala gigante; paleta verde-oliva + creme + vermelho-carimbo. Gancho: um notebook abre sozinho e cospe 5 janelas que voam como cartas. Nº 1: três telas e um celular deslizam e se encaixam numa mesa só, com um cursor pulando de uma tela pra outra. Fechamento: post-its coloridos caindo.",
+ "conceito": "Mesa de trabalho vista em plongée 3/4 (câmera alta na diagonal), objetos de papelaria em escala gigante; paleta verde-oliva + creme + vermelho-carimbo. Gancho: um notebook abre sozinho e cospe 5 janelas que voam como cartas. Nº 1: três telas e um celular deslizam e se encaixam numa mesa só, com um cursor pulando de uma tela pra outra. Fechamento: post-its coloridos caindo.",
  "brinde": "link dos 5 programas + qual baixar primeiro",
  "prova_viral": "Estrelas no GitHub (API, 05/11/2026): TwinDesk 3.486, HatchZip 2.529, Quiet.md 995, Hob 478, Folio 358; total 7.846, criados entre 14/10 e 01/11.",
  "obs": "Licenças: MIT (Folio, Quiet.md, Hob), Apache-2.0 (HatchZip), GPL-3.0 (TwinDesk): grátis e abertos. Quiet.md está em beta. Hob baixa um modelo aberto para o seu PC (precisa de máquina razoável). Reler estrelas no dia.",
@@ -153,7 +153,7 @@
   "legenda": "b) uma palavra gigante por vez com pop",
   "transicao": "d) virada de página",
   "mascote": "óculos redondos + crachá; DIGITA num teclado gigante e arrasta janelas",
-  "camera": "b) top-down que desce em diagonal",
+  "camera": "f) plongée 3/4 (alta na diagonal), descendo devagar",
   "fechamento": "c) post-its na parede com os 5 e o COMENTA PC num post-it maior",
   "tipografia": "b) Archivo Black + e) Caveat",
   "som": "trilha 02_memoria; efeitos de papel, carimbo e teclado"
