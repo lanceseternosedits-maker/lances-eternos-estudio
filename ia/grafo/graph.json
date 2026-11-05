@@ -1135,6 +1135,58 @@
    "id": "fonte:pbxscience.com",
    "tipo": "fonte",
    "label": "pbxscience.com"
+  },
+  {
+   "id": "2026-11-05-10-estilos",
+   "tipo": "post",
+   "label": "10-estilos",
+   "data": "2026-11-06",
+   "score": null
+  },
+  {
+   "id": "formato:reel lista + demonstração (formato 2)",
+   "tipo": "formato",
+   "label": "reel lista + demonstração (formato 2)"
+  },
+  {
+   "id": "paleta:paleta None",
+   "tipo": "paleta",
+   "label": "paleta None"
+  },
+  {
+   "id": "cta:ESTILO",
+   "tipo": "cta",
+   "label": "ESTILO"
+  },
+  {
+   "id": "tema:estilos de animação",
+   "tipo": "tema",
+   "label": "estilos de animação"
+  },
+  {
+   "id": "tema:prompts para o Claude",
+   "tipo": "tema",
+   "label": "prompts para o Claude"
+  },
+  {
+   "id": "tema:animação 3D no claude.ai",
+   "tipo": "tema",
+   "label": "animação 3D no claude.ai"
+  },
+  {
+   "id": "empresa:Anthropic (Claude)",
+   "tipo": "empresa",
+   "label": "Anthropic (Claude)"
+  },
+  {
+   "id": "fonte:Referência viral: Reel de @theaigeekk '10 Claude Animation styles' (gravação de tela enviada pelo Vitor em 04/11)",
+   "tipo": "fonte",
+   "label": "Referência viral: Reel de @theaigeekk '10 Claude Animation styles' (gravação de tela enviada pelo Vitor em 04/11)"
+  },
+  {
+   "id": "horario:06h",
+   "tipo": "horario",
+   "label": "06h"
   }
  ],
  "links": [
@@ -1463,6 +1515,10 @@
    "target": "2026-11-04-youtube-2-horas"
   },
   {
+   "source": "rede:instagram",
+   "target": "2026-11-05-10-estilos"
+  },
+  {
    "source": "rede:tiktok",
    "target": "2026-11-01-anthropic-ipo-p3"
   },
@@ -1541,6 +1597,10 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-04-desenho-animado"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-05-10-estilos"
   },
   {
    "source": "rede:youtube",
@@ -2025,6 +2085,10 @@
   {
    "source": "pilar:tutorial",
    "target": "2026-11-04-canva-craft"
+  },
+  {
+   "source": "pilar:tutorial",
+   "target": "2026-11-05-10-estilos"
   },
   {
    "source": "formato:tutorial",
@@ -2617,6 +2681,42 @@
   {
    "source": "2026-11-04-youtube-2-horas",
    "target": "fonte:pbxscience.com"
+  },
+  {
+   "source": "2026-11-05-10-estilos",
+   "target": "formato:reel lista + demonstração (formato 2)"
+  },
+  {
+   "source": "2026-11-05-10-estilos",
+   "target": "paleta:paleta None"
+  },
+  {
+   "source": "2026-11-05-10-estilos",
+   "target": "cta:ESTILO"
+  },
+  {
+   "source": "2026-11-05-10-estilos",
+   "target": "tema:estilos de animação"
+  },
+  {
+   "source": "2026-11-05-10-estilos",
+   "target": "tema:prompts para o Claude"
+  },
+  {
+   "source": "2026-11-05-10-estilos",
+   "target": "tema:animação 3D no claude.ai"
+  },
+  {
+   "source": "2026-11-05-10-estilos",
+   "target": "empresa:Anthropic (Claude)"
+  },
+  {
+   "source": "2026-11-05-10-estilos",
+   "target": "fonte:Referência viral: Reel de @theaigeekk '10 Claude Animation styles' (gravação de tela enviada pelo Vitor em 04/11)"
+  },
+  {
+   "source": "2026-11-05-10-estilos",
+   "target": "horario:06h"
   }
  ]
 }

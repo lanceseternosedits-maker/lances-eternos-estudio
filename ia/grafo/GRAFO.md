@@ -1,12 +1,12 @@
 # Grafo de conteúdo do IA em 60s
-Gerado em 2026-11-05 02:17 · 23 posts · 218 nós · 370 ligações
+Gerado em 2026-11-05 04:26 · 24 posts · 228 nós · 382 ligações
 
 ## Use antes de criar
 
 - **Temas saturados (3+ posts em 7 dias, evite):** agentes de IA, segurança, programação, segurança de IA, produtividade
 - **Empresas saturadas (3+ posts em 7 dias, evite):** Anthropic, OpenAI, Google, GitHub
 - **Pilares sem post nos últimos 7 dias (prioridade):** nenhum
-- **Posts por pilar (7 dias):** novidade 9, tutorial 7, em_alta 4, recomendacao 3
+- **Posts por pilar (7 dias):** novidade 9, tutorial 8, em_alta 4, recomendacao 3
 
 ## O que vem funcionando
 
