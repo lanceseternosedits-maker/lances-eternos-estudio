@@ -41,7 +41,7 @@ Título fixo no topo ("N jeitos de X com o Claude"), lista numerada que se preen
 Se `GEMINI_API_KEY` não existir: `d1_database_query` (conector Cloudflare), `database_id 0af07c6b-d69c-44e5-8b01-a1e055303c68`, SQL `SELECT valor FROM segredos WHERE nome = 'GEMINI_API_KEY'`; grave só em `~/.secrets/gemini.env` (`export GEMINI_API_KEY=...`, `chmod 600`) e rode `. ~/.secrets/gemini.env` antes dos scripts. **O repositório é público: nunca imprima nem grave a chave** em arquivo, commit, legenda ou mensagem.
 
 ## Economia de tokens (decisão do Vitor, 04/11)
-Leia só o necessário, poucas buscas (máx. ~8 por rodada), revisão visual com 1 folha de miniaturas por peça, respostas curtas. Tarefas: caçador seg/qua/sex 03:53; produção seg/qua/sex 04:47 cobrindo 2 dias (1 carrossel por dia) + 1 roteiro de Reel. Vídeos aprovados são feitos numa sessão nova e curta.
+Leia só o necessário, poucas buscas (máx. ~8 por rodada), revisão visual com 1 folha de miniaturas por peça, respostas curtas. Tarefas: caçador seg/qua/sex 03:53; produção seg/qua/sex 04:47 com 2 roteiros de Reel por rodada. Vídeos aprovados são feitos numa sessão nova e curta.
 
 ## Autonomia para melhorar (decisão do Vitor, 04/11)
 O agente pode buscar e adotar skills, ferramentas e técnicas novas que melhorem qualidade, produtividade ou economia (ex.: skills do Claude no GitHub, melhorias na `cena_palco`, automação da DM). Limites: só o que couber no orçamento de tokens; nada pago ou com conta nova sem o Vitor aprovar; ler o código antes de usar e nunca executar nada que peça chaves ou acesso amplo; registrar cada adoção aqui, em uma linha, com o motivo.
