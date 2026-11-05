@@ -8,16 +8,26 @@ ESTILO = R.get("estilo", "Diga em português do Brasil, com energia de criador d
 def gera(k):
     f = f"{OUT}/f{k}.wav"
     if os.path.exists(f): return f   # reaproveita frase já gerada (retomada após erro)
-    for tent in range(5):
-        try: return _gera(k)
+    import time
+    for tent in range(3):   # 1º a chave grátis (GEMINI_API_KEY): espera e tenta de novo se bater o limite
+        try: return _gera(k, os.environ["GEMINI_API_KEY"])
         except urllib.error.HTTPError as e:
-            if e.code != 429 or tent == 4: raise
-            import time; time.sleep(20 * (tent + 1))   # limite de requisições: espera e tenta de novo
-def _gera(k):
+            if e.code != 429: raise
+            if tent < 2: time.sleep(20 * (tent + 1))
+    paga = os.environ.get("GEMINI_API_KEY_PAGA")   # só depois de esgotar a grátis (decisão do Vitor, 05/11)
+    if not paga: raise SystemExit("cota grátis do Gemini esgotada e sem GEMINI_API_KEY_PAGA: tente mais tarde ou peça ao Vitor")
+    USOU_PAGA.append(k); print(f"frase {k}: cota grátis esgotada, usando a chave paga (~US$ 0,002 por frase)", flush=True)
+    for tent in range(3):
+        try: return _gera(k, paga)
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or tent == 2: raise
+            time.sleep(10 * (tent + 1))
+USOU_PAGA = []
+def _gera(k, chave):
     body = {"contents": [{"parts": [{"text": f"{ESTILO}. Leia só o texto entre aspas: \"{S[k]['fala']}\""}]}],
             "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": VOZ}}}}}
     req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{MODELO}:generateContent", data=json.dumps(body).encode(),
-                                 headers={"x-goog-api-key": os.environ["GEMINI_API_KEY"], "Content-Type": "application/json"})
+                                 headers={"x-goog-api-key": chave, "Content-Type": "application/json"})
     pcm = base64.b64decode(json.load(urllib.request.urlopen(req, timeout=300))["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])
     f = f"{OUT}/f{k}.wav"; open(f + ".pcm", "wb").write(pcm)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "s16le", "-ar", "24000", "-ac", "1", "-i", f + ".pcm", "-af",
@@ -41,4 +51,4 @@ args = ["ffmpeg", "-y", "-loglevel", "error"] + sum((["-i", f] for f in arqs), [
 subprocess.run(args + [f"{OUT}/voz.wav"], check=True); subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", f"{OUT}/voz.wav", "-b:a", "128k", f"{OUT}/voz.mp3"], check=True)
 [os.remove(f) for f in arqs]
 json.dump({"total": total, "segmentos": segs, "tempos": "frase por frase + sílabas"}, open(f"{OUT}/timeline.json", "w"), ensure_ascii=False, indent=1)
-print(f"total {total:.1f}s · voz {VOZ}"); [print(f'{s["t0"]:6.2f}-{s["fim"]:6.2f} {s["cena"]} ({s["dur_voz"]}s)') for s in segs]
+print(f"total {total:.1f}s · voz {VOZ}" + (f" · chave paga em {len(USOU_PAGA)} frase(s), ~US$ {len(USOU_PAGA) * 0.002:.3f}" if USOU_PAGA else " · só cota grátis")); [print(f'{s["t0"]:6.2f}-{s["fim"]:6.2f} {s["cena"]} ({s["dur_voz"]}s)') for s in segs]
