@@ -38,6 +38,9 @@ Vídeo traz mais resultado: a prioridade é **Reel no Instagram + TikTok**. Cada
 ## Formato 2: lista + demonstração (referência @theaigeekk, 05/11)
 Título fixo no topo ("N jeitos de X com o Claude"), lista numerada que se preenche à esquerda, janela vertical à direita com a MESMA cena trocando a cada ~1 s, fala só com o nome do item, grade final em loop com "Comenta PALAVRA". Brinde: os prompts de cada item. Rendeu ~1 comentário por curtida e muito salvamento. Dá para fazer na `cena_palco` (mascote na mesma ação, trocando material/estilo: argila, pixel, giz, neon, Lego, papel). Detalhes em `referencias_fixas.md`.
 
+## Formato 3: contagem regressiva com mistério (referência @casadoclaude.ia, 05/11)
+Para listas de skills/ferramentas com número forte. Etiqueta fixa de 3 camadas (assunto + número real em laranja + promessa: "e a nº 1 é bizarra"); contagem 5 → 1 com a melhor no fim; cada item: nome se revelando de texto embaralhado + contador animado de instalações/estrelas (número da fonte, nunca estimado) + demonstração ou antes/depois; frase-ponte de cliffhanger ("essa é legalzinha… mas a próxima…"); mascote aponta e reage; fundo escuro com destaque laranja. Detalhes em `referencias_fixas.md`.
+
 ## Chave do Gemini
 Se `GEMINI_API_KEY` não existir: `d1_database_query` (conector Cloudflare), `database_id 0af07c6b-d69c-44e5-8b01-a1e055303c68`, SQL `SELECT valor FROM segredos WHERE nome = 'GEMINI_API_KEY'`; grave só em `~/.secrets/gemini.env` (`export GEMINI_API_KEY=...`, `chmod 600`) e rode `. ~/.secrets/gemini.env` antes dos scripts. **O repositório é público: nunca imprima nem grave a chave** em arquivo, commit, legenda ou mensagem.
 
