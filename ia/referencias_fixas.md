@@ -148,3 +148,9 @@ Aqui está a análise detalhada de cada Reel exibido no vídeo, seguida pelo des
    * Conecte o ManyChat à sua conta para enviar os links de ferramentas ou tutoriais instantaneamente assim que o seguidor comentar a palavra-chave.
 
 **Ajustes nossos sobre essa análise:** a voz continua sendo o Gemini TTS (Puck), não a ElevenLabs. Não colocamos logo de terceiros gerado por IA (eles usam ícones do After Effects, YouTube e WhatsApp); usamos objetos genéricos que lembram o app. O envio automático na DM (ManyChat ou similar) ainda não está ligado: até lá, o Vitor responde com o texto pronto de `resposta_dm.txt`.
+
+## Referência 2 (05/11): @theaigeekk, "10 Claude Animation styles (To Go Viral)"
+- **Resultado em 6 h:** 2.939 curtidas, **2.506 comentários**, 2.292 salvamentos, 150 envios. Comentário quase igual a curtida = efeito do brinde ("Comment 'Claude' for the prompts").
+- **Formato lista + demonstração:** fundo branco editorial, título fixo no topo ("10 Claude Animation styles"), lista numerada à esquerda que vai se preenchendo, e à direita uma janela vertical com **a mesma cena** (carro voando + bonequinho) trocando de estilo a cada ~1 s (pixel art, giz, glow sketch, PS2, quadrinhos, vetor, minimalista, CGI, Lego, estilo "anatomia"). Fala só diz o nome de cada estilo, no corte exato, com whoosh/clique.
+- **Final:** grade com todas as versões rodando juntas + "Comment 'Claude' for the Prompts" no centro (convida a reassistir e salvar).
+- **Lições para nós:** (1) mesma ação do mascote em N estilos = contraste que prende; (2) lista que se preenche dá sensação de progresso; (3) grade final em loop gera reassistida e salvamento; (4) legenda curta, só a palavra e o brinde (os prompts de cada estilo); (5) não precisa de narração longa: nome + corte.

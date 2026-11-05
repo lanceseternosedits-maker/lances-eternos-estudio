@@ -31,6 +31,9 @@ IA que a pessoa pode USAR hoje, explicada em português do Brasil, no Instagram 
   4. Render completo (~0,5 s/quadro), `ffmpeg -framerate 30 -i out3d/frames/%05d.jpg ... out3d/base.mp4`, `clipes.json` (cada cena → base.mp4, `ini` = t0), `python3 video/musica.py`, `python3 video/sfx_mix.py`, `LEGENDA=palavra VBR=8M python3 video/compor.py roteiro.json out out3d/clipes.json`. Modelo completo: `posts/2026-11-04-desenho-animado/`.
   5. Plano B: imagens Nano Banana animadas (`video/anima_imagens.py`).
 
+## Formato 2: lista + demonstração (referência @theaigeekk, 05/11)
+Título fixo no topo ("N jeitos de X com o Claude"), lista numerada que se preenche à esquerda, janela vertical à direita com a MESMA cena trocando a cada ~1 s, fala só com o nome do item, grade final em loop com "Comenta PALAVRA". Brinde: os prompts de cada item. Rendeu ~1 comentário por curtida e muito salvamento. Dá para fazer na `cena_palco` (mascote na mesma ação, trocando material/estilo: argila, pixel, giz, neon, Lego, papel). Detalhes em `referencias_fixas.md`.
+
 ## Chave do Gemini
 Se `GEMINI_API_KEY` não existir: `d1_database_query` (conector Cloudflare), `database_id 0af07c6b-d69c-44e5-8b01-a1e055303c68`, SQL `SELECT valor FROM segredos WHERE nome = 'GEMINI_API_KEY'`; grave só em `~/.secrets/gemini.env` (`export GEMINI_API_KEY=...`, `chmod 600`) e rode `. ~/.secrets/gemini.env` antes dos scripts. **O repositório é público: nunca imprima nem grave a chave** em arquivo, commit, legenda ou mensagem.
 
