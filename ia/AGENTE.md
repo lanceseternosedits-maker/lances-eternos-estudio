@@ -10,6 +10,9 @@ IA que a pessoa pode USAR hoje, explicada em português do Brasil, no Instagram 
 - Instagram: tempo assistido, curtidas e **envios por DM** por alcance; conteúdo original. TikTok: conclusão, reassistir, compartilhar; a busca lê fala, texto na tela e legenda (use palavras buscadas).
 - Gancho em até 1,5 s em 3 camadas (imagem, fala e texto dizem o mesmo). Uma frase por cena, 20–35 s, sem introdução. CTA: "Comenta PALAVRA e me segue que eu te mando [brinde]". Legenda termina com pergunta fácil.
 
+## Foco em vídeo (decisão do Vitor, 05/11)
+Vídeo traz mais resultado que post de imagem: a prioridade é **Reel no Instagram + TikTok**. Cada rodada de produção escreve **1 roteiro de Reel por dia** (2 por rodada) para aprovação, nos formatos 1 (mascote no palco) ou 2 (lista + demonstração). Carrossel só se o Vitor pedir. Dia sem Reel aprovado fica sem post (melhor que post fraco).
+
 ## Publicação
 - **Máximo 2 posts por dia no Instagram, nunca no mesmo horário**; padrão 13:00 (pauta mais forte) e 19:30 opcional; sempre entre 06:30 e 20:00 de Brasília (`timezone America/Sao_Paulo`). Metricool `blogId 7637900`.
 - **Carrossel só no Instagram** (`type POST`, `autoPublish true`, sem música). **TikTok só recebe vídeo aprovado** (`isAigc true`, `title` até 90 caracteres). YouTube pausado.
