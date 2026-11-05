@@ -1,0 +1,143 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, tom de curiosidade, ritmo rápido e animado (sem arrastar)",
+ "formato": "contagem",
+ "chave": "EDITA",
+ "tese": "5 SKILLS PRA EDITAR VÍDEO · +4 MIL ESTRELAS · E A Nº 1 É BIZARRA",
+ "brinde": "link das 5 skills de vídeo + como instalar no Claude Code",
+ "layout": "formato 3 (modelo posts/2026-11-07-5-skills; cena video/cena_contagem trocando os objetos de n5…n1)",
+ "prova_viral": "Estrelas no GitHub (API, 05/11/2026): rea-video 1.363, editonny 755, Rossark Motion 706, Video Effects 699, VVV 524; total 4.047, todas criadas entre 19 e 29/10.",
+ "obs": "Licenças: editonny, Rossark, VVV MIT; rea-video Apache-2.0; Video Effects sem licença declarada. Todas pedem Claude Code (planos pagos). VVV tem README em chinês ('para estudo'). rea-video lembra o reanimate (05/11), mas analisa vídeos inteiros, não animações. Reler estrelas no dia.",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 SKILLS PRA EDITAR VÍDEO",
+   "fala": "Cinco skills pra editar vídeo com o Claude estão bombando no GitHub. E a número um é bizarra.",
+   "legenda": "5 skills pra editar vídeo com o Claude estão bombando. E a nº 1 é bizarra.",
+   "visual": "caixa '?' em glitch; mascote com claquete aponta",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    },
+    {
+     "t": 1.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "VVV",
+   "repo": "actionow-ai/vvv",
+   "estrelas": 524,
+   "fala": "Quinto: VVV. Troca as fotos e o texto, e o mesmo modelo vira um vídeo novo.",
+   "legenda": "5º VVV: troca fotos e texto e vira um vídeo novo.",
+   "visual": "moldura de vídeo; fotos entram e saem como cartas e o vídeo recomeça",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Rossark Motion",
+   "repo": "rossark0/rossark-motion-skill",
+   "estrelas": 706,
+   "fala": "Quarto: Rossark Motion. Qualquer desenho seu ganha vida: respira, pisca e se mexe.",
+   "legenda": "4º Rossark Motion: seu desenho respira, pisca e se mexe.",
+   "visual": "folha de papel com um bichinho desenhado que começa a respirar e piscar",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Video Effects",
+   "repo": "Vibha-Ramprakash/claude-video-effects",
+   "estrelas": 699,
+   "fala": "Terceiro: Video Effects. Cinquenta e um efeitos: você digita barra effects e pronto. Essa é até legalzinha.",
+   "legenda": "3º Video Effects: 51 efeitos com /effects. Essa é até legalzinha.",
+   "visual": "vídeo do mascote ganha órbita de anéis, brilho e zoom a cada comando",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "editonny",
+   "repo": "soumatheusgomes/editonny",
+   "estrelas": 755,
+   "fala": "Mas a segunda: editonny. Você pede, e ela corta as pausas, coloca legenda e arruma o áudio.",
+   "legenda": "2º editonny: corta pausas, põe legenda e arruma o áudio.",
+   "visual": "linha do tempo com buracos de silêncio que somem; legendas aparecem; onda de áudio limpa",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "rea-video",
+   "repo": "JuneYaooo/rea-video",
+   "estrelas": 1363,
+   "fala": "E a número um: rea-video. Você manda qualquer vídeo e ela descobre, cena por cena, como foi feito. Até se foi IA.",
+   "legenda": "1º rea-video: descobre cena por cena como o vídeo foi feito. Até se foi IA.",
+   "visual": "caixa '?' explode; um vídeo se separa em quadros flutuando, cada um com selo FILMADO / IA / CÓDIGO",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.8
+    },
+    {
+     "t": 0.4,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA EDITA",
+   "fala": "Comenta EDITA e me segue que eu te mando o link das cinco.",
+   "legenda": "Comenta EDITA e me segue que eu te mando o link das 5.",
+   "visual": "lista das 5 com estrelas; COMENTA EDITA",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "pop",
+     "g": 0.6
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "https://github.com/actionow-ai/vvv",
+  "https://github.com/rossark0/rossark-motion-skill",
+  "https://github.com/Vibha-Ramprakash/claude-video-effects",
+  "https://github.com/soumatheusgomes/editonny",
+  "https://github.com/JuneYaooo/rea-video"
+ ]
+}

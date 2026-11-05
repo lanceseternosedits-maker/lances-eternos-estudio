@@ -1,0 +1,9 @@
+Opa! Aqui estão os 5 projetos 👇
+
+5º NOIR: https://github.com/Verlintas/NOIR
+4º TV Detox: https://github.com/Ansub/tv-detox
+3º 3D Model Anything: https://github.com/wesbos/3d-model-anything
+2º Mika: https://github.com/wangzan101/Mika
+1º CleanYourTV: https://github.com/Gathin23/cleanyourtv
+
+Como usar: abra o link e siga o passo a passo do README (o "Install" / "Start here"). 😉

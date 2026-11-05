@@ -1,0 +1,143 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, tom de curiosidade, ritmo rápido e animado (sem arrastar)",
+ "formato": "contagem",
+ "chave": "TV",
+ "tese": "5 PROJETOS PRA TV E CELULAR · +66 MIL ESTRELAS · E A Nº 1 É BIZARRA",
+ "brinde": "link dos 5 projetos + por onde começar (o CleanYourTV tem guia em português)",
+ "layout": "formato 3 (modelo posts/2026-11-07-5-skills; cena video/cena_contagem trocando os objetos de n5…n1)",
+ "prova_viral": "Estrelas no GitHub (API, 05/11/2026): CleanYourTV 52.139 (criado 17/10), Mika 6.780, 3D Model Anything 2.764, TV Detox 2.182, NOIR 2.170; total 66.035, todos criados entre 17 e 31/10.",
+ "obs": "Licenças: CleanYourTV, 3D Model Anything, TV Detox e NOIR MIT; Mika Apache-2.0. Não dizer 'grátis' na fala (o Mika pode precisar de chave de IA paga). 3D Model Anything precisa de iPhone com LiDAR (Pro). TV Detox usa Claude Code. Reler estrelas no dia. Sem logo de marca de TV.",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROJETOS PRA TV E CELULAR",
+   "fala": "Cinco projetos do GitHub pra sua TV e seu celular ganharam sessenta e seis mil estrelas. E a número um é bizarra.",
+   "legenda": "5 projetos pra sua TV e seu celular ganharam 66 mil estrelas. E a nº 1 é bizarra.",
+   "visual": "caixa '?' em glitch; mascote aponta",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    },
+    {
+     "t": 1.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "NOIR",
+   "repo": "Verlintas/NOIR",
+   "estrelas": 2170,
+   "fala": "Quinto: NOIR. Mostra pra onde cada app do seu Android manda os seus dados.",
+   "legenda": "5º NOIR: mostra pra onde seus apps mandam seus dados.",
+   "visual": "celular 3D com pacotinhos de dados saindo em setas para servidores; lupa",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "TV Detox",
+   "repo": "Ansub/tv-detox",
+   "estrelas": 2182,
+   "fala": "Quarto: TV Detox. Sua TV velha e lenta fica rápida de novo, e o Claude faz o trabalho.",
+   "legenda": "4º TV Detox: TV velha e lenta rápida de novo.",
+   "visual": "TV com ícone de carregando girando → tela limpa com 4 apps; mascote segura um controle",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "3D Model Anything",
+   "repo": "wesbos/3d-model-anything",
+   "estrelas": 2764,
+   "fala": "Terceiro: 3D Model Anything. Você escaneia a sala com o iPhone e ela vira um 3D pra explorar. Essa é até legalzinha.",
+   "legenda": "3º 3D Model Anything: escaneia a sala e vira 3D. Essa é até legalzinha.",
+   "visual": "celular varre a sala com um feixe; a sala aparece em malha aramada e depois sólida",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Mika",
+   "repo": "wangzan101/Mika",
+   "estrelas": 6780,
+   "fala": "Mas o segundo: Mika. Uma IA no seu celular que usa os aplicativos sozinha até terminar a tarefa.",
+   "legenda": "2º Mika: uma IA que usa os apps do seu celular sozinha.",
+   "visual": "celular com dedinho-robô tocando ícones sozinho; checklist se completando",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "CleanYourTV",
+   "repo": "Gathin23/cleanyourtv",
+   "estrelas": 52139,
+   "fala": "E o número um: CleanYourTV. Cinquenta e duas mil estrelas em três semanas. Pelo Wi-Fi, ele arranca os anúncios da sua TV e deixa a tela limpa.",
+   "legenda": "1º CleanYourTV: 52 mil estrelas em 3 semanas. Pelo Wi-Fi, tira os anúncios da sua TV.",
+   "visual": "caixa '?' explode; TV gigante cheia de banners de anúncio que voam para fora um a um, sobra uma tela limpa; contador dispara até 52,1 MIL",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.8
+    },
+    {
+     "t": 0.4,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA TV",
+   "fala": "Comenta TV e me segue que eu te mando o link dos cinco.",
+   "legenda": "Comenta TV e me segue que eu te mando o link dos 5.",
+   "visual": "lista dos 5 com estrelas; COMENTA TV",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "pop",
+     "g": 0.6
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "https://github.com/Verlintas/NOIR",
+  "https://github.com/Ansub/tv-detox",
+  "https://github.com/wesbos/3d-model-anything",
+  "https://github.com/wangzan101/Mika",
+  "https://github.com/Gathin23/cleanyourtv"
+ ]
+}

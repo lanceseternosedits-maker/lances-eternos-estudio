@@ -1,0 +1,9 @@
+Opa! Aqui estão as 5 skills de vídeo (todas rodam no Claude Code, dos planos pagos do Claude) 👇
+
+5º VVV: https://github.com/actionow-ai/vvv
+4º Rossark Motion: https://github.com/rossark0/rossark-motion-skill
+3º Video Effects: https://github.com/Vibha-Ramprakash/claude-video-effects
+2º editonny: https://github.com/soumatheusgomes/editonny
+1º rea-video: https://github.com/JuneYaooo/rea-video
+
+Como usar: abra o link e siga o passo a passo do README (o "Install" / "Start here"). 😉
