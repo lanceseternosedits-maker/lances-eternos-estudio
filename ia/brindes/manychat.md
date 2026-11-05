@@ -32,5 +32,17 @@ Botão "Quero os links" → DM 2:
 Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/skills.md
 Rodam no Claude Code (planos pagos do Claude). Me segue pra não perder os próximos 😉
 
+## TV (Reel "5 projetos pra sua TV e seu celular", formato 3, 06/11 19:30)
+DM 1: Opa! Separei o link dos 5 projetos pra você. Toca no botão 👇
+Botão "Quero os links" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/tv.md
+Projetos abertos (MIT e Apache); alguns pedem Claude Code ou chave de IA. Me segue pra não perder os próximos 😉
+
+## EDITA (Reel "5 skills pra editar vídeo com o Claude", formato 3, 07/11 13:00)
+DM 1: Opa! Separei o link das 5 skills de vídeo pra você. Toca no botão 👇
+Botão "Quero os links" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/edita.md
+Rodam no Claude Code (planos pagos do Claude). Me segue pra não perder os próximos 😉
+
 ## Novo post
 Criar `brindes/<palavra>.md` a partir do `resposta_dm.txt` e uma automação nova aqui, com a mesma estrutura.

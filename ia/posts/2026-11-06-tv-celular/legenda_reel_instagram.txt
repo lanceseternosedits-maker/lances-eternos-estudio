@@ -1,0 +1,16 @@
+5 projetos do GitHub pra sua TV e seu celular ganharam +66 mil estrelas em 3 semanas. E a nº 1 é bizarra. 📺
+
+5º NOIR: mostra pra onde cada app do seu Android manda seus dados
+4º TV Detox: sua TV velha e lenta fica rápida de novo (o Claude faz o trabalho)
+3º 3D Model Anything: escaneia a sala com o iPhone e vira um 3D
+2º Mika: uma IA que usa os apps do seu celular sozinha
+1º CleanYourTV: 52 mil estrelas. Pelo Wi-Fi, tira os anúncios da sua TV Android/Google TV (tem guia em português)
+
+💬 Comenta TV e me segue que eu te mando o link dos 5.
+
+Qual você testaria primeiro? 👇
+
+Fonte: estrelas no GitHub de cada projeto (lidas em 05/11). Projetos abertos (licenças MIT e Apache); alguns pedem Claude Code ou chave de IA.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as marcas citadas.
+
+#tecnologia #androidtv #inteligenciaartificial #github #dicas

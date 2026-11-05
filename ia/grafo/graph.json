@@ -1189,10 +1189,10 @@
    "label": "06h"
   },
   {
-   "id": "2026-11-07-5-skills",
+   "id": "2026-11-06-tv-celular",
    "tipo": "post",
-   "label": "5-skills",
-   "data": "2026-11-05",
+   "label": "tv-celular",
+   "data": "2026-11-06",
    "score": null
   },
   {
@@ -1206,14 +1206,56 @@
    "label": "reel formato 3 (contagem regressiva com mistério)"
   },
   {
-   "id": "cta:SKILLS",
+   "id": "cta:TV",
    "tipo": "cta",
-   "label": "SKILLS"
+   "label": "TV"
+  },
+  {
+   "id": "tema:TV Android",
+   "tipo": "tema",
+   "label": "TV Android"
   },
   {
    "id": "tema:GitHub em alta",
    "tipo": "tema",
    "label": "GitHub em alta"
+  },
+  {
+   "id": "fonte:https://github.com/Verlintas/NOIR",
+   "tipo": "fonte",
+   "label": "https://github.com/Verlintas/NOIR"
+  },
+  {
+   "id": "fonte:https://github.com/Ansub/tv-detox",
+   "tipo": "fonte",
+   "label": "https://github.com/Ansub/tv-detox"
+  },
+  {
+   "id": "fonte:https://github.com/wesbos/3d-model-anything",
+   "tipo": "fonte",
+   "label": "https://github.com/wesbos/3d-model-anything"
+  },
+  {
+   "id": "fonte:https://github.com/wangzan101/Mika",
+   "tipo": "fonte",
+   "label": "https://github.com/wangzan101/Mika"
+  },
+  {
+   "id": "fonte:https://github.com/Gathin23/cleanyourtv",
+   "tipo": "fonte",
+   "label": "https://github.com/Gathin23/cleanyourtv"
+  },
+  {
+   "id": "2026-11-07-5-skills",
+   "tipo": "post",
+   "label": "5-skills",
+   "data": "2026-11-05",
+   "score": null
+  },
+  {
+   "id": "cta:SKILLS",
+   "tipo": "cta",
+   "label": "SKILLS"
   },
   {
    "id": "fonte:https://github.com/Motionsites-AI/claude-skill",
@@ -1239,6 +1281,43 @@
    "id": "fonte:https://github.com/elvarofficial/teardown",
    "tipo": "fonte",
    "label": "https://github.com/elvarofficial/teardown"
+  },
+  {
+   "id": "2026-11-07-editar-video",
+   "tipo": "post",
+   "label": "editar-video",
+   "data": "2026-11-07",
+   "score": null
+  },
+  {
+   "id": "cta:EDITA",
+   "tipo": "cta",
+   "label": "EDITA"
+  },
+  {
+   "id": "fonte:https://github.com/actionow-ai/vvv",
+   "tipo": "fonte",
+   "label": "https://github.com/actionow-ai/vvv"
+  },
+  {
+   "id": "fonte:https://github.com/rossark0/rossark-motion-skill",
+   "tipo": "fonte",
+   "label": "https://github.com/rossark0/rossark-motion-skill"
+  },
+  {
+   "id": "fonte:https://github.com/Vibha-Ramprakash/claude-video-effects",
+   "tipo": "fonte",
+   "label": "https://github.com/Vibha-Ramprakash/claude-video-effects"
+  },
+  {
+   "id": "fonte:https://github.com/soumatheusgomes/editonny",
+   "tipo": "fonte",
+   "label": "https://github.com/soumatheusgomes/editonny"
+  },
+  {
+   "id": "fonte:https://github.com/JuneYaooo/rea-video",
+   "tipo": "fonte",
+   "label": "https://github.com/JuneYaooo/rea-video"
   }
  ],
  "links": [
@@ -1572,7 +1651,15 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-06-tv-celular"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-07-5-skills"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-07-editar-video"
   },
   {
    "source": "rede:tiktok",
@@ -1660,7 +1747,15 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-06-tv-celular"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-07-5-skills"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-07-editar-video"
   },
   {
    "source": "rede:youtube",
@@ -2083,6 +2178,10 @@
    "target": "2026-11-02-trend-esculacho"
   },
   {
+   "source": "tema:privacidade",
+   "target": "2026-11-06-tv-celular"
+  },
+  {
    "source": "empresa:Opera",
    "target": "2026-11-01-semana-em-ia"
   },
@@ -2317,6 +2416,10 @@
   {
    "source": "tema:IA no celular",
    "target": "2026-11-02-ferramentas-gratis"
+  },
+  {
+   "source": "horario:07h",
+   "target": "2026-11-07-editar-video"
   },
   {
    "source": "2026-11-02-em-alta-x",
@@ -2595,6 +2698,10 @@
    "target": "fonte:Podnews (comunicado 27/10)"
   },
   {
+   "source": "tema:edição de vídeo",
+   "target": "2026-11-07-editar-video"
+  },
+  {
    "source": "2026-11-04-canva-craft",
    "target": "formato:carrossel + reel 3D"
   },
@@ -2703,6 +2810,10 @@
    "target": "2026-11-07-5-skills"
   },
   {
+   "source": "tema:skills do Claude Code",
+   "target": "2026-11-07-editar-video"
+  },
+  {
    "source": "2026-11-04-youtube-2-horas",
    "target": "cta:TUBE"
   },
@@ -2788,27 +2899,91 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-06-tv-celular"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-07-5-skills"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-07-editar-video"
   },
   {
    "source": "empresa:Anthropic (Claude)",
    "target": "2026-11-07-5-skills"
   },
   {
-   "source": "2026-11-07-5-skills",
+   "source": "horario:06h",
+   "target": "2026-11-06-tv-celular"
+  },
+  {
+   "source": "2026-11-06-tv-celular",
    "target": "pilar:lista"
   },
   {
-   "source": "2026-11-07-5-skills",
+   "source": "2026-11-06-tv-celular",
    "target": "formato:reel formato 3 (contagem regressiva com mistério)"
+  },
+  {
+   "source": "2026-11-06-tv-celular",
+   "target": "cta:TV"
+  },
+  {
+   "source": "2026-11-06-tv-celular",
+   "target": "tema:TV Android"
+  },
+  {
+   "source": "2026-11-06-tv-celular",
+   "target": "tema:GitHub em alta"
+  },
+  {
+   "source": "2026-11-06-tv-celular",
+   "target": "fonte:https://github.com/Verlintas/NOIR"
+  },
+  {
+   "source": "2026-11-06-tv-celular",
+   "target": "fonte:https://github.com/Ansub/tv-detox"
+  },
+  {
+   "source": "2026-11-06-tv-celular",
+   "target": "fonte:https://github.com/wesbos/3d-model-anything"
+  },
+  {
+   "source": "2026-11-06-tv-celular",
+   "target": "fonte:https://github.com/wangzan101/Mika"
+  },
+  {
+   "source": "2026-11-06-tv-celular",
+   "target": "fonte:https://github.com/Gathin23/cleanyourtv"
+  },
+  {
+   "source": "pilar:lista",
+   "target": "2026-11-07-5-skills"
+  },
+  {
+   "source": "pilar:lista",
+   "target": "2026-11-07-editar-video"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-07-5-skills"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-07-editar-video"
+  },
+  {
+   "source": "tema:GitHub em alta",
+   "target": "2026-11-07-5-skills"
+  },
+  {
+   "source": "tema:GitHub em alta",
+   "target": "2026-11-07-editar-video"
   },
   {
    "source": "2026-11-07-5-skills",
    "target": "cta:SKILLS"
-  },
-  {
-   "source": "2026-11-07-5-skills",
-   "target": "tema:GitHub em alta"
   },
   {
    "source": "2026-11-07-5-skills",
@@ -2829,6 +3004,30 @@
   {
    "source": "2026-11-07-5-skills",
    "target": "fonte:https://github.com/elvarofficial/teardown"
+  },
+  {
+   "source": "2026-11-07-editar-video",
+   "target": "cta:EDITA"
+  },
+  {
+   "source": "2026-11-07-editar-video",
+   "target": "fonte:https://github.com/actionow-ai/vvv"
+  },
+  {
+   "source": "2026-11-07-editar-video",
+   "target": "fonte:https://github.com/rossark0/rossark-motion-skill"
+  },
+  {
+   "source": "2026-11-07-editar-video",
+   "target": "fonte:https://github.com/Vibha-Ramprakash/claude-video-effects"
+  },
+  {
+   "source": "2026-11-07-editar-video",
+   "target": "fonte:https://github.com/soumatheusgomes/editonny"
+  },
+  {
+   "source": "2026-11-07-editar-video",
+   "target": "fonte:https://github.com/JuneYaooo/rea-video"
   }
  ]
 }
