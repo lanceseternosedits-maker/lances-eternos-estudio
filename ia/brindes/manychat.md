@@ -44,5 +44,23 @@ Botão "Quero os links" → DM 2:
 Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/edita.md
 Rodam no Claude Code (planos pagos do Claude). Me segue pra não perder os próximos 😉
 
+## PC (Reel "5 programas grátis pro seu PC", formato 3, 07/11 19:30)
+DM 1: Opa! Separei o link dos 5 programas grátis pra você. Toca no botão 👇
+Botão "Quero os links" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/pc.md
+Todos abertos e grátis. Me segue pra não perder os próximos 😉
+
+## ESTUDA (Reel "5 projetos grátis pra estudar com IA", formato 3, 08/11 13:00)
+DM 1: Opa! Separei o link dos 5 projetos pra estudar pra você. Toca no botão 👇
+Botão "Quero os links" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/estuda.md
+O Claudemy roda no Claude Code (planos pagos do Claude). Me segue pra não perder os próximos 😉
+
+## JOGO (Reel "5 projetos que a Nintendo não queria", formato 3, 08/11 19:30)
+DM 1: Opa! Separei o link dos 5 projetos pra você. Toca no botão 👇
+Botão "Quero os links" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/jogo.md
+⚠️ Só funcionam com a cópia dos SEUS jogos, tirada do seu console. Não compartilhe jogos. Me segue pra não perder os próximos 😉
+
 ## Novo post
 Criar `brindes/<palavra>.md` a partir do `resposta_dm.txt` e uma automação nova aqui, com a mesma estrutura.

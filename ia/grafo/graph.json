@@ -1318,6 +1318,152 @@
    "id": "fonte:https://github.com/JuneYaooo/rea-video",
    "tipo": "fonte",
    "label": "https://github.com/JuneYaooo/rea-video"
+  },
+  {
+   "id": "2026-11-07-programas-pc",
+   "tipo": "post",
+   "label": "programas-pc",
+   "data": "2026-11-07",
+   "score": null
+  },
+  {
+   "id": "cta:PC",
+   "tipo": "cta",
+   "label": "PC"
+  },
+  {
+   "id": "tema:programas grátis",
+   "tipo": "tema",
+   "label": "programas grátis"
+  },
+  {
+   "id": "fonte:https://github.com/Forward-Future/folio",
+   "tipo": "fonte",
+   "label": "https://github.com/Forward-Future/folio"
+  },
+  {
+   "id": "fonte:https://github.com/s1dashu/quiet-md",
+   "tipo": "fonte",
+   "label": "https://github.com/s1dashu/quiet-md"
+  },
+  {
+   "id": "fonte:https://github.com/xevrion/hatchzip",
+   "tipo": "fonte",
+   "label": "https://github.com/xevrion/hatchzip"
+  },
+  {
+   "id": "fonte:https://github.com/FrigadeHQ/hob",
+   "tipo": "fonte",
+   "label": "https://github.com/FrigadeHQ/hob"
+  },
+  {
+   "id": "fonte:https://github.com/InukaAsith/TwinDesk",
+   "tipo": "fonte",
+   "label": "https://github.com/InukaAsith/TwinDesk"
+  },
+  {
+   "id": "2026-11-08-estudar-ia",
+   "tipo": "post",
+   "label": "estudar-ia",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:ESTUDA",
+   "tipo": "cta",
+   "label": "ESTUDA"
+  },
+  {
+   "id": "tema:estudar com IA",
+   "tipo": "tema",
+   "label": "estudar com IA"
+  },
+  {
+   "id": "tema:inglês",
+   "tipo": "tema",
+   "label": "inglês"
+  },
+  {
+   "id": "fonte:https://github.com/zilvestro/grammai",
+   "tipo": "fonte",
+   "label": "https://github.com/zilvestro/grammai"
+  },
+  {
+   "id": "fonte:https://github.com/agharsallah/esp-labs-web",
+   "tipo": "fonte",
+   "label": "https://github.com/agharsallah/esp-labs-web"
+  },
+  {
+   "id": "fonte:https://github.com/assafkip/claudemy",
+   "tipo": "fonte",
+   "label": "https://github.com/assafkip/claudemy"
+  },
+  {
+   "id": "fonte:https://github.com/designfuchen/word-atlas",
+   "tipo": "fonte",
+   "label": "https://github.com/designfuchen/word-atlas"
+  },
+  {
+   "id": "fonte:https://github.com/wquguru/cicada",
+   "tipo": "fonte",
+   "label": "https://github.com/wquguru/cicada"
+  },
+  {
+   "id": "horario:08h",
+   "tipo": "horario",
+   "label": "08h"
+  },
+  {
+   "id": "2026-11-08-nintendo",
+   "tipo": "post",
+   "label": "nintendo",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:JOGO",
+   "tipo": "cta",
+   "label": "JOGO"
+  },
+  {
+   "id": "tema:games",
+   "tipo": "tema",
+   "label": "games"
+  },
+  {
+   "id": "tema:Nintendo Switch",
+   "tipo": "tema",
+   "label": "Nintendo Switch"
+  },
+  {
+   "id": "tema:polêmica legal",
+   "tipo": "tema",
+   "label": "polêmica legal"
+  },
+  {
+   "id": "fonte:https://github.com/c22dev/mush8",
+   "tipo": "fonte",
+   "label": "https://github.com/c22dev/mush8"
+  },
+  {
+   "id": "fonte:https://github.com/LNPANDY/NX2Apple",
+   "tipo": "fonte",
+   "label": "https://github.com/LNPANDY/NX2Apple"
+  },
+  {
+   "id": "fonte:https://github.com/valentderah/totk-pc-recomp",
+   "tipo": "fonte",
+   "label": "https://github.com/valentderah/totk-pc-recomp"
+  },
+  {
+   "id": "fonte:https://github.com/ly05010419/MacNativeGames",
+   "tipo": "fonte",
+   "label": "https://github.com/ly05010419/MacNativeGames"
+  },
+  {
+   "id": "fonte:https://github.com/seedds/nxnative",
+   "tipo": "fonte",
+   "label": "https://github.com/seedds/nxnative"
   }
  ],
  "links": [
@@ -1662,6 +1808,18 @@
    "target": "2026-11-07-editar-video"
   },
   {
+   "source": "rede:instagram",
+   "target": "2026-11-07-programas-pc"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-08-estudar-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-08-nintendo"
+  },
+  {
    "source": "rede:tiktok",
    "target": "2026-11-01-anthropic-ipo-p3"
   },
@@ -1756,6 +1914,18 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-07-editar-video"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-07-programas-pc"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-08-estudar-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-08-nintendo"
   },
   {
    "source": "rede:youtube",
@@ -2266,6 +2436,10 @@
    "target": "2026-11-03-ias-trabalham"
   },
   {
+   "source": "tema:produtividade",
+   "target": "2026-11-07-programas-pc"
+  },
+  {
    "source": "2026-11-01-semana-em-ia",
    "target": "paleta:paleta 2"
   },
@@ -2420,6 +2594,10 @@
   {
    "source": "horario:07h",
    "target": "2026-11-07-editar-video"
+  },
+  {
+   "source": "horario:07h",
+   "target": "2026-11-07-programas-pc"
   },
   {
    "source": "2026-11-02-em-alta-x",
@@ -2910,6 +3088,18 @@
    "target": "2026-11-07-editar-video"
   },
   {
+   "source": "paleta:paleta None",
+   "target": "2026-11-07-programas-pc"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-08-estudar-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-08-nintendo"
+  },
+  {
    "source": "empresa:Anthropic (Claude)",
    "target": "2026-11-07-5-skills"
   },
@@ -2966,6 +3156,18 @@
    "target": "2026-11-07-editar-video"
   },
   {
+   "source": "pilar:lista",
+   "target": "2026-11-07-programas-pc"
+  },
+  {
+   "source": "pilar:lista",
+   "target": "2026-11-08-estudar-ia"
+  },
+  {
+   "source": "pilar:lista",
+   "target": "2026-11-08-nintendo"
+  },
+  {
    "source": "formato:reel formato 3 (contagem regressiva com mistério)",
    "target": "2026-11-07-5-skills"
   },
@@ -2974,12 +3176,32 @@
    "target": "2026-11-07-editar-video"
   },
   {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-07-programas-pc"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-08-estudar-ia"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-08-nintendo"
+  },
+  {
    "source": "tema:GitHub em alta",
    "target": "2026-11-07-5-skills"
   },
   {
    "source": "tema:GitHub em alta",
    "target": "2026-11-07-editar-video"
+  },
+  {
+   "source": "tema:GitHub em alta",
+   "target": "2026-11-07-programas-pc"
+  },
+  {
+   "source": "tema:GitHub em alta",
+   "target": "2026-11-08-estudar-ia"
   },
   {
    "source": "2026-11-07-5-skills",
@@ -3028,6 +3250,110 @@
   {
    "source": "2026-11-07-editar-video",
    "target": "fonte:https://github.com/JuneYaooo/rea-video"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "cta:PC"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "tema:programas grátis"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "fonte:https://github.com/Forward-Future/folio"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "fonte:https://github.com/s1dashu/quiet-md"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "fonte:https://github.com/xevrion/hatchzip"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "fonte:https://github.com/FrigadeHQ/hob"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "fonte:https://github.com/InukaAsith/TwinDesk"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "cta:ESTUDA"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "tema:estudar com IA"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "tema:inglês"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "fonte:https://github.com/zilvestro/grammai"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "fonte:https://github.com/agharsallah/esp-labs-web"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "fonte:https://github.com/assafkip/claudemy"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "fonte:https://github.com/designfuchen/word-atlas"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "fonte:https://github.com/wquguru/cicada"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "horario:08h"
+  },
+  {
+   "source": "horario:08h",
+   "target": "2026-11-08-nintendo"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "cta:JOGO"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "tema:games"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "tema:Nintendo Switch"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "tema:polêmica legal"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "fonte:https://github.com/c22dev/mush8"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "fonte:https://github.com/LNPANDY/NX2Apple"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "fonte:https://github.com/valentderah/totk-pc-recomp"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "fonte:https://github.com/ly05010419/MacNativeGames"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "fonte:https://github.com/seedds/nxnative"
   }
  ]
 }

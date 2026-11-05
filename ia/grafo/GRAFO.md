@@ -1,12 +1,12 @@
 # Grafo de conteúdo do IA em 60s
-Gerado em 2026-11-05 15:18 · 27 posts · 253 nós · 427 ligações
+Gerado em 2026-11-05 20:09 · 30 posts · 281 nós · 472 ligações
 
 ## Use antes de criar
 
-- **Temas saturados (3+ posts em 7 dias, evite):** agentes de IA, segurança, programação, segurança de IA, privacidade, produtividade, skills do Claude Code, GitHub em alta
-- **Empresas saturadas (3+ posts em 7 dias, evite):** Anthropic, OpenAI, Google, GitHub
+- **Temas saturados (3+ posts em 7 dias, evite):** GitHub em alta, agentes de IA, skills do Claude Code
+- **Empresas saturadas (3+ posts em 7 dias, evite):** Anthropic
 - **Pilares sem post nos últimos 7 dias (prioridade):** nenhum
-- **Posts por pilar (7 dias):** novidade 9, tutorial 8, em_alta 4, recomendacao 3, lista 3
+- **Posts por pilar (7 dias):** tutorial 6, lista 6, novidade 3, em_alta 3, recomendacao 2
 
 ## O que vem funcionando
 
@@ -17,13 +17,13 @@ Ainda sem métricas em `metricas.json`. O analista semanal preenche; até lá, o
 | Tema | posts |
 |---|---|
 | agentes de IA | 7 |
+| GitHub em alta | 5 |
+| produtividade | 4 |
 | segurança | 3 |
 | programação | 3 |
 | segurança de IA | 3 |
 | privacidade | 3 |
-| produtividade | 3 |
 | skills do Claude Code | 3 |
-| GitHub em alta | 3 |
 | IPO | 2 |
 | GitHub | 2 |
 | IA local | 2 |
