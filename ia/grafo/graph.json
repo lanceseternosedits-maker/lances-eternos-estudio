@@ -938,6 +938,11 @@
    "score": null
   },
   {
+   "id": "formato:carrossel + reel 3D",
+   "tipo": "formato",
+   "label": "carrossel + reel 3D"
+  },
+  {
    "id": "cta:POST",
    "tipo": "cta",
    "label": "POST"
@@ -986,6 +991,21 @@
    "id": "fonte:smartscope.blog (free plan)",
    "tipo": "fonte",
    "label": "smartscope.blog (free plan)"
+  },
+  {
+   "id": "rede:instagram_reel",
+   "tipo": "rede",
+   "label": "instagram_reel"
+  },
+  {
+   "id": "horario:04h",
+   "tipo": "horario",
+   "label": "04h"
+  },
+  {
+   "id": "horario:05h",
+   "tipo": "horario",
+   "label": "05h"
   },
   {
    "id": "2026-11-04-desenho-animado",
@@ -1516,6 +1536,10 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-04-canva-craft"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-04-desenho-animado"
   },
   {
@@ -1589,10 +1613,6 @@
   {
    "source": "horario:19h",
    "target": "2026-11-03-ias-trabalham"
-  },
-  {
-   "source": "horario:19h",
-   "target": "2026-11-04-canva-craft"
   },
   {
    "source": "horario:19h",
@@ -2015,10 +2035,6 @@
    "target": "2026-11-03-ideogram-edita"
   },
   {
-   "source": "formato:tutorial",
-   "target": "2026-11-04-canva-craft"
-  },
-  {
    "source": "tema:produtividade",
    "target": "2026-11-01-tutorial-projetos-claude"
   },
@@ -2113,6 +2129,10 @@
   {
    "source": "horario:12h",
    "target": "2026-11-02-ferramentas-gratis"
+  },
+  {
+   "source": "horario:12h",
+   "target": "2026-11-04-desenho-animado"
   },
   {
    "source": "2026-11-01-tutorial-projetos-claude",
@@ -2304,10 +2324,6 @@
   },
   {
    "source": "horario:13h",
-   "target": "2026-11-04-desenho-animado"
-  },
-  {
-   "source": "horario:13h",
    "target": "2026-11-04-youtube-2-horas"
   },
   {
@@ -2456,6 +2472,10 @@
   },
   {
    "source": "2026-11-04-canva-craft",
+   "target": "formato:carrossel + reel 3D"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
    "target": "cta:POST"
   },
   {
@@ -2493,6 +2513,18 @@
   {
    "source": "2026-11-04-canva-craft",
    "target": "fonte:smartscope.blog (free plan)"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
+   "target": "rede:instagram_reel"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
+   "target": "horario:04h"
+  },
+  {
+   "source": "2026-11-04-canva-craft",
+   "target": "horario:05h"
   },
   {
    "source": "2026-11-04-desenho-animado",

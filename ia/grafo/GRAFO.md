@@ -1,5 +1,5 @@
 # Grafo de conteúdo do IA em 60s
-Gerado em 2026-11-04 14:29 · 23 posts · 214 nós · 367 ligações
+Gerado em 2026-11-05 02:17 · 23 posts · 218 nós · 370 ligações
 
 ## Use antes de criar
 
