@@ -1,0 +1,143 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, tom de curiosidade e mistério, ritmo rápido; segura a expectativa antes da número um",
+ "formato": "contagem",
+ "chave": "SKILLS",
+ "tese": "5 SKILLS DO CLAUDE · +18 MIL ESTRELAS · E A Nº 1 É BIZARRA",
+ "brinde": "link das 5 skills + como instalar cada uma no Claude Code (resposta_dm.txt)",
+ "layout": "formato 3 (contagem regressiva com mistério): fundo escuro, destaque laranja, etiqueta fixa de 3 camadas, nome decifrando de texto embaralhado, contador de estrelas subindo com barra, mascote de blocos aponta e reage; nº 1 só no fim",
+ "fontes": [
+  "https://github.com/Motionsites-AI/claude-skill",
+  "https://github.com/NiazMorshed2007/reanimate",
+  "https://github.com/patch-gg/pixelfx",
+  "https://github.com/heydamir/unslop",
+  "https://github.com/elvarofficial/teardown"
+ ],
+ "prova_viral": "Estrelas no GitHub lidas pela API em 05/11/2026: unslop 8.804, pixelfx 4.822, teardown 1.949, MotionSites 1.663, reanimate 1.187 (total 18.425); todas criadas entre 26 e 30/10.",
+ "obs": "Números de estrelas: reler na véspera e atualizar o contador. Não chamar de 'grátis' sem conferir a licença de cada uma (MotionSites e reanimate (MIT) se dizem grátis/abertas). Todas pedem Claude Code (planos pagos do Claude). Sem logo de terceiros.",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 SKILLS DO CLAUDE",
+   "fala": "Cinco skills do Claude ganharam dezoito mil estrelas em dez dias. E a número um é bizarra.",
+   "legenda": "5 skills do Claude ganharam 18 mil estrelas em 10 dias. E a nº 1 é bizarra.",
+   "visual": "fundo escuro; etiqueta de 3 camadas no topo; caixa '?' piscando em glitch; mascote aponta pra tela",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    },
+    {
+     "t": 1.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "MotionSites",
+   "repo": "Motionsites-AI/claude-skill",
+   "estrelas": 1663,
+   "fala": "Quinta: MotionSites. Seu site com cara de cinema, e não de IA.",
+   "legenda": "5º MotionSites: site com cara de cinema, não de IA.",
+   "visual": "nome decifrando de texto embaralhado; contador 0 → 1,6 MIL estrelas; mascote com claquete diante de um telão",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "reanimate",
+   "repo": "NiazMorshed2007/reanimate",
+   "estrelas": 1187,
+   "fala": "Quarta: reanimate. Viu uma animação bonita? Ele copia quadro a quadro.",
+   "legenda": "4º reanimate: copia qualquer animação quadro a quadro.",
+   "visual": "contador 0 → 1,2 MIL; tira de filme; mascote imita o movimento de um boneco quadro a quadro",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "pixelfx",
+   "repo": "patch-gg/pixelfx",
+   "estrelas": 4822,
+   "fala": "Terceira: pixelfx. Duzentos e quarenta e quatro efeitos de pixel art prontos pro seu jogo. Essa é até legalzinha.",
+   "legenda": "3º pixelfx: 244 efeitos de pixel art prontos. Essa é até legalzinha.",
+   "visual": "contador 0 → 4,8 MIL; fogueira, portal e explosão em pixel ao redor do mascote",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "unslop",
+   "repo": "heydamir/unslop",
+   "estrelas": 8804,
+   "fala": "Mas a segunda: unslop. Ela caça a cara de IA do seu site e redesenha como um designer.",
+   "legenda": "2º unslop: tira a cara de IA do seu site.",
+   "visual": "contador 0 → 8,8 MIL (o maior); antes/depois: site roxo genérico com brilhos → página limpa e bonita",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "teardown",
+   "repo": "elvarofficial/teardown",
+   "estrelas": 1949,
+   "fala": "E a número um: teardown. Você pergunta como uma máquina funciona, e ele monta um simulador 3D pra você desmontar.",
+   "legenda": "1º teardown: pergunta como uma máquina funciona e ganha um simulador 3D pra desmontar.",
+   "visual": "caixa '?' explode; contador 0 → 1,9 MIL; uma máquina 3D (abelha-robô genérica) se desmonta em peças voando em volta do mascote",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.8
+    },
+    {
+     "t": 0.4,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA SKILLS",
+   "fala": "Comenta SKILLS e me segue que eu te mando o link das cinco.",
+   "legenda": "Comenta SKILLS e me segue que eu te mando o link das 5.",
+   "visual": "as 5 em lista com o número de estrelas; mascote acena; COMENTA SKILLS",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "pop",
+     "g": 0.6
+    }
+   ]
+  }
+ ]
+}
