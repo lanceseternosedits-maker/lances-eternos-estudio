@@ -58,7 +58,7 @@ Não basta trocar o cenário: **cada vídeo escolhe uma combinação diferente e
 - **Legenda:** (a) bloco de 4 palavras com a atual colorida · (b) uma palavra gigante por vez com "pop" · (c) karaokê com marca-texto deslizando · (d) balão de fala do mascote · (e) tarja de TV/arcade.
 - **Transição entre itens:** (a) flash branco · (b) chicote de câmera (whip pan) · (c) íris circular · (d) virada de página · (e) glitch RGB · (f) zoom atravessando uma tela.
 - **Mascote:** sempre um acessório e uma ação principal novos (óculos, boné, fone, mochila, crachá, capa…; digitar, ler, dançar, se esconder, correr, pilotar…). "Apontar" não pode ser a ação principal.
-- **Câmera:** (a) 2 planos frontais · (b) top-down · (c) travelling lateral · (d) órbita · (e) câmera na mão · (f) plongée/contra-plongée.
+- **Câmera:** (a) 2 planos frontais · (b) ~~top-down~~ (vetado pelo Vitor em 05/11: "estranho"; o rosto do mascote some) · (c) travelling lateral · (d) órbita · (e) câmera na mão · (f) plongée/contra-plongée.
 - **Fechamento:** (a) lista + pílulas COMENTA · (b) pódio · (c) post-its/cartazes na parede · (d) tela "CONTINUE?" com contagem · (e) página de caderno · (f) cartões que viram.
 - **Tipografia:** (a) Space Grotesk · (b) Archivo Black · (c) Fraunces · (d) Press Start 2P · (e) Caveat (manuscrita) · (f) Bebas Neue. Fontes via npm `@fontsource/*` (grátis).
 - **Som:** alternar as 3 trilhas próprias e o jogo de efeitos (papel, máquina, arcade, natureza…).
