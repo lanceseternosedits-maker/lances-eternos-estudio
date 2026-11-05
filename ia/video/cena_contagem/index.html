@@ -4,6 +4,11 @@
 @font-face{font-family:SG;src:url(f/space-grotesk-latin-700-normal.woff2)}
 @font-face{font-family:IN;src:url(f/inter-latin-500-normal.woff2)}
 @font-face{font-family:JB;src:url(f/jetbrains-mono-latin-500-normal.woff2)}
+@font-face{font-family:AB;src:url(f/archivo-black-latin-400-normal.woff2)}
+@font-face{font-family:FR;src:url(f/fraunces-latin-700-normal.woff2)}
+@font-face{font-family:PS;src:url(f/press-start-2p-latin-400-normal.woff2)}
+@font-face{font-family:CV;src:url(f/caveat-latin-700-normal.woff2)}
+@font-face{font-family:BB;src:url(f/bebas-neue-latin-400-normal.woff2)}
 *{margin:0;padding:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#0f0d0c}canvas#c{position:absolute;inset:0}
 </style>
 </head><body>
@@ -15,7 +20,7 @@
 import * as THREE from "./three.module.min.js";
 const CFG = await (await fetch("cfg.json")).json();
 const SEG = CFG.timeline.segmentos, SEGR = CFG.segs, CHAVE = (CFG.chave || "SKILLS").toUpperCase();
-for (const f of ["700 60px SG", "500 30px IN", "500 40px JB"]) await document.fonts.load(f);
+for (const f of ["700 60px SG", "500 30px IN", "500 40px JB", "400 60px AB", "700 60px FR", "400 40px PS", "700 60px CV", "400 60px BB"]) await document.fonts.load(f);
 
 const C = document.getElementById("c"), X = C.getContext("2d");
 let LAR = "#E8743B", CREME = "#f4ead8", TINTA = "#1b1712", VERDE = "#5fe0b2", FUNDO = "#0f0d0c", BRILHO = "rgba(232,116,59,.10)";
@@ -159,22 +164,27 @@ function fechamento(lt) {
   X.shadowColor = "rgba(0,0,0,.5)"; X.shadowBlur = 30; pil("COMENTA", x0, 0, 96, LAR, "#fff"); pil(CHAVE, x0 + w1 + 20, 0, 96, "#ffd23f", TINTA); X.restore(); X.globalAlpha = 1;
 }
 
+let UIX = null;
+const C2 = () => ({ X, gl, GW, GH, GY, SEG, SEGR, ITENS, TOTAL, MAXE, CHAVE, fmt, pil, decifra, blocos, eo, lin, eio, back, cores: () => ({ LAR, CREME, TINTA, VERDE, FUNDO }) });
 window.setT = t => {
   let k = SEG.findIndex(s => t < s.fim); if (k < 0) k = SEG.length - 1;
   const s = SEG[k], sr = SEGR[k], lt = t - s.t0, d = s.fim - s.t0, nome = s.cena;
   for (const n in G) G[n].visible = n === nome;
   const sh = ACT[nome] ? ACT[nome](lt, d) || 0 : 0;
   const [p, l] = (SHOTS[nome] || SHOTS.cta)[lt >= d / 2 ? 1 : 0]; const u = (lt >= d / 2 ? lt - d / 2 : lt) / (d / 2);
-  cam.position.copy(p.clone().lerp(l, .07 * eio(u))); cam.position.x += Math.sin(t * 61) * sh; cam.position.y += Math.cos(t * 47) * sh; cam.lookAt(l);
+  cam.position.copy(p.clone().lerp(l, .07 * eio(u))); cam.position.x += Math.sin(t * 61) * sh; cam.position.y += Math.cos(t * 47) * sh; cam.lookAt(l); if (MOD.camera) MOD.camera(cam, nome, lt, d, t, sh);
   aro.material.emissiveIntensity = 2 + Math.sin(t * 3) * .6;
   R.render(S, cam);
-  fundo(t); etiqueta();
-  if (sr.item) cabecalho(sr, lt, t);
+  // elementos de tela: o módulo pode trocar cada um (Diversidade de elementos, Vitor 05/11)
+  const U = UIX || (UIX = Object.assign({ etiqueta, cabecalho, legenda, fechamento, fundo, desenha3D: null, transicao: null }, MOD.ui ? MOD.ui(C2()) : {}));
+  U.fundo(t); U.etiqueta(t, nome);
+  if (sr.item) U.cabecalho(sr, lt, t, d);
+  if (U.desenha3D) U.desenha3D(gl, nome, lt, t); else {
   const gy = nome === "cta" ? 760 : GY; if (nome === "cta") { X.save(); X.beginPath(); X.roundRect(140, 820, GW * .74, GH * .74, 28); X.clip(); X.drawImage(gl, 140, 820, GW * .74, GH * .74); X.restore(); } else X.drawImage(gl, 0, gy);
-  if (nome !== "cta") { for (const [y0, y1] of [[gy, gy + 90], [gy + GH, gy + GH - 90]]) { const fg = X.createLinearGradient(0, y0, 0, y1); fg.addColorStop(0, FUNDO); fg.addColorStop(1, "rgba(0,0,0,0)"); X.fillStyle = fg; X.fillRect(0, Math.min(y0, y1), 1080, 90); } }
-  if (nome === "cta") fechamento(lt); else legenda(s, t);
-  // flash curto no corte de cada item
-  if (sr.item && lt < .07) { X.fillStyle = `rgba(255,255,255,${.35 * (1 - lt / .07)})`; X.fillRect(0, 0, 1080, 1920); }
+  if (nome !== "cta") { for (const [y0, y1] of [[gy, gy + 90], [gy + GH, gy + GH - 90]]) { const fg = X.createLinearGradient(0, y0, 0, y1); fg.addColorStop(0, FUNDO); fg.addColorStop(1, "rgba(0,0,0,0)"); X.fillStyle = fg; X.fillRect(0, Math.min(y0, y1), 1080, 90); } } }
+  if (nome === "cta") U.fechamento(lt, d); else U.legenda(s, t, sr);
+  if (U.transicao) U.transicao(lt, sr, nome, t);
+  else if (sr.item && lt < .07) { X.fillStyle = `rgba(255,255,255,${.35 * (1 - lt / .07)})`; X.fillRect(0, 0, 1080, 1920); }   // padrão: flash curto
 };
 setT(0); window.READY = true;
 </script></body></html>
