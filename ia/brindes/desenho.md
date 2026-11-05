@@ -1,0 +1,17 @@
+# 🎬 Desenho animado com o Claude: skill grátis + passo a passo
+
+_Brinde do [@iaem60s](https://instagram.com/iaem60s) · perfil independente, sem ligação com as marcas citadas._
+
+🎬 Skill grátis que faz o Claude criar desenho animado (Shorts/Reels/TikTok):  
+https://github.com/mromidev/claude-animated-shorts  
+  
+Passo a passo:  
+1. Você precisa do Claude Code (vem nos planos pagos do Claude) instalado no computador.  
+2. Baixe a pasta da skill (botão verde "Code" > "Download ZIP") e coloque dentro da pasta de skills do Claude (~/.claude/skills).  
+3. Abra o Claude Code e peça: "Use a skill de cartoon short e faça um short sobre [seu tema]".  
+4. Ele escreve o roteiro, planeja as cenas e renderiza um vídeo vertical de ~1 minuto no seu próprio PC.  
+  
+⚠️ A skill é grátis (licença MIT). O vídeo é montado com o Remotion, que é grátis para pessoa física e empresa pequena; empresa maior precisa de licença deles.
+
+---
+Gostou? Segue o **@iaem60s**: a IA que importa, explicada em 60 segundos.
