@@ -38,6 +38,9 @@ Vídeo traz mais resultado: a prioridade é **Reel no Instagram + TikTok**. Cada
 ## Formato 2: lista + demonstração (referência @theaigeekk, 05/11)
 Título fixo no topo ("N jeitos de X com o Claude"), lista numerada que se preenche à esquerda, janela vertical à direita com a MESMA cena trocando a cada ~1 s, fala só com o nome do item, grade final em loop com "Comenta PALAVRA". Brinde: os prompts de cada item. Rendeu ~1 comentário por curtida e muito salvamento. Dá para fazer na `cena_palco` (mascote na mesma ação, trocando material/estilo: argila, pixel, giz, neon, Lego, papel). Detalhes em `referencias_fixas.md`.
 
+## Padrão de qualidade (Vitor, 05/11)
+Simples e polido vale mais que complexo: paleta curta, uma fonte, margens e layout fixos no vídeo todo, movimentos com ease, transições com intenção, corte cravado na fala, nenhum frame vazio. Antes de mandar o MP4, revise a folha procurando o que está "sobrando" ou desalinhado.
+
 ## Formato 3: contagem regressiva com mistério (referência @casadoclaude.ia, 05/11)
 Para listas de skills/ferramentas com número forte. Etiqueta fixa de 3 camadas (assunto + número real em laranja + promessa: "e a nº 1 é bizarra"); contagem 5 → 1 com a melhor no fim; cada item: nome se revelando de texto embaralhado + contador animado de instalações/estrelas (número da fonte, nunca estimado) + demonstração ou antes/depois; frase-ponte de cliffhanger ("essa é legalzinha… mas a próxima…"); mascote aponta e reage; fundo escuro com destaque laranja. Detalhes em `referencias_fixas.md`.
 
