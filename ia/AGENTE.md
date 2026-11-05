@@ -10,6 +10,14 @@ IA que a pessoa pode USAR hoje, explicada em português do Brasil, no Instagram 
 - Instagram: tempo assistido, curtidas e **envios por DM** por alcance; conteúdo original. TikTok: conclusão, reassistir, compartilhar; a busca lê fala, texto na tela e legenda (use palavras buscadas).
 - Gancho em até 1,5 s em 3 camadas (imagem, fala e texto dizem o mesmo). Uma frase por cena, 20–35 s, sem introdução. CTA: "Comenta PALAVRA e me segue que eu te mando [brinde]". Legenda termina com pergunta fácil.
 
+## Teste viral do roteiro (referência 4, 05/11): passa nos 5 antes de ir para aprovação
+1. **Conflito no gancho** (até 1,5 s): uma tensão, não contexto. Ruim: "5 programas grátis estão bombando". Bom: "Você paga por 5 programas que têm versão grátis, e a nº 1 é bizarra".
+2. **Título forte** na etiqueta: promessa ou provocação, com número real.
+3. **Comunicação correta**: 1 ideia por frase, até ~12 palavras, palavras de gente comum, nada de jargão sem tradução.
+4. **Básico bem feito**: no máximo 1 efeito chamativo por cena; o resto limpo e legível. Diversidade ≠ excesso.
+5. **Propósito**: o vídeo resolve uma dor clara, e o brinde entrega a solução.
+O resumo do roteiro para o Vitor mostra os 5 itens marcados.
+
 ## Foco em vídeo, com carrossel de reserva (decisão do Vitor, 05/11)
 **Meta (Vitor, 05/11): 2 vídeos por dia, às 13:00 e às 19:30 de Brasília (Instagram + TikTok).** Cada rodada de produção escreve até 4 roteiros (2 por dia), de preferência no formato 3. Os dois slots do Instagram ficam para os Reels; o carrossel de reserva só sai se faltar Reel aprovado.
 Vídeo traz mais resultado: a prioridade é **Reel no Instagram + TikTok**. Cada rodada de produção escreve **1 roteiro de Reel por dia** (2 por rodada) para aprovação, nos formatos 1 (mascote no palco) ou 2 (lista + demonstração).
