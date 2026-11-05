@@ -1,7 +1,52 @@
 // Objetos e ações dos itens n5…n1 do Reel "5 skills pra editar vídeo" (05/11). Recebe K com as ferramentas da cena.
 export default function (K) {
-const { THREE, S, cam, mesh, box, M, E, ctex, grupo, pose, MAS, pisca, hop, eo, lin, eio, back, rnd, misT, caixaMisterio, LAR, CREME, aponta, V } = K;
+const { rim, key, palco, aro, THREE, S, cam, mesh, box, M, E, ctex, grupo, pose, MAS, pisca, hop, eo, lin, eio, back, rnd, misT, caixaMisterio, LAR, CREME, aponta, V } = K;
 const CORES = ["#ff5a5f", "#ffd23f", "#3bceac", "#5b8cff", "#c86bff", "#ff9f1c"];
+
+// ---------- identidade deste vídeo: ilha de edição (sem palco), roxo + rosa + ciano ----------
+const ROSA = "#ff4d8d", CIA = "#7cf5ff";
+const ilha = new THREE.Group(); S.add(ilha);
+const pisoT = ctex(512, 512, (g, w, h) => { g.fillStyle = "#17112a"; g.fillRect(0, 0, w, h); g.strokeStyle = "rgba(124,245,255,.35)"; g.lineWidth = 3; for (let i = 0; i <= 8; i++) { g.beginPath(); g.moveTo(i * 64, 0); g.lineTo(i * 64, h); g.stroke(); g.beginPath(); g.moveTo(0, i * 64); g.lineTo(w, i * 64); g.stroke(); } });
+pisoT.wrapS = pisoT.wrapT = THREE.RepeatWrapping; pisoT.repeat.set(4, 3);
+const piso = mesh(new THREE.PlaneGeometry(14, 10), new THREE.MeshStandardMaterial({ map: pisoT, roughness: .6 }), ilha, 0, 0, 0); piso.rotation.x = -Math.PI / 2;
+mesh(new THREE.PlaneGeometry(14, 7), M("#211836", { roughness: .9 }), ilha, 0, 3.5, -2.8);
+for (let r = 0; r < 3; r++) for (let c = 0; c < 6; c++) box(.55, .55, .12, M(((r + c) % 2) ? "#2d2147" : "#3a2a5c", { roughness: 1 }), ilha, -3.2 + c * .62 + (r % 2) * .3, 2.6 + r * .62, -2.7);
+const mesa = new THREE.Group(); mesa.position.set(-.2, 0, -2.0); ilha.add(mesa); box(3.2, .08, .9, M("#1b1424"), mesa, 0, .95, 0); for (const x of [-1.5, 1.5]) box(.08, .95, .8, M("#1b1424"), mesa, x, .47, 0);
+const timelineT = ctex(512, 288, (g, w, h) => { g.fillStyle = "#0e0b16"; g.fillRect(0, 0, w, h); g.fillStyle = "#2a2140"; g.fillRect(0, 0, w, 150);
+  for (let t = 0; t < 4; t++) { let x = 10; while (x < w - 20) { const ww = 30 + ((x * 7 + t * 13) % 70); g.fillStyle = [ROSA, CIA, "#ffd23f", "#9b7bff"][t]; g.globalAlpha = .85; g.fillRect(x, 165 + t * 28, ww, 20); g.globalAlpha = 1; x += ww + 6; } }
+  g.fillStyle = "#fff"; g.fillRect(w * .4, 155, 3, h - 155); });
+for (const [x, ry] of [[-.75, .18], [.75, -.18]]) { const mon = new THREE.Group(); mon.position.set(x, 1.55, 0); mon.rotation.y = ry; mesa.add(mon); box(1.35, .8, .06, M("#0b0a10"), mon, 0, 0, 0);
+  mesh(new THREE.PlaneGeometry(1.27, .72), new THREE.MeshBasicMaterial({ map: timelineT, toneMapped: false }), mon, 0, 0, .035); box(.06, .5, .06, M("#0b0a10"), mon, 0, -.5, -.05); }
+const ring = new THREE.Group(); ring.position.set(2.7, 0, -1.3); ilha.add(ring); box(.05, 2.0, .05, M("#222"), ring, 0, 1.0, 0);
+const aro2 = mesh(new THREE.TorusGeometry(.42, .06, 12, 48), E("#ffe9f2", 2.4), ring, 0, 2.2, 0); aro2.rotation.y = -.6;
+const luzRing = new THREE.PointLight(0xffd6e8, 20, 8, 1.5); luzRing.position.set(0, 2.2, .3); ring.add(luzRing);
+rim.color.set(0xff4d8d); key.color.set(0xf1e6ff);
+
+// gancho: claquete gigante batendo + câmera gravando (luz vermelha)
+const gG = grupo("gancho");
+const listraT = ctex(256, 48, (g, w, h) => { g.fillStyle = "#121016"; g.fillRect(0, 0, w, h); g.fillStyle = "#f4ead8"; for (let x = -40; x < w; x += 56) { g.beginPath(); g.moveTo(x, h); g.lineTo(x + 28, 0); g.lineTo(x + 52, 0); g.lineTo(x + 24, h); g.fill(); } });
+const claqT = ctex(512, 320, (g, w, h) => { g.fillStyle = "#121016"; g.fillRect(0, 0, w, h); g.strokeStyle = "#f4ead8"; g.lineWidth = 4; g.strokeRect(14, 14, w - 28, h - 28); g.beginPath(); g.moveTo(14, h / 2); g.lineTo(w - 14, h / 2); g.stroke();
+  g.fillStyle = "#f4ead8"; g.font = "700 46px SG"; g.textAlign = "left"; g.fillText("CENA  5", 34, 96); g.fillText("TAKE  ?", 34, 236); g.fillStyle = ROSA; g.font = "700 150px SG"; g.textAlign = "center"; g.fillText("?", w * .78, h * .72); });
+const claqG = new THREE.Group(); claqG.position.set(1.1, 1.25, 0); gG.add(claqG);
+mesh(new THREE.BoxGeometry(1.5, .95, .08), new THREE.MeshStandardMaterial({ map: claqT, roughness: .5 }), claqG, 0, 0, 0);
+const hasteG = new THREE.Group(); hasteG.position.set(-.75, .52, 0); claqG.add(hasteG); mesh(new THREE.BoxGeometry(1.5, .18, .08), M("#ffffff", { map: listraT }), hasteG, .75, .09, 0);
+mesh(new THREE.BoxGeometry(1.5, .1, .08), M("#ffffff", { map: listraT }), claqG, 0, .53, 0);
+const camG = new THREE.Group(); camG.position.set(-2.3, 0, -.6); camG.rotation.y = .7; gG.add(camG);
+for (const a of [0, 2.1, 4.2]) { const l = box(.05, 1.4, .05, M("#1a1720"), camG, Math.sin(a) * .25, .68, Math.cos(a) * .25); l.rotation.set(Math.cos(a) * .18, 0, -Math.sin(a) * .18); }
+box(.55, .38, .7, M("#1a1720"), camG, 0, 1.55, 0); mesh(new THREE.CylinderGeometry(.13, .16, .3, 20), M("#3a3845", { metalness: .5 }), camG, 0, 1.55, .48).rotation.x = Math.PI / 2;
+const rec = mesh(new THREE.SphereGeometry(.05, 12, 10), E("#ff2a2a", 3), camG, .2, 1.78, .2);
+
+// fechamento: rolos de filme girando + quadrinhos de filme caindo
+const cG = grupo("cta"); const rolos = [], fq = [];
+function rolo(par, x, y, z, s) { const r = new THREE.Group(); r.position.set(x, y, z); r.scale.setScalar(s); par.add(r); const MT = M("#b9c0cc", { metalness: .8, roughness: .25 });
+  mesh(new THREE.CylinderGeometry(.5, .5, .06, 32), MT, r, 0, 0, .1).rotation.x = Math.PI / 2; mesh(new THREE.CylinderGeometry(.5, .5, .06, 32), MT, r, 0, 0, -.1).rotation.x = Math.PI / 2;
+  mesh(new THREE.CylinderGeometry(.36, .36, .16, 32), M("#2a2420"), r, 0, 0, 0).rotation.x = Math.PI / 2;
+  for (let i = 0; i < 5; i++) { const a = i / 5 * Math.PI * 2; mesh(new THREE.CylinderGeometry(.09, .09, .22, 12), M("#141014"), r, Math.cos(a) * .27, Math.sin(a) * .27, .02).rotation.x = Math.PI / 2; }
+  for (const z of [.14, -.14]) { const t = mesh(new THREE.TorusGeometry(.5, .035, 10, 48), E(ROSA, 1.8), r, 0, 0, z); t.castShadow = false; }
+  mesh(new THREE.CylinderGeometry(.08, .08, .3, 16), E(CIA, 1.5), r, 0, 0, 0).rotation.x = Math.PI / 2; return r; }
+rolos.push(rolo(cG, -1.8, 2.2, -.8, 1), rolo(cG, 1.9, 2.6, -1.0, .8));
+for (let i = 0; i < 60; i++) { const m = mesh(new THREE.PlaneGeometry(.14, .1), new THREE.MeshBasicMaterial({ color: [ROSA, CIA, "#ffd23f"][i % 3], side: THREE.DoubleSide, toneMapped: false }), cG); m.castShadow = false; fq.push({ m, x: (rnd() - .5) * 6, z: -1 + rnd() * 2.5, y0: 4 + rnd() * 5, v: .7 + rnd() * .6, w: rnd() * 6 }); }
+
 function moldura(par, tex, x, y, z, w, h) { const g = new THREE.Group(); g.position.set(x, y, z); par.add(g);
   box(w + .1, h + .1, .08, M("#0d0c0e", { metalness: .4, roughness: .35 }), g, 0, 0, 0);
   mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ map: tex, toneMapped: false }), g, 0, 0, .05); return g; }
@@ -61,7 +106,7 @@ const legT = ctex(512, 96, (g, w, h, k = 0) => { g.clearRect(0, 0, w, h); if (k 
 const leg = mesh(new THREE.PlaneGeometry(1.5, .28), new THREE.MeshBasicMaterial({ map: legT, transparent: true, toneMapped: false }), trilho, 0, 1.05, 0); leg.castShadow = false;
 
 // n1 rea-video: a caixa "?" explode; um vídeo se separa em quadros, cada um com o selo de como foi feito
-const n1 = grupo("n1"); const mis1 = caixaMisterio(n1);
+const n1 = grupo("n1"); const rolo1 = rolo(n1, 1.0, 1.6, .1, 1.3);
 const SELOS = [["FILMADO", "#3bceac"], ["IA", "#ff5a5f"], ["CÓDIGO", "#5b8cff"], ["IA", "#ff5a5f"], ["FILMADO", "#3bceac"]];
 const quadros = SELOS.map(([s, c], i) => { const t = ctex(320, 220, (g, w, h) => { g.fillStyle = "#0d0c0e"; g.fillRect(0, 0, w, h); g.save(); g.translate(10, 10); paisagem(g, w - 20, h - 20, i); g.restore();
     g.fillStyle = c; g.beginPath(); g.roundRect(14, h - 62, g.measureText ? 160 : 160, 46, 10); g.fill(); g.fillStyle = "#fff"; g.font = "700 30px SG"; g.textAlign = "left"; g.textBaseline = "middle"; g.fillText(s, 26, h - 38); });
@@ -92,8 +137,7 @@ const ACT = {
     clipes.forEach((c, i) => { c.m.position.x = x + c.w / 2; x += c.w; if (i < vazios.length) { vazios[i].position.x = x + GAP * (1 - fecha) / 2; vazios[i].scale.x = Math.max(.01, 1 - fecha); vazios[i].visible = fecha < .98; x += GAP * (1 - fecha); } });
     ondaT.draw(eio(lin(lt, 2.0, 2.8))); const k = lt < 1.4 ? -1 : Math.floor((lt - 1.4) / .8); legT.draw(k); leg.scale.setScalar(k < 0 ? .01 : back(lin(lt % .8, 0, .25)));
     pose(MAS, { x: -1.35, y: fecha > .99 ? hop(lt, .45, .15) : 0, piscar: pisca(lt), ...aponta(lt) }); },
-  n1(lt, d) { const k = Math.floor(lt * 14); misT.draw(k);
-    const boom = lin(lt, .45, .6); mis1.visible = lt < .6; mis1.position.set(1.0, 1.5, .2); mis1.scale.setScalar(lt < .45 ? 1 + Math.sin(lt * 40) * .04 : 1 + boom * .6); mis1.rotation.y = lt;
+  n1(lt, d) { rolo1.visible = lt < .62; rolo1.rotation.z = -lt * (6 + lt * 14); rolo1.scale.setScalar(1.3 * (lt < .5 ? 1 + Math.sin(lt * 40) * .03 : 1 + lin(lt, .5, .62) * .5));
     quadros.forEach((q, i) => { const sai = eio(lin(lt, .55 + i * .12, 1.3 + i * .12)), a = (i - 2) * .42; q.visible = lt >= .55;
       q.position.set(.9 + Math.sin(a) * 1.5 * sai, 1.75 + Math.cos(a) * .6 * sai - .35 + Math.sin(lt * 2 + i) * .04, -.2 - Math.abs(i - 2) * .25 * sai); q.rotation.set(0, -a * .8 * sai, 0); q.scale.setScalar(.4 + .6 * sai); });
     const alvo = Math.min(4, Math.max(0, Math.floor((lt - 1.6) / .9))), qa = quadros[alvo].position;
@@ -101,5 +145,15 @@ const ACT = {
     pose(MAS, { x: -1.3, y: lt < .6 ? 0 : hop(lt, .35, .12) * (lt < 1.6 ? 1 : .3), sq: lt > .45 && lt < .6 ? .15 : 0, piscar: lt > .45 && lt < 1.2 ? .4 : pisca(lt), ...aponta(lt) });
     return lt > .45 && lt < .8 ? (.8 - lt) * .15 : 0; },
 };
-return { SHOTS, ACT };
+ACT.gancho = (lt, d) => { const bate = [1.0, 2.2].map(b => lt < b - .3 ? .55 : lt < b ? .55 * (1 - (lt - b + .3) / .3) : Math.min(.55, (lt - b) * 1.6)); hasteG.rotation.z = Math.min(...bate);
+  claqG.position.set(1.1, 1.3 + Math.sin(lt * 2) * .05, 0); claqG.rotation.set(0, -.25 + Math.sin(lt * .9) * .08, Math.sin(lt * 1.3) * .04); claqG.scale.setScalar(back(lin(lt, 0, .5)));
+  rec.material.emissiveIntensity = (lt % .8) < .4 ? 3 : .2;
+  pose(MAS, { x: -1.1, y: hop(lt, .5, .1), sq: (lt > 1.0 && lt < 1.12) || (lt > 2.2 && lt < 2.32) ? .14 : 0, piscar: pisca(lt), ...aponta(lt) });
+  return (lt > 1.0 && lt < 1.15) || (lt > 2.2 && lt < 2.35) ? .025 : 0; };
+SHOTS.gancho = [[V(.1, 2.0, 6.0), V(0, 1.2, -.4)], [V(.5, 1.7, 4.4), V(.6, 1.3, 0)]];
+ACT.cta = (lt, d) => { pose(MAS, { x: 0, y: hop(lt, .5, .15), braco: [.3, 1.9 + Math.sin(lt * 9) * .5], piscar: pisca(lt), sq: Math.max(0, Math.cos(lt * Math.PI / .5)) * .05 });
+  rolos.forEach((r, i) => r.rotation.z = lt * (i ? -2 : 2.5)); fq.forEach(P => { const y = ((P.y0 - lt * P.v * 2.2) % 6 + 6) % 6; P.m.position.set(P.x + Math.sin(lt * 2 + P.w) * .2, y, P.z); P.m.rotation.set(lt * P.w, lt * 2, P.w); }); };
+SHOTS.cta = [[V(0, 1.8, 6.2), V(0, 1.4, -.3)], [V(.5, 1.6, 5.0), V(0, 1.2, 0)]];
+const cores = { LAR: ROSA, VERDE: CIA, FUNDO: "#120c1d", CREME: "#f4ead8", TINTA: "#14101c", BRILHO: "rgba(255,77,141,.12)" };
+return { SHOTS, ACT, cores, semPalco: true };
 }

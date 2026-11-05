@@ -18,7 +18,7 @@ const SEG = CFG.timeline.segmentos, SEGR = CFG.segs, CHAVE = (CFG.chave || "SKIL
 for (const f of ["700 60px SG", "500 30px IN", "500 40px JB"]) await document.fonts.load(f);
 
 const C = document.getElementById("c"), X = C.getContext("2d");
-const LAR = "#E8743B", CREME = "#f4ead8", TINTA = "#1b1712", VERDE = "#5fe0b2", FUNDO = "#0f0d0c";
+let LAR = "#E8743B", CREME = "#f4ead8", TINTA = "#1b1712", VERDE = "#5fe0b2", FUNDO = "#0f0d0c", BRILHO = "rgba(232,116,59,.10)";
 const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)), lin = (t, a, b) => cl((t - a) / (b - a)), eo = x => 1 - Math.pow(1 - cl(x), 3);
 const eio = x => { x = cl(x); return x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; };
 const back = x => { x = cl(x); const c = 1.7; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
@@ -49,7 +49,7 @@ function ctex(w, h, draw, nearest) { const c = document.createElement("canvas");
   if (nearest) { t.magFilter = t.minFilter = THREE.NearestFilter; t.generateMipmaps = false; } t.draw = (...a) => { draw(g, w, h, ...a); t.needsUpdate = true; }; t.draw(0); return t; }
 
 // palco: disco escuro com aro laranja brilhando
-mesh(new THREE.CylinderGeometry(3.2, 3.3, .2, 64), M("#1c1714", { roughness: .7 }), S, 0, -.1, 0);
+const palco = mesh(new THREE.CylinderGeometry(3.2, 3.3, .2, 64), M("#1c1714", { roughness: .7 }), S, 0, -.1, 0);
 const aro = mesh(new THREE.TorusGeometry(3.22, .025, 8, 96), E(LAR, 2.5), S, 0, .01, 0); aro.rotation.x = Math.PI / 2;
 
 // mascote (mesmo de sempre); dá para criar um "fantasma" com outro material
@@ -72,7 +72,7 @@ function pose(m, { x = 0, y = 0, z = 0, ry = 0, sq = 0, braco = [0, 0], andar = 
 const pisca = t => (t % 2.6) < .11 ? .15 : 1;
 const hop = (t, per, h) => Math.abs(Math.sin(t * Math.PI / per)) * h;
 
-const G = {}; const grupo = n => (G[n] = new THREE.Group(), S.add(G[n]), G[n]);
+const G = {}; const grupo = n => { if (G[n]) S.remove(G[n]); G[n] = new THREE.Group(); S.add(G[n]); return G[n]; };   // um módulo pode substituir gancho/cta
 
 // gancho: caixa-mistério "?" com bordas laranja, tremendo em glitch
 const misT = ctex(256, 256, (g, w, h, k = 0) => { g.fillStyle = "#16120f"; g.fillRect(0, 0, w, h); g.strokeStyle = LAR; g.lineWidth = 12; g.strokeRect(8, 8, w - 16, h - 16);
@@ -89,21 +89,24 @@ for (let i = 0; i < 90; i++) { const c = mesh(new THREE.PlaneGeometry(.08, .15),
 
 const V = (x, y, z) => new THREE.Vector3(x, y, z);
 const aponta = (lt) => ({ braco: [.25 + Math.sin(lt * 5) * .08, 1.25 + Math.sin(lt * 7) * .12], ry: .35 });
-const K = { THREE, S, cam, mesh, box, M, E, ctex, grupo, pose, MAS, mascote, pisca, hop, eo, lin, eio, back, rnd, misT, caixaMisterio, LAR, CREME, aponta, V };
+const K = { palco, aro, key, rim, R, THREE, S, cam, mesh, box, M, E, ctex, grupo, pose, MAS, mascote, pisca, hop, eo, lin, eio, back, rnd, misT, caixaMisterio, LAR, CREME, aponta, V };
 const MOD = (await import("./itens/" + (SEGR[0].itens || "skills") + ".js")).default(K);
+// identidade própria de cada vídeo (Vitor, 05/11): o módulo pode trocar cores, cenário, gancho, nº 1 e fechamento
+if (MOD.cores) ({ LAR = LAR, CREME = CREME, TINTA = TINTA, VERDE = VERDE, FUNDO = FUNDO, BRILHO = BRILHO } = MOD.cores);
+if (MOD.semPalco) { palco.visible = false; aro.visible = false; }
 const SHOTS = {
   gancho: [[V(.2, 2.1, 6.4), V(.15, 1.15, 0)], [V(.9, 1.8, 4.6), V(.6, 1.25, 0)]],
-  ...MOD.SHOTS,
   cta: [[V(0, 1.9, 6.6), V(0, 1.2, 0)], [V(.6, 1.7, 5.4), V(0, 1.2, 0)]],
+  ...MOD.SHOTS,
 };
 const ACT = {
   gancho(lt, d) { const ent = eo(lin(lt, 0, .5));
     pose(MAS, { x: -2.6 + ent * 1.65, y: lt < .5 ? hop(lt, .16, .3) : hop(lt, .6, .08), andar: lt < .5 ? lt * 3 : 0, piscar: pisca(lt), ...aponta(lt) });
     const k = Math.floor(lt * 14); misT.draw(k); mis.position.set(1.15 + (k % 5 === 0 ? .05 : 0), 1.35 + Math.sin(lt * 2.4) * .1, 0); mis.rotation.set(Math.sin(lt) * .15, lt * .6, 0);
     mis.scale.setScalar(back(lin(lt, .3, .9))); return k % 7 === 0 ? .03 : 0; },
-  ...MOD.ACT,
   cta(lt, d) { pose(MAS, { x: 0, y: hop(lt, .5, .15), braco: [.3, 1.9 + Math.sin(lt * 9) * .5], piscar: pisca(lt), sq: Math.max(0, Math.cos(lt * Math.PI / .5)) * .05 });
     conf.forEach(C => { const y = ((C.y0 - lt * C.v * 2.2) % 7 + 7) % 7; C.c.position.set(C.x + Math.sin(lt * 2 + C.ph) * .3, y, C.z); C.c.rotation.set(lt * C.w, lt * C.w * .7, C.ph); }); },
+  ...MOD.ACT,
 };
 
 // ---------- camada 2D ----------
@@ -143,8 +146,8 @@ function legenda(seg, t) {
   for (const w of c) { const on = t >= w.t0 - .02; X.fillStyle = on && t < w.t1 + .25 ? LAR : on ? CREME : "rgba(244,234,216,.35)"; X.shadowColor = "rgba(0,0,0,.6)"; X.shadowBlur = 12; X.fillText(w.w, x, y); X.shadowBlur = 0; x += X.measureText(w.w + " ").width; }
 }
 function fundo(t) {
-  X.fillStyle = FUNDO; X.fillRect(0, 0, 1080, 1920);
-  const v = X.createRadialGradient(540, 1100, 100, 540, 1100, 1100); v.addColorStop(0, "rgba(232,116,59,.10)"); v.addColorStop(1, "rgba(0,0,0,0)"); X.fillStyle = v; X.fillRect(0, 0, 1080, 1920);
+  X.fillStyle = FUNDO; X.fillRect(0, 0, 1080, 1920); if (MOD.fundo2D) { MOD.fundo2D(X, t); }
+  const v = X.createRadialGradient(540, 1100, 100, 540, 1100, 1100); v.addColorStop(0, BRILHO); v.addColorStop(1, "rgba(0,0,0,0)"); X.fillStyle = v; X.fillRect(0, 0, 1080, 1920);
   X.fillStyle = "rgba(244,234,216,.25)"; for (let i = 0; i < 9; i++) { const x = 80 + (i * 263) % 920, y = 760 + (i * 419) % 760, s = 8 + 4 * Math.sin(t * 2 + i); X.fillRect(x - s, y - 1.5, s * 2, 3); X.fillRect(x - 1.5, y - s, 3, s * 2); }
 }
 function fechamento(lt) {
@@ -167,7 +170,8 @@ window.setT = t => {
   R.render(S, cam);
   fundo(t); etiqueta();
   if (sr.item) cabecalho(sr, lt, t);
-  const gy = nome === "cta" ? 760 : GY; if (nome === "cta") { X.globalAlpha = .9; X.drawImage(gl, 140, 820, GW * .74, GH * .74); X.globalAlpha = 1; } else X.drawImage(gl, 0, gy);
+  const gy = nome === "cta" ? 760 : GY; if (nome === "cta") { X.save(); X.beginPath(); X.roundRect(140, 820, GW * .74, GH * .74, 28); X.clip(); X.drawImage(gl, 140, 820, GW * .74, GH * .74); X.restore(); } else X.drawImage(gl, 0, gy);
+  if (nome !== "cta") { for (const [y0, y1] of [[gy, gy + 90], [gy + GH, gy + GH - 90]]) { const fg = X.createLinearGradient(0, y0, 0, y1); fg.addColorStop(0, FUNDO); fg.addColorStop(1, "rgba(0,0,0,0)"); X.fillStyle = fg; X.fillRect(0, Math.min(y0, y1), 1080, 90); } }
   if (nome === "cta") fechamento(lt); else legenda(s, t);
   // flash curto no corte de cada item
   if (sr.item && lt < .07) { X.fillStyle = `rgba(255,255,255,${.35 * (1 - lt / .07)})`; X.fillRect(0, 0, 1080, 1920); }

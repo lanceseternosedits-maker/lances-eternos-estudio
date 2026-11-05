@@ -1,7 +1,47 @@
 // Objetos e ações dos itens n5…n1 do Reel "5 projetos pra TV e celular" (05/11). Recebe K com as ferramentas da cena.
 export default function (K) {
-const { THREE, S, cam, mesh, box, M, E, ctex, grupo, pose, MAS, pisca, hop, eo, lin, eio, back, rnd, misT, caixaMisterio, LAR, CREME, aponta, V } = K;
+const { rim, key, palco, aro, THREE, S, cam, mesh, box, M, E, ctex, grupo, pose, MAS, pisca, hop, eo, lin, eio, back, rnd, misT, caixaMisterio, LAR, CREME, aponta, V } = K;
 const CORES = ["#ff5a5f", "#ffd23f", "#3bceac", "#5b8cff", "#c86bff", "#ff9f1c"];
+
+
+// ---------- identidade deste vídeo: sala de estar à noite (sem palco), azul-noite + âmbar ----------
+const AMB = "#ffb703";
+const sala0 = new THREE.Group(); S.add(sala0);
+const piso = mesh(new THREE.PlaneGeometry(14, 10), M("#3b2a22", { roughness: .8 }), sala0, 0, 0, 0); piso.rotation.x = -Math.PI / 2;
+const tapeteT = ctex(512, 512, (g, w, h) => { g.fillStyle = "#26324a"; g.beginPath(); g.arc(w / 2, h / 2, w / 2, 0, 7); g.fill(); g.strokeStyle = "#ffb703"; g.lineWidth = 10; for (const r of [230, 190, 120]) { g.beginPath(); g.arc(w / 2, h / 2, r, 0, 7); g.stroke(); } });
+const tapete = mesh(new THREE.CircleGeometry(2.6, 48), new THREE.MeshStandardMaterial({ map: tapeteT, transparent: true, roughness: .9 }), sala0, 0, .01, .3); tapete.rotation.x = -Math.PI / 2;
+const parede = mesh(new THREE.PlaneGeometry(14, 7), M("#1b2236", { roughness: .9 }), sala0, 0, 3.5, -2.6);
+const janelaT = ctex(400, 300, (g, w, h) => { const gr = g.createLinearGradient(0, 0, 0, h); gr.addColorStop(0, "#0b1430"); gr.addColorStop(1, "#24325c"); g.fillStyle = gr; g.fillRect(0, 0, w, h);
+  g.fillStyle = "#fff4cf"; g.beginPath(); g.arc(300, 70, 34, 0, 7); g.fill(); for (let i = 0; i < 40; i++) { g.fillStyle = "rgba(255,255,255,.7)"; g.fillRect((i * 97) % w, (i * 53) % 160, 2, 2); }
+  for (let i = 0; i < 9; i++) { const x = i * 46, hh = 60 + (i * 37) % 90; g.fillStyle = "#0a0f1f"; g.fillRect(x, h - hh, 40, hh); g.fillStyle = "#ffcf6b"; for (let k = 0; k < 6; k++) if ((i + k) % 3) g.fillRect(x + 8 + (k % 2) * 16, h - hh + 12 + Math.floor(k / 2) * 20, 8, 8); } });
+const janela = new THREE.Group(); janela.position.set(-2.1, 2.7, -2.55); sala0.add(janela);
+box(2.0, 1.5, .08, M("#e9dcc6"), janela, 0, 0, 0); mesh(new THREE.PlaneGeometry(1.84, 1.34), new THREE.MeshBasicMaterial({ map: janelaT, toneMapped: false }), janela, 0, 0, .05); box(.05, 1.34, .1, M("#e9dcc6"), janela, 0, 0, .05);
+const sofa = new THREE.Group(); sofa.position.set(-.2, 0, -1.9); sala0.add(sofa); const TEC = M("#c0573e", { roughness: .85 });
+box(3.4, .45, 1.0, TEC, sofa, 0, .32, 0); box(3.4, .8, .3, TEC, sofa, 0, .85, -.38); box(.3, .6, 1.0, TEC, sofa, -1.7, .55, 0); box(.3, .6, 1.0, TEC, sofa, 1.7, .55, 0);
+for (const x of [-.85, .85]) box(1.6, .14, .85, M("#d46a4f", { roughness: .85 }), sofa, x, .62, .05);
+const abajur = new THREE.Group(); abajur.position.set(2.6, 0, -1.6); sala0.add(abajur); box(.06, 2.1, .06, M("#222"), abajur, 0, 1.05, 0);
+mesh(new THREE.CylinderGeometry(.22, .36, .42, 24, 1, true), new THREE.MeshStandardMaterial({ color: "#ffe2a8", emissive: "#ffcf6b", emissiveIntensity: 1.2, side: THREE.DoubleSide }), abajur, 0, 2.15, 0);
+const luzAb = new THREE.PointLight(0xffc46b, 18, 7, 1.5); luzAb.position.set(0, 2.0, .2); abajur.add(luzAb);
+const planta = new THREE.Group(); planta.position.set(-2.8, 0, -1.4); sala0.add(planta); mesh(new THREE.CylinderGeometry(.25, .2, .45, 16), M("#e9dcc6"), planta, 0, .22, 0);
+for (let i = 0; i < 7; i++) { const f = mesh(new THREE.SphereGeometry(.28, 12, 8), M(i % 2 ? "#3f8f5a" : "#2f7a4a"), planta, Math.sin(i * 1.7) * .22, .7 + i * .12, Math.cos(i * 1.7) * .18); f.scale.set(1, .55, .6); }
+rim.color.set(0x6f8cff); key.color.set(0xffe6c4);
+
+// gancho: TV antiga de tubo liga com chuvisco e um "?" aparece no meio do chiado
+const gG = grupo("gancho");
+const chiadoT = ctex(256, 192, (g, w, h, k = 0, liga = 0) => { const d = g.createImageData(w, h); let s = k * 7919 + 1;
+  for (let i = 0; i < d.data.length; i += 4) { s = (s * 16807) % 2147483647; const v = (s % 255) * liga; d.data[i] = v; d.data[i + 1] = v; d.data[i + 2] = v * 1.05; d.data[i + 3] = 255; } g.putImageData(d, 0, 0);
+  if (liga > .6) { g.font = "700 140px SG"; g.textAlign = "center"; g.textBaseline = "middle"; g.fillStyle = AMB; g.globalAlpha = (liga - .6) / .4; g.fillText("?", w / 2 + (k % 3 - 1) * 4, h / 2 + 8); g.globalAlpha = 1; } });
+const crt = new THREE.Group(); crt.position.set(1.1, 0, 0); gG.add(crt);
+box(1.5, 1.2, 1.1, M("#6b4a2e", { roughness: .6 }), crt, 0, 1.15, 0); mesh(new THREE.PlaneGeometry(1.1, .82), new THREE.MeshBasicMaterial({ map: chiadoT, toneMapped: false }), crt, -.1, 1.17, .56);
+for (const s of [-1, 1]) { const a = box(.03, .7, .03, M("#aaa", { metalness: .8 }), crt, s * .25, 2.05, 0); a.rotation.z = s * .5; }
+box(.9, .5, .7, M("#3a2a1e"), crt, 0, .3, 0); const luzCrt = new THREE.PointLight(0xbfd6ff, 0, 5, 1.5); luzCrt.position.set(1.0, 1.2, 1.0); gG.add(luzCrt);
+const ctrl0 = new THREE.Group(); gG.add(ctrl0); box(.14, .5, .06, M("#1d1a1a"), ctrl0, 0, 0, 0); mesh(new THREE.SphereGeometry(.035, 10, 8), E("#ff3b3b", 2), ctrl0, 0, .15, .04);
+
+// fechamento: pipoca caindo na sala
+const cG = grupo("cta"); const pip = [];
+for (let i = 0; i < 70; i++) { const m = mesh(new THREE.SphereGeometry(.06 + rnd() * .03, 8, 6), M(i % 5 ? "#fff3d6" : "#ffd36b", { roughness: .9 }), cG); m.castShadow = false; m.scale.set(1, .8, 1.1); pip.push({ m, x: (rnd() - .5) * 6, z: -1 + rnd() * 2.5, y0: 4 + rnd() * 5, v: .7 + rnd() * .6, w: rnd() * 6 }); }
+const balde = new THREE.Group(); cG.add(balde); mesh(new THREE.CylinderGeometry(.32, .24, .5, 20, 1, true), new THREE.MeshStandardMaterial({ map: ctex(256, 64, (g, w, h) => { for (let x = 0; x < w; x += 32) { g.fillStyle = (x / 32) % 2 ? "#fff" : "#e63946"; g.fillRect(x, 0, 32, h); } }), side: THREE.DoubleSide }), balde, 0, 0, 0);
+for (let i = 0; i < 9; i++) mesh(new THREE.SphereGeometry(.08, 8, 6), M("#fff3d6"), balde, Math.sin(i * 2.3) * .18, .27 + (i % 3) * .05, Math.cos(i * 2.3) * .18);
 
 // peças reutilizáveis: celular e TV (genéricos, sem marca)
 function celular(par, tex, x, y, z, s = 1) { const g = new THREE.Group(); g.position.set(x, y, z); g.scale.setScalar(s); par.add(g);
@@ -63,7 +103,7 @@ const listaT = ctex(320, 220, (g, w, h, n = 0) => { g.clearRect(0, 0, w, h); g.f
 const lista = mesh(new THREE.PlaneGeometry(1.1, .76), new THREE.MeshBasicMaterial({ map: listaT, transparent: true, toneMapped: false }), n2, 2.15, 2.25, -.3); lista.castShadow = false;
 
 // n1 CleanYourTV: a caixa "?" explode; TV gigante coberta de anúncios que voam para fora, sobra a tela limpa
-const n1 = grupo("n1"); const mis1 = caixaMisterio(n1);
+const n1 = grupo("n1");
 const limpoT = ctex(640, 370, (g, w, h) => { const gr = g.createLinearGradient(0, 0, 0, h); gr.addColorStop(0, "#1d2433"); gr.addColorStop(1, "#0d1018"); g.fillStyle = gr; g.fillRect(0, 0, w, h);
   g.fillStyle = "#f4ead8"; g.font = "700 46px SG"; g.textAlign = "left"; g.fillText("Início", 40, 74); for (let i = 0; i < 4; i++) { g.fillStyle = ["#e5383b", "#2b7de9", "#3bceac", "#f4ead8"][i]; g.beginPath(); g.roundRect(40 + i * 146, 170, 126, 126, 20); g.fill(); } });
 const tv1 = tv(n1, limpoT, 1.0, 1.8, -.5, 2.8, 1.62);
@@ -97,14 +137,24 @@ const ACT = {
     const c = k % 3, r = Math.floor(k / 3); const alvo = new THREE.Vector3(); const px = 61 + c * 82, py = 111 + r * 92; cel2.localToWorld(alvo.set((px / 300 - .5) * .7, (.5 - py / 600) * 1.42, .08));
     dedo.position.set(alvo.x, alvo.y + .02, alvo.z + .1 + Math.max(0, Math.sin(toque * Math.PI)) * .25); dedo.rotation.set(Math.PI / 2 - .3, 0, 0);
     pose(MAS, { x: -1.1, y: hop(lt, .8, .05), piscar: pisca(lt), ...aponta(lt) }); },
-  n1(lt, d) { const k = Math.floor(lt * 14); misT.draw(k);
-    const boom = lin(lt, .45, .6); mis1.visible = lt < .6; mis1.position.set(1.0, 1.6, .3); mis1.scale.setScalar(lt < .45 ? 1 + Math.sin(lt * 40) * .04 : 1 + boom * .6); mis1.rotation.y = lt;
-    tv1.visible = lt >= .5; tv1.scale.setScalar(back(lin(lt, .5, 1.0)));
-    anuncios.forEach(A => { const t0 = 1.3 + A.ord * .28, tt = Math.max(0, lt - t0); A.m.visible = lt >= .55 && tt < 1.6;
-      A.m.position.set(A.bx + A.v.x * tt, A.by + A.v.y * tt - 3 * tt * tt, -.39 + A.v.z * tt); A.m.rotation.set(A.w * tt * .3, A.w * tt * .2, A.w * tt * .15); A.m.scale.setScalar(back(lin(lt, .55, .9)) * (tt > 0 ? 1 : 1 + Math.sin(lt * 12 + A.ord) * .03)); });
+  n1(lt, d) { const liga = eio(lin(lt, 0, .55));
+    tv1.visible = true; tv1.scale.setScalar(.6 + .4 * back(lin(lt, 0, .6))); tv1.position.y = 1.8 + (lt < .55 ? Math.sin(lt * 50) * .02 : 0);
+    anuncios.forEach(A => { const t0 = 1.3 + A.ord * .28, tt = Math.max(0, lt - t0); A.m.visible = tt < 1.6;
+      A.m.position.set(A.bx + A.v.x * tt, A.by + A.v.y * tt - 3 * tt * tt, -.39 + A.v.z * tt); A.m.rotation.set(A.w * tt * .3, A.w * tt * .2, A.w * tt * .15); A.m.scale.setScalar(back(lin(lt, 0, .35)) * (tt > 0 ? 1 : 1 + Math.sin(lt * 12 + A.ord) * .03)); });
     pose(MAS, { x: -1.3, y: lt < .6 ? 0 : hop(lt, .35, .12) * (lt < 1.6 ? 1 : .4), sq: lt > .45 && lt < .6 ? .15 : 0, piscar: lt > .45 && lt < 1.2 ? .4 : pisca(lt), ...aponta(lt) });
     return lt > .45 && lt < .8 ? (.8 - lt) * .15 : 0; },
 };
+ACT.gancho = (lt, d) => { const liga = lin(lt, .7, 1.4), k = Math.floor(lt * 18); chiadoT.draw(k, eio(liga)); luzCrt.intensity = 14 * eio(liga);
+  crt.position.y = lt > .7 && lt < .85 ? Math.sin(lt * 80) * .02 : 0; crt.rotation.y = -.25 + Math.sin(lt * .8) * .05;
+  const sobe = eo(lin(lt, 1.4, 1.9)); pose(MAS, { x: -1.15, y: lt < 1.4 ? .3 : hop(lt, .5, .12) * sobe, z: lt < 1.4 ? -1.2 : -1.2 + sobe * 1.2, sq: lt > 1.4 && lt < 1.55 ? .15 : 0, piscar: pisca(lt), ...(lt < 1.4 ? { braco: [.2, .7 + (lt % .5 < .12 ? .25 : 0)], ry: .3 } : aponta(lt)) });
+  const w = new THREE.Vector3(); MAS.bracos[1].getWorldPosition(w); ctrl0.position.set(w.x + .22, w.y + .12, w.z + .2); ctrl0.rotation.set(-.9, 0, .3); ctrl0.visible = lt < 1.6;
+  return lt > .7 && lt < .9 ? .02 : 0; };
+SHOTS.gancho = [[V(.1, 2.0, 6.0), V(0, 1.2, -.4)], [V(.5, 1.7, 4.4), V(.6, 1.2, 0)]];
+ACT.cta = (lt, d) => { pose(MAS, { x: 0, y: hop(lt, .5, .15), braco: [.3, 1.9 + Math.sin(lt * 9) * .5], piscar: pisca(lt), sq: Math.max(0, Math.cos(lt * Math.PI / .5)) * .05 });
+  const w = new THREE.Vector3(); MAS.bracos[0].getWorldPosition(w); balde.position.set(w.x - .2, w.y + .05, w.z + .25);
+  pip.forEach(P => { const y = ((P.y0 - lt * P.v * 2.2) % 6 + 6) % 6; P.m.position.set(P.x + Math.sin(lt * 2 + P.w) * .2, y, P.z); P.m.rotation.set(lt * P.w, lt * 2, 0); }); };
+SHOTS.cta = [[V(0, 1.8, 6.2), V(0, 1.2, -.3)], [V(.5, 1.6, 5.0), V(0, 1.2, 0)]];
 function cl01(x) { return Math.max(0, Math.min(1, x)); }
-return { SHOTS, ACT };
+const cores = { LAR: AMB, VERDE: "#7fd7ff", FUNDO: "#0b1020", CREME: "#f4ead8", TINTA: "#14121a", BRILHO: "rgba(255,183,3,.12)" };
+return { SHOTS, ACT, cores, semPalco: true };
 }
