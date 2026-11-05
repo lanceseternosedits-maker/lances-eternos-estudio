@@ -10,8 +10,9 @@ IA que a pessoa pode USAR hoje, explicada em português do Brasil, no Instagram 
 - Instagram: tempo assistido, curtidas e **envios por DM** por alcance; conteúdo original. TikTok: conclusão, reassistir, compartilhar; a busca lê fala, texto na tela e legenda (use palavras buscadas).
 - Gancho em até 1,5 s em 3 camadas (imagem, fala e texto dizem o mesmo). Uma frase por cena, 20–35 s, sem introdução. CTA: "Comenta PALAVRA e me segue que eu te mando [brinde]". Legenda termina com pergunta fácil.
 
-## Foco em vídeo (decisão do Vitor, 05/11)
-Vídeo traz mais resultado que post de imagem: a prioridade é **Reel no Instagram + TikTok**. Cada rodada de produção escreve **1 roteiro de Reel por dia** (2 por rodada) para aprovação, nos formatos 1 (mascote no palco) ou 2 (lista + demonstração). Carrossel só se o Vitor pedir. Dia sem Reel aprovado fica sem post (melhor que post fraco).
+## Foco em vídeo, com carrossel de reserva (decisão do Vitor, 05/11)
+Vídeo traz mais resultado: a prioridade é **Reel no Instagram + TikTok**. Cada rodada de produção escreve **1 roteiro de Reel por dia** (2 por rodada) para aprovação, nos formatos 1 (mascote no palco) ou 2 (lista + demonstração).
+**Reserva:** a mesma rodada faz e agenda **1 carrossel por dia às 13:00** no Instagram (pauta diferente da do Reel). Se o Vitor aprovar o Reel daquele dia a tempo, a sessão que agenda o Reel **transforma o carrossel do dia em rascunho** (`draft true`, `autoPublish false`) e coloca o Reel no horário dele; se não aprovar, o carrossel sai sozinho. Nunca 2 posts no mesmo horário.
 
 ## Publicação
 - **Máximo 2 posts por dia no Instagram, nunca no mesmo horário**; padrão 13:00 (pauta mais forte) e 19:30 opcional; sempre entre 06:30 e 20:00 de Brasília (`timezone America/Sao_Paulo`). Metricool `blogId 7637900`.
@@ -41,7 +42,7 @@ Título fixo no topo ("N jeitos de X com o Claude"), lista numerada que se preen
 Se `GEMINI_API_KEY` não existir: `d1_database_query` (conector Cloudflare), `database_id 0af07c6b-d69c-44e5-8b01-a1e055303c68`, SQL `SELECT valor FROM segredos WHERE nome = 'GEMINI_API_KEY'`; grave só em `~/.secrets/gemini.env` (`export GEMINI_API_KEY=...`, `chmod 600`) e rode `. ~/.secrets/gemini.env` antes dos scripts. **O repositório é público: nunca imprima nem grave a chave** em arquivo, commit, legenda ou mensagem.
 
 ## Economia de tokens (decisão do Vitor, 04/11)
-Leia só o necessário, poucas buscas (máx. ~8 por rodada), revisão visual com 1 folha de miniaturas por peça, respostas curtas. Tarefas: caçador seg/qua/sex 03:53; produção seg/qua/sex 04:47 com 2 roteiros de Reel por rodada. Vídeos aprovados são feitos numa sessão nova e curta.
+Leia só o necessário, poucas buscas (máx. ~8 por rodada), revisão visual com 1 folha de miniaturas por peça, respostas curtas. Tarefas: caçador seg/qua/sex 03:53; produção seg/qua/sex 04:47 com 2 roteiros de Reel + 2 carrosséis de reserva por rodada. Vídeos aprovados são feitos numa sessão nova e curta.
 
 ## Autonomia para melhorar (decisão do Vitor, 04/11)
 O agente pode buscar e adotar skills, ferramentas e técnicas novas que melhorem qualidade, produtividade ou economia (ex.: skills do Claude no GitHub, melhorias na `cena_palco`, automação da DM). Limites: só o que couber no orçamento de tokens; nada pago ou com conta nova sem o Vitor aprovar; ler o código antes de usar e nunca executar nada que peça chaves ou acesso amplo; registrar cada adoção aqui, em uma linha, com o motivo.
