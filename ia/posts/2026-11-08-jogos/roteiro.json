@@ -1,0 +1,149 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, tom de curiosidade, ritmo rápido e animado (sem arrastar)",
+ "formato": "contagem",
+ "chave": "JOGO",
+ "tese": "5 PROJETOS PRA QUEM JOGA · +6 MIL ESTRELAS · E O Nº 1 É BIZARRO",
+ "conceito": "Fliperama neon à noite: máquinas de arcade enfileiradas, piso quadriculado, fumaça baixa; paleta magenta + verde-limão. Gancho: uma ficha cai na máquina e acende 'INSERT COIN'. Nº 1: o mascote ganha dois clones-jogadores com controles e os três pulam juntos para dentro de uma tela. Fechamento: moedas e pixels caindo.",
+ "brinde": "link dos 5 projetos + o que precisa pra cada um",
+ "prova_viral": "Estrelas no GitHub (API, 05/11/2026): BRUTAL 2.369, Co-op Anything 1.901, Bridgeplay 862, Steam Stash 792, iDeck 345; total 6.269, criados entre 14/10 e 02/11.",
+ "obs": "Fora de propósito: emuladores e ports de jogos de console (polêmica). Licenças: MIT (Co-op Anything, Steam Stash), GPL-3.0 (Bridgeplay, iDeck); BRUTAL sem licença declarada no GitHub ('free, open source' no README). Co-op Anything usa agente de código (Claude Code/Codex) e mexe no jogo: dizer 'em jogos que você tem' e não citar jogo específico. Bridgeplay roda jogos da Steam do Windows no Mac. Reler estrelas no dia.",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROJETOS PRA QUEM JOGA",
+   "fala": "Cinco projetos grátis pra quem joga estão bombando no GitHub. E o número um é bizarro.",
+   "legenda": "5 projetos grátis pra quem joga. E o nº 1 é bizarro.",
+   "visual": "ficha cai na máquina de arcade e acende INSERT COIN",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    },
+    {
+     "t": 1.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "itens": "jogo",
+   "etiqueta": [
+    "5 PROJETOS PRA QUEM JOGA",
+    "+6 MIL ESTRELAS EM 3 SEMANAS",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "iDeck",
+   "repo": "kuscholar/iDeck",
+   "estrelas": 345,
+   "fala": "Quinto: iDeck. Leva a tela grande da Steam pro iPhone e pro iPad.",
+   "legenda": "5º iDeck: a tela grande da Steam no iPhone e no iPad.",
+   "visual": "iPad em pé com uma grade de capas de jogos que desliza",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Steam Stash",
+   "repo": "AssassinCreator/steam-stash-value-report-card",
+   "estrelas": 792,
+   "fala": "Quarto: Steam Stash. Mostra quanto vale a sua coleção de jogos e itens da Steam, num cartão pra compartilhar.",
+   "legenda": "4º Steam Stash: quanto vale sua coleção da Steam.",
+   "visual": "um cartão de boletim com selo e número subindo, moedinhas",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Bridgeplay",
+   "repo": "raymondchins/Bridgeplay",
+   "estrelas": 862,
+   "fala": "Terceiro: Bridgeplay. Roda os jogos de Windows da sua Steam direto no Mac. Esse é até legalzinho.",
+   "legenda": "3º Bridgeplay: jogos de Windows da Steam no Mac. Esse é até legalzinho.",
+   "visual": "uma ponte de blocos ligando duas máquinas de arcade de cores diferentes",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "BRUTAL",
+   "repo": "ahwootech/BRUTAL",
+   "estrelas": 2369,
+   "fala": "Mas o segundo: BRUTAL. Um motor grátis pra criar o seu próprio jogo, o mesmo que estúdios de verdade estão usando.",
+   "legenda": "2º BRUTAL: um motor grátis pra criar seu próprio jogo.",
+   "visual": "peças de um mundo de jogo se montando (chão, árvore, nave) em volta do mascote",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Co-op Anything",
+   "repo": "cranebeaker/coop-anything",
+   "estrelas": 1901,
+   "fala": "E o número um: Co-op Anything. Pega um jogo de um jogador só e a IA cria o modo pra você jogar com os amigos online.",
+   "legenda": "1º Co-op Anything: a IA cria o multiplayer de um jogo de um jogador só.",
+   "visual": "o mascote ganha dois clones-jogadores com controles e os três pulam juntos para dentro de uma tela",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.8
+    },
+    {
+     "t": 0.4,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA JOGO",
+   "fala": "Comenta JOGO e me segue que eu te mando o link dos cinco.",
+   "legenda": "Comenta JOGO e me segue que eu te mando o link dos 5.",
+   "visual": "lista dos 5 com estrelas; COMENTA JOGO",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "pop",
+     "g": 0.6
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "https://github.com/kuscholar/iDeck",
+  "https://github.com/AssassinCreator/steam-stash-value-report-card",
+  "https://github.com/raymondchins/Bridgeplay",
+  "https://github.com/ahwootech/BRUTAL",
+  "https://github.com/cranebeaker/coop-anything"
+ ]
+}

@@ -1,0 +1,10 @@
+Opa! Aqui estão os 5 projetos pra quem joga 👇
+
+5º iDeck: https://github.com/kuscholar/iDeck
+4º Steam Stash: https://github.com/AssassinCreator/steam-stash-value-report-card
+3º Bridgeplay: https://github.com/raymondchins/Bridgeplay
+2º BRUTAL: https://github.com/ahwootech/BRUTAL
+1º Co-op Anything: https://github.com/cranebeaker/coop-anything
+
+Todos são abertos. O Co-op Anything usa o Claude Code ou o Codex (planos pagos).
+Como usar: abra o link e siga o passo a passo do README. 😉

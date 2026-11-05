@@ -1,0 +1,10 @@
+Opa! Aqui estão os 5 projetos pra estudar 👇
+
+5º grammai: https://github.com/zilvestro/grammai
+4º ESP32 Labs: https://github.com/agharsallah/esp-labs-web
+3º Claudemy: https://github.com/assafkip/claudemy
+2º Word Atlas: https://github.com/designfuchen/word-atlas
+1º Cicada: https://github.com/wquguru/cicada
+
+Todos são abertos. O Claudemy roda no Claude Code (planos pagos do Claude).
+Como usar: abra o link e siga o passo a passo do README. 😉

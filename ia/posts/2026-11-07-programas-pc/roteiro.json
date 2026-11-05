@@ -1,0 +1,149 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, tom de curiosidade, ritmo rápido e animado (sem arrastar)",
+ "formato": "contagem",
+ "chave": "PC",
+ "tese": "5 PROGRAMAS GRÁTIS PRO SEU PC · +7 MIL ESTRELAS · E O Nº 1 É BIZARRO",
+ "conceito": "Mesa de trabalho vista de cima (câmera top-down que desce em diagonal), objetos de papelaria em escala gigante; paleta verde-oliva + creme + vermelho-carimbo. Gancho: um notebook abre sozinho e cospe 5 janelas que voam como cartas. Nº 1: três telas e um celular deslizam e se encaixam numa mesa só, com um cursor pulando de uma tela pra outra. Fechamento: post-its coloridos caindo.",
+ "brinde": "link dos 5 programas + qual baixar primeiro",
+ "prova_viral": "Estrelas no GitHub (API, 05/11/2026): TwinDesk 3.486, HatchZip 2.529, Quiet.md 995, Hob 478, Folio 358; total 7.846, criados entre 14/10 e 01/11.",
+ "obs": "Licenças: MIT (Folio, Quiet.md, Hob), Apache-2.0 (HatchZip), GPL-3.0 (TwinDesk): grátis e abertos. Quiet.md está em beta. Hob baixa um modelo aberto para o seu PC (precisa de máquina razoável). Reler estrelas no dia.",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROGRAMAS GRÁTIS PRO SEU PC",
+   "fala": "Cinco programas grátis pro seu computador estão bombando no GitHub. E o número um é bizarro.",
+   "legenda": "5 programas grátis pro seu PC estão bombando. E o nº 1 é bizarro.",
+   "visual": "notebook abre sozinho e solta 5 janelas como cartas",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    },
+    {
+     "t": 1.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "itens": "pc",
+   "etiqueta": [
+    "5 PROGRAMAS GRÁTIS PRO SEU PC",
+    "+7 MIL ESTRELAS EM 3 SEMANAS",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Folio",
+   "repo": "Forward-Future/folio",
+   "estrelas": 358,
+   "fala": "Quinto: Folio. Lê, grifa e assina PDF, e ainda responde perguntas sobre o documento.",
+   "legenda": "5º Folio: lê, grifa, assina PDF e responde perguntas.",
+   "visual": "um PDF gigante sobre a mesa; marca-texto passa e uma caneta assina",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Quiet.md",
+   "repo": "s1dashu/quiet-md",
+   "estrelas": 995,
+   "fala": "Quarto: Quiet. Um bloco de notas rapidíssimo, e suas notas ficam só no seu computador.",
+   "legenda": "4º Quiet: bloco de notas rapidíssimo, tudo no seu PC.",
+   "visual": "caderno que se abre e páginas viram sozinhas em alta velocidade; cadeado",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "HatchZip",
+   "repo": "xevrion/hatchzip",
+   "estrelas": 2529,
+   "fala": "Terceiro: HatchZip. Abre ZIP, RAR e sete zip mesmo com o disco quase cheio. Esse é até legalzinho.",
+   "legenda": "3º HatchZip: abre ZIP e RAR com o disco quase cheio. Esse é até legalzinho.",
+   "visual": "caixa de papelão estufada que se abre e os arquivos saem em fila, sem transbordar",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Hob",
+   "repo": "FrigadeHQ/hob",
+   "estrelas": 478,
+   "fala": "Mas o segundo: Hob. Coloca uma IA tipo ChatGPT no seu computador, sem pagar assinatura.",
+   "legenda": "2º Hob: uma IA tipo ChatGPT no seu PC, sem assinatura.",
+   "visual": "um chip/cérebro de papel entra no notebook e balões de conversa saem da tela",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "TwinDesk",
+   "repo": "InukaAsith/TwinDesk",
+   "estrelas": 3486,
+   "fala": "E o número um: TwinDesk. Seus computadores e o seu celular viram uma mesa só: o mouse pula de uma tela pra outra.",
+   "legenda": "1º TwinDesk: seus PCs e o celular viram uma mesa só.",
+   "visual": "três telas e um celular deslizam e se encaixam; um cursor gigante pula entre elas; arquivos passam de uma tela para outra",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.8
+    },
+    {
+     "t": 0.4,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA PC",
+   "fala": "Comenta PC e me segue que eu te mando o link dos cinco.",
+   "legenda": "Comenta PC e me segue que eu te mando o link dos 5.",
+   "visual": "lista dos 5 com estrelas; COMENTA PC",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "pop",
+     "g": 0.6
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "https://github.com/Forward-Future/folio",
+  "https://github.com/s1dashu/quiet-md",
+  "https://github.com/xevrion/hatchzip",
+  "https://github.com/FrigadeHQ/hob",
+  "https://github.com/InukaAsith/TwinDesk"
+ ]
+}

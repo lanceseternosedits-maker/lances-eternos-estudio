@@ -1,0 +1,149 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, tom de curiosidade, ritmo rápido e animado (sem arrastar)",
+ "formato": "contagem",
+ "chave": "ESTUDA",
+ "tese": "5 PROJETOS GRÁTIS PRA ESTUDAR · +7 MIL ESTRELAS · E O Nº 1 É BIZARRO",
+ "conceito": "Biblioteca de madeira à luz da manhã (raios de sol entrando pela janela, poeira brilhando), estantes e quadro de cortiça; paleta amarelo-lápis + azul-caderno. Gancho: uma pilha de livros despenca e se transforma num tablet. Nº 1: numa aula ao vivo num laptop, balões de fala saem em português e inglês ao mesmo tempo. Fechamento: aviõezinhos de papel cruzando a biblioteca.",
+ "brinde": "link dos 5 projetos + por onde começar",
+ "prova_viral": "Estrelas no GitHub (API, 05/11/2026): Word Atlas 4.237, Cicada 1.442, ESP32 Labs 666, Claudemy 613, grammai 178; total 7.136, criados entre 14/10 e 01/11.",
+ "obs": "Licenças: MIT (ESP32 Labs, Claudemy), Apache-2.0 (Cicada), GPL-3.0 (grammai); Word Atlas sem licença declarada, mas o site é aberto. Word Atlas é vocabulário do IELTS (inglês). Claudemy roda no Claude Code (plano pago). Cicada tem README em chinês; legendas em vários idiomas: confirmar português antes de dizer 'português' (por ora a fala diz 'duas línguas'). Reler estrelas no dia.",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROJETOS PRA ESTUDAR",
+   "fala": "Cinco projetos grátis pra estudar com IA estão bombando no GitHub. E o número um é bizarro.",
+   "legenda": "5 projetos grátis pra estudar com IA. E o nº 1 é bizarro.",
+   "visual": "pilha de livros despenca e vira um tablet",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    },
+    {
+     "t": 1.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "itens": "estuda",
+   "etiqueta": [
+    "5 PROJETOS PRA ESTUDAR COM IA",
+    "+7 MIL ESTRELAS EM 3 SEMANAS",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "grammai",
+   "repo": "zilvestro/grammai",
+   "estrelas": 178,
+   "fala": "Quinto: grammai. Corrige o seu inglês enquanto você escreve, e funciona até sem internet.",
+   "legenda": "5º grammai: corrige seu inglês, até sem internet.",
+   "visual": "folha de redação com erros sublinhados em vermelho que se corrigem sozinhos",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "ESP32 Labs",
+   "repo": "agharsallah/esp-labs-web",
+   "estrelas": 666,
+   "fala": "Quarto: ESP32 Labs. Trinta e duas aulas de eletrônica com simulador, sem precisar comprar nada.",
+   "legenda": "4º ESP32 Labs: 32 aulas de eletrônica com simulador.",
+   "visual": "placa eletrônica 3D com LED que acende e fios conectando",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Claudemy",
+   "repo": "assafkip/claudemy",
+   "estrelas": 613,
+   "fala": "Terceiro: Claudemy. Você fala um assunto e o Claude monta um curso inteiro pra você terminar. Esse é até legalzinho.",
+   "legenda": "3º Claudemy: o Claude monta um curso de qualquer assunto. Esse é até legalzinho.",
+   "visual": "um certificado/diploma se monta com módulos encaixando como blocos",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Word Atlas",
+   "repo": "designfuchen/word-atlas",
+   "estrelas": 4237,
+   "fala": "Mas o segundo: Word Atlas. Sete mil palavras em inglês, cada uma com desenho e áudio, pra você nunca mais esquecer.",
+   "legenda": "2º Word Atlas: 7 mil palavras em inglês com desenho e áudio.",
+   "visual": "cartões de vocabulário ilustrados girando em volta do mascote, alto-falante",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Cicada",
+   "repo": "wquguru/cicada",
+   "estrelas": 1442,
+   "fala": "E o número um: Cicada. Legenda e tradução simultânea de qualquer aula ou live, ao vivo e de graça.",
+   "legenda": "1º Cicada: legenda e tradução ao vivo de qualquer aula ou live.",
+   "visual": "laptop numa aula ao vivo; balões de fala em duas línguas saem ao mesmo tempo e viram legenda",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.8
+    },
+    {
+     "t": 0.4,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA ESTUDA",
+   "fala": "Comenta ESTUDA e me segue que eu te mando o link dos cinco.",
+   "legenda": "Comenta ESTUDA e me segue que eu te mando o link dos 5.",
+   "visual": "lista dos 5 com estrelas; COMENTA ESTUDA",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "pop",
+     "g": 0.6
+    }
+   ]
+  }
+ ],
+ "fontes": [
+  "https://github.com/zilvestro/grammai",
+  "https://github.com/agharsallah/esp-labs-web",
+  "https://github.com/assafkip/claudemy",
+  "https://github.com/designfuchen/word-atlas",
+  "https://github.com/wquguru/cicada"
+ ]
+}
