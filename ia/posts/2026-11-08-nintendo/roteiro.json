@@ -1,0 +1,149 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, tom de segredo e ousadia (como quem conta algo proibido), ritmo rápido",
+ "formato": "contagem",
+ "chave": "JOGO",
+ "tese": "5 PROJETOS QUE A NINTENDO NÃO QUERIA · +28 MIL ESTRELAS · E O Nº 1 É O MAIS OUSADO",
+ "conceito": "Fliperama neon proibido à noite: máquinas de arcade, piso quadriculado, fumaça baixa, luz de sirene vermelha girando; paleta magenta + verde-limão + vermelho-alerta. Gancho: placa neon PROIBIDO pisca e racha. Nº 1: um portátil genérico se desmonta e vira iPhone, iPad e Mac. Fechamento: moedas e pixels caindo. Sem logos, personagens ou artes da Nintendo (objetos genéricos de blocos).",
+ "brinde": "link dos 5 projetos + o aviso de que só funcionam com cópias dos SEUS jogos",
+ "fontes": [
+  "https://github.com/c22dev/mush8",
+  "https://github.com/LNPANDY/NX2Apple",
+  "https://github.com/valentderah/totk-pc-recomp",
+  "https://github.com/ly05010419/MacNativeGames",
+  "https://github.com/seedds/nxnative"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 05/11/2026): nxnative 12.385, MacNativeGames 7.087, TotK Recomp 5.058, NX2Apple 3.660, mush8 712; total 28.902, criados entre 13 e 29/10.",
+ "obs": "POLÊMICA PROPOSITAL (decisão do Vitor, 05/11), dentro da lei: todos exigem a cópia do próprio jogo tirada do console da pessoa; nenhum traz arquivos de jogo. NUNCA dar link ou dica de ROM/pirataria, nem na DM. Sem logos, personagens ou imagens da Nintendo; nomes de jogos só citados (uso nominativo). Risco: os repositórios podem cair por pedido da Nintendo; reler links e estrelas no dia e trocar o item que tiver caído. Licenças: MIT (4) e GPL-3.0 (mush8).",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROJETOS QUE A NINTENDO NÃO QUERIA",
+   "fala": "Cinco projetos que a Nintendo não queria que existissem ganharam vinte e oito mil estrelas. E o número um é o mais ousado.",
+   "legenda": "5 projetos que a Nintendo não queria que existissem: 28 mil estrelas. E o nº 1 é o mais ousado.",
+   "visual": "placa neon PROIBIDO piscando num fliperama; ela racha e cai; mascote olha para os lados e aponta",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    },
+    {
+     "t": 1.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "itens": "nintendo",
+   "etiqueta": [
+    "5 PROJETOS QUE A NINTENDO NÃO QUERIA",
+    "+28 MIL ESTRELAS EM 3 SEMANAS",
+    "E O Nº 1 É O MAIS OUSADO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "mush8",
+   "repo": "c22dev/mush8",
+   "estrelas": 712,
+   "fala": "Quinto: mush8. O Mario Kart rodando nativo no iPhone, com multiplayer online.",
+   "legenda": "5º mush8: o Mario Kart nativo no iPhone, com online.",
+   "visual": "kart de blocos derrapando numa pista que sai de dentro de um iPhone",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "NX2Apple",
+   "repo": "LNPANDY/NX2Apple",
+   "estrelas": 3660,
+   "fala": "Quarto: NX2Apple. Um aplicativo de Mac que passa os seus jogos de Switch pro iPhone em um clique.",
+   "legenda": "4º NX2Apple: seus jogos de Switch no iPhone em um clique.",
+   "visual": "cartucho genérico entra num Mac e sai um ícone de app voando para o iPhone",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "TotK Recomp",
+   "repo": "valentderah/totk-pc-recomp",
+   "estrelas": 5058,
+   "fala": "Terceiro: TotK Recomp. O Zelda Tears of the Kingdom recompilado pra rodar nativo no PC. Esse é até legalzinho.",
+   "legenda": "3º TotK Recomp: o Zelda nativo no PC. Esse é até legalzinho.",
+   "visual": "um gabinete de PC gamer com luzes; uma espada de blocos (genérica) sai da tela",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "MacNativeGames",
+   "repo": "ly05010419/MacNativeGames",
+   "estrelas": 7087,
+   "fala": "Mas o segundo: MacNativeGames. Os dois Zeldas rodando direto no chip do Mac e do iPhone, sem emulador.",
+   "legenda": "2º MacNativeGames: os dois Zeldas direto no chip do Mac, sem emulador.",
+   "visual": "um chip gigante no chão; dois mundos (montanha e céu) se erguem em cima dele",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "nxnative",
+   "repo": "seedds/nxnative",
+   "estrelas": 12385,
+   "fala": "E o número um: nxnative. Doze mil estrelas. Transforma jogos de Switch em aplicativos de iPhone, e já tem jogo de Switch dois rodando.",
+   "legenda": "1º nxnative: 12 mil estrelas. Jogos de Switch viram app de iPhone. Até de Switch 2.",
+   "visual": "um console portátil genérico (sem marca) se desmonta no ar e as peças se remontam como iPhone, iPad e Mac lado a lado; contador dispara",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.8
+    },
+    {
+     "t": 0.4,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA JOGO",
+   "fala": "Comenta JOGO e me segue que eu te mando os cinco. Só vale com jogo que é seu.",
+   "legenda": "Comenta JOGO que eu te mando os 5. Só vale com jogo que é seu.",
+   "visual": "lista dos 5 com estrelas; COMENTA JOGO",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "pop",
+     "g": 0.6
+    }
+   ]
+  }
+ ]
+}
