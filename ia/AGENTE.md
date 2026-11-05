@@ -18,6 +18,11 @@ IA que a pessoa pode USAR hoje, explicada em português do Brasil, no Instagram 
 5. **Propósito**: o vídeo resolve uma dor clara, e o brinde entrega a solução.
 O resumo do roteiro para o Vitor mostra os 5 itens marcados.
 
+## Resultados que guiam a produção (atualizar a cada leitura; números em `metricas.json`)
+- **05/11, 1ª leitura (5 skills, formato 3, ~1 h no ar):** 767 views (2× o melhor vídeo anterior, 356; o carrossel mais recente fez 42), 21 curtidas (2,7%), **19 salvamentos (2,5%)**, **9 envios (1,2%)**, só **2 comentários (0,3%)**, 1 repost.
+- **Leitura:** o formato 3 funciona (o dobro de views; salvar e enviar altos = conteúdo útil). O ponto fraco é o **comentário**: o "Comenta PALAVRA" só aparece no fim e a maioria sai antes. Carrossel está bem abaixo dos Reels: manter Reels como prioridade.
+- **Regras daqui em diante:** (1) **CTA no meio**, na frase-ponte da nº 3: "Essa é até legalzinha… comenta PALAVRA que eu te mando as 5" (curto); (2) **primeiro comentário fixado** em todo post (`firstCommentText` no Metricool) com "💬 Comenta PALAVRA que eu te mando os links"; (3) a 1ª linha da legenda já traz a palavra; (4) capa = 1º quadro com a etiqueta legível (já funciona na grade).
+
 ## Foco em vídeo, com carrossel de reserva (decisão do Vitor, 05/11)
 **Meta (Vitor, 05/11): 2 vídeos por dia, às 13:00 e às 19:30 de Brasília (Instagram + TikTok).** Cada rodada de produção escreve até 4 roteiros (2 por dia), de preferência no formato 3. Os dois slots do Instagram ficam para os Reels; o carrossel de reserva só sai se faltar Reel aprovado.
 Vídeo traz mais resultado: a prioridade é **Reel no Instagram + TikTok**. Cada rodada de produção escreve **1 roteiro de Reel por dia** (2 por rodada) para aprovação, nos formatos 1 (mascote no palco) ou 2 (lista + demonstração).

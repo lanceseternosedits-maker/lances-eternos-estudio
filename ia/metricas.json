@@ -1,4 +1,35 @@
 {
-  "_como_preencher": "o analista semanal grava aqui, por pasta de post e por rede: alcance, visualizacoes, salvamentos, compartilhamentos, comentarios, curtidas",
-  "posts": {}
+ "_como_preencher": "o analista semanal grava aqui, por pasta de post e por rede: alcance, visualizacoes, salvamentos, compartilhamentos, comentarios, curtidas",
+ "posts": {
+  "2026-11-07-5-skills": {
+   "instagram": {
+    "lido_em": "2026-11-05 (print do Vitor, ~1 h após publicar às 13:00)",
+    "visualizacoes": 767,
+    "curtidas": 21,
+    "comentarios": 2,
+    "reposts": 1,
+    "envios": 9,
+    "salvamentos": 19
+   }
+  },
+  "2026-11-04-desenho-animado": {
+   "instagram": {
+    "lido_em": "2026-11-05 (grade do perfil, print do Vitor)",
+    "visualizacoes": 356
+   }
+  },
+  "2026-11-03-curriculo-ia": {
+   "instagram": {
+    "lido_em": "2026-11-05 (grade do perfil, print do Vitor)",
+    "visualizacoes": 188
+   }
+  },
+  "2026-11-04-gemini-carbon?": {
+   "instagram": {
+    "lido_em": "2026-11-05 (grade do perfil, print do Vitor)",
+    "visualizacoes": 42
+   }
+  }
+ },
+ "_leituras_da_grade_05_11": "Grade do perfil em 05/11: 5 skills 767 · desenho animado 356 · currículo 188 · 'Todo mundo tá' 192 · '1 arquivo = 1 função' 164 · carrossel Gemini 4 Carbon 42."
 }
