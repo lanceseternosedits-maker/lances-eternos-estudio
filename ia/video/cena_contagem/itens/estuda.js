@@ -25,7 +25,7 @@ rim.color.set(0xffd89a); key.color.set(0xfff4dc);
 
 // ---------- mascote: mochila + boné; lê e anota ----------
 const moch = new THREE.Group(); MAS.corpo.add(moch); box(1.1, .8, .35, M(AZUL, { roughness: .7 }), moch, 0, .95, -.62); box(.8, .3, .12, M("#244a85"), moch, 0, .75, -.82);
-for (const x of [-.45, .45]) box(.08, .7, .05, M("#1d3a6a"), moch, x, 1.0, .52);
+for (const x of [-.68, .68]) box(.06, .55, .5, M("#1d3a6a"), moch, x, .85, -.1);
 const bone = new THREE.Group(); MAS.corpo.add(bone); mesh(new THREE.CylinderGeometry(.62, .66, .22, 24, 1, false, 0, Math.PI * 2), M(AMAR), bone, 0, 1.6, 0).scale.set(1.15, 1, .78);
 box(.8, .04, .45, M(AMAR), bone, 0, 1.52, .55);
 const livro = new THREE.Group(); S.add(livro); const capa = M("#b5413a");
@@ -36,7 +36,7 @@ const folhaV = new THREE.Group(); livro.add(folhaV); box(.46, .01, .66, M(PAPEL)
 const lapis = new THREE.Group(); S.add(lapis); mesh(new THREE.CylinderGeometry(.04, .04, .6, 6), M(AMAR), lapis, 0, 0, 0); mesh(new THREE.ConeGeometry(.04, .12, 6), M("#e8c9a0"), lapis, 0, -.36, 0).rotation.x = Math.PI;
 function le(lt, x, z = .2) { livro.visible = true; lapis.visible = true;
   pose(MAS, { x, z, y: 0, ry: .25, braco: [.55, .55 + (Math.floor(lt / 1.2) % 2 ? Math.abs(Math.sin(lt * 16)) * .25 : 0)], piscar: pisca(lt) });
-  livro.position.set(x + .05, .72, z + .75); livro.rotation.set(1.1, .25, 0); fL.rotation.z = .25; fR.rotation.z = -.25; folhaV.rotation.z = -(((lt % 1.2) / 1.2) > .7 ? Math.PI * eio((((lt % 1.2) / 1.2) - .7) / .3) : 0);
+  livro.position.set(x + .62, .62, z + .78); livro.rotation.set(1.25, .45, 0); livro.scale.setScalar(.85); fL.rotation.z = .25; fR.rotation.z = -.25; folhaV.rotation.z = -(((lt % 1.2) / 1.2) > .7 ? Math.PI * eio((((lt % 1.2) / 1.2) - .7) / .3) : 0);
   const w = new THREE.Vector3(); MAS.bracos[1].getWorldPosition(w); lapis.position.set(w.x + .1, w.y + .15, w.z + .3); lapis.rotation.set(.6, 0, -.5 + Math.sin(lt * 16) * .1); }
 const esconde = () => { livro.visible = false; lapis.visible = false; };
 
@@ -87,7 +87,7 @@ for (let i = 0; i < 9; i++) { const a = mesh(aviaoGeo, M(i % 3 ? "#ffffff" : AMA
 // ---------- câmera: travelling lateral (desliza em x durante a fala) ----------
 const SHOTS = { gancho: [[V(0, 2, 6), V(0, 1.3, 0)], [V(0, 2, 6), V(0, 1.3, 0)]] };
 ["n5", "n4", "n3", "n2", "n1", "cta"].forEach(n => SHOTS[n] = SHOTS.gancho);
-const camera = (cam, nome, lt, d, t, sh) => { const u = lt / d, dir = ["n4", "n2", "cta"].includes(nome) ? -1 : 1, x0 = .25 - dir * 1.1, x = x0 + dir * 2.2 * eio(u);
+const camera = (cam, nome, lt, d, t, sh) => { const u = lt / d, dir = ["n4", "n2", "cta"].includes(nome) ? -1 : 1, x0 = .1 - dir * .8, x = x0 + dir * 1.6 * eio(u);
   const alvoX = nome === "cta" ? 0 : .35; cam.position.set(x, 1.95 + Math.sin(t * .7) * .05, 5.4); cam.lookAt(alvoX + (x - .25) * .35, 1.25, 0); cam.position.x += Math.sin(t * 61) * sh; cam.position.y += Math.cos(t * 47) * sh; };
 
 const ACT = {
@@ -95,13 +95,13 @@ const ACT = {
     pilha.forEach((P, i) => { const tt = Math.max(0, lt - .7 - i * .03); const e = Math.min(1, tt / .9); P.b.visible = lt < 1.75; P.b.position.set(1.1 + P.v.x * tt, Math.max(.9, P.y + P.v.y * tt - 4 * tt * tt), P.v.z * tt * .5); P.b.rotation.set(P.w * tt * .2, P.ry + P.w * tt * .3, P.w * tt * .25); });
     const tb = back(lin(lt, 1.6, 2.2)); tablet.visible = lt > 1.6; tablet.position.set(1.1, 1.6 + Math.sin(lt * 2) * .04, .1); tablet.scale.setScalar(tb); tablet.rotation.set(-.1, -.25 + Math.sin(lt) * .05, 0);
     pose(MAS, { x: -1.3, y: lt > .7 && lt < 1.0 ? .25 : hop(lt, .6, .08), sq: lt > .7 && lt < .85 ? .12 : 0, braco: lt > .7 && lt < 1.6 ? [1.6, 1.6] : [.3, .5], piscar: lt > .7 && lt < 1.2 ? .3 : pisca(lt), ry: .3 }); },
-  n5(lt, d) { le(lt, -1.0); redT.draw(eio(lin(lt, .8, d - .3))); },
-  n4(lt, d) { le(lt, -1.0); const on = Math.floor(lt * 3) % 2; led.material.emissiveIntensity = on ? 4 : .3; luzLed.intensity = on ? 3 : 0; placa.rotation.y = Math.sin(lt * .8) * .1; },
-  n3(lt, d) { le(lt, -1.0); modulos.forEach((m, i) => { const e = eio(lin(lt, .3 + i * .3, .9 + i * .3)); m.position.set(1.4 + (-.55 + (i % 3) * .55) * e + (1 - e) * (2.5 - i * .3), 1.2 + Math.floor(i / 3) * .32 * e + (1 - e) * 2, -.5 + (1 - e) * .8); m.rotation.set((1 - e) * 3, (1 - e) * 2, 0); m.visible = lt > .3 + i * .3; });
+  n5(lt, d) { le(lt, -.75); redT.draw(eio(lin(lt, .8, d - .3))); },
+  n4(lt, d) { le(lt, -.75); const on = Math.floor(lt * 3) % 2; led.material.emissiveIntensity = on ? 4 : .3; luzLed.intensity = on ? 3 : 0; placa.rotation.y = Math.sin(lt * .8) * .1; },
+  n3(lt, d) { le(lt, -.75); modulos.forEach((m, i) => { const e = eio(lin(lt, .3 + i * .3, .9 + i * .3)); m.position.set(1.4 + (-.55 + (i % 3) * .55) * e + (1 - e) * (2.5 - i * .3), 1.2 + Math.floor(i / 3) * .32 * e + (1 - e) * 2, -.5 + (1 - e) * .8); m.rotation.set((1 - e) * 3, (1 - e) * 2, 0); m.visible = lt > .3 + i * .3; });
     const dp = back(lin(lt, 2.2, 2.8)); diploma.scale.setScalar(Math.max(.01, dp)); diploma.visible = lt > 2.2; },
-  n2(lt, d) { le(lt, -1.1); cartoes.forEach((c, i) => { const a = lt * .9 + i / 5 * Math.PI * 2; c.position.set(1.3 + Math.cos(a) * 1.1, 1.55 + Math.sin(a * 2) * .12, Math.sin(a) * .7 - .2); c.lookAt(cam.position); c.scale.setScalar(back(lin(lt, i * .12, i * .12 + .5))); });
+  n2(lt, d) { le(lt, -.8); cartoes.forEach((c, i) => { const a = lt * .9 + i / 5 * Math.PI * 2; c.position.set(1.3 + Math.cos(a) * 1.1, 1.55 + Math.sin(a * 2) * .12, Math.sin(a) * .7 - .2); c.lookAt(cam.position); c.scale.setScalar(back(lin(lt, i * .12, i * .12 + .5))); });
     ondas.forEach((o, i) => o.material.emissiveIntensity = (Math.floor(lt * 4) + i) % 3 === 0 ? 3 : .4); },
-  n1(lt, d) { le(lt, -1.2); aulaT.draw(lt, lt > 2.2 ? 1 : 0); tela1.rotation.x = -.15;
+  n1(lt, d) { le(lt, -.85); aulaT.draw(lt, lt > 2.2 ? 1 : 0); tela1.rotation.x = -.15;
     bal.forEach((b, i) => { const s = back(lin(lt, .5 + i * .5, .9 + i * .5)); b.visible = s > .01; b.scale.setScalar(1.45 * Math.max(.01, s) * (lt > 2.2 ? Math.max(.01, 1 - (lt - 2.2) * 2) : 1)); b.position.set(1.3 + (i ? .55 : -.55), 2.15 + i * .2 + Math.sin(lt * 2 + i) * .04, -.3); b.lookAt(cam.position); }); },
   cta(lt, d) { esconde(); pose(MAS, { x: 0, y: hop(lt, .5, .15), braco: [.3, 1.9 + Math.sin(lt * 9) * .5], piscar: pisca(lt), ry: 0 });
     avioes.forEach(A => { const x = ((lt * A.v * 1.6 + A.ph) % 8) - 4; A.a.position.set(A.dir * x, A.y + Math.sin(lt * 2 + A.ph) * .2, A.z); A.a.rotation.set(Math.sin(lt * 3 + A.ph) * .2, A.dir * Math.PI / 2, Math.sin(lt * 2 + A.ph) * .3); }); },
