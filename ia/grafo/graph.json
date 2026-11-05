@@ -1187,6 +1187,58 @@
    "id": "horario:06h",
    "tipo": "horario",
    "label": "06h"
+  },
+  {
+   "id": "2026-11-07-5-skills",
+   "tipo": "post",
+   "label": "5-skills",
+   "data": "2026-11-07",
+   "score": null
+  },
+  {
+   "id": "pilar:lista",
+   "tipo": "pilar",
+   "label": "lista"
+  },
+  {
+   "id": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "tipo": "formato",
+   "label": "reel formato 3 (contagem regressiva com mistério)"
+  },
+  {
+   "id": "cta:SKILLS",
+   "tipo": "cta",
+   "label": "SKILLS"
+  },
+  {
+   "id": "tema:GitHub em alta",
+   "tipo": "tema",
+   "label": "GitHub em alta"
+  },
+  {
+   "id": "fonte:https://github.com/Motionsites-AI/claude-skill",
+   "tipo": "fonte",
+   "label": "https://github.com/Motionsites-AI/claude-skill"
+  },
+  {
+   "id": "fonte:https://github.com/NiazMorshed2007/reanimate",
+   "tipo": "fonte",
+   "label": "https://github.com/NiazMorshed2007/reanimate"
+  },
+  {
+   "id": "fonte:https://github.com/patch-gg/pixelfx",
+   "tipo": "fonte",
+   "label": "https://github.com/patch-gg/pixelfx"
+  },
+  {
+   "id": "fonte:https://github.com/heydamir/unslop",
+   "tipo": "fonte",
+   "label": "https://github.com/heydamir/unslop"
+  },
+  {
+   "id": "fonte:https://github.com/elvarofficial/teardown",
+   "tipo": "fonte",
+   "label": "https://github.com/elvarofficial/teardown"
   }
  ],
  "links": [
@@ -1519,6 +1571,10 @@
    "target": "2026-11-05-10-estilos"
   },
   {
+   "source": "rede:instagram",
+   "target": "2026-11-07-5-skills"
+  },
+  {
    "source": "rede:tiktok",
    "target": "2026-11-01-anthropic-ipo-p3"
   },
@@ -1601,6 +1657,10 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-05-10-estilos"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-07-5-skills"
   },
   {
    "source": "rede:youtube",
@@ -2259,6 +2319,10 @@
    "target": "2026-11-02-ferramentas-gratis"
   },
   {
+   "source": "horario:07h",
+   "target": "2026-11-07-5-skills"
+  },
+  {
    "source": "2026-11-02-em-alta-x",
    "target": "cta:AGENTE"
   },
@@ -2635,6 +2699,10 @@
    "target": "fonte:x.com/iksly2/status/2117144049232572469"
   },
   {
+   "source": "tema:skills do Claude Code",
+   "target": "2026-11-07-5-skills"
+  },
+  {
    "source": "2026-11-04-youtube-2-horas",
    "target": "cta:TUBE"
   },
@@ -2717,6 +2785,50 @@
   {
    "source": "2026-11-05-10-estilos",
    "target": "horario:06h"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-07-5-skills"
+  },
+  {
+   "source": "empresa:Anthropic (Claude)",
+   "target": "2026-11-07-5-skills"
+  },
+  {
+   "source": "2026-11-07-5-skills",
+   "target": "pilar:lista"
+  },
+  {
+   "source": "2026-11-07-5-skills",
+   "target": "formato:reel formato 3 (contagem regressiva com mistério)"
+  },
+  {
+   "source": "2026-11-07-5-skills",
+   "target": "cta:SKILLS"
+  },
+  {
+   "source": "2026-11-07-5-skills",
+   "target": "tema:GitHub em alta"
+  },
+  {
+   "source": "2026-11-07-5-skills",
+   "target": "fonte:https://github.com/Motionsites-AI/claude-skill"
+  },
+  {
+   "source": "2026-11-07-5-skills",
+   "target": "fonte:https://github.com/NiazMorshed2007/reanimate"
+  },
+  {
+   "source": "2026-11-07-5-skills",
+   "target": "fonte:https://github.com/patch-gg/pixelfx"
+  },
+  {
+   "source": "2026-11-07-5-skills",
+   "target": "fonte:https://github.com/heydamir/unslop"
+  },
+  {
+   "source": "2026-11-07-5-skills",
+   "target": "fonte:https://github.com/elvarofficial/teardown"
   }
  ]
 }

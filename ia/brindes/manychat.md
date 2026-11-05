@@ -26,5 +26,11 @@ Botão "Quero os prompts" → DM 2:
 Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/estilo.md
 Funciona no claude.ai. Me segue pra não perder os próximos 😉
 
+## SKILLS (Reel "5 skills do Claude", formato 3, 07/11)
+DM 1: Opa! Separei o link das 5 skills (e como instalar) 🧩 Toca no botão 👇
+Botão "Quero os links" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/skills.md
+Rodam no Claude Code (planos pagos do Claude). Me segue pra não perder os próximos 😉
+
 ## Novo post
 Criar `brindes/<palavra>.md` a partir do `resposta_dm.txt` e uma automação nova aqui, com a mesma estrutura.
