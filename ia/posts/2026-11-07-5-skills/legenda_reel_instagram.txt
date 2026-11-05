@@ -1,1 +1,18 @@
-(texto agendado no Metricool em 05/11, id 417350809; igual ao enviado)
+5 skills do Claude ganharam +18 mil estrelas no GitHub em 10 dias. E a nº 1 é bizarra. 🤯
+
+5º MotionSites: site com cara de cinema, não de IA
+4º reanimate: copia qualquer animação quadro a quadro
+3º pixelfx: 244 efeitos de pixel art prontos
+2º unslop: tira a "cara de IA" do seu site
+1º teardown: você pergunta como uma máquina funciona e ganha um simulador 3D pra desmontar
+
+Todas rodam no Claude Code (vem nos planos pagos do Claude).
+
+💬 Comenta SKILLS e me segue que eu te mando o link das 5.
+
+Qual você testaria primeiro? 👇
+
+Fonte: estrelas no GitHub de cada projeto (lidas em 05/11).
+Animação e voz feitas com IA. Perfil independente, sem ligação com a Anthropic.
+
+#claude #claudecode #inteligenciaartificial #ia #github
