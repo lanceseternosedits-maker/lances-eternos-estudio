@@ -20,8 +20,17 @@ O resumo do roteiro para o Vitor mostra os 5 itens marcados.
 
 ## Resultados que guiam a produção (atualizar a cada leitura; números em `metricas.json`)
 - **05/11, 1ª leitura (5 skills, formato 3, ~1 h no ar):** 767 views (2× o melhor vídeo anterior, 356; o carrossel mais recente fez 42), 21 curtidas (2,7%), **19 salvamentos (2,5%)**, **9 envios (1,2%)**, só **2 comentários (0,3%)**, 1 repost.
+- **06/11:** 5 skills chegou a **2.697 views** (5× o 2º lugar); Nintendo 174 em ~1 h (2 curtidas, 1 salvamento), prejudicado por fala rápida e texto fora da área segura; carrosséis 11–27 views → **parar carrosséis**.
 - **Leitura:** o formato 3 funciona (o dobro de views; salvar e enviar altos = conteúdo útil). O ponto fraco é o **comentário**: o "Comenta PALAVRA" só aparece no fim e a maioria sai antes. Carrossel está bem abaixo dos Reels: manter Reels como prioridade.
 - **Regras daqui em diante:** (1) **CTA no meio**, na frase-ponte da nº 3: "Essa é até legalzinha… comenta PALAVRA que eu te mando as 5" (curto); (2) **primeiro comentário fixado** em todo post (`firstCommentText` no Metricool) com "💬 Comenta PALAVRA que eu te mando os links"; (3) a 1ª linha da legenda já traz a palavra; (4) capa = 1º quadro com a etiqueta legível (já funciona na grade).
+
+## Acabamento obrigatório (Vitor, 06/11, depois do Reel da Nintendo: "saiu rápido, o texto muito pra cima, vários bugs")
+- **Velocidade da fala: máximo 3,0 palavras/s** (o 5 skills, campeão com 2.697 views, tem 3,1; o da Nintendo, 3,8, decepcionou). Se passar de 35 s, **corte texto**; nunca peça "ritmo muito rápido" e nunca acelere acima de 1,15. Meça: palavras ÷ duração da timeline.
+- **Área segura do Reel (1080×1920):** nada importante acima de **y=260** (cabeçalho "Reels/Friends") nem abaixo de **y=1500** (perfil, legenda do post, botões); nada a menos de **130 px da direita** (ícones). Etiqueta, nome, contador e legenda ficam entre 260 e 1500.
+- **Legibilidade:** fonte 8-bit (Press Start 2P) só em enfeites; números e nomes em fonte clara (o "8" virou "S"). Nada de "letra falhando" em texto que a pessoa precisa ler.
+- **Rosto do mascote sempre visível** (objetos na mão ficam ao lado, nunca na frente da boca/olhos).
+- **Capa:** o 1º quadro precisa ter a etiqueta legível e a cena clara (fundo não pode ser quase preto).
+- Checklist antes de mandar o MP4: velocidade ≤ 3,0 · área segura · legibilidade · rosto · capa.
 
 ## Foco em vídeo, com carrossel de reserva (decisão do Vitor, 05/11)
 ## Calendário (Vitor, 06/11)
