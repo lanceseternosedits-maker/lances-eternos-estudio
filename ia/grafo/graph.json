@@ -1012,7 +1012,7 @@
    "tipo": "post",
    "label": "desenho-animado",
    "data": "2026-11-04",
-   "score": null
+   "score": 0.0
   },
   {
    "id": "formato:reel animado 3D",
@@ -1250,7 +1250,7 @@
    "tipo": "post",
    "label": "5-skills",
    "data": "2026-11-05",
-   "score": null
+   "score": 82.0
   },
   {
    "id": "cta:SKILLS",
@@ -1286,7 +1286,7 @@
    "id": "2026-11-07-editar-video",
    "tipo": "post",
    "label": "editar-video",
-   "data": "2026-11-07",
+   "data": "2026-11-06",
    "score": null
   },
   {
@@ -1365,7 +1365,7 @@
    "id": "2026-11-08-estudar-ia",
    "tipo": "post",
    "label": "estudar-ia",
-   "data": "2026-11-08",
+   "data": "2026-11-07",
    "score": null
   },
   {
@@ -1409,15 +1409,10 @@
    "label": "https://github.com/wquguru/cicada"
   },
   {
-   "id": "horario:08h",
-   "tipo": "horario",
-   "label": "08h"
-  },
-  {
    "id": "2026-11-08-nintendo",
    "tipo": "post",
    "label": "nintendo",
-   "data": "2026-11-08",
+   "data": "2026-11-06",
    "score": null
   },
   {
@@ -2593,11 +2588,11 @@
   },
   {
    "source": "horario:07h",
-   "target": "2026-11-07-editar-video"
+   "target": "2026-11-07-programas-pc"
   },
   {
    "source": "horario:07h",
-   "target": "2026-11-07-programas-pc"
+   "target": "2026-11-08-estudar-ia"
   },
   {
    "source": "2026-11-02-em-alta-x",
@@ -3108,6 +3103,14 @@
    "target": "2026-11-06-tv-celular"
   },
   {
+   "source": "horario:06h",
+   "target": "2026-11-07-editar-video"
+  },
+  {
+   "source": "horario:06h",
+   "target": "2026-11-08-nintendo"
+  },
+  {
    "source": "2026-11-06-tv-celular",
    "target": "pilar:lista"
   },
@@ -3310,14 +3313,6 @@
   {
    "source": "2026-11-08-estudar-ia",
    "target": "fonte:https://github.com/wquguru/cicada"
-  },
-  {
-   "source": "2026-11-08-estudar-ia",
-   "target": "horario:08h"
-  },
-  {
-   "source": "horario:08h",
-   "target": "2026-11-08-nintendo"
   },
   {
    "source": "2026-11-08-nintendo",

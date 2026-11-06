@@ -24,12 +24,12 @@ O resumo do roteiro para o Vitor mostra os 5 itens marcados.
 - **Regras daqui em diante:** (1) **CTA no meio**, na frase-ponte da nº 3: "Essa é até legalzinha… comenta PALAVRA que eu te mando as 5" (curto); (2) **primeiro comentário fixado** em todo post (`firstCommentText` no Metricool) com "💬 Comenta PALAVRA que eu te mando os links"; (3) a 1ª linha da legenda já traz a palavra; (4) capa = 1º quadro com a etiqueta legível (já funciona na grade).
 
 ## Foco em vídeo, com carrossel de reserva (decisão do Vitor, 05/11)
-**Meta (Vitor, 05/11): 2 vídeos por dia, às 13:00 e às 19:30 de Brasília (Instagram + TikTok).** Cada rodada de produção escreve até 4 roteiros (2 por dia), de preferência no formato 3. Os dois slots do Instagram ficam para os Reels; o carrossel de reserva só sai se faltar Reel aprovado.
+**Meta (Vitor, 06/11): 4 vídeos por dia, às 06:00, 12:00, 17:00 e 19:30 de Brasília (Instagram + TikTok).** Substitui a meta de 2 por dia (05/11). Cada rodada de produção escreve até 8 roteiros (4 por dia), de preferência no formato 3. Os slots ficam para os Reels; carrossel de reserva só se faltar Reel aprovado.
 Vídeo traz mais resultado: a prioridade é **Reel no Instagram + TikTok**. Cada rodada de produção escreve **1 roteiro de Reel por dia** (2 por rodada) para aprovação, nos formatos 1 (mascote no palco) ou 2 (lista + demonstração).
 **Reserva:** a mesma rodada faz e agenda **1 carrossel por dia às 13:00** no Instagram (pauta diferente da do Reel). Se o Vitor aprovar o Reel daquele dia a tempo, a sessão que agenda o Reel **transforma o carrossel do dia em rascunho** (`draft true`, `autoPublish false`) e coloca o Reel no horário dele; se não aprovar, o carrossel sai sozinho. Nunca 2 posts no mesmo horário.
 
 ## Publicação
-- **Máximo 2 posts por dia no Instagram, nunca no mesmo horário**; padrão 13:00 (pauta mais forte) e 19:30 opcional; sempre entre 06:30 e 20:00 de Brasília (`timezone America/Sao_Paulo`). Metricool `blogId 7637900`.
+- **4 posts por dia (Vitor, 06/11): 06:00, 12:00, 17:00 e 19:30 de Brasília**, nunca 2 no mesmo horário (`timezone America/Sao_Paulo`). Pauta mais forte (polêmica) às 12:00 ou 19:30. Metricool `blogId 7637900`.
 - **Carrossel só no Instagram** (`type POST`, `autoPublish true`, sem música). **TikTok só recebe vídeo aprovado** (`isAigc true`, `title` até 90 caracteres). YouTube pausado.
 - **Vídeo nunca sai sem 2 aprovações do Vitor** (roteiro e MP4). Reel no Instagram: `type REEL` com a trilha própria (a música via API está indisponível na conta até o Instagram ser ligado a uma Página do Facebook no Metricool).
 - Antes de agendar: `getScheduledPosts` do dia; mídia pública via `raw.githubusercontent.com/.../midia-ia/...` respondendo 200. Depois: `estado.json` (paleta e tema), `meta.json` do post (data, pilar, formato, temas, empresas, fontes, paleta, horarios, cta), `python3 grafo.py`, commit e push.
