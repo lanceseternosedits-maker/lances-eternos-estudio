@@ -1140,7 +1140,7 @@
    "id": "2026-11-05-10-estilos",
    "tipo": "post",
    "label": "10-estilos",
-   "data": "2026-11-06",
+   "data": "2026-11-08",
    "score": null
   },
   {
@@ -1184,9 +1184,9 @@
    "label": "Referência viral: Reel de @theaigeekk '10 Claude Animation styles' (gravação de tela enviada pelo Vitor em 04/11)"
   },
   {
-   "id": "horario:06h",
+   "id": "horario:08h",
    "tipo": "horario",
-   "label": "06h"
+   "label": "08h"
   },
   {
    "id": "2026-11-06-tv-celular",
@@ -1246,6 +1246,11 @@
    "label": "https://github.com/Gathin23/cleanyourtv"
   },
   {
+   "id": "horario:06h",
+   "tipo": "horario",
+   "label": "06h"
+  },
+  {
    "id": "2026-11-07-5-skills",
    "tipo": "post",
    "label": "5-skills",
@@ -1286,7 +1291,7 @@
    "id": "2026-11-07-editar-video",
    "tipo": "post",
    "label": "editar-video",
-   "data": "2026-11-06",
+   "data": "2026-11-07",
    "score": null
   },
   {
@@ -1365,7 +1370,7 @@
    "id": "2026-11-08-estudar-ia",
    "tipo": "post",
    "label": "estudar-ia",
-   "data": "2026-11-07",
+   "data": "2026-11-08",
    "score": null
   },
   {
@@ -2588,11 +2593,11 @@
   },
   {
    "source": "horario:07h",
-   "target": "2026-11-07-programas-pc"
+   "target": "2026-11-07-editar-video"
   },
   {
    "source": "horario:07h",
-   "target": "2026-11-08-estudar-ia"
+   "target": "2026-11-07-programas-pc"
   },
   {
    "source": "2026-11-02-em-alta-x",
@@ -3068,7 +3073,7 @@
   },
   {
    "source": "2026-11-05-10-estilos",
-   "target": "horario:06h"
+   "target": "horario:08h"
   },
   {
    "source": "paleta:paleta None",
@@ -3099,16 +3104,8 @@
    "target": "2026-11-07-5-skills"
   },
   {
-   "source": "horario:06h",
-   "target": "2026-11-06-tv-celular"
-  },
-  {
-   "source": "horario:06h",
-   "target": "2026-11-07-editar-video"
-  },
-  {
-   "source": "horario:06h",
-   "target": "2026-11-08-nintendo"
+   "source": "horario:08h",
+   "target": "2026-11-08-estudar-ia"
   },
   {
    "source": "2026-11-06-tv-celular",
@@ -3151,6 +3148,10 @@
    "target": "fonte:https://github.com/Gathin23/cleanyourtv"
   },
   {
+   "source": "2026-11-06-tv-celular",
+   "target": "horario:06h"
+  },
+  {
    "source": "pilar:lista",
    "target": "2026-11-07-5-skills"
   },
@@ -3205,6 +3206,10 @@
   {
    "source": "tema:GitHub em alta",
    "target": "2026-11-08-estudar-ia"
+  },
+  {
+   "source": "horario:06h",
+   "target": "2026-11-08-nintendo"
   },
   {
    "source": "2026-11-07-5-skills",

@@ -16,16 +16,16 @@ Perfil de Vitor Gofredo: a IA que importa explicada em 60 segundos, em portuguê
 
 ## Regras que nunca mudam
 - **Segredos:** o repositório é público. A chave do Gemini vem da variável `GEMINI_API_KEY` ou do D1 (ver "Como carregar a chave do Gemini" no manual) e fica só em `~/.secrets/gemini.env`. Nunca imprima, commite ou envie uma chave.
-- **Publicação:** **4 posts por dia, às 06:00, 12:00, 17:00 e 19:30 de Brasília** (decisão do Vitor, 06/11; substitui o limite de 2 por dia de 04/11), sempre Reel no Instagram + TikTok; nunca 2 no mesmo horário. Carrossel só no Instagram; TikTok só recebe vídeo aprovado. YouTube está pausado.
+- **Publicação (Vitor, 06/11):** **4 posts por dia**, Reel no Instagram + TikTok. **Dias úteis: 06:00, 12:00, 17:00 e 19:30. Sábado e domingo: 09:00, 13:00, 17:00 e 20:30.** Nunca 2 no mesmo horário. Substitui o limite de 2 por dia de 04/11. Carrossel só no Instagram; TikTok só recebe vídeo aprovado. YouTube está pausado.
 - **Vídeo animado:** nunca publica sem as duas aprovações do Vitor (roteiro e MP4). Teto de US$ 0,50 por vídeo; nada de vídeo gerado por IA (Omni/Veo) sem autorização expressa.
 - **Gastos (Vitor, 05/11):** antes de qualquer ação que custe dinheiro (API paga, assinatura, faturamento do Gemini, ferramenta nova), estime o custo e peça a aprovação do Vitor primeiro. Sem aprovação, não executa.
 - **Verdade:** nada inventado; todo fato com fonte oficial ou 2 fontes; toda pauta com a prova de que viralizou lá fora.
 - **Git:** trabalhe e faça push no ramo `midia-ia` (`git pull --rebase` se o push for rejeitado). Não suba `out/frames`, clipes brutos nem `_short/`.
 
 ## Tarefas agendadas (Claude Code na nuvem)
-- **IA em 60s – caçador de referências:** seg/qua/sex às 03:53 de Brasília (Sonnet); atualiza `ia/referencias.md`.
-- **IA em 60s – produção:** seg/qua/sex às 04:47 de Brasília (Sonnet); meta de **4 vídeos por dia (06:00, 12:00, 17:00, 19:30)**: escreve até 8 roteiros de Reel por rodada (de preferência formato 3) e agenda carrossel de reserva só onde o horário estiver livre.
-- **IA em 60s – cobrança de aprovações:** todo dia às 09:23 e 18:23 de Brasília; confere roteiros "aguardando aprovação" no `estado.json` e horários vagos (06:00/12:00/17:00/19:30) dos próximos 3 dias, e manda notificação para o Vitor. Só avisa, não altera nada. Toda sessão que deixar algo para o Vitor aprovar marca no `estado.json` como "aguardando aprovação" com dia e horário.
+- **IA em 60s – caçador de referências:** seg e qui às 03:53 de Brasília (Sonnet); atualiza `ia/referencias.md` antes da produção.
+- **IA em 60s – produção (seg e qui):** às 04:47 de Brasília (Sonnet); **14 roteiros por rodada** (28 por semana = 4 por dia). A de segunda cobre ter, qua, qui e sex 06:00/12:00; a de quinta cobre sex 17:00/19:30, sáb, dom e seg. Depois do OK nos roteiros, uma sessão produz os 14 vídeos (render em paralelo) e manda os MP4 para a 2ª aprovação.
+- **IA em 60s – cobrança de aprovações:** todo dia às 09:23 e 18:23 de Brasília; confere roteiros "aguardando aprovação" no `estado.json` e horários vagos (úteis 06:00/12:00/17:00/19:30; fim de semana 09:00/13:00/17:00/20:30) dos próximos 3 dias, e manda notificação para o Vitor. Só avisa, não altera nada. Toda sessão que deixar algo para o Vitor aprovar marca no `estado.json` como "aguardando aprovação" com dia e horário.
 - **Economia de tokens:** respostas curtas, poucas buscas, 1 folha de miniaturas por peça; trabalho pesado (vídeo 3D) em sessão nova e curta.
 - Metricool: `blogId 7637900`, fuso `America/Sao_Paulo`.
 

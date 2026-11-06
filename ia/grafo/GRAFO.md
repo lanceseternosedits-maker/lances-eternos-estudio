@@ -1,12 +1,12 @@
 # Grafo de conteúdo do IA em 60s
-Gerado em 2026-11-06 06:01 · 30 posts · 280 nós · 472 ligações
+Gerado em 2026-11-06 06:09 · 30 posts · 281 nós · 472 ligações
 
 ## Use antes de criar
 
-- **Temas saturados (3+ posts em 7 dias, evite):** agentes de IA, GitHub em alta, produtividade, segurança, programação, segurança de IA, privacidade, skills do Claude Code
-- **Empresas saturadas (3+ posts em 7 dias, evite):** Anthropic, OpenAI, Google, GitHub
+- **Temas saturados (3+ posts em 7 dias, evite):** GitHub em alta, agentes de IA, skills do Claude Code
+- **Empresas saturadas (3+ posts em 7 dias, evite):** Anthropic
 - **Pilares sem post nos últimos 7 dias (prioridade):** nenhum
-- **Posts por pilar (7 dias):** novidade 9, tutorial 8, lista 6, em_alta 4, recomendacao 3
+- **Posts por pilar (7 dias):** tutorial 6, lista 6, novidade 3, em_alta 3, recomendacao 2
 
 ## O que vem funcionando
 
@@ -59,11 +59,11 @@ Gerado em 2026-11-06 06:01 · 30 posts · 280 nós · 472 ligações
 | 05h | 2 | 82 |
 | 19h | 6 | 0 |
 | 17h | 4 | sem dado |
-| 06h | 4 | sem dado |
 | 18h | 3 | sem dado |
 | 12h | 3 | 0 |
 | 07h | 3 | sem dado |
 | 14h | 2 | sem dado |
+| 13h | 2 | sem dado |
 
 ### Rede
 | Rede | posts | engajamento médio |
