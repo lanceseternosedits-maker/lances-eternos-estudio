@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "SORTEIO",
+ "tese": "POR QUE ELA NUNCA RESPONDE IGUAL",
+ "conceito": "Quermesse de cidade: roleta de madeira com palavras no lugar dos números, bandeirinhas, termômetro gigante de lata que sobe e desce. Paleta vermelho-quermesse + amarelo-milho.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita adesiva",
+  "nome": "c) máquina de escrever",
+  "contador": "c) velocímetro/medidor circular",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "b) chicote de câmera (whip pan)",
+  "camera": "d) órbita",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 01 + roleta girando",
+  "mascote": "chapéu de festa junina; ação principal: girar a roleta"
+ },
+ "brinde": "prompt das 3 versões",
+ "fontes": [
+  "https://rubydoc.info/github/anthropics/anthropic-sdk-ruby/main/Anthropic%2FModels%2FBeta%2FMessageCreateParams:temperature",
+  "https://docs.camel-ai.org/reference/camel.configs.anthropic_config"
+ ],
+ "prova_viral": "Incômodo muito comum ('perguntei de novo e mudou'); explicado na documentação oficial (parâmetro temperature: perto de 0 para análise, perto de 1 para criação).",
+ "obs": "Simplificação aceitável: o 'sorteio' é a amostragem entre palavras prováveis. Não dizer que temperatura 0 deixa idêntico (a própria documentação diz que não é totalmente determinístico).",
+ "polemica": false,
+ "agenda": "2026-11-11 08:00",
+ "palavras": 89,
+ "duracao_estimada_s": 31.8,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "POR QUE ELA NUNCA RESPONDE IGUAL",
+   "fala": "Você pergunta a mesma coisa duas vezes e a IA responde diferente. Não é defeito.",
+   "legenda": "Você pergunta a mesma coisa duas vezes e a IA responde diferente. Não é defeito.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "POR QUE ELA NUNCA RESPONDE IGUAL",
+    "O BOTÃO DA TEMPERATURA",
+    "E COMO USAR A SEU FAVOR"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "A cada palavra, ela tem várias opções prováveis e faz um pequeno sorteio.",
+   "legenda": "A cada palavra, ela tem várias opções prováveis e faz um pequeno sorteio.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Tem até um botão pra isso, chamado temperatura. Baixa, ela fica certinha. Alta, fica criativa.",
+   "legenda": "Tem até um botão pra isso, chamado temperatura. Baixa, ela fica certinha. Alta, fica criativa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "E dá pra usar isso a seu favor. Comenta SORTEIO que eu te mando o prompt.",
+   "legenda": "E dá pra usar isso a seu favor. Comenta SORTEIO que eu te mando o prompt.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Pede três versões diferentes, escolhe a melhor e manda ela juntar o que tinha de bom.",
+   "legenda": "Pede três versões diferentes, escolhe a melhor e manda ela juntar o que tinha de bom.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA SORTEIO",
+   "fala": "Comenta SORTEIO e me segue. Você já pediu de novo pra ver se mudava?",
+   "legenda": "Comenta SORTEIO e me segue. Você já pediu de novo pra ver se mudava?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

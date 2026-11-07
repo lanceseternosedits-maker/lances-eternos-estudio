@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-13",
+ "horario": "08:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "ia-puxa-saco"
+ ],
+ "fontes": [
+  "https://techcrunch.com/2025/04/29/openai-explains-why-chatgpt-became-too-sycophantic",
+  "https://venturebeat.com/ai/openai-rolls-back-chatgpts-sycophancy-and-explains-what-went-wrong"
+ ],
+ "prova_viral": "Incômodo comum ('ela concorda com tudo'); caso oficial da OpenAI (atualização do GPT-4o de 25/04/2025 desfeita em 29/04/2025) com cobertura mundial.",
+ "cta": "CRITICA",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-13 08:00",
+  "tiktok": "2026-11-13 08:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

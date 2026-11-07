@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "VERAO",
+ "tese": "1956: PROMETERAM A IA EM 2 MESES",
+ "conceito": "Campus universitário no verão de 1956: gramado, cadeiras de praia, mesa com máquina de escrever e a proposta datilografada; um calendário de 2 meses que vira 70 anos. Paleta verde-grama + amarelo-sol.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "(sem contador: história)",
+  "legenda": "a) bloco de 4 palavras com a atual colorida",
+  "transicao": "e) glitch RGB",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "b) pódio",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 02 + cigarras de verão",
+  "mascote": "chapéu de palha; ação principal: datilografar a proposta"
+ },
+ "brinde": "a proposta original de 1955 + curiosidade",
+ "fontes": [
+  "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/1904/1802",
+  "https://en.wikipedia.org/wiki/Dartmouth_workshop"
+ ],
+ "prova_viral": "Fato histórico com 2 fontes (proposta republicada pela AI Magazine em 2006); dá pra amarrar com '70 anos de IA' em 2026.",
+ "obs": "A proposta é de 31/08/1955 e o encontro, do verão de 1956. Dizer que o nome 'inteligência artificial' nasceu nesse documento (como as fontes creditam), sem 'primeira vez na história'.",
+ "polemica": false,
+ "agenda": "2026-11-10 14:00",
+ "palavras": 88,
+ "duracao_estimada_s": 31.4,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "1956: PROMETERAM A IA EM 2 MESES",
+   "fala": "Em 1955, quatro cientistas pediram dinheiro pra resolver a inteligência artificial num verão. Deu um pouco errado.",
+   "legenda": "Em 1955, quatro cientistas pediram dinheiro pra resolver a inteligência artificial num verão. Deu um pouco errado.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "1956: PROMETERAM A IA EM 2 MESES",
+    "O VERÃO DE DARTMOUTH",
+    "E LEVOU 70 ANOS"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "A proposta pedia dez pessoas e dois meses na faculdade de Dartmouth, nos Estados Unidos.",
+   "legenda": "A proposta pedia dez pessoas e dois meses na faculdade de Dartmouth, nos Estados Unidos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Foi nesse papel que nasceu o nome inteligência artificial.",
+   "legenda": "Foi nesse papel que nasceu o nome inteligência artificial.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Eles queriam máquinas que usassem linguagem e melhorassem sozinhas. Comenta VERAO que eu te mando o documento original.",
+   "legenda": "Eles queriam máquinas que usassem linguagem e melhorassem sozinhas. Comenta VERAO que eu te mando o documento original.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "O encontro aconteceu no verão de 1956. Setenta anos depois, a gente ainda tá terminando esse trabalho.",
+   "legenda": "O encontro aconteceu no verão de 1956. Setenta anos depois, a gente ainda tá terminando esse trabalho.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA VERAO",
+   "fala": "Comenta VERAO e me segue. Qual promessa da IA você acha exagerada?",
+   "legenda": "Comenta VERAO e me segue. Qual promessa da IA você acha exagerada?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

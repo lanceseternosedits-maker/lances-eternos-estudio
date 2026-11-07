@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-12",
+ "horario": "08:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "imagem-sai-do-chiado"
+ ],
+ "fontes": [
+  "https://arxiv.org/abs/2006.11239",
+  "https://arxiv.org/abs/2402.04384"
+ ],
+ "prova_viral": "Curiosidade comum ('como a IA desenha?'); método de difusão (Ho et al., 2020) é a base do Stable Diffusion e de muitos geradores.",
+ "cta": "CHIADO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-12 08:00",
+  "tiktok": "2026-11-12 08:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

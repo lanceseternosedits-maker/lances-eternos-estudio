@@ -1,0 +1,23 @@
+{
+ "data": "2026-11-15",
+ "horario": "15:00",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "ia-ganhou-o-nobel"
+ ],
+ "fontes": [
+  "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+  "https://techcrunch.com/2024/10/09/deepminds-demis-hassabis-and-john-jumper-scoop-nobel-prize-in-chemistry-for-alphafold",
+  "https://alphafold.ebi.ac.uk/"
+ ],
+ "prova_viral": "Nobel de Química de 09/10/2024 (fonte oficial nobelprize.org) com cobertura mundial; 'IA ganhou Nobel' é gancho forte e positivo.",
+ "cta": "NOBEL",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-15 15:00",
+  "tiktok": "2026-11-15 15:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

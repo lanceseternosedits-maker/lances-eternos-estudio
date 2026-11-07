@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "SENHA",
+ "tese": "1 PALAVRA QUE TRAVA O GOLPE DA VOZ",
+ "conceito": "Cozinha de casa de vó: telefone de parede tocando, porta-retratos, cofrinho de porquinho com cadeado; um papelzinho dobrado com a palavra secreta preso na geladeira. Paleta verde-menta + laranja-cobre.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "f) escrito à mão",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "a) flash branco",
+  "camera": "c) travelling lateral",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 01 + telefone de parede",
+  "mascote": "avental de cozinha; ação principal: colar o bilhete secreto na geladeira"
+ },
+ "brinde": "passo a passo da palavra-código da família",
+ "fontes": [
+  "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+  "https://dcba.lacounty.gov/front-page/scammers-use-ai-to-enhance-family-emergency-scams"
+ ],
+ "prova_viral": "Alerta oficial da FTC (EUA) sobre golpe de emergência com voz clonada; golpe também cresce no Brasil e o vídeo é muito compartilhável (envio pra família).",
+ "obs": "Não dizer 'em 3 segundos' (número sem fonte oficial). Tom de proteção, sem medo gratuito. Conferir o link exato da FTC no dia.",
+ "polemica": false,
+ "agenda": "2026-11-14 09:00",
+ "palavras": 92,
+ "duracao_estimada_s": 32.9,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "1 PALAVRA QUE TRAVA O GOLPE DA VOZ",
+   "fala": "Golpista já consegue ligar com a voz de alguém da sua família. Uma palavra resolve isso.",
+   "legenda": "Golpista já consegue ligar com a voz de alguém da sua família. Uma palavra resolve isso.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "1 PALAVRA QUE TRAVA O GOLPE DA VOZ",
+    "COMO A IA CLONA UMA VOZ",
+    "E COMO SUA FAMÍLIA SE PROTEGE"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "A IA aprende o jeito de uma voz com poucos áudios e depois fala qualquer frase com ela.",
+   "legenda": "A IA aprende o jeito de uma voz com poucos áudios e depois fala qualquer frase com ela.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "O governo americano já alertou: o golpe chega como emergência e pedido de dinheiro.",
+   "legenda": "O governo americano já alertou: o golpe chega como emergência e pedido de dinheiro.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "O truque é combinar uma palavra secreta. Comenta SENHA que eu te mando o passo a passo.",
+   "legenda": "O truque é combinar uma palavra secreta. Comenta SENHA que eu te mando o passo a passo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Escolhe uma palavra que nunca foi pra internet. Se a pessoa não souber, desliga e liga você.",
+   "legenda": "Escolhe uma palavra que nunca foi pra internet. Se a pessoa não souber, desliga e liga você.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA SENHA",
+   "fala": "Comenta SENHA e me segue. Sua família já tem palavra-código?",
+   "legenda": "Comenta SENHA e me segue. Sua família já tem palavra-código?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

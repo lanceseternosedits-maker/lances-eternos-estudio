@@ -1,0 +1,6 @@
+Aqui está! 📣
+
+🔗 https://github.com/coreyhaines31/marketingskills (grátis, MIT)
+Instalar: npx skills add coreyhaines31/marketingskills
+
+Comece por: product-marketing (a base do seu negócio), copywriting, ads, emails e marketing-plan.

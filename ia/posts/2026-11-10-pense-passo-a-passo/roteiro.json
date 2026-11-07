@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "PASSO",
+ "tese": "4 PALAVRAS QUE FAZEM A IA ERRAR MENOS",
+ "conceito": "Escada gigante de blocos de madeira no palco: cada degrau é um passo da conta; no topo, uma calculadora acende; quadro de cortiça com o problema. Paleta laranja-tijolo + azul-petróleo.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "f) escrito à mão",
+  "contador": "e) placar 8-bit HI-SCORE",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 01 + passos na madeira",
+  "mascote": "capacete de obra; ação principal: subir degrau por degrau"
+ },
+ "brinde": "prompts prontos com 'vamos pensar passo a passo' para conta, orçamento e decisão",
+ "fontes": [
+  "https://arxiv.org/abs/2205.11916",
+  "https://proceedings.neurips.cc/paper/2022/hash/8bb0d291acd4acf06ef112099c16f326-Abstract-Conference.html"
+ ],
+ "prova_viral": "Artigo da NeurIPS 2022 (Kojima et al., Univ. de Tóquio + Google) entre os mais citados sobre prompts; 'truque de prompt' é busca muito comum.",
+ "obs": "Números do artigo: MultiArith de 17,7% para 78,7% com text-davinci-002. Modelos novos já raciocinam sozinhos: não prometer o mesmo salto hoje.",
+ "polemica": false,
+ "agenda": "2026-11-10 08:00",
+ "palavras": 87,
+ "duracao_estimada_s": 31.1,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "4 PALAVRAS QUE FAZEM A IA ERRAR MENOS",
+   "fala": "Tem quatro palavras que fazem a IA errar muito menos conta. E quase ninguém usa.",
+   "legenda": "Tem quatro palavras que fazem a IA errar muito menos conta. E quase ninguém usa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "4 PALAVRAS QUE FAZEM A IA ERRAR MENOS",
+    "DE 17% PRA 78% DE ACERTO",
+    "E QUASE NINGUÉM USA"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "A IA responde no impulso: ela vai chutando a próxima palavra.",
+   "legenda": "A IA responde no impulso: ela vai chutando a próxima palavra.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Em 2022, pesquisadores de Tóquio e do Google escreveram só 'vamos pensar passo a passo'. O acerto em problemas de matemática foi de 17 pra 78 por cento.",
+   "legenda": "Em 2022, pesquisadores de Tóquio e do Google escreveram só 'vamos pensar passo a passo'. O acerto em problemas de matemática foi de 17 pra 78 por cento.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Ela escreve o raciocínio antes e para de chutar. Comenta PASSO que eu te mando os prompts.",
+   "legenda": "Ela escreve o raciocínio antes e para de chutar. Comenta PASSO que eu te mando os prompts.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Usa em conta, orçamento e qualquer decisão difícil.",
+   "legenda": "Usa em conta, orçamento e qualquer decisão difícil.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA PASSO",
+   "fala": "Comenta PASSO e me segue. Vai testar hoje?",
+   "legenda": "Comenta PASSO e me segue. Vai testar hoje?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

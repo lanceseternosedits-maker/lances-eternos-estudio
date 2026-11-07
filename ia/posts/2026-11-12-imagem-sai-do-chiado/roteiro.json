@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "CHIADO",
+ "tese": "A IMAGEM DE IA NASCE DO CHIADO",
+ "conceito": "Câmara escura de fotografia com luz vermelha: varal de fotos, bacia de revelação onde o chiado de TV vai virando foto; uma TV de chuvisco no canto. Paleta vermelho-revelação + cinza.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "e) glitch RGB",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 01 + chiado de TV + obturador",
+  "mascote": "avental de fotógrafo; ação principal: mexer a foto na bacia de revelação"
+ },
+ "brinde": "prompt de luz, ângulo e lente pra imagem ficar profissional",
+ "fontes": [
+  "https://arxiv.org/abs/2006.11239",
+  "https://arxiv.org/abs/2402.04384"
+ ],
+ "prova_viral": "Curiosidade comum ('como a IA desenha?'); método de difusão (Ho et al., 2020) é a base do Stable Diffusion e de muitos geradores.",
+ "obs": "Nem todo gerador usa difusão: dizer 'muita imagem de IA'. O truque (descrever luz, ângulo e lente) é dica de prompt, não dado do artigo.",
+ "polemica": false,
+ "agenda": "2026-11-12 08:00",
+ "palavras": 89,
+ "duracao_estimada_s": 31.8,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IMAGEM DE IA NASCE DO CHIADO",
+   "fala": "Muita imagem feita por IA começa como chiado de TV. Sério.",
+   "legenda": "Muita imagem feita por IA começa como chiado de TV. Sério.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "A IMAGEM DE IA NASCE DO CHIADO",
+    "COMO A IMAGEM SAI DO NADA",
+    "E O TRUQUE PRA FOTO FICAR PRO"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Na hora de criar, ela parte de um monte de pontinhos aleatórios.",
+   "legenda": "Na hora de criar, ela parte de um monte de pontinhos aleatórios.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Aí vai limpando aos poucos, passo a passo, até aparecer o que você pediu.",
+   "legenda": "Aí vai limpando aos poucos, passo a passo, até aparecer o que você pediu.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Ela aprendeu estragando fotos com ruído e treinando pra desfazer. Comenta CHIADO que eu te mando o prompt.",
+   "legenda": "Ela aprendeu estragando fotos com ruído e treinando pra desfazer. Comenta CHIADO que eu te mando o prompt.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Por isso o seu pedido guia cada limpeza. Diz a luz, o ângulo da câmera e a lente, e a foto muda na hora.",
+   "legenda": "Por isso o seu pedido guia cada limpeza. Diz a luz, o ângulo da câmera e a lente, e a foto muda na hora.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA CHIADO",
+   "fala": "Comenta CHIADO e me segue. Qual imagem você quer criar?",
+   "legenda": "Comenta CHIADO e me segue. Qual imagem você quer criar?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

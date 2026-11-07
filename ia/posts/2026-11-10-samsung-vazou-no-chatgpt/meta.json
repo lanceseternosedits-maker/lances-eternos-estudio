@@ -1,0 +1,23 @@
+{
+ "data": "2026-11-10",
+ "horario": "19:30",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "samsung-vazou-no-chatgpt"
+ ],
+ "fontes": [
+  "https://ca.finance.yahoo.com/news/samsung-bans-generative-ai-staff-004831399.html",
+  "https://www.techradar.com/news/samsung-bans-chatgpt-use-after-employee-leak",
+  "https://help.openai.com/en/articles/7730893-data-controls-faq"
+ ],
+ "prova_viral": "Caso de abril/maio de 2023 (memorando revelado pela Bloomberg) com cobertura mundial; tema 'cuidado com o que você cola na IA' rende muito envio.",
+ "cta": "SEGREDO",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-10 19:30",
+  "tiktok": "2026-11-10 19:30"
+ },
+ "status": "roteiro aguardando aprovação"
+}

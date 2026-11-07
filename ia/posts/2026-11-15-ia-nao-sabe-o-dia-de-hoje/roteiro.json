@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "LINK",
+ "tese": "SUA IA PAROU NO TEMPO",
+ "conceito": "Banca de jornal de esquina: jornais empilhados com datas antigas, um calendário de parede travado, um mensageiro trazendo o jornal do dia (o link). Paleta azul-jeans + vermelho-banca.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita adesiva",
+  "nome": "c) máquina de escrever",
+  "contador": "e) placar 8-bit HI-SCORE",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 01 + sino de bicicleta",
+  "mascote": "boné de jornaleiro; ação principal: entregar o jornal do dia"
+ },
+ "brinde": "prompt para a IA pesquisar antes de responder",
+ "fontes": [
+  "https://help.openai.com/en/articles/6639781-do-the-openai-api-models-have-knowledge-of-current-events",
+  "https://www.thehindu.com/sci-tech/technology/chatgpt-can-now-browse-the-internet-to-provide-users-with-current-information/article67353716.ece"
+ ],
+ "prova_viral": "Incômodo comum ('ela não sabe a notícia de ontem'); ajuda oficial da OpenAI explica a data de corte e a busca na web.",
+ "obs": "Não dar a data de corte de nenhum modelo (muda a cada versão). Conferir o link do The Hindu no dia; se não abrir, usar a página de busca do ChatGPT na ajuda oficial.",
+ "polemica": false,
+ "agenda": "2026-11-15 09:00",
+ "palavras": 94,
+ "duracao_estimada_s": 33.6,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "SUA IA PAROU NO TEMPO",
+   "fala": "Você pergunta uma notícia de ontem e a IA responde com coisa velha. Ela não tá mentindo.",
+   "legenda": "Você pergunta uma notícia de ontem e a IA responde com coisa velha. Ela não tá mentindo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "SUA IA PAROU NO TEMPO",
+    "A DATA DE CORTE",
+    "E O TRUQUE PRA ELA SABER DO NOVO"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Cada IA aprendeu com textos até uma certa data. Depois disso, ela não sabe de nada sozinha.",
+   "legenda": "Cada IA aprendeu com textos até uma certa data. Depois disso, ela não sabe de nada sozinha.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Isso se chama data de corte. Só quando ela busca na internet é que vê o que é novo.",
+   "legenda": "Isso se chama data de corte. Só quando ela busca na internet é que vê o que é novo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Dá pra contornar fácil. Comenta LINK que eu te mando o prompt.",
+   "legenda": "Dá pra contornar fácil. Comenta LINK que eu te mando o prompt.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Manda o link da notícia, ou pede: pesquise na internet antes de responder e me mostre as fontes.",
+   "legenda": "Manda o link da notícia, ou pede: pesquise na internet antes de responder e me mostre as fontes.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA LINK",
+   "fala": "Comenta LINK e me segue. Ela já te respondeu coisa velha?",
+   "legenda": "Comenta LINK e me segue. Ela já te respondeu coisa velha?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

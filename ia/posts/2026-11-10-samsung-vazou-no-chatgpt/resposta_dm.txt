@@ -1,0 +1,7 @@
+Aqui está! 🔒
+
+No ChatGPT: Configurações → Controles de dados → desligue "Melhorar o modelo para todos".
+E a regra de ouro: nada de senha, documento de cliente ou segredo da empresa no chat.
+
+📚 Ajuda oficial: https://help.openai.com/en/articles/7730893-data-controls-faq
+📰 O caso: https://www.techradar.com/news/samsung-bans-chatgpt-use-after-employee-leak

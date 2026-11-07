@@ -1,0 +1,6 @@
+Aqui está! 🧠
+
+📝 Prompt: "Resuma esta conversa em 10 linhas: objetivo, decisões tomadas, dados importantes e o que falta fazer. Escreva de um jeito que eu possa colar numa conversa nova."
+Depois abra um chat novo, cole o resumo e continue.
+
+📚 O estudo: https://arxiv.org/abs/2307.03172

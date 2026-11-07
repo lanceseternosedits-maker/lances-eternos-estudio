@@ -1,0 +1,23 @@
+{
+ "data": "2026-11-12",
+ "horario": "14:00",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "watson-jeopardy"
+ ],
+ "fontes": [
+  "https://www.pcworld.com/article/494966/ibm_watson_wins_jeopardy_humans_rally_back.html",
+  "https://www.eweek.com/database/ibm-s-watson-wins-in-jeopardy-needs-lessons-in-u-s-geography/",
+  "https://www.kurzweilai.net/human-vs-ai-contest-on-jeopardy-first-day-results-just-announced"
+ ],
+ "prova_viral": "Fato histórico (fev/2011) com 2+ fontes; 15 anos do episódio em 2026 (TV Insider), 'IA vence humano na TV'.",
+ "cta": "WATSON",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-12 14:00",
+  "tiktok": "2026-11-12 14:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

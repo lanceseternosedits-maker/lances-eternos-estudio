@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-13",
+ "horario": "14:00",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "corrida-sem-motorista"
+ ],
+ "fontes": [
+  "https://www.darpa.mil/news/2014/grand-challenge-ten-years-later",
+  "https://www.rdworldonline.com/darpa-grand-challenge-at-21-two-decades-ago-driverless-vehicles-made-history-in-the-mojave-desert/"
+ ],
+ "prova_viral": "Fato histórico (DARPA, 2004 e 2005) com fonte oficial; 'carro sem motorista' é assunto em alta com robotáxis nas ruas.",
+ "cta": "CARRO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-13 14:00",
+  "tiktok": "2026-11-13 14:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

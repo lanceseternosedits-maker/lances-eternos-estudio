@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "RESUMO",
+ "tese": "POR QUE A IA ESQUECE O QUE VOCÊ FALOU",
+ "conceito": "Escrivaninha de manhã com uma mesa que vai enchendo de papéis: os do começo caem pela borda (metáfora da janela de contexto); lousa branca com 'RESUMO' no fim. Paleta azul-claro + amarelo-post-it.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita adesiva",
+  "nome": "c) máquina de escrever",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "a) bloco de 4 palavras com a atual colorida",
+  "transicao": "a) flash branco",
+  "camera": "c) travelling lateral",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 01 + papel caindo",
+  "mascote": "óculos na ponta do nariz; ação principal: catar papéis que caem da mesa"
+ },
+ "brinde": "prompt pronto de resumo pra levar a conversa pra um chat novo",
+ "fontes": [
+  "https://arxiv.org/abs/2307.03172",
+  "https://docs.claude.com/en/docs/build-with-claude/context-windows"
+ ],
+ "prova_viral": "Incômodo comum ('ela esqueceu o que eu disse'); estudo 'Lost in the Middle' (Stanford, 2023) muito citado; documentação oficial de janela de contexto.",
+ "obs": "O estudo é de 2023 (modelos da época); dizer 'pesquisadores viram', sem prometer que todo modelo atual erra igual.",
+ "polemica": false,
+ "agenda": "2026-11-09 08:00",
+ "palavras": 91,
+ "duracao_estimada_s": 32.5,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "POR QUE A IA ESQUECE O QUE VOCÊ FALOU",
+   "fala": "Sabe quando a IA esquece o que você falou no começo da conversa? Não é implicância.",
+   "legenda": "Sabe quando a IA esquece o que você falou no começo da conversa? Não é implicância.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "POR QUE A IA ESQUECE O QUE VOCÊ FALOU",
+    "A JANELA DE CONTEXTO",
+    "E O TRUQUE PRA ELA LEMBRAR"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Ela tem uma memória de tamanho fixo, a janela de contexto.",
+   "legenda": "Ela tem uma memória de tamanho fixo, a janela de contexto.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Quando a conversa fica gigante, o começo vai saindo da mesa. E pesquisadores de Stanford viram que o meio é o que ela mais perde.",
+   "legenda": "Quando a conversa fica gigante, o começo vai saindo da mesa. E pesquisadores de Stanford viram que o meio é o que ela mais perde.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Mas tem um truque simples. Comenta RESUMO que eu te mando o prompt.",
+   "legenda": "Mas tem um truque simples. Comenta RESUMO que eu te mando o prompt.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Pede pra ela resumir tudo em dez linhas e cola o resumo numa conversa nova.",
+   "legenda": "Pede pra ela resumir tudo em dez linhas e cola o resumo numa conversa nova.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA RESUMO",
+   "fala": "Comenta RESUMO e me segue. Ela já esqueceu algo importante seu?",
+   "legenda": "Comenta RESUMO e me segue. Ela já esqueceu algo importante seu?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

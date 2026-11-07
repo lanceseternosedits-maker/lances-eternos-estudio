@@ -1,0 +1,23 @@
+{
+ "data": "2026-11-15",
+ "horario": "19:00",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "sam-altman-demitido"
+ ],
+ "fontes": [
+  "https://www.gpb.org/news/2023/11/22/openai-reinstates-sam-altman-its-chief-executive",
+  "https://uk.finance.yahoo.com/news/sacking-revolt-return-crisis-openai-100047922.html",
+  "https://www.rollingstone.com/culture/culture-news/sam-altman-reinstated-open-ai-ceo-1234893167/"
+ ],
+ "prova_viral": "Caso de 17–22/11/2023 com cobertura mundial; no dia 17/11/2026 faz 3 anos (post 2 dias antes).",
+ "cta": "DEMITIDO",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-15 19:00",
+  "tiktok": "2026-11-15 19:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

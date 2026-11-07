@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-11",
+ "horario": "19:30",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "carro-por-1-dolar"
+ ],
+ "fontes": [
+  "https://www.gm-trucks.com/chevy-dealer-chatbot-sells-80k-tahoe-for-1",
+  "https://futurism.com/the-byte/car-dealership-ai"
+ ],
+ "prova_viral": "Caso viral de dezembro/2023 (milhões de views no X, coberto por Futurism, Business Insider etc.); 'enganar a IA' é tema que gera comentário.",
+ "cta": "DOLAR",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-11 19:30",
+  "tiktok": "2026-11-11 19:30"
+ },
+ "status": "roteiro aguardando aprovação"
+}

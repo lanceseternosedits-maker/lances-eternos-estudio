@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "MILHAO",
+ "tese": "1 MILHÃO DE PESSOAS EM 5 DIAS",
+ "conceito": "Festa de aniversário surpresa: bolo com 4 velas, contador de pessoas de balada girando até 1.000.000, confetes de papel, fila de bonequinhos na porta. Paleta verde-menta + rosa-salmão.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "b) carimbo batendo",
+  "contador": "(sem contador: história)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 03 + festa + língua de sogra",
+  "mascote": "chapéu de aniversário de cone; ação principal: soprar as velas"
+ },
+ "brinde": "a linha do tempo do lançamento + curiosidade",
+ "fontes": [
+  "https://openai.com/index/chatgpt/",
+  "https://fortune.com/2022/12/09/ai-chatbot-chatgpt-could-disrupt-google-search-engines-business/"
+ ],
+ "prova_viral": "Lançamento em 30/11/2022; 4 anos no fim do mês; 'mais de 1 milhão em 5 dias' confirmado pela Fortune (Greg Brockman) e post de Sam Altman.",
+ "obs": "Não usar o 'código vermelho' do Google (não confirmado em fonte primária nesta sessão). Não dizer 'app que mais cresceu na história'.",
+ "polemica": false,
+ "agenda": "2026-11-14 19:00",
+ "palavras": 94,
+ "duracao_estimada_s": 33.6,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "1 MILHÃO DE PESSOAS EM 5 DIAS",
+   "fala": "Em novembro de 2022, a OpenAI lançou um teste sem muito alarde. Cinco dias depois, tinha mais de um milhão de pessoas usando.",
+   "legenda": "Em novembro de 2022, a OpenAI lançou um teste sem muito alarde. Cinco dias depois, tinha mais de um milhão de pessoas usando.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "1 MILHÃO DE PESSOAS EM 5 DIAS",
+    "O LANÇAMENTO DO CHATGPT",
+    "E ELE FAZ 4 ANOS"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Era o ChatGPT, lançado no dia 30 de novembro como uma prévia de graça.",
+   "legenda": "Era o ChatGPT, lançado no dia 30 de novembro como uma prévia de graça.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Em dias, todo mundo tava pedindo poema, trabalho de escola e código.",
+   "legenda": "Em dias, todo mundo tava pedindo poema, trabalho de escola e código.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "A internet inteira só falava disso. Comenta MILHAO que eu te mando a linha do tempo.",
+   "legenda": "A internet inteira só falava disso. Comenta MILHAO que eu te mando a linha do tempo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Esse mês, ele faz quatro anos. E mudou o jeito que milhões de pessoas trabalham.",
+   "legenda": "Esse mês, ele faz quatro anos. E mudou o jeito que milhões de pessoas trabalham.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA MILHAO",
+   "fala": "Comenta MILHAO e me segue. Lembra a primeira coisa que você pediu pra ele?",
+   "legenda": "Comenta MILHAO e me segue. Lembra a primeira coisa que você pediu pra ele?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

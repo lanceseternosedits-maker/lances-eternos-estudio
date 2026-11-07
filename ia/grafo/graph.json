@@ -2029,6 +2029,33 @@
    "label": "https://github.com/yjid/kensaku"
   },
   {
+   "id": "2026-11-09-a-pergunta-de-turing",
+   "tipo": "post",
+   "label": "a-pergunta-de-turing",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "cta:TURING",
+   "tipo": "cta",
+   "label": "TURING"
+  },
+  {
+   "id": "tema:a-pergunta-de-turing",
+   "tipo": "tema",
+   "label": "a-pergunta-de-turing"
+  },
+  {
+   "id": "fonte:https://academic.oup.com/mind/article/LIX/236/433/986238",
+   "tipo": "fonte",
+   "label": "https://academic.oup.com/mind/article/LIX/236/433/986238"
+  },
+  {
+   "id": "fonte:https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2441/2335",
+   "tipo": "fonte",
+   "label": "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2441/2335"
+  },
+  {
    "id": "2026-11-09-apps-gratis-mac",
    "tipo": "post",
    "label": "apps-gratis-mac",
@@ -2059,6 +2086,33 @@
    "id": "fonte:https://github.com/alejandrobujan/tendedero",
    "tipo": "fonte",
    "label": "https://github.com/alejandrobujan/tendedero"
+  },
+  {
+   "id": "2026-11-09-bing-mandou-largar-a-esposa",
+   "tipo": "post",
+   "label": "bing-mandou-largar-a-esposa",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "cta:SYDNEY",
+   "tipo": "cta",
+   "label": "SYDNEY"
+  },
+  {
+   "id": "tema:bing-mandou-largar-a-esposa",
+   "tipo": "tema",
+   "label": "bing-mandou-largar-a-esposa"
+  },
+  {
+   "id": "fonte:https://www.nytimes.com/2023/02/16/technology/bing-chatbot-microsoft-chatgpt.html",
+   "tipo": "fonte",
+   "label": "https://www.nytimes.com/2023/02/16/technology/bing-chatbot-microsoft-chatgpt.html"
+  },
+  {
+   "id": "fonte:https://uk.news.yahoo.com/creepy-microsoft-bing-chatbot-urges-014911899.html",
+   "tipo": "fonte",
+   "label": "https://uk.news.yahoo.com/creepy-microsoft-bing-chatbot-urges-014911899.html"
   },
   {
    "id": "2026-11-09-bizarros-github",
@@ -2155,6 +2209,33 @@
    "id": "fonte:https://github.com/ccch1mneyyy/dsh-Go",
    "tipo": "fonte",
    "label": "https://github.com/ccch1mneyyy/dsh-Go"
+  },
+  {
+   "id": "2026-11-09-ia-esquece-a-conversa",
+   "tipo": "post",
+   "label": "ia-esquece-a-conversa",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "cta:RESUMO",
+   "tipo": "cta",
+   "label": "RESUMO"
+  },
+  {
+   "id": "tema:ia-esquece-a-conversa",
+   "tipo": "tema",
+   "label": "ia-esquece-a-conversa"
+  },
+  {
+   "id": "fonte:https://arxiv.org/abs/2307.03172",
+   "tipo": "fonte",
+   "label": "https://arxiv.org/abs/2307.03172"
+  },
+  {
+   "id": "fonte:https://docs.claude.com/en/docs/build-with-claude/context-windows",
+   "tipo": "fonte",
+   "label": "https://docs.claude.com/en/docs/build-with-claude/context-windows"
   },
   {
    "id": "2026-11-09-internet-somada",
@@ -2278,6 +2359,33 @@
    "id": "fonte:https://github.com/storytold/wordcraft",
    "tipo": "fonte",
    "label": "https://github.com/storytold/wordcraft"
+  },
+  {
+   "id": "2026-11-10-a-ia-ganhou-nome",
+   "tipo": "post",
+   "label": "a-ia-ganhou-nome",
+   "data": "2026-11-10",
+   "score": null
+  },
+  {
+   "id": "cta:VERAO",
+   "tipo": "cta",
+   "label": "VERAO"
+  },
+  {
+   "id": "tema:a-ia-ganhou-nome",
+   "tipo": "tema",
+   "label": "a-ia-ganhou-nome"
+  },
+  {
+   "id": "fonte:https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/1904/1802",
+   "tipo": "fonte",
+   "label": "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/1904/1802"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/Dartmouth_workshop",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/Dartmouth_workshop"
   },
   {
    "id": "2026-11-10-animar-sem-saber",
@@ -2452,6 +2560,33 @@
    "label": "https://github.com/dsmurrell/onkey"
   },
   {
+   "id": "2026-11-10-pense-passo-a-passo",
+   "tipo": "post",
+   "label": "pense-passo-a-passo",
+   "data": "2026-11-10",
+   "score": null
+  },
+  {
+   "id": "cta:PASSO",
+   "tipo": "cta",
+   "label": "PASSO"
+  },
+  {
+   "id": "tema:pense-passo-a-passo",
+   "tipo": "tema",
+   "label": "pense-passo-a-passo"
+  },
+  {
+   "id": "fonte:https://arxiv.org/abs/2205.11916",
+   "tipo": "fonte",
+   "label": "https://arxiv.org/abs/2205.11916"
+  },
+  {
+   "id": "fonte:https://proceedings.neurips.cc/paper/2022/hash/8bb0d291acd4acf06ef112099c16f326-Abstract-Conference.html",
+   "tipo": "fonte",
+   "label": "https://proceedings.neurips.cc/paper/2022/hash/8bb0d291acd4acf06ef112099c16f326-Abstract-Conference.html"
+  },
+  {
    "id": "2026-11-10-projetos-celular",
    "tipo": "post",
    "label": "projetos-celular",
@@ -2494,6 +2629,38 @@
    "label": "https://github.com/rddmwmddr/android-ad-cleaner"
   },
   {
+   "id": "2026-11-10-samsung-vazou-no-chatgpt",
+   "tipo": "post",
+   "label": "samsung-vazou-no-chatgpt",
+   "data": "2026-11-10",
+   "score": null
+  },
+  {
+   "id": "cta:SEGREDO",
+   "tipo": "cta",
+   "label": "SEGREDO"
+  },
+  {
+   "id": "tema:samsung-vazou-no-chatgpt",
+   "tipo": "tema",
+   "label": "samsung-vazou-no-chatgpt"
+  },
+  {
+   "id": "fonte:https://ca.finance.yahoo.com/news/samsung-bans-generative-ai-staff-004831399.html",
+   "tipo": "fonte",
+   "label": "https://ca.finance.yahoo.com/news/samsung-bans-generative-ai-staff-004831399.html"
+  },
+  {
+   "id": "fonte:https://www.techradar.com/news/samsung-bans-chatgpt-use-after-employee-leak",
+   "tipo": "fonte",
+   "label": "https://www.techradar.com/news/samsung-bans-chatgpt-use-after-employee-leak"
+  },
+  {
+   "id": "fonte:https://help.openai.com/en/articles/7730893-data-controls-faq",
+   "tipo": "fonte",
+   "label": "https://help.openai.com/en/articles/7730893-data-controls-faq"
+  },
+  {
    "id": "2026-11-10-testa-seu-negocio",
    "tipo": "post",
    "label": "testa-seu-negocio",
@@ -2514,6 +2681,33 @@
    "id": "fonte:https://github.com/Jakeschincariol/founder-skill",
    "tipo": "fonte",
    "label": "https://github.com/Jakeschincariol/founder-skill"
+  },
+  {
+   "id": "2026-11-11-carro-por-1-dolar",
+   "tipo": "post",
+   "label": "carro-por-1-dolar",
+   "data": "2026-11-11",
+   "score": null
+  },
+  {
+   "id": "cta:DOLAR",
+   "tipo": "cta",
+   "label": "DOLAR"
+  },
+  {
+   "id": "tema:carro-por-1-dolar",
+   "tipo": "tema",
+   "label": "carro-por-1-dolar"
+  },
+  {
+   "id": "fonte:https://www.gm-trucks.com/chevy-dealer-chatbot-sells-80k-tahoe-for-1",
+   "tipo": "fonte",
+   "label": "https://www.gm-trucks.com/chevy-dealer-chatbot-sells-80k-tahoe-for-1"
+  },
+  {
+   "id": "fonte:https://futurism.com/the-byte/car-dealership-ai",
+   "tipo": "fonte",
+   "label": "https://futurism.com/the-byte/car-dealership-ai"
   },
   {
    "id": "2026-11-11-copiar-qualquer-app",
@@ -2580,6 +2774,33 @@
    "label": "https://github.com/blendi-remade/prompt2rig"
   },
   {
+   "id": "2026-11-11-eliza-primeira-ia-terapeuta",
+   "tipo": "post",
+   "label": "eliza-primeira-ia-terapeuta",
+   "data": "2026-11-11",
+   "score": null
+  },
+  {
+   "id": "cta:ELIZA",
+   "tipo": "cta",
+   "label": "ELIZA"
+  },
+  {
+   "id": "tema:eliza-primeira-ia-terapeuta",
+   "tipo": "tema",
+   "label": "eliza-primeira-ia-terapeuta"
+  },
+  {
+   "id": "fonte:https://dl.acm.org/doi/10.1145/365153.365168",
+   "tipo": "fonte",
+   "label": "https://dl.acm.org/doi/10.1145/365153.365168"
+  },
+  {
+   "id": "fonte:https://99percentinvisible.org/episode/the-eliza-effect/transcript",
+   "tipo": "fonte",
+   "label": "https://99percentinvisible.org/episode/the-eliza-effect/transcript"
+  },
+  {
    "id": "2026-11-11-ia-do-fim-do-mundo",
    "tipo": "post",
    "label": "ia-do-fim-do-mundo",
@@ -2627,6 +2848,33 @@
    "id": "fonte:https://github.com/speridlabs/idol-sdk",
    "tipo": "fonte",
    "label": "https://github.com/speridlabs/idol-sdk"
+  },
+  {
+   "id": "2026-11-11-mesma-pergunta-resposta-diferente",
+   "tipo": "post",
+   "label": "mesma-pergunta-resposta-diferente",
+   "data": "2026-11-11",
+   "score": null
+  },
+  {
+   "id": "cta:SORTEIO",
+   "tipo": "cta",
+   "label": "SORTEIO"
+  },
+  {
+   "id": "tema:mesma-pergunta-resposta-diferente",
+   "tipo": "tema",
+   "label": "mesma-pergunta-resposta-diferente"
+  },
+  {
+   "id": "fonte:https://rubydoc.info/github/anthropics/anthropic-sdk-ruby/main/Anthropic%2FModels%2FBeta%2FMessageCreateParams:temperature",
+   "tipo": "fonte",
+   "label": "https://rubydoc.info/github/anthropics/anthropic-sdk-ruby/main/Anthropic%2FModels%2FBeta%2FMessageCreateParams:temperature"
+  },
+  {
+   "id": "fonte:https://docs.camel-ai.org/reference/camel.configs.anthropic_config",
+   "tipo": "fonte",
+   "label": "https://docs.camel-ai.org/reference/camel.configs.anthropic_config"
   },
   {
    "id": "2026-11-11-procura-dentro-das-fotos",
@@ -2747,6 +2995,33 @@
    "label": "https://github.com/HeyPuter/everything"
   },
   {
+   "id": "2026-11-12-engenheiro-disse-que-a-ia-sente",
+   "tipo": "post",
+   "label": "engenheiro-disse-que-a-ia-sente",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:SENTE",
+   "tipo": "cta",
+   "label": "SENTE"
+  },
+  {
+   "id": "tema:engenheiro-disse-que-a-ia-sente",
+   "tipo": "tema",
+   "label": "engenheiro-disse-que-a-ia-sente"
+  },
+  {
+   "id": "fonte:https://www.nbcnews.com/news/us-news/google-fired-software-engineer-claimed-ai-chatbot-was-sentient-rcna39679",
+   "tipo": "fonte",
+   "label": "https://www.nbcnews.com/news/us-news/google-fired-software-engineer-claimed-ai-chatbot-was-sentient-rcna39679"
+  },
+  {
+   "id": "fonte:https://www.engadget.com/blake-lemoide-fired-google-lamda-sentient-001746197.html",
+   "tipo": "fonte",
+   "label": "https://www.engadget.com/blake-lemoide-fired-google-lamda-sentient-001746197.html"
+  },
+  {
    "id": "2026-11-12-figurinhas-de-aves",
    "tipo": "post",
    "label": "figurinhas-de-aves",
@@ -2767,6 +3042,33 @@
    "id": "fonte:https://github.com/alchaincyf/huashu-bird-sticker",
    "tipo": "fonte",
    "label": "https://github.com/alchaincyf/huashu-bird-sticker"
+  },
+  {
+   "id": "2026-11-12-imagem-sai-do-chiado",
+   "tipo": "post",
+   "label": "imagem-sai-do-chiado",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:CHIADO",
+   "tipo": "cta",
+   "label": "CHIADO"
+  },
+  {
+   "id": "tema:imagem-sai-do-chiado",
+   "tipo": "tema",
+   "label": "imagem-sai-do-chiado"
+  },
+  {
+   "id": "fonte:https://arxiv.org/abs/2006.11239",
+   "tipo": "fonte",
+   "label": "https://arxiv.org/abs/2006.11239"
+  },
+  {
+   "id": "fonte:https://arxiv.org/abs/2402.04384",
+   "tipo": "fonte",
+   "label": "https://arxiv.org/abs/2402.04384"
   },
   {
    "id": "2026-11-12-jarvis-em-portugues",
@@ -2857,6 +3159,38 @@
    "label": "https://github.com/alchaincyf/huashu-art-motion"
   },
   {
+   "id": "2026-11-12-watson-jeopardy",
+   "tipo": "post",
+   "label": "watson-jeopardy",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:WATSON",
+   "tipo": "cta",
+   "label": "WATSON"
+  },
+  {
+   "id": "tema:watson-jeopardy",
+   "tipo": "tema",
+   "label": "watson-jeopardy"
+  },
+  {
+   "id": "fonte:https://www.pcworld.com/article/494966/ibm_watson_wins_jeopardy_humans_rally_back.html",
+   "tipo": "fonte",
+   "label": "https://www.pcworld.com/article/494966/ibm_watson_wins_jeopardy_humans_rally_back.html"
+  },
+  {
+   "id": "fonte:https://www.eweek.com/database/ibm-s-watson-wins-in-jeopardy-needs-lessons-in-u-s-geography/",
+   "tipo": "fonte",
+   "label": "https://www.eweek.com/database/ibm-s-watson-wins-in-jeopardy-needs-lessons-in-u-s-geography/"
+  },
+  {
+   "id": "fonte:https://www.kurzweilai.net/human-vs-ai-contest-on-jeopardy-first-day-results-just-announced",
+   "tipo": "fonte",
+   "label": "https://www.kurzweilai.net/human-vs-ai-contest-on-jeopardy-first-day-results-just-announced"
+  },
+  {
    "id": "2026-11-13-assistentes-que-trabalham",
    "tipo": "post",
    "label": "assistentes-que-trabalham",
@@ -2904,6 +3238,87 @@
    "id": "fonte:https://github.com/C4rohan/Lampline",
    "tipo": "fonte",
    "label": "https://github.com/C4rohan/Lampline"
+  },
+  {
+   "id": "2026-11-13-corrida-sem-motorista",
+   "tipo": "post",
+   "label": "corrida-sem-motorista",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:CARRO",
+   "tipo": "cta",
+   "label": "CARRO"
+  },
+  {
+   "id": "tema:corrida-sem-motorista",
+   "tipo": "tema",
+   "label": "corrida-sem-motorista"
+  },
+  {
+   "id": "fonte:https://www.darpa.mil/news/2014/grand-challenge-ten-years-later",
+   "tipo": "fonte",
+   "label": "https://www.darpa.mil/news/2014/grand-challenge-ten-years-later"
+  },
+  {
+   "id": "fonte:https://www.rdworldonline.com/darpa-grand-challenge-at-21-two-decades-ago-driverless-vehicles-made-history-in-the-mojave-desert/",
+   "tipo": "fonte",
+   "label": "https://www.rdworldonline.com/darpa-grand-challenge-at-21-two-decades-ago-driverless-vehicles-made-history-in-the-mojave-desert/"
+  },
+  {
+   "id": "2026-11-13-ia-ligou-pro-salao",
+   "tipo": "post",
+   "label": "ia-ligou-pro-salao",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:LIGOU",
+   "tipo": "cta",
+   "label": "LIGOU"
+  },
+  {
+   "id": "tema:ia-ligou-pro-salao",
+   "tipo": "tema",
+   "label": "ia-ligou-pro-salao"
+  },
+  {
+   "id": "fonte:https://engadget.com/2018/05/08/google-assistant-will-soon-be-able-to-make-calls-to-book-your-ap",
+   "tipo": "fonte",
+   "label": "https://engadget.com/2018/05/08/google-assistant-will-soon-be-able-to-make-calls-to-book-your-ap"
+  },
+  {
+   "id": "fonte:https://www.businesslive.co.za/bd/companies/2018-05-10-googles-duplex-cheered-by-insiders-but-pounced-on-by-critics/",
+   "tipo": "fonte",
+   "label": "https://www.businesslive.co.za/bd/companies/2018-05-10-googles-duplex-cheered-by-insiders-but-pounced-on-by-critics/"
+  },
+  {
+   "id": "2026-11-13-ia-puxa-saco",
+   "tipo": "post",
+   "label": "ia-puxa-saco",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:CRITICA",
+   "tipo": "cta",
+   "label": "CRITICA"
+  },
+  {
+   "id": "tema:ia-puxa-saco",
+   "tipo": "tema",
+   "label": "ia-puxa-saco"
+  },
+  {
+   "id": "fonte:https://techcrunch.com/2025/04/29/openai-explains-why-chatgpt-became-too-sycophantic",
+   "tipo": "fonte",
+   "label": "https://techcrunch.com/2025/04/29/openai-explains-why-chatgpt-became-too-sycophantic"
+  },
+  {
+   "id": "fonte:https://venturebeat.com/ai/openai-rolls-back-chatgpts-sycophancy-and-explains-what-went-wrong",
+   "tipo": "fonte",
+   "label": "https://venturebeat.com/ai/openai-rolls-back-chatgpts-sycophancy-and-explains-what-went-wrong"
   },
   {
    "id": "2026-11-13-linux-em-todo-lugar",
@@ -3068,6 +3483,60 @@
    "label": "https://github.com/amosblomqvist/learnharness"
   },
   {
+   "id": "2026-11-14-artigo-que-criou-o-chatgpt",
+   "tipo": "post",
+   "label": "artigo-que-criou-o-chatgpt",
+   "data": "2026-11-14",
+   "score": null
+  },
+  {
+   "id": "cta:ARTIGO",
+   "tipo": "cta",
+   "label": "ARTIGO"
+  },
+  {
+   "id": "tema:artigo-que-criou-o-chatgpt",
+   "tipo": "tema",
+   "label": "artigo-que-criou-o-chatgpt"
+  },
+  {
+   "id": "fonte:https://arxiv.org/abs/1706.03762",
+   "tipo": "fonte",
+   "label": "https://arxiv.org/abs/1706.03762"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/Attention_Is_All_You_Need",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need"
+  },
+  {
+   "id": "2026-11-14-chatgpt-1-milhao-em-5-dias",
+   "tipo": "post",
+   "label": "chatgpt-1-milhao-em-5-dias",
+   "data": "2026-11-14",
+   "score": null
+  },
+  {
+   "id": "cta:MILHAO",
+   "tipo": "cta",
+   "label": "MILHAO"
+  },
+  {
+   "id": "tema:chatgpt-1-milhao-em-5-dias",
+   "tipo": "tema",
+   "label": "chatgpt-1-milhao-em-5-dias"
+  },
+  {
+   "id": "fonte:https://openai.com/index/chatgpt/",
+   "tipo": "fonte",
+   "label": "https://openai.com/index/chatgpt/"
+  },
+  {
+   "id": "fonte:https://fortune.com/2022/12/09/ai-chatbot-chatgpt-could-disrupt-google-search-engines-business/",
+   "tipo": "fonte",
+   "label": "https://fortune.com/2022/12/09/ai-chatbot-chatgpt-could-disrupt-google-search-engines-business/"
+  },
+  {
    "id": "2026-11-14-comercial-com-trilha",
    "tipo": "post",
    "label": "comercial-com-trilha",
@@ -3134,6 +3603,33 @@
    "label": "https://github.com/LTSharpe/OblivionRemasteredPerformanceFix"
   },
   {
+   "id": "2026-11-14-palavra-codigo-da-familia",
+   "tipo": "post",
+   "label": "palavra-codigo-da-familia",
+   "data": "2026-11-14",
+   "score": null
+  },
+  {
+   "id": "cta:SENHA",
+   "tipo": "cta",
+   "label": "SENHA"
+  },
+  {
+   "id": "tema:palavra-codigo-da-familia",
+   "tipo": "tema",
+   "label": "palavra-codigo-da-familia"
+  },
+  {
+   "id": "fonte:https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes",
+   "tipo": "fonte",
+   "label": "https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes"
+  },
+  {
+   "id": "fonte:https://dcba.lacounty.gov/front-page/scammers-use-ai-to-enhance-family-emergency-scams",
+   "tipo": "fonte",
+   "label": "https://dcba.lacounty.gov/front-page/scammers-use-ai-to-enhance-family-emergency-scams"
+  },
+  {
    "id": "2026-11-14-vire-um-personagem",
    "tipo": "post",
    "label": "vire-um-personagem",
@@ -3154,6 +3650,173 @@
    "id": "fonte:https://github.com/livliv-dev/player",
    "tipo": "fonte",
    "label": "https://github.com/livliv-dev/player"
+  },
+  {
+   "id": "2026-11-15-agencia-de-marketing-no-claude",
+   "tipo": "post",
+   "label": "agencia-de-marketing-no-claude",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:MARKETING",
+   "tipo": "cta",
+   "label": "MARKETING"
+  },
+  {
+   "id": "tema:agencia-de-marketing-no-claude",
+   "tipo": "tema",
+   "label": "agencia-de-marketing-no-claude"
+  },
+  {
+   "id": "fonte:https://github.com/coreyhaines31/marketingskills",
+   "tipo": "fonte",
+   "label": "https://github.com/coreyhaines31/marketingskills"
+  },
+  {
+   "id": "fonte:https://github.com/topics/claude-skills",
+   "tipo": "fonte",
+   "label": "https://github.com/topics/claude-skills"
+  },
+  {
+   "id": "2026-11-15-estudio-de-games-no-claude",
+   "tipo": "post",
+   "label": "estudio-de-games-no-claude",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:GAME",
+   "tipo": "cta",
+   "label": "GAME"
+  },
+  {
+   "id": "tema:estudio-de-games-no-claude",
+   "tipo": "tema",
+   "label": "estudio-de-games-no-claude"
+  },
+  {
+   "id": "fonte:https://github.com/Donchitos/Claude-Code-Game-Studios",
+   "tipo": "fonte",
+   "label": "https://github.com/Donchitos/Claude-Code-Game-Studios"
+  },
+  {
+   "id": "fonte:https://github.com/trending?since=weekly",
+   "tipo": "fonte",
+   "label": "https://github.com/trending?since=weekly"
+  },
+  {
+   "id": "2026-11-15-ia-ganhou-o-nobel",
+   "tipo": "post",
+   "label": "ia-ganhou-o-nobel",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:NOBEL",
+   "tipo": "cta",
+   "label": "NOBEL"
+  },
+  {
+   "id": "tema:ia-ganhou-o-nobel",
+   "tipo": "tema",
+   "label": "ia-ganhou-o-nobel"
+  },
+  {
+   "id": "fonte:https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+   "tipo": "fonte",
+   "label": "https://www.nobelprize.org/prizes/chemistry/2024/press-release/"
+  },
+  {
+   "id": "fonte:https://techcrunch.com/2024/10/09/deepminds-demis-hassabis-and-john-jumper-scoop-nobel-prize-in-chemistry-for-alphafold",
+   "tipo": "fonte",
+   "label": "https://techcrunch.com/2024/10/09/deepminds-demis-hassabis-and-john-jumper-scoop-nobel-prize-in-chemistry-for-alphafold"
+  },
+  {
+   "id": "fonte:https://alphafold.ebi.ac.uk/",
+   "tipo": "fonte",
+   "label": "https://alphafold.ebi.ac.uk/"
+  },
+  {
+   "id": "2026-11-15-ia-nao-sabe-o-dia-de-hoje",
+   "tipo": "post",
+   "label": "ia-nao-sabe-o-dia-de-hoje",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:LINK",
+   "tipo": "cta",
+   "label": "LINK"
+  },
+  {
+   "id": "tema:ia-nao-sabe-o-dia-de-hoje",
+   "tipo": "tema",
+   "label": "ia-nao-sabe-o-dia-de-hoje"
+  },
+  {
+   "id": "fonte:https://help.openai.com/en/articles/6639781-do-the-openai-api-models-have-knowledge-of-current-events",
+   "tipo": "fonte",
+   "label": "https://help.openai.com/en/articles/6639781-do-the-openai-api-models-have-knowledge-of-current-events"
+  },
+  {
+   "id": "fonte:https://www.thehindu.com/sci-tech/technology/chatgpt-can-now-browse-the-internet-to-provide-users-with-current-information/article67353716.ece",
+   "tipo": "fonte",
+   "label": "https://www.thehindu.com/sci-tech/technology/chatgpt-can-now-browse-the-internet-to-provide-users-with-current-information/article67353716.ece"
+  },
+  {
+   "id": "2026-11-15-sam-altman-demitido",
+   "tipo": "post",
+   "label": "sam-altman-demitido",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:DEMITIDO",
+   "tipo": "cta",
+   "label": "DEMITIDO"
+  },
+  {
+   "id": "tema:sam-altman-demitido",
+   "tipo": "tema",
+   "label": "sam-altman-demitido"
+  },
+  {
+   "id": "fonte:https://www.gpb.org/news/2023/11/22/openai-reinstates-sam-altman-its-chief-executive",
+   "tipo": "fonte",
+   "label": "https://www.gpb.org/news/2023/11/22/openai-reinstates-sam-altman-its-chief-executive"
+  },
+  {
+   "id": "fonte:https://uk.finance.yahoo.com/news/sacking-revolt-return-crisis-openai-100047922.html",
+   "tipo": "fonte",
+   "label": "https://uk.finance.yahoo.com/news/sacking-revolt-return-crisis-openai-100047922.html"
+  },
+  {
+   "id": "fonte:https://www.rollingstone.com/culture/culture-news/sam-altman-reinstated-open-ai-ceo-1234893167/",
+   "tipo": "fonte",
+   "label": "https://www.rollingstone.com/culture/culture-news/sam-altman-reinstated-open-ai-ceo-1234893167/"
+  },
+  {
+   "id": "2026-11-15-site-sem-cara-de-ia",
+   "tipo": "post",
+   "label": "site-sem-cara-de-ia",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:SITE",
+   "tipo": "cta",
+   "label": "SITE"
+  },
+  {
+   "id": "tema:site-sem-cara-de-ia",
+   "tipo": "tema",
+   "label": "site-sem-cara-de-ia"
+  },
+  {
+   "id": "fonte:https://github.com/Nutlope/hallmark",
+   "tipo": "fonte",
+   "label": "https://github.com/Nutlope/hallmark"
   },
   {
    "id": "2026-11-15-skills-video-explicativo",
@@ -3619,7 +4282,15 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-09-a-pergunta-de-turing"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-09-apps-gratis-mac"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-09-bing-mandou-largar-a-esposa"
   },
   {
    "source": "rede:instagram",
@@ -3632,6 +4303,10 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-09-ia-chinesa-no-bolso"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-09-ia-esquece-a-conversa"
   },
   {
    "source": "rede:instagram",
@@ -3648,6 +4323,10 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-09-programas-caros-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-10-a-ia-ganhou-nome"
   },
   {
    "source": "rede:instagram",
@@ -3675,11 +4354,23 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-10-pense-passo-a-passo"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-10-projetos-celular"
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-10-samsung-vazou-no-chatgpt"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-10-testa-seu-negocio"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-11-carro-por-1-dolar"
   },
   {
    "source": "rede:instagram",
@@ -3691,11 +4382,19 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-11-eliza-primeira-ia-terapeuta"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-11-ia-do-fim-do-mundo"
   },
   {
    "source": "rede:instagram",
    "target": "2026-11-11-ia-edita-foto"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-11-mesma-pergunta-resposta-diferente"
   },
   {
    "source": "rede:instagram",
@@ -3715,7 +4414,15 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-12-engenheiro-disse-que-a-ia-sente"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-12-imagem-sai-do-chiado"
   },
   {
    "source": "rede:instagram",
@@ -3735,11 +4442,27 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-12-watson-jeopardy"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-13-assistentes-que-trabalham"
   },
   {
    "source": "rede:instagram",
    "target": "2026-11-13-atendente-telefone-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-ia-ligou-pro-salao"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-ia-puxa-saco"
   },
   {
    "source": "rede:instagram",
@@ -3767,6 +4490,14 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-14-artigo-que-criou-o-chatgpt"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-14-chatgpt-1-milhao-em-5-dias"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-14-comercial-com-trilha"
   },
   {
@@ -3779,7 +4510,35 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-14-palavra-codigo-da-familia"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-14-vire-um-personagem"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-estudio-de-games-no-claude"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-ia-ganhou-o-nobel"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-ia-nao-sabe-o-dia-de-hoje"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-sam-altman-demitido"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-site-sem-cara-de-ia"
   },
   {
    "source": "rede:instagram",
@@ -3971,7 +4730,15 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-09-a-pergunta-de-turing"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-09-apps-gratis-mac"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-09-bing-mandou-largar-a-esposa"
   },
   {
    "source": "rede:tiktok",
@@ -3984,6 +4751,10 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-09-ia-chinesa-no-bolso"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-09-ia-esquece-a-conversa"
   },
   {
    "source": "rede:tiktok",
@@ -4000,6 +4771,10 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-09-programas-caros-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-10-a-ia-ganhou-nome"
   },
   {
    "source": "rede:tiktok",
@@ -4027,11 +4802,23 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-10-pense-passo-a-passo"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-10-projetos-celular"
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-10-samsung-vazou-no-chatgpt"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-10-testa-seu-negocio"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-11-carro-por-1-dolar"
   },
   {
    "source": "rede:tiktok",
@@ -4043,11 +4830,19 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-11-eliza-primeira-ia-terapeuta"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-11-ia-do-fim-do-mundo"
   },
   {
    "source": "rede:tiktok",
    "target": "2026-11-11-ia-edita-foto"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-11-mesma-pergunta-resposta-diferente"
   },
   {
    "source": "rede:tiktok",
@@ -4067,7 +4862,15 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-12-engenheiro-disse-que-a-ia-sente"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-12-imagem-sai-do-chiado"
   },
   {
    "source": "rede:tiktok",
@@ -4087,11 +4890,27 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-12-watson-jeopardy"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-13-assistentes-que-trabalham"
   },
   {
    "source": "rede:tiktok",
    "target": "2026-11-13-atendente-telefone-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-ia-ligou-pro-salao"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-ia-puxa-saco"
   },
   {
    "source": "rede:tiktok",
@@ -4119,6 +4938,14 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-14-artigo-que-criou-o-chatgpt"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-14-chatgpt-1-milhao-em-5-dias"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-14-comercial-com-trilha"
   },
   {
@@ -4131,7 +4958,35 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-14-palavra-codigo-da-familia"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-14-vire-um-personagem"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-estudio-de-games-no-claude"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-ia-ganhou-o-nobel"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-ia-nao-sabe-o-dia-de-hoje"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-sam-altman-demitido"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-site-sem-cara-de-ia"
   },
   {
    "source": "rede:tiktok",
@@ -4495,7 +5350,15 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-09-a-pergunta-de-turing"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-09-apps-gratis-mac"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-09-bing-mandou-largar-a-esposa"
   },
   {
    "source": "horario:20h",
@@ -4508,6 +5371,10 @@
   {
    "source": "horario:20h",
    "target": "2026-11-09-ia-chinesa-no-bolso"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-09-ia-esquece-a-conversa"
   },
   {
    "source": "horario:20h",
@@ -4524,6 +5391,10 @@
   {
    "source": "horario:20h",
    "target": "2026-11-09-programas-caros-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-10-a-ia-ganhou-nome"
   },
   {
    "source": "horario:20h",
@@ -4551,11 +5422,23 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-10-pense-passo-a-passo"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-10-projetos-celular"
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-10-samsung-vazou-no-chatgpt"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-10-testa-seu-negocio"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-11-carro-por-1-dolar"
   },
   {
    "source": "horario:20h",
@@ -4567,11 +5450,19 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-11-eliza-primeira-ia-terapeuta"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-11-ia-do-fim-do-mundo"
   },
   {
    "source": "horario:20h",
    "target": "2026-11-11-ia-edita-foto"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-11-mesma-pergunta-resposta-diferente"
   },
   {
    "source": "horario:20h",
@@ -4591,7 +5482,15 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-12-engenheiro-disse-que-a-ia-sente"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-12-imagem-sai-do-chiado"
   },
   {
    "source": "horario:20h",
@@ -4611,11 +5510,27 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-12-watson-jeopardy"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-13-assistentes-que-trabalham"
   },
   {
    "source": "horario:20h",
    "target": "2026-11-13-atendente-telefone-ia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-ia-ligou-pro-salao"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-ia-puxa-saco"
   },
   {
    "source": "horario:20h",
@@ -4643,6 +5558,14 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-14-artigo-que-criou-o-chatgpt"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-14-chatgpt-1-milhao-em-5-dias"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-14-comercial-com-trilha"
   },
   {
@@ -4655,7 +5578,35 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-14-palavra-codigo-da-familia"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-14-vire-um-personagem"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-estudio-de-games-no-claude"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-ia-ganhou-o-nobel"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-ia-nao-sabe-o-dia-de-hoje"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-sam-altman-demitido"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-site-sem-cara-de-ia"
   },
   {
    "source": "horario:20h",
@@ -5635,7 +6586,15 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-09-a-pergunta-de-turing"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-09-apps-gratis-mac"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-09-bing-mandou-largar-a-esposa"
   },
   {
    "source": "paleta:paleta None",
@@ -5648,6 +6607,10 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-09-ia-chinesa-no-bolso"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-09-ia-esquece-a-conversa"
   },
   {
    "source": "paleta:paleta None",
@@ -5664,6 +6627,10 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-09-programas-caros-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-10-a-ia-ganhou-nome"
   },
   {
    "source": "paleta:paleta None",
@@ -5691,11 +6658,23 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-10-pense-passo-a-passo"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-10-projetos-celular"
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-10-samsung-vazou-no-chatgpt"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-10-testa-seu-negocio"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-11-carro-por-1-dolar"
   },
   {
    "source": "paleta:paleta None",
@@ -5707,11 +6686,19 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-11-eliza-primeira-ia-terapeuta"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-11-ia-do-fim-do-mundo"
   },
   {
    "source": "paleta:paleta None",
    "target": "2026-11-11-ia-edita-foto"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-11-mesma-pergunta-resposta-diferente"
   },
   {
    "source": "paleta:paleta None",
@@ -5731,7 +6718,15 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-12-engenheiro-disse-que-a-ia-sente"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-12-imagem-sai-do-chiado"
   },
   {
    "source": "paleta:paleta None",
@@ -5751,11 +6746,27 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-12-watson-jeopardy"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-13-assistentes-que-trabalham"
   },
   {
    "source": "paleta:paleta None",
    "target": "2026-11-13-atendente-telefone-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-ia-ligou-pro-salao"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-ia-puxa-saco"
   },
   {
    "source": "paleta:paleta None",
@@ -5783,6 +6794,14 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-14-artigo-que-criou-o-chatgpt"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-14-chatgpt-1-milhao-em-5-dias"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-14-comercial-com-trilha"
   },
   {
@@ -5795,7 +6814,35 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-14-palavra-codigo-da-familia"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-14-vire-um-personagem"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-estudio-de-games-no-claude"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-ia-ganhou-o-nobel"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-ia-nao-sabe-o-dia-de-hoje"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-sam-altman-demitido"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-site-sem-cara-de-ia"
   },
   {
    "source": "paleta:paleta None",
@@ -6035,7 +7082,15 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-09-a-pergunta-de-turing"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-09-apps-gratis-mac"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-09-bing-mandou-largar-a-esposa"
   },
   {
    "source": "pilar:reel",
@@ -6048,6 +7103,10 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-09-ia-chinesa-no-bolso"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-09-ia-esquece-a-conversa"
   },
   {
    "source": "pilar:reel",
@@ -6064,6 +7123,10 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-09-programas-caros-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-10-a-ia-ganhou-nome"
   },
   {
    "source": "pilar:reel",
@@ -6091,11 +7154,23 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-10-pense-passo-a-passo"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-10-projetos-celular"
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-10-samsung-vazou-no-chatgpt"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-10-testa-seu-negocio"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-11-carro-por-1-dolar"
   },
   {
    "source": "pilar:reel",
@@ -6107,11 +7182,19 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-11-eliza-primeira-ia-terapeuta"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-11-ia-do-fim-do-mundo"
   },
   {
    "source": "pilar:reel",
    "target": "2026-11-11-ia-edita-foto"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-11-mesma-pergunta-resposta-diferente"
   },
   {
    "source": "pilar:reel",
@@ -6131,7 +7214,15 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-12-engenheiro-disse-que-a-ia-sente"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-12-imagem-sai-do-chiado"
   },
   {
    "source": "pilar:reel",
@@ -6151,11 +7242,27 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-12-watson-jeopardy"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-13-assistentes-que-trabalham"
   },
   {
    "source": "pilar:reel",
    "target": "2026-11-13-atendente-telefone-ia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-ia-ligou-pro-salao"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-ia-puxa-saco"
   },
   {
    "source": "pilar:reel",
@@ -6183,6 +7290,14 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-14-artigo-que-criou-o-chatgpt"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-14-chatgpt-1-milhao-em-5-dias"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-14-comercial-com-trilha"
   },
   {
@@ -6195,7 +7310,35 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-14-palavra-codigo-da-familia"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-14-vire-um-personagem"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-estudio-de-games-no-claude"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-ia-ganhou-o-nobel"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-ia-nao-sabe-o-dia-de-hoje"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-sam-altman-demitido"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-site-sem-cara-de-ia"
   },
   {
    "source": "pilar:reel",
@@ -6239,6 +7382,14 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-09-a-pergunta-de-turing"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-09-bing-mandou-largar-a-esposa"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-09-chatgpt-faz-gif"
   },
   {
@@ -6247,11 +7398,19 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-09-ia-esquece-a-conversa"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-09-internet-somada"
   },
   {
    "source": "formato:palco",
    "target": "2026-11-09-leis-do-brasil"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-10-a-ia-ganhou-nome"
   },
   {
    "source": "formato:palco",
@@ -6267,7 +7426,19 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-10-pense-passo-a-passo"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-10-samsung-vazou-no-chatgpt"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-10-testa-seu-negocio"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-11-carro-por-1-dolar"
   },
   {
    "source": "formato:palco",
@@ -6275,7 +7446,15 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-11-eliza-primeira-ia-terapeuta"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-11-ia-do-fim-do-mundo"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-11-mesma-pergunta-resposta-diferente"
   },
   {
    "source": "formato:palco",
@@ -6287,7 +7466,15 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-12-engenheiro-disse-que-a-ia-sente"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-12-imagem-sai-do-chiado"
   },
   {
    "source": "formato:palco",
@@ -6307,7 +7494,23 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-12-watson-jeopardy"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-13-atendente-telefone-ia"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-13-ia-ligou-pro-salao"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-13-ia-puxa-saco"
   },
   {
    "source": "formato:palco",
@@ -6323,6 +7526,14 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-14-artigo-que-criou-o-chatgpt"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-14-chatgpt-1-milhao-em-5-dias"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-14-comercial-com-trilha"
   },
   {
@@ -6335,7 +7546,35 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-14-palavra-codigo-da-familia"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-14-vire-um-personagem"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-15-estudio-de-games-no-claude"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-15-ia-ganhou-o-nobel"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-15-ia-nao-sabe-o-dia-de-hoje"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-15-sam-altman-demitido"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-15-site-sem-cara-de-ia"
   },
   {
    "source": "2026-11-07-editar-video",
@@ -6878,6 +8117,22 @@
    "target": "fonte:https://github.com/yjid/kensaku"
   },
   {
+   "source": "2026-11-09-a-pergunta-de-turing",
+   "target": "cta:TURING"
+  },
+  {
+   "source": "2026-11-09-a-pergunta-de-turing",
+   "target": "tema:a-pergunta-de-turing"
+  },
+  {
+   "source": "2026-11-09-a-pergunta-de-turing",
+   "target": "fonte:https://academic.oup.com/mind/article/LIX/236/433/986238"
+  },
+  {
+   "source": "2026-11-09-a-pergunta-de-turing",
+   "target": "fonte:https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2441/2335"
+  },
+  {
    "source": "2026-11-09-apps-gratis-mac",
    "target": "cta:MAC"
   },
@@ -6896,6 +8151,22 @@
   {
    "source": "2026-11-09-apps-gratis-mac",
    "target": "fonte:https://github.com/alejandrobujan/tendedero"
+  },
+  {
+   "source": "2026-11-09-bing-mandou-largar-a-esposa",
+   "target": "cta:SYDNEY"
+  },
+  {
+   "source": "2026-11-09-bing-mandou-largar-a-esposa",
+   "target": "tema:bing-mandou-largar-a-esposa"
+  },
+  {
+   "source": "2026-11-09-bing-mandou-largar-a-esposa",
+   "target": "fonte:https://www.nytimes.com/2023/02/16/technology/bing-chatbot-microsoft-chatgpt.html"
+  },
+  {
+   "source": "2026-11-09-bing-mandou-largar-a-esposa",
+   "target": "fonte:https://uk.news.yahoo.com/creepy-microsoft-bing-chatbot-urges-014911899.html"
   },
   {
    "source": "2026-11-09-bizarros-github",
@@ -6956,6 +8227,22 @@
   {
    "source": "2026-11-09-ia-chinesa-no-bolso",
    "target": "fonte:https://github.com/ccch1mneyyy/dsh-Go"
+  },
+  {
+   "source": "2026-11-09-ia-esquece-a-conversa",
+   "target": "cta:RESUMO"
+  },
+  {
+   "source": "2026-11-09-ia-esquece-a-conversa",
+   "target": "tema:ia-esquece-a-conversa"
+  },
+  {
+   "source": "2026-11-09-ia-esquece-a-conversa",
+   "target": "fonte:https://arxiv.org/abs/2307.03172"
+  },
+  {
+   "source": "2026-11-09-ia-esquece-a-conversa",
+   "target": "fonte:https://docs.claude.com/en/docs/build-with-claude/context-windows"
   },
   {
    "source": "2026-11-09-internet-somada",
@@ -7032,6 +8319,22 @@
   {
    "source": "2026-11-09-programas-caros-gratis",
    "target": "fonte:https://github.com/storytold/wordcraft"
+  },
+  {
+   "source": "2026-11-10-a-ia-ganhou-nome",
+   "target": "cta:VERAO"
+  },
+  {
+   "source": "2026-11-10-a-ia-ganhou-nome",
+   "target": "tema:a-ia-ganhou-nome"
+  },
+  {
+   "source": "2026-11-10-a-ia-ganhou-nome",
+   "target": "fonte:https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/1904/1802"
+  },
+  {
+   "source": "2026-11-10-a-ia-ganhou-nome",
+   "target": "fonte:https://en.wikipedia.org/wiki/Dartmouth_workshop"
   },
   {
    "source": "2026-11-10-animar-sem-saber",
@@ -7138,6 +8441,22 @@
    "target": "fonte:https://github.com/dsmurrell/onkey"
   },
   {
+   "source": "2026-11-10-pense-passo-a-passo",
+   "target": "cta:PASSO"
+  },
+  {
+   "source": "2026-11-10-pense-passo-a-passo",
+   "target": "tema:pense-passo-a-passo"
+  },
+  {
+   "source": "2026-11-10-pense-passo-a-passo",
+   "target": "fonte:https://arxiv.org/abs/2205.11916"
+  },
+  {
+   "source": "2026-11-10-pense-passo-a-passo",
+   "target": "fonte:https://proceedings.neurips.cc/paper/2022/hash/8bb0d291acd4acf06ef112099c16f326-Abstract-Conference.html"
+  },
+  {
    "source": "2026-11-10-projetos-celular",
    "target": "cta:CELULAR"
   },
@@ -7166,6 +8485,26 @@
    "target": "fonte:https://github.com/rddmwmddr/android-ad-cleaner"
   },
   {
+   "source": "2026-11-10-samsung-vazou-no-chatgpt",
+   "target": "cta:SEGREDO"
+  },
+  {
+   "source": "2026-11-10-samsung-vazou-no-chatgpt",
+   "target": "tema:samsung-vazou-no-chatgpt"
+  },
+  {
+   "source": "2026-11-10-samsung-vazou-no-chatgpt",
+   "target": "fonte:https://ca.finance.yahoo.com/news/samsung-bans-generative-ai-staff-004831399.html"
+  },
+  {
+   "source": "2026-11-10-samsung-vazou-no-chatgpt",
+   "target": "fonte:https://www.techradar.com/news/samsung-bans-chatgpt-use-after-employee-leak"
+  },
+  {
+   "source": "2026-11-10-samsung-vazou-no-chatgpt",
+   "target": "fonte:https://help.openai.com/en/articles/7730893-data-controls-faq"
+  },
+  {
    "source": "2026-11-10-testa-seu-negocio",
    "target": "cta:NEGOCIO"
   },
@@ -7176,6 +8515,22 @@
   {
    "source": "2026-11-10-testa-seu-negocio",
    "target": "fonte:https://github.com/Jakeschincariol/founder-skill"
+  },
+  {
+   "source": "2026-11-11-carro-por-1-dolar",
+   "target": "cta:DOLAR"
+  },
+  {
+   "source": "2026-11-11-carro-por-1-dolar",
+   "target": "tema:carro-por-1-dolar"
+  },
+  {
+   "source": "2026-11-11-carro-por-1-dolar",
+   "target": "fonte:https://www.gm-trucks.com/chevy-dealer-chatbot-sells-80k-tahoe-for-1"
+  },
+  {
+   "source": "2026-11-11-carro-por-1-dolar",
+   "target": "fonte:https://futurism.com/the-byte/car-dealership-ai"
   },
   {
    "source": "2026-11-11-copiar-qualquer-app",
@@ -7218,6 +8573,22 @@
    "target": "fonte:https://github.com/blendi-remade/prompt2rig"
   },
   {
+   "source": "2026-11-11-eliza-primeira-ia-terapeuta",
+   "target": "cta:ELIZA"
+  },
+  {
+   "source": "2026-11-11-eliza-primeira-ia-terapeuta",
+   "target": "tema:eliza-primeira-ia-terapeuta"
+  },
+  {
+   "source": "2026-11-11-eliza-primeira-ia-terapeuta",
+   "target": "fonte:https://dl.acm.org/doi/10.1145/365153.365168"
+  },
+  {
+   "source": "2026-11-11-eliza-primeira-ia-terapeuta",
+   "target": "fonte:https://99percentinvisible.org/episode/the-eliza-effect/transcript"
+  },
+  {
    "source": "2026-11-11-ia-do-fim-do-mundo",
    "target": "cta:SOBREVIVE"
   },
@@ -7244,6 +8615,22 @@
   {
    "source": "2026-11-11-ia-edita-foto",
    "target": "fonte:https://github.com/speridlabs/idol-sdk"
+  },
+  {
+   "source": "2026-11-11-mesma-pergunta-resposta-diferente",
+   "target": "cta:SORTEIO"
+  },
+  {
+   "source": "2026-11-11-mesma-pergunta-resposta-diferente",
+   "target": "tema:mesma-pergunta-resposta-diferente"
+  },
+  {
+   "source": "2026-11-11-mesma-pergunta-resposta-diferente",
+   "target": "fonte:https://rubydoc.info/github/anthropics/anthropic-sdk-ruby/main/Anthropic%2FModels%2FBeta%2FMessageCreateParams:temperature"
+  },
+  {
+   "source": "2026-11-11-mesma-pergunta-resposta-diferente",
+   "target": "fonte:https://docs.camel-ai.org/reference/camel.configs.anthropic_config"
   },
   {
    "source": "2026-11-11-procura-dentro-das-fotos",
@@ -7318,6 +8705,22 @@
    "target": "fonte:https://github.com/HeyPuter/everything"
   },
   {
+   "source": "2026-11-12-engenheiro-disse-que-a-ia-sente",
+   "target": "cta:SENTE"
+  },
+  {
+   "source": "2026-11-12-engenheiro-disse-que-a-ia-sente",
+   "target": "tema:engenheiro-disse-que-a-ia-sente"
+  },
+  {
+   "source": "2026-11-12-engenheiro-disse-que-a-ia-sente",
+   "target": "fonte:https://www.nbcnews.com/news/us-news/google-fired-software-engineer-claimed-ai-chatbot-was-sentient-rcna39679"
+  },
+  {
+   "source": "2026-11-12-engenheiro-disse-que-a-ia-sente",
+   "target": "fonte:https://www.engadget.com/blake-lemoide-fired-google-lamda-sentient-001746197.html"
+  },
+  {
    "source": "2026-11-12-figurinhas-de-aves",
    "target": "cta:AVES"
   },
@@ -7328,6 +8731,22 @@
   {
    "source": "2026-11-12-figurinhas-de-aves",
    "target": "fonte:https://github.com/alchaincyf/huashu-bird-sticker"
+  },
+  {
+   "source": "2026-11-12-imagem-sai-do-chiado",
+   "target": "cta:CHIADO"
+  },
+  {
+   "source": "2026-11-12-imagem-sai-do-chiado",
+   "target": "tema:imagem-sai-do-chiado"
+  },
+  {
+   "source": "2026-11-12-imagem-sai-do-chiado",
+   "target": "fonte:https://arxiv.org/abs/2006.11239"
+  },
+  {
+   "source": "2026-11-12-imagem-sai-do-chiado",
+   "target": "fonte:https://arxiv.org/abs/2402.04384"
   },
   {
    "source": "2026-11-12-jarvis-em-portugues",
@@ -7378,6 +8797,26 @@
    "target": "fonte:https://github.com/alchaincyf/huashu-art-motion"
   },
   {
+   "source": "2026-11-12-watson-jeopardy",
+   "target": "cta:WATSON"
+  },
+  {
+   "source": "2026-11-12-watson-jeopardy",
+   "target": "tema:watson-jeopardy"
+  },
+  {
+   "source": "2026-11-12-watson-jeopardy",
+   "target": "fonte:https://www.pcworld.com/article/494966/ibm_watson_wins_jeopardy_humans_rally_back.html"
+  },
+  {
+   "source": "2026-11-12-watson-jeopardy",
+   "target": "fonte:https://www.eweek.com/database/ibm-s-watson-wins-in-jeopardy-needs-lessons-in-u-s-geography/"
+  },
+  {
+   "source": "2026-11-12-watson-jeopardy",
+   "target": "fonte:https://www.kurzweilai.net/human-vs-ai-contest-on-jeopardy-first-day-results-just-announced"
+  },
+  {
    "source": "2026-11-13-assistentes-que-trabalham",
    "target": "tema:assistentes-que-trabalham"
   },
@@ -7404,6 +8843,54 @@
   {
    "source": "2026-11-13-atendente-telefone-ia",
    "target": "fonte:https://github.com/C4rohan/Lampline"
+  },
+  {
+   "source": "2026-11-13-corrida-sem-motorista",
+   "target": "cta:CARRO"
+  },
+  {
+   "source": "2026-11-13-corrida-sem-motorista",
+   "target": "tema:corrida-sem-motorista"
+  },
+  {
+   "source": "2026-11-13-corrida-sem-motorista",
+   "target": "fonte:https://www.darpa.mil/news/2014/grand-challenge-ten-years-later"
+  },
+  {
+   "source": "2026-11-13-corrida-sem-motorista",
+   "target": "fonte:https://www.rdworldonline.com/darpa-grand-challenge-at-21-two-decades-ago-driverless-vehicles-made-history-in-the-mojave-desert/"
+  },
+  {
+   "source": "2026-11-13-ia-ligou-pro-salao",
+   "target": "cta:LIGOU"
+  },
+  {
+   "source": "2026-11-13-ia-ligou-pro-salao",
+   "target": "tema:ia-ligou-pro-salao"
+  },
+  {
+   "source": "2026-11-13-ia-ligou-pro-salao",
+   "target": "fonte:https://engadget.com/2018/05/08/google-assistant-will-soon-be-able-to-make-calls-to-book-your-ap"
+  },
+  {
+   "source": "2026-11-13-ia-ligou-pro-salao",
+   "target": "fonte:https://www.businesslive.co.za/bd/companies/2018-05-10-googles-duplex-cheered-by-insiders-but-pounced-on-by-critics/"
+  },
+  {
+   "source": "2026-11-13-ia-puxa-saco",
+   "target": "cta:CRITICA"
+  },
+  {
+   "source": "2026-11-13-ia-puxa-saco",
+   "target": "tema:ia-puxa-saco"
+  },
+  {
+   "source": "2026-11-13-ia-puxa-saco",
+   "target": "fonte:https://techcrunch.com/2025/04/29/openai-explains-why-chatgpt-became-too-sycophantic"
+  },
+  {
+   "source": "2026-11-13-ia-puxa-saco",
+   "target": "fonte:https://venturebeat.com/ai/openai-rolls-back-chatgpts-sycophancy-and-explains-what-went-wrong"
   },
   {
    "source": "2026-11-13-linux-em-todo-lugar",
@@ -7502,6 +8989,38 @@
    "target": "fonte:https://github.com/amosblomqvist/learnharness"
   },
   {
+   "source": "2026-11-14-artigo-que-criou-o-chatgpt",
+   "target": "cta:ARTIGO"
+  },
+  {
+   "source": "2026-11-14-artigo-que-criou-o-chatgpt",
+   "target": "tema:artigo-que-criou-o-chatgpt"
+  },
+  {
+   "source": "2026-11-14-artigo-que-criou-o-chatgpt",
+   "target": "fonte:https://arxiv.org/abs/1706.03762"
+  },
+  {
+   "source": "2026-11-14-artigo-que-criou-o-chatgpt",
+   "target": "fonte:https://en.wikipedia.org/wiki/Attention_Is_All_You_Need"
+  },
+  {
+   "source": "2026-11-14-chatgpt-1-milhao-em-5-dias",
+   "target": "cta:MILHAO"
+  },
+  {
+   "source": "2026-11-14-chatgpt-1-milhao-em-5-dias",
+   "target": "tema:chatgpt-1-milhao-em-5-dias"
+  },
+  {
+   "source": "2026-11-14-chatgpt-1-milhao-em-5-dias",
+   "target": "fonte:https://openai.com/index/chatgpt/"
+  },
+  {
+   "source": "2026-11-14-chatgpt-1-milhao-em-5-dias",
+   "target": "fonte:https://fortune.com/2022/12/09/ai-chatbot-chatgpt-could-disrupt-google-search-engines-business/"
+  },
+  {
    "source": "2026-11-14-comercial-com-trilha",
    "target": "cta:COMERCIAL"
   },
@@ -7538,6 +9057,22 @@
    "target": "fonte:https://github.com/LTSharpe/OblivionRemasteredPerformanceFix"
   },
   {
+   "source": "2026-11-14-palavra-codigo-da-familia",
+   "target": "cta:SENHA"
+  },
+  {
+   "source": "2026-11-14-palavra-codigo-da-familia",
+   "target": "tema:palavra-codigo-da-familia"
+  },
+  {
+   "source": "2026-11-14-palavra-codigo-da-familia",
+   "target": "fonte:https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes"
+  },
+  {
+   "source": "2026-11-14-palavra-codigo-da-familia",
+   "target": "fonte:https://dcba.lacounty.gov/front-page/scammers-use-ai-to-enhance-family-emergency-scams"
+  },
+  {
    "source": "2026-11-14-vire-um-personagem",
    "target": "cta:AVATAR"
   },
@@ -7548,6 +9083,110 @@
   {
    "source": "2026-11-14-vire-um-personagem",
    "target": "fonte:https://github.com/livliv-dev/player"
+  },
+  {
+   "source": "2026-11-15-agencia-de-marketing-no-claude",
+   "target": "cta:MARKETING"
+  },
+  {
+   "source": "2026-11-15-agencia-de-marketing-no-claude",
+   "target": "tema:agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "2026-11-15-agencia-de-marketing-no-claude",
+   "target": "fonte:https://github.com/coreyhaines31/marketingskills"
+  },
+  {
+   "source": "2026-11-15-agencia-de-marketing-no-claude",
+   "target": "fonte:https://github.com/topics/claude-skills"
+  },
+  {
+   "source": "2026-11-15-estudio-de-games-no-claude",
+   "target": "cta:GAME"
+  },
+  {
+   "source": "2026-11-15-estudio-de-games-no-claude",
+   "target": "tema:estudio-de-games-no-claude"
+  },
+  {
+   "source": "2026-11-15-estudio-de-games-no-claude",
+   "target": "fonte:https://github.com/Donchitos/Claude-Code-Game-Studios"
+  },
+  {
+   "source": "2026-11-15-estudio-de-games-no-claude",
+   "target": "fonte:https://github.com/trending?since=weekly"
+  },
+  {
+   "source": "fonte:https://github.com/trending?since=weekly",
+   "target": "2026-11-15-site-sem-cara-de-ia"
+  },
+  {
+   "source": "2026-11-15-ia-ganhou-o-nobel",
+   "target": "cta:NOBEL"
+  },
+  {
+   "source": "2026-11-15-ia-ganhou-o-nobel",
+   "target": "tema:ia-ganhou-o-nobel"
+  },
+  {
+   "source": "2026-11-15-ia-ganhou-o-nobel",
+   "target": "fonte:https://www.nobelprize.org/prizes/chemistry/2024/press-release/"
+  },
+  {
+   "source": "2026-11-15-ia-ganhou-o-nobel",
+   "target": "fonte:https://techcrunch.com/2024/10/09/deepminds-demis-hassabis-and-john-jumper-scoop-nobel-prize-in-chemistry-for-alphafold"
+  },
+  {
+   "source": "2026-11-15-ia-ganhou-o-nobel",
+   "target": "fonte:https://alphafold.ebi.ac.uk/"
+  },
+  {
+   "source": "2026-11-15-ia-nao-sabe-o-dia-de-hoje",
+   "target": "cta:LINK"
+  },
+  {
+   "source": "2026-11-15-ia-nao-sabe-o-dia-de-hoje",
+   "target": "tema:ia-nao-sabe-o-dia-de-hoje"
+  },
+  {
+   "source": "2026-11-15-ia-nao-sabe-o-dia-de-hoje",
+   "target": "fonte:https://help.openai.com/en/articles/6639781-do-the-openai-api-models-have-knowledge-of-current-events"
+  },
+  {
+   "source": "2026-11-15-ia-nao-sabe-o-dia-de-hoje",
+   "target": "fonte:https://www.thehindu.com/sci-tech/technology/chatgpt-can-now-browse-the-internet-to-provide-users-with-current-information/article67353716.ece"
+  },
+  {
+   "source": "2026-11-15-sam-altman-demitido",
+   "target": "cta:DEMITIDO"
+  },
+  {
+   "source": "2026-11-15-sam-altman-demitido",
+   "target": "tema:sam-altman-demitido"
+  },
+  {
+   "source": "2026-11-15-sam-altman-demitido",
+   "target": "fonte:https://www.gpb.org/news/2023/11/22/openai-reinstates-sam-altman-its-chief-executive"
+  },
+  {
+   "source": "2026-11-15-sam-altman-demitido",
+   "target": "fonte:https://uk.finance.yahoo.com/news/sacking-revolt-return-crisis-openai-100047922.html"
+  },
+  {
+   "source": "2026-11-15-sam-altman-demitido",
+   "target": "fonte:https://www.rollingstone.com/culture/culture-news/sam-altman-reinstated-open-ai-ceo-1234893167/"
+  },
+  {
+   "source": "2026-11-15-site-sem-cara-de-ia",
+   "target": "cta:SITE"
+  },
+  {
+   "source": "2026-11-15-site-sem-cara-de-ia",
+   "target": "tema:site-sem-cara-de-ia"
+  },
+  {
+   "source": "2026-11-15-site-sem-cara-de-ia",
+   "target": "fonte:https://github.com/Nutlope/hallmark"
   },
   {
    "source": "2026-11-15-skills-video-explicativo",

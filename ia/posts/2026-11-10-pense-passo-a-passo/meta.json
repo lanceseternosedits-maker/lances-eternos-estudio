@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-10",
+ "horario": "08:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "pense-passo-a-passo"
+ ],
+ "fontes": [
+  "https://arxiv.org/abs/2205.11916",
+  "https://proceedings.neurips.cc/paper/2022/hash/8bb0d291acd4acf06ef112099c16f326-Abstract-Conference.html"
+ ],
+ "prova_viral": "Artigo da NeurIPS 2022 (Kojima et al., Univ. de Tóquio + Google) entre os mais citados sobre prompts; 'truque de prompt' é busca muito comum.",
+ "cta": "PASSO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-10 08:00",
+  "tiktok": "2026-11-10 08:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

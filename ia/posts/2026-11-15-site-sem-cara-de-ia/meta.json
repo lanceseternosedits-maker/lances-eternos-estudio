@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-15",
+ "horario": "17:00",
+ "pilar": "reel",
+ "categoria": "novidade",
+ "formato": "palco",
+ "temas": [
+  "site-sem-cara-de-ia"
+ ],
+ "fontes": [
+  "https://github.com/Nutlope/hallmark",
+  "https://github.com/trending?since=weekly"
+ ],
+ "prova_viral": "Em alta no GitHub (Trending semanal, lido em 07/11/2026): 50,1 mil estrelas, +6.900 na semana. Licença MIT, feita pela Together AI.",
+ "cta": "SITE",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-15 17:00",
+  "tiktok": "2026-11-15 17:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

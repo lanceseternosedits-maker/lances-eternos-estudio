@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-09",
+ "horario": "14:00",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "a-pergunta-de-turing"
+ ],
+ "fontes": [
+  "https://academic.oup.com/mind/article/LIX/236/433/986238",
+  "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2441/2335"
+ ],
+ "prova_viral": "Fato histórico (Mind, outubro/1950) com 2 fontes; tema sempre em alta: 'dá pra saber se é IA?'.",
+ "cta": "TURING",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-09 14:00",
+  "tiktok": "2026-11-09 14:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

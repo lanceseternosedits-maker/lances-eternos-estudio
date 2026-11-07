@@ -1,0 +1,6 @@
+Aqui está! 📰
+
+📝 Prompt: "Antes de responder, pesquise na internet as informações mais recentes sobre [assunto]. Me diga a data de cada fonte e coloque os links."
+Ou cole o link da notícia e peça: "Resuma este link".
+
+📚 Ajuda oficial: https://help.openai.com/en/articles/6639781-do-the-openai-api-models-have-knowledge-of-current-events

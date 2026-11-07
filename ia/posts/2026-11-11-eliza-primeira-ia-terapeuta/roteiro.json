@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "ELIZA",
+ "tese": "ELA PEDIU PRA FICAR A SÓS COM A IA",
+ "conceito": "Laboratório do MIT nos anos 60: terminal de teletipo imprimindo papel contínuo, divã de terapeuta ao lado, porta com placa 'NÃO PERTURBE'. Paleta mostarda + marrom-café.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "d) letreiro split-flap",
+  "contador": "(sem contador: história)",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "e) página de caderno",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 02 + teletipo",
+  "mascote": "gravata fina e prancheta; ação principal: sair na ponta dos pés pela porta"
+ },
+ "brinde": "a história completa (episódio 'The ELIZA Effect') + curiosidade",
+ "fontes": [
+  "https://dl.acm.org/doi/10.1145/365153.365168",
+  "https://99percentinvisible.org/episode/the-eliza-effect/transcript"
+ ],
+ "prova_viral": "Fato histórico (artigo de Weizenbaum, Communications of the ACM, 1966) com 2 fontes; o assunto voltou com gente desabafando com o ChatGPT.",
+ "obs": "A secretária não tem nome nas fontes (não inventar). Fontes divergem sobre a frase exata: contar só que ela pediu pra ele sair da sala. Dizer 'anos 60', não um ano exato do episódio.",
+ "polemica": false,
+ "agenda": "2026-11-11 14:00",
+ "palavras": 90,
+ "duracao_estimada_s": 32.1,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "ELA PEDIU PRA FICAR A SÓS COM A IA",
+   "fala": "Nos anos 60, uma secretária pediu pro chefe sair da sala. Ela queria ficar sozinha com um programa.",
+   "legenda": "Nos anos 60, uma secretária pediu pro chefe sair da sala. Ela queria ficar sozinha com um programa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "ELA PEDIU PRA FICAR A SÓS COM A IA",
+    "ELIZA, A PRIMEIRA IA TERAPEUTA",
+    "E ERA SÓ UM PROGRAMA"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O programa era a ELIZA, criada por Joseph Weizenbaum no MIT.",
+   "legenda": "O programa era a ELIZA, criada por Joseph Weizenbaum no MIT.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Ela imitava uma terapeuta: pegava o que você escrevia e devolvia como pergunta.",
+   "legenda": "Ela imitava uma terapeuta: pegava o que você escrevia e devolvia como pergunta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "A secretária sabia que era só um programa. Mesmo assim, desabafou. Comenta ELIZA que eu te mando a história completa.",
+   "legenda": "A secretária sabia que era só um programa. Mesmo assim, desabafou. Comenta ELIZA que eu te mando a história completa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "O próprio criador ficou assustado e virou um crítico da IA. Hoje isso tem nome: efeito ELIZA.",
+   "legenda": "O próprio criador ficou assustado e virou um crítico da IA. Hoje isso tem nome: efeito ELIZA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA ELIZA",
+   "fala": "Comenta ELIZA e me segue. Você já desabafou com uma IA?",
+   "legenda": "Comenta ELIZA e me segue. Você já desabafou com uma IA?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

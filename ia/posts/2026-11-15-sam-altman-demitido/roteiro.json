@@ -1,0 +1,119 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "DEMITIDO",
+ "tese": "DEMITIRAM O CHEFE DO CHATGPT",
+ "conceito": "Sala de conselho com mesa de vidro e cadeiras de couro, porta giratória de prédio corporativo; uma pilha de cartas assinadas crescendo até o teto; calendário arrancando folhas de 17 a 22. Paleta cinza-grafite + verde-água.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "(sem contador: história)",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "b) pódio",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 02 + porta giratória",
+  "mascote": "terno e gravata frouxa; ação principal: sair e voltar pela porta giratória"
+ },
+ "brinde": "a linha do tempo dos 5 dias",
+ "fontes": [
+  "https://www.gpb.org/news/2023/11/22/openai-reinstates-sam-altman-its-chief-executive",
+  "https://uk.finance.yahoo.com/news/sacking-revolt-return-crisis-openai-100047922.html",
+  "https://www.rollingstone.com/culture/culture-news/sam-altman-reinstated-open-ai-ceo-1234893167/"
+ ],
+ "prova_viral": "Caso de 17–22/11/2023 com cobertura mundial; no dia 17/11/2026 faz 3 anos (post 2 dias antes).",
+ "obs": "Número de assinaturas da carta diverge (505 de ~700 no início; depois ~95%): dizer 'centenas'. O conselho disse que ele 'não foi consistentemente sincero'. Ilya Sutskever estava no conselho e assinou a carta.",
+ "polemica": true,
+ "agenda": "2026-11-15 19:00",
+ "palavras": 93,
+ "duracao_estimada_s": 33.2,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "DEMITIRAM O CHEFE DO CHATGPT",
+   "fala": "Em novembro de 2023, o conselho da OpenAI demitiu Sam Altman, o chefe do ChatGPT. Cinco dias depois, ele tava de volta.",
+   "legenda": "Em novembro de 2023, o conselho da OpenAI demitiu Sam Altman, o chefe do ChatGPT. Cinco dias depois, ele tava de volta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "DEMITIRAM O CHEFE DO CHATGPT",
+    "OPENAI, NOVEMBRO DE 2023",
+    "E ELE VOLTOU EM 5 DIAS"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O conselho disse que ele não tinha sido sempre sincero com eles.",
+   "legenda": "O conselho disse que ele não tinha sido sempre sincero com eles.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Aí a empresa quase acabou: centenas de funcionários assinaram uma carta ameaçando ir pra Microsoft.",
+   "legenda": "Aí a empresa quase acabou: centenas de funcionários assinaram uma carta ameaçando ir pra Microsoft.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Até um membro do conselho assinou. Comenta DEMITIDO que eu te mando a linha do tempo.",
+   "legenda": "Até um membro do conselho assinou. Comenta DEMITIDO que eu te mando a linha do tempo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "No dia 22, ele voltou como chefe, com um conselho novo. Daqui a dois dias, faz três anos.",
+   "legenda": "No dia 22, ele voltou como chefe, com um conselho novo. Daqui a dois dias, faz três anos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA DEMITIDO",
+   "fala": "Comenta DEMITIDO e me segue. De que lado você ficaria?",
+   "legenda": "Comenta DEMITIDO e me segue. De que lado você ficaria?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

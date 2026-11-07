@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "SENTE",
+ "tese": "ELE DISSE QUE A IA TINHA SENTIMENTOS",
+ "conceito": "Cabine de cinema vazia à noite: um projetor joga conversas na tela como legenda de filme, poltronas vermelhas, pipoca derrubada; no fim, um crachá caindo numa caixa de papelão. Paleta preto-azulado + vermelho-poltrona.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "b) carimbo batendo",
+  "contador": "(sem contador: história)",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "b) chicote de câmera (whip pan)",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 03 + projetor de cinema",
+  "mascote": "crachá de funcionário; ação principal: assistir à tela abraçado aos joelhos"
+ },
+ "brinde": "as conversas publicadas + o que cientistas responderam",
+ "fontes": [
+  "https://www.nbcnews.com/news/us-news/google-fired-software-engineer-claimed-ai-chatbot-was-sentient-rcna39679",
+  "https://www.engadget.com/blake-lemoide-fired-google-lamda-sentient-001746197.html"
+ ],
+ "prova_viral": "Caso de junho/julho de 2022 com cobertura mundial; 'IA consciente?' é debate que gera muito comentário.",
+ "obs": "Não citar o nome do engenheiro na fala (basta 'um engenheiro do Google'). O Google disse que ele quebrou regras de emprego e de segurança de dados e que a ideia não tinha fundamento.",
+ "polemica": true,
+ "agenda": "2026-11-12 19:30",
+ "palavras": 93,
+ "duracao_estimada_s": 33.2,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "ELE DISSE QUE A IA TINHA SENTIMENTOS",
+   "fala": "Em 2022, um engenheiro do Google disse que a IA da empresa tinha sentimentos. E foi demitido.",
+   "legenda": "Em 2022, um engenheiro do Google disse que a IA da empresa tinha sentimentos. E foi demitido.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "ELE DISSE QUE A IA TINHA SENTIMENTOS",
+    "GOOGLE, 2022",
+    "E FOI DEMITIDO"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "A IA se chamava LaMDA, um chatbot que o Google testava por dentro.",
+   "legenda": "A IA se chamava LaMDA, um chatbot que o Google testava por dentro.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Depois de muita conversa, ele se convenceu de que ela era consciente e publicou os diálogos.",
+   "legenda": "Depois de muita conversa, ele se convenceu de que ela era consciente e publicou os diálogos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "O Google afastou e depois demitiu ele por quebrar regras de sigilo. Comenta SENTE que eu te mando as conversas.",
+   "legenda": "O Google afastou e depois demitiu ele por quebrar regras de sigilo. Comenta SENTE que eu te mando as conversas.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "O Google disse que a ideia não tinha fundamento. Mas a pergunta ficou no ar.",
+   "legenda": "O Google disse que a ideia não tinha fundamento. Mas a pergunta ficou no ar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA SENTE",
+   "fala": "Comenta SENTE e me segue. Você acha que uma IA pode sentir?",
+   "legenda": "Comenta SENTE e me segue. Você acha que uma IA pode sentir?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

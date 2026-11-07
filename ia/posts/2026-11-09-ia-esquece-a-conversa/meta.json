@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-09",
+ "horario": "08:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "ia-esquece-a-conversa"
+ ],
+ "fontes": [
+  "https://arxiv.org/abs/2307.03172",
+  "https://docs.claude.com/en/docs/build-with-claude/context-windows"
+ ],
+ "prova_viral": "Incômodo comum ('ela esqueceu o que eu disse'); estudo 'Lost in the Middle' (Stanford, 2023) muito citado; documentação oficial de janela de contexto.",
+ "cta": "RESUMO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-09 08:00",
+  "tiktok": "2026-11-09 08:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-11",
+ "horario": "14:00",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "eliza-primeira-ia-terapeuta"
+ ],
+ "fontes": [
+  "https://dl.acm.org/doi/10.1145/365153.365168",
+  "https://99percentinvisible.org/episode/the-eliza-effect/transcript"
+ ],
+ "prova_viral": "Fato histórico (artigo de Weizenbaum, Communications of the ACM, 1966) com 2 fontes; o assunto voltou com gente desabafando com o ChatGPT.",
+ "cta": "ELIZA",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-11 14:00",
+  "tiktok": "2026-11-11 14:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

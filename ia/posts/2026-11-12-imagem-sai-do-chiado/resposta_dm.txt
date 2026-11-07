@@ -1,0 +1,6 @@
+Aqui está! 📷
+
+📝 Modelo de prompt: "[o que você quer], luz de fim de tarde vindo da janela, câmera na altura dos olhos, lente 50 mm, fundo desfocado, foto realista."
+Troque só a luz (neon, nublado, estúdio) e veja como muda.
+
+📄 O artigo que popularizou a técnica: https://arxiv.org/abs/2006.11239

@@ -1,0 +1,6 @@
+Aqui está! 🏆
+
+📰 O resultado: https://www.pcworld.com/article/494966/ibm_watson_wins_jeopardy_humans_rally_back.html
+📰 O erro de Toronto: https://www.eweek.com/database/ibm-s-watson-wins-in-jeopardy-needs-lessons-in-u-s-geography/
+
+Curiosidade: o Watson não ouvia as perguntas; recebia o texto por escrito.

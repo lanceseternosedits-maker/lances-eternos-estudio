@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-15",
+ "horario": "09:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "ia-nao-sabe-o-dia-de-hoje"
+ ],
+ "fontes": [
+  "https://help.openai.com/en/articles/6639781-do-the-openai-api-models-have-knowledge-of-current-events",
+  "https://www.thehindu.com/sci-tech/technology/chatgpt-can-now-browse-the-internet-to-provide-users-with-current-information/article67353716.ece"
+ ],
+ "prova_viral": "Incômodo comum ('ela não sabe a notícia de ontem'); ajuda oficial da OpenAI explica a data de corte e a busca na web.",
+ "cta": "LINK",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-15 09:00",
+  "tiktok": "2026-11-15 09:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-13",
+ "horario": "19:30",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "ia-ligou-pro-salao"
+ ],
+ "fontes": [
+  "https://engadget.com/2018/05/08/google-assistant-will-soon-be-able-to-make-calls-to-book-your-ap",
+  "https://www.businesslive.co.za/bd/companies/2018-05-10-googles-duplex-cheered-by-insiders-but-pounced-on-by-critics/"
+ ],
+ "prova_viral": "Demonstração do Google I/O (maio/2018) que viralizou no mundo; hoje IA que liga por você é tendência (nossos vídeos de atendente por telefone).",
+ "cta": "LIGOU",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-13 19:30",
+  "tiktok": "2026-11-13 19:30"
+ },
+ "status": "roteiro aguardando aprovação"
+}

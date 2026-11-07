@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-14",
+ "horario": "15:00",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "artigo-que-criou-o-chatgpt"
+ ],
+ "fontes": [
+  "https://arxiv.org/abs/1706.03762",
+  "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need"
+ ],
+ "prova_viral": "Artigo mais famoso da IA moderna (arXiv, junho/2017), sempre citado quando se fala de ChatGPT; a saída dos autores do Google foi muito noticiada.",
+ "cta": "ARTIGO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-14 15:00",
+  "tiktok": "2026-11-14 15:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

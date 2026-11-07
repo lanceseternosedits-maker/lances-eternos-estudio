@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "LIGOU",
+ "tese": "2018: A IA LIGOU E CONVERSOU COMO GENTE",
+ "conceito": "Salão de beleza retrô: cadeira de cabeleireiro, secador de capacete, telefone de disco tocando; um balão de fala 'hum-hum' pulando do fone. Paleta rosa-chiclete + turquesa.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "(sem contador: história)",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "e) glitch RGB",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + telefone de disco",
+  "mascote": "bobes no cabelo; ação principal: atender o telefone de disco"
+ },
+ "brinde": "o vídeo da demonstração + curiosidade",
+ "fontes": [
+  "https://engadget.com/2018/05/08/google-assistant-will-soon-be-able-to-make-calls-to-book-your-ap",
+  "https://www.businesslive.co.za/bd/companies/2018-05-10-googles-duplex-cheered-by-insiders-but-pounced-on-by-critics/"
+ ],
+ "prova_viral": "Demonstração do Google I/O (maio/2018) que viralizou no mundo; hoje IA que liga por você é tendência (nossos vídeos de atendente por telefone).",
+ "obs": "Não dizer que a atendente 'não percebeu' (não confirmado): dizer que conversou como se fosse gente. O Google disse que a ligação era real e prometeu transparência/identificação.",
+ "polemica": true,
+ "agenda": "2026-11-13 19:30",
+ "palavras": 93,
+ "duracao_estimada_s": 33.2,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "2018: A IA LIGOU E CONVERSOU COMO GENTE",
+   "fala": "Em 2018, o Google mostrou uma IA ligando pra um salão de beleza. E a atendente tratou ela como gente.",
+   "legenda": "Em 2018, o Google mostrou uma IA ligando pra um salão de beleza. E a atendente tratou ela como gente.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "2018: A IA LIGOU E CONVERSOU COMO GENTE",
+    "GOOGLE DUPLEX",
+    "E VEIO A POLÊMICA"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Era o Google Duplex, apresentado no palco pelo chefe do Google, Sundar Pichai.",
+   "legenda": "Era o Google Duplex, apresentado no palco pelo chefe do Google, Sundar Pichai.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "A IA marcou um corte de cabelo e até soltou um 'hum-hum' no meio da conversa.",
+   "legenda": "A IA marcou um corte de cabelo e até soltou um 'hum-hum' no meio da conversa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "A plateia foi à loucura. Comenta LIGOU que eu te mando o vídeo.",
+   "legenda": "A plateia foi à loucura. Comenta LIGOU que eu te mando o vídeo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Mas veio a crítica: é certo um robô ligar sem avisar? O Google prometeu que ela ia se identificar.",
+   "legenda": "Mas veio a crítica: é certo um robô ligar sem avisar? O Google prometeu que ela ia se identificar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA LIGOU",
+   "fala": "Comenta LIGOU e me segue. Você deixaria uma IA ligar por você?",
+   "legenda": "Comenta LIGOU e me segue. Você deixaria uma IA ligar por você?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

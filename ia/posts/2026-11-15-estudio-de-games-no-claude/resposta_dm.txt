@@ -1,0 +1,8 @@
+Aqui está! 🎮
+
+🔗 https://github.com/Donchitos/Claude-Code-Game-Studios (código aberto, MIT)
+
+Como começar:
+1) Tenha o Claude Code instalado.
+2) git clone https://github.com/Donchitos/Claude-Code-Game-Studios.git meu-jogo
+3) Abra a pasta no Claude Code e descreva o jogo. Você aprova cada decisão.

@@ -1,0 +1,119 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "NOBEL",
+ "tese": "A IA QUE GANHOU UM NOBEL",
+ "conceito": "Laboratório de cristal: bancada de vidro, microscópio gigante, proteínas como colares de contas coloridas se dobrando no ar; uma medalha dourada descendo do teto. Paleta branco-laboratório + dourado.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "(sem contador: história)",
+  "legenda": "a) bloco de 4 palavras com a atual colorida",
+  "transicao": "a) flash branco",
+  "camera": "c) travelling lateral",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + vidro de laboratório",
+  "mascote": "jaleco e óculos de laboratório; ação principal: dobrar um colar de contas até virar proteína"
+ },
+ "brinde": "o banco de proteínas grátis + curiosidade",
+ "fontes": [
+  "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+  "https://techcrunch.com/2024/10/09/deepminds-demis-hassabis-and-john-jumper-scoop-nobel-prize-in-chemistry-for-alphafold",
+  "https://alphafold.ebi.ac.uk/"
+ ],
+ "prova_viral": "Nobel de Química de 09/10/2024 (fonte oficial nobelprize.org) com cobertura mundial; 'IA ganhou Nobel' é gancho forte e positivo.",
+ "obs": "Metade do prêmio foi para David Baker (design de proteínas); Hassabis e Jumper dividiram a outra metade 'pela previsão da estrutura de proteínas'. 'Podia levar anos' é a descrição comum do método de laboratório; manter genérico.",
+ "polemica": false,
+ "agenda": "2026-11-15 15:00",
+ "palavras": 91,
+ "duracao_estimada_s": 32.5,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IA QUE GANHOU UM NOBEL",
+   "fala": "Em 2024, dois cientistas ganharam o Nobel de Química por causa de uma IA.",
+   "legenda": "Em 2024, dois cientistas ganharam o Nobel de Química por causa de uma IA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "A IA QUE GANHOU UM NOBEL",
+    "ALPHAFOLD, NOBEL DE QUÍMICA 2024",
+    "200 MILHÕES DE PROTEÍNAS"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Demis Hassabis e John Jumper, do Google DeepMind, criaram o AlphaFold.",
+   "legenda": "Demis Hassabis e John Jumper, do Google DeepMind, criaram o AlphaFold.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Ele descobre o formato de uma proteína, a pecinha que faz tudo funcionar no seu corpo.",
+   "legenda": "Ele descobre o formato de uma proteína, a pecinha que faz tudo funcionar no seu corpo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Antes, isso podia levar anos de laboratório. Comenta NOBEL que eu te mando o banco grátis.",
+   "legenda": "Antes, isso podia levar anos de laboratório. Comenta NOBEL que eu te mando o banco grátis.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Com ele, previram o formato de quase todas as 200 milhões de proteínas conhecidas. E liberaram tudo pro mundo.",
+   "legenda": "Com ele, previram o formato de quase todas as 200 milhões de proteínas conhecidas. E liberaram tudo pro mundo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA NOBEL",
+   "fala": "Comenta NOBEL e me segue. Que doença você queria que a IA ajudasse a curar?",
+   "legenda": "Comenta NOBEL e me segue. Que doença você queria que a IA ajudasse a curar?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

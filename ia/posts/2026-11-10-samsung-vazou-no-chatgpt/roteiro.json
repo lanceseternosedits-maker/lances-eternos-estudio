@@ -1,0 +1,119 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "SEGREDO",
+ "tese": "ELES COLARAM SEGREDO DA SAMSUNG NO CHATGPT",
+ "conceito": "Fábrica de chips com luz de sala limpa: macacão branco, pastas com carimbo CONFIDENCIAL voando pra dentro de uma tela de chat; no fim, uma cancela de estacionamento bloqueando o notebook. Paleta branco-gelo + vermelho-alarme. Sem logo da Samsung nem da OpenAI.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "b) carimbo batendo",
+  "contador": "(sem contador: história)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "a) flash branco",
+  "camera": "c) travelling lateral",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + alarme de fábrica",
+  "mascote": "touca e macacão de sala limpa; ação principal: correr atrás das pastas voando"
+ },
+ "brinde": "passo a passo para desligar o uso das conversas no treino do ChatGPT",
+ "fontes": [
+  "https://ca.finance.yahoo.com/news/samsung-bans-generative-ai-staff-004831399.html",
+  "https://www.techradar.com/news/samsung-bans-chatgpt-use-after-employee-leak",
+  "https://help.openai.com/en/articles/7730893-data-controls-faq"
+ ],
+ "prova_viral": "Caso de abril/maio de 2023 (memorando revelado pela Bloomberg) com cobertura mundial; tema 'cuidado com o que você cola na IA' rende muito envio.",
+ "obs": "Não dizer que o código vazou para o público: só que foi enviado à IA. A proibição valia nos aparelhos e na rede da empresa. Conferir o caminho do ajuste no app no dia (OpenAI muda o nome do menu).",
+ "polemica": true,
+ "agenda": "2026-11-10 19:30",
+ "palavras": 94,
+ "duracao_estimada_s": 33.6,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "ELES COLARAM SEGREDO DA SAMSUNG NO CHATGPT",
+   "fala": "Em 2023, funcionários da Samsung colaram código secreto da empresa no ChatGPT. E a Samsung proibiu a IA.",
+   "legenda": "Em 2023, funcionários da Samsung colaram código secreto da empresa no ChatGPT. E a Samsung proibiu a IA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "ELES COLARAM SEGREDO DA SAMSUNG NO CHATGPT",
+    "SAMSUNG, ABRIL DE 2023",
+    "E A EMPRESA PROIBIU A IA"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Um engenheiro queria corrigir um erro e colou o código inteiro pra IA olhar.",
+   "legenda": "Um engenheiro queria corrigir um erro e colou o código inteiro pra IA olhar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Até anotação de reunião foi parar no chat.",
+   "legenda": "Até anotação de reunião foi parar no chat.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "A Samsung bloqueou o ChatGPT e outras IAs nos aparelhos da empresa. Comenta SEGREDO que eu te mando como proteger seus dados.",
+   "legenda": "A Samsung bloqueou o ChatGPT e outras IAs nos aparelhos da empresa. Comenta SEGREDO que eu te mando como proteger seus dados.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "O que você manda fica guardado com a empresa da IA. Por isso, desliga o uso das conversas no treino.",
+   "legenda": "O que você manda fica guardado com a empresa da IA. Por isso, desliga o uso das conversas no treino.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA SEGREDO",
+   "fala": "Comenta SEGREDO e me segue. Você já colou algo que não devia?",
+   "legenda": "Comenta SEGREDO e me segue. Você já colou algo que não devia?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

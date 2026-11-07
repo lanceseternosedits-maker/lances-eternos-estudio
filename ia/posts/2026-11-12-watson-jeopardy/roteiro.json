@@ -1,0 +1,119 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "WATSON",
+ "tese": "2011: A MÁQUINA GANHOU O SHOW DA TV",
+ "conceito": "Estúdio de programa de auditório: três púlpitos com placar luminoso, painel de perguntas azul, plateia de bonequinhos; no púlpito do meio, um monitor com um globo. Paleta azul-royal + dourado-placar. Sem logo da IBM nem do programa.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "(sem contador: história)",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "a) flash branco",
+  "camera": "c) travelling lateral",
+  "fechamento": "b) pódio",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 02 + campainha de auditório",
+  "mascote": "gravata-borboleta brilhante de apresentador; ação principal: apertar a campainha"
+ },
+ "brinde": "os vídeos das partidas + curiosidade",
+ "fontes": [
+  "https://www.pcworld.com/article/494966/ibm_watson_wins_jeopardy_humans_rally_back.html",
+  "https://www.eweek.com/database/ibm-s-watson-wins-in-jeopardy-needs-lessons-in-u-s-geography/",
+  "https://www.kurzweilai.net/human-vs-ai-contest-on-jeopardy-first-day-results-just-announced"
+ ],
+ "prova_viral": "Fato histórico (fev/2011) com 2+ fontes; 15 anos do episódio em 2026 (TV Insider), 'IA vence humano na TV'.",
+ "obs": "Placar: Watson US$ 77.147; Ken Jennings US$ 24.000; Brad Rutter US$ 21.600 (fala arredonda para 77, 24 e 21 mil). O erro 'Toronto' foi numa pergunta da categoria de cidades dos EUA. Não usar a frase 'overlords' (não confirmada).",
+ "polemica": false,
+ "agenda": "2026-11-12 14:00",
+ "palavras": 88,
+ "duracao_estimada_s": 31.4,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "2011: A MÁQUINA GANHOU O SHOW DA TV",
+   "fala": "Em 2011, uma máquina enfrentou os dois maiores campeões de um programa de perguntas da TV americana. E humilhou.",
+   "legenda": "Em 2011, uma máquina enfrentou os dois maiores campeões de um programa de perguntas da TV americana. E humilhou.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "2011: A MÁQUINA GANHOU O SHOW DA TV",
+    "WATSON × OS 2 MAIORES CAMPEÕES",
+    "E ERROU FEIO NO FIM"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Era o Watson, da IBM, no Jeopardy, o show de perguntas mais famoso dos Estados Unidos.",
+   "legenda": "Era o Watson, da IBM, no Jeopardy, o show de perguntas mais famoso dos Estados Unidos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "As pistas eram cheias de trocadilho, e mesmo assim ele respondia em segundos.",
+   "legenda": "As pistas eram cheias de trocadilho, e mesmo assim ele respondia em segundos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Placar: 77 mil dólares pra máquina, 24 e 21 mil pros campeões. Comenta WATSON que eu te mando os vídeos.",
+   "legenda": "Placar: 77 mil dólares pra máquina, 24 e 21 mil pros campeões. Comenta WATSON que eu te mando os vídeos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Mas ele também errou feio: numa pergunta sobre cidades americanas, respondeu Toronto.",
+   "legenda": "Mas ele também errou feio: numa pergunta sobre cidades americanas, respondeu Toronto.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA WATSON",
+   "fala": "Comenta WATSON e me segue. Você ganharia dele?",
+   "legenda": "Comenta WATSON e me segue. Você ganharia dele?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

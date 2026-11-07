@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-14",
+ "horario": "19:00",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "chatgpt-1-milhao-em-5-dias"
+ ],
+ "fontes": [
+  "https://openai.com/index/chatgpt/",
+  "https://fortune.com/2022/12/09/ai-chatbot-chatgpt-could-disrupt-google-search-engines-business/"
+ ],
+ "prova_viral": "Lançamento em 30/11/2022; 4 anos no fim do mês; 'mais de 1 milhão em 5 dias' confirmado pela Fortune (Greg Brockman) e post de Sam Altman.",
+ "cta": "MILHAO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-14 19:00",
+  "tiktok": "2026-11-14 19:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

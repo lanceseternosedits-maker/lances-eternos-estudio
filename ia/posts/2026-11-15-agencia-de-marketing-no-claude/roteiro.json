@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "novidade",
+ "chave": "MARKETING",
+ "tese": "UMA AGÊNCIA DE MARKETING NO CLAUDE",
+ "conceito": "Agência de propaganda dos anos 60 reinventada: sala de reunião com mesa comprida, cavaletes com cartazes, máquina de café, 53 gavetinhas de arquivo que se abrem cada uma com um especialista. Paleta azul-marinho + vermelho-cereja.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "b) carimbo batendo",
+  "contador": "e) placar 8-bit HI-SCORE",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 03 + gaveta de arquivo + máquina de café",
+  "mascote": "suspensório e caneta atrás da orelha; ação principal: abrir as gavetas de especialistas"
+ },
+ "brinde": "link do pacote + as 5 skills pra começar",
+ "fontes": [
+  "https://github.com/coreyhaines31/marketingskills",
+  "https://github.com/topics/claude-skills"
+ ],
+ "prova_viral": "59 mil estrelas e 8,6 mil forks (lido em 07/11/2026), entre os mais estrelados do tópico claude-skills, atualizado em 06/11. Licença MIT.",
+ "obs": "Não apareceu no Trending semanal de 07/11: prova é o tamanho (59 mil estrelas) e a atualização recente; se o Vitor quiser prova de 'semana', trocar por claude-mem (+8.726 na semana, mas tem oferta paga e propaganda de token no README, por isso ficou de fora). 53 skills contadas na tabela do README. Funciona com Claude Code, Codex, Cursor (podem ser pagos). Polêmica: 'agência cobra caro'.",
+ "polemica": true,
+ "agenda": "2026-11-15 20:30",
+ "palavras": 88,
+ "duracao_estimada_s": 31.4,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "UMA AGÊNCIA DE MARKETING NO CLAUDE",
+   "fala": "Agência cobra caro por anúncio, e-mail e SEO. Tem gente fazendo tudo isso com 53 skills gratuitas.",
+   "legenda": "Agência cobra caro por anúncio, e-mail e SEO. Tem gente fazendo tudo isso com 53 skills gratuitas.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "UMA AGÊNCIA DE MARKETING NO CLAUDE",
+    "59 MIL ESTRELAS NO GITHUB",
+    "53 ESPECIALISTAS GRÁTIS"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "É o pacote Marketing Skills, com 59 mil estrelas no GitHub.",
+   "legenda": "É o pacote Marketing Skills, com 59 mil estrelas no GitHub.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Cada skill é um especialista: anúncio no Google e no Meta, texto de página, e-mail e até campanha no WhatsApp.",
+   "legenda": "Cada skill é um especialista: anúncio no Google e no Meta, texto de página, e-mail e até campanha no WhatsApp.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Você conta do seu negócio uma vez e todas usam essa base. Comenta MARKETING que eu te mando o link.",
+   "legenda": "Você conta do seu negócio uma vez e todas usam essa base. Comenta MARKETING que eu te mando o link.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Tem até uma que desmonta como o concorrente cresceu.",
+   "legenda": "Tem até uma que desmonta como o concorrente cresceu.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA MARKETING",
+   "fala": "Comenta MARKETING e me segue. Qual parte você entregaria pra IA?",
+   "legenda": "Comenta MARKETING e me segue. Qual parte você entregaria pra IA?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

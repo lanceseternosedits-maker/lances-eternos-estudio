@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "novidade",
+ "chave": "SITE",
+ "tese": "SITE SEM CARA DE IA",
+ "conceito": "Ateliê de alfaiate: manequins vestidos com 3 estilos de site diferentes, fita métrica, mostruário de tecidos (os 50 'materiais'); uma lupa caçando etiquetas 'feito por IA' e arrancando. Paleta terracota + verde-musgo.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "f) escrito à mão",
+  "contador": "c) velocímetro/medidor circular",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "b) chicote de câmera (whip pan)",
+  "camera": "d) órbita",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 01 + tesoura e tecido",
+  "mascote": "fita métrica no pescoço; ação principal: medir e ajustar o site no manequim"
+ },
+ "brinde": "link da skill + comando de instalação",
+ "fontes": [
+  "https://github.com/Nutlope/hallmark",
+  "https://github.com/trending?since=weekly"
+ ],
+ "prova_viral": "Em alta no GitHub (Trending semanal, lido em 07/11/2026): 50,1 mil estrelas, +6.900 na semana. Licença MIT, feita pela Together AI.",
+ "obs": "Funciona no Claude Code, Cursor e Codex (ferramentas que podem ser pagas): 'skill gratuita' vale para a skill. Teste no navegador precisa do Chrome; sem ele, só a checagem estática. Reler estrelas no dia da produção.",
+ "polemica": false,
+ "agenda": "2026-11-15 17:00",
+ "palavras": 91,
+ "duracao_estimada_s": 32.5,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "SITE SEM CARA DE IA",
+   "fala": "Todo site feito por IA tem a mesma cara. Essa skill gratuita acaba com isso.",
+   "legenda": "Todo site feito por IA tem a mesma cara. Essa skill gratuita acaba com isso.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "SITE SEM CARA DE IA",
+    "50 MIL ESTRELAS · +6,9 MIL NA SEMANA",
+    "E ELA SE AUTOCORRIGE"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Chama Hallmark: 50 mil estrelas no GitHub, quase sete mil só nessa semana.",
+   "legenda": "Chama Hallmark: 50 mil estrelas no GitHub, quase sete mil só nessa semana.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Você pede o site e ela escolhe três estilos diferentes, de um catálogo de cinquenta.",
+   "legenda": "Você pede o site e ela escolhe três estilos diferentes, de um catálogo de cinquenta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Depois abre a página num navegador de verdade e caça os vícios de IA. Comenta SITE que eu te mando o link.",
+   "legenda": "Depois abre a página num navegador de verdade e caça os vícios de IA. Comenta SITE que eu te mando o link.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Testa em oito tamanhos de tela e ainda refaz o site que você já tem.",
+   "legenda": "Testa em oito tamanhos de tela e ainda refaz o site que você já tem.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA SITE",
+   "fala": "Comenta SITE e me segue. Seu site tem cara de IA?",
+   "legenda": "Comenta SITE e me segue. Seu site tem cara de IA?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

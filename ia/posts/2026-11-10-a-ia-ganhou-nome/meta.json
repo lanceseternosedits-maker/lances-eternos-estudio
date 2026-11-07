@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-10",
+ "horario": "14:00",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "a-ia-ganhou-nome"
+ ],
+ "fontes": [
+  "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/1904/1802",
+  "https://en.wikipedia.org/wiki/Dartmouth_workshop"
+ ],
+ "prova_viral": "Fato histórico com 2 fontes (proposta republicada pela AI Magazine em 2006); dá pra amarrar com '70 anos de IA' em 2026.",
+ "cta": "VERAO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-10 14:00",
+  "tiktok": "2026-11-10 14:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

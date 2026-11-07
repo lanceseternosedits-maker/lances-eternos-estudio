@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-15",
+ "horario": "20:30",
+ "pilar": "reel",
+ "categoria": "novidade",
+ "formato": "palco",
+ "temas": [
+  "agencia-de-marketing-no-claude"
+ ],
+ "fontes": [
+  "https://github.com/coreyhaines31/marketingskills",
+  "https://github.com/topics/claude-skills"
+ ],
+ "prova_viral": "59 mil estrelas e 8,6 mil forks (lido em 07/11/2026), entre os mais estrelados do tópico claude-skills, atualizado em 06/11. Licença MIT.",
+ "cta": "MARKETING",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-15 20:30",
+  "tiktok": "2026-11-15 20:30"
+ },
+ "status": "roteiro aguardando aprovação"
+}

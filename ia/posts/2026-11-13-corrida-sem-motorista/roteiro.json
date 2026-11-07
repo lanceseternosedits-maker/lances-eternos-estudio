@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "CARRO",
+ "tese": "2004: NENHUM CARRO ROBÔ CHEGOU AO FIM",
+ "conceito": "Deserto ao meio-dia: cactos, poeira, placa de largada, carrinhos-robô de blocos com antenas; um deles atolado numa pedra; no fim, bandeira quadriculada. Paleta areia + azul-céu.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "d) letreiro split-flap",
+  "contador": "(sem contador: história)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "e) página de caderno",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 02 + motor + vento do deserto",
+  "mascote": "óculos de proteção e lenço de deserto; ação principal: empurrar o carrinho atolado"
+ },
+ "brinde": "documentário sobre a corrida + curiosidade",
+ "fontes": [
+  "https://www.darpa.mil/news/2014/grand-challenge-ten-years-later",
+  "https://www.rdworldonline.com/darpa-grand-challenge-at-21-two-decades-ago-driverless-vehicles-made-history-in-the-mojave-desert/"
+ ],
+ "prova_viral": "Fato histórico (DARPA, 2004 e 2005) com fonte oficial; 'carro sem motorista' é assunto em alta com robotáxis nas ruas.",
+ "obs": "2004: melhor carro andou ~11,8 km (7,3–7,5 milhas; fontes variam: dizer 'uns doze quilômetros'). 2005: Stanford, 212 km em 6 h 53 min, prêmio US$ 2 milhões. Prêmio de 2004: US$ 1 milhão (conferir na página da DARPA no dia). Documentário: 'The Great Robot Race' (NOVA/PBS, 2006), conferir link no dia.",
+ "polemica": false,
+ "agenda": "2026-11-13 14:00",
+ "palavras": 94,
+ "duracao_estimada_s": 33.6,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "2004: NENHUM CARRO ROBÔ CHEGOU AO FIM",
+   "fala": "Em 2004, os Estados Unidos ofereceram um milhão de dólares pro carro sem motorista que cruzasse o deserto. Nenhum chegou.",
+   "legenda": "Em 2004, os Estados Unidos ofereceram um milhão de dólares pro carro sem motorista que cruzasse o deserto. Nenhum chegou.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "2004: NENHUM CARRO ROBÔ CHEGOU AO FIM",
+    "A CORRIDA DO DESERTO",
+    "E UM ANO DEPOIS…"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Era uma corrida de robôs no deserto, organizada por uma agência militar de pesquisa.",
+   "legenda": "Era uma corrida de robôs no deserto, organizada por uma agência militar de pesquisa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "O melhor carro andou só uns doze quilômetros e empacou.",
+   "legenda": "O melhor carro andou só uns doze quilômetros e empacou.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Um ano depois, tentaram de novo. Comenta CARRO que eu te mando o documentário.",
+   "legenda": "Um ano depois, tentaram de novo. Comenta CARRO que eu te mando o documentário.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "O carro de Stanford fez mais de duzentos quilômetros em menos de sete horas e levou dois milhões. Hoje, tem táxi sem motorista na rua.",
+   "legenda": "O carro de Stanford fez mais de duzentos quilômetros em menos de sete horas e levou dois milhões. Hoje, tem táxi sem motorista na rua.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA CARRO",
+   "fala": "Comenta CARRO e me segue. Você entraria num carro sem motorista?",
+   "legenda": "Comenta CARRO e me segue. Você entraria num carro sem motorista?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

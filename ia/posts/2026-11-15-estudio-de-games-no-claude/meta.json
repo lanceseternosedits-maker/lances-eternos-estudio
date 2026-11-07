@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-15",
+ "horario": "13:00",
+ "pilar": "reel",
+ "categoria": "novidade",
+ "formato": "palco",
+ "temas": [
+  "estudio-de-games-no-claude"
+ ],
+ "fontes": [
+  "https://github.com/Donchitos/Claude-Code-Game-Studios",
+  "https://github.com/trending?since=weekly"
+ ],
+ "prova_viral": "Em alta no GitHub (Trending semanal, lido em 07/11/2026): 36,4 mil estrelas, +6.018 na semana. Licença MIT.",
+ "cta": "GAME",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-15 13:00",
+  "tiktok": "2026-11-15 13:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

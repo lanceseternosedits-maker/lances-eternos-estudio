@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "TURING",
+ "tese": "1950: MÁQUINAS PODEM PENSAR?",
+ "conceito": "Escritório britânico de 1950: máquina de escrever, xícara de chá, quadro-negro com 'CAN MACHINES THINK?' e uma cortina dividindo o palco em dois (o jogo da imitação: de um lado gente, do outro uma máquina). Paleta verde-garrafa + creme.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "d) letreiro split-flap",
+  "contador": "(sem contador: história)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "b) chicote de câmera (whip pan)",
+  "camera": "d) órbita",
+  "fechamento": "e) página de caderno",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 02 + máquina de escrever",
+  "mascote": "boina; ação principal: escrever bilhetes e passar por baixo da cortina"
+ },
+ "brinde": "o artigo original de 1950 + uma curiosidade",
+ "fontes": [
+  "https://academic.oup.com/mind/article/LIX/236/433/986238",
+  "https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2441/2335"
+ ],
+ "prova_viral": "Fato histórico (Mind, outubro/1950) com 2 fontes; tema sempre em alta: 'dá pra saber se é IA?'.",
+ "obs": "Previsão citada nas palavras do artigo: ~50 anos, interrogador médio com no máximo 70% de acerto após 5 minutos. Não dizer que alguma IA 'passou no teste' (fontes divergem).",
+ "polemica": false,
+ "agenda": "2026-11-09 14:00",
+ "palavras": 89,
+ "duracao_estimada_s": 31.8,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "1950: MÁQUINAS PODEM PENSAR?",
+   "fala": "Em 1950, um matemático fez uma pergunta que ninguém conseguiu responder até hoje: máquinas podem pensar?",
+   "legenda": "Em 1950, um matemático fez uma pergunta que ninguém conseguiu responder até hoje: máquinas podem pensar?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "1950: MÁQUINAS PODEM PENSAR?",
+    "ALAN TURING E O JOGO DA IMITAÇÃO",
+    "E A APOSTA PRO ANO 2000"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Era Alan Turing, um dos pais do computador.",
+   "legenda": "Era Alan Turing, um dos pais do computador.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Em vez de discutir, ele criou um jogo: uma pessoa conversa por escrito e tenta descobrir se do outro lado tem gente ou máquina.",
+   "legenda": "Em vez de discutir, ele criou um jogo: uma pessoa conversa por escrito e tenta descobrir se do outro lado tem gente ou máquina.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "E ainda fez uma aposta. Comenta TURING que eu te mando o artigo original.",
+   "legenda": "E ainda fez uma aposta. Comenta TURING que eu te mando o artigo original.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Ele previu que, em cinquenta anos, uma máquina enganaria muita gente em cinco minutos de conversa.",
+   "legenda": "Ele previu que, em cinquenta anos, uma máquina enganaria muita gente em cinco minutos de conversa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA TURING",
+   "fala": "Comenta TURING e me segue. Você saberia dizer se é IA?",
+   "legenda": "Comenta TURING e me segue. Você saberia dizer se é IA?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

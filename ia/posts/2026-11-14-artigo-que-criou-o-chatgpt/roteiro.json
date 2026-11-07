@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "ARTIGO",
+ "tese": "2017: O ARTIGO QUE CRIOU O CHATGPT",
+ "conceito": "Redação de jornal de 2017 vista como sala de imprensa: rotativa imprimindo o artigo, manchete gigante com 'T', oito cadeiras giratórias que vão ficando vazias. Paleta preto-tinta + amarelo-marca-texto.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "(sem contador: história)",
+  "legenda": "a) bloco de 4 palavras com a atual colorida",
+  "transicao": "b) chicote de câmera (whip pan)",
+  "camera": "d) órbita",
+  "fechamento": "b) pódio",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 02 + rotativa de jornal",
+  "mascote": "viseira de jornalista; ação principal: girar na cadeira e sair rolando"
+ },
+ "brinde": "o artigo + um resumo fácil",
+ "fontes": [
+  "https://arxiv.org/abs/1706.03762",
+  "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need"
+ ],
+ "prova_viral": "Artigo mais famoso da IA moderna (arXiv, junho/2017), sempre citado quando se fala de ChatGPT; a saída dos autores do Google foi muito noticiada.",
+ "obs": "Fontes divergem sobre quando o último autor saiu e há quem tenha voltado ao Google depois: dizer 'quase todos saíram'. Não dizer que a OpenAI 'roubou' a ideia: o artigo é público.",
+ "polemica": false,
+ "agenda": "2026-11-14 15:00",
+ "palavras": 95,
+ "duracao_estimada_s": 33.9,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "2017: O ARTIGO QUE CRIOU O CHATGPT",
+   "fala": "O T do ChatGPT nasceu num artigo do Google, em 2017. Mas quem ficou famosa foi a OpenAI.",
+   "legenda": "O T do ChatGPT nasceu num artigo do Google, em 2017. Mas quem ficou famosa foi a OpenAI.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "2017: O ARTIGO QUE CRIOU O CHATGPT",
+    "ATENÇÃO É TUDO QUE VOCÊ PRECISA",
+    "E OS 8 AUTORES SAÍRAM"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O artigo se chamava 'Atenção é tudo que você precisa', escrito por oito pesquisadores.",
+   "legenda": "O artigo se chamava 'Atenção é tudo que você precisa', escrito por oito pesquisadores.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Ele criou o Transformer: a IA lê a frase inteira de uma vez e vê qual palavra importa pra qual.",
+   "legenda": "Ele criou o Transformer: a IA lê a frase inteira de uma vez e vê qual palavra importa pra qual.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "O T do GPT vem daí. Comenta ARTIGO que eu te mando o artigo e um resumo fácil.",
+   "legenda": "O T do GPT vem daí. Comenta ARTIGO que eu te mando o artigo e um resumo fácil.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Depois, quase todos saíram do Google pra criar as próprias empresas de IA.",
+   "legenda": "Depois, quase todos saíram do Google pra criar as próprias empresas de IA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA ARTIGO",
+   "fala": "Comenta ARTIGO e me segue. Você sabia de onde vinha o GPT?",
+   "legenda": "Comenta ARTIGO e me segue. Você sabia de onde vinha o GPT?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

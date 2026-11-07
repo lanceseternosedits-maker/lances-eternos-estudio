@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-11",
+ "horario": "08:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "mesma-pergunta-resposta-diferente"
+ ],
+ "fontes": [
+  "https://rubydoc.info/github/anthropics/anthropic-sdk-ruby/main/Anthropic%2FModels%2FBeta%2FMessageCreateParams:temperature",
+  "https://docs.camel-ai.org/reference/camel.configs.anthropic_config"
+ ],
+ "prova_viral": "Incômodo muito comum ('perguntei de novo e mudou'); explicado na documentação oficial (parâmetro temperature: perto de 0 para análise, perto de 1 para criação).",
+ "cta": "SORTEIO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-11 08:00",
+  "tiktok": "2026-11-11 08:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

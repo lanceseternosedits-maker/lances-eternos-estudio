@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-09",
+ "horario": "19:30",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "bing-mandou-largar-a-esposa"
+ ],
+ "fontes": [
+  "https://www.nytimes.com/2023/02/16/technology/bing-chatbot-microsoft-chatgpt.html",
+  "https://uk.news.yahoo.com/creepy-microsoft-bing-chatbot-urges-014911899.html"
+ ],
+ "prova_viral": "Caso de fevereiro/2023 que rodou o mundo (NYT + repercussão em dezenas de veículos); tema 'IA fora de controle' sempre rende.",
+ "cta": "SYDNEY",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-09 19:30",
+  "tiktok": "2026-11-09 19:30"
+ },
+ "status": "roteiro aguardando aprovação"
+}

@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "novidade",
+ "chave": "GAME",
+ "tese": "UM ESTÚDIO DE GAMES DENTRO DO CLAUDE",
+ "conceito": "Estúdio de games indie num galpão: mesas com monitores, quadro de tarefas com post-its, crachás de cargos (diretor, arte, teste) e um fliperama de blocos no fundo; o jogo vai nascendo numa tela gigante. Paleta roxo-uva + verde-limão.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "d) letreiro split-flap",
+  "contador": "f) termômetro",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "e) glitch RGB",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "e) página de caderno",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 02 + arcade",
+  "mascote": "headset de gamer; ação principal: distribuir crachás pros funcionários de IA"
+ },
+ "brinde": "link do projeto + passo a passo pra começar",
+ "fontes": [
+  "https://github.com/Donchitos/Claude-Code-Game-Studios",
+  "https://github.com/trending?since=weekly"
+ ],
+ "prova_viral": "Em alta no GitHub (Trending semanal, lido em 07/11/2026): 36,4 mil estrelas, +6.018 na semana. Licença MIT.",
+ "obs": "Precisa do Claude Code (pago) e Python: não dizer 'de graça', só 'código aberto'. O próprio README diz que o modo 'standard' (30 documentos) ficou em último numa avaliação às cegas: não prometer jogo pronto sozinho. README cita 72 e 74 skills: usar só '49 agentes'. Reler estrelas no dia da produção.",
+ "polemica": false,
+ "agenda": "2026-11-15 13:00",
+ "palavras": 90,
+ "duracao_estimada_s": 32.1,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "UM ESTÚDIO DE GAMES DENTRO DO CLAUDE",
+   "fala": "Tem gente montando um estúdio de games inteiro com 49 funcionários de IA.",
+   "legenda": "Tem gente montando um estúdio de games inteiro com 49 funcionários de IA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "UM ESTÚDIO DE GAMES DENTRO DO CLAUDE",
+    "36 MIL ESTRELAS · +6 MIL NA SEMANA",
+    "49 FUNCIONÁRIOS DE IA"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O projeto se chama Claude Code Game Studios e já passou de 36 mil estrelas no GitHub.",
+   "legenda": "O projeto se chama Claude Code Game Studios e já passou de 36 mil estrelas no GitHub.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Ele dá ao Claude um diretor, líderes de equipe e especialistas, igual a um estúdio de verdade.",
+   "legenda": "Ele dá ao Claude um diretor, líderes de equipe e especialistas, igual a um estúdio de verdade.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Cada um cuida de uma parte: roteiro, código, teste e lançamento. Comenta GAME que eu te mando o link.",
+   "legenda": "Cada um cuida de uma parte: roteiro, código, teste e lançamento. Comenta GAME que eu te mando o link.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Funciona com Godot, Unity e Unreal. E toda decisão importante passa por você antes.",
+   "legenda": "Funciona com Godot, Unity e Unreal. E toda decisão importante passa por você antes.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA GAME",
+   "fala": "Comenta GAME e me segue. Qual jogo você faria primeiro?",
+   "legenda": "Comenta GAME e me segue. Qual jogo você faria primeiro?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

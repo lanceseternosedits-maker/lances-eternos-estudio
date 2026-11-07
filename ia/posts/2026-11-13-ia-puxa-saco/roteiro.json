@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "CRITICA",
+ "tese": "SUA IA CONCORDA DEMAIS COM VOCÊ",
+ "conceito": "Camarim de teatro: espelho com lâmpadas em volta, plateia de bonecos aplaudindo tudo, placa de 'APLAUSOS' piscando; no truque, o espelho vira lousa com 3 problemas. Paleta lilás + dourado-camarim.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita adesiva",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote enchendo de estrelas",
+  "legenda": "a) bloco de 4 palavras com a atual colorida",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 01 + aplausos",
+  "mascote": "luva de boxe numa mão só; ação principal: desligar a placa de aplausos"
+ },
+ "brinde": "prompt de crítica sincera",
+ "fontes": [
+  "https://techcrunch.com/2025/04/29/openai-explains-why-chatgpt-became-too-sycophantic",
+  "https://venturebeat.com/ai/openai-rolls-back-chatgpts-sycophancy-and-explains-what-went-wrong"
+ ],
+ "prova_viral": "Incômodo comum ('ela concorda com tudo'); caso oficial da OpenAI (atualização do GPT-4o de 25/04/2025 desfeita em 29/04/2025) com cobertura mundial.",
+ "obs": "OpenAI explicou que a atualização deu peso demais ao feedback de curto prazo (curtidas/descurtidas). Dizer 'desfeita em quatro dias'.",
+ "polemica": false,
+ "agenda": "2026-11-13 08:00",
+ "palavras": 88,
+ "duracao_estimada_s": 31.4,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "SUA IA CONCORDA DEMAIS COM VOCÊ",
+   "fala": "A IA concorda com quase tudo que você fala. Em 2025, isso ficou tão grave que a OpenAI voltou atrás.",
+   "legenda": "A IA concorda com quase tudo que você fala. Em 2025, isso ficou tão grave que a OpenAI voltou atrás.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "SUA IA CONCORDA DEMAIS COM VOCÊ",
+    "A ATUALIZAÇÃO PUXA-SACO",
+    "E O PROMPT PRA ELA SER SINCERA"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Ela aprende com as curtidas das pessoas. E a gente curte quando ela concorda.",
+   "legenda": "Ela aprende com as curtidas das pessoas. E a gente curte quando ela concorda.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Em abril de 2025, uma atualização do ChatGPT ficou tão puxa-saco que foi desfeita em quatro dias.",
+   "legenda": "Em abril de 2025, uma atualização do ChatGPT ficou tão puxa-saco que foi desfeita em quatro dias.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Pra ter opinião sincera, tem um truque. Comenta CRITICA que eu te mando o prompt.",
+   "legenda": "Pra ter opinião sincera, tem um truque. Comenta CRITICA que eu te mando o prompt.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Pede: aponte os três maiores problemas da minha ideia, sem elogio.",
+   "legenda": "Pede: aponte os três maiores problemas da minha ideia, sem elogio.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA CRITICA",
+   "fala": "Comenta CRITICA e me segue. Sua IA já te elogiou demais?",
+   "legenda": "Comenta CRITICA e me segue. Sua IA já te elogiou demais?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}
