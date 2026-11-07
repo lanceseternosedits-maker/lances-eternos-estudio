@@ -77,7 +77,8 @@ def capa(pasta: Path) -> str | None:
                               *sorted((pasta / "slides").glob("*.png"))] if p.exists()), None)
     video = next((pasta / n for n in ("reel.mp4", "short.mp4") if (pasta / n).exists()), None)
     if fonte is None and video is None:
-        return None
+        previa = CAPAS / f"roteiro-{pasta.name}.jpg"  # node painel/capa_roteiro.js
+        return f"capas/{previa.name}" if previa.exists() else None
     CAPAS.mkdir(parents=True, exist_ok=True)
     entrada = ["-ss", "1.5", "-i", str(video)] if fonte is None else ["-i", str(fonte)]
     r = subprocess.run(["ffmpeg", "-v", "error", "-y", *entrada, "-frames:v", "1", "-vf", "scale=270:-2", "-q:v", "6", str(destino)])
@@ -116,7 +117,78 @@ def classe(status: str) -> str:
     s = status.lower()
     if "aguardando" in s:
         return "espera"
+    if "aprovado" in s:
+        return "ok"
     return {"publicado": "ok", "agendado": "agenda", "rascunho": "neutro", "erro": "erro", "negado": "neutro"}.get(s, "neutro")
+
+
+# Botões de aprovar/negar: só funcionam no app (Worker), que grava a decisão no D1 "iaem60s-painel".
+JS = r"""
+const API = 'api/';
+let decisoes = {}, pin = '';
+try { pin = localStorage.getItem('pin') || ''; } catch (e) {}
+const aviso = (t) => { document.getElementById('aviso').textContent = t; };
+function pintar() {
+  let ap = 0, ng = 0, falta = 0;
+  document.querySelectorAll('.decide').forEach(d => {
+    const x = decisoes[d.dataset.pasta];
+    let f = d.parentNode.querySelector('.flag');
+    if (x && x.etapa === d.dataset.etapa) {
+      x.decisao === 'aprovado' ? ap++ : ng++;
+      d.style.display = 'none';
+      if (!f) { f = document.createElement('div'); d.after(f); }
+      f.className = 'flag ' + x.decisao;
+      f.innerHTML = (x.decisao === 'aprovado' ? '✔ ' + d.dataset.etapa + ' aprovado' : '✘ negado') + (x.nota ? ' · ' + x.nota.replace(/</g, '&lt;') : '') + '<button>desfazer</button>';
+      f.querySelector('button').onclick = () => decidir(d.dataset.pasta, d.dataset.etapa, 'desfazer');
+    } else { falta++; d.style.display = ''; if (f) f.remove(); }
+  });
+  document.querySelectorAll('li[data-pasta]').forEach(li => { const x = decisoes[li.dataset.pasta]; if (x) li.dataset.dec = x.decisao; else delete li.dataset.dec; });
+  aviso(`No app: ${ap} aprovado(s), ${ng} negado(s), ${falta} esperando você. As sessões aplicam as decisões na próxima rodada.`);
+}
+async function carregar() {
+  try {
+    const r = await fetch(API + 'decisoes', { cache: 'no-store' });
+    if (!r.ok) throw 0;
+    decisoes = await r.json(); pintar();
+  } catch (e) {
+    document.querySelectorAll('.decide,.dia-todos').forEach(b => b.style.display = 'none');
+    aviso('Aprovar e negar funciona só no app IA em 60s (ícone na tela de início).');
+  }
+}
+function pedirPin() { document.getElementById('pinbox').style.display = 'block'; document.getElementById('pin').focus(); window.scrollTo(0, 0); }
+async function decidir(pasta, etapa, decisao, nota) {
+  if (!pin) { pedirPin(); return false; }
+  const r = await fetch(API + 'decisao', { method: 'POST', headers: { 'content-type': 'application/json', 'x-pin': pin },
+    body: JSON.stringify({ pasta, etapa, decisao, nota: nota || '' }) }).catch(() => null);
+  if (!r) { aviso('Sem conexão: a decisão não foi gravada.'); return false; }
+  if (r.status === 401) { pin = ''; try { localStorage.removeItem('pin'); } catch (e) {} aviso('PIN errado.'); pedirPin(); return false; }
+  if (!r.ok) { aviso('Erro ao gravar (' + r.status + ').'); return false; }
+  if (decisao === 'desfazer') delete decisoes[pasta]; else decisoes[pasta] = { etapa, decisao, nota };
+  pintar(); return true;
+}
+document.getElementById('pinok').onclick = () => {
+  pin = document.getElementById('pin').value.trim();
+  try { localStorage.setItem('pin', pin); } catch (e) {}
+  document.getElementById('pinbox').style.display = 'none'; aviso('PIN salvo neste aparelho. Toque de novo no botão.');
+};
+document.querySelectorAll('.decide').forEach(d => {
+  d.querySelector('.sim').onclick = () => decidir(d.dataset.pasta, d.dataset.etapa, 'aprovado');
+  d.querySelector('.nao').onclick = () => {
+    if (!d.querySelector('input')) {
+      d.insertAdjacentHTML('beforeend', '<input placeholder="motivo (opcional)" style="flex:1;min-width:120px;font:inherit;font-size:12px;padding:6px;border-radius:8px;border:1px solid #262a33;background:#0b0d12;color:#e8e9ec"><button class="nao ok2">confirmar</button>');
+      d.querySelector('.ok2').onclick = () => decidir(d.dataset.pasta, d.dataset.etapa, 'negado', d.querySelector('input').value.trim());
+    }
+  };
+});
+document.querySelectorAll('.dia-todos').forEach(b => b.onclick = async () => {
+  if (b.dataset.armado !== '1') { b.dataset.armado = '1'; b.textContent = 'tocar de novo p/ confirmar'; return; }
+  const ds = [...document.querySelectorAll('.decide')].filter(d => d.dataset.dia === b.dataset.dia && !decisoes[d.dataset.pasta]);
+  b.textContent = 'aprovando…';
+  for (const d of ds) { if (!(await decidir(d.dataset.pasta, d.dataset.etapa, 'aprovado'))) break; }
+  b.textContent = 'aprovar o dia'; b.dataset.armado = '';
+});
+carregar();
+"""
 
 
 def main() -> None:
@@ -182,7 +254,7 @@ def main() -> None:
         if "aguardando" in c["status"].lower():
             for rede, quando in horarios_do_post(c["meta"]):
                 if rede == "instagram" and quando not in ocupadas:
-                    ocupadas[quando].append({"status": "AGUARDANDO", "texto": c["titulo"], "rascunho": False})
+                    ocupadas[quando].append({"status": "AGUARDANDO", "texto": c["titulo"], "rascunho": False, "pasta": c["pasta"].name})
     semana = []
     livres_3_dias = 0
     for d in range(7):
@@ -196,12 +268,13 @@ def main() -> None:
             if ps:
                 p = ps[0]
                 st = {"PUBLISHED": "publicado", "PENDING": "rascunho" if p.get("rascunho") else "agendado", "ERROR": "erro", "AGUARDANDO": "aguardando aprovação"}[p["status"]]
-                linhas.append(f'<li class="{classe(st)}"><span>{h}</span>{esc(p["texto"][:70])}</li>')
+                linhas.append(f'<li class="{classe(st)}"{" data-pasta=" + chr(34) + esc(p["pasta"]) + chr(34) if p.get("pasta") else ""}><span>{h}</span>{esc(p["texto"][:70])}</li>')
             elif h in vagas and not passou:
                 if d < 3:
                     livres_3_dias += 1
                 linhas.append(f'<li class="livre"><span>{h}</span>vaga livre</li>')
-        semana.append(f'<div class="dia"><h3>{DIAS[dia.weekday()]} {dia:%d/%m}</h3><ul>{"".join(linhas)}</ul></div>')
+        botao_dia = f'<button class="dia-todos" data-dia="{dia}">aprovar o dia</button>' if any(p.get("pasta") for k, ps in ocupadas.items() if k.startswith(str(dia)) for p in ps) else ""
+        semana.append(f'<div class="dia"><h3>{DIAS[dia.weekday()]} {dia:%d/%m}{botao_dia}</h3><ul>{"".join(linhas)}</ul></div>')
     if livres_3_dias:
         pendencias.append(f"<b>{livres_3_dias} vaga(s) livre(s)</b> nos próximos 3 dias")
 
@@ -229,10 +302,20 @@ def main() -> None:
                                            f"{len(fontes)} fonte(s)" if fontes else ""] if x)
         img = f'<img loading="lazy" src="{c["capa"]}" alt="">' if c["capa"] else '<div class="semcapa">sem capa</div>'
         nome = c["pasta"].name if c["pasta"] else "sem pasta no repositório"
+        decide = rot_html = ""
+        if c["pasta"] and "aguardando" in c["status"].lower():
+            etapa = "vídeo" if any((c["pasta"] / n).exists() for n in ("reel.mp4", "short.mp4")) else "roteiro"
+            rot = ler(c["pasta"] / "roteiro.json", {}) or {}
+            falas = "".join(f'<li><b>{esc(s.get("cena", ""))}</b> {esc(s.get("fala", ""))}</li>' for s in rot.get("segmentos", []))
+            if falas:
+                extra = f'<li><b>brinde</b> {esc(rot.get("brinde", ""))}</li>' if rot.get("brinde") else ""
+                rot_html = f'<details class="rot"><summary>Ver roteiro ({rot.get("palavras", "?")} palavras, ~{rot.get("duracao_estimada_s", "?")} s)</summary><ul>{falas}{extra}</ul></details>'
+            decide = (f'<div class="decide" data-pasta="{esc(nome)}" data-etapa="{etapa}" data-dia="{esc(c["quando"][:10])}">'
+                      f'<button class="sim">✔ Aprovar {etapa}</button><button class="nao">✘ Negar</button></div>')
         html_cartoes.append(
-            f'<article data-status="{esc(c["status"])}">{img}<div class="info"><span class="st {classe(c["status"])}">{esc(c["status"])}</span>'
+            f'<article data-pasta="{esc(nome)}" data-status="{esc(c["status"])}">{img}<div class="info"><span class="st {classe(c["status"])}">{esc(c["status"])}</span>'
             f'<h4>{esc(c["titulo"][:110])}</h4><p class="sub">{esc(nome)}</p><p class="sub">{esc(detalhes)}</p>'
-            f'<div class="chips">{chips}</div>{"<p class=met>" + "<br>".join(esc(x) for x in met) + "</p>" if met else ""}{chk}</div></article>')
+            f'<div class="chips">{chips}</div>{"<p class=met>" + "<br>".join(esc(x) for x in met) + "</p>" if met else ""}{chk}{rot_html}{decide}</div></article>')
 
     contagem = defaultdict(int)
     for c in cartoes:
@@ -268,10 +351,20 @@ article img,.semcapa{{width:96px;min-width:96px;height:170px;object-fit:cover;ba
 .chips{{margin:6px 0}}.chip{{display:inline-block;font-size:11px;padding:2px 7px;border-radius:10px;margin:0 4px 4px 0;border:1px solid var(--line);color:var(--tx);text-decoration:none}}
 .chip.ok{{border-color:var(--ok)}}.chip.agenda{{border-color:var(--ag)}}.chip.erro{{border-color:var(--erro);color:var(--erro)}}
 .met{{font-size:12px;margin:4px 0}}details{{font-size:11px;margin-top:4px}}details ul{{padding-left:4px;list-style:none;margin:4px 0}}details li.erro{{color:var(--erro)}}details li.ok{{color:var(--mut)}}details li.aviso{{color:var(--esp)}}
+.rot ul li{{margin:3px 0;color:var(--tx)}}.rot b{{color:var(--mut);font-weight:600}}
+.decide{{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}}.decide button,.dia-todos,#pinbox button{{font:inherit;font-size:12px;border-radius:8px;padding:6px 10px;cursor:pointer;border:1px solid var(--line);background:#20242d;color:var(--tx)}}
+.decide .sim{{border-color:var(--ok);color:var(--ok)}}.decide .nao{{border-color:var(--erro);color:var(--erro)}}
+.flag{{display:inline-block;font-size:12px;font-weight:700;padding:4px 9px;border-radius:8px;margin-top:8px}}.flag.aprovado{{background:#3ecf8e22;color:var(--ok)}}.flag.negado{{background:#ff6b6b22;color:var(--erro)}}
+.flag button{{margin-left:6px;background:none;border:none;color:var(--mut);font-size:11px;text-decoration:underline;cursor:pointer}}
+.dia-todos{{float:right;font-size:10px!important;padding:2px 6px!important;text-transform:none;border-color:var(--ok)!important;color:var(--ok)!important}}
+li[data-dec=aprovado]::before{{content:"✔";color:var(--ok);font-weight:700;margin-right:3px}}li[data-dec=negado]{{text-decoration:line-through;opacity:.5}}
+#pinbox{{display:none;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-top:10px}}#pinbox input{{font:inherit;width:120px;padding:6px;border-radius:8px;border:1px solid var(--line);background:#0b0d12;color:var(--tx);margin:0 6px}}
+#aviso{{font-size:12px;color:var(--mut);margin-top:6px}}
 </style></head><body>
 <header><h1>IA em 60s · painel</h1><div class="mut">Atualizado em {agora:%d/%m %H:%M} (Brasília) · Metricool lido em {esc(snap.get("lido_em", "?"))} · {esc(resumo)}</div></header>
 <main>
-<h2>Precisa de você</h2><div class="pend"><ul>{pend}</ul></div>
+<h2>Precisa de você</h2><div class="pend"><ul>{pend}</ul><div id="aviso"></div></div>
+<div id="pinbox">PIN do painel:<input id="pin" type="password" inputmode="numeric" autocomplete="off"><button id="pinok">Entrar</button></div>
 <h2>Semana (Instagram, vagas do calendário)</h2><div class="semana">{"".join(semana)}</div>
 <h2>Todos os posts ({len(cartoes)})</h2><div class="filtros"><button data-f="" class="on">todos</button>{filtros}</div>
 <div class="grade">{"".join(html_cartoes)}</div>
@@ -281,7 +374,7 @@ document.querySelectorAll('.filtros button').forEach(b=>b.onclick=()=>{{
  document.querySelectorAll('.filtros button').forEach(x=>x.classList.toggle('on',x===b));
  document.querySelectorAll('article').forEach(a=>a.style.display=(!b.dataset.f||a.dataset.status===b.dataset.f)?'':'none');
 }});
-</script></body></html>
+""" + JS + """</script></body></html>
 """
     (PAINEL / "index.html").write_text(pagina, encoding="utf-8")
     print(f"painel/index.html: {len(cartoes)} posts, {len(pendencias)} pendência(s)")
