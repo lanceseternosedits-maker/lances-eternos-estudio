@@ -17,5 +17,78 @@
   "instagram": "2026-11-08 09:00",
   "tiktok": "2026-11-08 09:00"
  },
- "status": "roteiro aprovado"
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-07 18:52",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "29.7 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.90 palavras/s (86 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.0 LUFS, pico -1.5 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "1 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "1148 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "FONTE",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "b) carimbo batendo",
+  "contador": "(sem contador)",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "b) chicote de câmera (whip pan)",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + carimbo e martelo",
+  "mascote": "terno e óculos; ação principal: folhear processos"
+ },
+ "obs_producao": "Produzido em 07/11 no motor da cena_contagem (mesmo mascote 3D), módulo itens/advogado-chatgpt.js: tribunal de papelão (bancada vinho, martelo gigante, processos que voam e levam carimbo FALSO, colunas VERDADE × PROVÁVEL, lupa que revela a fonte). Sem logos, sem pessoa real, sem nome do advogado. Terno só nas mangas (bracinhos azul-marinho) e óculos redondos de aro dourado em volta dos olhos: nada escuro abaixo dos olhos (boca bugada). Voz: o gemini-3.1-flash-tts bateu o limite diário (100 pedidos), então saiu no gemini-2.5-flash-preview-tts com a mesma voz Puck e a mesma chave; desacelerada 0,95× para 2,90 palavras/s. 29,7 s, checar.py ok."
 }
