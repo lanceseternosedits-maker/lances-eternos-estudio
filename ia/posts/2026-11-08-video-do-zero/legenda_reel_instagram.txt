@@ -1,0 +1,16 @@
+Comenta VIDEO que eu te mando as 3 skills que fazem vídeo do zero. E a nº 1 transforma uma linha num episódio animado. 🎬
+
+3º otopilot: você dá o tema e ele entrega o vídeo com roteiro, voz, legenda e capa, sem chave de API
+2º take-one: faz comercial e clipe a partir de uma frase
+1º What If: uma linha vira um episódio animado de "E se…?" (a voz usa ElevenLabs, que pode ter custo)
+
+As 3 rodam no Claude Code, são de código aberto e somam quase 700 estrelas no GitHub em 1 mês.
+
+💬 Comenta VIDEO e me segue que eu te mando o link das 3.
+
+Qual vídeo você faria primeiro? 👇
+
+Fonte: páginas oficiais dos projetos no GitHub (estrelas lidas em 07/11).
+Animação e voz feitas com IA. Perfil independente, sem ligação com a Anthropic.
+
+#claudecode #ia #videocomia #criadordeconteudo #shorts

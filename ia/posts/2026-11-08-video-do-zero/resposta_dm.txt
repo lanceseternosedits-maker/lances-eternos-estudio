@@ -1,7 +1,7 @@
 Oi! Que bom que você comentou VIDEO 🙌
-Aqui está o que eu prometi (links das 3):
-• https://github.com/wj-sidiss/otopilot
-• https://github.com/talsiach/take-one
-• https://github.com/kelano86/what-if-animation
+Aqui estão as 3 skills que eu prometi (é só entregar o link pro Claude Code instalar):
+• otopilot: https://github.com/wj-sidiss/otopilot
+• take-one: https://github.com/talsiach/take-one
+• What If: https://github.com/kelano86/what-if-animation (a voz usa ElevenLabs, que pode ter custo)
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜

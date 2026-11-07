@@ -3,7 +3,7 @@
  "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
  "formato": "contagem",
  "chave": "VIDEO",
- "tese": "3 SKILLS QUE FAZEM VÍDEO DO ZERO · +1 MIL ESTRELAS EM 1 MÊS · E O Nº 1 FAZ UM EPISÓDIO EM UMA LINHA",
+ "tese": "3 SKILLS QUE FAZEM VÍDEO DO ZERO · +680 ESTRELAS EM 1 MÊS · E O Nº 1 FAZ UM EPISÓDIO EM UMA LINHA",
  "conceito": "Cinema drive-in à noite: telão, carros de blocos genéricos, pipoqueiro, projetor soltando feixe; paleta azul-noite + vermelho-cinema + amarelo-pipoca. Nº 1: o telão mostra uma pergunta 'E SE…?' e uma animação nasce. Mascote de óculos 3D.",
  "elementos": {
   "etiqueta": "c) letreiro neon",
@@ -23,13 +23,13 @@
   "https://github.com/talsiach/take-one",
   "https://github.com/kelano86/what-if-animation"
  ],
- "prova_viral": "Estrelas no GitHub (API, 07/11/2026): otopilot 202, take-one 216, What If 267; total 685; criados entre 13/10 e 21/10.",
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): otopilot 201, take-one 219, What If 269; total 689; criados entre 13/10 e 21/10.",
  "obs": "What If usa ElevenLabs para voz (pode ter custo): conferir.",
  "polemica": false,
  "agenda": "2026-11-08 (horário definido no agendamento)",
- "palavras": 95,
+ "palavras": 81,
  "duracao_estimada_s": 32.8,
- "status": "roteiro aprovado",
+ "status": "vídeo aguardando aprovação",
  "segmentos": [
   {
    "cena": "gancho",
@@ -39,7 +39,7 @@
    "itens": "video-do-zero",
    "etiqueta": [
     "3 SKILLS QUE FAZEM VÍDEO DO ZERO",
-    "+1 MIL ESTRELAS EM 1 MÊS",
+    "+680 ESTRELAS EM 1 MÊS",
     "E O Nº 1 FAZ UM EPISÓDIO EM UMA LINHA"
    ],
    "sfx": [
@@ -55,9 +55,9 @@
    "tag": "3º",
    "item": "otopilot",
    "repo": "wj-sidiss/otopilot",
-   "estrelas": 202,
-   "fala": "Terceiro: otopilot. Tema vira Short com roteiro, voz, legenda e capa. Sem chave. Esse é rápido… comenta VIDEO que eu te mando as três. Mas a primeira é a mais divertida.",
-   "legenda": "Terceiro: otopilot. Tema vira Short com roteiro, voz, legenda e capa. Sem chave. Esse é rápido… comenta VIDEO que eu te mando as três. Mas a primeira é a mais divertida.",
+   "estrelas": 201,
+   "fala": "Terceiro: otopilot. Tema vira Short com roteiro, voz, legenda e capa, sem chave. Comenta VIDEO que eu te mando as três. Mas a primeira é a mais divertida.",
+   "legenda": "Terceiro: otopilot. Tema vira Short com roteiro, voz, legenda e capa, sem chave. Comenta VIDEO que eu te mando as três. Mas a primeira é a mais divertida.",
    "sfx": [
     {
      "t": 0.0,
@@ -71,9 +71,9 @@
    "tag": "2º",
    "item": "take-one",
    "repo": "talsiach/take-one",
-   "estrelas": 216,
-   "fala": "Segundo: take-one. Faz comercial e clipe a partir de uma frase. Esse é rápido… comenta VIDEO que eu te mando as três. Mas a primeira é a mais divertida.",
-   "legenda": "Segundo: take-one. Faz comercial e clipe a partir de uma frase. Esse é rápido… comenta VIDEO que eu te mando as três. Mas a primeira é a mais divertida.",
+   "estrelas": 219,
+   "fala": "Segundo: take-one. Faz comercial e clipe a partir de uma frase. Mas a primeira é a mais divertida.",
+   "legenda": "Segundo: take-one. Faz comercial e clipe a partir de uma frase. Mas a primeira é a mais divertida.",
    "sfx": [
     {
      "t": 0.0,
@@ -87,7 +87,7 @@
    "tag": "1º",
    "item": "What If",
    "repo": "kelano86/what-if-animation",
-   "estrelas": 267,
+   "estrelas": 269,
    "fala": "E o primeiro: uma linha vira um episódio animado de 'E se…'.",
    "legenda": "E o primeiro: uma linha vira um episódio animado de 'E se…'.",
    "sfx": [
