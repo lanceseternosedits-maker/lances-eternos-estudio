@@ -163,6 +163,20 @@ def chance(pasta: Path, hist: list[dict]) -> dict:
         fatores.append((2, "Brinde concreto na DM"))
 
     fatores.insert(0, (BASE, f"Ponto de partida: {BASE}% (2 de {len(hist)} Reels medidos passaram de 300 views)"))
+    # 6) gosto do Vitor: parecido com roteiro que ele já aprovou ou negou no app
+    julgados = []
+    for d in (IA / "posts").iterdir():
+        if d.is_dir() and d.name != pasta.name:
+            m2 = _ler(d / "meta.json", {}) or {}
+            st = str(m2.get("status") or "")
+            if st == "negado" or st == "roteiro aprovado":
+                julgados.append((d, st, m2.get("nota_vitor") or ""))
+    if julgados:
+        sim, d2, st, nota = max(((len(tk & tokens(d)) / max(1, len(tk | tokens(d))), d, st, n) for d, st, n in julgados), key=lambda x: x[0])
+        if sim >= 0.12:
+            fatores.append((-12, f'Parecido com "{d2.name[11:]}", que você negou ({nota or "sem nota"})') if st == "negado"
+                           else (5, f'Parecido com "{d2.name[11:]}", que você aprovou'))
+
     pct = max(5, min(85, sum(a for a, _ in fatores)))
     nivel = "boa aposta" if pct >= 50 else "médio" if pct >= 30 else "arriscado"
     return {"pct": pct, "nivel": nivel, "tipo": tipo, "fatores": fatores}

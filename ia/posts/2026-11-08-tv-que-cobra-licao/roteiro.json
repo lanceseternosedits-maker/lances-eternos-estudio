@@ -27,7 +27,7 @@
  "agenda": "2026-11-08 09:00",
  "palavras": 67,
  "duracao_estimada_s": 23.1,
- "status": "roteiro aguardando aprovação",
+ "status": "negado",
  "segmentos": [
   {
    "cena": "gancho",
@@ -91,5 +91,6 @@
   "texto": "POV: a TV só liga depois da lição",
   "destaque": "depois da lição"
  },
- "formato_extra": "POV + revelação (referencias.md: formato com mais views)"
+ "formato_extra": "POV + revelação (referencias.md: formato com mais views)",
+ "nota_vitor": "Nao"
 }

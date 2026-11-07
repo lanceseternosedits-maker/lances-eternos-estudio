@@ -29,7 +29,7 @@
  "agenda": "2026-11-08 15:00",
  "palavras": 93,
  "duracao_estimada_s": 32.1,
- "status": "roteiro aguardando aprovação",
+ "status": "negado",
  "segmentos": [
   {
    "cena": "gancho",
@@ -105,5 +105,6 @@
    "legenda": "Comenta BLENDER e me segue que eu te mando os três.",
    "sfx": []
   }
- ]
+ ],
+ "nota_vitor": "Nichado"
 }

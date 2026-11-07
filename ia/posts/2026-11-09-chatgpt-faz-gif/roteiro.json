@@ -29,7 +29,7 @@
  "agenda": "2026-11-09 17:00",
  "palavras": 75,
  "duracao_estimada_s": 25.9,
- "status": "aguardando aprovação",
+ "status": "negado",
  "segmentos": [
   {
    "cena": "gancho",
@@ -85,5 +85,6 @@
    "legenda": "Comenta GIF e me segue que eu te mando cinco prompts prontos.",
    "sfx": []
   }
- ]
+ ],
+ "nota_vitor": "Bobo"
 }

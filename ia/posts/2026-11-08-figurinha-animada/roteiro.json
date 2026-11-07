@@ -27,7 +27,7 @@
  "agenda": "2026-11-08 07:00",
  "palavras": 72,
  "duracao_estimada_s": 24.8,
- "status": "roteiro aguardando aprovação",
+ "status": "negado",
  "segmentos": [
   {
    "cena": "gancho",
@@ -91,5 +91,6 @@
   "texto": "POV: seu personagem virou figurinha animada",
   "destaque": "figurinha animada"
  },
- "formato_extra": "POV + revelação (referencias.md: formato com mais views)"
+ "formato_extra": "POV + revelação (referencias.md: formato com mais views)",
+ "nota_vitor": "Nao"
 }

@@ -29,7 +29,7 @@
  "agenda": "2026-11-13 08:00",
  "palavras": 95,
  "duracao_estimada_s": 32.8,
- "status": "aguardando aprovação",
+ "status": "negado",
  "segmentos": [
   {
    "cena": "gancho",
@@ -105,5 +105,6 @@
    "legenda": "Comenta LINUX e me segue que eu te mando os três links.",
    "sfx": []
   }
- ]
+ ],
+ "nota_vitor": "Nichado"
 }

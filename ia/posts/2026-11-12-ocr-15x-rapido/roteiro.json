@@ -27,7 +27,7 @@
  "agenda": "2026-11-12 14:00",
  "palavras": 69,
  "duracao_estimada_s": 23.8,
- "status": "aguardando aprovação",
+ "status": "negado",
  "segmentos": [
   {
    "cena": "gancho",
@@ -86,5 +86,6 @@
    "legenda": "Comenta TEXTO e me segue que eu te mando o link.",
    "sfx": []
   }
- ]
+ ],
+ "nota_vitor": "Ia faz isso"
 }

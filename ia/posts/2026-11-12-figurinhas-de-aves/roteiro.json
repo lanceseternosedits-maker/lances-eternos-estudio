@@ -27,7 +27,7 @@
  "agenda": "2026-11-12 21:30",
  "palavras": 66,
  "duracao_estimada_s": 22.8,
- "status": "aguardando aprovação",
+ "status": "negado",
  "segmentos": [
   {
    "cena": "gancho",
@@ -86,5 +86,6 @@
    "legenda": "Comenta AVES e me segue pra mais coisa bonita feita com IA.",
    "sfx": []
   }
- ]
+ ],
+ "nota_vitor": "Extremamente nichado"
 }

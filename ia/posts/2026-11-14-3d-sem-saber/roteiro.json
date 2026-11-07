@@ -29,7 +29,7 @@
  "agenda": "2026-11-14 11:00",
  "palavras": 94,
  "duracao_estimada_s": 32.4,
- "status": "aguardando aprovação",
+ "status": "negado",
  "segmentos": [
   {
    "cena": "gancho",
@@ -105,5 +105,6 @@
    "legenda": "Comenta MODELO e me segue que eu te mando os três.",
    "sfx": []
   }
- ]
+ ],
+ "nota_vitor": "Muito generico"
 }

@@ -27,7 +27,7 @@
  "agenda": "2026-11-13 19:30",
  "palavras": 71,
  "duracao_estimada_s": 24.5,
- "status": "aguardando aprovação",
+ "status": "negado",
  "segmentos": [
   {
    "cena": "gancho",
@@ -86,5 +86,6 @@
    "legenda": "Comenta AMIGA e me segue. Você conversaria com uma?",
    "sfx": []
   }
- ]
+ ],
+ "nota_vitor": "Nada ver"
 }
