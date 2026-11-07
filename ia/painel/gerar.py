@@ -140,7 +140,12 @@ function pintar() {
   document.querySelectorAll('.decide').forEach(d => {
     const x = decisoes[d.dataset.pasta];
     let f = d.parentNode.querySelector('.flag');
-    if (x && x.etapa === d.dataset.etapa) {
+    const st = d.closest('article') && d.closest('article').querySelector('.st');
+    if (st && !st.dataset.orig) st.dataset.orig = st.textContent;
+    const valida = x && x.etapa === d.dataset.etapa && (!d.dataset.versao || (x.em || '') >= d.dataset.versao);
+    if (st) { st.textContent = valida ? (x.decisao === 'aprovado' ? '✔ ' + d.dataset.etapa + ' aprovado' : '✘ ' + d.dataset.etapa + ' negado') : st.dataset.orig;
+              st.className = 'st ' + (valida ? (x.decisao === 'aprovado' ? 'ok' : 'erro') : 'espera'); }
+    if (valida) {
       x.decisao === 'aprovado' ? ap++ : ng++;
       d.querySelectorAll('button,input').forEach(b => b.style.display = 'none');
       if (!f) { f = document.createElement('div'); d.after(f); }
@@ -167,7 +172,8 @@ async function decidir(pasta, etapa, decisao, nota) {
     body: JSON.stringify({ pasta, etapa, decisao, nota: nota || '' }) }).catch(() => null);
   if (!r) { aviso('Sem conexão: a decisão não foi gravada.'); return false; }
   if (!r.ok) { aviso('Erro ao gravar (' + r.status + ').'); return false; }
-  if (decisao === 'desfazer') delete decisoes[pasta]; else decisoes[pasta] = { etapa, decisao, nota };
+  const j = await r.json().catch(() => ({}));
+  if (decisao === 'desfazer') delete decisoes[pasta]; else decisoes[pasta] = { etapa, decisao, nota, em: j.em || '9999' };
   pintar(); return true;
 }
 document.querySelectorAll('.decide').forEach(d => {
@@ -350,7 +356,13 @@ def main() -> None:
             linhas = "".join(f'<li><span class="{"mais" if a > 0 else "menos" if a < 0 else "zero"}">{"+" if a > 0 else ""}{a}</span> {esc(t)}</li>' for a, t in ch["fatores"])
             porque = (f'<details class="porque"><summary>Por que {ch["pct"]}%? · {esc(ch["tipo"])}</summary><ul>{linhas}</ul>'
                       f'<p>Estimativa com {len(hist)} Reels medidos ("bem recebido" = mais de 300 views no Instagram). Ajuda a comparar roteiros; não é promessa.</p></details>')
-            decide = (f'<div class="decide" data-pasta="{esc(nome)}" data-etapa="{etapa}" data-dia="{esc(c["quando"][:10])}">'
+            versao = ""  # decisão de vídeo só vale para a versão que o Vitor viu (checagem roda no container em UTC)
+            if etapa == "vídeo" and (c["meta"].get("checagem") or {}).get("em"):
+                try:
+                    versao = (dt.datetime.strptime(c["meta"]["checagem"]["em"], "%Y-%m-%d %H:%M") - dt.timedelta(hours=3)).strftime("%Y-%m-%d %H:%M")
+                except ValueError:
+                    versao = ""
+            decide = (f'<div class="decide" data-pasta="{esc(nome)}" data-etapa="{etapa}" data-versao="{versao}" data-dia="{esc(c["quando"][:10])}">'
                       f'<span class="chance {ch["nivel"].replace(" ", "-").replace("é", "e")}" title="chance estimada de ser bem recebido">🔥 {ch["pct"]}%<small>{esc(ch["nivel"])}</small></span>'
                       f'<button class="sim">✔ Aprovar {etapa}</button><button class="nao">✘ Negar</button></div>{porque}')
         html_cartoes.append(
