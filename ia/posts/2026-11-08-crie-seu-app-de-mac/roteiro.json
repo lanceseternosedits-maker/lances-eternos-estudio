@@ -27,7 +27,6 @@
  "agenda": "2026-11-10 06:00",
  "palavras": 67,
  "duracao_estimada_s": 23.1,
- "status": "vídeo aguardando aprovação",
  "segmentos": [
   {
    "cena": "gancho",
@@ -208,6 +207,5 @@
  },
  "formato_extra": "POV + revelação (referencias.md: formato com mais views)",
  "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos).",
- "categoria": "novidade",
- "nota_vitor": "Legal! Mas a boca do mascote está bugada (vídeo negado em 07/11 12:23)"
+ "categoria": "novidade"
 }

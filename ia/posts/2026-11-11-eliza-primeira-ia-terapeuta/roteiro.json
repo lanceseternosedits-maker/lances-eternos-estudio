@@ -29,7 +29,7 @@
  "agenda": "2026-11-11 17:00",
  "palavras": 90,
  "duracao_estimada_s": 32.1,
- "status": "roteiro aguardando aprovação",
+ "status": "negado",
  "segmentos": [
   {
    "cena": "gancho",
@@ -114,5 +114,6 @@
     }
    ]
   }
- ]
+ ],
+ "nota_vitor": "Chapou"
 }
