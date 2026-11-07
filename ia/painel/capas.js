@@ -153,7 +153,7 @@ function dados(pasta) {
   if (!num) {
     const m = tudo.match(/\+\s?(\d[\d.,]*)\s?mil/) || tudo.match(/(\d+)\s?%/) || tudo.match(/us\$\s?([\d.,]+)\s?bi/);
     num = m ? (m[0].includes("%") ? m[1] + "%" : m[0].startsWith("us") ? "US$ " + m[1] + " BI" : "+" + m[1] + " MIL") : "";
-    if (!num) num = /^\d+\s/.test(texto) ? "TOP " + texto.split(" ")[0] : { novidade: "NOVO!", em_alta: "EM ALTA", tutorial: "PASSO A PASSO", recomendacao: "DICA" }[meta.pilar] || "";
+    if (!num) num = /^\d+\s(?!DE\s|EM\s|A\s)/.test(texto) ? "TOP " + texto.split(" ")[0] : { novidade: "NOVO!", em_alta: "EM ALTA", tutorial: "PASSO A PASSO", recomendacao: "DICA" }[meta.pilar] || "";
   }
   const isca = (capa.isca || et[2] || (meta.cta || rot.chave ? "COMENTA " + (meta.cta || rot.chave) : "IA EM 60S")).toUpperCase();
   const objeto = (PROPS.find(([re]) => re.test(tudo)) || [0, "raio"])[1];
