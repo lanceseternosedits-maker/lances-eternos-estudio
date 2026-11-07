@@ -23,7 +23,7 @@
   "https://github.com/zhouwei713/luobo-ppt",
   "https://github.com/liuhaisi2026212-maker/taishang-laojun"
  ],
- "prova_viral": "Estrelas no GitHub (API, 07/11/2026): AI Promo Video 452, Luobo PPT 454, Taishang Laojun 514; total 1.420; criados entre 08/10 e 22/10.",
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): AI Promo Video 453, Luobo PPT 454, Taishang Laojun 516; total 1.423; criados entre 08/10 e 22/10.",
  "obs": "READMEs em chinês: conferir detalhes. Tom: 'as agências vão ter que se adaptar', sem ataque.",
  "polemica": true,
  "agenda": "2026-11-08 (horário definido no agendamento)",
@@ -46,55 +46,130 @@
     {
      "t": 0.1,
      "som": "whoosh",
+     "g": 0.5
+    },
+    {
+     "t": 1.1,
+     "som": "whoosh2",
+     "g": 0.45
+    },
+    {
+     "t": 1.8,
+     "som": "impact",
      "g": 0.6
+    },
+    {
+     "t": 2.2,
+     "som": "riser",
+     "g": 0.35
     }
    ]
   },
   {
    "cena": "n3",
-   "tag": "3º",
+   "tag": "3ª",
    "item": "AI Promo Video",
    "repo": "liyupi/ai-promo-video-maker",
-   "estrelas": 452,
-   "fala": "Terceiro: uma frase e ela faz o vídeo de lançamento do seu produto, em 4K. Esse assusta… comenta AGENCIA que eu te mando as três. Mas a primeira é a mais perigosa.",
-   "legenda": "Terceiro: uma frase e ela faz o vídeo de lançamento do seu produto, em 4K. Esse assusta… comenta AGENCIA que eu te mando as três. Mas a primeira é a mais perigosa.",
+   "estrelas": 453,
+   "fala": "Terceira: uma frase e ela faz o vídeo de lançamento do seu produto. Essa assusta… comenta AGENCIA que eu te mando as três. Mas a primeira é a mais perigosa.",
+   "legenda": "Terceira: uma frase e ela faz o vídeo de lançamento do seu produto. Essa assusta… comenta AGENCIA que eu te mando as três. Mas a primeira é a mais perigosa.",
    "sfx": [
     {
-     "t": 0.0,
-     "som": "whoosh",
+     "t": 0,
+     "som": "paper",
      "g": 0.5
+    },
+    {
+     "t": 0.15,
+     "som": "typing",
+     "g": 0.45
+    },
+    {
+     "t": 2.0,
+     "som": "riser",
+     "g": 0.45
     }
    ]
   },
   {
    "cena": "n2",
-   "tag": "2º",
+   "tag": "2ª",
    "item": "Luobo PPT",
    "repo": "zhouwei713/luobo-ppt",
    "estrelas": 454,
-   "fala": "Segundo: faz apresentação de PowerPoint editável e bonita. Esse assusta… comenta AGENCIA que eu te mando as três. Mas a primeira é a mais perigosa.",
-   "legenda": "Segundo: faz apresentação de PowerPoint editável e bonita. Esse assusta… comenta AGENCIA que eu te mando as três. Mas a primeira é a mais perigosa.",
+   "fala": "Segunda: faz apresentação de PowerPoint editável e bonita. Mas a primeira é a mais perigosa.",
+   "legenda": "Segunda: faz apresentação de PowerPoint editável e bonita. Mas a primeira é a mais perigosa.",
    "sfx": [
     {
-     "t": 0.0,
-     "som": "whoosh",
+     "t": 0,
+     "som": "paper",
      "g": 0.5
+    },
+    {
+     "t": 0.15,
+     "som": "typing",
+     "g": 0.45
+    },
+    {
+     "t": 0.4,
+     "som": "pop",
+     "g": 0.35
+    },
+    {
+     "t": 0.6,
+     "som": "pop",
+     "g": 0.35
+    },
+    {
+     "t": 0.8,
+     "som": "pop",
+     "g": 0.35
+    },
+    {
+     "t": 2.5,
+     "som": "whoosh2",
+     "g": 0.4
     }
    ]
   },
   {
    "cena": "n1",
-   "tag": "1º",
+   "tag": "1ª",
    "item": "Taishang Laojun",
    "repo": "liuhaisi2026212-maker/taishang-laojun",
-   "estrelas": 514,
-   "fala": "E o primeiro: acha o que está viralizando, sugere o tema e escreve o roteiro.",
-   "legenda": "E o primeiro: acha o que está viralizando, sugere o tema e escreve o roteiro.",
+   "estrelas": 516,
+   "fala": "E a primeira: acha o que está viralizando, sugere o tema e escreve o roteiro.",
+   "legenda": "E a primeira: acha o que está viralizando, sugere o tema e escreve o roteiro.",
    "sfx": [
     {
-     "t": 0.0,
-     "som": "whoosh",
+     "t": 0,
+     "som": "paper",
      "g": 0.5
+    },
+    {
+     "t": 0.15,
+     "som": "typing",
+     "g": 0.45
+    },
+    {
+     "t": 0.4,
+     "som": "pop",
+     "g": 0.4
+    },
+    {
+     "t": 0.75,
+     "som": "pop",
+     "g": 0.4
+    },
+    {
+     "t": 1.1,
+     "som": "pop",
+     "g": 0.4
+    },
+    {
+     "t": 2.1,
+     "som": "unlock",
+     "g": 0.4
     }
    ]
   },
@@ -103,7 +178,18 @@
    "tag": "COMENTA AGENCIA",
    "fala": "Comenta AGENCIA e me segue. As agências vão ter que correr.",
    "legenda": "Comenta AGENCIA e me segue. As agências vão ter que correr.",
-   "sfx": []
+   "sfx": [
+    {
+     "t": 0.2,
+     "som": "pop",
+     "g": 0.5
+    },
+    {
+     "t": 0.7,
+     "som": "ding",
+     "g": 0.5
+    }
+   ]
   }
  ],
  "adiantado_de": "2026-11-15"

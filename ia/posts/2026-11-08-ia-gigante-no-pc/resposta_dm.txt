@@ -1,7 +1,9 @@
 Oi! Que bom que você comentou LOCAL 🙌
-Aqui está o que eu prometi (links dos 3 + aviso de hardware necessário):
-• https://github.com/nace-ai/kapitsa
-• https://github.com/simplexai-labs/PolyStrata
-• https://github.com/mw00/project-maya
+Aqui estão os 3 projetos pra rodar IA no seu PC:
+• kapitsa (Mac com chip da Apple): https://github.com/nace-ai/kapitsa
+• PolyStrata (vários modelos com um clique): https://github.com/simplexai-labs/PolyStrata
+• Project Maya (modelos gigantes nas suas placas de vídeo): https://github.com/mw00/project-maya
+
+⚠️ Aviso de hardware: o Project Maya foi feito pra quem tem várias placas de vídeo (modelos de centenas de bilhões de parâmetros). O kapitsa pede um Mac com chip da Apple. Antes de instalar, confira na página de cada um os requisitos de memória.
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜

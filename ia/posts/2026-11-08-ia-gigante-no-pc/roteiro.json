@@ -23,7 +23,7 @@
   "https://github.com/simplexai-labs/PolyStrata",
   "https://github.com/mw00/project-maya"
  ],
- "prova_viral": "Estrelas no GitHub (API, 07/11/2026): kapitsa 662, PolyStrata 899, Project Maya 2.611; total 4.172; criados entre 06/10 e 16/10.",
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): kapitsa 669, PolyStrata 905, Project Maya 2.624; total 4.198; criados entre 06/10 e 16/10.",
  "obs": "Project Maya exige várias GPUs: dizer 'pra quem tem máquina forte'. Não sugerir que é barato.",
  "polemica": true,
  "agenda": "2026-11-08 (horário definido no agendamento)",
@@ -46,7 +46,17 @@
     {
      "t": 0.1,
      "som": "whoosh",
-     "g": 0.6
+     "g": 0.5
+    },
+    {
+     "t": 1.6,
+     "som": "riser",
+     "g": 0.45
+    },
+    {
+     "t": 3.2,
+     "som": "impact",
+     "g": 0.55
     }
    ]
   },
@@ -55,14 +65,24 @@
    "tag": "3º",
    "item": "kapitsa",
    "repo": "nace-ai/kapitsa",
-   "estrelas": 662,
+   "estrelas": 669,
    "fala": "Terceiro: kapitsa. IA rápida em Mac com chip da Apple. Esse é útil… comenta LOCAL que eu te mando os três. Mas o primeiro pede máquina parruda.",
    "legenda": "Terceiro: kapitsa. IA rápida em Mac com chip da Apple. Esse é útil… comenta LOCAL que eu te mando os três. Mas o primeiro pede máquina parruda.",
    "sfx": [
     {
-     "t": 0.0,
-     "som": "whoosh",
+     "t": 0,
+     "som": "whoosh2",
      "g": 0.5
+    },
+    {
+     "t": 0.22,
+     "som": "stamp",
+     "g": 0.6
+    },
+    {
+     "t": 1.7,
+     "som": "ding",
+     "g": 0.4
     }
    ]
   },
@@ -71,14 +91,44 @@
    "tag": "2º",
    "item": "PolyStrata",
    "repo": "simplexai-labs/PolyStrata",
-   "estrelas": 899,
-   "fala": "Segundo: PolyStrata. Instala vários modelos de IA com um clique. Esse é útil… comenta LOCAL que eu te mando os três. Mas o primeiro pede máquina parruda.",
-   "legenda": "Segundo: PolyStrata. Instala vários modelos de IA com um clique. Esse é útil… comenta LOCAL que eu te mando os três. Mas o primeiro pede máquina parruda.",
+   "estrelas": 905,
+   "fala": "Segundo: PolyStrata. Instala vários modelos de IA com um clique. Mas o primeiro pede máquina parruda.",
+   "legenda": "Segundo: PolyStrata. Instala vários modelos de IA com um clique. Mas o primeiro pede máquina parruda.",
    "sfx": [
     {
-     "t": 0.0,
-     "som": "whoosh",
+     "t": 0,
+     "som": "whoosh2",
      "g": 0.5
+    },
+    {
+     "t": 0.22,
+     "som": "stamp",
+     "g": 0.6
+    },
+    {
+     "t": 1.0,
+     "som": "unlock",
+     "g": 0.5
+    },
+    {
+     "t": 1.3,
+     "som": "pop",
+     "g": 0.4
+    },
+    {
+     "t": 1.75,
+     "som": "pop",
+     "g": 0.4
+    },
+    {
+     "t": 2.2,
+     "som": "pop",
+     "g": 0.4
+    },
+    {
+     "t": 1.7,
+     "som": "ding",
+     "g": 0.35
     }
    ]
   },
@@ -87,13 +137,28 @@
    "tag": "1º",
    "item": "Project Maya",
    "repo": "mw00/project-maya",
-   "estrelas": 2611,
+   "estrelas": 2624,
    "fala": "E o primeiro: roda modelos de centenas de bilhões de parâmetros nas suas placas.",
    "legenda": "E o primeiro: roda modelos de centenas de bilhões de parâmetros nas suas placas.",
    "sfx": [
     {
-     "t": 0.0,
-     "som": "whoosh",
+     "t": 0,
+     "som": "whoosh2",
+     "g": 0.5
+    },
+    {
+     "t": 0.22,
+     "som": "stamp",
+     "g": 0.6
+    },
+    {
+     "t": 1.5,
+     "som": "riser",
+     "g": 0.45
+    },
+    {
+     "t": 2.6,
+     "som": "impact",
      "g": 0.5
     }
    ]
@@ -103,7 +168,18 @@
    "tag": "COMENTA LOCAL",
    "fala": "Comenta LOCAL e me segue que eu te mando os três links.",
    "legenda": "Comenta LOCAL e me segue que eu te mando os três links.",
-   "sfx": []
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "pop",
+     "g": 0.5
+    },
+    {
+     "t": 0.6,
+     "som": "ding",
+     "g": 0.5
+    }
+   ]
   }
  ],
  "adiantado_de": "2026-11-14"
