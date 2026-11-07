@@ -24,7 +24,7 @@ Perfil de Vitor Gofredo: a IA que importa explicada em 60 segundos, em portuguê
 
 ## Tarefas agendadas (Claude Code na nuvem)
 - **IA em 60s – caçador de referências:** seg e qui às 03:53 de Brasília (Sonnet); atualiza `ia/referencias.md` antes da produção.
-- **IA em 60s – produção (seg e qui):** às 04:47 de Brasília (Sonnet); **14 roteiros por rodada** (28 por semana = 4 por dia). A de segunda cobre ter, qua, qui e sex 06:00/12:00; a de quinta cobre sex 17:00/19:30, sáb, dom e seg. Depois do OK nos roteiros, uma sessão produz os 14 vídeos (render em paralelo) e manda os MP4 para a 2ª aprovação.
+- **IA em 60s – produção (seg e qui):** às 04:47 de Brasília (Sonnet); **14 roteiros por rodada** (28 por semana = 4 por dia). Antes dos roteiros, lê as métricas do Metricool (Reels IG + TikTok, 14 dias), grava em `ia/metricas.json` e replica o que deu view, evitando o que flopou (Vitor, 07/11). A de segunda cobre ter, qua, qui e sex 06:00/12:00; a de quinta cobre sex 17:00/19:30, sáb, dom e seg. Depois do OK nos roteiros, uma sessão produz os 14 vídeos (render em paralelo) e manda os MP4 para a 2ª aprovação.
 - **IA em 60s – cobrança de aprovações:** todo dia às 09:23 e 18:23 de Brasília; confere roteiros "aguardando aprovação" no `estado.json` e horários vagos (úteis 06:00/12:00/17:00/19:30; fim de semana 09:00/13:00/17:00/20:30) dos próximos 3 dias, e manda notificação para o Vitor. Só avisa, não altera nada. Toda sessão que deixar algo para o Vitor aprovar marca no `estado.json` como "aguardando aprovação" com dia e horário.
 - **Economia de tokens:** respostas curtas, poucas buscas, 1 folha de miniaturas por peça; trabalho pesado (vídeo 3D) em sessão nova e curta.
 - Metricool: `blogId 7637900`, fuso `America/Sao_Paulo`.
