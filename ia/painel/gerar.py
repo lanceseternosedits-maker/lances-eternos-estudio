@@ -363,6 +363,15 @@ def main() -> None:
         cat = m.get("categoria") or "novidade"
         capa_ig = (f'<a class="chip ig" href="https://raw.githubusercontent.com/lanceseternosedits-maker/lances-eternos-estudio/midia-ia/ia/posts/{esc(nome)}/capa_instagram.jpg">📲 capa IG</a>'
                    if c["pasta"] and (c["pasta"] / "capa_instagram.jpg").exists() else "")
+        responder = ""
+        if c["pasta"] and c["pubs"] and (c["pasta"] / "resposta_dm.txt").exists():
+            dm = (c["pasta"] / "resposta_dm.txt").read_text(encoding="utf-8").strip()
+            palavra = (m.get("cta") or "").upper()
+            responder = (f'<details class="resp"><summary>💬 Responder comentários{" (" + esc(palavra) + ")" if palavra else ""}</summary>'
+                         f'<p class="mut">1) No comentário com a palavra, responda (toque para copiar, varia sozinho):</p>'
+                         f'<button class="copiar" data-resp="1">📋 Copiar resposta pública</button>'
+                         f'<p class="mut">2) Na DM da pessoa, cole:</p><textarea readonly rows="6">{esc(dm)}</textarea>'
+                         f'<button class="copiar" data-dm="1">📋 Copiar DM</button></details>')
         decide = rot_html = ""
         pct_attr = ""
         if c["pasta"] and "aguardando" in c["status"].lower():
@@ -396,7 +405,7 @@ def main() -> None:
             f'<article data-pasta="{esc(nome)}" data-status="{esc(c["status"])}" data-bucket="{b}" data-b0="{b}"{etapa_attr} data-cat="{esc(cat)}" data-quando="{esc(c["quando"][:16])}"{pct_attr}>{img}<div class="info">'
             f'<div class="topo"><span class="cat">{CATEGORIAS.get(cat, cat)}</span> <span class="st {classe(c["status"])}">{esc(c["status"])}</span></div>'
             f'<h4 title="{esc(nome)}">{esc(c["titulo"][:110])}</h4><p class="quando">📅 {esc(quando_bonito(c["quando"]))}</p><p class="sub">{esc(detalhes)}</p>'
-            f'<div class="chips">{chips}{capa_ig}</div>{"<p class=met>" + "<br>".join(esc(x) for x in met) + "</p>" if met else ""}{chk}{rot_html}{decide}</div></article>')
+            f'<div class="chips">{chips}{capa_ig}</div>{"<p class=met>" + "<br>".join(esc(x) for x in met) + "</p>" if met else ""}{chk}{responder}{rot_html}{decide}</div></article>')
 
     # ---- gastos (painel/gastos.json + Gemini estimado pelo nº de vídeos com voz)
     g = ler(PAINEL / "gastos.json", {}) or {}
@@ -545,6 +554,7 @@ nav{{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;background:#
 nav button{{flex:1;font:inherit;font-size:11px;font-weight:600;color:var(--mut);background:none;border:0;padding:4px 0;cursor:pointer;position:relative}}
 nav button i{{display:block;font-style:normal;font-size:21px;line-height:1.3}}nav button.on{{color:var(--tx)}}
 nav .badge{{position:absolute;top:0;left:56%;min-width:18px;padding:0 5px;border-radius:9px;background:var(--erro);color:#fff;font-size:11px;line-height:18px}}
+details.resp textarea{{width:100%;box-sizing:border-box;background:var(--bg);color:var(--tx);border:1px solid var(--line);border-radius:8px;font-size:12px;padding:6px}}button.copiar{{display:block;width:100%;margin:6px 0;padding:9px;border-radius:10px;border:1px solid var(--line);background:#e8834a;color:#fff;font-weight:600}}details.resp p{{font-size:12px;margin:6px 0 2px}}
 .vazio{{text-align:center;color:var(--mut);padding:30px 10px}}
 </style></head><body data-tab="aprovar">
 <header><h1>IA em 60s<small>atualizado {agora:%d/%m %H:%M} · Metricool {esc(str(snap.get("lido_em", "?"))[:16])}</small></h1>
@@ -603,6 +613,16 @@ function recontar() {{
   }});
   document.querySelectorAll('[data-cont]').forEach(el => {{ const v = c[el.dataset.cont] || 0; el.textContent = v; if (el.classList.contains('badge')) el.style.display = v ? '' : 'none'; }});
 }}
+
+const RESP = ['Te mandei na DM! 📩 Se não aparecer, olha em Solicitações de mensagem.', 'Enviado no direct! 🚀 Confere lá (às vezes cai em Solicitações).',
+  'Mandei agora na DM 😉', 'Prontinho, tá na sua DM! 📩', 'Chegou aí? Mandei no direct 🙌'];
+let nResp = 0;
+document.addEventListener('click', async ev => {{
+  const b = ev.target.closest('button.copiar'); if (!b) return;
+  const txt = b.dataset.dm ? b.closest('details').querySelector('textarea').value : RESP[nResp++ % RESP.length];
+  try {{ await navigator.clipboard.writeText(txt); }} catch (e) {{ const t = document.createElement('textarea'); t.value = txt; document.body.appendChild(t); t.select(); document.execCommand('copy'); t.remove(); }}
+  const o = b.textContent; b.textContent = '✔ Copiado'; setTimeout(() => b.textContent = o, 1200);
+}});
 function aba(t) {{
   document.body.dataset.tab = t;
   document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.t === t));
