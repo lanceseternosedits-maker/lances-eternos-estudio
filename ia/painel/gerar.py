@@ -70,6 +70,9 @@ def horarios_do_post(meta: dict) -> list[tuple[str, str]]:
 
 
 def capa(pasta: Path) -> str | None:
+    thumb = CAPAS / f"thumb-{pasta.name}.jpg"  # capa estilo thumb (node painel/capas.js)
+    if thumb.exists():
+        return f"capas/{thumb.name}"
     destino = CAPAS / f"{pasta.name}.jpg"
     if destino.exists():
         return f"capas/{destino.name}"
