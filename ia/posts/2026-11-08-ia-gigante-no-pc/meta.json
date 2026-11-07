@@ -1,6 +1,6 @@
 {
- "data": "2026-11-14",
- "horario": "13:00",
+ "data": "2026-11-08",
+ "horario": "a definir",
  "pilar": "reel",
  "formato": "contagem",
  "temas": [
@@ -13,9 +13,6 @@
  ],
  "cta": "LOCAL",
  "polemica": true,
- "horarios": {
-  "instagram": "2026-11-14 13:00",
-  "tiktok": "2026-11-14 13:00"
- },
+ "horarios": {},
  "status": "roteiro aprovado"
 }

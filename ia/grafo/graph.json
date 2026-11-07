@@ -1367,9 +1367,9 @@
    "label": "https://github.com/InukaAsith/TwinDesk"
   },
   {
-   "id": "2026-11-08-blender-com-ia",
+   "id": "2026-11-08-apps-pra-quem-vive-no-chat",
    "tipo": "post",
-   "label": "blender-com-ia",
+   "label": "apps-pra-quem-vive-no-chat",
    "data": "2026-11-08",
    "score": null
   },
@@ -1382,6 +1382,38 @@
    "id": "formato:contagem",
    "tipo": "formato",
    "label": "contagem"
+  },
+  {
+   "id": "cta:MAPA",
+   "tipo": "cta",
+   "label": "MAPA"
+  },
+  {
+   "id": "tema:apps-pra-quem-vive-no-chat",
+   "tipo": "tema",
+   "label": "apps-pra-quem-vive-no-chat"
+  },
+  {
+   "id": "fonte:https://github.com/orkunisitmak/clipboardline",
+   "tipo": "fonte",
+   "label": "https://github.com/orkunisitmak/clipboardline"
+  },
+  {
+   "id": "fonte:https://github.com/tang1693/KIKUmap",
+   "tipo": "fonte",
+   "label": "https://github.com/tang1693/KIKUmap"
+  },
+  {
+   "id": "fonte:https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "tipo": "fonte",
+   "label": "https://github.com/franzenzenhofer/big-arrow-on-the-screen"
+  },
+  {
+   "id": "2026-11-08-blender-com-ia",
+   "tipo": "post",
+   "label": "blender-com-ia",
+   "data": "2026-11-08",
+   "score": null
   },
   {
    "id": "cta:BLENDER",
@@ -1554,6 +1586,11 @@
    "score": null
   },
   {
+   "id": "paleta:paleta vermelho NO AR + madeira + verde-válvula",
+   "tipo": "paleta",
+   "label": "paleta vermelho NO AR + madeira + verde-válvula"
+  },
+  {
    "id": "cta:VOZ",
    "tipo": "cta",
    "label": "VOZ"
@@ -1599,6 +1636,38 @@
    "id": "fonte:https://github.com/WoYun520/pixel-gif-sticker-pack",
    "tipo": "fonte",
    "label": "https://github.com/WoYun520/pixel-gif-sticker-pack"
+  },
+  {
+   "id": "2026-11-08-ia-gigante-no-pc",
+   "tipo": "post",
+   "label": "ia-gigante-no-pc",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:LOCAL",
+   "tipo": "cta",
+   "label": "LOCAL"
+  },
+  {
+   "id": "tema:ia-gigante-no-pc",
+   "tipo": "tema",
+   "label": "ia-gigante-no-pc"
+  },
+  {
+   "id": "fonte:https://github.com/nace-ai/kapitsa",
+   "tipo": "fonte",
+   "label": "https://github.com/nace-ai/kapitsa"
+  },
+  {
+   "id": "fonte:https://github.com/simplexai-labs/PolyStrata",
+   "tipo": "fonte",
+   "label": "https://github.com/simplexai-labs/PolyStrata"
+  },
+  {
+   "id": "fonte:https://github.com/mw00/project-maya",
+   "tipo": "fonte",
+   "label": "https://github.com/mw00/project-maya"
   },
   {
    "id": "2026-11-08-laboratorio-3d-gratis",
@@ -1675,11 +1744,48 @@
    "label": "https://github.com/seedds/nxnative"
   },
   {
+   "id": "2026-11-08-skills-chinesas-agencia",
+   "tipo": "post",
+   "label": "skills-chinesas-agencia",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:AGENCIA",
+   "tipo": "cta",
+   "label": "AGENCIA"
+  },
+  {
+   "id": "tema:skills-chinesas-agencia",
+   "tipo": "tema",
+   "label": "skills-chinesas-agencia"
+  },
+  {
+   "id": "fonte:https://github.com/liyupi/ai-promo-video-maker",
+   "tipo": "fonte",
+   "label": "https://github.com/liyupi/ai-promo-video-maker"
+  },
+  {
+   "id": "fonte:https://github.com/zhouwei713/luobo-ppt",
+   "tipo": "fonte",
+   "label": "https://github.com/zhouwei713/luobo-ppt"
+  },
+  {
+   "id": "fonte:https://github.com/liuhaisi2026212-maker/taishang-laojun",
+   "tipo": "fonte",
+   "label": "https://github.com/liuhaisi2026212-maker/taishang-laojun"
+  },
+  {
    "id": "2026-11-08-skills-de-design",
    "tipo": "post",
    "label": "skills-de-design",
    "data": "2026-11-08",
    "score": null
+  },
+  {
+   "id": "paleta:paleta azul-klein + laranja + branco-papel",
+   "tipo": "paleta",
+   "label": "paleta azul-klein + laranja + branco-papel"
   },
   {
    "id": "cta:DESIGN",
@@ -1727,6 +1833,38 @@
    "id": "fonte:https://github.com/chadyi/StudyOnTV",
    "tipo": "fonte",
    "label": "https://github.com/chadyi/StudyOnTV"
+  },
+  {
+   "id": "2026-11-08-video-do-zero",
+   "tipo": "post",
+   "label": "video-do-zero",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:VIDEO",
+   "tipo": "cta",
+   "label": "VIDEO"
+  },
+  {
+   "id": "tema:video-do-zero",
+   "tipo": "tema",
+   "label": "video-do-zero"
+  },
+  {
+   "id": "fonte:https://github.com/wj-sidiss/otopilot",
+   "tipo": "fonte",
+   "label": "https://github.com/wj-sidiss/otopilot"
+  },
+  {
+   "id": "fonte:https://github.com/talsiach/take-one",
+   "tipo": "fonte",
+   "label": "https://github.com/talsiach/take-one"
+  },
+  {
+   "id": "fonte:https://github.com/kelano86/what-if-animation",
+   "tipo": "fonte",
+   "label": "https://github.com/kelano86/what-if-animation"
   },
   {
    "id": "2026-11-08-windows-gratis",
@@ -2746,38 +2884,6 @@
    "label": "https://github.com/andrisgauracs/wifi-sensing-kit"
   },
   {
-   "id": "2026-11-13-video-do-zero",
-   "tipo": "post",
-   "label": "video-do-zero",
-   "data": "2026-11-13",
-   "score": null
-  },
-  {
-   "id": "cta:VIDEO",
-   "tipo": "cta",
-   "label": "VIDEO"
-  },
-  {
-   "id": "tema:video-do-zero",
-   "tipo": "tema",
-   "label": "video-do-zero"
-  },
-  {
-   "id": "fonte:https://github.com/wj-sidiss/otopilot",
-   "tipo": "fonte",
-   "label": "https://github.com/wj-sidiss/otopilot"
-  },
-  {
-   "id": "fonte:https://github.com/talsiach/take-one",
-   "tipo": "fonte",
-   "label": "https://github.com/talsiach/take-one"
-  },
-  {
-   "id": "fonte:https://github.com/kelano86/what-if-animation",
-   "tipo": "fonte",
-   "label": "https://github.com/kelano86/what-if-animation"
-  },
-  {
    "id": "2026-11-14-3d-sem-saber",
    "tipo": "post",
    "label": "3d-sem-saber",
@@ -2808,38 +2914,6 @@
    "id": "fonte:https://github.com/deepopen-com/deepopen-3d-webs",
    "tipo": "fonte",
    "label": "https://github.com/deepopen-com/deepopen-3d-webs"
-  },
-  {
-   "id": "2026-11-14-apps-pra-quem-vive-no-chat",
-   "tipo": "post",
-   "label": "apps-pra-quem-vive-no-chat",
-   "data": "2026-11-14",
-   "score": null
-  },
-  {
-   "id": "cta:MAPA",
-   "tipo": "cta",
-   "label": "MAPA"
-  },
-  {
-   "id": "tema:apps-pra-quem-vive-no-chat",
-   "tipo": "tema",
-   "label": "apps-pra-quem-vive-no-chat"
-  },
-  {
-   "id": "fonte:https://github.com/orkunisitmak/clipboardline",
-   "tipo": "fonte",
-   "label": "https://github.com/orkunisitmak/clipboardline"
-  },
-  {
-   "id": "fonte:https://github.com/tang1693/KIKUmap",
-   "tipo": "fonte",
-   "label": "https://github.com/tang1693/KIKUmap"
-  },
-  {
-   "id": "fonte:https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-   "tipo": "fonte",
-   "label": "https://github.com/franzenzenhofer/big-arrow-on-the-screen"
   },
   {
    "id": "2026-11-14-aprender-coisa-dificil",
@@ -2884,38 +2958,6 @@
    "id": "fonte:https://github.com/alchaincyf/huashu-motion",
    "tipo": "fonte",
    "label": "https://github.com/alchaincyf/huashu-motion"
-  },
-  {
-   "id": "2026-11-14-ia-gigante-no-pc",
-   "tipo": "post",
-   "label": "ia-gigante-no-pc",
-   "data": "2026-11-14",
-   "score": null
-  },
-  {
-   "id": "cta:LOCAL",
-   "tipo": "cta",
-   "label": "LOCAL"
-  },
-  {
-   "id": "tema:ia-gigante-no-pc",
-   "tipo": "tema",
-   "label": "ia-gigante-no-pc"
-  },
-  {
-   "id": "fonte:https://github.com/nace-ai/kapitsa",
-   "tipo": "fonte",
-   "label": "https://github.com/nace-ai/kapitsa"
-  },
-  {
-   "id": "fonte:https://github.com/simplexai-labs/PolyStrata",
-   "tipo": "fonte",
-   "label": "https://github.com/simplexai-labs/PolyStrata"
-  },
-  {
-   "id": "fonte:https://github.com/mw00/project-maya",
-   "tipo": "fonte",
-   "label": "https://github.com/mw00/project-maya"
   },
   {
    "id": "2026-11-14-ia-liga-pra-voce",
@@ -2982,38 +3024,6 @@
    "id": "fonte:https://github.com/livliv-dev/player",
    "tipo": "fonte",
    "label": "https://github.com/livliv-dev/player"
-  },
-  {
-   "id": "2026-11-15-skills-chinesas-agencia",
-   "tipo": "post",
-   "label": "skills-chinesas-agencia",
-   "data": "2026-11-15",
-   "score": null
-  },
-  {
-   "id": "cta:AGENCIA",
-   "tipo": "cta",
-   "label": "AGENCIA"
-  },
-  {
-   "id": "tema:skills-chinesas-agencia",
-   "tipo": "tema",
-   "label": "skills-chinesas-agencia"
-  },
-  {
-   "id": "fonte:https://github.com/liyupi/ai-promo-video-maker",
-   "tipo": "fonte",
-   "label": "https://github.com/liyupi/ai-promo-video-maker"
-  },
-  {
-   "id": "fonte:https://github.com/zhouwei713/luobo-ppt",
-   "tipo": "fonte",
-   "label": "https://github.com/zhouwei713/luobo-ppt"
-  },
-  {
-   "id": "fonte:https://github.com/liuhaisi2026212-maker/taishang-laojun",
-   "tipo": "fonte",
-   "label": "https://github.com/liuhaisi2026212-maker/taishang-laojun"
   },
   {
    "id": "2026-11-15-skills-video-explicativo",
@@ -3583,15 +3593,7 @@
   },
   {
    "source": "rede:instagram",
-   "target": "2026-11-13-video-do-zero"
-  },
-  {
-   "source": "rede:instagram",
    "target": "2026-11-14-3d-sem-saber"
-  },
-  {
-   "source": "rede:instagram",
-   "target": "2026-11-14-apps-pra-quem-vive-no-chat"
   },
   {
    "source": "rede:instagram",
@@ -3600,10 +3602,6 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-14-comercial-com-trilha"
-  },
-  {
-   "source": "rede:instagram",
-   "target": "2026-11-14-ia-gigante-no-pc"
   },
   {
    "source": "rede:instagram",
@@ -3616,10 +3614,6 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-14-vire-um-personagem"
-  },
-  {
-   "source": "rede:instagram",
-   "target": "2026-11-15-skills-chinesas-agencia"
   },
   {
    "source": "rede:instagram",
@@ -3915,15 +3909,7 @@
   },
   {
    "source": "rede:tiktok",
-   "target": "2026-11-13-video-do-zero"
-  },
-  {
-   "source": "rede:tiktok",
    "target": "2026-11-14-3d-sem-saber"
-  },
-  {
-   "source": "rede:tiktok",
-   "target": "2026-11-14-apps-pra-quem-vive-no-chat"
   },
   {
    "source": "rede:tiktok",
@@ -3932,10 +3918,6 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-14-comercial-com-trilha"
-  },
-  {
-   "source": "rede:tiktok",
-   "target": "2026-11-14-ia-gigante-no-pc"
   },
   {
    "source": "rede:tiktok",
@@ -3948,10 +3930,6 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-14-vire-um-personagem"
-  },
-  {
-   "source": "rede:tiktok",
-   "target": "2026-11-15-skills-chinesas-agencia"
   },
   {
    "source": "rede:tiktok",
@@ -4419,15 +4397,7 @@
   },
   {
    "source": "horario:20h",
-   "target": "2026-11-13-video-do-zero"
-  },
-  {
-   "source": "horario:20h",
    "target": "2026-11-14-3d-sem-saber"
-  },
-  {
-   "source": "horario:20h",
-   "target": "2026-11-14-apps-pra-quem-vive-no-chat"
   },
   {
    "source": "horario:20h",
@@ -4436,10 +4406,6 @@
   {
    "source": "horario:20h",
    "target": "2026-11-14-comercial-com-trilha"
-  },
-  {
-   "source": "horario:20h",
-   "target": "2026-11-14-ia-gigante-no-pc"
   },
   {
    "source": "horario:20h",
@@ -4452,10 +4418,6 @@
   {
    "source": "horario:20h",
    "target": "2026-11-14-vire-um-personagem"
-  },
-  {
-   "source": "horario:20h",
-   "target": "2026-11-15-skills-chinesas-agencia"
   },
   {
    "source": "horario:20h",
@@ -5359,6 +5321,10 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-08-apps-pra-quem-vive-no-chat"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-08-blender-com-ia"
   },
   {
@@ -5379,11 +5345,11 @@
   },
   {
    "source": "paleta:paleta None",
-   "target": "2026-11-08-estudio-de-voz-gratis"
+   "target": "2026-11-08-figurinha-animada"
   },
   {
    "source": "paleta:paleta None",
-   "target": "2026-11-08-figurinha-animada"
+   "target": "2026-11-08-ia-gigante-no-pc"
   },
   {
    "source": "paleta:paleta None",
@@ -5395,11 +5361,15 @@
   },
   {
    "source": "paleta:paleta None",
-   "target": "2026-11-08-skills-de-design"
+   "target": "2026-11-08-skills-chinesas-agencia"
   },
   {
    "source": "paleta:paleta None",
    "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-08-video-do-zero"
   },
   {
    "source": "paleta:paleta None",
@@ -5547,15 +5517,7 @@
   },
   {
    "source": "paleta:paleta None",
-   "target": "2026-11-13-video-do-zero"
-  },
-  {
-   "source": "paleta:paleta None",
    "target": "2026-11-14-3d-sem-saber"
-  },
-  {
-   "source": "paleta:paleta None",
-   "target": "2026-11-14-apps-pra-quem-vive-no-chat"
   },
   {
    "source": "paleta:paleta None",
@@ -5564,10 +5526,6 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-14-comercial-com-trilha"
-  },
-  {
-   "source": "paleta:paleta None",
-   "target": "2026-11-14-ia-gigante-no-pc"
   },
   {
    "source": "paleta:paleta None",
@@ -5580,10 +5538,6 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-14-vire-um-personagem"
-  },
-  {
-   "source": "paleta:paleta None",
-   "target": "2026-11-15-skills-chinesas-agencia"
   },
   {
    "source": "paleta:paleta None",
@@ -5778,32 +5732,36 @@
    "target": "fonte:https://github.com/InukaAsith/TwinDesk"
   },
   {
-   "source": "2026-11-08-blender-com-ia",
+   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
    "target": "pilar:reel"
   },
   {
-   "source": "2026-11-08-blender-com-ia",
+   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
    "target": "formato:contagem"
   },
   {
-   "source": "2026-11-08-blender-com-ia",
-   "target": "cta:BLENDER"
+   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "target": "cta:MAPA"
   },
   {
-   "source": "2026-11-08-blender-com-ia",
-   "target": "tema:blender-com-ia"
+   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "target": "tema:apps-pra-quem-vive-no-chat"
   },
   {
-   "source": "2026-11-08-blender-com-ia",
-   "target": "fonte:https://github.com/5hyuns/maya-workflow-kit-for-blender"
+   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "target": "fonte:https://github.com/orkunisitmak/clipboardline"
   },
   {
-   "source": "2026-11-08-blender-com-ia",
-   "target": "fonte:https://github.com/EL4CTEO/blender-skills"
+   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "target": "fonte:https://github.com/tang1693/KIKUmap"
   },
   {
-   "source": "2026-11-08-blender-com-ia",
-   "target": "fonte:https://github.com/Sandflow-ai/sand3d"
+   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "target": "fonte:https://github.com/franzenzenhofer/big-arrow-on-the-screen"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-blender-com-ia"
   },
   {
    "source": "pilar:reel",
@@ -5827,7 +5785,15 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-08-ia-gigante-no-pc"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-08-laboratorio-3d-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-skills-chinesas-agencia"
   },
   {
    "source": "pilar:reel",
@@ -5836,6 +5802,10 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-video-do-zero"
   },
   {
    "source": "pilar:reel",
@@ -5983,15 +5953,7 @@
   },
   {
    "source": "pilar:reel",
-   "target": "2026-11-13-video-do-zero"
-  },
-  {
-   "source": "pilar:reel",
    "target": "2026-11-14-3d-sem-saber"
-  },
-  {
-   "source": "pilar:reel",
-   "target": "2026-11-14-apps-pra-quem-vive-no-chat"
   },
   {
    "source": "pilar:reel",
@@ -6000,10 +5962,6 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-14-comercial-com-trilha"
-  },
-  {
-   "source": "pilar:reel",
-   "target": "2026-11-14-ia-gigante-no-pc"
   },
   {
    "source": "pilar:reel",
@@ -6019,11 +5977,11 @@
   },
   {
    "source": "pilar:reel",
-   "target": "2026-11-15-skills-chinesas-agencia"
+   "target": "2026-11-15-skills-video-explicativo"
   },
   {
-   "source": "pilar:reel",
-   "target": "2026-11-15-skills-video-explicativo"
+   "source": "formato:contagem",
+   "target": "2026-11-08-blender-com-ia"
   },
   {
    "source": "formato:contagem",
@@ -6035,7 +5993,19 @@
   },
   {
    "source": "formato:contagem",
+   "target": "2026-11-08-ia-gigante-no-pc"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-08-skills-chinesas-agencia"
+  },
+  {
+   "source": "formato:contagem",
    "target": "2026-11-08-skills-de-design"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-08-video-do-zero"
   },
   {
    "source": "formato:contagem",
@@ -6103,27 +6073,31 @@
   },
   {
    "source": "formato:contagem",
-   "target": "2026-11-13-video-do-zero"
-  },
-  {
-   "source": "formato:contagem",
    "target": "2026-11-14-3d-sem-saber"
   },
   {
    "source": "formato:contagem",
-   "target": "2026-11-14-apps-pra-quem-vive-no-chat"
-  },
-  {
-   "source": "formato:contagem",
-   "target": "2026-11-14-ia-gigante-no-pc"
-  },
-  {
-   "source": "formato:contagem",
-   "target": "2026-11-15-skills-chinesas-agencia"
-  },
-  {
-   "source": "formato:contagem",
    "target": "2026-11-15-skills-video-explicativo"
+  },
+  {
+   "source": "2026-11-08-blender-com-ia",
+   "target": "cta:BLENDER"
+  },
+  {
+   "source": "2026-11-08-blender-com-ia",
+   "target": "tema:blender-com-ia"
+  },
+  {
+   "source": "2026-11-08-blender-com-ia",
+   "target": "fonte:https://github.com/5hyuns/maya-workflow-kit-for-blender"
+  },
+  {
+   "source": "2026-11-08-blender-com-ia",
+   "target": "fonte:https://github.com/EL4CTEO/blender-skills"
+  },
+  {
+   "source": "2026-11-08-blender-com-ia",
+   "target": "fonte:https://github.com/Sandflow-ai/sand3d"
   },
   {
    "source": "2026-11-08-captura-de-qualquer-bicho",
@@ -6331,6 +6305,10 @@
   },
   {
    "source": "2026-11-08-estudio-de-voz-gratis",
+   "target": "paleta:paleta vermelho NO AR + madeira + verde-válvula"
+  },
+  {
+   "source": "2026-11-08-estudio-de-voz-gratis",
    "target": "cta:VOZ"
   },
   {
@@ -6360,6 +6338,26 @@
   {
    "source": "2026-11-08-figurinha-animada",
    "target": "fonte:https://github.com/WoYun520/pixel-gif-sticker-pack"
+  },
+  {
+   "source": "2026-11-08-ia-gigante-no-pc",
+   "target": "cta:LOCAL"
+  },
+  {
+   "source": "2026-11-08-ia-gigante-no-pc",
+   "target": "tema:ia-gigante-no-pc"
+  },
+  {
+   "source": "2026-11-08-ia-gigante-no-pc",
+   "target": "fonte:https://github.com/nace-ai/kapitsa"
+  },
+  {
+   "source": "2026-11-08-ia-gigante-no-pc",
+   "target": "fonte:https://github.com/simplexai-labs/PolyStrata"
+  },
+  {
+   "source": "2026-11-08-ia-gigante-no-pc",
+   "target": "fonte:https://github.com/mw00/project-maya"
   },
   {
    "source": "2026-11-08-laboratorio-3d-gratis",
@@ -6410,6 +6408,30 @@
    "target": "fonte:https://github.com/seedds/nxnative"
   },
   {
+   "source": "2026-11-08-skills-chinesas-agencia",
+   "target": "cta:AGENCIA"
+  },
+  {
+   "source": "2026-11-08-skills-chinesas-agencia",
+   "target": "tema:skills-chinesas-agencia"
+  },
+  {
+   "source": "2026-11-08-skills-chinesas-agencia",
+   "target": "fonte:https://github.com/liyupi/ai-promo-video-maker"
+  },
+  {
+   "source": "2026-11-08-skills-chinesas-agencia",
+   "target": "fonte:https://github.com/zhouwei713/luobo-ppt"
+  },
+  {
+   "source": "2026-11-08-skills-chinesas-agencia",
+   "target": "fonte:https://github.com/liuhaisi2026212-maker/taishang-laojun"
+  },
+  {
+   "source": "2026-11-08-skills-de-design",
+   "target": "paleta:paleta azul-klein + laranja + branco-papel"
+  },
+  {
    "source": "2026-11-08-skills-de-design",
    "target": "cta:DESIGN"
   },
@@ -6440,6 +6462,26 @@
   {
    "source": "2026-11-08-tv-que-cobra-licao",
    "target": "fonte:https://github.com/chadyi/StudyOnTV"
+  },
+  {
+   "source": "2026-11-08-video-do-zero",
+   "target": "cta:VIDEO"
+  },
+  {
+   "source": "2026-11-08-video-do-zero",
+   "target": "tema:video-do-zero"
+  },
+  {
+   "source": "2026-11-08-video-do-zero",
+   "target": "fonte:https://github.com/wj-sidiss/otopilot"
+  },
+  {
+   "source": "2026-11-08-video-do-zero",
+   "target": "fonte:https://github.com/talsiach/take-one"
+  },
+  {
+   "source": "2026-11-08-video-do-zero",
+   "target": "fonte:https://github.com/kelano86/what-if-animation"
   },
   {
    "source": "2026-11-08-windows-gratis",
@@ -7054,26 +7096,6 @@
    "target": "fonte:https://github.com/andrisgauracs/wifi-sensing-kit"
   },
   {
-   "source": "2026-11-13-video-do-zero",
-   "target": "cta:VIDEO"
-  },
-  {
-   "source": "2026-11-13-video-do-zero",
-   "target": "tema:video-do-zero"
-  },
-  {
-   "source": "2026-11-13-video-do-zero",
-   "target": "fonte:https://github.com/wj-sidiss/otopilot"
-  },
-  {
-   "source": "2026-11-13-video-do-zero",
-   "target": "fonte:https://github.com/talsiach/take-one"
-  },
-  {
-   "source": "2026-11-13-video-do-zero",
-   "target": "fonte:https://github.com/kelano86/what-if-animation"
-  },
-  {
    "source": "2026-11-14-3d-sem-saber",
    "target": "cta:MODELO"
   },
@@ -7092,26 +7114,6 @@
   {
    "source": "2026-11-14-3d-sem-saber",
    "target": "fonte:https://github.com/deepopen-com/deepopen-3d-webs"
-  },
-  {
-   "source": "2026-11-14-apps-pra-quem-vive-no-chat",
-   "target": "cta:MAPA"
-  },
-  {
-   "source": "2026-11-14-apps-pra-quem-vive-no-chat",
-   "target": "tema:apps-pra-quem-vive-no-chat"
-  },
-  {
-   "source": "2026-11-14-apps-pra-quem-vive-no-chat",
-   "target": "fonte:https://github.com/orkunisitmak/clipboardline"
-  },
-  {
-   "source": "2026-11-14-apps-pra-quem-vive-no-chat",
-   "target": "fonte:https://github.com/tang1693/KIKUmap"
-  },
-  {
-   "source": "2026-11-14-apps-pra-quem-vive-no-chat",
-   "target": "fonte:https://github.com/franzenzenhofer/big-arrow-on-the-screen"
   },
   {
    "source": "2026-11-14-aprender-coisa-dificil",
@@ -7136,26 +7138,6 @@
   {
    "source": "2026-11-14-comercial-com-trilha",
    "target": "fonte:https://github.com/alchaincyf/huashu-motion"
-  },
-  {
-   "source": "2026-11-14-ia-gigante-no-pc",
-   "target": "cta:LOCAL"
-  },
-  {
-   "source": "2026-11-14-ia-gigante-no-pc",
-   "target": "tema:ia-gigante-no-pc"
-  },
-  {
-   "source": "2026-11-14-ia-gigante-no-pc",
-   "target": "fonte:https://github.com/nace-ai/kapitsa"
-  },
-  {
-   "source": "2026-11-14-ia-gigante-no-pc",
-   "target": "fonte:https://github.com/simplexai-labs/PolyStrata"
-  },
-  {
-   "source": "2026-11-14-ia-gigante-no-pc",
-   "target": "fonte:https://github.com/mw00/project-maya"
   },
   {
    "source": "2026-11-14-ia-liga-pra-voce",
@@ -7192,26 +7174,6 @@
   {
    "source": "2026-11-14-vire-um-personagem",
    "target": "fonte:https://github.com/livliv-dev/player"
-  },
-  {
-   "source": "2026-11-15-skills-chinesas-agencia",
-   "target": "cta:AGENCIA"
-  },
-  {
-   "source": "2026-11-15-skills-chinesas-agencia",
-   "target": "tema:skills-chinesas-agencia"
-  },
-  {
-   "source": "2026-11-15-skills-chinesas-agencia",
-   "target": "fonte:https://github.com/liyupi/ai-promo-video-maker"
-  },
-  {
-   "source": "2026-11-15-skills-chinesas-agencia",
-   "target": "fonte:https://github.com/zhouwei713/luobo-ppt"
-  },
-  {
-   "source": "2026-11-15-skills-chinesas-agencia",
-   "target": "fonte:https://github.com/liuhaisi2026212-maker/taishang-laojun"
   },
   {
    "source": "2026-11-15-skills-video-explicativo",

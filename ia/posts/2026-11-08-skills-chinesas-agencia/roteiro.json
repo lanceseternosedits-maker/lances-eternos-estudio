@@ -9,8 +9,8 @@
   "etiqueta": "d) faixa diagonal de aviso",
   "nome": "c) máquina de escrever",
   "contador": "d) pote de estrelas",
-  "legenda": "e) tarja de TV",
-  "transicao": "f) zoom atravessando tela",
+  "legenda": "e) tarja de TV/arcade",
+  "transicao": "d) virada de página",
   "camera": "d) órbita",
   "fechamento": "c) post-its na parede",
   "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
@@ -26,7 +26,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026): AI Promo Video 452, Luobo PPT 454, Taishang Laojun 514; total 1.420; criados entre 08/10 e 22/10.",
  "obs": "READMEs em chinês: conferir detalhes. Tom: 'as agências vão ter que se adaptar', sem ataque.",
  "polemica": true,
- "agenda": "2026-11-15 13:00",
+ "agenda": "2026-11-08 (horário definido no agendamento)",
  "palavras": 97,
  "duracao_estimada_s": 33.4,
  "status": "roteiro aprovado",
@@ -105,5 +105,6 @@
    "legenda": "Comenta AGENCIA e me segue. As agências vão ter que correr.",
    "sfx": []
   }
- ]
+ ],
+ "adiantado_de": "2026-11-15"
 }

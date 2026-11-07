@@ -9,8 +9,8 @@
   "etiqueta": "c) letreiro neon",
   "nome": "b) carimbo",
   "contador": "e) placar HI-SCORE",
-  "legenda": "e) tarja de TV",
-  "transicao": "f) zoom atravessando tela",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "c) íris circular",
   "camera": "f) plongée/contra-plongée",
   "fechamento": "b) pódio",
   "tipografia": "e) Caveat + Space Grotesk",
@@ -26,7 +26,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026): otopilot 202, take-one 216, What If 267; total 685; criados entre 13/10 e 21/10.",
  "obs": "What If usa ElevenLabs para voz (pode ter custo): conferir.",
  "polemica": false,
- "agenda": "2026-11-13 17:00",
+ "agenda": "2026-11-08 (horário definido no agendamento)",
  "palavras": 95,
  "duracao_estimada_s": 32.8,
  "status": "roteiro aprovado",
@@ -105,5 +105,6 @@
    "legenda": "Comenta VIDEO e me segue que eu te mando as três.",
    "sfx": []
   }
- ]
+ ],
+ "adiantado_de": "2026-11-13"
 }

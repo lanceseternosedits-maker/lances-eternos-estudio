@@ -9,8 +9,8 @@
   "etiqueta": "b) papel rasgado com fita",
   "nome": "b) carimbo",
   "contador": "e) placar HI-SCORE",
-  "legenda": "e) tarja de TV",
-  "transicao": "f) zoom atravessando tela",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "f) zoom atravessando uma tela",
   "camera": "d) órbita",
   "fechamento": "b) pódio",
   "tipografia": "e) Caveat + Space Grotesk",
@@ -26,7 +26,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026): kapitsa 662, PolyStrata 899, Project Maya 2.611; total 4.172; criados entre 06/10 e 16/10.",
  "obs": "Project Maya exige várias GPUs: dizer 'pra quem tem máquina forte'. Não sugerir que é barato.",
  "polemica": true,
- "agenda": "2026-11-14 13:00",
+ "agenda": "2026-11-08 (horário definido no agendamento)",
  "palavras": 97,
  "duracao_estimada_s": 33.4,
  "status": "roteiro aprovado",
@@ -105,5 +105,6 @@
    "legenda": "Comenta LOCAL e me segue que eu te mando os três links.",
    "sfx": []
   }
- ]
+ ],
+ "adiantado_de": "2026-11-14"
 }

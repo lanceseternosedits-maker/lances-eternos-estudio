@@ -9,8 +9,8 @@
   "etiqueta": "e) tela de terminal",
   "nome": "c) máquina de escrever",
   "contador": "d) pote de estrelas",
-  "legenda": "e) tarja de TV",
-  "transicao": "f) zoom atravessando tela",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "e) glitch RGB",
   "camera": "f) plongée/contra-plongée",
   "fechamento": "c) post-its na parede",
   "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
@@ -26,7 +26,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026): ClipBoardLine 312, KIKUmap 660, Big Arrow 835; total 1.807; criados entre 08/10 e 28/10.",
  "obs": "",
  "polemica": false,
- "agenda": "2026-11-14 19:00",
+ "agenda": "2026-11-08 (horário definido no agendamento)",
  "palavras": 96,
  "duracao_estimada_s": 33.1,
  "status": "roteiro aprovado",
@@ -105,5 +105,6 @@
    "legenda": "Comenta MAPA e me segue que eu te mando os três.",
    "sfx": []
   }
- ]
+ ],
+ "adiantado_de": "2026-11-14"
 }
