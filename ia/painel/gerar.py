@@ -216,12 +216,15 @@ def main() -> None:
     pend = "".join(f"<li>{p}</li>" for p in pendencias) or "<li>Nada pendente.</li>"
 
     pagina = f"""<!DOCTYPE html>
-<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Painel IA em 60s</title>
+<link rel="apple-touch-icon" href="icone-180.png"><link rel="icon" href="icone-512.png"><link rel="manifest" href="manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="IA em 60s"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="theme-color" content="#0f1115">
 <style>
 :root{{--bg:#0f1115;--card:#181b22;--line:#262a33;--tx:#e8e9ec;--mut:#9aa0ab;--ok:#3ecf8e;--ag:#5aa9ff;--esp:#ffb547;--erro:#ff6b6b}}
 *{{box-sizing:border-box}}body{{margin:0;font:14px/1.45 system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--tx)}}
-header{{padding:20px 16px 8px}}h1{{margin:0;font-size:22px}}h2{{font-size:16px;margin:24px 0 10px}}.mut{{color:var(--mut)}}
+header{{padding:calc(20px + env(safe-area-inset-top)) 16px 8px}}h1{{margin:0;font-size:22px}}h2{{font-size:16px;margin:24px 0 10px}}.mut{{color:var(--mut)}}
 main{{padding:0 16px 40px;max-width:1200px;margin:auto}}
 .pend{{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--esp);border-radius:10px;padding:10px 14px}}
 .pend ul{{margin:0;padding-left:18px}}.pend li{{margin:4px 0}}
