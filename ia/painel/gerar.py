@@ -186,6 +186,33 @@ document.querySelectorAll('.dia-todos').forEach(b => b.onclick = async () => {
   b.textContent = 'aprovar o dia'; b.dataset.armado = '';
 });
 carregar();
+
+// ---- notificações (Web Push): só no app instalado na tela de início
+const sino = document.getElementById('sino');
+const paraU8 = (s) => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/') + '==='.slice((s.length + 3) % 4)), (c) => c.charCodeAt(0));
+async function estadoSino() {
+  if (!('serviceWorker' in navigator) || !('PushManager' in window) || !('Notification' in window)) return;
+  try { if (!(await fetch(API + 'vapid')).ok) return; } catch (e) { return; }
+  sino.style.display = '';
+  const reg = await navigator.serviceWorker.register('/sw.js');
+  const sub = await reg.pushManager.getSubscription();
+  if (sub && Notification.permission === 'granted') { sino.textContent = '🔔 notificações ligadas'; sino.classList.add('ok'); }
+}
+sino.onclick = async () => {
+  try {
+    const perm = await Notification.requestPermission();
+    if (perm !== 'granted') { aviso('Notificação bloqueada. Libere em Ajustes > Notificações > IA em 60s.'); return; }
+    const reg = await navigator.serviceWorker.register('/sw.js'); await navigator.serviceWorker.ready;
+    const { chave } = await (await fetch(API + 'vapid')).json();
+    let sub = await reg.pushManager.getSubscription();
+    if (!sub) sub = await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: paraU8(chave) });
+    const r = await fetch(API + 'inscrever', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify(sub) });
+    if (!r.ok) throw new Error('servidor ' + r.status);
+    sino.textContent = '🔔 notificações ligadas'; sino.classList.add('ok');
+    aviso('Pronto: mandei uma notificação de teste. A partir de agora você recebe quando tiver vídeo pra aprovar.');
+  } catch (e) { aviso('Não consegui ligar as notificações: ' + e.message + '. Abra o painel pelo ícone da tela de início e tente de novo.'); }
+};
+estadoSino();
 """
 
 
@@ -362,6 +389,7 @@ article img,.semcapa{{width:96px;min-width:96px;height:170px;object-fit:cover;ba
 .rot ul li{{margin:3px 0;color:var(--tx)}}.rot b{{color:var(--mut);font-weight:600}}
 .decide{{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}}.decide button,.dia-todos{{font:inherit;font-size:12px;border-radius:8px;padding:6px 10px;cursor:pointer;border:1px solid var(--line);background:#20242d;color:var(--tx)}}
 .decide .sim{{border-color:var(--ok);color:var(--ok)}}.decide .nao{{border-color:var(--erro);color:var(--erro)}}
+#sino{{font:inherit;font-size:12px;font-weight:600;vertical-align:middle;margin-left:8px;padding:5px 10px;border-radius:20px;border:1px solid #ffb547;background:#ffb5471a;color:#ffb547;cursor:pointer}}#sino.ok{{border-color:#3ecf8e;color:#3ecf8e;background:#3ecf8e1a}}
 .chance{{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:15px;border-radius:8px;padding:3px 9px;line-height:1.1;border:1px solid}}
 .chance small{{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}}
 .chance.boa-aposta{{color:var(--ok);border-color:var(--ok);background:#3ecf8e1a}}.chance.medio{{color:var(--esp);border-color:var(--esp);background:#ffb5471a}}.chance.arriscado{{color:var(--erro);border-color:var(--erro);background:#ff6b6b1a}}
@@ -372,9 +400,9 @@ article img,.semcapa{{width:96px;min-width:96px;height:170px;object-fit:cover;ba
 li[data-dec=aprovado]::before{{content:"✔";color:var(--ok);font-weight:700;margin-right:3px}}li[data-dec=negado]{{text-decoration:line-through;opacity:.5}}
 #aviso{{font-size:12px;color:var(--mut);margin-top:6px}}
 </style></head><body>
-<header><h1>IA em 60s · painel</h1><div class="mut">Atualizado em {agora:%d/%m %H:%M} (Brasília) · Metricool lido em {esc(snap.get("lido_em", "?"))} · {esc(resumo)}</div></header>
+<header><h1>IA em 60s · painel <button id="sino" style="display:none">🔔 Ativar notificações</button></h1><div class="mut">Atualizado em {agora:%d/%m %H:%M} (Brasília) · Metricool lido em {esc(snap.get("lido_em", "?"))} · {esc(resumo)}</div></header>
 <main>
-<h2>Precisa de você</h2><div class="pend"><ul>{pend}</ul><div id="aviso"></div></div>
+<h2 id="pendentes">Precisa de você</h2><div class="pend"><ul>{pend}</ul><div id="aviso"></div></div>
 <h2>Semana (Instagram, vagas do calendário)</h2><div class="semana">{"".join(semana)}</div>
 <h2>Todos os posts ({len(cartoes)})</h2><div class="filtros"><button data-f="" class="on">todos</button>{filtros}<button id="porchance">🔥 maior chance primeiro</button></div>
 <div class="grade">{"".join(html_cartoes)}</div>
@@ -392,6 +420,10 @@ document.querySelectorAll('.filtros button:not(#porchance)').forEach(b=>b.onclic
 """ + JS + """</script></body></html>
 """
     (PAINEL / "index.html").write_text(pagina, encoding="utf-8")
+    # o Worker lê isto a cada 5 min e manda notificação de cada vídeo novo esperando aprovação
+    videos = [{"pasta": c["pasta"].name, "titulo": c["titulo"][:90], "quando": c["quando"]} for c in cartoes
+              if c["pasta"] and "vídeo aguardando" in c["status"].lower()]
+    (PAINEL / "pendentes.json").write_text(json.dumps({"gerado_em": f"{agora:%Y-%m-%d %H:%M}", "videos": videos}, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"painel/index.html: {len(cartoes)} posts, {len(pendencias)} pendência(s)")
 
 
