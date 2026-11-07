@@ -569,7 +569,7 @@ details.resp textarea{{width:100%;box-sizing:border-box;background:var(--bg);col
 </section>
 <section class="aba aba-agenda"><h2>Semana</h2><div class="semana">{"".join(semana)}</div><h2>Próximos agendados</h2></section>
 <section class="aba aba-publicados"><h2>Publicados</h2></section>
-<section class="aba aba-resultados"><h2>📊 Resultados</h2>{html_resultados}</section>
+<section class="aba aba-resultados"><h2>📊 Resultados</h2><div class="analista" id="robo"><p class="it">🤖 Robô de comentários</p><p>carregando…</p></div>{html_resultados}</section>
 <section class="aba aba-gastos"><h2>💰 Gastos de {agora:%m/%Y}</h2>{html_gastos}</section>
 <section class="aba aba-todos"><h2>Todos os posts ({len(cartoes)})</h2><div class="chipsbar" id="baldes"><button data-b="" class="on">Todos</button>{chips_todos}</div><div class="chipsbar" id="cats-t"><button data-c="" class="on">Todas</button>{chips_cat}</div></section>
 <div class="grade" id="grade">{"".join(html_cartoes)}</div>
@@ -623,6 +623,15 @@ document.addEventListener('click', async ev => {{
   try {{ await navigator.clipboard.writeText(txt); }} catch (e) {{ const t = document.createElement('textarea'); t.value = txt; document.body.appendChild(t); t.select(); document.execCommand('copy'); t.remove(); }}
   const o = b.textContent; b.textContent = '✔ Copiado'; setTimeout(() => b.textContent = o, 1200);
 }});
+
+fetch('/api/ig-status').then(r => r.json()).then(s => {{
+  const el = document.getElementById('robo'); if (!el) return;
+  if (!s.conectado) {{ el.innerHTML = '<p class="it">🤖 Robô de comentários</p><p>Instagram ainda não conectado. <a href="/conectar" style="color:#f0a070">Conectar</a></p>'; return; }}
+  const t = Object.fromEntries((s.totais || []).map(x => [x.acao, x.n]));
+  const dm = Object.entries(t).filter(([k]) => k.startsWith('dm')).reduce((a, [, n]) => a + n, 0), pub = t['resposta'] || 0;
+  const rec = (s.recentes || []).slice(0, 5).map(x => `<li>@${{x.usuario}} · ${{x.palavra}} · ${{x.acao}}${{x.erro && !x.acao.startsWith('dm') ? ' ⚠' : ''}}</li>`).join('');
+  el.innerHTML = `<p class="it">🤖 Robô de comentários · @${{s.usuario}} · última rodada ${{(s.ultima || '').slice(11)}}</p><p><b>${{dm}}</b> DMs enviadas · <b>${{pub}}</b> respondidos com o link da bio${{s.pausado ? ' · ⏸ pausado' : ''}}</p>` + (rec ? `<ul class="auto">${{rec}}</ul>` : '');
+}}).catch(() => {{ const el = document.getElementById('robo'); if (el) el.style.display = 'none'; }});
 function aba(t) {{
   document.body.dataset.tab = t;
   document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.t === t));
@@ -652,6 +661,8 @@ aba(['aprovar', 'agenda', 'publicados', 'todos', 'resultados', 'gastos'].include
               if c["pasta"] and "vídeo aguardando" in c["status"].lower()]
     (PAINEL / "pendentes.json").write_text(json.dumps({"gerado_em": f"{agora:%Y-%m-%d %H:%M}", "videos": videos}, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"painel/index.html: {len(cartoes)} posts, {len(pendencias)} pendência(s)")
+    import runpy  # respostas.json do robô de comentários (e o plano B zorcha.md)
+    runpy.run_path(str(PAINEL / "zorcha.py"), run_name="__main__")
 
 
 if __name__ == "__main__":

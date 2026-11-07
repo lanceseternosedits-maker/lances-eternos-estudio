@@ -99,6 +99,157 @@ async function conferir(env) {
   for (const v of novos) await env.DB.prepare("INSERT OR IGNORE INTO notificados (pasta, em) VALUES (?, ?)").bind(v.pasta, agoraBR()).run();
 }
 
+
+// ---------------------------------------------------------------- robô de comentários do Instagram (Vitor, 07/11)
+// Instagram API com login do Instagram. Credenciais e token ficam só no D1 (tabela config); o token se renova sozinho.
+const IG = "https://graph.instagram.com/v23.0";
+const CALLBACK = SITE + "/ig/callback";
+const ESCOPOS = "instagram_business_basic,instagram_business_manage_comments,instagram_business_manage_messages";
+const sem = (t) => String(t || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toUpperCase();
+const escH = (t) => String(t ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+async function prepararTabelas(env) {
+  await env.DB.batch([
+    env.DB.prepare("CREATE TABLE IF NOT EXISTS config (nome TEXT PRIMARY KEY, valor TEXT, em TEXT)"),
+    env.DB.prepare("CREATE TABLE IF NOT EXISTS comentarios (id TEXT PRIMARY KEY, media_id TEXT, usuario TEXT, texto TEXT, palavra TEXT, pasta TEXT, acao TEXT, erro TEXT, em TEXT)"),
+    env.DB.prepare("CREATE TABLE IF NOT EXISTS midias (id TEXT PRIMARY KEY, n INTEGER, em TEXT)"),
+  ]);
+}
+async function cfg(env) {
+  const { results } = await env.DB.prepare("SELECT nome, valor FROM config").all();
+  return Object.fromEntries(results.map((r) => [r.nome, r.valor]));
+}
+async function setCfg(env, pares) {
+  const em = agoraBR();
+  await env.DB.batch(Object.entries(pares).map(([k, v]) =>
+    env.DB.prepare("INSERT INTO config (nome, valor, em) VALUES (?, ?, ?) ON CONFLICT(nome) DO UPDATE SET valor = excluded.valor, em = excluded.em").bind(k, String(v), em)));
+}
+async function respostas() {
+  const r = await fetch(BASE + "respostas.json?t=" + Date.now(), { cf: { cacheTtl: 0 } });
+  return r.ok ? r.json() : { posts: [], respostas_publicas: [] };
+}
+// a palavra do post: "Comenta PALAVRA" na legenda; se a palavra se repete, vale o post com data mais perto
+function acharPost(midia, lista) {
+  const legenda = sem(midia.caption);
+  const ms = [...legenda.matchAll(/COMENT[AE]\s+["“']?([A-Z0-9]{2,20})/g)].map((m) => m[1]);
+  const cands = lista.filter((p) => ms.includes(sem(p.palavra)));
+  if (!cands.length) return null;
+  const t = Date.parse(midia.timestamp);
+  const quando = (p) => Date.parse(p.quando.replace(" ", "T") + ":00-03:00") || Date.parse(p.quando) || 0;
+  return cands.sort((a, b) => Math.abs(quando(a) - t) - Math.abs(quando(b) - t))[0];
+}
+
+async function igFetch(caminho, token, opcoes = {}) {
+  const r = await fetch(caminho.startsWith("http") ? caminho : IG + caminho, {
+    ...opcoes, headers: { authorization: "Bearer " + token, ...(opcoes.body ? { "content-type": "application/json" } : {}) },
+  });
+  const j = await r.json().catch(() => ({}));
+  if (!r.ok || j.error) throw new Error(JSON.stringify(j.error || { status: r.status }).slice(0, 300));
+  return j;
+}
+
+async function renovarToken(env, c) {
+  if (!c.token || Number(c.expira || 0) - Date.now() > 10 * 864e5) return c.token;
+  const r = await fetch(`https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${encodeURIComponent(c.token)}`);
+  const j = await r.json().catch(() => ({}));
+  if (!j.access_token) { await setCfg(env, { erro_token: JSON.stringify(j).slice(0, 300) }); return c.token; }
+  await setCfg(env, { token: j.access_token, expira: Date.now() + (j.expires_in || 5184000) * 1000 });
+  return j.access_token;
+}
+
+async function responderComentarios(env) {
+  await prepararTabelas(env);
+  const c = await cfg(env);
+  if (!c.token || c.pausado === "1") return { ok: false, motivo: c.token ? "pausado" : "não conectado" };
+  const token = await renovarToken(env, c);
+  const R = await respostas();
+  const frases = R.respostas_publicas?.length ? R.respostas_publicas : ["Te respondi! 📩"];
+  const dmAtivo = c.dm !== "0";
+  const { data: midias = [] } = await igFetch("/me/media?fields=id,caption,timestamp,comments_count&limit=40", token);
+  const limite = Date.now() - 7 * 864e5;
+  const vistos = Object.fromEntries((await env.DB.prepare("SELECT id, n FROM midias").all()).results.map((r) => [r.id, r.n]));
+  let feitos = 0, n = Number(c.contador || 0);
+  for (const m of midias) {
+    if (Date.parse(m.timestamp) < limite || !m.comments_count || vistos[m.id] === m.comments_count) continue;
+    const post = acharPost(m, R.posts || []);
+    const { data: coms = [] } = await igFetch(`/${m.id}/comments?fields=id,text,username,timestamp&limit=50`, token);
+    const ja = new Set((await env.DB.prepare("SELECT id FROM comentarios WHERE media_id = ?").bind(m.id).all()).results.map((r) => r.id));
+    for (const co of coms) {
+      if (ja.has(co.id) || (c.usuario && co.username === c.usuario)) continue;
+      const tem = post && new RegExp(`(^|[^A-Z0-9])${sem(post.palavra)}([^A-Z0-9]|$)`).test(sem(co.text));
+      let acao = tem ? "" : "sem palavra", erro = "";
+      if (tem) {
+        const linkBio = `${SITE}/links#${encodeURIComponent(sem(post.palavra))}`;
+        // 1) DM (resposta privada; precisa do acesso avançado da Meta)
+        if (dmAtivo) {
+          const dm = post.dm.length > 990 ? post.dm.slice(0, post.dm.lastIndexOf("\n", 850)) + `\n\nO resto tá aqui: ${linkBio}` : post.dm;
+          try { await igFetch("/me/messages", token, { method: "POST", body: JSON.stringify({ recipient: { comment_id: co.id }, message: { text: dm } }) }); acao = "dm"; }
+          catch (e) { erro = "dm: " + e.message; }
+        }
+        // 2) resposta pública (varia a frase; sem DM, aponta para o link da bio)
+        const frase = acao === "dm" ? frases[n % frases.length] : `${["Tá no link da bio", "Deixei no link da bio", "Coloquei no link da bio"][n % 3]}, procura ${post.palavra} 📌 (@${co.username})`;
+        n++;
+        try { await igFetch(`/${co.id}/replies`, token, { method: "POST", body: JSON.stringify({ message: frase }) }); acao = acao ? acao + "+resposta" : "resposta"; }
+        catch (e) { erro += (erro ? " | " : "") + "resposta: " + e.message; }
+        if (!acao) acao = "erro";
+        feitos++;
+      }
+      await env.DB.prepare("INSERT OR IGNORE INTO comentarios (id, media_id, usuario, texto, palavra, pasta, acao, erro, em) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)")
+        .bind(co.id, m.id, co.username || "", String(co.text || "").slice(0, 300), post?.palavra || "", post?.pasta || "", acao, erro.slice(0, 500), agoraBR()).run();
+    }
+    await env.DB.prepare("INSERT INTO midias (id, n, em) VALUES (?, ?, ?) ON CONFLICT(id) DO UPDATE SET n = excluded.n, em = excluded.em").bind(m.id, m.comments_count, agoraBR()).run();
+  }
+  await setCfg(env, { contador: n, ultima_rodada: agoraBR() });
+  return { ok: true, respondidos: feitos };
+}
+
+const PAGINA = (titulo, corpo) => new Response(`<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${titulo}</title>
+<style>body{font-family:system-ui,sans-serif;background:#0f1117;color:#e8e8ef;max-width:560px;margin:0 auto;padding:18px;line-height:1.45}a{color:#f0a070}
+input,button{font:inherit;width:100%;box-sizing:border-box;padding:11px;border-radius:10px;border:1px solid #333;margin:6px 0;background:#1a1d27;color:#fff}button{background:#e8834a;border:0;font-weight:700}
+.b{background:#1a1d27;border:1px solid #2a2e3b;border-radius:14px;padding:12px 14px;margin:10px 0}.b h2{margin:0 0 6px;font-size:18px}pre{white-space:pre-wrap;font:inherit;margin:0}small{color:#9aa}</style></head><body>${corpo}</body></html>`,
+  { headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-cache" } });
+
+async function paginaLinks() {
+  const R = await respostas();
+  const agora = agoraBR();
+  const vivos = (R.posts || []).filter((p) => p.quando <= agora).sort((a, b) => (a.quando < b.quando ? 1 : -1));
+  const linkar = (t) => escH(t).replace(/https?:\/\/[^\s<]+/g, (u) => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`);
+  return PAGINA("IA em 60s · links", `<h1>IA em 60s 🤖</h1><p>Comentou a palavra num vídeo? O link tá aqui. Procure a palavra 👇</p>` +
+    vivos.map((p) => `<div class="b" id="${escH(sem(p.palavra))}"><h2>💬 ${escH(p.palavra)}</h2><small>${escH(p.quando.slice(8, 10) + "/" + p.quando.slice(5, 7))}</small><pre>${linkar(p.dm)}</pre></div>`).join("") +
+    `<p><small>Perfil independente, sem ligação com as empresas citadas.</small></p>`);
+}
+
+async function paginaConectar(env, url) {
+  await prepararTabelas(env);
+  const c = await cfg(env);
+  const msg = url.searchParams.get("ok") ? "<p>✅ Instagram conectado.</p>" : url.searchParams.get("erro") ? `<p>⚠️ ${escH(url.searchParams.get("erro"))}</p>` : "";
+  if (c.token) {
+    const { results } = await env.DB.prepare("SELECT acao, COUNT(*) n FROM comentarios GROUP BY acao").all();
+    return PAGINA("Robô de comentários", `<h1>🤖 Robô de comentários</h1>${msg}<div class="b">Conectado como <b>@${escH(c.usuario)}</b><br>Última rodada: ${escH(c.ultima_rodada || "ainda não rodou")}<br>` +
+      results.map((r) => `${escH(r.acao)}: <b>${r.n}</b>`).join(" · ") + `</div><p><small>Token renova sozinho (vence em ${new Date(Number(c.expira)).toLocaleDateString("pt-BR")}).</small></p>`);
+  }
+  const passo2 = c.app_id ? `<div class="b"><h2>2. Autorizar</h2><a href="https://www.instagram.com/oauth/authorize?enable_fb_login=0&force_authentication=1&client_id=${encodeURIComponent(c.app_id)}&redirect_uri=${encodeURIComponent(CALLBACK)}&response_type=code&scope=${ESCOPOS}"><button>Entrar com o Instagram do perfil</button></a></div>` : "";
+  return PAGINA("Conectar Instagram", `<h1>🤖 Conectar o Instagram</h1>${msg}<div class="b"><h2>1. Dados do app da Meta</h2><small>Ficam guardados só no banco do painel (nunca no GitHub).</small>
+<form method="post" action="/api/ig-app"><input name="app_id" placeholder="ID do app do Instagram" value="${escH(c.app_id || "")}" required><input name="app_secret" type="password" placeholder="Chave secreta do app do Instagram" required><button>Salvar</button></form></div>${passo2}
+<p><small>URL de redirecionamento para colocar no app da Meta: <b>${CALLBACK}</b></small></p>`);
+}
+
+async function callback(env, url) {
+  const c = await cfg(env);
+  const code = url.searchParams.get("code");
+  if (!code || !c.app_id || !c.app_secret) return Response.redirect(SITE + "/conectar?erro=" + encodeURIComponent(url.searchParams.get("error_description") || "faltou o código"), 302);
+  const f = new FormData();
+  for (const [k, v] of Object.entries({ client_id: c.app_id, client_secret: c.app_secret, grant_type: "authorization_code", redirect_uri: CALLBACK, code: code.replace(/#_$/, "") })) f.append(k, v);
+  const r1 = await (await fetch("https://api.instagram.com/oauth/access_token", { method: "POST", body: f })).json().catch(() => ({}));
+  const curto = r1.access_token || r1.data?.[0]?.access_token;
+  if (!curto) return Response.redirect(SITE + "/conectar?erro=" + encodeURIComponent("troca do código: " + JSON.stringify(r1).slice(0, 200)), 302);
+  const r2 = await (await fetch(`https://graph.instagram.com/access_token?grant_type=ig_exchange_token&client_secret=${encodeURIComponent(c.app_secret)}&access_token=${encodeURIComponent(curto)}`)).json().catch(() => ({}));
+  if (!r2.access_token) return Response.redirect(SITE + "/conectar?erro=" + encodeURIComponent("token longo: " + JSON.stringify(r2).slice(0, 200)), 302);
+  const eu = await igFetch("/me?fields=user_id,username", r2.access_token).catch(() => ({}));
+  await setCfg(env, { token: r2.access_token, expira: Date.now() + (r2.expires_in || 5184000) * 1000, usuario: eu.username || "", ig_id: eu.user_id || "" });
+  return Response.redirect(SITE + "/conectar?ok=1", 302);
+}
+
 // ---------------------------------------------------------------- API
 async function api(req, env, rota) {
   if (rota === "decisoes" && req.method === "GET") {
@@ -121,6 +272,22 @@ async function api(req, env, rota) {
       "ON CONFLICT(pasta) DO UPDATE SET etapa = excluded.etapa, decisao = excluded.decisao, nota = excluded.nota, em = excluded.em, aplicada = 0"
     ).bind(pasta, etapa, decisao, String(b.nota || "").slice(0, 300), em).run();
     return json({ ok: true, em });
+  }
+  if (rota === "ig-app" && req.method === "POST") {
+    await prepararTabelas(env);
+    if ((await cfg(env)).token) return json({ erro: "já conectado" }, 409);
+    const f = await req.formData();
+    const id = String(f.get("app_id") || "").trim(), seg = String(f.get("app_secret") || "").trim();
+    if (!/^\d{5,25}$/.test(id) || !/^[0-9a-f]{20,64}$/i.test(seg)) return Response.redirect(SITE + "/conectar?erro=" + encodeURIComponent("ID ou chave em formato estranho"), 302);
+    await setCfg(env, { app_id: id, app_secret: seg });
+    return Response.redirect(SITE + "/conectar", 302);
+  }
+  if (rota === "ig-status" && req.method === "GET") {
+    await prepararTabelas(env);
+    const c = await cfg(env);
+    const { results } = await env.DB.prepare("SELECT usuario, texto, palavra, acao, erro, em FROM comentarios WHERE acao != 'sem palavra' ORDER BY em DESC LIMIT 15").all();
+    const tot = (await env.DB.prepare("SELECT acao, COUNT(*) n FROM comentarios GROUP BY acao").all()).results;
+    return json({ conectado: !!c.token, usuario: c.usuario || "", ultima: c.ultima_rodada || "", pausado: c.pausado === "1", totais: tot, recentes: results });
   }
   if (rota === "vapid" && req.method === "GET") return json({ chave: env.VAPID_PUBLICA });
   if (rota === "inscrever" && req.method === "POST") {
@@ -153,6 +320,10 @@ export default {
       for (const k of ["content-length", "content-range"]) if (r.headers.get(k)) out.set(k, r.headers.get(k));
       return new Response(r.body, { status: r.status, headers: out });
     }
+    if (caminho === "links") return paginaLinks();
+    if (caminho === "conectar") return paginaConectar(env, url);
+    if (caminho === "ig/callback") return callback(env, url);
+    if (caminho === "privacidade") return PAGINA("Privacidade", "<h1>Política de privacidade · IA em 60s</h1><p>Este app responde automaticamente a comentários feitos nos Reels do perfil IA em 60s no Instagram, com o link prometido no vídeo. Guardamos só o ID do comentário, o nome de usuário público e o texto do comentário, para não responder duas vezes. Não vendemos nem compartilhamos dados. Para pedir a exclusão, mande uma DM para o perfil com a palavra EXCLUIR e apagamos em até 7 dias.</p>");
     if (caminho === "sw.js") return new Response(SW, { headers: { "content-type": "application/javascript; charset=utf-8", "cache-control": "no-cache" } });
     if (!/^(index\.html|manifest\.json|icone-(180|512)\.png|capas\/[\w.-]+\.jpg)$/.test(caminho)) {
       return new Response("não encontrado", { status: 404 });
@@ -168,5 +339,8 @@ export default {
   },
   async scheduled(evento, env, ctx) {
     ctx.waitUntil(conferir(env));
+    if (new Date(evento.scheduledTime).getUTCMinutes() % 10 < 5) ctx.waitUntil(responderComentarios(env).catch(async (e) => {
+      try { await setCfg(env, { ultimo_erro: agoraBR() + " " + String(e.message).slice(0, 400) }); } catch {}
+    }));
   },
 };

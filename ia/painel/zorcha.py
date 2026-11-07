@@ -1,4 +1,4 @@
-"""Gera painel/zorcha.md: uma automação do Zorcha (comentário → resposta + DM) por post publicado ou agendado.
+"""Gera painel/respostas.json (lido pelo robô de comentários do Worker) e painel/zorcha.md (plano B manual): uma automação do Zorcha (comentário → resposta + DM) por post publicado ou agendado.
 
 Uso (de dentro de ia/): python3 painel/zorcha.py
 O Vitor cria as automações no app do Zorcha (não tem API): gatilho = o Reel específico + palavra; resposta pública; DM.
@@ -19,8 +19,13 @@ def ler(p):
         return {}
 
 
-itens = []
+itens, robo = [], []
 for d in sorted((IA / "posts").iterdir()):
+    mr = ler(d / "meta.json")
+    if d.is_dir() and mr.get("cta") and (d / "resposta_dm.txt").exists() and mr.get("status") != "negado":
+        hq = (mr.get("horarios") or {}).get("instagram") or ""
+        robo.append({"palavra": mr["cta"].upper(), "pasta": d.name, "quando": hq if hq[:4].isdigit() else d.name[:10],
+                     "dm": (d / "resposta_dm.txt").read_text(encoding="utf-8").strip()})
     m = ler(d / "meta.json")
     if not d.is_dir() or not m.get("cta") or m.get("status") or not (d / "resposta_dm.txt").exists():
         continue  # status presente = ainda depende do Vitor (roteiro/vídeo) ou negado
@@ -42,5 +47,6 @@ if rep:
     out += [f"⚠️ Palavras usadas em mais de um Reel: {', '.join(rep)}. Por isso o gatilho tem que ser o Reel específico.", ""]
 for nome, palavra, quando, dm in itens:
     out += [f"## {palavra} · {quando}", f"Post: `{nome}`", "", "```", dm, "```", ""]
+(IA / "painel" / "respostas.json").write_text(json.dumps({"respostas_publicas": RESP, "posts": robo}, ensure_ascii=False, indent=1), encoding="utf-8")
 (IA / "painel" / "zorcha.md").write_text("\n".join(out), encoding="utf-8")
 print(f"{len(itens)} automações em painel/zorcha.md")
