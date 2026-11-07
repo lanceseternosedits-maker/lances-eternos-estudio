@@ -1,18 +1,1 @@
-{
- "data": "2026-11-08",
- "horario": "a definir",
- "pilar": "reel",
- "formato": "contagem",
- "temas": [
-  "skills-chinesas-agencia"
- ],
- "fontes": [
-  "https://github.com/liyupi/ai-promo-video-maker",
-  "https://github.com/zhouwei713/luobo-ppt",
-  "https://github.com/liuhaisi2026212-maker/taishang-laojun"
- ],
- "cta": "AGENCIA",
- "polemica": true,
- "horarios": {},
- "status": "roteiro aprovado"
-}
+{"data": "2026-11-08", "horario": "a definir", "pilar": "reel", "formato": "contagem", "temas": ["skills-chinesas-agencia"], "fontes": ["https://github.com/liyupi/ai-promo-video-maker", "https://github.com/zhouwei713/luobo-ppt", "https://github.com/liuhaisi2026212-maker/taishang-laojun"], "cta": "AGENCIA", "polemica": true, "horarios": {}, "status": "vídeo aguardando aprovação", "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): AI Promo Video 453, Luobo PPT 454, Taishang Laojun 516; total 1.423; criados entre 08/10 e 22/10.", "capa": {"objeto": "claquete"}, "obs_producao": "Produzido em 07/11 (cena_contagem, módulo itens/skills-chinesas-agencia.js: escritório de agência vazio à noite). Estrelas relidas na API do GitHub em 07/11: AI Promo Video 453, Luobo PPT 454, Taishang Laojun 516 (total 1.423; etiqueta '+1 MIL' mantida). Ajustes no texto aprovado: falas no feminino (são skills: 'Terceira/Segunda/E a primeira', 'Essa assusta'), sem o 'em 4K' do nº 3 e sem a 2ª frase-ponte repetida no nº 2, para caber em 35 s. Voz acelerada 1,15× (máximo permitido).", "checagem": {"em": "2026-11-07 15:33", "ok": true, "itens": [{"nome": "Formato", "valor": "1080×1920", "ok": true, "regra": "1080×1920"}, {"nome": "Duração", "valor": "34.1 s", "ok": true, "regra": "até 35 s (corte texto se passar)"}, {"nome": "Velocidade da fala", "valor": "2.49 palavras/s (85 palavras)", "ok": true, "regra": "máximo 3,0 palavras/s"}, {"nome": "Volume", "valor": "-14.2 LUFS, pico -1.4 dB", "ok": true, "regra": "entre -16 e -12 LUFS, pico até -1 dB"}, {"nome": "Fontes", "valor": "3 fonte(s)", "ok": true, "regra": "todo fato com fonte"}, {"nome": "Prova viral", "valor": "preenchida", "ok": true, "regra": "toda pauta com a prova de que viralizou"}, {"nome": "Legenda do Instagram", "valor": "958 caracteres", "ok": true, "regra": "até 2.200 caracteres"}, {"nome": "CTA na legenda", "valor": "AGENCIA", "ok": true, "regra": "a palavra do CTA aparece na legenda"}, {"nome": "Resposta da DM", "valor": "ok", "ok": true, "regra": "resposta_dm.txt com os links"}]}}
