@@ -200,7 +200,8 @@ function dados(pasta) {
     if (!num) num = /^\d+\s(?!DE\s|EM\s|A\s)/.test(texto) ? "TOP " + texto.split(" ")[0] : { novidade: "NOVO!", em_alta: "EM ALTA", tutorial: "PASSO A PASSO", recomendacao: "DICA" }[meta.pilar] || "";
   }
   const isca = (capa.isca || et[2] || (meta.cta || rot.chave ? "COMENTA " + (meta.cta || rot.chave) : "IA EM 60S")).toUpperCase();
-  const objeto = (PROPS.find(([re]) => re.test(tudo)) || [0, "raio"])[1];
+  const tema = tudo.replace(/anima[çc][ãa]o e voz feitas com ia[^\n]*/g, ""); // o aviso de IA não escolhe o objeto
+  const objeto = capa.objeto || (PROPS.find(([re]) => re.test(tema)) || [0, "raio"])[1];
   return { texto, destaque: (capa.destaque || "").toUpperCase(), num: String(num).toUpperCase(), isca, objeto };
 }
 

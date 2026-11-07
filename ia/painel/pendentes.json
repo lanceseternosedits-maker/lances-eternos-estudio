@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-07 12:27",
+ "gerado_em": "2026-11-07 12:32",
  "videos": [
   {
    "pasta": "2026-11-08-crie-seu-app-de-mac",
@@ -34,6 +34,11 @@
   {
    "pasta": "2026-11-08-apps-pra-quem-vive-no-chat",
    "titulo": "3 APPS PRA QUEM VIVE NO CHATGPT",
+   "quando": "2026-11-08"
+  },
+  {
+   "pasta": "2026-11-08-ia-gigante-no-pc",
+   "titulo": "3 JEITOS DE RODAR IA GIGANTE NO SEU PC",
    "quando": "2026-11-08"
   },
   {

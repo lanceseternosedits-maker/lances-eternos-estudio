@@ -14,5 +14,70 @@
  "cta": "LOCAL",
  "polemica": true,
  "horarios": {},
- "status": "roteiro aprovado"
+ "status": "vídeo aguardando aprovação",
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): kapitsa 669, PolyStrata 905, Project Maya 2.624; total 4.198; criados entre 06/10 e 16/10.",
+ "obs_producao": "Produzido em 07/11 (cena_contagem, módulo itens/ia-gigante-no-pc.js: armário de lavanderia com servidores caseiros). Estrelas relidas na API do GitHub em 07/11: kapitsa 669, PolyStrata 905, Project Maya 2.624 (total 4.198; etiqueta '+4 MIL' mantida). Para caber em 35 s, a 2ª frase-ponte repetida ('Esse é útil… comenta LOCAL…') saiu do nº 2, que agora termina em 'Mas o primeiro pede máquina parruda.'. Voz acelerada 1,15× (máximo permitido).",
+ "checagem": {
+  "em": "2026-11-07 15:31",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "33.9 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.53 palavras/s (86 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.1 LUFS, pico -1.3 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "3 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "982 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "LOCAL",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "capa": {
+  "objeto": "monitor"
+ }
 }
