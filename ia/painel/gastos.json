@@ -1,0 +1,40 @@
+{
+ "_como_editar": "Valores mensais em dólar. Mudou de plano? Troque aqui e rode python3 painel/gerar.py. 'cambio' é só referência para mostrar em reais.",
+ "cambio_brl": 5.4,
+ "fixos": [
+  {
+   "nome": "Claude Pro",
+   "valor_usd": 20,
+   "obs": "assinatura que roda as sessões (roteiros, produção, agendamento, painel)",
+   "fonte": "informado pelo Vitor em 07/11"
+  },
+  {
+   "nome": "Metricool",
+   "valor_usd": 25,
+   "obs": "agendamento e métricas do Instagram e TikTok",
+   "fonte": "informado pelo Vitor em 07/11"
+  },
+  {
+   "nome": "Cloudflare (app do painel + banco D1)",
+   "valor_usd": 0,
+   "obs": "plano grátis",
+   "fonte": "conta Cloudflare"
+  },
+  {
+   "nome": "GitHub (repositório e vídeos)",
+   "valor_usd": 0,
+   "obs": "repositório público, grátis",
+   "fonte": "conta GitHub"
+  }
+ ],
+ "por_uso": [
+  {
+   "nome": "Gemini (voz dos Reels)",
+   "usd_por_video": 0.02,
+   "desde": "2026-11-05",
+   "obs": "chave paga desde 05/11 (decisão do Vitor); estimativa pelo nº de vídeos com voz, ~US$ 0,02 cada",
+   "fonte": "estimado"
+  }
+ ],
+ "teto_por_video_usd": 0.5
+}

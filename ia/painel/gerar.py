@@ -398,6 +398,34 @@ def main() -> None:
             f'<h4 title="{esc(nome)}">{esc(c["titulo"][:110])}</h4><p class="quando">📅 {esc(quando_bonito(c["quando"]))}</p><p class="sub">{esc(detalhes)}</p>'
             f'<div class="chips">{chips}{capa_ig}</div>{"<p class=met>" + "<br>".join(esc(x) for x in met) + "</p>" if met else ""}{chk}{rot_html}{decide}</div></article>')
 
+    # ---- gastos (painel/gastos.json + Gemini estimado pelo nº de vídeos com voz)
+    g = ler(PAINEL / "gastos.json", {}) or {}
+    cambio = g.get("cambio_brl") or 5.4
+    mes = f"{agora:%Y-%m}"
+    linhas_g, total_mes = [], 0.0
+    for f in g.get("fixos", []):
+        total_mes += f.get("valor_usd", 0)
+        linhas_g.append((f["nome"], f.get("valor_usd", 0), "por mês", f.get("obs", ""), f.get("fonte", "")))
+    for u in g.get("por_uso", []):
+        n = sum(1 for d in (IA / "posts").iterdir() if d.is_dir() and d.name >= u.get("desde", "") and d.name[:7] <= mes
+                and (d / "reel.mp4").exists() and (d / "roteiro.json").exists())
+        v = round(n * u.get("usd_por_video", 0), 2)
+        total_mes += v
+        linhas_g.append((u["nome"], v, f"{n} vídeos × US$ {u.get('usd_por_video', 0):.2f}".replace(".", ","), u.get("obs", ""), u.get("fonte", "estimado")))
+    pub_mes = len({p["data"] for p in publicacoes if p["status"] == "PUBLISHED" and p["rede"] == "instagram" and p["data"][:7] == mes})
+    por_video = total_mes / pub_mes if pub_mes else 0
+    br = lambda v: f"{v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    brl = lambda v: f"R$ {br(v * cambio)}"
+    usd = lambda v: f"US$ {br(v)}"
+    tabela_g = "".join(f'<tr><td><b>{esc(n)}</b><br><small>{esc(o)} · {esc(fo)}</small></td><td class="num"><b>{usd(v)}</b><br><small>{brl(v)}</small><br><small>{esc(q)}</small></td></tr>'
+                       for n, v, q, o, fo in linhas_g)
+    html_gastos = (f'<div class="filas"><div class="kpi"><b>{usd(total_mes)}</b><span>total do mês</span></div>'
+                   f'<div class="kpi"><b>{brl(total_mes)}</b><span>em reais (câmbio {br(cambio)})</span></div>'
+                   f'<div class="kpi"><b>{usd(por_video)}</b><span>por post publicado ({pub_mes} no mês)</span></div></div>'
+                   f'<table class="gastos"><tr><th>Serviço</th><th class="num">Valor</th></tr>{tabela_g}</table>'
+                   f'<p class="mut" style="font-size:12px">Fixos: valores do plano. Gemini: estimado pelo nº de vídeos com voz desde que a chave paga começou (05/11); '
+                   f'a fatura real fica no Google Cloud. Teto aprovado: US$ {br(g.get("teto_por_video_usd", 0.5))} por vídeo. Para ajustar valores, edite <code>ia/painel/gastos.json</code>.</p>')
+
     cont = defaultdict(int)
     for c in cartoes:
         cont[balde(c["status"])] += 1
@@ -422,7 +450,12 @@ header h1{{margin:0;font-size:19px;flex:1}}header h1 small{{display:block;font-s
 .ib{{font:inherit;font-size:13px;font-weight:600;padding:7px 11px;border-radius:20px;border:1px solid var(--line);background:var(--card);color:var(--tx);cursor:pointer}}
 #sino{{border-color:#ffb54766;color:var(--esp)}}#sino.ok{{border-color:#3ecf8e66;color:var(--ok)}}
 main{{padding:12px 14px 20px;max-width:1100px;margin:auto}}
-.aba{{display:none}}body[data-tab=aprovar] .aba-aprovar,body[data-tab=agenda] .aba-agenda,body[data-tab=publicados] .aba-publicados,body[data-tab=todos] .aba-todos{{display:block}}
+.aba{{display:none}}body[data-tab=aprovar] .aba-aprovar,body[data-tab=agenda] .aba-agenda,body[data-tab=publicados] .aba-publicados,body[data-tab=todos] .aba-todos,body[data-tab=gastos] .aba-gastos{{display:block}}
+body[data-tab=gastos] #grade,body[data-tab=gastos] #vazio{{display:none!important}}
+.kpi{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 8px;text-align:center}}.kpi b{{display:block;font-size:19px}}.kpi span{{font-size:11px;color:var(--mut)}}
+table.gastos{{table-layout:fixed;width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:13px}}
+table.gastos th{{text-align:left;color:var(--mut);font-weight:600;padding:8px 10px;border-bottom:1px solid var(--line)}}table.gastos td{{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}}
+table.gastos small{{color:var(--mut);font-size:11px}}.num{{text-align:right;width:118px}}
 h2{{font-size:17px;margin:18px 0 10px}}.mut{{color:var(--mut)}}
 .filas{{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:2px 0 12px}}
 .filas button{{font:inherit;font-size:14px;font-weight:700;padding:12px 6px;border-radius:14px;border:1px solid var(--line);background:var(--card);color:var(--mut);cursor:pointer}}
@@ -485,11 +518,12 @@ nav .badge{{position:absolute;top:0;left:56%;min-width:18px;padding:0 5px;border
 </section>
 <section class="aba aba-agenda"><h2>Semana</h2><div class="semana">{"".join(semana)}</div><h2>Próximos agendados</h2></section>
 <section class="aba aba-publicados"><h2>Publicados</h2></section>
+<section class="aba aba-gastos"><h2>💰 Gastos de {agora:%m/%Y}</h2>{html_gastos}</section>
 <section class="aba aba-todos"><h2>Todos os posts ({len(cartoes)})</h2><div class="chipsbar" id="baldes"><button data-b="" class="on">Todos</button>{chips_todos}</div><div class="chipsbar" id="cats-t"><button data-c="" class="on">Todas</button>{chips_cat}</div></section>
 <div class="grade" id="grade">{"".join(html_cartoes)}</div>
 <div class="vazio" id="vazio" style="display:none">Nada por aqui 🎉</div>
 </main>
-<nav><button data-t="aprovar"><i>📥</i>Aprovar<span class="badge" data-cont="pend"></span></button><button data-t="agenda"><i>📅</i>Agenda</button><button data-t="publicados"><i>✅</i>Publicados</button><button data-t="todos"><i>🗂</i>Todos</button></nav>
+<nav><button data-t="aprovar"><i>📥</i>Aprovar<span class="badge" data-cont="pend"></span></button><button data-t="agenda"><i>📅</i>Agenda</button><button data-t="publicados"><i>✅</i>Publicados</button><button data-t="todos"><i>🗂</i>Todos</button><button data-t="gastos"><i>💰</i>Gastos</button></nav>
 <script>
 const F = {{ fila: 'pend', e: '', ca: '', b: '', ct: '', chance: false }};
 const FILA = {{ aprovar: 'pend', 'aprovado-agora': 'aprov', producao: 'aprov', 'negado-agora': 'neg', negado: 'neg' }};
@@ -543,7 +577,7 @@ document.querySelectorAll('#cats-t button').forEach(b => b.onclick = () => {{ F.
 """ + JS + """
 const inicio = (location.hash || '').slice(1).replace('pendentes', 'aprovar');
 recontar();
-aba(['aprovar', 'agenda', 'publicados', 'todos'].includes(inicio) ? inicio : (document.querySelector('#grade article[data-bucket=aprovar]') ? 'aprovar' : 'agenda'));
+aba(['aprovar', 'agenda', 'publicados', 'todos', 'gastos'].includes(inicio) ? inicio : (document.querySelector('#grade article[data-bucket=aprovar]') ? 'aprovar' : 'agenda'));
 </script></body></html>
 """
     (PAINEL / "index.html").write_text(pagina, encoding="utf-8")

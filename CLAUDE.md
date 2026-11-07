@@ -15,6 +15,7 @@ Perfil de Vitor Gofredo: a IA que importa explicada em 60 segundos, em portuguê
 - `ia/posts/AAAA-MM-DD-slug/`: um post por pasta (`post.json`, `meta.json`, slides, legendas, `resposta_dm.txt`, roteiros e reels).
 - `ia/painel/`: **painel visual** (`index.html`) com todos os posts, a semana em vagas e o que precisa do Vitor. `painel/publicacoes.json` é a cópia do Metricool; `python3 painel/gerar.py` (de dentro de `ia/`) refaz o painel e as capas.
 - `ia/painel/chance.py`: % estimada de o roteiro ser bem recebido (mostrada ao lado de aprovar/negar), calculada com os Reels medidos em `metricas.json`. Quem grava métricas novas deve usar a pasta do post como chave em `posts` (ou incluir o apelido em `APELIDOS` no `chance.py`), senão o post não entra no cálculo.
+- `ia/painel/gastos.json`: gastos do projeto (Claude Pro US$ 20, Metricool US$ 25, Cloudflare e GitHub grátis; Gemini estimado em US$ 0,02 por vídeo com voz) mostrados na aba 💰 Gastos do app. Mudou plano ou preço? Atualize aqui.
 - `ia/checar.py`: checagem automática do Reel (fala ≤ 3,0 palavras/s, até 35 s, 1080×1920, volume, fontes, prova viral, legenda com CTA); grava em `meta.json` → `checagem`.
 - `ia/lista.js` gera os slides do carrossel; `ia/grafo.py` gera `ia/grafo/GRAFO.md`; `ia/video/` tem voz (Gemini TTS), composição e mixagem dos reels; `ia/skills/` tem as skills de ganchos e formatos virais.
 
