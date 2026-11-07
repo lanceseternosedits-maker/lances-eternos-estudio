@@ -45,8 +45,10 @@ function janelaApp(cor, linhas = 4) { const t = ctex(320, 220, g => { g.fillStyl
 const tabua = box(1.2, .14, .55, M("#a8774a"), of, 0, 0, 0);
 
 // ---------- mascote: avental de couro + lápis atrás da orelha; mágica com faíscas ----------
-const couro = M("#7a4524", { roughness: .7 }); box(1.0, .5, .04, couro, MAS.corpo, 0, .64, .52); box(.08, .5, .04, couro, MAS.corpo, -.36, .96, .52).position.z = .515; box(.08, .5, .04, couro, MAS.corpo, .36, .96, .515);
-box(.4, .16, .05, M("#5e3218"), MAS.corpo, 0, .58, .55);
+// avental de couro só como cinto baixo (contorna o corpo, longe do rosto) + alças nas laterais + bolsinho de lado: nada de placa na frente, que parecia uma boca
+const couro = M("#7a4524", { roughness: .7 }); box(1.58, .12, 1.08, couro, MAS.corpo, 0, .5, 0); box(.12, .13, 1.09, M("#c9a64a", { metalness: .7, roughness: .3 }), MAS.corpo, .3, .5, 0);
+for (const s of [-1, 1]) box(.06, .62, .5, couro, MAS.corpo, s * .78, .82, 0);
+box(.1, .28, .3, M("#5e3218"), MAS.corpo, -.81, .5, .15);
 const lapis = new THREE.Group(); lapis.position.set(.74, 1.42, .05); lapis.rotation.set(.2, 0, -1.1); MAS.corpo.add(lapis); mesh(new THREE.CylinderGeometry(.04, .04, .5, 6), M("#f2c230"), lapis, 0, 0, 0); mesh(new THREE.ConeGeometry(.04, .1, 6), M("#e8c9a0"), lapis, 0, -.3, 0).rotation.x = Math.PI;
 const faiscas = []; for (let i = 0; i < 24; i++) { const f = mesh(new THREE.OctahedronGeometry(.045), E(i % 3 ? "#ffe27a" : VERDE, 2.5), S, 0, 0, 0); f.castShadow = false; faiscas.push({ f, a: rnd() * 6.28, r: .25 + rnd() * .5, v: 2 + rnd() * 3 }); }
 function magica(lt, on, alvo) { const L = new THREE.Vector3(), R2 = new THREE.Vector3(); MAS.bracos[0].children[0].getWorldPosition(L); MAS.bracos[1].children[0].getWorldPosition(R2);
