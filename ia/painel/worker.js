@@ -1,5 +1,5 @@
 // Worker "painel-iaem60s": serve o painel do IA em 60s (ia/painel/ do ramo midia-ia) como app no celular
-// e grava as decisões do Vitor (aprovar/negar) no D1 "iaem60s-painel" (binding DB), protegidas por PIN (secret PIN).
+// e grava as decisões do Vitor (aprovar/negar) no D1 "iaem60s-painel" (binding DB). Sem PIN (Vitor, 07/11).
 // Os arquivos vêm do GitHub a cada acesso (cache de 2 min), então todo commit no painel já aparece no app.
 const BASE = "https://raw.githubusercontent.com/lanceseternosedits-maker/lances-eternos-estudio/midia-ia/ia/painel/";
 const TIPOS = { html: "text/html; charset=utf-8", json: "application/manifest+json", png: "image/png", jpg: "image/jpeg" };
@@ -12,7 +12,6 @@ async function api(req, env, rota) {
     return json(Object.fromEntries(results.map((r) => [r.pasta, r])));
   }
   if (rota === "decisao" && req.method === "POST") {
-    if (!env.PIN || req.headers.get("x-pin") !== env.PIN) return json({ erro: "pin" }, 401);
     let b;
     try { b = await req.json(); } catch { return json({ erro: "json" }, 400); }
     const pasta = String(b.pasta || ""), etapa = String(b.etapa || ""), decisao = String(b.decisao || "");

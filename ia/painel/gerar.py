@@ -132,8 +132,7 @@ def classe(status: str) -> str:
 # Botões de aprovar/negar: só funcionam no app (Worker), que grava a decisão no D1 "iaem60s-painel".
 JS = r"""
 const API = 'api/';
-let decisoes = {}, pin = '';
-try { pin = localStorage.getItem('pin') || ''; } catch (e) {}
+let decisoes = {};
 const aviso = (t) => { document.getElementById('aviso').textContent = t; };
 function pintar() {
   let ap = 0, ng = 0, falta = 0;
@@ -162,22 +161,14 @@ async function carregar() {
     aviso('Aprovar e negar funciona só no app IA em 60s (ícone na tela de início).');
   }
 }
-function pedirPin() { document.getElementById('pinbox').style.display = 'block'; document.getElementById('pin').focus(); window.scrollTo(0, 0); }
 async function decidir(pasta, etapa, decisao, nota) {
-  if (!pin) { pedirPin(); return false; }
-  const r = await fetch(API + 'decisao', { method: 'POST', headers: { 'content-type': 'application/json', 'x-pin': pin },
+  const r = await fetch(API + 'decisao', { method: 'POST', headers: { 'content-type': 'application/json' },
     body: JSON.stringify({ pasta, etapa, decisao, nota: nota || '' }) }).catch(() => null);
   if (!r) { aviso('Sem conexão: a decisão não foi gravada.'); return false; }
-  if (r.status === 401) { pin = ''; try { localStorage.removeItem('pin'); } catch (e) {} aviso('PIN errado.'); pedirPin(); return false; }
   if (!r.ok) { aviso('Erro ao gravar (' + r.status + ').'); return false; }
   if (decisao === 'desfazer') delete decisoes[pasta]; else decisoes[pasta] = { etapa, decisao, nota };
   pintar(); return true;
 }
-document.getElementById('pinok').onclick = () => {
-  pin = document.getElementById('pin').value.trim();
-  try { localStorage.setItem('pin', pin); } catch (e) {}
-  document.getElementById('pinbox').style.display = 'none'; aviso('PIN salvo neste aparelho. Toque de novo no botão.');
-};
 document.querySelectorAll('.decide').forEach(d => {
   d.querySelector('.sim').onclick = () => decidir(d.dataset.pasta, d.dataset.etapa, 'aprovado');
   d.querySelector('.nao').onclick = () => {
@@ -369,7 +360,7 @@ article img,.semcapa{{width:96px;min-width:96px;height:170px;object-fit:cover;ba
 .chip.ig{{border-color:#ff3fa4;color:#ff9ad5}}.chip.ok{{border-color:var(--ok)}}.chip.agenda{{border-color:var(--ag)}}.chip.erro{{border-color:var(--erro);color:var(--erro)}}
 .met{{font-size:12px;margin:4px 0}}details{{font-size:11px;margin-top:4px}}details ul{{padding-left:4px;list-style:none;margin:4px 0}}details li.erro{{color:var(--erro)}}details li.ok{{color:var(--mut)}}details li.aviso{{color:var(--esp)}}
 .rot ul li{{margin:3px 0;color:var(--tx)}}.rot b{{color:var(--mut);font-weight:600}}
-.decide{{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}}.decide button,.dia-todos,#pinbox button{{font:inherit;font-size:12px;border-radius:8px;padding:6px 10px;cursor:pointer;border:1px solid var(--line);background:#20242d;color:var(--tx)}}
+.decide{{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}}.decide button,.dia-todos{{font:inherit;font-size:12px;border-radius:8px;padding:6px 10px;cursor:pointer;border:1px solid var(--line);background:#20242d;color:var(--tx)}}
 .decide .sim{{border-color:var(--ok);color:var(--ok)}}.decide .nao{{border-color:var(--erro);color:var(--erro)}}
 .chance{{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:15px;border-radius:8px;padding:3px 9px;line-height:1.1;border:1px solid}}
 .chance small{{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}}
@@ -379,13 +370,11 @@ article img,.semcapa{{width:96px;min-width:96px;height:170px;object-fit:cover;ba
 .flag button{{margin-left:6px;background:none;border:none;color:var(--mut);font-size:11px;text-decoration:underline;cursor:pointer}}
 .dia-todos{{float:right;font-size:10px!important;padding:2px 6px!important;text-transform:none;border-color:var(--ok)!important;color:var(--ok)!important}}
 li[data-dec=aprovado]::before{{content:"✔";color:var(--ok);font-weight:700;margin-right:3px}}li[data-dec=negado]{{text-decoration:line-through;opacity:.5}}
-#pinbox{{display:none;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-top:10px}}#pinbox input{{font:inherit;width:120px;padding:6px;border-radius:8px;border:1px solid var(--line);background:#0b0d12;color:var(--tx);margin:0 6px}}
 #aviso{{font-size:12px;color:var(--mut);margin-top:6px}}
 </style></head><body>
 <header><h1>IA em 60s · painel</h1><div class="mut">Atualizado em {agora:%d/%m %H:%M} (Brasília) · Metricool lido em {esc(snap.get("lido_em", "?"))} · {esc(resumo)}</div></header>
 <main>
 <h2>Precisa de você</h2><div class="pend"><ul>{pend}</ul><div id="aviso"></div></div>
-<div id="pinbox">PIN do painel:<input id="pin" type="password" inputmode="numeric" autocomplete="off"><button id="pinok">Entrar</button></div>
 <h2>Semana (Instagram, vagas do calendário)</h2><div class="semana">{"".join(semana)}</div>
 <h2>Todos os posts ({len(cartoes)})</h2><div class="filtros"><button data-f="" class="on">todos</button>{filtros}<button id="porchance">🔥 maior chance primeiro</button></div>
 <div class="grade">{"".join(html_cartoes)}</div>
