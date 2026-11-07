@@ -1,18 +1,1 @@
-{
- "data": "2026-11-08",
- "horario": "a definir",
- "pilar": "reel",
- "formato": "contagem",
- "temas": [
-  "apps-pra-quem-vive-no-chat"
- ],
- "fontes": [
-  "https://github.com/orkunisitmak/clipboardline",
-  "https://github.com/tang1693/KIKUmap",
-  "https://github.com/franzenzenhofer/big-arrow-on-the-screen"
- ],
- "cta": "MAPA",
- "polemica": false,
- "horarios": {},
- "status": "roteiro aprovado"
-}
+{"data": "2026-11-08", "horario": "a definir", "pilar": "reel", "formato": "contagem", "temas": ["apps-pra-quem-vive-no-chat"], "fontes": ["https://github.com/orkunisitmak/clipboardline", "https://github.com/tang1693/KIKUmap", "https://github.com/franzenzenhofer/big-arrow-on-the-screen"], "cta": "MAPA", "polemica": false, "horarios": {}, "status": "vídeo aguardando aprovação", "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): ClipBoardLine 315, KIKUmap 661, Big Arrow 835; total 1.811; criados entre 08/10 e 28/10.", "obs_producao": "Produzido em 07/11 (cena_contagem, módulo itens/apps-pra-quem-vive-no-chat.js: sala de detetive). Estrelas relidas no GitHub em 07/11: ClipBoardLine 315, KIKUmap 661, Big Arrow 835 (total 1.811): etiqueta trocada de '+2 MIL' para '+1,8 MIL'. Fala ganhou 'só pro Mac' (KIKUmap) e 'também pro Mac' (Big Arrow), com selo SÓ PRO MAC na tela; para caber em 35 s, a 2ª frase-ponte repetida saiu do nº 2 (que termina em 'Mas o primeiro é genial.'). Voz acelerada 1,15× (máximo permitido). Texto entre y=260 e y=1500.", "checagem": {"em": "2026-11-07 15:24", "ok": true, "itens": [{"nome": "Formato", "valor": "1080×1920", "ok": true, "regra": "1080×1920"}, {"nome": "Duração", "valor": "34.3 s", "ok": true, "regra": "até 35 s (corte texto se passar)"}, {"nome": "Velocidade da fala", "valor": "2.66 palavras/s (91 palavras)", "ok": true, "regra": "máximo 3,0 palavras/s"}, {"nome": "Volume", "valor": "-14.5 LUFS, pico -1.3 dB", "ok": true, "regra": "entre -16 e -12 LUFS, pico até -1 dB"}, {"nome": "Fontes", "valor": "3 fonte(s)", "ok": true, "regra": "todo fato com fonte"}, {"nome": "Prova viral", "valor": "preenchida", "ok": true, "regra": "toda pauta com a prova de que viralizou"}, {"nome": "Legenda do Instagram", "valor": "827 caracteres", "ok": true, "regra": "até 2.200 caracteres"}, {"nome": "CTA na legenda", "valor": "MAPA", "ok": true, "regra": "a palavra do CTA aparece na legenda"}, {"nome": "Resposta da DM", "valor": "ok", "ok": true, "regra": "resposta_dm.txt com os links"}]}}

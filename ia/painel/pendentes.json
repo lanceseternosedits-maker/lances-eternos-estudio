@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-07 12:22",
+ "gerado_em": "2026-11-07 12:24",
  "videos": [
   {
    "pasta": "2026-11-08-crie-seu-app-de-mac",
@@ -30,6 +30,11 @@
    "pasta": "2026-11-08-windows-gratis",
    "titulo": "3 PROGRAMAS GRÁTIS QUE O WINDOWS DEVIA TER",
    "quando": "2026-11-08 07:00"
+  },
+  {
+   "pasta": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "titulo": "3 APPS PRA QUEM VIVE NO CHATGPT",
+   "quando": "2026-11-08"
   }
  ]
 }

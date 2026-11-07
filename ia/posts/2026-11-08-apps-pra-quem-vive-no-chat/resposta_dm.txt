@@ -1,7 +1,7 @@
 Oi! Que bom que você comentou MAPA 🙌
-Aqui está o que eu prometi (links dos 3 (KIKUmap e Big Arrow são para Mac)):
-• https://github.com/orkunisitmak/clipboardline
-• https://github.com/tang1693/KIKUmap
-• https://github.com/franzenzenhofer/big-arrow-on-the-screen
+Aqui estão os 3 apps que eu prometi:
+• ClipBoardLine (Mac e Windows): https://github.com/orkunisitmak/clipboardline
+• KIKUmap (só Mac): https://github.com/tang1693/KIKUmap
+• Big Arrow (só Mac): https://github.com/franzenzenhofer/big-arrow-on-the-screen
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜

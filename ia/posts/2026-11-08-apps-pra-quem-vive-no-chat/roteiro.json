@@ -3,7 +3,7 @@
  "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
  "formato": "contagem",
  "chave": "MAPA",
- "tese": "3 APPS PRA QUEM VIVE NO CHATGPT · +2 MIL ESTRELAS EM 1 MÊS · E O Nº 1 DESENHA NA SUA TELA",
+ "tese": "3 APPS PRA QUEM VIVE NO CHATGPT · +1,8 MIL ESTRELAS EM 1 MÊS · E O Nº 1 DESENHA NA SUA TELA",
  "conceito": "Sala de detetive: quadro de cortiça com fios vermelhos ligando bilhetes, lâmpada pendente, arquivo; paleta cortiça + vermelho-fio + verde-abajur. Nº 1: uma seta enorme vermelha atravessa a tela do monitor. Mascote de sobretudo e chapéu de detetive.",
  "elementos": {
   "etiqueta": "e) tela de terminal",
@@ -23,13 +23,13 @@
   "https://github.com/tang1693/KIKUmap",
   "https://github.com/franzenzenhofer/big-arrow-on-the-screen"
  ],
- "prova_viral": "Estrelas no GitHub (API, 07/11/2026): ClipBoardLine 312, KIKUmap 660, Big Arrow 835; total 1.807; criados entre 08/10 e 28/10.",
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): ClipBoardLine 315, KIKUmap 661, Big Arrow 835; total 1.811; criados entre 08/10 e 28/10.",
  "obs": "",
  "polemica": false,
  "agenda": "2026-11-08 (horário definido no agendamento)",
- "palavras": 96,
+ "palavras": 91,
  "duracao_estimada_s": 33.1,
- "status": "roteiro aprovado",
+ "status": "vídeo aguardando aprovação",
  "segmentos": [
   {
    "cena": "gancho",
@@ -39,7 +39,7 @@
    "itens": "apps-pra-quem-vive-no-chat",
    "etiqueta": [
     "3 APPS PRA QUEM VIVE NO CHATGPT",
-    "+2 MIL ESTRELAS EM 1 MÊS",
+    "+1,8 MIL ESTRELAS EM 1 MÊS",
     "E O Nº 1 DESENHA NA SUA TELA"
    ],
    "sfx": [
@@ -55,7 +55,7 @@
    "tag": "3º",
    "item": "ClipBoardLine",
    "repo": "orkunisitmak/clipboardline",
-   "estrelas": 312,
+   "estrelas": 315,
    "fala": "Terceiro: guarda tudo que você copia, com busca até em imagem. Esse é organizado… comenta MAPA que eu te mando os três. Mas o primeiro é genial.",
    "legenda": "Terceiro: guarda tudo que você copia, com busca até em imagem. Esse é organizado… comenta MAPA que eu te mando os três. Mas o primeiro é genial.",
    "sfx": [
@@ -71,9 +71,9 @@
    "tag": "2º",
    "item": "KIKUmap",
    "repo": "tang1693/KIKUmap",
-   "estrelas": 660,
-   "fala": "Segundo: KIKUmap. Um mapa mental das suas conversas com o Claude e o ChatGPT. Esse é organizado… comenta MAPA que eu te mando os três. Mas o primeiro é genial.",
-   "legenda": "Segundo: KIKUmap. Um mapa mental das suas conversas com o Claude e o ChatGPT. Esse é organizado… comenta MAPA que eu te mando os três. Mas o primeiro é genial.",
+   "estrelas": 661,
+   "fala": "Segundo: KIKUmap, só pro Mac. Um mapa mental das suas conversas com o Claude e o ChatGPT. Mas o primeiro é genial.",
+   "legenda": "Segundo: KIKUmap, só pro Mac. Um mapa mental das suas conversas com o Claude e o ChatGPT. Mas o primeiro é genial.",
    "sfx": [
     {
      "t": 0.0,
@@ -88,8 +88,8 @@
    "item": "Big Arrow",
    "repo": "franzenzenhofer/big-arrow-on-the-screen",
    "estrelas": 835,
-   "fala": "E o primeiro: a IA desenha setas na sua tela pra mostrar onde clicar.",
-   "legenda": "E o primeiro: a IA desenha setas na sua tela pra mostrar onde clicar.",
+   "fala": "E o primeiro, também pro Mac: a IA desenha setas na sua tela pra mostrar onde clicar.",
+   "legenda": "E o primeiro, também pro Mac: a IA desenha setas na sua tela pra mostrar onde clicar.",
    "sfx": [
     {
      "t": 0.0,
