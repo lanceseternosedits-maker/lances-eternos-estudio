@@ -9,8 +9,8 @@
   "etiqueta": "g) placa de rua/aeroporto",
   "nome": "d) split-flap",
   "contador": "c) velocímetro",
-  "legenda": "e) tarja de TV",
-  "transicao": "f) zoom atravessando tela",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "b) chicote de câmera (whip pan)",
   "camera": "f) plongée/contra-plongée",
   "fechamento": "d) tela CONTINUE?",
   "tipografia": "c) Fraunces",
@@ -91,5 +91,6 @@
   "texto": "POV: você fez um app de Mac sem escrever código",
   "destaque": "sem escrever código"
  },
- "formato_extra": "POV + revelação (referencias.md: formato com mais views)"
+ "formato_extra": "POV + revelação (referencias.md: formato com mais views)",
+ "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos)."
 }

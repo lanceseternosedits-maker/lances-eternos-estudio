@@ -7,13 +7,13 @@
  "conceito": "Cabine de rádio antiga: microfone de fita, letreiro NO AR (texto 'NO AR' em fonte clara), painel de botões, discos; paleta vermelho-NO-AR + madeira + verde-válvula. Nº 1: ondas sonoras saem do microfone e viram outra voz (cor diferente). Mascote de fone gigante e gravata-borboleta.",
  "elementos": {
   "etiqueta": "b) papel rasgado com fita",
-  "nome": "e) letras caindo e encaixando",
-  "contador": "b) odômetro",
-  "legenda": "e) tarja de TV",
-  "transicao": "f) zoom atravessando tela",
+  "nome": "c) máquina de escrever",
+  "contador": "c) velocímetro/medidor circular",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "d) virada de página",
   "camera": "d) órbita",
-  "fechamento": "e) página de caderno",
-  "tipografia": "b) Archivo Black",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "a) Space Grotesk",
   "som": "trilha 03 + efeitos arcade",
   "mascote": "acessório e ação do conceito; ação principal: pintar"
  },
@@ -106,5 +106,6 @@
    "sfx": []
   }
  ],
- "adiantado_de": "2026-11-13"
+ "adiantado_de": "2026-11-13",
+ "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos)."
 }

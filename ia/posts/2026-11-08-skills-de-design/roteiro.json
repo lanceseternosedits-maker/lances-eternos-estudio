@@ -9,8 +9,8 @@
   "etiqueta": "d) faixa diagonal de aviso",
   "nome": "e) letras caindo e encaixando",
   "contador": "b) odômetro",
-  "legenda": "e) tarja de TV",
-  "transicao": "f) zoom atravessando tela",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "c) íris circular",
   "camera": "d) órbita",
   "fechamento": "e) página de caderno",
   "tipografia": "b) Archivo Black",
@@ -106,5 +106,6 @@
    "sfx": []
   }
  ],
- "adiantado_de": "2026-11-12"
+ "adiantado_de": "2026-11-12",
+ "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos)."
 }

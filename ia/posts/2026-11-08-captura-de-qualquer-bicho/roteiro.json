@@ -9,8 +9,8 @@
   "etiqueta": "f) página de caderno",
   "nome": "b) carimbo",
   "contador": "e) placar HI-SCORE",
-  "legenda": "e) tarja de TV",
-  "transicao": "f) zoom atravessando tela",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "e) glitch RGB",
   "camera": "d) órbita",
   "fechamento": "b) pódio",
   "tipografia": "e) Caveat + Space Grotesk",
@@ -86,5 +86,6 @@
    "legenda": "Comenta BICHO e me segue que eu te mando o link.",
    "sfx": []
   }
- ]
+ ],
+ "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos)."
 }
