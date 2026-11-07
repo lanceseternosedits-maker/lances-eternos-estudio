@@ -45,6 +45,7 @@ Vídeo traz mais resultado: a prioridade é **Reel no Instagram + TikTok**. Cada
 - **Carrossel só no Instagram** (`type POST`, `autoPublish true`, sem música). **TikTok só recebe vídeo aprovado** (`isAigc true`, `title` até 90 caracteres). YouTube pausado.
 - **Vídeo nunca sai sem 2 aprovações do Vitor** (roteiro e MP4). Reel no Instagram: `type REEL` com a trilha própria (a música via API está indisponível na conta até o Instagram ser ligado a uma Página do Facebook no Metricool).
 - Antes de agendar: `getScheduledPosts` do dia; mídia pública via `raw.githubusercontent.com/.../midia-ia/...` respondendo 200. Depois: `estado.json` (paleta e tema), `meta.json` do post (data, pilar, formato, temas, empresas, fontes, paleta, horarios, cta), `python3 grafo.py`, atualize `painel/publicacoes.json` e rode `python3 painel/gerar.py`, commit e push.
+- **Capa do Reel (Vitor, 07/11):** todo Reel sai com capa estilo thumb: `node painel/capas.js --instagram=<pasta>` gera `posts/<pasta>/capa_instagram.jpg` (1080×1920, tudo no recorte 3:4 da grade, personagem de tecnologia variado, nunca logo de terceiros); suba e agende com `videoThumbnailUrl` = URL raw dela (no lugar de `videoCoverMilliseconds`). Reel já publicado não troca capa pela API: o Vitor troca no app do Instagram (o painel tem o link "📲 capa IG").
 - Marque `isAiGenerated` quando houver imagem de IA. Nunca pessoas reais, nunca logo de terceiros nem da Anthropic.
 
 ## Carrossel
