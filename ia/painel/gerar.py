@@ -394,6 +394,7 @@ article img,.semcapa{{width:96px;min-width:96px;height:170px;object-fit:cover;ba
 .rot ul li{{margin:3px 0;color:var(--tx)}}.rot b{{color:var(--mut);font-weight:600}}
 .decide{{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}}.decide button,.dia-todos{{font:inherit;font-size:12px;border-radius:8px;padding:6px 10px;cursor:pointer;border:1px solid var(--line);background:#20242d;color:var(--tx)}}
 .decide .sim{{border-color:var(--ok);color:var(--ok)}}.decide .nao{{border-color:var(--erro);color:var(--erro)}}
+#atualizar{{font:inherit;font-size:12px;font-weight:600;vertical-align:middle;margin-left:4px;padding:5px 10px;border-radius:20px;border:1px solid #5aa9ff;background:#5aa9ff1a;color:#5aa9ff;cursor:pointer}}
 #sino{{font:inherit;font-size:12px;font-weight:600;vertical-align:middle;margin-left:8px;padding:5px 10px;border-radius:20px;border:1px solid #ffb547;background:#ffb5471a;color:#ffb547;cursor:pointer}}#sino.ok{{border-color:#3ecf8e;color:#3ecf8e;background:#3ecf8e1a}}
 .chance{{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:15px;border-radius:8px;padding:3px 9px;line-height:1.1;border:1px solid}}
 .chance small{{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}}
@@ -405,7 +406,7 @@ article img,.semcapa{{width:96px;min-width:96px;height:170px;object-fit:cover;ba
 li[data-dec=aprovado]::before{{content:"✔";color:var(--ok);font-weight:700;margin-right:3px}}li[data-dec=negado]{{text-decoration:line-through;opacity:.5}}
 #aviso{{font-size:12px;color:var(--mut);margin-top:6px}}
 </style></head><body>
-<header><h1>IA em 60s · painel <button id="sino" style="display:none">🔔 Ativar notificações</button></h1><div class="mut">Atualizado em {agora:%d/%m %H:%M} (Brasília) · Metricool lido em {esc(snap.get("lido_em", "?"))} · {esc(resumo)}</div></header>
+<header><h1>IA em 60s · painel <button id="sino" style="display:none">🔔 Ativar notificações</button> <button id="atualizar" onclick="location.replace('/?t=' + Date.now())">↻ Atualizar</button></h1><div class="mut">Atualizado em {agora:%d/%m %H:%M} (Brasília) · Metricool lido em {esc(snap.get("lido_em", "?"))} · {esc(resumo)}</div></header>
 <main>
 <h2 id="pendentes">Precisa de você</h2><div class="pend"><ul>{pend}</ul><div id="aviso"></div></div>
 <h2>Semana (Instagram, vagas do calendário)</h2><div class="semana">{"".join(semana)}</div>

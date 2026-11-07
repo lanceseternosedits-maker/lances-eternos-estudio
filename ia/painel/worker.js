@@ -157,7 +157,9 @@ export default {
     if (!/^(index\.html|manifest\.json|icone-(180|512)\.png|capas\/[\w.-]+\.jpg)$/.test(caminho)) {
       return new Response("não encontrado", { status: 404 });
     }
-    const r = await fetch(BASE + caminho, { cf: { cacheTtl: 120, cacheEverything: true } });
+    const html = caminho.endsWith(".html");
+    // a página vem sempre fresca do GitHub (?t= fura o cache); imagens podem ficar em cache
+    const r = await fetch(BASE + caminho + (html ? "?t=" + Date.now() : ""), { cf: html ? { cacheTtl: 0 } : { cacheTtl: 120, cacheEverything: true } });
     if (!r.ok) return new Response("painel indisponível (" + r.status + ")", { status: 502 });
     const ext = caminho.split(".").pop();
     return new Response(r.body, {
