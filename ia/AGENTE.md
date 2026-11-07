@@ -12,6 +12,15 @@ IA que a pessoa pode USAR hoje, explicada em português do Brasil, no Instagram 
 - **Regra de ouro (nota do Vitor):** "ninguém quer aprender nada com IA, e sim **ensinar coisas pra IA fazer melhor**". O público quer delegar, não estudar: o gancho é o que a IA faz POR você.
 - Teste antes de mandar roteiro: a pessoa comum entende em 2 s, usa no dia a dia e não precisa ser técnica nem de nicho. Se precisar explicar o que é, corta.
 
+## Categorias (Vitor, 07/11: "quero categorias diferentes pra diversificar")
+Todo roteiro e `meta.json` levam `"categoria"`: `"novidade"`, `"historia"` ou `"como_funciona"`. Banco de pautas com fontes candidatas: `pautas/categorias.md` (marque a usada).
+- **🆕 novidade** (o que já fazemos): ferramenta, skill ou projeto em alta nos últimos 7 dias, com prova viral.
+- **📜 historia**: algo que **aconteceu de verdade** no mundo da IA (Deep Blue, AlphaGo, ELIZA, Tay, lançamento do ChatGPT…), contado como história: personagem, conflito, virada, consequência hoje. Gancho com tensão ("Em 1997 o melhor do mundo perdeu pra uma máquina… e acusou ela de trapacear"), datas e números exatos com fonte oficial ou 2 fontes. Aqui a "prova viral" é a fonte histórica + o motivo de o assunto render agora (aniversário, notícia ligada, filme/série). Brinde: link da matéria/documentário + 1 curiosidade extra.
+- **⚙️ como_funciona**: responde uma **curiosidade ou incômodo** que a pessoa já teve ("por que a IA inventa coisa?", "por que ela erra quantos r tem em morango?"), com uma **metáfora física** no palco e um **truque pra usar melhor** no fim (o brinde). Nunca aula nem jargão: vale a regra de ouro do Vitor ("ninguém quer aprender IA, quer ensinar a IA a fazer melhor"), então o vídeo sempre termina no que a pessoa ganha.
+- **Mistura:** com 8 posts por dia, **5 novidades + 2 histórias + 1 como funciona**; com 4 por dia, **2–3 novidades + 1 história, e como funciona em dias alternados**. Nunca 2 da mesma categoria nova seguidos no mesmo dia. Histórias rendem bem à noite (19:00–20:30); como funciona de manhã.
+- **Formato:** historia e como_funciona usam o mascote no palco (formato 1) ou um formato próprio "linha do tempo" (cenário de época, data grande na etiqueta, cliffhanger "e foi aí que…"); seguem todas as regras de acabamento, originalidade e diversidade de elementos.
+- O mesmo "Gosto do Vitor" vale: nada nichado, bobo ou confuso; a história tem que ser entendida por qualquer pessoa em 2 s.
+
 ## Viralização (o que as plataformas medem)
 - Instagram: tempo assistido, curtidas e **envios por DM** por alcance; conteúdo original. TikTok: conclusão, reassistir, compartilhar; a busca lê fala, texto na tela e legenda (use palavras buscadas).
 - Gancho em até 1,5 s em 3 camadas (imagem, fala e texto dizem o mesmo). Uma frase por cena, 20–35 s, sem introdução. CTA: "Comenta PALAVRA e me segue que eu te mando [brinde]". Legenda termina com pergunta fácil.

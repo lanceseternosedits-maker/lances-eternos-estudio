@@ -41,6 +41,7 @@ def vagas_do_dia(dia: dt.date) -> list[str]:
     if SEMANA_8[0] <= dia <= SEMANA_8[1]:
         return VAGAS8_FDS if fds else VAGAS8_UTEIS
     return VAGAS_FDS if fds else VAGAS_UTEIS
+CATEGORIAS = {"novidade": "🆕 novidade", "historia": "📜 história", "como_funciona": "⚙️ como funciona"}
 DIAS = ["seg", "ter", "qua", "qui", "sex", "sáb", "dom"]
 REDES = {"instagram": "IG", "tiktok": "TT", "youtube": "YT"}
 
@@ -328,6 +329,7 @@ def main() -> None:
                                            f"{len(fontes)} fonte(s)" if fontes else ""] if x)
         img = f'<img loading="lazy" src="{c["capa"]}?v={int((PAINEL / c["capa"]).stat().st_mtime)}" alt="">' if c["capa"] else '<div class="semcapa">sem capa</div>'
         nome = c["pasta"].name if c["pasta"] else "sem pasta no repositório"
+        cat = m.get("categoria") or "novidade"
         capa_ig = (f'<a class="chip ig" href="https://raw.githubusercontent.com/lanceseternosedits-maker/lances-eternos-estudio/midia-ia/ia/posts/{esc(nome)}/capa_instagram.jpg">📲 capa IG</a>'
                    if c["pasta"] and (c["pasta"] / "capa_instagram.jpg").exists() else "")
         decide = rot_html = ""
@@ -352,7 +354,7 @@ def main() -> None:
                       f'<span class="chance {ch["nivel"].replace(" ", "-").replace("é", "e")}" title="chance estimada de ser bem recebido">🔥 {ch["pct"]}%<small>{esc(ch["nivel"])}</small></span>'
                       f'<button class="sim">✔ Aprovar {etapa}</button><button class="nao">✘ Negar</button></div>{porque}')
         html_cartoes.append(
-            f'<article data-pasta="{esc(nome)}" data-status="{esc(c["status"])}"{pct_attr}>{img}<div class="info"><span class="st {classe(c["status"])}">{esc(c["status"])}</span>'
+            f'<article data-pasta="{esc(nome)}" data-status="{esc(c["status"])}" data-cat="{esc(cat)}"{pct_attr}>{img}<div class="info"><span class="cat">{CATEGORIAS.get(cat, cat)}</span> <span class="st {classe(c["status"])}">{esc(c["status"])}</span>'
             f'<h4>{esc(c["titulo"][:110])}</h4><p class="sub">{esc(nome)}</p><p class="sub">{esc(detalhes)}</p>'
             f'<div class="chips">{chips}{capa_ig}</div>{"<p class=met>" + "<br>".join(esc(x) for x in met) + "</p>" if met else ""}{chk}{rot_html}{decide}</div></article>')
 
@@ -386,6 +388,7 @@ li.livre{{color:var(--esp)}}li.espera span{{color:var(--esp)}}.pend details{{fon
 article{{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex}}
 article img,.semcapa{{width:96px;min-width:96px;height:170px;object-fit:cover;background:#000}}.semcapa{{display:flex;align-items:center;justify-content:center;color:var(--mut);font-size:11px}}
 .info{{padding:8px 10px;min-width:0}}h4{{margin:4px 0;font-size:13px;line-height:1.3}}.sub{{margin:2px 0;color:var(--mut);font-size:11px;word-break:break-word}}
+.cat{{font-size:10px;font-weight:700;color:var(--mut);border:1px solid var(--line);border-radius:8px;padding:1px 6px}}
 .st{{font-size:11px;font-weight:600;text-transform:uppercase}}.st.ok{{color:var(--ok)}}.st.agenda{{color:var(--ag)}}.st.espera{{color:var(--esp)}}.st.erro{{color:var(--erro)}}.st.neutro{{color:var(--mut)}}
 .chips{{margin:6px 0}}.chip{{display:inline-block;font-size:11px;padding:2px 7px;border-radius:10px;margin:0 4px 4px 0;border:1px solid var(--line);color:var(--tx);text-decoration:none}}
 .chip.ig{{border-color:#ff3fa4;color:#ff9ad5}}.chip.ok{{border-color:var(--ok)}}.chip.agenda{{border-color:var(--ag)}}.chip.erro{{border-color:var(--erro);color:var(--erro)}}
@@ -410,7 +413,7 @@ li[data-dec=aprovado]::before{{content:"✔";color:var(--ok);font-weight:700;mar
 <main>
 <h2 id="pendentes">Precisa de você</h2><div class="pend"><ul>{pend}</ul><div id="aviso"></div></div>
 <h2>Semana (Instagram, vagas do calendário)</h2><div class="semana">{"".join(semana)}</div>
-<h2>Todos os posts ({len(cartoes)})</h2><div class="filtros"><button data-f="" class="on">todos</button>{filtros}<button id="porchance">🔥 maior chance primeiro</button></div>
+<h2>Todos os posts ({len(cartoes)})</h2><div class="filtros"><button data-f="" class="on">todos</button>{filtros}<button id="porchance">🔥 maior chance primeiro</button>{"".join(f'<button class="fcat" data-c="{k}">{v}</button>' for k, v in CATEGORIAS.items())}</div>
 <div class="grade">{"".join(html_cartoes)}</div>
 </main>
 <script>
@@ -419,7 +422,11 @@ document.getElementById('porchance').onclick=()=>{{
  [...g.children].filter(a=>a.dataset.chance).sort((a,b)=>a.dataset.chance-b.dataset.chance).forEach(a=>g.prepend(a));
  document.querySelectorAll('article').forEach(a=>a.style.display=a.dataset.chance?'':'none');
 }};
-document.querySelectorAll('.filtros button:not(#porchance)').forEach(b=>b.onclick=()=>{{
+document.querySelectorAll('.fcat').forEach(b=>b.onclick=()=>{{
+ document.querySelectorAll('.filtros button').forEach(x=>x.classList.toggle('on',x===b));
+ document.querySelectorAll('article').forEach(a=>a.style.display=a.dataset.cat===b.dataset.c?'':'none');
+}});
+document.querySelectorAll('.filtros button:not(#porchance):not(.fcat)').forEach(b=>b.onclick=()=>{{
  document.querySelectorAll('.filtros button').forEach(x=>x.classList.toggle('on',x===b));
  document.querySelectorAll('article').forEach(a=>a.style.display=(!b.dataset.f||a.dataset.status===b.dataset.f)?'':'none');
 }});

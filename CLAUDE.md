@@ -10,6 +10,7 @@ Perfil de Vitor Gofredo: a IA que importa explicada em 60 segundos, em portuguê
 ## Onde está cada coisa
 - `ia/AGENTE.md`: **manual completo** (linha editorial, ganchos, carrossel, vídeo, publicação). É a fonte da verdade; o conteúdo dele está importado abaixo.
 - `ia/referencias.md`: o que está viralizando lá fora (atualizado todo dia pelo caçador de referências). `ia/referencias_fixas.md`: exemplos de estilo que o Vitor mandou.
+- `ia/pautas/categorias.md`: banco de pautas das categorias **📜 história da IA** e **⚙️ como a IA funciona** (Vitor, 07/11), com fontes candidatas; regras e mistura por dia em "Categorias" no manual. Todo roteiro novo leva `"categoria"`.
 - `ia/estado.json`: próxima paleta e temas já usados (não repetir em 14 dias).
 - `ia/posts/AAAA-MM-DD-slug/`: um post por pasta (`post.json`, `meta.json`, slides, legendas, `resposta_dm.txt`, roteiros e reels).
 - `ia/painel/`: **painel visual** (`index.html`) com todos os posts, a semana em vagas e o que precisa do Vitor. `painel/publicacoes.json` é a cópia do Metricool; `python3 painel/gerar.py` (de dentro de `ia/`) refaz o painel e as capas.
