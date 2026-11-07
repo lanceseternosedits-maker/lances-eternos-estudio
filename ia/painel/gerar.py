@@ -168,7 +168,7 @@ function pintar() {
     if (st) { st.textContent = valida ? (x.decisao === 'aprovado' ? '✔ ' + d.dataset.etapa + ' aprovado' : '✘ ' + d.dataset.etapa + ' negado') : st.dataset.orig;
               st.className = 'st ' + (valida ? (x.decisao === 'aprovado' ? 'ok' : 'erro') : 'espera'); }
     const art = d.closest('article');
-    if (art) art.dataset.bucket = valida ? 'decidido' : art.dataset.b0;
+    if (art) art.dataset.bucket = valida ? (x.decisao === 'aprovado' ? 'aprovado-agora' : 'negado-agora') : art.dataset.b0;
     if (valida) {
       x.decisao === 'aprovado' ? ap++ : ng++;
       d.querySelectorAll('button,input').forEach(b => b.style.display = 'none');
@@ -178,7 +178,7 @@ function pintar() {
       f.querySelector('button').onclick = () => decidir(d.dataset.pasta, d.dataset.etapa, 'desfazer');
     } else { falta++; d.querySelectorAll('button').forEach(b => b.style.display = ''); if (f) f.remove(); }
   });
-  if (typeof recontar === 'function') recontar();
+  if (typeof recontar === 'function') { recontar(); aplicar(); }
   document.querySelectorAll('li[data-pasta]').forEach(li => { const x = decisoes[li.dataset.pasta]; if (x) li.dataset.dec = x.decisao; else delete li.dataset.dec; });
   aviso(ap + ng ? `Você decidiu ${ap + ng} agora (${ap} ✔ · ${ng} ✘). As sessões aplicam e agendam na próxima rodada.` : '');
 }
@@ -424,6 +424,10 @@ header h1{{margin:0;font-size:19px;flex:1}}header h1 small{{display:block;font-s
 main{{padding:12px 14px 20px;max-width:1100px;margin:auto}}
 .aba{{display:none}}body[data-tab=aprovar] .aba-aprovar,body[data-tab=agenda] .aba-agenda,body[data-tab=publicados] .aba-publicados,body[data-tab=todos] .aba-todos{{display:block}}
 h2{{font-size:17px;margin:18px 0 10px}}.mut{{color:var(--mut)}}
+.filas{{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:2px 0 12px}}
+.filas button{{font:inherit;font-size:14px;font-weight:700;padding:12px 6px;border-radius:14px;border:1px solid var(--line);background:var(--card);color:var(--mut);cursor:pointer}}
+.filas button b{{display:block;font-size:22px;color:var(--tx)}}.filas button.on{{color:var(--tx);border-color:var(--ag);background:#5aa9ff14}}
+.filas button[data-f=aprov].on{{border-color:var(--ok);background:#3ecf8e14}}.filas button[data-f=neg].on{{border-color:var(--erro);background:#ff6b6b14}}
 .resumo{{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:4px 0 12px}}
 .box{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;text-align:center}}.box b{{display:block;font-size:24px}}.box span{{font-size:12px;color:var(--mut)}}
 .pend{{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--esp);border-radius:12px;padding:8px 14px;margin-bottom:12px;font-size:13px}}
@@ -473,7 +477,7 @@ nav .badge{{position:absolute;top:0;left:56%;min-width:18px;padding:0 5px;border
 <button id="sino" class="ib" style="display:none">🔔 Ativar</button><button id="atualizar" class="ib" onclick="location.replace('/?t=' + Date.now() + location.hash)">↻</button></header>
 <main>
 <section class="aba aba-aprovar">
- <div class="resumo"><div class="box"><b data-cont="v-aprovar">0</b><span>🎬 vídeos</span></div><div class="box"><b data-cont="r-aprovar">0</b><span>📝 roteiros</span></div><div class="box"><b data-cont="decidido">0</b><span>✔ decididos agora</span></div></div>
+ <div class="filas" id="filas"><button data-f="pend" class="on">⏳ Pendentes <b data-cont="pend">0</b></button><button data-f="aprov">✔ Aprovados <b data-cont="aprov">0</b></button><button data-f="neg">✘ Negados <b data-cont="neg">0</b></button></div>
  <div id="aviso"></div>
  {('<div class="pend"><ul>' + pend + '</ul></div>') if pend else ''}
  <div class="seg" id="seg"><button data-e="" class="on">Tudo</button><button data-e="vídeo">🎬 Vídeos</button><button data-e="roteiro">📝 Roteiros</button></div>
@@ -485,22 +489,24 @@ nav .badge{{position:absolute;top:0;left:56%;min-width:18px;padding:0 5px;border
 <div class="grade" id="grade">{"".join(html_cartoes)}</div>
 <div class="vazio" id="vazio" style="display:none">Nada por aqui 🎉</div>
 </main>
-<nav><button data-t="aprovar"><i>📥</i>Aprovar<span class="badge" data-cont="aprovar"></span></button><button data-t="agenda"><i>📅</i>Agenda</button><button data-t="publicados"><i>✅</i>Publicados</button><button data-t="todos"><i>🗂</i>Todos</button></nav>
+<nav><button data-t="aprovar"><i>📥</i>Aprovar<span class="badge" data-cont="pend"></span></button><button data-t="agenda"><i>📅</i>Agenda</button><button data-t="publicados"><i>✅</i>Publicados</button><button data-t="todos"><i>🗂</i>Todos</button></nav>
 <script>
-const F = {{ e: '', ca: '', b: '', ct: '', chance: false }};
+const F = {{ fila: 'pend', e: '', ca: '', b: '', ct: '', chance: false }};
+const FILA = {{ aprovar: 'pend', 'aprovado-agora': 'aprov', producao: 'aprov', 'negado-agora': 'neg', negado: 'neg' }};
+const NORM = {{ 'aprovado-agora': 'producao', 'negado-agora': 'negado' }};
 function visivel(a) {{
   const t = document.body.dataset.tab, b = a.dataset.bucket;
-  if (t === 'aprovar') return (b === 'aprovar' || b === 'decidido') && (!F.e || a.dataset.etapa === F.e) && (!F.ca || a.dataset.cat === F.ca) && (!F.chance || a.dataset.chance);
-  if (t === 'agenda') return b === 'agendado' || b === 'producao';
+  if (t === 'aprovar') return FILA[b] === F.fila && (!F.e || (a.dataset.etapa || 'roteiro') === F.e) && (!F.ca || a.dataset.cat === F.ca) && (!F.chance || a.dataset.chance);
+  if (t === 'agenda') return b === 'agendado' || b === 'producao' || b === 'aprovado-agora';
   if (t === 'publicados') return b === 'publicado';
-  return (!F.b || b === F.b) && (!F.ct || a.dataset.cat === F.ct);
+  return (!F.b || (NORM[b] || b) === F.b) && (!F.ct || a.dataset.cat === F.ct);
 }}
 function ordenar() {{
   const t = document.body.dataset.tab, g = document.getElementById('grade');
   const arts = [...g.querySelectorAll('article')];
   const chave = (a) => {{
     const q = a.dataset.quando || '';
-    if (t === 'aprovar') return (a.dataset.bucket === 'decidido' ? '2' : '1') + (F.chance ? String(999 - (+a.dataset.chance || 0)).padStart(3, '0') : (a.dataset.etapa === 'vídeo' ? '0' : '1') + q);
+    if (t === 'aprovar') return '1' + (F.chance ? String(999 - (+a.dataset.chance || 0)).padStart(3, '0') : (a.dataset.etapa === 'vídeo' ? '0' : '1') + q);
     if (t === 'agenda') return q;
     return String(99999999999999 - +q.replace(/\\D/g, '')).padStart(14, '0');
   }};
@@ -515,8 +521,9 @@ function aplicar() {{
 function recontar() {{
   const c = {{}};
   document.querySelectorAll('#grade article').forEach(a => {{
-    c[a.dataset.bucket] = (c[a.dataset.bucket] || 0) + 1;
-    if (a.dataset.bucket === 'aprovar') {{ const k = (a.dataset.etapa === 'vídeo' ? 'v' : 'r') + '-aprovar'; c[k] = (c[k] || 0) + 1; }}
+    const b = a.dataset.bucket;
+    c[NORM[b] || b] = (c[NORM[b] || b] || 0) + 1;
+    if (FILA[b]) c[FILA[b]] = (c[FILA[b]] || 0) + 1;
   }});
   document.querySelectorAll('[data-cont]').forEach(el => {{ const v = c[el.dataset.cont] || 0; el.textContent = v; if (el.classList.contains('badge')) el.style.display = v ? '' : 'none'; }});
 }}
@@ -527,6 +534,7 @@ function aba(t) {{
   aplicar(); window.scrollTo(0, 0);
 }}
 document.querySelectorAll('nav button').forEach(b => b.onclick = () => aba(b.dataset.t));
+document.querySelectorAll('#filas button').forEach(b => b.onclick = () => {{ F.fila = b.dataset.f; document.querySelectorAll('#filas button').forEach(x => x.classList.toggle('on', x === b)); aplicar(); }});
 document.querySelectorAll('#seg button').forEach(b => b.onclick = () => {{ F.e = b.dataset.e; document.querySelectorAll('#seg button').forEach(x => x.classList.toggle('on', x === b)); aplicar(); }});
 document.querySelectorAll('#cats-a button:not(#porchance)').forEach(b => b.onclick = () => {{ F.ca = b.dataset.c; document.querySelectorAll('#cats-a button:not(#porchance)').forEach(x => x.classList.toggle('on', x === b)); aplicar(); }});
 document.getElementById('porchance').onclick = (ev) => {{ F.chance = !F.chance; ev.currentTarget.classList.toggle('on', F.chance); aplicar(); }};
