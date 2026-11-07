@@ -17,5 +17,67 @@
   "instagram": "2026-11-08 07:00",
   "tiktok": "2026-11-08 07:00"
  },
- "status": "roteiro aprovado"
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-07 15:05",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "34.0 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.53 palavras/s (86 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.0 LUFS, pico -1.1 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "3 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "757 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "WINDOWS",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "obs_producao": "Produzido em 07/11 (cena_contagem, módulo itens/windows-gratis.js). Estrelas relidas na API do GitHub em 07/11: Prism 776, WinShun 911, kensaku 1.263 (total 2.950): etiqueta trocada de '+3 MIL' para 'QUASE 3 MIL'. Para caber em 35 s, a 2ª frase-ponte repetida ('Esse é rápido… comenta WINDOWS…') saiu do nº 2, que agora termina em 'Mas o primeiro é melhor ainda.'. Voz acelerada 1,15× (máximo permitido): 34,0 s, 2,53 palavras/s. Texto todo entre y=260 e y=1500. checar.py passou.",
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): Prism 776, WinShun 911, kensaku 1.263; total 2.950; criados entre 08/10 e 24/10."
 }

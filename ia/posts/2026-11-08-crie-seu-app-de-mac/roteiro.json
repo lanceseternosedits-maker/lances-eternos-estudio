@@ -3,7 +3,7 @@
  "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
  "formato": "palco",
  "chave": "APP",
- "tese": "CRIE SEU PRÓPRIO APP DE MAC SEM ESCREVER CÓDIGO · +2 MIL ESTRELAS EM 2 SEMANAS",
+ "tese": "CRIE SEU PRÓPRIO APP DE MAC SEM ESCREVER CÓDIGO · +1,6 MIL ESTRELAS EM 2 SEMANAS",
  "conceito": "Ateliê de marcenaria fina: bancada, plaina, pedaços de madeira virando janelas de app arredondadas; paleta nogueira + cinza-alumínio + verde-semáforo. Mascote de avental de couro e lápis atrás da orelha.",
  "elementos": {
   "etiqueta": "g) placa de rua/aeroporto",
@@ -21,13 +21,13 @@
  "fontes": [
   "https://github.com/daveebbelaar/bama"
  ],
- "prova_viral": "Estrelas no GitHub (API. 07/11/2026): daveebbelaar/bama 1.648, criado em 24/10.",
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): daveebbelaar/bama 1.656, criado em 24/10.",
  "obs": "'Sem saber programar' é exagero leve: dizer 'sem escrever código'.",
  "polemica": false,
  "agenda": "2026-11-08 19:00",
  "palavras": 67,
  "duracao_estimada_s": 23.1,
- "status": "roteiro aprovado",
+ "status": "vídeo aguardando aprovação",
  "segmentos": [
   {
    "cena": "gancho",
@@ -38,13 +38,28 @@
     {
      "t": 0.1,
      "som": "whoosh",
+     "g": 0.5
+    },
+    {
+     "t": 0.42,
+     "som": "impact",
+     "g": 0.5
+    },
+    {
+     "t": 0.7,
+     "som": "paper",
+     "g": 0.4
+    },
+    {
+     "t": 2.7,
+     "som": "unlock",
      "g": 0.6
     }
    ],
    "itens": "crie-seu-app-de-mac",
    "etiqueta": [
     "POV: VOCÊ FEZ UM APP DE MAC SEM ESCREVER CÓDIGO",
-    "+2 MIL ESTRELAS EM 2 SEMANAS",
+    "+1,6 MIL ESTRELAS EM 2 SEMANAS",
     ""
    ]
   },
@@ -53,38 +68,138 @@
    "tag": "",
    "fala": "O BAMA é um pacote de skills pra criar apps nativos de Mac.",
    "legenda": "O BAMA é um pacote de skills pra criar apps nativos de Mac.",
-   "sfx": []
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh2",
+     "g": 0.5
+    },
+    {
+     "t": 0.9,
+     "som": "pop",
+     "g": 0.35
+    },
+    {
+     "t": 1.2,
+     "som": "pop",
+     "g": 0.35
+    },
+    {
+     "t": 1.5,
+     "som": "pop",
+     "g": 0.35
+    },
+    {
+     "t": 1.7999999999999998,
+     "som": "pop",
+     "g": 0.35
+    },
+    {
+     "t": 2.1,
+     "som": "pop",
+     "g": 0.35
+    }
+   ]
   },
   {
    "cena": "s2",
    "tag": "",
    "fala": "Ele pesquisa, desenha, programa e testa o app.",
    "legenda": "Ele pesquisa, desenha, programa e testa o app.",
-   "sfx": []
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh2",
+     "g": 0.5
+    },
+    {
+     "t": 1.4,
+     "som": "paper",
+     "g": 0.4
+    },
+    {
+     "t": 2.15,
+     "som": "typing",
+     "g": 0.4
+    },
+    {
+     "t": 3.3,
+     "som": "stamp",
+     "g": 0.4
+    },
+    {
+     "t": 3.8,
+     "som": "ding",
+     "g": 0.5
+    }
+   ]
   },
   {
    "cena": "s3",
    "tag": "",
    "fala": "Mil e seiscentas estrelas. Comenta APP que eu te mando.",
    "legenda": "Mil e seiscentas estrelas. Comenta APP que eu te mando.",
-   "sfx": [],
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh2",
+     "g": 0.5
+    },
+    {
+     "t": 0.1,
+     "som": "riser",
+     "g": 0.4
+    },
+    {
+     "t": 1.3,
+     "som": "ding",
+     "g": 0.5
+    }
+   ],
    "item": "bama",
    "repo": "daveebbelaar/bama",
-   "estrelas": 1648
+   "estrelas": 1656
   },
   {
    "cena": "s4",
    "tag": "",
    "fala": "Precisa do Claude Code e de um Mac.",
    "legenda": "Precisa do Claude Code e de um Mac.",
-   "sfx": []
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh2",
+     "g": 0.5
+    },
+    {
+     "t": 0.2,
+     "som": "door",
+     "g": 0.4
+    },
+    {
+     "t": 0.4,
+     "som": "typing",
+     "g": 0.35
+    }
+   ]
   },
   {
    "cena": "cta",
    "tag": "COMENTA APP",
    "fala": "Comenta APP e me segue que eu te mando o passo a passo.",
    "legenda": "Comenta APP e me segue que eu te mando o passo a passo.",
-   "sfx": []
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh2",
+     "g": 0.5
+    },
+    {
+     "t": 0.4,
+     "som": "clock",
+     "g": 0.4
+    }
+   ]
   }
  ],
  "capa": {

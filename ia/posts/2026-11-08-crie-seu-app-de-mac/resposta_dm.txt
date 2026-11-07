@@ -2,4 +2,12 @@ Oi! Que bom que você comentou APP 🙌
 Aqui está o que eu prometi (link + 3 ideias de app para começar):
 • https://github.com/daveebbelaar/bama
 
+Passo a passo: instale o Claude Code no seu Mac, adicione as skills do BAMA (o README explica em poucos comandos) e descreva o app que você quer.
+
+3 ideias pra começar:
+1. Um app de lista de compras que fica na barra de menus
+2. Um cronômetro de foco (pomodoro) com som no fim
+3. Um conversor que transforma fotos HEIC em JPG arrastando e soltando
+
+Precisa do Claude Code (vem nos planos pagos do Claude) e de um Mac.
 Se curtir, me segue pra mais IA que serve pra vida real. 💜

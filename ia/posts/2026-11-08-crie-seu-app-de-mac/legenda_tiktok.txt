@@ -1,0 +1,3 @@
+POV: você descreve um app e o Claude entrega um app de Mac de verdade, sem você escrever código. Comenta APP que eu te mando o passo a passo. Que app você criaria? 👇
+Fonte: GitHub daveebbelaar/bama.
+#mac #claudecode #ia #apps #tecnologia
