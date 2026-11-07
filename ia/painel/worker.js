@@ -140,8 +140,10 @@ function acharPost(midia, lista) {
 }
 
 const FB = "https://graph.facebook.com/v23.0";
+let GASTO = 0; const TETO = 38; // o plano grátis do Cloudflare corta em 50 chamadas por execução: para antes e continua na próxima rodada
 let HOST = IG; // trocado para FB quando a conexão é pelo login unificado (token de usuário do sistema)
 async function igFetch(caminho, token, opcoes = {}) {
+  GASTO++;
   const r = await fetch(caminho.startsWith("http") ? caminho : HOST + caminho, {
     ...opcoes, headers: { authorization: "Bearer " + token, ...(opcoes.body ? { "content-type": "application/json" } : {}) },
   });
@@ -164,6 +166,7 @@ async function responderComentarios(env) {
   await prepararTabelas(env);
   const c = await cfg(env);
   if (!c.token || c.pausado === "1") return { ok: false, motivo: c.token ? "pausado" : "não conectado" };
+  GASTO = 1; // respostas.json
   const token = await renovarToken(env, c);
   HOST = c.modo === "suat" ? FB : IG;
   const EU = c.modo === "suat" ? c.ig_id : "me";
@@ -176,11 +179,14 @@ async function responderComentarios(env) {
   let feitos = 0, n = Number(c.contador || 0);
   for (const m of midias) {
     if (Date.parse(m.timestamp) < limite || !m.comments_count || vistos[m.id] === m.comments_count) continue;
+    if (GASTO > TETO - 4) break;
+    let incompleto = false;
     const post = acharPost(m, R.posts || []);
     const { data: coms = [] } = await igFetch(`/${m.id}/comments?fields=id,text,username,timestamp&limit=50`, token);
     const ja = new Set((await env.DB.prepare("SELECT id FROM comentarios WHERE media_id = ?").bind(m.id).all()).results.map((r) => r.id));
     for (const co of coms) {
       if (ja.has(co.id) || (c.usuario && co.username === c.usuario)) continue;
+      if (GASTO > TETO - 3) { incompleto = true; break; }
       const tem = post && new RegExp(`(^|[^A-Z0-9])${sem(post.palavra)}([^A-Z0-9]|$)`).test(sem(co.text));
       let acao = tem ? "" : "sem palavra", erro = "";
       if (tem) {
@@ -201,11 +207,13 @@ async function responderComentarios(env) {
         try { await igFetch(`/${co.id}/replies`, token, { method: "POST", body: JSON.stringify({ message: frase }) }); acao = acao ? acao + "+resposta" : "resposta"; }
         catch (e) { erro += (erro ? " | " : "") + "resposta: " + e.message; }
         if (!acao) acao = "erro";
+        if (acao === "erro" && /subrequests/i.test(erro)) { incompleto = true; break; } // não grava: tenta de novo na próxima rodada
         feitos++;
       }
       await env.DB.prepare("INSERT OR IGNORE INTO comentarios (id, media_id, usuario, texto, palavra, pasta, acao, erro, em) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)")
         .bind(co.id, m.id, co.username || "", String(co.text || "").slice(0, 300), post?.palavra || "", post?.pasta || "", acao, erro.slice(0, 500), agoraBR()).run();
     }
+    if (incompleto) break;
     await env.DB.prepare("INSERT INTO midias (id, n, em) VALUES (?, ?, ?) ON CONFLICT(id) DO UPDATE SET n = excluded.n, em = excluded.em").bind(m.id, m.comments_count, agoraBR()).run();
   }
   await setCfg(env, { contador: n, ultima_rodada: agoraBR() });
