@@ -1,0 +1,18 @@
+Comenta FONTE que eu te mando o prompt que faz a IA parar de inventar (e o link da história). ⚖️
+
+Nova York, 2023: num processo contra uma companhia aérea, um advogado usou o ChatGPT pra pesquisar decisões antigas e colocou na petição. Problema: 6 desses casos nunca existiram. A IA inventou nomes, datas e até trechos das decisões.
+
+O juiz federal descobriu e, em 22/06/2023, multou os advogados e o escritório em US$ 5 mil (caso Mata contra Avianca).
+
+Por que isso acontece? A IA não "mente de propósito". Ela prevê a próxima palavra mais provável. Quando não sabe, completa com algo que PARECE certo.
+
+O truque: peça a fonte com link de tudo e diga "se não souber, fala que não sabe". E confira o link antes de usar.
+
+💬 Comenta FONTE e me segue que eu te mando o prompt pronto.
+
+Você já pegou a IA inventando alguma coisa? 👇
+
+Fontes: Bloomberg Law ("ChatGPT phony legal filing case gets lawyers a $5,000 fine"), também noticiado por Reuters e The New York Times.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #inteligenciaartificial #chatgpt #comofunciona #direito #advogado #dicasdeia #tecnologia
