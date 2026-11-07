@@ -141,6 +141,18 @@ export default {
     const url = new URL(req.url);
     const caminho = url.pathname.replace(/^\/+/, "") || "index.html";
     if (caminho.startsWith("api/")) return api(req, env, caminho.slice(4));
+    // vídeo do post para assistir no app antes de aprovar (repassa Range para o player do iPhone)
+    const mv = caminho.match(/^videos\/(\d{4}-\d{2}-\d{2}-[\w-]{1,80})\.mp4$/);
+    if (mv) {
+      const POSTS = BASE.replace("/painel/", "/posts/");
+      const h = {};
+      if (req.headers.get("range")) h.range = req.headers.get("range");
+      const r = await fetch(`${POSTS}${mv[1]}/reel.mp4`, { headers: h, cf: { cacheTtl: 3600, cacheEverything: true } });
+      if (!r.ok && r.status !== 206) return new Response("vídeo não encontrado", { status: 404 });
+      const out = new Headers({ "content-type": "video/mp4", "accept-ranges": "bytes", "cache-control": "public, max-age=3600" });
+      for (const k of ["content-length", "content-range"]) if (r.headers.get(k)) out.set(k, r.headers.get(k));
+      return new Response(r.body, { status: r.status, headers: out });
+    }
     if (caminho === "sw.js") return new Response(SW, { headers: { "content-type": "application/javascript; charset=utf-8", "cache-control": "no-cache" } });
     if (!/^(index\.html|manifest\.json|icone-(180|512)\.png|capas\/[\w.-]+\.jpg)$/.test(caminho)) {
       return new Response("não encontrado", { status: 404 });

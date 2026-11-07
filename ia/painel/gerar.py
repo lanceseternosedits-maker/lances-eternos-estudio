@@ -336,9 +336,13 @@ def main() -> None:
             etapa = "vídeo" if any((c["pasta"] / n).exists() for n in ("reel.mp4", "short.mp4")) else "roteiro"
             rot = ler(c["pasta"] / "roteiro.json", {}) or {}
             falas = "".join(f'<li><b>{esc(s.get("cena", ""))}</b> {esc(s.get("fala", ""))}</li>' for s in rot.get("segmentos", []))
+            if etapa == "vídeo":
+                capa_src = f'capas/thumb-{esc(nome)}.jpg'
+                rot_html += (f'<video class="player" controls playsinline preload="none" poster="{capa_src}" src="videos/{esc(nome)}.mp4"></video>'
+                             f'<a class="chip" href="videos/{esc(nome)}.mp4">▶ abrir vídeo em tela cheia</a>')
             if falas:
                 extra = f'<li><b>brinde</b> {esc(rot.get("brinde", ""))}</li>' if rot.get("brinde") else ""
-                rot_html = f'<details class="rot"><summary>Ver roteiro ({rot.get("palavras", "?")} palavras, ~{rot.get("duracao_estimada_s", "?")} s)</summary><ul>{falas}{extra}</ul></details>'
+                rot_html += f'<details class="rot"><summary>Ver roteiro ({rot.get("palavras", "?")} palavras, ~{rot.get("duracao_estimada_s", "?")} s)</summary><ul>{falas}{extra}</ul></details>'
             ch = chance_mod.chance(c["pasta"], hist)
             pct_attr = f' data-chance="{ch["pct"]}"'
             linhas = "".join(f'<li><span class="{"mais" if a > 0 else "menos" if a < 0 else "zero"}">{"+" if a > 0 else ""}{a}</span> {esc(t)}</li>' for a, t in ch["fatores"])
@@ -386,6 +390,7 @@ article img,.semcapa{{width:96px;min-width:96px;height:170px;object-fit:cover;ba
 .chips{{margin:6px 0}}.chip{{display:inline-block;font-size:11px;padding:2px 7px;border-radius:10px;margin:0 4px 4px 0;border:1px solid var(--line);color:var(--tx);text-decoration:none}}
 .chip.ig{{border-color:#ff3fa4;color:#ff9ad5}}.chip.ok{{border-color:var(--ok)}}.chip.agenda{{border-color:var(--ag)}}.chip.erro{{border-color:var(--erro);color:var(--erro)}}
 .met{{font-size:12px;margin:4px 0}}details{{font-size:11px;margin-top:4px}}details ul{{padding-left:4px;list-style:none;margin:4px 0}}details li.erro{{color:var(--erro)}}details li.ok{{color:var(--mut)}}details li.aviso{{color:var(--esp)}}
+.player{{width:100%;max-width:240px;aspect-ratio:9/16;border-radius:10px;background:#000;margin:8px 0 4px;display:block}}
 .rot ul li{{margin:3px 0;color:var(--tx)}}.rot b{{color:var(--mut);font-weight:600}}
 .decide{{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}}.decide button,.dia-todos{{font:inherit;font-size:12px;border-radius:8px;padding:6px 10px;cursor:pointer;border:1px solid var(--line);background:#20242d;color:var(--tx)}}
 .decide .sim{{border-color:var(--ok);color:var(--ok)}}.decide .nao{{border-color:var(--erro);color:var(--erro)}}
@@ -421,7 +426,11 @@ document.querySelectorAll('.filtros button:not(#porchance)').forEach(b=>b.onclic
 """
     (PAINEL / "index.html").write_text(pagina, encoding="utf-8")
     # o Worker lê isto a cada 5 min e manda notificação de cada vídeo novo esperando aprovação
-    videos = [{"pasta": c["pasta"].name, "titulo": c["titulo"][:90], "quando": c["quando"]} for c in cartoes
+    def titulo_curto(c):
+        rot = ler(c["pasta"] / "roteiro.json", {}) or {}
+        seg = (rot.get("segmentos") or [{}])[0]
+        return ((seg.get("etiqueta") or [None])[0] or seg.get("tag") or c["titulo"])[:90]
+    videos = [{"pasta": c["pasta"].name, "titulo": titulo_curto(c), "quando": c["quando"]} for c in cartoes
               if c["pasta"] and "vídeo aguardando" in c["status"].lower()]
     (PAINEL / "pendentes.json").write_text(json.dumps({"gerado_em": f"{agora:%Y-%m-%d %H:%M}", "videos": videos}, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"painel/index.html: {len(cartoes)} posts, {len(pendencias)} pendência(s)")
