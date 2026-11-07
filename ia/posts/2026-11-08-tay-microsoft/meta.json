@@ -18,5 +18,78 @@
   "instagram": "2026-11-08 19:00",
   "tiktok": "2026-11-08 19:00"
  },
- "status": "roteiro aprovado"
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-07 18:57",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "30.9 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.78 palavras/s (86 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.4 LUFS, pico -1.1 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "1067 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "TAY",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "(sem contador)",
+  "legenda": "e) tarja de TV/arcade",
+  "transicao": "e) glitch RGB",
+  "camera": "e) câmera na mão",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 01 + notificações e sirene",
+  "mascote": "fone e boné; ação principal: tentar segurar balões que caem"
+ },
+ "obs_producao": "Produzido em 07/11 no motor da cena_contagem (mesmo mascote 3D), módulo itens/tay-microsoft.js: quarto de 2016 com telão de rede social genérica (sem logos), balões que chovem e ficam vermelhos SEM texto (só '⚠ REMOVIDO'; nenhuma ofensa mostrada ou repetida), sirene, botão DESLIGAR e peneira-filtro. Boné no topo (sem sombra no rosto) e fone com conchas nas laterais: rosto só com os olhos. Voz no gemini-2.5-flash-preview-tts (Puck), porque o gemini-3.1-flash-tts bateu o limite diário; 30,9 s, 2,78 palavras/s, checar.py ok."
 }
