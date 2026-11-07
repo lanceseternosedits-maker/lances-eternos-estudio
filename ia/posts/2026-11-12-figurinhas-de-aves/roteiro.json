@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "AVES",
+ "tese": "FIGURINHA DE TODAS AS AVES DO MUNDO · +1 MIL ESTRELAS EM 10 DIAS",
+ "conceito": "Floresta atlântica de papel recortado (camadas de papel): cipós, flores, um álbum de figurinhas aberto no chão; paleta verde-mata + amarelo-ipê + azul-arara. Gancho: figurinhas voam do álbum e viram pássaros. Mascote de binóculo e chapéu de explorador.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "b) odômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "e) página de caderno",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: ler"
+ },
+ "brinde": "link + como transformar em figurinha de WhatsApp",
+ "fontes": [
+  "https://github.com/alchaincyf/huashu-bird-sticker"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): alchaincyf/huashu-bird-sticker 704, criado em 30/10.",
+ "obs": "Conferir se o pacote tem português entre as 43 línguas e se tucano/sabiá/bem-te-vi estão lá antes de falar.",
+ "polemica": false,
+ "agenda": "2026-11-12 21:30",
+ "palavras": 66,
+ "duracao_estimada_s": 22.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "FIGURINHA DE TODAS AS AVES DO MUNDO",
+   "fala": "Onze mil e sessenta e quatro aves. Cada uma virou figurinha.",
+   "legenda": "Onze mil e sessenta e quatro aves. Cada uma virou figurinha.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "figurinhas-de-aves",
+   "etiqueta": [
+    "FIGURINHA DE TODAS AS AVES DO MUNDO",
+    "+1 MIL ESTRELAS EM 10 DIAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Alguém fez figurinhas de todas as espécies de aves vivas do mundo.",
+   "legenda": "Alguém fez figurinhas de todas as espécies de aves vivas do mundo.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Com nome em quarenta e três línguas, inclusive português.",
+   "legenda": "Com nome em quarenta e três línguas, inclusive português.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Tem tucano, sabiá e bem-te-vi. Comenta AVES que eu te mando.",
+   "legenda": "Tem tucano, sabiá e bem-te-vi. Comenta AVES que eu te mando.",
+   "sfx": [],
+   "item": "huashu-bird-sticker",
+   "repo": "alchaincyf/huashu-bird-sticker",
+   "estrelas": 704
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Dá pra mandar no WhatsApp ou usar em aula de ciências.",
+   "legenda": "Dá pra mandar no WhatsApp ou usar em aula de ciências.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA AVES",
+   "fala": "Comenta AVES e me segue pra mais coisa bonita feita com IA.",
+   "legenda": "Comenta AVES e me segue pra mais coisa bonita feita com IA.",
+   "sfx": []
+  }
+ ]
+}

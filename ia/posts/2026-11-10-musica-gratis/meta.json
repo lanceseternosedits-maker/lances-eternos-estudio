@@ -1,0 +1,21 @@
+{
+ "data": "2026-11-10",
+ "horario": "14:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "musica-gratis"
+ ],
+ "fontes": [
+  "https://github.com/Ka1-S/LYNX-SHARE",
+  "https://github.com/ItsAlphaNeon/Lemon-Studio",
+  "https://github.com/dsmurrell/onkey"
+ ],
+ "cta": "MUSICA",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-10 14:00",
+  "tiktok": "2026-11-10 14:00"
+ },
+ "status": "aguardando aprovação"
+}

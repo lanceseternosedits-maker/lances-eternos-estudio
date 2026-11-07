@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-10",
+ "horario": "06:00",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "ia-le-whatsapp"
+ ],
+ "fontes": [
+  "https://github.com/finereli/whatsapp-mcp"
+ ],
+ "cta": "ZAP",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-10 06:00",
+  "tiktok": "2026-11-10 06:00"
+ },
+ "status": "aguardando aprovação"
+}

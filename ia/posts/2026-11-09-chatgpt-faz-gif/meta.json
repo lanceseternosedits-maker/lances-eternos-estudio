@@ -1,0 +1,21 @@
+{
+ "data": "2026-11-09",
+ "horario": "17:00",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "chatgpt-faz-gif"
+ ],
+ "fontes": [
+  "https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai",
+  "https://www.androidauthority.com/chatgpt-animated-gif-generation-3731805/",
+  "https://decrypt.co/382574/chatgpt-gif-maker-openai-unannounced-images-2-6-model"
+ ],
+ "cta": "GIF",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-09 17:00",
+  "tiktok": "2026-11-09 17:00"
+ },
+ "status": "aguardando aprovação"
+}

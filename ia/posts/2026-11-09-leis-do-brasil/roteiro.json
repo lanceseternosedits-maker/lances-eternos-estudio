@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "LEIS",
+ "tese": "TODAS AS LEIS DO BRASIL NUM LUGAR SÓ · +3 MIL ESTRELAS EM 3 SEMANAS",
+ "conceito": "Cartório antigo que vira biblioteca de luz: pilhas de processos em papel pardo, carimbos, um arquivo de aço que se abre e solta folhas voando que viram uma tela de busca; paleta verde-bandeira + amarelo-ouro + papel. Nº 1: o mascote abre um livro gigante de leis que acende. Fechamento: carimbo APROVADO.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote de estrelas",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: digitar"
+ },
+ "brinde": "link do projeto + prompt 'explica essa lei em linguagem simples'",
+ "fontes": [
+  "https://github.com/ctresb/leis"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): ctresb/leis 2.619, criado em 15/10.",
+ "obs": "Projeto não oficial: dizer 'projeto aberto', nunca 'do governo'. Conferir no README como ele obtém os textos.",
+ "polemica": false,
+ "agenda": "2026-11-09 06:00",
+ "palavras": 84,
+ "duracao_estimada_s": 29.0,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "TODAS AS LEIS DO BRASIL NUM LUGAR SÓ",
+   "fala": "Alguém juntou todas as leis do Brasil num lugar só. De graça.",
+   "legenda": "Alguém juntou todas as leis do Brasil num lugar só. De graça.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "leis-do-brasil",
+   "etiqueta": [
+    "TODAS AS LEIS DO BRASIL NUM LUGAR SÓ",
+    "+3 MIL ESTRELAS EM 3 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Chama Leis. É um projeto aberto no GitHub.",
+   "legenda": "Chama Leis. É um projeto aberto no GitHub.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Você procura o assunto e acha a lei, sem caçar em dez sites do governo.",
+   "legenda": "Você procura o assunto e acha a lei, sem caçar em dez sites do governo.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Já passou de duas mil e seiscentas estrelas. Comenta LEIS que eu te mando o link.",
+   "legenda": "Já passou de duas mil e seiscentas estrelas. Comenta LEIS que eu te mando o link.",
+   "sfx": [],
+   "item": "leis",
+   "repo": "ctresb/leis",
+   "estrelas": 2619
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "E dá pra jogar o texto da lei no ChatGPT e pedir: me explica como se eu tivesse doze anos.",
+   "legenda": "E dá pra jogar o texto da lei no ChatGPT e pedir: me explica como se eu tivesse doze anos.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA LEIS",
+   "fala": "Comenta LEIS e me segue pra mais IA que serve pra vida real.",
+   "legenda": "Comenta LEIS e me segue pra mais IA que serve pra vida real.",
+   "sfx": []
+  }
+ ]
+}

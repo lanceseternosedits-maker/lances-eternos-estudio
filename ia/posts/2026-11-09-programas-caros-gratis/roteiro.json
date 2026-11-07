@@ -1,0 +1,143 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "GRATIS",
+ "tese": "5 PROGRAMAS CAROS REFEITOS DE GRAÇA · +38 MIL ESTRELAS EM 1 MÊS · E O Nº 1 É O MAIS USADO DO MUNDO",
+ "conceito": "Loja de software dos anos 90 em liquidação: prateleiras de caixas de CD com preço riscado, etiquetas 'R$ 0', esteira de caixa registradora; paleta vermelho-liquidação + amarelo + cinza-loja. Gancho: uma caixa de software com cadeado é aberta a marteladas pelo mascote. Nº 1: uma folha de documento gigante sai voando da caixa e se escreve sozinha. Fechamento: notinha fiscal comprida com os 5 itens a R$ 0,00.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "b) odômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "e) página de caderno",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: ler"
+ },
+ "brinde": "links dos 5 + aviso de que são projetos novos (podem ter bugs)",
+ "fontes": [
+  "https://github.com/tcchen2026/VibeOffice",
+  "https://github.com/storytold/figcraft",
+  "https://github.com/storytold/gridcraft",
+  "https://github.com/storytold/cadcraft",
+  "https://github.com/storytold/wordcraft"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): VibeOffice 1.275, FigCraft 4.552, GridCraft 7.267, CADCraft 7.759, WordCraft 17.490; total 38.343; criados entre 07/10 e 09/10.",
+ "obs": "Sem logos nem telas da Microsoft/Autodesk/Figma; nomes citados só para comparação ('no estilo'). Clean-room, licença Apache-2.0. 'A Microsoft cobra' vale para Word/Excel; Figma e AutoCAD são de outras empresas: o gancho fala só 'esses programas são pagos' se preferir.",
+ "polemica": true,
+ "agenda": "2026-11-09 08:00",
+ "palavras": 93,
+ "duracao_estimada_s": 32.1,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROGRAMAS CAROS REFEITOS DE GRAÇA",
+   "fala": "Você paga caro por Word, Excel e AutoCAD. Alguém refez os cinco do zero, de graça.",
+   "legenda": "Você paga caro por Word, Excel e AutoCAD. Alguém refez os cinco do zero, de graça.",
+   "itens": "programas-caros-gratis",
+   "etiqueta": [
+    "5 PROGRAMAS CAROS REFEITOS DE GRAÇA",
+    "+38 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 É O MAIS USADO DO MUNDO"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "VibeOffice",
+   "repo": "tcchen2026/VibeOffice",
+   "estrelas": 1275,
+   "fala": "Quinto: VibeOffice. Um pacote de escritório no navegador, sem instalar e sem conta.",
+   "legenda": "Quinto: VibeOffice. Um pacote de escritório no navegador, sem instalar e sem conta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "FigCraft",
+   "repo": "storytold/figcraft",
+   "estrelas": 4552,
+   "fala": "Quarto: FigCraft. Design de telas no estilo Figma, aberto.",
+   "legenda": "Quarto: FigCraft. Design de telas no estilo Figma, aberto.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "GridCraft",
+   "repo": "storytold/gridcraft",
+   "estrelas": 7267,
+   "fala": "Terceiro: GridCraft. Uma planilha no estilo Excel. Esse é útil… comenta GRATIS que eu te mando os cinco. Mas o próximo assusta.",
+   "legenda": "Terceiro: GridCraft. Uma planilha no estilo Excel. Esse é útil… comenta GRATIS que eu te mando os cinco. Mas o próximo assusta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "CADCraft",
+   "repo": "storytold/cadcraft",
+   "estrelas": 7759,
+   "fala": "Segundo: CADCraft. Desenho técnico no estilo AutoCAD, de graça.",
+   "legenda": "Segundo: CADCraft. Desenho técnico no estilo AutoCAD, de graça.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "WordCraft",
+   "repo": "storytold/wordcraft",
+   "estrelas": 17490,
+   "fala": "E o primeiro: WordCraft. O Word refeito do zero, código aberto.",
+   "legenda": "E o primeiro: WordCraft. O Word refeito do zero, código aberto.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA GRATIS",
+   "fala": "Comenta GRATIS e me segue que eu te mando os links dos cinco.",
+   "legenda": "Comenta GRATIS e me segue que eu te mando os links dos cinco.",
+   "sfx": []
+  }
+ ]
+}

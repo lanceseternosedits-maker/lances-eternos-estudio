@@ -1,0 +1,143 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "PLAY",
+ "tese": "5 JOGOS DE PLAYSTATION RODANDO NO PC · +8 MIL ESTRELAS EM 1 MÊS · E O Nº 1 FOI APAGADO DA LOJA",
+ "conceito": "Corredor de locadora de videogame abandonada à noite, com fita de 'proibido' rasgada; TVs CRT ligadas com chiado, caixas de jogo genéricas sem arte; paleta azul-PlayStation-genérico (anil) + vermelho + verde-fósforo. Gancho: um console genérico de blocos se abre e de dentro sai um PC. Nº 1: corredor escuro com uma luz piscando no fim (terror leve, sem susto). Fechamento: fichas de locadora com os 5 nomes.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "d) split-flap",
+  "contador": "c) velocímetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "d) tela CONTINUE?",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: se esconder"
+ },
+ "brinde": "links dos 5 + aviso: precisa da cópia do SEU jogo, nenhum traz arquivos de jogo",
+ "fontes": [
+  "https://github.com/GetLostIn/CTR-NitroFueled-PC",
+  "https://github.com/HayatoG/iss_pc",
+  "https://github.com/AjncSystem/ShadowOfTheColossus-PC",
+  "https://github.com/Supermedo/uncharted_pc",
+  "https://github.com/LoreanXavier/pt-pc"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): CTR Nitro-Fueled 724, inFAMOUS Second Son 1.111, Shadow of the Colossus 1.767, Uncharted 2.219, P.T. 2.426; total 8.247; criados entre 07/10 e 15/10.",
+ "obs": "Nunca ROM/ISO nem link de jogo. Todos dizem 'sem arquivos de jogo' / 'seu dump'. Sem logos, personagens ou capas da Sony/Konami. P.T. foi retirado da PlayStation Store em 2015 (fato conhecido; citar fonte jornalística na legenda).",
+ "polemica": true,
+ "agenda": "2026-11-09 12:00",
+ "palavras": 96,
+ "duracao_estimada_s": 33.1,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 JOGOS DE PLAYSTATION RODANDO NO PC",
+   "fala": "Esses jogos de PlayStation nunca saíram pro PC. Os fãs fizeram rodar mesmo assim.",
+   "legenda": "Esses jogos de PlayStation nunca saíram pro PC. Os fãs fizeram rodar mesmo assim.",
+   "itens": "playstation-no-pc",
+   "etiqueta": [
+    "5 JOGOS DE PLAYSTATION RODANDO NO PC",
+    "+8 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 FOI APAGADO DA LOJA"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "CTR Nitro-Fueled",
+   "repo": "GetLostIn/CTR-NitroFueled-PC",
+   "estrelas": 724,
+   "fala": "Quinto: Crash Team Racing rodando nativo no Windows.",
+   "legenda": "Quinto: Crash Team Racing rodando nativo no Windows.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "inFAMOUS Second Son",
+   "repo": "HayatoG/iss_pc",
+   "estrelas": 1111,
+   "fala": "Quarto: inFAMOUS Second Son, jogável no PC, com o seu jogo.",
+   "legenda": "Quarto: inFAMOUS Second Son, jogável no PC, com o seu jogo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Shadow of the Colossus",
+   "repo": "AjncSystem/ShadowOfTheColossus-PC",
+   "estrelas": 1767,
+   "fala": "Terceiro: Shadow of the Colossus no Windows, sem emulador. Esse é bom… comenta PLAY que eu te mando os cinco. Mas o próximo é lenda.",
+   "legenda": "Terceiro: Shadow of the Colossus no Windows, sem emulador. Esse é bom… comenta PLAY que eu te mando os cinco. Mas o próximo é lenda.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Uncharted",
+   "repo": "Supermedo/uncharted_pc",
+   "estrelas": 2219,
+   "fala": "Segundo: a coleção Uncharted rodando nativa no PC.",
+   "legenda": "Segundo: a coleção Uncharted rodando nativa no PC.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "P.T.",
+   "repo": "LoreanXavier/pt-pc",
+   "estrelas": 2426,
+   "fala": "E o primeiro: P.T., o jogo de terror que foi apagado da loja, agora no PC.",
+   "legenda": "E o primeiro: P.T., o jogo de terror que foi apagado da loja, agora no PC.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA PLAY",
+   "fala": "Comenta PLAY e me segue. E lembra: só com o jogo que é seu.",
+   "legenda": "Comenta PLAY e me segue. E lembra: só com o jogo que é seu.",
+   "sfx": []
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "AMIGA",
+ "tese": "A AMIGA DE IA QUE LEMBRA DE VOCÊ · +454 ESTRELAS NA SEMANA",
+ "conceito": "Quarto aconchegante à noite estilo anime genérico (sem personagens existentes): pufe, luzinhas, janela com chuva, tela com um avatar de blocos; paleta lilás + rosa-neon suave + azul-chuva. Mascote de pijama e caneca conversando com a tela.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "d) split-flap",
+  "contador": "c) velocímetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "d) tela CONTINUE?",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: regar"
+ },
+ "brinde": "link + aviso de uso saudável",
+ "fontes": [
+  "https://github.com/zeekk0/OpenAmika"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): zeekk0/OpenAmika 454, criado em 03/11.",
+ "obs": "Personagem original do projeto; mostrar só avatar genérico de blocos. Tom responsável sobre solidão.",
+ "polemica": true,
+ "agenda": "2026-11-13 19:30",
+ "palavras": 71,
+ "duracao_estimada_s": 24.5,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A AMIGA DE IA QUE LEMBRA DE VOCÊ",
+   "fala": "Tem gente conversando todo dia com uma amiga de IA. E agora o código é aberto.",
+   "legenda": "Tem gente conversando todo dia com uma amiga de IA. E agora o código é aberto.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "namorada-de-ia",
+   "etiqueta": [
+    "A AMIGA DE IA QUE LEMBRA DE VOCÊ",
+    "+454 ESTRELAS NA SEMANA",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "A OpenAmika tem avatar animado, voz em tempo real e memória longa.",
+   "legenda": "A OpenAmika tem avatar animado, voz em tempo real e memória longa.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Ela lembra do que você contou semana passada.",
+   "legenda": "Ela lembra do que você contou semana passada.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "E roda com o modelo que você escolher. Comenta AMIGA que eu te mando.",
+   "legenda": "E roda com o modelo que você escolher. Comenta AMIGA que eu te mando.",
+   "sfx": [],
+   "item": "OpenAmika",
+   "repo": "zeekk0/OpenAmika",
+   "estrelas": 454
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Mas IA não substitui gente. Usa pra brincar, não pra se isolar.",
+   "legenda": "Mas IA não substitui gente. Usa pra brincar, não pra se isolar.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA AMIGA",
+   "fala": "Comenta AMIGA e me segue. Você conversaria com uma?",
+   "legenda": "Comenta AMIGA e me segue. Você conversaria com uma?",
+   "sfx": []
+  }
+ ]
+}

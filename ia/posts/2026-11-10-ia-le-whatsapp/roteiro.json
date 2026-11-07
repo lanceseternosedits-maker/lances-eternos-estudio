@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "ZAP",
+ "tese": "A IA ACHA AQUELA MENSAGEM NO SEU WHATSAPP · +409 ESTRELAS EM 3 SEMANAS",
+ "conceito": "Agência de correio antiga: escaninhos de madeira cheios de envelopes verdes, carimbos, uma lupa enorme; paleta verde-WhatsApp-genérico (verde-garrafa) + creme + marrom. Mascote de quepe de carteiro e lupa procurando um envelope. Sem logo do WhatsApp.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "d) split-flap",
+  "contador": "c) velocímetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "d) tela CONTINUE?",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: regar"
+ },
+ "brinde": "link + passo a passo + aviso de privacidade",
+ "fontes": [
+  "https://github.com/finereli/whatsapp-mcp"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): finereli/whatsapp-mcp 409, criado em 18/10.",
+ "obs": "Projeto não oficial e só leitura. Dizer claramente que as mensagens passam pelo serviço deles ou pela sua cópia no Cloudflare.",
+ "polemica": false,
+ "agenda": "2026-11-10 06:00",
+ "palavras": 73,
+ "duracao_estimada_s": 25.2,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IA ACHA AQUELA MENSAGEM NO SEU WHATSAPP",
+   "fala": "Sabe aquela mensagem perdida no WhatsApp? A IA acha pra você.",
+   "legenda": "Sabe aquela mensagem perdida no WhatsApp? A IA acha pra você.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "ia-le-whatsapp",
+   "etiqueta": [
+    "A IA ACHA AQUELA MENSAGEM NO SEU WHATSAPP",
+    "+409 ESTRELAS EM 3 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O whatsapp-mcp deixa o Claude ler e buscar as suas conversas.",
+   "legenda": "O whatsapp-mcp deixa o Claude ler e buscar as suas conversas.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Só ler: ele não manda mensagem, não apaga nada.",
+   "legenda": "Só ler: ele não manda mensagem, não apaga nada.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Você pergunta: qual era o endereço que a Ana mandou? Comenta ZAP que eu te mando.",
+   "legenda": "Você pergunta: qual era o endereço que a Ana mandou? Comenta ZAP que eu te mando.",
+   "sfx": [],
+   "item": "whatsapp-mcp",
+   "repo": "finereli/whatsapp-mcp",
+   "estrelas": 409
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Seus dados vão pra um servidor. Se preferir, rode a sua própria cópia.",
+   "legenda": "Seus dados vão pra um servidor. Se preferir, rode a sua própria cópia.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA ZAP",
+   "fala": "Comenta ZAP e me segue que eu te mando o passo a passo.",
+   "legenda": "Comenta ZAP e me segue que eu te mando o passo a passo.",
+   "sfx": []
+  }
+ ]
+}

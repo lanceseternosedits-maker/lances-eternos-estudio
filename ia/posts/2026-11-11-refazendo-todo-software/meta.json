@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-11",
+ "horario": "19:30",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "refazendo-todo-software"
+ ],
+ "fontes": [
+  "https://github.com/HeyPuter/everything"
+ ],
+ "cta": "TUDO",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-11 19:30",
+  "tiktok": "2026-11-11 19:30"
+ },
+ "status": "aguardando aprovação"
+}

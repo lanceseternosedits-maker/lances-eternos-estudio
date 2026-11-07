@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-13",
+ "horario": "19:30",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "namorada-de-ia"
+ ],
+ "fontes": [
+  "https://github.com/zeekk0/OpenAmika"
+ ],
+ "cta": "AMIGA",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-13 19:30",
+  "tiktok": "2026-11-13 19:30"
+ },
+ "status": "aguardando aprovação"
+}

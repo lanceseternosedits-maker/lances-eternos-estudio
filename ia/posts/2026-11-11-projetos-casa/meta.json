@@ -1,0 +1,21 @@
+{
+ "data": "2026-11-11",
+ "horario": "10:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "projetos-casa"
+ ],
+ "fontes": [
+  "https://github.com/0xProbabillity/house-control",
+  "https://github.com/nthnclrk/CleanFrame",
+  "https://github.com/wesbos/photo-frame-dashboard"
+ ],
+ "cta": "CASA",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-11 10:00",
+  "tiktok": "2026-11-11 10:00"
+ },
+ "status": "aguardando aprovação"
+}

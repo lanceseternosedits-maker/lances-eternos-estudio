@@ -1,0 +1,21 @@
+{
+ "data": "2026-11-13",
+ "horario": "06:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "assistentes-que-trabalham"
+ ],
+ "fontes": [
+  "https://github.com/rociiu/talorys",
+  "https://github.com/CopilotKit/OpenDuet",
+  "https://github.com/KKKKhazix/agent-autoloop"
+ ],
+ "cta": "AGENTE",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-13 06:00",
+  "tiktok": "2026-11-13 06:00"
+ },
+ "status": "aguardando aprovação"
+}

@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "FIGURINHA",
+ "tese": "FIGURINHA ANIMADA DO SEU PERSONAGEM · +1 MIL ESTRELAS NA SEMANA",
+ "conceito": "Papelaria de bairro: prateleiras de cadernos, máquina de xerox, adesivos holográficos em cartela; paleta rosa-chiclete + azul-caneta + amarelo-marca-texto. Mascote de pochete e boné, colando figurinhas que se mexem em pixel art.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote de estrelas",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: plantar"
+ },
+ "brinde": "link + como colocar no WhatsApp",
+ "fontes": [
+  "https://github.com/WoYun520/pixel-gif-sticker-pack"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): WoYun520/pixel-gif-sticker-pack 575, criado em 05/11.",
+ "obs": "Criado em 05/11: estrelas mudam rápido, reler. 'Adaptar pro Claude' é opinião: dizer 'feita pro Codex'.",
+ "polemica": false,
+ "agenda": "2026-11-15 22:00",
+ "palavras": 66,
+ "duracao_estimada_s": 22.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "FIGURINHA ANIMADA DO SEU PERSONAGEM",
+   "fala": "Seu personagem virando um pacote de figurinhas animadas.",
+   "legenda": "Seu personagem virando um pacote de figurinhas animadas.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "figurinha-animada",
+   "etiqueta": [
+    "FIGURINHA ANIMADA DO SEU PERSONAGEM",
+    "+1 MIL ESTRELAS NA SEMANA",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Essa skill cria figurinhas em GIF a partir de um desenho de referência.",
+   "legenda": "Essa skill cria figurinhas em GIF a partir de um desenho de referência.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "E ela mesma confere se cada GIF ficou certo.",
+   "legenda": "E ela mesma confere se cada GIF ficou certo.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Saiu há poucos dias e já passou de quinhentas estrelas. Comenta FIGURINHA que eu te mando.",
+   "legenda": "Saiu há poucos dias e já passou de quinhentas estrelas. Comenta FIGURINHA que eu te mando.",
+   "sfx": [],
+   "item": "pixel-gif-sticker-pack",
+   "repo": "WoYun520/pixel-gif-sticker-pack",
+   "estrelas": 575
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Funciona no Codex, e dá pra adaptar pro Claude.",
+   "legenda": "Funciona no Codex, e dá pra adaptar pro Claude.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA FIGURINHA",
+   "fala": "Comenta FIGURINHA e me segue que eu te mando o link.",
+   "legenda": "Comenta FIGURINHA e me segue que eu te mando o link.",
+   "sfx": []
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "AVATAR",
+ "tese": "VIRE UM PERSONAGEM COM A SUA WEBCAM · +1 MIL ESTRELAS NA SEMANA",
+ "conceito": "Teatro de fantoches de papel: palco de caixa de papelão, cortina de feltro, fantoches de vareta; paleta vermelho-feltro + azul-celeste + papel pardo. Mascote atrás de uma webcam de blocos, e um fantoche de papel imita seus movimentos.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: escalar"
+ },
+ "brinde": "link",
+ "fontes": [
+  "https://github.com/livliv-dev/player"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): livliv-dev/player 1.002, criado em 04/11.",
+ "obs": "",
+ "polemica": false,
+ "agenda": "2026-11-14 17:00",
+ "palavras": 68,
+ "duracao_estimada_s": 23.4,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "VIRE UM PERSONAGEM COM A SUA WEBCAM",
+   "fala": "Você mexe a boca e um personagem desenhado mexe junto.",
+   "legenda": "Você mexe a boca e um personagem desenhado mexe junto.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "vire-um-personagem",
+   "etiqueta": [
+    "VIRE UM PERSONAGEM COM A SUA WEBCAM",
+    "+1 MIL ESTRELAS NA SEMANA",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O player é um personagem 2.5D que roda no navegador.",
+   "legenda": "O player é um personagem 2.5D que roda no navegador.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Ele segue o seu rosto pela webcam e mexe a boca quando você fala.",
+   "legenda": "Ele segue o seu rosto pela webcam e mexe a boca quando você fala.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Mil estrelas em poucos dias. Comenta AVATAR que eu te mando.",
+   "legenda": "Mil estrelas em poucos dias. Comenta AVATAR que eu te mando.",
+   "sfx": [],
+   "item": "player",
+   "repo": "livliv-dev/player",
+   "estrelas": 1002
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Bom pra live, aula ou pra quem não quer mostrar o rosto.",
+   "legenda": "Bom pra live, aula ou pra quem não quer mostrar o rosto.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA AVATAR",
+   "fala": "Comenta AVATAR e me segue que eu te mando o link.",
+   "legenda": "Comenta AVATAR e me segue que eu te mando o link.",
+   "sfx": []
+  }
+ ]
+}

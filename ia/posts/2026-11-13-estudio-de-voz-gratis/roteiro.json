@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "VOZ",
+ "tese": "3 ESTÚDIOS DE VOZ GRÁTIS COM IA · +1 MIL ESTRELAS EM 1 MÊS · E O Nº 1 CLONA VOZ",
+ "conceito": "Cabine de rádio antiga: microfone de fita, letreiro NO AR (texto 'NO AR' em fonte clara), painel de botões, discos; paleta vermelho-NO-AR + madeira + verde-válvula. Nº 1: ondas sonoras saem do microfone e viram outra voz (cor diferente). Mascote de fone gigante e gravata-borboleta.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "b) odômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "e) página de caderno",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: pintar"
+ },
+ "brinde": "links dos 3 + aviso: clonar voz só com autorização",
+ "fontes": [
+  "https://github.com/timoncool/speech-studio",
+  "https://github.com/hehehai/AudioSmith",
+  "https://github.com/inclusionAI/Ming-3.0-tts"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Speech Studio 223, AudioSmith 226, Ming TTS 541; total 990; criados entre 13/10 e 19/10.",
+ "obs": "Clonagem de voz: reforçar consentimento (deepfake proibido). Conferir idiomas (Speech Studio destaca russo).",
+ "polemica": false,
+ "agenda": "2026-11-13 14:00",
+ "palavras": 89,
+ "duracao_estimada_s": 30.7,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 ESTÚDIOS DE VOZ GRÁTIS COM IA",
+   "fala": "Narrar vídeo com voz de IA costuma ser pago. Esses três são de graça.",
+   "legenda": "Narrar vídeo com voz de IA costuma ser pago. Esses três são de graça.",
+   "itens": "estudio-de-voz-gratis",
+   "etiqueta": [
+    "3 ESTÚDIOS DE VOZ GRÁTIS COM IA",
+    "+1 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 CLONA VOZ"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Speech Studio",
+   "repo": "timoncool/speech-studio",
+   "estrelas": 223,
+   "fala": "Terceiro: Speech Studio. Voz e transcrição no Windows, sem internet. Esse é útil… comenta VOZ que eu te mando os três. Mas o primeiro impressiona.",
+   "legenda": "Terceiro: Speech Studio. Voz e transcrição no Windows, sem internet. Esse é útil… comenta VOZ que eu te mando os três. Mas o primeiro impressiona.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "AudioSmith",
+   "repo": "hehehai/AudioSmith",
+   "estrelas": 226,
+   "fala": "Segundo: AudioSmith. Faz audiobook, dublagem e transcrição no Mac. Esse é útil… comenta VOZ que eu te mando os três. Mas o primeiro impressiona.",
+   "legenda": "Segundo: AudioSmith. Faz audiobook, dublagem e transcrição no Mac. Esse é útil… comenta VOZ que eu te mando os três. Mas o primeiro impressiona.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Ming TTS",
+   "repo": "inclusionAI/Ming-3.0-tts",
+   "estrelas": 541,
+   "fala": "E o primeiro: Ming. Clona e cria vozes que você controla com palavras.",
+   "legenda": "E o primeiro: Ming. Clona e cria vozes que você controla com palavras.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA VOZ",
+   "fala": "Comenta VOZ e me segue. E só clone a voz de quem deixou.",
+   "legenda": "Comenta VOZ e me segue. E só clone a voz de quem deixou.",
+   "sfx": []
+  }
+ ]
+}

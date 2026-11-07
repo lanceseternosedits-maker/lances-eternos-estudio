@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-15",
+ "horario": "09:00",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "tv-que-cobra-licao"
+ ],
+ "fontes": [
+  "https://github.com/chadyi/StudyOnTV"
+ ],
+ "cta": "LICAO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-15 09:00",
+  "tiktok": "2026-11-15 09:00"
+ },
+ "status": "aguardando aprovação"
+}

@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "BMW",
+ "tese": "UMA LOJA DE APPS PRO SEU BMW · +1 MIL ESTRELAS EM 2 SEMANAS",
+ "conceito": "Garagem de luxo à noite com um carro de blocos genérico (sem logo) sob holofote, ferramentas na parede, chão polido; paleta azul-elétrico + prata + preto. Gancho: o painel do carro acende e mostra ícones de app. Mascote de macacão de mecânico.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote de estrelas",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: digitar"
+ },
+ "brinde": "link + aviso de garantia",
+ "fontes": [
+  "https://github.com/robertnisipeanu/mgu-store"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): robertnisipeanu/mgu-store 574, criado em 27/10.",
+ "obs": "Sem logo ou carro real da BMW. Público pequeno no Brasil; polêmica pelo 'a marca não queria'.",
+ "polemica": true,
+ "agenda": "2026-11-12 19:30",
+ "palavras": 75,
+ "duracao_estimada_s": 25.9,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "UMA LOJA DE APPS PRO SEU BMW",
+   "fala": "Tem dono de BMW instalando app que a BMW não oferece.",
+   "legenda": "Tem dono de BMW instalando app que a BMW não oferece.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "loja-de-apps-bmw",
+   "etiqueta": [
+    "UMA LOJA DE APPS PRO SEU BMW",
+    "+1 MIL ESTRELAS EM 2 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O mgu-store é uma loja de apps pra central multimídia iDrive 7 e 8.",
+   "legenda": "O mgu-store é uma loja de apps pra central multimídia iDrive 7 e 8.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Instala e atualiza apps por link, pelo GitHub ou por pendrive.",
+   "legenda": "Instala e atualiza apps por link, pelo GitHub ou por pendrive.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Quinhentas e setenta estrelas. Comenta BMW que eu te mando.",
+   "legenda": "Quinhentas e setenta estrelas. Comenta BMW que eu te mando.",
+   "sfx": [],
+   "item": "mgu-store",
+   "repo": "robertnisipeanu/mgu-store",
+   "estrelas": 574
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Atenção: mexer no sistema do carro pode afetar a garantia. Só se souber o que faz.",
+   "legenda": "Atenção: mexer no sistema do carro pode afetar a garantia. Só se souber o que faz.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA BMW",
+   "fala": "Comenta BMW e me segue pra mais coisa que as marcas não contam.",
+   "legenda": "Comenta BMW e me segue pra mais coisa que as marcas não contam.",
+   "sfx": []
+  }
+ ]
+}

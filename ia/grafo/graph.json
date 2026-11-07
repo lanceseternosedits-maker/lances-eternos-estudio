@@ -1418,7 +1418,7 @@
    "tipo": "post",
    "label": "nintendo",
    "data": "2026-11-06",
-   "score": null
+   "score": 7.0
   },
   {
    "id": "cta:JOGO",
@@ -1464,6 +1464,1588 @@
    "id": "fonte:https://github.com/seedds/nxnative",
    "tipo": "fonte",
    "label": "https://github.com/seedds/nxnative"
+  },
+  {
+   "id": "2026-11-09-apps-gratis-mac",
+   "tipo": "post",
+   "label": "apps-gratis-mac",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "pilar:reel",
+   "tipo": "pilar",
+   "label": "reel"
+  },
+  {
+   "id": "formato:contagem",
+   "tipo": "formato",
+   "label": "contagem"
+  },
+  {
+   "id": "cta:MAC",
+   "tipo": "cta",
+   "label": "MAC"
+  },
+  {
+   "id": "tema:apps-gratis-mac",
+   "tipo": "tema",
+   "label": "apps-gratis-mac"
+  },
+  {
+   "id": "fonte:https://github.com/opennookorg/betterwispr",
+   "tipo": "fonte",
+   "label": "https://github.com/opennookorg/betterwispr"
+  },
+  {
+   "id": "fonte:https://github.com/SaarthurR/atticus-mac",
+   "tipo": "fonte",
+   "label": "https://github.com/SaarthurR/atticus-mac"
+  },
+  {
+   "id": "fonte:https://github.com/alejandrobujan/tendedero",
+   "tipo": "fonte",
+   "label": "https://github.com/alejandrobujan/tendedero"
+  },
+  {
+   "id": "2026-11-09-bizarros-github",
+   "tipo": "post",
+   "label": "bizarros-github",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "cta:BIZARRO",
+   "tipo": "cta",
+   "label": "BIZARRO"
+  },
+  {
+   "id": "tema:bizarros-github",
+   "tipo": "tema",
+   "label": "bizarros-github"
+  },
+  {
+   "id": "fonte:https://github.com/Leonxlnx/athenaion",
+   "tipo": "fonte",
+   "label": "https://github.com/Leonxlnx/athenaion"
+  },
+  {
+   "id": "fonte:https://github.com/divagr18/qwenputer",
+   "tipo": "fonte",
+   "label": "https://github.com/divagr18/qwenputer"
+  },
+  {
+   "id": "fonte:https://github.com/Noniv/web-ocean",
+   "tipo": "fonte",
+   "label": "https://github.com/Noniv/web-ocean"
+  },
+  {
+   "id": "fonte:https://github.com/chenglou/handwired",
+   "tipo": "fonte",
+   "label": "https://github.com/chenglou/handwired"
+  },
+  {
+   "id": "fonte:https://github.com/aschmelyun/print-my-profile-pic",
+   "tipo": "fonte",
+   "label": "https://github.com/aschmelyun/print-my-profile-pic"
+  },
+  {
+   "id": "2026-11-09-chatgpt-faz-gif",
+   "tipo": "post",
+   "label": "chatgpt-faz-gif",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "formato:palco",
+   "tipo": "formato",
+   "label": "palco"
+  },
+  {
+   "id": "cta:GIF",
+   "tipo": "cta",
+   "label": "GIF"
+  },
+  {
+   "id": "tema:chatgpt-faz-gif",
+   "tipo": "tema",
+   "label": "chatgpt-faz-gif"
+  },
+  {
+   "id": "fonte:https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai",
+   "tipo": "fonte",
+   "label": "https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai"
+  },
+  {
+   "id": "fonte:https://www.androidauthority.com/chatgpt-animated-gif-generation-3731805/",
+   "tipo": "fonte",
+   "label": "https://www.androidauthority.com/chatgpt-animated-gif-generation-3731805/"
+  },
+  {
+   "id": "fonte:https://decrypt.co/382574/chatgpt-gif-maker-openai-unannounced-images-2-6-model",
+   "tipo": "fonte",
+   "label": "https://decrypt.co/382574/chatgpt-gif-maker-openai-unannounced-images-2-6-model"
+  },
+  {
+   "id": "2026-11-09-ia-chinesa-no-bolso",
+   "tipo": "post",
+   "label": "ia-chinesa-no-bolso",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "cta:CHINA",
+   "tipo": "cta",
+   "label": "CHINA"
+  },
+  {
+   "id": "tema:ia-chinesa-no-bolso",
+   "tipo": "tema",
+   "label": "ia-chinesa-no-bolso"
+  },
+  {
+   "id": "fonte:https://github.com/ccch1mneyyy/dsh-Go",
+   "tipo": "fonte",
+   "label": "https://github.com/ccch1mneyyy/dsh-Go"
+  },
+  {
+   "id": "2026-11-09-internet-somada",
+   "tipo": "post",
+   "label": "internet-somada",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "cta:INTERNET",
+   "tipo": "cta",
+   "label": "INTERNET"
+  },
+  {
+   "id": "tema:internet-somada",
+   "tipo": "tema",
+   "label": "internet-somada"
+  },
+  {
+   "id": "fonte:https://github.com/net-merge/net-merge",
+   "tipo": "fonte",
+   "label": "https://github.com/net-merge/net-merge"
+  },
+  {
+   "id": "2026-11-09-leis-do-brasil",
+   "tipo": "post",
+   "label": "leis-do-brasil",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "cta:LEIS",
+   "tipo": "cta",
+   "label": "LEIS"
+  },
+  {
+   "id": "tema:leis-do-brasil",
+   "tipo": "tema",
+   "label": "leis-do-brasil"
+  },
+  {
+   "id": "fonte:https://github.com/ctresb/leis",
+   "tipo": "fonte",
+   "label": "https://github.com/ctresb/leis"
+  },
+  {
+   "id": "2026-11-09-playstation-no-pc",
+   "tipo": "post",
+   "label": "playstation-no-pc",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "cta:PLAY",
+   "tipo": "cta",
+   "label": "PLAY"
+  },
+  {
+   "id": "tema:playstation-no-pc",
+   "tipo": "tema",
+   "label": "playstation-no-pc"
+  },
+  {
+   "id": "fonte:https://github.com/GetLostIn/CTR-NitroFueled-PC",
+   "tipo": "fonte",
+   "label": "https://github.com/GetLostIn/CTR-NitroFueled-PC"
+  },
+  {
+   "id": "fonte:https://github.com/HayatoG/iss_pc",
+   "tipo": "fonte",
+   "label": "https://github.com/HayatoG/iss_pc"
+  },
+  {
+   "id": "fonte:https://github.com/AjncSystem/ShadowOfTheColossus-PC",
+   "tipo": "fonte",
+   "label": "https://github.com/AjncSystem/ShadowOfTheColossus-PC"
+  },
+  {
+   "id": "fonte:https://github.com/Supermedo/uncharted_pc",
+   "tipo": "fonte",
+   "label": "https://github.com/Supermedo/uncharted_pc"
+  },
+  {
+   "id": "fonte:https://github.com/LoreanXavier/pt-pc",
+   "tipo": "fonte",
+   "label": "https://github.com/LoreanXavier/pt-pc"
+  },
+  {
+   "id": "2026-11-09-programas-caros-gratis",
+   "tipo": "post",
+   "label": "programas-caros-gratis",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "tema:programas-caros-gratis",
+   "tipo": "tema",
+   "label": "programas-caros-gratis"
+  },
+  {
+   "id": "fonte:https://github.com/tcchen2026/VibeOffice",
+   "tipo": "fonte",
+   "label": "https://github.com/tcchen2026/VibeOffice"
+  },
+  {
+   "id": "fonte:https://github.com/storytold/figcraft",
+   "tipo": "fonte",
+   "label": "https://github.com/storytold/figcraft"
+  },
+  {
+   "id": "fonte:https://github.com/storytold/gridcraft",
+   "tipo": "fonte",
+   "label": "https://github.com/storytold/gridcraft"
+  },
+  {
+   "id": "fonte:https://github.com/storytold/cadcraft",
+   "tipo": "fonte",
+   "label": "https://github.com/storytold/cadcraft"
+  },
+  {
+   "id": "fonte:https://github.com/storytold/wordcraft",
+   "tipo": "fonte",
+   "label": "https://github.com/storytold/wordcraft"
+  },
+  {
+   "id": "2026-11-10-animar-sem-saber",
+   "tipo": "post",
+   "label": "animar-sem-saber",
+   "data": "2026-11-10",
+   "score": null
+  },
+  {
+   "id": "cta:ANIMA",
+   "tipo": "cta",
+   "label": "ANIMA"
+  },
+  {
+   "id": "tema:animar-sem-saber",
+   "tipo": "tema",
+   "label": "animar-sem-saber"
+  },
+  {
+   "id": "fonte:https://github.com/artemnovitckii/claude-animation-skills",
+   "tipo": "fonte",
+   "label": "https://github.com/artemnovitckii/claude-animation-skills"
+  },
+  {
+   "id": "fonte:https://github.com/sarpstar/cinecode",
+   "tipo": "fonte",
+   "label": "https://github.com/sarpstar/cinecode"
+  },
+  {
+   "id": "fonte:https://github.com/Tejashmakwana/motionmaxxing",
+   "tipo": "fonte",
+   "label": "https://github.com/Tejashmakwana/motionmaxxing"
+  },
+  {
+   "id": "2026-11-10-apple-nao-queria",
+   "tipo": "post",
+   "label": "apple-nao-queria",
+   "data": "2026-11-10",
+   "score": null
+  },
+  {
+   "id": "cta:APPLE",
+   "tipo": "cta",
+   "label": "APPLE"
+  },
+  {
+   "id": "tema:apple-nao-queria",
+   "tipo": "tema",
+   "label": "apple-nao-queria"
+  },
+  {
+   "id": "fonte:https://github.com/harkhowalia-1/MacSubsystemForAndroid",
+   "tipo": "fonte",
+   "label": "https://github.com/harkhowalia-1/MacSubsystemForAndroid"
+  },
+  {
+   "id": "fonte:https://github.com/Snapintosh/Snapintosh",
+   "tipo": "fonte",
+   "label": "https://github.com/Snapintosh/Snapintosh"
+  },
+  {
+   "id": "fonte:https://github.com/UniXNU/UniXNU",
+   "tipo": "fonte",
+   "label": "https://github.com/UniXNU/UniXNU"
+  },
+  {
+   "id": "fonte:https://github.com/govijr/terminal-mac",
+   "tipo": "fonte",
+   "label": "https://github.com/govijr/terminal-mac"
+  },
+  {
+   "id": "fonte:https://github.com/oosexgang/hakios-xnu-kernel",
+   "tipo": "fonte",
+   "label": "https://github.com/oosexgang/hakios-xnu-kernel"
+  },
+  {
+   "id": "2026-11-10-camera-sony-destravada",
+   "tipo": "post",
+   "label": "camera-sony-destravada",
+   "data": "2026-11-10",
+   "score": null
+  },
+  {
+   "id": "cta:CAMERA",
+   "tipo": "cta",
+   "label": "CAMERA"
+  },
+  {
+   "id": "tema:camera-sony-destravada",
+   "tipo": "tema",
+   "label": "camera-sony-destravada"
+  },
+  {
+   "id": "fonte:https://github.com/QAQLeonard/a7c2-tools",
+   "tipo": "fonte",
+   "label": "https://github.com/QAQLeonard/a7c2-tools"
+  },
+  {
+   "id": "2026-11-10-ia-le-whatsapp",
+   "tipo": "post",
+   "label": "ia-le-whatsapp",
+   "data": "2026-11-10",
+   "score": null
+  },
+  {
+   "id": "cta:ZAP",
+   "tipo": "cta",
+   "label": "ZAP"
+  },
+  {
+   "id": "tema:ia-le-whatsapp",
+   "tipo": "tema",
+   "label": "ia-le-whatsapp"
+  },
+  {
+   "id": "fonte:https://github.com/finereli/whatsapp-mcp",
+   "tipo": "fonte",
+   "label": "https://github.com/finereli/whatsapp-mcp"
+  },
+  {
+   "id": "2026-11-10-manual-ikea-3d",
+   "tipo": "post",
+   "label": "manual-ikea-3d",
+   "data": "2026-11-10",
+   "score": null
+  },
+  {
+   "id": "cta:IKEA",
+   "tipo": "cta",
+   "label": "IKEA"
+  },
+  {
+   "id": "tema:manual-ikea-3d",
+   "tipo": "tema",
+   "label": "manual-ikea-3d"
+  },
+  {
+   "id": "fonte:https://github.com/Nutlope/bygga",
+   "tipo": "fonte",
+   "label": "https://github.com/Nutlope/bygga"
+  },
+  {
+   "id": "2026-11-10-musica-gratis",
+   "tipo": "post",
+   "label": "musica-gratis",
+   "data": "2026-11-10",
+   "score": null
+  },
+  {
+   "id": "cta:MUSICA",
+   "tipo": "cta",
+   "label": "MUSICA"
+  },
+  {
+   "id": "tema:musica-gratis",
+   "tipo": "tema",
+   "label": "musica-gratis"
+  },
+  {
+   "id": "fonte:https://github.com/Ka1-S/LYNX-SHARE",
+   "tipo": "fonte",
+   "label": "https://github.com/Ka1-S/LYNX-SHARE"
+  },
+  {
+   "id": "fonte:https://github.com/ItsAlphaNeon/Lemon-Studio",
+   "tipo": "fonte",
+   "label": "https://github.com/ItsAlphaNeon/Lemon-Studio"
+  },
+  {
+   "id": "fonte:https://github.com/dsmurrell/onkey",
+   "tipo": "fonte",
+   "label": "https://github.com/dsmurrell/onkey"
+  },
+  {
+   "id": "2026-11-10-projetos-celular",
+   "tipo": "post",
+   "label": "projetos-celular",
+   "data": "2026-11-10",
+   "score": null
+  },
+  {
+   "id": "cta:CELULAR",
+   "tipo": "cta",
+   "label": "CELULAR"
+  },
+  {
+   "id": "tema:projetos-celular",
+   "tipo": "tema",
+   "label": "projetos-celular"
+  },
+  {
+   "id": "fonte:https://github.com/MeshLive/meshlive-android",
+   "tipo": "fonte",
+   "label": "https://github.com/MeshLive/meshlive-android"
+  },
+  {
+   "id": "fonte:https://github.com/KnifeLemon/Droidline",
+   "tipo": "fonte",
+   "label": "https://github.com/KnifeLemon/Droidline"
+  },
+  {
+   "id": "fonte:https://github.com/arpanjot-coding/AVault",
+   "tipo": "fonte",
+   "label": "https://github.com/arpanjot-coding/AVault"
+  },
+  {
+   "id": "fonte:https://github.com/zhongerxin/iPhone-use",
+   "tipo": "fonte",
+   "label": "https://github.com/zhongerxin/iPhone-use"
+  },
+  {
+   "id": "fonte:https://github.com/rddmwmddr/android-ad-cleaner",
+   "tipo": "fonte",
+   "label": "https://github.com/rddmwmddr/android-ad-cleaner"
+  },
+  {
+   "id": "2026-11-10-testa-seu-negocio",
+   "tipo": "post",
+   "label": "testa-seu-negocio",
+   "data": "2026-11-10",
+   "score": null
+  },
+  {
+   "id": "cta:NEGOCIO",
+   "tipo": "cta",
+   "label": "NEGOCIO"
+  },
+  {
+   "id": "tema:testa-seu-negocio",
+   "tipo": "tema",
+   "label": "testa-seu-negocio"
+  },
+  {
+   "id": "fonte:https://github.com/Jakeschincariol/founder-skill",
+   "tipo": "fonte",
+   "label": "https://github.com/Jakeschincariol/founder-skill"
+  },
+  {
+   "id": "2026-11-11-copiar-qualquer-app",
+   "tipo": "post",
+   "label": "copiar-qualquer-app",
+   "data": "2026-11-11",
+   "score": null
+  },
+  {
+   "id": "cta:COPIA",
+   "tipo": "cta",
+   "label": "COPIA"
+  },
+  {
+   "id": "tema:copiar-qualquer-app",
+   "tipo": "tema",
+   "label": "copiar-qualquer-app"
+  },
+  {
+   "id": "fonte:https://github.com/Zfinix/eleven",
+   "tipo": "fonte",
+   "label": "https://github.com/Zfinix/eleven"
+  },
+  {
+   "id": "fonte:https://github.com/NabilRFG12/Reverse-Engineer-anything",
+   "tipo": "fonte",
+   "label": "https://github.com/NabilRFG12/Reverse-Engineer-anything"
+  },
+  {
+   "id": "fonte:https://github.com/alexgaoth/awesome-reverse-engineered",
+   "tipo": "fonte",
+   "label": "https://github.com/alexgaoth/awesome-reverse-engineered"
+  },
+  {
+   "id": "fonte:https://github.com/JoasASantos/REA-Prompts",
+   "tipo": "fonte",
+   "label": "https://github.com/JoasASantos/REA-Prompts"
+  },
+  {
+   "id": "fonte:https://github.com/storytold/craft-anything",
+   "tipo": "fonte",
+   "label": "https://github.com/storytold/craft-anything"
+  },
+  {
+   "id": "2026-11-11-digita-o-movimento",
+   "tipo": "post",
+   "label": "digita-o-movimento",
+   "data": "2026-11-11",
+   "score": null
+  },
+  {
+   "id": "cta:BONECO",
+   "tipo": "cta",
+   "label": "BONECO"
+  },
+  {
+   "id": "tema:digita-o-movimento",
+   "tipo": "tema",
+   "label": "digita-o-movimento"
+  },
+  {
+   "id": "fonte:https://github.com/blendi-remade/prompt2rig",
+   "tipo": "fonte",
+   "label": "https://github.com/blendi-remade/prompt2rig"
+  },
+  {
+   "id": "2026-11-11-ia-do-fim-do-mundo",
+   "tipo": "post",
+   "label": "ia-do-fim-do-mundo",
+   "data": "2026-11-11",
+   "score": null
+  },
+  {
+   "id": "cta:SOBREVIVE",
+   "tipo": "cta",
+   "label": "SOBREVIVE"
+  },
+  {
+   "id": "tema:ia-do-fim-do-mundo",
+   "tipo": "tema",
+   "label": "ia-do-fim-do-mundo"
+  },
+  {
+   "id": "fonte:https://github.com/anonnerdfrenzy/survival-llm",
+   "tipo": "fonte",
+   "label": "https://github.com/anonnerdfrenzy/survival-llm"
+  },
+  {
+   "id": "2026-11-11-ia-edita-foto",
+   "tipo": "post",
+   "label": "ia-edita-foto",
+   "data": "2026-11-11",
+   "score": null
+  },
+  {
+   "id": "tema:ia-edita-foto",
+   "tipo": "tema",
+   "label": "ia-edita-foto"
+  },
+  {
+   "id": "fonte:https://github.com/GabrieleLozupone/kokon",
+   "tipo": "fonte",
+   "label": "https://github.com/GabrieleLozupone/kokon"
+  },
+  {
+   "id": "fonte:https://github.com/wquguru/shisei",
+   "tipo": "fonte",
+   "label": "https://github.com/wquguru/shisei"
+  },
+  {
+   "id": "fonte:https://github.com/speridlabs/idol-sdk",
+   "tipo": "fonte",
+   "label": "https://github.com/speridlabs/idol-sdk"
+  },
+  {
+   "id": "2026-11-11-procura-dentro-das-fotos",
+   "tipo": "post",
+   "label": "procura-dentro-das-fotos",
+   "data": "2026-11-11",
+   "score": null
+  },
+  {
+   "id": "cta:ACHA",
+   "tipo": "cta",
+   "label": "ACHA"
+  },
+  {
+   "id": "tema:procura-dentro-das-fotos",
+   "tipo": "tema",
+   "label": "procura-dentro-das-fotos"
+  },
+  {
+   "id": "fonte:https://github.com/ARahim3/DigUp",
+   "tipo": "fonte",
+   "label": "https://github.com/ARahim3/DigUp"
+  },
+  {
+   "id": "2026-11-11-projetos-casa",
+   "tipo": "post",
+   "label": "projetos-casa",
+   "data": "2026-11-11",
+   "score": null
+  },
+  {
+   "id": "cta:CASA",
+   "tipo": "cta",
+   "label": "CASA"
+  },
+  {
+   "id": "tema:projetos-casa",
+   "tipo": "tema",
+   "label": "projetos-casa"
+  },
+  {
+   "id": "fonte:https://github.com/0xProbabillity/house-control",
+   "tipo": "fonte",
+   "label": "https://github.com/0xProbabillity/house-control"
+  },
+  {
+   "id": "fonte:https://github.com/nthnclrk/CleanFrame",
+   "tipo": "fonte",
+   "label": "https://github.com/nthnclrk/CleanFrame"
+  },
+  {
+   "id": "fonte:https://github.com/wesbos/photo-frame-dashboard",
+   "tipo": "fonte",
+   "label": "https://github.com/wesbos/photo-frame-dashboard"
+  },
+  {
+   "id": "2026-11-11-projetos-gamer",
+   "tipo": "post",
+   "label": "projetos-gamer",
+   "data": "2026-11-11",
+   "score": null
+  },
+  {
+   "id": "cta:GAMER",
+   "tipo": "cta",
+   "label": "GAMER"
+  },
+  {
+   "id": "tema:projetos-gamer",
+   "tipo": "tema",
+   "label": "projetos-gamer"
+  },
+  {
+   "id": "fonte:https://github.com/thebcd69/bcd-games",
+   "tipo": "fonte",
+   "label": "https://github.com/thebcd69/bcd-games"
+  },
+  {
+   "id": "fonte:https://github.com/AssassinCreator/steam-stash-value-report-card",
+   "tipo": "fonte",
+   "label": "https://github.com/AssassinCreator/steam-stash-value-report-card"
+  },
+  {
+   "id": "fonte:https://github.com/ramenvr/autopilot",
+   "tipo": "fonte",
+   "label": "https://github.com/ramenvr/autopilot"
+  },
+  {
+   "id": "fonte:https://github.com/raymondchins/Bridgeplay",
+   "tipo": "fonte",
+   "label": "https://github.com/raymondchins/Bridgeplay"
+  },
+  {
+   "id": "fonte:https://github.com/cranebeaker/coop-anything",
+   "tipo": "fonte",
+   "label": "https://github.com/cranebeaker/coop-anything"
+  },
+  {
+   "id": "2026-11-11-refazendo-todo-software",
+   "tipo": "post",
+   "label": "refazendo-todo-software",
+   "data": "2026-11-11",
+   "score": null
+  },
+  {
+   "id": "cta:TUDO",
+   "tipo": "cta",
+   "label": "TUDO"
+  },
+  {
+   "id": "tema:refazendo-todo-software",
+   "tipo": "tema",
+   "label": "refazendo-todo-software"
+  },
+  {
+   "id": "fonte:https://github.com/HeyPuter/everything",
+   "tipo": "fonte",
+   "label": "https://github.com/HeyPuter/everything"
+  },
+  {
+   "id": "2026-11-12-console-no-celular",
+   "tipo": "post",
+   "label": "console-no-celular",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:MOBILE",
+   "tipo": "cta",
+   "label": "MOBILE"
+  },
+  {
+   "id": "tema:console-no-celular",
+   "tipo": "tema",
+   "label": "console-no-celular"
+  },
+  {
+   "id": "fonte:https://github.com/lidor30/pokedaisy",
+   "tipo": "fonte",
+   "label": "https://github.com/lidor30/pokedaisy"
+  },
+  {
+   "id": "fonte:https://github.com/kevinerikjs/gta5-ios-port",
+   "tipo": "fonte",
+   "label": "https://github.com/kevinerikjs/gta5-ios-port"
+  },
+  {
+   "id": "fonte:https://github.com/mamcjr/BOTWRecompAndroid",
+   "tipo": "fonte",
+   "label": "https://github.com/mamcjr/BOTWRecompAndroid"
+  },
+  {
+   "id": "fonte:https://github.com/shirai91/nx2android",
+   "tipo": "fonte",
+   "label": "https://github.com/shirai91/nx2android"
+  },
+  {
+   "id": "fonte:https://github.com/jhaizhou-ops/d2r-mobile",
+   "tipo": "fonte",
+   "label": "https://github.com/jhaizhou-ops/d2r-mobile"
+  },
+  {
+   "id": "2026-11-12-figurinhas-de-aves",
+   "tipo": "post",
+   "label": "figurinhas-de-aves",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:AVES",
+   "tipo": "cta",
+   "label": "AVES"
+  },
+  {
+   "id": "tema:figurinhas-de-aves",
+   "tipo": "tema",
+   "label": "figurinhas-de-aves"
+  },
+  {
+   "id": "fonte:https://github.com/alchaincyf/huashu-bird-sticker",
+   "tipo": "fonte",
+   "label": "https://github.com/alchaincyf/huashu-bird-sticker"
+  },
+  {
+   "id": "2026-11-12-jarvis-em-portugues",
+   "tipo": "post",
+   "label": "jarvis-em-portugues",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:JARVIS",
+   "tipo": "cta",
+   "label": "JARVIS"
+  },
+  {
+   "id": "tema:jarvis-em-portugues",
+   "tipo": "tema",
+   "label": "jarvis-em-portugues"
+  },
+  {
+   "id": "fonte:https://github.com/jgm-source/jarvis-opensource",
+   "tipo": "fonte",
+   "label": "https://github.com/jgm-source/jarvis-opensource"
+  },
+  {
+   "id": "2026-11-12-loja-de-apps-bmw",
+   "tipo": "post",
+   "label": "loja-de-apps-bmw",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:BMW",
+   "tipo": "cta",
+   "label": "BMW"
+  },
+  {
+   "id": "tema:loja-de-apps-bmw",
+   "tipo": "tema",
+   "label": "loja-de-apps-bmw"
+  },
+  {
+   "id": "fonte:https://github.com/robertnisipeanu/mgu-store",
+   "tipo": "fonte",
+   "label": "https://github.com/robertnisipeanu/mgu-store"
+  },
+  {
+   "id": "2026-11-12-ocr-15x-rapido",
+   "tipo": "post",
+   "label": "ocr-15x-rapido",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:TEXTO",
+   "tipo": "cta",
+   "label": "TEXTO"
+  },
+  {
+   "id": "tema:ocr-15x-rapido",
+   "tipo": "tema",
+   "label": "ocr-15x-rapido"
+  },
+  {
+   "id": "fonte:https://github.com/datalab-to/indra",
+   "tipo": "fonte",
+   "label": "https://github.com/datalab-to/indra"
+  },
+  {
+   "id": "2026-11-12-quadros-ganham-vida",
+   "tipo": "post",
+   "label": "quadros-ganham-vida",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:QUADRO",
+   "tipo": "cta",
+   "label": "QUADRO"
+  },
+  {
+   "id": "tema:quadros-ganham-vida",
+   "tipo": "tema",
+   "label": "quadros-ganham-vida"
+  },
+  {
+   "id": "fonte:https://github.com/alchaincyf/huashu-art-motion",
+   "tipo": "fonte",
+   "label": "https://github.com/alchaincyf/huashu-art-motion"
+  },
+  {
+   "id": "2026-11-12-skills-de-design",
+   "tipo": "post",
+   "label": "skills-de-design",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:DESIGN",
+   "tipo": "cta",
+   "label": "DESIGN"
+  },
+  {
+   "id": "tema:skills-de-design",
+   "tipo": "tema",
+   "label": "skills-de-design"
+  },
+  {
+   "id": "fonte:https://github.com/Aixio-AI/aixio-layer-v2",
+   "tipo": "fonte",
+   "label": "https://github.com/Aixio-AI/aixio-layer-v2"
+  },
+  {
+   "id": "fonte:https://github.com/juliobsz/skills",
+   "tipo": "fonte",
+   "label": "https://github.com/juliobsz/skills"
+  },
+  {
+   "id": "fonte:https://github.com/enesozturk/dimensional-drawing",
+   "tipo": "fonte",
+   "label": "https://github.com/enesozturk/dimensional-drawing"
+  },
+  {
+   "id": "2026-11-12-windows-gratis",
+   "tipo": "post",
+   "label": "windows-gratis",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:WINDOWS",
+   "tipo": "cta",
+   "label": "WINDOWS"
+  },
+  {
+   "id": "tema:windows-gratis",
+   "tipo": "tema",
+   "label": "windows-gratis"
+  },
+  {
+   "id": "fonte:https://github.com/FortoGraphy/prism-download-manager",
+   "tipo": "fonte",
+   "label": "https://github.com/FortoGraphy/prism-download-manager"
+  },
+  {
+   "id": "fonte:https://github.com/LingCore/WinShun",
+   "tipo": "fonte",
+   "label": "https://github.com/LingCore/WinShun"
+  },
+  {
+   "id": "fonte:https://github.com/yjid/kensaku",
+   "tipo": "fonte",
+   "label": "https://github.com/yjid/kensaku"
+  },
+  {
+   "id": "2026-11-13-assistentes-que-trabalham",
+   "tipo": "post",
+   "label": "assistentes-que-trabalham",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "tema:assistentes-que-trabalham",
+   "tipo": "tema",
+   "label": "assistentes-que-trabalham"
+  },
+  {
+   "id": "fonte:https://github.com/rociiu/talorys",
+   "tipo": "fonte",
+   "label": "https://github.com/rociiu/talorys"
+  },
+  {
+   "id": "fonte:https://github.com/CopilotKit/OpenDuet",
+   "tipo": "fonte",
+   "label": "https://github.com/CopilotKit/OpenDuet"
+  },
+  {
+   "id": "fonte:https://github.com/KKKKhazix/agent-autoloop",
+   "tipo": "fonte",
+   "label": "https://github.com/KKKKhazix/agent-autoloop"
+  },
+  {
+   "id": "2026-11-13-atendente-telefone-ia",
+   "tipo": "post",
+   "label": "atendente-telefone-ia",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:LIGA",
+   "tipo": "cta",
+   "label": "LIGA"
+  },
+  {
+   "id": "tema:atendente-telefone-ia",
+   "tipo": "tema",
+   "label": "atendente-telefone-ia"
+  },
+  {
+   "id": "fonte:https://github.com/C4rohan/Lampline",
+   "tipo": "fonte",
+   "label": "https://github.com/C4rohan/Lampline"
+  },
+  {
+   "id": "2026-11-13-estudio-de-voz-gratis",
+   "tipo": "post",
+   "label": "estudio-de-voz-gratis",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:VOZ",
+   "tipo": "cta",
+   "label": "VOZ"
+  },
+  {
+   "id": "tema:estudio-de-voz-gratis",
+   "tipo": "tema",
+   "label": "estudio-de-voz-gratis"
+  },
+  {
+   "id": "fonte:https://github.com/timoncool/speech-studio",
+   "tipo": "fonte",
+   "label": "https://github.com/timoncool/speech-studio"
+  },
+  {
+   "id": "fonte:https://github.com/hehehai/AudioSmith",
+   "tipo": "fonte",
+   "label": "https://github.com/hehehai/AudioSmith"
+  },
+  {
+   "id": "fonte:https://github.com/inclusionAI/Ming-3.0-tts",
+   "tipo": "fonte",
+   "label": "https://github.com/inclusionAI/Ming-3.0-tts"
+  },
+  {
+   "id": "2026-11-13-linux-em-todo-lugar",
+   "tipo": "post",
+   "label": "linux-em-todo-lugar",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:LINUX",
+   "tipo": "cta",
+   "label": "LINUX"
+  },
+  {
+   "id": "tema:linux-em-todo-lugar",
+   "tipo": "tema",
+   "label": "linux-em-todo-lugar"
+  },
+  {
+   "id": "fonte:https://github.com/lordbasex/LordOS",
+   "tipo": "fonte",
+   "label": "https://github.com/lordbasex/LordOS"
+  },
+  {
+   "id": "fonte:https://github.com/mxhm11cr/LinuxRunner",
+   "tipo": "fonte",
+   "label": "https://github.com/mxhm11cr/LinuxRunner"
+  },
+  {
+   "id": "fonte:https://github.com/Arjun-Ingole/hop",
+   "tipo": "fonte",
+   "label": "https://github.com/Arjun-Ingole/hop"
+  },
+  {
+   "id": "2026-11-13-namorada-de-ia",
+   "tipo": "post",
+   "label": "namorada-de-ia",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:AMIGA",
+   "tipo": "cta",
+   "label": "AMIGA"
+  },
+  {
+   "id": "tema:namorada-de-ia",
+   "tipo": "tema",
+   "label": "namorada-de-ia"
+  },
+  {
+   "id": "fonte:https://github.com/zeekk0/OpenAmika",
+   "tipo": "fonte",
+   "label": "https://github.com/zeekk0/OpenAmika"
+  },
+  {
+   "id": "2026-11-13-npc-que-responde",
+   "tipo": "post",
+   "label": "npc-que-responde",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:NPC",
+   "tipo": "cta",
+   "label": "NPC"
+  },
+  {
+   "id": "tema:npc-que-responde",
+   "tipo": "tema",
+   "label": "npc-que-responde"
+  },
+  {
+   "id": "fonte:https://github.com/christos-antono/NPCTalk",
+   "tipo": "fonte",
+   "label": "https://github.com/christos-antono/NPCTalk"
+  },
+  {
+   "id": "2026-11-13-placas-de-10-dolares",
+   "tipo": "post",
+   "label": "placas-de-10-dolares",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:PLACA",
+   "tipo": "cta",
+   "label": "PLACA"
+  },
+  {
+   "id": "tema:placas-de-10-dolares",
+   "tipo": "tema",
+   "label": "placas-de-10-dolares"
+  },
+  {
+   "id": "fonte:https://github.com/andrisgauracs/whistle-esp32",
+   "tipo": "fonte",
+   "label": "https://github.com/andrisgauracs/whistle-esp32"
+  },
+  {
+   "id": "fonte:https://github.com/raullenchai/esp32-thinks",
+   "tipo": "fonte",
+   "label": "https://github.com/raullenchai/esp32-thinks"
+  },
+  {
+   "id": "fonte:https://github.com/andrisgauracs/wifi-sensing-kit",
+   "tipo": "fonte",
+   "label": "https://github.com/andrisgauracs/wifi-sensing-kit"
+  },
+  {
+   "id": "2026-11-13-video-do-zero",
+   "tipo": "post",
+   "label": "video-do-zero",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:VIDEO",
+   "tipo": "cta",
+   "label": "VIDEO"
+  },
+  {
+   "id": "tema:video-do-zero",
+   "tipo": "tema",
+   "label": "video-do-zero"
+  },
+  {
+   "id": "fonte:https://github.com/wj-sidiss/otopilot",
+   "tipo": "fonte",
+   "label": "https://github.com/wj-sidiss/otopilot"
+  },
+  {
+   "id": "fonte:https://github.com/talsiach/take-one",
+   "tipo": "fonte",
+   "label": "https://github.com/talsiach/take-one"
+  },
+  {
+   "id": "fonte:https://github.com/kelano86/what-if-animation",
+   "tipo": "fonte",
+   "label": "https://github.com/kelano86/what-if-animation"
+  },
+  {
+   "id": "2026-11-14-3d-sem-saber",
+   "tipo": "post",
+   "label": "3d-sem-saber",
+   "data": "2026-11-14",
+   "score": null
+  },
+  {
+   "id": "cta:MODELO",
+   "tipo": "cta",
+   "label": "MODELO"
+  },
+  {
+   "id": "tema:3d-sem-saber",
+   "tipo": "tema",
+   "label": "3d-sem-saber"
+  },
+  {
+   "id": "fonte:https://github.com/apekshik/anyscene",
+   "tipo": "fonte",
+   "label": "https://github.com/apekshik/anyscene"
+  },
+  {
+   "id": "fonte:https://github.com/islandmed/SculptForge",
+   "tipo": "fonte",
+   "label": "https://github.com/islandmed/SculptForge"
+  },
+  {
+   "id": "fonte:https://github.com/deepopen-com/deepopen-3d-webs",
+   "tipo": "fonte",
+   "label": "https://github.com/deepopen-com/deepopen-3d-webs"
+  },
+  {
+   "id": "2026-11-14-apps-pra-quem-vive-no-chat",
+   "tipo": "post",
+   "label": "apps-pra-quem-vive-no-chat",
+   "data": "2026-11-14",
+   "score": null
+  },
+  {
+   "id": "cta:MAPA",
+   "tipo": "cta",
+   "label": "MAPA"
+  },
+  {
+   "id": "tema:apps-pra-quem-vive-no-chat",
+   "tipo": "tema",
+   "label": "apps-pra-quem-vive-no-chat"
+  },
+  {
+   "id": "fonte:https://github.com/orkunisitmak/clipboardline",
+   "tipo": "fonte",
+   "label": "https://github.com/orkunisitmak/clipboardline"
+  },
+  {
+   "id": "fonte:https://github.com/tang1693/KIKUmap",
+   "tipo": "fonte",
+   "label": "https://github.com/tang1693/KIKUmap"
+  },
+  {
+   "id": "fonte:https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "tipo": "fonte",
+   "label": "https://github.com/franzenzenhofer/big-arrow-on-the-screen"
+  },
+  {
+   "id": "2026-11-14-aprender-coisa-dificil",
+   "tipo": "post",
+   "label": "aprender-coisa-dificil",
+   "data": "2026-11-14",
+   "score": null
+  },
+  {
+   "id": "cta:APRENDE",
+   "tipo": "cta",
+   "label": "APRENDE"
+  },
+  {
+   "id": "tema:aprender-coisa-dificil",
+   "tipo": "tema",
+   "label": "aprender-coisa-dificil"
+  },
+  {
+   "id": "fonte:https://github.com/amosblomqvist/learnharness",
+   "tipo": "fonte",
+   "label": "https://github.com/amosblomqvist/learnharness"
+  },
+  {
+   "id": "2026-11-14-comercial-com-trilha",
+   "tipo": "post",
+   "label": "comercial-com-trilha",
+   "data": "2026-11-14",
+   "score": null
+  },
+  {
+   "id": "cta:COMERCIAL",
+   "tipo": "cta",
+   "label": "COMERCIAL"
+  },
+  {
+   "id": "tema:comercial-com-trilha",
+   "tipo": "tema",
+   "label": "comercial-com-trilha"
+  },
+  {
+   "id": "fonte:https://github.com/alchaincyf/huashu-motion",
+   "tipo": "fonte",
+   "label": "https://github.com/alchaincyf/huashu-motion"
+  },
+  {
+   "id": "2026-11-14-ia-gigante-no-pc",
+   "tipo": "post",
+   "label": "ia-gigante-no-pc",
+   "data": "2026-11-14",
+   "score": null
+  },
+  {
+   "id": "cta:LOCAL",
+   "tipo": "cta",
+   "label": "LOCAL"
+  },
+  {
+   "id": "tema:ia-gigante-no-pc",
+   "tipo": "tema",
+   "label": "ia-gigante-no-pc"
+  },
+  {
+   "id": "fonte:https://github.com/nace-ai/kapitsa",
+   "tipo": "fonte",
+   "label": "https://github.com/nace-ai/kapitsa"
+  },
+  {
+   "id": "fonte:https://github.com/simplexai-labs/PolyStrata",
+   "tipo": "fonte",
+   "label": "https://github.com/simplexai-labs/PolyStrata"
+  },
+  {
+   "id": "fonte:https://github.com/mw00/project-maya",
+   "tipo": "fonte",
+   "label": "https://github.com/mw00/project-maya"
+  },
+  {
+   "id": "2026-11-14-ia-liga-pra-voce",
+   "tipo": "post",
+   "label": "ia-liga-pra-voce",
+   "data": "2026-11-14",
+   "score": null
+  },
+  {
+   "id": "cta:LIGACAO",
+   "tipo": "cta",
+   "label": "LIGACAO"
+  },
+  {
+   "id": "tema:ia-liga-pra-voce",
+   "tipo": "tema",
+   "label": "ia-liga-pra-voce"
+  },
+  {
+   "id": "fonte:https://github.com/mutonby/agentring",
+   "tipo": "fonte",
+   "label": "https://github.com/mutonby/agentring"
+  },
+  {
+   "id": "2026-11-14-mod-fps-oblivion",
+   "tipo": "post",
+   "label": "mod-fps-oblivion",
+   "data": "2026-11-14",
+   "score": null
+  },
+  {
+   "id": "cta:FPS",
+   "tipo": "cta",
+   "label": "FPS"
+  },
+  {
+   "id": "tema:mod-fps-oblivion",
+   "tipo": "tema",
+   "label": "mod-fps-oblivion"
+  },
+  {
+   "id": "fonte:https://github.com/LTSharpe/OblivionRemasteredPerformanceFix",
+   "tipo": "fonte",
+   "label": "https://github.com/LTSharpe/OblivionRemasteredPerformanceFix"
+  },
+  {
+   "id": "2026-11-14-vire-um-personagem",
+   "tipo": "post",
+   "label": "vire-um-personagem",
+   "data": "2026-11-14",
+   "score": null
+  },
+  {
+   "id": "cta:AVATAR",
+   "tipo": "cta",
+   "label": "AVATAR"
+  },
+  {
+   "id": "tema:vire-um-personagem",
+   "tipo": "tema",
+   "label": "vire-um-personagem"
+  },
+  {
+   "id": "fonte:https://github.com/livliv-dev/player",
+   "tipo": "fonte",
+   "label": "https://github.com/livliv-dev/player"
+  },
+  {
+   "id": "2026-11-15-blender-com-ia",
+   "tipo": "post",
+   "label": "blender-com-ia",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:BLENDER",
+   "tipo": "cta",
+   "label": "BLENDER"
+  },
+  {
+   "id": "tema:blender-com-ia",
+   "tipo": "tema",
+   "label": "blender-com-ia"
+  },
+  {
+   "id": "fonte:https://github.com/5hyuns/maya-workflow-kit-for-blender",
+   "tipo": "fonte",
+   "label": "https://github.com/5hyuns/maya-workflow-kit-for-blender"
+  },
+  {
+   "id": "fonte:https://github.com/EL4CTEO/blender-skills",
+   "tipo": "fonte",
+   "label": "https://github.com/EL4CTEO/blender-skills"
+  },
+  {
+   "id": "fonte:https://github.com/Sandflow-ai/sand3d",
+   "tipo": "fonte",
+   "label": "https://github.com/Sandflow-ai/sand3d"
+  },
+  {
+   "id": "2026-11-15-captura-de-qualquer-bicho",
+   "tipo": "post",
+   "label": "captura-de-qualquer-bicho",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:BICHO",
+   "tipo": "cta",
+   "label": "BICHO"
+  },
+  {
+   "id": "tema:captura-de-qualquer-bicho",
+   "tipo": "tema",
+   "label": "captura-de-qualquer-bicho"
+  },
+  {
+   "id": "fonte:https://github.com/patch-gg/anymove",
+   "tipo": "fonte",
+   "label": "https://github.com/patch-gg/anymove"
+  },
+  {
+   "id": "2026-11-15-crie-seu-app-de-mac",
+   "tipo": "post",
+   "label": "crie-seu-app-de-mac",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:APP",
+   "tipo": "cta",
+   "label": "APP"
+  },
+  {
+   "id": "tema:crie-seu-app-de-mac",
+   "tipo": "tema",
+   "label": "crie-seu-app-de-mac"
+  },
+  {
+   "id": "fonte:https://github.com/daveebbelaar/bama",
+   "tipo": "fonte",
+   "label": "https://github.com/daveebbelaar/bama"
+  },
+  {
+   "id": "2026-11-15-figurinha-animada",
+   "tipo": "post",
+   "label": "figurinha-animada",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:FIGURINHA",
+   "tipo": "cta",
+   "label": "FIGURINHA"
+  },
+  {
+   "id": "tema:figurinha-animada",
+   "tipo": "tema",
+   "label": "figurinha-animada"
+  },
+  {
+   "id": "fonte:https://github.com/WoYun520/pixel-gif-sticker-pack",
+   "tipo": "fonte",
+   "label": "https://github.com/WoYun520/pixel-gif-sticker-pack"
+  },
+  {
+   "id": "2026-11-15-laboratorio-3d-gratis",
+   "tipo": "post",
+   "label": "laboratorio-3d-gratis",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:LAB",
+   "tipo": "cta",
+   "label": "LAB"
+  },
+  {
+   "id": "tema:laboratorio-3d-gratis",
+   "tipo": "tema",
+   "label": "laboratorio-3d-gratis"
+  },
+  {
+   "id": "fonte:https://github.com/smithjohn78390/tongjiang-lab",
+   "tipo": "fonte",
+   "label": "https://github.com/smithjohn78390/tongjiang-lab"
+  },
+  {
+   "id": "2026-11-15-skills-chinesas-agencia",
+   "tipo": "post",
+   "label": "skills-chinesas-agencia",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:AGENCIA",
+   "tipo": "cta",
+   "label": "AGENCIA"
+  },
+  {
+   "id": "tema:skills-chinesas-agencia",
+   "tipo": "tema",
+   "label": "skills-chinesas-agencia"
+  },
+  {
+   "id": "fonte:https://github.com/liyupi/ai-promo-video-maker",
+   "tipo": "fonte",
+   "label": "https://github.com/liyupi/ai-promo-video-maker"
+  },
+  {
+   "id": "fonte:https://github.com/zhouwei713/luobo-ppt",
+   "tipo": "fonte",
+   "label": "https://github.com/zhouwei713/luobo-ppt"
+  },
+  {
+   "id": "fonte:https://github.com/liuhaisi2026212-maker/taishang-laojun",
+   "tipo": "fonte",
+   "label": "https://github.com/liuhaisi2026212-maker/taishang-laojun"
+  },
+  {
+   "id": "2026-11-15-skills-video-explicativo",
+   "tipo": "post",
+   "label": "skills-video-explicativo",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:EXPLICA",
+   "tipo": "cta",
+   "label": "EXPLICA"
+  },
+  {
+   "id": "tema:skills-video-explicativo",
+   "tipo": "tema",
+   "label": "skills-video-explicativo"
+  },
+  {
+   "id": "fonte:https://github.com/YIAN6557/eian-riso-broll",
+   "tipo": "fonte",
+   "label": "https://github.com/YIAN6557/eian-riso-broll"
+  },
+  {
+   "id": "fonte:https://github.com/liangdabiao/whiteboard-teacher-video",
+   "tipo": "fonte",
+   "label": "https://github.com/liangdabiao/whiteboard-teacher-video"
+  },
+  {
+   "id": "fonte:https://github.com/HeyChengC/vibe-knowledge-film",
+   "tipo": "fonte",
+   "label": "https://github.com/HeyChengC/vibe-knowledge-film"
+  },
+  {
+   "id": "2026-11-15-tv-que-cobra-licao",
+   "tipo": "post",
+   "label": "tv-que-cobra-licao",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:LICAO",
+   "tipo": "cta",
+   "label": "LICAO"
+  },
+  {
+   "id": "tema:tv-que-cobra-licao",
+   "tipo": "tema",
+   "label": "tv-que-cobra-licao"
+  },
+  {
+   "id": "fonte:https://github.com/chadyi/StudyOnTV",
+   "tipo": "fonte",
+   "label": "https://github.com/chadyi/StudyOnTV"
   }
  ],
  "links": [
@@ -1820,6 +3402,230 @@
    "target": "2026-11-08-nintendo"
   },
   {
+   "source": "rede:instagram",
+   "target": "2026-11-09-apps-gratis-mac"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-09-bizarros-github"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-09-chatgpt-faz-gif"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-09-ia-chinesa-no-bolso"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-09-internet-somada"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-09-leis-do-brasil"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-09-playstation-no-pc"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-09-programas-caros-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-10-animar-sem-saber"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-10-apple-nao-queria"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-10-camera-sony-destravada"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-10-ia-le-whatsapp"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-10-manual-ikea-3d"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-10-musica-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-10-projetos-celular"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-10-testa-seu-negocio"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-11-copiar-qualquer-app"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-11-digita-o-movimento"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-11-ia-do-fim-do-mundo"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-11-ia-edita-foto"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-11-procura-dentro-das-fotos"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-11-projetos-casa"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-11-projetos-gamer"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-11-refazendo-todo-software"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-12-console-no-celular"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-12-jarvis-em-portugues"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-12-loja-de-apps-bmw"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-12-ocr-15x-rapido"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-12-quadros-ganham-vida"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-12-skills-de-design"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-12-windows-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-assistentes-que-trabalham"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-atendente-telefone-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-estudio-de-voz-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-linux-em-todo-lugar"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-namorada-de-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-npc-que-responde"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-placas-de-10-dolares"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-video-do-zero"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-14-3d-sem-saber"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-14-apps-pra-quem-vive-no-chat"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-14-aprender-coisa-dificil"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-14-comercial-com-trilha"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-14-ia-gigante-no-pc"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-14-ia-liga-pra-voce"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-14-mod-fps-oblivion"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-14-vire-um-personagem"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-blender-com-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-captura-de-qualquer-bicho"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-crie-seu-app-de-mac"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-figurinha-animada"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-laboratorio-3d-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-skills-chinesas-agencia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-skills-video-explicativo"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-tv-que-cobra-licao"
+  },
+  {
    "source": "rede:tiktok",
    "target": "2026-11-01-anthropic-ipo-p3"
   },
@@ -1926,6 +3732,230 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-08-nintendo"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-09-apps-gratis-mac"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-09-bizarros-github"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-09-chatgpt-faz-gif"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-09-ia-chinesa-no-bolso"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-09-internet-somada"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-09-leis-do-brasil"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-09-playstation-no-pc"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-09-programas-caros-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-10-animar-sem-saber"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-10-apple-nao-queria"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-10-camera-sony-destravada"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-10-ia-le-whatsapp"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-10-manual-ikea-3d"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-10-musica-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-10-projetos-celular"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-10-testa-seu-negocio"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-11-copiar-qualquer-app"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-11-digita-o-movimento"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-11-ia-do-fim-do-mundo"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-11-ia-edita-foto"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-11-procura-dentro-das-fotos"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-11-projetos-casa"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-11-projetos-gamer"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-11-refazendo-todo-software"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-12-console-no-celular"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-12-jarvis-em-portugues"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-12-loja-de-apps-bmw"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-12-ocr-15x-rapido"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-12-quadros-ganham-vida"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-12-skills-de-design"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-12-windows-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-assistentes-que-trabalham"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-atendente-telefone-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-estudio-de-voz-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-linux-em-todo-lugar"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-namorada-de-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-npc-que-responde"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-placas-de-10-dolares"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-video-do-zero"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-14-3d-sem-saber"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-14-apps-pra-quem-vive-no-chat"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-14-aprender-coisa-dificil"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-14-comercial-com-trilha"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-14-ia-gigante-no-pc"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-14-ia-liga-pra-voce"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-14-mod-fps-oblivion"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-14-vire-um-personagem"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-blender-com-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-captura-de-qualquer-bicho"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-crie-seu-app-de-mac"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-figurinha-animada"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-laboratorio-3d-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-skills-chinesas-agencia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-skills-video-explicativo"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-tv-que-cobra-licao"
   },
   {
    "source": "rede:youtube",
@@ -2206,6 +4236,230 @@
   {
    "source": "empresa:DeepSeek",
    "target": "2026-11-02-ferramentas-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-09-apps-gratis-mac"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-09-bizarros-github"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-09-chatgpt-faz-gif"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-09-ia-chinesa-no-bolso"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-09-internet-somada"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-09-leis-do-brasil"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-09-playstation-no-pc"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-09-programas-caros-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-10-animar-sem-saber"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-10-apple-nao-queria"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-10-camera-sony-destravada"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-10-ia-le-whatsapp"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-10-manual-ikea-3d"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-10-musica-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-10-projetos-celular"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-10-testa-seu-negocio"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-11-copiar-qualquer-app"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-11-digita-o-movimento"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-11-ia-do-fim-do-mundo"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-11-ia-edita-foto"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-11-procura-dentro-das-fotos"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-11-projetos-casa"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-11-projetos-gamer"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-11-refazendo-todo-software"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-12-console-no-celular"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-12-jarvis-em-portugues"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-12-loja-de-apps-bmw"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-12-ocr-15x-rapido"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-12-quadros-ganham-vida"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-12-skills-de-design"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-12-windows-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-assistentes-que-trabalham"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-atendente-telefone-ia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-estudio-de-voz-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-linux-em-todo-lugar"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-namorada-de-ia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-npc-que-responde"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-placas-de-10-dolares"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-video-do-zero"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-14-3d-sem-saber"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-14-apps-pra-quem-vive-no-chat"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-14-aprender-coisa-dificil"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-14-comercial-com-trilha"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-14-ia-gigante-no-pc"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-14-ia-liga-pra-voce"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-14-mod-fps-oblivion"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-14-vire-um-personagem"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-blender-com-ia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-captura-de-qualquer-bicho"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-crie-seu-app-de-mac"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-figurinha-animada"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-laboratorio-3d-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-skills-chinesas-agencia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-skills-video-explicativo"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-tv-que-cobra-licao"
   },
   {
    "source": "2026-11-01-github-agentes",
@@ -2624,6 +4878,10 @@
    "target": "fonte:CoinDesk"
   },
   {
+   "source": "cta:AGENTE",
+   "target": "2026-11-13-assistentes-que-trabalham"
+  },
+  {
    "source": "2026-11-02-extensao-falsa",
    "target": "formato:reel"
   },
@@ -2678,6 +4936,10 @@
   {
    "source": "2026-11-02-ferramentas-gratis",
    "target": "fonte:GitHub (estrelas)"
+  },
+  {
+   "source": "cta:GRATIS",
+   "target": "2026-11-09-programas-caros-gratis"
   },
   {
    "source": "2026-11-02-gemini-carbon",
@@ -2846,6 +5108,10 @@
   {
    "source": "2026-11-03-ideogram-edita",
    "target": "fonte:Digg AI 29/10"
+  },
+  {
+   "source": "cta:FOTO",
+   "target": "2026-11-11-ia-edita-foto"
   },
   {
    "source": "2026-11-03-riverside-agentes",
@@ -3098,6 +5364,230 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-08-nintendo"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-09-apps-gratis-mac"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-09-bizarros-github"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-09-chatgpt-faz-gif"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-09-ia-chinesa-no-bolso"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-09-internet-somada"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-09-leis-do-brasil"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-09-playstation-no-pc"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-09-programas-caros-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-10-animar-sem-saber"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-10-apple-nao-queria"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-10-camera-sony-destravada"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-10-ia-le-whatsapp"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-10-manual-ikea-3d"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-10-musica-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-10-projetos-celular"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-10-testa-seu-negocio"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-11-copiar-qualquer-app"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-11-digita-o-movimento"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-11-ia-do-fim-do-mundo"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-11-ia-edita-foto"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-11-procura-dentro-das-fotos"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-11-projetos-casa"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-11-projetos-gamer"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-11-refazendo-todo-software"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-12-console-no-celular"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-12-jarvis-em-portugues"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-12-loja-de-apps-bmw"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-12-ocr-15x-rapido"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-12-quadros-ganham-vida"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-12-skills-de-design"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-12-windows-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-assistentes-que-trabalham"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-atendente-telefone-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-estudio-de-voz-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-linux-em-todo-lugar"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-namorada-de-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-npc-que-responde"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-placas-de-10-dolares"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-video-do-zero"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-14-3d-sem-saber"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-14-apps-pra-quem-vive-no-chat"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-14-aprender-coisa-dificil"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-14-comercial-com-trilha"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-14-ia-gigante-no-pc"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-14-ia-liga-pra-voce"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-14-mod-fps-oblivion"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-14-vire-um-personagem"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-blender-com-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-captura-de-qualquer-bicho"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-crie-seu-app-de-mac"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-figurinha-animada"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-laboratorio-3d-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-skills-chinesas-agencia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-skills-video-explicativo"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-tv-que-cobra-licao"
   },
   {
    "source": "empresa:Anthropic (Claude)",
@@ -3354,6 +5844,1394 @@
   {
    "source": "2026-11-08-nintendo",
    "target": "fonte:https://github.com/seedds/nxnative"
+  },
+  {
+   "source": "2026-11-09-apps-gratis-mac",
+   "target": "pilar:reel"
+  },
+  {
+   "source": "2026-11-09-apps-gratis-mac",
+   "target": "formato:contagem"
+  },
+  {
+   "source": "2026-11-09-apps-gratis-mac",
+   "target": "cta:MAC"
+  },
+  {
+   "source": "2026-11-09-apps-gratis-mac",
+   "target": "tema:apps-gratis-mac"
+  },
+  {
+   "source": "2026-11-09-apps-gratis-mac",
+   "target": "fonte:https://github.com/opennookorg/betterwispr"
+  },
+  {
+   "source": "2026-11-09-apps-gratis-mac",
+   "target": "fonte:https://github.com/SaarthurR/atticus-mac"
+  },
+  {
+   "source": "2026-11-09-apps-gratis-mac",
+   "target": "fonte:https://github.com/alejandrobujan/tendedero"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-09-bizarros-github"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-09-chatgpt-faz-gif"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-09-ia-chinesa-no-bolso"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-09-internet-somada"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-09-leis-do-brasil"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-09-playstation-no-pc"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-09-programas-caros-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-10-animar-sem-saber"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-10-apple-nao-queria"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-10-camera-sony-destravada"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-10-ia-le-whatsapp"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-10-manual-ikea-3d"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-10-musica-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-10-projetos-celular"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-10-testa-seu-negocio"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-11-copiar-qualquer-app"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-11-digita-o-movimento"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-11-ia-do-fim-do-mundo"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-11-ia-edita-foto"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-11-procura-dentro-das-fotos"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-11-projetos-casa"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-11-projetos-gamer"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-11-refazendo-todo-software"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-12-console-no-celular"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-12-jarvis-em-portugues"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-12-loja-de-apps-bmw"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-12-ocr-15x-rapido"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-12-quadros-ganham-vida"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-12-skills-de-design"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-12-windows-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-assistentes-que-trabalham"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-atendente-telefone-ia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-estudio-de-voz-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-linux-em-todo-lugar"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-namorada-de-ia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-npc-que-responde"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-placas-de-10-dolares"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-video-do-zero"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-14-3d-sem-saber"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-14-apps-pra-quem-vive-no-chat"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-14-aprender-coisa-dificil"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-14-comercial-com-trilha"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-14-ia-gigante-no-pc"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-14-ia-liga-pra-voce"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-14-mod-fps-oblivion"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-14-vire-um-personagem"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-blender-com-ia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-captura-de-qualquer-bicho"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-crie-seu-app-de-mac"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-figurinha-animada"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-laboratorio-3d-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-skills-chinesas-agencia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-skills-video-explicativo"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-tv-que-cobra-licao"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-09-bizarros-github"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-09-playstation-no-pc"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-09-programas-caros-gratis"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-10-animar-sem-saber"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-10-apple-nao-queria"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-10-musica-gratis"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-10-projetos-celular"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-11-copiar-qualquer-app"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-11-ia-edita-foto"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-11-projetos-casa"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-11-projetos-gamer"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-12-console-no-celular"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-12-skills-de-design"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-12-windows-gratis"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-13-assistentes-que-trabalham"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-13-estudio-de-voz-gratis"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-13-linux-em-todo-lugar"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-13-placas-de-10-dolares"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-13-video-do-zero"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-14-3d-sem-saber"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-14-apps-pra-quem-vive-no-chat"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-14-ia-gigante-no-pc"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-15-blender-com-ia"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-15-skills-chinesas-agencia"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-15-skills-video-explicativo"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "cta:BIZARRO"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "tema:bizarros-github"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "fonte:https://github.com/Leonxlnx/athenaion"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "fonte:https://github.com/divagr18/qwenputer"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "fonte:https://github.com/Noniv/web-ocean"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "fonte:https://github.com/chenglou/handwired"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "fonte:https://github.com/aschmelyun/print-my-profile-pic"
+  },
+  {
+   "source": "2026-11-09-chatgpt-faz-gif",
+   "target": "formato:palco"
+  },
+  {
+   "source": "2026-11-09-chatgpt-faz-gif",
+   "target": "cta:GIF"
+  },
+  {
+   "source": "2026-11-09-chatgpt-faz-gif",
+   "target": "tema:chatgpt-faz-gif"
+  },
+  {
+   "source": "2026-11-09-chatgpt-faz-gif",
+   "target": "fonte:https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai"
+  },
+  {
+   "source": "2026-11-09-chatgpt-faz-gif",
+   "target": "fonte:https://www.androidauthority.com/chatgpt-animated-gif-generation-3731805/"
+  },
+  {
+   "source": "2026-11-09-chatgpt-faz-gif",
+   "target": "fonte:https://decrypt.co/382574/chatgpt-gif-maker-openai-unannounced-images-2-6-model"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-09-ia-chinesa-no-bolso"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-09-internet-somada"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-09-leis-do-brasil"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-10-camera-sony-destravada"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-10-ia-le-whatsapp"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-10-manual-ikea-3d"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-10-testa-seu-negocio"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-11-digita-o-movimento"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-11-ia-do-fim-do-mundo"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-11-procura-dentro-das-fotos"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-11-refazendo-todo-software"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-12-jarvis-em-portugues"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-12-loja-de-apps-bmw"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-12-ocr-15x-rapido"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-12-quadros-ganham-vida"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-13-atendente-telefone-ia"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-13-namorada-de-ia"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-13-npc-que-responde"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-14-aprender-coisa-dificil"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-14-comercial-com-trilha"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-14-ia-liga-pra-voce"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-14-mod-fps-oblivion"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-14-vire-um-personagem"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-15-captura-de-qualquer-bicho"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-15-crie-seu-app-de-mac"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-15-figurinha-animada"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-15-laboratorio-3d-gratis"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-15-tv-que-cobra-licao"
+  },
+  {
+   "source": "2026-11-09-ia-chinesa-no-bolso",
+   "target": "cta:CHINA"
+  },
+  {
+   "source": "2026-11-09-ia-chinesa-no-bolso",
+   "target": "tema:ia-chinesa-no-bolso"
+  },
+  {
+   "source": "2026-11-09-ia-chinesa-no-bolso",
+   "target": "fonte:https://github.com/ccch1mneyyy/dsh-Go"
+  },
+  {
+   "source": "2026-11-09-internet-somada",
+   "target": "cta:INTERNET"
+  },
+  {
+   "source": "2026-11-09-internet-somada",
+   "target": "tema:internet-somada"
+  },
+  {
+   "source": "2026-11-09-internet-somada",
+   "target": "fonte:https://github.com/net-merge/net-merge"
+  },
+  {
+   "source": "2026-11-09-leis-do-brasil",
+   "target": "cta:LEIS"
+  },
+  {
+   "source": "2026-11-09-leis-do-brasil",
+   "target": "tema:leis-do-brasil"
+  },
+  {
+   "source": "2026-11-09-leis-do-brasil",
+   "target": "fonte:https://github.com/ctresb/leis"
+  },
+  {
+   "source": "2026-11-09-playstation-no-pc",
+   "target": "cta:PLAY"
+  },
+  {
+   "source": "2026-11-09-playstation-no-pc",
+   "target": "tema:playstation-no-pc"
+  },
+  {
+   "source": "2026-11-09-playstation-no-pc",
+   "target": "fonte:https://github.com/GetLostIn/CTR-NitroFueled-PC"
+  },
+  {
+   "source": "2026-11-09-playstation-no-pc",
+   "target": "fonte:https://github.com/HayatoG/iss_pc"
+  },
+  {
+   "source": "2026-11-09-playstation-no-pc",
+   "target": "fonte:https://github.com/AjncSystem/ShadowOfTheColossus-PC"
+  },
+  {
+   "source": "2026-11-09-playstation-no-pc",
+   "target": "fonte:https://github.com/Supermedo/uncharted_pc"
+  },
+  {
+   "source": "2026-11-09-playstation-no-pc",
+   "target": "fonte:https://github.com/LoreanXavier/pt-pc"
+  },
+  {
+   "source": "2026-11-09-programas-caros-gratis",
+   "target": "tema:programas-caros-gratis"
+  },
+  {
+   "source": "2026-11-09-programas-caros-gratis",
+   "target": "fonte:https://github.com/tcchen2026/VibeOffice"
+  },
+  {
+   "source": "2026-11-09-programas-caros-gratis",
+   "target": "fonte:https://github.com/storytold/figcraft"
+  },
+  {
+   "source": "2026-11-09-programas-caros-gratis",
+   "target": "fonte:https://github.com/storytold/gridcraft"
+  },
+  {
+   "source": "2026-11-09-programas-caros-gratis",
+   "target": "fonte:https://github.com/storytold/cadcraft"
+  },
+  {
+   "source": "2026-11-09-programas-caros-gratis",
+   "target": "fonte:https://github.com/storytold/wordcraft"
+  },
+  {
+   "source": "2026-11-10-animar-sem-saber",
+   "target": "cta:ANIMA"
+  },
+  {
+   "source": "2026-11-10-animar-sem-saber",
+   "target": "tema:animar-sem-saber"
+  },
+  {
+   "source": "2026-11-10-animar-sem-saber",
+   "target": "fonte:https://github.com/artemnovitckii/claude-animation-skills"
+  },
+  {
+   "source": "2026-11-10-animar-sem-saber",
+   "target": "fonte:https://github.com/sarpstar/cinecode"
+  },
+  {
+   "source": "2026-11-10-animar-sem-saber",
+   "target": "fonte:https://github.com/Tejashmakwana/motionmaxxing"
+  },
+  {
+   "source": "2026-11-10-apple-nao-queria",
+   "target": "cta:APPLE"
+  },
+  {
+   "source": "2026-11-10-apple-nao-queria",
+   "target": "tema:apple-nao-queria"
+  },
+  {
+   "source": "2026-11-10-apple-nao-queria",
+   "target": "fonte:https://github.com/harkhowalia-1/MacSubsystemForAndroid"
+  },
+  {
+   "source": "2026-11-10-apple-nao-queria",
+   "target": "fonte:https://github.com/Snapintosh/Snapintosh"
+  },
+  {
+   "source": "2026-11-10-apple-nao-queria",
+   "target": "fonte:https://github.com/UniXNU/UniXNU"
+  },
+  {
+   "source": "2026-11-10-apple-nao-queria",
+   "target": "fonte:https://github.com/govijr/terminal-mac"
+  },
+  {
+   "source": "2026-11-10-apple-nao-queria",
+   "target": "fonte:https://github.com/oosexgang/hakios-xnu-kernel"
+  },
+  {
+   "source": "2026-11-10-camera-sony-destravada",
+   "target": "cta:CAMERA"
+  },
+  {
+   "source": "2026-11-10-camera-sony-destravada",
+   "target": "tema:camera-sony-destravada"
+  },
+  {
+   "source": "2026-11-10-camera-sony-destravada",
+   "target": "fonte:https://github.com/QAQLeonard/a7c2-tools"
+  },
+  {
+   "source": "2026-11-10-ia-le-whatsapp",
+   "target": "cta:ZAP"
+  },
+  {
+   "source": "2026-11-10-ia-le-whatsapp",
+   "target": "tema:ia-le-whatsapp"
+  },
+  {
+   "source": "2026-11-10-ia-le-whatsapp",
+   "target": "fonte:https://github.com/finereli/whatsapp-mcp"
+  },
+  {
+   "source": "2026-11-10-manual-ikea-3d",
+   "target": "cta:IKEA"
+  },
+  {
+   "source": "2026-11-10-manual-ikea-3d",
+   "target": "tema:manual-ikea-3d"
+  },
+  {
+   "source": "2026-11-10-manual-ikea-3d",
+   "target": "fonte:https://github.com/Nutlope/bygga"
+  },
+  {
+   "source": "2026-11-10-musica-gratis",
+   "target": "cta:MUSICA"
+  },
+  {
+   "source": "2026-11-10-musica-gratis",
+   "target": "tema:musica-gratis"
+  },
+  {
+   "source": "2026-11-10-musica-gratis",
+   "target": "fonte:https://github.com/Ka1-S/LYNX-SHARE"
+  },
+  {
+   "source": "2026-11-10-musica-gratis",
+   "target": "fonte:https://github.com/ItsAlphaNeon/Lemon-Studio"
+  },
+  {
+   "source": "2026-11-10-musica-gratis",
+   "target": "fonte:https://github.com/dsmurrell/onkey"
+  },
+  {
+   "source": "2026-11-10-projetos-celular",
+   "target": "cta:CELULAR"
+  },
+  {
+   "source": "2026-11-10-projetos-celular",
+   "target": "tema:projetos-celular"
+  },
+  {
+   "source": "2026-11-10-projetos-celular",
+   "target": "fonte:https://github.com/MeshLive/meshlive-android"
+  },
+  {
+   "source": "2026-11-10-projetos-celular",
+   "target": "fonte:https://github.com/KnifeLemon/Droidline"
+  },
+  {
+   "source": "2026-11-10-projetos-celular",
+   "target": "fonte:https://github.com/arpanjot-coding/AVault"
+  },
+  {
+   "source": "2026-11-10-projetos-celular",
+   "target": "fonte:https://github.com/zhongerxin/iPhone-use"
+  },
+  {
+   "source": "2026-11-10-projetos-celular",
+   "target": "fonte:https://github.com/rddmwmddr/android-ad-cleaner"
+  },
+  {
+   "source": "2026-11-10-testa-seu-negocio",
+   "target": "cta:NEGOCIO"
+  },
+  {
+   "source": "2026-11-10-testa-seu-negocio",
+   "target": "tema:testa-seu-negocio"
+  },
+  {
+   "source": "2026-11-10-testa-seu-negocio",
+   "target": "fonte:https://github.com/Jakeschincariol/founder-skill"
+  },
+  {
+   "source": "2026-11-11-copiar-qualquer-app",
+   "target": "cta:COPIA"
+  },
+  {
+   "source": "2026-11-11-copiar-qualquer-app",
+   "target": "tema:copiar-qualquer-app"
+  },
+  {
+   "source": "2026-11-11-copiar-qualquer-app",
+   "target": "fonte:https://github.com/Zfinix/eleven"
+  },
+  {
+   "source": "2026-11-11-copiar-qualquer-app",
+   "target": "fonte:https://github.com/NabilRFG12/Reverse-Engineer-anything"
+  },
+  {
+   "source": "2026-11-11-copiar-qualquer-app",
+   "target": "fonte:https://github.com/alexgaoth/awesome-reverse-engineered"
+  },
+  {
+   "source": "2026-11-11-copiar-qualquer-app",
+   "target": "fonte:https://github.com/JoasASantos/REA-Prompts"
+  },
+  {
+   "source": "2026-11-11-copiar-qualquer-app",
+   "target": "fonte:https://github.com/storytold/craft-anything"
+  },
+  {
+   "source": "2026-11-11-digita-o-movimento",
+   "target": "cta:BONECO"
+  },
+  {
+   "source": "2026-11-11-digita-o-movimento",
+   "target": "tema:digita-o-movimento"
+  },
+  {
+   "source": "2026-11-11-digita-o-movimento",
+   "target": "fonte:https://github.com/blendi-remade/prompt2rig"
+  },
+  {
+   "source": "2026-11-11-ia-do-fim-do-mundo",
+   "target": "cta:SOBREVIVE"
+  },
+  {
+   "source": "2026-11-11-ia-do-fim-do-mundo",
+   "target": "tema:ia-do-fim-do-mundo"
+  },
+  {
+   "source": "2026-11-11-ia-do-fim-do-mundo",
+   "target": "fonte:https://github.com/anonnerdfrenzy/survival-llm"
+  },
+  {
+   "source": "2026-11-11-ia-edita-foto",
+   "target": "tema:ia-edita-foto"
+  },
+  {
+   "source": "2026-11-11-ia-edita-foto",
+   "target": "fonte:https://github.com/GabrieleLozupone/kokon"
+  },
+  {
+   "source": "2026-11-11-ia-edita-foto",
+   "target": "fonte:https://github.com/wquguru/shisei"
+  },
+  {
+   "source": "2026-11-11-ia-edita-foto",
+   "target": "fonte:https://github.com/speridlabs/idol-sdk"
+  },
+  {
+   "source": "2026-11-11-procura-dentro-das-fotos",
+   "target": "cta:ACHA"
+  },
+  {
+   "source": "2026-11-11-procura-dentro-das-fotos",
+   "target": "tema:procura-dentro-das-fotos"
+  },
+  {
+   "source": "2026-11-11-procura-dentro-das-fotos",
+   "target": "fonte:https://github.com/ARahim3/DigUp"
+  },
+  {
+   "source": "2026-11-11-projetos-casa",
+   "target": "cta:CASA"
+  },
+  {
+   "source": "2026-11-11-projetos-casa",
+   "target": "tema:projetos-casa"
+  },
+  {
+   "source": "2026-11-11-projetos-casa",
+   "target": "fonte:https://github.com/0xProbabillity/house-control"
+  },
+  {
+   "source": "2026-11-11-projetos-casa",
+   "target": "fonte:https://github.com/nthnclrk/CleanFrame"
+  },
+  {
+   "source": "2026-11-11-projetos-casa",
+   "target": "fonte:https://github.com/wesbos/photo-frame-dashboard"
+  },
+  {
+   "source": "2026-11-11-projetos-gamer",
+   "target": "cta:GAMER"
+  },
+  {
+   "source": "2026-11-11-projetos-gamer",
+   "target": "tema:projetos-gamer"
+  },
+  {
+   "source": "2026-11-11-projetos-gamer",
+   "target": "fonte:https://github.com/thebcd69/bcd-games"
+  },
+  {
+   "source": "2026-11-11-projetos-gamer",
+   "target": "fonte:https://github.com/AssassinCreator/steam-stash-value-report-card"
+  },
+  {
+   "source": "2026-11-11-projetos-gamer",
+   "target": "fonte:https://github.com/ramenvr/autopilot"
+  },
+  {
+   "source": "2026-11-11-projetos-gamer",
+   "target": "fonte:https://github.com/raymondchins/Bridgeplay"
+  },
+  {
+   "source": "2026-11-11-projetos-gamer",
+   "target": "fonte:https://github.com/cranebeaker/coop-anything"
+  },
+  {
+   "source": "2026-11-11-refazendo-todo-software",
+   "target": "cta:TUDO"
+  },
+  {
+   "source": "2026-11-11-refazendo-todo-software",
+   "target": "tema:refazendo-todo-software"
+  },
+  {
+   "source": "2026-11-11-refazendo-todo-software",
+   "target": "fonte:https://github.com/HeyPuter/everything"
+  },
+  {
+   "source": "2026-11-12-console-no-celular",
+   "target": "cta:MOBILE"
+  },
+  {
+   "source": "2026-11-12-console-no-celular",
+   "target": "tema:console-no-celular"
+  },
+  {
+   "source": "2026-11-12-console-no-celular",
+   "target": "fonte:https://github.com/lidor30/pokedaisy"
+  },
+  {
+   "source": "2026-11-12-console-no-celular",
+   "target": "fonte:https://github.com/kevinerikjs/gta5-ios-port"
+  },
+  {
+   "source": "2026-11-12-console-no-celular",
+   "target": "fonte:https://github.com/mamcjr/BOTWRecompAndroid"
+  },
+  {
+   "source": "2026-11-12-console-no-celular",
+   "target": "fonte:https://github.com/shirai91/nx2android"
+  },
+  {
+   "source": "2026-11-12-console-no-celular",
+   "target": "fonte:https://github.com/jhaizhou-ops/d2r-mobile"
+  },
+  {
+   "source": "2026-11-12-figurinhas-de-aves",
+   "target": "cta:AVES"
+  },
+  {
+   "source": "2026-11-12-figurinhas-de-aves",
+   "target": "tema:figurinhas-de-aves"
+  },
+  {
+   "source": "2026-11-12-figurinhas-de-aves",
+   "target": "fonte:https://github.com/alchaincyf/huashu-bird-sticker"
+  },
+  {
+   "source": "2026-11-12-jarvis-em-portugues",
+   "target": "cta:JARVIS"
+  },
+  {
+   "source": "2026-11-12-jarvis-em-portugues",
+   "target": "tema:jarvis-em-portugues"
+  },
+  {
+   "source": "2026-11-12-jarvis-em-portugues",
+   "target": "fonte:https://github.com/jgm-source/jarvis-opensource"
+  },
+  {
+   "source": "2026-11-12-loja-de-apps-bmw",
+   "target": "cta:BMW"
+  },
+  {
+   "source": "2026-11-12-loja-de-apps-bmw",
+   "target": "tema:loja-de-apps-bmw"
+  },
+  {
+   "source": "2026-11-12-loja-de-apps-bmw",
+   "target": "fonte:https://github.com/robertnisipeanu/mgu-store"
+  },
+  {
+   "source": "2026-11-12-ocr-15x-rapido",
+   "target": "cta:TEXTO"
+  },
+  {
+   "source": "2026-11-12-ocr-15x-rapido",
+   "target": "tema:ocr-15x-rapido"
+  },
+  {
+   "source": "2026-11-12-ocr-15x-rapido",
+   "target": "fonte:https://github.com/datalab-to/indra"
+  },
+  {
+   "source": "2026-11-12-quadros-ganham-vida",
+   "target": "cta:QUADRO"
+  },
+  {
+   "source": "2026-11-12-quadros-ganham-vida",
+   "target": "tema:quadros-ganham-vida"
+  },
+  {
+   "source": "2026-11-12-quadros-ganham-vida",
+   "target": "fonte:https://github.com/alchaincyf/huashu-art-motion"
+  },
+  {
+   "source": "2026-11-12-skills-de-design",
+   "target": "cta:DESIGN"
+  },
+  {
+   "source": "2026-11-12-skills-de-design",
+   "target": "tema:skills-de-design"
+  },
+  {
+   "source": "2026-11-12-skills-de-design",
+   "target": "fonte:https://github.com/Aixio-AI/aixio-layer-v2"
+  },
+  {
+   "source": "2026-11-12-skills-de-design",
+   "target": "fonte:https://github.com/juliobsz/skills"
+  },
+  {
+   "source": "2026-11-12-skills-de-design",
+   "target": "fonte:https://github.com/enesozturk/dimensional-drawing"
+  },
+  {
+   "source": "2026-11-12-windows-gratis",
+   "target": "cta:WINDOWS"
+  },
+  {
+   "source": "2026-11-12-windows-gratis",
+   "target": "tema:windows-gratis"
+  },
+  {
+   "source": "2026-11-12-windows-gratis",
+   "target": "fonte:https://github.com/FortoGraphy/prism-download-manager"
+  },
+  {
+   "source": "2026-11-12-windows-gratis",
+   "target": "fonte:https://github.com/LingCore/WinShun"
+  },
+  {
+   "source": "2026-11-12-windows-gratis",
+   "target": "fonte:https://github.com/yjid/kensaku"
+  },
+  {
+   "source": "2026-11-13-assistentes-que-trabalham",
+   "target": "tema:assistentes-que-trabalham"
+  },
+  {
+   "source": "2026-11-13-assistentes-que-trabalham",
+   "target": "fonte:https://github.com/rociiu/talorys"
+  },
+  {
+   "source": "2026-11-13-assistentes-que-trabalham",
+   "target": "fonte:https://github.com/CopilotKit/OpenDuet"
+  },
+  {
+   "source": "2026-11-13-assistentes-que-trabalham",
+   "target": "fonte:https://github.com/KKKKhazix/agent-autoloop"
+  },
+  {
+   "source": "2026-11-13-atendente-telefone-ia",
+   "target": "cta:LIGA"
+  },
+  {
+   "source": "2026-11-13-atendente-telefone-ia",
+   "target": "tema:atendente-telefone-ia"
+  },
+  {
+   "source": "2026-11-13-atendente-telefone-ia",
+   "target": "fonte:https://github.com/C4rohan/Lampline"
+  },
+  {
+   "source": "2026-11-13-estudio-de-voz-gratis",
+   "target": "cta:VOZ"
+  },
+  {
+   "source": "2026-11-13-estudio-de-voz-gratis",
+   "target": "tema:estudio-de-voz-gratis"
+  },
+  {
+   "source": "2026-11-13-estudio-de-voz-gratis",
+   "target": "fonte:https://github.com/timoncool/speech-studio"
+  },
+  {
+   "source": "2026-11-13-estudio-de-voz-gratis",
+   "target": "fonte:https://github.com/hehehai/AudioSmith"
+  },
+  {
+   "source": "2026-11-13-estudio-de-voz-gratis",
+   "target": "fonte:https://github.com/inclusionAI/Ming-3.0-tts"
+  },
+  {
+   "source": "2026-11-13-linux-em-todo-lugar",
+   "target": "cta:LINUX"
+  },
+  {
+   "source": "2026-11-13-linux-em-todo-lugar",
+   "target": "tema:linux-em-todo-lugar"
+  },
+  {
+   "source": "2026-11-13-linux-em-todo-lugar",
+   "target": "fonte:https://github.com/lordbasex/LordOS"
+  },
+  {
+   "source": "2026-11-13-linux-em-todo-lugar",
+   "target": "fonte:https://github.com/mxhm11cr/LinuxRunner"
+  },
+  {
+   "source": "2026-11-13-linux-em-todo-lugar",
+   "target": "fonte:https://github.com/Arjun-Ingole/hop"
+  },
+  {
+   "source": "2026-11-13-namorada-de-ia",
+   "target": "cta:AMIGA"
+  },
+  {
+   "source": "2026-11-13-namorada-de-ia",
+   "target": "tema:namorada-de-ia"
+  },
+  {
+   "source": "2026-11-13-namorada-de-ia",
+   "target": "fonte:https://github.com/zeekk0/OpenAmika"
+  },
+  {
+   "source": "2026-11-13-npc-que-responde",
+   "target": "cta:NPC"
+  },
+  {
+   "source": "2026-11-13-npc-que-responde",
+   "target": "tema:npc-que-responde"
+  },
+  {
+   "source": "2026-11-13-npc-que-responde",
+   "target": "fonte:https://github.com/christos-antono/NPCTalk"
+  },
+  {
+   "source": "2026-11-13-placas-de-10-dolares",
+   "target": "cta:PLACA"
+  },
+  {
+   "source": "2026-11-13-placas-de-10-dolares",
+   "target": "tema:placas-de-10-dolares"
+  },
+  {
+   "source": "2026-11-13-placas-de-10-dolares",
+   "target": "fonte:https://github.com/andrisgauracs/whistle-esp32"
+  },
+  {
+   "source": "2026-11-13-placas-de-10-dolares",
+   "target": "fonte:https://github.com/raullenchai/esp32-thinks"
+  },
+  {
+   "source": "2026-11-13-placas-de-10-dolares",
+   "target": "fonte:https://github.com/andrisgauracs/wifi-sensing-kit"
+  },
+  {
+   "source": "2026-11-13-video-do-zero",
+   "target": "cta:VIDEO"
+  },
+  {
+   "source": "2026-11-13-video-do-zero",
+   "target": "tema:video-do-zero"
+  },
+  {
+   "source": "2026-11-13-video-do-zero",
+   "target": "fonte:https://github.com/wj-sidiss/otopilot"
+  },
+  {
+   "source": "2026-11-13-video-do-zero",
+   "target": "fonte:https://github.com/talsiach/take-one"
+  },
+  {
+   "source": "2026-11-13-video-do-zero",
+   "target": "fonte:https://github.com/kelano86/what-if-animation"
+  },
+  {
+   "source": "2026-11-14-3d-sem-saber",
+   "target": "cta:MODELO"
+  },
+  {
+   "source": "2026-11-14-3d-sem-saber",
+   "target": "tema:3d-sem-saber"
+  },
+  {
+   "source": "2026-11-14-3d-sem-saber",
+   "target": "fonte:https://github.com/apekshik/anyscene"
+  },
+  {
+   "source": "2026-11-14-3d-sem-saber",
+   "target": "fonte:https://github.com/islandmed/SculptForge"
+  },
+  {
+   "source": "2026-11-14-3d-sem-saber",
+   "target": "fonte:https://github.com/deepopen-com/deepopen-3d-webs"
+  },
+  {
+   "source": "2026-11-14-apps-pra-quem-vive-no-chat",
+   "target": "cta:MAPA"
+  },
+  {
+   "source": "2026-11-14-apps-pra-quem-vive-no-chat",
+   "target": "tema:apps-pra-quem-vive-no-chat"
+  },
+  {
+   "source": "2026-11-14-apps-pra-quem-vive-no-chat",
+   "target": "fonte:https://github.com/orkunisitmak/clipboardline"
+  },
+  {
+   "source": "2026-11-14-apps-pra-quem-vive-no-chat",
+   "target": "fonte:https://github.com/tang1693/KIKUmap"
+  },
+  {
+   "source": "2026-11-14-apps-pra-quem-vive-no-chat",
+   "target": "fonte:https://github.com/franzenzenhofer/big-arrow-on-the-screen"
+  },
+  {
+   "source": "2026-11-14-aprender-coisa-dificil",
+   "target": "cta:APRENDE"
+  },
+  {
+   "source": "2026-11-14-aprender-coisa-dificil",
+   "target": "tema:aprender-coisa-dificil"
+  },
+  {
+   "source": "2026-11-14-aprender-coisa-dificil",
+   "target": "fonte:https://github.com/amosblomqvist/learnharness"
+  },
+  {
+   "source": "2026-11-14-comercial-com-trilha",
+   "target": "cta:COMERCIAL"
+  },
+  {
+   "source": "2026-11-14-comercial-com-trilha",
+   "target": "tema:comercial-com-trilha"
+  },
+  {
+   "source": "2026-11-14-comercial-com-trilha",
+   "target": "fonte:https://github.com/alchaincyf/huashu-motion"
+  },
+  {
+   "source": "2026-11-14-ia-gigante-no-pc",
+   "target": "cta:LOCAL"
+  },
+  {
+   "source": "2026-11-14-ia-gigante-no-pc",
+   "target": "tema:ia-gigante-no-pc"
+  },
+  {
+   "source": "2026-11-14-ia-gigante-no-pc",
+   "target": "fonte:https://github.com/nace-ai/kapitsa"
+  },
+  {
+   "source": "2026-11-14-ia-gigante-no-pc",
+   "target": "fonte:https://github.com/simplexai-labs/PolyStrata"
+  },
+  {
+   "source": "2026-11-14-ia-gigante-no-pc",
+   "target": "fonte:https://github.com/mw00/project-maya"
+  },
+  {
+   "source": "2026-11-14-ia-liga-pra-voce",
+   "target": "cta:LIGACAO"
+  },
+  {
+   "source": "2026-11-14-ia-liga-pra-voce",
+   "target": "tema:ia-liga-pra-voce"
+  },
+  {
+   "source": "2026-11-14-ia-liga-pra-voce",
+   "target": "fonte:https://github.com/mutonby/agentring"
+  },
+  {
+   "source": "2026-11-14-mod-fps-oblivion",
+   "target": "cta:FPS"
+  },
+  {
+   "source": "2026-11-14-mod-fps-oblivion",
+   "target": "tema:mod-fps-oblivion"
+  },
+  {
+   "source": "2026-11-14-mod-fps-oblivion",
+   "target": "fonte:https://github.com/LTSharpe/OblivionRemasteredPerformanceFix"
+  },
+  {
+   "source": "2026-11-14-vire-um-personagem",
+   "target": "cta:AVATAR"
+  },
+  {
+   "source": "2026-11-14-vire-um-personagem",
+   "target": "tema:vire-um-personagem"
+  },
+  {
+   "source": "2026-11-14-vire-um-personagem",
+   "target": "fonte:https://github.com/livliv-dev/player"
+  },
+  {
+   "source": "2026-11-15-blender-com-ia",
+   "target": "cta:BLENDER"
+  },
+  {
+   "source": "2026-11-15-blender-com-ia",
+   "target": "tema:blender-com-ia"
+  },
+  {
+   "source": "2026-11-15-blender-com-ia",
+   "target": "fonte:https://github.com/5hyuns/maya-workflow-kit-for-blender"
+  },
+  {
+   "source": "2026-11-15-blender-com-ia",
+   "target": "fonte:https://github.com/EL4CTEO/blender-skills"
+  },
+  {
+   "source": "2026-11-15-blender-com-ia",
+   "target": "fonte:https://github.com/Sandflow-ai/sand3d"
+  },
+  {
+   "source": "2026-11-15-captura-de-qualquer-bicho",
+   "target": "cta:BICHO"
+  },
+  {
+   "source": "2026-11-15-captura-de-qualquer-bicho",
+   "target": "tema:captura-de-qualquer-bicho"
+  },
+  {
+   "source": "2026-11-15-captura-de-qualquer-bicho",
+   "target": "fonte:https://github.com/patch-gg/anymove"
+  },
+  {
+   "source": "2026-11-15-crie-seu-app-de-mac",
+   "target": "cta:APP"
+  },
+  {
+   "source": "2026-11-15-crie-seu-app-de-mac",
+   "target": "tema:crie-seu-app-de-mac"
+  },
+  {
+   "source": "2026-11-15-crie-seu-app-de-mac",
+   "target": "fonte:https://github.com/daveebbelaar/bama"
+  },
+  {
+   "source": "2026-11-15-figurinha-animada",
+   "target": "cta:FIGURINHA"
+  },
+  {
+   "source": "2026-11-15-figurinha-animada",
+   "target": "tema:figurinha-animada"
+  },
+  {
+   "source": "2026-11-15-figurinha-animada",
+   "target": "fonte:https://github.com/WoYun520/pixel-gif-sticker-pack"
+  },
+  {
+   "source": "2026-11-15-laboratorio-3d-gratis",
+   "target": "cta:LAB"
+  },
+  {
+   "source": "2026-11-15-laboratorio-3d-gratis",
+   "target": "tema:laboratorio-3d-gratis"
+  },
+  {
+   "source": "2026-11-15-laboratorio-3d-gratis",
+   "target": "fonte:https://github.com/smithjohn78390/tongjiang-lab"
+  },
+  {
+   "source": "2026-11-15-skills-chinesas-agencia",
+   "target": "cta:AGENCIA"
+  },
+  {
+   "source": "2026-11-15-skills-chinesas-agencia",
+   "target": "tema:skills-chinesas-agencia"
+  },
+  {
+   "source": "2026-11-15-skills-chinesas-agencia",
+   "target": "fonte:https://github.com/liyupi/ai-promo-video-maker"
+  },
+  {
+   "source": "2026-11-15-skills-chinesas-agencia",
+   "target": "fonte:https://github.com/zhouwei713/luobo-ppt"
+  },
+  {
+   "source": "2026-11-15-skills-chinesas-agencia",
+   "target": "fonte:https://github.com/liuhaisi2026212-maker/taishang-laojun"
+  },
+  {
+   "source": "2026-11-15-skills-video-explicativo",
+   "target": "cta:EXPLICA"
+  },
+  {
+   "source": "2026-11-15-skills-video-explicativo",
+   "target": "tema:skills-video-explicativo"
+  },
+  {
+   "source": "2026-11-15-skills-video-explicativo",
+   "target": "fonte:https://github.com/YIAN6557/eian-riso-broll"
+  },
+  {
+   "source": "2026-11-15-skills-video-explicativo",
+   "target": "fonte:https://github.com/liangdabiao/whiteboard-teacher-video"
+  },
+  {
+   "source": "2026-11-15-skills-video-explicativo",
+   "target": "fonte:https://github.com/HeyChengC/vibe-knowledge-film"
+  },
+  {
+   "source": "2026-11-15-tv-que-cobra-licao",
+   "target": "cta:LICAO"
+  },
+  {
+   "source": "2026-11-15-tv-que-cobra-licao",
+   "target": "tema:tv-que-cobra-licao"
+  },
+  {
+   "source": "2026-11-15-tv-que-cobra-licao",
+   "target": "fonte:https://github.com/chadyi/StudyOnTV"
   }
  ]
 }

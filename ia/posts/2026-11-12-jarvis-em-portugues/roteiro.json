@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "JARVIS",
+ "tese": "UM JARVIS EM PORTUGUÊS NO SEU PC · +1 MIL ESTRELAS EM 1 MÊS",
+ "conceito": "Oficina de inventor brasileiro: bancada com ferramentas, ventilador de teto, bandeirinhas de festa junina, um capacete de blocos com visor; paleta verde-amarelo dessaturado + vermelho-oficina. Mascote de óculos de solda falando com um holograma.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote de estrelas",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: plantar"
+ },
+ "brinde": "link + passo a passo de instalação",
+ "fontes": [
+  "https://github.com/jgm-source/jarvis-opensource"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): jgm-source/jarvis-opensource 554, criado em 10/10.",
+ "obs": "'JARVIS' é nome do projeto; sem imagens do Homem de Ferro/Marvel. Conferir quais chaves (Groq tem plano grátis).",
+ "polemica": false,
+ "agenda": "2026-11-12 08:00",
+ "palavras": 66,
+ "duracao_estimada_s": 22.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "UM JARVIS EM PORTUGUÊS NO SEU PC",
+   "fala": "Um brasileiro fez um JARVIS em português que controla o seu PC.",
+   "legenda": "Um brasileiro fez um JARVIS em português que controla o seu PC.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "jarvis-em-portugues",
+   "etiqueta": [
+    "UM JARVIS EM PORTUGUÊS NO SEU PC",
+    "+1 MIL ESTRELAS EM 1 MÊS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Você fala, ele ouve, responde e mexe no computador.",
+   "legenda": "Você fala, ele ouve, responde e mexe no computador.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Abre programa, organiza tarefa e conversa com você.",
+   "legenda": "Abre programa, organiza tarefa e conversa com você.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "É de graça e o código é aberto. Comenta JARVIS que eu te mando.",
+   "legenda": "É de graça e o código é aberto. Comenta JARVIS que eu te mando.",
+   "sfx": [],
+   "item": "jarvis-opensource",
+   "repo": "jgm-source/jarvis-opensource",
+   "estrelas": 554
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Precisa de uma chave de IA; dá pra usar uma opção grátis.",
+   "legenda": "Precisa de uma chave de IA; dá pra usar uma opção grátis.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA JARVIS",
+   "fala": "Comenta JARVIS e me segue pra mais IA feita no Brasil.",
+   "legenda": "Comenta JARVIS e me segue pra mais IA feita no Brasil.",
+   "sfx": []
+  }
+ ]
+}

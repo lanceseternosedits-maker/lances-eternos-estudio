@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "TUDO",
+ "tese": "ESTÃO REFAZENDO TODO PROGRAMA DO MUNDO · +7 MIL ESTRELAS EM 1 MÊS",
+ "conceito": "Canteiro de obras de uma cidade de software: guindastes levantando janelas de app, andaimes, plantas baixas; paleta laranja-obra + azul-planta + cinza. Gancho: uma cidade de prédios-logo genéricos é demolida e reconstruída em blocos. Mascote de capacete e prancheta.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "b) carimbo",
+  "contador": "e) placar HI-SCORE",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "b) pódio",
+  "tipografia": "e) Caveat + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: andar de skate"
+ },
+ "brinde": "link + lista dos programas que já estão lá",
+ "fontes": [
+  "https://github.com/HeyPuter/everything"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): HeyPuter/everything 7.498, criado em 13/10.",
+ "obs": "Ver no README o que já existe; não exagerar o estágio.",
+ "polemica": true,
+ "agenda": "2026-11-11 19:30",
+ "palavras": 71,
+ "duracao_estimada_s": 24.5,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "ESTÃO REFAZENDO TODO PROGRAMA DO MUNDO",
+   "fala": "Um grupo quer refazer todos os programas do mundo do zero. E dar de graça.",
+   "legenda": "Um grupo quer refazer todos os programas do mundo do zero. E dar de graça.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "refazendo-todo-software",
+   "etiqueta": [
+    "ESTÃO REFAZENDO TODO PROGRAMA DO MUNDO",
+    "+7 MIL ESTRELAS EM 1 MÊS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O projeto se chama Everything. Do pessoal do Puter.",
+   "legenda": "O projeto se chama Everything. Do pessoal do Puter.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "A ideia: recriar cada software e abrir o código pra qualquer um usar.",
+   "legenda": "A ideia: recriar cada software e abrir o código pra qualquer um usar.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Sete mil e quinhentas estrelas em três semanas. Comenta TUDO que eu te mando.",
+   "legenda": "Sete mil e quinhentas estrelas em três semanas. Comenta TUDO que eu te mando.",
+   "sfx": [],
+   "item": "everything",
+   "repo": "HeyPuter/everything",
+   "estrelas": 7498
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Loucura ou futuro? As big techs não devem estar gostando.",
+   "legenda": "Loucura ou futuro? As big techs não devem estar gostando.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA TUDO",
+   "fala": "Comenta TUDO e me segue. Você acha que dá certo?",
+   "legenda": "Comenta TUDO e me segue. Você acha que dá certo?",
+   "sfx": []
+  }
+ ]
+}

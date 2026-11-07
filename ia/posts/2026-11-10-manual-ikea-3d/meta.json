@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-10",
+ "horario": "21:30",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "manual-ikea-3d"
+ ],
+ "fontes": [
+  "https://github.com/Nutlope/bygga"
+ ],
+ "cta": "IKEA",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-10 21:30",
+  "tiktok": "2026-11-10 21:30"
+ },
+ "status": "aguardando aprovação"
+}

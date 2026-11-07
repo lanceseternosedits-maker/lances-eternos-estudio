@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "CHINA",
+ "tese": "A IA CHINESA QUE CONTROLA SEU PC PELO CELULAR · +13 MIL ESTRELAS EM 2 SEMANAS",
+ "conceito": "Mercado noturno chinês genérico (sem marcas): lanternas de papel vermelhas, letreiros de luz sem texto legível, barracas de vapor; paleta vermelho-lanterna + dourado + verde-jade. Gancho: um celular flutua e puxa fios de luz até um PC. Mascote de capa de chuva transparente pilotando um controle remoto.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "b) odômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "e) página de caderno",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: pintar"
+ },
+ "brinde": "link + checklist de segurança antes de instalar",
+ "fontes": [
+  "https://github.com/ccch1mneyyy/dsh-Go"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): ccch1mneyyy/dsh-Go 13.249, criado em 25/10.",
+ "obs": "README em chinês: reler antes de afirmar recursos. Polêmica pela origem chinesa e pelo acesso ao PC; enfatizar segurança, sem medo gratuito.",
+ "polemica": true,
+ "agenda": "2026-11-09 19:30",
+ "palavras": 75,
+ "duracao_estimada_s": 25.9,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IA CHINESA QUE CONTROLA SEU PC PELO CELULAR",
+   "fala": "Uma IA chinesa roda no seu celular e ainda controla o seu computador.",
+   "legenda": "Uma IA chinesa roda no seu celular e ainda controla o seu computador.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "ia-chinesa-no-bolso",
+   "etiqueta": [
+    "A IA CHINESA QUE CONTROLA SEU PC PELO CELULAR",
+    "+13 MIL ESTRELAS EM 2 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Chama dsh-go. Leva o agente do DeepSeek pro bolso.",
+   "legenda": "Chama dsh-go. Leva o agente do DeepSeek pro bolso.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Roda no próprio telefone e manda comandos pro PC à distância.",
+   "legenda": "Roda no próprio telefone e manda comandos pro PC à distância.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Treze mil estrelas em duas semanas. Comenta CHINA que eu te mando.",
+   "legenda": "Treze mil estrelas em duas semanas. Comenta CHINA que eu te mando.",
+   "sfx": [],
+   "item": "dsh-Go",
+   "repo": "ccch1mneyyy/dsh-Go",
+   "estrelas": 13249
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Mas atenção: dá acesso ao seu PC. Leia tudo antes e use num computador de teste.",
+   "legenda": "Mas atenção: dá acesso ao seu PC. Leia tudo antes e use num computador de teste.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA CHINA",
+   "fala": "Comenta CHINA e me segue. A China tá correndo, e quase ninguém aqui viu.",
+   "legenda": "Comenta CHINA e me segue. A China tá correndo, e quase ninguém aqui viu.",
+   "sfx": []
+  }
+ ]
+}

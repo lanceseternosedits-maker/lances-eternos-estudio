@@ -1,0 +1,21 @@
+{
+ "data": "2026-11-13",
+ "horario": "08:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "linux-em-todo-lugar"
+ ],
+ "fontes": [
+  "https://github.com/lordbasex/LordOS",
+  "https://github.com/mxhm11cr/LinuxRunner",
+  "https://github.com/Arjun-Ingole/hop"
+ ],
+ "cta": "LINUX",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-13 08:00",
+  "tiktok": "2026-11-13 08:00"
+ },
+ "status": "aguardando aprovação"
+}

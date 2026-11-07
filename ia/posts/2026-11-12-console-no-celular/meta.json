@@ -1,0 +1,23 @@
+{
+ "data": "2026-11-12",
+ "horario": "12:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "console-no-celular"
+ ],
+ "fontes": [
+  "https://github.com/lidor30/pokedaisy",
+  "https://github.com/kevinerikjs/gta5-ios-port",
+  "https://github.com/mamcjr/BOTWRecompAndroid",
+  "https://github.com/shirai91/nx2android",
+  "https://github.com/jhaizhou-ops/d2r-mobile"
+ ],
+ "cta": "MOBILE",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-12 12:00",
+  "tiktok": "2026-11-12 12:00"
+ },
+ "status": "aguardando aprovação"
+}

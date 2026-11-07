@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "NEGOCIO",
+ "tese": "11 IAS TESTAM SEU NEGÓCIO ANTES DE ABRIR · +3 MIL ESTRELAS EM 1 MÊS",
+ "conceito": "Sala de reunião de tubarões em miniatura (sem rostos humanos): mesa comprida, cadeiras de couro com bonecos de bloco anônimos, quadro com gráfico; paleta azul-marinho + dourado + branco. Gancho: uma ideia em lâmpada é colocada na mesa e todos se viram. Mascote de gravata e crachá apresentando.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote de estrelas",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: consertar"
+ },
+ "brinde": "link + 3 perguntas para testar a ideia hoje",
+ "fontes": [
+  "https://github.com/Jakeschincariol/founder-skill"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): Jakeschincariol/founder-skill 2.589, criado em 07/10.",
+ "obs": "Grátis, MIT. Sem promessa de lucro. O README cita Hormozi/Thiel/Jobs: não usar nomes nem rostos no vídeo.",
+ "polemica": false,
+ "agenda": "2026-11-10 10:00",
+ "palavras": 74,
+ "duracao_estimada_s": 25.5,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "11 IAS TESTAM SEU NEGÓCIO ANTES DE ABRIR",
+   "fala": "Antes de gastar um real no seu negócio, deixa onze IAs tentarem derrubar a ideia.",
+   "legenda": "Antes de gastar um real no seu negócio, deixa onze IAs tentarem derrubar a ideia.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "testa-seu-negocio",
+   "etiqueta": [
+    "11 IAS TESTAM SEU NEGÓCIO ANTES DE ABRIR",
+    "+3 MIL ESTRELAS EM 1 MÊS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O founder-skill dá ao Claude um conselho, um diretor de marketing e um financeiro.",
+   "legenda": "O founder-skill dá ao Claude um conselho, um diretor de marketing e um financeiro.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "E ainda cem compradores de mentira dizem se comprariam.",
+   "legenda": "E ainda cem compradores de mentira dizem se comprariam.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Mais de duas mil e quinhentas estrelas. Comenta NEGOCIO que eu te mando.",
+   "legenda": "Mais de duas mil e quinhentas estrelas. Comenta NEGOCIO que eu te mando.",
+   "sfx": [],
+   "item": "founder-skill",
+   "repo": "Jakeschincariol/founder-skill",
+   "estrelas": 2589
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Não garante sucesso. Mas mostra o furo antes de você abrir.",
+   "legenda": "Não garante sucesso. Mas mostra o furo antes de você abrir.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA NEGOCIO",
+   "fala": "Comenta NEGOCIO e me segue que eu te mando as onze skills.",
+   "legenda": "Comenta NEGOCIO e me segue que eu te mando as onze skills.",
+   "sfx": []
+  }
+ ]
+}

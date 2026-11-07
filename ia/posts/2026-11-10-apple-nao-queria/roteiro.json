@@ -1,0 +1,143 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "APPLE",
+ "tese": "5 PROJETOS QUE A APPLE NÃO QUERIA · +9 MIL ESTRELAS EM 3 SEMANAS · E O Nº 1 RODA NUM ANDROID",
+ "conceito": "Pomar à noite com uma única maçã de vidro brilhando numa redoma (genérica, sem mordida), cercas de jardim e placa 'propriedade privada'; paleta verde-pomar + prata + vermelho-maçã. Gancho: a redoma racha. Nº 1: a maçã de vidro entra num celular de blocos verde. Mascote de lanterna na cabeça, se esgueirando.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "b) odômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "e) página de caderno",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: fotografar"
+ },
+ "brinde": "links dos 5 + aviso: experimentais, podem violar termos de uso; nada de usar no aparelho principal",
+ "fontes": [
+  "https://github.com/harkhowalia-1/MacSubsystemForAndroid",
+  "https://github.com/Snapintosh/Snapintosh",
+  "https://github.com/UniXNU/UniXNU",
+  "https://github.com/govijr/terminal-mac",
+  "https://github.com/oosexgang/hakios-xnu-kernel"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Mac Subsystem for Android 540, Snapintosh 1.196, UniXNU 2.090, terminal-mac 2.185, hakios 2.571; total 8.582; criados entre 15/10 e 03/11.",
+ "obs": "Sem logo da Apple (nada de maçã mordida). Projetos experimentais; macOS fora de hardware Apple viola a licença do macOS: dizer 'a Apple não permite'. Não ensinar o passo a passo no vídeo.",
+ "polemica": true,
+ "agenda": "2026-11-10 12:00",
+ "palavras": 99,
+ "duracao_estimada_s": 34.1,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROJETOS QUE A APPLE NÃO QUERIA",
+   "fala": "A Apple só deixa o sistema dela rodar nos aparelhos dela. Esses cinco projetos não ligaram.",
+   "legenda": "A Apple só deixa o sistema dela rodar nos aparelhos dela. Esses cinco projetos não ligaram.",
+   "itens": "apple-nao-queria",
+   "etiqueta": [
+    "5 PROJETOS QUE A APPLE NÃO QUERIA",
+    "+9 MIL ESTRELAS EM 3 SEMANAS",
+    "E O Nº 1 RODA NUM ANDROID"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Mac Subsystem for Android",
+   "repo": "harkhowalia-1/MacSubsystemForAndroid",
+   "estrelas": 540,
+   "fala": "Quinto: apps de Android rodando no Mac, cada um na sua janela.",
+   "legenda": "Quinto: apps de Android rodando no Mac, cada um na sua janela.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Snapintosh",
+   "repo": "Snapintosh/Snapintosh",
+   "estrelas": 1196,
+   "fala": "Quarto: o macOS ligando num notebook que nem é da Apple.",
+   "legenda": "Quarto: o macOS ligando num notebook que nem é da Apple.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "UniXNU",
+   "repo": "UniXNU/UniXNU",
+   "estrelas": 2090,
+   "fala": "Terceiro: iOS e macOS em aparelhos que não são da Apple. Esse é ousado… comenta APPLE que eu te mando os cinco. Mas o próximo é pior.",
+   "legenda": "Terceiro: iOS e macOS em aparelhos que não são da Apple. Esse é ousado… comenta APPLE que eu te mando os cinco. Mas o próximo é pior.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "terminal-mac",
+   "repo": "govijr/terminal-mac",
+   "estrelas": 2185,
+   "fala": "Segundo: um macOS inteiro rodando dentro do terminal.",
+   "legenda": "Segundo: um macOS inteiro rodando dentro do terminal.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "hakios",
+   "repo": "oosexgang/hakios-xnu-kernel",
+   "estrelas": 2571,
+   "fala": "E o primeiro: o coração do sistema da Apple rodando num celular Android.",
+   "legenda": "E o primeiro: o coração do sistema da Apple rodando num celular Android.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA APPLE",
+   "fala": "Comenta APPLE e me segue. São projetos experimentais, use por sua conta.",
+   "legenda": "Comenta APPLE e me segue. São projetos experimentais, use por sua conta.",
+   "sfx": []
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "GIF",
+ "tese": "O CHATGPT AGORA FAZ GIF · NOVIDADE DESTA SEMANA",
+ "conceito": "Ateliê de flipbook: bloco de papel que folheia sozinho, mesa de luz, lápis de cor espalhados; paleta verde-menta + rosa-chiclete + creme. Gancho: uma foto Polaroid começa a se mexer. Mascote folheando o bloco com boné de pintor.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote de estrelas",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: pilotar"
+ },
+ "brinde": "5 prompts de GIF + onde achar a opção no ChatGPT",
+ "fontes": [
+  "https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai",
+  "https://www.androidauthority.com/chatgpt-animated-gif-generation-3731805/",
+  "https://decrypt.co/382574/chatgpt-gif-maker-openai-unannounced-images-2-6-model"
+ ],
+ "prova_viral": "Coberto por The Next Web, Android Authority e Decrypt (04–05/11/2026); recurso novo do ChatGPT (Images 2.6).",
+ "obs": "Liberação gradual (Decrypt); não dizer que o plano grátis tem com certeza. Reconferir no dia. Sem logo da OpenAI.",
+ "polemica": false,
+ "agenda": "2026-11-09 17:00",
+ "palavras": 75,
+ "duracao_estimada_s": 25.9,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "O CHATGPT AGORA FAZ GIF",
+   "fala": "O ChatGPT agora transforma sua foto num GIF animado.",
+   "legenda": "O ChatGPT agora transforma sua foto num GIF animado.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "chatgpt-faz-gif",
+   "etiqueta": [
+    "O CHATGPT AGORA FAZ GIF",
+    "NOVIDADE DESTA SEMANA",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Veio com o Images 2.6, a nova versão do gerador de imagem.",
+   "legenda": "Veio com o Images 2.6, a nova versão do gerador de imagem.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Você pede o movimento, ajusta a velocidade e edita quadro por quadro.",
+   "legenda": "Você pede o movimento, ajusta a velocidade e edita quadro por quadro.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Ainda está chegando aos poucos para as contas. Comenta GIF que eu te mando os prompts.",
+   "legenda": "Ainda está chegando aos poucos para as contas. Comenta GIF que eu te mando os prompts.",
+   "sfx": []
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Testa com a foto do seu cachorro: faz ele piscar e abanar o rabo.",
+   "legenda": "Testa com a foto do seu cachorro: faz ele piscar e abanar o rabo.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA GIF",
+   "fala": "Comenta GIF e me segue que eu te mando cinco prompts prontos.",
+   "legenda": "Comenta GIF e me segue que eu te mando cinco prompts prontos.",
+   "sfx": []
+  }
+ ]
+}

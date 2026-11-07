@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "TEXTO",
+ "tese": "TIRA O TEXTO DE QUALQUER FOTO · +2 MIL ESTRELAS EM 1 MÊS",
+ "conceito": "Escritório de datilografia dos anos 60: máquinas de escrever, papel carbono, arquivos; paleta verde-escritório + creme + preto-tinta. Gancho: uma foto de cardápio vira letras que voam e caem num papel limpo. Mascote de viseira de contador.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "d) split-flap",
+  "contador": "c) velocímetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "d) tela CONTINUE?",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: medir"
+ },
+ "brinde": "link + jeito fácil de usar",
+ "fontes": [
+  "https://github.com/datalab-to/indra"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): datalab-to/indra 1.659, criado em 13/10.",
+ "obs": "'15x' é afirmação dos criadores (README): dizer 'segundo os criadores'. Requer instalar Python (é para quem tem paciência).",
+ "polemica": false,
+ "agenda": "2026-11-12 14:00",
+ "palavras": 69,
+ "duracao_estimada_s": 23.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "TIRA O TEXTO DE QUALQUER FOTO",
+   "fala": "Foto de documento, print, cardápio: essa IA tira o texto em segundos.",
+   "legenda": "Foto de documento, print, cardápio: essa IA tira o texto em segundos.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "ocr-15x-rapido",
+   "etiqueta": [
+    "TIRA O TEXTO DE QUALQUER FOTO",
+    "+2 MIL ESTRELAS EM 1 MÊS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Chama Indra. É um leitor de texto minúsculo, que roda no processador comum.",
+   "legenda": "Chama Indra. É um leitor de texto minúsculo, que roda no processador comum.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Os criadores dizem que é quinze vezes mais rápido que o Tesseract, o clássico.",
+   "legenda": "Os criadores dizem que é quinze vezes mais rápido que o Tesseract, o clássico.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Mil e seiscentas estrelas. Comenta TEXTO que eu te mando.",
+   "legenda": "Mil e seiscentas estrelas. Comenta TEXTO que eu te mando.",
+   "sfx": [],
+   "item": "indra",
+   "repo": "datalab-to/indra",
+   "estrelas": 1659
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Sem nuvem: o documento não sai do seu computador.",
+   "legenda": "Sem nuvem: o documento não sai do seu computador.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA TEXTO",
+   "fala": "Comenta TEXTO e me segue que eu te mando o link.",
+   "legenda": "Comenta TEXTO e me segue que eu te mando o link.",
+   "sfx": []
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "FOTO",
+ "tese": "3 IAS GRÁTIS PRA FOTO QUE RODAM NO SEU PC · +2 MIL ESTRELAS EM 1 MÊS · E O Nº 1 TRANSFORMA FOTO EM 3D",
+ "conceito": "Estúdio fotográfico de praia: fundo infinito de areia, guarda-sol, rebatedor prateado, flash de estúdio; paleta areia + azul-turquesa + branco. Nº 1: uma foto 2D sai do porta-retrato e vira escultura girando. Mascote de chapéu-panamá segurando um rebatedor.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "b) odômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "e) página de caderno",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: jogar dardos"
+ },
+ "brinde": "links dos 3 (kokon precisa de placa de vídeo)",
+ "fontes": [
+  "https://github.com/GabrieleLozupone/kokon",
+  "https://github.com/wquguru/shisei",
+  "https://github.com/speridlabs/idol-sdk"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): kokon 309, Shisei 455, Idol 871; total 1.635; criados entre 08/10 e 29/10.",
+ "obs": "",
+ "polemica": false,
+ "agenda": "2026-11-11 17:00",
+ "palavras": 100,
+ "duracao_estimada_s": 34.5,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 IAS GRÁTIS PRA FOTO QUE RODAM NO SEU PC",
+   "fala": "Editar foto com IA tem limite por dia. Essas três rodam no seu PC, sem limite.",
+   "legenda": "Editar foto com IA tem limite por dia. Essas três rodam no seu PC, sem limite.",
+   "itens": "ia-edita-foto",
+   "etiqueta": [
+    "3 IAS GRÁTIS PRA FOTO QUE RODAM NO SEU PC",
+    "+2 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 TRANSFORMA FOTO EM 3D"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "kokon",
+   "repo": "GabrieleLozupone/kokon",
+   "estrelas": 309,
+   "fala": "Terceiro: kokon. Você descreve a mudança e ele edita, sem limite diário. Esse é ótimo… comenta FOTO que eu te mando os três. Mas o primeiro é bruxaria.",
+   "legenda": "Terceiro: kokon. Você descreve a mudança e ele edita, sem limite diário. Esse é ótimo… comenta FOTO que eu te mando os três. Mas o primeiro é bruxaria.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Shisei",
+   "repo": "wquguru/shisei",
+   "estrelas": 455,
+   "fala": "Segundo: Shisei. Mais de duzentas e cinquenta poses prontas pra guiar a sua IA de imagem. Esse é ótimo… comenta FOTO que eu te mando os três. Mas o primeiro é bruxaria.",
+   "legenda": "Segundo: Shisei. Mais de duzentas e cinquenta poses prontas pra guiar a sua IA de imagem. Esse é ótimo… comenta FOTO que eu te mando os três. Mas o primeiro é bruxaria.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Idol",
+   "repo": "speridlabs/idol-sdk",
+   "estrelas": 871,
+   "fala": "E o primeiro: Idol. Uma única foto vira um objeto em 3D.",
+   "legenda": "E o primeiro: Idol. Uma única foto vira um objeto em 3D.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA FOTO",
+   "fala": "Comenta FOTO e me segue que eu te mando os três links.",
+   "legenda": "Comenta FOTO e me segue que eu te mando os três links.",
+   "sfx": []
+  }
+ ]
+}

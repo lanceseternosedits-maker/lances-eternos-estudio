@@ -1,0 +1,143 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "GAMER",
+ "tese": "5 PROJETOS QUE TODO GAMER QUERIA · +5 MIL ESTRELAS EM 3 SEMANAS · E O Nº 1 TRANSFORMA QUALQUER JOGO EM CO-OP",
+ "conceito": "Quarto de LAN party anos 2000: monitores de tubo em mesas dobráveis, cabos de rede coloridos no chão, latas de refrigerante genéricas, pizza; paleta verde-LED + roxo + laranja-pizza. Nº 1: dois mascotes no sofá, tela dividida. Mascote de headset com antena.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "b) carimbo",
+  "contador": "e) placar HI-SCORE",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "b) pódio",
+  "tipografia": "e) Caveat + Space Grotesk",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: varrer"
+ },
+ "brinde": "links dos 5 + aviso: jogos comprados por você",
+ "fontes": [
+  "https://github.com/thebcd69/bcd-games",
+  "https://github.com/AssassinCreator/steam-stash-value-report-card",
+  "https://github.com/ramenvr/autopilot",
+  "https://github.com/raymondchins/Bridgeplay",
+  "https://github.com/cranebeaker/coop-anything"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): BCD 493, Steam Stash 786, Autopilot 804, Bridgeplay 887, Co-op Anything 1.933; total 4.903; criados entre 16/10 e 02/11.",
+ "obs": "",
+ "polemica": false,
+ "agenda": "2026-11-11 08:00",
+ "palavras": 91,
+ "duracao_estimada_s": 31.4,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROJETOS QUE TODO GAMER QUERIA",
+   "fala": "Seu jogo favorito é só pra um jogador? Não mais.",
+   "legenda": "Seu jogo favorito é só pra um jogador? Não mais.",
+   "itens": "projetos-gamer",
+   "etiqueta": [
+    "5 PROJETOS QUE TODO GAMER QUERIA",
+    "+5 MIL ESTRELAS EM 3 SEMANAS",
+    "E O Nº 1 TRANSFORMA QUALQUER JOGO EM CO-OP"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "BCD",
+   "repo": "thebcd69/bcd-games",
+   "estrelas": 493,
+   "fala": "Quinto: BCD. Jogos de Windows no iPhone, com Steam e GOG.",
+   "legenda": "Quinto: BCD. Jogos de Windows no iPhone, com Steam e GOG.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Steam Stash",
+   "repo": "AssassinCreator/steam-stash-value-report-card",
+   "estrelas": 786,
+   "fala": "Quarto: mostra quanto vale a sua biblioteca da Steam.",
+   "legenda": "Quarto: mostra quanto vale a sua biblioteca da Steam.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Autopilot",
+   "repo": "ramenvr/autopilot",
+   "estrelas": 804,
+   "fala": "Terceiro: Autopilot. Uma IA que joga qualquer jogo. Esse é útil… comenta GAMER que eu te mando os cinco. Mas o próximo é sonho.",
+   "legenda": "Terceiro: Autopilot. Uma IA que joga qualquer jogo. Esse é útil… comenta GAMER que eu te mando os cinco. Mas o próximo é sonho.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Bridgeplay",
+   "repo": "raymondchins/Bridgeplay",
+   "estrelas": 887,
+   "fala": "Segundo: Bridgeplay. Jogos de Windows da Steam rodando no Mac.",
+   "legenda": "Segundo: Bridgeplay. Jogos de Windows da Steam rodando no Mac.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Co-op Anything",
+   "repo": "cranebeaker/coop-anything",
+   "estrelas": 1933,
+   "fala": "E o primeiro: a IA transforma jogo de um jogador em multiplayer com os amigos.",
+   "legenda": "E o primeiro: a IA transforma jogo de um jogador em multiplayer com os amigos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA GAMER",
+   "fala": "Comenta GAMER e me segue que eu te mando os cinco links.",
+   "legenda": "Comenta GAMER e me segue que eu te mando os cinco links.",
+   "sfx": []
+  }
+ ]
+}

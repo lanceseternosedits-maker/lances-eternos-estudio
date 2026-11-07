@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "MUSICA",
+ "tese": "3 PROGRAMAS GRÁTIS PRA FAZER MÚSICA · +2 MIL ESTRELAS EM 1 MÊS · E O Nº 1 TE ENSINA A CANTAR",
+ "conceito": "Estúdio de garagem: caixas de ovo na parede, tapete persa, amplificador velho, luzinhas de Natal; paleta mostarda + vinho + marrom-tapete. Nº 1: o mascote com microfone de pedestal e notas musicais virando degraus. Fone de ouvido gigante como acessório.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "b) carimbo",
+  "contador": "e) placar HI-SCORE",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "b) pódio",
+  "tipografia": "e) Caveat + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: patinar"
+ },
+ "brinde": "links dos 3 (onkey é só para Mac)",
+ "fontes": [
+  "https://github.com/Ka1-S/LYNX-SHARE",
+  "https://github.com/ItsAlphaNeon/Lemon-Studio",
+  "https://github.com/dsmurrell/onkey"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): LYNX SHARE 739, Lemon Studio 807, onkey 406; total 1.952; criados entre 10/10 e 18/10.",
+ "obs": "",
+ "polemica": false,
+ "agenda": "2026-11-10 14:00",
+ "palavras": 99,
+ "duracao_estimada_s": 34.1,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 PROGRAMAS GRÁTIS PRA FAZER MÚSICA",
+   "fala": "Estúdio de música custa caro. Esses três são de graça.",
+   "legenda": "Estúdio de música custa caro. Esses três são de graça.",
+   "itens": "musica-gratis",
+   "etiqueta": [
+    "3 PROGRAMAS GRÁTIS PRA FAZER MÚSICA",
+    "+2 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 TE ENSINA A CANTAR"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "LYNX SHARE",
+   "repo": "Ka1-S/LYNX-SHARE",
+   "estrelas": 739,
+   "fala": "Terceiro: LYNX SHARE. Estúdio no estilo FL Studio, que abre seus projetos de lá. Esse é completo… comenta MUSICA que eu te mando os três. Mas o primeiro é o mais legal.",
+   "legenda": "Terceiro: LYNX SHARE. Estúdio no estilo FL Studio, que abre seus projetos de lá. Esse é completo… comenta MUSICA que eu te mando os três. Mas o primeiro é o mais legal.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Lemon Studio",
+   "repo": "ItsAlphaNeon/Lemon-Studio",
+   "estrelas": 807,
+   "fala": "Segundo: Lemon Studio. Estúdio de áudio grátis que você já sabe usar. Esse é completo… comenta MUSICA que eu te mando os três. Mas o primeiro é o mais legal.",
+   "legenda": "Segundo: Lemon Studio. Estúdio de áudio grátis que você já sabe usar. Esse é completo… comenta MUSICA que eu te mando os três. Mas o primeiro é o mais legal.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "onkey",
+   "repo": "dsmurrell/onkey",
+   "estrelas": 406,
+   "fala": "E o primeiro: onkey. Ouve a música que você ama e te ensina a cantar.",
+   "legenda": "E o primeiro: onkey. Ouve a música que você ama e te ensina a cantar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA MUSICA",
+   "fala": "Comenta MUSICA e me segue que eu te mando os três links.",
+   "legenda": "Comenta MUSICA e me segue que eu te mando os três links.",
+   "sfx": []
+  }
+ ]
+}

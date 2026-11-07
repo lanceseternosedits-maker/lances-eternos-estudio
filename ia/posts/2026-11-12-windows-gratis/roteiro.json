@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "WINDOWS",
+ "tese": "3 PROGRAMAS GRÁTIS QUE O WINDOWS DEVIA TER · +3 MIL ESTRELAS EM 1 MÊS · E O Nº 1 LÊ ATÉ SEUS PRINTS",
+ "conceito": "Janela de casa de verdade (moldura de madeira) que abre para vários céus diferentes; peitoril com vasinhos; paleta azul-céu + verde-planta + branco-tinta. Nº 1: um print voa pela janela e as letras saltam dele. Mascote de luva de jardinagem regando.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: remar"
+ },
+ "brinde": "links dos 3",
+ "fontes": [
+  "https://github.com/FortoGraphy/prism-download-manager",
+  "https://github.com/LingCore/WinShun",
+  "https://github.com/yjid/kensaku"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Prism 773, WinShun 904, kensaku 1.196; total 2.873; criados entre 08/10 e 24/10.",
+ "obs": "WinShun tem foco em busca por pinyin (chinês); a busca de texto completo vale para qualquer idioma — conferir.",
+ "polemica": false,
+ "agenda": "2026-11-12 06:00",
+ "palavras": 97,
+ "duracao_estimada_s": 33.4,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 PROGRAMAS GRÁTIS QUE O WINDOWS DEVIA TER",
+   "fala": "O Windows deixa você na mão em três coisas. Esses três programas grátis resolvem.",
+   "legenda": "O Windows deixa você na mão em três coisas. Esses três programas grátis resolvem.",
+   "itens": "windows-gratis",
+   "etiqueta": [
+    "3 PROGRAMAS GRÁTIS QUE O WINDOWS DEVIA TER",
+    "+3 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 LÊ ATÉ SEUS PRINTS"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Prism",
+   "repo": "FortoGraphy/prism-download-manager",
+   "estrelas": 773,
+   "fala": "Terceiro: Prism. Gerenciador de download com até trinta e duas conexões. Esse é rápido… comenta WINDOWS que eu te mando os três. Mas o primeiro é o melhor.",
+   "legenda": "Terceiro: Prism. Gerenciador de download com até trinta e duas conexões. Esse é rápido… comenta WINDOWS que eu te mando os três. Mas o primeiro é o melhor.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "WinShun",
+   "repo": "LingCore/WinShun",
+   "estrelas": 904,
+   "fala": "Segundo: WinShun. Aperta Ctrl duas vezes e acha qualquer arquivo, até dentro do Word. Esse é rápido… comenta WINDOWS que eu te mando os três. Mas o primeiro é o melhor.",
+   "legenda": "Segundo: WinShun. Aperta Ctrl duas vezes e acha qualquer arquivo, até dentro do Word. Esse é rápido… comenta WINDOWS que eu te mando os três. Mas o primeiro é o melhor.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "kensaku",
+   "repo": "yjid/kensaku",
+   "estrelas": 1196,
+   "fala": "E o primeiro: kensaku. Procura até o texto dentro dos seus prints.",
+   "legenda": "E o primeiro: kensaku. Procura até o texto dentro dos seus prints.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA WINDOWS",
+   "fala": "Comenta WINDOWS e me segue que eu te mando os três links.",
+   "legenda": "Comenta WINDOWS e me segue que eu te mando os três links.",
+   "sfx": []
+  }
+ ]
+}

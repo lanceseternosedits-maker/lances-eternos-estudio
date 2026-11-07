@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "AGENTE",
+ "tese": "3 ASSISTENTES DE IA QUE TRABALHAM SOZINHOS · +7 MIL ESTRELAS EM 1 MÊS · E O Nº 1 SÓ TE CHAMA QUANDO PRECISA",
+ "conceito": "Escritório de madrugada vazio onde só robôzinhos de blocos trabalham: cadeiras girando, luminárias, café esfriando; paleta azul-madrugada + amarelo-luminária + cinza. Gancho: o mascote dorme na mesa enquanto as tarefas se riscam sozinhas. Nº 1: um cartão sobe 'preciso de você' e o mascote acorda.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "b) carimbo",
+  "contador": "e) placar HI-SCORE",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "b) pódio",
+  "tipografia": "e) Caveat + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: dançar"
+ },
+ "brinde": "links dos 3 (exigem um pouco de técnica)",
+ "fontes": [
+  "https://github.com/rociiu/talorys",
+  "https://github.com/CopilotKit/OpenDuet",
+  "https://github.com/KKKKhazix/agent-autoloop"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Talorys 1.447, OpenDuet 1.977, agent-autoloop 3.773; total 7.197; criados entre 10/10 e 03/11.",
+ "obs": "",
+ "polemica": false,
+ "agenda": "2026-11-13 06:00",
+ "palavras": 101,
+ "duracao_estimada_s": 34.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 ASSISTENTES DE IA QUE TRABALHAM SOZINHOS",
+   "fala": "Assistente de IA que espera você mandar não é assistente. Esses três trabalham sozinhos.",
+   "legenda": "Assistente de IA que espera você mandar não é assistente. Esses três trabalham sozinhos.",
+   "itens": "assistentes-que-trabalham",
+   "etiqueta": [
+    "3 ASSISTENTES DE IA QUE TRABALHAM SOZINHOS",
+    "+7 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 SÓ TE CHAMA QUANDO PRECISA"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Talorys",
+   "repo": "rociiu/talorys",
+   "estrelas": 1447,
+   "fala": "Terceiro: Talorys. Seu assistente com memória e lembretes, na sua conta, de graça. Esse é prático… comenta AGENTE que eu te mando os três. Mas o primeiro é o sonho.",
+   "legenda": "Terceiro: Talorys. Seu assistente com memória e lembretes, na sua conta, de graça. Esse é prático… comenta AGENTE que eu te mando os três. Mas o primeiro é o sonho.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "OpenDuet",
+   "repo": "CopilotKit/OpenDuet",
+   "estrelas": 1977,
+   "fala": "Segundo: OpenDuet. Um agente que adianta o seu trabalho e te mantém por dentro. Esse é prático… comenta AGENTE que eu te mando os três. Mas o primeiro é o sonho.",
+   "legenda": "Segundo: OpenDuet. Um agente que adianta o seu trabalho e te mantém por dentro. Esse é prático… comenta AGENTE que eu te mando os três. Mas o primeiro é o sonho.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "agent-autoloop",
+   "repo": "KKKKhazix/agent-autoloop",
+   "estrelas": 3773,
+   "fala": "E o primeiro: ele trabalha no fundo e só te chama quando tem dúvida.",
+   "legenda": "E o primeiro: ele trabalha no fundo e só te chama quando tem dúvida.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA AGENTE",
+   "fala": "Comenta AGENTE e me segue que eu te mando os três links.",
+   "legenda": "Comenta AGENTE e me segue que eu te mando os três links.",
+   "sfx": []
+  }
+ ]
+}

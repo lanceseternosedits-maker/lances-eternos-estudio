@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "CAMERA",
+ "tese": "DESTRAVARAM A CÂMERA DA SONY · +1 MIL ESTRELAS EM 3 SEMANAS",
+ "conceito": "Laboratório fotográfico com luz vermelha: varal de fotos secando, bacias de revelação, uma câmera de blocos sobre a mesa com cadeado; paleta vermelho-revelação + preto + âmbar. Gancho: o cadeado da câmera estala e abre. Mascote de colete de fotógrafo.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: escalar"
+ },
+ "brinde": "link + aviso de risco/garantia",
+ "fontes": [
+  "https://github.com/QAQLeonard/a7c2-tools"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): QAQLeonard/a7c2-tools 1.136, criado em 17/10.",
+ "obs": "Só um modelo (A7C II, firmware 2.01): deixar claro. Sem logo da Sony. Avisar risco de firmware e garantia.",
+ "polemica": true,
+ "agenda": "2026-11-10 19:30",
+ "palavras": 69,
+ "duracao_estimada_s": 23.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "DESTRAVARAM A CÂMERA DA SONY",
+   "fala": "Tem recurso escondido na sua câmera Sony. E alguém destravou.",
+   "legenda": "Tem recurso escondido na sua câmera Sony. E alguém destravou.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "camera-sony-destravada",
+   "etiqueta": [
+    "DESTRAVARAM A CÂMERA DA SONY",
+    "+1 MIL ESTRELAS EM 3 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "A ferramenta a7c2-tools é pra Sony A7C II.",
+   "legenda": "A ferramenta a7c2-tools é pra Sony A7C II.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Com um clique: perfis de cor novos, LUTs próprias e tela na vertical.",
+   "legenda": "Com um clique: perfis de cor novos, LUTs próprias e tela na vertical.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Mais de mil estrelas. Comenta CAMERA que eu te mando.",
+   "legenda": "Mais de mil estrelas. Comenta CAMERA que eu te mando.",
+   "sfx": [],
+   "item": "a7c2-tools",
+   "repo": "QAQLeonard/a7c2-tools",
+   "estrelas": 1136
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Mexe no firmware: pode dar problema e afetar a garantia. Tem botão de voltar ao de fábrica.",
+   "legenda": "Mexe no firmware: pode dar problema e afetar a garantia. Tem botão de voltar ao de fábrica.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA CAMERA",
+   "fala": "Comenta CAMERA e me segue. Só pra quem sabe o risco.",
+   "legenda": "Comenta CAMERA e me segue. Só pra quem sabe o risco.",
+   "sfx": []
+  }
+ ]
+}

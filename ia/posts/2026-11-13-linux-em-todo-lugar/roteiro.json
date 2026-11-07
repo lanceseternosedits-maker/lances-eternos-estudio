@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "LINUX",
+ "tese": "3 JEITOS DE TER LINUX ONDE NINGUÉM ESPERA · +3 MIL ESTRELAS EM 3 SEMANAS · E O Nº 1 NEM PRECISA DE PENDRIVE",
+ "conceito": "Acampamento de pinguins de blocos (genéricos, sem o mascote do Linux) numa geleira: iglus, fogueira, auroras; paleta azul-gelo + verde-aurora + branco. Nº 1: um notebook se divide ao meio com duas janelas. Mascote de gorro e cachecol.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "d) split-flap",
+  "contador": "c) velocímetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "d) tela CONTINUE?",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: se esconder"
+ },
+ "brinde": "links dos 3 + aviso: faça backup antes",
+ "fontes": [
+  "https://github.com/lordbasex/LordOS",
+  "https://github.com/mxhm11cr/LinuxRunner",
+  "https://github.com/Arjun-Ingole/hop"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): LordOS 421, LinuxRunner 712, hop 1.573; total 2.706; criados entre 18/10 e 30/10.",
+ "obs": "Instalar ao lado do Windows tem risco de perder dados: backup.",
+ "polemica": false,
+ "agenda": "2026-11-13 08:00",
+ "palavras": 95,
+ "duracao_estimada_s": 32.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 JEITOS DE TER LINUX ONDE NINGUÉM ESPERA",
+   "fala": "Todo mundo acha que instalar Linux é difícil. Esses três provam que não.",
+   "legenda": "Todo mundo acha que instalar Linux é difícil. Esses três provam que não.",
+   "itens": "linux-em-todo-lugar",
+   "etiqueta": [
+    "3 JEITOS DE TER LINUX ONDE NINGUÉM ESPERA",
+    "+3 MIL ESTRELAS EM 3 SEMANAS",
+    "E O Nº 1 NEM PRECISA DE PENDRIVE"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "LordOS",
+   "repo": "lordbasex/LordOS",
+   "estrelas": 421,
+   "fala": "Terceiro: LordOS. Um Linux grátis com área de trabalho própria. Esse é diferente… comenta LINUX que eu te mando os três. Mas o primeiro é o mais fácil.",
+   "legenda": "Terceiro: LordOS. Um Linux grátis com área de trabalho própria. Esse é diferente… comenta LINUX que eu te mando os três. Mas o primeiro é o mais fácil.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "LinuxRunner",
+   "repo": "mxhm11cr/LinuxRunner",
+   "estrelas": 712,
+   "fala": "Segundo: LinuxRunner. Programas de Linux rodando no iPhone e no iPad. Esse é diferente… comenta LINUX que eu te mando os três. Mas o primeiro é o mais fácil.",
+   "legenda": "Segundo: LinuxRunner. Programas de Linux rodando no iPhone e no iPad. Esse é diferente… comenta LINUX que eu te mando os três. Mas o primeiro é o mais fácil.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "hop",
+   "repo": "Arjun-Ingole/hop",
+   "estrelas": 1573,
+   "fala": "E o primeiro: hop. Instala o Linux do lado do Windows, sem pendrive.",
+   "legenda": "E o primeiro: hop. Instala o Linux do lado do Windows, sem pendrive.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA LINUX",
+   "fala": "Comenta LINUX e me segue que eu te mando os três links.",
+   "legenda": "Comenta LINUX e me segue que eu te mando os três links.",
+   "sfx": []
+  }
+ ]
+}

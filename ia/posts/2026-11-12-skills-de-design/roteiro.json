@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "DESIGN",
+ "tese": "3 SKILLS QUE FAZEM DESIGN DE AGÊNCIA · +3 MIL ESTRELAS EM 1 MÊS · E O Nº 1 PARECE DA APPLE",
+ "conceito": "Mesa de luz de designer gráfico vista de frente: réguas, pantones genéricos, recortes de papel colorido, estilete; paleta azul-klein + laranja + branco-papel. Nº 1: uma tela de app se ergue em camadas 3D flutuantes. Mascote de boina riscando.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "b) odômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "e) página de caderno",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: carimbar"
+ },
+ "brinde": "links das 3",
+ "fontes": [
+  "https://github.com/Aixio-AI/aixio-layer-v2",
+  "https://github.com/juliobsz/skills",
+  "https://github.com/enesozturk/dimensional-drawing"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Aixio Layer 403, skills 1.188, Dimensional Drawing 1.903; total 3.494; criados entre 09/10 e 23/10.",
+ "obs": "",
+ "polemica": false,
+ "agenda": "2026-11-12 10:00",
+ "palavras": 88,
+ "duracao_estimada_s": 30.3,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 SKILLS QUE FAZEM DESIGN DE AGÊNCIA",
+   "fala": "Design bonito custa caro na agência. Essas três skills fazem em minutos.",
+   "legenda": "Design bonito custa caro na agência. Essas três skills fazem em minutos.",
+   "itens": "skills-de-design",
+   "etiqueta": [
+    "3 SKILLS QUE FAZEM DESIGN DE AGÊNCIA",
+    "+3 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 PARECE DA APPLE"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Aixio Layer",
+   "repo": "Aixio-AI/aixio-layer-v2",
+   "estrelas": 403,
+   "fala": "Terceiro: Aixio Layer. Separa uma arte pronta em camadas pra você editar. Esse ajuda… comenta DESIGN que eu te mando as três. Mas a primeira é linda.",
+   "legenda": "Terceiro: Aixio Layer. Separa uma arte pronta em camadas pra você editar. Esse ajuda… comenta DESIGN que eu te mando as três. Mas a primeira é linda.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "skills",
+   "repo": "juliobsz/skills",
+   "estrelas": 1188,
+   "fala": "Segundo: uma skill que faz site de premiação com uma linha. Esse ajuda… comenta DESIGN que eu te mando as três. Mas a primeira é linda.",
+   "legenda": "Segundo: uma skill que faz site de premiação com uma linha. Esse ajuda… comenta DESIGN que eu te mando as três. Mas a primeira é linda.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Dimensional Drawing",
+   "repo": "enesozturk/dimensional-drawing",
+   "estrelas": 1903,
+   "fala": "E o primeiro: desenhos de interface em 3D no estilo da Apple.",
+   "legenda": "E o primeiro: desenhos de interface em 3D no estilo da Apple.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA DESIGN",
+   "fala": "Comenta DESIGN e me segue que eu te mando as três.",
+   "legenda": "Comenta DESIGN e me segue que eu te mando as três.",
+   "sfx": []
+  }
+ ]
+}

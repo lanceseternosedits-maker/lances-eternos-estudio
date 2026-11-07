@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "INTERNET",
+ "tese": "SOMA O WI-FI COM O 4G · +3 MIL ESTRELAS EM 1 MÊS",
+ "conceito": "Encanamento de dados: canos transparentes de cores diferentes (Wi-Fi azul, 4G laranja, cabo verde) se juntando num cano grosso que enche uma caixa-d'água de bolinhas de luz; paleta azul-piscina + laranja + verde-cano. Mascote de capacete de obra girando registros.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "b) carimbo",
+  "contador": "e) placar HI-SCORE",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "b) pódio",
+  "tipografia": "e) Caveat + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: dançar"
+ },
+ "brinde": "link + passo a passo de instalação no Windows",
+ "fontes": [
+  "https://github.com/net-merge/net-merge"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): net-merge/net-merge 2.932, criado em 12/10.",
+ "obs": "Não prometer 'velocidade dobrada': o README fala em balanceamento por conexão.",
+ "polemica": false,
+ "agenda": "2026-11-09 10:00",
+ "palavras": 83,
+ "duracao_estimada_s": 28.6,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "SOMA O WI-FI COM O 4G",
+   "fala": "Seu celular tem Wi-Fi e 4G. E se usasse os dois ao mesmo tempo?",
+   "legenda": "Seu celular tem Wi-Fi e 4G. E se usasse os dois ao mesmo tempo?",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "internet-somada",
+   "etiqueta": [
+    "SOMA O WI-FI COM O 4G",
+    "+3 MIL ESTRELAS EM 1 MÊS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O net-merge faz isso: junta todas as conexões numa só.",
+   "legenda": "O net-merge faz isso: junta todas as conexões numa só.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Wi-Fi, cabo, dados do celular, roteador do vizinho que é seu amigo. Tudo junto.",
+   "legenda": "Wi-Fi, cabo, dados do celular, roteador do vizinho que é seu amigo. Tudo junto.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Quase três mil estrelas em menos de um mês. Comenta INTERNET que eu te mando.",
+   "legenda": "Quase três mil estrelas em menos de um mês. Comenta INTERNET que eu te mando.",
+   "sfx": [],
+   "item": "net-merge",
+   "repo": "net-merge/net-merge",
+   "estrelas": 2932
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Funciona no Windows, no Mac, no Linux e no Android. E é de graça.",
+   "legenda": "Funciona no Windows, no Mac, no Linux e no Android. E é de graça.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA INTERNET",
+   "fala": "Comenta INTERNET e me segue que eu te mando o link e o passo a passo.",
+   "legenda": "Comenta INTERNET e me segue que eu te mando o link e o passo a passo.",
+   "sfx": []
+  }
+ ]
+}

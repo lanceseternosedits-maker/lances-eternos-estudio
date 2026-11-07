@@ -1,19 +1,20 @@
 # Grafo de conteúdo do IA em 60s
-Gerado em 2026-11-06 06:09 · 30 posts · 281 nós · 472 ligações
+Gerado em 2026-11-07 07:19 · 86 posts · 575 nós · 1046 ligações
 
 ## Use antes de criar
 
-- **Temas saturados (3+ posts em 7 dias, evite):** GitHub em alta, agentes de IA, skills do Claude Code
-- **Empresas saturadas (3+ posts em 7 dias, evite):** Anthropic
-- **Pilares sem post nos últimos 7 dias (prioridade):** nenhum
-- **Posts por pilar (7 dias):** tutorial 6, lista 6, novidade 3, em_alta 3, recomendacao 2
+- **Temas saturados (3+ posts em 7 dias, evite):** nenhum
+- **Empresas saturadas (3+ posts em 7 dias, evite):** nenhuma
+- **Pilares sem post nos últimos 7 dias (prioridade):** novidade, tutorial, recomendacao, em_alta
+- **Posts por pilar (7 dias):** reel 56
 
 ## O que vem funcionando
 
 ### Pilar
 | Pilar | posts | engajamento médio |
 |---|---|---|
-| lista | 6 | 82 |
+| lista | 6 | 44 |
+| reel | 56 | sem dado |
 | novidade | 9 | sem dado |
 | tutorial | 8 | sem dado |
 | em_alta | 4 | 0 |
@@ -24,12 +25,12 @@ Gerado em 2026-11-06 06:09 · 30 posts · 281 nós · 472 ligações
 |---|---|---|
 | GitHub em alta | 5 | 82 |
 | skills do Claude Code | 3 | 41 |
+| games | 1 | 7 |
+| Nintendo Switch | 1 | 7 |
+| polêmica legal | 1 | 7 |
 | agentes de IA | 7 | sem dado |
 | produtividade | 4 | sem dado |
 | segurança | 3 | sem dado |
-| programação | 3 | sem dado |
-| segurança de IA | 3 | sem dado |
-| privacidade | 3 | sem dado |
 
 ### Empresa
 | Empresa | posts | engajamento médio |
@@ -46,7 +47,7 @@ Gerado em 2026-11-06 06:09 · 30 posts · 281 nós · 472 ligações
 ### Paleta
 | Paleta | posts | engajamento médio |
 |---|---|---|
-| paleta None | 7 | 82 |
+| paleta None | 63 | 44 |
 | paleta 1 | 9 | sem dado |
 | paleta 2 | 5 | sem dado |
 | paleta 4 | 4 | sem dado |
@@ -57,37 +58,38 @@ Gerado em 2026-11-06 06:09 · 30 posts · 281 nós · 472 ligações
 | Horário | posts | engajamento médio |
 |---|---|---|
 | 05h | 2 | 82 |
+| 06h | 2 | 7 |
+| 20h | 57 | sem dado |
 | 19h | 6 | 0 |
 | 17h | 4 | sem dado |
 | 18h | 3 | sem dado |
 | 12h | 3 | 0 |
 | 07h | 3 | sem dado |
-| 14h | 2 | sem dado |
-| 13h | 2 | sem dado |
 
 ### Rede
 | Rede | posts | engajamento médio |
 |---|---|---|
-| instagram | 30 | 41 |
-| tiktok | 28 | 41 |
+| instagram | 86 | 30 |
+| tiktok | 84 | 30 |
 | youtube | 15 | sem dado |
 | instagram_reel | 1 | sem dado |
 
 ### Formato
 | Formato | posts | engajamento médio |
 |---|---|---|
-| reel formato 3 (contagem regressiva com mistério) | 6 | 82 |
+| reel formato 3 (contagem regressiva com mistério) | 6 | 44 |
+| palco | 30 | sem dado |
+| contagem | 26 | sem dado |
 | lista | 10 | sem dado |
 | noticia | 5 | sem dado |
 | tutorial | 3 | sem dado |
 | reel | 2 | sem dado |
 | reel animado | 1 | sem dado |
-| carrossel + reel 3D | 1 | sem dado |
-| reel animado 3D | 1 | 0 |
 
 ### Melhores posts
 
 - 2026-11-07-5-skills (lista): 82
+- 2026-11-08-nintendo (lista): 7
 - 2026-11-04-desenho-animado (em_alta): 0
 
 ## Cobertura geral
@@ -107,7 +109,7 @@ Gerado em 2026-11-06 06:09 · 30 posts · 281 nós · 472 ligações
 | IA local | 2 |
 | IA no celular | 2 |
 | edição de vídeo | 2 |
-| senhas | 1 |
-| mercado | 1 |
+| games | 1 |
+| Nintendo Switch | 1 |
 
 Engajamento = salvamentos×3 + compartilhamentos×3 + comentários×2 + curtidas, somado nas redes.

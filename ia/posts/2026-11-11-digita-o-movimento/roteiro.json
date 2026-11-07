@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "BONECO",
+ "tese": "DIGITE O MOVIMENTO E O BONECO FAZ · +1 MIL ESTRELAS EM 3 SEMANAS",
+ "conceito": "Estúdio de captura de movimento: chão com grade, câmeras em volta, manequim de pontinhos; paleta verde-chroma + magenta + preto. Mascote de roupa de captura com bolinhas, dançando. Nº 1 (fim): o manequim copia o mascote.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "d) split-flap",
+  "contador": "c) velocímetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "d) tela CONTINUE?",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: fazer mágica"
+ },
+ "brinde": "link",
+ "fontes": [
+  "https://github.com/blendi-remade/prompt2rig"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): blendi-remade/prompt2rig 530, criado em 19/10.",
+ "obs": "Precisa de GPU; conferir requisitos.",
+ "polemica": false,
+ "agenda": "2026-11-11 21:30",
+ "palavras": 64,
+ "duracao_estimada_s": 22.1,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "DIGITE O MOVIMENTO E O BONECO FAZ",
+   "fala": "Você digita 'dança de TikTok' e um boneco 3D dança na hora.",
+   "legenda": "Você digita 'dança de TikTok' e um boneco 3D dança na hora.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "digita-o-movimento",
+   "etiqueta": [
+    "DIGITE O MOVIMENTO E O BONECO FAZ",
+    "+1 MIL ESTRELAS EM 3 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O prompt2rig junta um modelo de vídeo com captura de movimento.",
+   "legenda": "O prompt2rig junta um modelo de vídeo com captura de movimento.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "O personagem já sai pronto pra animação e jogo.",
+   "legenda": "O personagem já sai pronto pra animação e jogo.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Quinhentas estrelas em três semanas. Comenta BONECO que eu te mando.",
+   "legenda": "Quinhentas estrelas em três semanas. Comenta BONECO que eu te mando.",
+   "sfx": [],
+   "item": "prompt2rig",
+   "repo": "blendi-remade/prompt2rig",
+   "estrelas": 530
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Serve pra quem faz jogo, animação ou só quer brincar.",
+   "legenda": "Serve pra quem faz jogo, animação ou só quer brincar.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA BONECO",
+   "fala": "Comenta BONECO e me segue que eu te mando o link.",
+   "legenda": "Comenta BONECO e me segue que eu te mando o link.",
+   "sfx": []
+  }
+ ]
+}

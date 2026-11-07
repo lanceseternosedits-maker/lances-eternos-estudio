@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "MAC",
+ "tese": "3 APPS GRÁTIS QUE O MAC DEVIA TER · +4 MIL ESTRELAS EM 1 MÊS · E O Nº 1 É VICIANTE",
+ "conceito": "Varal de roupa num quintal ensolarado: prendedores de madeira, roupas que viram janelas de app, cesto de vime; paleta azul-céu + branco-lençol + madeira clara. Nº 1: os prints pendurados no varal balançando ao vento. Mascote de chapéu de palha pendurando as janelas.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: correr"
+ },
+ "brinde": "links dos 3",
+ "fontes": [
+  "https://github.com/opennookorg/betterwispr",
+  "https://github.com/SaarthurR/atticus-mac",
+  "https://github.com/alejandrobujan/tendedero"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): BetterWispr 514, Atticus 663, Tendedero 3.070; total 4.247; criados entre 07/10 e 10/10.",
+ "obs": "",
+ "polemica": false,
+ "agenda": "2026-11-09 14:00",
+ "palavras": 96,
+ "duracao_estimada_s": 33.1,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 APPS GRÁTIS QUE O MAC DEVIA TER",
+   "fala": "Seu Mac caro não vem com isso. Três apps grátis resolvem.",
+   "legenda": "Seu Mac caro não vem com isso. Três apps grátis resolvem.",
+   "itens": "apps-gratis-mac",
+   "etiqueta": [
+    "3 APPS GRÁTIS QUE O MAC DEVIA TER",
+    "+4 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 É VICIANTE"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "BetterWispr",
+   "repo": "opennookorg/betterwispr",
+   "estrelas": 514,
+   "fala": "Terceiro: BetterWispr. Segura um atalho, fala, e o texto aparece em qualquer app. Sem internet. Esse ajuda muito… comenta MAC que eu te mando os três. Mas o primeiro é viciante.",
+   "legenda": "Terceiro: BetterWispr. Segura um atalho, fala, e o texto aparece em qualquer app. Sem internet. Esse ajuda muito… comenta MAC que eu te mando os três. Mas o primeiro é viciante.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Atticus",
+   "repo": "SaarthurR/atticus-mac",
+   "estrelas": 663,
+   "fala": "Segundo: Atticus. Assistente de voz que usa o seu plano do Claude. Esse ajuda muito… comenta MAC que eu te mando os três. Mas o primeiro é viciante.",
+   "legenda": "Segundo: Atticus. Assistente de voz que usa o seu plano do Claude. Esse ajuda muito… comenta MAC que eu te mando os três. Mas o primeiro é viciante.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Tendedero",
+   "repo": "alejandrobujan/tendedero",
+   "estrelas": 3070,
+   "fala": "E o primeiro: Tendedero. Cada print fica pendurado num varal no topo da tela.",
+   "legenda": "E o primeiro: Tendedero. Cada print fica pendurado num varal no topo da tela.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA MAC",
+   "fala": "Comenta MAC e me segue que eu te mando os três links.",
+   "legenda": "Comenta MAC e me segue que eu te mando os três links.",
+   "sfx": []
+  }
+ ]
+}

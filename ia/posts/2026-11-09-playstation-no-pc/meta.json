@@ -1,0 +1,23 @@
+{
+ "data": "2026-11-09",
+ "horario": "12:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "playstation-no-pc"
+ ],
+ "fontes": [
+  "https://github.com/GetLostIn/CTR-NitroFueled-PC",
+  "https://github.com/HayatoG/iss_pc",
+  "https://github.com/AjncSystem/ShadowOfTheColossus-PC",
+  "https://github.com/Supermedo/uncharted_pc",
+  "https://github.com/LoreanXavier/pt-pc"
+ ],
+ "cta": "PLAY",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-09 12:00",
+  "tiktok": "2026-11-09 12:00"
+ },
+ "status": "aguardando aprovação"
+}

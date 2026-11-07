@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "APP",
+ "tese": "CRIE SEU PRÓPRIO APP DE MAC SEM SABER PROGRAMAR · +2 MIL ESTRELAS EM 2 SEMANAS",
+ "conceito": "Ateliê de marcenaria fina: bancada, plaina, pedaços de madeira virando janelas de app arredondadas; paleta nogueira + cinza-alumínio + verde-semáforo. Mascote de avental de couro e lápis atrás da orelha.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "d) split-flap",
+  "contador": "c) velocímetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "d) tela CONTINUE?",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: fazer mágica"
+ },
+ "brinde": "link + 3 ideias de app para começar",
+ "fontes": [
+  "https://github.com/daveebbelaar/bama"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): daveebbelaar/bama 1.648, criado em 24/10.",
+ "obs": "'Sem saber programar' é exagero leve: dizer 'sem escrever código'.",
+ "polemica": false,
+ "agenda": "2026-11-15 19:00",
+ "palavras": 66,
+ "duracao_estimada_s": 22.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "CRIE SEU PRÓPRIO APP DE MAC SEM SABER PROGRAMAR",
+   "fala": "Você descreve o app e o Claude faz um app de Mac de verdade.",
+   "legenda": "Você descreve o app e o Claude faz um app de Mac de verdade.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "crie-seu-app-de-mac",
+   "etiqueta": [
+    "CRIE SEU PRÓPRIO APP DE MAC SEM SABER PROGRAMAR",
+    "+2 MIL ESTRELAS EM 2 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O BAMA é um pacote de skills pra criar apps nativos de Mac.",
+   "legenda": "O BAMA é um pacote de skills pra criar apps nativos de Mac.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Ele pesquisa, desenha, programa e testa o app.",
+   "legenda": "Ele pesquisa, desenha, programa e testa o app.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Mil e seiscentas estrelas. Comenta APP que eu te mando.",
+   "legenda": "Mil e seiscentas estrelas. Comenta APP que eu te mando.",
+   "sfx": [],
+   "item": "bama",
+   "repo": "daveebbelaar/bama",
+   "estrelas": 1648
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Precisa do Claude Code e de um Mac.",
+   "legenda": "Precisa do Claude Code e de um Mac.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA APP",
+   "fala": "Comenta APP e me segue que eu te mando o passo a passo.",
+   "legenda": "Comenta APP e me segue que eu te mando o passo a passo.",
+   "sfx": []
+  }
+ ]
+}

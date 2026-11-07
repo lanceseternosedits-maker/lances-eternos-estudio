@@ -1,0 +1,143 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "COPIA",
+ "tese": "5 PROJETOS PRA ENTENDER QUALQUER PROGRAMA · +26 MIL ESTRELAS EM 1 MÊS · E O Nº 1 TE ENSINA A FAZER O SEU",
+ "conceito": "Oficina de relojoeiro gigante: um relógio de bolso enorme aberto mostrando engrenagens, lupas, pinças, molas pelo chão; paleta latão + azul-aço + creme. Gancho: o mascote de óculos de lupa desparafusa uma caixa preta. Nº 1: as peças se remontam numa caixa nova com a cara do mascote.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: soldar"
+ },
+ "brinde": "links dos 5 + aviso legal (Lei de Software 9.609/98)",
+ "fontes": [
+  "https://github.com/Zfinix/eleven",
+  "https://github.com/NabilRFG12/Reverse-Engineer-anything",
+  "https://github.com/alexgaoth/awesome-reverse-engineered",
+  "https://github.com/JoasASantos/REA-Prompts",
+  "https://github.com/storytold/craft-anything"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): eleven 970, Reverse Engineer Anything 1.218, Awesome Reverse Engineered 1.264, REA Prompts 3.719, Craft Anything 18.774; total 25.945; criados entre 08/10 e 31/10.",
+ "obs": "Engenharia reversa tem limites legais: não sugerir burlar proteção nem copiar software pago. Linguagem: 'entender como funciona'.",
+ "polemica": true,
+ "agenda": "2026-11-11 12:00",
+ "palavras": 101,
+ "duracao_estimada_s": 34.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROJETOS PRA ENTENDER QUALQUER PROGRAMA",
+   "fala": "As big techs escondem como os programas funcionam. Esses projetos abrem tudo.",
+   "legenda": "As big techs escondem como os programas funcionam. Esses projetos abrem tudo.",
+   "itens": "copiar-qualquer-app",
+   "etiqueta": [
+    "5 PROJETOS PRA ENTENDER QUALQUER PROGRAMA",
+    "+26 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 TE ENSINA A FAZER O SEU"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "eleven",
+   "repo": "Zfinix/eleven",
+   "estrelas": 970,
+   "fala": "Quinto: eleven. Uma IA lê e explica programas fechados do seu lado.",
+   "legenda": "Quinto: eleven. Uma IA lê e explica programas fechados do seu lado.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Reverse Engineer Anything",
+   "repo": "NabilRFG12/Reverse-Engineer-anything",
+   "estrelas": 1218,
+   "fala": "Quarto: agentes que descobrem como um app funciona por dentro.",
+   "legenda": "Quarto: agentes que descobrem como um app funciona por dentro.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Awesome Reverse Engineered",
+   "repo": "alexgaoth/awesome-reverse-engineered",
+   "estrelas": 1264,
+   "fala": "Terceiro: dezessete mil ferramentas nascidas de engenharia reversa, num lugar só. Esse é poderoso… comenta COPIA que eu te mando os cinco. Mas o próximo é o maior.",
+   "legenda": "Terceiro: dezessete mil ferramentas nascidas de engenharia reversa, num lugar só. Esse é poderoso… comenta COPIA que eu te mando os cinco. Mas o próximo é o maior.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "REA Prompts",
+   "repo": "JoasASantos/REA-Prompts",
+   "estrelas": 3719,
+   "fala": "Segundo: prompts prontos pra desmontar qualquer programa.",
+   "legenda": "Segundo: prompts prontos pra desmontar qualquer programa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Craft Anything",
+   "repo": "storytold/craft-anything",
+   "estrelas": 18774,
+   "fala": "E o primeiro: entende como qualquer programa funciona e te ajuda a fazer o seu.",
+   "legenda": "E o primeiro: entende como qualquer programa funciona e te ajuda a fazer o seu.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA COPIA",
+   "fala": "Comenta COPIA e me segue. Use só com programa que é seu ou que a licença permite.",
+   "legenda": "Comenta COPIA e me segue. Use só com programa que é seu ou que a licença permite.",
+   "sfx": []
+  }
+ ]
+}

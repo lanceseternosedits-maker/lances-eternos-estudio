@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "QUADRO",
+ "tese": "QUADROS FAMOSOS GANHAM VIDA COM IA · +6 MIL ESTRELAS EM 1 MÊS",
+ "conceito": "Museu à noite depois que fecha: molduras douradas na parede, banco de veludo, cordão de isolamento; paleta azul-noite + dourado + vermelho-veludo. Gancho: o céu de um quadro genérico (pinceladas espirais) começa a girar. Mascote de crachá de vigia com lanterna.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: peneirar"
+ },
+ "brinde": "link + 3 prompts de estilos",
+ "fontes": [
+  "https://github.com/alchaincyf/huashu-art-motion"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): alchaincyf/huashu-art-motion 6.417, criado em 06/10.",
+ "obs": "Obras em domínio público (Van Gogh). README em chinês: conferir. Precisa do Claude Code.",
+ "polemica": false,
+ "agenda": "2026-11-12 17:00",
+ "palavras": 63,
+ "duracao_estimada_s": 21.7,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "QUADROS FAMOSOS GANHAM VIDA COM IA",
+   "fala": "A Noite Estrelada, girando de verdade. Feita com uma skill.",
+   "legenda": "A Noite Estrelada, girando de verdade. Feita com uma skill.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "quadros-ganham-vida",
+   "etiqueta": [
+    "QUADROS FAMOSOS GANHAM VIDA COM IA",
+    "+6 MIL ESTRELAS EM 1 MÊS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O huashu-art-motion anima pinturas com código.",
+   "legenda": "O huashu-art-motion anima pinturas com código.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "São trinta e cinco estilos de arte e nove jeitos de narrar.",
+   "legenda": "São trinta e cinco estilos de arte e nove jeitos de narrar.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Seis mil e quatrocentas estrelas. Comenta QUADRO que eu te mando.",
+   "legenda": "Seis mil e quatrocentas estrelas. Comenta QUADRO que eu te mando.",
+   "sfx": [],
+   "item": "huashu-art-motion",
+   "repo": "alchaincyf/huashu-art-motion",
+   "estrelas": 6417
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Perfeito pra vídeo de história da arte ou pra aula.",
+   "legenda": "Perfeito pra vídeo de história da arte ou pra aula.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA QUADRO",
+   "fala": "Comenta QUADRO e me segue que eu te mando o link e os prompts.",
+   "legenda": "Comenta QUADRO e me segue que eu te mando o link e os prompts.",
+   "sfx": []
+  }
+ ]
+}

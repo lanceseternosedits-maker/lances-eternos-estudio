@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-14",
+ "horario": "22:00",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "ia-liga-pra-voce"
+ ],
+ "fontes": [
+  "https://github.com/mutonby/agentring"
+ ],
+ "cta": "LIGACAO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-14 22:00",
+  "tiktok": "2026-11-14 22:00"
+ },
+ "status": "aguardando aprovação"
+}

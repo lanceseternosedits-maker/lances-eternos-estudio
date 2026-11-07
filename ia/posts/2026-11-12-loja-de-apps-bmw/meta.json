@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-12",
+ "horario": "19:30",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "loja-de-apps-bmw"
+ ],
+ "fontes": [
+  "https://github.com/robertnisipeanu/mgu-store"
+ ],
+ "cta": "BMW",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-12 19:30",
+  "tiktok": "2026-11-12 19:30"
+ },
+ "status": "aguardando aprovação"
+}

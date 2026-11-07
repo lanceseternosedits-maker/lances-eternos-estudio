@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "SOBREVIVE",
+ "tese": "A IA QUE FUNCIONA SEM INTERNET · +2 MIL ESTRELAS EM 2 SEMANAS",
+ "conceito": "Bunker aconchegante: prateleiras de enlatados genéricos, rádio a manivela, lanterna, mapa de papel; paleta verde-oliva + laranja-sinalizador + cinza-concreto. Gancho: as luzes da cidade (maquete) apagam e só o notebook do mascote acende. Mascote de mochila de trilha e lanterna de cabeça.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote de estrelas",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: costurar"
+ },
+ "brinde": "link + o que baixar antes de ficar offline",
+ "fontes": [
+  "https://github.com/anonnerdfrenzy/survival-llm"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): anonnerdfrenzy/survival-llm 1.529, criado em 24/10.",
+ "obs": "Sem medo gratuito: tom de 'kit de emergência'. Não substitui médico; dizer na legenda.",
+ "polemica": false,
+ "agenda": "2026-11-11 14:00",
+ "palavras": 63,
+ "duracao_estimada_s": 21.7,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IA QUE FUNCIONA SEM INTERNET",
+   "fala": "Se a internet cair amanhã, essa IA continua funcionando.",
+   "legenda": "Se a internet cair amanhã, essa IA continua funcionando.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "ia-do-fim-do-mundo",
+   "etiqueta": [
+    "A IA QUE FUNCIONA SEM INTERNET",
+    "+2 MIL ESTRELAS EM 2 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O survival-llm é um assistente e uma biblioteca de sobrevivência que roda no seu PC.",
+   "legenda": "O survival-llm é um assistente e uma biblioteca de sobrevivência que roda no seu PC.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Primeiros socorros, água, comida, conserto. Sem internet.",
+   "legenda": "Primeiros socorros, água, comida, conserto. Sem internet.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "E ele mostra a fonte de cada resposta. Comenta SOBREVIVE que eu te mando.",
+   "legenda": "E ele mostra a fonte de cada resposta. Comenta SOBREVIVE que eu te mando.",
+   "sfx": [],
+   "item": "survival-llm",
+   "repo": "anonnerdfrenzy/survival-llm",
+   "estrelas": 1529
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Instala hoje, enquanto a internet ainda funciona.",
+   "legenda": "Instala hoje, enquanto a internet ainda funciona.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA SOBREVIVE",
+   "fala": "Comenta SOBREVIVE e me segue que eu te mando o link.",
+   "legenda": "Comenta SOBREVIVE e me segue que eu te mando o link.",
+   "sfx": []
+  }
+ ]
+}

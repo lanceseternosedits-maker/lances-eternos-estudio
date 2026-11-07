@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "APRENDE",
+ "tese": "A IA QUE TE ENSINA COISA DIFÍCIL · +6 MIL ESTRELAS EM 3 SEMANAS",
+ "conceito": "Escalada em parede de boulder: agarras coloridas viram fórmulas, colchão azul, giz no ar; paleta laranja-agarra + azul-colchão + cinza-pedra. Mascote de magnésio nas mãos subindo, e a IA (um balão) dá dica de onde pôr o pé.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote de estrelas",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: consertar"
+ },
+ "brinde": "link + prompt de 'professor socrático' para usar no ChatGPT",
+ "fontes": [
+  "https://github.com/amosblomqvist/learnharness"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): amosblomqvist/learnharness 5.841, criado em 16/10.",
+ "obs": "Tema próximo de 'estudar' (08/11): ângulo 'aprender qualquer coisa difícil', público adulto.",
+ "polemica": false,
+ "agenda": "2026-11-14 09:00",
+ "palavras": 65,
+ "duracao_estimada_s": 22.4,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IA QUE TE ENSINA COISA DIFÍCIL",
+   "fala": "Quer aprender algo difícil? Essa IA não te dá a resposta. Ela te ensina.",
+   "legenda": "Quer aprender algo difícil? Essa IA não te dá a resposta. Ela te ensina.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "aprender-coisa-dificil",
+   "etiqueta": [
+    "A IA QUE TE ENSINA COISA DIFÍCIL",
+    "+6 MIL ESTRELAS EM 3 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O learnharness transforma um agente de IA num professor paciente.",
+   "legenda": "O learnharness transforma um agente de IA num professor paciente.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Ele vai no seu ritmo e te faz pensar.",
+   "legenda": "Ele vai no seu ritmo e te faz pensar.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Quase seis mil estrelas em três semanas. Comenta APRENDE que eu te mando.",
+   "legenda": "Quase seis mil estrelas em três semanas. Comenta APRENDE que eu te mando.",
+   "sfx": [],
+   "item": "learnharness",
+   "repo": "amosblomqvist/learnharness",
+   "estrelas": 5841
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Funciona pra programação, matemática ou qualquer assunto chato.",
+   "legenda": "Funciona pra programação, matemática ou qualquer assunto chato.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA APRENDE",
+   "fala": "Comenta APRENDE e me segue que eu te mando o link.",
+   "legenda": "Comenta APRENDE e me segue que eu te mando o link.",
+   "sfx": []
+  }
+ ]
+}

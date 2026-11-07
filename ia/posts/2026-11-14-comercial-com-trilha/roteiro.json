@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "COMERCIAL",
+ "tese": "A IA FAZ O COMERCIAL DO SEU PRODUTO, COM MÚSICA · +2 MIL ESTRELAS EM 3 SEMANAS",
+ "conceito": "Set de filmagem de comercial de TV: fundo infinito, um produto genérico (caixa de blocos) girando num pedestal, claquete, grua; paleta amarelo-estúdio + preto + ciano. Mascote diretor de megafone e boné. Nº 1: o mascote aponta um quadro e ele muda de cor.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon",
+  "nome": "d) split-flap",
+  "contador": "c) velocímetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "d) tela CONTINUE?",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: malabarismo"
+ },
+ "brinde": "link + roteiro de comercial de 15 s",
+ "fontes": [
+  "https://github.com/alchaincyf/huashu-motion"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): alchaincyf/huashu-motion 2.462, criado em 18/10.",
+ "obs": "README em chinês: conferir. Precisa de agente (Claude Code).",
+ "polemica": false,
+ "agenda": "2026-11-14 15:00",
+ "palavras": 70,
+ "duracao_estimada_s": 24.1,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IA FAZ O COMERCIAL DO SEU PRODUTO, COM MÚSICA",
+   "fala": "Comercial de produto custa caro. Essa skill faz um com trilha própria.",
+   "legenda": "Comercial de produto custa caro. Essa skill faz um com trilha própria.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "comercial-com-trilha",
+   "etiqueta": [
+    "A IA FAZ O COMERCIAL DO SEU PRODUTO, COM MÚSICA",
+    "+2 MIL ESTRELAS EM 3 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O huashu-motion faz vídeo de lançamento com o seu agente de IA.",
+   "legenda": "O huashu-motion faz vídeo de lançamento com o seu agente de IA.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Ele compõe a música e você aponta no quadro o que quer mudar.",
+   "legenda": "Ele compõe a música e você aponta no quadro o que quer mudar.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Duas mil e quatrocentas estrelas. Comenta COMERCIAL que eu te mando.",
+   "legenda": "Duas mil e quatrocentas estrelas. Comenta COMERCIAL que eu te mando.",
+   "sfx": [],
+   "item": "huashu-motion",
+   "repo": "alchaincyf/huashu-motion",
+   "estrelas": 2462
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Bom pra loja, app ou serviço que precisa aparecer.",
+   "legenda": "Bom pra loja, app ou serviço que precisa aparecer.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA COMERCIAL",
+   "fala": "Comenta COMERCIAL e me segue que eu te mando o passo a passo.",
+   "legenda": "Comenta COMERCIAL e me segue que eu te mando o passo a passo.",
+   "sfx": []
+  }
+ ]
+}

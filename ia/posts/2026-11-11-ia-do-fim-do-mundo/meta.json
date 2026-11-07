@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-11",
+ "horario": "14:00",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "ia-do-fim-do-mundo"
+ ],
+ "fontes": [
+  "https://github.com/anonnerdfrenzy/survival-llm"
+ ],
+ "cta": "SOBREVIVE",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-11 14:00",
+  "tiktok": "2026-11-11 14:00"
+ },
+ "status": "aguardando aprovação"
+}

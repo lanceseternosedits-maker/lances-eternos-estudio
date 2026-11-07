@@ -1,0 +1,23 @@
+{
+ "data": "2026-11-09",
+ "horario": "21:30",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "bizarros-github"
+ ],
+ "fontes": [
+  "https://github.com/Leonxlnx/athenaion",
+  "https://github.com/divagr18/qwenputer",
+  "https://github.com/Noniv/web-ocean",
+  "https://github.com/chenglou/handwired",
+  "https://github.com/aschmelyun/print-my-profile-pic"
+ ],
+ "cta": "BIZARRO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-09 21:30",
+  "tiktok": "2026-11-09 21:30"
+ },
+ "status": "aguardando aprovação"
+}

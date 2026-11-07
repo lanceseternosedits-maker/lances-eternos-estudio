@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "LAB",
+ "tese": "LABORATÓRIO DE CIÊNCIAS 3D DE GRAÇA · +2 MIL ESTRELAS EM 10 DIAS",
+ "conceito": "Laboratório de química de escola: bancadas pretas, tubos de ensaio coloridos borbulhando, tabela periódica genérica, jaleco pendurado; paleta verde-químico + roxo + branco-jaleco. Mascote de óculos de proteção e luvas, misturando dois tubos que soltam fumaça colorida.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: soldar"
+ },
+ "brinde": "link + 3 experimentos para começar",
+ "fontes": [
+  "https://github.com/smithjohn78390/tongjiang-lab"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): smithjohn78390/tongjiang-lab 1.657, criado em 28/10.",
+ "obs": "Site em chinês/inglês? Conferir idioma antes; se não tiver português, dizer 'em inglês'.",
+ "polemica": false,
+ "agenda": "2026-11-15 11:00",
+ "palavras": 60,
+ "duracao_estimada_s": 20.7,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "LABORATÓRIO DE CIÊNCIAS 3D DE GRAÇA",
+   "fala": "Sua escola não tem laboratório? Esse site tem.",
+   "legenda": "Sua escola não tem laboratório? Esse site tem.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "laboratorio-3d-gratis",
+   "etiqueta": [
+    "LABORATÓRIO DE CIÊNCIAS 3D DE GRAÇA",
+    "+2 MIL ESTRELAS EM 10 DIAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O Tongjiang Lab tem aulas de ciência em 3D, interativas e grátis.",
+   "legenda": "O Tongjiang Lab tem aulas de ciência em 3D, interativas e grátis.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Você mexe no experimento e vê o que acontece.",
+   "legenda": "Você mexe no experimento e vê o que acontece.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Mil e seiscentas estrelas. Comenta LAB que eu te mando.",
+   "legenda": "Mil e seiscentas estrelas. Comenta LAB que eu te mando.",
+   "sfx": [],
+   "item": "tongjiang-lab",
+   "repo": "smithjohn78390/tongjiang-lab",
+   "estrelas": 1657
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "É feito pro ensino médio e roda no navegador.",
+   "legenda": "É feito pro ensino médio e roda no navegador.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA LAB",
+   "fala": "Comenta LAB e me segue pra mais IA que ajuda a estudar.",
+   "legenda": "Comenta LAB e me segue pra mais IA que ajuda a estudar.",
+   "sfx": []
+  }
+ ]
+}

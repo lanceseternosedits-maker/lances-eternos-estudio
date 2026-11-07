@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "LOCAL",
+ "tese": "3 JEITOS DE RODAR IA GIGANTE NO SEU PC · +4 MIL ESTRELAS EM 1 MÊS · E O Nº 1 RODA UMA IA DE 748 BILHÕES",
+ "conceito": "Sala de servidores caseira em um armário de lavanderia: máquina de lavar, PCs empilhados com LEDs, ventiladores, roupa no varal; paleta azul-LED + branco-azulejo + laranja-aviso. Gancho: uma nuvem de chuva é puxada para dentro de um gabinete. Mascote de touca de banho e chave inglesa.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "b) carimbo",
+  "contador": "e) placar HI-SCORE",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "b) pódio",
+  "tipografia": "e) Caveat + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: patinar"
+ },
+ "brinde": "links dos 3 + aviso de hardware necessário",
+ "fontes": [
+  "https://github.com/nace-ai/kapitsa",
+  "https://github.com/simplexai-labs/PolyStrata",
+  "https://github.com/mw00/project-maya"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): kapitsa 662, PolyStrata 899, Project Maya 2.611; total 4.172; criados entre 06/10 e 16/10.",
+ "obs": "Project Maya exige várias GPUs: dizer 'pra quem tem máquina forte'. Não sugerir que é barato.",
+ "polemica": true,
+ "agenda": "2026-11-14 13:00",
+ "palavras": 97,
+ "duracao_estimada_s": 33.4,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 JEITOS DE RODAR IA GIGANTE NO SEU PC",
+   "fala": "As big techs querem que você pague mensalidade de IA. Esses três rodam IA no seu computador.",
+   "legenda": "As big techs querem que você pague mensalidade de IA. Esses três rodam IA no seu computador.",
+   "itens": "ia-gigante-no-pc",
+   "etiqueta": [
+    "3 JEITOS DE RODAR IA GIGANTE NO SEU PC",
+    "+4 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 RODA UMA IA DE 748 BILHÕES"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "kapitsa",
+   "repo": "nace-ai/kapitsa",
+   "estrelas": 662,
+   "fala": "Terceiro: kapitsa. IA rápida em Mac com chip da Apple. Esse é útil… comenta LOCAL que eu te mando os três. Mas o primeiro pede máquina parruda.",
+   "legenda": "Terceiro: kapitsa. IA rápida em Mac com chip da Apple. Esse é útil… comenta LOCAL que eu te mando os três. Mas o primeiro pede máquina parruda.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "PolyStrata",
+   "repo": "simplexai-labs/PolyStrata",
+   "estrelas": 899,
+   "fala": "Segundo: PolyStrata. Instala vários modelos de IA com um clique. Esse é útil… comenta LOCAL que eu te mando os três. Mas o primeiro pede máquina parruda.",
+   "legenda": "Segundo: PolyStrata. Instala vários modelos de IA com um clique. Esse é útil… comenta LOCAL que eu te mando os três. Mas o primeiro pede máquina parruda.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Project Maya",
+   "repo": "mw00/project-maya",
+   "estrelas": 2611,
+   "fala": "E o primeiro: roda modelos de centenas de bilhões de parâmetros nas suas placas.",
+   "legenda": "E o primeiro: roda modelos de centenas de bilhões de parâmetros nas suas placas.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA LOCAL",
+   "fala": "Comenta LOCAL e me segue que eu te mando os três links.",
+   "legenda": "Comenta LOCAL e me segue que eu te mando os três links.",
+   "sfx": []
+  }
+ ]
+}

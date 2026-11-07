@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "ACHA",
+ "tese": "PROCURE NO PC PELO QUE TEM DENTRO DA FOTO · +6 MIL ESTRELAS EM 1 MÊS",
+ "conceito": "Garimpo: o mascote de chapéu de minerador com bateia, num rio de arquivos (fotos e PDFs como pepitas); paleta terra + ouro + azul-rio. Nº 1: a bateia peneira e sobra a foto da praia com cachorro.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "b) odômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "e) página de caderno",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: tocar bateria"
+ },
+ "brinde": "link + 5 buscas pra testar",
+ "fontes": [
+  "https://github.com/ARahim3/DigUp"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): ARahim3/DigUp 6.293, criado em 08/10.",
+ "obs": "",
+ "polemica": false,
+ "agenda": "2026-11-11 06:00",
+ "palavras": 68,
+ "duracao_estimada_s": 23.4,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "PROCURE NO PC PELO QUE TEM DENTRO DA FOTO",
+   "fala": "Você digita 'praia com cachorro' e o PC acha a foto.",
+   "legenda": "Você digita 'praia com cachorro' e o PC acha a foto.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "procura-dentro-das-fotos",
+   "etiqueta": [
+    "PROCURE NO PC PELO QUE TEM DENTRO DA FOTO",
+    "+6 MIL ESTRELAS EM 1 MÊS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O DigUp procura pelo que tem dentro dos arquivos, não pelo nome.",
+   "legenda": "O DigUp procura pelo que tem dentro dos arquivos, não pelo nome.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Fotos, PDFs, gravações e vídeos. Tudo no seu computador, sem nuvem.",
+   "legenda": "Fotos, PDFs, gravações e vídeos. Tudo no seu computador, sem nuvem.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Seis mil estrelas em um mês. Comenta ACHA que eu te mando.",
+   "legenda": "Seis mil estrelas em um mês. Comenta ACHA que eu te mando.",
+   "sfx": [],
+   "item": "DigUp",
+   "repo": "ARahim3/DigUp",
+   "estrelas": 6293
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Usa um modelo do Google que roda no seu próprio PC.",
+   "legenda": "Usa um modelo do Google que roda no seu próprio PC.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA ACHA",
+   "fala": "Comenta ACHA e me segue que eu te mando o link.",
+   "legenda": "Comenta ACHA e me segue que eu te mando o link.",
+   "sfx": []
+  }
+ ]
+}

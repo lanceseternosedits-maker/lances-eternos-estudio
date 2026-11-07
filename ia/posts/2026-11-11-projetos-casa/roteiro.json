@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "CASA",
+ "tese": "3 PROJETOS QUE DEIXAM SUA CASA ESPERTA · +4 MIL ESTRELAS EM 1 MÊS · E O Nº 1 LIBERA SEU PORTA-RETRATO",
+ "conceito": "Casa de bonecas aberta ao meio: cômodos em corte com luzinhas acendendo uma a uma, telhado que levanta; paleta salmão + verde-sálvia + madeira. Nº 1: um porta-retrato na parede vira um painel de apps. Mascote de pantufas e controle na mão.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "d) split-flap",
+  "contador": "c) velocímetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "d) tela CONTINUE?",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: empacotar"
+ },
+ "brinde": "links dos 3",
+ "fontes": [
+  "https://github.com/0xProbabillity/house-control",
+  "https://github.com/nthnclrk/CleanFrame",
+  "https://github.com/wesbos/photo-frame-dashboard"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): House Control 878, CleanFrame 1.004, Photo Frame Dashboard 1.683; total 3.565; criados entre 08/10 e 20/10.",
+ "obs": "House Control usa Smart Life/Home Assistant/Hue/Apple Home: citar só 'lâmpadas inteligentes'.",
+ "polemica": false,
+ "agenda": "2026-11-11 10:00",
+ "palavras": 95,
+ "duracao_estimada_s": 32.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 PROJETOS QUE DEIXAM SUA CASA ESPERTA",
+   "fala": "Sua casa tem aparelho travado que podia fazer muito mais.",
+   "legenda": "Sua casa tem aparelho travado que podia fazer muito mais.",
+   "itens": "projetos-casa",
+   "etiqueta": [
+    "3 PROJETOS QUE DEIXAM SUA CASA ESPERTA",
+    "+4 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 LIBERA SEU PORTA-RETRATO"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "House Control",
+   "repo": "0xProbabillity/house-control",
+   "estrelas": 878,
+   "fala": "Terceiro: sua casa vira um modelo 3D no celular, e você acende a luz tocando nele. Esse é lindo… comenta CASA que eu te mando os três. Mas o primeiro é genial.",
+   "legenda": "Terceiro: sua casa vira um modelo 3D no celular, e você acende a luz tocando nele. Esse é lindo… comenta CASA que eu te mando os três. Mas o primeiro é genial.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "CleanFrame",
+   "repo": "nthnclrk/CleanFrame",
+   "estrelas": 1004,
+   "fala": "Segundo: uma tela inicial limpa pra TV The Frame, da Samsung. Esse é lindo… comenta CASA que eu te mando os três. Mas o primeiro é genial.",
+   "legenda": "Segundo: uma tela inicial limpa pra TV The Frame, da Samsung. Esse é lindo… comenta CASA que eu te mando os três. Mas o primeiro é genial.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Photo Frame Dashboard",
+   "repo": "wesbos/photo-frame-dashboard",
+   "estrelas": 1683,
+   "fala": "E o primeiro: porta-retrato digital travado vira painel com os apps que você quiser.",
+   "legenda": "E o primeiro: porta-retrato digital travado vira painel com os apps que você quiser.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA CASA",
+   "fala": "Comenta CASA e me segue que eu te mando os três links.",
+   "legenda": "Comenta CASA e me segue que eu te mando os três links.",
+   "sfx": []
+  }
+ ]
+}

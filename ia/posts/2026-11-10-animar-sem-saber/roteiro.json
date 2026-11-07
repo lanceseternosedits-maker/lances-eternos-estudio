@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "ANIMA",
+ "tese": "3 SKILLS QUE ANIMAM SEM VOCÊ SABER ANIMAR · +2 MIL ESTRELAS EM 1 MÊS · E O Nº 1 TIRA A CARA DE IA",
+ "conceito": "Estúdio de stop-motion de massinha: bonecos de massinha meio prontos, câmera em tripé, cenários de papelão; paleta coral + azul-petróleo + bege-massinha. Nº 1: um boneco 'cara de IA' borrado é remodelado e fica nítido. Mascote de avental sujo de massinha esculpindo.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon",
+  "nome": "d) split-flap",
+  "contador": "c) velocímetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "d) tela CONTINUE?",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: malabarismo"
+ },
+ "brinde": "links das 3 (precisam do Claude Code, que vem nos planos pagos)",
+ "fontes": [
+  "https://github.com/artemnovitckii/claude-animation-skills",
+  "https://github.com/sarpstar/cinecode",
+  "https://github.com/Tejashmakwana/motionmaxxing"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): claude-animation-skills 451, cinecode 499, motionmaxxing 1.398; total 2.348; criados entre 06/10 e 03/11.",
+ "obs": "",
+ "polemica": false,
+ "agenda": "2026-11-10 17:00",
+ "palavras": 97,
+ "duracao_estimada_s": 33.4,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 SKILLS QUE ANIMAM SEM VOCÊ SABER ANIMAR",
+   "fala": "Vídeo com cara de IA espanta seguidor. Essas três skills consertam isso.",
+   "legenda": "Vídeo com cara de IA espanta seguidor. Essas três skills consertam isso.",
+   "itens": "animar-sem-saber",
+   "etiqueta": [
+    "3 SKILLS QUE ANIMAM SEM VOCÊ SABER ANIMAR",
+    "+2 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 TIRA A CARA DE IA"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "claude-animation-skills",
+   "repo": "artemnovitckii/claude-animation-skills",
+   "estrelas": 451,
+   "fala": "Terceiro: seis skills que fazem animação pra Reels sem filmar nada. Esse é prático… comenta ANIMA que eu te mando as três. Mas o primeiro muda tudo.",
+   "legenda": "Terceiro: seis skills que fazem animação pra Reels sem filmar nada. Esse é prático… comenta ANIMA que eu te mando as três. Mas o primeiro muda tudo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "cinecode",
+   "repo": "sarpstar/cinecode",
+   "estrelas": 499,
+   "fala": "Segundo: cinecode. Ele escreve o roteiro, monta cada quadro e te entrega o MP4. Esse é prático… comenta ANIMA que eu te mando as três. Mas o primeiro muda tudo.",
+   "legenda": "Segundo: cinecode. Ele escreve o roteiro, monta cada quadro e te entrega o MP4. Esse é prático… comenta ANIMA que eu te mando as três. Mas o primeiro muda tudo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "motionmaxxing",
+   "repo": "Tejashmakwana/motionmaxxing",
+   "estrelas": 1398,
+   "fala": "E o primeiro: motionmaxxing. Pega vídeo com cara de IA e deixa com cara de designer.",
+   "legenda": "E o primeiro: motionmaxxing. Pega vídeo com cara de IA e deixa com cara de designer.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA ANIMA",
+   "fala": "Comenta ANIMA e me segue que eu te mando as três skills.",
+   "legenda": "Comenta ANIMA e me segue que eu te mando as três skills.",
+   "sfx": []
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-15",
+ "horario": "19:00",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "crie-seu-app-de-mac"
+ ],
+ "fontes": [
+  "https://github.com/daveebbelaar/bama"
+ ],
+ "cta": "APP",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-15 19:00",
+  "tiktok": "2026-11-15 19:00"
+ },
+ "status": "aguardando aprovação"
+}

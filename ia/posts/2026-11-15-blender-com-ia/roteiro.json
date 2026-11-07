@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "BLENDER",
+ "tese": "3 PROJETOS QUE DEIXAM O BLENDER FÁCIL · +2 MIL ESTRELAS EM 3 SEMANAS · E O Nº 1 FAZ 3D COM TEXTO",
+ "conceito": "Fábrica de brinquedos de madeira: esteira, peças torneadas, pintura, caixas; paleta laranja-Blender-genérico (tangerina) + azul-aço + madeira. Nº 1: uma frase digitada vira um brinquedo na esteira. Mascote de macacão e boné de fábrica.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "b) odômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "e) página de caderno",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: jogar dardos"
+ },
+ "brinde": "links dos 3",
+ "fontes": [
+  "https://github.com/5hyuns/maya-workflow-kit-for-blender",
+  "https://github.com/EL4CTEO/blender-skills",
+  "https://github.com/Sandflow-ai/sand3d"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Maya Workflow Kit 546, Blender Skills 748, sand3d 862; total 2.156; criados entre 14/10 e 03/11.",
+ "obs": "Sem logo do Blender.",
+ "polemica": false,
+ "agenda": "2026-11-15 15:00",
+ "palavras": 93,
+ "duracao_estimada_s": 32.1,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 PROJETOS QUE DEIXAM O BLENDER FÁCIL",
+   "fala": "O Blender é grátis, mas assusta todo mundo. Esses três facilitam.",
+   "legenda": "O Blender é grátis, mas assusta todo mundo. Esses três facilitam.",
+   "itens": "blender-com-ia",
+   "etiqueta": [
+    "3 PROJETOS QUE DEIXAM O BLENDER FÁCIL",
+    "+2 MIL ESTRELAS EM 3 SEMANAS",
+    "E O Nº 1 FAZ 3D COM TEXTO"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Maya Workflow Kit",
+   "repo": "5hyuns/maya-workflow-kit-for-blender",
+   "estrelas": 546,
+   "fala": "Terceiro: deixa o Blender com o jeito do Maya, pra quem vem de lá. Esse ajuda… comenta BLENDER que eu te mando os três. Mas o primeiro é o futuro.",
+   "legenda": "Terceiro: deixa o Blender com o jeito do Maya, pra quem vem de lá. Esse ajuda… comenta BLENDER que eu te mando os três. Mas o primeiro é o futuro.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Blender Skills",
+   "repo": "EL4CTEO/blender-skills",
+   "estrelas": 748,
+   "fala": "Segundo: ensina o seu agente de IA a modelar, animar e exportar no Blender. Esse ajuda… comenta BLENDER que eu te mando os três. Mas o primeiro é o futuro.",
+   "legenda": "Segundo: ensina o seu agente de IA a modelar, animar e exportar no Blender. Esse ajuda… comenta BLENDER que eu te mando os três. Mas o primeiro é o futuro.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "sand3d",
+   "repo": "Sandflow-ai/sand3d",
+   "estrelas": 862,
+   "fala": "E o primeiro: modelagem 3D em código, feita pra IA desenhar.",
+   "legenda": "E o primeiro: modelagem 3D em código, feita pra IA desenhar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA BLENDER",
+   "fala": "Comenta BLENDER e me segue que eu te mando os três.",
+   "legenda": "Comenta BLENDER e me segue que eu te mando os três.",
+   "sfx": []
+  }
+ ]
+}

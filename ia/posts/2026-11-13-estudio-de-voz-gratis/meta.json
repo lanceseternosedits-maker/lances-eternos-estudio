@@ -1,0 +1,21 @@
+{
+ "data": "2026-11-13",
+ "horario": "14:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "estudio-de-voz-gratis"
+ ],
+ "fontes": [
+  "https://github.com/timoncool/speech-studio",
+  "https://github.com/hehehai/AudioSmith",
+  "https://github.com/inclusionAI/Ming-3.0-tts"
+ ],
+ "cta": "VOZ",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-13 14:00",
+  "tiktok": "2026-11-13 14:00"
+ },
+ "status": "aguardando aprovação"
+}

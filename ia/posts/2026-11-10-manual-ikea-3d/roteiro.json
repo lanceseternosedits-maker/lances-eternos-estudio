@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "IKEA",
+ "tese": "O MANUAL DA IKEA VIROU ANIMAÇÃO 3D · +1 MIL ESTRELAS EM 2 SEMANAS",
+ "conceito": "Apartamento vazio de mudança: caixas de papelão, parafusos espalhados, chave Allen gigante; paleta amarelo-sueco + azul + pinho. Gancho: o mascote enrolado num manual de papel. Peças de móvel voando e se encaixando sozinhas.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote de estrelas",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: surfar"
+ },
+ "brinde": "link",
+ "fontes": [
+  "https://github.com/Nutlope/bygga"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): Nutlope/bygga 645, criado em 21/10.",
+ "obs": "Projeto não oficial da IKEA: dizer 'manual de móvel'; sem logo. Usa a API da Together AI (verificar se tem custo para o usuário).",
+ "polemica": false,
+ "agenda": "2026-11-10 21:30",
+ "palavras": 67,
+ "duracao_estimada_s": 23.1,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "O MANUAL DA IKEA VIROU ANIMAÇÃO 3D",
+   "fala": "Você nunca mais vai brigar com manual de móvel.",
+   "legenda": "Você nunca mais vai brigar com manual de móvel.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "manual-ikea-3d",
+   "etiqueta": [
+    "O MANUAL DA IKEA VIROU ANIMAÇÃO 3D",
+    "+1 MIL ESTRELAS EM 2 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O Bygga pega o manual de papel e vira um guia em 3D, passo a passo.",
+   "legenda": "O Bygga pega o manual de papel e vira um guia em 3D, passo a passo.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "É só escanear o manual com a câmera.",
+   "legenda": "É só escanear o manual com a câmera.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "A peça gira na tela e mostra onde encaixa. Comenta IKEA que eu te mando.",
+   "legenda": "A peça gira na tela e mostra onde encaixa. Comenta IKEA que eu te mando.",
+   "sfx": [],
+   "item": "bygga",
+   "repo": "Nutlope/bygga",
+   "estrelas": 645
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Projeto aberto, feito por um desenvolvedor independente.",
+   "legenda": "Projeto aberto, feito por um desenvolvedor independente.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA IKEA",
+   "fala": "Comenta IKEA e me segue pra mais IA que resolve a vida.",
+   "legenda": "Comenta IKEA e me segue pra mais IA que resolve a vida.",
+   "sfx": []
+  }
+ ]
+}

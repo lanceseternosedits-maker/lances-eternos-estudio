@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "FPS",
+ "tese": "O MOD QUE DESTRAVOU O OBLIVION REMASTERED · +481 ESTRELAS EM 3 SEMANAS",
+ "conceito": "Taverna medieval de blocos à luz de velas: barris, lareira, mapa de pergaminho, espada na parede; paleta marrom-taverna + laranja-fogo + verde-musgo. Gancho: um contador de FPS em pergaminho sobe. Mascote de capuz de aventureiro.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "b) odômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "e) página de caderno",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: tocar bateria"
+ },
+ "brinde": "link + como instalar",
+ "fontes": [
+  "https://github.com/LTSharpe/OblivionRemasteredPerformanceFix"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): LTSharpe/OblivionRemasteredPerformanceFix 481, criado em 17/10.",
+ "obs": "Sem arte/logos do jogo. Mod para single player.",
+ "polemica": false,
+ "agenda": "2026-11-14 20:30",
+ "palavras": 66,
+ "duracao_estimada_s": 22.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "O MOD QUE DESTRAVOU O OBLIVION REMASTERED",
+   "fala": "O Oblivion Remastered travava nas cidades. Um fã consertou o motor do jogo.",
+   "legenda": "O Oblivion Remastered travava nas cidades. Um fã consertou o motor do jogo.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "mod-fps-oblivion",
+   "etiqueta": [
+    "O MOD QUE DESTRAVOU O OBLIVION REMASTERED",
+    "+481 ESTRELAS EM 3 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O mod mexe direto no motor e aumenta o FPS nas cidades.",
+   "legenda": "O mod mexe direto no motor e aumenta o FPS nas cidades.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "E quase acaba com as travadas na viagem, com a mesma imagem.",
+   "legenda": "E quase acaba com as travadas na viagem, com a mesma imagem.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Ele ainda publicou os testes. Comenta FPS que eu te mando.",
+   "legenda": "Ele ainda publicou os testes. Comenta FPS que eu te mando.",
+   "sfx": [],
+   "item": "OblivionRemasteredPerformanceFix",
+   "repo": "LTSharpe/OblivionRemasteredPerformanceFix",
+   "estrelas": 481
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "É grátis e o código é aberto.",
+   "legenda": "É grátis e o código é aberto.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA FPS",
+   "fala": "Comenta FPS e me segue pra mais coisa que gamer precisa.",
+   "legenda": "Comenta FPS e me segue pra mais coisa que gamer precisa.",
+   "sfx": []
+  }
+ ]
+}

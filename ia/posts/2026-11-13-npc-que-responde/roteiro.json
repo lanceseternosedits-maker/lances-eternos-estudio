@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "NPC",
+ "tese": "FAÇA QUALQUER PERSONAGEM DE JOGO FALAR COM VOCÊ · +221 ESTRELAS EM 3 SEMANAS",
+ "conceito": "Cidade de jogo de mundo aberto genérica (blocos) ao pôr do sol: carros parados, um vendedor de rua de blocos com balão de fala; paleta laranja-GTA-genérico (pôr do sol) + rosa + azul-piscina. Mascote de boné e microfone de lapela conversando com o NPC.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: pescar"
+ },
+ "brinde": "link + aviso: só single player",
+ "fontes": [
+  "https://github.com/christos-antono/NPCTalk"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): christos-antono/NPCTalk 221, criado em 15/10.",
+ "obs": "Usa Fish Audio (serviço pago para voz): avisar. Sem logo/arte de GTA.",
+ "polemica": false,
+ "agenda": "2026-11-13 21:30",
+ "palavras": 68,
+ "duracao_estimada_s": 23.4,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "FAÇA QUALQUER PERSONAGEM DE JOGO FALAR COM VOCÊ",
+   "fala": "E se o NPC do seu jogo respondesse o que você falou?",
+   "legenda": "E se o NPC do seu jogo respondesse o que você falou?",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "npc-que-responde",
+   "etiqueta": [
+    "FAÇA QUALQUER PERSONAGEM DE JOGO FALAR COM VOCÊ",
+    "+221 ESTRELAS EM 3 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O NPCTalk faz qualquer personagem de jogo falar de volta, com voz de IA.",
+   "legenda": "O NPCTalk faz qualquer personagem de jogo falar de volta, com voz de IA.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Já vem com um exemplo completo em GTA V.",
+   "legenda": "Já vem com um exemplo completo em GTA V.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Funciona com agentes como o Claude Code. Comenta NPC que eu te mando.",
+   "legenda": "Funciona com agentes como o Claude Code. Comenta NPC que eu te mando.",
+   "sfx": [],
+   "item": "NPCTalk",
+   "repo": "christos-antono/NPCTalk",
+   "estrelas": 221
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "É mod: use no modo single player, nunca online.",
+   "legenda": "É mod: use no modo single player, nunca online.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA NPC",
+   "fala": "Comenta NPC e me segue que eu te mando o link.",
+   "legenda": "Comenta NPC e me segue que eu te mando o link.",
+   "sfx": []
+  }
+ ]
+}

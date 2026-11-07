@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-11",
+ "horario": "21:30",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "digita-o-movimento"
+ ],
+ "fontes": [
+  "https://github.com/blendi-remade/prompt2rig"
+ ],
+ "cta": "BONECO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-11 21:30",
+  "tiktok": "2026-11-11 21:30"
+ },
+ "status": "aguardando aprovação"
+}

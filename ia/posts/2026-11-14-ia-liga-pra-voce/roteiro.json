@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "LIGACAO",
+ "tese": "A IA LIGA PRO SEU CELULAR QUANDO TERMINA · +295 ESTRELAS EM 2 SEMANAS",
+ "conceito": "Cabine telefônica vermelha numa rua de paralelepípedo à noite com chuva fina, poste de luz; paleta vermelho-cabine + azul-chuva + amarelo-poste. Mascote de capa de chuva atende o telefone; um robozinho de blocos do outro lado.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "b) carimbo",
+  "contador": "e) placar HI-SCORE",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "b) pódio",
+  "tipografia": "e) Caveat + Space Grotesk",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: varrer"
+ },
+ "brinde": "link",
+ "fontes": [
+  "https://github.com/mutonby/agentring"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): mutonby/agentring 295, criado em 23/10.",
+ "obs": "",
+ "polemica": false,
+ "agenda": "2026-11-14 22:00",
+ "palavras": 67,
+ "duracao_estimada_s": 23.1,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IA LIGA PRO SEU CELULAR QUANDO TERMINA",
+   "fala": "E se a IA te ligasse quando terminar o serviço?",
+   "legenda": "E se a IA te ligasse quando terminar o serviço?",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "ia-liga-pra-voce",
+   "etiqueta": [
+    "A IA LIGA PRO SEU CELULAR QUANDO TERMINA",
+    "+295 ESTRELAS EM 2 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O agentring faz seu agente de IA ligar pro seu celular.",
+   "legenda": "O agentring faz seu agente de IA ligar pro seu celular.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Toca como ligação de verdade, mesmo bloqueado. A voz te explica o que fez.",
+   "legenda": "Toca como ligação de verdade, mesmo bloqueado. A voz te explica o que fez.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "E você pode ligar de volta. Comenta LIGACAO que eu te mando.",
+   "legenda": "E você pode ligar de volta. Comenta LIGACAO que eu te mando.",
+   "sfx": [],
+   "item": "agentring",
+   "repo": "mutonby/agentring",
+   "estrelas": 295
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Roda na sua máquina, sem número de telefone pago.",
+   "legenda": "Roda na sua máquina, sem número de telefone pago.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA LIGACAO",
+   "fala": "Comenta LIGACAO e me segue que eu te mando o link.",
+   "legenda": "Comenta LIGACAO e me segue que eu te mando o link.",
+   "sfx": []
+  }
+ ]
+}

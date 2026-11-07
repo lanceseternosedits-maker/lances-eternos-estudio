@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "LIGA",
+ "tese": "CRIE UM ATENDENTE DE TELEFONE COM IA · +462 ESTRELAS EM 3 SEMANAS",
+ "conceito": "Central telefônica antiga com cabos de plugar, telefones de disco coloridos, luzinhas piscando; paleta vermelho-telefone + creme + verde-oliva. Mascote de headset de telefonista plugando cabos. Nº 1: um telefone toca e responde sozinho com balão.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: correr"
+ },
+ "brinde": "link + roteiro de atendimento pronto para pizzaria/salão",
+ "fontes": [
+  "https://github.com/C4rohan/Lampline"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): C4rohan/Lampline 462, criado em 19/10.",
+ "obs": "Conferir 'grátis sem chave' (modo local) vs custo com chaves.",
+ "polemica": false,
+ "agenda": "2026-11-13 10:00",
+ "palavras": 70,
+ "duracao_estimada_s": 24.1,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "CRIE UM ATENDENTE DE TELEFONE COM IA",
+   "fala": "Seu negócio perde cliente que liga e ninguém atende? Dá pra ter um atendente de IA.",
+   "legenda": "Seu negócio perde cliente que liga e ninguém atende? Dá pra ter um atendente de IA.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "atendente-telefone-ia",
+   "etiqueta": [
+    "CRIE UM ATENDENTE DE TELEFONE COM IA",
+    "+462 ESTRELAS EM 3 SEMANAS",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O Lampline cria atendentes de telefone com IA no seu computador.",
+   "legenda": "O Lampline cria atendentes de telefone com IA no seu computador.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "E testa cada mudança com outra IA ligando pra ele.",
+   "legenda": "E testa cada mudança com outra IA ligando pra ele.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Roda grátis, sem chave. Comenta LIGA que eu te mando.",
+   "legenda": "Roda grátis, sem chave. Comenta LIGA que eu te mando.",
+   "sfx": [],
+   "item": "Lampline",
+   "repo": "C4rohan/Lampline",
+   "estrelas": 462
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Com a sua chave de IA, cada ligação custa centavos.",
+   "legenda": "Com a sua chave de IA, cada ligação custa centavos.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA LIGA",
+   "fala": "Comenta LIGA e me segue que eu te mando o passo a passo.",
+   "legenda": "Comenta LIGA e me segue que eu te mando o passo a passo.",
+   "sfx": []
+  }
+ ]
+}

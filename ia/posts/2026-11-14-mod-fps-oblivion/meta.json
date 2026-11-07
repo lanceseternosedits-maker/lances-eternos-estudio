@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-14",
+ "horario": "20:30",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "mod-fps-oblivion"
+ ],
+ "fontes": [
+  "https://github.com/LTSharpe/OblivionRemasteredPerformanceFix"
+ ],
+ "cta": "FPS",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-14 20:30",
+  "tiktok": "2026-11-14 20:30"
+ },
+ "status": "aguardando aprovação"
+}

@@ -1,0 +1,143 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "CELULAR",
+ "tese": "5 PROJETOS QUE TURBINAM SEU CELULAR · +13 MIL ESTRELAS EM 1 MÊS · E O Nº 1 TIRA A PROPAGANDA DO SISTEMA",
+ "conceito": "Oficina de conserto de celular de rua: bancada com lupa articulada, chaves de fenda minúsculas, telas trincadas viram vitrais; paleta turquesa + laranja-solda + preto-bancada. Nº 1: pop-ups de propaganda (sem marcas) estourando como bolhas. Mascote com lupa de relojoeiro.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: pescar"
+ },
+ "brinde": "links dos 5 + aviso: gravar ligação é legal no Brasil para quem participa dela, mas divulgar pode não ser",
+ "fontes": [
+  "https://github.com/MeshLive/meshlive-android",
+  "https://github.com/KnifeLemon/Droidline",
+  "https://github.com/arpanjot-coding/AVault",
+  "https://github.com/zhongerxin/iPhone-use",
+  "https://github.com/rddmwmddr/android-ad-cleaner"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): MeshLive 342, Droidline 488, AVault 599, iPhone-use 4.932, Android Ad Cleaner 6.794; total 13.155; criados entre 06/10 e 31/10.",
+ "obs": "Ad Cleaner mira sistemas Android de marcas chinesas (Xiaomi etc., comuns no Brasil): README em chinês, conferir modelos. Gravação de ligação: Lei 9.296/96 e jurisprudência — participante pode gravar; não estimular divulgação.",
+ "polemica": false,
+ "agenda": "2026-11-10 08:00",
+ "palavras": 93,
+ "duracao_estimada_s": 32.1,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROJETOS QUE TURBINAM SEU CELULAR",
+   "fala": "Seu celular tem propaganda até no sistema. Cinco projetos resolvem.",
+   "legenda": "Seu celular tem propaganda até no sistema. Cinco projetos resolvem.",
+   "itens": "projetos-celular",
+   "etiqueta": [
+    "5 PROJETOS QUE TURBINAM SEU CELULAR",
+    "+13 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 TIRA A PROPAGANDA DO SISTEMA"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "MeshLive",
+   "repo": "MeshLive/meshlive-android",
+   "estrelas": 342,
+   "fala": "Quinto: MeshLive. Chamada de vídeo entre celulares por Bluetooth, sem internet.",
+   "legenda": "Quinto: MeshLive. Chamada de vídeo entre celulares por Bluetooth, sem internet.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Droidline",
+   "repo": "KnifeLemon/Droidline",
+   "estrelas": 488,
+   "fala": "Quarto: Droidline. Automatiza tarefas repetidas no Android, sem cabo e sem root.",
+   "legenda": "Quarto: Droidline. Automatiza tarefas repetidas no Android, sem cabo e sem root.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "AVault",
+   "repo": "arpanjot-coding/AVault",
+   "estrelas": 599,
+   "fala": "Terceiro: AVault. Grava suas ligações num cofre criptografado. Esse é esperto… comenta CELULAR que eu te mando os cinco. Mas o próximo salva.",
+   "legenda": "Terceiro: AVault. Grava suas ligações num cofre criptografado. Esse é esperto… comenta CELULAR que eu te mando os cinco. Mas o próximo salva.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "iPhone-use",
+   "repo": "zhongerxin/iPhone-use",
+   "estrelas": 4932,
+   "fala": "Segundo: iPhone-use. Uma IA mexe no seu iPhone de verdade pelo cabo.",
+   "legenda": "Segundo: iPhone-use. Uma IA mexe no seu iPhone de verdade pelo cabo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Android Ad Cleaner",
+   "repo": "rddmwmddr/android-ad-cleaner",
+   "estrelas": 6794,
+   "fala": "E o primeiro: tira a propaganda do sistema de celular chinês. Sem root.",
+   "legenda": "E o primeiro: tira a propaganda do sistema de celular chinês. Sem root.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA CELULAR",
+   "fala": "Comenta CELULAR e me segue que eu te mando os cinco links.",
+   "legenda": "Comenta CELULAR e me segue que eu te mando os cinco links.",
+   "sfx": []
+  }
+ ]
+}

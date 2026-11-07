@@ -1,0 +1,23 @@
+{
+ "data": "2026-11-11",
+ "horario": "08:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "projetos-gamer"
+ ],
+ "fontes": [
+  "https://github.com/thebcd69/bcd-games",
+  "https://github.com/AssassinCreator/steam-stash-value-report-card",
+  "https://github.com/ramenvr/autopilot",
+  "https://github.com/raymondchins/Bridgeplay",
+  "https://github.com/cranebeaker/coop-anything"
+ ],
+ "cta": "GAMER",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-11 08:00",
+  "tiktok": "2026-11-11 08:00"
+ },
+ "status": "aguardando aprovação"
+}

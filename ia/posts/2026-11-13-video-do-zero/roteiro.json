@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "VIDEO",
+ "tese": "3 SKILLS QUE FAZEM VÍDEO DO ZERO · +1 MIL ESTRELAS EM 1 MÊS · E O Nº 1 FAZ UM EPISÓDIO EM UMA LINHA",
+ "conceito": "Cinema drive-in à noite: telão, carros de blocos genéricos, pipoqueiro, projetor soltando feixe; paleta azul-noite + vermelho-cinema + amarelo-pipoca. Nº 1: o telão mostra uma pergunta 'E SE…?' e uma animação nasce. Mascote de óculos 3D.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon",
+  "nome": "b) carimbo",
+  "contador": "e) placar HI-SCORE",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "b) pódio",
+  "tipografia": "e) Caveat + Space Grotesk",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: cozinhar"
+ },
+ "brinde": "links das 3",
+ "fontes": [
+  "https://github.com/wj-sidiss/otopilot",
+  "https://github.com/talsiach/take-one",
+  "https://github.com/kelano86/what-if-animation"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): otopilot 202, take-one 216, What If 267; total 685; criados entre 13/10 e 21/10.",
+ "obs": "What If usa ElevenLabs para voz (pode ter custo): conferir.",
+ "polemica": false,
+ "agenda": "2026-11-13 17:00",
+ "palavras": 95,
+ "duracao_estimada_s": 32.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 SKILLS QUE FAZEM VÍDEO DO ZERO",
+   "fala": "Você só dá o tema. Essas três skills entregam o vídeo pronto.",
+   "legenda": "Você só dá o tema. Essas três skills entregam o vídeo pronto.",
+   "itens": "video-do-zero",
+   "etiqueta": [
+    "3 SKILLS QUE FAZEM VÍDEO DO ZERO",
+    "+1 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 FAZ UM EPISÓDIO EM UMA LINHA"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "otopilot",
+   "repo": "wj-sidiss/otopilot",
+   "estrelas": 202,
+   "fala": "Terceiro: otopilot. Tema vira Short com roteiro, voz, legenda e capa. Sem chave. Esse é rápido… comenta VIDEO que eu te mando as três. Mas a primeira é a mais divertida.",
+   "legenda": "Terceiro: otopilot. Tema vira Short com roteiro, voz, legenda e capa. Sem chave. Esse é rápido… comenta VIDEO que eu te mando as três. Mas a primeira é a mais divertida.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "take-one",
+   "repo": "talsiach/take-one",
+   "estrelas": 216,
+   "fala": "Segundo: take-one. Faz comercial e clipe a partir de uma frase. Esse é rápido… comenta VIDEO que eu te mando as três. Mas a primeira é a mais divertida.",
+   "legenda": "Segundo: take-one. Faz comercial e clipe a partir de uma frase. Esse é rápido… comenta VIDEO que eu te mando as três. Mas a primeira é a mais divertida.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "What If",
+   "repo": "kelano86/what-if-animation",
+   "estrelas": 267,
+   "fala": "E o primeiro: uma linha vira um episódio animado de 'E se…'.",
+   "legenda": "E o primeiro: uma linha vira um episódio animado de 'E se…'.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA VIDEO",
+   "fala": "Comenta VIDEO e me segue que eu te mando as três.",
+   "legenda": "Comenta VIDEO e me segue que eu te mando as três.",
+   "sfx": []
+  }
+ ]
+}

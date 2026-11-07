@@ -1,0 +1,23 @@
+{
+ "data": "2026-11-11",
+ "horario": "12:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "copiar-qualquer-app"
+ ],
+ "fontes": [
+  "https://github.com/Zfinix/eleven",
+  "https://github.com/NabilRFG12/Reverse-Engineer-anything",
+  "https://github.com/alexgaoth/awesome-reverse-engineered",
+  "https://github.com/JoasASantos/REA-Prompts",
+  "https://github.com/storytold/craft-anything"
+ ],
+ "cta": "COPIA",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-11 12:00",
+  "tiktok": "2026-11-11 12:00"
+ },
+ "status": "aguardando aprovação"
+}

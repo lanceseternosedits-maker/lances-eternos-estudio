@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "MODELO",
+ "tese": "3 PROJETOS GRÁTIS PRA CRIAR EM 3D · +2 MIL ESTRELAS EM 2 SEMANAS · E O Nº 1 FAZ CENA A PARTIR DE UMA FOTO",
+ "conceito": "Ateliê de escultor de argila branca: tornos, bustos de argila genéricos, panos úmidos, claraboia; paleta branco-argila + terracota + azul-claraboia. Nº 1: uma foto na parede se dobra e vira um cômodo em 3D onde a câmera entra. Mascote de avental e espátula.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "b) odômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "e) página de caderno",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: fotografar"
+ },
+ "brinde": "links dos 3 (anyscene usa serviço pago 'fal')",
+ "fontes": [
+  "https://github.com/apekshik/anyscene",
+  "https://github.com/islandmed/SculptForge",
+  "https://github.com/deepopen-com/deepopen-3d-webs"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): anyscene 325, SculptForge 617, DeepOpen 3D 1.119; total 2.061; criados entre 21/10 e 30/10.",
+ "obs": "",
+ "polemica": false,
+ "agenda": "2026-11-14 11:00",
+ "palavras": 94,
+ "duracao_estimada_s": 32.4,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 PROJETOS GRÁTIS PRA CRIAR EM 3D",
+   "fala": "Fazer 3D levava anos de curso. Esses três projetos fazem em minutos.",
+   "legenda": "Fazer 3D levava anos de curso. Esses três projetos fazem em minutos.",
+   "itens": "3d-sem-saber",
+   "etiqueta": [
+    "3 PROJETOS GRÁTIS PRA CRIAR EM 3D",
+    "+2 MIL ESTRELAS EM 2 SEMANAS",
+    "E O Nº 1 FAZ CENA A PARTIR DE UMA FOTO"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "anyscene",
+   "repo": "apekshik/anyscene",
+   "estrelas": 325,
+   "fala": "Terceiro: anyscene. Um parágrafo vira uma cena realista no Blender. Esse é forte… comenta MODELO que eu te mando os três. Mas o primeiro é surreal.",
+   "legenda": "Terceiro: anyscene. Um parágrafo vira uma cena realista no Blender. Esse é forte… comenta MODELO que eu te mando os três. Mas o primeiro é surreal.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "SculptForge",
+   "repo": "islandmed/SculptForge",
+   "estrelas": 617,
+   "fala": "Segundo: SculptForge. Escultura 3D grátis, com IA que transforma imagem em 3D. Esse é forte… comenta MODELO que eu te mando os três. Mas o primeiro é surreal.",
+   "legenda": "Segundo: SculptForge. Escultura 3D grátis, com IA que transforma imagem em 3D. Esse é forte… comenta MODELO que eu te mando os três. Mas o primeiro é surreal.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "DeepOpen 3D",
+   "repo": "deepopen-com/deepopen-3d-webs",
+   "estrelas": 1119,
+   "fala": "E o primeiro: você manda uma foto e ele cria uma cena 3D que dá pra navegar.",
+   "legenda": "E o primeiro: você manda uma foto e ele cria uma cena 3D que dá pra navegar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA MODELO",
+   "fala": "Comenta MODELO e me segue que eu te mando os três.",
+   "legenda": "Comenta MODELO e me segue que eu te mando os três.",
+   "sfx": []
+  }
+ ]
+}

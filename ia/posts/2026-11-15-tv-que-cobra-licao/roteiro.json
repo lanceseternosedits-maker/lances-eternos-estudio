@@ -1,0 +1,90 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "chave": "LICAO",
+ "tese": "A TV QUE SÓ LIGA DEPOIS DA LIÇÃO · +1 MIL ESTRELAS NA SEMANA",
+ "conceito": "Sala de brinquedos colorida: tapete de EVA de letras, TV de blocos com cadeado de estrela, pufe; paleta amarelo-EVA + azul-royal + verde-limão. Gancho: a TV mostra uma pergunta e um cadeado. Mascote de capelo de formatura.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "d) split-flap",
+  "contador": "c) velocímetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "d) tela CONTINUE?",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: empacotar"
+ },
+ "brinde": "link + 20 perguntas prontas para crianças de 7 a 10 anos",
+ "fontes": [
+  "https://github.com/chadyi/StudyOnTV"
+ ],
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): chadyi/StudyOnTV 745, criado em 01/11.",
+ "obs": "Tema próximo de 'estudar' (08/11): ângulo pais + TV. Conferir se a interface aceita perguntas em português.",
+ "polemica": false,
+ "agenda": "2026-11-15 09:00",
+ "palavras": 66,
+ "duracao_estimada_s": 22.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A TV QUE SÓ LIGA DEPOIS DA LIÇÃO",
+   "fala": "Essa TV só libera o desenho depois que a criança responde as perguntas.",
+   "legenda": "Essa TV só libera o desenho depois que a criança responde as perguntas.",
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ],
+   "itens": "tv-que-cobra-licao",
+   "etiqueta": [
+    "A TV QUE SÓ LIGA DEPOIS DA LIÇÃO",
+    "+1 MIL ESTRELAS NA SEMANA",
+    ""
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O StudyOnTV é um app grátis pra TV Android.",
+   "legenda": "O StudyOnTV é um app grátis pra TV Android.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "A criança responde e ganha tempo de tela.",
+   "legenda": "A criança responde e ganha tempo de tela.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Os pais mudam as perguntas pelo celular, com um QR code. Comenta LICAO que eu te mando.",
+   "legenda": "Os pais mudam as perguntas pelo celular, com um QR code. Comenta LICAO que eu te mando.",
+   "sfx": [],
+   "item": "StudyOnTV",
+   "repo": "chadyi/StudyOnTV",
+   "estrelas": 745
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Tudo roda na TV, sem conta e sem servidor.",
+   "legenda": "Tudo roda na TV, sem conta e sem servidor.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA LICAO",
+   "fala": "Comenta LICAO e me segue. Você usaria com seu filho?",
+   "legenda": "Comenta LICAO e me segue. Você usaria com seu filho?",
+   "sfx": []
+  }
+ ]
+}

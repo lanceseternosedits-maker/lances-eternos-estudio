@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-13",
+ "horario": "21:30",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "npc-que-responde"
+ ],
+ "fontes": [
+  "https://github.com/christos-antono/NPCTalk"
+ ],
+ "cta": "NPC",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-13 21:30",
+  "tiktok": "2026-11-13 21:30"
+ },
+ "status": "aguardando aprovação"
+}

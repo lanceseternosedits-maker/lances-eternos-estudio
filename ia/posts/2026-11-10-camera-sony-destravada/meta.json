@@ -1,0 +1,19 @@
+{
+ "data": "2026-11-10",
+ "horario": "19:30",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "camera-sony-destravada"
+ ],
+ "fontes": [
+  "https://github.com/QAQLeonard/a7c2-tools"
+ ],
+ "cta": "CAMERA",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-10 19:30",
+  "tiktok": "2026-11-10 19:30"
+ },
+ "status": "aguardando aprovação"
+}

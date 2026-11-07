@@ -1,0 +1,23 @@
+{
+ "data": "2026-11-10",
+ "horario": "12:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "apple-nao-queria"
+ ],
+ "fontes": [
+  "https://github.com/harkhowalia-1/MacSubsystemForAndroid",
+  "https://github.com/Snapintosh/Snapintosh",
+  "https://github.com/UniXNU/UniXNU",
+  "https://github.com/govijr/terminal-mac",
+  "https://github.com/oosexgang/hakios-xnu-kernel"
+ ],
+ "cta": "APPLE",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-10 12:00",
+  "tiktok": "2026-11-10 12:00"
+ },
+ "status": "aguardando aprovação"
+}

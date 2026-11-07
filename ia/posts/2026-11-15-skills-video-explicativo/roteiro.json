@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "EXPLICA",
+ "tese": "3 SKILLS QUE FAZEM VÍDEO EXPLICATIVO · +2 MIL ESTRELAS EM 1 MÊS · E O Nº 1 FOI FEITO PRA VIRALIZAR",
+ "conceito": "Sala de aula antiga com lousa verde, giz, carteiras de madeira, globo terrestre; paleta verde-lousa + amarelo-giz + madeira. Nº 1: a lousa se divide em quadros de storyboard que se animam. Mascote de jaleco de professor e apagador.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: remar"
+ },
+ "brinde": "links das 3 + dica de tradução",
+ "fontes": [
+  "https://github.com/YIAN6557/eian-riso-broll",
+  "https://github.com/liangdabiao/whiteboard-teacher-video",
+  "https://github.com/HeyChengC/vibe-knowledge-film"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Riso B-roll 361, Whiteboard Teacher 511, Vibe Knowledge Film 1.107; total 1.979; criados entre 06/10 e 16/10.",
+ "obs": "Vídeo de criação de vídeo é a 4ª pauta de vídeo da semana: fica no domingo, longe das outras.",
+ "polemica": false,
+ "agenda": "2026-11-15 20:30",
+ "palavras": 95,
+ "duracao_estimada_s": 32.8,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 SKILLS QUE FAZEM VÍDEO EXPLICATIVO",
+   "fala": "Vídeo explicativo é o que mais viraliza. Essas três skills fazem sozinhas.",
+   "legenda": "Vídeo explicativo é o que mais viraliza. Essas três skills fazem sozinhas.",
+   "itens": "skills-video-explicativo",
+   "etiqueta": [
+    "3 SKILLS QUE FAZEM VÍDEO EXPLICATIVO",
+    "+2 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 FOI FEITO PRA VIRALIZAR"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Riso B-roll",
+   "repo": "YIAN6557/eian-riso-broll",
+   "estrelas": 361,
+   "fala": "Terceiro: animação no estilo gráfica antiga, em duas cores, pra vídeo vertical. Esse é bonito… comenta EXPLICA que eu te mando as três. Mas a primeira é a arma secreta.",
+   "legenda": "Terceiro: animação no estilo gráfica antiga, em duas cores, pra vídeo vertical. Esse é bonito… comenta EXPLICA que eu te mando as três. Mas a primeira é a arma secreta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Whiteboard Teacher",
+   "repo": "liangdabiao/whiteboard-teacher-video",
+   "estrelas": 511,
+   "fala": "Segundo: o desenho vai aparecendo na lousa conforme você fala. Esse é bonito… comenta EXPLICA que eu te mando as três. Mas a primeira é a arma secreta.",
+   "legenda": "Segundo: o desenho vai aparecendo na lousa conforme você fala. Esse é bonito… comenta EXPLICA que eu te mando as três. Mas a primeira é a arma secreta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Vibe Knowledge Film",
+   "repo": "HeyChengC/vibe-knowledge-film",
+   "estrelas": 1107,
+   "fala": "E o primeiro: desmonta um vídeo viral e copia o estilo pro seu tema.",
+   "legenda": "E o primeiro: desmonta um vídeo viral e copia o estilo pro seu tema.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA EXPLICA",
+   "fala": "Comenta EXPLICA e me segue que eu te mando as três.",
+   "legenda": "Comenta EXPLICA e me segue que eu te mando as três.",
+   "sfx": []
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "PLACA",
+ "tese": "3 PROJETOS COM UMA PLACA DE 10 DÓLARES · +1 MIL ESTRELAS EM 1 MÊS · E O Nº 1 SABE O QUE VOCÊ FAZ PELO WI-FI",
+ "conceito": "Laboratório de inventor de garagem à noite: protoboards, LEDs, ferro de solda fumegando, ondas de Wi-Fi visíveis como anéis no ar; paleta verde-placa + cobre + azul-LED. Gancho: anéis de Wi-Fi atravessam a sala e desenham a silhueta do mascote. Mascote de óculos de proteção soldando.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote de estrelas",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: pilotar"
+ },
+ "brinde": "links dos 3 + lista de compras",
+ "fontes": [
+  "https://github.com/andrisgauracs/whistle-esp32",
+  "https://github.com/raullenchai/esp32-thinks",
+  "https://github.com/andrisgauracs/wifi-sensing-kit"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Whistle 214, ESP32 Thinks 262, WiFi Sensing Kit 204; total 680; criados entre 10/10 e 19/10.",
+ "obs": "Tom de curiosidade, não de medo. Explicar que é um experimento que usa a webcam só para treinar.",
+ "polemica": true,
+ "agenda": "2026-11-13 12:00",
+ "palavras": 96,
+ "duracao_estimada_s": 33.1,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 PROJETOS COM UMA PLACA DE 10 DÓLARES",
+   "fala": "Uma plaquinha de dez dólares consegue saber o que você está fazendo. Só pelo Wi-Fi.",
+   "legenda": "Uma plaquinha de dez dólares consegue saber o que você está fazendo. Só pelo Wi-Fi.",
+   "itens": "placas-de-10-dolares",
+   "etiqueta": [
+    "3 PROJETOS COM UMA PLACA DE 10 DÓLARES",
+    "+1 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 SABE O QUE VOCÊ FAZ PELO WI-FI"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Whistle",
+   "repo": "andrisgauracs/whistle-esp32",
+   "estrelas": 214,
+   "fala": "Terceiro: você fala uma cor e a luz muda. Sem internet. Esse é divertido… comenta PLACA que eu te mando os três. Mas o primeiro dá medo.",
+   "legenda": "Terceiro: você fala uma cor e a luz muda. Sem internet. Esse é divertido… comenta PLACA que eu te mando os três. Mas o primeiro dá medo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "ESP32 Thinks",
+   "repo": "raullenchai/esp32-thinks",
+   "estrelas": 262,
+   "fala": "Segundo: o seu próprio assistente de voz numa placa barata. Esse é divertido… comenta PLACA que eu te mando os três. Mas o primeiro dá medo.",
+   "legenda": "Segundo: o seu próprio assistente de voz numa placa barata. Esse é divertido… comenta PLACA que eu te mando os três. Mas o primeiro dá medo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "WiFi Sensing Kit",
+   "repo": "andrisgauracs/wifi-sensing-kit",
+   "estrelas": 204,
+   "fala": "E o primeiro: três placas aprendem o que você está fazendo só pelo sinal do Wi-Fi.",
+   "legenda": "E o primeiro: três placas aprendem o que você está fazendo só pelo sinal do Wi-Fi.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA PLACA",
+   "fala": "Comenta PLACA e me segue que eu te mando os três links.",
+   "legenda": "Comenta PLACA e me segue que eu te mando os três links.",
+   "sfx": []
+  }
+ ]
+}

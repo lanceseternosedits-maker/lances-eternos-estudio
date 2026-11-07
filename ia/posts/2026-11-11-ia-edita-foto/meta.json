@@ -1,0 +1,21 @@
+{
+ "data": "2026-11-11",
+ "horario": "17:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "ia-edita-foto"
+ ],
+ "fontes": [
+  "https://github.com/GabrieleLozupone/kokon",
+  "https://github.com/wquguru/shisei",
+  "https://github.com/speridlabs/idol-sdk"
+ ],
+ "cta": "FOTO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-11 17:00",
+  "tiktok": "2026-11-11 17:00"
+ },
+ "status": "aguardando aprovação"
+}

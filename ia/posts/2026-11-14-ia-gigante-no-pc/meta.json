@@ -1,0 +1,21 @@
+{
+ "data": "2026-11-14",
+ "horario": "13:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "ia-gigante-no-pc"
+ ],
+ "fontes": [
+  "https://github.com/nace-ai/kapitsa",
+  "https://github.com/simplexai-labs/PolyStrata",
+  "https://github.com/mw00/project-maya"
+ ],
+ "cta": "LOCAL",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-14 13:00",
+  "tiktok": "2026-11-14 13:00"
+ },
+ "status": "aguardando aprovação"
+}

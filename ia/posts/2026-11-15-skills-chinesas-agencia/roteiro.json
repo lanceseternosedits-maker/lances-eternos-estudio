@@ -1,0 +1,109 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "contagem",
+ "chave": "AGENCIA",
+ "tese": "3 SKILLS CHINESAS QUE FAZEM TRABALHO DE AGÊNCIA · +1 MIL ESTRELAS EM 1 MÊS · E O Nº 1 ACHA O SEU PRÓXIMO VIRAL",
+ "conceito": "Escritório de agência de publicidade vazio, com post-its caindo e cadeiras rodando sozinhas; janela com skyline genérica de cidade asiática à noite; paleta vermelho + dourado + branco. Gancho: uma placa 'AGÊNCIA' cai e no lugar sobe um notebook. Mascote de terno e óculos escuros.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote de estrelas",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: costurar"
+ },
+ "brinde": "links das 3 + dica de tradução (READMEs em chinês)",
+ "fontes": [
+  "https://github.com/liyupi/ai-promo-video-maker",
+  "https://github.com/zhouwei713/luobo-ppt",
+  "https://github.com/liuhaisi2026212-maker/taishang-laojun"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): AI Promo Video 452, Luobo PPT 454, Taishang Laojun 514; total 1.420; criados entre 08/10 e 22/10.",
+ "obs": "READMEs em chinês: conferir detalhes. Tom: 'as agências vão ter que se adaptar', sem ataque.",
+ "polemica": true,
+ "agenda": "2026-11-15 13:00",
+ "palavras": 97,
+ "duracao_estimada_s": 33.4,
+ "status": "aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 SKILLS CHINESAS QUE FAZEM TRABALHO DE AGÊNCIA",
+   "fala": "Na China, uma skill já faz o trabalho de uma agência inteira. Três exemplos.",
+   "legenda": "Na China, uma skill já faz o trabalho de uma agência inteira. Três exemplos.",
+   "itens": "skills-chinesas-agencia",
+   "etiqueta": [
+    "3 SKILLS CHINESAS QUE FAZEM TRABALHO DE AGÊNCIA",
+    "+1 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 ACHA O SEU PRÓXIMO VIRAL"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "AI Promo Video",
+   "repo": "liyupi/ai-promo-video-maker",
+   "estrelas": 452,
+   "fala": "Terceiro: uma frase e ela faz o vídeo de lançamento do seu produto, em 4K. Esse assusta… comenta AGENCIA que eu te mando as três. Mas a primeira é a mais perigosa.",
+   "legenda": "Terceiro: uma frase e ela faz o vídeo de lançamento do seu produto, em 4K. Esse assusta… comenta AGENCIA que eu te mando as três. Mas a primeira é a mais perigosa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Luobo PPT",
+   "repo": "zhouwei713/luobo-ppt",
+   "estrelas": 454,
+   "fala": "Segundo: faz apresentação de PowerPoint editável e bonita. Esse assusta… comenta AGENCIA que eu te mando as três. Mas a primeira é a mais perigosa.",
+   "legenda": "Segundo: faz apresentação de PowerPoint editável e bonita. Esse assusta… comenta AGENCIA que eu te mando as três. Mas a primeira é a mais perigosa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Taishang Laojun",
+   "repo": "liuhaisi2026212-maker/taishang-laojun",
+   "estrelas": 514,
+   "fala": "E o primeiro: acha o que está viralizando, sugere o tema e escreve o roteiro.",
+   "legenda": "E o primeiro: acha o que está viralizando, sugere o tema e escreve o roteiro.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA AGENCIA",
+   "fala": "Comenta AGENCIA e me segue. As agências vão ter que correr.",
+   "legenda": "Comenta AGENCIA e me segue. As agências vão ter que correr.",
+   "sfx": []
+  }
+ ]
+}
