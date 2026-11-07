@@ -417,10 +417,10 @@ def main() -> None:
     br = lambda v: f"{v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
     brl = lambda v: f"R$ {br(v * cambio)}"
     usd = lambda v: f"US$ {br(v)}"
-    tabela_g = "".join(f'<tr><td><b>{esc(n)}</b><br><small>{esc(o)} · {esc(fo)}</small></td><td class="num"><b>{usd(v)}</b><br><small>{brl(v)}</small><br><small>{esc(q)}</small></td></tr>'
+    tabela_g = "".join(f'<tr><td><b>{esc(n)}</b><br><small>{esc(o)} · {esc(fo)}</small></td><td class="num"><b>{usd(v)}</b><br><small>{esc(q)}</small></td></tr>'
                        for n, v, q, o, fo in linhas_g)
     html_gastos = (f'<div class="filas"><div class="kpi"><b>{usd(total_mes)}</b><span>total do mês</span></div>'
-                   f'<div class="kpi"><b>{brl(total_mes)}</b><span>em reais (câmbio {br(cambio)})</span></div>'
+                   f'<div class="kpi"><b>{usd(sum(v for n, v, q, o, fo in linhas_g if "por mês" not in q))}</b><span>por uso (Gemini)</span></div>'
                    f'<div class="kpi"><b>{usd(por_video)}</b><span>por post publicado ({pub_mes} no mês)</span></div></div>'
                    f'<table class="gastos"><tr><th>Serviço</th><th class="num">Valor</th></tr>{tabela_g}</table>'
                    f'<p class="mut" style="font-size:12px">Fixos: valores do plano. Gemini: estimado pelo nº de vídeos com voz desde que a chave paga começou (05/11); '
