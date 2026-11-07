@@ -94,6 +94,11 @@ def capa(pasta: Path) -> str | None:
 
 
 def titulo(pasta: Path, meta: dict, pubs: list[dict]) -> str:
+    rot0 = ler(pasta / "roteiro.json", {}) or {}
+    seg0 = (rot0.get("segmentos") or [{}])[0]
+    for cand in ((rot0.get("capa") or {}).get("texto"), (seg0.get("etiqueta") or [None])[0], seg0.get("tag")):
+        if cand and len(str(cand).split()) >= 2:
+            return str(cand).upper()
     for nome in ("legenda_reel_instagram.txt", "legenda_instagram.txt"):
         if (pasta / nome).exists():
             linha = (pasta / nome).read_text(encoding="utf-8").strip().splitlines()
@@ -121,6 +126,23 @@ def status_do_post(meta: dict, pubs: list[dict]) -> str:
     return "sem publicação"
 
 
+def balde(status: str) -> str:
+    s = status.lower()
+    if "aguardando" in s:
+        return "aprovar"
+    if "aprovado" in s or "correção" in s or "produção" in s:
+        return "producao"
+    return {"agendado": "agendado", "publicado": "publicado", "negado": "negado"}.get(s, "outros")
+
+
+def quando_bonito(q: str) -> str:
+    try:
+        d = dt.datetime.strptime(q[:16], "%Y-%m-%d %H:%M")
+        return f"{DIAS[d.weekday()]} {d:%d/%m} · {d:%H:%M}"
+    except ValueError:
+        return q[:10]
+
+
 def classe(status: str) -> str:
     s = status.lower()
     if "aguardando" in s:
@@ -145,6 +167,8 @@ function pintar() {
     const valida = x && x.etapa === d.dataset.etapa && (!d.dataset.versao || (x.em || '') >= d.dataset.versao);
     if (st) { st.textContent = valida ? (x.decisao === 'aprovado' ? '✔ ' + d.dataset.etapa + ' aprovado' : '✘ ' + d.dataset.etapa + ' negado') : st.dataset.orig;
               st.className = 'st ' + (valida ? (x.decisao === 'aprovado' ? 'ok' : 'erro') : 'espera'); }
+    const art = d.closest('article');
+    if (art) art.dataset.bucket = valida ? 'decidido' : art.dataset.b0;
     if (valida) {
       x.decisao === 'aprovado' ? ap++ : ng++;
       d.querySelectorAll('button,input').forEach(b => b.style.display = 'none');
@@ -154,8 +178,9 @@ function pintar() {
       f.querySelector('button').onclick = () => decidir(d.dataset.pasta, d.dataset.etapa, 'desfazer');
     } else { falta++; d.querySelectorAll('button').forEach(b => b.style.display = ''); if (f) f.remove(); }
   });
+  if (typeof recontar === 'function') recontar();
   document.querySelectorAll('li[data-pasta]').forEach(li => { const x = decisoes[li.dataset.pasta]; if (x) li.dataset.dec = x.decisao; else delete li.dataset.dec; });
-  aviso(`No app: ${ap} aprovado(s), ${ng} negado(s), ${falta} esperando você. As sessões aplicam as decisões na próxima rodada.`);
+  aviso(ap + ng ? `Você decidiu ${ap + ng} agora (${ap} ✔ · ${ng} ✘). As sessões aplicam e agendam na próxima rodada.` : '');
 }
 async function carregar() {
   try {
@@ -270,7 +295,7 @@ def main() -> None:
         if c["checagem"] and not c["checagem"]["ok"] and not c["meta"].get("checagem_aceita") and c["status"] not in ("publicado", "negado"):
             falhas = ", ".join(i["nome"] for i in c["checagem"]["itens"] if i["ok"] is False)
             pendencias.append(f"<b>Checagem falhou</b>: {esc(nome)} ({esc(falhas)})")
-    for st, nomes in aguardando.items():
+    for st, nomes in ({} if True else aguardando).items():  # os quadros da aba Aprovar já mostram essas contagens
         lista = "".join(f"<li>{esc(n)}</li>" for n in sorted(nomes))
         pendencias.insert(0, f'<details><summary><b>{len(nomes)} {esc(st)}</b> ({sorted(nomes)[0][8:10]}/{sorted(nomes)[0][5:7]} a {sorted(nomes)[-1][8:10]}/{sorted(nomes)[-1][5:7]})</summary><ul>{lista}</ul></details>')
     limite = (agora - dt.timedelta(days=3)).strftime("%Y-%m-%d")
@@ -365,17 +390,22 @@ def main() -> None:
             decide = (f'<div class="decide" data-pasta="{esc(nome)}" data-etapa="{etapa}" data-versao="{versao}" data-dia="{esc(c["quando"][:10])}">'
                       f'<span class="chance {ch["nivel"].replace(" ", "-").replace("é", "e")}" title="chance estimada de ser bem recebido">🔥 {ch["pct"]}%<small>{esc(ch["nivel"])}</small></span>'
                       f'<button class="sim">✔ Aprovar {etapa}</button><button class="nao">✘ Negar</button></div>{porque}')
+        b = balde(c["status"])
+        etapa_attr = f' data-etapa="{"vídeo" if decide and "Aprovar vídeo" in decide else "roteiro"}"' if decide else ""
         html_cartoes.append(
-            f'<article data-pasta="{esc(nome)}" data-status="{esc(c["status"])}" data-cat="{esc(cat)}"{pct_attr}>{img}<div class="info"><span class="cat">{CATEGORIAS.get(cat, cat)}</span> <span class="st {classe(c["status"])}">{esc(c["status"])}</span>'
-            f'<h4>{esc(c["titulo"][:110])}</h4><p class="sub">{esc(nome)}</p><p class="sub">{esc(detalhes)}</p>'
+            f'<article data-pasta="{esc(nome)}" data-status="{esc(c["status"])}" data-bucket="{b}" data-b0="{b}"{etapa_attr} data-cat="{esc(cat)}" data-quando="{esc(c["quando"][:16])}"{pct_attr}>{img}<div class="info">'
+            f'<div class="topo"><span class="cat">{CATEGORIAS.get(cat, cat)}</span> <span class="st {classe(c["status"])}">{esc(c["status"])}</span></div>'
+            f'<h4 title="{esc(nome)}">{esc(c["titulo"][:110])}</h4><p class="quando">📅 {esc(quando_bonito(c["quando"]))}</p><p class="sub">{esc(detalhes)}</p>'
             f'<div class="chips">{chips}{capa_ig}</div>{"<p class=met>" + "<br>".join(esc(x) for x in met) + "</p>" if met else ""}{chk}{rot_html}{decide}</div></article>')
 
-    contagem = defaultdict(int)
+    cont = defaultdict(int)
     for c in cartoes:
-        contagem[c["status"]] += 1
-    resumo = " · ".join(f"{n} {s}" for s, n in sorted(contagem.items(), key=lambda x: -x[1]))
-    filtros = "".join(f'<button data-f="{esc(s)}">{esc(s)} ({n})</button>' for s, n in sorted(contagem.items(), key=lambda x: -x[1]))
-    pend = "".join(f"<li>{p}</li>" for p in pendencias) or "<li>Nada pendente.</li>"
+        cont[balde(c["status"])] += 1
+    pend = "".join(f"<li>{p}</li>" for p in pendencias)
+    BALDES = [("aprovar", "📥 Pra aprovar"), ("producao", "🛠 Em produção"), ("agendado", "🗓 Agendados"), ("publicado", "✅ Publicados"),
+              ("negado", "✘ Negados"), ("outros", "• Outros")]
+    chips_todos = "".join(f'<button class="fb" data-b="{k}">{v} <b data-cont="{k}">{cont.get(k, 0)}</b></button>' for k, v in BALDES)
+    chips_cat = "".join(f'<button class="fc" data-c="{k}">{v}</button>' for k, v in CATEGORIAS.items())
 
     pagina = f"""<!DOCTYPE html>
 <html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -384,65 +414,129 @@ def main() -> None:
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="IA em 60s"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="theme-color" content="#0f1115">
 <style>
-:root{{--bg:#0f1115;--card:#181b22;--line:#262a33;--tx:#e8e9ec;--mut:#9aa0ab;--ok:#3ecf8e;--ag:#5aa9ff;--esp:#ffb547;--erro:#ff6b6b}}
-*{{box-sizing:border-box}}body{{margin:0;font:14px/1.45 system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--tx)}}
-header{{padding:calc(20px + env(safe-area-inset-top)) 16px 8px}}h1{{margin:0;font-size:22px}}h2{{font-size:16px;margin:24px 0 10px}}.mut{{color:var(--mut)}}
-main{{padding:0 16px 40px;max-width:1200px;margin:auto}}
-.pend{{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--esp);border-radius:10px;padding:10px 14px}}
-.pend ul{{margin:0;padding-left:18px}}.pend li{{margin:4px 0}}
-.semana{{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}}
-.dia{{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 10px}}.dia h3{{margin:0 0 6px;font-size:13px;text-transform:uppercase;color:var(--mut)}}
-.dia ul{{list-style:none;margin:0;padding:0}}.dia li{{font-size:12px;padding:5px 0;border-top:1px solid var(--line)}}.dia li span{{display:inline-block;width:42px;font-weight:600}}
-li.livre{{color:var(--esp)}}li.espera span{{color:var(--esp)}}.pend details{{font-size:14px}}.pend details ul{{margin:4px 0;columns:2;font-size:12px;color:var(--mut)}}li.ok span{{color:var(--ok)}}li.agenda span{{color:var(--ag)}}li.erro{{color:var(--erro)}}
-.filtros button{{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:20px;padding:5px 12px;margin:0 6px 6px 0;font:inherit;cursor:pointer}}
-.filtros button.on{{border-color:var(--ag);color:var(--ag)}}
-.grade{{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}}
-article{{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex}}
-article img,.semcapa{{width:96px;min-width:96px;height:170px;object-fit:cover;background:#000}}.semcapa{{display:flex;align-items:center;justify-content:center;color:var(--mut);font-size:11px}}
-.info{{padding:8px 10px;min-width:0}}h4{{margin:4px 0;font-size:13px;line-height:1.3}}.sub{{margin:2px 0;color:var(--mut);font-size:11px;word-break:break-word}}
-.cat{{font-size:10px;font-weight:700;color:var(--mut);border:1px solid var(--line);border-radius:8px;padding:1px 6px}}
-.st{{font-size:11px;font-weight:600;text-transform:uppercase}}.st.ok{{color:var(--ok)}}.st.agenda{{color:var(--ag)}}.st.espera{{color:var(--esp)}}.st.erro{{color:var(--erro)}}.st.neutro{{color:var(--mut)}}
-.chips{{margin:6px 0}}.chip{{display:inline-block;font-size:11px;padding:2px 7px;border-radius:10px;margin:0 4px 4px 0;border:1px solid var(--line);color:var(--tx);text-decoration:none}}
-.chip.ig{{border-color:#ff3fa4;color:#ff9ad5}}.chip.ok{{border-color:var(--ok)}}.chip.agenda{{border-color:var(--ag)}}.chip.erro{{border-color:var(--erro);color:var(--erro)}}
-.met{{font-size:12px;margin:4px 0}}details{{font-size:11px;margin-top:4px}}details ul{{padding-left:4px;list-style:none;margin:4px 0}}details li.erro{{color:var(--erro)}}details li.ok{{color:var(--mut)}}details li.aviso{{color:var(--esp)}}
-.player{{width:100%;max-width:240px;aspect-ratio:9/16;border-radius:10px;background:#000;margin:8px 0 4px;display:block}}
-.rot ul li{{margin:3px 0;color:var(--tx)}}.rot b{{color:var(--mut);font-weight:600}}
-.decide{{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}}.decide button,.dia-todos{{font:inherit;font-size:12px;border-radius:8px;padding:6px 10px;cursor:pointer;border:1px solid var(--line);background:#20242d;color:var(--tx)}}
-.decide .sim{{border-color:var(--ok);color:var(--ok)}}.decide .nao{{border-color:var(--erro);color:var(--erro)}}
-#atualizar{{font:inherit;font-size:12px;font-weight:600;vertical-align:middle;margin-left:4px;padding:5px 10px;border-radius:20px;border:1px solid #5aa9ff;background:#5aa9ff1a;color:#5aa9ff;cursor:pointer}}
-#sino{{font:inherit;font-size:12px;font-weight:600;vertical-align:middle;margin-left:8px;padding:5px 10px;border-radius:20px;border:1px solid #ffb547;background:#ffb5471a;color:#ffb547;cursor:pointer}}#sino.ok{{border-color:#3ecf8e;color:#3ecf8e;background:#3ecf8e1a}}
-.chance{{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:15px;border-radius:8px;padding:3px 9px;line-height:1.1;border:1px solid}}
-.chance small{{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}}
+:root{{--bg:#0d0f13;--card:#171a21;--card2:#1e222b;--line:#272c36;--tx:#eceef2;--mut:#9aa0ab;--ok:#3ecf8e;--ag:#5aa9ff;--esp:#ffb547;--erro:#ff6b6b;--ac:#ff8a3d}}
+*{{box-sizing:border-box;-webkit-tap-highlight-color:transparent}}
+body{{margin:0;font:15px/1.45 -apple-system,system-ui,Segoe UI,sans-serif;background:var(--bg);color:var(--tx);padding-bottom:calc(76px + env(safe-area-inset-bottom))}}
+header{{position:sticky;top:0;z-index:10;background:#0d0f13ee;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);padding:calc(10px + env(safe-area-inset-top)) 16px 10px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:8px}}
+header h1{{margin:0;font-size:19px;flex:1}}header h1 small{{display:block;font-size:11px;font-weight:500;color:var(--mut)}}
+.ib{{font:inherit;font-size:13px;font-weight:600;padding:7px 11px;border-radius:20px;border:1px solid var(--line);background:var(--card);color:var(--tx);cursor:pointer}}
+#sino{{border-color:#ffb54766;color:var(--esp)}}#sino.ok{{border-color:#3ecf8e66;color:var(--ok)}}
+main{{padding:12px 14px 20px;max-width:1100px;margin:auto}}
+.aba{{display:none}}body[data-tab=aprovar] .aba-aprovar,body[data-tab=agenda] .aba-agenda,body[data-tab=publicados] .aba-publicados,body[data-tab=todos] .aba-todos{{display:block}}
+h2{{font-size:17px;margin:18px 0 10px}}.mut{{color:var(--mut)}}
+.resumo{{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:4px 0 12px}}
+.box{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;text-align:center}}.box b{{display:block;font-size:24px}}.box span{{font-size:12px;color:var(--mut)}}
+.pend{{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--esp);border-radius:12px;padding:8px 14px;margin-bottom:12px;font-size:13px}}
+.pend ul{{margin:0;padding-left:18px}}.pend li{{margin:4px 0}}.pend details ul{{columns:2;font-size:12px;color:var(--mut)}}
+.seg{{display:flex;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:3px;gap:3px;margin-bottom:10px}}
+.seg button{{flex:1;font:inherit;font-size:13px;font-weight:600;padding:8px 6px;border-radius:9px;border:0;background:none;color:var(--mut);cursor:pointer}}.seg button.on{{background:var(--card2);color:var(--tx)}}
+.chipsbar{{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;margin-bottom:6px;scrollbar-width:none}}.chipsbar::-webkit-scrollbar{{display:none}}
+.chipsbar button{{flex:none;font:inherit;font-size:13px;padding:6px 12px;border-radius:20px;border:1px solid var(--line);background:var(--card);color:var(--tx);cursor:pointer;white-space:nowrap}}
+.chipsbar button.on{{border-color:var(--ag);color:var(--ag);background:#5aa9ff14}}.chipsbar b{{font-weight:700;margin-left:3px}}
+.grade{{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}}
+article{{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;transition:opacity .2s}}
+article img,.semcapa{{width:108px;min-width:108px;aspect-ratio:9/16;height:auto;align-self:flex-start;object-fit:cover;background:#000}}.semcapa{{display:flex;align-items:center;justify-content:center;color:var(--mut);font-size:11px;height:192px}}
+.info{{padding:10px 12px;min-width:0;flex:1}}.topo{{display:flex;flex-wrap:wrap;gap:6px;align-items:center}}
+h4{{margin:6px 0 2px;font-size:15px;line-height:1.3}}.quando{{margin:2px 0;font-size:12px;color:var(--ag);font-weight:600}}.sub{{margin:2px 0;color:var(--mut);font-size:11px;word-break:break-word}}
+.cat{{font-size:11px;font-weight:700;color:var(--tx);background:var(--card2);border-radius:8px;padding:2px 7px}}
+.st{{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.02em}}.st.ok{{color:var(--ok)}}.st.agenda{{color:var(--ag)}}.st.espera{{color:var(--esp)}}.st.erro{{color:var(--erro)}}.st.neutro{{color:var(--mut)}}
+.chips{{margin:6px 0}}.chip{{display:inline-block;font-size:12px;padding:3px 8px;border-radius:10px;margin:0 4px 4px 0;border:1px solid var(--line);color:var(--tx);text-decoration:none}}
+.chip.ig{{border-color:#ff3fa466;color:#ff9ad5}}.chip.ok{{border-color:#3ecf8e66}}.chip.agenda{{border-color:#5aa9ff66}}.chip.erro{{border-color:var(--erro);color:var(--erro)}}
+.met{{font-size:12px;margin:4px 0;color:var(--ok)}}details{{font-size:12px;margin-top:6px}}summary{{cursor:pointer;color:var(--mut)}}details ul{{padding-left:4px;list-style:none;margin:4px 0}}details li.erro{{color:var(--erro)}}details li.ok{{color:var(--mut)}}details li.aviso{{color:var(--esp)}}
+.player{{width:100%;max-width:260px;aspect-ratio:9/16;border-radius:12px;background:#000;margin:8px 0 4px;display:block}}
+.rot ul li{{margin:4px 0;color:var(--tx);font-size:13px}}.rot b{{color:var(--mut);font-weight:600}}
+.decide{{margin-top:10px;display:flex;gap:8px;flex-wrap:wrap;align-items:stretch}}
+.decide button{{flex:1;min-width:110px;font:inherit;font-size:14px;font-weight:700;border-radius:12px;padding:10px;cursor:pointer;border:0}}
+.decide .sim{{background:var(--ok);color:#06200f}}.decide .nao{{background:#ff6b6b26;color:var(--erro)}}
+.decide input{{flex:1 1 100%}}
+.chance{{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:15px;border-radius:12px;padding:4px 10px;line-height:1.1;border:1px solid}}
+.chance small{{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}}
 .chance.boa-aposta{{color:var(--ok);border-color:var(--ok);background:#3ecf8e1a}}.chance.medio{{color:var(--esp);border-color:var(--esp);background:#ffb5471a}}.chance.arriscado{{color:var(--erro);border-color:var(--erro);background:#ff6b6b1a}}
 .porque ul li{{margin:3px 0;color:var(--tx)}}.porque span{{display:inline-block;min-width:28px;font-weight:700}}.porque .mais{{color:var(--ok)}}.porque .menos{{color:var(--erro)}}.porque .zero{{color:var(--mut)}}.porque p{{color:var(--mut);margin:4px 0 0}}
-.flag{{display:inline-block;font-size:12px;font-weight:700;padding:4px 9px;border-radius:8px;margin-top:8px}}.flag.aprovado{{background:#3ecf8e22;color:var(--ok)}}.flag.negado{{background:#ff6b6b22;color:var(--erro)}}
-.flag button{{margin-left:6px;background:none;border:none;color:var(--mut);font-size:11px;text-decoration:underline;cursor:pointer}}
-.dia-todos{{float:right;font-size:10px!important;padding:2px 6px!important;text-transform:none;border-color:var(--ok)!important;color:var(--ok)!important}}
+.flag{{display:inline-block;font-size:13px;font-weight:700;padding:6px 10px;border-radius:10px;margin-top:10px}}.flag.aprovado{{background:#3ecf8e22;color:var(--ok)}}.flag.negado{{background:#ff6b6b22;color:var(--erro)}}
+.flag button{{margin-left:8px;background:none;border:none;color:var(--mut);font-size:12px;text-decoration:underline;cursor:pointer}}
+article[data-bucket=decidido]{{opacity:.55}}
+.semana{{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px}}
+.dia{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px}}.dia h3{{margin:0 0 6px;font-size:13px;text-transform:uppercase;color:var(--mut)}}
+.dia ul{{list-style:none;margin:0;padding:0}}.dia li{{font-size:12px;padding:6px 0;border-top:1px solid var(--line)}}.dia li span{{display:inline-block;width:44px;font-weight:700}}
+li.livre{{color:var(--esp)}}li.espera span{{color:var(--esp)}}li.ok span{{color:var(--ok)}}li.agenda span{{color:var(--ag)}}li.erro{{color:var(--erro)}}
+.dia-todos{{float:right;font:inherit;font-size:10px;padding:2px 7px;border-radius:8px;border:1px solid var(--ok);background:none;color:var(--ok);cursor:pointer;text-transform:none}}
 li[data-dec=aprovado]::before{{content:"✔";color:var(--ok);font-weight:700;margin-right:3px}}li[data-dec=negado]{{text-decoration:line-through;opacity:.5}}
-#aviso{{font-size:12px;color:var(--mut);margin-top:6px}}
-</style></head><body>
-<header><h1>IA em 60s · painel <button id="sino" style="display:none">🔔 Ativar notificações</button> <button id="atualizar" onclick="location.replace('/?t=' + Date.now())">↻ Atualizar</button></h1><div class="mut">Atualizado em {agora:%d/%m %H:%M} (Brasília) · Metricool lido em {esc(snap.get("lido_em", "?"))} · {esc(resumo)}</div></header>
+#aviso{{font-size:12px;color:var(--mut);margin:6px 2px}}
+nav{{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;background:#12151bf2;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--line);padding:6px 6px calc(6px + env(safe-area-inset-bottom))}}
+nav button{{flex:1;font:inherit;font-size:11px;font-weight:600;color:var(--mut);background:none;border:0;padding:4px 0;cursor:pointer;position:relative}}
+nav button i{{display:block;font-style:normal;font-size:21px;line-height:1.3}}nav button.on{{color:var(--tx)}}
+nav .badge{{position:absolute;top:0;left:56%;min-width:18px;padding:0 5px;border-radius:9px;background:var(--erro);color:#fff;font-size:11px;line-height:18px}}
+.vazio{{text-align:center;color:var(--mut);padding:30px 10px}}
+</style></head><body data-tab="aprovar">
+<header><h1>IA em 60s<small>atualizado {agora:%d/%m %H:%M} · Metricool {esc(str(snap.get("lido_em", "?"))[:16])}</small></h1>
+<button id="sino" class="ib" style="display:none">🔔 Ativar</button><button id="atualizar" class="ib" onclick="location.replace('/?t=' + Date.now() + location.hash)">↻</button></header>
 <main>
-<h2 id="pendentes">Precisa de você</h2><div class="pend"><ul>{pend}</ul><div id="aviso"></div></div>
-<h2>Semana (Instagram, vagas do calendário)</h2><div class="semana">{"".join(semana)}</div>
-<h2>Todos os posts ({len(cartoes)})</h2><div class="filtros"><button data-f="" class="on">todos</button>{filtros}<button id="porchance">🔥 maior chance primeiro</button>{"".join(f'<button class="fcat" data-c="{k}">{v}</button>' for k, v in CATEGORIAS.items())}</div>
-<div class="grade">{"".join(html_cartoes)}</div>
+<section class="aba aba-aprovar">
+ <div class="resumo"><div class="box"><b data-cont="v-aprovar">0</b><span>🎬 vídeos</span></div><div class="box"><b data-cont="r-aprovar">0</b><span>📝 roteiros</span></div><div class="box"><b data-cont="decidido">0</b><span>✔ decididos agora</span></div></div>
+ <div id="aviso"></div>
+ {('<div class="pend"><ul>' + pend + '</ul></div>') if pend else ''}
+ <div class="seg" id="seg"><button data-e="" class="on">Tudo</button><button data-e="vídeo">🎬 Vídeos</button><button data-e="roteiro">📝 Roteiros</button></div>
+ <div class="chipsbar" id="cats-a"><button data-c="" class="on">Todas</button>{chips_cat}<button id="porchance">🔥 maior chance</button></div>
+</section>
+<section class="aba aba-agenda"><h2>Semana</h2><div class="semana">{"".join(semana)}</div><h2>Próximos agendados</h2></section>
+<section class="aba aba-publicados"><h2>Publicados</h2></section>
+<section class="aba aba-todos"><h2>Todos os posts ({len(cartoes)})</h2><div class="chipsbar" id="baldes"><button data-b="" class="on">Todos</button>{chips_todos}</div><div class="chipsbar" id="cats-t"><button data-c="" class="on">Todas</button>{chips_cat}</div></section>
+<div class="grade" id="grade">{"".join(html_cartoes)}</div>
+<div class="vazio" id="vazio" style="display:none">Nada por aqui 🎉</div>
 </main>
+<nav><button data-t="aprovar"><i>📥</i>Aprovar<span class="badge" data-cont="aprovar"></span></button><button data-t="agenda"><i>📅</i>Agenda</button><button data-t="publicados"><i>✅</i>Publicados</button><button data-t="todos"><i>🗂</i>Todos</button></nav>
 <script>
-document.getElementById('porchance').onclick=()=>{{
- const g=document.querySelector('.grade');  // prepend em ordem crescente deixa a maior chance no topo
- [...g.children].filter(a=>a.dataset.chance).sort((a,b)=>a.dataset.chance-b.dataset.chance).forEach(a=>g.prepend(a));
- document.querySelectorAll('article').forEach(a=>a.style.display=a.dataset.chance?'':'none');
-}};
-document.querySelectorAll('.fcat').forEach(b=>b.onclick=()=>{{
- document.querySelectorAll('.filtros button').forEach(x=>x.classList.toggle('on',x===b));
- document.querySelectorAll('article').forEach(a=>a.style.display=a.dataset.cat===b.dataset.c?'':'none');
-}});
-document.querySelectorAll('.filtros button:not(#porchance):not(.fcat)').forEach(b=>b.onclick=()=>{{
- document.querySelectorAll('.filtros button').forEach(x=>x.classList.toggle('on',x===b));
- document.querySelectorAll('article').forEach(a=>a.style.display=(!b.dataset.f||a.dataset.status===b.dataset.f)?'':'none');
-}});
-""" + JS + """</script></body></html>
+const F = {{ e: '', ca: '', b: '', ct: '', chance: false }};
+function visivel(a) {{
+  const t = document.body.dataset.tab, b = a.dataset.bucket;
+  if (t === 'aprovar') return (b === 'aprovar' || b === 'decidido') && (!F.e || a.dataset.etapa === F.e) && (!F.ca || a.dataset.cat === F.ca) && (!F.chance || a.dataset.chance);
+  if (t === 'agenda') return b === 'agendado' || b === 'producao';
+  if (t === 'publicados') return b === 'publicado';
+  return (!F.b || b === F.b) && (!F.ct || a.dataset.cat === F.ct);
+}}
+function ordenar() {{
+  const t = document.body.dataset.tab, g = document.getElementById('grade');
+  const arts = [...g.querySelectorAll('article')];
+  const chave = (a) => {{
+    const q = a.dataset.quando || '';
+    if (t === 'aprovar') return (a.dataset.bucket === 'decidido' ? '2' : '1') + (F.chance ? String(999 - (+a.dataset.chance || 0)).padStart(3, '0') : (a.dataset.etapa === 'vídeo' ? '0' : '1') + q);
+    if (t === 'agenda') return q;
+    return String(99999999999999 - +q.replace(/\\D/g, '')).padStart(14, '0');
+  }};
+  arts.sort((x, y) => chave(x) < chave(y) ? -1 : 1).forEach(a => g.appendChild(a));
+}}
+function aplicar() {{
+  let n = 0;
+  document.querySelectorAll('#grade article').forEach(a => {{ const v = visivel(a); a.style.display = v ? '' : 'none'; if (v) n++; }});
+  ordenar();
+  document.getElementById('vazio').style.display = n ? 'none' : '';
+}}
+function recontar() {{
+  const c = {{}};
+  document.querySelectorAll('#grade article').forEach(a => {{
+    c[a.dataset.bucket] = (c[a.dataset.bucket] || 0) + 1;
+    if (a.dataset.bucket === 'aprovar') {{ const k = (a.dataset.etapa === 'vídeo' ? 'v' : 'r') + '-aprovar'; c[k] = (c[k] || 0) + 1; }}
+  }});
+  document.querySelectorAll('[data-cont]').forEach(el => {{ const v = c[el.dataset.cont] || 0; el.textContent = v; if (el.classList.contains('badge')) el.style.display = v ? '' : 'none'; }});
+}}
+function aba(t) {{
+  document.body.dataset.tab = t;
+  document.querySelectorAll('nav button').forEach(b => b.classList.toggle('on', b.dataset.t === t));
+  if (location.hash !== '#' + t) history.replaceState(null, '', '#' + t);
+  aplicar(); window.scrollTo(0, 0);
+}}
+document.querySelectorAll('nav button').forEach(b => b.onclick = () => aba(b.dataset.t));
+document.querySelectorAll('#seg button').forEach(b => b.onclick = () => {{ F.e = b.dataset.e; document.querySelectorAll('#seg button').forEach(x => x.classList.toggle('on', x === b)); aplicar(); }});
+document.querySelectorAll('#cats-a button:not(#porchance)').forEach(b => b.onclick = () => {{ F.ca = b.dataset.c; document.querySelectorAll('#cats-a button:not(#porchance)').forEach(x => x.classList.toggle('on', x === b)); aplicar(); }});
+document.getElementById('porchance').onclick = (ev) => {{ F.chance = !F.chance; ev.currentTarget.classList.toggle('on', F.chance); aplicar(); }};
+document.querySelectorAll('#baldes button').forEach(b => b.onclick = () => {{ F.b = b.dataset.b; document.querySelectorAll('#baldes button').forEach(x => x.classList.toggle('on', x === b)); aplicar(); }});
+document.querySelectorAll('#cats-t button').forEach(b => b.onclick = () => {{ F.ct = b.dataset.c; document.querySelectorAll('#cats-t button').forEach(x => x.classList.toggle('on', x === b)); aplicar(); }});
+""" + JS + """
+const inicio = (location.hash || '').slice(1).replace('pendentes', 'aprovar');
+recontar();
+aba(['aprovar', 'agenda', 'publicados', 'todos'].includes(inicio) ? inicio : (document.querySelector('#grade article[data-bucket=aprovar]') ? 'aprovar' : 'agenda'));
+</script></body></html>
 """
     (PAINEL / "index.html").write_text(pagina, encoding="utf-8")
     # o Worker lê isto a cada 5 min e manda notificação de cada vídeo novo esperando aprovação
