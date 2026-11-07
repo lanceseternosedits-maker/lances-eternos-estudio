@@ -15,5 +15,78 @@
   "instagram": "2026-11-08 17:00",
   "tiktok": "2026-11-08 17:00"
  },
- "status": "roteiro aprovado"
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-07 15:05",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "25.7 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.53 palavras/s (65 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-13.8 LUFS, pico -1.0 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "1 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "641 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "BICHO",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "obs_producao": "07/11: estrelas relidas (548); etiqueta corrigida de '+1 mil estrelas em 2 semanas' para '+500 estrelas em 11 dias' (o repositório tem 548, criado em 27/10). Formato palco feito no motor da cena_contagem (cenas s1–s4, módulo próprio), com a savana de papelão do conceito. Voz 1,1×: 25,7 s, 2,53 palavras/s. Custo de voz ~US$ 0,01.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "b) carimbo",
+  "contador": "e) placar HI-SCORE",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "e) glitch RGB",
+  "camera": "d) órbita",
+  "fechamento": "b) pódio",
+  "tipografia": "e) Caveat + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "acessório e ação do conceito; ação principal: andar de skate"
+ }
 }
