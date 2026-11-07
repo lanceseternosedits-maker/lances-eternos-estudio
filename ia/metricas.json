@@ -42,5 +42,76 @@
   }
  },
  "_leituras_da_grade_05_11": "Grade do perfil em 05/11: 5 skills 767 · desenho animado 356 · currículo 188 · 'Todo mundo tá' 192 · '1 arquivo = 1 função' 164 · carrossel Gemini 4 Carbon 42.",
- "_leituras_da_grade_06_11": "Grade 06/11: 5 skills 2.697 · desenho 507 · Canva reel 250 · currículo 190 · Nintendo 174 (~1 h) · carrosséis 11–27."
+ "_leituras_da_grade_06_11": "Grade 06/11: 5 skills 2.697 · desenho 507 · Canva reel 250 · currículo 190 · Nintendo 174 (~1 h) · carrosséis 11–27.",
+ "leitura_api_2026_11_07": {
+  "fonte": "Metricool API (getAnalyticsDataByMetrics), sincroniza com ~1 dia de atraso; reels de 06/11 em diante ainda não apareceram",
+  "instagram_reels": {
+   "5 skills": {
+    "views": 2486,
+    "alcance": 2014,
+    "curtidas": 87,
+    "comentarios": 7,
+    "salvos": 88,
+    "envios": 40,
+    "tempo_medio_s": 9.96,
+    "view_rate_3s": 45.0
+   },
+   "desenho animado": {
+    "views": 506,
+    "alcance": 436,
+    "curtidas": 14,
+    "comentarios": 15,
+    "salvos": 10,
+    "envios": 3,
+    "tempo_medio_s": 8.1,
+    "view_rate_3s": 58.3
+   },
+   "canva": {
+    "views": 225,
+    "alcance": 186,
+    "curtidas": 6,
+    "comentarios": 3,
+    "salvos": 2,
+    "envios": 1,
+    "tempo_medio_s": 6.9,
+    "view_rate_3s": 56.8
+   },
+   "curriculo": {
+    "views": 190,
+    "curtidas": 4,
+    "comentarios": 1,
+    "tempo_medio_s": 5.0,
+    "view_rate_3s": 31.0
+   },
+   "skill (02/11)": {
+    "views": 165,
+    "tempo_medio_s": 3.9,
+    "view_rate_3s": 23.6
+   },
+   "esculacho": {
+    "views": 194,
+    "tempo_medio_s": 39.7,
+    "view_rate_3s": 35.3
+   },
+   "gemini carbon": {
+    "views": 43,
+    "view_rate_3s": 10.3
+   }
+  },
+  "tiktok": {
+   "5 skills": {
+    "views": 18,
+    "curtidas": 1
+   },
+   "canva": {
+    "views": 2
+   },
+   "desenho": {
+    "views": 56,
+    "curtidas": 2
+   },
+   "melhor da semana": "181 views (01/11)"
+  },
+  "leitura": "IG: 5 skills segura 45% nos 3 s e ~10 s de tempo médio; desenho tem o melhor gancho (58%) e mais comentários (15, CTA DESENHO). TikTok quase não distribui (2–56 views): conta fria."
+ }
 }
