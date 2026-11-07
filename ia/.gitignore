@@ -5,3 +5,6 @@ posts/*/out3d/
 video/cena_*/cfg.json
 video/_produz_b.sh
 video/cena_contagem_b/
+video/produz_b.sh
+posts/*/produz.log
+posts/*/tts.log

@@ -3,7 +3,7 @@
  "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
  "formato": "palco",
  "chave": "BICHO",
- "tese": "CAPTURA DE MOVIMENTO DE QUALQUER BICHO · +1 MIL ESTRELAS EM 2 SEMANAS",
+ "tese": "CAPTURA DE MOVIMENTO DE QUALQUER BICHO · +500 ESTRELAS EM 11 DIAS",
  "conceito": "Savana de papelão ao pôr do sol: árvores de recorte, girafas e cavalos de blocos com pontinhos de captura; paleta laranja-savana + amarelo + marrom. Mascote de chapéu de safári e câmera filmando um cavalo de blocos que vira esqueleto de linhas.",
  "elementos": {
   "etiqueta": "f) página de caderno",
@@ -21,7 +21,7 @@
  "fontes": [
   "https://github.com/patch-gg/anymove"
  ],
- "prova_viral": "Estrelas no GitHub (API. 07/11/2026): patch-gg/anymove 546, criado em 27/10.",
+ "prova_viral": "Estrelas no GitHub (releitura 07/11/2026, produção): patch-gg/anymove 548, criado em 27/10.",
  "obs": "pixelfx (mesmo autor patch-gg) foi item do 5 skills: conferir que é o mesmo autor (é: patch-gg).",
  "polemica": false,
  "agenda": "2026-11-08 17:00",
@@ -44,7 +44,7 @@
    "itens": "captura-de-qualquer-bicho",
    "etiqueta": [
     "CAPTURA DE MOVIMENTO DE QUALQUER BICHO",
-    "+1 MIL ESTRELAS EM 2 SEMANAS",
+    "+500 ESTRELAS EM 11 DIAS",
     ""
    ]
   },
@@ -53,38 +53,78 @@
    "tag": "",
    "fala": "O anymove pega um vídeo e tira o esqueleto do bicho.",
    "legenda": "O anymove pega um vídeo e tira o esqueleto do bicho.",
-   "sfx": []
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.35
+    }
+   ]
   },
   {
    "cena": "s2",
    "tag": "",
    "fala": "Usa duas câmeras no mesmo quadro e entrega um modelo 3D animado.",
    "legenda": "Usa duas câmeras no mesmo quadro e entrega um modelo 3D animado.",
-   "sfx": []
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.35
+    }
+   ]
   },
   {
    "cena": "s3",
    "tag": "",
    "fala": "Do mesmo criador do pixelfx. Comenta BICHO que eu te mando.",
    "legenda": "Do mesmo criador do pixelfx. Comenta BICHO que eu te mando.",
-   "sfx": [],
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.35
+    },
+    {
+     "t": 0.15,
+     "som": "stamp",
+     "g": 0.7
+    }
+   ],
    "item": "anymove",
    "repo": "patch-gg/anymove",
-   "estrelas": 546
+   "estrelas": 548
   },
   {
    "cena": "s4",
    "tag": "",
    "fala": "Serve pra jogo, animação e efeitos especiais.",
    "legenda": "Serve pra jogo, animação e efeitos especiais.",
-   "sfx": []
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.35
+    }
+   ]
   },
   {
    "cena": "cta",
    "tag": "COMENTA BICHO",
    "fala": "Comenta BICHO e me segue que eu te mando o link.",
    "legenda": "Comenta BICHO e me segue que eu te mando o link.",
-   "sfx": []
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.35
+    },
+    {
+     "t": 0.6,
+     "som": "ding",
+     "g": 0.5
+    }
+   ]
   }
  ],
  "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos)."

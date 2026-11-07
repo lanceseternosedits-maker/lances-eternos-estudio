@@ -3,7 +3,7 @@
  "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
  "formato": "contagem",
  "chave": "MOBILE",
- "tese": "5 JOGOS DE CONSOLE RODANDO NO CELULAR · +8 MIL ESTRELAS EM 1 MÊS · E O Nº 1 RODA A 60 QUADROS",
+ "tese": "5 JOGOS DE CONSOLE RODANDO NO CELULAR · +7,8 MIL ESTRELAS EM 1 MÊS · E O Nº 1 RODA A 60 QUADROS",
  "conceito": "Pátio de escola na hora do recreio, ao entardecer: bancos de cimento, mochilas, um portátil de blocos passando de mão em mão; paleta laranja-pôr-do-sol + azul-uniforme + cinza-cimento. Nº 1: o celular vira uma arena com chamas pixeladas. Mascote de boné virado para trás.",
  "elementos": {
   "etiqueta": "e) tela de terminal",
@@ -25,7 +25,7 @@
   "https://github.com/shirai91/nx2android",
   "https://github.com/jhaizhou-ops/d2r-mobile"
  ],
- "prova_viral": "Estrelas no GitHub (API, 07/11/2026): PokeDaisy 513, GTA V iOS 556, BOTW Android 630, nx2android 884, D2R Mobile 5.184; total 7.767; criados entre 06/10 e 24/10.",
+ "prova_viral": "Estrelas no GitHub (releitura 07/11/2026, produção): PokeDaisy 516, GTA V iOS 559, BOTW Android 637, nx2android 939, D2R Mobile 5.198; total 7.849; criados entre 06/10 e 24/10.",
  "obs": "Nintendo de novo (Nintendo saiu 08/11): misturado com Rockstar/Blizzard, ok por ser outra pauta. Nunca ROM. Sem logos/personagens. 'Só com o seu jogo'.",
  "polemica": true,
  "agenda": "2026-11-08 09:00",
@@ -41,13 +41,28 @@
    "itens": "console-no-celular",
    "etiqueta": [
     "5 JOGOS DE CONSOLE RODANDO NO CELULAR",
-    "+8 MIL ESTRELAS EM 1 MÊS",
+    "+7,8 MIL ESTRELAS EM 1 MÊS",
     "E O Nº 1 RODA A 60 QUADROS"
    ],
    "sfx": [
     {
      "t": 0.1,
      "som": "whoosh",
+     "g": 0.5
+    },
+    {
+     "t": 0.55,
+     "som": "impact",
+     "g": 0.5
+    },
+    {
+     "t": 1.1,
+     "som": "impact",
+     "g": 0.5
+    },
+    {
+     "t": 1.7,
+     "som": "pop",
      "g": 0.6
     }
    ]
@@ -57,14 +72,24 @@
    "tag": "5º",
    "item": "PokeDaisy",
    "repo": "lidor30/pokedaisy",
-   "estrelas": 513,
+   "estrelas": 516,
    "fala": "Quinto: PokeDaisy. Player de Game Boy pra portátil Android.",
    "legenda": "Quinto: PokeDaisy. Player de Game Boy pra portátil Android.",
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
-     "g": 0.5
+     "som": "whoosh2",
+     "g": 0.45
+    },
+    {
+     "t": 0.35,
+     "som": "stamp",
+     "g": 0.75
+    },
+    {
+     "t": 0.95,
+     "som": "impact",
+     "g": 0.35
     }
    ]
   },
@@ -73,14 +98,24 @@
    "tag": "4º",
    "item": "GTA V iOS",
    "repo": "kevinerikjs/gta5-ios-port",
-   "estrelas": 556,
+   "estrelas": 559,
    "fala": "Quarto: GTA V nativo no iPhone, com os arquivos do seu jogo.",
    "legenda": "Quarto: GTA V nativo no iPhone, com os arquivos do seu jogo.",
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
-     "g": 0.5
+     "som": "whoosh2",
+     "g": 0.45
+    },
+    {
+     "t": 0.35,
+     "som": "stamp",
+     "g": 0.75
+    },
+    {
+     "t": 0.95,
+     "som": "impact",
+     "g": 0.35
     }
    ]
   },
@@ -89,14 +124,24 @@
    "tag": "3º",
    "item": "BOTW Android",
    "repo": "mamcjr/BOTWRecompAndroid",
-   "estrelas": 630,
-   "fala": "Terceiro: Breath of the Wild recompilado pra Android. Esse é absurdo… comenta MOBILE que eu te mando os cinco. Mas o próximo é o mais pedido.",
-   "legenda": "Terceiro: Breath of the Wild recompilado pra Android. Esse é absurdo… comenta MOBILE que eu te mando os cinco. Mas o próximo é o mais pedido.",
+   "estrelas": 637,
+   "fala": "Terceiro: Breath of the Wild recompilado pra Android. Esse é absurdo… comenta MOBILE que eu te mando os cinco.",
+   "legenda": "Terceiro: Breath of the Wild recompilado pra Android. Esse é absurdo… comenta MOBILE que eu te mando os cinco.",
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
-     "g": 0.5
+     "som": "whoosh2",
+     "g": 0.45
+    },
+    {
+     "t": 0.35,
+     "som": "stamp",
+     "g": 0.75
+    },
+    {
+     "t": 0.95,
+     "som": "impact",
+     "g": 0.35
     }
    ]
   },
@@ -105,14 +150,24 @@
    "tag": "2º",
    "item": "nx2android",
    "repo": "shirai91/nx2android",
-   "estrelas": 884,
+   "estrelas": 939,
    "fala": "Segundo: leva jogos de Switch pro Android, um por um.",
    "legenda": "Segundo: leva jogos de Switch pro Android, um por um.",
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
-     "g": 0.5
+     "som": "whoosh2",
+     "g": 0.45
+    },
+    {
+     "t": 0.35,
+     "som": "stamp",
+     "g": 0.75
+    },
+    {
+     "t": 0.95,
+     "som": "impact",
+     "g": 0.35
     }
    ]
   },
@@ -121,14 +176,24 @@
    "tag": "1º",
    "item": "D2R Mobile",
    "repo": "jhaizhou-ops/d2r-mobile",
-   "estrelas": 5184,
-   "fala": "E o primeiro: Diablo dois no celular, com toque e sessenta quadros por segundo.",
-   "legenda": "E o primeiro: Diablo dois no celular, com toque e sessenta quadros por segundo.",
+   "estrelas": 5198,
+   "fala": "E o primeiro: Diablo dois no celular, com toque e sessenta quadros.",
+   "legenda": "E o primeiro: Diablo dois no celular, com toque e sessenta quadros.",
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
-     "g": 0.5
+     "som": "whoosh2",
+     "g": 0.45
+    },
+    {
+     "t": 0.35,
+     "som": "stamp",
+     "g": 0.75
+    },
+    {
+     "t": 0.95,
+     "som": "impact",
+     "g": 0.35
     }
    ]
   },
@@ -137,7 +202,13 @@
    "tag": "COMENTA MOBILE",
    "fala": "Comenta MOBILE e me segue. Só com o jogo que você comprou.",
    "legenda": "Comenta MOBILE e me segue. Só com o jogo que você comprou.",
-   "sfx": []
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "ding",
+     "g": 0.5
+    }
+   ]
   }
  ],
  "adiantado_de": "2026-11-12",
