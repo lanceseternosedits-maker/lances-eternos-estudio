@@ -144,7 +144,7 @@ def main() -> None:
         nome = c["pasta"].name if c["pasta"] else c["titulo"][:40]
         if "aguardando" in c["status"].lower():
             pendencias.append(f'<b>{esc(c["status"])}</b>: {esc(nome)}')
-        if c["checagem"] and not c["checagem"]["ok"] and c["status"] not in ("publicado", "negado"):
+        if c["checagem"] and not c["checagem"]["ok"] and not c["meta"].get("checagem_aceita") and c["status"] not in ("publicado", "negado"):
             falhas = ", ".join(i["nome"] for i in c["checagem"]["itens"] if i["ok"] is False)
             pendencias.append(f"<b>Checagem falhou</b>: {esc(nome)} ({esc(falhas)})")
     limite = (agora - dt.timedelta(days=3)).strftime("%Y-%m-%d")

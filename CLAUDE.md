@@ -26,7 +26,7 @@ Perfil de Vitor Gofredo: a IA que importa explicada em 60 segundos, em portuguê
 
 ## Status e painel (Vitor, 07/11)
 - Todo post tem `status` no `meta.json` enquanto depende do Vitor: `"roteiro aguardando aprovação"`, `"vídeo aguardando aprovação"` ou `"negado"`. Depois de agendar, **apague** o campo: o painel passa a ler o status do Metricool (agendado, publicado, erro).
-- Antes de mandar um MP4 para a 2ª aprovação: `python3 checar.py posts/<pasta>`. Falhou, corrige antes (ou explica ao Vitor por que vai assim).
+- Antes de mandar um MP4 para a 2ª aprovação: `python3 checar.py posts/<pasta>`. Falhou, corrige antes (ou explica ao Vitor por que vai assim; se ele aceitar, grave `"checagem_aceita": "motivo"` no `meta.json` e o aviso sai do painel).
 - Toda sessão que agendar, publicar ou mudar status: chama `getScheduledPosts` dos dias mexidos, atualiza `painel/publicacoes.json` (uma linha por rede: data, rede, status, url, tipo, rascunho, texto, erro, e `lido_em`), roda `python3 painel/gerar.py` e faz commit junto. Se tiver as ferramentas de artifact, republica o painel no mesmo artifact (slug `174d15fb-4cea-4dfb-ae68-7e646b018790`, https://claude.ai/artifact/3stJu7oR2zKKCVg24DwqzP) com `index.html` e `capas/`.
 
 ## Tarefas agendadas (Claude Code na nuvem)
