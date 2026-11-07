@@ -300,7 +300,7 @@ def main() -> None:
         fontes = m.get("fontes") or []
         detalhes = " · ".join(x for x in [m.get("formato"), m.get("pilar"), f'CTA {m["cta"]}' if m.get("cta") else "",
                                            f"{len(fontes)} fonte(s)" if fontes else ""] if x)
-        img = f'<img loading="lazy" src="{c["capa"]}" alt="">' if c["capa"] else '<div class="semcapa">sem capa</div>'
+        img = f'<img loading="lazy" src="{c["capa"]}?v={int((PAINEL / c["capa"]).stat().st_mtime)}" alt="">' if c["capa"] else '<div class="semcapa">sem capa</div>'
         nome = c["pasta"].name if c["pasta"] else "sem pasta no repositório"
         decide = rot_html = ""
         if c["pasta"] and "aguardando" in c["status"].lower():
