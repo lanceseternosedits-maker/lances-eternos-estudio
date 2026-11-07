@@ -1,0 +1,14 @@
+{
+ "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
+ "em": "2026-11-07 19:50",
+ "leitura": "metricool_2026-11-07.json",
+ "resumo": "Em 14 dias: 9 Reels medidos, 7.026 views no Instagram. 2 vídeos fizeram 74% de tudo, e os dois são contagem de projetos com número de estrelas. O TikTok está praticamente parado.",
+ "itens": [
+  {"tipo": "fazer_mais", "titulo": "Contagem de projetos com número forte", "evidencia": "5 skills 2.828 e TV 2.396 views: mediana do formato 3 é 12× a dos outros formatos; salvamento 4,7% e 2,7% do alcance", "acao": "Pelo menos 2 contagens por dia, sempre com número real de estrelas e 'a nº 1 é bizarra'. Tema que a pessoa usa em casa (TV, celular, PC) rende mais que tema de nicho."},
+  {"tipo": "corrigir", "titulo": "Metade sai nos 3 primeiros segundos", "evidencia": "Só 44% (mediana) passa dos 3 s; o melhor nisso foi o desenho animado (58%), que já abre com o resultado na tela", "acao": "1º quadro já com o resultado ou o objeto da nº 1 visível + etiqueta com conflito. Nada de cenário vazio ou apresentação no começo."},
+  {"tipo": "corrigir", "titulo": "Quase ninguém chega no CTA", "evidencia": "Quem fica assiste em média 29% do vídeo (~9 s de ~30 s); só 45 comentários em 5.772 de alcance (0,8%)", "acao": "Pôr 'Comenta PALAVRA' na etiqueta ou na fala até os 8 s, e repetir no meio. O do fim vira bônus."},
+  {"tipo": "fazer_mais", "titulo": "Pergunta pessoal puxa comentário", "evidencia": "Desenho animado teve 15 comentários com 440 de alcance (3,4%, 4× a média) com a pergunta 'Que tema você transformaria em desenho?'", "acao": "Fechar a legenda e a fala com pergunta sobre a vida da pessoa (o que ela faria, qual escolheria), não sobre a ferramenta."},
+  {"tipo": "alerta", "titulo": "TikTok travado e ainda com nome antigo", "evidencia": "Mediana de 23 views por vídeo no TikTok contra 263 no Instagram; o perfil ainda é @lanceseternoss. Posts só de fotos no TikTok fizeram mediana de 116", "acao": "Chefe: trocar o nome e a foto do perfil do TikTok para IA em 60s (só dá no app). Testar 1 post de fotos por dia no TikTok precisa do seu OK, porque hoje a regra é 'carrossel só no Instagram'."},
+  {"tipo": "testar", "titulo": "Histórias e 'como funciona' ainda sem dado", "evidencia": "Os primeiros (Deep Blue e morango, 07/11) entram na próxima leitura; o Metricool atualiza com cerca de 1 dia de atraso", "acao": "Comparar na leitura de 09/11 a mediana de 📜 e ⚙️ com a das novidades antes de mexer na mistura 4/2/2."}
+ ]
+}

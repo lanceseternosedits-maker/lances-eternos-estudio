@@ -3,26 +3,49 @@
  "posts": {
   "2026-11-07-5-skills": {
    "instagram": {
-    "lido_em": "2026-11-05 (print do Vitor, ~1 h após publicar às 13:00)",
-    "visualizacoes": 767,
-    "curtidas": 21,
-    "comentarios": 2,
+    "lido_em": "2026-11-07 19:50 (Metricool API)",
+    "visualizacoes": 2828,
+    "curtidas": 105,
+    "comentarios": 11,
     "reposts": 1,
-    "envios": 9,
-    "salvamentos": 19,
-    "visualizacoes_06_11": 2697
+    "envios": 45,
+    "salvamentos": 108,
+    "visualizacoes_06_11": 2697,
+    "alcance": 2285
+   },
+   "tiktok": {
+    "visualizacoes": 23,
+    "lido_em": "2026-11-07 19:50 (Metricool API)"
    }
   },
   "2026-11-04-desenho-animado": {
    "instagram": {
-    "lido_em": "2026-11-05 (grade do perfil, print do Vitor)",
-    "visualizacoes": 356
+    "lido_em": "2026-11-07 19:50 (Metricool API)",
+    "visualizacoes": 509,
+    "alcance": 440,
+    "curtidas": 15,
+    "comentarios": 15,
+    "salvamentos": 10,
+    "envios": 4
+   },
+   "tiktok": {
+    "visualizacoes": 56,
+    "lido_em": "2026-11-07 19:50 (Metricool API)"
    }
   },
   "2026-11-03-curriculo-ia": {
    "instagram": {
-    "lido_em": "2026-11-05 (grade do perfil, print do Vitor)",
-    "visualizacoes": 188
+    "lido_em": "2026-11-07 19:50 (Metricool API)",
+    "visualizacoes": 190,
+    "alcance": 166,
+    "curtidas": 4,
+    "comentarios": 1,
+    "salvamentos": 1,
+    "envios": 0
+   },
+   "tiktok": {
+    "visualizacoes": 78,
+    "lido_em": "2026-11-07 19:50 (Metricool API)"
    }
   },
   "2026-11-04-gemini-carbon?": {
@@ -33,11 +56,88 @@
   },
   "2026-11-08-nintendo": {
    "instagram": {
-    "lido_em": "2026-11-06 ~1 h após publicar (print do Vitor)",
-    "visualizacoes": 174,
-    "curtidas": 2,
-    "comentarios": 1,
-    "salvamentos": 1
+    "lido_em": "2026-11-07 19:50 (Metricool API)",
+    "visualizacoes": 438,
+    "curtidas": 12,
+    "comentarios": 3,
+    "salvamentos": 3,
+    "alcance": 380,
+    "envios": 0
+   },
+   "tiktok": {
+    "visualizacoes": 59,
+    "lido_em": "2026-11-07 19:50 (Metricool API)"
+   }
+  },
+  "2026-11-06-tv-celular": {
+   "instagram": {
+    "visualizacoes": 2396,
+    "alcance": 1943,
+    "curtidas": 80,
+    "comentarios": 12,
+    "salvamentos": 52,
+    "envios": 23,
+    "lido_em": "2026-11-07 19:50 (Metricool API)"
+   },
+   "tiktok": {
+    "visualizacoes": 14,
+    "lido_em": "2026-11-07 19:50 (Metricool API)"
+   }
+  },
+  "2026-11-04-canva-craft": {
+   "instagram": {
+    "visualizacoes": 263,
+    "alcance": 214,
+    "curtidas": 7,
+    "comentarios": 3,
+    "salvamentos": 2,
+    "envios": 1,
+    "lido_em": "2026-11-07 19:50 (Metricool API)"
+   },
+   "tiktok": {
+    "visualizacoes": 2,
+    "lido_em": "2026-11-07 19:50 (Metricool API)"
+   }
+  },
+  "2026-11-02-trend-esculacho": {
+   "instagram": {
+    "visualizacoes": 194,
+    "alcance": 163,
+    "curtidas": 3,
+    "comentarios": 0,
+    "salvamentos": 0,
+    "envios": 0,
+    "lido_em": "2026-11-07 19:50 (Metricool API)"
+   },
+   "tiktok": {
+    "visualizacoes": 17,
+    "lido_em": "2026-11-07 19:50 (Metricool API)"
+   }
+  },
+  "2026-11-02-reel-skills": {
+   "instagram": {
+    "visualizacoes": 165,
+    "alcance": 143,
+    "curtidas": 4,
+    "comentarios": 0,
+    "salvamentos": 1,
+    "envios": 0,
+    "lido_em": "2026-11-07 19:50 (Metricool API)"
+   },
+   "tiktok": {
+    "visualizacoes": 4,
+    "lido_em": "2026-11-07 19:50 (Metricool API)"
+   }
+  },
+  "2026-11-02-gemini-carbon": {
+   "instagram": {
+    "visualizacoes": 43,
+    "alcance": 38,
+    "curtidas": 3,
+    "comentarios": 0,
+    "salvamentos": 0,
+    "envios": 0,
+    "lido_em": "2026-11-07 19:50 (Metricool API)"
    }
   }
  },

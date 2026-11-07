@@ -426,6 +426,46 @@ def main() -> None:
                    f'<p class="mut" style="font-size:12px">Fixos: valores do plano. Gemini: estimado pelo nº de vídeos com voz desde que a chave paga começou (05/11); '
                    f'a fatura real fica no Google Cloud. Teto aprovado: US$ {br(g.get("teto_por_video_usd", 0.5))} por vídeo. Para ajustar valores, edite <code>ia/painel/gastos.json</code>.</p>')
 
+
+    # ---- resultados (painel/resultados.json do analista.py + painel/insights.json do agente analista)
+    res = ler(PAINEL / "resultados.json", {}) or {}
+    ins = ler(PAINEL / "insights.json", {}) or {}
+    milhar = lambda v: f"{int(v or 0):,}".replace(",", ".")
+    num = lambda v: "–" if v is None else f"{v:g}".replace(".", ",")
+    tot = res.get("totais") or {}
+    TIPO = {"fazer_mais": ("🔁", "Fazer mais", "ok"), "corrigir": ("🛠", "Corrigir", "warn"), "testar": ("🧪", "Testar", "info"), "alerta": ("⚠️", "Alerta", "erro")}
+    cards_ins = "".join(
+        f'<div class="ins ins-{TIPO.get(i.get("tipo"), ("", "", "info"))[2]}"><p class="it">{TIPO.get(i.get("tipo"), ("💡", "Insight", ""))[0]} '
+        f'{TIPO.get(i.get("tipo"), ("", "Insight", ""))[1]}</p><h4>{esc(i.get("titulo", ""))}</h4>'
+        f'<p class="ev">📈 {esc(i.get("evidencia", ""))}</p><p class="ac">👉 {esc(i.get("acao", ""))}</p></div>' for i in ins.get("itens") or [])
+    reels = res.get("reels") or []
+    vmax = max([x["views"] for x in reels] or [1])
+    linhas_r = "".join(
+        f'<tr><td><a href="{esc(x.get("url") or "#")}" target="_blank"><b>{esc(x.get("titulo") or x.get("pasta") or "?")}</b></a><br>'
+        f'<small>{esc(x["quando"][8:10])}/{esc(x["quando"][5:7])} {esc(x["quando"][11:])} · {esc(x["formato"])} · {CATEGORIAS.get(x["categoria"], x["categoria"])}</small>'
+        f'<div class="barra"><i style="width:{max(2, round(100 * x["views"] / vmax))}%"></i></div></td>'
+        f'<td class="num"><b>{milhar(x["views"])}</b><br><small>{num(x["vs_mediana"])}× mediana</small></td>'
+        f'<td class="num">{num(x["passou_3s_pct"])}%<br><small>{"100%+" if (x.get("assistido_pct") or 0) > 100 else num(x.get("assistido_pct")) + "%"} visto</small></td>'
+        f'<td class="num">{num(x["salvar_pct"])}% 💾<br><small>{num(x["enviar_pct"])}% ✈️ · {num(x["comentar_pct"])}% 💬</small></td></tr>' for x in reels)
+    def tabela_grupo(nome, g):
+        return (f'<h3>{nome}</h3><table class="gastos"><tr><th>Grupo</th><th class="num">Mediana views</th><th class="num">Salvam</th></tr>'
+                + "".join(f'<tr><td><b>{esc(CATEGORIAS.get(x["nome"], x["nome"]))}</b> <small>({x["n"]})</small></td><td class="num">{milhar(x["mediana_views"])}</td>'
+                          f'<td class="num">{num(x["salvar_pct"])}%</td></tr>' for x in g) + '</table>')
+    html_resultados = ('<p class="mut" style="font-size:12px">Sem leitura ainda: rode <code>python3 painel/analista.py</code>.</p>' if not res else
+        f'<div class="filas"><div class="kpi"><b>{milhar(tot.get("views_ig"))}</b><span>views no Instagram</span></div>'
+        f'<div class="kpi"><b>{milhar(tot.get("mediana_views_ig"))}</b><span>mediana por Reel</span></div>'
+        f'<div class="kpi"><b>{milhar(tot.get("salvamentos"))} · {milhar(tot.get("envios"))}</b><span>salvos · envios</span></div></div>'
+        f'<div class="analista"><p class="it">🤖 Agente analista · leitura de {esc(str(ins.get("em") or res.get("lido_em") or "")[8:10])}/{esc(str(ins.get("em") or "")[5:7])} {esc(str(ins.get("em") or "")[11:16])}</p>'
+        f'<p>{esc(ins.get("resumo") or "")}</p></div>{cards_ins}'
+        + ("<h3>Automático (regras)</h3><ul class='auto'>" + "".join(f"<li>{esc(a)}</li>" for a in res.get("insights_auto") or []) + "</ul>")
+        + f'<h3>Reels ({len(reels)}, {esc(" a ".join(f"{d[8:10]}/{d[5:7]}" for d in res.get("periodo") or []))})</h3>'
+        f'<table class="gastos res"><tr><th>Reel</th><th class="num">Views</th><th class="num">Passa 3 s</th><th class="num">Salvam</th></tr>{linhas_r}</table>'
+        + tabela_grupo("Por formato", res.get("por_formato") or []) + tabela_grupo("Por categoria", res.get("por_categoria") or [])
+        + tabela_grupo("Por horário", res.get("por_faixa") or [])
+        + f'<h3>TikTok</h3><p class="mut" style="font-size:13px">Mediana por vídeo: <b>{num(tot.get("mediana_tiktok_video"))}</b> views · posts de fotos: <b>{num(tot.get("mediana_tiktok_fotos"))}</b>.</p>'
+        f'<p class="mut" style="font-size:12px">Fonte: Metricool ({esc(str(res.get("lido_em") or ""))}), atualiza com ~1 dia de atraso. Porcentagens sobre o alcance. '
+        f'O agente analista lê de novo 2× por dia e reescreve os insights.</p>')
+
     cont = defaultdict(int)
     for c in cartoes:
         cont[balde(c["status"])] += 1
@@ -450,8 +490,9 @@ header h1{{margin:0;font-size:19px;flex:1}}header h1 small{{display:block;font-s
 .ib{{font:inherit;font-size:13px;font-weight:600;padding:7px 11px;border-radius:20px;border:1px solid var(--line);background:var(--card);color:var(--tx);cursor:pointer}}
 #sino{{border-color:#ffb54766;color:var(--esp)}}#sino.ok{{border-color:#3ecf8e66;color:var(--ok)}}
 main{{padding:12px 14px 20px;max-width:1100px;margin:auto}}
-.aba{{display:none}}body[data-tab=aprovar] .aba-aprovar,body[data-tab=agenda] .aba-agenda,body[data-tab=publicados] .aba-publicados,body[data-tab=todos] .aba-todos,body[data-tab=gastos] .aba-gastos{{display:block}}
-body[data-tab=gastos] #grade,body[data-tab=gastos] #vazio{{display:none!important}}
+.aba{{display:none}}body[data-tab=aprovar] .aba-aprovar,body[data-tab=agenda] .aba-agenda,body[data-tab=publicados] .aba-publicados,body[data-tab=todos] .aba-todos,body[data-tab=gastos] .aba-gastos,body[data-tab=resultados] .aba-resultados{{display:block}}
+body[data-tab=gastos] #grade,body[data-tab=gastos] #vazio,body[data-tab=resultados] #grade,body[data-tab=resultados] #vazio{{display:none!important}}
+.ins{{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--mut);border-radius:14px;padding:10px 12px;margin:0 0 8px}}.ins h4{{margin:2px 0 6px;font-size:15px}}.ins p{{margin:4px 0;font-size:13px}}.ins .ev{{color:var(--mut)}}.it{{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin:0}}.ins-ok{{border-left-color:#3fb950}}.ins-warn{{border-left-color:#d29922}}.ins-info{{border-left-color:#58a6ff}}.ins-erro{{border-left-color:var(--erro)}}.analista{{background:linear-gradient(135deg,#2a1f4a,#1c2a3f);border-radius:14px;padding:12px;margin:0 0 10px}}.analista p{{margin:4px 0;font-size:14px}}.barra{{height:6px;background:var(--line);border-radius:3px;margin-top:6px}}.barra i{{display:block;height:100%;background:#e8834a;border-radius:3px}}table.res .num{{width:78px}}table.res a{{color:inherit;text-decoration:none}}ul.auto{{font-size:13px;color:var(--mut);padding-left:18px}}ul.auto li{{margin:4px 0}}
 .kpi{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 8px;text-align:center}}.kpi b{{display:block;font-size:19px}}.kpi span{{font-size:11px;color:var(--mut)}}
 table.gastos{{table-layout:fixed;width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:13px}}
 table.gastos th{{text-align:left;color:var(--mut);font-weight:600;padding:8px 10px;border-bottom:1px solid var(--line)}}table.gastos td{{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}}
@@ -518,12 +559,13 @@ nav .badge{{position:absolute;top:0;left:56%;min-width:18px;padding:0 5px;border
 </section>
 <section class="aba aba-agenda"><h2>Semana</h2><div class="semana">{"".join(semana)}</div><h2>Próximos agendados</h2></section>
 <section class="aba aba-publicados"><h2>Publicados</h2></section>
+<section class="aba aba-resultados"><h2>📊 Resultados</h2>{html_resultados}</section>
 <section class="aba aba-gastos"><h2>💰 Gastos de {agora:%m/%Y}</h2>{html_gastos}</section>
 <section class="aba aba-todos"><h2>Todos os posts ({len(cartoes)})</h2><div class="chipsbar" id="baldes"><button data-b="" class="on">Todos</button>{chips_todos}</div><div class="chipsbar" id="cats-t"><button data-c="" class="on">Todas</button>{chips_cat}</div></section>
 <div class="grade" id="grade">{"".join(html_cartoes)}</div>
 <div class="vazio" id="vazio" style="display:none">Nada por aqui 🎉</div>
 </main>
-<nav><button data-t="aprovar"><i>📥</i>Aprovar<span class="badge" data-cont="pend"></span></button><button data-t="agenda"><i>📅</i>Agenda</button><button data-t="publicados"><i>✅</i>Publicados</button><button data-t="todos"><i>🗂</i>Todos</button><button data-t="gastos"><i>💰</i>Gastos</button></nav>
+<nav><button data-t="aprovar"><i>📥</i>Aprovar<span class="badge" data-cont="pend"></span></button><button data-t="agenda"><i>📅</i>Agenda</button><button data-t="publicados"><i>✅</i>Publicados</button><button data-t="todos"><i>🗂</i>Todos</button><button data-t="resultados"><i>📊</i>Result.</button><button data-t="gastos"><i>💰</i>Gastos</button></nav>
 <script>
 const F = {{ fila: 'pend', e: '', ca: '', b: '', ct: '', chance: false }};
 const FILA = {{ aprovar: 'pend', 'aprovado-agora': 'aprov', producao: 'aprov', 'negado-agora': 'neg', negado: 'neg' }};
@@ -577,7 +619,7 @@ document.querySelectorAll('#cats-t button').forEach(b => b.onclick = () => {{ F.
 """ + JS + """
 const inicio = (location.hash || '').slice(1).replace('pendentes', 'aprovar');
 recontar();
-aba(['aprovar', 'agenda', 'publicados', 'todos', 'gastos'].includes(inicio) ? inicio : (document.querySelector('#grade article[data-bucket=aprovar]') ? 'aprovar' : 'agenda'));
+aba(['aprovar', 'agenda', 'publicados', 'todos', 'resultados', 'gastos'].includes(inicio) ? inicio : (document.querySelector('#grade article[data-bucket=aprovar]') ? 'aprovar' : 'agenda'));
 </script></body></html>
 """
     (PAINEL / "index.html").write_text(pagina, encoding="utf-8")

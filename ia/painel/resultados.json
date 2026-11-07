@@ -1,0 +1,394 @@
+{
+ "gerado_em": "2026-11-07 22:55",
+ "leitura": "metricool_2026-11-07.json",
+ "lido_em": "2026-11-07 19:50",
+ "periodo": [
+  "2026-10-25",
+  "2026-11-07"
+ ],
+ "totais": {
+  "reels_medidos": 9,
+  "views_ig": 7026,
+  "alcance_ig": 5772,
+  "salvamentos": 177,
+  "envios": 73,
+  "comentarios": 45,
+  "mediana_views_ig": 263,
+  "views_tiktok_video": 378,
+  "mediana_tiktok_video": 23,
+  "mediana_tiktok_fotos": 115.5
+ },
+ "reels": [
+  {
+   "pasta": "2026-11-07-5-skills",
+   "titulo": "5 skills do Claude",
+   "url": "https://www.instagram.com/reel/DfXbc7aj5uC/",
+   "quando": "2026-11-05 13:10",
+   "faixa": "tarde (12–17h)",
+   "categoria": "novidade",
+   "formato": "contagem (formato 3)",
+   "views": 2828,
+   "alcance": 2285,
+   "curtidas": 105,
+   "comentarios": 11,
+   "salvamentos": 108,
+   "envios": 45,
+   "tempo_medio_s": 10.491,
+   "duracao_s": 35.0,
+   "assistido_pct": 30.0,
+   "passou_3s_pct": 46.6,
+   "salvar_pct": 4.7,
+   "enviar_pct": 2.0,
+   "comentar_pct": 0.5,
+   "tiktok_views": 23,
+   "vs_mediana": 10.8
+  },
+  {
+   "pasta": "2026-11-06-tv-celular",
+   "titulo": "5 projetos pra TV e celular",
+   "url": "https://www.instagram.com/reel/Dfar5UCD_jq/",
+   "quando": "2026-11-06 19:32",
+   "faixa": "noite (18h+)",
+   "categoria": "novidade",
+   "formato": "contagem (formato 3)",
+   "views": 2396,
+   "alcance": 1943,
+   "curtidas": 80,
+   "comentarios": 12,
+   "salvamentos": 52,
+   "envios": 23,
+   "tempo_medio_s": 9.766,
+   "duracao_s": 34.1,
+   "assistido_pct": 28.6,
+   "passou_3s_pct": 44.1,
+   "salvar_pct": 2.7,
+   "enviar_pct": 1.2,
+   "comentar_pct": 0.6,
+   "tiktok_views": 14,
+   "vs_mediana": 9.1
+  },
+  {
+   "pasta": "2026-11-04-desenho-animado",
+   "titulo": "Desenho animado",
+   "url": "https://www.instagram.com/reel/DfUvpJljw3w/",
+   "quando": "2026-11-04 12:09",
+   "faixa": "tarde (12–17h)",
+   "categoria": "novidade",
+   "formato": "mascote no palco (formato 1)",
+   "views": 509,
+   "alcance": 440,
+   "curtidas": 15,
+   "comentarios": 15,
+   "salvamentos": 10,
+   "envios": 4,
+   "tempo_medio_s": 8.127,
+   "duracao_s": 28,
+   "assistido_pct": 29.0,
+   "passou_3s_pct": 58.3,
+   "salvar_pct": 2.3,
+   "enviar_pct": 0.9,
+   "comentar_pct": 3.4,
+   "tiktok_views": 56,
+   "vs_mediana": 1.9
+  },
+  {
+   "pasta": "2026-11-08-nintendo",
+   "titulo": "Nintendo não queria",
+   "url": "https://www.instagram.com/reel/DfZ48KakRUC/",
+   "quando": "2026-11-06 12:06",
+   "faixa": "tarde (12–17h)",
+   "categoria": "novidade",
+   "formato": "contagem (formato 3)",
+   "views": 438,
+   "alcance": 380,
+   "curtidas": 12,
+   "comentarios": 3,
+   "salvamentos": 3,
+   "envios": 0,
+   "tempo_medio_s": 7.74,
+   "duracao_s": 34.8,
+   "assistido_pct": 22.2,
+   "passou_3s_pct": 46.3,
+   "salvar_pct": 0.8,
+   "enviar_pct": 0.0,
+   "comentar_pct": 0.8,
+   "tiktok_views": 59,
+   "vs_mediana": 1.7
+  },
+  {
+   "pasta": "2026-11-04-canva-craft",
+   "titulo": "Canva post da loja",
+   "url": "https://www.instagram.com/reel/DfYHEESiJIQ/",
+   "quando": "2026-11-05 19:32",
+   "faixa": "noite (18h+)",
+   "categoria": "novidade",
+   "formato": "mascote no palco (formato 1)",
+   "views": 263,
+   "alcance": 214,
+   "curtidas": 7,
+   "comentarios": 3,
+   "salvamentos": 2,
+   "envios": 1,
+   "tempo_medio_s": 7.795,
+   "duracao_s": 27,
+   "assistido_pct": 28.9,
+   "passou_3s_pct": 56.8,
+   "salvar_pct": 0.9,
+   "enviar_pct": 0.5,
+   "comentar_pct": 1.4,
+   "tiktok_views": 2,
+   "vs_mediana": 1.0
+  },
+  {
+   "pasta": "2026-11-02-trend-esculacho",
+   "titulo": "Trend do esculacho",
+   "url": "https://www.instagram.com/reel/DfPUA2pCdTA/",
+   "quando": "2026-11-02 09:32",
+   "faixa": "manhã (6–11h)",
+   "categoria": "novidade",
+   "formato": "mascote no palco (formato 1)",
+   "views": 194,
+   "alcance": 163,
+   "curtidas": 3,
+   "comentarios": 0,
+   "salvamentos": 0,
+   "envios": 0,
+   "tempo_medio_s": 39.587,
+   "duracao_s": 36,
+   "assistido_pct": 110.0,
+   "passou_3s_pct": 35.3,
+   "salvar_pct": 0.0,
+   "enviar_pct": 0.0,
+   "comentar_pct": 0.0,
+   "tiktok_views": 17,
+   "vs_mediana": 0.7
+  },
+  {
+   "pasta": "2026-11-03-curriculo-ia",
+   "titulo": "Currículo",
+   "url": "https://www.instagram.com/reel/DfSLcUBEq3X/",
+   "quando": "2026-11-03 12:16",
+   "faixa": "tarde (12–17h)",
+   "categoria": "novidade",
+   "formato": "mascote no palco (formato 1)",
+   "views": 190,
+   "alcance": 166,
+   "curtidas": 4,
+   "comentarios": 1,
+   "salvamentos": 1,
+   "envios": 0,
+   "tempo_medio_s": 5.014,
+   "duracao_s": 31,
+   "assistido_pct": 16.2,
+   "passou_3s_pct": 31.0,
+   "salvar_pct": 0.6,
+   "enviar_pct": 0.0,
+   "comentar_pct": 0.6,
+   "tiktok_views": 78,
+   "vs_mediana": 0.7
+  },
+  {
+   "pasta": "2026-11-02-reel-skills",
+   "titulo": "1 arquivo = 1 função",
+   "url": "https://www.instagram.com/reel/DfPtugZjcjA/",
+   "quando": "2026-11-02 13:17",
+   "faixa": "tarde (12–17h)",
+   "categoria": "novidade",
+   "formato": "mascote no palco (formato 1)",
+   "views": 165,
+   "alcance": 143,
+   "curtidas": 4,
+   "comentarios": 0,
+   "salvamentos": 1,
+   "envios": 0,
+   "tempo_medio_s": 3.868,
+   "duracao_s": 32,
+   "assistido_pct": 12.1,
+   "passou_3s_pct": 23.6,
+   "salvar_pct": 0.7,
+   "enviar_pct": 0.0,
+   "comentar_pct": 0.0,
+   "tiktok_views": 4,
+   "vs_mediana": 0.6
+  },
+  {
+   "pasta": "2026-11-02-gemini-carbon",
+   "titulo": "Gemini 4 Carbon",
+   "url": "https://www.instagram.com/reel/DfP2ZtzALZS/",
+   "quando": "2026-11-02 14:32",
+   "faixa": "tarde (12–17h)",
+   "categoria": "novidade",
+   "formato": "lista + demo (formato 2)",
+   "views": 43,
+   "alcance": 38,
+   "curtidas": 3,
+   "comentarios": 0,
+   "salvamentos": 0,
+   "envios": 0,
+   "tempo_medio_s": 1.58,
+   "duracao_s": null,
+   "assistido_pct": null,
+   "passou_3s_pct": 10.3,
+   "salvar_pct": 0.0,
+   "enviar_pct": 0.0,
+   "comentar_pct": 0.0,
+   "tiktok_views": null,
+   "vs_mediana": 0.2
+  }
+ ],
+ "por_formato": [
+  {
+   "nome": "contagem (formato 3)",
+   "n": 3,
+   "mediana_views": 2396,
+   "salvar_pct": 2.7,
+   "passou_3s_pct": 46.3
+  },
+  {
+   "nome": "mascote no palco (formato 1)",
+   "n": 5,
+   "mediana_views": 194,
+   "salvar_pct": 0.7,
+   "passou_3s_pct": 35.3
+  },
+  {
+   "nome": "lista + demo (formato 2)",
+   "n": 1,
+   "mediana_views": 43,
+   "salvar_pct": 0.0,
+   "passou_3s_pct": 10.3
+  }
+ ],
+ "por_categoria": [
+  {
+   "nome": "novidade",
+   "n": 9,
+   "mediana_views": 263,
+   "salvar_pct": 0.8,
+   "passou_3s_pct": 44.1
+  }
+ ],
+ "por_faixa": [
+  {
+   "nome": "noite (18h+)",
+   "n": 2,
+   "mediana_views": 1330,
+   "salvar_pct": 1.8,
+   "passou_3s_pct": 50.45
+  },
+  {
+   "nome": "tarde (12–17h)",
+   "n": 6,
+   "mediana_views": 314,
+   "salvar_pct": 0.75,
+   "passou_3s_pct": 38.65
+  },
+  {
+   "nome": "manhã (6–11h)",
+   "n": 1,
+   "mediana_views": 194,
+   "salvar_pct": 0.0,
+   "passou_3s_pct": 35.3
+  }
+ ],
+ "insights_auto": [
+  "Formato campeão: contagem (formato 3) (mediana 2396 views em 3 Reels), 12,4× o 2º (mascote no palco (formato 1)).",
+  "Melhor Reel: 5 skills do Claude com 2828 views (10,8× a mediana); salvamento 4,7% e envio 2,0% do alcance.",
+  "Gancho: só 44,1% (mediana) passa dos 3 primeiros segundos. Mais da metade sai antes do 1º item: o 1º quadro e a 1ª frase precisam de conflito.",
+  "Retenção: quem fica assiste em média 29% do vídeo. O CTA do meio (na nº 3) pega mais gente que o do fim.",
+  "O público salva (0,8% do alcance) mais do que comenta (0,6%). Conteúdo útil funciona; o comentário ainda é o ponto fraco.",
+  "TikTok travado: mediana de 23 views por vídeo contra 263 no Instagram; posts de fotos no TikTok tiveram mediana de 115,5."
+ ],
+ "tiktok": [
+  {
+   "titulo": "5 projetos pra TV e celular",
+   "views": 14,
+   "foto": false,
+   "pasta": "2026-11-06-tv-celular"
+  },
+  {
+   "titulo": "Nintendo não queria",
+   "views": 59,
+   "foto": false,
+   "pasta": "2026-11-08-nintendo"
+  },
+  {
+   "titulo": "Canva post da loja",
+   "views": 2,
+   "foto": false,
+   "pasta": "2026-11-04-canva-craft"
+  },
+  {
+   "titulo": "5 skills do Claude",
+   "views": 23,
+   "foto": false,
+   "pasta": "2026-11-07-5-skills"
+  },
+  {
+   "titulo": "Desenho animado",
+   "views": 56,
+   "foto": false,
+   "pasta": "2026-11-04-desenho-animado"
+  },
+  {
+   "titulo": "Currículo",
+   "views": 78,
+   "foto": false,
+   "pasta": "2026-11-03-curriculo-ia"
+  },
+  {
+   "titulo": "1 arquivo = 1 função",
+   "views": 4,
+   "foto": false,
+   "pasta": "2026-11-02-reel-skills"
+  },
+  {
+   "titulo": "Trend do esculacho",
+   "views": 17,
+   "foto": false,
+   "pasta": "2026-11-02-trend-esculacho"
+  },
+  {
+   "titulo": "GitHub Octoverse",
+   "views": 125,
+   "foto": false,
+   "pasta": null
+  },
+  {
+   "titulo": "3 IAs que trabalham (fotos)",
+   "views": 73,
+   "foto": true,
+   "pasta": "2026-11-03-ias-trabalham"
+  },
+  {
+   "titulo": "Riverside Agents (fotos)",
+   "views": 89,
+   "foto": true,
+   "pasta": "2026-11-03-riverside-agentes"
+  },
+  {
+   "titulo": "IPO da Anthropic (fotos)",
+   "views": 115,
+   "foto": true,
+   "pasta": null
+  },
+  {
+   "titulo": "IA escapou do treino (fotos)",
+   "views": 116,
+   "foto": true,
+   "pasta": null
+  },
+  {
+   "titulo": "WebAI da Opera (fotos)",
+   "views": 123,
+   "foto": true,
+   "pasta": null
+  },
+  {
+   "titulo": "5 skills canivete (fotos)",
+   "views": 182,
+   "foto": true,
+   "pasta": null
+  }
+ ]
+}

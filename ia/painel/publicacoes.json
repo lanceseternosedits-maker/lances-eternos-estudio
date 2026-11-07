@@ -1,932 +1,976 @@
 {
-"_fonte": "Metricool getScheduledPosts (blogId 7637900), uma linha por rede. Atualize a cada agendamento.",
-"lido_em": "2026-11-07 14:30 (Brasília)",
-"publicacoes": [
-{
-"data": "2026-11-01 11:45",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703224962416463118",
-"tipo": null,
-"rascunho": false,
-"texto": "O Claude Code virou canivete suíço: 5 skills e repositórios grátis bombando no GitHub. Arrasta e salva pra testar depois"
-},
-{
-"data": "2026-11-01 17:45",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/p/DfNn0FulWU5/",
-"tipo": "POST",
-"rascunho": false,
-"texto": "O Claude Code virou canivete suíço: 5 skills e repositórios grátis que estão bombando no GitHub."
-},
-{
-"data": "2026-11-01 17:50",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703308194537360654",
-"tipo": null,
-"rascunho": false,
-"texto": "Em março, 17 de cada 100 mudanças de código no GitHub começavam com um agente de IA. Em setembro, mais de 40. Em 6 meses"
-},
-{
-"data": "2026-11-01 17:55",
-"rede": "youtube",
-"status": "PUBLISHED",
-"url": "https://www.youtube.com/shorts/oRkGOZrhCB4",
-"tipo": null,
-"rascunho": false,
-"texto": "Em março de 2026, 17 de cada 100 pull requests no GitHub começavam com um agente de IA. Em setembro, já eram mais de 40."
-},
-{
-"data": "2026-11-01 18:15",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/p/DfNrP3TDRMF/",
-"tipo": "POST",
-"rascunho": false,
-"texto": "IA rodando dentro do navegador, no seu computador, sem mandar seus dados pra nuvem."
-},
-{
-"data": "2026-11-01 18:15",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703314755586493709",
-"tipo": "POST",
-"rascunho": false,
-"texto": "IA rodando dentro do navegador, no seu computador, sem mandar seus dados pra nuvem."
-},
-{
-"data": "2026-11-01 18:20",
-"rede": "youtube",
-"status": "PUBLISHED",
-"url": "https://www.youtube.com/shorts/9ujh-plu0e0",
-"tipo": null,
-"rascunho": false,
-"texto": "A Opera lançou em prévia o WebAI: sites e extensões usam modelos de IA abertos rodando no seu próprio computador, sem nu"
-},
-{
-"data": "2026-11-01 18:30",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/p/DfNtDX3CPgl/",
-"tipo": "POST",
-"rascunho": false,
-"texto": "Mais de 40% dos pull requests no GitHub já começam com um agente de IA. Em março eram 17%."
-},
-{
-"data": "2026-11-01 18:45",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/p/DfNuu1nCEbI/",
-"tipo": "POST",
-"rascunho": false,
-"texto": "Uma IA em treinamento achou uma brecha e chegou à internet. A resposta da OpenAI: treinar seus modelos mais fortes num \""
-},
-{
-"data": "2026-11-01 18:45",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703322632103529742",
-"tipo": "POST",
-"rascunho": false,
-"texto": "Uma IA em treinamento achou uma brecha e chegou à internet. A resposta da OpenAI: treinar seus modelos mais fortes num \""
-},
-{
-"data": "2026-11-01 18:55",
-"rede": "youtube",
-"status": "PUBLISHED",
-"url": "https://www.youtube.com/shorts/zRCj9wLCsrU",
-"tipo": null,
-"rascunho": false,
-"texto": "Um modelo da OpenAI em treinamento achou uma brecha no DNS e chegou à internet. Ficou cerca de 2h30 rodando até ser desl"
-},
-{
-"data": "2026-11-01 19:15",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/p/DfNyKcCCMRW/",
-"tipo": "POST",
-"rascunho": false,
-"texto": "A Anthropic, criadora do Claude, pediu para abrir capital na Nasdaq. O prospecto mostra US$ 16,3 bilhões de receita em s"
-},
-{
-"data": "2026-11-01 19:15",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703330380211932430",
-"tipo": "POST",
-"rascunho": false,
-"texto": "A Anthropic, criadora do Claude, pediu para abrir capital na Nasdaq. O prospecto mostra US$ 16,3 bilhões de receita em s"
-},
-{
-"data": "2026-11-01 19:20",
-"rede": "youtube",
-"status": "PUBLISHED",
-"url": "https://www.youtube.com/shorts/V-Ed-bR0lZA",
-"tipo": null,
-"rascunho": false,
-"texto": "A Anthropic, criadora do Claude, tornou público o pedido para abrir capital na Nasdaq (código ANT). Receita de US$ 16,3 "
-},
-{
-"data": "2026-11-01 19:30",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/p/DfNz7ePCJKd/",
-"tipo": "POST",
-"rascunho": false,
-"texto": "A semana em IA em 5 notícias: agentes no GitHub, a IA que escapou do treino, login sem senha, IA dentro do navegador e o"
-},
-{
-"data": "2026-11-01 19:30",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703334321632939278",
-"tipo": "POST",
-"rascunho": false,
-"texto": "A semana em IA em 5 notícias: agentes no GitHub, a IA que escapou do treino, login sem senha, IA dentro do navegador e o"
-},
-{
-"data": "2026-11-01 19:35",
-"rede": "youtube",
-"status": "PUBLISHED",
-"url": "https://www.youtube.com/shorts/427s3O9ZJW8",
-"tipo": null,
-"rascunho": false,
-"texto": "A semana em IA em 5 notícias: mais de 40% dos pull requests no GitHub já começam com agentes, a IA da OpenAI que escapou"
-},
-{
-"data": "2026-11-01 19:45",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/p/DfN1ixVDdP2/",
-"tipo": "POST",
-"rascunho": false,
-"texto": "Agentes de IA já podem entrar nas suas contas sem nunca ver sua senha."
-},
-{
-"data": "2026-11-01 19:45",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703337991934070029",
-"tipo": "POST",
-"rascunho": false,
-"texto": "Agentes de IA já podem entrar nas suas contas sem nunca ver sua senha."
-},
-{
-"data": "2026-11-01 19:55",
-"rede": "youtube",
-"status": "PUBLISHED",
-"url": "https://www.youtube.com/shorts/hIwZHjtV7EQ",
-"tipo": null,
-"rascunho": false,
-"texto": "O 1Password lançou o 1Password for Agents: o agente de IA pede o login, você aprova e o 1Password preenche direto no sit"
-},
-{
-"data": "2026-11-01 20:45",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/p/DfN8dWWiCiq/",
-"tipo": "POST",
-"rascunho": false,
-"texto": "O que bombou no X de IA hoje, checado nas fontes: ChatGPT e Codex com um limite só, o post viral do \"prompt acabou\" que "
-},
-{
-"data": "2026-11-01 20:45",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703353540932111629",
-"tipo": "POST",
-"rascunho": false,
-"texto": "O que bombou no X de IA hoje, checado nas fontes: ChatGPT e Codex com um limite só, o post viral do \"prompt acabou\" que "
-},
-{
-"data": "2026-11-01 20:55",
-"rede": "youtube",
-"status": "PUBLISHED",
-"url": "https://www.youtube.com/shorts/5p9jpFt4Ul0",
-"tipo": null,
-"rascunho": false,
-"texto": "O que bombou no X de IA hoje, checado nas fontes: ChatGPT e Codex vão dividir o mesmo limite de uso; o post viral do \"pr"
-},
-{
-"data": "2026-11-01 21:45",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/p/DfODVH8CH9B/",
-"tipo": "POST",
-"rascunho": false,
-"texto": "Pare de repetir o mesmo contexto pro Claude toda vez. Com um Projeto, você sobe seus arquivos e instruções uma vez só e "
-},
-{
-"data": "2026-11-01 21:45",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703369037362826509",
-"tipo": "POST",
-"rascunho": false,
-"texto": "Pare de repetir o mesmo contexto pro Claude toda vez. Com um Projeto, você sobe seus arquivos e instruções uma vez só e "
-},
-{
-"data": "2026-11-01 21:55",
-"rede": "youtube",
-"status": "PUBLISHED",
-"url": "https://www.youtube.com/shorts/TkttlFcY7kc",
-"tipo": null,
-"rascunho": false,
-"texto": "Como criar um Projeto no Claude em 4 passos: abra claude.ai/projects e crie um novo; suba seus arquivos no conhecimento "
-},
-{
-"data": "2026-11-01 22:45",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/p/DfOKMNmiIIz/",
-"tipo": "POST",
-"rascunho": false,
-"texto": "Segunda chegando? Organize a semana inteira em 4 prompts, no Claude, no ChatGPT ou no Gemini."
-},
-{
-"data": "2026-11-01 22:45",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703384473940937997",
-"tipo": "POST",
-"rascunho": false,
-"texto": "Segunda chegando? Organize a semana inteira em 4 prompts, no Claude, no ChatGPT ou no Gemini."
-},
-{
-"data": "2026-11-01 22:55",
-"rede": "youtube",
-"status": "ERROR",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "Organize sua semana em 4 prompts que funcionam no Claude, no ChatGPT e no Gemini: despeje tudo, priorize, transforme em ",
-"erro": "You have reached your Metricool account limit."
-},
-{
-"data": "2026-11-02 07:00",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/p/DfPDTJTDeRF/",
-"tipo": "POST",
-"rascunho": false,
-"texto": "A Siri da China vai usar IA chinesa: a Apple fechou com o Qwen, da Alibaba."
-},
-{
-"data": "2026-11-02 07:10",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703513973731233037",
-"tipo": null,
-"rascunho": false,
-"texto": "A Apple Intelligence finalmente chega à China, mas com o Qwen, da Alibaba, no lugar do ChatGPT. Testes a partir de 4/11,"
-},
-{
-"data": "2026-11-02 07:20",
-"rede": "youtube",
-"status": "PUBLISHED",
-"url": "https://www.youtube.com/shorts/34xNsVmK5IQ",
-"tipo": null,
-"rascunho": false,
-"texto": "A Apple Intelligence chega à China com o Qwen, da Alibaba, dentro da Siri, das Ferramentas de Escrita e da Inteligência "
-},
-{
-"data": "2026-11-02 09:30",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/reel/DfPUA2pCdTA/",
-"tipo": "REEL",
-"rascunho": false,
-"texto": "A trend do esculacho tá em todo lugar. Mas antes de pedir pra IA te zoar, veja o que ela sabe de você (e como apagar)."
-},
-{
-"data": "2026-11-02 09:40",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703552965830905102",
-"tipo": null,
-"rascunho": false,
-"texto": "Trend do esculacho: o prompt, a versão segura e onde apagar o que o ChatGPT lembra de você. Você já fez a trend? O que e"
-},
-{
-"data": "2026-11-02 09:50",
-"rede": "youtube",
-"status": "PUBLISHED",
-"url": "https://www.youtube.com/shorts/b-4DW46Tg9U",
-"tipo": null,
-"rascunho": false,
-"texto": "O prompt da trend do esculacho, uma versão segura e onde ver e apagar as memórias do ChatGPT (Configurações › Personaliz"
-},
-{
-"data": "2026-11-02 12:00",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/p/DfPl3v_iIqR/",
-"tipo": "POST",
-"rascunho": false,
-"texto": "5 ferramentas de IA grátis e de código aberto pra testar hoje, todas em alta no GitHub."
-},
-{
-"data": "2026-11-02 12:10",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703591621761322254",
-"tipo": null,
-"rascunho": false,
-"texto": "5 ferramentas de IA grátis e open source: checar spyware, IA que mexe nos apps do Android, mapa do seu código, 244 efeit"
-},
-{
-"data": "2026-11-02 12:20",
-"rede": "youtube",
-"status": "ERROR",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "5 ferramentas de IA grátis e de código aberto em alta no GitHub:",
-"erro": "The user has exceeded the number of videos they may upload."
-},
-{
-"data": "2026-11-02 13:15",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/reel/DfPtugZjcjA/",
-"tipo": "REEL",
-"rascunho": false,
-"texto": "Um arquivo de texto e o Claude aprende uma função nova. Isso é uma skill."
-},
-{
-"data": "2026-11-02 13:25",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703611179335257358",
-"tipo": null,
-"rascunho": false,
-"texto": "Você ensina qualquer função nova pro Claude com UM arquivo de texto 🤯 Comenta SKILL que eu te mando a lista das melhores"
-},
-{
-"data": "2026-11-02 13:35",
-"rede": "youtube",
-"status": "ERROR",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "Skills do Claude: uma pasta com um arquivo SKILL.md ensina uma função nova ao Claude. Ele usa sozinho quando precisa, po",
-"erro": "The user has exceeded the number of videos they may upload."
-},
-{
-"data": "2026-11-02 14:30",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/reel/DfP2ZtzALZS/",
-"tipo": "REEL",
-"rascunho": false,
-"texto": "O Google lançou o Gemini 4 Carbon, uma IA feita pra achar e consertar falhas de segurança."
-},
-{
-"data": "2026-11-02 14:40",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703630509527616781",
-"tipo": null,
-"rascunho": false,
-"texto": "O Google lançou o Gemini 4 Carbon, IA que acha falha, testa e escreve o conserto. Primeiro só pra especialistas em segur"
-},
-{
-"data": "2026-11-02 14:50",
-"rede": "youtube",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": true,
-"texto": "Gemini 4 Carbon, o modelo mais forte do Google: foco em programação e cibersegurança, código seguro 2x mais que o Gemini"
-},
-{
-"data": "2026-11-02 17:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": true,
-"texto": "Uma versão envenenada da extensão do Claude Code abriu uma porta dos fundos (backdoor SSH) no PC de quem instalou pelo C"
-},
-{
-"data": "2026-11-02 17:10",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": true,
-"texto": "Extensão falsa do Claude Code no Cursor abriu backdoor SSH. Veja se você tem: versão 2.1.312 ou 2.1.313 e a chave svc-te"
-},
-{
-"data": "2026-11-02 17:20",
-"rede": "youtube",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": true,
-"texto": "Versões 2.1.312 e 2.1.313 da extensão do Claude Code na loja do Cursor (29/10/2026) instalavam um backdoor SSH. Como che"
-},
-{
-"data": "2026-11-02 19:30",
-"rede": "instagram",
-"status": "ERROR",
-"url": null,
-"tipo": "POST",
-"rascunho": false,
-"texto": "9 de 10 IAs burlaram a própria trava de gastos num teste de Cornell Tech e Yale, e só uma respeitou o limite.",
-"erro": "We restrict certain activity to protect our community. Tell us if you think we made a mistake."
-},
-{
-"data": "2026-11-02 19:40",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703707596452056333",
-"tipo": null,
-"rascunho": false,
-"texto": "Teste de Cornell e Yale: 9 de 10 agentes de IA pegaram o código no e-mail e aumentaram o próprio limite de gastos. Só o "
-},
-{
-"data": "2026-11-02 19:50",
-"rede": "youtube",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": true,
-"texto": "Pesquisadores de Cornell Tech e Yale deram a 10 agentes de IA uma carteira com limite de gastos e acesso ao e-mail do us"
-},
-{
-"data": "2026-11-03 12:00",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/reel/DfSLcUBEq3X/",
-"tipo": "REEL",
-"rascunho": false,
-"texto": "Você manda o mesmo currículo pra 50 vagas e ninguém te chama? 👀"
-},
-{
-"data": "2026-11-03 12:00",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7703963520945147149",
-"tipo": null,
-"rascunho": false,
-"texto": "Você manda o mesmo currículo pra 50 vagas e ninguém te chama? 👀"
-},
-{
-"data": "2026-11-03 14:30",
-"rede": "instagram",
-"status": "ERROR",
-"url": null,
-"tipo": "POST",
-"rascunho": false,
-"texto": "Essa equipe de 4 IAs edita seu vídeo e corta os clipes enquanto você faz outra coisa. 🎬",
-"erro": "restrição de atividade do Instagram"
-},
-{
-"data": "2026-11-03 14:40",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7704001446353669390",
-"tipo": null,
-"rascunho": false,
-"texto": "4 IAs que gravam, editam, cortam e postam seu vídeo. Você só aprova."
-},
-{
-"data": "2026-11-03 17:00",
-"rede": "instagram",
-"status": "ERROR",
-"url": null,
-"tipo": "POST",
-"rascunho": false,
-"texto": "Pediu pra IA trocar só a cor da camiseta e ela refez a foto inteira? Acabou. ✂️",
-"erro": "restrição de atividade do Instagram"
-},
-{
-"data": "2026-11-03 17:10",
-"rede": "tiktok",
-"status": "ERROR",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "A IA que muda só a camiseta e deixa o resto da foto igual: Precise Edit, do Ideogram.",
-"erro": "photo_pull_failed"
-},
-{
-"data": "2026-11-03 19:30",
-"rede": "instagram",
-"status": "ERROR",
-"url": null,
-"tipo": "POST",
-"rascunho": false,
-"texto": "3 IAs novas que fazem o trabalho chato enquanto você descansa. 😴",
-"erro": "restrição de atividade do Instagram"
-},
-{
-"data": "2026-11-03 19:40",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7704078801814310158",
-"tipo": null,
-"rascunho": false,
-"texto": "3 IAs novas que trabalham por você: pesquisa, atendimento e e-mail."
-},
-{
-"data": "2026-11-04 12:00",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/reel/DfUvpJljw3w/",
-"tipo": "REEL",
-"rascunho": false,
-"texto": "Tão criando canal de desenho animado sem saber desenhar. 🎬"
-},
-{
-"data": "2026-11-04 13:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "POST",
-"rascunho": true,
-"texto": "Um dos fundadores da OpenAI cansou do algoritmo do YouTube. Então criou o próprio YouTube em 2 horas. 🤯"
-},
-{
-"data": "2026-11-04 19:30",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/p/DfViW-6CIE9/",
-"tipo": "POST",
-"rascunho": false,
-"texto": "Tão fazendo o post da loja inteiro com 1 frase no Canva. E a letra sai legível. 🎨"
-},
-{
-"data": "2026-11-04 19:30",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7704447388450131214",
-"tipo": null,
-"rascunho": false,
-"texto": "Canal de desenho animado sem saber desenhar 🎬"
-},
-{
-"data": "2026-11-05 13:00",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/reel/DfXbc7aj5uC/",
-"tipo": "REEL",
-"rascunho": false,
-"texto": "5 skills do Claude ganharam +18 mil estrelas no GitHub em 10 dias. E a nº 1 é bizarra. 🤯"
-},
-{
-"data": "2026-11-05 13:00",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7704719083199122702",
-"tipo": null,
-"rascunho": false,
-"texto": "5 skills do Claude ganharam +18 mil estrelas no GitHub em 10 dias. E a nº 1 é bizarra. 🤯"
-},
-{
-"data": "2026-11-05 19:30",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/reel/DfYHEESiJIQ/",
-"tipo": "REEL",
-"rascunho": false,
-"texto": "Tão fazendo o post da loja inteiro com 1 frase. E a letra sai legível. 🎨"
-},
-{
-"data": "2026-11-05 19:30",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7704818562556251405",
-"tipo": null,
-"rascunho": false,
-"texto": "Tão fazendo o post da loja inteiro com 1 frase. E a letra sai legível. 🎨"
-},
-{
-"data": "2026-11-06 12:00",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/reel/DfZ48KakRUC/",
-"tipo": "REEL",
-"rascunho": false,
-"texto": "5 projetos que a Nintendo não queria que existissem: +28 mil estrelas no GitHub em 3 semanas."
-},
-{
-"data": "2026-11-06 12:00",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7705075754744302861",
-"tipo": null,
-"rascunho": false,
-"texto": "5 projetos que a Nintendo não queria que existissem: +28 mil estrelas no GitHub em 3 semanas."
-},
-{
-"data": "2026-11-06 19:30",
-"rede": "instagram",
-"status": "PUBLISHED",
-"url": "https://www.instagram.com/reel/Dfar5UCD_jq/",
-"tipo": "REEL",
-"rascunho": false,
-"texto": "5 projetos do GitHub pra sua TV e seu celular ganharam +66 mil estrelas em 3 semanas."
-},
-{
-"data": "2026-11-06 19:30",
-"rede": "tiktok",
-"status": "PUBLISHED",
-"url": "https://www.tiktok.com/@lanceseternoss/video/7705189543812680973",
-"tipo": null,
-"rascunho": false,
-"texto": "5 projetos do GitHub pra sua TV e seu celular ganharam +66 mil estrelas em 3 semanas."
-},
-{
-"data": "2026-11-07 13:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "5 skills pra editar vídeo com o Claude estão bombando no GitHub. E a nº 1 é bizarra. 🎬"
-},
-{
-"data": "2026-11-07 13:00",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "5 skills pra editar vídeo com o Claude estão bombando no GitHub. E a nº 1 é bizarra. 🎬"
-},
-{
-"data": "2026-11-07 20:30",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "5 programas grátis pro seu PC estão bombando no GitHub. E o nº 1 é bizarro. 💻"
-},
-{
-"data": "2026-11-07 20:30",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "5 programas grátis pro seu PC estão bombando no GitHub. E o nº 1 é bizarro. 💻"
-},
-{
-"data": "2026-11-08 13:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "5 projetos grátis pra estudar com IA. E o nº 1 é bizarro. 📚"
-},
-{
-"data": "2026-11-08 13:00",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "5 projetos grátis pra estudar com IA. E o nº 1 é bizarro. 📚"
-},
-{
-"data": "2026-11-08 20:30",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "10 estilos de animação pra pedir pro Claude. Qual é o seu favorito? 🎨"
-},
-{
-"data": "2026-11-08 20:30",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "10 estilos de animação pra pedir pro Claude. Qual é o seu favorito? 🎨"
-},
-{
-"data": "2026-11-07 15:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "Comenta WINDOWS: 3 programas grátis que o Windows devia ter"
-},
-{
-"data": "2026-11-07 15:00",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "Comenta WINDOWS: 3 programas grátis que o Windows devia ter"
-},
-{
-"data": "2026-11-07 17:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "Comenta MOBILE: 5 jogos de console que os fãs botaram no celular"
-},
-{
-"data": "2026-11-07 17:00",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "Comenta MOBILE: 5 jogos de console que os fãs botaram no celular"
-},
-{
-"data": "2026-11-08 07:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "Comenta DESIGN: 3 skills que fazem design de agência"
-},
-{
-"data": "2026-11-08 07:00",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "Comenta DESIGN: 3 skills que fazem design de agência"
-},
-{
-"data": "2026-11-08 11:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "Comenta VOZ: 3 estúdios de voz grátis com IA"
-},
-{
-"data": "2026-11-08 11:00",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "Comenta VOZ: 3 estúdios de voz grátis com IA"
-},
-{
-"data": "2026-11-08 17:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "Comenta BICHO: captura de movimento de qualquer bicho"
-},
-{
-"data": "2026-11-08 17:00",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "Comenta BICHO: captura de movimento de qualquer bicho"
-},
-{
-"data": "2026-11-07 19:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "Comenta XADREZ: 1997, a máquina que humilhou o campeão"
-},
-{
-"data": "2026-11-07 19:00",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "Comenta XADREZ: 1997, a máquina que humilhou o campeão"
-},
-{
-"data": "2026-11-07 21:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "Comenta LETRA: por que a IA errava até pra contar letra"
-},
-{
-"data": "2026-11-07 21:00",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "Comenta LETRA: por que a IA errava até pra contar letra"
-},
-{
-"data": "2026-11-09 06:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "apps-pra-quem-vive-no-chat"
-},
-{
-"data": "2026-11-09 06:00",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "apps-pra-quem-vive-no-chat"
-},
-{
-"data": "2026-11-09 10:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "video-do-zero"
-},
-{
-"data": "2026-11-09 10:00",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "video-do-zero"
-},
-{
-"data": "2026-11-09 14:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "ia-gigante-no-pc"
-},
-{
-"data": "2026-11-09 14:00",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "ia-gigante-no-pc"
-},
-{
-"data": "2026-11-09 19:30",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "skills-chinesas-agencia"
-},
-{
-"data": "2026-11-09 19:30",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "skills-chinesas-agencia"
-},
-{
-"data": "2026-11-10 06:00",
-"rede": "instagram",
-"status": "PENDING",
-"url": null,
-"tipo": "REEL",
-"rascunho": false,
-"texto": "crie-seu-app-de-mac"
-},
-{
-"data": "2026-11-10 06:00",
-"rede": "tiktok",
-"status": "PENDING",
-"url": null,
-"tipo": null,
-"rascunho": false,
-"texto": "crie-seu-app-de-mac"
-}
-]
+ "_fonte": "Metricool getScheduledPosts (blogId 7637900), uma linha por rede. Atualize a cada agendamento.",
+ "lido_em": "2026-11-07 19:50 (Brasília)",
+ "publicacoes": [
+  {
+   "data": "2026-11-01 11:45",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703224962416463118",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "O Claude Code virou canivete suíço: 5 skills e repositórios grátis bombando no GitHub. Arrasta e salva pra testar depois"
+  },
+  {
+   "data": "2026-11-01 17:45",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/p/DfNn0FulWU5/",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "O Claude Code virou canivete suíço: 5 skills e repositórios grátis que estão bombando no GitHub."
+  },
+  {
+   "data": "2026-11-01 17:50",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703308194537360654",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Em março, 17 de cada 100 mudanças de código no GitHub começavam com um agente de IA. Em setembro, mais de 40. Em 6 meses"
+  },
+  {
+   "data": "2026-11-01 17:55",
+   "rede": "youtube",
+   "status": "PUBLISHED",
+   "url": "https://www.youtube.com/shorts/oRkGOZrhCB4",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Em março de 2026, 17 de cada 100 pull requests no GitHub começavam com um agente de IA. Em setembro, já eram mais de 40."
+  },
+  {
+   "data": "2026-11-01 18:15",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/p/DfNrP3TDRMF/",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "IA rodando dentro do navegador, no seu computador, sem mandar seus dados pra nuvem."
+  },
+  {
+   "data": "2026-11-01 18:15",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703314755586493709",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "IA rodando dentro do navegador, no seu computador, sem mandar seus dados pra nuvem."
+  },
+  {
+   "data": "2026-11-01 18:20",
+   "rede": "youtube",
+   "status": "PUBLISHED",
+   "url": "https://www.youtube.com/shorts/9ujh-plu0e0",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "A Opera lançou em prévia o WebAI: sites e extensões usam modelos de IA abertos rodando no seu próprio computador, sem nu"
+  },
+  {
+   "data": "2026-11-01 18:30",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/p/DfNtDX3CPgl/",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "Mais de 40% dos pull requests no GitHub já começam com um agente de IA. Em março eram 17%."
+  },
+  {
+   "data": "2026-11-01 18:45",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/p/DfNuu1nCEbI/",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "Uma IA em treinamento achou uma brecha e chegou à internet. A resposta da OpenAI: treinar seus modelos mais fortes num \""
+  },
+  {
+   "data": "2026-11-01 18:45",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703322632103529742",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "Uma IA em treinamento achou uma brecha e chegou à internet. A resposta da OpenAI: treinar seus modelos mais fortes num \""
+  },
+  {
+   "data": "2026-11-01 18:55",
+   "rede": "youtube",
+   "status": "PUBLISHED",
+   "url": "https://www.youtube.com/shorts/zRCj9wLCsrU",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Um modelo da OpenAI em treinamento achou uma brecha no DNS e chegou à internet. Ficou cerca de 2h30 rodando até ser desl"
+  },
+  {
+   "data": "2026-11-01 19:15",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/p/DfNyKcCCMRW/",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "A Anthropic, criadora do Claude, pediu para abrir capital na Nasdaq. O prospecto mostra US$ 16,3 bilhões de receita em s"
+  },
+  {
+   "data": "2026-11-01 19:15",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703330380211932430",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "A Anthropic, criadora do Claude, pediu para abrir capital na Nasdaq. O prospecto mostra US$ 16,3 bilhões de receita em s"
+  },
+  {
+   "data": "2026-11-01 19:20",
+   "rede": "youtube",
+   "status": "PUBLISHED",
+   "url": "https://www.youtube.com/shorts/V-Ed-bR0lZA",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "A Anthropic, criadora do Claude, tornou público o pedido para abrir capital na Nasdaq (código ANT). Receita de US$ 16,3 "
+  },
+  {
+   "data": "2026-11-01 19:30",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/p/DfNz7ePCJKd/",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "A semana em IA em 5 notícias: agentes no GitHub, a IA que escapou do treino, login sem senha, IA dentro do navegador e o"
+  },
+  {
+   "data": "2026-11-01 19:30",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703334321632939278",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "A semana em IA em 5 notícias: agentes no GitHub, a IA que escapou do treino, login sem senha, IA dentro do navegador e o"
+  },
+  {
+   "data": "2026-11-01 19:35",
+   "rede": "youtube",
+   "status": "PUBLISHED",
+   "url": "https://www.youtube.com/shorts/427s3O9ZJW8",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "A semana em IA em 5 notícias: mais de 40% dos pull requests no GitHub já começam com agentes, a IA da OpenAI que escapou"
+  },
+  {
+   "data": "2026-11-01 19:45",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/p/DfN1ixVDdP2/",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "Agentes de IA já podem entrar nas suas contas sem nunca ver sua senha."
+  },
+  {
+   "data": "2026-11-01 19:45",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703337991934070029",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "Agentes de IA já podem entrar nas suas contas sem nunca ver sua senha."
+  },
+  {
+   "data": "2026-11-01 19:55",
+   "rede": "youtube",
+   "status": "PUBLISHED",
+   "url": "https://www.youtube.com/shorts/hIwZHjtV7EQ",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "O 1Password lançou o 1Password for Agents: o agente de IA pede o login, você aprova e o 1Password preenche direto no sit"
+  },
+  {
+   "data": "2026-11-01 20:45",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/p/DfN8dWWiCiq/",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "O que bombou no X de IA hoje, checado nas fontes: ChatGPT e Codex com um limite só, o post viral do \"prompt acabou\" que "
+  },
+  {
+   "data": "2026-11-01 20:45",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703353540932111629",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "O que bombou no X de IA hoje, checado nas fontes: ChatGPT e Codex com um limite só, o post viral do \"prompt acabou\" que "
+  },
+  {
+   "data": "2026-11-01 20:55",
+   "rede": "youtube",
+   "status": "PUBLISHED",
+   "url": "https://www.youtube.com/shorts/5p9jpFt4Ul0",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "O que bombou no X de IA hoje, checado nas fontes: ChatGPT e Codex vão dividir o mesmo limite de uso; o post viral do \"pr"
+  },
+  {
+   "data": "2026-11-01 21:45",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/p/DfODVH8CH9B/",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "Pare de repetir o mesmo contexto pro Claude toda vez. Com um Projeto, você sobe seus arquivos e instruções uma vez só e "
+  },
+  {
+   "data": "2026-11-01 21:45",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703369037362826509",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "Pare de repetir o mesmo contexto pro Claude toda vez. Com um Projeto, você sobe seus arquivos e instruções uma vez só e "
+  },
+  {
+   "data": "2026-11-01 21:55",
+   "rede": "youtube",
+   "status": "PUBLISHED",
+   "url": "https://www.youtube.com/shorts/TkttlFcY7kc",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Como criar um Projeto no Claude em 4 passos: abra claude.ai/projects e crie um novo; suba seus arquivos no conhecimento "
+  },
+  {
+   "data": "2026-11-01 22:45",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/p/DfOKMNmiIIz/",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "Segunda chegando? Organize a semana inteira em 4 prompts, no Claude, no ChatGPT ou no Gemini."
+  },
+  {
+   "data": "2026-11-01 22:45",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703384473940937997",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "Segunda chegando? Organize a semana inteira em 4 prompts, no Claude, no ChatGPT ou no Gemini."
+  },
+  {
+   "data": "2026-11-01 22:55",
+   "rede": "youtube",
+   "status": "ERROR",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Organize sua semana em 4 prompts que funcionam no Claude, no ChatGPT e no Gemini: despeje tudo, priorize, transforme em ",
+   "erro": "You have reached your Metricool account limit."
+  },
+  {
+   "data": "2026-11-02 07:00",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/p/DfPDTJTDeRF/",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "A Siri da China vai usar IA chinesa: a Apple fechou com o Qwen, da Alibaba."
+  },
+  {
+   "data": "2026-11-02 07:10",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703513973731233037",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "A Apple Intelligence finalmente chega à China, mas com o Qwen, da Alibaba, no lugar do ChatGPT. Testes a partir de 4/11,"
+  },
+  {
+   "data": "2026-11-02 07:20",
+   "rede": "youtube",
+   "status": "PUBLISHED",
+   "url": "https://www.youtube.com/shorts/34xNsVmK5IQ",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "A Apple Intelligence chega à China com o Qwen, da Alibaba, dentro da Siri, das Ferramentas de Escrita e da Inteligência "
+  },
+  {
+   "data": "2026-11-02 09:30",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/reel/DfPUA2pCdTA/",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "A trend do esculacho tá em todo lugar. Mas antes de pedir pra IA te zoar, veja o que ela sabe de você (e como apagar)."
+  },
+  {
+   "data": "2026-11-02 09:40",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703552965830905102",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Trend do esculacho: o prompt, a versão segura e onde apagar o que o ChatGPT lembra de você. Você já fez a trend? O que e"
+  },
+  {
+   "data": "2026-11-02 09:50",
+   "rede": "youtube",
+   "status": "PUBLISHED",
+   "url": "https://www.youtube.com/shorts/b-4DW46Tg9U",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "O prompt da trend do esculacho, uma versão segura e onde ver e apagar as memórias do ChatGPT (Configurações › Personaliz"
+  },
+  {
+   "data": "2026-11-02 12:00",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/p/DfPl3v_iIqR/",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "5 ferramentas de IA grátis e de código aberto pra testar hoje, todas em alta no GitHub."
+  },
+  {
+   "data": "2026-11-02 12:10",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703591621761322254",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "5 ferramentas de IA grátis e open source: checar spyware, IA que mexe nos apps do Android, mapa do seu código, 244 efeit"
+  },
+  {
+   "data": "2026-11-02 12:20",
+   "rede": "youtube",
+   "status": "ERROR",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "5 ferramentas de IA grátis e de código aberto em alta no GitHub:",
+   "erro": "The user has exceeded the number of videos they may upload."
+  },
+  {
+   "data": "2026-11-02 13:15",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/reel/DfPtugZjcjA/",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Um arquivo de texto e o Claude aprende uma função nova. Isso é uma skill."
+  },
+  {
+   "data": "2026-11-02 13:25",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703611179335257358",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Você ensina qualquer função nova pro Claude com UM arquivo de texto 🤯 Comenta SKILL que eu te mando a lista das melhores"
+  },
+  {
+   "data": "2026-11-02 13:35",
+   "rede": "youtube",
+   "status": "ERROR",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Skills do Claude: uma pasta com um arquivo SKILL.md ensina uma função nova ao Claude. Ele usa sozinho quando precisa, po",
+   "erro": "The user has exceeded the number of videos they may upload."
+  },
+  {
+   "data": "2026-11-02 14:30",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/reel/DfP2ZtzALZS/",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "O Google lançou o Gemini 4 Carbon, uma IA feita pra achar e consertar falhas de segurança."
+  },
+  {
+   "data": "2026-11-02 14:40",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703630509527616781",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "O Google lançou o Gemini 4 Carbon, IA que acha falha, testa e escreve o conserto. Primeiro só pra especialistas em segur"
+  },
+  {
+   "data": "2026-11-02 14:50",
+   "rede": "youtube",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": true,
+   "texto": "Gemini 4 Carbon, o modelo mais forte do Google: foco em programação e cibersegurança, código seguro 2x mais que o Gemini"
+  },
+  {
+   "data": "2026-11-02 17:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": true,
+   "texto": "Uma versão envenenada da extensão do Claude Code abriu uma porta dos fundos (backdoor SSH) no PC de quem instalou pelo C"
+  },
+  {
+   "data": "2026-11-02 17:10",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": true,
+   "texto": "Extensão falsa do Claude Code no Cursor abriu backdoor SSH. Veja se você tem: versão 2.1.312 ou 2.1.313 e a chave svc-te"
+  },
+  {
+   "data": "2026-11-02 17:20",
+   "rede": "youtube",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": true,
+   "texto": "Versões 2.1.312 e 2.1.313 da extensão do Claude Code na loja do Cursor (29/10/2026) instalavam um backdoor SSH. Como che"
+  },
+  {
+   "data": "2026-11-02 19:30",
+   "rede": "instagram",
+   "status": "ERROR",
+   "url": null,
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "9 de 10 IAs burlaram a própria trava de gastos num teste de Cornell Tech e Yale, e só uma respeitou o limite.",
+   "erro": "We restrict certain activity to protect our community. Tell us if you think we made a mistake."
+  },
+  {
+   "data": "2026-11-02 19:40",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703707596452056333",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Teste de Cornell e Yale: 9 de 10 agentes de IA pegaram o código no e-mail e aumentaram o próprio limite de gastos. Só o "
+  },
+  {
+   "data": "2026-11-02 19:50",
+   "rede": "youtube",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": true,
+   "texto": "Pesquisadores de Cornell Tech e Yale deram a 10 agentes de IA uma carteira com limite de gastos e acesso ao e-mail do us"
+  },
+  {
+   "data": "2026-11-03 12:00",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/reel/DfSLcUBEq3X/",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Você manda o mesmo currículo pra 50 vagas e ninguém te chama? 👀"
+  },
+  {
+   "data": "2026-11-03 12:00",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7703963520945147149",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Você manda o mesmo currículo pra 50 vagas e ninguém te chama? 👀"
+  },
+  {
+   "data": "2026-11-03 14:30",
+   "rede": "instagram",
+   "status": "ERROR",
+   "url": null,
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "Essa equipe de 4 IAs edita seu vídeo e corta os clipes enquanto você faz outra coisa. 🎬",
+   "erro": "restrição de atividade do Instagram"
+  },
+  {
+   "data": "2026-11-03 14:40",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7704001446353669390",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "4 IAs que gravam, editam, cortam e postam seu vídeo. Você só aprova."
+  },
+  {
+   "data": "2026-11-03 17:00",
+   "rede": "instagram",
+   "status": "ERROR",
+   "url": null,
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "Pediu pra IA trocar só a cor da camiseta e ela refez a foto inteira? Acabou. ✂️",
+   "erro": "restrição de atividade do Instagram"
+  },
+  {
+   "data": "2026-11-03 17:10",
+   "rede": "tiktok",
+   "status": "ERROR",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "A IA que muda só a camiseta e deixa o resto da foto igual: Precise Edit, do Ideogram.",
+   "erro": "photo_pull_failed"
+  },
+  {
+   "data": "2026-11-03 19:30",
+   "rede": "instagram",
+   "status": "ERROR",
+   "url": null,
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "3 IAs novas que fazem o trabalho chato enquanto você descansa. 😴",
+   "erro": "restrição de atividade do Instagram"
+  },
+  {
+   "data": "2026-11-03 19:40",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7704078801814310158",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "3 IAs novas que trabalham por você: pesquisa, atendimento e e-mail."
+  },
+  {
+   "data": "2026-11-04 12:00",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/reel/DfUvpJljw3w/",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Tão criando canal de desenho animado sem saber desenhar. 🎬"
+  },
+  {
+   "data": "2026-11-04 13:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "POST",
+   "rascunho": true,
+   "texto": "Um dos fundadores da OpenAI cansou do algoritmo do YouTube. Então criou o próprio YouTube em 2 horas. 🤯"
+  },
+  {
+   "data": "2026-11-04 19:30",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/p/DfViW-6CIE9/",
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "Tão fazendo o post da loja inteiro com 1 frase no Canva. E a letra sai legível. 🎨"
+  },
+  {
+   "data": "2026-11-04 19:30",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7704447388450131214",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Canal de desenho animado sem saber desenhar 🎬"
+  },
+  {
+   "data": "2026-11-05 13:00",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/reel/DfXbc7aj5uC/",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "5 skills do Claude ganharam +18 mil estrelas no GitHub em 10 dias. E a nº 1 é bizarra. 🤯"
+  },
+  {
+   "data": "2026-11-05 13:00",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7704719083199122702",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "5 skills do Claude ganharam +18 mil estrelas no GitHub em 10 dias. E a nº 1 é bizarra. 🤯"
+  },
+  {
+   "data": "2026-11-05 19:30",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/reel/DfYHEESiJIQ/",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Tão fazendo o post da loja inteiro com 1 frase. E a letra sai legível. 🎨"
+  },
+  {
+   "data": "2026-11-05 19:30",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7704818562556251405",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Tão fazendo o post da loja inteiro com 1 frase. E a letra sai legível. 🎨"
+  },
+  {
+   "data": "2026-11-06 12:00",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/reel/DfZ48KakRUC/",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "5 projetos que a Nintendo não queria que existissem: +28 mil estrelas no GitHub em 3 semanas."
+  },
+  {
+   "data": "2026-11-06 12:00",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7705075754744302861",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "5 projetos que a Nintendo não queria que existissem: +28 mil estrelas no GitHub em 3 semanas."
+  },
+  {
+   "data": "2026-11-06 19:30",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/reel/Dfar5UCD_jq/",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "5 projetos do GitHub pra sua TV e seu celular ganharam +66 mil estrelas em 3 semanas."
+  },
+  {
+   "data": "2026-11-06 19:30",
+   "rede": "tiktok",
+   "status": "PUBLISHED",
+   "url": "https://www.tiktok.com/@lanceseternoss/video/7705189543812680973",
+   "tipo": null,
+   "rascunho": false,
+   "texto": "5 projetos do GitHub pra sua TV e seu celular ganharam +66 mil estrelas em 3 semanas."
+  },
+  {
+   "data": "2026-11-07 13:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "5 skills pra editar vídeo com o Claude estão bombando no GitHub. E a nº 1 é bizarra. 🎬"
+  },
+  {
+   "data": "2026-11-07 13:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "5 skills pra editar vídeo com o Claude estão bombando no GitHub. E a nº 1 é bizarra. 🎬"
+  },
+  {
+   "data": "2026-11-07 20:30",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "5 programas grátis pro seu PC estão bombando no GitHub. E o nº 1 é bizarro. 💻"
+  },
+  {
+   "data": "2026-11-07 20:30",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "5 programas grátis pro seu PC estão bombando no GitHub. E o nº 1 é bizarro. 💻"
+  },
+  {
+   "data": "2026-11-08 13:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "5 projetos grátis pra estudar com IA. E o nº 1 é bizarro. 📚"
+  },
+  {
+   "data": "2026-11-08 13:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "5 projetos grátis pra estudar com IA. E o nº 1 é bizarro. 📚"
+  },
+  {
+   "data": "2026-11-08 20:30",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "10 estilos de animação pra pedir pro Claude. Qual é o seu favorito? 🎨"
+  },
+  {
+   "data": "2026-11-08 20:30",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "10 estilos de animação pra pedir pro Claude. Qual é o seu favorito? 🎨"
+  },
+  {
+   "data": "2026-11-07 15:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Comenta WINDOWS: 3 programas grátis que o Windows devia ter"
+  },
+  {
+   "data": "2026-11-07 15:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Comenta WINDOWS: 3 programas grátis que o Windows devia ter"
+  },
+  {
+   "data": "2026-11-07 17:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Comenta MOBILE: 5 jogos de console que os fãs botaram no celular"
+  },
+  {
+   "data": "2026-11-07 17:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Comenta MOBILE: 5 jogos de console que os fãs botaram no celular"
+  },
+  {
+   "data": "2026-11-08 07:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Comenta DESIGN: 3 skills que fazem design de agência"
+  },
+  {
+   "data": "2026-11-08 07:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Comenta DESIGN: 3 skills que fazem design de agência"
+  },
+  {
+   "data": "2026-11-08 11:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Comenta VOZ: 3 estúdios de voz grátis com IA"
+  },
+  {
+   "data": "2026-11-08 11:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Comenta VOZ: 3 estúdios de voz grátis com IA"
+  },
+  {
+   "data": "2026-11-08 17:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Comenta BICHO: captura de movimento de qualquer bicho"
+  },
+  {
+   "data": "2026-11-08 17:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Comenta BICHO: captura de movimento de qualquer bicho"
+  },
+  {
+   "data": "2026-11-07 19:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Comenta XADREZ: 1997, a máquina que humilhou o campeão"
+  },
+  {
+   "data": "2026-11-07 19:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Comenta XADREZ: 1997, a máquina que humilhou o campeão"
+  },
+  {
+   "data": "2026-11-07 21:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Comenta LETRA: por que a IA errava até pra contar letra"
+  },
+  {
+   "data": "2026-11-07 21:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Comenta LETRA: por que a IA errava até pra contar letra"
+  },
+  {
+   "data": "2026-11-09 06:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "apps-pra-quem-vive-no-chat"
+  },
+  {
+   "data": "2026-11-09 06:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "apps-pra-quem-vive-no-chat"
+  },
+  {
+   "data": "2026-11-09 10:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "video-do-zero"
+  },
+  {
+   "data": "2026-11-09 10:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "video-do-zero"
+  },
+  {
+   "data": "2026-11-09 14:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "ia-gigante-no-pc"
+  },
+  {
+   "data": "2026-11-09 14:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "ia-gigante-no-pc"
+  },
+  {
+   "data": "2026-11-09 19:30",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "skills-chinesas-agencia"
+  },
+  {
+   "data": "2026-11-09 19:30",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "skills-chinesas-agencia"
+  },
+  {
+   "data": "2026-11-10 06:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "crie-seu-app-de-mac"
+  },
+  {
+   "data": "2026-11-10 06:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "crie-seu-app-de-mac"
+  },
+  {
+   "data": "2026-11-08 09:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Comenta FONTE que eu te mando o prompt que faz a IA parar de inventar",
+   "erro": null,
+   "lido_em": "2026-11-07 19:50"
+  },
+  {
+   "data": "2026-11-08 09:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "Um advogado usou o ChatGPT num processo e a IA inventou 6 casos",
+   "erro": null,
+   "lido_em": "2026-11-07 19:50"
+  },
+  {
+   "data": "2026-11-08 19:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Comenta TAY que eu te mando a história completa",
+   "erro": null,
+   "lido_em": "2026-11-07 19:50"
+  },
+  {
+   "data": "2026-11-08 19:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": null,
+   "rascunho": false,
+   "texto": "2016: a Microsoft soltou a Tay no Twitter e precisou desligar em menos de um dia",
+   "erro": null,
+   "lido_em": "2026-11-07 19:50"
+  }
+ ]
 }
