@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, ritmo rápido e animado (sem arrastar, pausas curtas nas reticências)",
  "formato": "contagem",
  "chave": "DESIGN",
  "tese": "3 SKILLS QUE FAZEM DESIGN DE AGÊNCIA · +3 MIL ESTRELAS EM 1 MÊS · E O Nº 1 PARECE DA APPLE",
@@ -23,7 +23,7 @@
   "https://github.com/juliobsz/skills",
   "https://github.com/enesozturk/dimensional-drawing"
  ],
- "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Aixio Layer 403, skills 1.188, Dimensional Drawing 1.903; total 3.494; criados entre 09/10 e 23/10.",
+ "prova_viral": "Estrelas no GitHub (API, relidas 07/11/2026 na produção): Aixio Layer 408, skills 1.199, Dimensional Drawing 1.916; total 3.523; criados entre 09/10 e 23/10.",
  "obs": "",
  "polemica": false,
  "agenda": "2026-11-08 11:00",
@@ -47,6 +47,11 @@
      "t": 0.1,
      "som": "whoosh",
      "g": 0.6
+    },
+    {
+     "t": 3.25,
+     "som": "stamp",
+     "g": 0.7
     }
    ]
   },
@@ -55,14 +60,24 @@
    "tag": "3º",
    "item": "Aixio Layer",
    "repo": "Aixio-AI/aixio-layer-v2",
-   "estrelas": 403,
+   "estrelas": 408,
    "fala": "Terceiro: Aixio Layer. Separa uma arte pronta em camadas pra você editar. Esse ajuda… comenta DESIGN que eu te mando as três. Mas a primeira é linda.",
    "legenda": "Terceiro: Aixio Layer. Separa uma arte pronta em camadas pra você editar. Esse ajuda… comenta DESIGN que eu te mando as três. Mas a primeira é linda.",
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
+     "som": "whoosh2",
      "g": 0.5
+    },
+    {
+     "t": 0.15,
+     "som": "pop",
+     "g": 0.35
+    },
+    {
+     "t": 2.0,
+     "som": "ding",
+     "g": 0.3
     }
    ]
   },
@@ -71,14 +86,24 @@
    "tag": "2º",
    "item": "skills",
    "repo": "juliobsz/skills",
-   "estrelas": 1188,
+   "estrelas": 1199,
    "fala": "Segundo: uma skill que faz site de premiação com uma linha. Esse ajuda… comenta DESIGN que eu te mando as três. Mas a primeira é linda.",
    "legenda": "Segundo: uma skill que faz site de premiação com uma linha. Esse ajuda… comenta DESIGN que eu te mando as três. Mas a primeira é linda.",
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
+     "som": "whoosh2",
      "g": 0.5
+    },
+    {
+     "t": 0.15,
+     "som": "pop",
+     "g": 0.35
+    },
+    {
+     "t": 2.0,
+     "som": "ding",
+     "g": 0.3
     }
    ]
   },
@@ -87,14 +112,29 @@
    "tag": "1º",
    "item": "Dimensional Drawing",
    "repo": "enesozturk/dimensional-drawing",
-   "estrelas": 1903,
+   "estrelas": 1916,
    "fala": "E o primeiro: desenhos de interface em 3D no estilo da Apple.",
    "legenda": "E o primeiro: desenhos de interface em 3D no estilo da Apple.",
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
+     "som": "whoosh2",
      "g": 0.5
+    },
+    {
+     "t": 0.15,
+     "som": "pop",
+     "g": 0.35
+    },
+    {
+     "t": 2.0,
+     "som": "ding",
+     "g": 0.3
+    },
+    {
+     "t": 0.4,
+     "som": "riser",
+     "g": 0.35
     }
    ]
   },
@@ -103,7 +143,18 @@
    "tag": "COMENTA DESIGN",
    "fala": "Comenta DESIGN e me segue que eu te mando as três.",
    "legenda": "Comenta DESIGN e me segue que eu te mando as três.",
-   "sfx": []
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "paper",
+     "g": 0.5
+    },
+    {
+     "t": 0.85,
+     "som": "stamp",
+     "g": 0.5
+    }
+   ]
   }
  ],
  "adiantado_de": "2026-11-12",

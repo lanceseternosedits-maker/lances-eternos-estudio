@@ -1,0 +1,16 @@
+💬 Comenta VOZ e me segue que eu te mando o link dos 3 estúdios de voz grátis com IA.
+
+Narrar vídeo com voz de IA costuma ser pago. Esses 3 projetos são de graça e somam quase 1.000 estrelas no GitHub em 1 mês. 🎙️
+
+3º Speech Studio: voz e transcrição no Windows, sem internet
+2º AudioSmith: audiobook, dublagem e transcrição no Mac
+1º Ming TTS: clona e cria vozes que você controla com palavras
+
+⚠️ Só clone a voz de quem deixou. Copiar a voz de alguém sem autorização é proibido.
+
+Qual você usaria pra narrar seus vídeos? 👇
+
+Fonte: estrelas no GitHub de cada projeto (lidas em 07/11).
+Animação e voz feitas com IA. Perfil independente, sem ligação com a Anthropic.
+
+#vozia #inteligenciaartificial #ia #audiobook #criadordeconteudo

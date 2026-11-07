@@ -1,9 +1,9 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, ritmo rápido e animado (sem arrastar, pausas curtas nas reticências)",
  "formato": "contagem",
  "chave": "VOZ",
- "tese": "3 ESTÚDIOS DE VOZ GRÁTIS COM IA · +1 MIL ESTRELAS EM 1 MÊS · E O Nº 1 CLONA VOZ",
+ "tese": "3 ESTÚDIOS DE VOZ GRÁTIS COM IA · QUASE 1.000 ESTRELAS EM 1 MÊS · E O Nº 1 CLONA VOZ",
  "conceito": "Cabine de rádio antiga: microfone de fita, letreiro NO AR (texto 'NO AR' em fonte clara), painel de botões, discos; paleta vermelho-NO-AR + madeira + verde-válvula. Nº 1: ondas sonoras saem do microfone e viram outra voz (cor diferente). Mascote de fone gigante e gravata-borboleta.",
  "elementos": {
   "etiqueta": "b) papel rasgado com fita",
@@ -23,7 +23,7 @@
   "https://github.com/hehehai/AudioSmith",
   "https://github.com/inclusionAI/Ming-3.0-tts"
  ],
- "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Speech Studio 223, AudioSmith 226, Ming TTS 541; total 990; criados entre 13/10 e 19/10.",
+ "prova_viral": "Estrelas no GitHub (API, relidas 07/11/2026 na produção): Speech Studio 224, AudioSmith 227, Ming TTS 546; total 997; criados entre 13/10 e 19/10.",
  "obs": "Clonagem de voz: reforçar consentimento (deepfake proibido). Conferir idiomas (Speech Studio destaca russo).",
  "polemica": false,
  "agenda": "2026-11-08 15:00",
@@ -39,7 +39,7 @@
    "itens": "estudio-de-voz-gratis",
    "etiqueta": [
     "3 ESTÚDIOS DE VOZ GRÁTIS COM IA",
-    "+1 MIL ESTRELAS EM 1 MÊS",
+    "QUASE 1.000 ESTRELAS EM 1 MÊS",
     "E O Nº 1 CLONA VOZ"
    ],
    "sfx": [
@@ -47,6 +47,11 @@
      "t": 0.1,
      "som": "whoosh",
      "g": 0.6
+    },
+    {
+     "t": 3.6,
+     "som": "pop",
+     "g": 0.5
     }
    ]
   },
@@ -55,14 +60,24 @@
    "tag": "3º",
    "item": "Speech Studio",
    "repo": "timoncool/speech-studio",
-   "estrelas": 223,
+   "estrelas": 224,
    "fala": "Terceiro: Speech Studio. Voz e transcrição no Windows, sem internet. Esse é útil… comenta VOZ que eu te mando os três. Mas o primeiro impressiona.",
    "legenda": "Terceiro: Speech Studio. Voz e transcrição no Windows, sem internet. Esse é útil… comenta VOZ que eu te mando os três. Mas o primeiro impressiona.",
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
+     "som": "paper",
      "g": 0.5
+    },
+    {
+     "t": 0.15,
+     "som": "typing",
+     "g": 0.35
+    },
+    {
+     "t": 2.0,
+     "som": "ding",
+     "g": 0.3
     }
    ]
   },
@@ -71,14 +86,24 @@
    "tag": "2º",
    "item": "AudioSmith",
    "repo": "hehehai/AudioSmith",
-   "estrelas": 226,
+   "estrelas": 227,
    "fala": "Segundo: AudioSmith. Faz audiobook, dublagem e transcrição no Mac. Esse é útil… comenta VOZ que eu te mando os três. Mas o primeiro impressiona.",
    "legenda": "Segundo: AudioSmith. Faz audiobook, dublagem e transcrição no Mac. Esse é útil… comenta VOZ que eu te mando os três. Mas o primeiro impressiona.",
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
+     "som": "paper",
      "g": 0.5
+    },
+    {
+     "t": 0.15,
+     "som": "typing",
+     "g": 0.35
+    },
+    {
+     "t": 2.0,
+     "som": "ding",
+     "g": 0.3
     }
    ]
   },
@@ -87,14 +112,29 @@
    "tag": "1º",
    "item": "Ming TTS",
    "repo": "inclusionAI/Ming-3.0-tts",
-   "estrelas": 541,
+   "estrelas": 546,
    "fala": "E o primeiro: Ming. Clona e cria vozes que você controla com palavras.",
    "legenda": "E o primeiro: Ming. Clona e cria vozes que você controla com palavras.",
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
+     "som": "paper",
      "g": 0.5
+    },
+    {
+     "t": 0.15,
+     "som": "typing",
+     "g": 0.35
+    },
+    {
+     "t": 2.0,
+     "som": "ding",
+     "g": 0.3
+    },
+    {
+     "t": 0.5,
+     "som": "riser",
+     "g": 0.35
     }
    ]
   },
@@ -103,9 +143,20 @@
    "tag": "COMENTA VOZ",
    "fala": "Comenta VOZ e me segue. E só clone a voz de quem deixou.",
    "legenda": "Comenta VOZ e me segue. E só clone a voz de quem deixou.",
-   "sfx": []
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "pop",
+     "g": 0.45
+    },
+    {
+     "t": 1.2,
+     "som": "paper",
+     "g": 0.4
+    }
+   ]
   }
  ],
  "adiantado_de": "2026-11-13",
- "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos)."
+ "obs_producao": "07/11: total relido deu 997 estrelas, então a etiqueta '+1 MIL' virou 'QUASE 1.000' (nada inventado)."
 }
