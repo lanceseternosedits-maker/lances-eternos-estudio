@@ -51,6 +51,8 @@ const PROPS = [ // palavras -> objeto
 function prop(nome) {
   const S = 'stroke="#000" stroke-width="5" stroke-linejoin="round"';
   const d = {
+    xadrez: `<path d="M22 92 H78 V80 H22Z" fill="#f2e6c8" ${S}/><path d="M30 80 L34 42 H66 L70 80Z" fill="#f2e6c8" ${S}/><path d="M26 42 V18 H36 V28 H45 V18 H55 V28 H64 V18 H74 V42Z" fill="#f2e6c8" ${S}/>`,
+    morango: `<path d="M50 92 Q14 70 16 42 Q20 22 50 26 Q80 22 84 42 Q86 70 50 92Z" fill="#e0263d" ${S}/><path d="M30 26 L42 12 L50 22 L58 12 L70 26 Q50 34 30 26Z" fill="#3f9b3a" ${S}/><g fill="#ffe08a"><circle cx="34" cy="46" r="3"/><circle cx="50" cy="44" r="3"/><circle cx="66" cy="46" r="3"/><circle cx="42" cy="60" r="3"/><circle cx="58" cy="60" r="3"/><circle cx="50" cy="75" r="3"/></g>`,
     celular: `<rect x="25" y="5" width="50" height="90" rx="10" fill="#222" ${S}/><rect x="31" y="15" width="38" height="66" rx="3" fill="#5ce1ff"/><rect x="38" y="30" width="24" height="10" rx="5" fill="#25d366"/><rect x="38" y="46" width="18" height="10" rx="5" fill="#fff"/>`,
     controle: `<path d="M10 45 Q10 20 35 22 H65 Q90 20 90 45 Q92 80 75 78 Q65 76 60 62 H40 Q35 76 25 78 Q8 80 10 45Z" fill="#3b3b5c" ${S}/><path d="M24 44 h16 M32 36 v16" stroke="#fff" stroke-width="6"/><circle cx="66" cy="38" r="5" fill="#ff4b4b"/><circle cx="76" cy="48" r="5" fill="#7dff3a"/>`,
     tv: `<rect x="8" y="22" width="84" height="62" rx="8" fill="#6b4a2b" ${S}/><rect x="16" y="30" width="56" height="46" rx="6" fill="#9ff0ff"/><circle cx="82" cy="40" r="4" fill="#000"/><path d="M35 22 L25 5 M60 22 L72 5" ${S}/>`,

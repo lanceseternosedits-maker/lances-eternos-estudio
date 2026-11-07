@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-07 14:42",
+ "gerado_em": "2026-11-07 14:48",
  "videos": [
   {
    "pasta": "2026-11-08-crie-seu-app-de-mac",
@@ -25,6 +25,11 @@
    "pasta": "2026-11-08-apps-pra-quem-vive-no-chat",
    "titulo": "3 APPS PRA QUEM VIVE NO CHATGPT",
    "quando": "2026-11-09 06:00"
+  },
+  {
+   "pasta": "2026-11-07-deep-blue-kasparov",
+   "titulo": "1997: A MÁQUINA QUE HUMILHOU O CAMPEÃO",
+   "quando": "2026-11-07 19:00"
   }
  ]
 }

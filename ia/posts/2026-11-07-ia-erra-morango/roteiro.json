@@ -16,7 +16,7 @@
   "fechamento": "c) post-its/cartazes na parede",
   "tipografia": "e) Caveat (manuscrita)",
   "som": "trilha 01 + efeitos de papel",
-  "mascote": "avental de feirante; ação principal: contar morangos nos dedos"
+  "mascote": "chapéu de palha de feirante (no topo da cabeça; o avental saiu para nada ficar na frente do rosto); ação principal: contar morangos nos dedos"
  },
  "brinde": "o prompt do truque (soletrar antes de contar) + 2 outros pedidos em que a IA costuma errar",
  "fontes": [
@@ -38,16 +38,22 @@
    "legenda": "Pergunta pra IA quantos R tem em strawberry, morango em inglês. Por muito tempo, ela respondia dois.",
    "sfx": [
     {
-     "t": 0.0,
-     "som": "whoosh",
-     "g": 0.4
+     "t": 2.6,
+     "som": "pop",
+     "g": 0.3
+    },
+    {
+     "t": 7.3,
+     "som": "ding",
+     "g": 0.3
     }
    ],
    "etiqueta": [
     "POR QUE A IA ERRAVA ATÉ PRA CONTAR LETRA",
     "STRAWBERRY TEM 3 R",
     "E O TRUQUE PRA ELA ACERTAR"
-   ]
+   ],
+   "itens": "ia-erra-morango"
   },
   {
    "cena": "s1",
@@ -57,8 +63,13 @@
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
-     "g": 0.4
+     "som": "whoosh2",
+     "g": 0.35
+    },
+    {
+     "t": 0.1,
+     "som": "pop",
+     "g": 0.35
     }
    ]
   },
@@ -70,7 +81,12 @@
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
+     "som": "whoosh2",
+     "g": 0.35
+    },
+    {
+     "t": 0.7,
+     "som": "paper",
      "g": 0.4
     }
    ]
@@ -83,8 +99,8 @@
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
-     "g": 0.4
+     "som": "whoosh2",
+     "g": 0.35
     }
    ]
   },
@@ -96,8 +112,13 @@
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
-     "g": 0.4
+     "som": "whoosh2",
+     "g": 0.35
+    },
+    {
+     "t": 4.4,
+     "som": "ding",
+     "g": 0.35
     }
    ]
   },
@@ -109,7 +130,12 @@
    "sfx": [
     {
      "t": 0.0,
-     "som": "whoosh",
+     "som": "whoosh2",
+     "g": 0.35
+    },
+    {
+     "t": 0.2,
+     "som": "paper",
      "g": 0.4
     }
    ]

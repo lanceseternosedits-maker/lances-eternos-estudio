@@ -1,0 +1,2 @@
+Por que a IA errava quantos R tem em strawberry? Ela lê pedaços de palavra (tokens), não letras. O truque: peça pra soletrar antes de contar. Comenta LETRA que eu te mando o prompt. Já pegou a IA errando assim? 👇
+#ia #chatgpt #dicasdeia #tokens #inteligenciaartificial

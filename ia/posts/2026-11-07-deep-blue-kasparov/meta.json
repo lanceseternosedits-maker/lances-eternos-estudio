@@ -18,5 +18,81 @@
   "instagram": "2026-11-07 19:00",
   "tiktok": "2026-11-07 19:00"
  },
- "status": "roteiro aguardando aprovação"
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-07 17:47",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "33.1 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.69 palavras/s (89 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.3 LUFS, pico -1.4 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "1060 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "XADREZ",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "capa": {
+  "objeto": "xadrez"
+ },
+ "elementos": {
+  "etiqueta": "g) placa de aeroporto (painel azul-marinho com letras douradas)",
+  "nome": "d) letreiro split-flap",
+  "contador": "(sem contador: história)",
+  "legenda": "e) tarja de TV/arcade",
+  "transicao": "d) virada de página",
+  "camera": "c) travelling lateral",
+  "fechamento": "e) página de caderno",
+  "tipografia": "c) Fraunces",
+  "som": "trilha própria em tom menor + página virando, relógio de xadrez, carimbo",
+  "mascote": "boina (no topo da cabeça; a gravata-borboleta saiu para nada ficar na frente do rosto); ação principal: pensar (cabeça inclinada + bolinhas de pensamento)"
+ },
+ "obs_producao": "Produzido em 07/11 no motor da cena_contagem (mesmo mascote 3D), módulo itens/deep-blue-kasparov.js: sala de torneio de 1997, tabuleiro gigante, relógio de xadrez, monitor de tubo com braço robótico de blocos (sem logos). Voz gerada de novo com ritmo mais ágil (a 1ª saiu com 44,5 s): 33,1 s, 2,69 palavras/s, sem acelerar. Boca: o mascote não tem boca e nada fica na frente do rosto (gravata-borboleta trocada por boina no topo da cabeça, depois do vídeo do app de Mac negado pela 'boca bugada', que era o avental). checar.py passou."
 }

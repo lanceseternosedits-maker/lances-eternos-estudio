@@ -1,0 +1,16 @@
+Comenta LETRA que eu te mando o truque pra IA parar de errar conta de letra (e mais 2 pedidos em que ela costuma tropeçar). 🍓
+
+Em 2024 viralizou: pergunta pra IA quantos R tem em "strawberry" (morango em inglês). Por muito tempo, a resposta era "dois". Tem três.
+
+O motivo: a IA não lê letra por letra. Ela lê pedaços de palavra, chamados tokens. "Strawberry" vira dois ou três pedaços (algo como "str" + "aw" + "berry", depende do modelo). Aí, em vez de contar, ela adivinha.
+
+O truque: peça pra ela soletrar a palavra letra por letra antes de contar. Aí ela acerta.
+
+💬 Comenta LETRA e me segue que eu te mando o prompt pronto pra copiar.
+
+Você já pegou a IA errando uma coisa boba assim? 👇
+
+Fontes: HackerNoon ("Why can't AI count letters") e 16x Prompt ("Why ChatGPT can't count r's in strawberry").
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #inteligenciaartificial #chatgpt #dicasdeia #tokens #tecnologia
