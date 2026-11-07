@@ -1,6 +1,6 @@
 {
  "data": "2026-11-14",
- "horario": "22:00",
+ "horario": "07:00",
  "pilar": "reel",
  "formato": "palco",
  "temas": [
@@ -12,8 +12,8 @@
  "cta": "LIGACAO",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-14 22:00",
-  "tiktok": "2026-11-14 22:00"
+  "instagram": "2026-11-14 07:00",
+  "tiktok": "2026-11-14 07:00"
  },
  "status": "aguardando aprovação"
 }

@@ -31,7 +31,7 @@ INICIO_4_POR_DIA = dt.date(2026, 11, 9)  # até 08/11 valeu a agenda especial de
 # Exceção (Vitor, 07/11): 09 a 15/11 com 8 Reels por dia (CLAUDE.md)
 SEMANA_8 = (dt.date(2026, 11, 9), dt.date(2026, 11, 15))
 VAGAS8_UTEIS = ["06:00", "08:00", "10:00", "12:00", "14:00", "17:00", "19:30", "21:30"]
-VAGAS8_FDS = ["09:00", "11:00", "13:00", "15:00", "17:00", "19:00", "20:30", "22:00"]
+VAGAS8_FDS = ["07:00", "09:00", "11:00", "13:00", "15:00", "17:00", "19:00", "20:30"]  # Vitor, 07/11: 22:00 é tarde, começa às 07:00
 
 
 def vagas_do_dia(dia: dt.date) -> list[str]:
