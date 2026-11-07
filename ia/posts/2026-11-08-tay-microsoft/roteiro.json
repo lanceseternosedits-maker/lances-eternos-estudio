@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "TAY",
+ "tese": "O CHATBOT QUE A MICROSOFT DESLIGOU EM 1 DIA",
+ "conceito": "Quarto adolescente de 2016 com telão de rede social genérica (sem logo do Twitter nem da Microsoft), balões de mensagem chovendo e ficando vermelhos, sirene girando, botão gigante DESLIGAR; paleta azul-claro + rosa + vermelho-alerta. Mascote de fone e boné tentando segurar os balões que caem.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "(sem contador)",
+  "legenda": "e) tarja de TV/arcade",
+  "transicao": "e) glitch RGB",
+  "camera": "e) câmera na mão",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 01 + notificações e sirene",
+  "mascote": "fone e boné; ação principal: tentar segurar balões que caem"
+ },
+ "brinde": "reportagem completa + o pedido de desculpas da Microsoft",
+ "fontes": [
+  "https://fortune.com/2016/03/25/microsoft-sorry-offensive-chat-bot",
+  "https://www.pcworld.com/article/420272/microsoft-deeply-sorry-for-tay-chatbot-will-bring-it-back-when-vulnerability-is-fixed.html"
+ ],
+ "prova_viral": "Março/2016: Tay lançada numa quarta e tirada do ar no dia seguinte; desculpas de Peter Lee (Microsoft Research) em 25/03/2016. Fortune, PCWorld, Reuters.",
+ "obs": "Polêmica dentro da lei: nunca mostrar nem repetir as ofensas; sem logos. 'Menos de um dia' (o '16 horas' não está confirmado nas fontes).",
+ "polemica": true,
+ "agenda": "2026-11-08 19:00",
+ "palavras": 86,
+ "duracao_estimada_s": 30.7,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "O CHATBOT QUE A MICROSOFT DESLIGOU EM 1 DIA",
+   "fala": "Em 2016, a Microsoft soltou uma IA no Twitter pra conversar com jovens. Em menos de um dia, teve que desligar.",
+   "legenda": "Em 2016, a Microsoft soltou uma IA no Twitter pra conversar com jovens. Em menos de um dia, teve que desligar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "O CHATBOT QUE A MICROSOFT DESLIGOU EM 1 DIA",
+    "2016 · TAY",
+    "E A CULPA NÃO FOI SÓ DELA"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Chamava Tay. Ela aprendia com o que as pessoas escreviam pra ela.",
+   "legenda": "Chamava Tay. Ela aprendia com o que as pessoas escreviam pra ela.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Um grupo combinou de ensinar o pior. E ela começou a repetir ofensas.",
+   "legenda": "Um grupo combinou de ensinar o pior. E ela começou a repetir ofensas.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "A Microsoft pediu desculpas em público. Comenta TAY que eu te mando a história completa.",
+   "legenda": "A Microsoft pediu desculpas em público. Comenta TAY que eu te mando a história completa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Foi aí que as empresas aprenderam: IA não pode aprender sem filtro.",
+   "legenda": "Foi aí que as empresas aprenderam: IA não pode aprender sem filtro.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA TAY",
+   "fala": "Comenta TAY e me segue. A culpa foi da IA ou das pessoas?",
+   "legenda": "Comenta TAY e me segue. A culpa foi da IA ou das pessoas?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

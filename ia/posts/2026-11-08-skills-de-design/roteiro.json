@@ -26,10 +26,9 @@
  "prova_viral": "Estrelas no GitHub (API, relidas 07/11/2026 na produção): Aixio Layer 408, skills 1.199, Dimensional Drawing 1.916; total 3.523; criados entre 09/10 e 23/10.",
  "obs": "",
  "polemica": false,
- "agenda": "2026-11-08 11:00",
+ "agenda": "2026-11-08 07:00",
  "palavras": 88,
  "duracao_estimada_s": 30.3,
- "status": "vídeo aguardando aprovação",
  "segmentos": [
   {
    "cena": "gancho",
@@ -158,5 +157,6 @@
   }
  ],
  "adiantado_de": "2026-11-12",
- "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos)."
+ "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos).",
+ "categoria": "novidade"
 }

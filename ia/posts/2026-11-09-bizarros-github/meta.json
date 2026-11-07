@@ -1,6 +1,6 @@
 {
- "data": "2026-11-09",
- "horario": "21:30",
+ "data": "2026-11-11",
+ "horario": "10:00",
  "pilar": "reel",
  "formato": "contagem",
  "temas": [
@@ -16,8 +16,9 @@
  "cta": "BIZARRO",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-09 21:30",
-  "tiktok": "2026-11-09 21:30"
+  "instagram": "2026-11-11 10:00",
+  "tiktok": "2026-11-11 10:00"
  },
- "status": "roteiro aprovado"
+ "status": "roteiro aprovado",
+ "categoria": "novidade"
 }

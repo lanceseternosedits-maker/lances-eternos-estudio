@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-07",
+ "horario": "19:00",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "deep-blue-kasparov"
+ ],
+ "fontes": [
+  "https://www.chessprogramming.org/Kasparov_versus_Deep_Blue_1997",
+  "https://theconversation.com/twenty-years-on-from-deep-blue-vs-kasparov-how-a-chess-match-started-the-big-data-revolution-76882"
+ ],
+ "prova_viral": "Fato histórico (maio/1997) com 2 fontes; tema sempre em alta: 'IA vence humano' + documentário conhecido.",
+ "cta": "XADREZ",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-07 19:00",
+  "tiktok": "2026-11-07 19:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

@@ -15,7 +15,6 @@
   "instagram": "2026-11-08 17:00",
   "tiktok": "2026-11-08 17:00"
  },
- "status": "vídeo aguardando aprovação",
  "checagem": {
   "em": "2026-11-07 15:05",
   "ok": true,
@@ -88,5 +87,6 @@
   "tipografia": "e) Caveat + Space Grotesk",
   "som": "trilha 03 + efeitos arcade",
   "mascote": "acessório e ação do conceito; ação principal: andar de skate"
- }
+ },
+ "categoria": "novidade"
 }

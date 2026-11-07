@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "XADREZ",
+ "tese": "1997: A MÁQUINA QUE HUMILHOU O CAMPEÃO",
+ "conceito": "Sala de torneio de xadrez de 1997: tabuleiro gigante no palco, relógio de xadrez de madeira, monitor de tubo antigo com uma mão robótica de blocos movendo as peças (sem logo da IBM); luz dourada de holofote, paleta azul-marinho + dourado. Mascote de gravata-borboleta pensando com a mão no queixo; na acusação, uma lupa gigante sobre a peça.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "d) letreiro split-flap",
+  "contador": "(sem contador: história)",
+  "legenda": "e) tarja de TV/arcade",
+  "transicao": "d) virada de página",
+  "camera": "c) travelling lateral",
+  "fechamento": "e) página de caderno",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 02 + relógio de xadrez",
+  "mascote": "gravata-borboleta; ação principal: pensar com a mão no queixo"
+ },
+ "brinde": "documentário 'Game Over: Kasparov and the Machine' (2003) + curiosidade",
+ "fontes": [
+  "https://www.chessprogramming.org/Kasparov_versus_Deep_Blue_1997",
+  "https://theconversation.com/twenty-years-on-from-deep-blue-vs-kasparov-how-a-chess-match-started-the-big-data-revolution-76882"
+ ],
+ "prova_viral": "Fato histórico (maio/1997) com 2 fontes; tema sempre em alta: 'IA vence humano' + documentário conhecido.",
+ "obs": "Fontes divergem sobre quem recusou a nova revanche: não dizer; dizer só que o Deep Blue nunca mais jogou. Sem logo da IBM nem foto real de Kasparov (mascote e peças).",
+ "polemica": true,
+ "agenda": "2026-11-07 19:00",
+ "palavras": 89,
+ "duracao_estimada_s": 31.8,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "1997: A MÁQUINA QUE HUMILHOU O CAMPEÃO",
+   "fala": "Em 1997, o melhor jogador de xadrez do mundo perdeu pra uma máquina. E acusou ela de trapacear.",
+   "legenda": "Em 1997, o melhor jogador de xadrez do mundo perdeu pra uma máquina. E acusou ela de trapacear.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "1997: A MÁQUINA QUE HUMILHOU O CAMPEÃO",
+    "DEEP BLUE × KASPAROV",
+    "E ELE ACUSOU TRAPAÇA"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Garry Kasparov contra o Deep Blue, um supercomputador da IBM.",
+   "legenda": "Garry Kasparov contra o Deep Blue, um supercomputador da IBM.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "No ano anterior, Kasparov tinha vencido. Na revanche, perdeu a última partida em dezenove lances.",
+   "legenda": "No ano anterior, Kasparov tinha vencido. Na revanche, perdeu a última partida em dezenove lances.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Ele disse que uma jogada parecia humana demais e pediu os registros da máquina. Comenta XADREZ que eu te mando o documentário.",
+   "legenda": "Ele disse que uma jogada parecia humana demais e pediu os registros da máquina. Comenta XADREZ que eu te mando o documentário.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "A IBM só publicou os registros depois. E o Deep Blue nunca mais jogou.",
+   "legenda": "A IBM só publicou os registros depois. E o Deep Blue nunca mais jogou.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA XADREZ",
+   "fala": "Comenta XADREZ e me segue. Você acha que foi trapaça?",
+   "legenda": "Comenta XADREZ e me segue. Você acha que foi trapaça?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

@@ -24,10 +24,10 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): daveebbelaar/bama 1.656, criado em 24/10.",
  "obs": "'Sem saber programar' é exagero leve: dizer 'sem escrever código'.",
  "polemica": false,
- "agenda": "2026-11-08 19:00",
+ "agenda": "2026-11-09 21:30",
  "palavras": 67,
  "duracao_estimada_s": 23.1,
- "status": "vídeo aguardando aprovação",
+ "status": "vídeo em correção",
  "segmentos": [
   {
    "cena": "gancho",
@@ -207,5 +207,7 @@
   "destaque": "sem escrever código"
  },
  "formato_extra": "POV + revelação (referencias.md: formato com mais views)",
- "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos)."
+ "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos).",
+ "categoria": "novidade",
+ "nota_vitor": "Legal! Mas a boca do mascote está bugada (vídeo negado em 07/11 12:23)"
 }

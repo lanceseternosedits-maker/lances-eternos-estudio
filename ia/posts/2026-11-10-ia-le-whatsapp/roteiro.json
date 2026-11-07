@@ -24,7 +24,7 @@
  "prova_viral": "Estrelas no GitHub (API. 07/11/2026): finereli/whatsapp-mcp 409, criado em 18/10.",
  "obs": "Projeto não oficial e só leitura. Dizer claramente que as mensagens passam pelo serviço deles ou pela sua cópia no Cloudflare.",
  "polemica": false,
- "agenda": "2026-11-10 06:00",
+ "agenda": "2026-11-11 12:00",
  "palavras": 73,
  "duracao_estimada_s": 25.2,
  "status": "roteiro aprovado",
@@ -86,5 +86,6 @@
    "legenda": "Comenta ZAP e me segue que eu te mando o passo a passo.",
    "sfx": []
   }
- ]
+ ],
+ "categoria": "novidade"
 }

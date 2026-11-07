@@ -1,5 +1,5 @@
 {
- "data": "2026-11-11",
+ "data": "2026-11-13",
  "horario": "12:00",
  "pilar": "reel",
  "formato": "contagem",
@@ -16,8 +16,9 @@
  "cta": "COPIA",
  "polemica": true,
  "horarios": {
-  "instagram": "2026-11-11 12:00",
-  "tiktok": "2026-11-11 12:00"
+  "instagram": "2026-11-13 12:00",
+  "tiktok": "2026-11-13 12:00"
  },
- "status": "roteiro aprovado"
+ "status": "roteiro aprovado",
+ "categoria": "novidade"
 }

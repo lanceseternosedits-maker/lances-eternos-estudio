@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-08",
+ "horario": "19:00",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "tay-microsoft"
+ ],
+ "fontes": [
+  "https://fortune.com/2016/03/25/microsoft-sorry-offensive-chat-bot",
+  "https://www.pcworld.com/article/420272/microsoft-deeply-sorry-for-tay-chatbot-will-bring-it-back-when-vulnerability-is-fixed.html"
+ ],
+ "prova_viral": "Março/2016: Tay lançada numa quarta e tirada do ar no dia seguinte; desculpas de Peter Lee (Microsoft Research) em 25/03/2016. Fortune, PCWorld, Reuters.",
+ "cta": "TAY",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-08 19:00",
+  "tiktok": "2026-11-08 19:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

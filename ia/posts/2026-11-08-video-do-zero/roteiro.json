@@ -26,7 +26,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): otopilot 201, take-one 219, What If 269; total 689; criados entre 13/10 e 21/10.",
  "obs": "What If usa ElevenLabs para voz (pode ter custo): conferir.",
  "polemica": false,
- "agenda": "2026-11-08 (horário definido no agendamento)",
+ "agenda": "2026-11-09 10:00",
  "palavras": 81,
  "duracao_estimada_s": 32.8,
  "status": "vídeo aguardando aprovação",
@@ -106,5 +106,6 @@
    "sfx": []
   }
  ],
- "adiantado_de": "2026-11-13"
+ "adiantado_de": "2026-11-13",
+ "categoria": "novidade"
 }

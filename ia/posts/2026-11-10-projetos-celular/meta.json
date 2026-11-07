@@ -1,6 +1,6 @@
 {
- "data": "2026-11-10",
- "horario": "08:00",
+ "data": "2026-11-11",
+ "horario": "17:00",
  "pilar": "reel",
  "formato": "contagem",
  "temas": [
@@ -16,8 +16,9 @@
  "cta": "CELULAR",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-10 08:00",
-  "tiktok": "2026-11-10 08:00"
+  "instagram": "2026-11-11 17:00",
+  "tiktok": "2026-11-11 17:00"
  },
- "status": "roteiro aprovado"
+ "status": "roteiro aprovado",
+ "categoria": "novidade"
 }

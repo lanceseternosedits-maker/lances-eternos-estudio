@@ -1,6 +1,6 @@
 {
- "data": "2026-11-10",
- "horario": "06:00",
+ "data": "2026-11-11",
+ "horario": "12:00",
  "pilar": "reel",
  "formato": "palco",
  "temas": [
@@ -12,8 +12,9 @@
  "cta": "ZAP",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-10 06:00",
-  "tiktok": "2026-11-10 06:00"
+  "instagram": "2026-11-11 12:00",
+  "tiktok": "2026-11-11 12:00"
  },
- "status": "roteiro aprovado"
+ "status": "roteiro aprovado",
+ "categoria": "novidade"
 }

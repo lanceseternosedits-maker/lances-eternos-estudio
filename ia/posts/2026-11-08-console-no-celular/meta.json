@@ -1,6 +1,6 @@
 {
- "data": "2026-11-08",
- "horario": "09:00",
+ "data": "2026-11-07",
+ "horario": "17:00",
  "pilar": "reel",
  "formato": "contagem",
  "temas": [
@@ -16,10 +16,9 @@
  "cta": "MOBILE",
  "polemica": true,
  "horarios": {
-  "instagram": "2026-11-08 09:00",
-  "tiktok": "2026-11-08 09:00"
+  "instagram": "2026-11-07 17:00",
+  "tiktok": "2026-11-07 17:00"
  },
- "status": "vídeo aguardando aprovação",
  "checagem": {
   "em": "2026-11-07 15:05",
   "ok": true,
@@ -92,5 +91,6 @@
   "tipografia": "e) Caveat + Space Grotesk",
   "som": "trilha 03 + efeitos de cidade",
   "mascote": "acessório e ação do conceito; ação principal: martelar"
- }
+ },
+ "categoria": "novidade"
 }

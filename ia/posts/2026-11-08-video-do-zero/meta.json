@@ -1,1 +1,84 @@
-{"data": "2026-11-08", "horario": "a definir", "pilar": "reel", "formato": "contagem", "temas": ["video-do-zero"], "fontes": ["https://github.com/wj-sidiss/otopilot", "https://github.com/talsiach/take-one", "https://github.com/kelano86/what-if-animation"], "cta": "VIDEO", "polemica": false, "horarios": {}, "status": "vídeo aguardando aprovação", "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): otopilot 201, take-one 219, What If 269; total 689; criados entre 13/10 e 21/10.", "obs_producao": "Produzido em 07/11 (cena_contagem, módulo itens/video-do-zero.js: cinema drive-in à noite). Estrelas relidas no GitHub em 07/11: otopilot 201, take-one 219, What If 269 (total 689): etiqueta trocada de '+1 MIL' (não era verdade) para '+680 ESTRELAS EM 1 MÊS'. Para caber em 35 s: saiu a 2ª frase-ponte repetida do nº 2 e o 'Esse é rápido…' do nº 3 ('Sem chave' virou ', sem chave'). O What If usa ElevenLabs para a voz (pode ter custo): avisado na legenda e na DM. Voz acelerada 1,15× (máximo permitido). Texto entre y=260 e y=1500.", "checagem": {"em": "2026-11-07 15:27", "ok": true, "itens": [{"nome": "Formato", "valor": "1080×1920", "ok": true, "regra": "1080×1920"}, {"nome": "Duração", "valor": "32.0 s", "ok": true, "regra": "até 35 s (corte texto se passar)"}, {"nome": "Velocidade da fala", "valor": "2.56 palavras/s (82 palavras)", "ok": true, "regra": "máximo 3,0 palavras/s"}, {"nome": "Volume", "valor": "-14.4 LUFS, pico -1.4 dB", "ok": true, "regra": "entre -16 e -12 LUFS, pico até -1 dB"}, {"nome": "Fontes", "valor": "3 fonte(s)", "ok": true, "regra": "todo fato com fonte"}, {"nome": "Prova viral", "valor": "preenchida", "ok": true, "regra": "toda pauta com a prova de que viralizou"}, {"nome": "Legenda do Instagram", "valor": "782 caracteres", "ok": true, "regra": "até 2.200 caracteres"}, {"nome": "CTA na legenda", "valor": "VIDEO", "ok": true, "regra": "a palavra do CTA aparece na legenda"}, {"nome": "Resposta da DM", "valor": "ok", "ok": true, "regra": "resposta_dm.txt com os links"}]}}
+{
+ "data": "2026-11-09",
+ "horario": "10:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "video-do-zero"
+ ],
+ "fontes": [
+  "https://github.com/wj-sidiss/otopilot",
+  "https://github.com/talsiach/take-one",
+  "https://github.com/kelano86/what-if-animation"
+ ],
+ "cta": "VIDEO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-09 10:00",
+  "tiktok": "2026-11-09 10:00"
+ },
+ "status": "vídeo aguardando aprovação",
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): otopilot 201, take-one 219, What If 269; total 689; criados entre 13/10 e 21/10.",
+ "obs_producao": "Produzido em 07/11 (cena_contagem, módulo itens/video-do-zero.js: cinema drive-in à noite). Estrelas relidas no GitHub em 07/11: otopilot 201, take-one 219, What If 269 (total 689): etiqueta trocada de '+1 MIL' (não era verdade) para '+680 ESTRELAS EM 1 MÊS'. Para caber em 35 s: saiu a 2ª frase-ponte repetida do nº 2 e o 'Esse é rápido…' do nº 3 ('Sem chave' virou ', sem chave'). O What If usa ElevenLabs para a voz (pode ter custo): avisado na legenda e na DM. Voz acelerada 1,15× (máximo permitido). Texto entre y=260 e y=1500.",
+ "checagem": {
+  "em": "2026-11-07 15:27",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "32.0 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.56 palavras/s (82 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.4 LUFS, pico -1.4 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "3 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "782 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "VIDEO",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "categoria": "novidade"
+}

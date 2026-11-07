@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-08",
+ "horario": "15:00",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "alphago-lance-37"
+ ],
+ "fontes": [
+  "https://deepmind.google/research/breakthroughs/alphago/",
+  "https://gigaom.com/episode/gigaom-ai-minute-march-10/"
+ ],
+ "prova_viral": "Partida 2 de 10/03/2016 em Seul; placar final 4×1; aposentadoria de Lee Sedol em 2019 (ele citou a IA). 2+ fontes.",
+ "cta": "GO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-08 15:00",
+  "tiktok": "2026-11-08 15:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

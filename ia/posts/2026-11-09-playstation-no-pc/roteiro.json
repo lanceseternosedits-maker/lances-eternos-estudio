@@ -28,7 +28,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026): CTR Nitro-Fueled 724, inFAMOUS Second Son 1.111, Shadow of the Colossus 1.767, Uncharted 2.219, P.T. 2.426; total 8.247; criados entre 07/10 e 15/10.",
  "obs": "Nunca ROM/ISO nem link de jogo. Todos dizem 'sem arquivos de jogo' / 'seu dump'. Sem logos, personagens ou capas da Sony/Konami. P.T. foi retirado da PlayStation Store em 2015 (fato conhecido; citar fonte jornalística na legenda).",
  "polemica": true,
- "agenda": "2026-11-09 12:00",
+ "agenda": "2026-11-10 17:00",
  "palavras": 96,
  "duracao_estimada_s": 33.1,
  "status": "roteiro aprovado",
@@ -139,5 +139,6 @@
    "legenda": "Comenta PLAY e me segue. E lembra: só com o jogo que é seu.",
    "sfx": []
   }
- ]
+ ],
+ "categoria": "novidade"
 }

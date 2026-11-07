@@ -27,7 +27,6 @@
  "agenda": "2026-11-08 17:00",
  "palavras": 65,
  "duracao_estimada_s": 22.4,
- "status": "vídeo aguardando aprovação",
  "segmentos": [
   {
    "cena": "gancho",
@@ -127,5 +126,6 @@
    ]
   }
  ],
- "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos)."
+ "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos).",
+ "categoria": "novidade"
 }

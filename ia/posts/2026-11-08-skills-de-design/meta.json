@@ -1,6 +1,6 @@
 {
  "data": "2026-11-08",
- "horario": "11:00",
+ "horario": "07:00",
  "pilar": "reel",
  "formato": "contagem",
  "temas": [
@@ -14,10 +14,9 @@
  "cta": "DESIGN",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-08 11:00",
-  "tiktok": "2026-11-08 11:00"
+  "instagram": "2026-11-08 07:00",
+  "tiktok": "2026-11-08 07:00"
  },
- "status": "vídeo aguardando aprovação",
  "checagem": {
   "em": "2026-11-07 15:04",
   "ok": true,
@@ -92,5 +91,6 @@
   "som": "trilha 03 + efeitos arcade",
   "mascote": "acessório e ação do conceito; ação principal: carimbar"
  },
- "obs_producao": "07/11: estrelas relidas (408/1.199/1.916). Voz regerada com ritmo 'rápido e animado' (a 1ª saiu com 40,9 s); sem aceleração. 33,1 s, 2,65 palavras/s. Custo de voz ~US$ 0,03 no total."
+ "obs_producao": "07/11: estrelas relidas (408/1.199/1.916). Voz regerada com ritmo 'rápido e animado' (a 1ª saiu com 40,9 s); sem aceleração. 33,1 s, 2,65 palavras/s. Custo de voz ~US$ 0,03 no total.",
+ "categoria": "novidade"
 }

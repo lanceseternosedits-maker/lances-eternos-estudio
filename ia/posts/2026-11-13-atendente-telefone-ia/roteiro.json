@@ -24,7 +24,7 @@
  "prova_viral": "Estrelas no GitHub (API. 07/11/2026): C4rohan/Lampline 462, criado em 19/10.",
  "obs": "Conferir 'grátis sem chave' (modo local) vs custo com chaves.",
  "polemica": false,
- "agenda": "2026-11-13 10:00",
+ "agenda": "2026-11-14 17:00",
  "palavras": 70,
  "duracao_estimada_s": 24.1,
  "status": "roteiro aprovado",
@@ -86,5 +86,6 @@
    "legenda": "Comenta LIGA e me segue que eu te mando o passo a passo.",
    "sfx": []
   }
- ]
+ ],
+ "categoria": "novidade"
 }

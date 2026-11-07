@@ -26,10 +26,9 @@
  "prova_viral": "Estrelas no GitHub (API, relidas 07/11/2026 na produção): Speech Studio 224, AudioSmith 227, Ming TTS 546; total 997; criados entre 13/10 e 19/10.",
  "obs": "Clonagem de voz: reforçar consentimento (deepfake proibido). Conferir idiomas (Speech Studio destaca russo).",
  "polemica": false,
- "agenda": "2026-11-08 15:00",
+ "agenda": "2026-11-08 11:00",
  "palavras": 89,
  "duracao_estimada_s": 30.7,
- "status": "vídeo aguardando aprovação",
  "segmentos": [
   {
    "cena": "gancho",
@@ -158,5 +157,6 @@
   }
  ],
  "adiantado_de": "2026-11-13",
- "obs_producao": "07/11: total relido deu 997 estrelas, então a etiqueta '+1 MIL' virou 'QUASE 1.000' (nada inventado)."
+ "obs_producao": "07/11: total relido deu 997 estrelas, então a etiqueta '+1 MIL' virou 'QUASE 1.000' (nada inventado).",
+ "categoria": "novidade"
 }

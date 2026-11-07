@@ -1288,6 +1288,43 @@
    "label": "https://github.com/elvarofficial/teardown"
   },
   {
+   "id": "2026-11-07-deep-blue-kasparov",
+   "tipo": "post",
+   "label": "deep-blue-kasparov",
+   "data": "2026-11-07",
+   "score": null
+  },
+  {
+   "id": "pilar:reel",
+   "tipo": "pilar",
+   "label": "reel"
+  },
+  {
+   "id": "formato:palco",
+   "tipo": "formato",
+   "label": "palco"
+  },
+  {
+   "id": "cta:XADREZ",
+   "tipo": "cta",
+   "label": "XADREZ"
+  },
+  {
+   "id": "tema:deep-blue-kasparov",
+   "tipo": "tema",
+   "label": "deep-blue-kasparov"
+  },
+  {
+   "id": "fonte:https://www.chessprogramming.org/Kasparov_versus_Deep_Blue_1997",
+   "tipo": "fonte",
+   "label": "https://www.chessprogramming.org/Kasparov_versus_Deep_Blue_1997"
+  },
+  {
+   "id": "fonte:https://theconversation.com/twenty-years-on-from-deep-blue-vs-kasparov-how-a-chess-match-started-the-big-data-revolution-76882",
+   "tipo": "fonte",
+   "label": "https://theconversation.com/twenty-years-on-from-deep-blue-vs-kasparov-how-a-chess-match-started-the-big-data-revolution-76882"
+  },
+  {
    "id": "2026-11-07-editar-video",
    "tipo": "post",
    "label": "editar-video",
@@ -1323,6 +1360,33 @@
    "id": "fonte:https://github.com/JuneYaooo/rea-video",
    "tipo": "fonte",
    "label": "https://github.com/JuneYaooo/rea-video"
+  },
+  {
+   "id": "2026-11-07-ia-erra-morango",
+   "tipo": "post",
+   "label": "ia-erra-morango",
+   "data": "2026-11-07",
+   "score": null
+  },
+  {
+   "id": "cta:LETRA",
+   "tipo": "cta",
+   "label": "LETRA"
+  },
+  {
+   "id": "tema:ia-erra-morango",
+   "tipo": "tema",
+   "label": "ia-erra-morango"
+  },
+  {
+   "id": "fonte:https://hackernoon.com/why-cant-ai-count-letters",
+   "tipo": "fonte",
+   "label": "https://hackernoon.com/why-cant-ai-count-letters"
+  },
+  {
+   "id": "fonte:https://prompt.16x.engineer/blog/why-chatgpt-cant-count-rs-in-strawberry",
+   "tipo": "fonte",
+   "label": "https://prompt.16x.engineer/blog/why-chatgpt-cant-count-rs-in-strawberry"
   },
   {
    "id": "2026-11-07-programas-pc",
@@ -1367,16 +1431,60 @@
    "label": "https://github.com/InukaAsith/TwinDesk"
   },
   {
-   "id": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "id": "2026-11-08-advogado-chatgpt",
    "tipo": "post",
-   "label": "apps-pra-quem-vive-no-chat",
+   "label": "advogado-chatgpt",
    "data": "2026-11-08",
    "score": null
   },
   {
-   "id": "pilar:reel",
-   "tipo": "pilar",
-   "label": "reel"
+   "id": "cta:FONTE",
+   "tipo": "cta",
+   "label": "FONTE"
+  },
+  {
+   "id": "tema:advogado-chatgpt",
+   "tipo": "tema",
+   "label": "advogado-chatgpt"
+  },
+  {
+   "id": "fonte:https://news.bloomberglaw.com/litigation/chatgpt-phony-legal-filing-case-gets-lawyers-a-5-000-fine",
+   "tipo": "fonte",
+   "label": "https://news.bloomberglaw.com/litigation/chatgpt-phony-legal-filing-case-gets-lawyers-a-5-000-fine"
+  },
+  {
+   "id": "2026-11-08-alphago-lance-37",
+   "tipo": "post",
+   "label": "alphago-lance-37",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:GO",
+   "tipo": "cta",
+   "label": "GO"
+  },
+  {
+   "id": "tema:alphago-lance-37",
+   "tipo": "tema",
+   "label": "alphago-lance-37"
+  },
+  {
+   "id": "fonte:https://deepmind.google/research/breakthroughs/alphago/",
+   "tipo": "fonte",
+   "label": "https://deepmind.google/research/breakthroughs/alphago/"
+  },
+  {
+   "id": "fonte:https://gigaom.com/episode/gigaom-ai-minute-march-10/",
+   "tipo": "fonte",
+   "label": "https://gigaom.com/episode/gigaom-ai-minute-march-10/"
+  },
+  {
+   "id": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "tipo": "post",
+   "label": "apps-pra-quem-vive-no-chat",
+   "data": "2026-11-09",
+   "score": null
   },
   {
    "id": "formato:contagem",
@@ -1448,11 +1556,6 @@
    "score": null
   },
   {
-   "id": "formato:palco",
-   "tipo": "formato",
-   "label": "palco"
-  },
-  {
    "id": "cta:BICHO",
    "tipo": "cta",
    "label": "BICHO"
@@ -1471,7 +1574,7 @@
    "id": "2026-11-08-console-no-celular",
    "tipo": "post",
    "label": "console-no-celular",
-   "data": "2026-11-08",
+   "data": "2026-11-07",
    "score": null
   },
   {
@@ -1513,7 +1616,7 @@
    "id": "2026-11-08-crie-seu-app-de-mac",
    "tipo": "post",
    "label": "crie-seu-app-de-mac",
-   "data": "2026-11-08",
+   "data": "2026-11-09",
    "score": null
   },
   {
@@ -1641,7 +1744,7 @@
    "id": "2026-11-08-ia-gigante-no-pc",
    "tipo": "post",
    "label": "ia-gigante-no-pc",
-   "data": "2026-11-08",
+   "data": "2026-11-09",
    "score": null
   },
   {
@@ -1747,7 +1850,7 @@
    "id": "2026-11-08-skills-chinesas-agencia",
    "tipo": "post",
    "label": "skills-chinesas-agencia",
-   "data": "2026-11-08",
+   "data": "2026-11-09",
    "score": null
   },
   {
@@ -1813,6 +1916,33 @@
    "label": "https://github.com/enesozturk/dimensional-drawing"
   },
   {
+   "id": "2026-11-08-tay-microsoft",
+   "tipo": "post",
+   "label": "tay-microsoft",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:TAY",
+   "tipo": "cta",
+   "label": "TAY"
+  },
+  {
+   "id": "tema:tay-microsoft",
+   "tipo": "tema",
+   "label": "tay-microsoft"
+  },
+  {
+   "id": "fonte:https://fortune.com/2016/03/25/microsoft-sorry-offensive-chat-bot",
+   "tipo": "fonte",
+   "label": "https://fortune.com/2016/03/25/microsoft-sorry-offensive-chat-bot"
+  },
+  {
+   "id": "fonte:https://www.pcworld.com/article/420272/microsoft-deeply-sorry-for-tay-chatbot-will-bring-it-back-when-vulnerability-is-fixed.html",
+   "tipo": "fonte",
+   "label": "https://www.pcworld.com/article/420272/microsoft-deeply-sorry-for-tay-chatbot-will-bring-it-back-when-vulnerability-is-fixed.html"
+  },
+  {
    "id": "2026-11-08-tv-que-cobra-licao",
    "tipo": "post",
    "label": "tv-que-cobra-licao",
@@ -1838,7 +1968,7 @@
    "id": "2026-11-08-video-do-zero",
    "tipo": "post",
    "label": "video-do-zero",
-   "data": "2026-11-08",
+   "data": "2026-11-09",
    "score": null
   },
   {
@@ -1870,7 +2000,7 @@
    "id": "2026-11-08-windows-gratis",
    "tipo": "post",
    "label": "windows-gratis",
-   "data": "2026-11-08",
+   "data": "2026-11-07",
    "score": null
   },
   {
@@ -1902,7 +2032,7 @@
    "id": "2026-11-09-apps-gratis-mac",
    "tipo": "post",
    "label": "apps-gratis-mac",
-   "data": "2026-11-09",
+   "data": "2026-11-10",
    "score": null
   },
   {
@@ -1934,7 +2064,7 @@
    "id": "2026-11-09-bizarros-github",
    "tipo": "post",
    "label": "bizarros-github",
-   "data": "2026-11-09",
+   "data": "2026-11-11",
    "score": null
   },
   {
@@ -2008,7 +2138,7 @@
    "id": "2026-11-09-ia-chinesa-no-bolso",
    "tipo": "post",
    "label": "ia-chinesa-no-bolso",
-   "data": "2026-11-09",
+   "data": "2026-11-11",
    "score": null
   },
   {
@@ -2030,7 +2160,7 @@
    "id": "2026-11-09-internet-somada",
    "tipo": "post",
    "label": "internet-somada",
-   "data": "2026-11-09",
+   "data": "2026-11-10",
    "score": null
   },
   {
@@ -2052,7 +2182,7 @@
    "id": "2026-11-09-leis-do-brasil",
    "tipo": "post",
    "label": "leis-do-brasil",
-   "data": "2026-11-09",
+   "data": "2026-11-10",
    "score": null
   },
   {
@@ -2074,7 +2204,7 @@
    "id": "2026-11-09-playstation-no-pc",
    "tipo": "post",
    "label": "playstation-no-pc",
-   "data": "2026-11-09",
+   "data": "2026-11-10",
    "score": null
   },
   {
@@ -2116,7 +2246,7 @@
    "id": "2026-11-09-programas-caros-gratis",
    "tipo": "post",
    "label": "programas-caros-gratis",
-   "data": "2026-11-09",
+   "data": "2026-11-10",
    "score": null
   },
   {
@@ -2153,7 +2283,7 @@
    "id": "2026-11-10-animar-sem-saber",
    "tipo": "post",
    "label": "animar-sem-saber",
-   "data": "2026-11-10",
+   "data": "2026-11-12",
    "score": null
   },
   {
@@ -2185,7 +2315,7 @@
    "id": "2026-11-10-apple-nao-queria",
    "tipo": "post",
    "label": "apple-nao-queria",
-   "data": "2026-11-10",
+   "data": "2026-11-12",
    "score": null
   },
   {
@@ -2227,7 +2357,7 @@
    "id": "2026-11-10-camera-sony-destravada",
    "tipo": "post",
    "label": "camera-sony-destravada",
-   "data": "2026-11-10",
+   "data": "2026-11-12",
    "score": null
   },
   {
@@ -2249,7 +2379,7 @@
    "id": "2026-11-10-ia-le-whatsapp",
    "tipo": "post",
    "label": "ia-le-whatsapp",
-   "data": "2026-11-10",
+   "data": "2026-11-11",
    "score": null
   },
   {
@@ -2271,7 +2401,7 @@
    "id": "2026-11-10-manual-ikea-3d",
    "tipo": "post",
    "label": "manual-ikea-3d",
-   "data": "2026-11-10",
+   "data": "2026-11-12",
    "score": null
   },
   {
@@ -2293,7 +2423,7 @@
    "id": "2026-11-10-musica-gratis",
    "tipo": "post",
    "label": "musica-gratis",
-   "data": "2026-11-10",
+   "data": "2026-11-12",
    "score": null
   },
   {
@@ -2325,7 +2455,7 @@
    "id": "2026-11-10-projetos-celular",
    "tipo": "post",
    "label": "projetos-celular",
-   "data": "2026-11-10",
+   "data": "2026-11-11",
    "score": null
   },
   {
@@ -2367,7 +2497,7 @@
    "id": "2026-11-10-testa-seu-negocio",
    "tipo": "post",
    "label": "testa-seu-negocio",
-   "data": "2026-11-10",
+   "data": "2026-11-11",
    "score": null
   },
   {
@@ -2389,7 +2519,7 @@
    "id": "2026-11-11-copiar-qualquer-app",
    "tipo": "post",
    "label": "copiar-qualquer-app",
-   "data": "2026-11-11",
+   "data": "2026-11-13",
    "score": null
   },
   {
@@ -2453,7 +2583,7 @@
    "id": "2026-11-11-ia-do-fim-do-mundo",
    "tipo": "post",
    "label": "ia-do-fim-do-mundo",
-   "data": "2026-11-11",
+   "data": "2026-11-13",
    "score": null
   },
   {
@@ -2475,7 +2605,7 @@
    "id": "2026-11-11-ia-edita-foto",
    "tipo": "post",
    "label": "ia-edita-foto",
-   "data": "2026-11-11",
+   "data": "2026-11-13",
    "score": null
   },
   {
@@ -2524,7 +2654,7 @@
    "id": "2026-11-11-projetos-casa",
    "tipo": "post",
    "label": "projetos-casa",
-   "data": "2026-11-11",
+   "data": "2026-11-13",
    "score": null
   },
   {
@@ -2556,7 +2686,7 @@
    "id": "2026-11-11-projetos-gamer",
    "tipo": "post",
    "label": "projetos-gamer",
-   "data": "2026-11-11",
+   "data": "2026-11-13",
    "score": null
   },
   {
@@ -2598,7 +2728,7 @@
    "id": "2026-11-11-refazendo-todo-software",
    "tipo": "post",
    "label": "refazendo-todo-software",
-   "data": "2026-11-11",
+   "data": "2026-11-14",
    "score": null
   },
   {
@@ -2642,7 +2772,7 @@
    "id": "2026-11-12-jarvis-em-portugues",
    "tipo": "post",
    "label": "jarvis-em-portugues",
-   "data": "2026-11-12",
+   "data": "2026-11-14",
    "score": null
   },
   {
@@ -2730,7 +2860,7 @@
    "id": "2026-11-13-assistentes-que-trabalham",
    "tipo": "post",
    "label": "assistentes-que-trabalham",
-   "data": "2026-11-13",
+   "data": "2026-11-14",
    "score": null
   },
   {
@@ -2757,7 +2887,7 @@
    "id": "2026-11-13-atendente-telefone-ia",
    "tipo": "post",
    "label": "atendente-telefone-ia",
-   "data": "2026-11-13",
+   "data": "2026-11-14",
    "score": null
   },
   {
@@ -2941,7 +3071,7 @@
    "id": "2026-11-14-comercial-com-trilha",
    "tipo": "post",
    "label": "comercial-com-trilha",
-   "data": "2026-11-14",
+   "data": "2026-11-15",
    "score": null
   },
   {
@@ -3397,11 +3527,31 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-07-deep-blue-kasparov"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-07-editar-video"
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-07-ia-erra-morango"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-07-programas-pc"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-08-advogado-chatgpt"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-08-alphago-lance-37"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-08-apps-pra-quem-vive-no-chat"
   },
   {
    "source": "rede:instagram",
@@ -3433,6 +3583,10 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-08-ia-gigante-no-pc"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-08-laboratorio-3d-gratis"
   },
   {
@@ -3441,11 +3595,23 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-08-skills-chinesas-agencia"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-08-skills-de-design"
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-08-tay-microsoft"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-08-video-do-zero"
   },
   {
    "source": "rede:instagram",
@@ -3713,11 +3879,31 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-07-deep-blue-kasparov"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-07-editar-video"
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-07-ia-erra-morango"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-07-programas-pc"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-08-advogado-chatgpt"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-08-alphago-lance-37"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-08-apps-pra-quem-vive-no-chat"
   },
   {
    "source": "rede:tiktok",
@@ -3749,6 +3935,10 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-08-ia-gigante-no-pc"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-08-laboratorio-3d-gratis"
   },
   {
@@ -3757,11 +3947,23 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-08-skills-chinesas-agencia"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-08-skills-de-design"
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-08-tay-microsoft"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-08-video-do-zero"
   },
   {
    "source": "rede:tiktok",
@@ -4217,6 +4419,26 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-07-deep-blue-kasparov"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-07-ia-erra-morango"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-08-advogado-chatgpt"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-08-alphago-lance-37"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-08-apps-pra-quem-vive-no-chat"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-08-blender-com-ia"
   },
   {
@@ -4241,7 +4463,15 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-08-ia-gigante-no-pc"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-08-laboratorio-3d-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-08-skills-chinesas-agencia"
   },
   {
    "source": "horario:20h",
@@ -4249,7 +4479,15 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-08-tay-microsoft"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-08-video-do-zero"
   },
   {
    "source": "horario:20h",
@@ -5313,11 +5551,27 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-07-deep-blue-kasparov"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-07-editar-video"
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-07-ia-erra-morango"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-07-programas-pc"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-08-advogado-chatgpt"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-08-alphago-lance-37"
   },
   {
    "source": "paleta:paleta None",
@@ -5362,6 +5616,10 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-08-skills-chinesas-agencia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-08-tay-microsoft"
   },
   {
    "source": "paleta:paleta None",
@@ -5680,84 +5938,44 @@
    "target": "fonte:https://github.com/elvarofficial/teardown"
   },
   {
-   "source": "2026-11-07-editar-video",
-   "target": "cta:EDITA"
-  },
-  {
-   "source": "2026-11-07-editar-video",
-   "target": "fonte:https://github.com/actionow-ai/vvv"
-  },
-  {
-   "source": "2026-11-07-editar-video",
-   "target": "fonte:https://github.com/rossark0/rossark-motion-skill"
-  },
-  {
-   "source": "2026-11-07-editar-video",
-   "target": "fonte:https://github.com/Vibha-Ramprakash/claude-video-effects"
-  },
-  {
-   "source": "2026-11-07-editar-video",
-   "target": "fonte:https://github.com/soumatheusgomes/editonny"
-  },
-  {
-   "source": "2026-11-07-editar-video",
-   "target": "fonte:https://github.com/JuneYaooo/rea-video"
-  },
-  {
-   "source": "2026-11-07-programas-pc",
-   "target": "cta:PC"
-  },
-  {
-   "source": "2026-11-07-programas-pc",
-   "target": "tema:programas grátis"
-  },
-  {
-   "source": "2026-11-07-programas-pc",
-   "target": "fonte:https://github.com/Forward-Future/folio"
-  },
-  {
-   "source": "2026-11-07-programas-pc",
-   "target": "fonte:https://github.com/s1dashu/quiet-md"
-  },
-  {
-   "source": "2026-11-07-programas-pc",
-   "target": "fonte:https://github.com/xevrion/hatchzip"
-  },
-  {
-   "source": "2026-11-07-programas-pc",
-   "target": "fonte:https://github.com/FrigadeHQ/hob"
-  },
-  {
-   "source": "2026-11-07-programas-pc",
-   "target": "fonte:https://github.com/InukaAsith/TwinDesk"
-  },
-  {
-   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "source": "2026-11-07-deep-blue-kasparov",
    "target": "pilar:reel"
   },
   {
-   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
-   "target": "formato:contagem"
+   "source": "2026-11-07-deep-blue-kasparov",
+   "target": "formato:palco"
   },
   {
-   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
-   "target": "cta:MAPA"
+   "source": "2026-11-07-deep-blue-kasparov",
+   "target": "cta:XADREZ"
   },
   {
-   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
-   "target": "tema:apps-pra-quem-vive-no-chat"
+   "source": "2026-11-07-deep-blue-kasparov",
+   "target": "tema:deep-blue-kasparov"
   },
   {
-   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
-   "target": "fonte:https://github.com/orkunisitmak/clipboardline"
+   "source": "2026-11-07-deep-blue-kasparov",
+   "target": "fonte:https://www.chessprogramming.org/Kasparov_versus_Deep_Blue_1997"
   },
   {
-   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
-   "target": "fonte:https://github.com/tang1693/KIKUmap"
+   "source": "2026-11-07-deep-blue-kasparov",
+   "target": "fonte:https://theconversation.com/twenty-years-on-from-deep-blue-vs-kasparov-how-a-chess-match-started-the-big-data-revolution-76882"
   },
   {
-   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
-   "target": "fonte:https://github.com/franzenzenhofer/big-arrow-on-the-screen"
+   "source": "pilar:reel",
+   "target": "2026-11-07-ia-erra-morango"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-advogado-chatgpt"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-alphago-lance-37"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-apps-pra-quem-vive-no-chat"
   },
   {
    "source": "pilar:reel",
@@ -5798,6 +6016,10 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-08-skills-de-design"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-tay-microsoft"
   },
   {
    "source": "pilar:reel",
@@ -5978,6 +6200,262 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-15-skills-video-explicativo"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-07-ia-erra-morango"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-08-advogado-chatgpt"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-08-alphago-lance-37"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-08-captura-de-qualquer-bicho"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-08-crie-seu-app-de-mac"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-08-figurinha-animada"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-08-laboratorio-3d-gratis"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-08-tay-microsoft"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-09-chatgpt-faz-gif"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-09-ia-chinesa-no-bolso"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-09-internet-somada"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-09-leis-do-brasil"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-10-camera-sony-destravada"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-10-ia-le-whatsapp"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-10-manual-ikea-3d"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-10-testa-seu-negocio"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-11-digita-o-movimento"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-11-ia-do-fim-do-mundo"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-11-procura-dentro-das-fotos"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-11-refazendo-todo-software"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-12-jarvis-em-portugues"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-12-loja-de-apps-bmw"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-12-ocr-15x-rapido"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-12-quadros-ganham-vida"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-13-atendente-telefone-ia"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-13-namorada-de-ia"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-13-npc-que-responde"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-14-aprender-coisa-dificil"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-14-comercial-com-trilha"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-14-ia-liga-pra-voce"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-14-mod-fps-oblivion"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-14-vire-um-personagem"
+  },
+  {
+   "source": "2026-11-07-editar-video",
+   "target": "cta:EDITA"
+  },
+  {
+   "source": "2026-11-07-editar-video",
+   "target": "fonte:https://github.com/actionow-ai/vvv"
+  },
+  {
+   "source": "2026-11-07-editar-video",
+   "target": "fonte:https://github.com/rossark0/rossark-motion-skill"
+  },
+  {
+   "source": "2026-11-07-editar-video",
+   "target": "fonte:https://github.com/Vibha-Ramprakash/claude-video-effects"
+  },
+  {
+   "source": "2026-11-07-editar-video",
+   "target": "fonte:https://github.com/soumatheusgomes/editonny"
+  },
+  {
+   "source": "2026-11-07-editar-video",
+   "target": "fonte:https://github.com/JuneYaooo/rea-video"
+  },
+  {
+   "source": "2026-11-07-ia-erra-morango",
+   "target": "cta:LETRA"
+  },
+  {
+   "source": "2026-11-07-ia-erra-morango",
+   "target": "tema:ia-erra-morango"
+  },
+  {
+   "source": "2026-11-07-ia-erra-morango",
+   "target": "fonte:https://hackernoon.com/why-cant-ai-count-letters"
+  },
+  {
+   "source": "2026-11-07-ia-erra-morango",
+   "target": "fonte:https://prompt.16x.engineer/blog/why-chatgpt-cant-count-rs-in-strawberry"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "cta:PC"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "tema:programas grátis"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "fonte:https://github.com/Forward-Future/folio"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "fonte:https://github.com/s1dashu/quiet-md"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "fonte:https://github.com/xevrion/hatchzip"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "fonte:https://github.com/FrigadeHQ/hob"
+  },
+  {
+   "source": "2026-11-07-programas-pc",
+   "target": "fonte:https://github.com/InukaAsith/TwinDesk"
+  },
+  {
+   "source": "2026-11-08-advogado-chatgpt",
+   "target": "cta:FONTE"
+  },
+  {
+   "source": "2026-11-08-advogado-chatgpt",
+   "target": "tema:advogado-chatgpt"
+  },
+  {
+   "source": "2026-11-08-advogado-chatgpt",
+   "target": "fonte:https://news.bloomberglaw.com/litigation/chatgpt-phony-legal-filing-case-gets-lawyers-a-5-000-fine"
+  },
+  {
+   "source": "2026-11-08-alphago-lance-37",
+   "target": "cta:GO"
+  },
+  {
+   "source": "2026-11-08-alphago-lance-37",
+   "target": "tema:alphago-lance-37"
+  },
+  {
+   "source": "2026-11-08-alphago-lance-37",
+   "target": "fonte:https://deepmind.google/research/breakthroughs/alphago/"
+  },
+  {
+   "source": "2026-11-08-alphago-lance-37",
+   "target": "fonte:https://gigaom.com/episode/gigaom-ai-minute-march-10/"
+  },
+  {
+   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "target": "formato:contagem"
+  },
+  {
+   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "target": "cta:MAPA"
+  },
+  {
+   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "target": "tema:apps-pra-quem-vive-no-chat"
+  },
+  {
+   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "target": "fonte:https://github.com/orkunisitmak/clipboardline"
+  },
+  {
+   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "target": "fonte:https://github.com/tang1693/KIKUmap"
+  },
+  {
+   "source": "2026-11-08-apps-pra-quem-vive-no-chat",
+   "target": "fonte:https://github.com/franzenzenhofer/big-arrow-on-the-screen"
   },
   {
    "source": "formato:contagem",
@@ -6101,10 +6579,6 @@
   },
   {
    "source": "2026-11-08-captura-de-qualquer-bicho",
-   "target": "formato:palco"
-  },
-  {
-   "source": "2026-11-08-captura-de-qualquer-bicho",
    "target": "cta:BICHO"
   },
   {
@@ -6114,122 +6588,6 @@
   {
    "source": "2026-11-08-captura-de-qualquer-bicho",
    "target": "fonte:https://github.com/patch-gg/anymove"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-08-crie-seu-app-de-mac"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-08-figurinha-animada"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-08-laboratorio-3d-gratis"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-08-tv-que-cobra-licao"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-09-chatgpt-faz-gif"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-09-ia-chinesa-no-bolso"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-09-internet-somada"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-09-leis-do-brasil"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-10-camera-sony-destravada"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-10-ia-le-whatsapp"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-10-manual-ikea-3d"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-10-testa-seu-negocio"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-11-digita-o-movimento"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-11-ia-do-fim-do-mundo"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-11-procura-dentro-das-fotos"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-11-refazendo-todo-software"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-12-figurinhas-de-aves"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-12-jarvis-em-portugues"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-12-loja-de-apps-bmw"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-12-ocr-15x-rapido"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-12-quadros-ganham-vida"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-13-atendente-telefone-ia"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-13-namorada-de-ia"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-13-npc-que-responde"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-14-aprender-coisa-dificil"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-14-comercial-com-trilha"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-14-ia-liga-pra-voce"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-14-mod-fps-oblivion"
-  },
-  {
-   "source": "formato:palco",
-   "target": "2026-11-14-vire-um-personagem"
   },
   {
    "source": "2026-11-08-console-no-celular",
@@ -6450,6 +6808,22 @@
   {
    "source": "2026-11-08-skills-de-design",
    "target": "fonte:https://github.com/enesozturk/dimensional-drawing"
+  },
+  {
+   "source": "2026-11-08-tay-microsoft",
+   "target": "cta:TAY"
+  },
+  {
+   "source": "2026-11-08-tay-microsoft",
+   "target": "tema:tay-microsoft"
+  },
+  {
+   "source": "2026-11-08-tay-microsoft",
+   "target": "fonte:https://fortune.com/2016/03/25/microsoft-sorry-offensive-chat-bot"
+  },
+  {
+   "source": "2026-11-08-tay-microsoft",
+   "target": "fonte:https://www.pcworld.com/article/420272/microsoft-deeply-sorry-for-tay-chatbot-will-bring-it-back-when-vulnerability-is-fixed.html"
   },
   {
    "source": "2026-11-08-tv-que-cobra-licao",

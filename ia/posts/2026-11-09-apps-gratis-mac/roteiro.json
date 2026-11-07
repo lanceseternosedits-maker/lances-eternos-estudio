@@ -26,7 +26,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026): BetterWispr 514, Atticus 663, Tendedero 3.070; total 4.247; criados entre 07/10 e 10/10.",
  "obs": "",
  "polemica": false,
- "agenda": "2026-11-09 14:00",
+ "agenda": "2026-11-10 21:30",
  "palavras": 96,
  "duracao_estimada_s": 33.1,
  "status": "roteiro aprovado",
@@ -105,5 +105,6 @@
    "legenda": "Comenta MAC e me segue que eu te mando os três links.",
    "sfx": []
   }
- ]
+ ],
+ "categoria": "novidade"
 }

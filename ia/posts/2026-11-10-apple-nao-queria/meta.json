@@ -1,6 +1,6 @@
 {
- "data": "2026-11-10",
- "horario": "12:00",
+ "data": "2026-11-12",
+ "horario": "06:00",
  "pilar": "reel",
  "formato": "contagem",
  "temas": [
@@ -16,8 +16,9 @@
  "cta": "APPLE",
  "polemica": true,
  "horarios": {
-  "instagram": "2026-11-10 12:00",
-  "tiktok": "2026-11-10 12:00"
+  "instagram": "2026-11-12 06:00",
+  "tiktok": "2026-11-12 06:00"
  },
- "status": "roteiro aprovado"
+ "status": "roteiro aprovado",
+ "categoria": "novidade"
 }

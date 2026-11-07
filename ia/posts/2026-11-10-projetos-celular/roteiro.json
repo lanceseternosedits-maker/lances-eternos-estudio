@@ -28,7 +28,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026): MeshLive 342, Droidline 488, AVault 599, iPhone-use 4.932, Android Ad Cleaner 6.794; total 13.155; criados entre 06/10 e 31/10.",
  "obs": "Ad Cleaner mira sistemas Android de marcas chinesas (Xiaomi etc., comuns no Brasil): README em chinês, conferir modelos. Gravação de ligação: Lei 9.296/96 e jurisprudência — participante pode gravar; não estimular divulgação.",
  "polemica": false,
- "agenda": "2026-11-10 08:00",
+ "agenda": "2026-11-11 17:00",
  "palavras": 93,
  "duracao_estimada_s": 32.1,
  "status": "roteiro aprovado",
@@ -139,5 +139,6 @@
    "legenda": "Comenta CELULAR e me segue que eu te mando os cinco links.",
    "sfx": []
   }
- ]
+ ],
+ "categoria": "novidade"
 }

@@ -26,7 +26,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): AI Promo Video 453, Luobo PPT 454, Taishang Laojun 516; total 1.423; criados entre 08/10 e 22/10.",
  "obs": "READMEs em chinês: conferir detalhes. Tom: 'as agências vão ter que se adaptar', sem ataque.",
  "polemica": true,
- "agenda": "2026-11-08 (horário definido no agendamento)",
+ "agenda": "2026-11-09 17:00",
  "palavras": 97,
  "duracao_estimada_s": 33.4,
  "status": "vídeo aguardando aprovação",
@@ -192,5 +192,6 @@
    ]
   }
  ],
- "adiantado_de": "2026-11-15"
+ "adiantado_de": "2026-11-15",
+ "categoria": "novidade"
 }

@@ -24,7 +24,7 @@
  "prova_viral": "Estrelas no GitHub (API. 07/11/2026): jgm-source/jarvis-opensource 554, criado em 10/10.",
  "obs": "'JARVIS' é nome do projeto; sem imagens do Homem de Ferro/Marvel. Conferir quais chaves (Groq tem plano grátis).",
  "polemica": false,
- "agenda": "2026-11-12 08:00",
+ "agenda": "2026-11-14 11:00",
  "palavras": 66,
  "duracao_estimada_s": 22.8,
  "status": "roteiro aprovado",
@@ -86,5 +86,6 @@
    "legenda": "Comenta JARVIS e me segue pra mais IA feita no Brasil.",
    "sfx": []
   }
- ]
+ ],
+ "categoria": "novidade"
 }

@@ -1,6 +1,6 @@
 {
- "data": "2026-11-09",
- "horario": "14:00",
+ "data": "2026-11-10",
+ "horario": "21:30",
  "pilar": "reel",
  "formato": "contagem",
  "temas": [
@@ -14,8 +14,9 @@
  "cta": "MAC",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-09 14:00",
-  "tiktok": "2026-11-09 14:00"
+  "instagram": "2026-11-10 21:30",
+  "tiktok": "2026-11-10 21:30"
  },
- "status": "roteiro aprovado"
+ "status": "roteiro aprovado",
+ "categoria": "novidade"
 }

@@ -1,6 +1,6 @@
 {
  "data": "2026-11-08",
- "horario": "15:00",
+ "horario": "11:00",
  "pilar": "reel",
  "formato": "contagem",
  "temas": [
@@ -14,10 +14,9 @@
  "cta": "VOZ",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-08 15:00",
-  "tiktok": "2026-11-08 15:00"
+  "instagram": "2026-11-08 11:00",
+  "tiktok": "2026-11-08 11:00"
  },
- "status": "vídeo aguardando aprovação",
  "checagem": {
   "em": "2026-11-07 15:06",
   "ok": true,
@@ -92,5 +91,6 @@
   "som": "trilha 03 + efeitos arcade",
   "mascote": "acessório e ação do conceito; ação principal: pintar"
  },
- "obs_producao": "07/11: estrelas relidas (224/227/546, total 997): etiqueta '+1 MIL' trocada por 'QUASE 1.000'. Voz regerada com ritmo 'rápido e animado' (a 1ª saiu com 44,1 s); sem aceleração. 34,4 s, 2,58 palavras/s. Aviso 'SÓ CLONE A VOZ DE QUEM DEIXOU' no fechamento, na legenda e na DM."
+ "obs_producao": "07/11: estrelas relidas (224/227/546, total 997): etiqueta '+1 MIL' trocada por 'QUASE 1.000'. Voz regerada com ritmo 'rápido e animado' (a 1ª saiu com 44,1 s); sem aceleração. 34,4 s, 2,58 palavras/s. Aviso 'SÓ CLONE A VOZ DE QUEM DEIXOU' no fechamento, na legenda e na DM.",
+ "categoria": "novidade"
 }

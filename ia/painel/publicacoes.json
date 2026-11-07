@@ -1,6 +1,6 @@
 {
 "_fonte": "Metricool getScheduledPosts (blogId 7637900), uma linha por rede. Atualize a cada agendamento.",
-"lido_em": "2026-11-07 01:50 (Brasília)",
+"lido_em": "2026-11-07 14:30 (Brasília)",
 "publicacoes": [
 {
 "data": "2026-11-01 11:45",
@@ -711,6 +711,96 @@
 "tipo": null,
 "rascunho": false,
 "texto": "10 estilos de animação pra pedir pro Claude. Qual é o seu favorito? 🎨"
+},
+{
+"data": "2026-11-07 15:00",
+"rede": "instagram",
+"status": "PENDING",
+"url": null,
+"tipo": "REEL",
+"rascunho": false,
+"texto": "Comenta WINDOWS: 3 programas grátis que o Windows devia ter"
+},
+{
+"data": "2026-11-07 15:00",
+"rede": "tiktok",
+"status": "PENDING",
+"url": null,
+"tipo": null,
+"rascunho": false,
+"texto": "Comenta WINDOWS: 3 programas grátis que o Windows devia ter"
+},
+{
+"data": "2026-11-07 17:00",
+"rede": "instagram",
+"status": "PENDING",
+"url": null,
+"tipo": "REEL",
+"rascunho": false,
+"texto": "Comenta MOBILE: 5 jogos de console que os fãs botaram no celular"
+},
+{
+"data": "2026-11-07 17:00",
+"rede": "tiktok",
+"status": "PENDING",
+"url": null,
+"tipo": null,
+"rascunho": false,
+"texto": "Comenta MOBILE: 5 jogos de console que os fãs botaram no celular"
+},
+{
+"data": "2026-11-08 07:00",
+"rede": "instagram",
+"status": "PENDING",
+"url": null,
+"tipo": "REEL",
+"rascunho": false,
+"texto": "Comenta DESIGN: 3 skills que fazem design de agência"
+},
+{
+"data": "2026-11-08 07:00",
+"rede": "tiktok",
+"status": "PENDING",
+"url": null,
+"tipo": null,
+"rascunho": false,
+"texto": "Comenta DESIGN: 3 skills que fazem design de agência"
+},
+{
+"data": "2026-11-08 11:00",
+"rede": "instagram",
+"status": "PENDING",
+"url": null,
+"tipo": "REEL",
+"rascunho": false,
+"texto": "Comenta VOZ: 3 estúdios de voz grátis com IA"
+},
+{
+"data": "2026-11-08 11:00",
+"rede": "tiktok",
+"status": "PENDING",
+"url": null,
+"tipo": null,
+"rascunho": false,
+"texto": "Comenta VOZ: 3 estúdios de voz grátis com IA"
+},
+{
+"data": "2026-11-08 17:00",
+"rede": "instagram",
+"status": "PENDING",
+"url": null,
+"tipo": "REEL",
+"rascunho": false,
+"texto": "Comenta BICHO: captura de movimento de qualquer bicho"
+},
+{
+"data": "2026-11-08 17:00",
+"rede": "tiktok",
+"status": "PENDING",
+"url": null,
+"tipo": null,
+"rascunho": false,
+"texto": "Comenta BICHO: captura de movimento de qualquer bicho"
 }
 ]
 }

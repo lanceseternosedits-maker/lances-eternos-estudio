@@ -1,12 +1,12 @@
 # Grafo de conteúdo do IA em 60s
-Gerado em 2026-11-07 15:08 · 86 posts · 577 nós · 1034 ligações
+Gerado em 2026-11-07 17:29 · 91 posts · 601 nós · 1095 ligações
 
 ## Use antes de criar
 
 - **Temas saturados (3+ posts em 7 dias, evite):** nenhum
 - **Empresas saturadas (3+ posts em 7 dias, evite):** nenhuma
 - **Pilares sem post nos últimos 7 dias (prioridade):** novidade, tutorial, recomendacao, em_alta
-- **Posts por pilar (7 dias):** reel 42
+- **Posts por pilar (7 dias):** reel 47
 
 ## O que vem funcionando
 
@@ -14,7 +14,7 @@ Gerado em 2026-11-07 15:08 · 86 posts · 577 nós · 1034 ligações
 | Pilar | posts | engajamento médio |
 |---|---|---|
 | lista | 6 | 44 |
-| reel | 56 | sem dado |
+| reel | 61 | sem dado |
 | novidade | 9 | sem dado |
 | tutorial | 8 | sem dado |
 | em_alta | 4 | 0 |
@@ -47,7 +47,7 @@ Gerado em 2026-11-07 15:08 · 86 posts · 577 nós · 1034 ligações
 ### Paleta
 | Paleta | posts | engajamento médio |
 |---|---|---|
-| paleta None | 61 | 44 |
+| paleta None | 66 | 44 |
 | paleta 1 | 9 | sem dado |
 | paleta 2 | 5 | sem dado |
 | paleta 4 | 4 | sem dado |
@@ -61,7 +61,7 @@ Gerado em 2026-11-07 15:08 · 86 posts · 577 nós · 1034 ligações
 |---|---|---|
 | 05h | 2 | 82 |
 | 06h | 2 | 7 |
-| 20h | 53 | sem dado |
+| 20h | 62 | sem dado |
 | 19h | 6 | 0 |
 | 17h | 4 | sem dado |
 | 18h | 3 | sem dado |
@@ -71,8 +71,8 @@ Gerado em 2026-11-07 15:08 · 86 posts · 577 nós · 1034 ligações
 ### Rede
 | Rede | posts | engajamento médio |
 |---|---|---|
-| instagram | 82 | 30 |
-| tiktok | 80 | 30 |
+| instagram | 91 | 30 |
+| tiktok | 89 | 30 |
 | youtube | 15 | sem dado |
 | instagram_reel | 1 | sem dado |
 
@@ -80,7 +80,7 @@ Gerado em 2026-11-07 15:08 · 86 posts · 577 nós · 1034 ligações
 | Formato | posts | engajamento médio |
 |---|---|---|
 | reel formato 3 (contagem regressiva com mistério) | 6 | 44 |
-| palco | 30 | sem dado |
+| palco | 35 | sem dado |
 | contagem | 26 | sem dado |
 | lista | 10 | sem dado |
 | noticia | 5 | sem dado |

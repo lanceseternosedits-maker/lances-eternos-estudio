@@ -28,10 +28,9 @@
  "prova_viral": "Estrelas no GitHub (releitura 07/11/2026, produção): PokeDaisy 516, GTA V iOS 559, BOTW Android 637, nx2android 939, D2R Mobile 5.198; total 7.849; criados entre 06/10 e 24/10.",
  "obs": "Nintendo de novo (Nintendo saiu 08/11): misturado com Rockstar/Blizzard, ok por ser outra pauta. Nunca ROM. Sem logos/personagens. 'Só com o seu jogo'.",
  "polemica": true,
- "agenda": "2026-11-08 09:00",
+ "agenda": "2026-11-07 17:00",
  "palavras": 94,
  "duracao_estimada_s": 32.4,
- "status": "vídeo aguardando aprovação",
  "segmentos": [
   {
    "cena": "gancho",
@@ -212,5 +211,6 @@
   }
  ],
  "adiantado_de": "2026-11-12",
- "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos)."
+ "obs_producao": "Elementos ajustados em 07/11 para os 8 de domingo não repetirem legenda/transição entre vizinhos (regra Diversidade de elementos).",
+ "categoria": "novidade"
 }

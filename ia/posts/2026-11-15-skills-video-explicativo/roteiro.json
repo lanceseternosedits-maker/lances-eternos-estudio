@@ -26,7 +26,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Riso B-roll 361, Whiteboard Teacher 511, Vibe Knowledge Film 1.107; total 1.979; criados entre 06/10 e 16/10.",
  "obs": "Vídeo de criação de vídeo é a 4ª pauta de vídeo da semana: fica no domingo, longe das outras.",
  "polemica": false,
- "agenda": "2026-11-15 20:30",
+ "agenda": "2026-11-15 11:00",
  "palavras": 95,
  "duracao_estimada_s": 32.8,
  "status": "roteiro aprovado",
@@ -105,5 +105,6 @@
    "legenda": "Comenta EXPLICA e me segue que eu te mando as três.",
    "sfx": []
   }
- ]
+ ],
+ "categoria": "novidade"
 }

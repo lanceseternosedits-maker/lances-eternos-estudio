@@ -1,0 +1,117 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "FONTE",
+ "tese": "O ADVOGADO QUE CONFIOU NO CHATGPT",
+ "conceito": "Tribunal de papelão: bancada de juiz, martelo gigante, pilha de processos que voa e recebe carimbos vermelhos FALSO; paleta vinho + madeira + papel. Mascote de terno e óculos folheando processos, suando quando o martelo bate; no truque, uma lupa revela as fontes com link.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "b) carimbo batendo",
+  "contador": "(sem contador)",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "b) chicote de câmera (whip pan)",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + carimbo e martelo",
+  "mascote": "terno e óculos; ação principal: folhear processos"
+ },
+ "brinde": "prompt anti-invenção + link da reportagem",
+ "fontes": [
+  "https://news.bloomberglaw.com/litigation/chatgpt-phony-legal-filing-case-gets-lawyers-a-5-000-fine"
+ ],
+ "prova_viral": "Caso Mata v. Avianca (tribunal federal de Nova York, decisão de 22/06/2023, juiz P. Kevin Castel): multa de US$ 5 mil, 6 decisões fictícias citadas; reportado por Bloomberg Law, Reuters e NYT.",
+ "obs": "Não citar o nome do advogado (pessoa real): 'um advogado de Nova York'. Sem foto de ninguém.",
+ "polemica": true,
+ "agenda": "2026-11-08 09:00",
+ "palavras": 86,
+ "duracao_estimada_s": 30.7,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "O ADVOGADO QUE CONFIOU NO CHATGPT",
+   "fala": "Um advogado de Nova York usou o ChatGPT num processo. A IA inventou seis casos que nunca existiram.",
+   "legenda": "Um advogado de Nova York usou o ChatGPT num processo. A IA inventou seis casos que nunca existiram.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "O ADVOGADO QUE CONFIOU NO CHATGPT",
+    "6 CASOS INVENTADOS",
+    "E MULTA DE US$ 5 MIL"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O juiz descobriu, e o escritório levou multa de cinco mil dólares.",
+   "legenda": "O juiz descobriu, e o escritório levou multa de cinco mil dólares.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "A IA não mente de propósito. Ela prevê a próxima palavra mais provável.",
+   "legenda": "A IA não mente de propósito. Ela prevê a próxima palavra mais provável.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Se não sabe, ela completa com algo que parece certo. Comenta FONTE que eu te mando o prompt.",
+   "legenda": "Se não sabe, ela completa com algo que parece certo. Comenta FONTE que eu te mando o prompt.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "O truque: peça as fontes com link e diga: se não souber, fala que não sabe.",
+   "legenda": "O truque: peça as fontes com link e diga: se não souber, fala que não sabe.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA FONTE",
+   "fala": "Comenta FONTE e me segue pra não cair nessa.",
+   "legenda": "Comenta FONTE e me segue pra não cair nessa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

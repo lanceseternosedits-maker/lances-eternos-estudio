@@ -1,6 +1,6 @@
 {
- "data": "2026-11-08",
- "horario": "07:00",
+ "data": "2026-11-07",
+ "horario": "15:00",
  "pilar": "reel",
  "formato": "contagem",
  "temas": [
@@ -14,10 +14,9 @@
  "cta": "WINDOWS",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-08 07:00",
-  "tiktok": "2026-11-08 07:00"
+  "instagram": "2026-11-07 15:00",
+  "tiktok": "2026-11-07 15:00"
  },
- "status": "vídeo aguardando aprovação",
  "checagem": {
   "em": "2026-11-07 15:05",
   "ok": true,
@@ -79,5 +78,6 @@
   ]
  },
  "obs_producao": "Produzido em 07/11 (cena_contagem, módulo itens/windows-gratis.js). Estrelas relidas na API do GitHub em 07/11: Prism 776, WinShun 911, kensaku 1.263 (total 2.950): etiqueta trocada de '+3 MIL' para 'QUASE 3 MIL'. Para caber em 35 s, a 2ª frase-ponte repetida ('Esse é rápido… comenta WINDOWS…') saiu do nº 2, que agora termina em 'Mas o primeiro é melhor ainda.'. Voz acelerada 1,15× (máximo permitido): 34,0 s, 2,53 palavras/s. Texto todo entre y=260 e y=1500. checar.py passou.",
- "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): Prism 776, WinShun 911, kensaku 1.263; total 2.950; criados entre 08/10 e 24/10."
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026, relidas na produção): Prism 776, WinShun 911, kensaku 1.263; total 2.950; criados entre 08/10 e 24/10.",
+ "categoria": "novidade"
 }

@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "LETRA",
+ "tese": "POR QUE A IA ERRAVA ATÉ PRA CONTAR LETRA",
+ "conceito": "Feira de manhã: barraca com morangos gigantes, ímãs de letra de geladeira que se partem em pedaços coloridos (os tokens) e se juntam de novo; paleta vermelho-morango + verde-folha + creme. Mascote de avental contando morangos nos dedos e se confundindo; no truque, as letras se alinham uma a uma e acendem.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "(sem contador)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 01 + efeitos de papel",
+  "mascote": "avental de feirante; ação principal: contar morangos nos dedos"
+ },
+ "brinde": "o prompt do truque (soletrar antes de contar) + 2 outros pedidos em que a IA costuma errar",
+ "fontes": [
+  "https://hackernoon.com/why-cant-ai-count-letters",
+  "https://prompt.16x.engineer/blog/why-chatgpt-cant-count-rs-in-strawberry"
+ ],
+ "prova_viral": "Viral de 2024 ('how many r's in strawberry'); explicação de tokens em 2 fontes; truque de soletrar documentado.",
+ "obs": "Não afirmar que todos os modelos ainda erram hoje: dizer 'por muito tempo'. Divisão exata em tokens varia por modelo: 'dois ou três pedaços'.",
+ "polemica": false,
+ "agenda": "2026-11-07 21:00",
+ "palavras": 82,
+ "duracao_estimada_s": 29.3,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "POR QUE A IA ERRAVA ATÉ PRA CONTAR LETRA",
+   "fala": "Pergunta pra IA quantos R tem em strawberry, morango em inglês. Por muito tempo, ela respondia dois.",
+   "legenda": "Pergunta pra IA quantos R tem em strawberry, morango em inglês. Por muito tempo, ela respondia dois.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "POR QUE A IA ERRAVA ATÉ PRA CONTAR LETRA",
+    "STRAWBERRY TEM 3 R",
+    "E O TRUQUE PRA ELA ACERTAR"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Tem três. E o motivo é curioso: a IA não lê letras.",
+   "legenda": "Tem três. E o motivo é curioso: a IA não lê letras.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Ela lê pedaços de palavra, chamados tokens. Strawberry vira dois ou três pedaços.",
+   "legenda": "Ela lê pedaços de palavra, chamados tokens. Strawberry vira dois ou três pedaços.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Então ela adivinha, em vez de contar. Comenta LETRA que eu te mando o truque.",
+   "legenda": "Então ela adivinha, em vez de contar. Comenta LETRA que eu te mando o truque.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "O truque: peça pra ela soletrar letra por letra antes de contar. Aí ela acerta.",
+   "legenda": "O truque: peça pra ela soletrar letra por letra antes de contar. Aí ela acerta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA LETRA",
+   "fala": "Comenta LETRA e me segue pra usar a IA melhor.",
+   "legenda": "Comenta LETRA e me segue pra usar a IA melhor.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

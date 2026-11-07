@@ -28,7 +28,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026): BCD 493, Steam Stash 786, Autopilot 804, Bridgeplay 887, Co-op Anything 1.933; total 4.903; criados entre 16/10 e 02/11.",
  "obs": "",
  "polemica": false,
- "agenda": "2026-11-11 08:00",
+ "agenda": "2026-11-13 06:00",
  "palavras": 91,
  "duracao_estimada_s": 31.4,
  "status": "roteiro aprovado",
@@ -139,5 +139,6 @@
    "legenda": "Comenta GAMER e me segue que eu te mando os cinco links.",
    "sfx": []
   }
- ]
+ ],
+ "categoria": "novidade"
 }

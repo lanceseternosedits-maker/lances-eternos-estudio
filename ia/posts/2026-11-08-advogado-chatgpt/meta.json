@@ -1,0 +1,21 @@
+{
+ "data": "2026-11-08",
+ "horario": "09:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "advogado-chatgpt"
+ ],
+ "fontes": [
+  "https://news.bloomberglaw.com/litigation/chatgpt-phony-legal-filing-case-gets-lawyers-a-5-000-fine"
+ ],
+ "prova_viral": "Caso Mata v. Avianca (tribunal federal de Nova York, decisão de 22/06/2023, juiz P. Kevin Castel): multa de US$ 5 mil, 6 decisões fictícias citadas; reportado por Bloomberg Law, Reuters e NYT.",
+ "cta": "FONTE",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-08 09:00",
+  "tiktok": "2026-11-08 09:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

@@ -26,7 +26,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026): House Control 878, CleanFrame 1.004, Photo Frame Dashboard 1.683; total 3.565; criados entre 08/10 e 20/10.",
  "obs": "House Control usa Smart Life/Home Assistant/Hue/Apple Home: citar só 'lâmpadas inteligentes'.",
  "polemica": false,
- "agenda": "2026-11-11 10:00",
+ "agenda": "2026-11-13 10:00",
  "palavras": 95,
  "duracao_estimada_s": 32.8,
  "status": "roteiro aprovado",
@@ -105,5 +105,6 @@
    "legenda": "Comenta CASA e me segue que eu te mando os três links.",
    "sfx": []
   }
- ]
+ ],
+ "categoria": "novidade"
 }

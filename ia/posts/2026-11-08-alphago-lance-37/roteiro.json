@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "GO",
+ "tese": "O LANCE 37",
+ "conceito": "Salão oriental à noite: tabuleiro de Go gigante com pedras pretas e brancas, lanternas de papel, plateia de bonequinhos; a pedra do lance 37 cai do alto e brilha; paleta preto + branco + vermelho-lanterna. Mascote com faixa na cabeça segurando uma pedra gigante, de queixo caído.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "f) escrito à mão",
+  "contador": "(sem contador)",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "f) zoom atravessando uma tela",
+  "camera": "d) órbita",
+  "fechamento": "b) pódio",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 02 + pedra batendo",
+  "mascote": "faixa na cabeça; ação principal: segurar uma pedra gigante"
+ },
+ "brinde": "documentário 'AlphaGo' (2017), grátis no YouTube do Google DeepMind",
+ "fontes": [
+  "https://deepmind.google/research/breakthroughs/alphago/",
+  "https://gigaom.com/episode/gigaom-ai-minute-march-10/"
+ ],
+ "prova_viral": "Partida 2 de 10/03/2016 em Seul; placar final 4×1; aposentadoria de Lee Sedol em 2019 (ele citou a IA). 2+ fontes.",
+ "obs": "Tempo de resposta varia entre 12 e 15 min nas fontes: 'quase quinze minutos'. Não dizer que ele saiu da sala (disputado).",
+ "polemica": false,
+ "agenda": "2026-11-08 15:00",
+ "palavras": 91,
+ "duracao_estimada_s": 32.5,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "O LANCE 37",
+   "fala": "Em 2016, uma IA fez uma jogada tão estranha que o campeão ficou quase quinze minutos sem responder.",
+   "legenda": "Em 2016, uma IA fez uma jogada tão estranha que o campeão ficou quase quinze minutos sem responder.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "O LANCE 37",
+    "A JOGADA QUE NENHUM HUMANO FARIA",
+    "2016 · ALPHAGO × LEE SEDOL"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Era o Go, um jogo chinês com mais posições possíveis que átomos no universo.",
+   "legenda": "Era o Go, um jogo chinês com mais posições possíveis que átomos no universo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "O AlphaGo, do Google, contra Lee Sedol, um dos maiores jogadores da história.",
+   "legenda": "O AlphaGo, do Google, contra Lee Sedol, um dos maiores jogadores da história.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Os comentaristas acharam que era erro. Virou a jogada mais famosa do Go. Comenta GO que eu te mando o documentário.",
+   "legenda": "Os comentaristas acharam que era erro. Virou a jogada mais famosa do Go. Comenta GO que eu te mando o documentário.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "A IA venceu por quatro a um. Três anos depois, Lee Sedol se aposentou.",
+   "legenda": "A IA venceu por quatro a um. Três anos depois, Lee Sedol se aposentou.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA GO",
+   "fala": "Comenta GO e me segue. Você teria coragem de jogar contra?",
+   "legenda": "Comenta GO e me segue. Você teria coragem de jogar contra?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

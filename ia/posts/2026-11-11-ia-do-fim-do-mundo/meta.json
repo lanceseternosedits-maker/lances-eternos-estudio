@@ -1,6 +1,6 @@
 {
- "data": "2026-11-11",
- "horario": "14:00",
+ "data": "2026-11-13",
+ "horario": "17:00",
  "pilar": "reel",
  "formato": "palco",
  "temas": [
@@ -12,8 +12,9 @@
  "cta": "SOBREVIVE",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-11 14:00",
-  "tiktok": "2026-11-11 14:00"
+  "instagram": "2026-11-13 17:00",
+  "tiktok": "2026-11-13 17:00"
  },
- "status": "roteiro aprovado"
+ "status": "roteiro aprovado",
+ "categoria": "novidade"
 }
