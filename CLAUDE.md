@@ -1,6 +1,6 @@
 # IA em 60s (@iaem60s): projeto IAEM60S
 
-Perfil de Vitor Gofredo: a IA que importa explicada em 60 segundos, em português do Brasil, no Instagram e no TikTok. Este repositório também guarda o "Estúdio Lances Eternos" (raiz e ramo `main`); o IA em 60s vive na pasta `ia/` do ramo **`midia-ia`**.
+Perfil de Vitor Gofredo: a IA que importa explicada em 60 segundos, em português do Brasil, no Instagram e no TikTok. O repositório é só do IA em 60s (o antigo estúdio de futebol foi removido em 07/11); tudo vive na pasta `ia/` do ramo **`midia-ia`**.
 
 ## Como falar com o Vitor
 - Sempre em português do Brasil.
@@ -12,6 +12,8 @@ Perfil de Vitor Gofredo: a IA que importa explicada em 60 segundos, em portuguê
 - `ia/referencias.md`: o que está viralizando lá fora (atualizado todo dia pelo caçador de referências). `ia/referencias_fixas.md`: exemplos de estilo que o Vitor mandou.
 - `ia/estado.json`: próxima paleta e temas já usados (não repetir em 14 dias).
 - `ia/posts/AAAA-MM-DD-slug/`: um post por pasta (`post.json`, `meta.json`, slides, legendas, `resposta_dm.txt`, roteiros e reels).
+- `ia/painel/`: **painel visual** (`index.html`) com todos os posts, a semana em vagas e o que precisa do Vitor. `painel/publicacoes.json` é a cópia do Metricool; `python3 painel/gerar.py` (de dentro de `ia/`) refaz o painel e as capas.
+- `ia/checar.py`: checagem automática do Reel (fala ≤ 3,0 palavras/s, até 35 s, 1080×1920, volume, fontes, prova viral, legenda com CTA); grava em `meta.json` → `checagem`.
 - `ia/lista.js` gera os slides do carrossel; `ia/grafo.py` gera `ia/grafo/GRAFO.md`; `ia/video/` tem voz (Gemini TTS), composição e mixagem dos reels; `ia/skills/` tem as skills de ganchos e formatos virais.
 
 ## Regras que nunca mudam
@@ -21,6 +23,11 @@ Perfil de Vitor Gofredo: a IA que importa explicada em 60 segundos, em portuguê
 - **Gastos (Vitor, 05/11):** antes de qualquer ação que custe dinheiro (API paga, assinatura, faturamento do Gemini, ferramenta nova), estime o custo e peça a aprovação do Vitor primeiro. Sem aprovação, não executa.
 - **Verdade:** nada inventado; todo fato com fonte oficial ou 2 fontes; toda pauta com a prova de que viralizou lá fora.
 - **Git:** trabalhe e faça push no ramo `midia-ia` (`git pull --rebase` se o push for rejeitado). Não suba `out/frames`, clipes brutos nem `_short/`.
+
+## Status e painel (Vitor, 07/11)
+- Todo post tem `status` no `meta.json` enquanto depende do Vitor: `"roteiro aguardando aprovação"`, `"vídeo aguardando aprovação"` ou `"negado"`. Depois de agendar, **apague** o campo: o painel passa a ler o status do Metricool (agendado, publicado, erro).
+- Antes de mandar um MP4 para a 2ª aprovação: `python3 checar.py posts/<pasta>`. Falhou, corrige antes (ou explica ao Vitor por que vai assim).
+- Toda sessão que agendar, publicar ou mudar status: chama `getScheduledPosts` dos dias mexidos, atualiza `painel/publicacoes.json` (uma linha por rede: data, rede, status, url, tipo, rascunho, texto, erro, e `lido_em`), roda `python3 painel/gerar.py` e faz commit junto.
 
 ## Tarefas agendadas (Claude Code na nuvem)
 - **IA em 60s – caçador de referências:** seg e qui às 03:53 de Brasília (Sonnet); atualiza `ia/referencias.md` antes da produção.

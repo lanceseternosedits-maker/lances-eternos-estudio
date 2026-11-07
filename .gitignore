@@ -1,7 +1,2 @@
 __pycache__/
-saida/
-.cache_cenas/
-stock/
-log.txt
-config.json
-entrada/
+node_modules/

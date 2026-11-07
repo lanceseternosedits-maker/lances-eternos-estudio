@@ -3,7 +3,7 @@
 # Antes: voz pronta (tts_frases.py + acelera.py) e módulo itens/<nome>.js. Use PORT=876x para rodar vários em paralelo.
 # uso: produz.sh <pasta do post> <trilha opcional>
 set -e
-cd /home/user/lances-eternos-estudio/ia
+cd "$(dirname "$0")/.."  # pasta ia/ (funciona com o repositório em qualquer caminho ou nome)
 P=posts/$1
 python3 - "$P" <<'PY'
 import json,os,sys

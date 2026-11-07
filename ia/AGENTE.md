@@ -30,7 +30,7 @@ O resumo do roteiro para o Vitor mostra os 5 itens marcados.
 - **Legibilidade:** fonte 8-bit (Press Start 2P) só em enfeites; números e nomes em fonte clara (o "8" virou "S"). Nada de "letra falhando" em texto que a pessoa precisa ler.
 - **Rosto do mascote sempre visível** (objetos na mão ficam ao lado, nunca na frente da boca/olhos).
 - **Capa:** o 1º quadro precisa ter a etiqueta legível e a cena clara (fundo não pode ser quase preto).
-- Checklist antes de mandar o MP4: velocidade ≤ 3,0 · área segura · legibilidade · rosto · capa.
+- Checklist antes de mandar o MP4: velocidade ≤ 3,0 · área segura · legibilidade · rosto · capa. Rode `python3 checar.py posts/<pasta>` (mede velocidade, duração, formato, volume, fontes e legenda); área segura, legibilidade, rosto e capa continuam na folha de miniaturas.
 
 ## Foco em vídeo, com carrossel de reserva (decisão do Vitor, 05/11)
 ## Calendário (Vitor, 06/11)
@@ -44,7 +44,7 @@ Vídeo traz mais resultado: a prioridade é **Reel no Instagram + TikTok**. Cada
 - **Horários: ver "Calendário"** (dias úteis 06:00/12:00/17:00/19:30; fim de semana 09:00/13:00/17:00/20:30), nunca 2 no mesmo horário (`timezone America/Sao_Paulo`). Metricool `blogId 7637900`.
 - **Carrossel só no Instagram** (`type POST`, `autoPublish true`, sem música). **TikTok só recebe vídeo aprovado** (`isAigc true`, `title` até 90 caracteres). YouTube pausado.
 - **Vídeo nunca sai sem 2 aprovações do Vitor** (roteiro e MP4). Reel no Instagram: `type REEL` com a trilha própria (a música via API está indisponível na conta até o Instagram ser ligado a uma Página do Facebook no Metricool).
-- Antes de agendar: `getScheduledPosts` do dia; mídia pública via `raw.githubusercontent.com/.../midia-ia/...` respondendo 200. Depois: `estado.json` (paleta e tema), `meta.json` do post (data, pilar, formato, temas, empresas, fontes, paleta, horarios, cta), `python3 grafo.py`, commit e push.
+- Antes de agendar: `getScheduledPosts` do dia; mídia pública via `raw.githubusercontent.com/.../midia-ia/...` respondendo 200. Depois: `estado.json` (paleta e tema), `meta.json` do post (data, pilar, formato, temas, empresas, fontes, paleta, horarios, cta), `python3 grafo.py`, atualize `painel/publicacoes.json` e rode `python3 painel/gerar.py`, commit e push.
 - Marque `isAiGenerated` quando houver imagem de IA. Nunca pessoas reais, nunca logo de terceiros nem da Anthropic.
 
 ## Carrossel
