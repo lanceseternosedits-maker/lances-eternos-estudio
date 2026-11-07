@@ -139,8 +139,10 @@ function acharPost(midia, lista) {
   return cands.sort((a, b) => Math.abs(quando(a) - t) - Math.abs(quando(b) - t))[0];
 }
 
+const FB = "https://graph.facebook.com/v23.0";
+let HOST = IG; // trocado para FB quando a conexão é pelo login unificado (token de usuário do sistema)
 async function igFetch(caminho, token, opcoes = {}) {
-  const r = await fetch(caminho.startsWith("http") ? caminho : IG + caminho, {
+  const r = await fetch(caminho.startsWith("http") ? caminho : HOST + caminho, {
     ...opcoes, headers: { authorization: "Bearer " + token, ...(opcoes.body ? { "content-type": "application/json" } : {}) },
   });
   const j = await r.json().catch(() => ({}));
@@ -149,6 +151,7 @@ async function igFetch(caminho, token, opcoes = {}) {
 }
 
 async function renovarToken(env, c) {
+  if (c.modo === "suat") return c.token; // token de usuário do sistema não vence
   if (!c.token || Number(c.expira || 0) - Date.now() > 10 * 864e5) return c.token;
   const r = await fetch(`https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=${encodeURIComponent(c.token)}`);
   const j = await r.json().catch(() => ({}));
@@ -162,10 +165,12 @@ async function responderComentarios(env) {
   const c = await cfg(env);
   if (!c.token || c.pausado === "1") return { ok: false, motivo: c.token ? "pausado" : "não conectado" };
   const token = await renovarToken(env, c);
+  HOST = c.modo === "suat" ? FB : IG;
+  const EU = c.modo === "suat" ? c.ig_id : "me";
   const R = await respostas();
   const frases = R.respostas_publicas?.length ? R.respostas_publicas : ["Te respondi! 📩"];
   const dmAtivo = c.dm !== "0";
-  const { data: midias = [] } = await igFetch("/me/media?fields=id,caption,timestamp,comments_count&limit=40", token);
+  const { data: midias = [] } = await igFetch(`/${EU}/media?fields=id,caption,timestamp,comments_count&limit=40`, token);
   const limite = Date.now() - 7 * 864e5;
   const vistos = Object.fromEntries((await env.DB.prepare("SELECT id, n FROM midias").all()).results.map((r) => [r.id, r.n]));
   let feitos = 0, n = Number(c.contador || 0);
@@ -183,8 +188,12 @@ async function responderComentarios(env) {
         // 1) DM (resposta privada; precisa do acesso avançado da Meta)
         if (dmAtivo) {
           const dm = post.dm.length > 990 ? post.dm.slice(0, post.dm.lastIndexOf("\n", 850)) + `\n\nO resto tá aqui: ${linkBio}` : post.dm;
-          try { await igFetch("/me/messages", token, { method: "POST", body: JSON.stringify({ recipient: { comment_id: co.id }, message: { text: dm } }) }); acao = "dm"; }
-          catch (e) { erro = "dm: " + e.message; }
+          const corpoDM = JSON.stringify({ recipient: { comment_id: co.id }, message: { text: dm } });
+          try { await igFetch(`/${EU}/messages`, token, { method: "POST", body: corpoDM }); acao = "dm"; }
+          catch (e) {
+            erro = "dm: " + e.message;
+            if (c.modo === "suat") try { await igFetch("/me/messages", token, { method: "POST", body: corpoDM }); acao = "dm"; erro = ""; } catch {}
+          }
         }
         // 2) resposta pública (varia a frase; sem DM, aponta para o link da bio)
         const frase = acao === "dm" ? frases[n % frases.length] : `${["Tá no link da bio", "Deixei no link da bio", "Coloquei no link da bio"][n % 3]}, procura ${post.palavra} 📌 (@${co.username})`;
@@ -226,10 +235,12 @@ async function paginaConectar(env, url) {
   if (c.token) {
     const { results } = await env.DB.prepare("SELECT acao, COUNT(*) n FROM comentarios GROUP BY acao").all();
     return PAGINA("Robô de comentários", `<h1>🤖 Robô de comentários</h1>${msg}<div class="b">Conectado como <b>@${escH(c.usuario)}</b><br>Última rodada: ${escH(c.ultima_rodada || "ainda não rodou")}<br>` +
-      results.map((r) => `${escH(r.acao)}: <b>${r.n}</b>`).join(" · ") + `</div><p><small>Token renova sozinho (vence em ${new Date(Number(c.expira)).toLocaleDateString("pt-BR")}).</small></p>`);
+      results.map((r) => `${escH(r.acao)}: <b>${r.n}</b>`).join(" · ") + `</div><p><small>${c.modo === "suat" ? "Token de usuário do sistema (não vence)." : "Token renova sozinho (vence em " + new Date(Number(c.expira)).toLocaleDateString("pt-BR") + ")."}${c.ultimo_erro ? "<br>Último erro: " + escH(c.ultimo_erro) : ""}</small></p>`);
   }
+  const unificado = `<div class="b"><h2>Login unificado (apps novos)</h2><small>Cole o token gerado em "Gerar tokens de acesso" e o ID da conta do Instagram que aparece ao lado dela.</small>
+<form method="post" action="/api/ig-suat"><input name="ig_id" placeholder="ID da conta do Instagram (só números)" required><input name="token" type="password" placeholder="Token de acesso" required><button>Conectar</button></form></div>`;
   const passo2 = c.app_id ? `<div class="b"><h2>2. Autorizar</h2><a href="https://www.instagram.com/oauth/authorize?enable_fb_login=0&force_authentication=1&client_id=${encodeURIComponent(c.app_id)}&redirect_uri=${encodeURIComponent(CALLBACK)}&response_type=code&scope=${ESCOPOS}"><button>Entrar com o Instagram do perfil</button></a></div>` : "";
-  return PAGINA("Conectar Instagram", `<h1>🤖 Conectar o Instagram</h1>${msg}<div class="b"><h2>1. Dados do app da Meta</h2><small>Ficam guardados só no banco do painel (nunca no GitHub).</small>
+  return PAGINA("Conectar Instagram", `<h1>🤖 Conectar o Instagram</h1>${msg}${unificado}<p><small>Ou, em apps antigos, pelo login do Instagram:</small></p><div class="b"><h2>1. Dados do app da Meta</h2><small>Ficam guardados só no banco do painel (nunca no GitHub).</small>
 <form method="post" action="/api/ig-app"><input name="app_id" placeholder="ID do app do Instagram" value="${escH(c.app_id || "")}" required><input name="app_secret" type="password" placeholder="Chave secreta do app do Instagram" required><button>Salvar</button></form></div>${passo2}
 <p><small>URL de redirecionamento para colocar no app da Meta: <b>${CALLBACK}</b></small></p>`);
 }
@@ -281,6 +292,19 @@ async function api(req, env, rota) {
     if (!/^\d{5,25}$/.test(id) || !/^[0-9a-f]{20,64}$/i.test(seg)) return Response.redirect(SITE + "/conectar?erro=" + encodeURIComponent("ID ou chave em formato estranho"), 302);
     await setCfg(env, { app_id: id, app_secret: seg });
     return Response.redirect(SITE + "/conectar", 302);
+  }
+  if (rota === "ig-suat" && req.method === "POST") {
+    await prepararTabelas(env);
+    if ((await cfg(env)).token) return json({ erro: "já conectado" }, 409);
+    const f = await req.formData();
+    const id = String(f.get("ig_id") || "").trim(), tk = String(f.get("token") || "").trim();
+    if (!/^\d{5,25}$/.test(id) || tk.length < 40) return Response.redirect(SITE + "/conectar?erro=" + encodeURIComponent("ID ou token em formato estranho"), 302);
+    HOST = FB;
+    try {
+      const eu = await igFetch(`/${id}?fields=username`, tk);
+      await setCfg(env, { modo: "suat", token: tk, ig_id: id, usuario: eu.username || "", expira: "" });
+    } catch (e) { return Response.redirect(SITE + "/conectar?erro=" + encodeURIComponent("a Meta recusou: " + e.message.slice(0, 200)), 302); }
+    return Response.redirect(SITE + "/conectar?ok=1", 302);
   }
   if (rota === "ig-status" && req.method === "GET") {
     await prepararTabelas(env);
