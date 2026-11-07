@@ -3,7 +3,7 @@
  "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
  "formato": "palco",
  "chave": "APP",
- "tese": "CRIE SEU PRÓPRIO APP DE MAC SEM SABER PROGRAMAR · +2 MIL ESTRELAS EM 2 SEMANAS",
+ "tese": "CRIE SEU PRÓPRIO APP DE MAC SEM ESCREVER CÓDIGO · +2 MIL ESTRELAS EM 2 SEMANAS",
  "conceito": "Ateliê de marcenaria fina: bancada, plaina, pedaços de madeira virando janelas de app arredondadas; paleta nogueira + cinza-alumínio + verde-semáforo. Mascote de avental de couro e lápis atrás da orelha.",
  "elementos": {
   "etiqueta": "g) placa de rua/aeroporto",
@@ -24,16 +24,16 @@
  "prova_viral": "Estrelas no GitHub (API. 07/11/2026): daveebbelaar/bama 1.648, criado em 24/10.",
  "obs": "'Sem saber programar' é exagero leve: dizer 'sem escrever código'.",
  "polemica": false,
- "agenda": "2026-11-15 19:00",
- "palavras": 66,
- "duracao_estimada_s": 22.8,
- "status": "aguardando aprovação",
+ "agenda": "2026-11-08 19:00",
+ "palavras": 67,
+ "duracao_estimada_s": 23.1,
+ "status": "roteiro aguardando aprovação",
  "segmentos": [
   {
    "cena": "gancho",
-   "tag": "CRIE SEU PRÓPRIO APP DE MAC SEM SABER PROGRAMAR",
-   "fala": "Você descreve o app e o Claude faz um app de Mac de verdade.",
-   "legenda": "Você descreve o app e o Claude faz um app de Mac de verdade.",
+   "tag": "POV: VOCÊ FEZ UM APP DE MAC SEM ESCREVER CÓDIGO",
+   "fala": "POV: você descreve um app e o Claude entrega um app de Mac de verdade.",
+   "legenda": "POV: você descreve um app e o Claude entrega um app de Mac de verdade.",
    "sfx": [
     {
      "t": 0.1,
@@ -43,7 +43,7 @@
    ],
    "itens": "crie-seu-app-de-mac",
    "etiqueta": [
-    "CRIE SEU PRÓPRIO APP DE MAC SEM SABER PROGRAMAR",
+    "POV: VOCÊ FEZ UM APP DE MAC SEM ESCREVER CÓDIGO",
     "+2 MIL ESTRELAS EM 2 SEMANAS",
     ""
    ]
@@ -86,5 +86,10 @@
    "legenda": "Comenta APP e me segue que eu te mando o passo a passo.",
    "sfx": []
   }
- ]
+ ],
+ "capa": {
+  "texto": "POV: você fez um app de Mac sem escrever código",
+  "destaque": "sem escrever código"
+ },
+ "formato_extra": "POV + revelação (referencias.md: formato com mais views)"
 }

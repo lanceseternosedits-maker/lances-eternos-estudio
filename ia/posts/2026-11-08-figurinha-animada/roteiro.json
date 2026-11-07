@@ -24,16 +24,16 @@
  "prova_viral": "Estrelas no GitHub (API. 07/11/2026): WoYun520/pixel-gif-sticker-pack 575, criado em 05/11.",
  "obs": "Criado em 05/11: estrelas mudam rápido, reler. 'Adaptar pro Claude' é opinião: dizer 'feita pro Codex'.",
  "polemica": false,
- "agenda": "2026-11-15 22:00",
- "palavras": 66,
- "duracao_estimada_s": 22.8,
- "status": "aguardando aprovação",
+ "agenda": "2026-11-08 22:00",
+ "palavras": 72,
+ "duracao_estimada_s": 24.8,
+ "status": "roteiro aguardando aprovação",
  "segmentos": [
   {
    "cena": "gancho",
-   "tag": "FIGURINHA ANIMADA DO SEU PERSONAGEM",
-   "fala": "Seu personagem virando um pacote de figurinhas animadas.",
-   "legenda": "Seu personagem virando um pacote de figurinhas animadas.",
+   "tag": "POV: SEU PERSONAGEM VIROU FIGURINHA",
+   "fala": "POV: você manda um desenho e recebe um pacote de figurinhas animadas.",
+   "legenda": "POV: você manda um desenho e recebe um pacote de figurinhas animadas.",
    "sfx": [
     {
      "t": 0.1,
@@ -43,7 +43,7 @@
    ],
    "itens": "figurinha-animada",
    "etiqueta": [
-    "FIGURINHA ANIMADA DO SEU PERSONAGEM",
+    "POV: SEU PERSONAGEM VIROU FIGURINHA",
     "+1 MIL ESTRELAS NA SEMANA",
     ""
    ]
@@ -75,8 +75,8 @@
   {
    "cena": "s4",
    "tag": "",
-   "fala": "Funciona no Codex, e dá pra adaptar pro Claude.",
-   "legenda": "Funciona no Codex, e dá pra adaptar pro Claude.",
+   "fala": "Ela foi feita pro Codex, o assistente de código da OpenAI.",
+   "legenda": "Ela foi feita pro Codex, o assistente de código da OpenAI.",
    "sfx": []
   },
   {
@@ -86,5 +86,10 @@
    "legenda": "Comenta FIGURINHA e me segue que eu te mando o link.",
    "sfx": []
   }
- ]
+ ],
+ "capa": {
+  "texto": "POV: seu personagem virou figurinha animada",
+  "destaque": "figurinha animada"
+ },
+ "formato_extra": "POV + revelação (referencias.md: formato com mais views)"
 }

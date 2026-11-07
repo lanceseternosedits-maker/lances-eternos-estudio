@@ -24,16 +24,16 @@
  "prova_viral": "Estrelas no GitHub (API. 07/11/2026): chadyi/StudyOnTV 745, criado em 01/11.",
  "obs": "Tema próximo de 'estudar' (08/11): ângulo pais + TV. Conferir se a interface aceita perguntas em português.",
  "polemica": false,
- "agenda": "2026-11-15 09:00",
- "palavras": 66,
- "duracao_estimada_s": 22.8,
- "status": "aguardando aprovação",
+ "agenda": "2026-11-08 09:00",
+ "palavras": 67,
+ "duracao_estimada_s": 23.1,
+ "status": "roteiro aguardando aprovação",
  "segmentos": [
   {
    "cena": "gancho",
-   "tag": "A TV QUE SÓ LIGA DEPOIS DA LIÇÃO",
-   "fala": "Essa TV só libera o desenho depois que a criança responde as perguntas.",
-   "legenda": "Essa TV só libera o desenho depois que a criança responde as perguntas.",
+   "tag": "POV: A TV SÓ LIGA DEPOIS DA LIÇÃO",
+   "fala": "POV: seu filho liga a TV e ela pede a lição antes do desenho.",
+   "legenda": "POV: seu filho liga a TV e ela pede a lição antes do desenho.",
    "sfx": [
     {
      "t": 0.1,
@@ -43,7 +43,7 @@
    ],
    "itens": "tv-que-cobra-licao",
    "etiqueta": [
-    "A TV QUE SÓ LIGA DEPOIS DA LIÇÃO",
+    "POV: A TV SÓ LIGA DEPOIS DA LIÇÃO",
     "+1 MIL ESTRELAS NA SEMANA",
     ""
    ]
@@ -86,5 +86,10 @@
    "legenda": "Comenta LICAO e me segue. Você usaria com seu filho?",
    "sfx": []
   }
- ]
+ ],
+ "capa": {
+  "texto": "POV: a TV só liga depois da lição",
+  "destaque": "depois da lição"
+ },
+ "formato_extra": "POV + revelação (referencias.md: formato com mais views)"
 }
