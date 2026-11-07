@@ -1367,6 +1367,97 @@
    "label": "https://github.com/InukaAsith/TwinDesk"
   },
   {
+   "id": "2026-11-08-blender-com-ia",
+   "tipo": "post",
+   "label": "blender-com-ia",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "pilar:reel",
+   "tipo": "pilar",
+   "label": "reel"
+  },
+  {
+   "id": "formato:contagem",
+   "tipo": "formato",
+   "label": "contagem"
+  },
+  {
+   "id": "cta:BLENDER",
+   "tipo": "cta",
+   "label": "BLENDER"
+  },
+  {
+   "id": "tema:blender-com-ia",
+   "tipo": "tema",
+   "label": "blender-com-ia"
+  },
+  {
+   "id": "fonte:https://github.com/5hyuns/maya-workflow-kit-for-blender",
+   "tipo": "fonte",
+   "label": "https://github.com/5hyuns/maya-workflow-kit-for-blender"
+  },
+  {
+   "id": "fonte:https://github.com/EL4CTEO/blender-skills",
+   "tipo": "fonte",
+   "label": "https://github.com/EL4CTEO/blender-skills"
+  },
+  {
+   "id": "fonte:https://github.com/Sandflow-ai/sand3d",
+   "tipo": "fonte",
+   "label": "https://github.com/Sandflow-ai/sand3d"
+  },
+  {
+   "id": "2026-11-08-captura-de-qualquer-bicho",
+   "tipo": "post",
+   "label": "captura-de-qualquer-bicho",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "formato:palco",
+   "tipo": "formato",
+   "label": "palco"
+  },
+  {
+   "id": "cta:BICHO",
+   "tipo": "cta",
+   "label": "BICHO"
+  },
+  {
+   "id": "tema:captura-de-qualquer-bicho",
+   "tipo": "tema",
+   "label": "captura-de-qualquer-bicho"
+  },
+  {
+   "id": "fonte:https://github.com/patch-gg/anymove",
+   "tipo": "fonte",
+   "label": "https://github.com/patch-gg/anymove"
+  },
+  {
+   "id": "2026-11-08-crie-seu-app-de-mac",
+   "tipo": "post",
+   "label": "crie-seu-app-de-mac",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:APP",
+   "tipo": "cta",
+   "label": "APP"
+  },
+  {
+   "id": "tema:crie-seu-app-de-mac",
+   "tipo": "tema",
+   "label": "crie-seu-app-de-mac"
+  },
+  {
+   "id": "fonte:https://github.com/daveebbelaar/bama",
+   "tipo": "fonte",
+   "label": "https://github.com/daveebbelaar/bama"
+  },
+  {
    "id": "2026-11-08-estudar-ia",
    "tipo": "post",
    "label": "estudar-ia",
@@ -1412,6 +1503,50 @@
    "id": "fonte:https://github.com/wquguru/cicada",
    "tipo": "fonte",
    "label": "https://github.com/wquguru/cicada"
+  },
+  {
+   "id": "2026-11-08-figurinha-animada",
+   "tipo": "post",
+   "label": "figurinha-animada",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:FIGURINHA",
+   "tipo": "cta",
+   "label": "FIGURINHA"
+  },
+  {
+   "id": "tema:figurinha-animada",
+   "tipo": "tema",
+   "label": "figurinha-animada"
+  },
+  {
+   "id": "fonte:https://github.com/WoYun520/pixel-gif-sticker-pack",
+   "tipo": "fonte",
+   "label": "https://github.com/WoYun520/pixel-gif-sticker-pack"
+  },
+  {
+   "id": "2026-11-08-laboratorio-3d-gratis",
+   "tipo": "post",
+   "label": "laboratorio-3d-gratis",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:LAB",
+   "tipo": "cta",
+   "label": "LAB"
+  },
+  {
+   "id": "tema:laboratorio-3d-gratis",
+   "tipo": "tema",
+   "label": "laboratorio-3d-gratis"
+  },
+  {
+   "id": "fonte:https://github.com/smithjohn78390/tongjiang-lab",
+   "tipo": "fonte",
+   "label": "https://github.com/smithjohn78390/tongjiang-lab"
   },
   {
    "id": "2026-11-08-nintendo",
@@ -1466,21 +1601,33 @@
    "label": "https://github.com/seedds/nxnative"
   },
   {
+   "id": "2026-11-08-tv-que-cobra-licao",
+   "tipo": "post",
+   "label": "tv-que-cobra-licao",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:LICAO",
+   "tipo": "cta",
+   "label": "LICAO"
+  },
+  {
+   "id": "tema:tv-que-cobra-licao",
+   "tipo": "tema",
+   "label": "tv-que-cobra-licao"
+  },
+  {
+   "id": "fonte:https://github.com/chadyi/StudyOnTV",
+   "tipo": "fonte",
+   "label": "https://github.com/chadyi/StudyOnTV"
+  },
+  {
    "id": "2026-11-09-apps-gratis-mac",
    "tipo": "post",
    "label": "apps-gratis-mac",
    "data": "2026-11-09",
    "score": null
-  },
-  {
-   "id": "pilar:reel",
-   "tipo": "pilar",
-   "label": "reel"
-  },
-  {
-   "id": "formato:contagem",
-   "tipo": "formato",
-   "label": "contagem"
   },
   {
    "id": "cta:MAC",
@@ -1555,11 +1702,6 @@
    "label": "chatgpt-faz-gif",
    "data": "2026-11-09",
    "score": null
-  },
-  {
-   "id": "formato:palco",
-   "tipo": "formato",
-   "label": "palco"
   },
   {
    "id": "cta:GIF",
@@ -2842,126 +2984,6 @@
    "label": "https://github.com/livliv-dev/player"
   },
   {
-   "id": "2026-11-15-blender-com-ia",
-   "tipo": "post",
-   "label": "blender-com-ia",
-   "data": "2026-11-15",
-   "score": null
-  },
-  {
-   "id": "cta:BLENDER",
-   "tipo": "cta",
-   "label": "BLENDER"
-  },
-  {
-   "id": "tema:blender-com-ia",
-   "tipo": "tema",
-   "label": "blender-com-ia"
-  },
-  {
-   "id": "fonte:https://github.com/5hyuns/maya-workflow-kit-for-blender",
-   "tipo": "fonte",
-   "label": "https://github.com/5hyuns/maya-workflow-kit-for-blender"
-  },
-  {
-   "id": "fonte:https://github.com/EL4CTEO/blender-skills",
-   "tipo": "fonte",
-   "label": "https://github.com/EL4CTEO/blender-skills"
-  },
-  {
-   "id": "fonte:https://github.com/Sandflow-ai/sand3d",
-   "tipo": "fonte",
-   "label": "https://github.com/Sandflow-ai/sand3d"
-  },
-  {
-   "id": "2026-11-15-captura-de-qualquer-bicho",
-   "tipo": "post",
-   "label": "captura-de-qualquer-bicho",
-   "data": "2026-11-15",
-   "score": null
-  },
-  {
-   "id": "cta:BICHO",
-   "tipo": "cta",
-   "label": "BICHO"
-  },
-  {
-   "id": "tema:captura-de-qualquer-bicho",
-   "tipo": "tema",
-   "label": "captura-de-qualquer-bicho"
-  },
-  {
-   "id": "fonte:https://github.com/patch-gg/anymove",
-   "tipo": "fonte",
-   "label": "https://github.com/patch-gg/anymove"
-  },
-  {
-   "id": "2026-11-15-crie-seu-app-de-mac",
-   "tipo": "post",
-   "label": "crie-seu-app-de-mac",
-   "data": "2026-11-15",
-   "score": null
-  },
-  {
-   "id": "cta:APP",
-   "tipo": "cta",
-   "label": "APP"
-  },
-  {
-   "id": "tema:crie-seu-app-de-mac",
-   "tipo": "tema",
-   "label": "crie-seu-app-de-mac"
-  },
-  {
-   "id": "fonte:https://github.com/daveebbelaar/bama",
-   "tipo": "fonte",
-   "label": "https://github.com/daveebbelaar/bama"
-  },
-  {
-   "id": "2026-11-15-figurinha-animada",
-   "tipo": "post",
-   "label": "figurinha-animada",
-   "data": "2026-11-15",
-   "score": null
-  },
-  {
-   "id": "cta:FIGURINHA",
-   "tipo": "cta",
-   "label": "FIGURINHA"
-  },
-  {
-   "id": "tema:figurinha-animada",
-   "tipo": "tema",
-   "label": "figurinha-animada"
-  },
-  {
-   "id": "fonte:https://github.com/WoYun520/pixel-gif-sticker-pack",
-   "tipo": "fonte",
-   "label": "https://github.com/WoYun520/pixel-gif-sticker-pack"
-  },
-  {
-   "id": "2026-11-15-laboratorio-3d-gratis",
-   "tipo": "post",
-   "label": "laboratorio-3d-gratis",
-   "data": "2026-11-15",
-   "score": null
-  },
-  {
-   "id": "cta:LAB",
-   "tipo": "cta",
-   "label": "LAB"
-  },
-  {
-   "id": "tema:laboratorio-3d-gratis",
-   "tipo": "tema",
-   "label": "laboratorio-3d-gratis"
-  },
-  {
-   "id": "fonte:https://github.com/smithjohn78390/tongjiang-lab",
-   "tipo": "fonte",
-   "label": "https://github.com/smithjohn78390/tongjiang-lab"
-  },
-  {
    "id": "2026-11-15-skills-chinesas-agencia",
    "tipo": "post",
    "label": "skills-chinesas-agencia",
@@ -3024,28 +3046,6 @@
    "id": "fonte:https://github.com/HeyChengC/vibe-knowledge-film",
    "tipo": "fonte",
    "label": "https://github.com/HeyChengC/vibe-knowledge-film"
-  },
-  {
-   "id": "2026-11-15-tv-que-cobra-licao",
-   "tipo": "post",
-   "label": "tv-que-cobra-licao",
-   "data": "2026-11-15",
-   "score": null
-  },
-  {
-   "id": "cta:LICAO",
-   "tipo": "cta",
-   "label": "LICAO"
-  },
-  {
-   "id": "tema:tv-que-cobra-licao",
-   "tipo": "tema",
-   "label": "tv-que-cobra-licao"
-  },
-  {
-   "id": "fonte:https://github.com/chadyi/StudyOnTV",
-   "tipo": "fonte",
-   "label": "https://github.com/chadyi/StudyOnTV"
   }
  ],
  "links": [
@@ -3395,11 +3395,35 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-08-blender-com-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-08-captura-de-qualquer-bicho"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-08-crie-seu-app-de-mac"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-08-estudar-ia"
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-08-figurinha-animada"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-08-laboratorio-3d-gratis"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-08-nintendo"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-08-tv-que-cobra-licao"
   },
   {
    "source": "rede:instagram",
@@ -3595,35 +3619,11 @@
   },
   {
    "source": "rede:instagram",
-   "target": "2026-11-15-blender-com-ia"
-  },
-  {
-   "source": "rede:instagram",
-   "target": "2026-11-15-captura-de-qualquer-bicho"
-  },
-  {
-   "source": "rede:instagram",
-   "target": "2026-11-15-crie-seu-app-de-mac"
-  },
-  {
-   "source": "rede:instagram",
-   "target": "2026-11-15-figurinha-animada"
-  },
-  {
-   "source": "rede:instagram",
-   "target": "2026-11-15-laboratorio-3d-gratis"
-  },
-  {
-   "source": "rede:instagram",
    "target": "2026-11-15-skills-chinesas-agencia"
   },
   {
    "source": "rede:instagram",
    "target": "2026-11-15-skills-video-explicativo"
-  },
-  {
-   "source": "rede:instagram",
-   "target": "2026-11-15-tv-que-cobra-licao"
   },
   {
    "source": "rede:tiktok",
@@ -3727,11 +3727,35 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-08-blender-com-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-08-captura-de-qualquer-bicho"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-08-crie-seu-app-de-mac"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-08-estudar-ia"
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-08-figurinha-animada"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-08-laboratorio-3d-gratis"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-08-nintendo"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-08-tv-que-cobra-licao"
   },
   {
    "source": "rede:tiktok",
@@ -3927,35 +3951,11 @@
   },
   {
    "source": "rede:tiktok",
-   "target": "2026-11-15-blender-com-ia"
-  },
-  {
-   "source": "rede:tiktok",
-   "target": "2026-11-15-captura-de-qualquer-bicho"
-  },
-  {
-   "source": "rede:tiktok",
-   "target": "2026-11-15-crie-seu-app-de-mac"
-  },
-  {
-   "source": "rede:tiktok",
-   "target": "2026-11-15-figurinha-animada"
-  },
-  {
-   "source": "rede:tiktok",
-   "target": "2026-11-15-laboratorio-3d-gratis"
-  },
-  {
-   "source": "rede:tiktok",
    "target": "2026-11-15-skills-chinesas-agencia"
   },
   {
    "source": "rede:tiktok",
    "target": "2026-11-15-skills-video-explicativo"
-  },
-  {
-   "source": "rede:tiktok",
-   "target": "2026-11-15-tv-que-cobra-licao"
   },
   {
    "source": "rede:youtube",
@@ -4239,6 +4239,30 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-08-blender-com-ia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-08-captura-de-qualquer-bicho"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-08-crie-seu-app-de-mac"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-08-figurinha-animada"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-08-laboratorio-3d-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-09-apps-gratis-mac"
   },
   {
@@ -4431,35 +4455,11 @@
   },
   {
    "source": "horario:20h",
-   "target": "2026-11-15-blender-com-ia"
-  },
-  {
-   "source": "horario:20h",
-   "target": "2026-11-15-captura-de-qualquer-bicho"
-  },
-  {
-   "source": "horario:20h",
-   "target": "2026-11-15-crie-seu-app-de-mac"
-  },
-  {
-   "source": "horario:20h",
-   "target": "2026-11-15-figurinha-animada"
-  },
-  {
-   "source": "horario:20h",
-   "target": "2026-11-15-laboratorio-3d-gratis"
-  },
-  {
-   "source": "horario:20h",
    "target": "2026-11-15-skills-chinesas-agencia"
   },
   {
    "source": "horario:20h",
    "target": "2026-11-15-skills-video-explicativo"
-  },
-  {
-   "source": "horario:20h",
-   "target": "2026-11-15-tv-que-cobra-licao"
   },
   {
    "source": "2026-11-01-github-agentes",
@@ -5359,11 +5359,35 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-08-blender-com-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-08-captura-de-qualquer-bicho"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-08-crie-seu-app-de-mac"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-08-estudar-ia"
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-08-figurinha-animada"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-08-laboratorio-3d-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-08-nintendo"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-08-tv-que-cobra-licao"
   },
   {
    "source": "paleta:paleta None",
@@ -5559,35 +5583,11 @@
   },
   {
    "source": "paleta:paleta None",
-   "target": "2026-11-15-blender-com-ia"
-  },
-  {
-   "source": "paleta:paleta None",
-   "target": "2026-11-15-captura-de-qualquer-bicho"
-  },
-  {
-   "source": "paleta:paleta None",
-   "target": "2026-11-15-crie-seu-app-de-mac"
-  },
-  {
-   "source": "paleta:paleta None",
-   "target": "2026-11-15-figurinha-animada"
-  },
-  {
-   "source": "paleta:paleta None",
-   "target": "2026-11-15-laboratorio-3d-gratis"
-  },
-  {
-   "source": "paleta:paleta None",
    "target": "2026-11-15-skills-chinesas-agencia"
   },
   {
    "source": "paleta:paleta None",
    "target": "2026-11-15-skills-video-explicativo"
-  },
-  {
-   "source": "paleta:paleta None",
-   "target": "2026-11-15-tv-que-cobra-licao"
   },
   {
    "source": "empresa:Anthropic (Claude)",
@@ -5778,100 +5778,56 @@
    "target": "fonte:https://github.com/InukaAsith/TwinDesk"
   },
   {
-   "source": "2026-11-08-estudar-ia",
-   "target": "cta:ESTUDA"
-  },
-  {
-   "source": "2026-11-08-estudar-ia",
-   "target": "tema:estudar com IA"
-  },
-  {
-   "source": "2026-11-08-estudar-ia",
-   "target": "tema:inglês"
-  },
-  {
-   "source": "2026-11-08-estudar-ia",
-   "target": "fonte:https://github.com/zilvestro/grammai"
-  },
-  {
-   "source": "2026-11-08-estudar-ia",
-   "target": "fonte:https://github.com/agharsallah/esp-labs-web"
-  },
-  {
-   "source": "2026-11-08-estudar-ia",
-   "target": "fonte:https://github.com/assafkip/claudemy"
-  },
-  {
-   "source": "2026-11-08-estudar-ia",
-   "target": "fonte:https://github.com/designfuchen/word-atlas"
-  },
-  {
-   "source": "2026-11-08-estudar-ia",
-   "target": "fonte:https://github.com/wquguru/cicada"
-  },
-  {
-   "source": "2026-11-08-nintendo",
-   "target": "cta:JOGO"
-  },
-  {
-   "source": "2026-11-08-nintendo",
-   "target": "tema:games"
-  },
-  {
-   "source": "2026-11-08-nintendo",
-   "target": "tema:Nintendo Switch"
-  },
-  {
-   "source": "2026-11-08-nintendo",
-   "target": "tema:polêmica legal"
-  },
-  {
-   "source": "2026-11-08-nintendo",
-   "target": "fonte:https://github.com/c22dev/mush8"
-  },
-  {
-   "source": "2026-11-08-nintendo",
-   "target": "fonte:https://github.com/LNPANDY/NX2Apple"
-  },
-  {
-   "source": "2026-11-08-nintendo",
-   "target": "fonte:https://github.com/valentderah/totk-pc-recomp"
-  },
-  {
-   "source": "2026-11-08-nintendo",
-   "target": "fonte:https://github.com/ly05010419/MacNativeGames"
-  },
-  {
-   "source": "2026-11-08-nintendo",
-   "target": "fonte:https://github.com/seedds/nxnative"
-  },
-  {
-   "source": "2026-11-09-apps-gratis-mac",
+   "source": "2026-11-08-blender-com-ia",
    "target": "pilar:reel"
   },
   {
-   "source": "2026-11-09-apps-gratis-mac",
+   "source": "2026-11-08-blender-com-ia",
    "target": "formato:contagem"
   },
   {
-   "source": "2026-11-09-apps-gratis-mac",
-   "target": "cta:MAC"
+   "source": "2026-11-08-blender-com-ia",
+   "target": "cta:BLENDER"
   },
   {
-   "source": "2026-11-09-apps-gratis-mac",
-   "target": "tema:apps-gratis-mac"
+   "source": "2026-11-08-blender-com-ia",
+   "target": "tema:blender-com-ia"
   },
   {
-   "source": "2026-11-09-apps-gratis-mac",
-   "target": "fonte:https://github.com/opennookorg/betterwispr"
+   "source": "2026-11-08-blender-com-ia",
+   "target": "fonte:https://github.com/5hyuns/maya-workflow-kit-for-blender"
   },
   {
-   "source": "2026-11-09-apps-gratis-mac",
-   "target": "fonte:https://github.com/SaarthurR/atticus-mac"
+   "source": "2026-11-08-blender-com-ia",
+   "target": "fonte:https://github.com/EL4CTEO/blender-skills"
   },
   {
-   "source": "2026-11-09-apps-gratis-mac",
-   "target": "fonte:https://github.com/alejandrobujan/tendedero"
+   "source": "2026-11-08-blender-com-ia",
+   "target": "fonte:https://github.com/Sandflow-ai/sand3d"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-captura-de-qualquer-bicho"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-crie-seu-app-de-mac"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-figurinha-animada"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-laboratorio-3d-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-09-apps-gratis-mac"
   },
   {
    "source": "pilar:reel",
@@ -6063,26 +6019,6 @@
   },
   {
    "source": "pilar:reel",
-   "target": "2026-11-15-blender-com-ia"
-  },
-  {
-   "source": "pilar:reel",
-   "target": "2026-11-15-captura-de-qualquer-bicho"
-  },
-  {
-   "source": "pilar:reel",
-   "target": "2026-11-15-crie-seu-app-de-mac"
-  },
-  {
-   "source": "pilar:reel",
-   "target": "2026-11-15-figurinha-animada"
-  },
-  {
-   "source": "pilar:reel",
-   "target": "2026-11-15-laboratorio-3d-gratis"
-  },
-  {
-   "source": "pilar:reel",
    "target": "2026-11-15-skills-chinesas-agencia"
   },
   {
@@ -6090,8 +6026,8 @@
    "target": "2026-11-15-skills-video-explicativo"
   },
   {
-   "source": "pilar:reel",
-   "target": "2026-11-15-tv-que-cobra-licao"
+   "source": "formato:contagem",
+   "target": "2026-11-09-apps-gratis-mac"
   },
   {
    "source": "formato:contagem",
@@ -6183,10 +6119,6 @@
   },
   {
    "source": "formato:contagem",
-   "target": "2026-11-15-blender-com-ia"
-  },
-  {
-   "source": "formato:contagem",
    "target": "2026-11-15-skills-chinesas-agencia"
   },
   {
@@ -6194,56 +6126,40 @@
    "target": "2026-11-15-skills-video-explicativo"
   },
   {
-   "source": "2026-11-09-bizarros-github",
-   "target": "cta:BIZARRO"
-  },
-  {
-   "source": "2026-11-09-bizarros-github",
-   "target": "tema:bizarros-github"
-  },
-  {
-   "source": "2026-11-09-bizarros-github",
-   "target": "fonte:https://github.com/Leonxlnx/athenaion"
-  },
-  {
-   "source": "2026-11-09-bizarros-github",
-   "target": "fonte:https://github.com/divagr18/qwenputer"
-  },
-  {
-   "source": "2026-11-09-bizarros-github",
-   "target": "fonte:https://github.com/Noniv/web-ocean"
-  },
-  {
-   "source": "2026-11-09-bizarros-github",
-   "target": "fonte:https://github.com/chenglou/handwired"
-  },
-  {
-   "source": "2026-11-09-bizarros-github",
-   "target": "fonte:https://github.com/aschmelyun/print-my-profile-pic"
-  },
-  {
-   "source": "2026-11-09-chatgpt-faz-gif",
+   "source": "2026-11-08-captura-de-qualquer-bicho",
    "target": "formato:palco"
   },
   {
-   "source": "2026-11-09-chatgpt-faz-gif",
-   "target": "cta:GIF"
+   "source": "2026-11-08-captura-de-qualquer-bicho",
+   "target": "cta:BICHO"
   },
   {
-   "source": "2026-11-09-chatgpt-faz-gif",
-   "target": "tema:chatgpt-faz-gif"
+   "source": "2026-11-08-captura-de-qualquer-bicho",
+   "target": "tema:captura-de-qualquer-bicho"
   },
   {
-   "source": "2026-11-09-chatgpt-faz-gif",
-   "target": "fonte:https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai"
+   "source": "2026-11-08-captura-de-qualquer-bicho",
+   "target": "fonte:https://github.com/patch-gg/anymove"
   },
   {
-   "source": "2026-11-09-chatgpt-faz-gif",
-   "target": "fonte:https://www.androidauthority.com/chatgpt-animated-gif-generation-3731805/"
+   "source": "formato:palco",
+   "target": "2026-11-08-crie-seu-app-de-mac"
   },
   {
-   "source": "2026-11-09-chatgpt-faz-gif",
-   "target": "fonte:https://decrypt.co/382574/chatgpt-gif-maker-openai-unannounced-images-2-6-model"
+   "source": "formato:palco",
+   "target": "2026-11-08-figurinha-animada"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-08-laboratorio-3d-gratis"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-09-chatgpt-faz-gif"
   },
   {
    "source": "formato:palco",
@@ -6342,24 +6258,188 @@
    "target": "2026-11-14-vire-um-personagem"
   },
   {
-   "source": "formato:palco",
-   "target": "2026-11-15-captura-de-qualquer-bicho"
+   "source": "2026-11-08-crie-seu-app-de-mac",
+   "target": "cta:APP"
   },
   {
-   "source": "formato:palco",
-   "target": "2026-11-15-crie-seu-app-de-mac"
+   "source": "2026-11-08-crie-seu-app-de-mac",
+   "target": "tema:crie-seu-app-de-mac"
   },
   {
-   "source": "formato:palco",
-   "target": "2026-11-15-figurinha-animada"
+   "source": "2026-11-08-crie-seu-app-de-mac",
+   "target": "fonte:https://github.com/daveebbelaar/bama"
   },
   {
-   "source": "formato:palco",
-   "target": "2026-11-15-laboratorio-3d-gratis"
+   "source": "2026-11-08-estudar-ia",
+   "target": "cta:ESTUDA"
   },
   {
-   "source": "formato:palco",
-   "target": "2026-11-15-tv-que-cobra-licao"
+   "source": "2026-11-08-estudar-ia",
+   "target": "tema:estudar com IA"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "tema:inglês"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "fonte:https://github.com/zilvestro/grammai"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "fonte:https://github.com/agharsallah/esp-labs-web"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "fonte:https://github.com/assafkip/claudemy"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "fonte:https://github.com/designfuchen/word-atlas"
+  },
+  {
+   "source": "2026-11-08-estudar-ia",
+   "target": "fonte:https://github.com/wquguru/cicada"
+  },
+  {
+   "source": "2026-11-08-figurinha-animada",
+   "target": "cta:FIGURINHA"
+  },
+  {
+   "source": "2026-11-08-figurinha-animada",
+   "target": "tema:figurinha-animada"
+  },
+  {
+   "source": "2026-11-08-figurinha-animada",
+   "target": "fonte:https://github.com/WoYun520/pixel-gif-sticker-pack"
+  },
+  {
+   "source": "2026-11-08-laboratorio-3d-gratis",
+   "target": "cta:LAB"
+  },
+  {
+   "source": "2026-11-08-laboratorio-3d-gratis",
+   "target": "tema:laboratorio-3d-gratis"
+  },
+  {
+   "source": "2026-11-08-laboratorio-3d-gratis",
+   "target": "fonte:https://github.com/smithjohn78390/tongjiang-lab"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "cta:JOGO"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "tema:games"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "tema:Nintendo Switch"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "tema:polêmica legal"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "fonte:https://github.com/c22dev/mush8"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "fonte:https://github.com/LNPANDY/NX2Apple"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "fonte:https://github.com/valentderah/totk-pc-recomp"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "fonte:https://github.com/ly05010419/MacNativeGames"
+  },
+  {
+   "source": "2026-11-08-nintendo",
+   "target": "fonte:https://github.com/seedds/nxnative"
+  },
+  {
+   "source": "2026-11-08-tv-que-cobra-licao",
+   "target": "cta:LICAO"
+  },
+  {
+   "source": "2026-11-08-tv-que-cobra-licao",
+   "target": "tema:tv-que-cobra-licao"
+  },
+  {
+   "source": "2026-11-08-tv-que-cobra-licao",
+   "target": "fonte:https://github.com/chadyi/StudyOnTV"
+  },
+  {
+   "source": "2026-11-09-apps-gratis-mac",
+   "target": "cta:MAC"
+  },
+  {
+   "source": "2026-11-09-apps-gratis-mac",
+   "target": "tema:apps-gratis-mac"
+  },
+  {
+   "source": "2026-11-09-apps-gratis-mac",
+   "target": "fonte:https://github.com/opennookorg/betterwispr"
+  },
+  {
+   "source": "2026-11-09-apps-gratis-mac",
+   "target": "fonte:https://github.com/SaarthurR/atticus-mac"
+  },
+  {
+   "source": "2026-11-09-apps-gratis-mac",
+   "target": "fonte:https://github.com/alejandrobujan/tendedero"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "cta:BIZARRO"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "tema:bizarros-github"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "fonte:https://github.com/Leonxlnx/athenaion"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "fonte:https://github.com/divagr18/qwenputer"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "fonte:https://github.com/Noniv/web-ocean"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "fonte:https://github.com/chenglou/handwired"
+  },
+  {
+   "source": "2026-11-09-bizarros-github",
+   "target": "fonte:https://github.com/aschmelyun/print-my-profile-pic"
+  },
+  {
+   "source": "2026-11-09-chatgpt-faz-gif",
+   "target": "cta:GIF"
+  },
+  {
+   "source": "2026-11-09-chatgpt-faz-gif",
+   "target": "tema:chatgpt-faz-gif"
+  },
+  {
+   "source": "2026-11-09-chatgpt-faz-gif",
+   "target": "fonte:https://thenextweb.com/news/chatgpt-animated-gifs-images-2-6-openai"
+  },
+  {
+   "source": "2026-11-09-chatgpt-faz-gif",
+   "target": "fonte:https://www.androidauthority.com/chatgpt-animated-gif-generation-3731805/"
+  },
+  {
+   "source": "2026-11-09-chatgpt-faz-gif",
+   "target": "fonte:https://decrypt.co/382574/chatgpt-gif-maker-openai-unannounced-images-2-6-model"
   },
   {
    "source": "2026-11-09-ia-chinesa-no-bolso",
@@ -7114,74 +7194,6 @@
    "target": "fonte:https://github.com/livliv-dev/player"
   },
   {
-   "source": "2026-11-15-blender-com-ia",
-   "target": "cta:BLENDER"
-  },
-  {
-   "source": "2026-11-15-blender-com-ia",
-   "target": "tema:blender-com-ia"
-  },
-  {
-   "source": "2026-11-15-blender-com-ia",
-   "target": "fonte:https://github.com/5hyuns/maya-workflow-kit-for-blender"
-  },
-  {
-   "source": "2026-11-15-blender-com-ia",
-   "target": "fonte:https://github.com/EL4CTEO/blender-skills"
-  },
-  {
-   "source": "2026-11-15-blender-com-ia",
-   "target": "fonte:https://github.com/Sandflow-ai/sand3d"
-  },
-  {
-   "source": "2026-11-15-captura-de-qualquer-bicho",
-   "target": "cta:BICHO"
-  },
-  {
-   "source": "2026-11-15-captura-de-qualquer-bicho",
-   "target": "tema:captura-de-qualquer-bicho"
-  },
-  {
-   "source": "2026-11-15-captura-de-qualquer-bicho",
-   "target": "fonte:https://github.com/patch-gg/anymove"
-  },
-  {
-   "source": "2026-11-15-crie-seu-app-de-mac",
-   "target": "cta:APP"
-  },
-  {
-   "source": "2026-11-15-crie-seu-app-de-mac",
-   "target": "tema:crie-seu-app-de-mac"
-  },
-  {
-   "source": "2026-11-15-crie-seu-app-de-mac",
-   "target": "fonte:https://github.com/daveebbelaar/bama"
-  },
-  {
-   "source": "2026-11-15-figurinha-animada",
-   "target": "cta:FIGURINHA"
-  },
-  {
-   "source": "2026-11-15-figurinha-animada",
-   "target": "tema:figurinha-animada"
-  },
-  {
-   "source": "2026-11-15-figurinha-animada",
-   "target": "fonte:https://github.com/WoYun520/pixel-gif-sticker-pack"
-  },
-  {
-   "source": "2026-11-15-laboratorio-3d-gratis",
-   "target": "cta:LAB"
-  },
-  {
-   "source": "2026-11-15-laboratorio-3d-gratis",
-   "target": "tema:laboratorio-3d-gratis"
-  },
-  {
-   "source": "2026-11-15-laboratorio-3d-gratis",
-   "target": "fonte:https://github.com/smithjohn78390/tongjiang-lab"
-  },
-  {
    "source": "2026-11-15-skills-chinesas-agencia",
    "target": "cta:AGENCIA"
   },
@@ -7220,18 +7232,6 @@
   {
    "source": "2026-11-15-skills-video-explicativo",
    "target": "fonte:https://github.com/HeyChengC/vibe-knowledge-film"
-  },
-  {
-   "source": "2026-11-15-tv-que-cobra-licao",
-   "target": "cta:LICAO"
-  },
-  {
-   "source": "2026-11-15-tv-que-cobra-licao",
-   "target": "tema:tv-que-cobra-licao"
-  },
-  {
-   "source": "2026-11-15-tv-que-cobra-licao",
-   "target": "fonte:https://github.com/chadyi/StudyOnTV"
   }
  ]
 }

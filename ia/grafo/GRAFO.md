@@ -1,12 +1,12 @@
 # Grafo de conteúdo do IA em 60s
-Gerado em 2026-11-07 07:19 · 86 posts · 575 nós · 1046 ligações
+Gerado em 2026-11-07 08:04 · 86 posts · 575 nós · 1046 ligações
 
 ## Use antes de criar
 
 - **Temas saturados (3+ posts em 7 dias, evite):** nenhum
 - **Empresas saturadas (3+ posts em 7 dias, evite):** nenhuma
 - **Pilares sem post nos últimos 7 dias (prioridade):** novidade, tutorial, recomendacao, em_alta
-- **Posts por pilar (7 dias):** reel 56
+- **Posts por pilar (7 dias):** reel 50
 
 ## O que vem funcionando
 
