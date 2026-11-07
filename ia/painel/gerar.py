@@ -15,7 +15,11 @@ import json
 import re
 import subprocess
 from collections import defaultdict
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import chance as chance_mod  # noqa: E402  chance estimada de ser bem recebido
 
 IA = Path(__file__).resolve().parent.parent
 PAINEL = IA / "painel"
@@ -138,12 +142,12 @@ function pintar() {
     let f = d.parentNode.querySelector('.flag');
     if (x && x.etapa === d.dataset.etapa) {
       x.decisao === 'aprovado' ? ap++ : ng++;
-      d.style.display = 'none';
+      d.querySelectorAll('button,input').forEach(b => b.style.display = 'none');
       if (!f) { f = document.createElement('div'); d.after(f); }
       f.className = 'flag ' + x.decisao;
       f.innerHTML = (x.decisao === 'aprovado' ? '✔ ' + d.dataset.etapa + ' aprovado' : '✘ negado') + (x.nota ? ' · ' + x.nota.replace(/</g, '&lt;') : '') + '<button>desfazer</button>';
       f.querySelector('button').onclick = () => decidir(d.dataset.pasta, d.dataset.etapa, 'desfazer');
-    } else { falta++; d.style.display = ''; if (f) f.remove(); }
+    } else { falta++; d.querySelectorAll('button').forEach(b => b.style.display = ''); if (f) f.remove(); }
   });
   document.querySelectorAll('li[data-pasta]').forEach(li => { const x = decisoes[li.dataset.pasta]; if (x) li.dataset.dec = x.decisao; else delete li.dataset.dec; });
   aviso(`No app: ${ap} aprovado(s), ${ng} negado(s), ${falta} esperando você. As sessões aplicam as decisões na próxima rodada.`);
@@ -154,7 +158,7 @@ async function carregar() {
     if (!r.ok) throw 0;
     decisoes = await r.json(); pintar();
   } catch (e) {
-    document.querySelectorAll('.decide,.dia-todos').forEach(b => b.style.display = 'none');
+    document.querySelectorAll('.decide button,.dia-todos').forEach(b => b.style.display = 'none');
     aviso('Aprovar e negar funciona só no app IA em 60s (ícone na tela de início).');
   }
 }
@@ -215,6 +219,7 @@ def main() -> None:
         alvo = por_horario.get((p["rede"], p["data"]))
         (alvo["pubs"] if alvo else soltas).append(p)
 
+    hist = chance_mod.historico()
     cartoes = []
     for post in posts:
         pasta, meta, pubs = post["pasta"], post["meta"], post["pubs"]
@@ -306,6 +311,7 @@ def main() -> None:
         img = f'<img loading="lazy" src="{c["capa"]}?v={int((PAINEL / c["capa"]).stat().st_mtime)}" alt="">' if c["capa"] else '<div class="semcapa">sem capa</div>'
         nome = c["pasta"].name if c["pasta"] else "sem pasta no repositório"
         decide = rot_html = ""
+        pct_attr = ""
         if c["pasta"] and "aguardando" in c["status"].lower():
             etapa = "vídeo" if any((c["pasta"] / n).exists() for n in ("reel.mp4", "short.mp4")) else "roteiro"
             rot = ler(c["pasta"] / "roteiro.json", {}) or {}
@@ -313,10 +319,16 @@ def main() -> None:
             if falas:
                 extra = f'<li><b>brinde</b> {esc(rot.get("brinde", ""))}</li>' if rot.get("brinde") else ""
                 rot_html = f'<details class="rot"><summary>Ver roteiro ({rot.get("palavras", "?")} palavras, ~{rot.get("duracao_estimada_s", "?")} s)</summary><ul>{falas}{extra}</ul></details>'
+            ch = chance_mod.chance(c["pasta"], hist)
+            pct_attr = f' data-chance="{ch["pct"]}"'
+            linhas = "".join(f'<li><span class="{"mais" if a > 0 else "menos" if a < 0 else "zero"}">{"+" if a > 0 else ""}{a}</span> {esc(t)}</li>' for a, t in ch["fatores"])
+            porque = (f'<details class="porque"><summary>Por que {ch["pct"]}%? · {esc(ch["tipo"])}</summary><ul>{linhas}</ul>'
+                      f'<p>Estimativa com {len(hist)} Reels medidos ("bem recebido" = mais de 300 views no Instagram). Ajuda a comparar roteiros; não é promessa.</p></details>')
             decide = (f'<div class="decide" data-pasta="{esc(nome)}" data-etapa="{etapa}" data-dia="{esc(c["quando"][:10])}">'
-                      f'<button class="sim">✔ Aprovar {etapa}</button><button class="nao">✘ Negar</button></div>')
+                      f'<span class="chance {ch["nivel"].replace(" ", "-").replace("é", "e")}" title="chance estimada de ser bem recebido">🔥 {ch["pct"]}%<small>{esc(ch["nivel"])}</small></span>'
+                      f'<button class="sim">✔ Aprovar {etapa}</button><button class="nao">✘ Negar</button></div>{porque}')
         html_cartoes.append(
-            f'<article data-pasta="{esc(nome)}" data-status="{esc(c["status"])}">{img}<div class="info"><span class="st {classe(c["status"])}">{esc(c["status"])}</span>'
+            f'<article data-pasta="{esc(nome)}" data-status="{esc(c["status"])}"{pct_attr}>{img}<div class="info"><span class="st {classe(c["status"])}">{esc(c["status"])}</span>'
             f'<h4>{esc(c["titulo"][:110])}</h4><p class="sub">{esc(nome)}</p><p class="sub">{esc(detalhes)}</p>'
             f'<div class="chips">{chips}</div>{"<p class=met>" + "<br>".join(esc(x) for x in met) + "</p>" if met else ""}{chk}{rot_html}{decide}</div></article>')
 
@@ -357,6 +369,10 @@ article img,.semcapa{{width:96px;min-width:96px;height:170px;object-fit:cover;ba
 .rot ul li{{margin:3px 0;color:var(--tx)}}.rot b{{color:var(--mut);font-weight:600}}
 .decide{{margin-top:8px;display:flex;gap:6px;flex-wrap:wrap}}.decide button,.dia-todos,#pinbox button{{font:inherit;font-size:12px;border-radius:8px;padding:6px 10px;cursor:pointer;border:1px solid var(--line);background:#20242d;color:var(--tx)}}
 .decide .sim{{border-color:var(--ok);color:var(--ok)}}.decide .nao{{border-color:var(--erro);color:var(--erro)}}
+.chance{{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:15px;border-radius:8px;padding:3px 9px;line-height:1.1;border:1px solid}}
+.chance small{{font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}}
+.chance.boa-aposta{{color:var(--ok);border-color:var(--ok);background:#3ecf8e1a}}.chance.medio{{color:var(--esp);border-color:var(--esp);background:#ffb5471a}}.chance.arriscado{{color:var(--erro);border-color:var(--erro);background:#ff6b6b1a}}
+.porque ul li{{margin:3px 0;color:var(--tx)}}.porque span{{display:inline-block;min-width:28px;font-weight:700}}.porque .mais{{color:var(--ok)}}.porque .menos{{color:var(--erro)}}.porque .zero{{color:var(--mut)}}.porque p{{color:var(--mut);margin:4px 0 0}}
 .flag{{display:inline-block;font-size:12px;font-weight:700;padding:4px 9px;border-radius:8px;margin-top:8px}}.flag.aprovado{{background:#3ecf8e22;color:var(--ok)}}.flag.negado{{background:#ff6b6b22;color:var(--erro)}}
 .flag button{{margin-left:6px;background:none;border:none;color:var(--mut);font-size:11px;text-decoration:underline;cursor:pointer}}
 .dia-todos{{float:right;font-size:10px!important;padding:2px 6px!important;text-transform:none;border-color:var(--ok)!important;color:var(--ok)!important}}
@@ -369,11 +385,16 @@ li[data-dec=aprovado]::before{{content:"✔";color:var(--ok);font-weight:700;mar
 <h2>Precisa de você</h2><div class="pend"><ul>{pend}</ul><div id="aviso"></div></div>
 <div id="pinbox">PIN do painel:<input id="pin" type="password" inputmode="numeric" autocomplete="off"><button id="pinok">Entrar</button></div>
 <h2>Semana (Instagram, vagas do calendário)</h2><div class="semana">{"".join(semana)}</div>
-<h2>Todos os posts ({len(cartoes)})</h2><div class="filtros"><button data-f="" class="on">todos</button>{filtros}</div>
+<h2>Todos os posts ({len(cartoes)})</h2><div class="filtros"><button data-f="" class="on">todos</button>{filtros}<button id="porchance">🔥 maior chance primeiro</button></div>
 <div class="grade">{"".join(html_cartoes)}</div>
 </main>
 <script>
-document.querySelectorAll('.filtros button').forEach(b=>b.onclick=()=>{{
+document.getElementById('porchance').onclick=()=>{{
+ const g=document.querySelector('.grade');  // prepend em ordem crescente deixa a maior chance no topo
+ [...g.children].filter(a=>a.dataset.chance).sort((a,b)=>a.dataset.chance-b.dataset.chance).forEach(a=>g.prepend(a));
+ document.querySelectorAll('article').forEach(a=>a.style.display=a.dataset.chance?'':'none');
+}};
+document.querySelectorAll('.filtros button:not(#porchance)').forEach(b=>b.onclick=()=>{{
  document.querySelectorAll('.filtros button').forEach(x=>x.classList.toggle('on',x===b));
  document.querySelectorAll('article').forEach(a=>a.style.display=(!b.dataset.f||a.dataset.status===b.dataset.f)?'':'none');
 }});
