@@ -18,8 +18,81 @@
   "instagram": "2026-11-07 21:00",
   "tiktok": "2026-11-07 21:00"
  },
- "status": "roteiro aguardando aprovação",
+ "status": "vídeo aguardando aprovação",
  "capa": {
   "objeto": "morango"
- }
+ },
+ "checagem": {
+  "em": "2026-11-07 17:48",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "33.7 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.44 palavras/s (82 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-13.9 LUFS, pico -1.4 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "960 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "LETRA",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "(sem contador)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 01 + efeitos de papel",
+  "mascote": "chapéu de palha de feirante (no topo da cabeça; o avental saiu para nada ficar na frente do rosto); ação principal: contar morangos nos dedos"
+ },
+ "obs_producao": "Produzido em 07/11 no motor da cena_contagem (mesmo mascote 3D), módulo itens/ia-erra-morango.js: feira de manhã, barraca listrada, morangos gigantes, ímãs de letra STRAWBERRY que se partem em 3 tokens e depois se alinham e acendem. Voz 1,15×: 33,7 s, 2,44 palavras/s. Boca: o mascote não tem boca e nada fica na frente do rosto (avental trocado por chapéu de palha no topo da cabeça). checar.py passou."
 }
