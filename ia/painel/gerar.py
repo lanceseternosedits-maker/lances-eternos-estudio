@@ -24,6 +24,19 @@ BRT = dt.timezone(dt.timedelta(hours=-3))
 VAGAS_UTEIS = ["06:00", "12:00", "17:00", "19:30"]
 VAGAS_FDS = ["09:00", "13:00", "17:00", "20:30"]
 INICIO_4_POR_DIA = dt.date(2026, 11, 9)  # até 08/11 valeu a agenda especial de 2 por dia (estado.json)
+# Exceção (Vitor, 07/11): 09 a 15/11 com 8 Reels por dia (CLAUDE.md)
+SEMANA_8 = (dt.date(2026, 11, 9), dt.date(2026, 11, 15))
+VAGAS8_UTEIS = ["06:00", "08:00", "10:00", "12:00", "14:00", "17:00", "19:30", "21:30"]
+VAGAS8_FDS = ["09:00", "11:00", "13:00", "15:00", "17:00", "19:00", "20:30", "22:00"]
+
+
+def vagas_do_dia(dia: dt.date) -> list[str]:
+    if dia < INICIO_4_POR_DIA:
+        return []
+    fds = dia.weekday() >= 5
+    if SEMANA_8[0] <= dia <= SEMANA_8[1]:
+        return VAGAS8_FDS if fds else VAGAS8_UTEIS
+    return VAGAS_FDS if fds else VAGAS_UTEIS
 DIAS = ["seg", "ter", "qua", "qui", "sex", "sáb", "dom"]
 REDES = {"instagram": "IG", "tiktok": "TT", "youtube": "YT"}
 
@@ -44,6 +57,10 @@ def horarios_do_post(meta: dict) -> list[tuple[str, str]]:
     base = meta.get("data", "")
     out = []
     for chave, valor in (meta.get("horarios") or {}).items():
+        iso = re.search(r"(\d{4}-\d{2}-\d{2})\s+(\d{2}:\d{2})", str(valor))
+        if iso:
+            out.append((chave.split("_")[0], f"{iso.group(1)} {iso.group(2)}"))
+            continue
         m = re.search(r"(?:(\d{2})/(\d{2})\s+)?(\d{2}:\d{2})", str(valor))
         if not m or not base:
             continue
@@ -140,13 +157,17 @@ def main() -> None:
 
     # ---- o que precisa do Vitor
     pendencias = []
+    aguardando = defaultdict(list)
     for c in cartoes:
         nome = c["pasta"].name if c["pasta"] else c["titulo"][:40]
         if "aguardando" in c["status"].lower():
-            pendencias.append(f'<b>{esc(c["status"])}</b>: {esc(nome)}')
+            aguardando[c["status"]].append(nome)
         if c["checagem"] and not c["checagem"]["ok"] and not c["meta"].get("checagem_aceita") and c["status"] not in ("publicado", "negado"):
             falhas = ", ".join(i["nome"] for i in c["checagem"]["itens"] if i["ok"] is False)
             pendencias.append(f"<b>Checagem falhou</b>: {esc(nome)} ({esc(falhas)})")
+    for st, nomes in aguardando.items():
+        lista = "".join(f"<li>{esc(n)}</li>" for n in sorted(nomes))
+        pendencias.insert(0, f'<details><summary><b>{len(nomes)} {esc(st)}</b> ({sorted(nomes)[0][8:10]}/{sorted(nomes)[0][5:7]} a {sorted(nomes)[-1][8:10]}/{sorted(nomes)[-1][5:7]})</summary><ul>{lista}</ul></details>')
     limite = (agora - dt.timedelta(days=3)).strftime("%Y-%m-%d")
     for p in publicacoes:
         if p["status"] == "ERROR" and p["data"] >= limite:
@@ -157,11 +178,16 @@ def main() -> None:
     for p in publicacoes:
         if p["rede"] == "instagram":
             ocupadas[p["data"]].append(p)
+    for c in cartoes:  # roteiros e vídeos ainda sem agendamento entram na vaga prevista
+        if "aguardando" in c["status"].lower():
+            for rede, quando in horarios_do_post(c["meta"]):
+                if rede == "instagram" and quando not in ocupadas:
+                    ocupadas[quando].append({"status": "AGUARDANDO", "texto": c["titulo"], "rascunho": False})
     semana = []
     livres_3_dias = 0
     for d in range(7):
         dia = (agora + dt.timedelta(days=d)).date()
-        vagas = [] if dia < INICIO_4_POR_DIA else VAGAS_FDS if dia.weekday() >= 5 else VAGAS_UTEIS
+        vagas = vagas_do_dia(dia)
         horas = sorted(set(vagas) | {k[11:] for k in ocupadas if k.startswith(str(dia))})
         linhas = []
         for h in horas:
@@ -169,7 +195,7 @@ def main() -> None:
             passou = dt.datetime.combine(dia, dt.time.fromisoformat(h), BRT) < agora
             if ps:
                 p = ps[0]
-                st = {"PUBLISHED": "publicado", "PENDING": "rascunho" if p.get("rascunho") else "agendado", "ERROR": "erro"}[p["status"]]
+                st = {"PUBLISHED": "publicado", "PENDING": "rascunho" if p.get("rascunho") else "agendado", "ERROR": "erro", "AGUARDANDO": "aguardando aprovação"}[p["status"]]
                 linhas.append(f'<li class="{classe(st)}"><span>{h}</span>{esc(p["texto"][:70])}</li>')
             elif h in vagas and not passou:
                 if d < 3:
@@ -231,7 +257,7 @@ main{{padding:0 16px 40px;max-width:1200px;margin:auto}}
 .semana{{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px}}
 .dia{{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:8px 10px}}.dia h3{{margin:0 0 6px;font-size:13px;text-transform:uppercase;color:var(--mut)}}
 .dia ul{{list-style:none;margin:0;padding:0}}.dia li{{font-size:12px;padding:5px 0;border-top:1px solid var(--line)}}.dia li span{{display:inline-block;width:42px;font-weight:600}}
-li.livre{{color:var(--esp)}}li.ok span{{color:var(--ok)}}li.agenda span{{color:var(--ag)}}li.erro{{color:var(--erro)}}
+li.livre{{color:var(--esp)}}li.espera span{{color:var(--esp)}}.pend details{{font-size:14px}}.pend details ul{{margin:4px 0;columns:2;font-size:12px;color:var(--mut)}}li.ok span{{color:var(--ok)}}li.agenda span{{color:var(--ag)}}li.erro{{color:var(--erro)}}
 .filtros button{{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:20px;padding:5px 12px;margin:0 6px 6px 0;font:inherit;cursor:pointer}}
 .filtros button.on{{border-color:var(--ag);color:var(--ag)}}
 .grade{{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}}
