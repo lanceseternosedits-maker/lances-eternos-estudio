@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "CONTEXTO",
+ "tese": "A IA É UM ESTAGIÁRIO GÊNIO",
+ "conceito": "Primeiro dia de estágio num escritório: crachá 'NOVO', mesa vazia com uma plantinha, mural de avisos e um manual gigante caindo no colo do mascote. Paleta coral + cinza-escritório.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita adesiva",
+  "nome": "c) máquina de escrever",
+  "contador": "c) velocímetro/medidor circular",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "b) chicote de câmera (whip pan)",
+  "camera": "d) órbita",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 01 + teclado de escritório",
+  "mascote": "crachá 'NOVO' e mochila; ação principal: ler o manual de boas-vindas"
+ },
+ "brinde": "modelo de frase de contexto",
+ "fontes": [
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+  "https://www.xatakaon.com/robotics-and-ai/if-youre-wondering-how-to-create-effective-ai-prompts-anthropic-just-released-a-guide"
+ ],
+ "prova_viral": "Incômodo comum (resposta genérica); guia oficial do Claude: 'Think of Claude as a brilliant but new employee who lacks context on your norms and workflows'.",
+ "obs": "Citar como 'o manual do Claude diz' (frase verificada na página oficial).",
+ "polemica": false,
+ "agenda": "2026-11-12 12:00",
+ "palavras": 88,
+ "duracao_estimada_s": 31.4,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IA É UM ESTAGIÁRIO GÊNIO",
+   "fala": "A resposta da IA sai genérica? O problema não é ela. É o que falta no seu pedido.",
+   "legenda": "A resposta da IA sai genérica? O problema não é ela. É o que falta no seu pedido.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "A IA É UM ESTAGIÁRIO GÊNIO",
+    "FALTA CONTEXTO, NÃO INTELIGÊNCIA",
+    "E 1 FRASE RESOLVE"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O próprio manual do Claude diz: trate a IA como um funcionário brilhante, mas novo.",
+   "legenda": "O próprio manual do Claude diz: trate a IA como um funcionário brilhante, mas novo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Ela não sabe pra quem é o texto, nem pra que serve, nem como você gosta.",
+   "legenda": "Ela não sabe pra quem é o texto, nem pra que serve, nem como você gosta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Uma frase muda tudo. Comenta CONTEXTO que eu te mando o modelo.",
+   "legenda": "Uma frase muda tudo. Comenta CONTEXTO que eu te mando o modelo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Começa assim: isso é pra tal pessoa, eu quero conseguir tal coisa, e o tom é esse.",
+   "legenda": "Começa assim: isso é pra tal pessoa, eu quero conseguir tal coisa, e o tom é esse.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA CONTEXTO",
+   "fala": "Comenta CONTEXTO e me segue. Qual pedido você vai refazer?",
+   "legenda": "Comenta CONTEXTO e me segue. Qual pedido você vai refazer?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

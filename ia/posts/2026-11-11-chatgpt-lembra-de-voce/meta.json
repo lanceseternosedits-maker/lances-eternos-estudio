@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-11",
+ "horario": "12:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "chatgpt-lembra-de-voce"
+ ],
+ "fontes": [
+  "https://help.openai.com/en/articles/8590148-memory-faq",
+  "https://help.openai.com/en/articles/8983136-what-is-memory"
+ ],
+ "prova_viral": "Incômodo comum ('como ele sabia disso?'); ajuda oficial da OpenAI explica a memória, como apagar e que apagar a conversa não apaga a memória.",
+ "cta": "MEMORIA",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-11 12:00",
+  "tiktok": "2026-11-11 12:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

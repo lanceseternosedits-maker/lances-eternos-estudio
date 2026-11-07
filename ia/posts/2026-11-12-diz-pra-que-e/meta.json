@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-12",
+ "horario": "12:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "diz-pra-que-e"
+ ],
+ "fontes": [
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+  "https://www.xatakaon.com/robotics-and-ai/if-youre-wondering-how-to-create-effective-ai-prompts-anthropic-just-released-a-guide"
+ ],
+ "prova_viral": "Incômodo comum (resposta genérica); guia oficial do Claude: 'Think of Claude as a brilliant but new employee who lacks context on your norms and workflows'.",
+ "cta": "CONTEXTO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-12 12:00",
+  "tiktok": "2026-11-12 12:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

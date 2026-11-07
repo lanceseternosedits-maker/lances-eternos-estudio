@@ -40,3 +40,10 @@ Regra do Vitor: ninguém quer "aprender IA". O vídeo responde uma **curiosidade
 - [ ] **O que é "treinar" uma IA** — ler bilhões de textos e ajustar bilhões de botõezinhos (parâmetros); quanto custa. Fontes: relatório AI Index (Stanford HAI) com custos de treino.
 - [x] (10/11 08:00, pense-passo-a-passo) **4 palavras que fazem a IA errar menos** — "vamos pensar passo a passo" (Kojima et al., NeurIPS 2022: 17,7% → 78,7%). Fontes: arXiv 2205.11916 · NeurIPS.
 - [x] (13/11 08:00, ia-puxa-saco) **Sua IA concorda demais com você** — atualização bajuladora do GPT-4o desfeita (25→29/04/2025). Fontes: TechCrunch · VentureBeat.
+- [x] (09/11 12:00, manda-print) **Para de descrever: manda print** — a IA lê imagem. Fontes: Vision (platform.claude.com) · guia de imagens da OpenAI.
+- [x] (10/11 12:00, mostra-um-exemplo) **Ela nunca escreve do seu jeito?** — mostrar exemplos (artigo do GPT-3, 2020; guia do Claude). Fontes: arXiv 2005.14165 · guia oficial do Claude.
+- [x] (11/11 12:00, chatgpt-lembra-de-voce) **O ChatGPT lembra de você** — memória; apagar a conversa não apaga a memória. Fonte: Memory FAQ da OpenAI.
+- [x] (12/11 12:00, diz-pra-que-e) **A IA é um estagiário gênio** — dar contexto (pra quem, pra quê, tom). Fonte: guia oficial do Claude.
+- [x] (13/11 12:00, ia-enrola-demais) **Sua IA enrola demais?** — dizer tamanho e formato. Fonte: guia de prompts da OpenAI.
+- [x] (14/11 13:00, modo-pensar) **Quando usar o modo pensar** — o1: 74% × 12% no AIME 2024. Fonte: openai.com (12/09/2024).
+- [x] (15/11 13:00, divide-a-tarefa) **Pediu tudo de uma vez? Errou** — dividir em partes. Fontes: guias da OpenAI e da Anthropic.

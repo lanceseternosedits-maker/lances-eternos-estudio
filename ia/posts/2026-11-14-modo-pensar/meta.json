@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-14",
+ "horario": "13:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "modo-pensar"
+ ],
+ "fontes": [
+  "https://openai.com/index/learning-to-reason-with-llms/",
+  "https://simonwillison.net/2024/Sep/12/openai-o1/"
+ ],
+ "prova_viral": "Curiosidade comum (por que ela 'pensa'); anúncio oficial do o1 (OpenAI, 12/09/2024): 74% no AIME 2024 com uma tentativa contra 12% do GPT-4o.",
+ "cta": "PENSAR",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-14 13:00",
+  "tiktok": "2026-11-14 13:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

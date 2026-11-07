@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-10",
+ "horario": "12:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "mostra-um-exemplo"
+ ],
+ "fontes": [
+  "https://arxiv.org/abs/2005.14165",
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+ ],
+ "prova_viral": "Incômodo comum (texto genérico da IA); técnica do artigo do GPT-3 (NeurIPS 2020) e recomendada no guia oficial do Claude ('A few well-crafted examples... improve accuracy and consistency').",
+ "cta": "EXEMPLO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-10 12:00",
+  "tiktok": "2026-11-10 12:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "MEMORIA",
+ "tese": "O CHATGPT LEMBRA DE VOCÊ",
+ "conceito": "Arquivo antigo de biblioteca: gaveteiro gigante de fichas com o nome 'VOCÊ', carimbo de data, escada de rodinha; uma borracha enorme apagando fichas. Paleta madeira-mel + azul-marinho.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "b) carimbo batendo",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "a) flash branco",
+  "camera": "c) travelling lateral",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + gaveta de fichário",
+  "mascote": "óculos redondos e lápis atrás da orelha; ação principal: abrir gavetas de fichas"
+ },
+ "brinde": "o caminho pra ver e apagar as memórias",
+ "fontes": [
+  "https://help.openai.com/en/articles/8590148-memory-faq",
+  "https://help.openai.com/en/articles/8983136-what-is-memory"
+ ],
+ "prova_viral": "Incômodo comum ('como ele sabia disso?'); ajuda oficial da OpenAI explica a memória, como apagar e que apagar a conversa não apaga a memória.",
+ "obs": "Os nomes do menu variam por versão (Configurações > Personalização > Gerenciar memórias): conferir no app no dia. A ajuda não abriu daqui (host bloqueado); conteúdo conferido em cópias indexadas da página oficial.",
+ "polemica": false,
+ "agenda": "2026-11-11 12:00",
+ "palavras": 86,
+ "duracao_estimada_s": 30.7,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "O CHATGPT LEMBRA DE VOCÊ",
+   "fala": "Já reparou que o ChatGPT lembra de coisa que você falou semanas atrás? Não é coincidência.",
+   "legenda": "Já reparou que o ChatGPT lembra de coisa que você falou semanas atrás? Não é coincidência.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "O CHATGPT LEMBRA DE VOCÊ",
+    "A MEMÓRIA DO CHATGPT",
+    "E COMO VER O QUE ELE GUARDOU"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Ele tem uma memória que guarda detalhes seus de uma conversa pra outra.",
+   "legenda": "Ele tem uma memória que guarda detalhes seus de uma conversa pra outra.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "E tem uma pegadinha: apagar a conversa não apaga o que ele memorizou.",
+   "legenda": "E tem uma pegadinha: apagar a conversa não apaga o que ele memorizou.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Dá pra ver e controlar tudo. Comenta MEMORIA que eu te mando o caminho.",
+   "legenda": "Dá pra ver e controlar tudo. Comenta MEMORIA que eu te mando o caminho.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Vai nas configurações, em personalização, e abre as memórias. Apaga o que não quer e deixa o que ajuda.",
+   "legenda": "Vai nas configurações, em personalização, e abre as memórias. Apaga o que não quer e deixa o que ajuda.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA MEMORIA",
+   "fala": "Comenta MEMORIA e me segue. Você sabia que ele guardava isso?",
+   "legenda": "Comenta MEMORIA e me segue. Você sabia que ele guardava isso?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

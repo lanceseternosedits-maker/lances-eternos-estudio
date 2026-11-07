@@ -16,8 +16,10 @@ from pathlib import Path
 
 IA = Path(__file__).resolve().parent.parent
 POSTS = IA / "posts"
-UTEIS = [("06:00", "N"), ("08:00", "F"), ("10:00", "N"), ("12:00", "N"), ("14:00", "H"), ("17:00", "N"), ("19:30", "H"), ("21:30", "N")]
-FDS = [("07:00", "N"), ("09:00", "F"), ("11:00", "N"), ("13:00", "N"), ("15:00", "H"), ("17:00", "N"), ("19:00", "H"), ("20:30", "N")]
+# Vitor (07/11): intercalar sempre (nunca 2 novidades seguidas): 4 🆕 + 2 ⚙️ (manhã) + 2 📜 (noite)
+UTEIS = [("06:00", "N"), ("08:00", "F"), ("10:00", "N"), ("12:00", "F"), ("14:00", "N"), ("17:00", "H"), ("19:30", "N"), ("21:30", "H")]
+FDS = [("07:00", "N"), ("09:00", "F"), ("11:00", "N"), ("13:00", "F"), ("15:00", "N"), ("17:00", "H"), ("19:00", "N"), ("20:30", "H")]
+FDS_08 = [("07:00", "N"), ("09:00", "F"), ("11:00", "N"), ("13:00", "N"), ("15:00", "H"), ("17:00", "N"), ("19:00", "H"), ("20:30", "N")]  # 08/11 já agendado, grade antiga
 HOJE_RESTO = [("15:00", "N"), ("17:00", "N"), ("19:00", "H"), ("21:00", "F")]  # sábado 07/11: 6 no total (Vitor, 07/11)
 FIXOS = {"2026-11-07 13:00": "2026-11-07-editar-video", "2026-11-07 20:30": "2026-11-07-programas-pc",
          "2026-11-08 13:00": "2026-11-08-estudar-ia", "2026-11-08 20:30": "2026-11-05-10-estilos"}
@@ -25,6 +27,8 @@ FIXOS = {"2026-11-07 13:00": "2026-11-07-editar-video", "2026-11-07 20:30": "202
 PRIMEIRAS = ["2026-11-08-windows-gratis", "2026-11-08-console-no-celular", "2026-11-08-skills-de-design",
              "2026-11-08-estudio-de-voz-gratis", "2026-11-08-captura-de-qualquer-bicho", "2026-11-08-apps-pra-quem-vive-no-chat",
              "2026-11-08-video-do-zero", "2026-11-08-ia-gigante-no-pc", "2026-11-08-skills-chinesas-agencia", "2026-11-08-crie-seu-app-de-mac"]
+# aprovados primeiro; roteiro ainda sem aprovação fica por último
+ORDEM_STATUS = {"vídeo aguardando aprovação": 0, "roteiro aprovado": 1, "roteiro aguardando aprovação": 2}
 CAT = {"N": "novidade", "H": "historia", "F": "como_funciona"}
 ROT = {"N": "🆕", "H": "📜", "F": "⚙️"}
 
@@ -37,7 +41,7 @@ def slots():
     out = [("2026-11-07", h, c) for h, c in HOJE_RESTO]
     d = dt.date(2026, 11, 8)
     while d <= dt.date(2026, 11, 15):
-        for h, c in (FDS if d.weekday() >= 5 else UTEIS):
+        for h, c in (FDS_08 if d == dt.date(2026, 11, 8) else FDS if d.weekday() >= 5 else UTEIS):
             out.append((str(d), h, c))
         d += dt.timedelta(days=1)
     return out
@@ -65,7 +69,8 @@ def main(aplicar: bool):
                 sem_lugar.append(nome)
     novidades = [n for n in PRIMEIRAS if n in posts] + sorted(
         (n for n, x in posts.items() if x["cat"] == "novidade" and n not in PRIMEIRAS),
-        key=lambda n: ((posts[n]["meta"].get("horarios") or {}).get("instagram") or n))
+        key=lambda n: (ORDEM_STATUS.get(posts[n]["meta"].get("status") or "", 0),
+                       (posts[n]["meta"].get("horarios") or {}).get("instagram") or n))
     linhas, vagas = [], []
     for data, h, c in slots():
         q = f"{data} {h}"
@@ -95,7 +100,7 @@ def main(aplicar: bool):
                 (p / "roteiro.json").write_text(json.dumps(r, ensure_ascii=False, indent=1), encoding="utf-8")
     (IA / "semana" / "cronograma.md").write_text(
         "# Cronograma por categoria (07 a 15/11)\n\nGerado por `semana/cronograma.py`. 🆕 novidade · 📜 história · ⚙️ como funciona.\n"
-        "Regra: 8 por dia = 5 🆕 + 2 📜 + 1 ⚙️ (sábado 07/11: 6 no total).\n\n| Quando | Cat. | Post |\n|---|---|---|\n"
+        "Regra (Vitor, 07/11): 8 por dia, sempre intercalado = 4 🆕 + 2 ⚙️ + 2 📜, nunca 2 novidades seguidas (sábado 07/11: 6 no total; domingo 08/11 ficou na grade antiga, já agendado).\n\n| Quando | Cat. | Post |\n|---|---|---|\n"
         + "\n".join(linhas) + f"\n\nVagas: {len(vagas)}. Novidades sem horário: {', '.join(novidades) or 'nenhuma'}.\n", encoding="utf-8")
 
 

@@ -1,0 +1,8 @@
+Aqui está! 🗂️
+
+ChatGPT → Configurações → Personalização → Gerenciar memórias.
+Lá você vê tudo o que ele guardou e apaga item por item (ou tudo).
+Atenção: apagar a conversa NÃO apaga a memória. Apague nos dois lugares.
+Dica: você também pode escrever "esqueça que eu…" no chat.
+
+📚 Ajuda oficial: https://help.openai.com/en/articles/8590148-memory-faq

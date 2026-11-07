@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-09",
+ "horario": "12:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "manda-print"
+ ],
+ "fontes": [
+  "https://platform.claude.com/docs/en/build-with-claude/vision",
+  "https://platform.openai.com/docs/guides/images-vision"
+ ],
+ "prova_viral": "Incômodo comum (explicar erro por texto); leitura de imagem documentada nos guias oficiais da Anthropic e da OpenAI.",
+ "cta": "PRINT",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-09 12:00",
+  "tiktok": "2026-11-09 12:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

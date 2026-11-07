@@ -1,6 +1,6 @@
 {
  "data": "2026-11-11",
- "horario": "06:00",
+ "horario": "14:00",
  "pilar": "reel",
  "formato": "palco",
  "temas": [
@@ -12,8 +12,8 @@
  "cta": "CHINA",
  "polemica": true,
  "horarios": {
-  "instagram": "2026-11-11 06:00",
-  "tiktok": "2026-11-11 06:00"
+  "instagram": "2026-11-11 14:00",
+  "tiktok": "2026-11-11 14:00"
  },
  "status": "roteiro aprovado",
  "categoria": "novidade"

@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "PARTES",
+ "tese": "PEDIU TUDO DE UMA VEZ? ERROU",
+ "conceito": "Confeitaria: bancada com receita em etapas presa num varal, tigelas numeradas, forno com visor; um bolo de andares montado andar por andar. Paleta rosa-glacê + marrom-chocolate.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "e) glitch RGB",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 01 + batedeira + forno",
+  "mascote": "chapéu de confeiteiro; ação principal: montar o bolo andar por andar"
+ },
+ "brinde": "roteiro de 3 mensagens pra tarefa grande",
+ "fontes": [
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-prompts",
+  "https://khub.net/web/digital-sharing-hub/resources/-/ddl_display/ddl/1070475023/968336903/maximized"
+ ],
+ "prova_viral": "Incômodo comum (ela pula partes); dica dos guias oficiais da OpenAI ('split complex tasks into simpler subtasks') e da Anthropic (encadear prompts).",
+ "obs": "As páginas oficiais não abriram por completo daqui; a dica foi conferida em reprodução do guia da OpenAI e em resumos do guia da Anthropic. Conferir no dia.",
+ "polemica": false,
+ "agenda": "2026-11-15 13:00",
+ "palavras": 86,
+ "duracao_estimada_s": 30.7,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "PEDIU TUDO DE UMA VEZ? ERROU",
+   "fala": "Você pede tudo de uma vez pra IA e ela esquece metade. Normal.",
+   "legenda": "Você pede tudo de uma vez pra IA e ela esquece metade. Normal.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "PEDIU TUDO DE UMA VEZ? ERROU",
+    "UMA TAREFA POR VEZ",
+    "O TRUQUE DOS MANUAIS"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Quanto mais coisa num pedido só, maior a chance de ela pular uma etapa.",
+   "legenda": "Quanto mais coisa num pedido só, maior a chance de ela pular uma etapa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Os guias da OpenAI e da Anthropic dão a mesma dica: quebre a tarefa em partes.",
+   "legenda": "Os guias da OpenAI e da Anthropic dão a mesma dica: quebre a tarefa em partes.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "É tipo receita de bolo, um passo por vez. Comenta PARTES que eu te mando o roteiro.",
+   "legenda": "É tipo receita de bolo, um passo por vez. Comenta PARTES que eu te mando o roteiro.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Primeiro pede o plano. Depois, uma parte por mensagem. No fim, manda ela juntar tudo.",
+   "legenda": "Primeiro pede o plano. Depois, uma parte por mensagem. No fim, manda ela juntar tudo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA PARTES",
+   "fala": "Comenta PARTES e me segue. Qual tarefa grande você vai dividir?",
+   "legenda": "Comenta PARTES e me segue. Qual tarefa grande você vai dividir?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

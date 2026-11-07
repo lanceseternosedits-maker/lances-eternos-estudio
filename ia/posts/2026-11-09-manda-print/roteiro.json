@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "PRINT",
+ "tese": "PARA DE DESCREVER: MANDA PRINT",
+ "conceito": "Assistência técnica de bairro: balcão com celulares abertos, lupa de relojoeiro, uma Polaroid que cospe o print e um quadro de cortiça cheio de fotos de telas de erro. Paleta amarelo-mostarda + azul-elétrico.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "f) escrito à mão",
+  "contador": "e) placar 8-bit HI-SCORE",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 01 + obturador de Polaroid",
+  "mascote": "lupa de relojoeiro no olho; ação principal: tirar foto com a Polaroid"
+ },
+ "brinde": "prompts prontos pra mandar junto com o print",
+ "fontes": [
+  "https://platform.claude.com/docs/en/build-with-claude/vision",
+  "https://platform.openai.com/docs/guides/images-vision"
+ ],
+ "prova_viral": "Incômodo comum (explicar erro por texto); leitura de imagem documentada nos guias oficiais da Anthropic e da OpenAI.",
+ "obs": "Página da OpenAI não abriu daqui (host bloqueado); a da Anthropic confirma: 'process and analyze images' (JPEG, PNG, GIF, WebP). Exemplos (conta de luz, cardápio) são usos, não dados.",
+ "polemica": false,
+ "agenda": "2026-11-09 12:00",
+ "palavras": 86,
+ "duracao_estimada_s": 30.7,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "PARA DE DESCREVER: MANDA PRINT",
+   "fala": "Você gasta cinco minutos explicando um erro pra IA. Era só mandar um print.",
+   "legenda": "Você gasta cinco minutos explicando um erro pra IA. Era só mandar um print.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "PARA DE DESCREVER: MANDA PRINT",
+    "A IA LÊ IMAGEM",
+    "E ENTENDE MAIS RÁPIDO"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "As IAs de hoje leem imagem: tela de erro, gráfico, conta de luz, foto de cardápio.",
+   "legenda": "As IAs de hoje leem imagem: tela de erro, gráfico, conta de luz, foto de cardápio.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Ela vê exatamente o que você tá vendo, sem você esquecer nenhum detalhe.",
+   "legenda": "Ela vê exatamente o que você tá vendo, sem você esquecer nenhum detalhe.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "E dá pra pedir coisa bem específica. Comenta PRINT que eu te mando os prompts.",
+   "legenda": "E dá pra pedir coisa bem específica. Comenta PRINT que eu te mando os prompts.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Manda o print e escreve: o que tá errado aqui e como eu resolvo, passo a passo.",
+   "legenda": "Manda o print e escreve: o que tá errado aqui e como eu resolvo, passo a passo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA PRINT",
+   "fala": "Comenta PRINT e me segue. Qual print você vai mandar primeiro?",
+   "legenda": "Comenta PRINT e me segue. Qual print você vai mandar primeiro?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

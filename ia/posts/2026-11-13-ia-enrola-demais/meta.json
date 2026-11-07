@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-13",
+ "horario": "12:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "ia-enrola-demais"
+ ],
+ "fontes": [
+  "https://platform.openai.com/docs/guides/prompt-engineering",
+  "https://khub.net/web/digital-sharing-hub/resources/-/ddl_display/ddl/1070475023/968336903/maximized"
+ ],
+ "prova_viral": "Incômodo comum (resposta longa demais); o guia oficial da OpenAI lista 'Specify the desired length of the output' entre as táticas.",
+ "cta": "CURTO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-13 12:00",
+  "tiktok": "2026-11-13 12:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

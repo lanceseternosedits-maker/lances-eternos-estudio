@@ -1,6 +1,6 @@
 {
  "data": "2026-11-12",
- "horario": "14:00",
+ "horario": "17:00",
  "pilar": "reel",
  "categoria": "historia",
  "formato": "palco",
@@ -16,8 +16,8 @@
  "cta": "WATSON",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-12 14:00",
-  "tiktok": "2026-11-12 14:00"
+  "instagram": "2026-11-12 17:00",
+  "tiktok": "2026-11-12 17:00"
  },
  "status": "roteiro aguardando aprovação"
 }

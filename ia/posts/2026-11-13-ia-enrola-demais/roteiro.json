@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "CURTO",
+ "tese": "SUA IA ENROLA DEMAIS?",
+ "conceito": "Estúdio de rádio AM: microfone de pedestal, placa 'NO AR', cronômetro de cozinha gigante e uma tesoura que corta a fita do discurso. Paleta vermelho-rádio + creme.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "d) letreiro split-flap",
+  "contador": "d) pote enchendo de estrelas",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "e) página de caderno",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 02 + tesoura + estática de rádio",
+  "mascote": "fone de radialista; ação principal: cortar a fita com a tesoura"
+ },
+ "brinde": "prompts pra resposta curta e direta",
+ "fontes": [
+  "https://platform.openai.com/docs/guides/prompt-engineering",
+  "https://khub.net/web/digital-sharing-hub/resources/-/ddl_display/ddl/1070475023/968336903/maximized"
+ ],
+ "prova_viral": "Incômodo comum (resposta longa demais); o guia oficial da OpenAI lista 'Specify the desired length of the output' entre as táticas.",
+ "obs": "A página da OpenAI não abriu daqui (host bloqueado); a tática foi conferida em reprodução do guia. 'Costuma caprichar demais' é opinião, sem número.",
+ "polemica": false,
+ "agenda": "2026-11-13 12:00",
+ "palavras": 84,
+ "duracao_estimada_s": 30.0,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "SUA IA ENROLA DEMAIS?",
+   "fala": "Você faz uma pergunta simples e a IA te devolve uma redação. Tem jeito.",
+   "legenda": "Você faz uma pergunta simples e a IA te devolve uma redação. Tem jeito.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "SUA IA ENROLA DEMAIS?",
+    "ELA NÃO SABE QUANDO PARAR",
+    "E COMO DEIXAR DIRETA"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Se você não diz o tamanho, ela escolhe sozinha. E costuma caprichar demais.",
+   "legenda": "Se você não diz o tamanho, ela escolhe sozinha. E costuma caprichar demais.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "O guia oficial da OpenAI ensina: diga o tamanho e o formato da resposta.",
+   "legenda": "O guia oficial da OpenAI ensina: diga o tamanho e o formato da resposta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Funciona em qualquer IA. Comenta CURTO que eu te mando os prompts.",
+   "legenda": "Funciona em qualquer IA. Comenta CURTO que eu te mando os prompts.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Escreve: responde em três linhas. Ou: me dá só uma lista de cinco itens, sem introdução.",
+   "legenda": "Escreve: responde em três linhas. Ou: me dá só uma lista de cinco itens, sem introdução.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA CURTO",
+   "fala": "Comenta CURTO e me segue. Qual foi a maior enrolação que ela já te deu?",
+   "legenda": "Comenta CURTO e me segue. Qual foi a maior enrolação que ela já te deu?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-15",
+ "horario": "13:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "divide-a-tarefa"
+ ],
+ "fontes": [
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-prompts",
+  "https://khub.net/web/digital-sharing-hub/resources/-/ddl_display/ddl/1070475023/968336903/maximized"
+ ],
+ "prova_viral": "Incômodo comum (ela pula partes); dica dos guias oficiais da OpenAI ('split complex tasks into simpler subtasks') e da Anthropic (encadear prompts).",
+ "cta": "PARTES",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-15 13:00",
+  "tiktok": "2026-11-15 13:00"
+ },
+ "status": "roteiro aguardando aprovação"
+}

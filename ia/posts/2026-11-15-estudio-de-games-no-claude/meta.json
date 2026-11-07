@@ -1,6 +1,6 @@
 {
- "data": "2026-11-15",
- "horario": "13:00",
+ "data": "2026-11-18",
+ "horario": "06:00",
  "pilar": "reel",
  "categoria": "novidade",
  "formato": "palco",
@@ -15,8 +15,9 @@
  "cta": "GAME",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-15 13:00",
-  "tiktok": "2026-11-15 13:00"
+  "instagram": "2026-11-18 06:00",
+  "tiktok": "2026-11-18 06:00"
  },
- "status": "roteiro aguardando aprovação"
+ "status": "roteiro aguardando aprovação",
+ "horario_provisorio": "Vitor (07/11): grade intercalada (4 🆕 por dia em 09–15/11) tirou esta novidade da semana; horário provisório, a rodada de quinta (12/11) confirma"
 }

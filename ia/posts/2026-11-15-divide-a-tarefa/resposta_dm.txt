@@ -1,0 +1,5 @@
+Aqui está! 🎂
+
+1ª mensagem: "Quero [tarefa grande]. Antes de fazer, me mostre um plano em etapas."
+2ª: "Agora faça só a etapa 1." (repita para cada etapa)
+Última: "Junte tudo num resultado final e revise se faltou algo."

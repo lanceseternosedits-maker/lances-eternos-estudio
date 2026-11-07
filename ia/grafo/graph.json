@@ -1616,7 +1616,7 @@
    "id": "2026-11-08-crie-seu-app-de-mac",
    "tipo": "post",
    "label": "crie-seu-app-de-mac",
-   "data": "2026-11-09",
+   "data": "2026-11-10",
    "score": null
   },
   {
@@ -2059,7 +2059,7 @@
    "id": "2026-11-09-apps-gratis-mac",
    "tipo": "post",
    "label": "apps-gratis-mac",
-   "data": "2026-11-10",
+   "data": "2026-11-11",
    "score": null
   },
   {
@@ -2282,10 +2282,37 @@
    "label": "https://github.com/ctresb/leis"
   },
   {
+   "id": "2026-11-09-manda-print",
+   "tipo": "post",
+   "label": "manda-print",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "cta:PRINT",
+   "tipo": "cta",
+   "label": "PRINT"
+  },
+  {
+   "id": "tema:manda-print",
+   "tipo": "tema",
+   "label": "manda-print"
+  },
+  {
+   "id": "fonte:https://platform.claude.com/docs/en/build-with-claude/vision",
+   "tipo": "fonte",
+   "label": "https://platform.claude.com/docs/en/build-with-claude/vision"
+  },
+  {
+   "id": "fonte:https://platform.openai.com/docs/guides/images-vision",
+   "tipo": "fonte",
+   "label": "https://platform.openai.com/docs/guides/images-vision"
+  },
+  {
    "id": "2026-11-09-playstation-no-pc",
    "tipo": "post",
    "label": "playstation-no-pc",
-   "data": "2026-11-10",
+   "data": "2026-11-11",
    "score": null
   },
   {
@@ -2391,7 +2418,7 @@
    "id": "2026-11-10-animar-sem-saber",
    "tipo": "post",
    "label": "animar-sem-saber",
-   "data": "2026-11-12",
+   "data": "2026-11-13",
    "score": null
   },
   {
@@ -2465,7 +2492,7 @@
    "id": "2026-11-10-camera-sony-destravada",
    "tipo": "post",
    "label": "camera-sony-destravada",
-   "data": "2026-11-12",
+   "data": "2026-11-13",
    "score": null
   },
   {
@@ -2487,7 +2514,7 @@
    "id": "2026-11-10-ia-le-whatsapp",
    "tipo": "post",
    "label": "ia-le-whatsapp",
-   "data": "2026-11-11",
+   "data": "2026-11-12",
    "score": null
   },
   {
@@ -2509,7 +2536,7 @@
    "id": "2026-11-10-manual-ikea-3d",
    "tipo": "post",
    "label": "manual-ikea-3d",
-   "data": "2026-11-12",
+   "data": "2026-11-13",
    "score": null
   },
   {
@@ -2528,10 +2555,37 @@
    "label": "https://github.com/Nutlope/bygga"
   },
   {
+   "id": "2026-11-10-mostra-um-exemplo",
+   "tipo": "post",
+   "label": "mostra-um-exemplo",
+   "data": "2026-11-10",
+   "score": null
+  },
+  {
+   "id": "cta:EXEMPLO",
+   "tipo": "cta",
+   "label": "EXEMPLO"
+  },
+  {
+   "id": "tema:mostra-um-exemplo",
+   "tipo": "tema",
+   "label": "mostra-um-exemplo"
+  },
+  {
+   "id": "fonte:https://arxiv.org/abs/2005.14165",
+   "tipo": "fonte",
+   "label": "https://arxiv.org/abs/2005.14165"
+  },
+  {
+   "id": "fonte:https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+   "tipo": "fonte",
+   "label": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+  },
+  {
    "id": "2026-11-10-musica-gratis",
    "tipo": "post",
    "label": "musica-gratis",
-   "data": "2026-11-12",
+   "data": "2026-11-13",
    "score": null
   },
   {
@@ -2590,7 +2644,7 @@
    "id": "2026-11-10-projetos-celular",
    "tipo": "post",
    "label": "projetos-celular",
-   "data": "2026-11-11",
+   "data": "2026-11-12",
    "score": null
   },
   {
@@ -2664,7 +2718,7 @@
    "id": "2026-11-10-testa-seu-negocio",
    "tipo": "post",
    "label": "testa-seu-negocio",
-   "data": "2026-11-11",
+   "data": "2026-11-12",
    "score": null
   },
   {
@@ -2710,10 +2764,37 @@
    "label": "https://futurism.com/the-byte/car-dealership-ai"
   },
   {
+   "id": "2026-11-11-chatgpt-lembra-de-voce",
+   "tipo": "post",
+   "label": "chatgpt-lembra-de-voce",
+   "data": "2026-11-11",
+   "score": null
+  },
+  {
+   "id": "cta:MEMORIA",
+   "tipo": "cta",
+   "label": "MEMORIA"
+  },
+  {
+   "id": "tema:chatgpt-lembra-de-voce",
+   "tipo": "tema",
+   "label": "chatgpt-lembra-de-voce"
+  },
+  {
+   "id": "fonte:https://help.openai.com/en/articles/8590148-memory-faq",
+   "tipo": "fonte",
+   "label": "https://help.openai.com/en/articles/8590148-memory-faq"
+  },
+  {
+   "id": "fonte:https://help.openai.com/en/articles/8983136-what-is-memory",
+   "tipo": "fonte",
+   "label": "https://help.openai.com/en/articles/8983136-what-is-memory"
+  },
+  {
    "id": "2026-11-11-copiar-qualquer-app",
    "tipo": "post",
    "label": "copiar-qualquer-app",
-   "data": "2026-11-13",
+   "data": "2026-11-14",
    "score": null
   },
   {
@@ -2804,7 +2885,7 @@
    "id": "2026-11-11-ia-do-fim-do-mundo",
    "tipo": "post",
    "label": "ia-do-fim-do-mundo",
-   "data": "2026-11-13",
+   "data": "2026-11-14",
    "score": null
   },
   {
@@ -2826,7 +2907,7 @@
    "id": "2026-11-11-ia-edita-foto",
    "tipo": "post",
    "label": "ia-edita-foto",
-   "data": "2026-11-13",
+   "data": "2026-11-15",
    "score": null
   },
   {
@@ -2902,7 +2983,7 @@
    "id": "2026-11-11-projetos-casa",
    "tipo": "post",
    "label": "projetos-casa",
-   "data": "2026-11-13",
+   "data": "2026-11-14",
    "score": null
   },
   {
@@ -2934,7 +3015,7 @@
    "id": "2026-11-11-projetos-gamer",
    "tipo": "post",
    "label": "projetos-gamer",
-   "data": "2026-11-13",
+   "data": "2026-11-14",
    "score": null
   },
   {
@@ -2976,7 +3057,7 @@
    "id": "2026-11-11-refazendo-todo-software",
    "tipo": "post",
    "label": "refazendo-todo-software",
-   "data": "2026-11-14",
+   "data": "2026-11-15",
    "score": null
   },
   {
@@ -2993,6 +3074,28 @@
    "id": "fonte:https://github.com/HeyPuter/everything",
    "tipo": "fonte",
    "label": "https://github.com/HeyPuter/everything"
+  },
+  {
+   "id": "2026-11-12-diz-pra-que-e",
+   "tipo": "post",
+   "label": "diz-pra-que-e",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:CONTEXTO",
+   "tipo": "cta",
+   "label": "CONTEXTO"
+  },
+  {
+   "id": "tema:diz-pra-que-e",
+   "tipo": "tema",
+   "label": "diz-pra-que-e"
+  },
+  {
+   "id": "fonte:https://www.xatakaon.com/robotics-and-ai/if-youre-wondering-how-to-create-effective-ai-prompts-anthropic-just-released-a-guide",
+   "tipo": "fonte",
+   "label": "https://www.xatakaon.com/robotics-and-ai/if-youre-wondering-how-to-create-effective-ai-prompts-anthropic-just-released-a-guide"
   },
   {
    "id": "2026-11-12-engenheiro-disse-que-a-ia-sente",
@@ -3074,7 +3177,7 @@
    "id": "2026-11-12-jarvis-em-portugues",
    "tipo": "post",
    "label": "jarvis-em-portugues",
-   "data": "2026-11-14",
+   "data": "2026-11-15",
    "score": null
   },
   {
@@ -3194,7 +3297,7 @@
    "id": "2026-11-13-assistentes-que-trabalham",
    "tipo": "post",
    "label": "assistentes-que-trabalham",
-   "data": "2026-11-14",
+   "data": "2026-11-15",
    "score": null
   },
   {
@@ -3221,7 +3324,7 @@
    "id": "2026-11-13-atendente-telefone-ia",
    "tipo": "post",
    "label": "atendente-telefone-ia",
-   "data": "2026-11-14",
+   "data": "2026-11-16",
    "score": null
   },
   {
@@ -3265,6 +3368,33 @@
    "id": "fonte:https://www.rdworldonline.com/darpa-grand-challenge-at-21-two-decades-ago-driverless-vehicles-made-history-in-the-mojave-desert/",
    "tipo": "fonte",
    "label": "https://www.rdworldonline.com/darpa-grand-challenge-at-21-two-decades-ago-driverless-vehicles-made-history-in-the-mojave-desert/"
+  },
+  {
+   "id": "2026-11-13-ia-enrola-demais",
+   "tipo": "post",
+   "label": "ia-enrola-demais",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:CURTO",
+   "tipo": "cta",
+   "label": "CURTO"
+  },
+  {
+   "id": "tema:ia-enrola-demais",
+   "tipo": "tema",
+   "label": "ia-enrola-demais"
+  },
+  {
+   "id": "fonte:https://platform.openai.com/docs/guides/prompt-engineering",
+   "tipo": "fonte",
+   "label": "https://platform.openai.com/docs/guides/prompt-engineering"
+  },
+  {
+   "id": "fonte:https://khub.net/web/digital-sharing-hub/resources/-/ddl_display/ddl/1070475023/968336903/maximized",
+   "tipo": "fonte",
+   "label": "https://khub.net/web/digital-sharing-hub/resources/-/ddl_display/ddl/1070475023/968336903/maximized"
   },
   {
    "id": "2026-11-13-ia-ligou-pro-salao",
@@ -3540,7 +3670,7 @@
    "id": "2026-11-14-comercial-com-trilha",
    "tipo": "post",
    "label": "comercial-com-trilha",
-   "data": "2026-11-15",
+   "data": "2026-11-17",
    "score": null
   },
   {
@@ -3562,7 +3692,7 @@
    "id": "2026-11-14-ia-liga-pra-voce",
    "tipo": "post",
    "label": "ia-liga-pra-voce",
-   "data": "2026-11-14",
+   "data": "2026-11-16",
    "score": null
   },
   {
@@ -3601,6 +3731,33 @@
    "id": "fonte:https://github.com/LTSharpe/OblivionRemasteredPerformanceFix",
    "tipo": "fonte",
    "label": "https://github.com/LTSharpe/OblivionRemasteredPerformanceFix"
+  },
+  {
+   "id": "2026-11-14-modo-pensar",
+   "tipo": "post",
+   "label": "modo-pensar",
+   "data": "2026-11-14",
+   "score": null
+  },
+  {
+   "id": "cta:PENSAR",
+   "tipo": "cta",
+   "label": "PENSAR"
+  },
+  {
+   "id": "tema:modo-pensar",
+   "tipo": "tema",
+   "label": "modo-pensar"
+  },
+  {
+   "id": "fonte:https://openai.com/index/learning-to-reason-with-llms/",
+   "tipo": "fonte",
+   "label": "https://openai.com/index/learning-to-reason-with-llms/"
+  },
+  {
+   "id": "fonte:https://simonwillison.net/2024/Sep/12/openai-o1/",
+   "tipo": "fonte",
+   "label": "https://simonwillison.net/2024/Sep/12/openai-o1/"
   },
   {
    "id": "2026-11-14-palavra-codigo-da-familia",
@@ -3655,7 +3812,7 @@
    "id": "2026-11-15-agencia-de-marketing-no-claude",
    "tipo": "post",
    "label": "agencia-de-marketing-no-claude",
-   "data": "2026-11-15",
+   "data": "2026-11-19",
    "score": null
   },
   {
@@ -3679,10 +3836,32 @@
    "label": "https://github.com/topics/claude-skills"
   },
   {
+   "id": "2026-11-15-divide-a-tarefa",
+   "tipo": "post",
+   "label": "divide-a-tarefa",
+   "data": "2026-11-15",
+   "score": null
+  },
+  {
+   "id": "cta:PARTES",
+   "tipo": "cta",
+   "label": "PARTES"
+  },
+  {
+   "id": "tema:divide-a-tarefa",
+   "tipo": "tema",
+   "label": "divide-a-tarefa"
+  },
+  {
+   "id": "fonte:https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-prompts",
+   "tipo": "fonte",
+   "label": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-prompts"
+  },
+  {
    "id": "2026-11-15-estudio-de-games-no-claude",
    "tipo": "post",
    "label": "estudio-de-games-no-claude",
-   "data": "2026-11-15",
+   "data": "2026-11-18",
    "score": null
   },
   {
@@ -3800,7 +3979,7 @@
    "id": "2026-11-15-site-sem-cara-de-ia",
    "tipo": "post",
    "label": "site-sem-cara-de-ia",
-   "data": "2026-11-15",
+   "data": "2026-11-18",
    "score": null
   },
   {
@@ -3822,7 +4001,7 @@
    "id": "2026-11-15-skills-video-explicativo",
    "tipo": "post",
    "label": "skills-video-explicativo",
-   "data": "2026-11-15",
+   "data": "2026-11-17",
    "score": null
   },
   {
@@ -4318,6 +4497,10 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-09-manda-print"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-09-playstation-no-pc"
   },
   {
@@ -4350,6 +4533,10 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-10-mostra-um-exemplo"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-10-musica-gratis"
   },
   {
@@ -4371,6 +4558,10 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-11-carro-por-1-dolar"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-11-chatgpt-lembra-de-voce"
   },
   {
    "source": "rede:instagram",
@@ -4411,6 +4602,10 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-11-refazendo-todo-software"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-12-diz-pra-que-e"
   },
   {
    "source": "rede:instagram",
@@ -4455,6 +4650,10 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-ia-enrola-demais"
   },
   {
    "source": "rede:instagram",
@@ -4510,6 +4709,10 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-14-modo-pensar"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-14-palavra-codigo-da-familia"
   },
   {
@@ -4519,6 +4722,10 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-15-divide-a-tarefa"
   },
   {
    "source": "rede:instagram",
@@ -4766,6 +4973,10 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-09-manda-print"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-09-playstation-no-pc"
   },
   {
@@ -4798,6 +5009,10 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-10-mostra-um-exemplo"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-10-musica-gratis"
   },
   {
@@ -4819,6 +5034,10 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-11-carro-por-1-dolar"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-11-chatgpt-lembra-de-voce"
   },
   {
    "source": "rede:tiktok",
@@ -4859,6 +5078,10 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-11-refazendo-todo-software"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-12-diz-pra-que-e"
   },
   {
    "source": "rede:tiktok",
@@ -4903,6 +5126,10 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-ia-enrola-demais"
   },
   {
    "source": "rede:tiktok",
@@ -4958,6 +5185,10 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-14-modo-pensar"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-14-palavra-codigo-da-familia"
   },
   {
@@ -4967,6 +5198,10 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-15-divide-a-tarefa"
   },
   {
    "source": "rede:tiktok",
@@ -5386,6 +5621,10 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-09-manda-print"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-09-playstation-no-pc"
   },
   {
@@ -5418,6 +5657,10 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-10-mostra-um-exemplo"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-10-musica-gratis"
   },
   {
@@ -5439,6 +5682,10 @@
   {
    "source": "horario:20h",
    "target": "2026-11-11-carro-por-1-dolar"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-11-chatgpt-lembra-de-voce"
   },
   {
    "source": "horario:20h",
@@ -5479,6 +5726,10 @@
   {
    "source": "horario:20h",
    "target": "2026-11-11-refazendo-todo-software"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-12-diz-pra-que-e"
   },
   {
    "source": "horario:20h",
@@ -5523,6 +5774,10 @@
   {
    "source": "horario:20h",
    "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-ia-enrola-demais"
   },
   {
    "source": "horario:20h",
@@ -5578,6 +5833,10 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-14-modo-pensar"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-14-palavra-codigo-da-familia"
   },
   {
@@ -5587,6 +5846,10 @@
   {
    "source": "horario:20h",
    "target": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-15-divide-a-tarefa"
   },
   {
    "source": "horario:20h",
@@ -6622,6 +6885,10 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-09-manda-print"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-09-playstation-no-pc"
   },
   {
@@ -6654,6 +6921,10 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-10-mostra-um-exemplo"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-10-musica-gratis"
   },
   {
@@ -6675,6 +6946,10 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-11-carro-por-1-dolar"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-11-chatgpt-lembra-de-voce"
   },
   {
    "source": "paleta:paleta None",
@@ -6715,6 +6990,10 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-11-refazendo-todo-software"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-12-diz-pra-que-e"
   },
   {
    "source": "paleta:paleta None",
@@ -6759,6 +7038,10 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-ia-enrola-demais"
   },
   {
    "source": "paleta:paleta None",
@@ -6814,6 +7097,10 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-14-modo-pensar"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-14-palavra-codigo-da-familia"
   },
   {
@@ -6823,6 +7110,10 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-15-divide-a-tarefa"
   },
   {
    "source": "paleta:paleta None",
@@ -7118,6 +7409,10 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-09-manda-print"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-09-playstation-no-pc"
   },
   {
@@ -7150,6 +7445,10 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-10-mostra-um-exemplo"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-10-musica-gratis"
   },
   {
@@ -7171,6 +7470,10 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-11-carro-por-1-dolar"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-11-chatgpt-lembra-de-voce"
   },
   {
    "source": "pilar:reel",
@@ -7211,6 +7514,10 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-11-refazendo-todo-software"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-12-diz-pra-que-e"
   },
   {
    "source": "pilar:reel",
@@ -7255,6 +7562,10 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-ia-enrola-demais"
   },
   {
    "source": "pilar:reel",
@@ -7310,6 +7621,10 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-14-modo-pensar"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-14-palavra-codigo-da-familia"
   },
   {
@@ -7319,6 +7634,10 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-15-divide-a-tarefa"
   },
   {
    "source": "pilar:reel",
@@ -7410,6 +7729,10 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-09-manda-print"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-10-a-ia-ganhou-nome"
   },
   {
@@ -7426,6 +7749,10 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-10-mostra-um-exemplo"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-10-pense-passo-a-passo"
   },
   {
@@ -7439,6 +7766,10 @@
   {
    "source": "formato:palco",
    "target": "2026-11-11-carro-por-1-dolar"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-11-chatgpt-lembra-de-voce"
   },
   {
    "source": "formato:palco",
@@ -7463,6 +7794,10 @@
   {
    "source": "formato:palco",
    "target": "2026-11-11-refazendo-todo-software"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-12-diz-pra-que-e"
   },
   {
    "source": "formato:palco",
@@ -7506,6 +7841,10 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-13-ia-enrola-demais"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-13-ia-ligou-pro-salao"
   },
   {
@@ -7546,6 +7885,10 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-14-modo-pensar"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-14-palavra-codigo-da-familia"
   },
   {
@@ -7555,6 +7898,10 @@
   {
    "source": "formato:palco",
    "target": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-15-divide-a-tarefa"
   },
   {
    "source": "formato:palco",
@@ -8269,6 +8616,22 @@
    "target": "fonte:https://github.com/ctresb/leis"
   },
   {
+   "source": "2026-11-09-manda-print",
+   "target": "cta:PRINT"
+  },
+  {
+   "source": "2026-11-09-manda-print",
+   "target": "tema:manda-print"
+  },
+  {
+   "source": "2026-11-09-manda-print",
+   "target": "fonte:https://platform.claude.com/docs/en/build-with-claude/vision"
+  },
+  {
+   "source": "2026-11-09-manda-print",
+   "target": "fonte:https://platform.openai.com/docs/guides/images-vision"
+  },
+  {
    "source": "2026-11-09-playstation-no-pc",
    "target": "cta:PLAY"
   },
@@ -8421,6 +8784,26 @@
    "target": "fonte:https://github.com/Nutlope/bygga"
   },
   {
+   "source": "2026-11-10-mostra-um-exemplo",
+   "target": "cta:EXEMPLO"
+  },
+  {
+   "source": "2026-11-10-mostra-um-exemplo",
+   "target": "tema:mostra-um-exemplo"
+  },
+  {
+   "source": "2026-11-10-mostra-um-exemplo",
+   "target": "fonte:https://arxiv.org/abs/2005.14165"
+  },
+  {
+   "source": "2026-11-10-mostra-um-exemplo",
+   "target": "fonte:https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+  },
+  {
+   "source": "fonte:https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+   "target": "2026-11-12-diz-pra-que-e"
+  },
+  {
    "source": "2026-11-10-musica-gratis",
    "target": "cta:MUSICA"
   },
@@ -8531,6 +8914,22 @@
   {
    "source": "2026-11-11-carro-por-1-dolar",
    "target": "fonte:https://futurism.com/the-byte/car-dealership-ai"
+  },
+  {
+   "source": "2026-11-11-chatgpt-lembra-de-voce",
+   "target": "cta:MEMORIA"
+  },
+  {
+   "source": "2026-11-11-chatgpt-lembra-de-voce",
+   "target": "tema:chatgpt-lembra-de-voce"
+  },
+  {
+   "source": "2026-11-11-chatgpt-lembra-de-voce",
+   "target": "fonte:https://help.openai.com/en/articles/8590148-memory-faq"
+  },
+  {
+   "source": "2026-11-11-chatgpt-lembra-de-voce",
+   "target": "fonte:https://help.openai.com/en/articles/8983136-what-is-memory"
   },
   {
    "source": "2026-11-11-copiar-qualquer-app",
@@ -8705,6 +9104,18 @@
    "target": "fonte:https://github.com/HeyPuter/everything"
   },
   {
+   "source": "2026-11-12-diz-pra-que-e",
+   "target": "cta:CONTEXTO"
+  },
+  {
+   "source": "2026-11-12-diz-pra-que-e",
+   "target": "tema:diz-pra-que-e"
+  },
+  {
+   "source": "2026-11-12-diz-pra-que-e",
+   "target": "fonte:https://www.xatakaon.com/robotics-and-ai/if-youre-wondering-how-to-create-effective-ai-prompts-anthropic-just-released-a-guide"
+  },
+  {
    "source": "2026-11-12-engenheiro-disse-que-a-ia-sente",
    "target": "cta:SENTE"
   },
@@ -8859,6 +9270,26 @@
   {
    "source": "2026-11-13-corrida-sem-motorista",
    "target": "fonte:https://www.rdworldonline.com/darpa-grand-challenge-at-21-two-decades-ago-driverless-vehicles-made-history-in-the-mojave-desert/"
+  },
+  {
+   "source": "2026-11-13-ia-enrola-demais",
+   "target": "cta:CURTO"
+  },
+  {
+   "source": "2026-11-13-ia-enrola-demais",
+   "target": "tema:ia-enrola-demais"
+  },
+  {
+   "source": "2026-11-13-ia-enrola-demais",
+   "target": "fonte:https://platform.openai.com/docs/guides/prompt-engineering"
+  },
+  {
+   "source": "2026-11-13-ia-enrola-demais",
+   "target": "fonte:https://khub.net/web/digital-sharing-hub/resources/-/ddl_display/ddl/1070475023/968336903/maximized"
+  },
+  {
+   "source": "fonte:https://khub.net/web/digital-sharing-hub/resources/-/ddl_display/ddl/1070475023/968336903/maximized",
+   "target": "2026-11-15-divide-a-tarefa"
   },
   {
    "source": "2026-11-13-ia-ligou-pro-salao",
@@ -9057,6 +9488,22 @@
    "target": "fonte:https://github.com/LTSharpe/OblivionRemasteredPerformanceFix"
   },
   {
+   "source": "2026-11-14-modo-pensar",
+   "target": "cta:PENSAR"
+  },
+  {
+   "source": "2026-11-14-modo-pensar",
+   "target": "tema:modo-pensar"
+  },
+  {
+   "source": "2026-11-14-modo-pensar",
+   "target": "fonte:https://openai.com/index/learning-to-reason-with-llms/"
+  },
+  {
+   "source": "2026-11-14-modo-pensar",
+   "target": "fonte:https://simonwillison.net/2024/Sep/12/openai-o1/"
+  },
+  {
    "source": "2026-11-14-palavra-codigo-da-familia",
    "target": "cta:SENHA"
   },
@@ -9099,6 +9546,18 @@
   {
    "source": "2026-11-15-agencia-de-marketing-no-claude",
    "target": "fonte:https://github.com/topics/claude-skills"
+  },
+  {
+   "source": "2026-11-15-divide-a-tarefa",
+   "target": "cta:PARTES"
+  },
+  {
+   "source": "2026-11-15-divide-a-tarefa",
+   "target": "tema:divide-a-tarefa"
+  },
+  {
+   "source": "2026-11-15-divide-a-tarefa",
+   "target": "fonte:https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/chain-prompts"
   },
   {
    "source": "2026-11-15-estudio-de-games-no-claude",

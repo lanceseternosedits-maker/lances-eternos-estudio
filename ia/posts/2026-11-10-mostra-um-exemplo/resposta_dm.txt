@@ -1,0 +1,6 @@
+Aqui está! ✍️
+
+📝 Modelo: "Aqui vão 3 textos que eu escrevi: [cole]. Repare no tom, no tamanho e nas palavras. Agora escreva [o que você quer] nesse mesmo estilo."
+
+Funciona pra legenda, e-mail, resposta de cliente e post.
+📚 Guia oficial do Claude: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices

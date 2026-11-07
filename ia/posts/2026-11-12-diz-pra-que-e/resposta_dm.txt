@@ -1,0 +1,5 @@
+Aqui está! 📋
+
+📝 Modelo: "Isso é para [quem vai ler]. Eu quero [o resultado: vender, convencer, explicar]. O tom é [direto/divertido/formal]. Evite [o que você não quer]." Depois escreva o pedido.
+
+📚 Guia oficial: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices

@@ -1,0 +1,8 @@
+Aqui está! 📸
+
+1) Erro: "O que está errado nesta tela e como eu resolvo, passo a passo?"
+2) Conta: "Explique esta conta linha por linha e diga se tem algo estranho."
+3) Gráfico: "Resuma este gráfico em 3 frases simples."
+4) Cardápio/rótulo: "Traduza e me diga o que é cada item."
+
+Dica: corte o print só na parte que importa e esconda dados pessoais.

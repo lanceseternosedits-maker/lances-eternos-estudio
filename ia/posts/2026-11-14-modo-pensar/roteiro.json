@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "PENSAR",
+ "tese": "QUANDO USAR O MODO PENSAR",
+ "conceito": "Observatório à noite: telescópio de latão, ampulheta gigante, lousa de estrelas cheia de contas; o mascote alterna entre o telescópio (pensar) e um apito de largada (rápido). Paleta azul-meia-noite + bronze.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "e) placar 8-bit HI-SCORE",
+  "legenda": "a) bloco de 4 palavras com a atual colorida",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 03 + ampulheta + grilos",
+  "mascote": "touca de lã com pompom; ação principal: virar a ampulheta"
+ },
+ "brinde": "guia rápido de quando usar cada modo",
+ "fontes": [
+  "https://openai.com/index/learning-to-reason-with-llms/",
+  "https://simonwillison.net/2024/Sep/12/openai-o1/"
+ ],
+ "prova_viral": "Curiosidade comum (por que ela 'pensa'); anúncio oficial do o1 (OpenAI, 12/09/2024): 74% no AIME 2024 com uma tentativa contra 12% do GPT-4o.",
+ "obs": "Os números são do anúncio da OpenAI (prova AIME, matemática de olimpíada). 'Prova de matemática difícil' é a tradução segura.",
+ "polemica": false,
+ "agenda": "2026-11-14 13:00",
+ "palavras": 88,
+ "duracao_estimada_s": 31.4,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "QUANDO USAR O MODO PENSAR",
+   "fala": "Às vezes a IA fica pensando antes de responder. Esse tempo vale ouro, mas nem sempre.",
+   "legenda": "Às vezes a IA fica pensando antes de responder. Esse tempo vale ouro, mas nem sempre.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "QUANDO USAR O MODO PENSAR",
+    "POR QUE ELA DEMORA ÀS VEZES",
+    "DE 12% PRA 74% NUMA PROVA"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Os modelos que pensam escrevem um raciocínio escondido antes da resposta.",
+   "legenda": "Os modelos que pensam escrevem um raciocínio escondido antes da resposta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Em 2024, a OpenAI mostrou um desses acertando 74 por cento numa prova de matemática difícil. O modelo comum acertava 12.",
+   "legenda": "Em 2024, a OpenAI mostrou um desses acertando 74 por cento numa prova de matemática difícil. O modelo comum acertava 12.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Mas pra coisa simples, é só espera. Comenta PENSAR que eu te mando quando usar cada um.",
+   "legenda": "Mas pra coisa simples, é só espera. Comenta PENSAR que eu te mando quando usar cada um.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Conta, plano e decisão difícil: modo pensar. Texto rápido e ideia: modo normal.",
+   "legenda": "Conta, plano e decisão difícil: modo pensar. Texto rápido e ideia: modo normal.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA PENSAR",
+   "fala": "Comenta PENSAR e me segue. Você usa o modo pensar?",
+   "legenda": "Comenta PENSAR e me segue. Você usa o modo pensar?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

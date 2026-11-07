@@ -1,0 +1,118 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "EXEMPLO",
+ "tese": "ELA NUNCA ESCREVE DO SEU JEITO?",
+ "conceito": "Ateliê de caligrafia: mesa inclinada, papel carbono, carimbos e um quadro com a letra do dono; o mascote decalca a letra e depois escreve sozinho igualzinho. Paleta sépia + verde-garrafa.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "f) termômetro",
+  "legenda": "a) bloco de 4 palavras com a atual colorida",
+  "transicao": "e) glitch RGB",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "b) pódio",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 02 + pena no papel",
+  "mascote": "boina de pintor e pena de escrever; ação principal: decalcar a letra no papel carbono"
+ },
+ "brinde": "modelo de prompt com exemplos",
+ "fontes": [
+  "https://arxiv.org/abs/2005.14165",
+  "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
+ ],
+ "prova_viral": "Incômodo comum (texto genérico da IA); técnica do artigo do GPT-3 (NeurIPS 2020) e recomendada no guia oficial do Claude ('A few well-crafted examples... improve accuracy and consistency').",
+ "obs": "Há críticas acadêmicas sobre o quanto a IA 'aprende' com exemplos; dizer só que ela pega o padrão. Não dar % de melhora.",
+ "polemica": false,
+ "agenda": "2026-11-10 12:00",
+ "palavras": 93,
+ "duracao_estimada_s": 33.2,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "ELA NUNCA ESCREVE DO SEU JEITO?",
+   "fala": "A IA nunca escreve do seu jeito? É porque você não mostrou como.",
+   "legenda": "A IA nunca escreve do seu jeito? É porque você não mostrou como.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "ELA NUNCA ESCREVE DO SEU JEITO?",
+    "O TRUQUE DO EXEMPLO",
+    "DESCOBERTO EM 2020"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Ela é ótima em copiar padrão. Mostra um exemplo e ela pega o tom na hora.",
+   "legenda": "Ela é ótima em copiar padrão. Mostra um exemplo e ela pega o tom na hora.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Em 2020, o artigo do GPT-3 mostrou isso: com poucos exemplos no pedido, ela faz tarefas novas sem treino nenhum.",
+   "legenda": "Em 2020, o artigo do GPT-3 mostrou isso: com poucos exemplos no pedido, ela faz tarefas novas sem treino nenhum.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "E hoje os manuais das próprias IAs mandam fazer isso. Comenta EXEMPLO que eu te mando o modelo.",
+   "legenda": "E hoje os manuais das próprias IAs mandam fazer isso. Comenta EXEMPLO que eu te mando o modelo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Cola duas ou três mensagens que você já escreveu e pede: escreve a próxima nesse estilo.",
+   "legenda": "Cola duas ou três mensagens que você já escreveu e pede: escreve a próxima nesse estilo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA EXEMPLO",
+   "fala": "Comenta EXEMPLO e me segue. Vai testar com o quê?",
+   "legenda": "Comenta EXEMPLO e me segue. Vai testar com o quê?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

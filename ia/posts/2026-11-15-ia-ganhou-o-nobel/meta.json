@@ -1,6 +1,6 @@
 {
  "data": "2026-11-15",
- "horario": "15:00",
+ "horario": "17:00",
  "pilar": "reel",
  "categoria": "historia",
  "formato": "palco",
@@ -16,8 +16,8 @@
  "cta": "NOBEL",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-15 15:00",
-  "tiktok": "2026-11-15 15:00"
+  "instagram": "2026-11-15 17:00",
+  "tiktok": "2026-11-15 17:00"
  },
  "status": "roteiro aguardando aprovação"
 }
