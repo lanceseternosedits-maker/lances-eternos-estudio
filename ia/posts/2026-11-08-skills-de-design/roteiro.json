@@ -26,7 +26,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Aixio Layer 403, skills 1.188, Dimensional Drawing 1.903; total 3.494; criados entre 09/10 e 23/10.",
  "obs": "",
  "polemica": false,
- "agenda": "2026-11-12 10:00",
+ "agenda": "2026-11-08 11:00",
  "palavras": 88,
  "duracao_estimada_s": 30.3,
  "status": "roteiro aprovado",
@@ -105,5 +105,6 @@
    "legenda": "Comenta DESIGN e me segue que eu te mando as três.",
    "sfx": []
   }
- ]
+ ],
+ "adiantado_de": "2026-11-12"
 }

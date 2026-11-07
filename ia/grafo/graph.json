@@ -1436,6 +1436,48 @@
    "label": "https://github.com/patch-gg/anymove"
   },
   {
+   "id": "2026-11-08-console-no-celular",
+   "tipo": "post",
+   "label": "console-no-celular",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:MOBILE",
+   "tipo": "cta",
+   "label": "MOBILE"
+  },
+  {
+   "id": "tema:console-no-celular",
+   "tipo": "tema",
+   "label": "console-no-celular"
+  },
+  {
+   "id": "fonte:https://github.com/lidor30/pokedaisy",
+   "tipo": "fonte",
+   "label": "https://github.com/lidor30/pokedaisy"
+  },
+  {
+   "id": "fonte:https://github.com/kevinerikjs/gta5-ios-port",
+   "tipo": "fonte",
+   "label": "https://github.com/kevinerikjs/gta5-ios-port"
+  },
+  {
+   "id": "fonte:https://github.com/mamcjr/BOTWRecompAndroid",
+   "tipo": "fonte",
+   "label": "https://github.com/mamcjr/BOTWRecompAndroid"
+  },
+  {
+   "id": "fonte:https://github.com/shirai91/nx2android",
+   "tipo": "fonte",
+   "label": "https://github.com/shirai91/nx2android"
+  },
+  {
+   "id": "fonte:https://github.com/jhaizhou-ops/d2r-mobile",
+   "tipo": "fonte",
+   "label": "https://github.com/jhaizhou-ops/d2r-mobile"
+  },
+  {
    "id": "2026-11-08-crie-seu-app-de-mac",
    "tipo": "post",
    "label": "crie-seu-app-de-mac",
@@ -1503,6 +1545,38 @@
    "id": "fonte:https://github.com/wquguru/cicada",
    "tipo": "fonte",
    "label": "https://github.com/wquguru/cicada"
+  },
+  {
+   "id": "2026-11-08-estudio-de-voz-gratis",
+   "tipo": "post",
+   "label": "estudio-de-voz-gratis",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:VOZ",
+   "tipo": "cta",
+   "label": "VOZ"
+  },
+  {
+   "id": "tema:estudio-de-voz-gratis",
+   "tipo": "tema",
+   "label": "estudio-de-voz-gratis"
+  },
+  {
+   "id": "fonte:https://github.com/timoncool/speech-studio",
+   "tipo": "fonte",
+   "label": "https://github.com/timoncool/speech-studio"
+  },
+  {
+   "id": "fonte:https://github.com/hehehai/AudioSmith",
+   "tipo": "fonte",
+   "label": "https://github.com/hehehai/AudioSmith"
+  },
+  {
+   "id": "fonte:https://github.com/inclusionAI/Ming-3.0-tts",
+   "tipo": "fonte",
+   "label": "https://github.com/inclusionAI/Ming-3.0-tts"
   },
   {
    "id": "2026-11-08-figurinha-animada",
@@ -1601,6 +1675,38 @@
    "label": "https://github.com/seedds/nxnative"
   },
   {
+   "id": "2026-11-08-skills-de-design",
+   "tipo": "post",
+   "label": "skills-de-design",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:DESIGN",
+   "tipo": "cta",
+   "label": "DESIGN"
+  },
+  {
+   "id": "tema:skills-de-design",
+   "tipo": "tema",
+   "label": "skills-de-design"
+  },
+  {
+   "id": "fonte:https://github.com/Aixio-AI/aixio-layer-v2",
+   "tipo": "fonte",
+   "label": "https://github.com/Aixio-AI/aixio-layer-v2"
+  },
+  {
+   "id": "fonte:https://github.com/juliobsz/skills",
+   "tipo": "fonte",
+   "label": "https://github.com/juliobsz/skills"
+  },
+  {
+   "id": "fonte:https://github.com/enesozturk/dimensional-drawing",
+   "tipo": "fonte",
+   "label": "https://github.com/enesozturk/dimensional-drawing"
+  },
+  {
    "id": "2026-11-08-tv-que-cobra-licao",
    "tipo": "post",
    "label": "tv-que-cobra-licao",
@@ -1621,6 +1727,38 @@
    "id": "fonte:https://github.com/chadyi/StudyOnTV",
    "tipo": "fonte",
    "label": "https://github.com/chadyi/StudyOnTV"
+  },
+  {
+   "id": "2026-11-08-windows-gratis",
+   "tipo": "post",
+   "label": "windows-gratis",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "cta:WINDOWS",
+   "tipo": "cta",
+   "label": "WINDOWS"
+  },
+  {
+   "id": "tema:windows-gratis",
+   "tipo": "tema",
+   "label": "windows-gratis"
+  },
+  {
+   "id": "fonte:https://github.com/FortoGraphy/prism-download-manager",
+   "tipo": "fonte",
+   "label": "https://github.com/FortoGraphy/prism-download-manager"
+  },
+  {
+   "id": "fonte:https://github.com/LingCore/WinShun",
+   "tipo": "fonte",
+   "label": "https://github.com/LingCore/WinShun"
+  },
+  {
+   "id": "fonte:https://github.com/yjid/kensaku",
+   "tipo": "fonte",
+   "label": "https://github.com/yjid/kensaku"
   },
   {
    "id": "2026-11-09-apps-gratis-mac",
@@ -2341,48 +2479,6 @@
    "label": "https://github.com/HeyPuter/everything"
   },
   {
-   "id": "2026-11-12-console-no-celular",
-   "tipo": "post",
-   "label": "console-no-celular",
-   "data": "2026-11-12",
-   "score": null
-  },
-  {
-   "id": "cta:MOBILE",
-   "tipo": "cta",
-   "label": "MOBILE"
-  },
-  {
-   "id": "tema:console-no-celular",
-   "tipo": "tema",
-   "label": "console-no-celular"
-  },
-  {
-   "id": "fonte:https://github.com/lidor30/pokedaisy",
-   "tipo": "fonte",
-   "label": "https://github.com/lidor30/pokedaisy"
-  },
-  {
-   "id": "fonte:https://github.com/kevinerikjs/gta5-ios-port",
-   "tipo": "fonte",
-   "label": "https://github.com/kevinerikjs/gta5-ios-port"
-  },
-  {
-   "id": "fonte:https://github.com/mamcjr/BOTWRecompAndroid",
-   "tipo": "fonte",
-   "label": "https://github.com/mamcjr/BOTWRecompAndroid"
-  },
-  {
-   "id": "fonte:https://github.com/shirai91/nx2android",
-   "tipo": "fonte",
-   "label": "https://github.com/shirai91/nx2android"
-  },
-  {
-   "id": "fonte:https://github.com/jhaizhou-ops/d2r-mobile",
-   "tipo": "fonte",
-   "label": "https://github.com/jhaizhou-ops/d2r-mobile"
-  },
-  {
    "id": "2026-11-12-figurinhas-de-aves",
    "tipo": "post",
    "label": "figurinhas-de-aves",
@@ -2493,70 +2589,6 @@
    "label": "https://github.com/alchaincyf/huashu-art-motion"
   },
   {
-   "id": "2026-11-12-skills-de-design",
-   "tipo": "post",
-   "label": "skills-de-design",
-   "data": "2026-11-12",
-   "score": null
-  },
-  {
-   "id": "cta:DESIGN",
-   "tipo": "cta",
-   "label": "DESIGN"
-  },
-  {
-   "id": "tema:skills-de-design",
-   "tipo": "tema",
-   "label": "skills-de-design"
-  },
-  {
-   "id": "fonte:https://github.com/Aixio-AI/aixio-layer-v2",
-   "tipo": "fonte",
-   "label": "https://github.com/Aixio-AI/aixio-layer-v2"
-  },
-  {
-   "id": "fonte:https://github.com/juliobsz/skills",
-   "tipo": "fonte",
-   "label": "https://github.com/juliobsz/skills"
-  },
-  {
-   "id": "fonte:https://github.com/enesozturk/dimensional-drawing",
-   "tipo": "fonte",
-   "label": "https://github.com/enesozturk/dimensional-drawing"
-  },
-  {
-   "id": "2026-11-12-windows-gratis",
-   "tipo": "post",
-   "label": "windows-gratis",
-   "data": "2026-11-12",
-   "score": null
-  },
-  {
-   "id": "cta:WINDOWS",
-   "tipo": "cta",
-   "label": "WINDOWS"
-  },
-  {
-   "id": "tema:windows-gratis",
-   "tipo": "tema",
-   "label": "windows-gratis"
-  },
-  {
-   "id": "fonte:https://github.com/FortoGraphy/prism-download-manager",
-   "tipo": "fonte",
-   "label": "https://github.com/FortoGraphy/prism-download-manager"
-  },
-  {
-   "id": "fonte:https://github.com/LingCore/WinShun",
-   "tipo": "fonte",
-   "label": "https://github.com/LingCore/WinShun"
-  },
-  {
-   "id": "fonte:https://github.com/yjid/kensaku",
-   "tipo": "fonte",
-   "label": "https://github.com/yjid/kensaku"
-  },
-  {
    "id": "2026-11-13-assistentes-que-trabalham",
    "tipo": "post",
    "label": "assistentes-que-trabalham",
@@ -2604,38 +2636,6 @@
    "id": "fonte:https://github.com/C4rohan/Lampline",
    "tipo": "fonte",
    "label": "https://github.com/C4rohan/Lampline"
-  },
-  {
-   "id": "2026-11-13-estudio-de-voz-gratis",
-   "tipo": "post",
-   "label": "estudio-de-voz-gratis",
-   "data": "2026-11-13",
-   "score": null
-  },
-  {
-   "id": "cta:VOZ",
-   "tipo": "cta",
-   "label": "VOZ"
-  },
-  {
-   "id": "tema:estudio-de-voz-gratis",
-   "tipo": "tema",
-   "label": "estudio-de-voz-gratis"
-  },
-  {
-   "id": "fonte:https://github.com/timoncool/speech-studio",
-   "tipo": "fonte",
-   "label": "https://github.com/timoncool/speech-studio"
-  },
-  {
-   "id": "fonte:https://github.com/hehehai/AudioSmith",
-   "tipo": "fonte",
-   "label": "https://github.com/hehehai/AudioSmith"
-  },
-  {
-   "id": "fonte:https://github.com/inclusionAI/Ming-3.0-tts",
-   "tipo": "fonte",
-   "label": "https://github.com/inclusionAI/Ming-3.0-tts"
   },
   {
    "id": "2026-11-13-linux-em-todo-lugar",
@@ -3403,11 +3403,19 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-08-console-no-celular"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-08-crie-seu-app-de-mac"
   },
   {
    "source": "rede:instagram",
    "target": "2026-11-08-estudar-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-08-estudio-de-voz-gratis"
   },
   {
    "source": "rede:instagram",
@@ -3423,7 +3431,15 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-08-skills-de-design"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-08-windows-gratis"
   },
   {
    "source": "rede:instagram",
@@ -3523,10 +3539,6 @@
   },
   {
    "source": "rede:instagram",
-   "target": "2026-11-12-console-no-celular"
-  },
-  {
-   "source": "rede:instagram",
    "target": "2026-11-12-figurinhas-de-aves"
   },
   {
@@ -3547,23 +3559,11 @@
   },
   {
    "source": "rede:instagram",
-   "target": "2026-11-12-skills-de-design"
-  },
-  {
-   "source": "rede:instagram",
-   "target": "2026-11-12-windows-gratis"
-  },
-  {
-   "source": "rede:instagram",
    "target": "2026-11-13-assistentes-que-trabalham"
   },
   {
    "source": "rede:instagram",
    "target": "2026-11-13-atendente-telefone-ia"
-  },
-  {
-   "source": "rede:instagram",
-   "target": "2026-11-13-estudio-de-voz-gratis"
   },
   {
    "source": "rede:instagram",
@@ -3735,11 +3735,19 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-08-console-no-celular"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-08-crie-seu-app-de-mac"
   },
   {
    "source": "rede:tiktok",
    "target": "2026-11-08-estudar-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-08-estudio-de-voz-gratis"
   },
   {
    "source": "rede:tiktok",
@@ -3755,7 +3763,15 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-08-skills-de-design"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-08-windows-gratis"
   },
   {
    "source": "rede:tiktok",
@@ -3855,10 +3871,6 @@
   },
   {
    "source": "rede:tiktok",
-   "target": "2026-11-12-console-no-celular"
-  },
-  {
-   "source": "rede:tiktok",
    "target": "2026-11-12-figurinhas-de-aves"
   },
   {
@@ -3879,23 +3891,11 @@
   },
   {
    "source": "rede:tiktok",
-   "target": "2026-11-12-skills-de-design"
-  },
-  {
-   "source": "rede:tiktok",
-   "target": "2026-11-12-windows-gratis"
-  },
-  {
-   "source": "rede:tiktok",
    "target": "2026-11-13-assistentes-que-trabalham"
   },
   {
    "source": "rede:tiktok",
    "target": "2026-11-13-atendente-telefone-ia"
-  },
-  {
-   "source": "rede:tiktok",
-   "target": "2026-11-13-estudio-de-voz-gratis"
   },
   {
    "source": "rede:tiktok",
@@ -4247,7 +4247,15 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-08-console-no-celular"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-08-crie-seu-app-de-mac"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-08-estudio-de-voz-gratis"
   },
   {
    "source": "horario:20h",
@@ -4259,7 +4267,15 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-08-skills-de-design"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-08-windows-gratis"
   },
   {
    "source": "horario:20h",
@@ -4359,10 +4375,6 @@
   },
   {
    "source": "horario:20h",
-   "target": "2026-11-12-console-no-celular"
-  },
-  {
-   "source": "horario:20h",
    "target": "2026-11-12-figurinhas-de-aves"
   },
   {
@@ -4383,23 +4395,11 @@
   },
   {
    "source": "horario:20h",
-   "target": "2026-11-12-skills-de-design"
-  },
-  {
-   "source": "horario:20h",
-   "target": "2026-11-12-windows-gratis"
-  },
-  {
-   "source": "horario:20h",
    "target": "2026-11-13-assistentes-que-trabalham"
   },
   {
    "source": "horario:20h",
    "target": "2026-11-13-atendente-telefone-ia"
-  },
-  {
-   "source": "horario:20h",
-   "target": "2026-11-13-estudio-de-voz-gratis"
   },
   {
    "source": "horario:20h",
@@ -5367,11 +5367,19 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-08-console-no-celular"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-08-crie-seu-app-de-mac"
   },
   {
    "source": "paleta:paleta None",
    "target": "2026-11-08-estudar-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-08-estudio-de-voz-gratis"
   },
   {
    "source": "paleta:paleta None",
@@ -5387,7 +5395,15 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-08-skills-de-design"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-08-windows-gratis"
   },
   {
    "source": "paleta:paleta None",
@@ -5487,10 +5503,6 @@
   },
   {
    "source": "paleta:paleta None",
-   "target": "2026-11-12-console-no-celular"
-  },
-  {
-   "source": "paleta:paleta None",
    "target": "2026-11-12-figurinhas-de-aves"
   },
   {
@@ -5511,23 +5523,11 @@
   },
   {
    "source": "paleta:paleta None",
-   "target": "2026-11-12-skills-de-design"
-  },
-  {
-   "source": "paleta:paleta None",
-   "target": "2026-11-12-windows-gratis"
-  },
-  {
-   "source": "paleta:paleta None",
    "target": "2026-11-13-assistentes-que-trabalham"
   },
   {
    "source": "paleta:paleta None",
    "target": "2026-11-13-atendente-telefone-ia"
-  },
-  {
-   "source": "paleta:paleta None",
-   "target": "2026-11-13-estudio-de-voz-gratis"
   },
   {
    "source": "paleta:paleta None",
@@ -5811,7 +5811,15 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-08-console-no-celular"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-08-crie-seu-app-de-mac"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-estudio-de-voz-gratis"
   },
   {
    "source": "pilar:reel",
@@ -5823,7 +5831,15 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-08-skills-de-design"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-08-tv-que-cobra-licao"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-08-windows-gratis"
   },
   {
    "source": "pilar:reel",
@@ -5923,10 +5939,6 @@
   },
   {
    "source": "pilar:reel",
-   "target": "2026-11-12-console-no-celular"
-  },
-  {
-   "source": "pilar:reel",
    "target": "2026-11-12-figurinhas-de-aves"
   },
   {
@@ -5947,23 +5959,11 @@
   },
   {
    "source": "pilar:reel",
-   "target": "2026-11-12-skills-de-design"
-  },
-  {
-   "source": "pilar:reel",
-   "target": "2026-11-12-windows-gratis"
-  },
-  {
-   "source": "pilar:reel",
    "target": "2026-11-13-assistentes-que-trabalham"
   },
   {
    "source": "pilar:reel",
    "target": "2026-11-13-atendente-telefone-ia"
-  },
-  {
-   "source": "pilar:reel",
-   "target": "2026-11-13-estudio-de-voz-gratis"
   },
   {
    "source": "pilar:reel",
@@ -6027,6 +6027,22 @@
   },
   {
    "source": "formato:contagem",
+   "target": "2026-11-08-console-no-celular"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-08-estudio-de-voz-gratis"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-08-skills-de-design"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-08-windows-gratis"
+  },
+  {
+   "source": "formato:contagem",
    "target": "2026-11-09-apps-gratis-mac"
   },
   {
@@ -6075,23 +6091,7 @@
   },
   {
    "source": "formato:contagem",
-   "target": "2026-11-12-console-no-celular"
-  },
-  {
-   "source": "formato:contagem",
-   "target": "2026-11-12-skills-de-design"
-  },
-  {
-   "source": "formato:contagem",
-   "target": "2026-11-12-windows-gratis"
-  },
-  {
-   "source": "formato:contagem",
    "target": "2026-11-13-assistentes-que-trabalham"
-  },
-  {
-   "source": "formato:contagem",
-   "target": "2026-11-13-estudio-de-voz-gratis"
   },
   {
    "source": "formato:contagem",
@@ -6258,6 +6258,34 @@
    "target": "2026-11-14-vire-um-personagem"
   },
   {
+   "source": "2026-11-08-console-no-celular",
+   "target": "cta:MOBILE"
+  },
+  {
+   "source": "2026-11-08-console-no-celular",
+   "target": "tema:console-no-celular"
+  },
+  {
+   "source": "2026-11-08-console-no-celular",
+   "target": "fonte:https://github.com/lidor30/pokedaisy"
+  },
+  {
+   "source": "2026-11-08-console-no-celular",
+   "target": "fonte:https://github.com/kevinerikjs/gta5-ios-port"
+  },
+  {
+   "source": "2026-11-08-console-no-celular",
+   "target": "fonte:https://github.com/mamcjr/BOTWRecompAndroid"
+  },
+  {
+   "source": "2026-11-08-console-no-celular",
+   "target": "fonte:https://github.com/shirai91/nx2android"
+  },
+  {
+   "source": "2026-11-08-console-no-celular",
+   "target": "fonte:https://github.com/jhaizhou-ops/d2r-mobile"
+  },
+  {
    "source": "2026-11-08-crie-seu-app-de-mac",
    "target": "cta:APP"
   },
@@ -6300,6 +6328,26 @@
   {
    "source": "2026-11-08-estudar-ia",
    "target": "fonte:https://github.com/wquguru/cicada"
+  },
+  {
+   "source": "2026-11-08-estudio-de-voz-gratis",
+   "target": "cta:VOZ"
+  },
+  {
+   "source": "2026-11-08-estudio-de-voz-gratis",
+   "target": "tema:estudio-de-voz-gratis"
+  },
+  {
+   "source": "2026-11-08-estudio-de-voz-gratis",
+   "target": "fonte:https://github.com/timoncool/speech-studio"
+  },
+  {
+   "source": "2026-11-08-estudio-de-voz-gratis",
+   "target": "fonte:https://github.com/hehehai/AudioSmith"
+  },
+  {
+   "source": "2026-11-08-estudio-de-voz-gratis",
+   "target": "fonte:https://github.com/inclusionAI/Ming-3.0-tts"
   },
   {
    "source": "2026-11-08-figurinha-animada",
@@ -6362,6 +6410,26 @@
    "target": "fonte:https://github.com/seedds/nxnative"
   },
   {
+   "source": "2026-11-08-skills-de-design",
+   "target": "cta:DESIGN"
+  },
+  {
+   "source": "2026-11-08-skills-de-design",
+   "target": "tema:skills-de-design"
+  },
+  {
+   "source": "2026-11-08-skills-de-design",
+   "target": "fonte:https://github.com/Aixio-AI/aixio-layer-v2"
+  },
+  {
+   "source": "2026-11-08-skills-de-design",
+   "target": "fonte:https://github.com/juliobsz/skills"
+  },
+  {
+   "source": "2026-11-08-skills-de-design",
+   "target": "fonte:https://github.com/enesozturk/dimensional-drawing"
+  },
+  {
    "source": "2026-11-08-tv-que-cobra-licao",
    "target": "cta:LICAO"
   },
@@ -6372,6 +6440,26 @@
   {
    "source": "2026-11-08-tv-que-cobra-licao",
    "target": "fonte:https://github.com/chadyi/StudyOnTV"
+  },
+  {
+   "source": "2026-11-08-windows-gratis",
+   "target": "cta:WINDOWS"
+  },
+  {
+   "source": "2026-11-08-windows-gratis",
+   "target": "tema:windows-gratis"
+  },
+  {
+   "source": "2026-11-08-windows-gratis",
+   "target": "fonte:https://github.com/FortoGraphy/prism-download-manager"
+  },
+  {
+   "source": "2026-11-08-windows-gratis",
+   "target": "fonte:https://github.com/LingCore/WinShun"
+  },
+  {
+   "source": "2026-11-08-windows-gratis",
+   "target": "fonte:https://github.com/yjid/kensaku"
   },
   {
    "source": "2026-11-09-apps-gratis-mac",
@@ -6814,34 +6902,6 @@
    "target": "fonte:https://github.com/HeyPuter/everything"
   },
   {
-   "source": "2026-11-12-console-no-celular",
-   "target": "cta:MOBILE"
-  },
-  {
-   "source": "2026-11-12-console-no-celular",
-   "target": "tema:console-no-celular"
-  },
-  {
-   "source": "2026-11-12-console-no-celular",
-   "target": "fonte:https://github.com/lidor30/pokedaisy"
-  },
-  {
-   "source": "2026-11-12-console-no-celular",
-   "target": "fonte:https://github.com/kevinerikjs/gta5-ios-port"
-  },
-  {
-   "source": "2026-11-12-console-no-celular",
-   "target": "fonte:https://github.com/mamcjr/BOTWRecompAndroid"
-  },
-  {
-   "source": "2026-11-12-console-no-celular",
-   "target": "fonte:https://github.com/shirai91/nx2android"
-  },
-  {
-   "source": "2026-11-12-console-no-celular",
-   "target": "fonte:https://github.com/jhaizhou-ops/d2r-mobile"
-  },
-  {
    "source": "2026-11-12-figurinhas-de-aves",
    "target": "cta:AVES"
   },
@@ -6902,46 +6962,6 @@
    "target": "fonte:https://github.com/alchaincyf/huashu-art-motion"
   },
   {
-   "source": "2026-11-12-skills-de-design",
-   "target": "cta:DESIGN"
-  },
-  {
-   "source": "2026-11-12-skills-de-design",
-   "target": "tema:skills-de-design"
-  },
-  {
-   "source": "2026-11-12-skills-de-design",
-   "target": "fonte:https://github.com/Aixio-AI/aixio-layer-v2"
-  },
-  {
-   "source": "2026-11-12-skills-de-design",
-   "target": "fonte:https://github.com/juliobsz/skills"
-  },
-  {
-   "source": "2026-11-12-skills-de-design",
-   "target": "fonte:https://github.com/enesozturk/dimensional-drawing"
-  },
-  {
-   "source": "2026-11-12-windows-gratis",
-   "target": "cta:WINDOWS"
-  },
-  {
-   "source": "2026-11-12-windows-gratis",
-   "target": "tema:windows-gratis"
-  },
-  {
-   "source": "2026-11-12-windows-gratis",
-   "target": "fonte:https://github.com/FortoGraphy/prism-download-manager"
-  },
-  {
-   "source": "2026-11-12-windows-gratis",
-   "target": "fonte:https://github.com/LingCore/WinShun"
-  },
-  {
-   "source": "2026-11-12-windows-gratis",
-   "target": "fonte:https://github.com/yjid/kensaku"
-  },
-  {
    "source": "2026-11-13-assistentes-que-trabalham",
    "target": "tema:assistentes-que-trabalham"
   },
@@ -6968,26 +6988,6 @@
   {
    "source": "2026-11-13-atendente-telefone-ia",
    "target": "fonte:https://github.com/C4rohan/Lampline"
-  },
-  {
-   "source": "2026-11-13-estudio-de-voz-gratis",
-   "target": "cta:VOZ"
-  },
-  {
-   "source": "2026-11-13-estudio-de-voz-gratis",
-   "target": "tema:estudio-de-voz-gratis"
-  },
-  {
-   "source": "2026-11-13-estudio-de-voz-gratis",
-   "target": "fonte:https://github.com/timoncool/speech-studio"
-  },
-  {
-   "source": "2026-11-13-estudio-de-voz-gratis",
-   "target": "fonte:https://github.com/hehehai/AudioSmith"
-  },
-  {
-   "source": "2026-11-13-estudio-de-voz-gratis",
-   "target": "fonte:https://github.com/inclusionAI/Ming-3.0-tts"
   },
   {
    "source": "2026-11-13-linux-em-todo-lugar",

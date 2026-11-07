@@ -26,7 +26,7 @@
  "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Prism 773, WinShun 904, kensaku 1.196; total 2.873; criados entre 08/10 e 24/10.",
  "obs": "WinShun tem foco em busca por pinyin (chinês); a busca de texto completo vale para qualquer idioma — conferir.",
  "polemica": false,
- "agenda": "2026-11-12 06:00",
+ "agenda": "2026-11-08 07:00",
  "palavras": 97,
  "duracao_estimada_s": 33.4,
  "status": "roteiro aprovado",
@@ -105,5 +105,6 @@
    "legenda": "Comenta WINDOWS e me segue que eu te mando os três links.",
    "sfx": []
   }
- ]
+ ],
+ "adiantado_de": "2026-11-12"
 }
