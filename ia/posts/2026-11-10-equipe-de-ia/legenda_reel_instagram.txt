@@ -1,19 +1,19 @@
 Comenta EQUIPE que eu te mando as instruções do meu funcionário nº 1. 💼
 
-Eu tenho 5 funcionários que não cobram salário. E todos são a mesma IA:
+Contratei 5 funcionários que não cobram salário. E todos são a mesma IA:
 1. Organiza as contas da casa e mostra onde dá pra cortar
 2. Monta o cardápio da semana
 3. Revisa meus textos antes de eu mandar
 4. Monta meu treino
 5. Conversa comigo em inglês
 
-Cada um é só um Projeto (ChatGPT ou Claude) ou um Gem (Gemini) com as instruções certas. Configura uma vez e pronto.
+Cada um é a IA que você já usa (um Projeto no Claude ou um Gem no Gemini) com as instruções certas. Configura uma vez e pronto.
 
-💬 Comenta EQUIPE e me segue que eu te mando as instruções do das contas da casa.
+💬 Comenta EQUIPE e me segue que eu te mando as instruções do assistente das contas da casa.
 
-Qual funcionário você contrataria primeiro? 👇
+Qual você contrataria primeiro: nutricionista, personal ou contador? 👇
 
-Fontes: central de ajuda do Claude (Projetos), da OpenAI e do Google (Gems). Não é recomendação de investimento.
+Fontes: central de ajuda do Claude (Projetos), da OpenAI e do Google (Gems). São sugestões da IA: não substituem nutricionista, personal ou contador de verdade. Não é recomendação de investimento.
 Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
 
 #ia #chatgpt #claude #gemini #produtividade #financaspessoais #inteligenciaartificial

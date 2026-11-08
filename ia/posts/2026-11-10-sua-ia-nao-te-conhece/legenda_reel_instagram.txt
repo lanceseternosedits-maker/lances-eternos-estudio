@@ -1,19 +1,21 @@
 Comenta ASSISTENTE que eu te mando o texto pronto pra colar. 🛎️
 
-Você explica tudo pra IA toda vez: quem você é, o que faz, como gosta da resposta. E na conversa seguinte ela esquece.
+Você explica tudo pra IA toda vez: quem você é, o que faz, como gosta da resposta. E na conversa nova ela começa do zero.
 
 Só que existe um lugar onde você conta isso UMA vez:
 • ChatGPT: instruções personalizadas
-• Claude: preferências pessoais
+• Claude: Projetos
 • Gemini: Gems
 
-Você escreve quem é, seu trabalho e o jeito que quer a resposta. Daí pra frente ela responde como se te conhecesse.
+Você escreve quem é, seu trabalho e o jeito que quer a resposta. Daí pra frente ela já responde sabendo quem você é.
 
 💬 Comenta ASSISTENTE e me segue que eu te mando o texto, é só trocar pelos seus dados.
 
-O que você mais pede pra IA no dia a dia? 👇
+Você já cansou de explicar tudo de novo pra IA? Sim ou não 👇
 
-Fontes: central de ajuda da OpenAI (instruções personalizadas), do Claude (preferências e Projetos) e do Google (Gems).
+⚠️ Nunca coloque CPF, senhas ou dados de saúde nas instruções.
+
+Fontes: central de ajuda da OpenAI (instruções personalizadas), do Claude (Projetos) e do Google (Gems).
 Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
 
 #ia #chatgpt #claude #gemini #dicasdeia #produtividade #inteligenciaartificial

@@ -128,6 +128,8 @@ def status_do_post(meta: dict, pubs: list[dict]) -> str:
 
 def balde(status: str) -> str:
     s = status.lower()
+    if "reprovado" in s:  # reprovado no painel de revisão: fica com os negados
+        return "negado"
     if "aguardando" in s:
         return "aprovar"
     if "aprovado" in s or "correção" in s or "produção" in s:

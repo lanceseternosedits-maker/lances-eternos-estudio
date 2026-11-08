@@ -14,6 +14,34 @@
  "prova_viral": "Validação de produto (não é pauta de tendência): o formato 'IA que trabalha por você' é o que mais salva no perfil (5 skills 4,7% e TV 2,7% de salvamento, leitura de 07/11); configurar instruções/Projetos/Gems é recurso oficial das três IAs (fontes).",
  "cta": "CONFIGURA",
  "polemica": false,
- "status": "roteiro aguardando aprovação",
- "produto": "kit-assistente-pessoal"
+ "status": "reprovado na revisão",
+ "produto": "kit-assistente-pessoal",
+ "revisao": {
+  "veredito": "reprovado",
+  "resumo": "repete o 'mesma pergunta' que você negou",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "reprova",
+    "nota": "É quase o 'mesma-pergunta-resposta-diferente' que você negou como Confuso; o 'sua IA não te conhece' entrega o mesmo brinde de forma mais direta."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "A IA não 'vê a geladeira' e 'fiz a pergunta pra duas IAs' precisa ter sido testado de verdade."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Abertura é contexto, não conflito; CTA só no fim."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "passa",
+    "nota": "Claro e no ritmo (~2,8 palavras/s)."
+   }
+  ],
+  "ajustes": [],
+  "em": "2026-11-08 15:06"
+ }
 }

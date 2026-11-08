@@ -15,5 +15,41 @@
  "cta": "EQUIPE",
  "polemica": false,
  "status": "roteiro aguardando aprovação",
- "produto": "kit-assistente-pessoal"
+ "produto": "kit-assistente-pessoal",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "CTA e envio no meio, fatos acertados",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "passa",
+    "nota": "Regra de ouro pura: 5 funcionários de IA que trabalham por você; entende em 2 s."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "Projetos (Claude) e Gems (Gemini) valem no grátis; 'em 1 tarde' e 'Projeto no ChatGPT' não tinham fonte."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Gancho bom, mas faltava CTA e pedido de envio no meio; pergunta final abstrata."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "passa",
+    "nota": "Frases curtas, ~2,8 palavras/s; só 'projeto' soava jargão."
+   }
+  ],
+  "ajustes": [
+   "gancho: 'Eu tenho' virou 'Contratei' (mais cena)",
+   "s3: CTA EQUIPE + like e envio no meio",
+   "s4: 'um projeto' virou 'a IA que você já usa'",
+   "etiqueta: 'EM 1 TARDE' virou 'EM POUCOS MINUTOS'",
+   "brinde: tirado 'Projeto no ChatGPT' (sem fonte conferida)",
+   "legenda: pergunta de 1 palavra + aviso de que não substitui profissional",
+   "2ª volta: passou; s2 dividida em 2 frases, etiqueta 'o melhor' alinhada à fala, erro de digitação da legenda corrigido"
+  ],
+  "em": "2026-11-08 15:06"
+ }
 }

@@ -15,5 +15,40 @@
  "cta": "ASSISTENTE",
  "polemica": false,
  "status": "roteiro aguardando aprovação",
- "produto": "kit-assistente-pessoal"
+ "produto": "kit-assistente-pessoal",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "menos nomes de produto, CTA no meio",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "ajustar",
+    "nota": "Dor real, mas a lista de 3 nomes de recurso virava aula; focar no que a IA faz por você."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "'Amanhã ela esquece' e 'te conhece há anos' exageravam; '2 minutos' sem teste."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Gancho mais forte dos três, mas longo (17 palavras) e sem CTA nem envio no meio."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "Gancho com 19 palavras e cena de nomes cansativa; 'Gems' é jargão."
+   }
+  ],
+  "ajustes": [
+   "gancho encurtado: '…E na próxima conversa ela esquece tudo.'",
+   "s1/s2: os 3 nomes saíram da fala (vão no brinde e na legenda); entrou CTA ASSISTENTE + envio no meio",
+   "s4: 'te conhece há anos' virou 'já responde sabendo quem você é'",
+   "etiqueta: '2 MINUTOS' virou 'POUCOS MINUTOS'",
+   "legenda: pergunta sim/não + aviso de não colar CPF, senha ou saúde",
+   "2ª volta: 'esquece tudo' virou 'começa do zero' (ChatGPT e Claude têm memória), 'toda IA' virou 'as principais IAs', CTA passou para o meio (depois de explicar o que escrever), Claude citado só com Projetos (fonte oficial)"
+  ],
+  "em": "2026-11-08 15:06"
+ }
 }

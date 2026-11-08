@@ -19,7 +19,7 @@
   "som": "trilha 01 + máquina de escrever e plim",
   "mascote": "gravata e prancheta; ação principal: contratar (aperto de mão)"
  },
- "brinde": "instruções do assistente 'contas da casa' para colar num Projeto (ChatGPT/Claude) ou Gem (Gemini)",
+ "brinde": "instruções do assistente 'contas da casa' para colar num Projeto (Claude) ou num Gem (Gemini)",
  "fontes": [
   "https://support.claude.com/en/articles/9517075-what-are-projects",
   "https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions",
@@ -28,55 +28,55 @@
  "prova_viral": "Validação de produto (não é pauta de tendência): o formato 'IA que trabalha por você' é o que mais salva no perfil (5 skills 4,7% e TV 2,7% de salvamento, leitura de 07/11); configurar instruções/Projetos/Gems é recurso oficial das três IAs (fontes).",
  "polemica": false,
  "agenda": null,
- "palavras": 82,
- "duracao_estimada_s": 29.3,
+ "palavras": 86,
+ "duracao_estimada_s": 30.7,
  "status": "roteiro aguardando aprovação",
  "segmentos": [
   {
    "cena": "gancho",
    "tag": "5 FUNCIONÁRIOS QUE NÃO COBRAM SALÁRIO",
-   "fala": "Eu tenho cinco funcionários que não cobram salário. E todos são a mesma IA.",
-   "legenda": "Eu tenho cinco funcionários que não cobram salário. E todos são a mesma IA.",
+   "fala": "Contratei cinco funcionários que não cobram salário. E todos são a mesma IA.",
+   "legenda": "Contratei cinco funcionários que não cobram salário. E todos são a mesma IA.",
    "sfx": [],
    "etiqueta": [
     "5 FUNCIONÁRIOS DE IA",
-    "CONFIGURADOS EM 1 TARDE",
-    "E O Nº 1 CUIDA DO SEU DINHEIRO"
+    "CONFIGURADOS EM POUCOS MINUTOS",
+    "E O MELHOR CUIDA DO SEU DINHEIRO"
    ]
   },
   {
    "cena": "s1",
    "tag": "",
-   "fala": "Um monta meu cardápio da semana. Outro revisa meus textos antes de eu mandar.",
-   "legenda": "Um monta meu cardápio da semana. Outro revisa meus textos antes de eu mandar.",
+   "fala": "Um monta meu cardápio da semana.",
+   "legenda": "Um monta meu cardápio da semana.",
    "sfx": []
   },
   {
    "cena": "s2",
    "tag": "",
-   "fala": "Um monta meu treino. Outro conversa comigo em inglês.",
-   "legenda": "Um monta meu treino. Outro conversa comigo em inglês.",
+   "fala": "Outro monta meu treino. Outro revisa meus textos e outro conversa comigo em inglês.",
+   "legenda": "Outro monta meu treino. Outro revisa meus textos e outro conversa comigo em inglês.",
    "sfx": []
   },
   {
    "cena": "s3",
    "tag": "",
-   "fala": "E o melhor organiza as contas da casa e me avisa onde estou gastando demais.",
-   "legenda": "E o melhor organiza as contas da casa e me avisa onde estou gastando demais.",
+   "fala": "E o melhor organiza as contas da casa e acha onde eu gasto demais. Comenta EQUIPE que eu te mando esse. Deixa o like e manda pra um amigo que precisa.",
+   "legenda": "E o melhor organiza as contas da casa e acha onde eu gasto demais. Comenta EQUIPE que eu te mando esse. Deixa o like e manda pra um amigo que precisa.",
    "sfx": []
   },
   {
    "cena": "s4",
    "tag": "",
-   "fala": "Cada um é só um projeto com as instruções certas. Configura uma vez e pronto.",
-   "legenda": "Cada um é só um projeto com as instruções certas. Configura uma vez e pronto.",
+   "fala": "Cada um é a IA que você já usa, com instruções prontas.",
+   "legenda": "Cada um é a IA que você já usa, com instruções prontas.",
    "sfx": []
   },
   {
    "cena": "cta",
    "tag": "",
-   "fala": "Comenta EQUIPE que eu te mando as instruções do primeiro, o das contas da casa.",
-   "legenda": "Comenta EQUIPE que eu te mando as instruções do primeiro, o das contas da casa.",
+   "fala": "Comenta EQUIPE e me segue que as instruções são suas.",
+   "legenda": "Comenta EQUIPE e me segue que as instruções são suas.",
    "sfx": []
   }
  ]
