@@ -1,6 +1,6 @@
-# Kit "Seu assistente pessoal em 1 tarde": venda e lançamento
+# Kit "Super Assistente de IA": venda e lançamento
 
-Produto nº 2 (Vitor, 08/11). Arquivo entregue ao comprador: `kit.pdf` (17 páginas, A5, gerado por `gerar_pdf.py` a partir de `conteudo.py`).
+Produto nº 2 (Vitor, 08/11). Arquivo entregue ao comprador: `kit.pdf` (21 páginas, A5, gerado por `gerar_pdf.py` a partir de `conteudo.py`).
 
 ## Oferta
 
@@ -13,9 +13,9 @@ Produto nº 2 (Vitor, 08/11). Arquivo entregue ao comprador: `kit.pdf` (17 pági
 
 ## Página do produto (cole na Kiwify)
 
-**Nome:** Seu assistente pessoal em 1 tarde
+**Nome:** Super Assistente de IA
 
-**Título da página:** Pare de explicar tudo pra IA toda vez. Configure uma vez e ganhe 10 assistentes que já te conhecem.
+**Título da página:** Transforme o ChatGPT, o Claude ou o Gemini no seu Super Assistente: configure uma vez e ganhe 10 assistentes que já te conhecem.
 
 **Subtítulo:** Um passo a passo em português pra deixar o ChatGPT, o Claude ou o Gemini trabalhando por você: nas contas da casa, no cardápio, nos textos, no treino, nos estudos e no seu negócio.
 
@@ -24,10 +24,18 @@ Produto nº 2 (Vitor, 08/11). Arquivo entregue ao comprador: `kit.pdf` (17 pági
 - Quem quer delegar tarefas do dia a dia, sem aprender programação
 - Quem tem um pequeno negócio e responde cliente o dia inteiro
 
-**O que você recebe (PDF de 17 páginas, pra ler no celular)**
-- A ficha "quem sou eu": o texto pronto que faz a IA te conhecer, com onde colar em cada uma
+**Por que funciona (com fonte)**
+- Profissionais que usaram ChatGPT em tarefas de escrita levaram 40% menos tempo, com 18% mais qualidade (Science, 2023)
+- Consultores do BCG com GPT-4 entregaram trabalho 40% melhor e 25% mais rápido nas tarefas certas (Harvard, 2023)
+- Só pedir "pense passo a passo" levou o acerto da IA em problemas de matemática de 17,7% para 78,7% (NeurIPS 2022)
+O kit ensina exatamente esse "jeito certo", com a fonte de cada número.
+
+**O que você recebe (PDF de 21 páginas, pra ler no celular)**
+- As 6 alavancas que turbinam qualquer IA (contexto, exemplo, passo a passo, perguntas antes, fonte e "não sei", modo pensar), cada uma com o estudo por trás
+- A ficha QUEM SOU EU: o texto pronto que faz a IA te conhecer, com onde colar em cada uma
 - 10 assistentes prontos pra copiar e colar: 💰 Contas da casa · 🥗 Cardápio da semana · ✍️ Revisor de mensagens · 🏋️ Personal de treino · 🗣️ Professor de inglês · 🗓️ Organizador da semana · 📚 Parceiro de estudos · 🏪 Atendente do seu negócio · ✈️ Planejador de viagem · 🛡️ Detector de golpe
-- 30 pedidos prontos pra testar (3 por assistente)
+- 30 pedidos prontos pra testar (3 por assistente) e um exemplo de resposta de cada
+- 10 comandos turbo pra colar em qualquer conversa
 - Como "treinar" seus assistentes com o uso (a regra dos 3 ajustes)
 - Limites e segurança: o que nunca colocar na IA
 
@@ -52,9 +60,9 @@ Produto nº 2 (Vitor, 08/11). Arquivo entregue ao comprador: `kit.pdf` (17 pági
 
 **DM de venda (palavra KIT):**
 ```
-Opa! Aqui está o kit "Seu assistente pessoal em 1 tarde" 👇
+Opa! Aqui está o kit "Super Assistente de IA" 👇
 
-10 assistentes prontos (contas, cardápio, revisor, treino, inglês, agenda, estudos, atendimento, viagem e detector de golpe) + a ficha que faz a IA te conhecer. PDF de 17 páginas, pra ChatGPT, Claude ou Gemini.
+10 assistentes prontos (contas, cardápio, revisor, treino, inglês, agenda, estudos, atendimento, viagem e detector de golpe) + as 6 alavancas que turbinam qualquer IA + 10 comandos turbo. PDF de 21 páginas, com a fonte de cada número, pra ChatGPT, Claude ou Gemini.
 
 👉 [LINK DO CHECKOUT KIWIFY]
 
