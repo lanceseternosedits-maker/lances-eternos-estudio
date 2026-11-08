@@ -1,0 +1,83 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energia de conversa entre amigos, ritmo ágil sem pausas longas (cerca de 2,8 palavras por segundo)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "objetivo": "validação do produto nº 2 (kit 'Seu assistente pessoal em 1 tarde'): medir comentários da palavra",
+ "chave": "ASSISTENTE",
+ "tese": "SUA IA NÃO SABE NADA DE VOCÊ",
+ "conceito": "Recepção de hotel: o mascote é o recepcionista novo que não reconhece o hóspede (o público) e pede o nome toda vez; uma ficha de cadastro é preenchida, carimbada, e na volta o mascote já sabe tudo (café sem açúcar, trabalho, filhos). Paleta azul-petróleo + latão.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "(sem item)",
+  "contador": "(sem contador)",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "d) virada de página",
+  "camera": "c) travelling lateral",
+  "fechamento": "e) página de caderno",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 02 + campainha de balcão e carimbo",
+  "mascote": "colete de recepcionista e crachá; ação principal: preencher a ficha"
+ },
+ "brinde": "texto 'quem sou eu' pronto para colar nas instruções personalizadas (ChatGPT), preferências (Claude) ou num Gem (Gemini)",
+ "fontes": [
+  "https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions",
+  "https://support.claude.com/en/articles/9517075-what-are-projects",
+  "https://support.google.com/gemini/answer/15146780"
+ ],
+ "prova_viral": "Validação de produto (não é pauta de tendência): o formato 'IA que trabalha por você' é o que mais salva no perfil (5 skills 4,7% e TV 2,7% de salvamento, leitura de 07/11); configurar instruções/Projetos/Gems é recurso oficial das três IAs (fontes).",
+ "polemica": false,
+ "agenda": null,
+ "palavras": 84,
+ "duracao_estimada_s": 30.0,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "SUA IA NÃO SABE NADA DE VOCÊ",
+   "fala": "Você explica tudo pra IA toda vez. Quem você é, o que faz, como gosta. E amanhã ela esquece.",
+   "legenda": "Você explica tudo pra IA toda vez. Quem você é, o que faz, como gosta. E amanhã ela esquece.",
+   "sfx": [],
+   "etiqueta": [
+    "SUA IA NÃO SABE NADA DE VOCÊ",
+    "2 MINUTOS DE CONFIGURAÇÃO",
+    "E ELA VIRA SUA ASSISTENTE"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Só que existe um lugar onde você conta isso uma vez só.",
+   "legenda": "Só que existe um lugar onde você conta isso uma vez só.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "No ChatGPT chama instruções personalizadas. No Claude, preferências. No Gemini, Gems.",
+   "legenda": "No ChatGPT chama instruções personalizadas. No Claude, preferências. No Gemini, Gems.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Você escreve quem é, seu trabalho e o jeito que quer a resposta.",
+   "legenda": "Você escreve quem é, seu trabalho e o jeito que quer a resposta.",
+   "sfx": []
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "E daí pra frente ela responde como se te conhecesse há anos.",
+   "legenda": "E daí pra frente ela responde como se te conhecesse há anos.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "",
+   "fala": "Comenta ASSISTENTE que eu te mando o texto pronto pra colar, é só trocar pelos seus dados.",
+   "legenda": "Comenta ASSISTENTE que eu te mando o texto pronto pra colar, é só trocar pelos seus dados.",
+   "sfx": []
+  }
+ ]
+}

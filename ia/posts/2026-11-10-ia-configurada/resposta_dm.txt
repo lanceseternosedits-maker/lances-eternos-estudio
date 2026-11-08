@@ -1,0 +1,13 @@
+Opa! Aqui está o passo a passo de 3 minutos 👇
+
+1. Abra onde a IA guarda quem você é:
+• ChatGPT: Configurações > Personalização > Instruções personalizadas
+• Claude: Configurações > Perfil > preferências pessoais
+• Gemini: crie um Gem
+
+2. Cole e complete:
+"Sobre mim: [rotina, horários, restrições (ex.: sem lactose), família, trabalho]. Como responder: em português do Brasil, curto, em tópicos, levando em conta minha rotina. Antes de sugerir algo, considere o que eu já tenho (ex.: o que tem na geladeira)."
+
+3. Teste perguntando: "O que eu faço pro jantar hoje?"
+
+Você também entrou na lista do kit "Seu assistente pessoal em 1 tarde": quando sair, quem comentou ganha o preço de lançamento. É só comentar a palavra de novo no vídeo de lançamento. 💜

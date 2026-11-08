@@ -1,0 +1,19 @@
+{
+ "data": null,
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "ia-configurada"
+ ],
+ "fontes": [
+  "https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions",
+  "https://support.claude.com/en/articles/9517075-what-are-projects",
+  "https://support.google.com/gemini/answer/15146780"
+ ],
+ "prova_viral": "Validação de produto (não é pauta de tendência): o formato 'IA que trabalha por você' é o que mais salva no perfil (5 skills 4,7% e TV 2,7% de salvamento, leitura de 07/11); configurar instruções/Projetos/Gems é recurso oficial das três IAs (fontes).",
+ "cta": "CONFIGURA",
+ "polemica": false,
+ "status": "roteiro aguardando aprovação",
+ "produto": "kit-assistente-pessoal"
+}

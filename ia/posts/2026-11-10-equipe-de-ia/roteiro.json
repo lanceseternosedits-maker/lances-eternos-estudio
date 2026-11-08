@@ -1,0 +1,83 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energia de conversa entre amigos, ritmo ágil sem pausas longas (cerca de 2,8 palavras por segundo)",
+ "formato": "palco",
+ "categoria": "novidade",
+ "objetivo": "validação do produto nº 2 (kit 'Seu assistente pessoal em 1 tarde'): medir comentários da palavra",
+ "chave": "EQUIPE",
+ "tese": "5 FUNCIONÁRIOS QUE NÃO COBRAM SALÁRIO",
+ "conceito": "Escritório de startup em miniatura: 5 mesas, cada uma com um crachá (nutricionista, revisor, personal, professor de inglês, contador); o mascote passa de mesa em mesa contratando cada um com um aperto de mão de bloco; no fim, a equipe posa para a foto. Paleta verde-menta + madeira clara.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita adesiva",
+  "nome": "f) escrito à mão",
+  "contador": "(sem contador)",
+  "legenda": "e) tarja de TV/arcade",
+  "transicao": "c) íris circular",
+  "camera": "d) órbita",
+  "fechamento": "b) pódio",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 01 + máquina de escrever e plim",
+  "mascote": "gravata e prancheta; ação principal: contratar (aperto de mão)"
+ },
+ "brinde": "instruções do assistente 'contas da casa' para colar num Projeto (ChatGPT/Claude) ou Gem (Gemini)",
+ "fontes": [
+  "https://support.claude.com/en/articles/9517075-what-are-projects",
+  "https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions",
+  "https://support.google.com/gemini/answer/15146780"
+ ],
+ "prova_viral": "Validação de produto (não é pauta de tendência): o formato 'IA que trabalha por você' é o que mais salva no perfil (5 skills 4,7% e TV 2,7% de salvamento, leitura de 07/11); configurar instruções/Projetos/Gems é recurso oficial das três IAs (fontes).",
+ "polemica": false,
+ "agenda": null,
+ "palavras": 82,
+ "duracao_estimada_s": 29.3,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 FUNCIONÁRIOS QUE NÃO COBRAM SALÁRIO",
+   "fala": "Eu tenho cinco funcionários que não cobram salário. E todos são a mesma IA.",
+   "legenda": "Eu tenho cinco funcionários que não cobram salário. E todos são a mesma IA.",
+   "sfx": [],
+   "etiqueta": [
+    "5 FUNCIONÁRIOS DE IA",
+    "CONFIGURADOS EM 1 TARDE",
+    "E O Nº 1 CUIDA DO SEU DINHEIRO"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Um monta meu cardápio da semana. Outro revisa meus textos antes de eu mandar.",
+   "legenda": "Um monta meu cardápio da semana. Outro revisa meus textos antes de eu mandar.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Um monta meu treino. Outro conversa comigo em inglês.",
+   "legenda": "Um monta meu treino. Outro conversa comigo em inglês.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "E o melhor organiza as contas da casa e me avisa onde estou gastando demais.",
+   "legenda": "E o melhor organiza as contas da casa e me avisa onde estou gastando demais.",
+   "sfx": []
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Cada um é só um projeto com as instruções certas. Configura uma vez e pronto.",
+   "legenda": "Cada um é só um projeto com as instruções certas. Configura uma vez e pronto.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "",
+   "fala": "Comenta EQUIPE que eu te mando as instruções do primeiro, o das contas da casa.",
+   "legenda": "Comenta EQUIPE que eu te mando as instruções do primeiro, o das contas da casa.",
+   "sfx": []
+  }
+ ]
+}

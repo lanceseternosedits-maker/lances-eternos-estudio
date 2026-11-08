@@ -1,0 +1,83 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energia de conversa entre amigos, ritmo ágil sem pausas longas (cerca de 2,8 palavras por segundo)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "objetivo": "validação do produto nº 2 (kit 'Seu assistente pessoal em 1 tarde'): medir comentários da palavra",
+ "chave": "CONFIGURA",
+ "tese": "A MESMA PERGUNTA, DUAS IAS",
+ "conceito": "Tela dividida de programa de culinária: duas bancadas iguais; à esquerda o mascote com roupa genérica tira da geladeira algo qualquer; à direita o mascote de avental com o nome do público abre a geladeira certa (marmita do dia, sem lactose, 20 minutos). Placar de jurados no fim. Paleta tomate + creme.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "(sem item)",
+  "contador": "f) termômetro (o quanto a resposta serve)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "e) glitch RGB",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 03 + panela, timer e campainha de prato pronto",
+  "mascote": "avental e chapéu de chef; ação principal: cozinhar"
+ },
+ "brinde": "passo a passo de 3 minutos para configurar a IA (onde clicar em cada uma) + modelo de texto",
+ "fontes": [
+  "https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions",
+  "https://support.claude.com/en/articles/9517075-what-are-projects",
+  "https://support.google.com/gemini/answer/15146780"
+ ],
+ "prova_viral": "Validação de produto (não é pauta de tendência): o formato 'IA que trabalha por você' é o que mais salva no perfil (5 skills 4,7% e TV 2,7% de salvamento, leitura de 07/11); configurar instruções/Projetos/Gems é recurso oficial das três IAs (fontes).",
+ "polemica": false,
+ "agenda": null,
+ "palavras": 80,
+ "duracao_estimada_s": 28.6,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A MESMA PERGUNTA, DUAS IAS",
+   "fala": "Eu fiz a mesma pergunta pra duas IAs. Uma respondeu igual pra todo mundo.",
+   "legenda": "Eu fiz a mesma pergunta pra duas IAs. Uma respondeu igual pra todo mundo.",
+   "sfx": [],
+   "etiqueta": [
+    "A MESMA PERGUNTA",
+    "IA NORMAL × IA CONFIGURADA",
+    "E A DIFERENÇA É ABSURDA"
+   ]
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "A pergunta foi: o que eu faço pro jantar hoje?",
+   "legenda": "A pergunta foi: o que eu faço pro jantar hoje?",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "A normal me deu uma receita de lasanha. Uma hora de forno.",
+   "legenda": "A normal me deu uma receita de lasanha. Uma hora de forno.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "A configurada sabe que eu não como lactose, chego às oito e tenho vinte minutos.",
+   "legenda": "A configurada sabe que eu não como lactose, chego às oito e tenho vinte minutos.",
+   "sfx": []
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "E sugeriu um prato com o que já estava na minha geladeira.",
+   "legenda": "E sugeriu um prato com o que já estava na minha geladeira.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "",
+   "fala": "A diferença são três minutos de configuração. Comenta CONFIGURA que eu te mando o passo a passo.",
+   "legenda": "A diferença são três minutos de configuração. Comenta CONFIGURA que eu te mando o passo a passo.",
+   "sfx": []
+  }
+ ]
+}
