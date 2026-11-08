@@ -1,9 +1,9 @@
-Opa! Aqui está o mapa 🧩
+Opa! Aqui está o caminho completo 🧩
 
-As 15 peças de um app de verdade:
-APP → DEPLOY → DOMÍNIO → BANCO DE DADOS → LOGIN → SENHA → 2FA → PAGAMENTO → WEBHOOK → E-MAIL → API → IA NO APP → BACKUP → ESCALA → MONITORAMENTO
+Da ideia ao app de verdade:
+Só No Seu PC → Servidor → Domínio → Banco De Dados → Login → Senha → Código No Celular → Pagamento → Aviso Automático → E-Mail → Conexão Com Apps → IA No App → Backup → Escala → Vigia
 
-Os 15 pedidos pra fazer com o Claude ou ChatGPT, em ordem:
+O pedido pra IA em cada etapa (Claude ou ChatGPT), em ordem:
 1. "faz um app de agendamento"
 2. "coloca meu app no ar"
 3. "quero meu app em meuapp.com"
