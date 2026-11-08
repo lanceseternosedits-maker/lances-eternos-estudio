@@ -23,7 +23,7 @@ Todo roteiro e `meta.json` levam `"categoria"`: `"novidade"`, `"historia"` ou `"
 
 ## Viralização (o que as plataformas medem)
 - Instagram: tempo assistido, curtidas e **envios por DM** por alcance; conteúdo original. TikTok: conclusão, reassistir, compartilhar; a busca lê fala, texto na tela e legenda (use palavras buscadas).
-- Gancho em até 1,5 s em 3 camadas (imagem, fala e texto dizem o mesmo). Uma frase por cena, 20–35 s, sem introdução. CTA: "Comenta PALAVRA e me segue que eu te mando [brinde]". Legenda termina com pergunta fácil.
+- Gancho em até 1,5 s em 3 camadas (imagem, fala e texto dizem o mesmo). Uma frase por cena, 20–35 s, sem introdução. CTA: "Comenta PALAVRA e me segue que eu te mando [brinde]". No fim do vídeo, pedir também o envio (Vitor, 08/11): "deixa o like e manda pra aquele amigo que curte tecnologia" (envio por DM é o que o Instagram mais mede); 1 vez, natural, nunca "marca 3 amigos". Legenda termina com pergunta fácil.
 
 ## Teste viral do roteiro (referência 4, 05/11): passa nos 5 antes de ir para aprovação
 1. **Conflito no gancho** (até 1,5 s): uma tensão, não contexto. Ruim: "5 programas grátis estão bombando". Bom: "Você paga por 5 programas que têm versão grátis, e a nº 1 é bizarra".
