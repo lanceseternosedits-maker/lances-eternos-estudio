@@ -177,7 +177,7 @@ const pernas = [-0.5, -0.17, 0.17, 0.5].map((x) => { const p = new THREE.Mesh(ne
 const bracoE = new THREE.Mesh(new THREE.BoxGeometry(0.35, 0.22, 0.22), lar), bracoD = bracoE.clone(); bracoE.position.set(-0.92, 0.95, 0); bracoD.position.set(0.92, 0.95, 0); masc.add(bracoE, bracoD);
 masc.scale.setScalar(1.15); S.add(masc);
 
-const ease = (x) => (x <= 0 ? 0 : x >= 1 ? 1 : x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+const ease = (x) => (x <= 0 ? 0 : x >= 1 ? 1 : x * x * x * (x * (6 * x - 15) + 10)); // smootherstep
 const pop = (x) => { x = Math.max(0, Math.min(1, x)); return x < 0.7 ? (1 - Math.pow(1 - x / 0.7, 3)) * 1.12 : 1.12 - 0.12 * (1 - Math.pow(1 - (x - 0.7) / 0.3, 3)); };
 let TL = null; const _prev = window.setTL; window.setTL = (t) => { TL = t; if (_prev) _prev(t); };
 // planos de câmera
@@ -215,7 +215,9 @@ window.setT3 = (t) => {
   else if (idx >= 0) { const alvo = planoEtapa(idx); pl = dt < tA ? PLANO_PC : mistura(PLANO_PC, alvo, ease((dt - tA) / 0.9)); }
   else if (seg.cena === 'meio') { const ant = planoEtapa(6); pl = { pos: ant.pos.clone().add(V(2, 3, 4)), olha: ant.olha }; }
   else { const z = ease(dt / 2); const geral = { pos: V(6, 26, 30), olha: V(8, 0, 2) }; pl = mistura(planoEtapa(14), geral, z); }
-  pl.pos.x += Math.sin(t * 0.4) * 0.3; cam.position.copy(pl.pos); cam.lookAt(pl.olha);
+  // regras de câmera (skill claude-animated-shorts, 08/11): toda pausa 'anda' (empurrão lento), leve inclinação de 3-4°, nunca quadro parado
+  const empurra = Math.min(0.12, (t - seg.t0) * 0.025); pl.pos.lerp(pl.olha, empurra);
+  pl.pos.x += Math.sin(t * 0.4) * 0.3; cam.position.copy(pl.pos); cam.lookAt(pl.olha); cam.rotateZ(0.06 * Math.sin(t * 0.3));
   // mascote sentado digitando (balança e mexe os braços enquanto digita)
   masc.position.set(MX, 1.75, MZ + 2.0); masc.rotation.y = Math.PI; const dig = idx >= 0 && dt < tA;
   bracoE.rotation.x = dig ? 0.3 * Math.sin(t * 22) : 0; bracoD.rotation.x = dig ? -0.3 * Math.sin(t * 22) : 0;
