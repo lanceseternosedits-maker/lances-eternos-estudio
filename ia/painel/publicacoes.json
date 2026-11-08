@@ -986,10 +986,10 @@
   {
    "data": "2026-11-08 07:00",
    "rede": "instagram",
-   "status": "PENDING",
+   "status": "rascunho (cancelado pelo Vitor)",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "Comenta CAMINHO que eu te mando o mapa completo + o pedido pra IA em cada etapa.",
    "erro": null,
    "lido_em": "2026-11-08 05:45"
@@ -997,10 +997,10 @@
   {
    "data": "2026-11-08 07:00",
    "rede": "tiktok",
-   "status": "PENDING",
+   "status": "rascunho (cancelado pelo Vitor)",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "Sua ideia de app até virar negócio de verdade: tudo que acontece no caminho, em 2 minutos.",
    "erro": null,
    "lido_em": "2026-11-08 05:45"
