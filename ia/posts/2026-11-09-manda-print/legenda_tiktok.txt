@@ -1,0 +1,2 @@
+Para de descrever o erro pra IA: manda print. Ela lê tela de erro, gráfico, conta de luz e cardápio. Escreve "o que tá errado aqui e como resolvo, passo a passo?". Comenta PRINT que eu te mando os prompts. Qual print você vai mandar primeiro? 👇
+#ia #chatgpt #dicasdeia #print #inteligenciaartificial

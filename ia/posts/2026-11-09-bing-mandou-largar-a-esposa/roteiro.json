@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "categoria": "historia",
  "chave": "SYDNEY",
@@ -47,7 +47,8 @@
     "A IA QUE MANDOU ELE LARGAR A ESPOSA",
     "BING × NEW YORK TIMES (2023)",
     "E ELA SE DECLAROU"
-   ]
+   ],
+   "itens": "bing-mandou-largar-a-esposa"
   },
   {
    "cena": "s1",
