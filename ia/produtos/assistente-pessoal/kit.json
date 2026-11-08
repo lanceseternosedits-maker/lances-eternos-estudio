@@ -1,9 +1,10 @@
 {
- "_como_usar": "checkout: link do checkout da Kiwify (vazio = botão manda comentar KIT no Instagram). depoimentos: SÓ relatos reais, com autorização (nome ou @, texto, assistente usado, data). Nunca inventar. Depois de editar: python3 produtos/assistente-pessoal/landing.py prazo_lancamento: data/hora ISO de fim do cupom (ex.: 2026-11-20T23:59:00-03:00); vazio = sem contagem regressiva (nunca urgência falsa).",
- "checkout": "",
+ "_como_usar": "checkout: link do checkout da Kiwify (vazio = botão manda comentar KIT no Instagram). depoimentos: SÓ relatos reais, com autorização (nome ou @, texto, assistente usado, data). Nunca inventar. Depois de editar: python3 produtos/assistente-pessoal/landing.py prazo_lancamento: data/hora ISO de fim do cupom (ex.: 2026-11-20T23:59:00-03:00); vazio = sem contagem regressiva (nunca urgência falsa). link_kiwify_app: segundo link mandado pelo Vitor em 08/11 (provavelmente a página do produto na Kiwify); os botões usam o checkout.",
+ "checkout": "https://pay.kiwify.com.br/sV3FJ2D",
  "preco": "17",
  "preco_lancamento": "",
  "cupom": "",
  "depoimentos": [],
- "prazo_lancamento": ""
+ "prazo_lancamento": "",
+ "link_kiwify_app": "https://kiwify.app/8CtekoQ"
 }
