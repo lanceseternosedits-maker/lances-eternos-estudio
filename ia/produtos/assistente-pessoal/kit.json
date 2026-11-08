@@ -1,0 +1,8 @@
+{
+ "_como_usar": "checkout: link do checkout da Kiwify (vazio = botão manda comentar KIT no Instagram). depoimentos: SÓ relatos reais, com autorização (nome ou @, texto, assistente usado, data). Nunca inventar. Depois de editar: python3 produtos/assistente-pessoal/landing.py",
+ "checkout": "",
+ "preco": "47",
+ "preco_lancamento": "27",
+ "cupom": "LISTA20",
+ "depoimentos": []
+}

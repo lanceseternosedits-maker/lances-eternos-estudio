@@ -47,6 +47,16 @@ if rep:
     out += [f"⚠️ Palavras usadas em mais de um Reel: {', '.join(rep)}. Por isso o gatilho tem que ser o Reel específico.", ""]
 for nome, palavra, quando, dm in itens:
     out += [f"## {palavra} · {quando}", f"Post: `{nome}`", "", "```", dm, "```", ""]
-(IA / "painel" / "respostas.json").write_text(json.dumps({"respostas_publicas": RESP, "posts": robo}, ensure_ascii=False, indent=1), encoding="utf-8")
+kit = ler(IA / "produtos" / "assistente-pessoal" / "kit.json")
+SITE = "https://painel-iaem60s.vgofredousa.workers.dev"
+if kit.get("checkout"):
+    dm_kit = (f"Opa! Aqui está o Super Assistente de IA 👇\n\n10 assistentes prontos (contas, cardápio, revisor, treino, inglês, agenda, estudos, "
+              f"atendimento, viagem e detector de golpe) + as 6 alavancas que turbinam qualquer IA + 10 comandos turbo. PDF de 20 páginas.\n\n"
+              f"👉 {kit['checkout']}\n\nGarantia de 7 dias. Detalhes: {SITE}/kit")
+else:
+    dm_kit = (f"Opa! O Super Assistente de IA está saindo do forno 🔥\n\nVocê entrou na lista de lançamento e vai ganhar o preço especial. "
+              f"Enquanto isso, veja tudo o que vem no kit: {SITE}/kit")
+globais = [{"palavra": "KIT", "pasta": "", "quando": "", "dm": dm_kit}]
+(IA / "painel" / "respostas.json").write_text(json.dumps({"respostas_publicas": RESP, "posts": robo, "globais": globais}, ensure_ascii=False, indent=1), encoding="utf-8")
 (IA / "painel" / "zorcha.md").write_text("\n".join(out), encoding="utf-8")
 print(f"{len(itens)} automações em painel/zorcha.md")

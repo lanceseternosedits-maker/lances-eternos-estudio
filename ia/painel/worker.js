@@ -187,13 +187,16 @@ async function responderComentarios(env) {
     for (const co of coms) {
       if (ja.has(co.id) || (c.usuario && co.username === c.usuario)) continue;
       if (GASTO > TETO - 3) { incompleto = true; break; }
-      const tem = post && new RegExp(`(^|[^A-Z0-9])${sem(post.palavra)}([^A-Z0-9]|$)`).test(sem(co.text));
+      const casa = (pal) => new RegExp(`(^|[^A-Z0-9])${sem(pal)}([^A-Z0-9]|$)`).test(sem(co.text));
+      let alvo = post;
+      if (!(post && casa(post.palavra))) alvo = (R.globais || []).find((g) => casa(g.palavra)) || post; // KIT vale em qualquer Reel
+      const tem = alvo && casa(alvo.palavra);
       let acao = tem ? "" : "sem palavra", erro = "";
       if (tem) {
-        const linkBio = `${SITE}/links#${encodeURIComponent(sem(post.palavra))}`;
+        const linkBio = `${SITE}/links#${encodeURIComponent(sem(alvo.palavra))}`;
         // 1) DM (resposta privada; precisa do acesso avançado da Meta)
         if (dmAtivo) {
-          const dm = post.dm.length > 990 ? post.dm.slice(0, post.dm.lastIndexOf("\n", 850)) + `\n\nO resto tá aqui: ${linkBio}` : post.dm;
+          const dm = alvo.dm.length > 990 ? alvo.dm.slice(0, alvo.dm.lastIndexOf("\n", 850)) + `\n\nO resto tá aqui: ${linkBio}` : alvo.dm;
           const corpoDM = JSON.stringify({ recipient: { comment_id: co.id }, message: { text: dm } });
           try { await igFetch(`/${EU}/messages`, token, { method: "POST", body: corpoDM }); acao = "dm"; }
           catch (e) {
@@ -202,7 +205,7 @@ async function responderComentarios(env) {
           }
         }
         // 2) resposta pública (varia a frase; sem DM, aponta para o link da bio)
-        const frase = acao === "dm" ? frases[n % frases.length] : `${["Tá no link da bio", "Deixei no link da bio", "Coloquei no link da bio"][n % 3]}, procura ${post.palavra} 📌 (@${co.username})`;
+        const frase = acao === "dm" ? frases[n % frases.length] : `${["Tá no link da bio", "Deixei no link da bio", "Coloquei no link da bio"][n % 3]}, procura ${alvo.palavra} 📌 (@${co.username})`;
         n++;
         try { await igFetch(`/${co.id}/replies`, token, { method: "POST", body: JSON.stringify({ message: frase }) }); acao = acao ? acao + "+resposta" : "resposta"; }
         catch (e) { erro += (erro ? " | " : "") + "resposta: " + e.message; }
@@ -211,7 +214,7 @@ async function responderComentarios(env) {
         feitos++;
       }
       await env.DB.prepare("INSERT OR IGNORE INTO comentarios (id, media_id, usuario, texto, palavra, pasta, acao, erro, em) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)")
-        .bind(co.id, m.id, co.username || "", String(co.text || "").slice(0, 300), post?.palavra || "", post?.pasta || "", acao, erro.slice(0, 500), agoraBR()).run();
+        .bind(co.id, m.id, co.username || "", String(co.text || "").slice(0, 300), (tem ? alvo : post)?.palavra || "", (tem ? alvo : post)?.pasta || "", acao, erro.slice(0, 500), agoraBR()).run();
     }
     if (incompleto) break;
     await env.DB.prepare("INSERT INTO midias (id, n, em) VALUES (?, ?, ?) ON CONFLICT(id) DO UPDATE SET n = excluded.n, em = excluded.em").bind(m.id, m.comments_count, agoraBR()).run();
@@ -231,7 +234,7 @@ async function paginaLinks() {
   const agora = agoraBR();
   const vivos = (R.posts || []).filter((p) => p.quando <= agora).sort((a, b) => (a.quando < b.quando ? 1 : -1));
   const linkar = (t) => escH(t).replace(/https?:\/\/[^\s<]+/g, (u) => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`);
-  return PAGINA("IA em 60s · links", `<h1>IA em 60s 🤖</h1><p>Comentou a palavra num vídeo? O link tá aqui. Procure a palavra 👇</p>` +
+  return PAGINA("IA em 60s · links", `<h1>IA em 60s 🤖</h1><a href="/kit" style="display:block;text-decoration:none;color:#17152a;background:#ff7a3d;border-radius:14px;padding:14px 16px;margin:10px 0 18px;font-weight:800">🔥 Super Assistente de IA<br><span style="font-weight:500">10 assistentes prontos para ChatGPT, Claude ou Gemini →</span></a><p>Comentou a palavra num vídeo? O link tá aqui. Procure a palavra 👇</p>` +
     vivos.map((p) => `<div class="b" id="${escH(sem(p.palavra))}"><h2>💬 ${escH(p.palavra)}</h2><small>${escH(p.quando.slice(8, 10) + "/" + p.quando.slice(5, 7))}</small><pre>${linkar(p.dm)}</pre></div>`).join("") +
     `<p><small>Perfil independente, sem ligação com as empresas citadas.</small></p>`);
 }
@@ -353,6 +356,7 @@ export default {
       return new Response(r.body, { status: r.status, headers: out });
     }
     if (caminho === "links") return paginaLinks();
+    if (caminho === "kit") return fetch(BASE + "kit.html?t=" + Date.now(), { cf: { cacheTtl: 0 } }).then((r) => new Response(r.body, { status: r.ok ? 200 : 502, headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-cache" } }));
     if (caminho === "conectar") return paginaConectar(env, url);
     if (caminho === "ig/callback") return callback(env, url);
     if (caminho === "privacidade") return PAGINA("Privacidade", "<h1>Política de privacidade · IA em 60s</h1><p>Este app responde automaticamente a comentários feitos nos Reels do perfil IA em 60s no Instagram, com o link prometido no vídeo. Guardamos só o ID do comentário, o nome de usuário público e o texto do comentário, para não responder duas vezes. Não vendemos nem compartilhamos dados. Para pedir a exclusão, mande uma DM para o perfil com a palavra EXCLUIR e apagamos em até 7 dias.</p>");
