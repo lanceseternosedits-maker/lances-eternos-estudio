@@ -325,7 +325,7 @@ def main() -> None:
             passou = dt.datetime.combine(dia, dt.time.fromisoformat(h), BRT) < agora
             if ps:
                 p = ps[0]
-                st = {"PUBLISHED": "publicado", "PENDING": "rascunho" if p.get("rascunho") else "agendado", "ERROR": "erro", "AGUARDANDO": "aguardando aprovação"}[p["status"]]
+                st = {"PUBLISHED": "publicado", "PENDING": "rascunho" if p.get("rascunho") else "agendado", "ERROR": "erro", "AGUARDANDO": "aguardando aprovação"}.get(p["status"], p["status"])
                 linhas.append(f'<li class="{classe(st)}"{" data-pasta=" + chr(34) + esc(p["pasta"]) + chr(34) if p.get("pasta") else ""}><span>{h}</span>{esc(p["texto"][:70])}</li>')
             elif h in vagas and not passou:
                 if d < 3:
@@ -341,7 +341,7 @@ def main() -> None:
     for c in cartoes:
         m = c["meta"]
         chips = "".join(
-            f'<a class="chip {classe({"PUBLISHED": "publicado", "PENDING": "agendado", "ERROR": "erro"}[p["status"]])}"'
+            f'<a class="chip {classe({"PUBLISHED": "publicado", "PENDING": "agendado", "ERROR": "erro"}.get(p["status"], "rascunho"))}"'
             f'{" href=" + chr(34) + esc(p["url"]) + chr(34) if p.get("url") else ""} title="{esc(p.get("erro", p["status"]))}">'
             f'{REDES.get(p["rede"], p["rede"])} {p["data"][8:10]}/{p["data"][5:7]} {p["data"][11:]}</a>' for p in c["pubs"])
         met = []
