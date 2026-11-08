@@ -1,6 +1,12 @@
 {
- "gerado_em": "2026-11-08 16:24",
- "videos": [],
+ "gerado_em": "2026-11-08 16:39",
+ "videos": [
+  {
+   "pasta": "2026-11-09-ia-esquece-a-conversa",
+   "titulo": "POR QUE A IA ESQUECE O QUE VOCÊ FALOU",
+   "quando": "2026-11-09 08:00"
+  }
+ ],
  "roteiros": [
   {
    "pasta": "2026-11-10-equipe-de-ia",

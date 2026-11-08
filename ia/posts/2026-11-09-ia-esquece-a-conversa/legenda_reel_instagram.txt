@@ -1,0 +1,16 @@
+Comenta RESUMO que eu te mando o prompt pronto pra IA nunca mais esquecer o que você falou. 🧠
+
+Sabe quando a conversa com a IA fica longa e ela "esquece" o que você disse no começo? Não é implicância.
+
+Toda IA tem uma memória de tamanho fixo, a janela de contexto. Quando a conversa passa desse tamanho, o começo vai ficando de fora. E um estudo de Stanford ("Lost in the Middle", 2023) viu que os modelos daquela época perdiam justamente o que estava no meio de textos longos.
+
+O truque: peça pra ela resumir tudo em 10 linhas e cole o resumo numa conversa nova. Ela volta a lembrar do que importa.
+
+💬 Comenta RESUMO e me segue que eu te mando o prompt pra copiar.
+
+Ela já esqueceu algo importante seu no meio de um trabalho? 👇
+
+Fontes: estudo "Lost in the Middle" (Stanford, arXiv 2307.03172) e documentação oficial de janela de contexto da Anthropic.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #inteligenciaartificial #chatgpt #claude #dicasdeia #prompt #produtividade
