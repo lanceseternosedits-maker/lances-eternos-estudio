@@ -1,9 +1,15 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-08 07:40",
+ "em": "2026-11-08 19:45",
  "leitura": "metricool_2026-11-08.json",
- "resumo": "Em 14 dias: 14 Reels e 19.499 views no Instagram (eram 7.026 na leitura de ontem à noite); as 4 contagens de 07/11 fizeram de 1.331 a 2.511 cada, confirmando o formato. A 1ª história (Deep Blue) já fez 2.705 views com o melhor gancho e retenção, mas quase ninguém salvou nem enviou; o TikTok segue parado.",
+ "resumo": "Leitura das 19:45 sem novidade: o Metricool não atualizou as métricas desde as 07:40 (os 14 Reels têm os mesmos números) e os 7 posts de hoje, já publicados, ainda não aparecem na análise. As conclusões da manhã continuam valendo (contagem 10,8× o mascote; história dá alcance mas não salvamento); o 1º ⚙️ como funciona (advogado/FONTE) e a 2ª 📜 história (Tay) entram na próxima leitura.",
  "itens": [
+  {
+   "tipo": "alerta",
+   "titulo": "Métricas congeladas desde a manhã",
+   "evidencia": "Os 14 Reels têm exatamente os mesmos números das 07:40 (ex.: TV e celular 3.117, Deep Blue 2.705) e nenhum dos posts de 08/11 aparece na análise, embora o Metricool mostre como publicados DESIGN 07h, FONTE 09h, VOZ 11h, CAMINHO 13h, kit 15h, BICHO 17h e TAY 19h",
+   "acao": "Não mudar nada com base nesta leitura. Chefe: se amanhã cedo continuar igual, reconectar o Instagram no Metricool. Próxima leitura compara ⚙️ FONTE x 📜 TAY x 🆕 DESIGN/VOZ."
+  },
   {
    "tipo": "fazer_mais",
    "titulo": "Contagem segue imbatível",
@@ -21,12 +27,6 @@
    "titulo": "Gancho ainda perde metade",
    "evidencia": "Mediana de 45% passa dos 3 s; Editar vídeo caiu para 28% e Programas pro PC para 35%, enquanto Console no celular (57%), Deep Blue (55%) e Windows (54%) abrem com conflito ou com o objeto conhecido",
    "acao": "1º quadro com a coisa que a pessoa reconhece (o jogo, a janela do Windows, a TV) e uma frase de conflito na etiqueta; nada de abrir com nome de ferramenta."
-  },
-  {
-   "tipo": "fazer_mais",
-   "titulo": "Editar vídeo: pouca gente fica, mas quem fica salva",
-   "evidencia": "Editar vídeo: 83 salvamentos (4,0% do alcance) e 35 envios (1,7%), as maiores taxas do período, mesmo com o pior gancho das contagens (28%)",
-   "acao": "Tema 'ferramenta pra criador de conteúdo' rende salvar e enviar: repetir com gancho visual mais forte (o antes e depois do vídeo no 1º quadro)."
   },
   {
    "tipo": "fazer_mais",
