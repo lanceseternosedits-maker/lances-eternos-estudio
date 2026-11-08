@@ -33,6 +33,10 @@ def bonito(t):
         elif i == 0 or (ws and ws[-1][-1:] in "?!.:"): w = w[:1].upper() + w[1:]
         ws.append(w)
     return " ".join(ws)
+# P.S. do funil do kit (Vitor, 08/11): no fim de toda DM de palavra grátis (nunca na do KIT)
+PS_KIT = "P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+def com_ps(palavra, dm):
+    return dm if palavra == "KIT" or PS_KIT in dm else dm + "\n\n" + PS_KIT
 for d in sorted((IA / "posts").iterdir()):
     mr = ler(d / "meta.json")
     if d.is_dir() and mr.get("cta") and (d / "resposta_dm.txt").exists() and mr.get("status") != "negado":
@@ -46,13 +50,13 @@ for d in sorted((IA / "posts").iterdir()):
         url = next((x.get("url") for x in PUBS if x.get("rede") == "instagram" and x.get("url") and x.get("data", "")[:16] == quando[:16]), "")
         robo.append({"palavra": mr["cta"].upper(), "pasta": d.name, "quando": quando, "titulo": bonito(tit)[:90],
                      "thumb": f"/capas/thumb-{d.name}.jpg" if (IA / "painel" / "capas" / f"thumb-{d.name}.jpg").exists() else "",
-                     "url": url, "dm": (d / "resposta_dm.txt").read_text(encoding="utf-8").strip()})
+                     "url": url, "dm": com_ps(mr["cta"].upper(), (d / "resposta_dm.txt").read_text(encoding="utf-8").strip())})
     m = ler(d / "meta.json")
     if not d.is_dir() or not m.get("cta") or m.get("status") or not (d / "resposta_dm.txt").exists():
         continue  # status presente = ainda depende do Vitor (roteiro/vídeo) ou negado
     q = (m.get("horarios") or {}).get("instagram") or ""
     quando = f"{q[8:10]}/{q[5:7]} {q[11:16]}" if q[:4].isdigit() else (m.get("data") or q)
-    itens.append((d.name, m["cta"].upper(), quando, (d / "resposta_dm.txt").read_text(encoding="utf-8").strip()))
+    itens.append((d.name, m["cta"].upper(), quando, com_ps(m["cta"].upper(), (d / "resposta_dm.txt").read_text(encoding="utf-8").strip())))
 itens.sort(key=lambda x: x[0], reverse=True)
 contagem = {}
 for _, p, _, _ in itens:

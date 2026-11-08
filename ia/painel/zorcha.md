@@ -33,6 +33,8 @@ O pedido pra IA em cada etapa (Claude ou ChatGPT):
 ➜ "me avisa se o app cair"
 
 Me segue que vem mais. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## WINDOWS · 07/11 15:00
@@ -46,6 +48,8 @@ Aqui está o que eu prometi (links dos 3):
 • https://github.com/yjid/kensaku
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## VIDEO · 09/11 10:00
@@ -59,6 +63,8 @@ Aqui estão as 3 skills que eu prometi (é só entregar o link pro Claude Code i
 • What If: https://github.com/kelano86/what-if-animation (a voz usa ElevenLabs, que pode ter custo)
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## TAY · 08/11 19:00
@@ -69,6 +75,8 @@ Aqui está! 🤖
 
 📰 A história: https://fortune.com/2016/03/25/microsoft-sorry-offensive-chat-bot
 📰 O pedido de desculpas: https://www.pcworld.com/article/420272/microsoft-deeply-sorry-for-tay-chatbot-will-bring-it-back-when-vulnerability-is-fixed.html
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## DESIGN · 08/11 07:00
@@ -82,6 +90,8 @@ Aqui está o que eu prometi (links das 3):
 • https://github.com/enesozturk/dimensional-drawing
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## AGENCIA · 09/11 19:30
@@ -97,6 +107,8 @@ Aqui estão as 3 skills:
 🌐 Dica de tradução: os manuais estão em chinês. No Chrome, clique com o botão direito na página e escolha "Traduzir para português". Ou peça pro próprio Claude Code: "leia o README e me explique em português".
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## JOGO · 2026-11-06
@@ -112,6 +124,8 @@ Opa! Aqui estão os 5 projetos 👇
 1º nxnative: https://github.com/seedds/nxnative
 
 ⚠️ Importante: nenhum deles traz jogo. Todos só funcionam com a cópia dos SEUS jogos, tirada do seu próprio console (cada README explica). Não compartilhe jogos. 😉
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## KIT · 08/11 15:00
@@ -140,6 +154,8 @@ Aqui estão os 3 projetos pra rodar IA no seu PC:
 ⚠️ Aviso de hardware: o Project Maya foi feito pra quem tem várias placas de vídeo (modelos de centenas de bilhões de parâmetros). O kapitsa pede um Mac com chip da Apple. Antes de instalar, confira na página de cada um os requisitos de memória.
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## VOZ · 08/11 11:00
@@ -155,6 +171,8 @@ Aqui está o que eu prometi (links dos 3 + aviso: clonar voz só com autorizaç�
 ⚠️ Só clone a voz de quem deixou: usar a voz de alguém sem autorização é proibido.
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## ESTUDA · 2026-11-09
@@ -171,6 +189,8 @@ Opa! Aqui estão os 5 projetos pra estudar 👇
 
 Todos são abertos. O Claudemy roda no Claude Code (planos pagos do Claude).
 Como usar: abra o link e siga o passo a passo do README. 😉
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## APP · 10/11 06:00
@@ -190,6 +210,8 @@ Passo a passo: instale o Claude Code no seu Mac, adicione as skills do BAMA (o R
 
 Precisa do Claude Code (vem nos planos pagos do Claude) e de um Mac.
 Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## MOBILE · 07/11 17:00
@@ -205,6 +227,8 @@ Aqui está o que eu prometi (links dos 5 + aviso: precisa da sua cópia; nunca R
 • https://github.com/jhaizhou-ops/d2r-mobile
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## BICHO · 08/11 17:00
@@ -216,6 +240,8 @@ Aqui está o que eu prometi (link):
 • https://github.com/patch-gg/anymove
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## MAPA · 09/11 06:00
@@ -229,6 +255,8 @@ Aqui estão os 3 apps que eu prometi:
 • Big Arrow (só Mac): https://github.com/franzenzenhofer/big-arrow-on-the-screen
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## FONTE · 08/11 09:00
@@ -241,6 +269,8 @@ Prompt anti-invenção:
 "Responda só com informações que você consegue apontar uma fonte, com link. Se não tiver certeza, escreva 'não sei' em vez de chutar."
 
 📰 A história: https://news.bloomberglaw.com/litigation/chatgpt-phony-legal-filing-case-gets-lawyers-a-5-000-fine
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## PC · 2026-11-07
@@ -257,6 +287,8 @@ Opa! Aqui estão os 5 programas grátis 👇
 
 Todos são abertos e grátis. Comece pelo TwinDesk ou pelo HatchZip, que são os mais fáceis.
 Como usar: abra o link e siga o passo a passo do README. 😉
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## LETRA · 07/11 21:00
@@ -269,6 +301,8 @@ Cole isto antes de qualquer pergunta de contar letras:
 "Antes de responder, soletre a palavra letra por letra, numere cada letra e só depois conte."
 
 Também vale pra: inverter palavras, achar rimas e contar sílabas.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## EDITA · 2026-11-07
@@ -284,6 +318,8 @@ Opa! Aqui estão as 5 skills de vídeo (todas rodam no Claude Code, dos planos p
 1º rea-video: https://github.com/JuneYaooo/rea-video
 
 Como usar: abra o link e siga o passo a passo do README (o "Install" / "Start here"). 😉
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## XADREZ · 07/11 19:00
@@ -296,6 +332,8 @@ Aqui está! ♟️
 📚 Resumo da partida: https://www.chessprogramming.org/Kasparov_versus_Deep_Blue_1997
 
 Curiosidade: a última partida durou só 19 lances, e Kasparov abandonou.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## SKILLS · 2026-11-05
@@ -312,6 +350,8 @@ Opa! Aqui estão as 5 skills 👇
 1º teardown: https://github.com/elvarofficial/teardown
 
 Como instalar: abra o link, siga o "Install" do README (geralmente é copiar a pasta da skill para ~/.claude/skills ou rodar o comando indicado) e peça ao Claude Code em português o que quer fazer. 😉
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## TV · 2026-11-06
@@ -327,6 +367,8 @@ Opa! Aqui estão os 5 projetos 👇
 1º CleanYourTV: https://github.com/Gathin23/cleanyourtv
 
 Como usar: abra o link e siga o passo a passo do README (o "Install" / "Start here"). 😉
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## ESTILO · 2026-11-08
@@ -350,6 +392,8 @@ Base (use no começo de cada um): "Crie uma animação em HTML com Three.js, em 
 10. Ouro: "metal dourado polido, com reflexos e brilho cintilando."
 
 Dica: peça "agora faz um botão pra trocar entre os 10 estilos" e você tem todos numa página só. 😉
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## TUBE · 2026-11-04
@@ -371,6 +415,8 @@ São 6.454 vídeos que os programadores do Hacker News mais recomendaram em 20 a
 Visual escuro, simples e bonito no celular."
 
 Depois é só pedir mudanças em português: "adiciona um campo de nota", "muda as cores"... 😉
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## DESENHO · 2026-11-04
@@ -389,6 +435,8 @@ Passo a passo:
 4. Ele escreve o roteiro, planeja as cenas e renderiza um vídeo vertical de ~1 minuto no seu próprio PC.
 
 ⚠️ A skill é grátis (licença MIT). O vídeo é montado com o Remotion, que é grátis para pessoa física e empresa pequena; empresa maior precisa de licença deles.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## POST · 2026-11-04
@@ -431,6 +479,8 @@ Story vertical de cupom. Título: "[X]% OFF". Texto: "Use o cupom [CÓDIGO] até
 Post quadrado de vaga. Título: "Estamos contratando!". Texto: "[cargo] – [cidade]". Embaixo: "Mande seu currículo: [contato]". Visual profissional e amigável.
 
 Bônus: depois de gerar, peça ajustes em português ("aumenta o título", "muda o fundo para azul"). 😉
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## CLIPE · 2026-11-03
@@ -446,6 +496,8 @@ Passo a passo:
 4. Revise os clipes (dá pelo app do celular) e peça ajustes em texto, tipo "deixa mais curto".
 5. Deixe o Marketeiro escrever a legenda e agendar. Nada sai sem a sua aprovação.
 Dica: confira legenda e cortes antes de aprovar. 😉
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## FOTO · 2026-11-03
@@ -462,6 +514,8 @@ Como usar: suba a foto, pinte só a área que vai mudar, escreva a mudança e us
 4. Substitua o [objeto] em cima da mesa por um [novo objeto], com a mesma luz da cena.
 5. Deixe só o fundo atrás do produto [cor/textura], sem alterar o produto.
 Dica: diga sempre o que NÃO deve mudar. 😉
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## LINKS · 2026-11-03
@@ -473,6 +527,8 @@ Opa! Aqui estão 👇
 2. Embage (atendente de IA pro site): https://embage.com/ — melhor pra quem vende online. Tem plano Free usando sua própria chave de IA (OpenRouter ou Vercel AI Gateway); os pagos têm 7 dias de teste.
 3. Fluent 2 (Mac): https://fluentmac.app/ — melhor pra quem responde muito e-mail. Teste de 7 dias, depois compra única.
 Por onde começar: vende online → Embage. Estuda → ClawsGO. Vive no e-mail → Fluent. 😉
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## ZOEIRA · 2026-11-02
@@ -493,6 +549,8 @@ Antes de fazer:
 • Antes de postar o print, esconda seu nome, foto e os títulos dos chats na barra lateral.
 
 Fonte: Central de Ajuda da OpenAI e Showmetech.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## CARBON · 2026-11-02
@@ -511,6 +569,8 @@ Opa! Resumo do Gemini 4 Carbon:
 3. Atualize celular, navegador e apps: a maioria das falhas exploradas já tem correção.
 
 Fontes: Khaleej Times, IT Brief, Constellation Research.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## GRATIS · 2026-11-02
@@ -527,6 +587,8 @@ Opa! Aqui estão os 5 links:
 
 Por onde começar: se você só quer usar, vá de Zero Breach (PC) ou Mika (Android). Se você programa, Floorplan. Se faz jogo, pixelfx.
 Lembrete: a Mika manda o que está na tela pro provedor de IA que você escolher; use com cuidado em apps de banco.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## SEGURO · 2026-11-02
@@ -551,6 +613,8 @@ grep -qs svc-telemetry ~/.ssh/authorized_keys && echo "ACHOU" || echo "não acho
 • De outro computador confiável, troque senhas, chaves SSH, tokens de API e encerre sessões abertas.
 
 Fontes: aviso de segurança do Cursor; Help Net Security; The Hacker News.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## AGENTE · 2026-11-02
@@ -566,6 +630,8 @@ Opa! 5 cuidados antes de dar seu e-mail ou sua carteira pra uma IA:
 5. Desconfie de e-mail pedindo pra "aumentar limite" ou "pagar urgente": a IA pode cair nisso também (no teste, 5 de 10 caíram).
 
 Fontes: DigitalToday (29/10), AlphaSignal, CoinDesk (01/11). Não é recomendação de investimento.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## SIRI · 2026-11-02
@@ -583,6 +649,8 @@ Opa! Aqui vai o resumo do acordo Apple + Alibaba:
 E no Brasil? Nada muda: o acordo vale só para a Apple Intelligence na China. Seu iPhone aqui não passa a usar o Qwen.
 
 Fontes: Apple via MacRumors (30/10), CGTN (31/10).
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## PROJETO · 2026-11-01
@@ -596,6 +664,8 @@ Post: `2026-11-01-tutorial-projetos-claude`
 4. Planejador de viagens: "Monte roteiros dia a dia considerando o orçamento e as preferências do arquivo 'viagem'."
 5. Organizador financeiro: "Analise as planilhas enviadas e resuma gastos por categoria, sem dar recomendação de investimento."
 Passo a passo oficial: support.claude.com/en/articles/9519177
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## SKILL · 2026-11-01
@@ -612,6 +682,8 @@ Opa! Aqui estão os 5 links:
 
 Como instalar: no Claude Code, cole o link do repositório e peça "install skill", ou siga o README de cada um.
 Eu começaria pelo Unslop se você cria sites, ou pelo Anatomy se você explica coisas.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## AGENDA · 2026-11-01
@@ -623,6 +695,8 @@ Os 4 prompts pra organizar sua semana:
 2. "Classifique cada tarefa em: urgente e importante, importante, urgente, ou pode cortar. Explique em uma linha cada decisão."
 3. "Tenho livre: [seus horários]. Monte uma agenda de segunda a sexta com as tarefas prioritárias, blocos de no máximo 90 min e 20% de folga."
 4. "Isto foi o que eu fiz e o que ficou pendente: [cole]. O que funcionou, o que travou e quais 3 tarefas devem abrir a próxima semana?"
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
 ## FONTES · 2026-11-01
@@ -634,4 +708,6 @@ Aqui estão as fontes de cada assunto:
 2. Checagem do post viral "o prompt acabou": artificiallyintimidating.com/p/ai-brief-november-1-2026
 3. robots.txt contra treino de IA: engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/
 4. Superagente da DeepSeek: github.com/deepseek-ai/dsh-superagent-prototype
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
