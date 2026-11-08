@@ -1,5 +1,5 @@
 {
- "data": null,
+ "data": "2026-11-12",
  "pilar": "reel",
  "categoria": "como_funciona",
  "formato": "palco",
@@ -51,5 +51,9 @@
   ],
   "em": "2026-11-08 15:06"
  },
- "nota_aprovacao": "aprovado pelo Vitor no app em 07/11 21:38; o painel de revisão ajustou o texto em 08/11 (ver revisao)"
+ "nota_aprovacao": "aprovado pelo Vitor no app em 07/11 21:38; o painel de revisão ajustou o texto em 08/11 (ver revisao)",
+ "horarios": {
+  "instagram": "2026-11-12 08:00",
+  "tiktok": "2026-11-12 08:00"
+ }
 }
