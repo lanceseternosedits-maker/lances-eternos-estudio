@@ -53,7 +53,7 @@ inclui = ["10 assistentes prontos (prompt completo de cada)", "Ficha QUEM SOU EU
           "10 comandos turbo para qualquer conversa", "30 pedidos prontos + exemplo de resposta", "Funciona no ChatGPT, Claude e Gemini", "PDF de 20 páginas para o celular"]
 preco_html = (f'<div class="pa"><s>R$ {e(K["preco"])}</s><span class="cp">cupom {e(K["cupom"])}</span></div><div class="pv"><small>R$</small>{e(preco_final)}</div>'
               if cupom_ok else f'<div class="pv"><small>R$</small>{e(preco_final)}</div>')
-parc = f'<p class="pp">ou parcelado no cartão · pagamento único, sem mensalidade</p>'
+parc = '<p class="pp">pagamento único · sem mensalidade · acesso para sempre</p>'
 
 page = f"""<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Super Assistente de IA · 10 assistentes prontos · IA em 60s</title>

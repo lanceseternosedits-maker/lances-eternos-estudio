@@ -1,4 +1,4 @@
-# Produto nº 2: Super Assistente de IA (R$ 47)
+# Produto nº 2: Super Assistente de IA (R$ 17)
 
 - `conteudo.py`: todo o texto do kit (editar aqui).
 - `gerar_pdf.py`: gera `kit.html`, `kit.pdf` (20 páginas, A5). Rodar de `ia/`: `python3 produtos/assistente-pessoal/gerar_pdf.py`.

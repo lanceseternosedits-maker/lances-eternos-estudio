@@ -6,10 +6,9 @@ Produto nº 2 (Vitor, 08/11). Arquivo entregue ao comprador: `kit.pdf` (20 pági
 
 | Item | Valor |
 |---|---|
-| Preço cheio | **R$ 47** |
-| Preço de lançamento (quem comentou ASSISTENTE, EQUIPE ou CONFIGURA) | **R$ 27** por 48 h (cupom `LISTA20`, R$ 20 de desconto) |
+| Preço | **R$ 17** (Vitor, 08/11: R$ 47 era alto). Sem cupom de lançamento: o preço já é o de entrada |
 | Garantia | 7 dias (direito de arrependimento, Código de Defesa do Consumidor, art. 49; a Kiwify já aplica) |
-| Plataforma | Kiwify: sem mensalidade; taxa cerca de 8,99% + R$ 2,49 por venda (conferir na página da Kiwify). Em R$ 47 sobram cerca de R$ 40,30; em R$ 27, cerca de R$ 22,08 |
+| Plataforma | Kiwify: sem mensalidade; taxa cerca de 8,99% + R$ 2,49 por venda (conferir na página da Kiwify). Em R$ 17 sobram cerca de R$ 12,98 por venda (a taxa fixa de R$ 2,49 pesa mais em preço baixo) |
 
 ## Página do produto (cole na Kiwify)
 
@@ -56,7 +55,6 @@ O kit ensina exatamente esse "jeito certo".
 1. **Reel de lançamento** com a palavra **KIT**: "Lembra dos assistentes que configuram a IA pra você? Juntei os 10 num kit. Comenta KIT que eu te mando o link."
 2. O robô responde quem comentar KIT com a DM de venda (abaixo).
 3. Stories 3 dias seguidos mostrando 1 assistente funcionando (print real).
-4. Depois de 48 h, cupom sai e preço volta para R$ 47.
 
 **DM de venda (palavra KIT):**
 ```
@@ -66,7 +64,6 @@ Opa! Aqui está o kit "Super Assistente de IA" 👇
 
 👉 [LINK DO CHECKOUT KIWIFY]
 
-Comentou ASSISTENTE, EQUIPE ou CONFIGURA? Use o cupom LISTA20 e paga R$ 27 (até [data e hora]).
 Garantia de 7 dias.
 ```
 
@@ -74,8 +71,7 @@ Garantia de 7 dias.
 
 1. Criar conta em kiwify.com.br e verificar a identidade (documento + selfie) e a conta bancária para saque.
 2. **Produtos → Criar produto → Produto digital (e-book/arquivo)**. Nome e descrição: a seção "Página do produto" acima.
-3. Preço: R$ 47, pagamento único. Formas: Pix, cartão (parcelado), boleto.
+3. Preço: R$ 17, pagamento único. Formas: Pix, cartão (parcelado), boleto.
 4. **Conteúdo**: subir o `kit.pdf` (área de membros ou entrega por e-mail).
-5. **Cupons**: criar `LISTA20` (R$ 20 de desconto), válido por 48 h a partir do lançamento.
 6. Capa do produto: usar a 1ª página do PDF (o Claude gera a imagem se pedir).
 7. Copiar o **link do checkout** e mandar para o Claude: ele coloca o link na DM do robô e no link da bio.

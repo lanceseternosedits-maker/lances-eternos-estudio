@@ -54,7 +54,7 @@ if kit.get("checkout"):
               f"atendimento, viagem e detector de golpe) + as 6 alavancas que turbinam qualquer IA + 10 comandos turbo. PDF de 20 páginas.\n\n"
               f"👉 {kit['checkout']}\n\nGarantia de 7 dias. Detalhes: {SITE}/kit")
 else:
-    dm_kit = (f"Opa! O Super Assistente de IA está saindo do forno 🔥\n\nVocê entrou na lista de lançamento e vai ganhar o preço especial. "
+    dm_kit = (f"Opa! O Super Assistente de IA está saindo do forno 🔥\n\nEle vai sair por R$ 17 e você já está na lista para receber o link. "
               f"Enquanto isso, veja tudo o que vem no kit: {SITE}/kit")
 globais = [{"palavra": "KIT", "pasta": "", "quando": "", "dm": dm_kit}]
 (IA / "painel" / "respostas.json").write_text(json.dumps({"respostas_publicas": RESP, "posts": robo, "globais": globais}, ensure_ascii=False, indent=1), encoding="utf-8")
