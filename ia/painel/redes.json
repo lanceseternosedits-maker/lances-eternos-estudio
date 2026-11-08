@@ -1,0 +1,221 @@
+{
+ "lido_em": "2026-11-08 18:10",
+ "instagram": {
+  "resumo": {
+   "seguidores": 44,
+   "seguidores_em": "2026-11-06",
+   "ganho_7d": 40,
+   "visualizacoes_7d": 19033,
+   "visualizacoes_30d": 19538,
+   "melhor_dia": "2026-11-06"
+  },
+  "serie": [
+   {
+    "dia": "2026-10-31",
+    "seguidores": 4.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 74.0,
+    "alcance": 6.0,
+    "views_reels": null,
+    "contas_engajadas": 3.0,
+    "reels": null
+   },
+   {
+    "dia": "2026-11-01",
+    "seguidores": 4.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 431.0,
+    "alcance": 335.0,
+    "views_reels": null,
+    "contas_engajadas": 6.0,
+    "reels": null
+   },
+   {
+    "dia": "2026-11-02",
+    "seguidores": 4.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 228.0,
+    "alcance": 176.0,
+    "views_reels": 406.0,
+    "contas_engajadas": 5.0,
+    "reels": 3.0
+   },
+   {
+    "dia": "2026-11-03",
+    "seguidores": 5.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 504.0,
+    "alcance": 396.0,
+    "views_reels": 193.0,
+    "contas_engajadas": 23.0,
+    "reels": 1.0
+   },
+   {
+    "dia": "2026-11-04",
+    "seguidores": 11.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 2803.0,
+    "alcance": 2252.0,
+    "views_reels": 516.0,
+    "contas_engajadas": 185.0,
+    "reels": 1.0
+   },
+   {
+    "dia": "2026-11-05",
+    "seguidores": 21.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 3178.0,
+    "alcance": 2514.0,
+    "views_reels": 3147.0,
+    "contas_engajadas": 184.0,
+    "reels": 2.0
+   },
+   {
+    "dia": "2026-11-06",
+    "seguidores": 44.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 12320.0,
+    "alcance": 9359.0,
+    "views_reels": 3726.0,
+    "contas_engajadas": 531.0,
+    "reels": 2.0
+   },
+   {
+    "dia": "2026-11-07",
+    "seguidores": null,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": null,
+    "alcance": null,
+    "views_reels": 11511.0,
+    "contas_engajadas": null,
+    "reels": 5.0
+   },
+   {
+    "dia": "2026-11-08",
+    "seguidores": null,
+    "ganhos": 0.0,
+    "perdidos": 0.0,
+    "visualizacoes": null,
+    "alcance": null,
+    "views_reels": null,
+    "contas_engajadas": null,
+    "reels": null
+   }
+  ]
+ },
+ "tiktok": {
+  "resumo": {
+   "seguidores": 1,
+   "seguidores_em": "2026-11-07",
+   "ganho_7d": 0,
+   "visualizacoes_7d": 650,
+   "visualizacoes_30d": 1318,
+   "melhor_dia": "2026-11-01"
+  },
+  "serie": [
+   {
+    "dia": "2026-10-31",
+    "seguidores": 0.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": null,
+    "alcance": null,
+    "visitas_perfil": null,
+    "videos": null
+   },
+   {
+    "dia": "2026-11-01",
+    "seguidores": 1.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 668.0,
+    "alcance": 0.0,
+    "visitas_perfil": null,
+    "videos": 8.0
+   },
+   {
+    "dia": "2026-11-02",
+    "seguidores": 1.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 55.0,
+    "alcance": 0.0,
+    "visitas_perfil": null,
+    "videos": 8.0
+   },
+   {
+    "dia": "2026-11-03",
+    "seguidores": 1.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 240.0,
+    "alcance": 0.0,
+    "visitas_perfil": null,
+    "videos": 3.0
+   },
+   {
+    "dia": "2026-11-04",
+    "seguidores": 1.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 56.0,
+    "alcance": 0.0,
+    "visitas_perfil": null,
+    "videos": 1.0
+   },
+   {
+    "dia": "2026-11-05",
+    "seguidores": 1.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 25.0,
+    "alcance": 0.0,
+    "visitas_perfil": null,
+    "videos": 2.0
+   },
+   {
+    "dia": "2026-11-06",
+    "seguidores": 1.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 81.0,
+    "alcance": 0.0,
+    "visitas_perfil": null,
+    "videos": 2.0
+   },
+   {
+    "dia": "2026-11-07",
+    "seguidores": 1.0,
+    "ganhos": null,
+    "perdidos": null,
+    "visualizacoes": 187.0,
+    "alcance": 0.0,
+    "visitas_perfil": null,
+    "videos": 5.0
+   },
+   {
+    "dia": "2026-11-08",
+    "seguidores": null,
+    "ganhos": 0.0,
+    "perdidos": 0.0,
+    "visualizacoes": 6.0,
+    "alcance": 0.0,
+    "visitas_perfil": 0.0,
+    "videos": 1.0
+   }
+  ]
+ },
+ "leitura": [
+  "Instagram: de 4 para 44 seguidores entre 31/10 e 06/11 (+40 em 7 dias). O pico foi 06/11: 12,3 mil visualizações e 531 contas engajadas, o dia em que o Reel das 5 skills estourou.",
+  "TikTok: 1 seguidor e 1,3 mil visualizações em 30 dias, contra 19,5 mil no Instagram. Os mesmos vídeos rendem 15× menos lá: vale testar título e capa próprios para o TikTok.",
+  "O Metricool ainda não fechou 07 e 08/11 (atraso de ~1 dia): a próxima leitura completa os números."
+ ]
+}

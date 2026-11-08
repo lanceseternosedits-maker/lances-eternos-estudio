@@ -23,7 +23,7 @@ FONTES = "".join(f"@font-face{{font-family:'{n}';src:url(data:font/woff2;base64,
 K = json.loads((AQUI / "kit.json").read_text(encoding="utf-8"))
 e = html.escape
 tem_checkout = bool(K.get("checkout"))
-link = K["checkout"] or "https://www.instagram.com/iaem60s/"
+link = "https://iaem60s.com/comprar?o=kit" if K.get("checkout") else "https://www.instagram.com/iaem60s/"  # passa pelo contador do funil (Financeiro) e redireciona ao checkout
 cta = "Quero meu Super Assistente" if tem_checkout else "Comenta KIT no Instagram"
 cupom_ok = tem_checkout and K.get("cupom") and K.get("preco_lancamento")
 preco_final = K["preco_lancamento"] if cupom_ok else K["preco"]

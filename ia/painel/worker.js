@@ -204,7 +204,7 @@ async function responderComentarios(env) {
           // formato "Me Envie" (Vitor, 08/11): 1ª DM só com o botão; o material sai quando a pessoa toca (webhook) e se ela segue o perfil
           const corpoDM = JSON.stringify({ recipient: { comment_id: co.id },
             message: c.webhook_ok === "1" ? cartaoMeEnvie(alvo, co.username)
-              : { text: sem(alvo.palavra) === "KIT" ? dm : (dm + "\n\n🔥 Quer 10 assistentes de IA prontos? Super Assistente de IA: https://iaem60s.com/kit").slice(0, 1000) } });
+              : { text: sem(alvo.palavra) === "KIT" ? dm : (dm + "\n\n🔥 Quer 10 assistentes de IA prontos? Super Assistente de IA: https://iaem60s.com/kit?o=dm").slice(0, 1000) } });
           try { await igFetch(`/${EU}/messages`, token, { method: "POST", body: corpoDM }); acao = "dm"; }
           catch (e) {
             erro = "dm: " + e.message;
@@ -247,7 +247,7 @@ async function paginaLinks() {
   const card = (href, img, titulo, desc, selo = "", ext = false) => `<a class="card" href="${escH(href)}"${ext ? ' target="_blank" rel="noopener"' : ""}>
 <div class="im">${img}${selo ? `<span class="selo">${selo}</span>` : ""}</div><div class="tx"><b>${titulo}</b><p>${desc}</p></div></a>`;
   const cards = [];
-  if (P.nome) cards.push(card("/kit", `<img src="${escH(P.capa || "/capas/kit-p1.jpg")}" alt="">`, `${escH(P.nome)}${P.preco ? " — R$ " + escH(P.preco) + " 🔥" : ""}`,
+  if (P.nome) cards.push(card("/kit?o=bio", `<img src="${escH(P.capa || "/capas/kit-p1.jpg")}" alt="">`, `${escH(P.nome)}${P.preco ? " — R$ " + escH(P.preco) + " 🔥" : ""}`,
     "10 assistentes prontos pra ChatGPT, Claude ou Gemini. Configure em 1 tarde.", "à venda"));
   cards.push(card("#brindes", `<div class="ico" style="background:linear-gradient(135deg,#ffb347,#ff7a3d)">🎁</div>`, "Brindes grátis dos vídeos",
     "Comentou uma palavra num Reel? Pegue o seu link aqui."));
@@ -340,8 +340,8 @@ function cartaoSegue(palavra, pasta) {
 }
 function cartaoProduto(P) {
   const botoes = [];
-  if (P.checkout) botoes.push({ type: "web_url", title: "Quero o meu 🔥", url: P.checkout });
-  botoes.push({ type: "web_url", title: "Ver o que vem", url: "https://iaem60s.com/kit" });
+  if (P.checkout) botoes.push({ type: "web_url", title: "Quero o meu 🔥", url: "https://iaem60s.com/comprar?o=dm" });
+  botoes.push({ type: "web_url", title: "Ver o que vem", url: "https://iaem60s.com/kit?o=dm" });
   return { attachment: { type: "template", payload: { template_type: "generic", elements: [{
     title: `Gostou? Tem o Super Assistente de IA${P.preco ? " por R$ " + P.preco : ""}`.slice(0, 80),
     subtitle: "10 assistentes prontos pra ChatGPT, Claude ou Gemini. Garantia de 7 dias.",
@@ -464,11 +464,62 @@ function paginaEntrar(msg = "") {
 <script>document.getElementById('pedir').onclick=async()=>{const st=document.getElementById('st');st.textContent='Enviando…';
 const r=await fetch('/api/acesso',{method:'POST'});const j=await r.json().catch(()=>({}));st.textContent=r.ok?'✅ Enviado! Veja a notificação no celular.':'⚠️ '+(j.erro||'não deu certo')}</script>`);
 }
-const LIVRE_PAINEL = /^(ig\/webhook|entrar|sw\.js|manifest\.json|icone-(180|512)\.png|links|kit|privacidade|ig\/callback|capas\/(kit|thumb)-[\w.-]+\.jpg)$/;
-const LIVRE_DOMINIO = /^(ig\/webhook|links|kit|privacidade|ig\/callback|capas\/(kit|thumb)-[\w.-]+\.jpg|icone-(180|512)\.png)$/;
+const LIVRE_PAINEL = /^(ig\/webhook|comprar|kiwify\/webhook|entrar|sw\.js|manifest\.json|icone-(180|512)\.png|links|kit|privacidade|ig\/callback|capas\/(kit|thumb)-[\w.-]+\.jpg)$/;
+const LIVRE_DOMINIO = /^(ig\/webhook|comprar|kiwify\/webhook|links|kit|privacidade|ig\/callback|capas\/(kit|thumb)-[\w.-]+\.jpg|icone-(180|512)\.png)$/;
 
 // ---------------------------------------------------------------- API
+// ---------- 💵 Financeiro (Vitor, 08/11): vendas da Kiwify (webhook) + funil (visitas ao /kit, cliques em comprar, comentários KIT, cartões de oferta na DM)
+const CHECKOUT = "https://pay.kiwify.com.br/sV3FJ2D";
+async function tabelasVendas(env) {
+  await env.DB.batch([
+    env.DB.prepare("CREATE TABLE IF NOT EXISTS vendas (id TEXT PRIMARY KEY, evento TEXT, status TEXT, valor INTEGER, liquido INTEGER, metodo TEXT, produto TEXT, cliente TEXT, em TEXT, bruto TEXT)"),
+    env.DB.prepare("CREATE TABLE IF NOT EXISTS funil (dia TEXT, tipo TEXT, origem TEXT, n INTEGER, PRIMARY KEY (dia, tipo, origem))"),
+  ]);
+}
+async function contaFunil(env, tipo, origem) {
+  try { await tabelasVendas(env); await env.DB.prepare("INSERT INTO funil (dia, tipo, origem, n) VALUES (?, ?, ?, 1) ON CONFLICT(dia, tipo, origem) DO UPDATE SET n = n + 1").bind(agoraBR().slice(0, 10), tipo, String(origem).replace(/[^\w-]/g, "").slice(0, 30) || "direto").run(); } catch {}
+}
+// valor em centavos: inteiro >= 100 já vem em centavos; número com casas decimais vem em reais
+const centavos = (v) => { if (v == null || v === "") return null; const n = Number(String(v).replace(",", ".")); if (isNaN(n)) return null; return Number.isInteger(n) && n >= 100 ? n : Math.round(n * 100); };
+const APROVADA = /paid|approved|aprovad|complete/i, ESTORNO = /refund|reembols|chargeback|estorn/i;
+async function kiwify(req, env, ctx, url) {
+  const c = await cfg(env);
+  if (!c.kiwify_token || url.searchParams.get("t") !== c.kiwify_token) return new Response("token inválido", { status: 401 });
+  let b; try { b = await req.json(); } catch { return new Response("json inválido", { status: 400 }); }
+  await tabelasVendas(env);
+  const pega = (...ks) => { for (const k of ks) { const v = k.split(".").reduce((o, q) => (o == null ? o : o[q]), b); if (v != null && v !== "") return v; } return null; };
+  const id = String(pega("order_id", "order_ref", "sale_id", "id") || crypto.randomUUID());
+  const evento = String(pega("webhook_event_type", "event", "trigger", "type") || "");
+  const status = String(pega("order_status", "status", "sale_status") || evento);
+  const valor = centavos(pega("Commissions.charge_amount", "Commissions.product_base_price", "charge_amount", "amount", "price", "total"));
+  const liquido = centavos(pega("Commissions.my_commission", "my_commission", "net_amount", "commission"));
+  const metodo = String(pega("payment_method", "Payment.method", "payment_type") || "");
+  const produto = String(pega("Product.product_name", "product_name", "Product.name", "product") || "");
+  const email = String(pega("Customer.email", "customer.email", "email") || "");
+  const cliente = email ? email.replace(/^(.).*(@.*)$/, "$1***$2") : ""; // nunca guarda o e-mail inteiro
+  const limpo = { ...b }; delete limpo.Customer; delete limpo.customer; delete limpo.email; // sem dados pessoais no banco
+  await env.DB.prepare("INSERT INTO vendas (id, evento, status, valor, liquido, metodo, produto, cliente, em, bruto) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) ON CONFLICT(id) DO UPDATE SET evento = excluded.evento, status = excluded.status, valor = COALESCE(excluded.valor, vendas.valor), liquido = COALESCE(excluded.liquido, vendas.liquido), em = excluded.em, bruto = excluded.bruto")
+    .bind(id, evento, status, valor, liquido, metodo, produto, cliente, agoraBR(), JSON.stringify(limpo).slice(0, 4000)).run();
+  const txt = status + " " + evento;
+  if (APROVADA.test(txt) && !ESTORNO.test(txt)) ctx.waitUntil(avisarTodos(env, { titulo: "💰 Venda! " + (produto || "Super Assistente de IA"), corpo: (valor ? "R$ " + (valor / 100).toFixed(2).replace(".", ",") : "") + (metodo ? " · " + metodo : "") + " · toque para ver o caixa", url: "/#gastos", tag: "venda-" + id }));
+  return json({ ok: true });
+}
 async function api(req, env, rota) {
+  if (rota === "financeiro" && req.method === "GET") {
+    await tabelasVendas(env);
+    const c = await cfg(env);
+    const v = (await env.DB.prepare("SELECT evento, status, valor, liquido, metodo, produto, em FROM vendas ORDER BY em DESC LIMIT 300").all()).results;
+    const ok = v.filter((x) => APROVADA.test(x.status + " " + x.evento) && !ESTORNO.test(x.status + " " + x.evento));
+    const est = v.filter((x) => ESTORNO.test(x.status + " " + x.evento));
+    const desde = new Date(Date.now() - 30 * 864e5).toLocaleString("sv-SE", { timeZone: "America/Sao_Paulo" }).slice(0, 10);
+    const funil = (await env.DB.prepare("SELECT dia, tipo, origem, n FROM funil WHERE dia >= ? ORDER BY dia").bind(desde).all()).results;
+    let kit = 0, ofertas = 0;
+    try { kit = (await env.DB.prepare("SELECT COUNT(*) AS n FROM comentarios WHERE palavra = 'KIT'").first())?.n || 0; } catch {}
+    try { ofertas = (await env.DB.prepare("SELECT COUNT(*) AS n FROM dm_eventos WHERE acao = 'material+oferta'").first())?.n || 0; } catch {}
+    const soma = (l, k) => l.reduce((t, x) => t + (x[k] || 0), 0);
+    return json({ agora: agoraBR(), conectado: !!c.kiwify_token, vendas: ok.length, estornos: est.length, bruto: soma(ok, "valor"), liquido: soma(ok, "liquido"),
+      ultimas: v.slice(0, 15), funil, comentarios_kit: kit, ofertas_dm: ofertas });
+  }
   if (rota === "atividade" && req.method === "GET") { // aba 🏢 Equipe: o que cada agente está fazendo agora
     await env.DB.prepare("CREATE TABLE IF NOT EXISTS atividade (agente TEXT PRIMARY KEY, estado TEXT, detalhe TEXT, progresso TEXT, em TEXT)").run();
     const { results } = await env.DB.prepare("SELECT agente, estado, detalhe, progresso, em FROM atividade").all();
@@ -605,6 +656,9 @@ export default {
       return new Response(r.body, { status: r.status, headers: out });
     }
     if (caminho === "links") return paginaLinks();
+    if (caminho === "comprar") { ctx.waitUntil(contaFunil(env, "clique", url.searchParams.get("o") || "direto")); return Response.redirect(CHECKOUT, 302); }
+    if (caminho === "kiwify/webhook" && req.method === "POST") return kiwify(req, env, ctx, url);
+    if (caminho === "kit") ctx.waitUntil(contaFunil(env, "visita", url.searchParams.get("o") || "direto"));
     if (caminho === "kit") return fetch(BASE + "kit.html?t=" + Date.now(), { cf: { cacheTtl: 0 } }).then((r) => new Response(r.body, { status: r.ok ? 200 : 502, headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-cache" } }));
     if (caminho === "conectar") return paginaConectar(env, url);
     if (caminho === "ig/callback") return callback(env, url);

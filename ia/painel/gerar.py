@@ -487,6 +487,28 @@ def main() -> None:
         f'<p class="mut" style="font-size:12px">Fonte: Metricool ({esc(str(res.get("lido_em") or ""))}), atualiza com ~1 dia de atraso. Porcentagens sobre o alcance. '
         f'O agente analista lê de novo 2× por dia e reescreve os insights.</p>')
 
+    # ---- 📈 Redes (agente de redes sociais: painel/redes.json, gerado por painel/redes.py)
+    rd = ler(PAINEL / "redes.json", {}) or {}
+    def bloco_rede(nome, r):
+        rs, se = r.get("resumo") or {}, r.get("serie") or []
+        vals = [x.get("visualizacoes") or 0 for x in se][-14:]
+        mx = max(vals or [0]) or 1
+        barras = "".join(f'<i style="height:{max(2, round(v / mx * 36))}px" title="{v:,.0f}"></i>' for v in vals)
+        ganho = rs.get("ganho_7d")
+        return (f'<div class="rede"><p class="it">{nome}</p><b class="big">{milhar(rs.get("seguidores"))}</b> <span class="mut">seguidores'
+                + (f' · <b style="color:var(--ok)">{"+" if (ganho or 0) >= 0 else ""}{ganho}</b> em 7 dias' if ganho is not None else "") + '</span>'
+                f'<p class="mut" style="margin:4px 0">{milhar(rs.get("visualizacoes_7d"))} visualizações em 7 dias · {milhar(rs.get("visualizacoes_30d"))} em 30</p>'
+                f'<div class="spark">{barras}</div></div>')
+    html_redes = ('' if not rd else
+        f'<h3>📈 Redes · seguidores e alcance</h3><div class="redes">{bloco_rede("📸 Instagram", rd.get("instagram") or {})}{bloco_rede("🎵 TikTok", rd.get("tiktok") or {})}</div>'
+        + ('<div class="analista"><p class="it">📈 Agente de redes · leitura de ' + esc(str(rd.get("lido_em") or "")[8:10] + "/" + str(rd.get("lido_em") or "")[5:7]) + '</p>'
+           + "".join(f"<p>• {esc(x)}</p>" for x in rd.get("leitura") or []) + '</div>' if rd.get("leitura") else '')
+        + '<style>.redes{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 10px}.rede{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px;font-size:13px}.rede .big{font-size:24px}.spark{display:flex;align-items:flex-end;gap:2px;height:38px;margin-top:6px}.spark i{flex:1;background:#58a6ff;border-radius:2px 2px 0 0;min-width:3px}</style>')
+    html_resultados = html_redes + '<h3>🎬 Reels</h3>' + html_resultados
+    # ---- 💵 Caixa do produto (agente financeiro): números ao vivo de /api/financeiro, preenchidos pelo script da página
+    html_gastos = (f'<div id="caixa" data-gastos-brl="{total_mes * cambio:.2f}" data-cambio="{cambio}"><h3>💵 Super Assistente de IA</h3><p class="mut">carregando vendas…</p></div>'
+                   + '<h3>💸 Gastos do projeto</h3>' + html_gastos)
+
     cont = defaultdict(int)
     for c in cartoes:
         cont[balde(c["status"])] += 1
@@ -677,19 +699,22 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
 }).catch(() => {});
 // 🏢 Equipe (Vitor, 08/11): escritório em pixel art com pessoinhas. Na mesa = trabalhando; fora da mesa = livre, curtindo a área de lazer.
 (() => {
-  const W = 144, H = 230, OFF = 22; // OFF = quanto o escritório desceu para caber a parede de vidro
+  const W = 180, H = 230, OFF = 22; // OFF = quanto o escritório desceu para caber a parede de vidro
   // cada agente: cor da camisa, cabelo, pele e do que ele gosta quando está livre (peso de cada lugar)
   const AG = [
     { id: 'cacador', nome: 'Caçador', faz: 'busca referências virais lá fora', quando: 'seg e qui 03:53', cor: '#3fb950', cab: '#5b3a1e', pele: '#e0ac69', chapeu: '#8b6b3a', gosta: { navegar: 5, cafe: 2, conversa: 2, gato: 1 } },
     { id: 'roteirista', nome: 'Roteirista', faz: 'escreve os 28 roteiros da rodada', quando: 'seg e qui 04:47', cor: '#58a6ff', cab: '#1f1f1f', pele: '#c68642', gosta: { sofa: 4, cafe: 4, conversa: 2 } },
-    { id: 'revisores', nome: 'Revisores', faz: 'os 4 revisores conferem cada roteiro', quando: 'logo depois do roteirista', cor: '#ff6b6b', cab: '#b55239', pele: '#f1c27d', oculos: true, gosta: { sinuca: 5, conversa: 2, lanche: 1 } },
-    { id: 'estudio', nome: 'Estúdio', faz: 'renderiza os vídeos aprovados', quando: 'quando você aprova roteiros', cor: '#e8834a', cab: '#2b2b2b', pele: '#8d5524', fone: true, gosta: { fliperama: 5, sofa: 2, sinuca: 2 } },
+    { id: 'revisores', nome: 'Revisores', faz: 'os 4 revisores conferem cada roteiro', quando: 'logo depois do roteirista', cor: '#ff6b6b', cab: '#b55239', pele: '#f1c27d', oculos: true, gosta: { sinuca: 5, conversa: 2, lanche: 1, pingpong: 2 } },
+    { id: 'estudio', nome: 'Estúdio', faz: 'renderiza os vídeos aprovados', quando: 'quando você aprova roteiros', cor: '#e8834a', cab: '#2b2b2b', pele: '#8d5524', fone: true, gosta: { fliperama: 5, sofa: 2, sinuca: 2, pingpong: 1 } },
     { id: 'analista', nome: 'Analista', faz: 'lê as métricas e escreve insights', quando: 'todo dia 07:37 e 19:43', cor: '#d2a8ff', cab: '#e6c27a', pele: '#ffdbac', oculos: true, gosta: { lanche: 4, sinuca: 3, navegar: 2 } },
     { id: 'cobranca', nome: 'Cobrança', faz: 'te avisa do que espera aprovação', quando: 'todo dia 18:23', cor: '#f2cc60', cab: '#7a3b1e', pele: '#e0ac69', gosta: { conversa: 6, gato: 3, cafe: 2 } },
     { id: 'robo', nome: 'Robô das DMs', faz: 'responde quem comenta a palavra', quando: 'a cada 10 min', cor: '#79c0ff', robo: true, gosta: { tomada: 1 } },
+    { id: 'financeiro', nome: 'Financeiro', faz: 'cuida das vendas e do lucro do Super Assistente', quando: 'todo dia 21:07 (vendas chegam na hora)', cor: '#2ea043', cab: '#3b2a1a', pele: '#f1c27d', gravata: true, gosta: { cafe: 3, lanche: 2, conversa: 2, pingpong: 2 } },
+    { id: 'social', nome: 'Redes', faz: 'acompanha seguidores e alcance no IG e no TikTok', quando: 'todo dia 21:37', cor: '#ff7eb6', cab: '#e8834a', pele: '#ffdbac', celular: true, gosta: { navegar: 3, sofa: 2, conversa: 3, gato: 2, pingpong: 2 } },
   ];
-  const MESAS = [[6, 22], [42, 22], [78, 22], [114, 22], [6, 58], [42, 58], [78, 58]];
-  AG.forEach((g, i) => { g.mesa = MESAS[i]; g.x = 70 + (i % 4) * 8; g.y = 150 + Math.floor(i / 4) * 10; g.alvo = null; g.faz_agora = null; g.ate = 0; g.frame = 0; g.dir = 1; g.emote = ''; g.emoteAte = 0; });
+  const MESAS = [[6, 22], [42, 22], [78, 22], [114, 22], [150, 22], [6, 58], [42, 58], [78, 58], [114, 58], [150, 58]];
+  const ORDEM = ['cacador', 'roteirista', 'revisores', 'estudio', 'analista', 'cobranca', 'robo', 'financeiro', 'social'];
+  AG.forEach((g, i) => { g.mesa = MESAS[ORDEM.indexOf(g.id)]; g.x = 70 + (i % 4) * 8; g.y = 150 + Math.floor(i / 4) * 10; g.alvo = null; g.faz_agora = null; g.ate = 0; g.frame = 0; g.dir = 1; g.emote = ''; g.emoteAte = 0; });
   // lugares da área de lazer: onde a pessoa fica, o que faz e os emojis que solta
   const LUGARES = {
     sinuca: { vagas: [[8, 124], [56, 124]], emotes: ['🎱', '😎', '🔥', 'boa!'] },
@@ -700,6 +725,7 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     fliperama: { vagas: [[128, 170]], emotes: ['🕹️', '🏆', 'recorde!'] },
     gato: { vagas: [], emotes: ['😺', '🐾', '❤️'] },
     tomada: { vagas: [[132, 98]], emotes: ['🔋', '⚡'] },
+    pingpong: { vagas: [[161, 130], [161, 156]], emotes: ['🏓', 'ponto!', '😤', '😂'] },
   };
   const gato = { x: 70, y: 186, alvo: [70, 186], ate: 0, dorme: true };
   const sec = document.querySelector('.aba-equipe');
@@ -727,7 +753,7 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
   const VID = 16 + OFF; // altura da parede de vidro
   const mk = (w, h) => { const c = document.createElement('canvas'); c.width = w; c.height = h; return c; };
   const ceuC = mk(W, VID), fundoC = mk(W, H);
-  const PREDIOS = [[4, 9], [11, 13], [17, 7], [26, 15], [34, 10], [40, 18], [48, 8], [57, 12], [66, 16], [75, 9], [84, 14], [93, 11], [101, 17], [110, 8], [118, 13], [127, 10], [135, 15]];
+  const PREDIOS = []; for (let px = 4, k = 0; px < W; px += 8 + (k % 3), k++) PREDIOS.push([px, 7 + ((k * 7) % 12)]);
   const JANELAS = []; for (let k = 0; k < 90; k++) JANELAS.push([(k * 37) % W, VID - 3 - ((k * 13) % 12), k % 3]);
   function hora() { return Number(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo', hour: 'numeric', hour12: false })) % 24; }
   function ceu(seg) {
@@ -773,7 +799,10 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     R('#2f7d3a', 2, 100, 7, 8); R('#7a4b2a', 3, 107, 5, 4); R('#2f7d3a', 136, 196, 7, 8); R('#7a4b2a', 137, 203, 5, 4);
     R('#2f7d3a', 2, 17, 6, 7); R('#7a4b2a', 3, 23, 4, 3); R('#2f7d3a', 136, 17, 6, 7); R('#7a4b2a', 137, 23, 4, 3); // plantas junto ao vidro
     R('#e8834a', 70, 196, 10, 7); R('#ff9a62', 71, 196, 8, 2);
-    R('#6b4a30', 116, 60, 22, 18); R('#58a6ff', 118, 62, 3, 6); R('#ff6b6b', 122, 62, 3, 6); R('#f2cc60', 126, 63, 3, 5); R('#3fb950', 118, 70, 4, 6); R('#d2a8ff', 124, 70, 3, 6);
+    R('#6b4a30', 152, 60, 22, 18); R('#58a6ff', 154, 62, 3, 6); R('#ff6b6b', 158, 62, 3, 6); R('#f2cc60', 162, 63, 3, 5); R('#3fb950', 154, 70, 4, 6); R('#d2a8ff', 160, 70, 3, 6);
+    R('#1d6fa3', 150, 136, 22, 12); R('#2a8cc9', 151, 137, 20, 10); R('#fff', 160, 136, 1, 12); R('#ddd', 150, 141, 22, 1); R('#5a3a22', 151, 148, 1, 3); R('#5a3a22', 170, 148, 1, 3); // pingue-pongue
+    R('#7b61ff', 150, 190, 9, 7); R('#9a85ff', 151, 190, 7, 2); R('#3fb950', 164, 192, 9, 7); R('#5fd170', 165, 192, 7, 2); // pufes
+    R('#2f7d3a', 172, 17, 6, 7); R('#7a4b2a', 173, 23, 4, 3); R('#2f7d3a', 172, 100, 7, 8); R('#7a4b2a', 173, 107, 5, 4);
     for (const [a, b] of MESAS) { R('#7a5232', a, b + 10, 24, 6); R('#5e3f27', a, b + 16, 2, 5); R('#5e3f27', a + 22, b + 16, 2, 5); R('#222', a + 6, b + 2, 12, 8); R('#222', a + 11, b + 10, 2, 1); R('#3b3f46', a + 8, b + 19, 8, 3); }
     x.restore(); x = antes;
   }
@@ -783,6 +812,7 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     R(t % 16 < 8 ? '#ff6b6b' : '#7ee787', 82, 103, 1, 1); // café
     R(t % 12 < 6 ? '#7ee787' : '#9ad0f5', 97, 161, 8, 6); // PC de navegar
     R(t % 8 < 4 ? '#ff6b6b' : '#f2cc60', 125, 157, 6, 2); // fliperama
+    if (AG.filter((o) => o.faz_agora === 'pingpong' && o.modo === 'raquete').length === 2) { const k = (t % 16) / 16, yy = 138 + Math.abs(k * 2 - 1) * 8; R('#fff', 160 + Math.sin(t / 3) * 6, k < 0.5 ? 132 + k * 32 : 148 - (k - 0.5) * 32, 1, 1); }
   }
   function mesa(m, ligado) {
     const [a, b] = m;
@@ -809,6 +839,9 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     if (g.chapeu) { R(g.chapeu, px - 3, py - 14 + bob, 7, 1); R(g.chapeu, px - 2, py - 16 + bob, 5, 2); }
     if (g.fone) { R('#111', px - 3, py - 13 + bob, 1, 3); R('#111', px + 3, py - 13 + bob, 1, 3); R('#111', px - 2, py - 15 + bob, 5, 1); }
     if (modo === 'taco') R('#c9a46c', px + (g.x < 30 ? 4 : -9), py - 7, 6, 1);
+    if (g.gravata && !costas) { R('#b62324', px, py - 8 + bob, 1, 3); }
+    if (g.celular && !costas && modo !== 'anda') { R('#222', px + 4, py - 7, 2, 3); R('#58a6ff', px + 4, py - 7, 2, 1); }
+    if (modo === 'raquete') R('#d73a49', px + 4, py - 8 + (t % 6 < 3 ? 0 : -1), 2, 2);
     if (modo === 'come' && t % 12 < 6) R('#f2cc60', px + 4, py - 9, 2, 2);
   }
   function robo(g, px, py, modo) {
@@ -854,7 +887,7 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     if (d > 0.6) { const v = Math.min(d, 15 * dt); g.x += dx / d * v; g.y += dy / d * v; g.dir = dx >= 0 ? 1 : -1; g.modo = 'anda'; return; }
     g.x = ax; g.y = ay;
     const f = g.faz_agora;
-    g.modo = f === 'mesa' ? 'senta' : f === 'sinuca' ? 'taco' : f === 'lanche' ? 'come' : 'parado';
+    g.modo = f === 'mesa' ? 'senta' : f === 'sinuca' ? 'taco' : f === 'lanche' ? 'come' : f === 'pingpong' ? 'raquete' : 'parado';
     if (f === 'conversa' && g.par) g.dir = g.par.x > g.x ? 1 : -1;
     if (f === 'gato') { g.dir = gato.x > g.x ? 1 : -1; gato.dorme = false; }
     if (f !== 'mesa' && t > g.emoteAte && Math.random() < 0.2 * dt) {
@@ -922,6 +955,38 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
   setInterval(() => { if (document.body.dataset.tab === 'equipe') busca(); }, 20000);
   document.querySelectorAll('nav button[data-t="equipe"]').forEach((b) => b.addEventListener('click', busca));
   if (document.body.dataset.tab === 'equipe') busca();
+})();
+// 💵 Caixa (Vitor, 08/11): vendas da Kiwify, funil e lucro do mês, ao vivo
+(() => {
+  const el = document.getElementById('caixa'); if (!el) return;
+  const R$ = (c) => 'R$ ' + (c / 100).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  async function carrega() {
+    try {
+      const r = await fetch('/api/financeiro', { credentials: 'same-origin' }); if (!r.ok) throw new Error(r.status);
+      const d = await r.json();
+      const mes = (d.agora || '').slice(0, 7), gastos = Math.round(Number(el.dataset.gastosBrl || 0) * 100);
+      const doMes = (d.ultimas || []).filter((v) => (v.em || '').startsWith(mes) && /paid|approved|aprovad|complete/i.test(v.status + ' ' + v.evento) && !/refund|reembols|chargeback|estorn/i.test(v.status + ' ' + v.evento));
+      const liqMes = doMes.reduce((t, v) => t + (v.liquido || v.valor || 0), 0);
+      const f = {}; for (const x of d.funil || []) { f[x.tipo] = (f[x.tipo] || 0) + x.n; }
+      const orig = {}; for (const x of (d.funil || []).filter((x) => x.tipo === 'clique')) orig[x.origem] = (orig[x.origem] || 0) + x.n;
+      const conv = f.clique ? (d.vendas / f.clique * 100).toFixed(1).replace('.', ',') + '%' : '–';
+      el.innerHTML = '<h3>💵 Super Assistente de IA</h3>' +
+        (d.conectado ? '' : '<p class="mut">Kiwify ainda não conectada.</p>') +
+        '<div class="filas"><div class="kpi"><b>' + d.vendas + '</b><span>vendas aprovadas</span></div><div class="kpi"><b>' + R$(d.liquido || 0) + '</b><span>líquido (bruto ' + R$(d.bruto || 0) + ')</span></div>' +
+        '<div class="kpi"><b style="color:' + (liqMes - gastos >= 0 ? 'var(--ok)' : 'var(--erro)') + '">' + R$(liqMes - gastos) + '</b><span>lucro do mês (vendas − gastos)</span></div></div>' +
+        '<table class="gastos"><tr><th>Funil (30 dias)</th><th class="num">Qtd</th></tr>' +
+        '<tr><td>Comentários com KIT</td><td class="num">' + (d.comentarios_kit || 0) + '</td></tr>' +
+        '<tr><td>Cartões de oferta na DM</td><td class="num">' + (d.ofertas_dm || 0) + '</td></tr>' +
+        '<tr><td>Visitas à página /kit</td><td class="num">' + (f.visita || 0) + '</td></tr>' +
+        '<tr><td>Cliques em comprar<br><small>' + Object.entries(orig).map(([k, v]) => k + ' ' + v).join(' · ') + '</small></td><td class="num">' + (f.clique || 0) + '</td></tr>' +
+        '<tr><td>Vendas · conversão do clique</td><td class="num">' + d.vendas + ' · ' + conv + '</td></tr>' +
+        '<tr><td>Reembolsos / estornos</td><td class="num">' + d.estornos + '</td></tr></table>' +
+        ((d.ultimas || []).length ? '<p class="mut" style="font-size:12px">Últimas: ' + d.ultimas.slice(0, 5).map((v) => (v.em || '').slice(8, 10) + '/' + (v.em || '').slice(5, 7) + ' ' + (v.status || v.evento) + ' ' + (v.valor ? R$(v.valor) : '')).join(' · ') + '</p>' : '') +
+        '<p class="mut" style="font-size:12px">Vendas chegam na hora pela Kiwify (e o 🔔 avisa). Funil: cliques passam por iaem60s.com/comprar. Atualizado ' + (d.agora || '').slice(11) + '.</p>';
+    } catch (e) { el.innerHTML = '<h3>💵 Super Assistente de IA</h3><p class="mut">não consegui ler as vendas agora (' + e.message + ')</p>'; }
+  }
+  document.querySelectorAll('nav button[data-t="gastos"]').forEach((b) => b.addEventListener('click', carrega));
+  if (document.body.dataset.tab === 'gastos' || location.hash === '#gastos') carrega();
 })();
 </script></body></html>
 """
