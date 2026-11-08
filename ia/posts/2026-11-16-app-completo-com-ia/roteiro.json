@@ -31,8 +31,8 @@
  "obs": "Passa do limite de 35 s do checar.py de propósito (teste aprovado pelo Vitor): gravar checagem_aceita no meta ao produzir. Instagram aceita Reel de até 3 min; TikTok até 10 min. Depois do teste, o mesmo material pode virar 15 cortes curtos.",
  "polemica": false,
  "agenda": null,
- "palavras": 352,
- "duracao_estimada_s": 125.7,
+ "palavras": 347,
+ "duracao_estimada_s": 123.9,
  "status": "roteiro aguardando aprovação",
  "segmentos": [
   {
@@ -114,8 +114,8 @@
   {
    "cena": "meio",
    "tag": "",
-   "fala": "Tá gostando? Comenta CAMINHO que eu te mando o mapa completo, com o pedido certo pra IA em cada etapa.",
-   "legenda": "Tá gostando? Comenta CAMINHO que eu te mando o mapa completo, com o pedido certo pra IA em cada etapa.",
+   "fala": "Tá gostando? Deixa o like e manda pra aquele amigo que curte tecnologia. E comenta CAMINHO que eu te mando o mapa completo.",
+   "legenda": "Tá gostando? Deixa o like e manda pra aquele amigo que curte tecnologia. E comenta CAMINHO que eu te mando o mapa completo.",
    "sfx": []
   },
   {
@@ -193,8 +193,8 @@
   {
    "cena": "cta",
    "tag": "",
-   "fala": "Pronto: agora é um app de verdade. Deixa o like e manda pra aquele amigo que curte tecnologia. E comenta CAMINHO que eu te mando o mapa completo.",
-   "legenda": "Pronto: agora é um app de verdade. Deixa o like e manda pra aquele amigo que curte tecnologia. E comenta CAMINHO que eu te mando o mapa completo.",
+   "fala": "Pronto: agora é um app de verdade. Comenta CAMINHO que eu te mando o mapa completo e todos os pedidos.",
+   "legenda": "Pronto: agora é um app de verdade. Comenta CAMINHO que eu te mando o mapa completo e todos os pedidos.",
    "sfx": []
   }
  ]
