@@ -469,6 +469,24 @@ const LIVRE_DOMINIO = /^(ig\/webhook|links|kit|privacidade|ig\/callback|capas\/(
 
 // ---------------------------------------------------------------- API
 async function api(req, env, rota) {
+  if (rota === "publicados" && req.method === "GET") { // ✅ da Agenda: o que já foi ao ar no Instagram (2 chamadas à API)
+    const c = await cfg(env);
+    if (!c.token) return json({ erro: "não conectado", itens: [] });
+    const token = await renovarToken(env, c);
+    HOST = c.modo === "suat" ? FB : IG;
+    const EU = c.modo === "suat" ? c.ig_id : "me";
+    const iso = (t) => String(t || "").replace(/([+-]\d{2})(\d{2})$/, "$1:$2");
+    const itens = [];
+    try {
+      const { data = [] } = await igFetch(`/${EU}/media?fields=timestamp,media_type,media_product_type,permalink&limit=40`, token);
+      for (const m of data) itens.push({ t: iso(m.timestamp), tipo: m.media_product_type === "REELS" ? "REEL" : "POST", url: m.permalink || "" });
+    } catch (e) { return json({ erro: String(e.message).slice(0, 200), itens }); }
+    try {
+      const { data = [] } = await igFetch(`/${EU}/stories?fields=timestamp`, token);
+      for (const m of data) itens.push({ t: iso(m.timestamp), tipo: "STORY", url: "" });
+    } catch {}
+    return json({ itens, em: agoraBR() });
+  }
   if (rota === "decisoes" && req.method === "GET") {
     const { results } = await env.DB.prepare("SELECT pasta, etapa, decisao, nota, em, aplicada FROM decisoes").all();
     return json(Object.fromEntries(results.map((r) => [r.pasta, r])));

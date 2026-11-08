@@ -328,7 +328,9 @@ def main() -> None:
             if ps:
                 p = ps[0]
                 st = {"PUBLISHED": "publicado", "PENDING": "rascunho" if p.get("rascunho") else "agendado", "ERROR": "erro", "AGUARDANDO": "aguardando aprovação"}.get(p["status"], p["status"])
-                linhas.append(f'<li class="{classe(st)}"{" data-pasta=" + chr(34) + esc(p["pasta"]) + chr(34) if p.get("pasta") else ""}><span>{h}</span>{esc(p["texto"][:70])}</li>')
+                tipo_li = "STORY" if p.get("tipo") == "STORY" else "POST"
+                no_ar = "1" if p.get("status") == "PUBLISHED" else ""
+                linhas.append(f'<li class="{classe(st)}" data-t="{dia}T{h}" data-tipo="{tipo_li}" data-noar="{no_ar}"{" data-pasta=" + chr(34) + esc(p["pasta"]) + chr(34) if p.get("pasta") else ""}><span>{h}</span>{esc(p["texto"][:70])}</li>')
             elif h in vagas and not passou:
                 if d < 3:
                     livres_3_dias += 1
@@ -558,6 +560,7 @@ article[data-bucket=decidido]{{opacity:.55}}
 .dia ul{{list-style:none;margin:0;padding:0}}.dia li{{font-size:12px;padding:6px 0;border-top:1px solid var(--line)}}.dia li span{{display:inline-block;width:44px;font-weight:700}}
 li.livre{{color:var(--esp)}}li.espera span{{color:var(--esp)}}li.ok span{{color:var(--ok)}}li.agenda span{{color:var(--ag)}}li.erro{{color:var(--erro)}}
 .dia-todos{{float:right;font:inherit;font-size:10px;padding:2px 7px;border-radius:8px;border:1px solid var(--ok);background:none;color:var(--ok);cursor:pointer;text-transform:none}}
+li[data-noar="1"]::before{{content:"✅";margin-right:4px}}li[data-noar="1"]{{opacity:.75}}li[data-noar="1"][data-dec]::before{{content:"✅"}}
 li[data-dec=aprovado]::before{{content:"✔";color:var(--ok);font-weight:700;margin-right:3px}}li[data-dec=negado]{{text-decoration:line-through;opacity:.5}}
 #aviso{{font-size:12px;color:var(--mut);margin:6px 2px}}
 nav{{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;background:#12151bf2;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--line);padding:6px 6px calc(6px + env(safe-area-inset-bottom))}}
@@ -659,6 +662,17 @@ document.querySelectorAll('#cats-t button').forEach(b => b.onclick = () => {{ F.
 const inicio = (location.hash || '').slice(1).replace('pendentes', 'aprovar');
 recontar();
 aba(['aprovar', 'agenda', 'publicados', 'todos', 'resultados', 'gastos'].includes(inicio) ? inicio : (document.querySelector('#grade article[data-bucket=aprovar]') ? 'aprovar' : 'agenda'));
+// ✅ na Agenda (Vitor, 08/11): confere ao vivo no Instagram o que já foi ao ar (Reel/post e story) e marca a linha
+fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.json() : { itens: [] }).then(({ itens = [] }) => {
+  const ts = itens.map((i) => ({ t: Date.parse(i.t), tipo: i.tipo, url: i.url })).filter((i) => !isNaN(i.t));
+  document.querySelectorAll('.dia li[data-t]').forEach((li) => {
+    const slot = Date.parse(li.dataset.t + ':00-03:00');
+    if (isNaN(slot) || slot > Date.now()) return;
+    const story = li.dataset.tipo === 'STORY';
+    const m = ts.find((i) => (story ? i.tipo === 'STORY' : i.tipo !== 'STORY') && i.t >= slot - 10 * 60e3 && i.t <= slot + 60 * 60e3);
+    if (m) { li.dataset.noar = '1'; if (m.url) li.title = 'no ar: ' + m.url; }
+  });
+}).catch(() => {});
 </script></body></html>
 """
     (PAINEL / "index.html").write_text(pagina, encoding="utf-8")
