@@ -675,98 +675,203 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     if (m) { li.dataset.noar = '1'; if (m.url) li.title = 'no ar: ' + m.url; }
   });
 }).catch(() => {});
-// 🏢 Equipe (Vitor, 08/11): escritório em pixel art; cada rotina é um personagem. Trabalhando = na mesa com balão; livre = no café.
+// 🏢 Equipe (Vitor, 08/11): escritório em pixel art com pessoinhas. Na mesa = trabalhando; fora da mesa = livre, curtindo a área de lazer.
 (() => {
+  const W = 144, H = 208;
+  // cada agente: cor da camisa, cabelo, pele e do que ele gosta quando está livre (peso de cada lugar)
   const AG = [
-    { id: 'cacador', nome: 'Caçador', faz: 'busca referências virais lá fora', quando: 'seg e qui 03:53', cor: '#3fb950', ace: 'chapeu', mesa: [14, 30] },
-    { id: 'roteirista', nome: 'Roteirista', faz: 'escreve os 28 roteiros da rodada', quando: 'seg e qui 04:47', cor: '#58a6ff', ace: 'lapis', mesa: [50, 30] },
-    { id: 'revisores', nome: 'Revisores', faz: 'os 4 revisores conferem cada roteiro', quando: 'logo depois do roteirista', cor: '#ff6b6b', ace: 'oculos', mesa: [86, 30] },
-    { id: 'estudio', nome: 'Estúdio', faz: 'renderiza os vídeos aprovados', quando: 'quando você aprova roteiros', cor: '#e8834a', ace: 'fone', mesa: [14, 78] },
-    { id: 'analista', nome: 'Analista', faz: 'lê as métricas e escreve insights', quando: 'todo dia 07:37 e 19:43', cor: '#d2a8ff', ace: 'grafico', mesa: [50, 78] },
-    { id: 'cobranca', nome: 'Cobrança', faz: 'te avisa do que espera aprovação', quando: 'todo dia 18:23', cor: '#f2cc60', ace: 'sino', mesa: [86, 78] },
-    { id: 'robo', nome: 'Robô das DMs', faz: 'responde quem comenta a palavra', quando: 'a cada 10 min', cor: '#79c0ff', ace: 'antena', mesa: [14, 122] },
+    { id: 'cacador', nome: 'Caçador', faz: 'busca referências virais lá fora', quando: 'seg e qui 03:53', cor: '#3fb950', cab: '#5b3a1e', pele: '#e0ac69', chapeu: '#8b6b3a', gosta: { navegar: 5, cafe: 2, conversa: 2, gato: 1 } },
+    { id: 'roteirista', nome: 'Roteirista', faz: 'escreve os 28 roteiros da rodada', quando: 'seg e qui 04:47', cor: '#58a6ff', cab: '#1f1f1f', pele: '#c68642', gosta: { sofa: 4, cafe: 4, conversa: 2 } },
+    { id: 'revisores', nome: 'Revisores', faz: 'os 4 revisores conferem cada roteiro', quando: 'logo depois do roteirista', cor: '#ff6b6b', cab: '#b55239', pele: '#f1c27d', oculos: true, gosta: { sinuca: 5, conversa: 2, lanche: 1 } },
+    { id: 'estudio', nome: 'Estúdio', faz: 'renderiza os vídeos aprovados', quando: 'quando você aprova roteiros', cor: '#e8834a', cab: '#2b2b2b', pele: '#8d5524', fone: true, gosta: { fliperama: 5, sofa: 2, sinuca: 2 } },
+    { id: 'analista', nome: 'Analista', faz: 'lê as métricas e escreve insights', quando: 'todo dia 07:37 e 19:43', cor: '#d2a8ff', cab: '#e6c27a', pele: '#ffdbac', oculos: true, gosta: { lanche: 4, sinuca: 3, navegar: 2 } },
+    { id: 'cobranca', nome: 'Cobrança', faz: 'te avisa do que espera aprovação', quando: 'todo dia 18:23', cor: '#f2cc60', cab: '#7a3b1e', pele: '#e0ac69', gosta: { conversa: 6, gato: 3, cafe: 2 } },
+    { id: 'robo', nome: 'Robô das DMs', faz: 'responde quem comenta a palavra', quando: 'a cada 10 min', cor: '#79c0ff', robo: true, gosta: { tomada: 1 } },
   ];
-  const W = 120, H = 170, ESC = 3;
+  const MESAS = [[6, 22], [42, 22], [78, 22], [114, 22], [6, 58], [42, 58], [78, 58]];
+  AG.forEach((g, i) => { g.mesa = MESAS[i]; g.x = 70 + (i % 4) * 8; g.y = 150 + Math.floor(i / 4) * 10; g.alvo = null; g.faz_agora = null; g.ate = 0; g.frame = 0; g.dir = 1; g.emote = ''; g.emoteAte = 0; });
+  // lugares da área de lazer: onde a pessoa fica, o que faz e os emojis que solta
+  const LUGARES = {
+    sinuca: { vagas: [[8, 124], [56, 124]], emotes: ['🎱', '😎', '🔥', 'boa!'] },
+    lanche: { vagas: [[112, 124], [124, 124]], emotes: ['🍩', '🥤', '🍕', '😋'] },
+    cafe: { vagas: [[78, 118]], emotes: ['☕', '😌'] },
+    sofa: { vagas: [[22, 196], [34, 196], [46, 196]], emotes: ['📺', '😂', '🍿'] },
+    navegar: { vagas: [[100, 170]], emotes: ['🌐', '👀', 'achei um trend!', '🤯'] },
+    fliperama: { vagas: [[128, 170]], emotes: ['🕹️', '🏆', 'recorde!'] },
+    gato: { vagas: [], emotes: ['😺', '🐾', '❤️'] },
+    tomada: { vagas: [[132, 98]], emotes: ['🔋', '⚡'] },
+  };
+  const gato = { x: 70, y: 186, alvo: [70, 186], ate: 0, dorme: true };
   const sec = document.querySelector('.aba-equipe');
   if (!sec) return;
   const st = document.createElement('style');
-  st.textContent = '.escr{position:relative;width:100%;max-width:' + W * ESC + 'px;margin:0 auto 12px}.escr canvas{width:100%;image-rendering:pixelated;border-radius:14px;border:1px solid var(--line);display:block}' +
-    '.bal{position:absolute;transform:translate(-50%,-100%);background:#fff;color:#111;font-size:10px;line-height:1.2;padding:3px 6px;border-radius:8px;max-width:118px;text-align:center;box-shadow:0 1px 0 #0006;pointer-events:none}.bal:after{content:"";position:absolute;left:50%;bottom:-4px;border:4px solid transparent;border-top-color:#fff;border-bottom:0;margin-left:-4px}.bal.zz{background:#30363d;color:#aaa}.bal.av{background:#ffb547}' +
+  st.textContent = '.escr{position:relative;width:100%;max-width:432px;margin:0 auto 12px}.escr canvas{width:100%;image-rendering:pixelated;border-radius:14px;border:1px solid var(--line);display:block}' +
+    '.bal{position:absolute;transform:translate(-50%,-100%);background:#fff;color:#111;font-size:10px;line-height:1.2;padding:3px 6px;border-radius:8px;max-width:120px;text-align:center;box-shadow:0 1px 0 #0006;pointer-events:none;transition:left .1s linear,top .1s linear}.bal:after{content:"";position:absolute;left:50%;bottom:-4px;border:4px solid transparent;border-top-color:#fff;border-bottom:0;margin-left:-4px}.bal.em{font-size:12px;padding:1px 5px}.bal.av{background:#ffb547}' +
+    '.tag{position:absolute;transform:translateX(-50%);font-size:9px;font-weight:700;color:#111;padding:1px 5px;border-radius:6px;white-space:nowrap;pointer-events:none}' +
     '.agc{display:flex;gap:10px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 10px;margin:0 0 6px;font-size:13px}.agc b.n{display:block}.agc .pt{width:10px;height:10px;border-radius:50%;margin-top:5px;flex:none;background:#555}.agc.on .pt{background:#3fb950;box-shadow:0 0 6px #3fb950}.agc.av .pt{background:#ffb547}.agc small{color:var(--mut)}';
   document.head.appendChild(st);
   const box = document.createElement('div'); box.className = 'escr';
   const cv = document.createElement('canvas'); cv.width = W; cv.height = H; box.appendChild(cv);
-  const lista = document.createElement('div');
   const info = document.createElement('p'); info.style.cssText = 'font-size:12px;color:var(--mut);margin:0 0 8px';
+  const lista = document.createElement('div');
   sec.appendChild(box); sec.appendChild(info); sec.appendChild(lista);
+  const pc = (v, t) => (v / t * 100) + '%';
+  AG.forEach((g) => { const el = document.createElement('div'); el.className = 'tag'; el.textContent = g.nome; el.style.background = g.cor; el.style.left = pc(g.mesa[0] + 12, W); el.style.top = pc(g.mesa[1] + 26, H); box.appendChild(el); });
   const x = cv.getContext('2d');
-  const R = (c, a, b, w, h) => { x.fillStyle = c; x.fillRect(a, b, w, h); };
+  const R = (c, a, b, w, h) => { x.fillStyle = c; x.fillRect(Math.round(a), Math.round(b), w, h); };
   let dados = {}, t = 0;
-  const parado = (a) => a && a.estado === 'trabalhando' && a.em && a.id !== 'robo' && (Date.now() - Date.parse(a.em.replace(' ', 'T') + ':00-03:00')) > 3 * 3600e3;
+  const trab = (g) => (dados[g.id] || {}).estado === 'trabalhando';
+  const parado = (g) => { const a = dados[g.id] || {}; return trab(g) && a.em && !g.robo && (Date.now() - Date.parse(a.em.replace(' ', 'T') + ':00-03:00')) > 3 * 3600e3; };
+  const rnd = (n) => Math.floor(Math.random() * n);
+  // ---------- cenário
   function cenario() {
-    R('#2d333b', 0, 0, W, H);
-    for (let j = 14, f = 0; j < H; j += 4, f++) { R(f % 2 ? '#c9a46c' : '#c49d63', 0, j, W, 4); for (let i = (f * 13) % 24; i < W; i += 24) R('#a9844f', i, j, 1, 4); } // piso de tábuas
-    R('#44505e', 0, 0, W, 14); R('#9ad0f5', 46, 3, 28, 8); R('#dff2ff', 47, 4, 12, 3); // parede e janela
-    R('#e6e1d3', 6, 3, 10, 9); R('#e8834a', 8, 5, 6, 1); R('#58a6ff', 8, 7, 4, 1); R('#3fb950', 8, 9, 5, 1); // quadro de tarefas
-    R('#2f7d3a', 104, 4, 8, 8); R('#7a4b2a', 106, 11, 4, 3); // planta
-    // copa / café (canto de baixo à direita)
-    R('#3a2f2a', 62, 132, 54, 34); R('#6e4f3c', 64, 134, 50, 30);
-    R('#8b2e2e', 66, 150, 30, 8); R('#a83a3a', 66, 146, 30, 5); // sofá
-    R('#d0d0d0', 102, 138, 9, 12); R('#333', 104, 141, 5, 3); R('#e8834a', 105, 147, 3, 2); // máquina de café
+    R('#3a4250', 0, 0, W, 16); R('#2b313b', 0, 15, W, 1);
+    R('#9ad0f5', 52, 3, 40, 9); R('#dff2ff', 54, 4, 14, 3); R('#cfe9fb', 72, 4, 8, 2); R('#6b7380', 71, 3, 1, 9); // janela
+    R('#e6e1d3', 8, 3, 14, 10); R('#e8834a', 10, 5, 8, 1); R('#58a6ff', 10, 7, 6, 1); R('#3fb950', 10, 9, 9, 1); R('#ff6b6b', 10, 11, 4, 1); // quadro da rodada
+    R('#f0f0f0', 30, 4, 8, 8); R('#222', 33, 6, 1, 3); R('#222', 34, 8, 2, 1); // relógio
+    R('#c9a46c', 104, 4, 10, 8); R('#ff6b6b', 106, 6, 6, 4); R('#7ee787', 118, 4, 10, 8); R('#58a6ff', 120, 6, 6, 4); // quadrinhos
+    for (let j = 16, f = 0; j < 100; j += 4, f++) { R(f % 2 ? '#c9a46c' : '#c49d63', 0, j, W, 4); for (let i = (f * 13) % 24; i < W; i += 24) R('#a9844f', i, j, 1, 4); } // piso do trabalho
+    R('#6e5a44', 0, 98, W, 2); // divisória
+    for (let j = 100; j < H; j += 6) for (let i = 0; i < W; i += 6) R(((i + j) / 6) % 2 ? '#3d5a73' : '#456682', i, j, 6, 6); // carpete do lazer
+    // sinuca
+    R('#5a3a22', 10, 108, 46, 26); R('#1f7a3d', 13, 111, 40, 20); R('#111', 13, 111, 2, 2); R('#111', 51, 111, 2, 2); R('#111', 13, 129, 2, 2); R('#111', 51, 129, 2, 2); R('#111', 32, 111, 2, 1); R('#111', 32, 130, 2, 1);
+    R('#fff', 24, 120, 2, 2); R('#e8834a', 38, 118, 2, 2); R('#f2cc60', 41, 121, 2, 2); R('#ff6b6b', 39, 123, 2, 2); R('#58a6ff', 44, 119, 2, 2);
+    // lanchonete: geladeira + balcão com snacks
+    R('#d9dde3', 128, 102, 12, 18); R('#aab0b8', 128, 110, 12, 1); R('#888', 138, 104, 1, 4); R('#888', 138, 113, 1, 4);
+    R('#8b5a34', 104, 104, 22, 8); R('#a86f42', 104, 104, 22, 2); R('#f2cc60', 106, 102, 3, 2); R('#e8834a', 110, 101, 3, 3); R('#ff6b6b', 115, 102, 2, 2); R('#7ee787', 119, 101, 3, 3); R('#d2a8ff', 123, 102, 2, 2);
+    // café
+    R('#cfcfcf', 74, 102, 10, 12); R('#333', 76, 105, 6, 3); R(t % 16 < 8 ? '#ff6b6b' : '#7ee787', 82, 103, 1, 1); R('#fff', 77, 111, 3, 2);
+    // TV + sofá
+    R('#222', 20, 168, 32, 18); R(t % 30 < 15 ? '#3d7bf2' : '#7b61ff', 22, 170, 28, 14); R('#ffd166', 28 + (t % 40) / 4, 176, 4, 4); R('#333', 34, 186, 4, 3);
+    R('#8b2e2e', 14, 198, 42, 8); R('#a83a3a', 14, 194, 42, 5); R('#7a2626', 12, 194, 3, 12); R('#7a2626', 55, 194, 3, 12);
+    // PC de navegar
+    R('#6b4a30', 92, 168, 18, 4); R('#222', 96, 160, 10, 8); R(t % 12 < 6 ? '#7ee787' : '#9ad0f5', 97, 161, 8, 6);
+    // fliperama
+    R('#7b61ff', 122, 152, 12, 18); R('#111', 124, 155, 8, 6); R(t % 8 < 4 ? '#ff6b6b' : '#f2cc60', 125, 157, 6, 2); R('#f2cc60', 125, 163, 2, 2); R('#ff6b6b', 129, 163, 2, 2);
+    // tomada do robô + plantas + pufe
+    R('#e6e1d3', 130, 92, 6, 6); R('#222', 131, 94, 1, 2); R('#222', 134, 94, 1, 2);
+    R('#2f7d3a', 2, 100, 7, 8); R('#7a4b2a', 3, 107, 5, 4); R('#2f7d3a', 136, 196, 7, 8); R('#7a4b2a', 137, 203, 5, 4);
+    R('#e8834a', 70, 196, 10, 7); R('#ff9a62', 71, 196, 8, 2);
+    // estante na 8ª vaga de mesa
+    R('#6b4a30', 116, 60, 22, 18); R('#58a6ff', 118, 62, 3, 6); R('#ff6b6b', 122, 62, 3, 6); R('#f2cc60', 126, 63, 3, 5); R('#3fb950', 118, 70, 4, 6); R('#d2a8ff', 124, 70, 3, 6);
   }
-  function mesa(m, ligado) {
+  function mesa(m, ligado, cor) {
     const [a, b] = m;
-    R('#3b3f46', a + 7, b + 17, 8, 5); R('#2b2e33', a + 8, b + 22, 6, 1); // cadeira
-    R('#7a5232', a - 2, b + 8, 24, 7); R('#5e3f27', a - 2, b + 15, 2, 6); R('#5e3f27', a + 20, b + 15, 2, 6); // mesa
-    R('#222', a + 5, b + 1, 12, 8); R(ligado ? (t % 20 < 10 ? '#7ee787' : '#58a6ff') : '#111', a + 6, b + 2, 10, 6); R('#222', a + 10, b + 9, 2, 1); // monitor
+    R('#7a5232', a, b + 10, 24, 6); R('#5e3f27', a, b + 16, 2, 5); R('#5e3f27', a + 22, b + 16, 2, 5);
+    R('#222', a + 6, b + 2, 12, 8); R(ligado ? (t % 20 < 10 ? '#7ee787' : '#58a6ff') : '#151515', a + 7, b + 3, 10, 6); R('#222', a + 11, b + 10, 2, 1);
+    if (ligado) R('#ffffff22', a + 3, b + 9, 18, 2);
+    R('#3b3f46', a + 8, b + 19, 8, 3); // cadeira
   }
-  function boneco(a, b, ag, mexe) {
-    const dy = mexe ? (t % 8 < 4 ? 0 : -1) : 0;
-    R('#d97757', a, b + dy, 10, 7); R('#000', a + 2, b + 2 + dy, 1, 2); R('#000', a + 7, b + 2 + dy, 1, 2); // corpo e olhos
-    R('#d97757', a - 1, b + 3 + dy, 1, 2); R('#d97757', a + 10, b + 3 + dy, 1, 2); // bracinhos
-    for (let k = 0; k < 4; k++) R('#b85f42', a + 1 + k * 2 + (k > 1 ? 1 : 0), b + 7, 1, 2); // perninhas
-    const c = ag.cor;
-    if (ag.ace === 'chapeu') { R('#8b6b3a', a - 1, b - 1 + dy, 12, 1); R('#a8834a', a + 2, b - 3 + dy, 6, 2); }
-    if (ag.ace === 'lapis') { R('#f2cc60', a + 11, b + 1 + dy, 1, 4); R('#222', a + 11, b + 5 + dy, 1, 1); }
-    if (ag.ace === 'oculos') { R(c, a + 1, b + 2 + dy, 3, 2); R(c, a + 6, b + 2 + dy, 3, 2); R(c, a + 4, b + 2 + dy, 2, 1); }
-    if (ag.ace === 'fone') { R('#222', a - 1, b + 1 + dy, 1, 3); R('#222', a + 10, b + 1 + dy, 1, 3); R('#222', a, b - 1 + dy, 10, 1); }
-    if (ag.ace === 'grafico') { R('#fff', a + 11, b + dy, 4, 4); R(c, a + 12, b + 2 + dy, 1, 2); R(c, a + 13, b + 1 + dy, 1, 3); }
-    if (ag.ace === 'sino') { R('#f2cc60', a + 11, b + 1 + dy, 3, 3); R('#f2cc60', a + 12, b + dy, 1, 1); }
-    if (ag.ace === 'antena') { R('#888', a + 5, b - 3 + dy, 1, 3); R(t % 10 < 5 ? '#ff6b6b' : '#7ee787', a + 4, b - 4 + dy, 3, 1); }
-    R(c, a + 3, b + 5 + dy, 4, 1); // crachá na cor do agente
+  // ---------- pessoinha (x,y = pés)
+  function pessoa(g, px, py, modo) {
+    if (g.robo) return robo(g, px, py, modo);
+    const anda = modo === 'anda', costas = modo === 'senta';
+    const pass = anda ? (Math.floor(t / 2) % 2) : 0;
+    const bob = modo === 'senta' ? (t % 6 < 3 ? 0 : -0.5) : 0;
+    R('#00000033', px - 3, py, 7, 1); // sombra
+    if (!costas) { R('#2b2f36', px - 2, py - 4, 2, 4 - pass); R('#2b2f36', px + 1, py - 4, 2, 4 - (1 - pass)); R('#111', px - 2, py - 1 + 0, 2, 1); R('#111', px + 1, py - 1, 2, 1); }
+    R(g.cor, px - 3, py - 9 + bob, 7, 5); // camisa
+    const braco = modo === 'taco' ? (t % 10 < 5 ? 0 : 1) : (costas ? (t % 4 < 2 ? 0 : 1) : 0);
+    R(g.cor, px - 4, py - 8 + bob - braco, 1, 3); R(g.cor, px + 4, py - 8 + bob - (costas ? 1 - braco : braco), 1, 3);
+    R(g.pele, px - 4, py - 5 + bob - braco, 1, 1); R(g.pele, px + 4, py - 5 + bob, 1, 1);
+    R(g.pele, px - 2, py - 13 + bob, 5, 4); // cabeça
+    R(g.cab, px - 2, py - 14 + bob, 5, 2); // cabelo
+    if (costas) R(g.cab, px - 2, py - 13 + bob, 5, 3);
+    else { R(g.cab, px - 2, py - 13 + bob, 1, 2); const ox = g.dir > 0 ? 1 : 0; R('#111', px - 1 + ox, py - 11 + bob, 1, 1); R('#111', px + 1 + ox, py - 11 + bob, 1, 1);
+      if (g.oculos) { R('#222', px - 2 + ox, py - 11 + bob, 2, 1); R('#222', px + 1 + ox, py - 11 + bob, 2, 1); } }
+    if (g.chapeu) { R(g.chapeu, px - 3, py - 14 + bob, 7, 1); R(g.chapeu, px - 2, py - 16 + bob, 5, 2); }
+    if (g.fone) { R('#111', px - 3, py - 13 + bob, 1, 3); R('#111', px + 3, py - 13 + bob, 1, 3); R('#111', px - 2, py - 15 + bob, 5, 1); }
+    if (modo === 'taco') R('#c9a46c', px + (g.x < 30 ? 4 : -9), py - 7, 6, 1);
+    if (modo === 'come' && t % 12 < 6) R('#f2cc60', px + 4, py - 9, 2, 2);
   }
+  function robo(g, px, py, modo) {
+    const b = modo === 'senta' ? (t % 6 < 3 ? 0 : -0.5) : 0;
+    R('#00000033', px - 3, py, 7, 1);
+    R('#8b949e', px - 2, py - 3, 2, 3); R('#8b949e', px + 1, py - 3, 2, 3);
+    R('#c9d1d9', px - 3, py - 9 + b, 7, 6); R(g.cor, px - 1, py - 7 + b, 3, 2);
+    R('#c9d1d9', px - 3, py - 14 + b, 7, 5); R('#222', px - 2, py - 13 + b, 5, 3);
+    R(t % 10 < 5 ? '#7ee787' : '#58a6ff', px - 1, py - 12 + b, 1, 1); R(t % 10 < 5 ? '#7ee787' : '#58a6ff', px + 1, py - 12 + b, 1, 1);
+    R('#8b949e', px, py - 17 + b, 1, 3); R(t % 8 < 4 ? '#ff6b6b' : '#f2cc60', px - 1, py - 18 + b, 3, 1);
+  }
+  function desenhaGato() {
+    const g = gato, p = Math.floor(t / 3) % 2;
+    R('#00000033', g.x - 3, g.y, 7, 1);
+    R('#f0a35e', g.x - 3, g.y - 3, 6, 3); R('#f0a35e', g.x + 2, g.y - 5, 3, 3); R('#f0a35e', g.x + 2, g.y - 6, 1, 1); R('#f0a35e', g.x + 4, g.y - 6, 1, 1);
+    R('#d9823c', g.x - 4, g.y - 4 - (g.dorme ? 0 : p), 1, 2);
+    if (g.dorme) { if (t % 30 < 15) { R('#fff', g.x + 6, g.y - 9, 2, 1); } } else { R('#111', g.x + 3, g.y - 4, 1, 1); }
+  }
+  // ---------- comportamento de quem está livre
+  function ocupado(lugar, i) { return AG.some((o) => o.faz_agora === lugar && o.vaga === i); }
+  function escolhe(g) {
+    if (g.robo) { g.faz_agora = 'tomada'; g.vaga = 0; g.alvo = LUGARES.tomada.vagas[0]; return; }
+    const op = [];
+    for (const [l, p] of Object.entries(g.gosta)) for (let k = 0; k < p; k++) op.push(l);
+    const l = op[rnd(op.length)];
+    if (l === 'conversa') {
+      const amigos = AG.filter((o) => o !== g && !trab(o) && !o.robo && !o.par);
+      if (amigos.length) { const o = amigos[rnd(amigos.length)]; const mx = 30 + rnd(80), my = 140 + rnd(30);
+        g.par = o; o.par = g; g.faz_agora = o.faz_agora = 'conversa'; g.alvo = [mx - 5, my]; o.alvo = [mx + 5, my]; g.ate = o.ate = t + 120 + rnd(120); return; }
+    }
+    if (l === 'gato') { g.faz_agora = 'gato'; g.alvo = [gato.x - 6, gato.y]; g.ate = t + 100; return; }
+    const vagas = (LUGARES[l] || {}).vagas || [];
+    const i = vagas.findIndex((_, k) => !ocupado(l, k));
+    if (i < 0) { g.faz_agora = 'passeio'; g.alvo = [20 + rnd(100), 140 + rnd(40)]; g.ate = t + 60; return; }
+    g.faz_agora = l; g.vaga = i; g.alvo = vagas[i]; g.ate = t + 150 + rnd(200);
+  }
+  function emote(g, txt) { g.emote = txt; g.emoteAte = t + 25; }
+  function passo(g) {
+    if (trab(g)) { g.par && (g.par.par = null, g.par.ate = t); g.par = null; g.faz_agora = 'mesa'; g.alvo = [g.mesa[0] + 12, g.mesa[1] + 22]; }
+    else if (g.faz_agora === 'mesa' || !g.faz_agora || t > g.ate) { if (g.par) { g.par.par = null; g.par = null; } escolhe(g); }
+    const [ax, ay] = g.alvo || [g.x, g.y];
+    const dx = ax - g.x, dy = ay - g.y, d = Math.hypot(dx, dy);
+    if (d > 1.2) { const v = 1.4; g.x += dx / d * v; g.y += dy / d * v; g.dir = dx >= 0 ? 1 : -1; g.modo = 'anda'; return; }
+    g.x = ax; g.y = ay;
+    const f = g.faz_agora;
+    g.modo = f === 'mesa' ? 'senta' : f === 'sinuca' ? 'taco' : f === 'lanche' ? 'come' : 'parado';
+    if (f === 'conversa' && g.par) g.dir = g.par.x > g.x ? 1 : -1;
+    if (f === 'gato') { g.dir = gato.x > g.x ? 1 : -1; gato.dorme = false; }
+    if (f !== 'mesa' && t > g.emoteAte && Math.random() < 0.02) {
+      const lista = f === 'conversa' ? ['💬', '😂', 'kkkk', 'viu o Reel?', '👍'] : (LUGARES[f] || { emotes: ['🙂'] }).emotes;
+      emote(g, lista[rnd(lista.length)]);
+    }
+  }
+  function passoGato() {
+    if (AG.some((g) => g.faz_agora === 'gato' && Math.hypot(g.x - gato.x, g.y - gato.y) < 9)) return;
+    if (t > gato.ate) { gato.dorme = Math.random() < 0.6; gato.alvo = gato.dorme ? [64 + rnd(20), 186 + rnd(10)] : [10 + rnd(120), 140 + rnd(55)]; gato.ate = t + 200 + rnd(300); }
+    const dx = gato.alvo[0] - gato.x, dy = gato.alvo[1] - gato.y, d = Math.hypot(dx, dy);
+    if (d > 1 && !gato.dorme) { gato.x += dx / d * 0.7; gato.y += dy / d * 0.7; }
+  }
+  // ---------- balões (HTML, nítidos)
   const baloes = {};
   function balao(id, txt, px, py, cls) {
     let el = baloes[id];
+    if (!txt) { if (el) { el.remove(); delete baloes[id]; } return; }
     if (!el) { el = baloes[id] = document.createElement('div'); box.appendChild(el); }
-    el.className = 'bal ' + (cls || ''); el.textContent = txt;
-    el.style.left = (px / W * 100) + '%'; el.style.top = (py / H * 100) + '%';
+    el.className = 'bal ' + (cls || ''); if (el.textContent !== txt) el.textContent = txt;
+    el.style.left = pc(px, W); el.style.top = pc(py, H);
   }
-  AG.forEach((ag) => { const el = document.createElement('div'); el.textContent = ag.nome; el.style.cssText = 'position:absolute;transform:translateX(-50%);font-size:9px;font-weight:700;color:#fff;background:#0009;padding:1px 5px;border-radius:6px;white-space:nowrap;left:' + ((ag.mesa[0] + 10) / W * 100) + '%;top:' + ((ag.mesa[1] + 24) / H * 100) + '%'; box.appendChild(el); });
-  const copa = document.createElement('div'); copa.textContent = '☕ copa'; copa.style.cssText = 'position:absolute;font-size:9px;color:#fff;background:#0009;padding:1px 5px;border-radius:6px;left:' + (64 / W * 100) + '%;top:' + (126 / H * 100) + '%'; box.appendChild(copa);
-  function desenha() {
+  function quadro() {
     t++;
+    AG.forEach(passo); passoGato();
     cenario();
-    let livres = 0;
-    for (const ag of AG) {
-      const a = dados[ag.id] || {}, on = a.estado === 'trabalhando', av = parado({ ...a, id: ag.id });
-      mesa(ag.mesa, on);
-      if (on) {
-        boneco(ag.mesa[0] + 6, ag.mesa[1] + 14, ag, !av);
-        balao(ag.id, av ? '⚠ parado? desde ' + a.em.slice(11) : (a.detalhe || ag.faz) + (a.progresso ? ' · ' + a.progresso : ''), ag.mesa[0] + 11, ag.mesa[1] - 1, av ? 'av' : '');
-      } else {
-        const sx = 68 + (livres % 4) * 11, sy = 141 - Math.floor(livres / 4) * 9;
-        boneco(sx, sy, ag, false); livres++;
-        if (t % 60 < 30 && livres <= 3) balao(ag.id, 'zZ', sx + 5, sy - 1, 'zz'); else if (baloes[ag.id]) baloes[ag.id].remove(), delete baloes[ag.id];
-      }
+    AG.forEach((g) => mesa(g.mesa, trab(g) && Math.hypot(g.x - g.alvo[0], g.y - g.alvo[1]) < 2, g.cor));
+    // desenha de cima para baixo (quem está mais embaixo fica na frente)
+    const todos = [...AG.map((g) => ({ y: g.y, f: () => pessoa(g, g.x, g.y, g.modo) })), { y: gato.y, f: desenhaGato }];
+    todos.sort((a, b) => a.y - b.y).forEach((o) => o.f());
+    // mesas da frente por cima de quem está sentado (só o tampo)
+    AG.forEach((g) => { if (g.modo === 'senta') { const [a, b] = g.mesa; R('#3b3f46', a + 8, b + 22, 8, 1); } });
+    for (const g of AG) {
+      const a = dados[g.id] || {};
+      if (g.modo === 'senta') balao(g.id, parado(g) ? '⚠ parado? desde ' + (a.em || '').slice(11) : (a.detalhe || g.faz) + (a.progresso ? ' · ' + a.progresso : ''), g.mesa[0] + 12, g.mesa[1] + 1, parado(g) ? 'av' : '');
+      else balao(g.id, t < g.emoteAte ? g.emote : '', g.x, g.y - 16, 'em');
     }
   }
   function cartoes() {
-    lista.innerHTML = AG.map((ag) => {
-      const a = dados[ag.id] || {}, on = a.estado === 'trabalhando', av = parado({ ...a, id: ag.id });
-      const txt = on ? (a.detalhe || ag.faz) + (a.progresso ? ' · ' + a.progresso : '') : 'livre' + (a.detalhe ? ' · último: ' + a.detalhe : '');
-      return '<div class="agc' + (on ? ' on' : '') + (av ? ' av' : '') + '"><i class="pt"></i><div><b class="n">' + ag.nome + '</b>' + txt.replace(/</g, '&lt;') +
-        '<br><small>' + ag.faz + ' · ' + ag.quando + (a.em ? ' · atualizado ' + a.em.slice(8, 10) + '/' + a.em.slice(5, 7) + ' ' + a.em.slice(11) : '') + '</small></div></div>';
+    lista.innerHTML = AG.map((g) => {
+      const a = dados[g.id] || {}, on = trab(g), av = parado(g);
+      const txt = on ? (a.detalhe || g.faz) + (a.progresso ? ' · ' + a.progresso : '') : 'livre' + (a.detalhe ? ' · último: ' + a.detalhe : '');
+      return '<div class="agc' + (on ? ' on' : '') + (av ? ' av' : '') + '"><i class="pt"></i><div><b class="n" style="color:' + g.cor + '">' + g.nome + '</b>' + txt.replace(/</g, '&lt;') +
+        '<br><small>' + g.faz + ' · ' + g.quando + (a.em ? ' · atualizado ' + a.em.slice(8, 10) + '/' + a.em.slice(5, 7) + ' ' + a.em.slice(11) : '') + '</small></div></div>';
     }).join('');
   }
   async function busca() {
@@ -774,16 +879,16 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
       const r = await fetch('/api/atividade', { credentials: 'same-origin' });
       if (!r.ok) throw new Error(r.status);
       const j = await r.json(); dados = j.agentes || {};
-      const n = AG.filter((g) => (dados[g.id] || {}).estado === 'trabalhando').length;
-      info.textContent = n + ' de ' + AG.length + ' trabalhando agora · atualizado ' + (j.agora || '').slice(11);
+      const n = AG.filter(trab).length;
+      info.textContent = n + ' de ' + AG.length + ' trabalhando · os outros estão na área de lazer · atualizado ' + (j.agora || '').slice(11);
     } catch (e) { info.textContent = 'não consegui ler o status agora (' + e.message + ')'; }
     cartoes();
   }
-  setInterval(() => { if (document.body.dataset.tab === 'equipe') desenha(); }, 120);
+  setInterval(() => { if (document.body.dataset.tab === 'equipe') quadro(); }, 100);
   setInterval(() => { if (document.body.dataset.tab === 'equipe') busca(); }, 20000);
   document.querySelectorAll('nav button[data-t="equipe"]').forEach((b) => b.addEventListener('click', busca));
   if (document.body.dataset.tab === 'equipe') busca();
-  desenha();
+  quadro();
 })();
 </script></body></html>
 """
