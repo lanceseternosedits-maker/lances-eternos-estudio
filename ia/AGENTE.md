@@ -57,15 +57,13 @@ Valem para toda rodada de roteiros até o Vitor mudar; o painel de revisão (rev
 - Checklist antes de mandar o MP4: velocidade ≤ 3,0 · área segura · legibilidade · rosto · capa. Rode `python3 checar.py posts/<pasta>` (mede velocidade, duração, formato, volume, fontes e legenda); área segura, legibilidade, rosto e capa continuam na folha de miniaturas.
 
 ## Foco em vídeo, com carrossel de reserva (decisão do Vitor, 05/11)
-## Calendário (Vitor, 06/11)
-- **4 vídeos por dia** (Instagram REEL + TikTok). **Dias úteis: 06:00, 12:00, 17:00, 19:30. Sábado e domingo: 09:00, 13:00, 17:00, 20:30.** Pautas polêmicas no 2º ou 4º horário do dia.
-- **2 rodadas de produção por semana, 14 vídeos cada:** segunda (cobre ter, qua, qui + sex 06:00 e 12:00) e quinta (cobre sex 17:00 e 19:30 + sáb, dom, seg). Fluxo: 04:47 a tarefa escreve os 14 roteiros → Vitor aprova (em lote) → sessão de produção renderiza os 14 (3 em paralelo, `video/produz_contagem.sh` com PORT diferente) → Vitor aprova os MP4 → agenda.
-- Semana de 06/11: só os 6 vídeos prontos, 2 por dia até domingo 08/11; produção nova a partir de segunda 09/11.
-Vídeo traz mais resultado: a prioridade é **Reel no Instagram + TikTok**. Cada rodada de produção escreve **1 roteiro de Reel por dia** (2 por rodada) para aprovação, nos formatos 1 (mascote no palco) ou 2 (lista + demonstração).
-**Reserva:** a mesma rodada faz e agenda **1 carrossel por dia às 13:00** no Instagram (pauta diferente da do Reel). Se o Vitor aprovar o Reel daquele dia a tempo, a sessão que agenda o Reel **transforma o carrossel do dia em rascunho** (`draft true`, `autoPublish false`) e coloca o Reel no horário dele; se não aprovar, o carrossel sai sozinho. Nunca 2 posts no mesmo horário.
+## Calendário (Vitor, 08/11: 8 Reels por dia, fixo; grade em `semana/cronograma.py`)
+- **8 vídeos por dia** (Instagram REEL + TikTok). **Dias úteis: 06:00, 08:00, 10:00, 12:00, 14:00, 17:00, 19:30, 21:30. Sábado e domingo: 07:00, 09:00, 11:00, 13:00, 15:00, 17:00, 19:00, 20:30.** Intercalado: 4 novidades + 2 como funciona + 2 histórias por dia, na ordem de "Categorias". Pautas polêmicas às 12:00/13:00 ou 19:30/20:30.
+- **2 rodadas de produção por semana (seg e qui, 04:47), 28 roteiros cada.** Fluxo: a tarefa escreve os 28 roteiros → painel de revisão → Vitor aprova (em lote) → sessão de produção renderiza (3 em paralelo, `video/produz_contagem.sh` com PORT diferente) → Vitor aprova os MP4 → agenda.
+Vídeo traz mais resultado: a prioridade é **Reel no Instagram + TikTok**; sem carrossel de reserva.
 
 ## Publicação
-- **Horários: ver "Calendário"** (dias úteis 06:00/12:00/17:00/19:30; fim de semana 09:00/13:00/17:00/20:30), nunca 2 no mesmo horário (`timezone America/Sao_Paulo`). Metricool `blogId 7637900`.
+- **Horários: ver "Calendário"** (dias úteis 06:00/08:00/10:00/12:00/14:00/17:00/19:30/21:30; fim de semana 07:00/09:00/11:00/13:00/15:00/17:00/19:00/20:30), nunca 2 no mesmo horário (`timezone America/Sao_Paulo`). Metricool `blogId 7637900`.
 - **Carrossel só no Instagram** (`type POST`, `autoPublish true`, sem música). **TikTok só recebe vídeo aprovado** (`isAigc true`, `title` até 90 caracteres). YouTube pausado.
 - **Vídeo nunca sai sem 2 aprovações do Vitor** (roteiro e MP4). Reel no Instagram: `type REEL` com a trilha própria (a música via API está indisponível na conta até o Instagram ser ligado a uma Página do Facebook no Metricool).
 - Antes de agendar: `getScheduledPosts` do dia; mídia pública via `raw.githubusercontent.com/.../midia-ia/...` respondendo 200. Depois: `estado.json` (paleta e tema), `meta.json` do post (data, pilar, formato, temas, empresas, fontes, paleta, horarios, cta), `python3 grafo.py`, atualize `painel/publicacoes.json` e rode `python3 painel/gerar.py`, commit e push.
@@ -126,7 +124,7 @@ Toda ação paga começa com uma estimativa (por vídeo e por mês) e só roda d
 Se `GEMINI_API_KEY` não existir: `d1_database_query` (conector Cloudflare), `database_id 0af07c6b-d69c-44e5-8b01-a1e055303c68`, SQL `SELECT valor FROM segredos WHERE nome = 'GEMINI_API_KEY'`; grave só em `~/.secrets/gemini.env` (`export GEMINI_API_KEY=...`, `chmod 600`) e rode `. ~/.secrets/gemini.env` antes dos scripts. **O repositório é público: nunca imprima nem grave a chave** em arquivo, commit, legenda ou mensagem.
 
 ## Economia de tokens (decisão do Vitor, 04/11)
-Leia só o necessário, poucas buscas (máx. ~8 por rodada), revisão visual com 1 folha de miniaturas por peça, respostas curtas. Tarefas: caçador seg/qua/sex 03:53; produção seg/qua/sex 04:47 com 2 roteiros de Reel + 2 carrosséis de reserva por rodada. Vídeos aprovados são feitos numa sessão nova e curta.
+Leia só o necessário, poucas buscas (máx. ~8 por rodada), revisão visual com 1 folha de miniaturas por peça, respostas curtas. Tarefas: caçador seg e qui 03:53; produção seg e qui 04:47 com 28 roteiros por rodada, sem carrossel. Vídeos aprovados são feitos numa sessão nova e curta.
 
 ## Autonomia para melhorar (decisão do Vitor, 04/11)
 O agente pode buscar e adotar skills, ferramentas e técnicas novas que melhorem qualidade, produtividade ou economia (ex.: skills do Claude no GitHub, melhorias na `cena_palco`, automação da DM). Limites: só o que couber no orçamento de tokens; nada pago ou com conta nova sem o Vitor aprovar; ler o código antes de usar e nunca executar nada que peça chaves ou acesso amplo; registrar cada adoção aqui, em uma linha, com o motivo.
