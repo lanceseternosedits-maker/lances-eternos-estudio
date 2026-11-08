@@ -5,4 +5,4 @@
 - `capa.jpg`: capa do produto (1ª página do PDF).
 - `venda.md`: oferta, texto da página da Kiwify, lançamento, DM de venda e passo a passo da Kiwify.
 - Validação: Reels `posts/2026-11-10-*` (ASSISTENTE, EQUIPE, CONFIGURA). Meta: 30 pedidos em 72 h (contar na tabela `comentarios` do D1 por palavra).
-- O repositório é público: o PDF fica aqui só como rascunho de trabalho. Antes de vender, decidir se tira o `kit.pdf` do GitHub (quem achar o repositório baixa de graça).
+- O repositório é público: `kit.pdf` e `kit.html` ficam fora do git (.gitignore). Para gerar, rode o `gerar_pdf.py`. O texto em `conteudo.py` continua público.
