@@ -677,7 +677,7 @@
    "texto": "5 programas grátis pro seu PC estão bombando no GitHub. E o nº 1 é bizarro. 💻"
   },
   {
-   "data": "2026-11-08 13:00",
+   "data": "2026-11-09 17:00",
    "rede": "instagram",
    "status": "PENDING",
    "url": null,
@@ -686,7 +686,7 @@
    "texto": "5 projetos grátis pra estudar com IA. E o nº 1 é bizarro. 📚"
   },
   {
-   "data": "2026-11-08 13:00",
+   "data": "2026-11-09 17:00",
    "rede": "tiktok",
    "status": "PENDING",
    "url": null,
@@ -1006,6 +1006,39 @@
    "texto": "Sua ideia de app até virar negócio de verdade: tudo que acontece no caminho, em 2 minutos.",
    "erro": null,
    "lido_em": "2026-11-08 05:45"
+  },
+  {
+   "data": "2026-11-08 13:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "App completo com IA (CAMINHO)",
+   "pasta": "2026-11-16-app-completo-com-ia",
+   "lido_em": "2026-11-08T13:00"
+  },
+  {
+   "data": "2026-11-08 13:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "VIDEO",
+   "rascunho": false,
+   "texto": "App completo com IA (CAMINHO)",
+   "pasta": "2026-11-16-app-completo-com-ia",
+   "lido_em": "2026-11-08T13:00"
+  },
+  {
+   "data": "2026-11-08 13:15",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "STORY",
+   "rascunho": false,
+   "texto": "App completo com IA (CAMINHO)",
+   "pasta": "2026-11-16-app-completo-com-ia",
+   "lido_em": "2026-11-08T13:00"
   }
  ]
 }

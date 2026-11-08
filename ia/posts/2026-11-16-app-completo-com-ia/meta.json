@@ -80,10 +80,10 @@
  "checagem_aceita": "Teste do vídeo longo pedido e aprovado pelo Vitor (08/11): 115 s de propósito; fala em 3,01 palavras/s (no limite, voz desacelerada para 0,87×).",
  "horario": "07:00",
  "horarios": {
-  "instagram": "2026-11-08 07:00",
-  "tiktok": "2026-11-08 07:00"
+  "instagram": "2026-11-08 13:00",
+  "tiktok": "2026-11-08 13:00",
+  "story": "2026-11-08 13:15"
  },
  "aprovacao": "vídeo aprovado antecipadamente pelo Vitor na conversa (08/11 05:4x), só este vídeo",
- "status": "vídeo aguardando aprovação",
- "nota": "v2 (quarto 3D, objetos refeitos); a 2D foi cancelada pelo Vitor em 08/11"
+ "nota": "v2 (quarto 3D) aprovada pelo Vitor em 08/11; a 2D foi cancelada"
 }
