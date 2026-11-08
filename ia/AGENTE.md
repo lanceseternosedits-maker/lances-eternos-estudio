@@ -46,7 +46,7 @@ Valem para toda rodada de roteiros até o Vitor mudar; o painel de revisão (rev
 2. **1º quadro = o objeto que a pessoa reconhece** (o jogo, a janela do Windows, a TV), **nunca o nome de uma ferramenta**; a etiqueta traz uma **frase de conflito**.
 3. **📜 História fecha com algo para salvar ou mandar** ("salva pra contar pra alguém") e a legenda traz **3 fatos** (com fonte).
 4. **Pergunta final sobre a vida da pessoa** (ônibus, trabalho, casa), **nunca opinião** ("qual você prefere?", "o que acha?").
-5. **1 roteiro por rodada vende o kit:** contagem "5 coisas que a IA faz por você", com a **nº 1 sendo um assistente do Super Assistente de IA** (ver `produtos/assistente-pessoal/venda.md`) e **CTA KIT no meio** (frase-ponte da nº 3). Brinde/DM: a DM do KIT (checkout).
+5. **2 roteiros por rodada vendem o kit (1 em cada metade da semana, nunca no mesmo dia), com assistentes diferentes como nº 1:** contagem "5 coisas que a IA faz por você", com a **nº 1 sendo um assistente do Super Assistente de IA** (ver `produtos/assistente-pessoal/venda.md`) e **CTA KIT no meio** (frase-ponte da nº 3). Brinde/DM: a DM do KIT (checkout).
 
 ## Acabamento obrigatório (Vitor, 06/11, depois do Reel da Nintendo: "saiu rápido, o texto muito pra cima, vários bugs")
 - **Velocidade da fala: máximo 3,0 palavras/s** (o 5 skills, campeão com 2.697 views, tem 3,1; o da Nintendo, 3,8, decepcionou). Se passar de 35 s, **corte texto**; nunca peça "ritmo muito rápido" e nunca acelere acima de 1,15. Meça: palavras ÷ duração da timeline.
