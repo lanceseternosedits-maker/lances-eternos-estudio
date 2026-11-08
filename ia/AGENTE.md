@@ -40,6 +40,14 @@ O resumo do roteiro para o Vitor mostra os 5 itens marcados.
 - **08/11 (14 Reels):** contagem confirmada em 7 Reels, mediana **2.500 views** contra 231 do mascote no palco; as 4 de 07/11 fizeram 1.331–2.511. Pergunta sobre situação da vida ("jogaria no ônibus?") deu 1,7% de comentário, o dobro da média.
 - **Regras daqui em diante:** (1) **CTA no meio**, na frase-ponte da nº 3: "Essa é até legalzinha… comenta PALAVRA que eu te mando as 5" (curto); (2) **primeiro comentário fixado** em todo post (`firstCommentText` no Metricool) com "💬 Comenta PALAVRA que eu te mando os links"; **nos Reels de contagem (formato 3), 2ª linha (Vitor, 08/11): "Quer o kit com 10 assistentes prontos? Comenta KIT"**; (3) a 1ª linha da legenda já traz a palavra; (4) capa = 1º quadro com a etiqueta legível (já funciona na grade).
 
+## Regras da rodada (Vitor, 08/11, a partir dos dados de `painel/resultados.json`)
+Valem para toda rodada de roteiros até o Vitor mudar; o painel de revisão (revisor **gancho**) confere estas 5.
+1. **Formato padrão: contagem (formato 3).** Mascote no palco (formato 1) só para 📜 história e ⚙️ como funciona.
+2. **1º quadro = o objeto que a pessoa reconhece** (o jogo, a janela do Windows, a TV), **nunca o nome de uma ferramenta**; a etiqueta traz uma **frase de conflito**.
+3. **📜 História fecha com algo para salvar ou mandar** ("salva pra contar pra alguém") e a legenda traz **3 fatos** (com fonte).
+4. **Pergunta final sobre a vida da pessoa** (ônibus, trabalho, casa), **nunca opinião** ("qual você prefere?", "o que acha?").
+5. **1 roteiro por rodada vende o kit:** contagem "5 coisas que a IA faz por você", com a **nº 1 sendo um assistente do Super Assistente de IA** (ver `produtos/assistente-pessoal/venda.md`) e **CTA KIT no meio** (frase-ponte da nº 3). Brinde/DM: a DM do KIT (checkout).
+
 ## Acabamento obrigatório (Vitor, 06/11, depois do Reel da Nintendo: "saiu rápido, o texto muito pra cima, vários bugs")
 - **Velocidade da fala: máximo 3,0 palavras/s** (o 5 skills, campeão com 2.697 views, tem 3,1; o da Nintendo, 3,8, decepcionou). Se passar de 35 s, **corte texto**; nunca peça "ritmo muito rápido" e nunca acelere acima de 1,15. Meça: palavras ÷ duração da timeline.
 - **Área segura do Reel (1080×1920):** nada importante acima de **y=260** (cabeçalho "Reels/Friends") nem abaixo de **y=1500** (perfil, legenda do post, botões); nada a menos de **130 px da direita** (ícones). Etiqueta, nome, contador e legenda ficam entre 260 e 1500.
