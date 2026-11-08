@@ -1,22 +1,23 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "categoria": "historia",
  "chave": "VERAO",
  "tese": "1956: PROMETERAM A IA EM 2 MESES",
  "conceito": "Campus universitário no verão de 1956: gramado, cadeiras de praia, mesa com máquina de escrever e a proposta datilografada; um calendário de 2 meses que vira 70 anos. Paleta verde-grama + amarelo-sol.",
  "elementos": {
-  "etiqueta": "f) página de caderno",
-  "nome": "a) texto embaralhado decifrando",
+  "etiqueta": "g) placa de campus",
+  "nome": "d) letreiro split-flap",
   "contador": "(sem contador: história)",
-  "legenda": "a) bloco de 4 palavras com a atual colorida",
-  "transicao": "e) glitch RGB",
-  "camera": "a) 2 planos frontais",
-  "fechamento": "b) pódio",
-  "tipografia": "b) Archivo Black",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "b) chicote de câmera",
+  "camera": "c) travelling lateral",
+  "fechamento": "e) página de caderno",
+  "tipografia": "c) Fraunces",
   "som": "trilha 02 + cigarras de verão",
-  "mascote": "chapéu de palha; ação principal: datilografar a proposta"
+  "mascote": "chapéu de pescador amarelo; ação principal: datilografar a proposta",
+  "obs": "trocados na produção (08/11): o roteiro repetia a combinação inteira do Mostra um exemplo, que sai no mesmo dia"
  },
  "brinde": "a proposta original de 1955 + curiosidade",
  "fontes": [
@@ -47,7 +48,8 @@
     "1956: PROMETERAM A IA EM 2 MESES",
     "O VERÃO DE DARTMOUTH",
     "E LEVOU 70 ANOS"
-   ]
+   ],
+   "itens": "a-ia-ganhou-nome"
   },
   {
    "cena": "s1",

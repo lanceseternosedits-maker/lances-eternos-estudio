@@ -18,5 +18,85 @@
   "instagram": "2026-11-10 17:00",
   "tiktok": "2026-11-10 17:00"
  },
- "status": "roteiro aprovado"
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-08 20:47",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "33.6 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.62 palavras/s (88 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-13.7 LUFS, pico -1.4 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "1006 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "VERAO",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "elementos": {
+  "etiqueta": "g) placa de campus",
+  "nome": "d) letreiro split-flap",
+  "contador": "(sem contador: história)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "b) chicote de câmera",
+  "camera": "c) travelling lateral",
+  "fechamento": "e) página de caderno",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 02 + cigarras de verão",
+  "mascote": "chapéu de pescador amarelo; ação principal: datilografar a proposta",
+  "obs": "trocados na produção (08/11): o roteiro repetia a combinação inteira do Mostra um exemplo, que sai no mesmo dia"
+ },
+ "capa": {
+  "objeto": "livro",
+  "texto": "Prometeram a IA em 2 meses",
+  "destaque": "2 meses",
+  "selo": "1956"
+ },
+ "obs_producao": "Produzido em 08/11 no motor da cena_contagem, módulo itens/a-ia-ganhou-nome.js: campus no verão (fachada de tijolo genérica, cadeiras de praia, máquina de escrever com a proposta, calendário JUL/AGO 1956 que voa até 2026), split-flap INTELIGÊNCIA ARTIFICIAL. Elementos trocados na produção (o roteiro repetia a combinação do Mostra um exemplo, mesmo dia). Voz refeita com ritmo ágil + 1,05×: 33,6 s. checar.py e qa_video.sh ok."
 }
