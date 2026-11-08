@@ -30,10 +30,9 @@
  "prova_viral": "Formato 4 (referência @destravandosaas, 08/11): série das peças de um SaaS com Reel de 970 mil views e 17,5 mil seguidores em ~1 semana. Teste do Vitor: tudo num vídeo longo.",
  "obs": "Passa do limite de 35 s do checar.py de propósito (teste aprovado pelo Vitor): gravar checagem_aceita no meta ao produzir. Instagram aceita Reel de até 3 min; TikTok até 10 min. Depois do teste, o mesmo material pode virar 15 cortes curtos.",
  "polemica": false,
- "agenda": null,
+ "agenda": "2026-11-08 07:00",
  "palavras": 347,
  "duracao_estimada_s": 123.9,
- "status": "vídeo aguardando aprovação",
  "segmentos": [
   {
    "cena": "gancho",

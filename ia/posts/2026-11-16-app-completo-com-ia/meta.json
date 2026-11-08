@@ -1,5 +1,5 @@
 {
- "data": null,
+ "data": "2026-11-08",
  "pilar": "reel",
  "categoria": "como_funciona",
  "formato": "formato 4 longo (cadeia inteira), cena_app (motion graphics neon)",
@@ -17,7 +17,6 @@
  "prova_viral": "Formato 4 (referência @destravandosaas, 08/11): série das peças de um SaaS com Reel de 970 mil views e 17,5 mil seguidores em ~1 semana. Teste do Vitor: tudo num vídeo longo.",
  "cta": "CAMINHO",
  "polemica": false,
- "status": "vídeo aguardando aprovação",
  "checagem": {
   "em": "2026-11-08 08:37",
   "ok": false,
@@ -78,5 +77,11 @@
    }
   ]
  },
- "checagem_aceita": "Teste do vídeo longo pedido e aprovado pelo Vitor (08/11): 115 s de propósito; fala em 3,01 palavras/s (no limite, voz desacelerada para 0,87×)."
+ "checagem_aceita": "Teste do vídeo longo pedido e aprovado pelo Vitor (08/11): 115 s de propósito; fala em 3,01 palavras/s (no limite, voz desacelerada para 0,87×).",
+ "horario": "07:00",
+ "horarios": {
+  "instagram": "2026-11-08 07:00",
+  "tiktok": "2026-11-08 07:00"
+ },
+ "aprovacao": "vídeo aprovado antecipadamente pelo Vitor na conversa (08/11 05:4x), só este vídeo"
 }

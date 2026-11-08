@@ -6,6 +6,35 @@ Gerado por `python3 painel/zorcha.py`. Um bloco por Reel publicado ou agendado, 
 
 **Respostas públicas (variar):** "Te mandei na DM! 📩 Se não aparecer, olha em Solicitações de mensagem." · "Enviado no direct! 🚀 Confere lá (às vezes cai em Solicitações)." · "Mandei agora na DM 😉" · "Prontinho, tá na sua DM! 📩" · "Chegou aí? Mandei no direct 🙌"
 
+## CAMINHO · 08/11 07:00
+Post: `2026-11-16-app-completo-com-ia`
+
+```
+Opa! Aqui está o caminho completo 🧩
+
+Da ideia ao app de verdade:
+Só No Seu PC → Servidor → Domínio → Banco De Dados → Login → Senha → Código No Celular → Pagamento → Aviso Automático → E-Mail → Conexão Com Apps → IA No App → Backup → Escala → Vigia
+
+O pedido pra IA em cada etapa (Claude ou ChatGPT):
+➜ "faz um app de agendamento"
+➜ "coloca meu app no ar"
+➜ "quero meu app em meuapp.com"
+➜ "salva os agendamentos"
+➜ "cada cliente vê só os dele"
+➜ "salva a senha do usuário"
+➜ "protege a conta com código"
+➜ "cobra 30 reais por mês"
+➜ "me avisa quando pagarem"
+➜ "manda lembrete 1 dia antes"
+➜ "conecta com o Google Agenda"
+➜ "põe uma IA pra atender clientes"
+➜ "e se apagar tudo?"
+➜ "e se 10 mil pessoas entrarem?"
+➜ "me avisa se o app cair"
+
+Me segue que vem mais. 💜
+```
+
 ## WINDOWS · 07/11 15:00
 Post: `2026-11-08-windows-gratis`
 
@@ -42,7 +71,7 @@ Aqui está! 🤖
 📰 O pedido de desculpas: https://www.pcworld.com/article/420272/microsoft-deeply-sorry-for-tay-chatbot-will-bring-it-back-when-vulnerability-is-fixed.html
 ```
 
-## DESIGN · 08/11 07:00
+## DESIGN · 09/11 17:00
 Post: `2026-11-08-skills-de-design`
 
 ```
