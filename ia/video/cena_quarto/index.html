@@ -88,12 +88,18 @@ function desenhaTela(txt, n, cursor) {
   linhas.forEach((ln, i) => tx.fillText(ln, 90, 160 + i * 70)); if (cursor) { const ult = linhas[linhas.length - 1]; tx.fillRect(90 + tx.measureText(ult).width + 8, 115 + (linhas.length - 1) * 70, 26, 56); }
   telaTex.needsUpdate = true;
 }
-// ---------- objetos de cada etapa (low-poly, cores neon), em vez de caixas
-const M = (cor) => new THREE.MeshStandardMaterial({ color: cor, roughness: 0.7, metalness: 0.05 });
+// ---------- objetos de cada etapa: modelados como os ícones de verdade (cantos arredondados, detalhes desenhados em textura)
+const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+const M = (cor, o = {}) => new THREE.MeshStandardMaterial({ color: cor, roughness: 0.5, metalness: 0.05, ...o });
 const B = (w, h, d, m) => new THREE.Mesh(new THREE.BoxGeometry(w, h, d), m);
 const C = (rt, rb, h, m, seg = 32) => new THREE.Mesh(new THREE.CylinderGeometry(rt, rb, h, seg), m);
-const escuro = M(0x3b404a), cia = M(0x4a9dff), ros = M(0xff6b5e), roxoN = M(0x6c7bff), branco = M(0xffffff), amarelo = M(0xf5b83d), verde = new THREE.MeshStandardMaterial({ color: 0x38c172, emissive: 0x38c172, emissiveIntensity: 0.5 });
-function etiqueta(txt, cor = '#00e5ff') {
+const G = () => new THREE.Group();
+const escuro = M(0x3b404a), grafite = M(0x2a2e36), cinzaC = M(0xdfe3ea), branco = M(0xffffff), cia = M(0x3d7bf2), azulC = M(0x8fb6ff),
+  ros = M(0xff5e57), roxoN = M(0x7b61ff), laranja = M(0xff7a3d), amarelo = M(0xf5b83d), ouro = M(0xf2b233, { metalness: 0.35, roughness: 0.32 }),
+  prata = M(0xc9ced8, { metalness: 0.4, roughness: 0.3 }), madeira = M(0xc98b52, { roughness: 0.7 }),
+  verde = new THREE.MeshStandardMaterial({ color: 0x38c172, emissive: 0x38c172, emissiveIntensity: 0.6 }),
+  azulLed = new THREE.MeshStandardMaterial({ color: 0x4aa3ff, emissive: 0x4aa3ff, emissiveIntensity: 0.6 });
+function etiqueta(txt) {
   const c = document.createElement('canvas'); c.width = 640; c.height = 140; const x = c.getContext('2d');
   x.fillStyle = '#ffffff'; x.strokeStyle = '#2b2f38'; x.lineWidth = 6; x.beginPath(); x.roundRect(6, 6, 628, 128, 40); x.fill(); x.stroke();
   x.font = 'bold 64px sans-serif'; x.fillStyle = '#1f232b'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(txt, 320, 74, 590);
@@ -101,53 +107,173 @@ function etiqueta(txt, cor = '#00e5ff') {
   const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: t, depthTest: false, transparent: true })); sp.scale.set(2.9, 0.64, 1); return sp;
 }
 const P3 = (o, x, y, z) => { o.position.set(x, y, z); return o; };
+const R3 = (o, x, y, z) => { o.rotation.set(x, y, z); return o; };
+// forma de retângulo arredondado (para extrudar)
+function formaRR(w, h, r) { const s = new THREE.Shape(), x = -w / 2, y = -h / 2; r = Math.min(r, w / 2, h / 2);
+  s.moveTo(x + r, y); s.lineTo(x + w - r, y); s.quadraticCurveTo(x + w, y, x + w, y + r); s.lineTo(x + w, y + h - r); s.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+  s.lineTo(x + r, y + h); s.quadraticCurveTo(x, y + h, x, y + h - r); s.lineTo(x, y + r); s.quadraticCurveTo(x, y, x + r, y); return s; }
+function extruda(forma, d, m, bev = Math.min(0.05, d * 0.3)) {
+  const g = new THREE.ExtrudeGeometry(forma, { depth: Math.max(0.002, d - 2 * bev), bevelEnabled: true, bevelThickness: bev, bevelSize: bev, bevelSegments: 3, curveSegments: 10 });
+  g.center(); return new THREE.Mesh(g, m); }
+// caixa de cantos arredondados (w × h × d, raio r nos cantos de frente)
+const RR = (w, h, d, r, m, bev) => { const b = bev ?? Math.min(0.05, d * 0.3); return extruda(formaRR(w - 2 * b, h - 2 * b, Math.max(0.001, r - b)), d, m, b); };
+// disco com borda arredondada (torneado), centrado na altura
+function disco(r, h, b, m, seg = 56) { const p = [new THREE.Vector2(0, -h / 2)];
+  for (let k = 0; k <= 6; k++) { const a = -Math.PI / 2 + k * Math.PI / 12; p.push(new THREE.Vector2(r - b + b * Math.cos(a), -h / 2 + b + b * Math.sin(a))); }
+  for (let k = 0; k <= 6; k++) { const a = k * Math.PI / 12; p.push(new THREE.Vector2(r - b + b * Math.cos(a), h / 2 - b + b * Math.sin(a))); }
+  p.push(new THREE.Vector2(0, h / 2)); return new THREE.Mesh(new THREE.LatheGeometry(p, seg), m); }
+// plano com desenho em canvas (detalhes: tela, teclado, número do cartão…)
+function TX(w, h, desenha, brilha = false, px = 320) {
+  const c = document.createElement('canvas'); c.width = Math.round(w * px); c.height = Math.round(h * px); const x = c.getContext('2d'); desenha(x, c.width, c.height);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8;
+  const m = brilha ? new THREE.MeshBasicMaterial({ map: t, transparent: true }) : new THREE.MeshStandardMaterial({ map: t, roughness: 0.45, transparent: true });
+  return new THREE.Mesh(new THREE.PlaneGeometry(w, h), m); }
+const rr = (x, a, b, w, h, r, cor) => { x.fillStyle = cor; x.beginPath(); x.roundRect(a, b, w, h, r); x.fill(); };
+const txt = (x, s, a, b, tam, cor, peso = 'bold', al = 'left', fonte = 'sans-serif') => { x.font = `${peso} ${tam}px ${fonte}`; x.fillStyle = cor; x.textAlign = al; x.textBaseline = 'middle'; x.fillText(s, a, b); };
+const led = (m, x, y, z, r = 0.05) => { const l = P3(new THREE.Mesh(new THREE.SphereGeometry(r, 12, 10), m), x, y, z); l.name = 'pisca'; return l; };
+
 const OBJ = {
-  p01() { const g = new THREE.Group(); g.add(B(2.2, 0.12, 1.5, escuro)); const tela = P3(B(2.2, 1.4, 0.08, escuro), 0, 0.75, -0.72); tela.rotation.x = -0.18; g.add(tela);
-    const t2 = P3(B(2.0, 1.2, 0.02, roxoN), 0, 0.76, -0.66); t2.rotation.x = -0.18; g.add(t2);
-    const app = P3(B(0.9, 0.55, 0.55, M(0x3d8bff, 0x2a5cff, 0.7)), 0.15, 0.55, 0.25); app.name = 'pula'; g.add(app); return g; },
-  p02() { const g = new THREE.Group(); g.add(P3(B(1.3, 2.6, 1.1, escuro), 0, 1.1, 0));
-    for (let k = 0; k < 6; k++) { g.add(P3(B(1.18, 0.3, 0.04, M(0x2a2550)), 0, 0.1 + k * 0.4, 0.56));
-      for (let l = 0; l < 3; l++) { const led = P3(B(0.08, 0.08, 0.04, k % 2 ? verde : cia), -0.4 + l * 0.14, 0.1 + k * 0.4, 0.6); led.name = 'pisca'; g.add(led); } } return g; },
-  p03() { const g = new THREE.Group(); g.add(P3(C(0.08, 0.08, 2.4, escuro), 0, 0.9, 0));
-    g.add(P3(B(2.3, 0.7, 0.06, cia), 0, 2.0, -0.04)); g.add(P3(B(2.2, 0.6, 0.1, M(0x0e6b4f, 0x0a4a36, 0.6)), 0, 2.0, 0));
-    const tx = etiqueta('meuapp.com', '#2bff9a'); tx.scale.set(2.0, 0.44, 1); g.add(P3(tx, 0, 2.0, 0.12)); return g; },
-  p04() { const g = new THREE.Group(); for (let k = 0; k < 3; k++) { g.add(P3(C(0.85, 0.85, 0.5, M(0x24206b, 0x3b2fff, 0.35)), 0, 0.3 + k * 0.62, 0));
-      const anel = new THREE.Mesh(new THREE.TorusGeometry(0.86, 0.04, 8, 48), cia); anel.rotation.x = Math.PI / 2; g.add(P3(anel, 0, 0.56 + k * 0.62, 0)); } return g; },
-  p05() { const g = new THREE.Group(); g.add(P3(B(1.5, 2.5, 0.2, escuro), 0, 1.15, 0)); g.add(P3(B(1.2, 2.2, 0.1, M(0x3b2f8f, 0x2a1d6b, 0.4)), 0, 1.1, 0.1));
-    g.add(P3(B(0.3, 0.45, 0.1, escuro), 1.05, 1.2, 0.15)); const luz = P3(B(0.16, 0.08, 0.04, verde), 1.05, 1.32, 0.22); luz.name = 'pisca'; g.add(luz);
-    const cracha = P3(B(0.45, 0.6, 0.04, branco), 1.05, 0.85, 0.35); cracha.rotation.z = 0.2; cracha.name = 'pula'; g.add(cracha); return g; },
-  p06() { const g = new THREE.Group(); g.add(P3(B(1.4, 1.1, 0.5, amarelo), 0, 0.6, 0));
-    g.add(P3(new THREE.Mesh(new THREE.TorusGeometry(0.45, 0.12, 12, 32, Math.PI), M(0xcfd6e6, 0x445566, 0.2)), 0, 1.15, 0));
-    const fur = P3(C(0.1, 0.1, 0.1, escuro), 0, 0.6, 0.26); fur.rotation.x = Math.PI / 2; g.add(fur);
-    const tx = etiqueta('#a9f3…', '#ff3df0'); tx.scale.set(1.6, 0.35, 1); g.add(P3(tx, 0, -0.05, 0.6)); return g; },
-  p07() { const g = new THREE.Group(); g.add(P3(B(1.0, 1.9, 0.12, escuro), 0, 1.0, 0)); g.add(P3(B(0.86, 1.7, 0.02, cia), 0, 1.0, 0.07));
-    const tx = etiqueta('482 913', '#ff3df0'); tx.scale.set(1.5, 0.33, 1); g.add(P3(tx, 0, 1.1, 0.2)); return g; },
-  p08() { const g = new THREE.Group(); const cart = new THREE.Group(); cart.add(B(1.9, 1.2, 0.08, M(0x7a2cff, 0x5a1cff, 0.6)));
-    cart.add(P3(B(0.32, 0.25, 0.03, amarelo), -0.5, 0.12, 0.06)); cart.add(P3(B(1.9, 0.2, 0.03, escuro), 0, -0.28, 0.06));
-    cart.position.y = 1.0; cart.rotation.z = -0.12; cart.name = 'gira'; g.add(cart);
-    const ok = etiqueta('PAGO ✓', '#2bff9a'); ok.scale.set(1.4, 0.32, 1); g.add(P3(ok, 0.6, 2.05, 0.3)); return g; },
-  p09() { const g = new THREE.Group(); const sino = new THREE.Mesh(new THREE.LatheGeometry([[0, 1.6], [0.25, 1.55], [0.45, 1.3], [0.55, 0.85], [0.75, 0.55], [0.8, 0.5], [0, 0.5]].map(([x, y]) => new THREE.Vector2(x, y)), 32), amarelo);
-    sino.name = 'balanca'; g.add(sino); g.add(P3(new THREE.Mesh(new THREE.SphereGeometry(0.14, 16, 16), escuro), 0, 0.42, 0)); return g; },
-  p10() { const g = new THREE.Group(); const env = new THREE.Group(); env.add(B(1.8, 1.2, 0.08, branco));
-    const aba = new THREE.Mesh(new THREE.ConeGeometry(0.9, 0.6, 4), M(0xdbe3ff)); aba.rotation.set(Math.PI, Math.PI / 4, 0); aba.scale.set(1.4, 1, 0.06); env.add(P3(aba, 0, 0.35, 0.06));
-    env.add(P3(new THREE.Mesh(new THREE.CircleGeometry(0.16, 24), ros), 0, 0.12, 0.1)); env.position.y = 1.0; env.name = 'gira'; g.add(env); return g; },
-  p11() { const g = new THREE.Group(); g.add(P3(B(0.9, 0.9, 0.2, branco), 0.7, 1.0, 0));
-    for (const x of [0.55, 0.85]) { const f = P3(C(0.06, 0.06, 0.05, escuro), x, 1.0, 0.12); f.rotation.x = Math.PI / 2; g.add(f); }
-    const plugue = new THREE.Group(); plugue.add(B(0.5, 0.5, 0.6, cia)); const cabo = P3(C(0.05, 0.05, 1.4, cia), -0.95, 0, 0); cabo.rotation.z = Math.PI / 2; plugue.add(cabo);
-    plugue.position.set(-0.4, 1.0, 0.3); plugue.name = 'encaixa'; g.add(plugue); return g; },
-  p12() { const g = new THREE.Group(); const mat = M(0x2a1d6b, 0xff3df0, 0.35); const bal = new THREE.Mesh(new THREE.SphereGeometry(0.9, 32, 24), mat); bal.scale.set(1.25, 0.85, 0.5); g.add(P3(bal, 0, 1.3, 0));
-    const rabo = P3(new THREE.Mesh(new THREE.ConeGeometry(0.25, 0.5, 12), mat), -0.6, 0.6, 0); rabo.rotation.z = 0.6; g.add(rabo);
-    for (const x of [-0.4, 0, 0.4]) { const p = P3(new THREE.Mesh(new THREE.SphereGeometry(0.12, 12, 12), cia), x, 1.3, 0.46); p.name = 'pisca'; g.add(p); } return g; },
-  p13() { const g = new THREE.Group(); g.add(P3(B(1.2, 1.2, 0.18, escuro), -0.3, 0.9, -0.3));
-    const copia = P3(B(1.2, 1.2, 0.18, new THREE.MeshStandardMaterial({ color: 0x4a9dff, transparent: true, opacity: 0.55 })), 0.3, 1.15, 0.3); copia.name = 'pula'; g.add(copia);
-    const seta = P3(new THREE.Mesh(new THREE.TorusGeometry(0.5, 0.06, 8, 32, Math.PI * 1.5), verde), 0.2, 2.1, 0.3); seta.name = 'girar'; g.add(seta); return g; },
-  p14() { const g = new THREE.Group(); [[-0.8, 0], [0, 0.35], [0.8, 0]].forEach(([x, z], k) => { const r = new THREE.Group(); r.add(P3(B(0.6, 1.6, 0.6, escuro), 0, 0.75, 0));
-      for (let l = 0; l < 3; l++) { const led = P3(B(0.07, 0.07, 0.03, l % 2 ? cia : verde), -0.12 + l * 0.12, 1.2, 0.32); led.name = 'pisca'; r.add(led); }
+  // APP: notebook aberto com o app de agenda na tela + o ícone do app pulando
+  p01() { const g = G();
+    g.add(P3(RR(2.3, 1.6, 0.12, 0.14, cinzaC), 0, 0.06, 0)).children.at(-1).rotation.x = -Math.PI / 2;
+    const tec = TX(2.0, 1.25, (x, W, H) => { for (let l = 0; l < 4; l++) for (let k = 0; k < 12; k++) rr(x, 14 + k * (W - 28) / 12, 12 + l * 52, (W - 28) / 12 - 8, 42, 8, '#3b404a');
+      rr(x, W * 0.34, 230, W * 0.32, 150, 14, '#c9ced8'); });
+    g.add(P3(R3(tec, -Math.PI / 2, 0, 0), 0, 0.125, 0.1));
+    const tampa = G(); tampa.add(RR(2.3, 1.55, 0.08, 0.12, cinzaC));
+    tampa.add(P3(TX(2.1, 1.35, (x, W, H) => { rr(x, 0, 0, W, H, 18, '#ffffff'); rr(x, 0, 0, W, 70, 0, '#ff7a3d'); txt(x, 'Agenda', 24, 36, 40, '#fff');
+      const dias = ['S', 'T', 'Q', 'Q', 'S']; dias.forEach((d, i) => txt(x, d, 60 + i * 125, 105, 26, '#9aa0ab', 'bold', 'center'));
+      for (let l = 0; l < 3; l++) for (let k = 0; k < 5; k++) rr(x, 14 + k * 125, 130 + l * 98, 110, 84, 12, '#eef1f6');
+      [[1, 0, '#3d7bf2'], [3, 0, '#38c172'], [0, 1, '#ff7a3d'], [2, 1, '#3d7bf2'], [4, 2, '#38c172'], [1, 2, '#7b61ff']].forEach(([k, l, c]) => rr(x, 22 + k * 125, 150 + l * 98, 94, 30, 8, c));
+    }, true), 0, 0, 0.042));
+    tampa.position.set(0, 0.86, -0.78); tampa.rotation.x = -0.2; g.add(tampa);
+    const ic = G(); ic.add(RR(0.72, 0.72, 0.2, 0.2, laranja));
+    ic.add(P3(TX(0.5, 0.5, (x, W, H) => { rr(x, 10, 22, W - 20, H - 32, 18, '#ffffff'); rr(x, 10, 22, W - 20, 36, 10, '#ffd2bd'); txt(x, '8', W / 2, H / 2 + 22, 72, '#ff7a3d', 'bold', 'center'); }), 0, 0, 0.102));
+    ic.position.set(0.95, 1.85, 0.25); ic.rotation.y = -0.35; ic.name = 'pula'; g.add(ic); return g; },
+  // SERVIDOR: rack com gavetas de servidor, grades de ventilação e luzes
+  p02() { const g = G(); g.add(P3(RR(1.45, 2.7, 1.2, 0.1, grafite), 0, 1.45, 0));
+    for (const [x, z] of [[-0.55, -0.45], [0.55, -0.45], [-0.55, 0.45], [0.55, 0.45]]) g.add(P3(C(0.08, 0.08, 0.1, escuro, 12), x, 0.05, z));
+    for (let k = 0; k < 5; k++) { const y = 0.5 + k * 0.48;
+      g.add(P3(TX(1.22, 0.4, (x, W, H) => { rr(x, 0, 0, W, H, 14, '#4a505c'); for (let v = 0; v < 9; v++) rr(x, W * 0.36 + v * 26, 26, 12, H - 52, 6, '#2a2e36');
+        rr(x, 22, H / 2 - 16, 100, 32, 8, '#2a2e36'); }), 0, y, 0.605));
+      g.add(led(k % 2 ? azulLed : verde, -0.36, y, 0.63, 0.045)); g.add(led(verde, -0.24, y, 0.63, 0.045)); }
+    for (const x of [-0.66, 0.66]) g.add(P3(RR(0.06, 2.4, 0.08, 0.03, prata), x, 1.45, 0.62));
+    return g; },
+  // DOMÍNIO: placa de rua em forma de seta com o nome; embaixo, o número difícil apagado
+  p03() { const g = G(); g.add(P3(disco(0.45, 0.14, 0.05, escuro), 0, 0.07, 0)); g.add(P3(C(0.065, 0.065, 2.7, prata, 16), 0, 1.4, 0));
+    g.add(P3(new THREE.Mesh(new THREE.SphereGeometry(0.11, 16, 12), prata), 0, 2.78, 0));
+    const seta = (w, h) => { const s = new THREE.Shape(); s.moveTo(-w / 2, -h / 2); s.lineTo(w / 2 - h / 2, -h / 2); s.lineTo(w / 2, 0); s.lineTo(w / 2 - h / 2, h / 2); s.lineTo(-w / 2, h / 2); s.lineTo(-w / 2, -h / 2); return s; };
+    g.add(P3(extruda(seta(2.4, 0.7), 0.1, M(0x2f9e5b), 0.025), 0.55, 2.2, 0.12));
+    g.add(P3(TX(2.0, 0.56, (x, W, H) => { x.strokeStyle = '#fff'; x.lineWidth = 8; x.beginPath(); x.roundRect(6, 6, W - 12, H - 12, 12); x.stroke(); txt(x, 'meuapp.com', W / 2, H / 2 + 4, 96, '#fff', 'bold', 'center'); }), 0.4, 2.2, 0.185));
+    g.add(P3(extruda(seta(1.7, 0.45), 0.08, M(0xb9bec8), 0.02), 0.32, 1.55, 0.11));
+    g.add(P3(TX(1.35, 0.36, (x, W, H) => { txt(x, '104.21.48.3', W / 2, H / 2 + 2, 56, '#6b717c', 'bold', 'center', 'monospace'); x.strokeStyle = '#ff5e57'; x.lineWidth = 9; x.beginPath(); x.moveTo(20, H / 2); x.lineTo(W - 20, H / 2); x.stroke(); }), 0.22, 1.55, 0.16));
+    return g; },
+  // BANCO DE DADOS: o ícone clássico de 3 discos empilhados, com faixa, luzes e um dado (ficha) entrando por cima
+  p04() { const g = G(); const corpo = M(0x3d7bf2, { roughness: 0.35 }), nucleo = M(0x1f3f8f), faixa = M(0xffffff, { roughness: 0.4 });
+    for (let k = 0; k < 3; k++) { const y = 0.3 + k * 0.6;
+      g.add(P3(disco(0.95, 0.46, 0.12, corpo), 0, y, 0));
+      if (k < 2) g.add(P3(C(0.8, 0.8, 0.16, nucleo, 48), 0, y + 0.3, 0));
+      const fx = new THREE.Mesh(new THREE.CylinderGeometry(0.965, 0.965, 0.07, 56, 1, true, -1.2, 2.4), faixa); fx.userData.semTinta = true; g.add(P3(fx, 0, y - 0.04, 0));
+      for (let l = 0; l < 3; l++) { const a = -0.25 + l * 0.25; g.add(led(l === 0 ? verde : azulLed, Math.sin(a) * 0.97, y + 0.09, Math.cos(a) * 0.97, 0.045)); } }
+    const tampa = new THREE.Mesh(new THREE.CircleGeometry(0.68, 48), M(0x8fb6ff, { roughness: 0.3 })); tampa.userData.semTinta = true; g.add(P3(R3(tampa, -Math.PI / 2, 0, 0), 0, 1.765, 0));
+    const ficha = G(); ficha.add(RR(0.8, 0.5, 0.06, 0.08, branco));
+    ficha.add(P3(TX(0.7, 0.4, (x, W, H) => { rr(x, 0, 0, W, 34, 8, '#ff7a3d'); for (let l = 0; l < 3; l++) rr(x, 12, 52 + l * 26, W * (l === 2 ? 0.5 : 0.85), 12, 6, '#c9ced8'); }), 0, 0, 0.032));
+    ficha.position.set(0, 2.35, 0.1); ficha.rotation.set(-0.25, 0.3, 0.08); ficha.name = 'pula'; g.add(ficha); return g; },
+  // LOGIN: porta com batente e almofadas, leitor de crachá com luz e o crachá
+  p05() { const g = G(); const bat = M(0xf4efe6);
+    g.add(P3(RR(0.14, 2.55, 0.3, 0.04, bat), -0.71, 1.28, 0)); g.add(P3(RR(0.14, 2.55, 0.3, 0.04, bat), 0.71, 1.28, 0)); g.add(P3(RR(1.56, 0.14, 0.3, 0.04, bat), 0, 2.55, 0));
+    g.add(P3(RR(1.28, 2.42, 0.12, 0.04, M(0x5a7bd6)), 0, 1.23, 0));
+    g.add(P3(RR(0.9, 0.9, 0.04, 0.06, M(0x6f8fe6)), 0, 1.75, 0.07)); g.add(P3(RR(0.9, 0.9, 0.04, 0.06, M(0x6f8fe6)), 0, 0.7, 0.07));
+    g.add(P3(new THREE.Mesh(new THREE.SphereGeometry(0.08, 16, 12), ouro), 0.45, 1.2, 0.12));
+    g.add(P3(RR(0.34, 0.52, 0.1, 0.06, grafite), 1.05, 1.25, 0.06));
+    g.add(P3(TX(0.24, 0.16, (x, W, H) => { rr(x, 0, 0, W, H, 8, '#0f3d22'); txt(x, '✓', W / 2, H / 2 + 2, 44, '#38c172', 'bold', 'center'); }, true), 1.05, 1.37, 0.115));
+    g.add(led(verde, 1.05, 1.1, 0.12, 0.035));
+    const cr = G(); cr.add(RR(0.42, 0.58, 0.03, 0.06, branco));
+    cr.add(P3(TX(0.4, 0.56, (x, W, H) => { rr(x, 0, 0, W, 34, 0, '#ff7a3d'); x.fillStyle = '#d97757'; x.beginPath(); x.arc(W / 2, 80, 30, 0, 7); x.fill(); rr(x, 20, 124, W - 40, 12, 6, '#3b404a'); rr(x, 34, 146, W - 68, 10, 5, '#c9ced8'); }), 0, 0, 0.017));
+    cr.add(P3(RR(0.12, 0.08, 0.04, 0.02, prata), 0, 0.31, 0)); cr.position.set(1.05, 0.72, 0.3); cr.rotation.z = 0.18; cr.name = 'pula'; g.add(cr); return g; },
+  // SENHA: cadeado de verdade (corpo dourado, alça de metal, fechadura) + a senha virando símbolos
+  p06() { const g = G(); g.add(P3(RR(1.3, 1.05, 0.5, 0.2, ouro, 0.08), 0, 0.72, 0));
+    g.add(P3(new THREE.Mesh(new THREE.TorusGeometry(0.4, 0.1, 16, 40, Math.PI), prata), 0, 1.5, 0));
+    for (const x of [-0.4, 0.4]) g.add(P3(C(0.1, 0.1, 0.32, prata, 20), x, 1.34, 0));
+    g.add(P3(R3(C(0.11, 0.11, 0.04, grafite, 24), Math.PI / 2, 0, 0), 0, 0.82, 0.26)); g.add(P3(RR(0.09, 0.24, 0.04, 0.02, grafite), 0, 0.66, 0.26));
+    const placa = TX(1.4, 0.38, (x, W, H) => { rr(x, 0, 0, W, H, 40, '#2a2e36'); txt(x, '#a9f3•c71e', W / 2, H / 2 + 2, 70, '#8fb6ff', 'bold', 'center', 'monospace'); }, true);
+    g.add(P3(placa, 0, 0.0, 0.62)); placa.position.y = 0.02; placa.rotation.x = -0.5; return g; },
+  // 2FA: celular em pé com a notificação do código na tela
+  p07() { const g = G(); const cel = G(); cel.add(RR(1.02, 1.95, 0.12, 0.18, grafite));
+    cel.add(P3(TX(0.9, 1.82, (x, W, H) => { const gr = x.createLinearGradient(0, 0, 0, H); gr.addColorStop(0, '#3d7bf2'); gr.addColorStop(1, '#7b61ff'); rr(x, 0, 0, W, H, 40, gr);
+      rr(x, W / 2 - 50, 16, 100, 26, 13, '#111'); txt(x, '19:30', W / 2, 120, 64, '#fff', 'bold', 'center');
+      rr(x, 22, 200, W - 44, 220, 26, 'rgba(255,255,255,0.95)'); txt(x, 'Código de acesso', 44, 240, 26, '#6b717c', 'bold');
+      txt(x, '482 913', W / 2, 320, 58, '#1f232b', 'bold', 'center', 'monospace'); txt(x, 'não compartilhe', 44, 390, 22, '#9aa0ab', 'normal'); }, true), 0, 0, 0.062));
+    cel.position.set(0, 1.12, 0); cel.rotation.x = -0.12; g.add(cel);
+    g.add(P3(R3(RR(0.7, 0.5, 0.12, 0.05, escuro), -0.9, 0, 0), 0, 0.18, -0.22)); return g; },
+  // PAGAMENTO: cartão de crédito de verdade (chip, aproximação, número) + selo PAGO
+  p08() { const g = G(); const cart = G(); cart.add(RR(1.9, 1.2, 0.06, 0.12, roxoN, 0.02));
+    cart.add(P3(TX(1.86, 1.16, (x, W, H) => { const gr = x.createLinearGradient(0, 0, W, H); gr.addColorStop(0, '#7b61ff'); gr.addColorStop(1, '#3d7bf2'); rr(x, 0, 0, W, H, 34, gr);
+      rr(x, 50, 90, 110, 84, 14, '#f2c04a'); x.strokeStyle = '#b98a1f'; x.lineWidth = 3; for (const yy of [118, 146]) { x.beginPath(); x.moveTo(50, yy); x.lineTo(160, yy); x.stroke(); }
+      x.strokeStyle = '#fff'; x.lineWidth = 6; for (let k = 0; k < 3; k++) { x.beginPath(); x.arc(200, 132, 14 + k * 13, -0.8, 0.8); x.stroke(); }
+      txt(x, '••••  ••••  ••••  4242', 50, 250, 44, '#fff', 'bold', 'left', 'monospace'); txt(x, 'VALIDADE 12/29', 50, 318, 26, 'rgba(255,255,255,0.8)');
+      x.fillStyle = 'rgba(255,90,80,0.9)'; x.beginPath(); x.arc(W - 120, 310, 34, 0, 7); x.fill(); x.fillStyle = 'rgba(255,190,60,0.9)'; x.beginPath(); x.arc(W - 74, 310, 34, 0, 7); x.fill(); }), 0, 0, 0.031));
+    cart.position.y = 1.15; cart.rotation.z = -0.1; cart.name = 'gira'; g.add(cart);
+    const selo = G(); selo.add(RR(1.25, 0.46, 0.1, 0.23, M(0x38c172)));
+    selo.add(P3(TX(1.15, 0.38, (x, W, H) => txt(x, 'PAGO ✓', W / 2, H / 2 + 4, 84, '#fff', 'bold', 'center')), 0, 0, 0.052));
+    selo.position.set(0.55, 2.0, 0.35); selo.rotation.z = 0.12; g.add(selo); return g; },
+  // WEBHOOK: sino dourado torneado (com boca e badalo) balançando + ondas de som
+  p09() { const g = G(); const piv = G(); piv.position.y = 2.05; piv.name = 'balanca';
+    const perfil = [[0, 0.02], [0.14, 0.02], [0.3, -0.06], [0.4, -0.22], [0.46, -0.48], [0.5, -0.78], [0.58, -1.0], [0.74, -1.18], [0.9, -1.3], [0.93, -1.36], [0.88, -1.4], [0.72, -1.3], [0.54, -1.12], [0.44, -0.86], [0.38, -0.5], [0.3, -0.24], [0.14, -0.1], [0, -0.08]];
+    const sino = new THREE.Mesh(new THREE.LatheGeometry(perfil.map(([x, y]) => new THREE.Vector2(x, y)), 48), M(0xf2b233, { metalness: 0.35, roughness: 0.3, side: THREE.DoubleSide })); sino.userData.semTinta = true; piv.add(sino);
+    piv.add(P3(new THREE.Mesh(new THREE.TorusGeometry(0.13, 0.04, 10, 24), ouro), 0, 0.14, 0));
+    piv.add(P3(C(0.025, 0.025, 1.05, grafite, 8), 0, -0.72, 0)); piv.add(P3(new THREE.Mesh(new THREE.SphereGeometry(0.15, 16, 12), grafite), 0, -1.28, 0)); g.add(piv);
+    for (const s of [-1, 1]) for (let k = 0; k < 2; k++) { const o = new THREE.Mesh(new THREE.TorusGeometry(1.15 + k * 0.28, 0.045, 8, 32, 0.9), laranja); o.rotation.z = s > 0 ? -0.45 : Math.PI - 0.45; o.userData.semTinta = true; o.name = 'pisca'; g.add(P3(o, 0, 1.25, 0)); }
+    return g; },
+  // E-MAIL: envelope com aba, selo e mais dois voando atrás
+  p10() { const g = G(); const envelope = (esc) => { const e = G(); e.add(RR(1.8, 1.2, 0.08, 0.08, branco, 0.025));
+      e.add(P3(TX(1.76, 1.16, (x, W, H) => { rr(x, 0, 0, W, H, 20, '#ffffff'); x.fillStyle = '#e8ecf3'; x.beginPath(); x.moveTo(0, H); x.lineTo(W / 2, H * 0.5); x.lineTo(W, H); x.fill();
+        x.fillStyle = '#dfe5ef'; x.beginPath(); x.moveTo(0, 0); x.lineTo(W / 2, H * 0.6); x.lineTo(W, 0); x.fill(); x.strokeStyle = '#b9c2d0'; x.lineWidth = 5; x.beginPath(); x.moveTo(6, 6); x.lineTo(W / 2, H * 0.6); x.lineTo(W - 6, 6); x.stroke();
+        x.fillStyle = '#ff5e57'; x.beginPath(); x.arc(W / 2, H * 0.6, 44, 0, 7); x.fill(); txt(x, '@', W / 2, H * 0.6 + 2, 56, '#fff', 'bold', 'center'); }), 0, 0, 0.042));
+      e.scale.setScalar(esc); return e; };
+    const env = envelope(1); env.position.y = 1.1; env.name = 'gira'; g.add(env);
+    const a = envelope(0.45); a.position.set(-0.95, 2.1, -0.5); a.rotation.set(0, 0.4, 0.3); g.add(a);
+    const b = envelope(0.32); b.position.set(0.9, 2.45, -0.7); b.rotation.set(0, -0.3, -0.25); g.add(b); return g; },
+  // API: pedaço de parede com tomada e o plugue (com pinos e fio) encaixando
+  p11() { const g = G(); g.add(P3(RR(0.22, 2.0, 1.6, 0.04, M(0xf4efe6)), 0.95, 1.0, 0));
+    const esp = G(); esp.add(RR(0.95, 0.95, 0.12, 0.16, branco)); esp.add(P3(disco(0.32, 0.06, 0.02, cinzaC), 0, 0, 0.06)).children.at(-1).rotation.x = Math.PI / 2;
+    for (const z of [-0.12, 0.12]) esp.add(P3(R3(C(0.05, 0.05, 0.04, grafite, 16), Math.PI / 2, 0, 0), z, 0, 0.09));
+    esp.position.set(0.79, 1.0, 0); esp.rotation.y = -Math.PI / 2; g.add(esp);
+    const pl = G(); pl.add(RR(0.6, 0.5, 0.5, 0.12, laranja));
+    for (const z of [-0.12, 0.12]) pl.add(P3(R3(C(0.035, 0.035, 0.3, prata, 12), 0, 0, Math.PI / 2), 0.42, 0, z));
+    const curva = new THREE.CatmullRomCurve3([V3(-0.3, 0, 0), V3(-0.8, -0.1, 0.05), V3(-1.15, -0.55, 0.3), V3(-1.2, -0.92, 0.7)]);
+    pl.add(new THREE.Mesh(new THREE.TubeGeometry(curva, 30, 0.07, 10), laranja));
+    pl.position.set(-0.3, 1.0, 0); pl.name = 'encaixa'; g.add(pl); return g; },
+  // IA NO APP: balão de chat de verdade (com rabinho) e os 3 pontinhos digitando + a pergunta do cliente atrás
+  p12() { const g = G(); const balao = (w, h, r, d, m) => { const s = new THREE.Shape(), x = -w / 2, y = -h / 2;
+      s.moveTo(x + r + 0.45, y); s.lineTo(x + w - r, y); s.quadraticCurveTo(x + w, y, x + w, y + r); s.lineTo(x + w, y + h - r); s.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+      s.lineTo(x + r, y + h); s.quadraticCurveTo(x, y + h, x, y + h - r); s.lineTo(x, y + r); s.quadraticCurveTo(x, y, x + r, y); s.lineTo(x + 0.02, y - 0.38); s.lineTo(x + r + 0.45, y);
+      return extruda(s, d, m, 0.06); };
+    const pergunta = balao(1.4, 0.7, 0.3, 0.18, branco); pergunta.scale.x = -1; g.add(P3(pergunta, 0.55, 2.2, -0.35));
+    g.add(P3(TX(1.0, 0.3, (x, W, H) => { rr(x, 0, 0, W * 0.9, 22, 11, '#c9ced8'); rr(x, 0, 50, W * 0.6, 22, 11, '#c9ced8'); }), 0.6, 2.25, -0.25));
+    const resp = balao(2.0, 1.1, 0.42, 0.26, roxoN); g.add(P3(resp, -0.15, 1.15, 0.1));
+    for (const x of [-0.6, -0.15, 0.3]) g.add(led(branco, x, 1.18, 0.25, 0.13)); return g; },
+  // BACKUP: HD externo + a cópia translúcida + seta circular de "voltar"
+  p13() { const g = G(); const hd = G(); hd.add(RR(1.0, 1.35, 0.32, 0.14, grafite));
+    hd.add(P3(TX(0.8, 1.1, (x, W, H) => { rr(x, 0, 0, W, H, 22, '#3b404a'); txt(x, 'DADOS', W / 2, H - 50, 40, '#c9ced8', 'bold', 'center'); x.fillStyle = '#2a2e36'; x.beginPath(); x.arc(W / 2, H * 0.4, 80, 0, 7); x.fill(); }), 0, 0, 0.162));
+    hd.add(led(verde, 0.34, -0.5, 0.17, 0.04)); hd.position.set(-0.45, 0.88, -0.2); hd.rotation.y = 0.2; g.add(hd);
+    const copia = RR(1.0, 1.35, 0.32, 0.14, new THREE.MeshStandardMaterial({ color: 0x4aa3ff, transparent: true, opacity: 0.5, roughness: 0.2 })); copia.userData.semTinta = true;
+    copia.position.set(0.55, 1.02, 0.35); copia.rotation.y = -0.15; copia.name = 'pula'; g.add(copia);
+    const seta = G(); seta.add(new THREE.Mesh(new THREE.TorusGeometry(0.42, 0.07, 10, 40, Math.PI * 1.5), verde));
+    seta.add(P3(R3(new THREE.Mesh(new THREE.ConeGeometry(0.17, 0.3, 16), verde), 0, 0, -Math.PI / 2), 0.05, -0.42, 0));
+    const giro = G(); giro.add(seta); giro.position.set(0.05, 2.3, 0.1); giro.name = 'girar'; g.add(giro); return g; },
+  // ESCALA: o servidor virando três (torres iguais, com grade e luzes)
+  p14() { const g = G(); [[-0.85, 0], [0, 0.35], [0.85, 0]].forEach(([x, z], k) => { const r = G(); r.add(P3(RR(0.68, 1.7, 0.68, 0.08, grafite), 0, 0.85, 0));
+      r.add(P3(TX(0.54, 1.4, (c, W, H) => { rr(c, 0, 0, W, H, 16, '#4a505c'); for (let l = 0; l < 6; l++) rr(c, 20, 60 + l * 66, W - 40, 14, 7, '#2a2e36'); }), 0, 0.85, 0.345));
+      for (let l = 0; l < 3; l++) r.add(led(l % 2 ? azulLed : verde, -0.12 + l * 0.12, 1.45, 0.36, 0.035));
       r.position.set(x, 0, z); r.name = 'clone' + k; g.add(r); }); return g; },
-  p15() { const g = new THREE.Group(); g.add(P3(C(0.12, 0.3, 1.8, escuro), 0, 0.8, 0));
-    const prato = new THREE.Mesh(new THREE.CylinderGeometry(0.85, 0.12, 0.35, 32, 1, true), new THREE.MeshStandardMaterial({ color: 0xe9edf5, side: THREE.DoubleSide })); prato.rotation.x = -1.0; prato.position.set(0, 1.95, 0.15);
-    const piv = new THREE.Group(); piv.add(prato); piv.name = 'girar'; g.add(piv);
-    const luz = P3(new THREE.Mesh(new THREE.SphereGeometry(0.12, 12, 12), ros), 0, 2.5, 0); luz.name = 'pisca'; g.add(luz); return g; },
+  // MONITORAMENTO: antena de radar (prato parabólico com receptor) girando no mastro + luz de alerta
+  p15() { const g = G(); g.add(P3(disco(0.55, 0.16, 0.05, escuro), 0, 0.08, 0)); g.add(P3(C(0.09, 0.14, 1.7, prata, 20), 0, 0.95, 0));
+    const piv = G(); piv.position.y = 1.85; piv.name = 'girar';
+    const prato = G(); const pts = []; for (let k = 0; k <= 16; k++) { const r = 0.05 + k * 0.06; pts.push(new THREE.Vector2(r, 0.42 * r * r)); }
+    prato.add(new THREE.Mesh(new THREE.LatheGeometry(pts, 48), M(0xf4f6fa, { side: THREE.DoubleSide, roughness: 0.4 })));
+    prato.add(P3(C(0.025, 0.025, 0.7, grafite, 8), 0, 0.35, 0)); prato.add(P3(new THREE.Mesh(new THREE.SphereGeometry(0.08, 12, 10), ros), 0, 0.72, 0));
+    prato.rotation.x = 1.0; piv.add(prato); piv.add(P3(new THREE.Mesh(new THREE.SphereGeometry(0.13, 16, 12), prata), 0, 0, 0)); g.add(piv);
+    g.add(led(ros, 0, 2.75, 0, 0.1)); return g; },
 };
 
 // ---------- a cadeia do sistema, no chão do quarto (sai da mesa e atravessa o quarto em 2 fileiras)
