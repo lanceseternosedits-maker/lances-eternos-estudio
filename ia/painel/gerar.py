@@ -814,10 +814,16 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     R(t % 8 < 4 ? '#ff6b6b' : '#f2cc60', 125, 157, 6, 2); // fliperama
     if (AG.filter((o) => o.faz_agora === 'pingpong' && o.modo === 'raquete').length === 2) { const k = (t % 16) / 16, yy = 138 + Math.abs(k * 2 - 1) * 8; R('#fff', 160 + Math.sin(t / 3) * 6, k < 0.5 ? 132 + k * 32 : 148 - (k - 0.5) * 32, 1, 1); }
   }
-  function mesa(m, ligado) {
-    const [a, b] = m;
-    R(ligado ? (t % 20 < 10 ? '#7ee787' : '#58a6ff') : '#151515', a + 7, b + 3, 10, 6);
-    if (ligado) R('#ffffff22', a + 3, b + 9, 18, 2);
+  // tela do computador do agente: linhas de "código" rolando na cor dele + barra de progresso (N/M); laranja piscando se parado
+  function mesa(g, ligado) {
+    const [a, b] = g.mesa;
+    if (!ligado) { R('#151515', a + 7, b + 3, 10, 6); return; }
+    if (parado(g)) { R(t % 10 < 5 ? '#ffb547' : '#5a3a00', a + 7, b + 3, 10, 6); R('#111', a + 11, b + 4, 2, 3); R('#111', a + 11, b + 8, 2, 1); return; }
+    R('#0d1117', a + 7, b + 3, 10, 6);
+    for (let l = 0; l < 4; l++) { const k = (l + Math.floor(t / 3)) % 7; R(l === 3 && t % 6 < 3 ? '#ffffff' : g.cor, a + 8, b + 3 + l, 2 + ((k * 5) % 7), 1); } // texto digitando
+    const m = String((dados[g.id] || {}).progresso || '').match(/([0-9]+) *[/] *([0-9]+)/);
+    if (m && +m[2] > 0) { R('#30363d', a + 8, b + 8, 8, 1); R('#3fb950', a + 8, b + 8, Math.max(1, Math.round(8 * Math.min(1, m[1] / m[2]))), 1); }
+    R('#ffffff22', a + 3, b + 9, 18, 2);
   }
   // ---------- pessoinha (x,y = pés)
   function pessoa(g, px, py, modo) {
@@ -921,16 +927,40 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     x.drawImage(ceuC, 0, 0); x.drawImage(fundoC, 0, 0);
     x.save(); x.translate(0, OFF);
     cenario();
-    AG.forEach((g) => mesa(g.mesa, trab(g) && Math.hypot(g.x - g.alvo[0], g.y - g.alvo[1]) < 2));
+    AG.forEach((g) => mesa(g, trab(g) && Math.hypot(g.x - g.alvo[0], g.y - g.alvo[1]) < 2));
     const todos = [...AG.map((g) => ({ y: g.y, f: () => pessoa(g, g.x, g.y, g.modo) })), { y: gato.y, f: desenhaGato }];
     todos.sort((a, b) => a.y - b.y).forEach((o) => o.f());
     x.restore();
     for (const g of AG) {
       const a = dados[g.id] || {};
-      if (g.modo === 'senta') balao(g.id, parado(g) ? '⚠ parado? desde ' + (a.em || '').slice(11) : (a.detalhe || g.faz) + (a.progresso ? ' · ' + a.progresso : ''), g.mesa[0] + 12, g.mesa[1] + 1, parado(g) ? 'av' : '');
+      if (g.modo === 'senta') balao(g.id, '', 0, 0); // o que está fazendo aparece na tela do computador (toque para ampliar)
       else balao(g.id, t < g.emoteAte ? g.emote : '', g.x, g.y - 16, 'em');
     }
   }
+  // ---------- toque numa mesa ou num personagem: abre a tela do computador dele em tamanho grande
+  const st2 = document.createElement('style');
+  st2.textContent = '.tela-g{position:fixed;inset:0;background:#000a;display:flex;align-items:center;justify-content:center;z-index:50;padding:18px}.tela-g .mon{width:100%;max-width:420px;background:#2b2f36;border-radius:14px;padding:10px 10px 18px;box-shadow:0 10px 40px #000}.tela-g .scr{background:#0d1117;border-radius:8px;padding:12px;font:13px/1.5 ui-monospace,Menlo,monospace;color:#c9d1d9;min-height:150px}.tela-g .bar{height:8px;background:#30363d;border-radius:4px;margin:10px 0 4px}.tela-g .bar i{display:block;height:100%;background:#3fb950;border-radius:4px}.tela-g .pe{width:60px;height:10px;background:#2b2f36;margin:-2px auto 0;border-radius:0 0 6px 6px}.tela-g .x{float:right;background:none;border:0;color:#8b949e;font-size:18px}.tela-g .cur{display:inline-block;width:8px;height:14px;background:#c9d1d9;vertical-align:-2px;animation:pisca 1s steps(1) infinite}@keyframes pisca{50%{opacity:0}}';
+  document.head.appendChild(st2);
+  function abreTela(g) {
+    const a = dados[g.id] || {}, on = trab(g), av = parado(g);
+    const m = String(a.progresso || '').match(/([0-9]+) *[/] *([0-9]+)/), pct = m && +m[2] ? Math.round(100 * Math.min(1, m[1] / m[2])) : null;
+    const esc2 = (v) => String(v || '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+    const fazAgora = on ? '' : (g.faz_agora && LUGARES[g.faz_agora] ? ({ sinuca: 'jogando sinuca 🎱', lanche: 'fazendo um lanche 🍩', cafe: 'tomando café ☕', sofa: 'vendo TV 📺', navegar: 'navegando na internet 🌐', fliperama: 'no fliperama 🕹️', tomada: 'carregando a bateria 🔋', pingpong: 'jogando pingue-pongue 🏓' })[g.faz_agora] : g.faz_agora === 'conversa' ? 'batendo papo 💬' : g.faz_agora === 'gato' ? 'fazendo carinho no gato 🐱' : 'dando uma volta');
+    const div = document.createElement('div'); div.className = 'tela-g';
+    div.innerHTML = '<div><div class="mon"><button class="x" aria-label="fechar">✕</button><div style="color:' + g.cor + ';font-weight:700;margin:0 0 6px">' + g.nome + (on ? ' · trabalhando' : ' · livre') + '</div><div class="scr">' +
+      (on ? '<span style="color:' + g.cor + '">&gt;</span> ' + esc2(av ? 'parado? sem notícia desde ' + (a.em || '').slice(11) : (a.detalhe || g.faz)) + ' <span class="cur"></span>' +
+            (pct != null ? '<div class="bar"><i style="width:' + pct + '%"></i></div><small>' + esc2(a.progresso) + ' · ' + pct + '%</small>' : (a.progresso ? '<br><small>' + esc2(a.progresso) + '</small>' : ''))
+          : '<span style="color:#8b949e">💤 tela desligada. Agora está ' + esc2(fazAgora || 'na área de lazer') + '.</span>' + (a.detalhe ? '<br><br><small>último trabalho: ' + esc2(a.detalhe) + '</small>' : '')) +
+      '<br><br><small style="color:#8b949e">' + esc2(g.faz) + ' · ' + esc2(g.quando) + (a.em ? ' · atualizado ' + esc2(a.em.slice(8, 10) + '/' + a.em.slice(5, 7) + ' ' + a.em.slice(11)) : '') + '</small></div></div><div class="pe"></div></div>';
+    div.addEventListener('click', (ev) => { if (ev.target === div || ev.target.classList.contains('x')) div.remove(); });
+    document.body.appendChild(div);
+  }
+  cv.style.cursor = 'pointer';
+  cv.addEventListener('click', (ev) => {
+    const r = cv.getBoundingClientRect(), px = (ev.clientX - r.left) / r.width * W, py = (ev.clientY - r.top) / r.height * H - OFF;
+    const alvo = AG.find((g) => px >= g.mesa[0] && px <= g.mesa[0] + 24 && py >= g.mesa[1] && py <= g.mesa[1] + 26) || AG.find((g) => Math.abs(px - g.x) < 6 && py > g.y - 16 && py < g.y + 2);
+    if (alvo) abreTela(alvo);
+  });
   function cartoes() {
     lista.innerHTML = AG.map((g) => {
       const a = dados[g.id] || {}, on = trab(g), av = parado(g);
@@ -945,7 +975,7 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
       if (!r.ok) throw new Error(r.status);
       const j = await r.json(); dados = j.agentes || {};
       const n = AG.filter(trab).length;
-      info.textContent = n + ' de ' + AG.length + ' trabalhando · os outros estão na área de lazer · atualizado ' + (j.agora || '').slice(11);
+      info.textContent = n + ' de ' + AG.length + ' trabalhando · toque numa mesa ou num personagem para ver a tela dele · atualizado ' + (j.agora || '').slice(11);
     } catch (e) { info.textContent = 'não consegui ler o status agora (' + e.message + ')'; }
     cartoes();
   }
