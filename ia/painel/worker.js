@@ -203,7 +203,8 @@ async function responderComentarios(env) {
           const dm = alvo.dm.length > 990 ? alvo.dm.slice(0, alvo.dm.lastIndexOf("\n", 850)) + `\n\nO resto tá aqui: ${linkBio}` : alvo.dm;
           // formato "Me Envie" (Vitor, 08/11): 1ª DM só com o botão; o material sai quando a pessoa toca (webhook) e se ela segue o perfil
           const corpoDM = JSON.stringify({ recipient: { comment_id: co.id },
-            message: c.webhook_ok === "1" ? cartaoMeEnvie(alvo, co.username) : { text: dm } });
+            message: c.webhook_ok === "1" ? cartaoMeEnvie(alvo, co.username)
+              : { text: sem(alvo.palavra) === "KIT" ? dm : (dm + "\n\n🔥 Quer 10 assistentes de IA prontos? Super Assistente de IA: https://iaem60s.com/kit").slice(0, 1000) } });
           try { await igFetch(`/${EU}/messages`, token, { method: "POST", body: corpoDM }); acao = "dm"; }
           catch (e) {
             erro = "dm: " + e.message;
@@ -331,6 +332,16 @@ function cartaoSegue(palavra, pasta) {
               { type: "web_url", title: "Abrir perfil", url: PERFIL }],
   }] } } };
 }
+function cartaoProduto(P) {
+  const botoes = [];
+  if (P.checkout) botoes.push({ type: "web_url", title: "Quero o meu 🔥", url: P.checkout });
+  botoes.push({ type: "web_url", title: "Ver o que vem", url: "https://iaem60s.com/kit" });
+  return { attachment: { type: "template", payload: { template_type: "generic", elements: [{
+    title: `Gostou? Tem o Super Assistente de IA${P.preco ? " por R$ " + P.preco : ""}`.slice(0, 80),
+    subtitle: "10 assistentes prontos pra ChatGPT, Claude ou Gemini. Garantia de 7 dias.",
+    image_url: "https://iaem60s.com/capas/kit-p1.jpg", buttons: botoes,
+  }] } } };
+}
 async function enviarDM(c, token, igsid, message) {
   const EU = c.modo === "suat" ? c.ig_id : "me";
   const corpo = JSON.stringify({ recipient: { id: igsid }, message });
@@ -353,7 +364,14 @@ async function tratarToque(env, ev) {
   try { const u = await igFetch(`/${igsid}?fields=is_user_follow_business,username`, c.token); if (u.is_user_follow_business === false) segue = false; } catch {}
   let acao = "", erro = "";
   try {
-    if (segue) { await enviarDM(c, c.token, igsid, { text: item.dm.slice(0, 990) }); acao = "material"; }
+    if (segue) {
+      await enviarDM(c, c.token, igsid, { text: item.dm.slice(0, 990) }); acao = "material";
+      // depois do brinde, oferece o produto (Vitor, 08/11); no KIT não repete
+      const P = R.produto || {};
+      if (P.nome && sem(palavra) !== "KIT") {
+        try { await enviarDM(c, c.token, igsid, cartaoProduto(P)); acao = "material+oferta"; } catch (e) { erro = "oferta: " + e.message.slice(0, 200); }
+      }
+    }
     else { await enviarDM(c, c.token, igsid, cartaoSegue(palavra, pasta || "")); acao = "pediu_seguir"; }
   } catch (e) { erro = e.message.slice(0, 300); acao = "erro"; }
   await env.DB.prepare("CREATE TABLE IF NOT EXISTS dm_eventos (em TEXT, igsid TEXT, tipo TEXT, palavra TEXT, acao TEXT, erro TEXT)").run();
