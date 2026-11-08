@@ -390,6 +390,13 @@ def main() -> None:
             linhas = "".join(f'<li><span class="{"mais" if a > 0 else "menos" if a < 0 else "zero"}">{"+" if a > 0 else ""}{a}</span> {esc(t)}</li>' for a, t in ch["fatores"])
             porque = (f'<details class="porque"><summary>Por que {ch["pct"]}%? · {esc(ch["tipo"])}</summary><ul>{linhas}</ul>'
                       f'<p>Estimativa com {len(hist)} Reels medidos ("bem recebido" = mais de 300 views no Instagram). Ajuda a comparar roteiros; não é promessa.</p></details>')
+            rv = c["meta"].get("revisao") or {}  # painel de revisão (revisores de IA, skill revisao-roteiro)
+            if rv.get("veredito") and etapa == "roteiro":
+                ic = {"passou": "✅", "ajustado": "🛠️", "reprovado": "⛔"}.get(rv["veredito"], "🔎")
+                itens = "".join(f'<li><b>{esc(r.get("revisor", ""))}</b> {esc(r.get("veredito", ""))}: {esc(r.get("nota", ""))}</li>' for r in rv.get("pareceres", []))
+                ajustes = "".join(f'<li>{esc(x)}</li>' for x in rv.get("ajustes", []))
+                porque += (f'<details class="revisao"><summary>{ic} Revisores: {esc(rv["veredito"])} · {esc(rv.get("resumo", ""))}</summary><ul>{itens}</ul>'
+                           + (f'<p><b>O que foi ajustado:</b></p><ul>{ajustes}</ul>' if ajustes else "") + '</details>')
             versao = ""  # decisão de vídeo só vale para a versão que o Vitor viu (checagem roda no container em UTC)
             if etapa == "vídeo" and (c["meta"].get("checagem") or {}).get("em"):
                 try:
@@ -537,6 +544,7 @@ h4{{margin:6px 0 2px;font-size:15px;line-height:1.3}}.quando{{margin:2px 0;font-
 .decide .sim{{background:var(--ok);color:#06200f}}.decide .nao{{background:#ff6b6b26;color:var(--erro)}}
 .decide input{{flex:1 1 100%}}
 .chance{{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;font-weight:800;font-size:15px;border-radius:12px;padding:4px 10px;line-height:1.1;border:1px solid}}
+.revisao summary{{font-weight:700}}.revisao li b{{text-transform:capitalize}}
 .chance small{{font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}}
 .chance.boa-aposta{{color:var(--ok);border-color:var(--ok);background:#3ecf8e1a}}.chance.medio{{color:var(--esp);border-color:var(--esp);background:#ffb5471a}}.chance.arriscado{{color:var(--erro);border-color:var(--erro);background:#ff6b6b1a}}
 .porque ul li{{margin:3px 0;color:var(--tx)}}.porque span{{display:inline-block;min-width:28px;font-weight:700}}.porque .mais{{color:var(--ok)}}.porque .menos{{color:var(--erro)}}.porque .zero{{color:var(--mut)}}.porque p{{color:var(--mut);margin:4px 0 0}}
