@@ -1,6 +1,6 @@
 {
  "_fonte": "Metricool getScheduledPosts (blogId 7637900), uma linha por rede. Atualize a cada agendamento.",
- "lido_em": "2026-11-07 19:50 (Brasília)",
+ "lido_em": "2026-11-07 22:25 (Brasília)",
  "publicacoes": [
   {
    "data": "2026-11-01 11:45",
@@ -971,6 +971,17 @@
    "texto": "2016: a Microsoft soltou a Tay no Twitter e precisou desligar em menos de um dia",
    "erro": null,
    "lido_em": "2026-11-07 19:50"
+  },
+  {
+   "data": "2026-11-08 15:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": null,
+   "tipo": "POST",
+   "rascunho": false,
+   "texto": "🔥 Lançou: Super Assistente de IA. Comenta KIT que eu te mando o link na DM.",
+   "erro": null,
+   "lido_em": "2026-11-07 22:25"
   }
  ]
 }
