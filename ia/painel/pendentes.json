@@ -1,4 +1,90 @@
 {
- "gerado_em": "2026-11-08 15:07",
- "videos": []
+ "gerado_em": "2026-11-08 16:07",
+ "videos": [],
+ "roteiros": [
+  {
+   "pasta": "2026-11-10-equipe-de-ia",
+   "titulo": "5 FUNCIONÁRIOS DE IA",
+   "quando": "2026-11-10"
+  },
+  {
+   "pasta": "2026-11-10-sua-ia-nao-te-conhece",
+   "titulo": "SUA IA NÃO SABE NADA DE VOCÊ",
+   "quando": "2026-11-10"
+  }
+ ],
+ "agenda_3_dias": [
+  {
+   "quando": "2026-11-08 17:00",
+   "titulo": "Comenta BICHO: captura de movimento de qualquer bicho",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-08 19:00",
+   "titulo": "Comenta TAY que eu te mando a história completa",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-08 20:30",
+   "titulo": "10 estilos de animação pra pedir pro Claude. Qual é o seu favorito? 🎨",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-09 06:00",
+   "titulo": "3 APPS PRA QUEM VIVE NO CHATGPT",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-09 10:00",
+   "titulo": "3 SKILLS QUE FAZEM VÍDEO DO ZERO",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-09 14:00",
+   "titulo": "3 JEITOS DE RODAR IA GIGANTE NO SEU PC",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-09 17:00",
+   "titulo": "5 projetos grátis pra estudar com IA. E o nº 1 é bizarro. 📚",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-09 19:30",
+   "titulo": "3 SKILLS CHINESAS QUE FAZEM TRABALHO DE AGÊNCIA",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-10 06:00",
+   "titulo": "POV: VOCÊ FEZ UM APP DE MAC SEM ESCREVER CÓDIGO",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  }
+ ]
 }

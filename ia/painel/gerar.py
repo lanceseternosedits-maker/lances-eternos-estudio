@@ -669,7 +669,25 @@ aba(['aprovar', 'agenda', 'publicados', 'todos', 'resultados', 'gastos'].include
         return ((seg.get("etiqueta") or [None])[0] or seg.get("tag") or c["titulo"])[:90]
     videos = [{"pasta": c["pasta"].name, "titulo": titulo_curto(c), "quando": c["quando"]} for c in cartoes
               if c["pasta"] and "vídeo aguardando" in c["status"].lower()]
-    (PAINEL / "pendentes.json").write_text(json.dumps({"gerado_em": f"{agora:%Y-%m-%d %H:%M}", "videos": videos}, ensure_ascii=False, indent=1), encoding="utf-8")
+    roteiros = [{"pasta": c["pasta"].name, "titulo": titulo_curto(c), "quando": c["quando"]} for c in cartoes
+                if c["pasta"] and "roteiro aguardando" in c["status"].lower()]
+    # agenda dos próximos 3 dias (Brasília) para a cobrança das 18:23, que só lê este arquivo e o estado.json
+    pubs_ag = ler(PAINEL / "publicacoes.json", {}) or {}
+    pubs_ag = pubs_ag if isinstance(pubs_ag, list) else next((v for v in pubs_ag.values() if isinstance(v, list)), [])
+    lim = (agora + dt.timedelta(days=3)).strftime("%Y-%m-%d %H:%M"); ja = f"{agora:%Y-%m-%d %H:%M}"
+    agenda = {}
+    for x in pubs_ag:
+        d = str(x.get("data") or "")[:16]
+        if ja <= d <= lim and not x.get("rascunho") and x.get("tipo") != "STORY" and x.get("status") not in ("PUBLISHED", "ERROR"):
+            pasta_ag = x.get("pasta") or next((q.name for q in (IA / "posts").glob("*-" + str(x.get("texto") or "_")) if q.is_dir()), "_")
+            rot_ag = ler(IA / "posts" / pasta_ag / "roteiro.json", {}) or {}
+            ttl = ((rot_ag.get("segmentos") or [{}])[0].get("etiqueta") or [None])[0] or rot_ag.get("tese") or ""
+            if not ttl or (" " not in ttl and "-" in ttl):  # sem etiqueta: usa o começo do texto do post
+                ttl = str(x.get("texto") or ttl).split("\n")[0][:70]
+            e = agenda.setdefault(d, {"quando": d, "titulo": ttl, "redes": []})
+            if x.get("rede") not in e["redes"]: e["redes"].append(x.get("rede"))
+    (PAINEL / "pendentes.json").write_text(json.dumps({"gerado_em": f"{agora:%Y-%m-%d %H:%M}", "videos": videos, "roteiros": roteiros,
+        "agenda_3_dias": [agenda[k] for k in sorted(agenda)]}, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"painel/index.html: {len(cartoes)} posts, {len(pendencias)} pendência(s)")
     import runpy  # respostas.json do robô de comentários (e o plano B zorcha.md)
     runpy.run_path(str(PAINEL / "zorcha.py"), run_name="__main__")
