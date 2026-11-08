@@ -14,7 +14,7 @@
  "prova_viral": "Validação de produto (não é pauta de tendência): o formato 'IA que trabalha por você' é o que mais salva no perfil (5 skills 4,7% e TV 2,7% de salvamento, leitura de 07/11); configurar instruções/Projetos/Gems é recurso oficial das três IAs (fontes).",
  "cta": "CONFIGURA",
  "polemica": false,
- "status": "roteiro aprovado",
+ "status": "vídeo aguardando aprovação",
  "produto": "kit-assistente-pessoal",
  "revisao": {
   "veredito": "reprovado",
@@ -48,5 +48,83 @@
   "instagram": "2026-11-11 08:00",
   "tiktok": "2026-11-11 08:00"
  },
- "nota_aprovacao": "Vitor (08/11): produzir mesmo com o veto do painel de revisão (revisor vitor achou parecido com o negado mesma-pergunta-resposta-diferente). Ajustar no render o que fatos/gancho pediram: IA não vê a geladeira, gancho com conflito, CTA no meio."
+ "nota_aprovacao": "Vitor (08/11): produzir mesmo com o veto do painel de revisão (revisor vitor achou parecido com o negado mesma-pergunta-resposta-diferente). Ajustar no render o que fatos/gancho pediram: IA não vê a geladeira, gancho com conflito, CTA no meio.",
+ "checagem": {
+  "em": "2026-11-08 21:01",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "31.4 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.93 palavras/s (92 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.2 LUFS, pico -1.4 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "3 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "908 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "CONFIGURA",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "(sem item)",
+  "contador": "f) termômetro (o quanto a resposta serve)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "e) glitch RGB",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 03 + panela, timer e campainha de prato pronto",
+  "mascote": "avental e chapéu de chef; ação principal: cozinhar"
+ },
+ "capa": {
+  "objeto": "balao",
+  "texto": "Sua IA responde igual pra todo mundo",
+  "selo": "CONFIGURA"
+ },
+ "obs_producao": "Produzido em 08/11 (Vitor mandou produzir apesar do veto do painel): módulo itens/ia-configurada.js, cozinha em tela dividida IA NORMAL × IA CONFIGURADA, ficha \"o que você contou\" na geladeira (a IA não vê a geladeira), termômetros SERVE?, CONTINUE? no fim. Roteiro ajustado como pediram fatos/gancho: sem \"testei duas IAs\", CTA CONFIGURA + envio no meio, pergunta de 1 palavra. Voz 2.5 a 0,92×: 31,3 s."
 }
