@@ -866,40 +866,115 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     R('#d9823c', g.x - 4, g.y - 4 - (g.dorme ? 0 : p), 1, 2);
     if (g.dorme) { if (t % 30 < 15) { R('#fff', g.x + 6, g.y - 9, 2, 1); } } else { R('#111', g.x + 3, g.y - 4, 1, 1); }
   }
-  // ---------- comportamento de quem está livre
+  // ---------- vida de quem está livre (Vitor, 08/11: "interagir de maneira genuína, com o sentimento de querer de cada agente")
+  // Cada agente tem 4 vontades (0–100) que sobem com o tempo: cansaço, fome, social (vontade de conversar) e diversão.
+  // Trabalhar cansa e dá fome. Cada lugar mata uma vontade, e ele só sai de lá quando ela passa. Nada é sorteado por relógio:
+  // o que ele faz é a vontade mais forte, do jeito que ele gosta. Balão só aparece quando dois estão interagindo.
+  const MATA = { cafe: { cansaco: -2.5 }, sofa: { cansaco: -2, diversao: -1 }, lanche: { fome: -3 }, sinuca: { diversao: -2 }, pingpong: { diversao: -2.5, cansaco: 0.4 },
+    fliperama: { diversao: -2 }, navegar: { diversao: -1.5 }, gato: { social: -1, diversao: -1.5 }, conversa: { social: -2 }, janela: { cansaco: -0.8, diversao: -0.6 }, tomada: { cansaco: -3 } };
+  const PRINCIPAL = { cafe: 'cansaco', sofa: 'cansaco', lanche: 'fome', sinuca: 'diversao', pingpong: 'diversao', fliperama: 'diversao', navegar: 'diversao', gato: 'social', conversa: 'social', janela: 'cansaco', tomada: 'cansaco' };
+  const OPCOES = { cansaco: ['cafe', 'sofa', 'janela'], fome: ['lanche'], diversao: ['sinuca', 'pingpong', 'fliperama', 'navegar', 'sofa', 'gato'], social: ['conversa', 'gato'] };
+  const SOCIAVEL = { cobranca: 1.6, social: 1.4, financeiro: 1.1, roteirista: 1.0, revisores: 0.9, cacador: 0.8, estudio: 0.8, analista: 0.7, robo: 0 };
+  const AMIGOS = { 'roteirista-revisores': 3, 'roteirista-estudio': 2, 'cacador-roteirista': 2, 'financeiro-social': 3, 'analista-social': 2, 'analista-financeiro': 2, 'estudio-revisores': 1, 'cacador-social': 1 };
+  const amizade = (a, b) => (AMIGOS[a.id + '-' + b.id] || AMIGOS[b.id + '-' + a.id] || 0) + (a.id === 'cobranca' || b.id === 'cobranca' ? 1 : 0);
+  LUGARES.janela = { vagas: [[36, 19], [72, 19], [108, 19], [144, 19]] };
+  AG.forEach((g) => { g.v = { cansaco: 10 + rnd(40), fome: rnd(45), social: rnd(55), diversao: rnd(55) }; g.soc = SOCIAVEL[g.id] ?? 1; });
+  const livre = (o) => !trab(o) && !o.robo && !o.par;
+  const curto = (s, n = 24) => { s = String(s || '').replace(/[“”"]/g, ''); return s.length > n ? s.slice(0, n - 1) + '…' : s; };
   function ocupado(lugar, i) { return AG.some((o) => o.faz_agora === lugar && o.vaga === i); }
-  function escolhe(g) {
-    if (g.robo) { g.faz_agora = 'tomada'; g.vaga = 0; g.alvo = LUGARES.tomada.vagas[0]; return; }
-    const op = [];
-    for (const [l, p] of Object.entries(g.gosta)) for (let k = 0; k < p; k++) op.push(l);
-    const l = op[rnd(op.length)];
-    if (l === 'conversa') {
-      const amigos = AG.filter((o) => o !== g && !trab(o) && !o.robo && !o.par);
-      if (amigos.length) { const o = amigos[rnd(amigos.length)]; const mx = 30 + rnd(80), my = 140 + rnd(30);
-        g.par = o; o.par = g; g.faz_agora = o.faz_agora = 'conversa'; g.alvo = [mx - 5, my]; o.alvo = [mx + 5, my]; g.ate = o.ate = t + 120 + rnd(120); return; }
-    }
-    if (l === 'gato') { g.faz_agora = 'gato'; g.alvo = [gato.x - 6, gato.y]; g.ate = t + 100; return; }
-    const vagas = (LUGARES[l] || {}).vagas || [];
-    const i = vagas.findIndex((_, k) => !ocupado(l, k));
-    if (i < 0) { g.faz_agora = 'passeio'; g.alvo = [20 + rnd(100), 140 + rnd(40)]; g.ate = t + 60; return; }
-    g.faz_agora = l; g.vaga = i; g.alvo = vagas[i]; g.ate = t + 150 + rnd(200);
+  function vaiPara(g, l, i) { g.faz_agora = l; g.vaga = i; g.alvo = LUGARES[l].vagas[i]; g.motivo = PRINCIPAL[l]; }
+  // o que ele mais quer agora (já pesando o jeito dele: os sociáveis sentem mais falta de gente)
+  function vontade(g) {
+    const pesos = { cansaco: 1, fome: 1.1, social: g.soc, diversao: 1 };
+    return Object.keys(g.v).map((k) => [k, g.v[k] * pesos[k]]).sort((a, b) => b[1] - a[1])[0];
   }
-  function emote(g, txt) { g.emote = txt; g.emoteAte = t + 25; }
+  function decide(g) {
+    if (g.robo) { if (g.faz_agora !== 'tomada') vaiPara(g, 'tomada', 0); return; }
+    const [quer, forca] = vontade(g);
+    if (forca < 22) { // nada aperta: vai olhar a vista pela janela
+      const i = LUGARES.janela.vagas.findIndex((_, k) => !ocupado('janela', k));
+      if (i >= 0) { vaiPara(g, 'janela', i); g.motivo = 'nada'; return; }
+    }
+    if (quer === 'social') { // procura alguém que TAMBÉM esteja a fim de conversar, de preferência um amigo
+      const cand = AG.filter((o) => o !== g && livre(o) && o.v.social * o.soc + amizade(g, o) * 12 > 30)
+        .sort((a, b) => (b.v.social * b.soc + amizade(g, b) * 12) - (a.v.social * a.soc + amizade(g, a) * 12));
+      if (cand.length) return conversa(g, cand[0]);
+    }
+    if (quer === 'diversao') { // jogo de dupla só se outro também quiser brincar
+      for (const jogo of ['sinuca', 'pingpong'].sort((a, b) => (g.gosta[b] || 0) - (g.gosta[a] || 0))) {
+        if (!g.gosta[jogo] || ocupado(jogo, 0) || ocupado(jogo, 1)) continue;
+        const par = AG.find((o) => o !== g && livre(o) && o.v.diversao > 35 && o.gosta[jogo]);
+        if (par) return joga(g, par, jogo);
+      }
+    }
+    // sozinho: entre os lugares que matam essa vontade, o que ele mais gosta e está livre
+    const ops = OPCOES[quer].filter((l) => l !== 'conversa' && !(l === 'sinuca' || l === 'pingpong'))
+      .sort((a, b) => (g.gosta[b] || 0) - (g.gosta[a] || 0));
+    for (const l of ops) {
+      if (l === 'gato') { g.faz_agora = 'gato'; g.motivo = quer; g.alvo = [gato.x - 6, gato.y]; return; }
+      const i = (LUGARES[l].vagas || []).findIndex((_, k) => !ocupado(l, k));
+      if (i >= 0) { vaiPara(g, l, i); g.motivo = quer; return; }
+    }
+    const i = LUGARES.janela.vagas.findIndex((_, k) => !ocupado('janela', k));
+    if (i >= 0) vaiPara(g, 'janela', i);
+  }
+  // ---------- conversa: o assunto sai do trabalho real de cada um (o que está no status) e de como cada um está
+  function papo(a, b) {
+    const da = (dados[a.id] || {}).detalhe, db = (dados[b.id] || {}).detalhe, linhas = [];
+    const reage = (quem, de) => quem.id === 'revisores' && de.id === 'roteirista' ? 'manda que eu reviso 🔎' : quem.id === 'financeiro' ? 'isso vende? 💰'
+      : quem.id === 'social' ? 'vou ver se bombou 📈' : quem.id === 'estudio' && de.id === 'roteirista' ? 'já tô aquecendo o render 🎬' : quem.id === 'analista' ? 'depois me passa os números 📊' : 'boa! 👏';
+    if (da) { linhas.push([a, 'acabei: ' + curto(da)]); linhas.push([b, reage(b, a)]); }
+    else linhas.push([a, 'e aí, ' + b.nome.split(' ')[0] + '?']);
+    if (db) { linhas.push([b, 'o meu: ' + curto(db)]); linhas.push([a, reage(a, b)]); }
+    for (const [p, o] of [[a, b], [b, a]]) {
+      if (p.v.cansaco > 55) linhas.push([p, 'tô moído hoje 😮‍💨']), linhas.push([o, 'pega um café ☕']);
+      else if (p.v.fome > 55) linhas.push([p, 'bateu uma fome…']), linhas.push([o, 'tem pão de queijo lá 🧀']);
+    }
+    const h = hora();
+    if (linhas.length < 4) linhas.push([b, h >= 17 && h < 19 ? 'viu o pôr do sol? 🌇' : h >= 19 || h < 6 ? 'a cidade acesa tá linda 🌃' : 'que dia bonito lá fora ☀️'], [a, 'demais']);
+    if (gato.dorme) linhas.push([a, 'o gato dormiu de novo 😹']);
+    return linhas;
+  }
+  function conversa(a, b) {
+    const mx = 40 + rnd(70), my = 145 + rnd(25);
+    a.par = b; b.par = a; a.faz_agora = b.faz_agora = 'conversa'; a.motivo = b.motivo = 'social';
+    a.alvo = [mx - 5, my]; b.alvo = [mx + 5, my];
+    a.roteiro = b.roteiro = { linhas: papo(a, b), i: 0, prox: 0 };
+  }
+  function joga(a, b, jogo) {
+    vaiPara(a, jogo, 0); vaiPara(b, jogo, 1); a.par = b; b.par = a; a.motivo = b.motivo = 'diversao';
+    const falas = jogo === 'sinuca' ? ['sua vez', 'caçapa do canto…', 'entrou! 🎱', 'sorte 😤', 'revanche?', 'bora'] : ['saque!', 'ponto! 🏓', 'quase…', 'essa foi minha', 'mais uma?', 'bora'];
+    a.roteiro = b.roteiro = { linhas: falas.map((f, k) => [k % 2 ? b : a, f]), i: 0, prox: 0, loop: true };
+  }
+  function fala(g, txt) { g.fala = txt; g.falaAte = t + 22; }
+  function separa(g) { const o = g.par; if (o) { o.par = null; o.roteiro = null; o.fala = ''; o.faz_agora = null; } g.par = null; g.roteiro = null; g.fala = ''; }
   function passo(g, dt) {
-    if (trab(g)) { g.par && (g.par.par = null, g.par.ate = t); g.par = null; g.faz_agora = 'mesa'; g.alvo = [g.mesa[0] + 12, g.mesa[1] + 22]; }
-    else if (g.faz_agora === 'mesa' || !g.faz_agora || t > g.ate) { if (g.par) { g.par.par = null; g.par = null; } escolhe(g); }
+    // as vontades mudam com o tempo: trabalhar cansa e dá fome; parado, sobe a vontade de conversar e de brincar
+    const V = g.v, sobe = (k, x) => { V[k] = Math.max(0, Math.min(100, V[k] + x * dt)); };
+    if (!g.robo) { if (trab(g)) { sobe('cansaco', 0.9); sobe('fome', 0.6); sobe('social', 0.5 * g.soc); sobe('diversao', 0.5); } else { sobe('fome', 0.18); sobe('social', 0.25 * g.soc); sobe('diversao', 0.22); } }
+    if (trab(g)) { if (g.par) separa(g); g.faz_agora = 'mesa'; g.alvo = [g.mesa[0] + 12, g.mesa[1] + 22]; }
+    else if (!g.faz_agora || g.faz_agora === 'mesa') decide(g);
     const [ax, ay] = g.alvo || [g.x, g.y];
     const dx = ax - g.x, dy = ay - g.y, d = Math.hypot(dx, dy);
     if (d > 0.6) { const v = Math.min(d, 15 * dt); g.x += dx / d * v; g.y += dy / d * v; g.dir = dx >= 0 ? 1 : -1; g.modo = 'anda'; return; }
     g.x = ax; g.y = ay;
     const f = g.faz_agora;
     g.modo = f === 'mesa' ? 'senta' : f === 'sinuca' ? 'taco' : f === 'lanche' ? 'come' : f === 'pingpong' ? 'raquete' : 'parado';
-    if (f === 'conversa' && g.par) g.dir = g.par.x > g.x ? 1 : -1;
-    if (f === 'gato') { g.dir = gato.x > g.x ? 1 : -1; gato.dorme = false; }
-    if (f !== 'mesa' && t > g.emoteAte && Math.random() < 0.2 * dt) {
-      const lista = f === 'conversa' ? ['💬', '😂', 'kkkk', 'viu o Reel?', '👍'] : (LUGARES[f] || { emotes: ['🙂'] }).emotes;
-      emote(g, lista[rnd(lista.length)]);
+    if (f === 'mesa') return;
+    if (g.par) g.dir = g.par.x > g.x ? 1 : -1;
+    if (f === 'gato') { g.dir = gato.x > g.x ? 1 : -1; gato.dorme = false; g.alvo = [gato.x - 6, gato.y]; }
+    if (f === 'janela') g.dir = 1;
+    for (const [k, x] of Object.entries(MATA[f] || {})) sobe(k, x); // estar no lugar mata a vontade
+    // conversa/jogo: falam em turnos, só quando os dois já chegaram
+    const R0 = g.roteiro, o = g.par;
+    if (R0 && o && Math.hypot(o.x - o.alvo[0], o.y - o.alvo[1]) < 1 && t >= R0.prox && R0.linhas.length) {
+      const [quem, txt] = R0.linhas[R0.i % R0.linhas.length];
+      if (quem === g) { fala(g, txt); R0.i++; R0.prox = t + 26; if (!R0.loop && R0.i >= R0.linhas.length) R0.fim = true; }
     }
+    // vai embora quando a vontade passou (na dupla, quando os dois já estão satisfeitos ou o papo acabou)
+    const k = PRINCIPAL[f], satisfeito = k && V[k] < 12;
+    if (o) { if ((satisfeito && o.v[PRINCIPAL[o.faz_agora]] < 12) || (R0 && R0.fim && t > R0.prox + 10 && (satisfeito || V.social < 30))) { separa(g); g.faz_agora = null; } }
+    else if (satisfeito || (f === 'janela' && vontade(g)[1] > 30)) g.faz_agora = null;
   }
   function passoGato(dt) {
     if (AG.some((g) => g.faz_agora === 'gato' && Math.hypot(g.x - gato.x, g.y - gato.y) < 9)) return;
@@ -913,7 +988,7 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     let el = baloes[id];
     if (!txt) { if (el) { el.remove(); delete baloes[id]; } return; }
     if (!el) { el = baloes[id] = document.createElement('div'); box.appendChild(el); }
-    const c = 'bal ' + (cls || ''), l = (px / W * 100).toFixed(1) + '%', tp = ((py + OFF) / H * 100).toFixed(1) + '%';
+    const c = 'bal ' + (cls || ''), l = (Math.max(18, Math.min(W - 18, px)) / W * 100).toFixed(1) + '%', tp = ((py + OFF) / H * 100).toFixed(1) + '%';
     if (el.className !== c) el.className = c; if (el.textContent !== txt) el.textContent = txt;
     if (el.style.left !== l) el.style.left = l; if (el.style.top !== tp) el.style.top = tp;
   }
@@ -934,7 +1009,7 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     for (const g of AG) {
       const a = dados[g.id] || {};
       if (g.modo === 'senta') balao(g.id, '', 0, 0); // o que está fazendo aparece na tela do computador (toque para ampliar)
-      else balao(g.id, t < g.emoteAte ? g.emote : '', g.x, g.y - 16, 'em');
+      else balao(g.id, g.par && t < g.falaAte ? g.fala : '', g.x, g.y - 16, 'em'); // balão só em interação entre dois
     }
   }
   // ---------- toque numa mesa ou num personagem: abre a tela do computador dele em tamanho grande
@@ -945,12 +1020,12 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     const a = dados[g.id] || {}, on = trab(g), av = parado(g);
     const m = String(a.progresso || '').match(/([0-9]+) *[/] *([0-9]+)/), pct = m && +m[2] ? Math.round(100 * Math.min(1, m[1] / m[2])) : null;
     const esc2 = (v) => String(v || '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
-    const fazAgora = on ? '' : (g.faz_agora && LUGARES[g.faz_agora] ? ({ sinuca: 'jogando sinuca 🎱', lanche: 'fazendo um lanche 🍩', cafe: 'tomando café ☕', sofa: 'vendo TV 📺', navegar: 'navegando na internet 🌐', fliperama: 'no fliperama 🕹️', tomada: 'carregando a bateria 🔋', pingpong: 'jogando pingue-pongue 🏓' })[g.faz_agora] : g.faz_agora === 'conversa' ? 'batendo papo 💬' : g.faz_agora === 'gato' ? 'fazendo carinho no gato 🐱' : 'dando uma volta');
+    const fazAgora = on ? '' : (g.faz_agora && LUGARES[g.faz_agora] ? ({ sinuca: 'jogando sinuca 🎱', lanche: 'fazendo um lanche 🍩', cafe: 'tomando café ☕', sofa: 'vendo TV 📺', navegar: 'navegando na internet 🌐', fliperama: 'no fliperama 🕹️', tomada: 'carregando a bateria 🔋', pingpong: 'jogando pingue-pongue 🏓' + (g.par ? ' com ' + g.par.nome : ''), sinuca: 'jogando sinuca 🎱' + (g.par ? ' com ' + g.par.nome : ''), janela: 'olhando a vista pela janela 🌇' })[g.faz_agora] : g.faz_agora === 'conversa' ? 'batendo papo com ' + (g.par ? g.par.nome : 'alguém') + ' 💬' : g.faz_agora === 'gato' ? 'fazendo carinho no gato 🐱' : 'dando uma volta');
     const div = document.createElement('div'); div.className = 'tela-g';
     div.innerHTML = '<div><div class="mon"><button class="x" aria-label="fechar">✕</button><div style="color:' + g.cor + ';font-weight:700;margin:0 0 6px">' + g.nome + (on ? ' · trabalhando' : ' · livre') + '</div><div class="scr">' +
       (on ? '<span style="color:' + g.cor + '">&gt;</span> ' + esc2(av ? 'parado? sem notícia desde ' + (a.em || '').slice(11) : (a.detalhe || g.faz)) + ' <span class="cur"></span>' +
             (pct != null ? '<div class="bar"><i style="width:' + pct + '%"></i></div><small>' + esc2(a.progresso) + ' · ' + pct + '%</small>' : (a.progresso ? '<br><small>' + esc2(a.progresso) + '</small>' : ''))
-          : '<span style="color:#8b949e">💤 tela desligada. Agora está ' + esc2(fazAgora || 'na área de lazer') + '.</span>' + (a.detalhe ? '<br><br><small>último trabalho: ' + esc2(a.detalhe) + '</small>' : '')) +
+          : '<span style="color:#8b949e">💤 tela desligada. Agora está ' + esc2(fazAgora || 'na área de lazer') + '.</span>' + (g.v ? '<br><br><small>como está: cansaço ' + Math.round(g.v.cansaco) + ' · fome ' + Math.round(g.v.fome) + ' · quer conversar ' + Math.round(g.v.social) + ' · quer brincar ' + Math.round(g.v.diversao) + '</small>' : '') + (a.detalhe ? '<br><br><small>último trabalho: ' + esc2(a.detalhe) + '</small>' : '')) +
       '<br><br><small style="color:#8b949e">' + esc2(g.faz) + ' · ' + esc2(g.quando) + (a.em ? ' · atualizado ' + esc2(a.em.slice(8, 10) + '/' + a.em.slice(5, 7) + ' ' + a.em.slice(11)) : '') + '</small></div></div><div class="pe"></div></div>';
     div.addEventListener('click', (ev) => { if (ev.target === div || ev.target.classList.contains('x')) div.remove(); });
     document.body.appendChild(div);
