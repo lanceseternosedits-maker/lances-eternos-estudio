@@ -20,12 +20,33 @@ def ler(p):
 
 
 itens, robo = [], []
+PUBS = (ler(IA / "painel" / "publicacoes.json") or {}).get("publicacoes", [])
+SIGLAS = {"ia", "ias", "pc", "tv", "app", "apps", "top", "dm", "ibm", "darpa", "ikea", "bmw", "nba", "3d", "usb", "gpt", "eliza", "pov", "pdf", "vfx"}
+NOMES = {n.lower(): n for n in "Claude ChatGPT Gemini Microsoft Windows Mac Apple Nintendo Google Kasparov Tay Deep Blue GitHub Instagram TikTok Canva Turing Bing Samsung Watson AlphaGo Sam Altman Nobel Sony PlayStation Linux Jarvis Sydney Chevrolet Dartmouth Jeopardy Nova York Brasil Switch".split()}
+def bonito(t):
+    """CAIXA ALTA → frase normal, mantendo siglas (IA, PC, TV) e nomes próprios."""
+    ws = []
+    for i, w in enumerate(t.lower().split()):
+        nu = w.strip(".,:!?()\"'")
+        if nu in SIGLAS: w = w.replace(nu, nu.upper())
+        elif nu in NOMES: w = w.replace(nu, NOMES[nu])
+        elif i == 0 or (ws and ws[-1][-1:] in "?!.:"): w = w[:1].upper() + w[1:]
+        ws.append(w)
+    return " ".join(ws)
 for d in sorted((IA / "posts").iterdir()):
     mr = ler(d / "meta.json")
     if d.is_dir() and mr.get("cta") and (d / "resposta_dm.txt").exists() and mr.get("status") != "negado":
         hq = (mr.get("horarios") or {}).get("instagram") or ""
-        robo.append({"palavra": mr["cta"].upper(), "pasta": d.name, "quando": hq if hq[:4].isdigit() else d.name[:10],
-                     "dm": (d / "resposta_dm.txt").read_text(encoding="utf-8").strip()})
+        import re as _re
+        mq = _re.match(r"(\d{2})/(\d{2})\s+(\d{2}:\d{2})", hq)
+        ano = (mr.get("data") or d.name)[:4]
+        quando = hq if hq[:4].isdigit() else (f"{ano}-{mq.group(2)}-{mq.group(1)} {mq.group(3)}" if mq else (mr.get("data") or d.name[:10]))
+        rot0 = ler(d / "roteiro.json"); seg0 = (rot0.get("segmentos") or [{}])[0]
+        tit = next((str(x) for x in ((rot0.get("capa") or {}).get("texto"), (seg0.get("etiqueta") or [None])[0], seg0.get("tag"), rot0.get("tese")) if x and len(str(x).split()) >= 2), "")
+        url = next((x.get("url") for x in PUBS if x.get("rede") == "instagram" and x.get("url") and x.get("data", "")[:16] == quando[:16]), "")
+        robo.append({"palavra": mr["cta"].upper(), "pasta": d.name, "quando": quando, "titulo": bonito(tit)[:90],
+                     "thumb": f"/capas/thumb-{d.name}.jpg" if (IA / "painel" / "capas" / f"thumb-{d.name}.jpg").exists() else "",
+                     "url": url, "dm": (d / "resposta_dm.txt").read_text(encoding="utf-8").strip()})
     m = ler(d / "meta.json")
     if not d.is_dir() or not m.get("cta") or m.get("status") or not (d / "resposta_dm.txt").exists():
         continue  # status presente = ainda depende do Vitor (roteiro/vídeo) ou negado

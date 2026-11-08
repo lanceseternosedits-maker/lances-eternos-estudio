@@ -242,38 +242,44 @@ async function paginaLinks() {
   const agora = agoraBR();
   const P = R.produto || {};
   const vivos = (R.posts || []).filter((p) => p.quando <= agora).sort((a, b) => (a.quando < b.quando ? 1 : -1));
+  const ultimos = vivos.filter((p) => p.thumb && p.quando.length > 10 && p.titulo).slice(0, 3);
   const linkar = (t) => escH(t).replace(/https?:\/\/[^\s<]+/g, (u) => `<a href="${u}" target="_blank" rel="noopener">${u}</a>`);
-  const comprar = P.checkout || P.landing || "/kit";
-  const produto = P.nome ? `<div class="prod"><span class="tag">🔥 À VENDA AGORA</span>
-<img src="${escH(P.capa || "/capas/kit-p1.jpg")}" alt="Capa do ${escH(P.nome)}"><h2>${escH(P.nome)}</h2><p>${escH(P.resumo || "")}</p>
-${P.preco ? `<div class="preco">R$ ${escH(P.preco)}</div><small>pagamento único · acesso na hora · garantia de 7 dias</small>` : ""}
-<a class="comprar" href="${escH(comprar)}">🛒 COMPRAR AGORA</a><a class="ver" href="/kit">Ver tudo o que vem no kit →</a></div>` : "";
+  const card = (href, img, titulo, desc, selo = "", ext = false) => `<a class="card" href="${escH(href)}"${ext ? ' target="_blank" rel="noopener"' : ""}>
+<div class="im">${img}${selo ? `<span class="selo">${selo}</span>` : ""}</div><div class="tx"><b>${titulo}</b><p>${desc}</p></div></a>`;
+  const cards = [];
+  if (P.nome) cards.push(card("/kit", `<img src="${escH(P.capa || "/capas/kit-p1.jpg")}" alt="">`, `${escH(P.nome)}${P.preco ? " — R$ " + escH(P.preco) + " 🔥" : ""}`,
+    "10 assistentes prontos pra ChatGPT, Claude ou Gemini. Configure em 1 tarde.", "à venda"));
+  cards.push(card("#brindes", `<div class="ico" style="background:linear-gradient(135deg,#ffb347,#ff7a3d)">🎁</div>`, "Brindes grátis dos vídeos",
+    "Comentou uma palavra num Reel? Pegue o seu link aqui."));
+  for (const p of ultimos) cards.push(card(p.url || PERFIL, `<img src="${escH(p.thumb)}" alt="">`, escH(p.titulo),
+    `Vídeo de ${escH(p.quando.slice(8, 10) + "/" + p.quando.slice(5, 7))} · comenta ${escH(p.palavra)} e receba na DM`, "", true));
+  cards.push(card(PERFIL, `<div class="ico" style="background:linear-gradient(135deg,#6a4cff,#d14cff)">📲</div>`, "Siga o @iaem60s",
+    "A IA que trabalha por você, explicada em 60 segundos. Todo dia.", "", true));
   return new Response(`<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>IA em 60s · links</title><meta name="theme-color" content="#0f0d1d"><style>
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,sans-serif;background:#0f0d1d;color:#eceaf6;line-height:1.45}
-.w{max-width:520px;margin:0 auto;padding:26px 18px 50px}.topo{text-align:center;margin-bottom:18px}.av{width:72px;height:72px;border-radius:22px;margin:0 auto 8px;background:linear-gradient(135deg,#ff7a3d,#ffb347);display:grid;place-items:center;font-size:36px}
-.topo b{font-size:19px}.topo small{display:block;color:#9a96b0}
-.prod{position:relative;background:radial-gradient(500px 300px at 90% 0,#ff7a3d55,transparent 60%),#1b1830;border:2px solid #ff7a3d;border-radius:26px;padding:26px 20px 20px;text-align:center;box-shadow:0 20px 50px #ff7a3d33}
-.tag{position:absolute;top:-15px;left:50%;transform:translateX(-50%);background:#ff3d3d;color:#fff;font-weight:900;font-size:14px;letter-spacing:.06em;padding:6px 16px;border-radius:99px;white-space:nowrap;animation:pi 1.6s infinite}
-@keyframes pi{50%{transform:translateX(-50%) scale(1.06)}}
-.prod img{width:46%;border-radius:12px;transform:rotate(-3deg);box-shadow:0 16px 40px #000a;margin:6px 0 14px}.prod h2{margin:0;font-size:26px}.prod p{margin:6px 0 10px;color:#cfcbe3}
-.preco{font-size:52px;font-weight:900;background:linear-gradient(135deg,#ff7a3d,#ffb347);-webkit-background-clip:text;color:transparent;line-height:1}.prod small{color:#a9a4c2}
-.comprar{display:block;margin:16px 0 10px;background:linear-gradient(135deg,#ff7a3d,#ffb347);color:#1b1206;text-decoration:none;font-weight:900;font-size:20px;padding:17px;border-radius:16px;box-shadow:0 10px 26px #ff7a3d66}
-.ver{color:#ffb98f;text-decoration:none;font-weight:700;font-size:15px}
-h3{margin:38px 0 4px;font-size:19px}.dica{color:#9a96b0;font-size:14px;margin:0 0 12px}
-input{width:100%;padding:13px 14px;border-radius:14px;border:1px solid #2e2a47;background:#1b1830;color:#fff;font-size:16px;margin-bottom:10px}
-details{background:#1b1830;border:1px solid #2a2741;border-radius:14px;margin:8px 0;padding:0 14px}summary{padding:14px 0;font-weight:800;cursor:pointer;display:flex;justify-content:space-between}summary small{color:#8f8aa8;font-weight:500}
-pre{white-space:pre-wrap;font:14px/1.5 system-ui,sans-serif;margin:0 0 14px;color:#dcd8ee}pre a{color:#ffb98f;word-break:break-all}
-footer{text-align:center;color:#6f6a88;font-size:12px;margin-top:30px}
-</style></head><body><div class="w"><div class="topo"><div class="av">🤖</div><b>IA em 60s</b><small>@iaem60s · a IA que trabalha por você</small></div>
-${produto}
-<h3>🎁 Brindes grátis dos vídeos</h3><p class="dica">Comentou uma palavra num Reel? Digite ela aqui e pegue o seu link.</p>
+<title>@iaem60s · links</title><meta name="theme-color" content="#f6f4f1"><meta property="og:image" content="/capas/kit-p1.jpg"><style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:#f6f4f1;color:#16141f;line-height:1.4}
+.w{max-width:560px;margin:0 auto;padding:34px 16px 50px}.topo{text-align:center;margin-bottom:26px}
+.av{width:104px;height:104px;border-radius:50%;margin:0 auto 12px;background:linear-gradient(135deg,#ff7a3d,#ffb347);display:grid;place-items:center;font-size:52px;box-shadow:0 8px 24px #ff7a3d44;border:4px solid #fff}
+.topo b{font-size:21px}.topo small{display:block;color:#7b7690;margin-top:4px;font-size:14.5px}
+.card{display:flex;min-height:132px;background:#fff;border-radius:22px;overflow:hidden;text-decoration:none;color:inherit;margin-bottom:14px;box-shadow:0 2px 10px #0000000f,0 10px 30px #00000008;transition:transform .15s}
+.card:active{transform:scale(.98)}.im{position:relative;width:38%;max-width:180px;flex:none;background:#eee}.im img{width:100%;height:100%;object-fit:cover;display:block;position:absolute;inset:0}
+.ico{position:absolute;inset:0;display:grid;place-items:center;font-size:52px}
+.selo{position:absolute;left:8px;top:8px;background:#ff3d3d;color:#fff;font-weight:800;font-size:12.5px;padding:4px 10px;border-radius:8px;text-transform:lowercase}
+.tx{padding:16px 16px 16px 18px;display:flex;flex-direction:column;justify-content:center}.tx b{font-size:17.5px;line-height:1.25}.tx p{margin:6px 0 0;color:#6d6880;font-size:14.5px}
+h3{margin:34px 4px 4px;font-size:19px}.dica{color:#7b7690;font-size:14px;margin:0 4px 12px}
+input{width:100%;padding:14px 16px;border-radius:16px;border:1px solid #e3ded6;background:#fff;color:#16141f;font-size:16px;margin-bottom:10px}
+details{background:#fff;border-radius:16px;margin:8px 0;padding:0 16px;box-shadow:0 1px 6px #0000000d}summary{padding:15px 0;font-weight:800;cursor:pointer;display:flex;justify-content:space-between}
+summary small{color:#9a96ad;font-weight:500}pre{white-space:pre-wrap;font:14.5px/1.5 system-ui,sans-serif;margin:0 0 15px;color:#33304a}pre a{color:#d4571d;word-break:break-all}
+footer{text-align:center;color:#a19cb3;font-size:12px;margin-top:30px}
+</style></head><body><div class="w"><div class="topo"><div class="av">🤖</div><b>@iaem60s</b><small>IA que trabalha por você, explicada em 60 segundos</small></div>
+${cards.join("")}
+<h3 id="brindes">🎁 Brindes grátis dos vídeos</h3><p class="dica">Digite a palavra que você comentou e pegue o seu link.</p>
 <input id="q" placeholder="Digite a palavra (ex.: TV, VOZ, DESIGN)" autocomplete="off">
 ${vivos.map((p) => `<details id="${escH(sem(p.palavra))}" data-p="${escH(sem(p.palavra))}"><summary>💬 ${escH(p.palavra)} <small>${escH(p.quando.slice(8, 10) + "/" + p.quando.slice(5, 7))}</small></summary><pre>${linkar(p.dm)}</pre></details>`).join("")}
 <footer>Perfil independente, sem ligação com as empresas citadas.</footer></div>
 <script>const q=document.getElementById('q'),ds=[...document.querySelectorAll('details')];
 q.oninput=()=>{const v=q.value.normalize('NFD').replace(/[̀-ͯ]/g,'').toUpperCase().trim();ds.forEach(d=>{const ok=!v||d.dataset.p.includes(v);d.style.display=ok?'':'none';d.open=!!v&&d.dataset.p===v})};
-const h=decodeURIComponent(location.hash.slice(1));if(h){const d=document.getElementById(h);if(d){d.open=true;setTimeout(()=>d.scrollIntoView({behavior:'smooth',block:'center'}),200)}}</script>
+const h=decodeURIComponent(location.hash.slice(1));if(h&&h!=='brindes'){const d=document.getElementById(h);if(d){d.open=true;setTimeout(()=>d.scrollIntoView({behavior:'smooth',block:'center'}),200)}}</script>
 </body></html>`, { headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-cache" } });
 }
 
@@ -458,8 +464,8 @@ function paginaEntrar(msg = "") {
 <script>document.getElementById('pedir').onclick=async()=>{const st=document.getElementById('st');st.textContent='Enviando…';
 const r=await fetch('/api/acesso',{method:'POST'});const j=await r.json().catch(()=>({}));st.textContent=r.ok?'✅ Enviado! Veja a notificação no celular.':'⚠️ '+(j.erro||'não deu certo')}</script>`);
 }
-const LIVRE_PAINEL = /^(ig\/webhook|entrar|sw\.js|manifest\.json|icone-(180|512)\.png|links|kit|privacidade|ig\/callback|capas\/kit-[\w.-]+\.jpg)$/;
-const LIVRE_DOMINIO = /^(ig\/webhook|links|kit|privacidade|ig\/callback|capas\/kit-[\w.-]+\.jpg|icone-(180|512)\.png)$/;
+const LIVRE_PAINEL = /^(ig\/webhook|entrar|sw\.js|manifest\.json|icone-(180|512)\.png|links|kit|privacidade|ig\/callback|capas\/(kit|thumb)-[\w.-]+\.jpg)$/;
+const LIVRE_DOMINIO = /^(ig\/webhook|links|kit|privacidade|ig\/callback|capas\/(kit|thumb)-[\w.-]+\.jpg|icone-(180|512)\.png)$/;
 
 // ---------------------------------------------------------------- API
 async function api(req, env, rota) {
