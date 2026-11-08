@@ -1,0 +1,16 @@
+Comenta EXEMPLO que eu te mando o modelo pronto pra IA escrever do seu jeito. ✍️
+
+A IA nunca escreve do seu jeito? É porque você não mostrou como.
+
+Ela é ótima em copiar padrão: mostra um exemplo e ela pega o tom. Em 2020, o artigo do GPT-3 ("Language Models are Few-Shot Learners") mostrou que, com poucos exemplos no pedido, o modelo faz tarefas novas sem treino nenhum. E hoje os próprios manuais das IAs recomendam fazer isso.
+
+O truque: cola 2 ou 3 mensagens que você já escreveu e pede "escreve a próxima nesse estilo".
+
+💬 Comenta EXEMPLO e me segue. Deixa o like e manda pra aquele amigo que acha que a IA escreve "com cara de robô".
+
+Qual mensagem do seu trabalho você mais repete? 👇
+
+Fontes: Brown et al., 2020 (arXiv 2005.14165) e guia oficial de prompts da Anthropic.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #inteligenciaartificial #chatgpt #claude #prompt #dicasdeia #produtividade
