@@ -1,0 +1,13 @@
+Comenta PEÇA que eu te mando o mapa das 15 peças + os 15 prompts. 🧩
+
+A IA faz seu app em 2 minutos. Mas pra virar um negócio de verdade faltam 15 peças:
+servidor, domínio, banco de dados, login, senha, código no celular, pagamento, aviso automático, e-mail, conexão com outros apps, IA atendendo, backup, escala e o vigia que avisa quando cai.
+
+💬 Comenta PEÇA e me segue. Salva pra quando for criar o seu.
+
+Qual peça você não conhecia? 👇
+
+Fontes: MDN Web Docs (Mozilla) e documentação da Stripe.
+Animação e voz feitas com IA. Perfil independente.
+
+#ia #claude #chatgpt #app #programacao #tecnologia #empreendedorismo

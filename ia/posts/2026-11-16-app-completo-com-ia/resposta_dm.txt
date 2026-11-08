@@ -1,0 +1,23 @@
+Opa! Aqui está o mapa 🧩
+
+As 15 peças de um app de verdade:
+APP → DEPLOY → DOMÍNIO → BANCO DE DADOS → LOGIN → SENHA → 2FA → PAGAMENTO → WEBHOOK → E-MAIL → API → IA NO APP → BACKUP → ESCALA → MONITORAMENTO
+
+Os 15 pedidos pra fazer com o Claude ou ChatGPT, em ordem:
+1. "faz um app de agendamento"
+2. "coloca meu app no ar"
+3. "quero meu app em meuapp.com"
+4. "salva os agendamentos"
+5. "cada cliente vê só os dele"
+6. "salva a senha do usuário"
+7. "protege a conta com código"
+8. "cobra 30 reais por mês"
+9. "me avisa quando pagarem"
+10. "manda lembrete 1 dia antes"
+11. "conecta com o Google Agenda"
+12. "põe uma IA pra atender clientes"
+13. "e se apagar tudo?"
+14. "e se 10 mil pessoas entrarem?"
+15. "me avisa se o app cair"
+
+Me segue que vem mais. 💜

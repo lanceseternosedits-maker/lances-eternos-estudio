@@ -31,7 +31,7 @@
  "agenda": null,
  "palavras": 79,
  "duracao_estimada_s": 28.2,
- "status": "roteiro aguardando aprovação",
+ "status": "pausado",
  "segmentos": [
   {
    "cena": "gancho",

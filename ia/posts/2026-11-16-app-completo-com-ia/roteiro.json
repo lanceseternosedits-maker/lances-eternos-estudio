@@ -1,0 +1,202 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo de quem conta algo empolgante, ágil e fluido, sem pausas longas (cerca de 2,8 palavras por segundo)",
+ "formato": "pecas_longo",
+ "teste": "Vitor (08/11): testar 1 vídeo longo com a cadeia inteira em vez de 15 curtos",
+ "categoria": "como_funciona",
+ "chave": "PEÇA",
+ "tese": "AS 15 PEÇAS DE UM APP DE VERDADE",
+ "conceito": "um estúdio dark com neon (roxo e ciano, piso de vidro escuro refletindo as luzes, mesa flutuante, telas holográficas). O mascote usa moletom com capuz, fones e óculos de realidade aumentada. O app é um holograma no centro da sala: começa como um único cubo de luz e, a cada episódio, ganha um módulo neon novo encaixado e ligado por linhas de luz (dados correndo como partículas). No último, o holograma vira uma \"cidade\" de módulos pulsando: o app completo.  Barra de progresso fixa no rodapé da área segura (15 bolinhas que acendem) e selo PEÇA · NOME · N/15 trocando a cada peça; o holograma ganha um módulo por peça.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal + selo PEÇA · NOME · N/15",
+  "contador": "barra de progresso 15 bolinhas",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "f) zoom atravessando uma tela",
+  "camera": "d) órbita lenta em volta do holograma",
+  "fechamento": "holograma completo pulsando + COMENTA PEÇA",
+  "tipografia": "a) Space Grotesk + JetBrains Mono no terminal",
+  "som": "trilha eletrônica + bipe a cada peça",
+  "mascote": "moletom, fones e óculos AR; ação: montar o holograma com as mãos"
+ },
+ "brinde": "mapa das 15 peças + os 15 prompts",
+ "fontes": [
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server",
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+  "https://developer.mozilla.org/en-US/docs/Glossary/DNS",
+  "https://developer.mozilla.org/en-US/docs/Glossary/Hash_function",
+  "https://docs.stripe.com/webhooks",
+  "https://docs.stripe.com/security"
+ ],
+ "prova_viral": "Formato 4 (referência @destravandosaas, 08/11): série das peças de um SaaS com Reel de 970 mil views e 17,5 mil seguidores em ~1 semana. Teste do Vitor: tudo num vídeo longo.",
+ "obs": "Passa do limite de 35 s do checar.py de propósito (teste aprovado pelo Vitor): gravar checagem_aceita no meta ao produzir. Instagram aceita Reel de até 3 min; TikTok até 10 min. Depois do teste, o mesmo material pode virar 15 cortes curtos.",
+ "polemica": false,
+ "agenda": null,
+ "palavras": 333,
+ "duracao_estimada_s": 118.9,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "AS 15 PEÇAS DE UM APP DE VERDADE",
+   "fala": "A IA fez meu app em dois minutos. Mas pra ele virar um negócio de verdade, faltavam quinze peças. Vou te mostrar todas, rapidinho.",
+   "legenda": "A IA fez meu app em dois minutos. Mas pra ele virar um negócio de verdade, faltavam quinze peças. Vou te mostrar todas, rapidinho.",
+   "sfx": [],
+   "terminal": "> faz um app de agendamento",
+   "selo": "PEÇA · APP",
+   "etiqueta": [
+    "AS 15 PEÇAS DE UM APP DE VERDADE",
+    "FEITO COM IA",
+    "EM 2 MINUTOS"
+   ]
+  },
+  {
+   "cena": "p01",
+   "tag": "",
+   "fala": "Peça um: o app. Pronto e lindo, só que ele só existe no seu computador. Desligou o PC, sumiu.",
+   "legenda": "Peça um: o app. Pronto e lindo, só que ele só existe no seu computador. Desligou o PC, sumiu.",
+   "sfx": [],
+   "terminal": "> faz um app de agendamento",
+   "selo": "PEÇA · APP · 1/15"
+  },
+  {
+   "cena": "p02",
+   "tag": "",
+   "fala": "Peça dois: o servidor. É mudar o app pra um computador que nunca desliga, ligado vinte e quatro horas.",
+   "legenda": "Peça dois: o servidor. É mudar o app pra um computador que nunca desliga, ligado vinte e quatro horas.",
+   "sfx": [],
+   "terminal": "> coloca meu app no ar",
+   "selo": "PEÇA · DEPLOY · 2/15"
+  },
+  {
+   "cena": "p03",
+   "tag": "",
+   "fala": "Peça três: o domínio. Em vez de um número que ninguém decora, um nome: meuapp ponto com.",
+   "legenda": "Peça três: o domínio. Em vez de um número que ninguém decora, um nome: meuapp ponto com.",
+   "sfx": [],
+   "terminal": "> quero meu app em meuapp.com",
+   "selo": "PEÇA · DOMÍNIO · 3/15"
+  },
+  {
+   "cena": "p04",
+   "tag": "",
+   "fala": "Peça quatro: o banco de dados. Sem ele, o app esquece tudo. É o armário onde cada informação tem sua gaveta.",
+   "legenda": "Peça quatro: o banco de dados. Sem ele, o app esquece tudo. É o armário onde cada informação tem sua gaveta.",
+   "sfx": [],
+   "terminal": "> salva os agendamentos",
+   "selo": "PEÇA · BANCO DE DADOS · 4/15"
+  },
+  {
+   "cena": "p05",
+   "tag": "",
+   "fala": "Peça cinco: o login. O app precisa saber quem é você antes de abrir a sua gaveta.",
+   "legenda": "Peça cinco: o login. O app precisa saber quem é você antes de abrir a sua gaveta.",
+   "sfx": [],
+   "terminal": "> cada cliente vê só os dele",
+   "selo": "PEÇA · LOGIN · 5/15"
+  },
+  {
+   "cena": "p06",
+   "tag": "",
+   "fala": "Peça seis: a senha. App sério nunca guarda sua senha. Guarda uma versão embaralhada, que não dá pra desfazer.",
+   "legenda": "Peça seis: a senha. App sério nunca guarda sua senha. Guarda uma versão embaralhada, que não dá pra desfazer.",
+   "sfx": [],
+   "terminal": "> salva a senha do usuário",
+   "selo": "PEÇA · SENHA · 6/15"
+  },
+  {
+   "cena": "p07",
+   "tag": "",
+   "fala": "Peça sete: o código no celular. Se a senha vazar, essa é a segunda chave que o ladrão não tem.",
+   "legenda": "Peça sete: o código no celular. Se a senha vazar, essa é a segunda chave que o ladrão não tem.",
+   "sfx": [],
+   "terminal": "> protege a conta com código",
+   "selo": "PEÇA · 2FA · 7/15"
+  },
+  {
+   "cena": "meio",
+   "tag": "",
+   "fala": "Tá gostando? Comenta PEÇA que eu te mando o mapa das quinze, com o prompt de cada uma.",
+   "legenda": "Tá gostando? Comenta PEÇA que eu te mando o mapa das quinze, com o prompt de cada uma.",
+   "sfx": []
+  },
+  {
+   "cena": "p08",
+   "tag": "",
+   "fala": "Peça oito: o pagamento. O app não guarda seu cartão. Quem guarda é a empresa de pagamento. O app só recebe o pago.",
+   "legenda": "Peça oito: o pagamento. O app não guarda seu cartão. Quem guarda é a empresa de pagamento. O app só recebe o pago.",
+   "sfx": [],
+   "terminal": "> cobra 30 reais por mês",
+   "selo": "PEÇA · PAGAMENTO · 8/15"
+  },
+  {
+   "cena": "p09",
+   "tag": "",
+   "fala": "Peça nove: o aviso automático. Em vez de perguntar toda hora se já pagaram, o app é avisado na hora.",
+   "legenda": "Peça nove: o aviso automático. Em vez de perguntar toda hora se já pagaram, o app é avisado na hora.",
+   "sfx": [],
+   "terminal": "> me avisa quando pagarem",
+   "selo": "PEÇA · WEBHOOK · 9/15"
+  },
+  {
+   "cena": "p10",
+   "tag": "",
+   "fala": "Peça dez: o e-mail. Lembrete um dia antes, mandado sozinho, sem cair no spam.",
+   "legenda": "Peça dez: o e-mail. Lembrete um dia antes, mandado sozinho, sem cair no spam.",
+   "sfx": [],
+   "terminal": "> manda lembrete 1 dia antes",
+   "selo": "PEÇA · E-MAIL · 10/15"
+  },
+  {
+   "cena": "p11",
+   "tag": "",
+   "fala": "Peça onze: a conexão com outros apps. É a tomada que liga seu app ao Google Agenda, por exemplo.",
+   "legenda": "Peça onze: a conexão com outros apps. É a tomada que liga seu app ao Google Agenda, por exemplo.",
+   "sfx": [],
+   "terminal": "> conecta com o Google Agenda",
+   "selo": "PEÇA · API · 11/15"
+  },
+  {
+   "cena": "p12",
+   "tag": "",
+   "fala": "Peça doze: a IA dentro do app, respondendo seus clientes vinte e quatro horas, com as suas regras.",
+   "legenda": "Peça doze: a IA dentro do app, respondendo seus clientes vinte e quatro horas, com as suas regras.",
+   "sfx": [],
+   "terminal": "> põe uma IA pra atender clientes",
+   "selo": "PEÇA · IA NO APP · 12/15"
+  },
+  {
+   "cena": "p13",
+   "tag": "",
+   "fala": "Peça treze: o backup. Uma cópia guardada em outro lugar. Deu problema, volta tudo como estava.",
+   "legenda": "Peça treze: o backup. Uma cópia guardada em outro lugar. Deu problema, volta tudo como estava.",
+   "sfx": [],
+   "terminal": "> e se apagar tudo?",
+   "selo": "PEÇA · BACKUP · 13/15"
+  },
+  {
+   "cena": "p14",
+   "tag": "",
+   "fala": "Peça catorze: a escala. Chegou muita gente, o app vira vários. Acalmou, volta a ser um.",
+   "legenda": "Peça catorze: a escala. Chegou muita gente, o app vira vários. Acalmou, volta a ser um.",
+   "sfx": [],
+   "terminal": "> e se 10 mil pessoas entrarem?",
+   "selo": "PEÇA · ESCALA · 14/15"
+  },
+  {
+   "cena": "p15",
+   "tag": "",
+   "fala": "Peça quinze: o vigia. O app avisa você quando cai, antes do cliente reclamar.",
+   "legenda": "Peça quinze: o vigia. O app avisa você quando cai, antes do cliente reclamar.",
+   "sfx": [],
+   "terminal": "> me avisa se o app cair",
+   "selo": "PEÇA · MONITORAMENTO · 15/15"
+  },
+  {
+   "cena": "cta",
+   "tag": "",
+   "fala": "Agora sim: um app de verdade. Comenta PEÇA que eu te mando o mapa e os quinze prompts.",
+   "legenda": "Agora sim: um app de verdade. Comenta PEÇA que eu te mando o mapa e os quinze prompts.",
+   "sfx": []
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "data": null,
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "formato 4 longo (cadeia inteira)",
+ "temas": [
+  "app-completo-com-ia"
+ ],
+ "fontes": [
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server",
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+  "https://developer.mozilla.org/en-US/docs/Glossary/DNS",
+  "https://developer.mozilla.org/en-US/docs/Glossary/Hash_function",
+  "https://docs.stripe.com/webhooks",
+  "https://docs.stripe.com/security"
+ ],
+ "prova_viral": "Formato 4 (referência @destravandosaas, 08/11): série das peças de um SaaS com Reel de 970 mil views e 17,5 mil seguidores em ~1 semana. Teste do Vitor: tudo num vídeo longo.",
+ "cta": "PEÇA",
+ "polemica": false,
+ "status": "roteiro aguardando aprovação"
+}
