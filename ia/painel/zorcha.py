@@ -48,7 +48,7 @@ if rep:
 for nome, palavra, quando, dm in itens:
     out += [f"## {palavra} · {quando}", f"Post: `{nome}`", "", "```", dm, "```", ""]
 kit = ler(IA / "produtos" / "assistente-pessoal" / "kit.json")
-SITE = "https://painel-iaem60s.vgofredousa.workers.dev"
+SITE = "https://iaem60s.com"
 if kit.get("checkout"):
     dm_kit = (f"Opa! Aqui está o Super Assistente de IA 👇\n\n10 assistentes prontos (contas, cardápio, revisor, treino, inglês, agenda, estudos, "
               f"atendimento, viagem e detector de golpe) + as 6 alavancas que turbinam qualquer IA + 10 comandos turbo. PDF de 20 páginas.\n\n"

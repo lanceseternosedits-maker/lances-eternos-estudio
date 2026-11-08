@@ -4,7 +4,7 @@
 // Web Push padrão (VAPID + aes128gcm, RFC 8291/8292). A cada 5 min (cron) lê painel/pendentes.json e avisa
 // cada vídeo novo em "vídeo aguardando aprovação". Segredo VAPID_PRIVADA (JWK) e VAPID_PUBLICA ficam só no Worker.
 const BASE = "https://raw.githubusercontent.com/lanceseternosedits-maker/lances-eternos-estudio/midia-ia/ia/painel/";
-const SITE = "https://painel-iaem60s.vgofredousa.workers.dev";
+const SITE = "https://iaem60s.com"; // domínio próprio (08/11); o painel-iaem60s.vgofredousa.workers.dev continua funcionando
 const TIPOS = { html: "text/html; charset=utf-8", json: "application/manifest+json", png: "image/png", jpg: "image/jpeg" };
 const json = (dados, status = 200) =>
   new Response(JSON.stringify(dados), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } });
@@ -371,7 +371,10 @@ async function api(req, env, rota) {
 export default {
   async fetch(req, env) {
     const url = new URL(req.url);
-    const caminho = url.pathname.replace(/^\/+/, "") || "index.html";
+    // domínio próprio: www → sem www; a raiz é a página da bio (o painel continua no workers.dev)
+    if (url.hostname === "www.iaem60s.com") return Response.redirect("https://iaem60s.com" + url.pathname + url.search, 301);
+    const publico = url.hostname === "iaem60s.com";
+    const caminho = url.pathname.replace(/^\/+/, "") || (publico ? "links" : "index.html");
     if (caminho.startsWith("api/")) return api(req, env, caminho.slice(4));
     // vídeo do post para assistir no app antes de aprovar (repassa Range para o player do iPhone)
     const mv = caminho.match(/^videos\/(\d{4}-\d{2}-\d{2}-[\w-]{1,80})\.mp4$/);

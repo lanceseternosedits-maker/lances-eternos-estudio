@@ -95,7 +95,7 @@ Opa! Aqui está o Super Assistente de IA 👇
 
 👉 https://pay.kiwify.com.br/sV3FJ2D
 
-Garantia de 7 dias. Detalhes: https://painel-iaem60s.vgofredousa.workers.dev/kit
+Garantia de 7 dias. Detalhes: https://iaem60s.com/kit
 ```
 
 ## LOCAL · 09/11 14:00

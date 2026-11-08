@@ -25,6 +25,12 @@
    "valor_usd": 0,
    "obs": "repositório público, grátis",
    "fonte": "conta GitHub"
+  },
+  {
+   "nome": "Domínio iaem60s.com (Cloudflare)",
+   "valor_usd": 0.87,
+   "obs": "cerca de US$ 10,44 por ano dividido por 12 (preço de custo da Cloudflare para .com; conferir o valor cobrado na fatura)",
+   "fonte": "comprado pelo Vitor em 08/11"
   }
  ],
  "por_uso": [
