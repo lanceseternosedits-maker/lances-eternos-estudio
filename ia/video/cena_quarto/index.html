@@ -354,7 +354,7 @@ window.setT3 = (t) => {
   // câmera
   let pl;
   if (seg.cena === 'gancho') pl = mistura(PLANO_QUARTO, PLANO_PC, ease((dt - 2.5) / 2.5));
-  else if (idx >= 0) { const alvo = planoEtapa(idx); const mo = MO[idx]; pl = t < mo.sai ? PLANO_PC : mistura(PLANO_PC, alvo, ease((t - mo.sai) / 0.85)); }
+  else if (idx >= 0) { const alvo = planoEtapa(idx); const mo = MO[idx]; pl = mistura(PLANO_PC, alvo, t < mo.sai ? 0 : ease((t - mo.sai) / 0.85)); }  // sempre cópia: o empurrão não pode alterar o plano original
   else if (seg.cena === 'meio') { const ant = planoEtapa(6); pl = { pos: ant.pos.clone().add(V(2, 3, 4)), olha: ant.olha }; }
   else { const z = ease(dt / 2); const geral = { pos: V(6, 26, 30), olha: V(8, 0, 2) }; pl = mistura(planoEtapa(14), geral, z); }
   // regras de câmera (skill claude-animated-shorts, 08/11): toda pausa 'anda' (empurrão lento), leve inclinação de 3-4°, nunca quadro parado
