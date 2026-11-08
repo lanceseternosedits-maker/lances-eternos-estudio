@@ -170,6 +170,10 @@ async function responderComentarios(env) {
   const token = await renovarToken(env, c);
   HOST = c.modo === "suat" ? FB : IG;
   const EU = c.modo === "suat" ? c.ig_id : "me";
+  if (c.webhook_ok === "1" && c.inscrito !== "1") { // liga o envio dos toques de DM para o webhook (1 vez)
+    try { await igFetch(`/${EU}/subscribed_apps?subscribed_fields=messages,messaging_postbacks`, token, { method: "POST" }); await setCfg(env, { inscrito: "1" }); }
+    catch (e) { await setCfg(env, { erro_inscricao: e.message.slice(0, 300) }); }
+  }
   const R = await respostas();
   const frases = R.respostas_publicas?.length ? R.respostas_publicas : ["Te respondi! 📩"];
   const dmAtivo = c.dm !== "0";
@@ -197,7 +201,9 @@ async function responderComentarios(env) {
         // 1) DM (resposta privada; precisa do acesso avançado da Meta)
         if (dmAtivo) {
           const dm = alvo.dm.length > 990 ? alvo.dm.slice(0, alvo.dm.lastIndexOf("\n", 850)) + `\n\nO resto tá aqui: ${linkBio}` : alvo.dm;
-          const corpoDM = JSON.stringify({ recipient: { comment_id: co.id }, message: { text: dm } });
+          // formato "Me Envie" (Vitor, 08/11): 1ª DM só com o botão; o material sai quando a pessoa toca (webhook) e se ela segue o perfil
+          const corpoDM = JSON.stringify({ recipient: { comment_id: co.id },
+            message: c.webhook_ok === "1" ? cartaoMeEnvie(alvo, co.username) : { text: dm } });
           try { await igFetch(`/${EU}/messages`, token, { method: "POST", body: corpoDM }); acao = "dm"; }
           catch (e) {
             erro = "dm: " + e.message;
@@ -213,6 +219,7 @@ async function responderComentarios(env) {
         if (acao === "erro" && /subrequests/i.test(erro)) { incompleto = true; break; } // não grava: tenta de novo na próxima rodada
         feitos++;
       }
+      if (acao.startsWith("dm") && c.webhook_ok === "1") acao = acao.replace("dm", "botao");
       await env.DB.prepare("INSERT OR IGNORE INTO comentarios (id, media_id, usuario, texto, palavra, pasta, acao, erro, em) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)")
         .bind(co.id, m.id, co.username || "", String(co.text || "").slice(0, 300), (tem ? alvo : post)?.palavra || "", (tem ? alvo : post)?.pasta || "", acao, erro.slice(0, 500), agoraBR()).run();
     }
@@ -275,7 +282,10 @@ async function paginaConectar(env, url) {
   const msg = url.searchParams.get("ok") ? "<p>✅ Instagram conectado.</p>" : url.searchParams.get("erro") ? `<p>⚠️ ${escH(url.searchParams.get("erro"))}</p>` : "";
   if (c.token) {
     const { results } = await env.DB.prepare("SELECT acao, COUNT(*) n FROM comentarios GROUP BY acao").all();
-    return PAGINA("Robô de comentários", `<h1>🤖 Robô de comentários</h1>${msg}<div class="b">Conectado como <b>@${escH(c.usuario)}</b><br>Última rodada: ${escH(c.ultima_rodada || "ainda não rodou")}<br>` +
+    if (!c.webhook_token) { c.webhook_token = aleatorio(12); await setCfg(env, { webhook_token: c.webhook_token }); }
+    const wh = `<div class="b"><h2>DM com botão "Me Envie"</h2>${c.webhook_ok === "1" ? "✅ Webhook ativo (" + escH(c.webhook_em || "") + ")" : "⏳ Falta configurar o webhook no app da Meta:"}<br>
+URL de callback: <b>https://iaem60s.com/ig/webhook</b><br>Token de verificação: <b>${escH(c.webhook_token)}</b><br><small>Campos: messages e messaging_postbacks.</small></div>`;
+    return PAGINA("Robô de comentários", `<h1>🤖 Robô de comentários</h1>${msg}${wh}<div class="b">Conectado como <b>@${escH(c.usuario)}</b><br>Última rodada: ${escH(c.ultima_rodada || "ainda não rodou")}<br>` +
       results.map((r) => `${escH(r.acao)}: <b>${r.n}</b>`).join(" · ") + `</div><p><small>${c.modo === "suat" ? "Token de usuário do sistema (não vence)." : "Token renova sozinho (vence em " + new Date(Number(c.expira)).toLocaleDateString("pt-BR") + ")."}${c.ultimo_erro ? "<br>Último erro: " + escH(c.ultimo_erro) : ""}</small></p>`);
   }
   const unificado = `<div class="b"><h2>Login unificado (apps novos)</h2><small>Cole o token gerado em "Gerar tokens de acesso" e o ID da conta do Instagram que aparece ao lado dela.</small>
@@ -302,6 +312,67 @@ async function callback(env, url) {
   return Response.redirect(SITE + "/conectar?ok=1", 302);
 }
 
+
+
+// ---------------------------------------------------------------- DM em etapas (formato "Me Envie" → segue? → material)
+const PERFIL = "https://www.instagram.com/iaem60s/";
+function cartaoMeEnvie(alvo, usuario) {
+  return { attachment: { type: "template", payload: { template_type: "generic", elements: [{
+    title: "Opa! Separei pra você 🤖",
+    subtitle: `Toca aqui embaixo que eu já te mando o de ${alvo.palavra}.`.slice(0, 80),
+    buttons: [{ type: "postback", title: "Me Envie 📩", payload: `ENVIAR|${alvo.palavra}|${alvo.pasta || ""}` }],
+  }] } } };
+}
+function cartaoSegue(palavra, pasta) {
+  return { attachment: { type: "template", payload: { template_type: "generic", elements: [{
+    title: "O material é pra seguidores 💜",
+    subtitle: "Segue a @iaem60s e toca em «Já te sigo».",
+    buttons: [{ type: "postback", title: "Já te sigo ✅", payload: `CONFERIR|${palavra}|${pasta}` },
+              { type: "web_url", title: "Abrir perfil", url: PERFIL }],
+  }] } } };
+}
+async function enviarDM(c, token, igsid, message) {
+  const EU = c.modo === "suat" ? c.ig_id : "me";
+  const corpo = JSON.stringify({ recipient: { id: igsid }, message });
+  try { return await igFetch(`/${EU}/messages`, token, { method: "POST", body: corpo }); }
+  catch (e) { if (c.modo === "suat") return igFetch("/me/messages", token, { method: "POST", body: corpo }); throw e; }
+}
+async function tratarToque(env, ev) {
+  const igsid = ev.sender && ev.sender.id;
+  const payload = (ev.postback && ev.postback.payload) || (ev.message && ev.message.quick_reply && ev.message.quick_reply.payload) || "";
+  const [tipo, palavra, pasta] = payload.split("|");
+  if (!igsid || !["ENVIAR", "CONFERIR"].includes(tipo)) return;
+  const c = await cfg(env);
+  if (!c.token || igsid === c.ig_id) return;
+  HOST = c.modo === "suat" ? FB : IG;
+  const R = await respostas();
+  const item = (R.posts || []).find((p) => p.pasta === pasta && sem(p.palavra) === sem(palavra))
+    || (R.globais || []).find((g) => sem(g.palavra) === sem(palavra)) || (R.posts || []).find((p) => sem(p.palavra) === sem(palavra));
+  if (!item) return;
+  let segue = true; // se a API não responder, entrega mesmo assim
+  try { const u = await igFetch(`/${igsid}?fields=is_user_follow_business,username`, c.token); if (u.is_user_follow_business === false) segue = false; } catch {}
+  let acao = "", erro = "";
+  try {
+    if (segue) { await enviarDM(c, c.token, igsid, { text: item.dm.slice(0, 990) }); acao = "material"; }
+    else { await enviarDM(c, c.token, igsid, cartaoSegue(palavra, pasta || "")); acao = "pediu_seguir"; }
+  } catch (e) { erro = e.message.slice(0, 300); acao = "erro"; }
+  await env.DB.prepare("CREATE TABLE IF NOT EXISTS dm_eventos (em TEXT, igsid TEXT, tipo TEXT, palavra TEXT, acao TEXT, erro TEXT)").run();
+  await env.DB.prepare("INSERT INTO dm_eventos VALUES (?, ?, ?, ?, ?, ?)").bind(agoraBR(), igsid, tipo, palavra || "", acao, erro).run();
+}
+async function webhook(req, env, ctx, url) {
+  const c = await cfg(env).catch(() => ({}));
+  if (req.method === "GET") {
+    if (url.searchParams.get("hub.mode") === "subscribe" && c.webhook_token && url.searchParams.get("hub.verify_token") === c.webhook_token) {
+      await setCfg(env, { webhook_ok: "1", webhook_em: agoraBR() });
+      return new Response(url.searchParams.get("hub.challenge") || "", { status: 200 });
+    }
+    return new Response("token inválido", { status: 403 });
+  }
+  let b = {};
+  try { b = await req.json(); } catch {}
+  for (const en of b.entry || []) for (const ev of en.messaging || []) ctx.waitUntil(tratarToque(env, ev).catch(() => {}));
+  return new Response("ok");
+}
 
 // ---------------------------------------------------------------- acesso ao painel (Vitor, 08/11: "painel não pode ficar aberto ao público")
 // Sem senha: o código de acesso chega por notificação no celular do Vitor (só quem tem o 🔔 ativado recebe).
@@ -369,8 +440,8 @@ function paginaEntrar(msg = "") {
 <script>document.getElementById('pedir').onclick=async()=>{const st=document.getElementById('st');st.textContent='Enviando…';
 const r=await fetch('/api/acesso',{method:'POST'});const j=await r.json().catch(()=>({}));st.textContent=r.ok?'✅ Enviado! Veja a notificação no celular.':'⚠️ '+(j.erro||'não deu certo')}</script>`);
 }
-const LIVRE_PAINEL = /^(entrar|sw\.js|manifest\.json|icone-(180|512)\.png|links|kit|privacidade|ig\/callback|capas\/kit-[\w.-]+\.jpg)$/;
-const LIVRE_DOMINIO = /^(links|kit|privacidade|ig\/callback|capas\/kit-[\w.-]+\.jpg|icone-(180|512)\.png)$/;
+const LIVRE_PAINEL = /^(ig\/webhook|entrar|sw\.js|manifest\.json|icone-(180|512)\.png|links|kit|privacidade|ig\/callback|capas\/kit-[\w.-]+\.jpg)$/;
+const LIVRE_DOMINIO = /^(ig\/webhook|links|kit|privacidade|ig\/callback|capas\/kit-[\w.-]+\.jpg|icone-(180|512)\.png)$/;
 
 // ---------------------------------------------------------------- API
 async function api(req, env, rota) {
@@ -439,7 +510,7 @@ async function api(req, env, rota) {
 }
 
 export default {
-  async fetch(req, env) {
+  async fetch(req, env, ctx) {
     const url = new URL(req.url);
     // iaem60s.com = público (bio e venda); painel.iaem60s.com e o workers.dev = painel com acesso
     if (url.hostname === "www." + DOMINIO) return Response.redirect("https://" + DOMINIO + url.pathname + url.search, 301);
@@ -455,6 +526,7 @@ export default {
       }
     }
     if (caminho === "api/acesso" && req.method === "POST") return pedirAcesso(env, url);
+    if (caminho === "ig/webhook") return webhook(req, env, ctx, url);
     if (caminho === "entrar") {
       await tabelasAcesso(env);
       let ok = false;
