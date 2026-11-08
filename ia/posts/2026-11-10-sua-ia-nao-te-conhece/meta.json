@@ -14,7 +14,7 @@
  "prova_viral": "Validação de produto (não é pauta de tendência): o formato 'IA que trabalha por você' é o que mais salva no perfil (5 skills 4,7% e TV 2,7% de salvamento, leitura de 07/11); configurar instruções/Projetos/Gems é recurso oficial das três IAs (fontes).",
  "cta": "ASSISTENTE",
  "polemica": false,
- "status": "roteiro aprovado",
+ "status": "vídeo aguardando aprovação",
  "produto": "kit-assistente-pessoal",
  "revisao": {
   "veredito": "ajustado",
@@ -55,5 +55,83 @@
  "horarios": {
   "instagram": "2026-11-12 08:00",
   "tiktok": "2026-11-12 08:00"
- }
+ },
+ "checagem": {
+  "em": "2026-11-08 21:01",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "32.6 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.94 palavras/s (96 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.0 LUFS, pico -0.8 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "3 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "918 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "ASSISTENTE",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "(sem item)",
+  "contador": "(sem contador)",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "d) virada de página",
+  "camera": "c) travelling lateral",
+  "fechamento": "e) página de caderno",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 02 + campainha de balcão e carimbo",
+  "mascote": "faixa de colete no topo e crachá no braço (fora do rosto); ação principal: preencher a ficha"
+ },
+ "capa": {
+  "objeto": "balao",
+  "texto": "Sua IA não sabe nada de você",
+  "selo": "ASSISTENTE"
+ },
+ "obs_producao": "Produzido em 08/11: módulo itens/sua-ia-nao-te-conhece.js, recepção de hotel (recepcionista que pede o nome toda vez, ficha do hóspede preenchida e carimbada CADASTRADO, na volta já sabe tudo), CTA ASSISTENTE no meio, página de caderno no fim. Voz 2.5 a 0,88×: 32,6 s."
 }
