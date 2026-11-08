@@ -1,0 +1,84 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energia de quem conta um segredo de tecnologia pra um amigo, ritmo ágil (cerca de 2,8 palavras por segundo)",
+ "formato": "pecas",
+ "serie": "Como um app é feito com IA",
+ "peca": 1,
+ "de": 15,
+ "categoria": "como_funciona",
+ "chave": "PEÇA",
+ "tese": "A IA FEZ MEU APP EM 2 MINUTOS",
+ "conceito": "Estúdio dark com neon roxo e ciano, piso de vidro escuro refletindo as luzes, mesa flutuante e telas holográficas. Mascote de moletom com capuz, fones e óculos de realidade aumentada. O app é um holograma no centro da sala que ganha um módulo neon por episódio, ligado por linhas de luz com partículas de dados. Neste episódio entra: o cubo central (o app) acende.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal (terminal no topo com o pedido) + selo PEÇA · NOME e contador N/15",
+  "nome": "(sem item)",
+  "contador": "N/15 no selo",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "f) zoom atravessando uma tela",
+  "camera": "d) órbita lenta em volta do holograma",
+  "fechamento": "holograma acende o módulo novo + 'na próxima peça: …'",
+  "tipografia": "a) Space Grotesk + JetBrains Mono no terminal",
+  "som": "trilha eletrônica + bipes de terminal e zap de luz",
+  "mascote": "moletom, fones e óculos AR; ação principal: montar o holograma com as mãos"
+ },
+ "brinde": "mapa das 15 peças + o prompt da peça APP",
+ "fontes": [
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server"
+ ],
+ "prova_viral": "Formato 4 (referência @destravandosaas, 08/11): série 'PEÇA · NOME' com 970 mil views no Reel fixado e 17,5 mil seguidores em ~1 semana com 9 posts; Reel com 38,8 mil salvamentos e 22,6 mil envios (prints do Vitor).",
+ "polemica": false,
+ "agenda": null,
+ "palavras": 73,
+ "duracao_estimada_s": 26.1,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IA FEZ MEU APP EM 2 MINUTOS",
+   "fala": "Eu pedi pra IA fazer um app de agendamento. Em dois minutos, ele tava pronto.",
+   "legenda": "Eu pedi pra IA fazer um app de agendamento. Em dois minutos, ele tava pronto.",
+   "sfx": [],
+   "etiqueta": [
+    "A IA FEZ MEU APP EM 2 MINUTOS",
+    "PEÇA · APP · 1/15",
+    "MAS ELE SÓ EXISTE NO MEU PC"
+   ],
+   "terminal": "> faz um app de agendamento"
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Lindo, funcionando, com botão e tudo.",
+   "legenda": "Lindo, funcionando, com botão e tudo.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Só tem um problema: ele só existe no meu computador.",
+   "legenda": "Só tem um problema: ele só existe no meu computador.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Desligou o PC, o app sumiu. Ninguém mais consegue entrar.",
+   "legenda": "Desligou o PC, o app sumiu. Ninguém mais consegue entrar.",
+   "sfx": []
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Pra virar um app de verdade, faltam catorze peças. E eu vou montar uma por vídeo.",
+   "legenda": "Pra virar um app de verdade, faltam catorze peças. E eu vou montar uma por vídeo.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "",
+   "fala": "Na próxima: como colocar no ar. Comenta PEÇA que eu te mando o mapa das quinze.",
+   "legenda": "Na próxima: como colocar no ar. Comenta PEÇA que eu te mando o mapa das quinze.",
+   "sfx": []
+  }
+ ]
+}

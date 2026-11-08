@@ -1,0 +1,85 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energia de quem conta um segredo de tecnologia pra um amigo, ritmo ágil (cerca de 2,8 palavras por segundo)",
+ "formato": "pecas",
+ "serie": "Como um app é feito com IA",
+ "peca": 2,
+ "de": 15,
+ "categoria": "como_funciona",
+ "chave": "PEÇA",
+ "tese": "COMO COLOCAR SEU APP NO AR",
+ "conceito": "Estúdio dark com neon roxo e ciano, piso de vidro escuro refletindo as luzes, mesa flutuante e telas holográficas. Mascote de moletom com capuz, fones e óculos de realidade aumentada. O app é um holograma no centro da sala que ganha um módulo neon por episódio, ligado por linhas de luz com partículas de dados. Neste episódio entra: o módulo SERVIDOR com 'LIGADO 24H' piscando.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal (terminal no topo com o pedido) + selo PEÇA · NOME e contador N/15",
+  "nome": "(sem item)",
+  "contador": "N/15 no selo",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "f) zoom atravessando uma tela",
+  "camera": "d) órbita lenta em volta do holograma",
+  "fechamento": "holograma acende o módulo novo + 'na próxima peça: …'",
+  "tipografia": "a) Space Grotesk + JetBrains Mono no terminal",
+  "som": "trilha eletrônica + bipes de terminal e zap de luz",
+  "mascote": "moletom, fones e óculos AR; ação principal: montar o holograma com as mãos"
+ },
+ "brinde": "mapa das 15 peças + o prompt da peça DEPLOY",
+ "fontes": [
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server",
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/Publishing_your_website"
+ ],
+ "prova_viral": "Formato 4 (referência @destravandosaas, 08/11): série 'PEÇA · NOME' com 970 mil views no Reel fixado e 17,5 mil seguidores em ~1 semana com 9 posts; Reel com 38,8 mil salvamentos e 22,6 mil envios (prints do Vitor).",
+ "polemica": false,
+ "agenda": null,
+ "palavras": 86,
+ "duracao_estimada_s": 30.7,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "COMO COLOCAR SEU APP NO AR",
+   "fala": "Meu app só funcionava no meu computador. Aí eu pedi: coloca meu app no ar.",
+   "legenda": "Meu app só funcionava no meu computador. Aí eu pedi: coloca meu app no ar.",
+   "sfx": [],
+   "etiqueta": [
+    "COMO COLOCAR SEU APP NO AR",
+    "PEÇA · DEPLOY · 2/15",
+    "O COMPUTADOR QUE NUNCA DESLIGA"
+   ],
+   "terminal": "> coloca meu app no ar"
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Colocar no ar é mudar o app de casa.",
+   "legenda": "Colocar no ar é mudar o app de casa.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Ele sai do seu PC e vai pra um computador que nunca desliga: o servidor.",
+   "legenda": "Ele sai do seu PC e vai pra um computador que nunca desliga: o servidor.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Ligado vinte e quatro horas, com energia e internet de sobra.",
+   "legenda": "Ligado vinte e quatro horas, com energia e internet de sobra.",
+   "sfx": []
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Agora qualquer pessoa entra, de qualquer lugar. Só que por um endereço cheio de número.",
+   "legenda": "Agora qualquer pessoa entra, de qualquer lugar. Só que por um endereço cheio de número.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "",
+   "fala": "Na próxima: o nome do seu app. Comenta PEÇA que eu te mando o prompt pra colocar o seu no ar.",
+   "legenda": "Na próxima: o nome do seu app. Comenta PEÇA que eu te mando o prompt pra colocar o seu no ar.",
+   "sfx": []
+  }
+ ]
+}

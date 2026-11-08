@@ -1,0 +1,85 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, energia de quem conta um segredo de tecnologia pra um amigo, ritmo ágil (cerca de 2,8 palavras por segundo)",
+ "formato": "pecas",
+ "serie": "Como um app é feito com IA",
+ "peca": 3,
+ "de": 15,
+ "categoria": "como_funciona",
+ "chave": "PEÇA",
+ "tese": "O NOME DO SEU APP NA INTERNET",
+ "conceito": "Estúdio dark com neon roxo e ciano, piso de vidro escuro refletindo as luzes, mesa flutuante e telas holográficas. Mascote de moletom com capuz, fones e óculos de realidade aumentada. O app é um holograma no centro da sala que ganha um módulo neon por episódio, ligado por linhas de luz com partículas de dados. Neste episódio entra: o letreiro neon com o nome do app.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal (terminal no topo com o pedido) + selo PEÇA · NOME e contador N/15",
+  "nome": "(sem item)",
+  "contador": "N/15 no selo",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "f) zoom atravessando uma tela",
+  "camera": "d) órbita lenta em volta do holograma",
+  "fechamento": "holograma acende o módulo novo + 'na próxima peça: …'",
+  "tipografia": "a) Space Grotesk + JetBrains Mono no terminal",
+  "som": "trilha eletrônica + bipes de terminal e zap de luz",
+  "mascote": "moletom, fones e óculos AR; ação principal: montar o holograma com as mãos"
+ },
+ "brinde": "mapa das 15 peças + o prompt da peça DOMÍNIO",
+ "fontes": [
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+  "https://developer.mozilla.org/en-US/docs/Glossary/DNS"
+ ],
+ "prova_viral": "Formato 4 (referência @destravandosaas, 08/11): série 'PEÇA · NOME' com 970 mil views no Reel fixado e 17,5 mil seguidores em ~1 semana com 9 posts; Reel com 38,8 mil salvamentos e 22,6 mil envios (prints do Vitor).",
+ "polemica": false,
+ "agenda": null,
+ "palavras": 79,
+ "duracao_estimada_s": 28.2,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "O NOME DO SEU APP NA INTERNET",
+   "fala": "Meu app tava no ar. Mas o endereço era um monte de número que ninguém decora.",
+   "legenda": "Meu app tava no ar. Mas o endereço era um monte de número que ninguém decora.",
+   "sfx": [],
+   "etiqueta": [
+    "O NOME DO SEU APP NA INTERNET",
+    "PEÇA · DOMÍNIO · 3/15",
+    "A LISTA TELEFÔNICA DA INTERNET"
+   ],
+   "terminal": "> quero meu app em meuapp.com"
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Todo servidor tem um número, tipo um telefone.",
+   "legenda": "Todo servidor tem um número, tipo um telefone.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "O domínio é o nome que aponta pra esse número: meuapp ponto com.",
+   "legenda": "O domínio é o nome que aponta pra esse número: meuapp ponto com.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Você digita o nome, e a internet procura o número numa lista telefônica gigante.",
+   "legenda": "Você digita o nome, e a internet procura o número numa lista telefônica gigante.",
+   "sfx": []
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Custa pouco por ano, e é seu enquanto você renovar.",
+   "legenda": "Custa pouco por ano, e é seu enquanto você renovar.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "",
+   "fala": "Na próxima: onde o app guarda tudo. Comenta PEÇA que eu te mando o mapa e o prompt.",
+   "legenda": "Na próxima: onde o app guarda tudo. Comenta PEÇA que eu te mando o mapa e o prompt.",
+   "sfx": []
+  }
+ ]
+}

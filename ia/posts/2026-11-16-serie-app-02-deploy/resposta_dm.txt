@@ -1,0 +1,11 @@
+Opa! Aqui está o mapa da série 🧩
+
+As 15 peças de um app de verdade:
+APP → DEPLOY → DOMÍNIO → BANCO DE DADOS → LOGIN → SENHA → 2FA → PAGAMENTO → WEBHOOK → E-MAIL → API → IA NO APP → BACKUP → ESCALA → MONITORAMENTO
+
+Você está na peça 2: DEPLOY.
+
+Prompt pra pedir pro Claude ou ChatGPT:
+"Meu app está pronto no meu computador. Me explica, em passos simples, como colocar ele no ar num serviço com plano grátis, e o que eu preciso criar de conta antes."
+
+Amanhã sai a próxima peça. Me segue pra não perder. 💜

@@ -1,0 +1,18 @@
+{
+ "data": null,
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "formato 4 (série em peças)",
+ "serie": "app-com-ia",
+ "peca": 1,
+ "temas": [
+  "serie-app-01-app"
+ ],
+ "fontes": [
+  "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server"
+ ],
+ "prova_viral": "Formato 4 (referência @destravandosaas, 08/11): série 'PEÇA · NOME' com 970 mil views no Reel fixado e 17,5 mil seguidores em ~1 semana com 9 posts; Reel com 38,8 mil salvamentos e 22,6 mil envios (prints do Vitor).",
+ "cta": "PEÇA",
+ "polemica": false,
+ "status": "roteiro aguardando aprovação"
+}

@@ -861,6 +861,33 @@
    "thumb": "/capas/thumb-2026-11-15-skills-video-explicativo.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou EXPLICA 🙌\nAqui está o que eu prometi (links das 3 + dica de tradução):\n• https://github.com/YIAN6557/eian-riso-broll\n• https://github.com/liangdabiao/whiteboard-teacher-video\n• https://github.com/HeyChengC/vibe-knowledge-film\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜"
+  },
+  {
+   "palavra": "PEÇA",
+   "pasta": "2026-11-16-serie-app-01-app",
+   "quando": "2026-11-16",
+   "titulo": "A IA fez meu APP em 2 minutos",
+   "thumb": "",
+   "url": "",
+   "dm": "Opa! Aqui está o mapa da série 🧩\n\nAs 15 peças de um app de verdade:\nAPP → DEPLOY → DOMÍNIO → BANCO DE DADOS → LOGIN → SENHA → 2FA → PAGAMENTO → WEBHOOK → E-MAIL → API → IA NO APP → BACKUP → ESCALA → MONITORAMENTO\n\nVocê está na peça 1: APP.\n\nPrompt pra pedir pro Claude ou ChatGPT:\n\"Faz um app web de agendamento simples: o cliente escolhe dia e horário, e eu vejo a lista de agendamentos. Me explica passo a passo como rodar no meu computador.\"\n\nAmanhã sai a próxima peça. Me segue pra não perder. 💜"
+  },
+  {
+   "palavra": "PEÇA",
+   "pasta": "2026-11-16-serie-app-02-deploy",
+   "quando": "2026-11-16",
+   "titulo": "Como colocar seu APP no ar",
+   "thumb": "",
+   "url": "",
+   "dm": "Opa! Aqui está o mapa da série 🧩\n\nAs 15 peças de um app de verdade:\nAPP → DEPLOY → DOMÍNIO → BANCO DE DADOS → LOGIN → SENHA → 2FA → PAGAMENTO → WEBHOOK → E-MAIL → API → IA NO APP → BACKUP → ESCALA → MONITORAMENTO\n\nVocê está na peça 2: DEPLOY.\n\nPrompt pra pedir pro Claude ou ChatGPT:\n\"Meu app está pronto no meu computador. Me explica, em passos simples, como colocar ele no ar num serviço com plano grátis, e o que eu preciso criar de conta antes.\"\n\nAmanhã sai a próxima peça. Me segue pra não perder. 💜"
+  },
+  {
+   "palavra": "PEÇA",
+   "pasta": "2026-11-16-serie-app-03-dominio",
+   "quando": "2026-11-16",
+   "titulo": "O nome do seu APP na internet",
+   "thumb": "",
+   "url": "",
+   "dm": "Opa! Aqui está o mapa da série 🧩\n\nAs 15 peças de um app de verdade:\nAPP → DEPLOY → DOMÍNIO → BANCO DE DADOS → LOGIN → SENHA → 2FA → PAGAMENTO → WEBHOOK → E-MAIL → API → IA NO APP → BACKUP → ESCALA → MONITORAMENTO\n\nVocê está na peça 3: DOMÍNIO.\n\nPrompt pra pedir pro Claude ou ChatGPT:\n\"Comprei o domínio meuapp.com. Me explica passo a passo como apontar ele para o meu app que já está no ar, e quanto tempo demora pra funcionar.\"\n\nAmanhã sai a próxima peça. Me segue pra não perder. 💜"
   }
  ],
  "globais": [

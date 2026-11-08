@@ -1,0 +1,13 @@
+Comenta PEÇA que eu te mando o mapa das 15 peças + o prompt desta. 🧩
+
+PEÇA · DOMÍNIO (3/15) da série "Como um app é feito com IA".
+Todo servidor tem um número, tipo um telefone. O domínio é o nome que aponta pra esse número: meuapp ponto com. Você digita o nome, e a internet procura o número numa lista telefônica gigante.
+
+💬 Comenta PEÇA e me segue pra ver a próxima.
+
+Qual peça você quer entender primeiro? 👇
+
+Fonte: MDN Web Docs (Mozilla).
+Animação e voz feitas com IA. Perfil independente.
+
+#ia #claude #chatgpt #programacao #app #tecnologia #comofunciona
