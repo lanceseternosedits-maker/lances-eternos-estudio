@@ -4,12 +4,12 @@
 @font-face{font-family:B;src:url(../cena_contagem/f/archivo-black-latin-400-normal.woff2)}
 *{margin:0;box-sizing:border-box}html,body{width:1080px;height:1920px;overflow:hidden;background:#07050f}
 #st{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:T;color:#fff;
-background:radial-gradient(700px 600px at 85% 18%,#7a2cff55,transparent 70%),radial-gradient(800px 700px at 10% 70%,#00e5ff33,transparent 70%),#07050f}
+background:#eee9e1}
 #chao{position:absolute;left:-300px;right:-300px;bottom:-200px;height:900px;transform:perspective(600px) rotateX(62deg);transform-origin:bottom;
 background-image:linear-gradient(#00e5ff33 2px,transparent 2px),linear-gradient(90deg,#b14cff33 2px,transparent 2px);background-size:90px 90px}
-#term{position:absolute;left:70px;right:130px;top:290px;background:#0d0b1acc;border:2px solid #00e5ff66;border-radius:22px;box-shadow:0 0 40px #00e5ff33;padding:18px 26px 22px}
+#term{position:absolute;left:70px;right:130px;top:290px;background:#1f232b;border:none;border-radius:22px;box-shadow:0 10px 30px #0003;padding:18px 26px 22px}
 #term .bar{font:22px M;color:#7d7a99;margin-bottom:10px}#term .bar i{display:inline-block;width:14px;height:14px;border-radius:50%;margin-right:7px}
-#cmd{font:38px/1.25 M;color:#d6fbff;white-space:pre-wrap;min-height:48px}#cmd b{color:#ff4fd8}.cur{display:inline-block;width:18px;height:38px;background:#00e5ff;vertical-align:-6px;margin-left:4px}
+#cmd{font:38px/1.25 M;color:#f2f2f2;white-space:pre-wrap;min-height:48px}#cmd b{color:#ff7a3d}.cur{display:inline-block;width:18px;height:38px;background:#f2f2f2;vertical-align:-6px;margin-left:4px}
 #holo{position:absolute;left:0;top:0;width:1080px;height:1920px}
 .lin{position:absolute;height:4px;background:linear-gradient(90deg,#00e5ffcc,#b14cffcc);transform-origin:0 50%;box-shadow:0 0 12px #00e5ff}
 .mod{position:absolute;width:118px;height:118px;margin:-59px 0 0 -59px;border-radius:26px;background:linear-gradient(145deg,#1b1640ee,#0f0c26ee);
@@ -24,11 +24,11 @@ box-shadow:0 0 40px #ff3df0aa;white-space:nowrap}
 #masc{position:absolute;left:40px;top:1255px;width:175px;height:231px}
 #leg{position:absolute;left:220px;right:140px;top:1330px;height:120px;display:grid;place-items:center;text-align:center;font:84px B;
 color:#fff;-webkit-text-stroke:8px #000;paint-order:stroke fill;text-shadow:0 8px 0 #000}
-#leg.hl{color:#5ff3ff}
+#leg.hl{color:#ff7a3d}
 #etq{position:absolute;left:70px;right:130px;top:470px;text-align:center}
 #etq div{display:inline-block;margin:6px 0;padding:10px 26px;border-radius:16px;font:50px B}
-#meio{position:absolute;left:90px;right:150px;top:470px;padding:30px;border-radius:30px;background:linear-gradient(135deg,#ff3df0,#7a2cff);text-align:center;font:46px B;box-shadow:0 0 60px #ff3df099}
-#fim{position:absolute;left:90px;right:150px;top:470px;padding:26px;border-radius:30px;background:linear-gradient(135deg,#00e5ff,#7a2cff);text-align:center;font:54px B;color:#fff;box-shadow:0 0 60px #00e5ffaa}
+#meio{position:absolute;left:90px;right:150px;top:470px;padding:30px;border-radius:30px;background:#fff;color:#1f232b;border:5px solid #1f232b;text-align:center;font:46px B;box-shadow:0 12px 0 #1f232b}
+#fim{position:absolute;left:90px;right:150px;top:470px;padding:26px;border-radius:30px;background:#ff7a3d;text-align:center;font:54px B;color:#fff;border:5px solid #1f232b;box-shadow:0 12px 0 #1f232b}
 .pt{position:absolute;width:12px;height:12px;border-radius:50%;background:#fff;box-shadow:0 0 14px #00e5ff,0 0 4px #fff;margin:-6px 0 0 -6px}
 
 #c{position:absolute;inset:0;width:1080px;height:1920px}#holo,#nucleo,#pc,#masc,#chao{display:none}#chip{display:none!important}</style></head><body><div id="st"><canvas id="c" width="1080" height="1920"></canvas><div id="chao"></div>
@@ -49,25 +49,25 @@ color:#fff;-webkit-text-stroke:8px #000;paint-order:stroke fill;text-shadow:0 8p
 <script type="module">
 import * as THREE from '../cena_trend/three.module.min.js';
 const R = new THREE.WebGLRenderer({ canvas: document.getElementById('c'), antialias: true, preserveDrawingBuffer: true, alpha: true });
-R.setSize(1080, 1920, false); R.setClearColor(0x000000, 0);
-const S = new THREE.Scene(); S.fog = new THREE.Fog(0x0a0618, 14, 42);
+R.setSize(1080, 1920, false); R.setClearColor(0xeee9e1, 1);
+const S = new THREE.Scene(); S.fog = new THREE.Fog(0xeee9e1, 18, 48);
 const cam = new THREE.PerspectiveCamera(42, 1080 / 1920, 0.1, 200);
-S.add(new THREE.AmbientLight(0x6a5cff, 0.55)); const dl = new THREE.DirectionalLight(0xffffff, 1.1); dl.position.set(4, 10, 6); S.add(dl);
+S.add(new THREE.HemisphereLight(0xffffff, 0xd8cbb5, 1.6)); const dl = new THREE.DirectionalLight(0xffffff, 1.4); dl.position.set(4, 10, 6); S.add(dl);
 const ETAPAS = [["p01","🧊","SEU APP"],["p02","🖥️","SERVIDOR 24H"],["p03","🌐","DOMÍNIO"],["p04","🗄️","BANCO DE DADOS"],["p05","🪪","LOGIN"],["p06","🔐","SENHA"],["p07","📱","CÓDIGO"],
  ["p08","💳","PAGAMENTO"],["p09","🔔","AVISO"],["p10","✉️","E-MAIL"],["p11","🔌","OUTROS APPS"],["p12","🤖","IA"],["p13","💾","BACKUP"],["p14","👥","ESCALA"],["p15","📡","VIGIA"]];
 const PASSO = 5.2;  // distância entre etapas na esteira (eixo x), com leve zigue-zague em z
 const posE = ETAPAS.map((e, i) => new THREE.Vector3(i * PASSO, 0, (i % 2 ? -1 : 1) * 0.9));
 // piso com grade neon
-const g = new THREE.GridHelper(400, 200, 0x00e5ff, 0x3a1d7a); g.position.y = -0.62; g.material.opacity = 0.35; g.material.transparent = true; S.add(g);
+const g = new THREE.Mesh(new THREE.PlaneGeometry(600, 600), new THREE.MeshStandardMaterial({ color: 0xdcc7a6, roughness: 0.9 })); g.rotation.x = -Math.PI / 2; g.position.y = -0.62; S.add(g);
 // ---------- objetos de cada etapa (low-poly, cores neon), em vez de caixas
-const M = (cor, em = 0, i = 0.6) => new THREE.MeshStandardMaterial({ color: cor, emissive: em || 0x000000, emissiveIntensity: i, roughness: 0.45, metalness: 0.2 });
+const M = (cor) => new THREE.MeshStandardMaterial({ color: cor, roughness: 0.7, metalness: 0.05 });
 const B = (w, h, d, m) => new THREE.Mesh(new THREE.BoxGeometry(w, h, d), m);
 const C = (rt, rb, h, m, seg = 32) => new THREE.Mesh(new THREE.CylinderGeometry(rt, rb, h, seg), m);
-const escuro = M(0x1d1838), cia = M(0x00e5ff, 0x00e5ff, 1.2), ros = M(0xff3df0, 0xff3df0, 1.2), roxoN = M(0x7a2cff, 0x7a2cff, 0.8), branco = M(0xf2f6ff, 0x9fb6ff, 0.25), amarelo = M(0xffc23d, 0xffa000, 0.5), verde = M(0x2bff9a, 0x2bff9a, 1.1);
+const escuro = M(0x3b404a), cia = M(0x4a9dff), ros = M(0xff6b5e), roxoN = M(0x6c7bff), branco = M(0xffffff), amarelo = M(0xf5b83d), verde = new THREE.MeshStandardMaterial({ color: 0x38c172, emissive: 0x38c172, emissiveIntensity: 0.5 });
 function etiqueta(txt, cor = '#00e5ff') {
   const c = document.createElement('canvas'); c.width = 640; c.height = 140; const x = c.getContext('2d');
-  x.fillStyle = 'rgba(10,8,26,.85)'; x.strokeStyle = cor; x.lineWidth = 8; x.beginPath(); x.roundRect(6, 6, 628, 128, 40); x.fill(); x.stroke();
-  x.font = 'bold 64px sans-serif'; x.fillStyle = '#ffffff'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(txt, 320, 74, 590);
+  x.fillStyle = '#ffffff'; x.strokeStyle = '#2b2f38'; x.lineWidth = 6; x.beginPath(); x.roundRect(6, 6, 628, 128, 40); x.fill(); x.stroke();
+  x.font = 'bold 64px sans-serif'; x.fillStyle = '#1f232b'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(txt, 320, 74, 590);
   const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
   const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: t, depthTest: false, transparent: true })); sp.scale.set(2.9, 0.64, 1); return sp;
 }
@@ -110,30 +110,30 @@ const OBJ = {
     const rabo = P3(new THREE.Mesh(new THREE.ConeGeometry(0.25, 0.5, 12), mat), -0.6, 0.6, 0); rabo.rotation.z = 0.6; g.add(rabo);
     for (const x of [-0.4, 0, 0.4]) { const p = P3(new THREE.Mesh(new THREE.SphereGeometry(0.12, 12, 12), cia), x, 1.3, 0.46); p.name = 'pisca'; g.add(p); } return g; },
   p13() { const g = new THREE.Group(); g.add(P3(B(1.2, 1.2, 0.18, escuro), -0.3, 0.9, -0.3));
-    const copia = P3(B(1.2, 1.2, 0.18, new THREE.MeshStandardMaterial({ color: 0x00e5ff, emissive: 0x00b5cc, emissiveIntensity: 0.5, transparent: true, opacity: 0.6 })), 0.3, 1.15, 0.3); copia.name = 'pula'; g.add(copia);
+    const copia = P3(B(1.2, 1.2, 0.18, new THREE.MeshStandardMaterial({ color: 0x4a9dff, transparent: true, opacity: 0.55 })), 0.3, 1.15, 0.3); copia.name = 'pula'; g.add(copia);
     const seta = P3(new THREE.Mesh(new THREE.TorusGeometry(0.5, 0.06, 8, 32, Math.PI * 1.5), verde), 0.2, 2.1, 0.3); seta.name = 'girar'; g.add(seta); return g; },
   p14() { const g = new THREE.Group(); [[-0.8, 0], [0, 0.35], [0.8, 0]].forEach(([x, z], k) => { const r = new THREE.Group(); r.add(P3(B(0.6, 1.6, 0.6, escuro), 0, 0.75, 0));
       for (let l = 0; l < 3; l++) { const led = P3(B(0.07, 0.07, 0.03, l % 2 ? cia : verde), -0.12 + l * 0.12, 1.2, 0.32); led.name = 'pisca'; r.add(led); }
       r.position.set(x, 0, z); r.name = 'clone' + k; g.add(r); }); return g; },
   p15() { const g = new THREE.Group(); g.add(P3(C(0.12, 0.3, 1.8, escuro), 0, 0.8, 0));
-    const prato = new THREE.Mesh(new THREE.CylinderGeometry(0.85, 0.12, 0.35, 32, 1, true), new THREE.MeshStandardMaterial({ color: 0xdfe6ff, emissive: 0x3a4aff, emissiveIntensity: 0.3, side: THREE.DoubleSide })); prato.rotation.x = -1.0; prato.position.set(0, 1.95, 0.15);
+    const prato = new THREE.Mesh(new THREE.CylinderGeometry(0.85, 0.12, 0.35, 32, 1, true), new THREE.MeshStandardMaterial({ color: 0xe9edf5, side: THREE.DoubleSide })); prato.rotation.x = -1.0; prato.position.set(0, 1.95, 0.15);
     const piv = new THREE.Group(); piv.add(prato); piv.name = 'girar'; g.add(piv);
     const luz = P3(new THREE.Mesh(new THREE.SphereGeometry(0.12, 12, 12), ros), 0, 2.5, 0); luz.name = 'pisca'; g.add(luz); return g; },
 };
 const mods = ETAPAS.map((e, i) => {
   const cor = i === 0 ? '#b14cff' : '#00e5ff';
   const grp = new THREE.Group(); grp.position.copy(posE[i]);
-  const base = new THREE.Mesh(new THREE.CylinderGeometry(1.6, 1.7, 0.22, 48), new THREE.MeshStandardMaterial({ color: 0x14102e, emissive: new THREE.Color(cor), emissiveIntensity: 0.4 }));
+  const base = new THREE.Mesh(new THREE.CylinderGeometry(1.6, 1.7, 0.22, 48), new THREE.MeshStandardMaterial({ color: 0xffffff, roughness: 0.8 }));
   base.position.y = -0.5; grp.add(base);
-  const anel = new THREE.Mesh(new THREE.TorusGeometry(1.68, 0.05, 8, 64), new THREE.MeshBasicMaterial({ color: cor })); anel.rotation.x = Math.PI / 2; anel.position.y = -0.38; grp.add(anel);
+  const anel = new THREE.Mesh(new THREE.TorusGeometry(1.68, 0.05, 8, 64), new THREE.MeshBasicMaterial({ color: 0xb9b2a6 })); anel.rotation.x = Math.PI / 2; anel.position.y = -0.38; grp.add(anel);
   const obj = OBJ[e[0]](); obj.position.y = -0.38; grp.add(obj);
   const nome = etiqueta(e[2], cor); nome.position.set(0, 3.4, 0); grp.add(nome);
   const luz = new THREE.PointLight(new THREE.Color(cor), 0, 8); luz.position.set(0, 2.5, 1.5); grp.add(luz);
   grp.scale.setScalar(0.0001); S.add(grp); return { grp, obj, anel, luz, nome };
 });
 // esteiras entre etapas: faixa escura com traços que andam + partículas
-const traco = (() => { const c = document.createElement('canvas'); c.width = 64; c.height = 256; const x = c.getContext('2d'); x.fillStyle = '#0c0a1f'; x.fillRect(0, 0, 64, 256);
-  x.fillStyle = '#00e5ff'; x.fillRect(26, 0, 12, 110); const t = new THREE.CanvasTexture(c); t.wrapS = t.wrapT = THREE.RepeatWrapping; return t; })();
+const traco = (() => { const c = document.createElement('canvas'); c.width = 64; c.height = 256; const x = c.getContext('2d'); x.fillStyle = '#4a4f59'; x.fillRect(0, 0, 64, 256);
+  x.fillStyle = '#f2efe9'; x.fillRect(26, 0, 12, 110); const t = new THREE.CanvasTexture(c); t.wrapS = t.wrapT = THREE.RepeatWrapping; return t; })();
 const esteiras = [], parts = [];
 for (let i = 1; i < ETAPAS.length; i++) {
   const a = posE[i - 1], b = posE[i], d = b.clone().sub(a), L = d.length();
@@ -141,13 +141,13 @@ for (let i = 1; i < ETAPAS.length; i++) {
   const m = new THREE.Mesh(new THREE.PlaneGeometry(0.9, L), new THREE.MeshBasicMaterial({ map: tex, transparent: true, opacity: 0.95 }));
   m.rotation.x = -Math.PI / 2; m.rotation.z = -Math.atan2(d.z, d.x) + Math.PI / 2; m.position.set((a.x + b.x) / 2, -0.55, (a.z + b.z) / 2); m.visible = false; S.add(m);
   esteiras.push({ m, tex, a, b });
-  for (let k = 0; k < 3; k++) { const p = new THREE.Mesh(new THREE.SphereGeometry(0.11, 12, 12), new THREE.MeshBasicMaterial({ color: 0xffffff })); p.visible = false; S.add(p); parts.push({ p, i: i - 1, k }); }
+  for (let k = 0; k < 3; k++) { const p = new THREE.Mesh(new THREE.SphereGeometry(0.11, 12, 12), new THREE.MeshStandardMaterial({ color: 0xff7a3d })); p.visible = false; S.add(p); parts.push({ p, i: i - 1, k }); }
 }
 // mascote 3D em blocos (laranja, fones, óculos AR), anda junto da etapa atual
-const masc = new THREE.Group(); const lar = new THREE.MeshStandardMaterial({ color: 0xff8a5c, emissive: 0x7a2e12, emissiveIntensity: 0.9 }), roxo = new THREE.MeshStandardMaterial({ color: 0x3b2f8f });
+const masc = new THREE.Group(); const lar = new THREE.MeshStandardMaterial({ color: 0xd97757, roughness: 0.7 }), roxo = new THREE.MeshStandardMaterial({ color: 0x3b2f8f });
 const corpo = new THREE.Mesh(new THREE.BoxGeometry(1.5, 1.1, 0.9), lar); corpo.position.y = 0.95; masc.add(corpo);
 const capuz = new THREE.Mesh(new THREE.BoxGeometry(1.56, 0.45, 0.96), roxo); capuz.position.y = 1.4; masc.add(capuz);
-const oculos = new THREE.Mesh(new THREE.BoxGeometry(0.9, 0.24, 0.05), new THREE.MeshBasicMaterial({ color: 0x00e5ff })); oculos.position.set(0, 1.08, 0.47); masc.add(oculos);
+const oculos = new THREE.Mesh(new THREE.BoxGeometry(0.9, 0.24, 0.05), new THREE.MeshStandardMaterial({ color: 0x9fd8ff })); oculos.position.set(0, 1.08, 0.47); masc.add(oculos);
 for (const x of [-0.18, 0.18]) { const o = new THREE.Mesh(new THREE.BoxGeometry(0.1, 0.17, 0.02), new THREE.MeshBasicMaterial({ color: 0x111111 })); o.position.set(x, 1.08, 0.5); masc.add(o); }
 for (const x of [-0.82, 0.82]) { const f = new THREE.Mesh(new THREE.BoxGeometry(0.16, 0.42, 0.42), new THREE.MeshStandardMaterial({ color: 0x111111 })); f.position.set(x, 1.15, 0); masc.add(f); }
 const pernas = [-0.5, -0.17, 0.17, 0.5].map((x) => { const p = new THREE.Mesh(new THREE.BoxGeometry(0.16, 0.45, 0.16), lar); p.position.set(x, 0.2, 0); masc.add(p); return p; });
@@ -164,8 +164,8 @@ window.setT3 = (t) => {
   const fimT = ini('cta');
   mods.forEach((m, i) => { const dt = t - inicios[i] + (i === 0 ? 0.6 : 0); const v = i === 0 ? Math.max(t < inicios[0] ? 1 : 0, pop(dt / 0.6)) : (dt < 0 ? 0.0001 : pop(dt / 0.6));
     m.grp.scale.setScalar(Math.max(0.0001, v)); m.obj.rotation.y = -0.35 + 0.18 * Math.sin(t * 0.7 + i);
-    const on = i === atual && t < fimT; m.luz.intensity = on ? 4 : (dt > 0 ? 1.0 : 0); m.anel.material.color.set(on ? 0xff3df0 : (i === 0 ? 0xb14cff : 0x00e5ff));
-    m.nome.material.opacity = on ? 1 : 0.5;
+    const on = i === atual && t < fimT; m.luz.intensity = 0; m.anel.material.color.set(on ? 0xff7a3d : 0xb9b2a6);
+    m.nome.material.opacity = t < inicios[0] ? 0 : (on ? 1 : 0.5);
     m.obj.traverse((o) => { if (!o.name) return;
       if (o.name === 'pisca') o.visible = Math.floor(t * 4 + o.position.x * 7 + o.position.y * 3) % 3 !== 0;
       if (o.name === 'pula') { o.userData.y0 ??= o.position.y; o.position.y = o.userData.y0 + 0.12 * Math.abs(Math.sin(t * 3)); }
@@ -223,8 +223,8 @@ window.setT=t=>{if(window.setT3)setT3(t);const S=TL.segmentos;let k=S.findIndex(
  // chip com nome da etapa
  const chip=$('chip');if(s.selo&&s.cena!=='p01'){chip.textContent=s.selo;chip.style.opacity=1;chip.style.transform=`translateX(-50%) scale(${pop(dt/0.4)})`}else chip.style.opacity=0;
  // etiqueta do gancho
- const e=$('etq');if(s.cena==='gancho'){const c=['#fff','#00e5ff','#ff3df0'];e.innerHTML=s.etiqueta.map((x,i)=>`<div style="background:${i?'#0d0b1a':'#fff'};color:${i?c[i]:'#07050f'};border:3px solid ${c[i]};opacity:${ease((dt-i*0.35)/0.3)};transform:translateY(${(1-ease((dt-i*0.35)/0.3))*30}px)">${x}</div>`).join('<br>');e.style.opacity=1}else e.style.opacity=0;
- const mi=$('meio');if(s.cena==='meio'){mi.innerHTML='❤️ Deixa o like<br>📲 Manda pro amigo que curte tecnologia<br><span style="color:#00ffe1">💬 Comenta CAMINHO</span>';mi.style.opacity=1;mi.style.transform=`scale(${pop(dt/0.4)})`;$('chip').style.opacity=0}else mi.style.opacity=0;
+ const e=$('etq');if(s.cena==='gancho'){const c=['#1f232b','#1f232b','#ff7a3d'];e.innerHTML=s.etiqueta.map((x,i)=>`<div style="background:${i===0?'#1f232b':'#fff'};color:${i===0?'#fff':c[i]};border:4px solid #1f232b;opacity:${ease((dt-i*0.35)/0.3)};transform:translateY(${(1-ease((dt-i*0.35)/0.3))*30}px)">${x}</div>`).join('<br>');e.style.opacity=1}else e.style.opacity=0;
+ const mi=$('meio');if(s.cena==='meio'){mi.innerHTML='❤️ Deixa o like<br>📲 Manda pro amigo que curte tecnologia<br><span style="color:#ff7a3d">💬 Comenta CAMINHO</span>';mi.style.opacity=1;mi.style.transform=`scale(${pop(dt/0.4)})`;$('chip').style.opacity=0}else mi.style.opacity=0;
  const fi=$('fim');if(s.cena==='cta'){fi.innerHTML='💬 COMENTA CAMINHO<br><span style="font-size:34px">e receba o mapa completo na DM</span>';fi.style.opacity=1;fi.style.transform=`scale(${pop(dt/0.4)})`}else fi.style.opacity=0;
  // mascote: balança e levanta os braços quando entra módulo
  const mg=$('mg');mg.setAttribute('transform',`translate(0 ${6*Math.sin(t*4)})`);const up=Math.max(0,1-dt/0.6);
