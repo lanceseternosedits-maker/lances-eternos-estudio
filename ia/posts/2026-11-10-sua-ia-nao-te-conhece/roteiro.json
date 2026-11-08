@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energia de conversa entre amigos, ritmo ágil sem pausas longas (cerca de 2,8 palavras por segundo)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "categoria": "como_funciona",
  "objetivo": "validação do produto nº 2 (kit 'Super Assistente de IA'): medir comentários da palavra",
@@ -17,7 +17,7 @@
   "fechamento": "e) página de caderno",
   "tipografia": "f) Bebas Neue",
   "som": "trilha 02 + campainha de balcão e carimbo",
-  "mascote": "colete de recepcionista e crachá; ação principal: preencher a ficha"
+  "mascote": "faixa de colete no topo e crachá no braço (fora do rosto); ação principal: preencher a ficha"
  },
  "brinde": "texto 'quem sou eu' pronto para colar nas instruções personalizadas (ChatGPT), num Projeto (Claude) ou num Gem (Gemini)",
  "fontes": [
@@ -42,7 +42,8 @@
     "SUA IA NÃO SABE NADA DE VOCÊ",
     "POUCOS MINUTOS DE CONFIGURAÇÃO",
     "E ELA VIRA SUA ASSISTENTE"
-   ]
+   ],
+   "itens": "sua-ia-nao-te-conhece"
   },
   {
    "cena": "s1",
@@ -79,5 +80,6 @@
    "legenda": "Comenta ASSISTENTE e me segue que o texto é seu. É só trocar pelos seus dados.",
    "sfx": []
   }
- ]
+ ],
+ "modelo": "gemini-2.5-flash-preview-tts"
 }

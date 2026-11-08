@@ -15,7 +15,7 @@
   "instagram": "2026-11-10 19:30",
   "tiktok": "2026-11-10 19:30"
  },
- "status": "roteiro aprovado",
+ "status": "vídeo aguardando aprovação",
  "categoria": "novidade",
  "elementos": {
   "etiqueta": "d) faixa diagonal de aviso",
@@ -30,7 +30,69 @@
   "mascote": "bandana + chave inglesa; ação principal: girar registros e dançar quando a caixa enche (o capacete ficou com o Pense passo a passo, do mesmo dia)"
  },
  "capa": {
-  "objeto": "wifi"
+  "objeto": "wifi",
+  "texto": "Soma o Wi-Fi com o 4G",
+  "selo": "QUASE 3 MIL ★"
  },
- "obs_producao": "Produzido em 08/11 no motor da cena_contagem, módulo itens/internet-somada.js: canos de dados coloridos que enchem uma caixa-d'água de bolinhas, celular com Wi-Fi e 4G no 1º quadro, placar HI-SCORE 2.975 (API do GitHub em 08/11; etiqueta corrigida de +3 mil para quase 3 mil). Mascote de bandana (o capacete ficou com o Pense). Voz 1,08×: 33,4 s."
+ "obs_producao": "Produzido em 08/11 no motor da cena_contagem, módulo itens/internet-somada.js: canos de dados coloridos que enchem uma caixa-d'água de bolinhas, celular com Wi-Fi e 4G no 1º quadro, placar HI-SCORE 2.975 (API do GitHub em 08/11; etiqueta corrigida de +3 mil para quase 3 mil). Mascote de bandana (o capacete ficou com o Pense). Voz 1,08×: 33,4 s.",
+ "checagem": {
+  "em": "2026-11-08 20:55",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "33.4 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.57 palavras/s (86 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.1 LUFS, pico -0.9 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "1 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "940 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "INTERNET",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ }
 }

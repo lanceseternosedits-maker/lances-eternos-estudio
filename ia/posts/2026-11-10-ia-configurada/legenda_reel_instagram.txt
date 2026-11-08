@@ -1,15 +1,14 @@
-Comenta CONFIGURA que eu te mando o passo a passo de 3 minutos. 🍳
+Comenta CONFIGURA que eu te mando o passo a passo pra configurar a sua IA. 🍳
 
-Fiz a mesma pergunta pra duas IAs: "o que eu faço pro jantar hoje?"
+Pede pra IA o que fazer no jantar e ela te dá a mesma resposta que dá pra todo mundo: uma lasanha com 1 hora de forno.
 
-❌ A normal: lasanha, 1 hora de forno.
-✅ A configurada: sabe que eu não como lactose, chego às 8 e tenho 20 minutos. Sugeriu um prato com o que já tinha na geladeira.
+Configurada, ela já sabe o que você contou pra ela: que você não come lactose, que chega tarde e só tem 20 minutos. Aí sugere um prato com o que você disse que tem em casa. (Ela não vê sua geladeira: só sabe o que você escreveu.)
 
-A diferença? 3 minutos contando pra IA quem você é (instruções personalizadas no ChatGPT, preferências no Claude, Gems no Gemini).
+A diferença são poucos minutos contando pra IA quem você é: instruções personalizadas no ChatGPT, preferências no Claude, Gems no Gemini.
 
-💬 Comenta CONFIGURA e me segue que eu te mando o passo a passo.
+💬 Comenta CONFIGURA e me segue. Deixa o like e manda pra quem vive pedindo receita pra IA.
 
-E você, o que perguntaria pra sua IA configurada? 👇
+Qual IA você mais usa? 👇
 
 Fontes: central de ajuda da OpenAI, do Claude e do Google.
 Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
