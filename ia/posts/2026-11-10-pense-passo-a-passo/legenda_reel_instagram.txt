@@ -1,0 +1,16 @@
+Comenta PASSO que eu te mando os prompts prontos pra IA errar menos. 🧮
+
+Tem 4 palavras que fazem a IA errar muito menos conta: "pense passo a passo".
+
+Sem isso, ela responde no impulso, chutando a próxima palavra. Em 2022, pesquisadores da Universidade de Tóquio e do Google só acrescentaram "vamos pensar passo a passo" no pedido, e o acerto em problemas de matemática (teste MultiArith) foi de 17,7% para 78,7%.
+
+Ela escreve o raciocínio antes e para de chutar. Os modelos de hoje já raciocinam mais sozinhos, mas o truque ainda ajuda em conta, orçamento e decisão difícil.
+
+💬 Comenta PASSO e me segue. Deixa o like e manda pra aquele amigo que confia cegamente na conta da IA.
+
+Qual conta do seu mês você mais erra? 👇
+
+Fonte: Kojima et al., "Large Language Models are Zero-Shot Reasoners" (2022, arXiv 2205.11916; NeurIPS 2022).
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #inteligenciaartificial #chatgpt #prompt #dicasdeia #matematica #produtividade

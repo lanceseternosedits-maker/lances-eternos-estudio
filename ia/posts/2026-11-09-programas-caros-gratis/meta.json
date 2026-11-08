@@ -20,5 +20,21 @@
   "tiktok": "2026-11-10 14:00"
  },
  "status": "roteiro aprovado",
- "categoria": "novidade"
+ "categoria": "novidade",
+ "elementos": {
+  "etiqueta": "c) letreiro neon",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "b) odômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "e) página de caderno",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: ler"
+ },
+ "capa": {
+  "objeto": "dinheiro"
+ },
+ "obs_producao": "Produzido em 08/11 no motor da cena_contagem, módulo itens/programas-caros-gratis.js: loja de software dos anos 90 em liquidação (prateleiras, esteira, caixa registradora R$ 0,00, caixa com cadeado aberta a marteladas, folha que se escreve sozinha na nº 1), odômetro de estrelas, nota fiscal no fim. Estrelas relidas em 08/11 (API do GitHub). Voz refeita com ritmo ágil + 1,06×: 34,7 s."
 }

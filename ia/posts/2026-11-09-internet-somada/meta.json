@@ -16,5 +16,21 @@
   "tiktok": "2026-11-10 19:30"
  },
  "status": "roteiro aprovado",
- "categoria": "novidade"
+ "categoria": "novidade",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "b) carimbo",
+  "contador": "e) placar HI-SCORE",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "b) pódio",
+  "tipografia": "e) Caveat + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "bandana + chave inglesa; ação principal: girar registros e dançar quando a caixa enche (o capacete ficou com o Pense passo a passo, do mesmo dia)"
+ },
+ "capa": {
+  "objeto": "wifi"
+ },
+ "obs_producao": "Produzido em 08/11 no motor da cena_contagem, módulo itens/internet-somada.js: canos de dados coloridos que enchem uma caixa-d'água de bolinhas, celular com Wi-Fi e 4G no 1º quadro, placar HI-SCORE 2.975 (API do GitHub em 08/11; etiqueta corrigida de +3 mil para quase 3 mil). Mascote de bandana (o capacete ficou com o Pense). Voz 1,08×: 33,4 s."
 }

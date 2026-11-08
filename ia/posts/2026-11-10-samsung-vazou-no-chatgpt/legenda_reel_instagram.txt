@@ -1,0 +1,19 @@
+Comenta SEGREDO que eu te mando o passo a passo pra proteger seus dados na IA. 🔒
+
+Em 2023, funcionários da Samsung colaram código secreto da empresa no ChatGPT. E a Samsung proibiu a IA.
+
+3 fatos dessa história:
+1) Um engenheiro queria corrigir um erro e colou o código-fonte inteiro no chat pra IA olhar.
+2) Em outro caso, anotações de uma reunião interna também foram parar no chat.
+3) Em maio de 2023, a Samsung bloqueou o ChatGPT e outras IAs nos aparelhos e na rede da empresa.
+
+O que você manda fica guardado com a empresa da IA. Por isso, desliga o uso das suas conversas no treino (nas configurações de controle de dados).
+
+💬 Comenta SEGREDO e me segue. Salva pra contar pra alguém que cola tudo no chat.
+
+Você já colou no chat algo do trabalho que não devia? 👇
+
+Fontes: Yahoo Finance/Bloomberg, TechRadar e central de ajuda da OpenAI (controles de dados).
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #chatgpt #samsung #privacidade #seguranca #historiadaia #dicasdeia

@@ -19,5 +19,21 @@
   "instagram": "2026-11-10 21:30",
   "tiktok": "2026-11-10 21:30"
  },
- "status": "roteiro aprovado"
+ "status": "roteiro aprovado",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "c) máquina de escrever (trocado na produção: carimbo repetiria o Internet somada, que sai antes)",
+  "contador": "(sem contador: história)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "a) flash branco",
+  "camera": "c) travelling lateral",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + alarme de fábrica",
+  "mascote": "touca de sala limpa; ação principal: correr atrás das pastas voando"
+ },
+ "capa": {
+  "objeto": "cadeado"
+ },
+ "obs_producao": "Produzido em 08/11 no motor da cena_contagem, módulo itens/samsung-vazou-no-chatgpt.js: sala limpa de fábrica de chips (wafers, notebook com chat genérico, pastas CONFIDENCIAL, giroflex, cancela), chave de \"usar conversas no treino\" desligando. Sem logos. Nome em máquina de escrever (carimbo repetiria o Internet somada). Voz no modelo gemini-2.5-flash-preview-tts, 0,97×: 32,5 s."
 }

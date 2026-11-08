@@ -1,0 +1,16 @@
+Comenta INTERNET que eu te mando o link e o passo a passo. 📶
+
+Seu celular tem Wi-Fi e 4G. E se usasse os dois ao mesmo tempo?
+
+O net-merge faz isso: junta todas as suas conexões numa só (Wi-Fi, cabo, dados do celular e até o roteador do vizinho que é seu amigo) e distribui o tráfego entre elas. Quase 3 mil estrelas no GitHub em menos de um mês.
+
+Funciona no Windows, no Mac, no Linux e no Android. É de graça e de código aberto (licença MIT).
+
+💬 Comenta INTERNET e me segue pra mais IA e tecnologia que serve pra vida real. Deixa o like e manda pra aquele amigo que vive reclamando da internet.
+
+Onde sua internet mais trava: em casa ou no trabalho? 👇
+
+Fonte: github.com/net-merge/net-merge (2.975 estrelas em 08/11/2026). Use só conexões que são suas ou que você tem permissão pra usar.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#internet #wifi #4g #tecnologia #gratis #codigoaberto #dicas

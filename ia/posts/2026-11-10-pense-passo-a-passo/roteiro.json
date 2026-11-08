@@ -1,22 +1,23 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "categoria": "como_funciona",
  "chave": "PASSO",
  "tese": "4 PALAVRAS QUE FAZEM A IA ERRAR MENOS",
  "conceito": "Escada gigante de blocos de madeira no palco: cada degrau é um passo da conta; no topo, uma calculadora acende; quadro de cortiça com o problema. Paleta laranja-tijolo + azul-petróleo.",
  "elementos": {
-  "etiqueta": "e) tela de terminal",
-  "nome": "f) escrito à mão",
-  "contador": "e) placar 8-bit HI-SCORE",
-  "legenda": "d) balão de fala do mascote",
-  "transicao": "d) virada de página",
-  "camera": "f) plongée/contra-plongée",
+  "etiqueta": "g) placa de obra",
+  "nome": "f) escrito à mão (nos blocos)",
+  "contador": "c) velocímetro de acerto (17% → 78%)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "a) flash branco",
+  "camera": "e) câmera na mão",
   "fechamento": "a) lista + pílulas COMENTA",
-  "tipografia": "a) Space Grotesk",
+  "tipografia": "b) Archivo Black",
   "som": "trilha 01 + passos na madeira",
-  "mascote": "capacete de obra; ação principal: subir degrau por degrau"
+  "mascote": "capacete de obra; ação principal: subir degrau por degrau",
+  "obs": "trocados na produção (08/11): o roteiro repetia a combinação inteira do Manda print"
  },
  "brinde": "prompts prontos com 'vamos pensar passo a passo' para conta, orçamento e decisão",
  "fontes": [
@@ -47,7 +48,8 @@
     "4 PALAVRAS QUE FAZEM A IA ERRAR MENOS",
     "DE 17% PRA 78% DE ACERTO",
     "E QUASE NINGUÉM USA"
-   ]
+   ],
+   "itens": "pense-passo-a-passo"
   },
   {
    "cena": "s1",
@@ -114,5 +116,6 @@
     }
    ]
   }
- ]
+ ],
+ "modelo": "gemini-2.5-flash-preview-tts"
 }

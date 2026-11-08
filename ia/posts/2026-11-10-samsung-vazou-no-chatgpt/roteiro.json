@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "categoria": "historia",
  "chave": "SEGREDO",
@@ -8,7 +8,7 @@
  "conceito": "Fábrica de chips com luz de sala limpa: macacão branco, pastas com carimbo CONFIDENCIAL voando pra dentro de uma tela de chat; no fim, uma cancela de estacionamento bloqueando o notebook. Paleta branco-gelo + vermelho-alarme. Sem logo da Samsung nem da OpenAI.",
  "elementos": {
   "etiqueta": "g) placa de rua/aeroporto",
-  "nome": "b) carimbo batendo",
+  "nome": "c) máquina de escrever (trocado na produção: carimbo repetiria o Internet somada, que sai antes)",
   "contador": "(sem contador: história)",
   "legenda": "b) uma palavra gigante por vez com pop",
   "transicao": "a) flash branco",
@@ -16,7 +16,7 @@
   "fechamento": "c) post-its/cartazes na parede",
   "tipografia": "c) Fraunces",
   "som": "trilha 03 + alarme de fábrica",
-  "mascote": "touca e macacão de sala limpa; ação principal: correr atrás das pastas voando"
+  "mascote": "touca de sala limpa; ação principal: correr atrás das pastas voando"
  },
  "brinde": "passo a passo para desligar o uso das conversas no treino do ChatGPT",
  "fontes": [
@@ -48,7 +48,8 @@
     "ELES COLARAM SEGREDO DA SAMSUNG NO CHATGPT",
     "SAMSUNG, ABRIL DE 2023",
     "E A EMPRESA PROIBIU A IA"
-   ]
+   ],
+   "itens": "samsung-vazou-no-chatgpt"
   },
   {
    "cena": "s1",
@@ -115,5 +116,6 @@
     }
    ]
   }
- ]
+ ],
+ "modelo": "gemini-2.5-flash-preview-tts"
 }
