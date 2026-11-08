@@ -1,6 +1,6 @@
 # Kit "Super Assistente de IA": venda e lançamento
 
-Produto nº 2 (Vitor, 08/11). Arquivo entregue ao comprador: `kit.pdf` (21 páginas, A5, gerado por `gerar_pdf.py` a partir de `conteudo.py`).
+Produto nº 2 (Vitor, 08/11). Arquivo entregue ao comprador: `kit.pdf` (20 páginas, A5, gerado por `gerar_pdf.py` a partir de `conteudo.py`).
 
 ## Oferta
 
@@ -28,9 +28,9 @@ Produto nº 2 (Vitor, 08/11). Arquivo entregue ao comprador: `kit.pdf` (21 pági
 - Profissionais que usaram ChatGPT em tarefas de escrita levaram 40% menos tempo, com 18% mais qualidade (Science, 2023)
 - Consultores do BCG com GPT-4 entregaram trabalho 40% melhor e 25% mais rápido nas tarefas certas (Harvard, 2023)
 - Só pedir "pense passo a passo" levou o acerto da IA em problemas de matemática de 17,7% para 78,7% (NeurIPS 2022)
-O kit ensina exatamente esse "jeito certo", com a fonte de cada número.
+O kit ensina exatamente esse "jeito certo".
 
-**O que você recebe (PDF de 21 páginas, pra ler no celular)**
+**O que você recebe (PDF de 20 páginas, pra ler no celular)**
 - As 6 alavancas que turbinam qualquer IA (contexto, exemplo, passo a passo, perguntas antes, fonte e "não sei", modo pensar), cada uma com o estudo por trás
 - A ficha QUEM SOU EU: o texto pronto que faz a IA te conhecer, com onde colar em cada uma
 - 10 assistentes prontos pra copiar e colar: 💰 Contas da casa · 🥗 Cardápio da semana · ✍️ Revisor de mensagens · 🏋️ Personal de treino · 🗣️ Professor de inglês · 🗓️ Organizador da semana · 📚 Parceiro de estudos · 🏪 Atendente do seu negócio · ✈️ Planejador de viagem · 🛡️ Detector de golpe
@@ -62,7 +62,7 @@ O kit ensina exatamente esse "jeito certo", com a fonte de cada número.
 ```
 Opa! Aqui está o kit "Super Assistente de IA" 👇
 
-10 assistentes prontos (contas, cardápio, revisor, treino, inglês, agenda, estudos, atendimento, viagem e detector de golpe) + as 6 alavancas que turbinam qualquer IA + 10 comandos turbo. PDF de 21 páginas, com a fonte de cada número, pra ChatGPT, Claude ou Gemini.
+10 assistentes prontos (contas, cardápio, revisor, treino, inglês, agenda, estudos, atendimento, viagem e detector de golpe) + as 6 alavancas que turbinam qualquer IA + 10 comandos turbo. PDF de 20 páginas, pra ChatGPT, Claude ou Gemini.
 
 👉 [LINK DO CHECKOUT KIWIFY]
 

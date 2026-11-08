@@ -23,8 +23,9 @@ def fonte(nome, arquivo):
 
 
 def t(s):
-    """escapa e transforma [n] em referência sobrescrita."""
-    return re.sub(r"\[(\d+)\]", r'<sup>[\1]</sup>', html.escape(s))
+    """escapa e tira as referências [n] (Vitor, 08/11: sem a parte de fontes no PDF)."""
+    s = re.sub(r"\s*\[\d+\](?:\s*[–-]\s*\[\d+\]|\[\d+\])*", "", s)
+    return html.escape(s).replace(" .", ".")
 
 
 e = html.escape
@@ -53,15 +54,15 @@ a {{ color: #b44d1c; word-break: break-all; text-decoration: none }}
 .selo {{ display: inline-block; font: 8pt Corpo; letter-spacing: .14em; text-transform: uppercase; background: {LAR}; color: {TIN}; padding: 2pt 7pt; border-radius: 20pt }}
 .rod {{ font-size: 7.5pt; color: #8f8aa8 }}
 .cards3 {{ display: grid; gap: 7pt }}
-.stat {{ display: flex; gap: 10pt; align-items: center; background: {CRE}; border-radius: 9pt; padding: 10pt 12pt }}
-.stat .big {{ font-size: 25pt; color: {LAR}; min-width: 62pt; text-align: center }} .stat b {{ display: block; font-size: 10.5pt }}
+.stat {{ display: grid; grid-template-columns: 74pt 1fr; gap: 10pt; align-items: center; background: {CRE}; border-radius: 9pt; padding: 11pt 12pt }}
+.stat .big {{ font-size: 23pt; color: {LAR}; white-space: nowrap }} .stat b {{ display: block; font-size: 10.5pt; margin-bottom: 1pt }}
 .lic {{ background: {TIN}; color: #fff; border-radius: 9pt; padding: 10pt 12pt; margin-top: 8pt; font-size: 9.6pt }}
 .metodo {{ display: grid; grid-template-columns: 1fr 1fr; gap: 7pt; margin-top: 4pt }}
-.metodo div {{ background: {CRE}; border-radius: 9pt; padding: 10pt; min-height: 62pt }} .metodo .big {{ font-size: 22pt; color: {LAR} }}
+.metodo > div {{ background: {CRE}; border-radius: 9pt; padding: 10pt 11pt; display: flex; flex-direction: column; gap: 3pt }} .metodo .big {{ font-size: 20pt; color: {LAR}; line-height: 1 }}
 .alav {{ border: 1px solid {LIN}; border-radius: 9pt; padding: 8pt 10pt; margin-bottom: 7pt; break-inside: avoid }}
 .alav h3 {{ margin-top: 0 }} .alav .pq {{ font-size: 8.8pt; color: #5d5870 }}
 .frase {{ font: 8.3pt/1.45 Mono; background: {TIN}; color: #ffe2d2; border-radius: 6pt; padding: 6pt 8pt; margin-top: 4pt }}
-table {{ width: 100%; border-collapse: collapse; font-size: 8.6pt }} th {{ text-align: left; font: 7.5pt Corpo; letter-spacing: .08em; text-transform: uppercase; color: {LAR}; padding: 4pt }}
+table {{ width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 8.6pt }} td.mono {{ font: 7.8pt/1.45 Mono }} .mut {{ color: #8a8598; font-size: 8pt }} th {{ text-align: left; font: 7.5pt Corpo; letter-spacing: .08em; text-transform: uppercase; color: {LAR}; padding: 4pt }}
 td {{ border-top: 1px solid {LIN}; padding: 5pt 4pt; vertical-align: top }}
 pre {{ font: 7.9pt/1.45 Mono, monospace; white-space: pre-wrap; background: {TIN}; color: #f3eee6; border-radius: 8pt; padding: 9pt 10pt; margin: 3pt 0 8pt; position: relative }}
 pre::before {{ content: 'COPIE E COLE'; position: absolute; right: 8pt; top: -7pt; font: 6.5pt Corpo; letter-spacing: .12em; background: {LAR}; color: {TIN}; padding: 1.5pt 6pt; border-radius: 10pt }}
@@ -87,13 +88,13 @@ P.append(f"""<section class="cheia capa"><div class="halo"></div><div><span clas
 
 toc = [("Por que isso funciona (os números)", "3"), ("O método em 4 passos", "4"), ("As 6 alavancas que turbinam qualquer IA", "5"),
        ("Onde configurar em cada IA", "7"), ("A ficha QUEM SOU EU", "8"), ("Os 10 assistentes prontos", "9"),
-       ("10 comandos turbo", "19"), ("Ajuste, segurança e checklist", "20"), ("Fontes", "21")]
+       ("10 comandos turbo", "19"), ("Ajuste, segurança e checklist", "20")]
 P.append('<section class="pg"><span class="kick">Sumário</span><h2>O que tem aqui</h2><div class="toc">'
          + "".join(f"<div><b>{e(a)}</b><span>p. {b}</span></div>" for a, b in toc)
          + '</div><div class="lic" style="margin-top:12pt"><b>Em 1 frase:</b> você conta para a IA quem é <u>uma vez</u>, cria assistentes com tarefas fixas e usa 10 comandos que melhoram qualquer resposta. Ela passa a trabalhar por você.</div></section>')
 
 P.append('<section class="pg"><span class="kick">Por que isso funciona</span><h2>O que os estudos mediram</h2><div class="cards3">'
-         + "".join(f'<div class="stat"><div class="big">{n}</div><div><b>{e(r)}</b>{t(d)} <sup>[{f}]</sup></div></div>' for n, r, d, f in C.NUMEROS)
+         + "".join(f'<div class="stat"><div class="big">{n}</div><div><b>{e(r)}</b>{t(d)}</div></div>' for n, r, d, f in C.NUMEROS)
          + f'</div><div class="lic">{t(C.NUMEROS_LICAO)}</div></section>')
 
 P.append('<section class="pg"><span class="kick">O método</span><h2>4 passos, 1 tarde</h2><div class="metodo">'
@@ -106,9 +107,9 @@ for i in range(0, len(C.ALAVANCAS), 3):
                        f'<div class="frase">{e(a["frase"])}</div></div>' for a in C.ALAVANCAS[i:i + 3]) + "</section>")
 
 P.append('<section class="pg"><span class="kick">Configuração</span><h2>Onde configurar em cada IA</h2>'
-         '<table><tr><th>IA</th><th>Sobre você</th><th>Assistentes</th></tr>'
-         + "".join(f'<tr><td><b>{e(a)}</b></td><td>{e(b)}</td><td>{e(c)}<br><span style="color:#8a8598">{t(d)}</span></td></tr>' for a, b, c, d in C.ONDE)
-         + '</table><p style="margin-top:9pt">Os menus mudam com as atualizações dos apps. Se não achar o botão, procure pelo nome do recurso (Instruções personalizadas, Projetos, Gems) ou use a ajuda oficial na página de fontes <sup>[11]–[14]</sup>.</p>'
+         '<table><colgroup><col style="width:18%"><col style="width:38%"><col style="width:44%"></colgroup><tr><th>IA</th><th>Sobre você</th><th>Assistentes</th></tr>'
+         + "".join(f'<tr><td><b>{e(a)}</b></td><td>{e(b)}</td><td>{e(c)}<br><span class="mut">{t(d)}</span></td></tr>' for a, b, c, d in C.ONDE)
+         + '</table><p style="margin-top:9pt">Os menus mudam com as atualizações dos apps. Se não achar o botão, procure pelo nome do recurso (Instruções personalizadas, Projetos, Gems), ou procure na ajuda oficial do app.</p>'
          '<div class="lic"><b>Grátis?</b> As três IAs têm plano grátis e você consegue começar com ele. Alguns recursos, como mais Projetos ou modelos de raciocínio, podem pedir o plano pago.</div></section>')
 
 P.append(f'<section class="pg"><span class="kick">Passo 1 · 20 minutos</span><h2>A ficha QUEM SOU EU</h2>'
@@ -124,8 +125,8 @@ for i, a in enumerate(C.ASSISTENTES, 1):
 <div class="lab">Como fica a resposta</div><div class="ex">{e(a['exemplo'])}<br><small>exemplo ilustrativo</small></div>
 {f'<p class="aviso">⚠️ {e(a["aviso"])}</p>' if a['aviso'] else ''}</section>""")
 
-P.append('<section class="pg"><span class="kick">Use em qualquer conversa</span><h2>10 comandos turbo</h2><table><tr><th>Cole isto</th><th>Quando</th><th>Por quê</th></tr>'
-         + "".join(f'<tr><td style="font-family:Mono;font-size:7.8pt">{e(a)}</td><td>{e(b)}</td><td>{t(c)}</td></tr>' for a, b, c in C.TURBO)
+P.append('<section class="pg"><span class="kick">Use em qualquer conversa</span><h2>10 comandos turbo</h2><table><colgroup><col style="width:46%"><col style="width:24%"><col style="width:30%"></colgroup><tr><th>Cole isto</th><th>Quando</th><th>Por quê</th></tr>'
+         + "".join(f'<tr><td class="mono">{e(a)}</td><td>{e(b)}</td><td>{t(c)}</td></tr>' for a, b, c in C.TURBO)
          + "</table></section>")
 
 P.append('<section class="pg"><span class="kick">Semana 1</span><h2>Ajuste, segurança e checklist</h2>'
@@ -133,10 +134,6 @@ P.append('<section class="pg"><span class="kick">Semana 1</span><h2>Ajuste, segu
          + '<h3>🔒 Segurança</h3><ul>' + "".join(f"<li>{t(x)}</li>" for x in C.SEGURANCA) + "</ul>"
          + '<h3>✅ Checklist</h3><ul class="check">' + "".join(f"<li>{e(x)}</li>" for x in C.CHECKLIST) + "</ul></section>")
 
-P.append('<section class="pg"><span class="kick">Referências</span><h2>Fontes</h2><ol class="fontes">'
-         + "".join(f'<li>{e(n)}. <a href="{u}">{e(u)}</a></li>' for n, u in C.FONTES)
-         + f'</ol><p class="aviso">{e(C.VERSAO)}. Exemplos de resposta são ilustrativos. ChatGPT, Claude e Gemini são marcas de seus donos; este material é independente. '
-           'Uso pessoal: não redistribua. Dúvidas: DM para @iaem60s com a palavra KIT.</p></section>')
 
 doc = f'<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>{e(C.TITULO)}</title><style>{css}</style></head><body>{"".join(P)}</body></html>'
 (AQUI / "kit.html").write_text(doc, encoding="utf-8")

@@ -29,9 +29,9 @@ FONTES = [
 
 # Página "Por que isso funciona": números de estudos (com a fonte)
 NUMEROS = [
-    ("40%", "menos tempo", "em tarefas de escrita profissional com o ChatGPT, e a qualidade subiu 18% (453 profissionais).", 2),
-    ("+40%", "de qualidade", "no trabalho de consultores do BCG usando GPT-4 em tarefas dentro do que a IA faz bem; 25% mais rápido.", 1),
-    ("+34%", "de produtividade", "para atendentes iniciantes com um assistente de IA (5.179 atendentes; média geral +14%).", 3),
+    ("−40%", "de tempo", "em tarefas de escrita profissional com o ChatGPT, e a qualidade subiu 18%. (453 profissionais, revista Science, 2023)", 2),
+    ("+40%", "de qualidade", "no trabalho de consultores do BCG usando GPT-4, e 25% mais rápido. (758 consultores, Harvard Business School, 2023)", 1),
+    ("+34%", "de produtividade", "para atendentes iniciantes com um assistente de IA; média geral de +14%. (5.179 atendentes, NBER, 2023)", 3),
 ]
 NUMEROS_LICAO = "O ganho não vem de \"ter IA\": vem de usar do jeito certo. No mesmo estudo do BCG, em tarefas fora do alcance da IA, quem confiou cegamente errou mais [1]. Este kit é sobre o jeito certo."
 
@@ -293,16 +293,16 @@ Você é meu verificador de segurança digital.
 
 # Comandos turbo: frase, quando usar, por quê [fonte]
 TURBO = [
-    ("Antes de responder, me faça as perguntas que faltam.", "Pedido importante ou vago", "[9][10]"),
-    ("Pense passo a passo e confira a conta no final.", "Cálculo, plano, decisão", "17,7% → 78,7% [4]"),
-    ("Se não tiver certeza, diga \"não sei\" e indique a fonte de cada dado.", "Fatos, leis, números", "[8]"),
-    ("Faça igual a este exemplo: [cole].", "Quer um estilo específico", "[5]"),
-    ("Me dê 3 versões bem diferentes e diga qual você escolheria e por quê.", "Textos, títulos, ideias", "[9]"),
-    ("Agora critique sua resposta como um especialista exigente e melhore.", "Resposta boa, mas não ótima", "[9][10]"),
-    ("Responda em tabela (ou em até 5 tópicos).", "Resposta longa demais", "[10]"),
-    ("Resuma esta conversa em 10 linhas para eu continuar em outra.", "Conversa longa, IA esquecendo", "[7]"),
-    ("Explique como se eu tivesse 12 anos, com um exemplo do dia a dia.", "Assunto difícil", "[9]"),
-    ("O que eu não perguntei, mas deveria saber sobre isso?", "Decisões e compras", "[9]"),
+    ("Antes de responder, me faça as perguntas que faltam.", "Pedido importante ou vago", "Evita que ela chute o que você não disse"),
+    ("Pense passo a passo e confira a conta no final.", "Cálculo, plano, decisão", "Acerto de 17,7% → 78,7% em teste de lógica"),
+    ("Se não tiver certeza, diga \"não sei\" e indique a fonte de cada dado.", "Fatos, leis, números", "Corta as invenções ditas com confiança"),
+    ("Faça igual a este exemplo: [cole].", "Quer um estilo específico", "Exemplo ensina mais que explicação"),
+    ("Me dê 3 versões bem diferentes e diga qual você escolheria e por quê.", "Textos, títulos, ideias", "Você escolhe em vez de aceitar a 1ª"),
+    ("Agora critique sua resposta como um especialista exigente e melhore.", "Resposta boa, mas não ótima", "A 2ª versão sai mais completa"),
+    ("Responda em tabela (ou em até 5 tópicos).", "Resposta longa demais", "Formato definido = leitura rápida"),
+    ("Resuma esta conversa em 10 linhas para eu continuar em outra.", "Conversa longa, IA esquecendo", "Conversa longa faz a IA perder o meio"),
+    ("Explique como se eu tivesse 12 anos, com um exemplo do dia a dia.", "Assunto difícil", "Tira o jargão"),
+    ("O que eu não perguntei, mas deveria saber sobre isso?", "Decisões e compras", "Mostra o ponto cego"),
 ]
 
 AJUSTE = [
