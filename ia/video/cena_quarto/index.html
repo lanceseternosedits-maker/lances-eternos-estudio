@@ -180,6 +180,22 @@ masc.scale.setScalar(1.15); S.add(masc);
 const ease = (x) => (x <= 0 ? 0 : x >= 1 ? 1 : x * x * x * (x * (6 * x - 15) + 10)); // smootherstep
 const pop = (x) => { x = Math.max(0, Math.min(1, x)); return x < 0.7 ? (1 - Math.pow(1 - x / 0.7, 3)) * 1.12 : 1.12 - 0.12 * (1 - Math.pow(1 - (x - 0.7) / 0.3, 3)); };
 let TL = null; const _prev = window.setTL; window.setTL = (t) => { TL = t; if (_prev) _prev(t); };
+// contorno preto estilo cartoon (casco invertido), aplicado nos objetos, móveis e mascote
+const tinta = new THREE.MeshBasicMaterial({ color: 0x0b0a0c, side: THREE.BackSide });
+function contorna(raiz, esp = 0.035) { const lista = []; raiz.traverse((o) => { if (o.isMesh && !o.userData.semTinta && o.geometry && o.geometry.type !== 'PlaneGeometry') lista.push(o); });
+  for (const o of lista) { o.geometry.computeBoundingSphere(); const r = o.geometry.boundingSphere.radius || 1; const h = new THREE.Mesh(o.geometry, tinta); h.scale.setScalar(1 + esp / r); h.userData.semTinta = true; o.add(h); } }
+mods.forEach((m) => contorna(m.obj)); contorna(masc, 0.03);
+S.children.filter((o) => o.isMesh && o.geometry.type === 'BoxGeometry' && o.position.y > 0.3 && o.position.y < 6 && o.geometry.parameters.width < 6).forEach((o) => contorna(o, 0.03));
+// primeiro plano no plano do PC: caneca na mesa, perto da lente
+const caneca = new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.28, 0.6, 24), Mt(0xff7a3d)); caneca.position.set(MX + 2.0, 3.03, MZ + 1.3); caneca.castShadow = true; S.add(caneca); contorna(caneca, 0.03);
+// palavra da fala que faz cada objeto aparecer (reação 0–3 quadros antes da palavra)
+const GATILHO = { p01: /computador|app/i, p02: /servidor/i, p03: /domínio/i, p04: /banco/i, p05: /login/i, p06: /embaralhada|senha/i, p07: /código/i, p08: /pagamento|cartão/i,
+  p09: /avisado/i, p10: /e-mail/i, p11: /liga|apps/i, p12: /^IA$/i, p13: /backup/i, p14: /vários/i, p15: /vigia/i };
+function momentos() { const SG = TL.segmentos; return ETAPAS.map((e) => { const sg = SG.find((s) => s.cena === e[0]); if (!sg) return { pop: 1e9, sai: 1e9, t0: 1e9 };
+  const w = (sg.palavras || []).find((x) => GATILHO[e[0]].test(x.w.replace(/[.,:;!?]+$/, ''))); const pop = (w ? w.t0 : sg.t0 + 2.2) - 0.07;
+  const sai = Math.max(sg.t0 + 0.8, pop - 0.95); return { pop: Math.max(pop, sai + 0.75), sai, t0: sg.t0 }; }); }
+window.eventos = () => { const SG = TL.segmentos; const ev = []; momentos().forEach((m, i) => { if (m.t0 > 1e8) return; ev.push({ t: m.t0 + 0.05, som: 'typing', dur: Math.max(0.4, m.sai - m.t0 - 0.1) }); ev.push({ t: m.sai, som: 'whoosh' }); ev.push({ t: m.pop, som: 'pop' }); });
+  const cta = SG.find((s) => s.cena === 'cta'); if (cta) ev.push({ t: cta.t0 + 0.1, som: 'ding' }); const meio = SG.find((s) => s.cena === 'meio'); if (meio) ev.push({ t: meio.t0 + 0.05, som: 'ding' }); return ev; };
 // planos de câmera
 const V = (x, y, z) => new THREE.Vector3(x, y, z);
 const PLANO_PC = { pos: V(MX + 3.0, 6.6, MZ + 6.6), olha: V(MX - 0.2, 4.4, MZ - 0.7) };              // por cima do ombro, tela grande
@@ -194,8 +210,8 @@ window.setT3 = (t) => {
   // tela do PC: o pedido da etapa sendo digitado
   const cmd = (seg.terminal || '> faz um app de agendamento').slice(2); desenhaTela(cmd, Math.floor(dt * 26), Math.floor(t * 2.5) % 2 === 0);
   // quando o objeto aparece: depois que o pedido foi digitado e a câmera saiu do PC
-  const tA = Math.min(2.2, dur * 0.4), tB = tA + 0.9;   // PC → (0,9 s) → cadeia
-  mods.forEach((m, i) => { const t0 = inicios[i] + tB - 0.2; const v = t < t0 ? 0.0001 : pop((t - t0) / 0.6);
+  const MO = momentos();
+  mods.forEach((m, i) => { const t0 = MO[i].pop; const v = t < t0 ? 0.0001 : pop((t - t0) / 0.6);
     m.grp.scale.setScalar(Math.max(0.0001, v)); m.obj.rotation.y = -0.4 + 0.15 * Math.sin(t * 0.7 + i);
     const on = i === idx && t >= t0; m.anel.material.color.set(on ? 0xff7a3d : 0xb9b2a6); m.nome.material.opacity = on ? 1 : 0.6;
     m.obj.traverse((o) => { if (!o.name) return;
@@ -207,19 +223,20 @@ window.setT3 = (t) => {
       if (o.name === 'encaixa') { o.userData.x0 ??= o.position.x; o.position.x = o.userData.x0 + (on ? Math.min(0.55, (t - t0) * 0.6) : 0.55); }
       if (o.name.startsWith('clone')) { const q = +o.name.slice(5); const ap = on ? Math.min(1, Math.max(0, (t - t0 - q * 0.5) / 0.4)) : (t >= t0 ? 1 : 0); o.scale.setScalar(q === 1 ? 1 : Math.max(0.001, ap)); }
     }); });
-  cabos.forEach((c, i) => { c.visible = t >= inicios[i] + tB - 0.4; });
-  pulsos.forEach(({ p, i, k: q, a, b }) => { if (!(t >= inicios[i] + tB)) { p.visible = false; return; } p.visible = true; const f = (t * 0.45 + q / 2) % 1; p.position.lerpVectors(a, b, f); p.position.y = 0.25; });
+  cabos.forEach((c, i) => { c.visible = t >= MO[i].pop - 0.15; });
+  pulsos.forEach(({ p, i, k: q, a, b }) => { if (!(t >= MO[i].pop + 0.2)) { p.visible = false; return; } p.visible = true; const f = (t * 0.45 + q / 2) % 1; p.position.lerpVectors(a, b, f); p.position.y = 0.25; });
   // câmera
   let pl;
   if (seg.cena === 'gancho') pl = mistura(PLANO_QUARTO, PLANO_PC, ease((dt - 2.5) / 2.5));
-  else if (idx >= 0) { const alvo = planoEtapa(idx); pl = dt < tA ? PLANO_PC : mistura(PLANO_PC, alvo, ease((dt - tA) / 0.9)); }
+  else if (idx >= 0) { const alvo = planoEtapa(idx); const mo = MO[idx]; pl = t < mo.sai ? PLANO_PC : mistura(PLANO_PC, alvo, ease((t - mo.sai) / 0.85)); }
   else if (seg.cena === 'meio') { const ant = planoEtapa(6); pl = { pos: ant.pos.clone().add(V(2, 3, 4)), olha: ant.olha }; }
   else { const z = ease(dt / 2); const geral = { pos: V(6, 26, 30), olha: V(8, 0, 2) }; pl = mistura(planoEtapa(14), geral, z); }
   // regras de câmera (skill claude-animated-shorts, 08/11): toda pausa 'anda' (empurrão lento), leve inclinação de 3-4°, nunca quadro parado
-  const empurra = Math.min(0.12, (t - seg.t0) * 0.025); pl.pos.lerp(pl.olha, empurra);
-  pl.pos.x += Math.sin(t * 0.4) * 0.3; cam.position.copy(pl.pos); cam.lookAt(pl.olha); cam.rotateZ(0.06 * Math.sin(t * 0.3));
+  const desdeMov = idx >= 0 ? (t < MO[idx].sai ? t - seg.t0 : t - MO[idx].pop) : dt; const empurra = Math.min(0.22, Math.max(0, desdeMov) * 0.07); pl.pos.lerp(pl.olha, empurra);
+  pl.pos.x += Math.sin(t * 0.4) * 0.3; cam.position.copy(pl.pos); cam.lookAt(pl.olha); cam.rotateZ(0.07 * Math.sin(t * 0.3));
+  if (idx >= 0) { const q = (t - MO[idx].pop) * 30; if (q >= 0 && q < 7) { const a = 0.09 * (1 - q / 7) * (Math.floor(q) % 2 ? -1 : 1); cam.position.y += a; cam.rotateZ(a * 0.25); } }  // tremida curta no impacto
   // mascote sentado digitando (balança e mexe os braços enquanto digita)
-  masc.position.set(MX, 1.75, MZ + 2.0); masc.rotation.y = Math.PI; const dig = idx >= 0 && dt < tA;
+  masc.position.set(MX, 1.75, MZ + 2.0); masc.rotation.y = Math.PI; const dig = idx >= 0 && t < MO[idx].sai;
   bracoE.rotation.x = dig ? 0.3 * Math.sin(t * 22) : 0; bracoD.rotation.x = dig ? -0.3 * Math.sin(t * 22) : 0;
   masc.position.y = 1.75 + (dig ? 0.03 * Math.sin(t * 30) : 0);
   R.render(S, cam);
