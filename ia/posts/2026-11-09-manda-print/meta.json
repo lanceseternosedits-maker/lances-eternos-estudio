@@ -1,1 +1,97 @@
-{"data": "2026-11-09", "horario": "12:00", "pilar": "reel", "categoria": "como_funciona", "formato": "palco", "temas": ["manda-print"], "fontes": ["https://platform.claude.com/docs/en/build-with-claude/vision", "https://platform.openai.com/docs/guides/images-vision"], "prova_viral": "Incômodo comum (explicar erro por texto); leitura de imagem documentada nos guias oficiais da Anthropic e da OpenAI.", "cta": "PRINT", "polemica": false, "horarios": {"instagram": "2026-11-09 12:00", "tiktok": "2026-11-09 12:00"}, "status": "vídeo aguardando aprovação", "checagem": {"em": "2026-11-08 20:31", "ok": true, "itens": [{"nome": "Formato", "valor": "1080×1920", "ok": true, "regra": "1080×1920"}, {"nome": "Duração", "valor": "33.4 s", "ok": true, "regra": "até 35 s (corte texto se passar)"}, {"nome": "Velocidade da fala", "valor": "2.57 palavras/s (86 palavras)", "ok": true, "regra": "máximo 3,0 palavras/s"}, {"nome": "Volume", "valor": "-14.3 LUFS, pico -1.2 dB", "ok": true, "regra": "entre -16 e -12 LUFS, pico até -1 dB"}, {"nome": "Fontes", "valor": "2 fonte(s)", "ok": true, "regra": "todo fato com fonte"}, {"nome": "Prova viral", "valor": "preenchida", "ok": true, "regra": "toda pauta com a prova de que viralizou"}, {"nome": "Legenda do Instagram", "valor": "785 caracteres", "ok": true, "regra": "até 2.200 caracteres"}, {"nome": "CTA na legenda", "valor": "PRINT", "ok": true, "regra": "a palavra do CTA aparece na legenda"}, {"nome": "Resposta da DM", "valor": "ok", "ok": true, "regra": "resposta_dm.txt com os links"}]}, "elementos": {"etiqueta": "e) tela de terminal", "nome": "f) escrito à mão", "contador": "e) placar 8-bit HI-SCORE", "legenda": "d) balão de fala do mascote", "transicao": "d) virada de página", "camera": "f) plongée/contra-plongée", "fechamento": "a) lista + pílulas COMENTA", "tipografia": "a) Space Grotesk", "som": "trilha 01 + obturador de Polaroid", "mascote": "lupa de relojoeiro no olho; ação principal: tirar foto com a Polaroid"}, "capa": {"objeto": "camera"}, "obs_producao": "Produzido em 08/11 no motor da cena_contagem, módulo itens/manda-print.js: assistência técnica de bairro (balcão mostarda, celular com tela de erro, cortiça com fotos instantâneas). Voz 1,08×: 33,4 s. Lupa levantada na testa (olhos à mostra). Fechamento re-renderizado para tirar 2 s de quadro parado. checar.py e qa_video.sh ok."}
+{
+ "data": "2026-11-09",
+ "horario": "12:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "manda-print"
+ ],
+ "fontes": [
+  "https://platform.claude.com/docs/en/build-with-claude/vision",
+  "https://platform.openai.com/docs/guides/images-vision"
+ ],
+ "prova_viral": "Incômodo comum (explicar erro por texto); leitura de imagem documentada nos guias oficiais da Anthropic e da OpenAI.",
+ "cta": "PRINT",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-09 12:00",
+  "tiktok": "2026-11-09 12:00"
+ },
+ "checagem": {
+  "em": "2026-11-08 20:31",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "33.4 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.57 palavras/s (86 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.3 LUFS, pico -1.2 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "785 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "PRINT",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "f) escrito à mão",
+  "contador": "e) placar 8-bit HI-SCORE",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 01 + obturador de Polaroid",
+  "mascote": "lupa de relojoeiro no olho; ação principal: tirar foto com a Polaroid"
+ },
+ "capa": {
+  "objeto": "camera"
+ },
+ "obs_producao": "Produzido em 08/11 no motor da cena_contagem, módulo itens/manda-print.js: assistência técnica de bairro (balcão mostarda, celular com tela de erro, cortiça com fotos instantâneas). Voz 1,08×: 33,4 s. Lupa levantada na testa (olhos à mostra). Fechamento re-renderizado para tirar 2 s de quadro parado. checar.py e qa_video.sh ok."
+}

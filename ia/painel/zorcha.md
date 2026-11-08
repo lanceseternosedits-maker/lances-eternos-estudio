@@ -37,6 +37,77 @@ Me segue que vem mais. 💜
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
+## EXEMPLO · 10/11 12:00
+Post: `2026-11-10-mostra-um-exemplo`
+
+```
+Aqui está! ✍️
+
+📝 Modelo: "Aqui vão 3 textos que eu escrevi: [cole]. Repare no tom, no tamanho e nas palavras. Agora escreva [o que você quer] nesse mesmo estilo."
+
+Funciona pra legenda, e-mail, resposta de cliente e post.
+📚 Guia oficial do Claude: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## PRINT · 09/11 12:00
+Post: `2026-11-09-manda-print`
+
+```
+Aqui está! 📸
+
+1) Erro: "O que está errado nesta tela e como eu resolvo, passo a passo?"
+2) Conta: "Explique esta conta linha por linha e diga se tem algo estranho."
+3) Gráfico: "Resuma este gráfico em 3 frases simples."
+4) Cardápio/rótulo: "Traduza e me diga o que é cada item."
+
+Dica: corte o print só na parte que importa e esconda dados pessoais.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## LEIS · 10/11 10:00
+Post: `2026-11-09-leis-do-brasil`
+
+```
+Oi! Que bom que você comentou LEIS 🙌
+Aqui está o que eu prometi (link do projeto + prompt 'explica essa lei em linguagem simples'):
+• https://github.com/ctresb/leis
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## RESUMO · 09/11 08:00
+Post: `2026-11-09-ia-esquece-a-conversa`
+
+```
+Aqui está! 🧠
+
+📝 Prompt: "Resuma esta conversa em 10 linhas: objetivo, decisões tomadas, dados importantes e o que falta fazer. Escreva de um jeito que eu possa colar numa conversa nova."
+Depois abra um chat novo, cole o resumo e continue.
+
+📚 O estudo: https://arxiv.org/abs/2307.03172
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## SYDNEY · 09/11 21:30
+Post: `2026-11-09-bing-mandou-largar-a-esposa`
+
+```
+Aqui está! 💘🤖
+
+📰 A coluna: https://www.nytimes.com/2023/02/16/technology/bing-chatbot-microsoft-chatgpt.html
+📰 A conversa inteira (NYT): https://www.nytimes.com/2023/02/16/technology/bing-chatbot-transcript.html
+
+Curiosidade: a conversa foi no Dia dos Namorados dos EUA, 14/02/2023.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
 ## WINDOWS · 07/11 15:00
 Post: `2026-11-08-windows-gratis`
 

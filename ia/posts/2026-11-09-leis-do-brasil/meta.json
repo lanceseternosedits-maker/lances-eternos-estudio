@@ -1,1 +1,95 @@
-{"data": "2026-11-10", "horario": "10:00", "pilar": "reel", "formato": "palco", "temas": ["leis-do-brasil"], "fontes": ["https://github.com/ctresb/leis"], "cta": "LEIS", "polemica": false, "horarios": {"instagram": "2026-11-10 10:00", "tiktok": "2026-11-10 10:00"}, "status": "vídeo aguardando aprovação", "categoria": "novidade", "elementos": {"etiqueta": "b) papel rasgado com fita", "nome": "c) máquina de escrever", "contador": "d) pote de estrelas", "legenda": "e) tarja de TV", "transicao": "f) zoom atravessando tela", "camera": "d) órbita", "fechamento": "c) post-its na parede", "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk", "som": "trilha 03 + efeitos arcade", "mascote": "viseira verde de escrivão; ação principal: digitar na máquina de escrever"}, "capa": {"objeto": "livro"}, "obs_producao": "Produzido em 08/11 no motor da cena_contagem, módulo itens/leis-do-brasil.js: cartório antigo (pilhas de processos, arquivo de aço que solta folhas e vira tela de busca, livro de leis que acende), pote de estrelas, carimbo APROVADO. Etiqueta corrigida para +2,6 mil (API do GitHub em 08/11: 2.659; o roteiro dizia +3 mil). 34,4 s, voz sem aceleração. checar.py e qa_video.sh ok.", "checagem": {"em": "2026-11-08 20:32", "ok": true, "itens": [{"nome": "Formato", "valor": "1080×1920", "ok": true, "regra": "1080×1920"}, {"nome": "Duração", "valor": "34.4 s", "ok": true, "regra": "até 35 s (corte texto se passar)"}, {"nome": "Velocidade da fala", "valor": "2.44 palavras/s (84 palavras)", "ok": true, "regra": "máximo 3,0 palavras/s"}, {"nome": "Volume", "valor": "-14.0 LUFS, pico -1.1 dB", "ok": true, "regra": "entre -16 e -12 LUFS, pico até -1 dB"}, {"nome": "Fontes", "valor": "1 fonte(s)", "ok": true, "regra": "todo fato com fonte"}, {"nome": "Prova viral", "valor": "preenchida", "ok": true, "regra": "toda pauta com a prova de que viralizou"}, {"nome": "Legenda do Instagram", "valor": "858 caracteres", "ok": true, "regra": "até 2.200 caracteres"}, {"nome": "CTA na legenda", "valor": "LEIS", "ok": true, "regra": "a palavra do CTA aparece na legenda"}, {"nome": "Resposta da DM", "valor": "ok", "ok": true, "regra": "resposta_dm.txt com os links"}]}}
+{
+ "data": "2026-11-10",
+ "horario": "10:00",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "leis-do-brasil"
+ ],
+ "fontes": [
+  "https://github.com/ctresb/leis"
+ ],
+ "cta": "LEIS",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-10 10:00",
+  "tiktok": "2026-11-10 10:00"
+ },
+ "categoria": "novidade",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote de estrelas",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
+  "som": "trilha 03 + efeitos arcade",
+  "mascote": "viseira verde de escrivão; ação principal: digitar na máquina de escrever"
+ },
+ "capa": {
+  "objeto": "livro"
+ },
+ "obs_producao": "Produzido em 08/11 no motor da cena_contagem, módulo itens/leis-do-brasil.js: cartório antigo (pilhas de processos, arquivo de aço que solta folhas e vira tela de busca, livro de leis que acende), pote de estrelas, carimbo APROVADO. Etiqueta corrigida para +2,6 mil (API do GitHub em 08/11: 2.659; o roteiro dizia +3 mil). 34,4 s, voz sem aceleração. checar.py e qa_video.sh ok.",
+ "checagem": {
+  "em": "2026-11-08 20:32",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "34.4 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.44 palavras/s (84 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.0 LUFS, pico -1.1 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "1 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "858 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "LEIS",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ }
+}

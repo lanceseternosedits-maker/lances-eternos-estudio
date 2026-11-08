@@ -1,49 +1,13 @@
 {
- "gerado_em": "2026-11-08 17:47",
+ "gerado_em": "2026-11-08 17:48",
  "videos": [
   {
    "pasta": "2026-11-10-a-ia-ganhou-nome",
    "titulo": "1956: PROMETERAM A IA EM 2 MESES",
    "quando": "2026-11-10 17:00"
-  },
-  {
-   "pasta": "2026-11-10-mostra-um-exemplo",
-   "titulo": "ELA NUNCA ESCREVE DO SEU JEITO?",
-   "quando": "2026-11-10 12:00"
-  },
-  {
-   "pasta": "2026-11-09-leis-do-brasil",
-   "titulo": "TODAS AS LEIS DO BRASIL NUM LUGAR SÓ",
-   "quando": "2026-11-10 10:00"
-  },
-  {
-   "pasta": "2026-11-09-bing-mandou-largar-a-esposa",
-   "titulo": "A IA QUE MANDOU ELE LARGAR A ESPOSA",
-   "quando": "2026-11-09 21:30"
-  },
-  {
-   "pasta": "2026-11-09-manda-print",
-   "titulo": "PARA DE DESCREVER: MANDA PRINT",
-   "quando": "2026-11-09 12:00"
-  },
-  {
-   "pasta": "2026-11-09-ia-esquece-a-conversa",
-   "titulo": "POR QUE A IA ESQUECE O QUE VOCÊ FALOU",
-   "quando": "2026-11-09 08:00"
   }
  ],
- "roteiros": [
-  {
-   "pasta": "2026-11-10-equipe-de-ia",
-   "titulo": "5 FUNCIONÁRIOS DE IA",
-   "quando": "2026-11-10"
-  },
-  {
-   "pasta": "2026-11-10-sua-ia-nao-te-conhece",
-   "titulo": "SUA IA NÃO SABE NADA DE VOCÊ",
-   "quando": "2026-11-10"
-  }
- ],
+ "roteiros": [],
  "agenda_3_dias": [
   {
    "quando": "2026-11-08 19:00",
@@ -70,8 +34,24 @@
    ]
   },
   {
+   "quando": "2026-11-09 08:00",
+   "titulo": "POR QUE A IA ESQUECE O QUE VOCÊ FALOU",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
    "quando": "2026-11-09 10:00",
    "titulo": "3 SKILLS QUE FAZEM VÍDEO DO ZERO",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-09 12:00",
+   "titulo": "PARA DE DESCREVER: MANDA PRINT",
    "redes": [
     "instagram",
     "tiktok"
@@ -102,8 +82,32 @@
    ]
   },
   {
+   "quando": "2026-11-09 21:30",
+   "titulo": "A IA QUE MANDOU ELE LARGAR A ESPOSA",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
    "quando": "2026-11-10 06:00",
    "titulo": "POV: VOCÊ FEZ UM APP DE MAC SEM ESCREVER CÓDIGO",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-10 10:00",
+   "titulo": "TODAS AS LEIS DO BRASIL NUM LUGAR SÓ",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-10 12:00",
+   "titulo": "ELA NUNCA ESCREVE DO SEU JEITO?",
    "redes": [
     "instagram",
     "tiktok"
