@@ -511,8 +511,8 @@ header h1{{margin:0;font-size:19px;flex:1}}header h1 small{{display:block;font-s
 .ib{{font:inherit;font-size:13px;font-weight:600;padding:7px 11px;border-radius:20px;border:1px solid var(--line);background:var(--card);color:var(--tx);cursor:pointer}}
 #sino{{border-color:#ffb54766;color:var(--esp)}}#sino.ok{{border-color:#3ecf8e66;color:var(--ok)}}
 main{{padding:12px 14px 20px;max-width:1100px;margin:auto}}
-.aba{{display:none}}body[data-tab=aprovar] .aba-aprovar,body[data-tab=agenda] .aba-agenda,body[data-tab=publicados] .aba-publicados,body[data-tab=todos] .aba-todos,body[data-tab=gastos] .aba-gastos,body[data-tab=resultados] .aba-resultados{{display:block}}
-body[data-tab=gastos] #grade,body[data-tab=gastos] #vazio,body[data-tab=resultados] #grade,body[data-tab=resultados] #vazio{{display:none!important}}
+.aba{{display:none}}body[data-tab=aprovar] .aba-aprovar,body[data-tab=agenda] .aba-agenda,body[data-tab=publicados] .aba-publicados,body[data-tab=todos] .aba-todos,body[data-tab=gastos] .aba-gastos,body[data-tab=resultados] .aba-resultados,body[data-tab=equipe] .aba-equipe{{display:block}}
+body[data-tab=gastos] #grade,body[data-tab=gastos] #vazio,body[data-tab=resultados] #grade,body[data-tab=resultados] #vazio,body[data-tab=equipe] #grade,body[data-tab=equipe] #vazio{{display:none!important}}
 .ins{{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--mut);border-radius:14px;padding:10px 12px;margin:0 0 8px}}.ins h4{{margin:2px 0 6px;font-size:15px}}.ins p{{margin:4px 0;font-size:13px}}.ins .ev{{color:var(--mut)}}.it{{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin:0}}.ins-ok{{border-left-color:#3fb950}}.ins-warn{{border-left-color:#d29922}}.ins-info{{border-left-color:#58a6ff}}.ins-erro{{border-left-color:var(--erro)}}.analista{{background:linear-gradient(135deg,#2a1f4a,#1c2a3f);border-radius:14px;padding:12px;margin:0 0 10px}}.analista p{{margin:4px 0;font-size:14px}}.barra{{height:6px;background:var(--line);border-radius:3px;margin-top:6px}}.barra i{{display:block;height:100%;background:#e8834a;border-radius:3px}}table.res .num{{width:78px}}table.res a{{color:inherit;text-decoration:none}}ul.auto{{font-size:13px;color:var(--mut);padding-left:18px}}ul.auto li{{margin:4px 0}}
 .kpi{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 8px;text-align:center}}.kpi b{{display:block;font-size:19px}}.kpi span{{font-size:11px;color:var(--mut)}}
 table.gastos{{table-layout:fixed;width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:13px}}
@@ -584,12 +584,13 @@ details.resp textarea{{width:100%;box-sizing:border-box;background:var(--bg);col
 <section class="aba aba-agenda"><h2>Semana</h2><div class="semana">{"".join(semana)}</div><h2>Próximos agendados</h2></section>
 <section class="aba aba-publicados"><h2>Publicados</h2></section>
 <section class="aba aba-resultados"><h2>📊 Resultados</h2><div class="analista" id="robo"><p class="it">🤖 Robô de comentários</p><p>carregando…</p></div>{html_resultados}</section>
+<section class="aba aba-equipe"><h2>🏢 Equipe</h2></section>
 <section class="aba aba-gastos"><h2>💰 Gastos de {agora:%m/%Y}</h2>{html_gastos}</section>
 <section class="aba aba-todos"><h2>Todos os posts ({len(cartoes)})</h2><div class="chipsbar" id="baldes"><button data-b="" class="on">Todos</button>{chips_todos}</div><div class="chipsbar" id="cats-t"><button data-c="" class="on">Todas</button>{chips_cat}</div></section>
 <div class="grade" id="grade">{"".join(html_cartoes)}</div>
 <div class="vazio" id="vazio" style="display:none">Nada por aqui 🎉</div>
 </main>
-<nav><button data-t="aprovar"><i>📥</i>Aprovar<span class="badge" data-cont="pend"></span></button><button data-t="agenda"><i>📅</i>Agenda</button><button data-t="publicados"><i>✅</i>Publicados</button><button data-t="todos"><i>🗂</i>Todos</button><button data-t="resultados"><i>📊</i>Result.</button><button data-t="gastos"><i>💰</i>Gastos</button></nav>
+<nav><button data-t="aprovar"><i>📥</i>Aprovar<span class="badge" data-cont="pend"></span></button><button data-t="agenda"><i>📅</i>Agenda</button><button data-t="publicados"><i>✅</i>Publicados</button><button data-t="todos"><i>🗂</i>Todos</button><button data-t="resultados"><i>📊</i>Result.</button><button data-t="equipe"><i>🏢</i>Equipe</button><button data-t="gastos"><i>💰</i>Gastos</button></nav>
 <script>
 const F = {{ fila: 'pend', e: '', ca: '', b: '', ct: '', chance: false }};
 const FILA = {{ aprovar: 'pend', 'aprovado-agora': 'aprov', producao: 'aprov', 'negado-agora': 'neg', negado: 'neg' }};
@@ -674,6 +675,116 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     if (m) { li.dataset.noar = '1'; if (m.url) li.title = 'no ar: ' + m.url; }
   });
 }).catch(() => {});
+// 🏢 Equipe (Vitor, 08/11): escritório em pixel art; cada rotina é um personagem. Trabalhando = na mesa com balão; livre = no café.
+(() => {
+  const AG = [
+    { id: 'cacador', nome: 'Caçador', faz: 'busca referências virais lá fora', quando: 'seg e qui 03:53', cor: '#3fb950', ace: 'chapeu', mesa: [14, 30] },
+    { id: 'roteirista', nome: 'Roteirista', faz: 'escreve os 28 roteiros da rodada', quando: 'seg e qui 04:47', cor: '#58a6ff', ace: 'lapis', mesa: [50, 30] },
+    { id: 'revisores', nome: 'Revisores', faz: 'os 4 revisores conferem cada roteiro', quando: 'logo depois do roteirista', cor: '#ff6b6b', ace: 'oculos', mesa: [86, 30] },
+    { id: 'estudio', nome: 'Estúdio', faz: 'renderiza os vídeos aprovados', quando: 'quando você aprova roteiros', cor: '#e8834a', ace: 'fone', mesa: [14, 78] },
+    { id: 'analista', nome: 'Analista', faz: 'lê as métricas e escreve insights', quando: 'todo dia 07:37 e 19:43', cor: '#d2a8ff', ace: 'grafico', mesa: [50, 78] },
+    { id: 'cobranca', nome: 'Cobrança', faz: 'te avisa do que espera aprovação', quando: 'todo dia 18:23', cor: '#f2cc60', ace: 'sino', mesa: [86, 78] },
+    { id: 'robo', nome: 'Robô das DMs', faz: 'responde quem comenta a palavra', quando: 'a cada 10 min', cor: '#79c0ff', ace: 'antena', mesa: [14, 122] },
+  ];
+  const W = 120, H = 170, ESC = 3;
+  const sec = document.querySelector('.aba-equipe');
+  if (!sec) return;
+  const st = document.createElement('style');
+  st.textContent = '.escr{position:relative;width:100%;max-width:' + W * ESC + 'px;margin:0 auto 12px}.escr canvas{width:100%;image-rendering:pixelated;border-radius:14px;border:1px solid var(--line);display:block}' +
+    '.bal{position:absolute;transform:translate(-50%,-100%);background:#fff;color:#111;font-size:10px;line-height:1.2;padding:3px 6px;border-radius:8px;max-width:118px;text-align:center;box-shadow:0 1px 0 #0006;pointer-events:none}.bal:after{content:"";position:absolute;left:50%;bottom:-4px;border:4px solid transparent;border-top-color:#fff;border-bottom:0;margin-left:-4px}.bal.zz{background:#30363d;color:#aaa}.bal.av{background:#ffb547}' +
+    '.agc{display:flex;gap:10px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 10px;margin:0 0 6px;font-size:13px}.agc b.n{display:block}.agc .pt{width:10px;height:10px;border-radius:50%;margin-top:5px;flex:none;background:#555}.agc.on .pt{background:#3fb950;box-shadow:0 0 6px #3fb950}.agc.av .pt{background:#ffb547}.agc small{color:var(--mut)}';
+  document.head.appendChild(st);
+  const box = document.createElement('div'); box.className = 'escr';
+  const cv = document.createElement('canvas'); cv.width = W; cv.height = H; box.appendChild(cv);
+  const lista = document.createElement('div');
+  const info = document.createElement('p'); info.style.cssText = 'font-size:12px;color:var(--mut);margin:0 0 8px';
+  sec.appendChild(box); sec.appendChild(info); sec.appendChild(lista);
+  const x = cv.getContext('2d');
+  const R = (c, a, b, w, h) => { x.fillStyle = c; x.fillRect(a, b, w, h); };
+  let dados = {}, t = 0;
+  const parado = (a) => a && a.estado === 'trabalhando' && a.em && a.id !== 'robo' && (Date.now() - Date.parse(a.em.replace(' ', 'T') + ':00-03:00')) > 3 * 3600e3;
+  function cenario() {
+    R('#2d333b', 0, 0, W, H);
+    for (let j = 14, f = 0; j < H; j += 4, f++) { R(f % 2 ? '#c9a46c' : '#c49d63', 0, j, W, 4); for (let i = (f * 13) % 24; i < W; i += 24) R('#a9844f', i, j, 1, 4); } // piso de tábuas
+    R('#44505e', 0, 0, W, 14); R('#9ad0f5', 46, 3, 28, 8); R('#dff2ff', 47, 4, 12, 3); // parede e janela
+    R('#e6e1d3', 6, 3, 10, 9); R('#e8834a', 8, 5, 6, 1); R('#58a6ff', 8, 7, 4, 1); R('#3fb950', 8, 9, 5, 1); // quadro de tarefas
+    R('#2f7d3a', 104, 4, 8, 8); R('#7a4b2a', 106, 11, 4, 3); // planta
+    // copa / café (canto de baixo à direita)
+    R('#3a2f2a', 62, 132, 54, 34); R('#6e4f3c', 64, 134, 50, 30);
+    R('#8b2e2e', 66, 150, 30, 8); R('#a83a3a', 66, 146, 30, 5); // sofá
+    R('#d0d0d0', 102, 138, 9, 12); R('#333', 104, 141, 5, 3); R('#e8834a', 105, 147, 3, 2); // máquina de café
+  }
+  function mesa(m, ligado) {
+    const [a, b] = m;
+    R('#3b3f46', a + 7, b + 17, 8, 5); R('#2b2e33', a + 8, b + 22, 6, 1); // cadeira
+    R('#7a5232', a - 2, b + 8, 24, 7); R('#5e3f27', a - 2, b + 15, 2, 6); R('#5e3f27', a + 20, b + 15, 2, 6); // mesa
+    R('#222', a + 5, b + 1, 12, 8); R(ligado ? (t % 20 < 10 ? '#7ee787' : '#58a6ff') : '#111', a + 6, b + 2, 10, 6); R('#222', a + 10, b + 9, 2, 1); // monitor
+  }
+  function boneco(a, b, ag, mexe) {
+    const dy = mexe ? (t % 8 < 4 ? 0 : -1) : 0;
+    R('#d97757', a, b + dy, 10, 7); R('#000', a + 2, b + 2 + dy, 1, 2); R('#000', a + 7, b + 2 + dy, 1, 2); // corpo e olhos
+    R('#d97757', a - 1, b + 3 + dy, 1, 2); R('#d97757', a + 10, b + 3 + dy, 1, 2); // bracinhos
+    for (let k = 0; k < 4; k++) R('#b85f42', a + 1 + k * 2 + (k > 1 ? 1 : 0), b + 7, 1, 2); // perninhas
+    const c = ag.cor;
+    if (ag.ace === 'chapeu') { R('#8b6b3a', a - 1, b - 1 + dy, 12, 1); R('#a8834a', a + 2, b - 3 + dy, 6, 2); }
+    if (ag.ace === 'lapis') { R('#f2cc60', a + 11, b + 1 + dy, 1, 4); R('#222', a + 11, b + 5 + dy, 1, 1); }
+    if (ag.ace === 'oculos') { R(c, a + 1, b + 2 + dy, 3, 2); R(c, a + 6, b + 2 + dy, 3, 2); R(c, a + 4, b + 2 + dy, 2, 1); }
+    if (ag.ace === 'fone') { R('#222', a - 1, b + 1 + dy, 1, 3); R('#222', a + 10, b + 1 + dy, 1, 3); R('#222', a, b - 1 + dy, 10, 1); }
+    if (ag.ace === 'grafico') { R('#fff', a + 11, b + dy, 4, 4); R(c, a + 12, b + 2 + dy, 1, 2); R(c, a + 13, b + 1 + dy, 1, 3); }
+    if (ag.ace === 'sino') { R('#f2cc60', a + 11, b + 1 + dy, 3, 3); R('#f2cc60', a + 12, b + dy, 1, 1); }
+    if (ag.ace === 'antena') { R('#888', a + 5, b - 3 + dy, 1, 3); R(t % 10 < 5 ? '#ff6b6b' : '#7ee787', a + 4, b - 4 + dy, 3, 1); }
+    R(c, a + 3, b + 5 + dy, 4, 1); // crachá na cor do agente
+  }
+  const baloes = {};
+  function balao(id, txt, px, py, cls) {
+    let el = baloes[id];
+    if (!el) { el = baloes[id] = document.createElement('div'); box.appendChild(el); }
+    el.className = 'bal ' + (cls || ''); el.textContent = txt;
+    el.style.left = (px / W * 100) + '%'; el.style.top = (py / H * 100) + '%';
+  }
+  AG.forEach((ag) => { const el = document.createElement('div'); el.textContent = ag.nome; el.style.cssText = 'position:absolute;transform:translateX(-50%);font-size:9px;font-weight:700;color:#fff;background:#0009;padding:1px 5px;border-radius:6px;white-space:nowrap;left:' + ((ag.mesa[0] + 10) / W * 100) + '%;top:' + ((ag.mesa[1] + 24) / H * 100) + '%'; box.appendChild(el); });
+  const copa = document.createElement('div'); copa.textContent = '☕ copa'; copa.style.cssText = 'position:absolute;font-size:9px;color:#fff;background:#0009;padding:1px 5px;border-radius:6px;left:' + (64 / W * 100) + '%;top:' + (126 / H * 100) + '%'; box.appendChild(copa);
+  function desenha() {
+    t++;
+    cenario();
+    let livres = 0;
+    for (const ag of AG) {
+      const a = dados[ag.id] || {}, on = a.estado === 'trabalhando', av = parado({ ...a, id: ag.id });
+      mesa(ag.mesa, on);
+      if (on) {
+        boneco(ag.mesa[0] + 6, ag.mesa[1] + 14, ag, !av);
+        balao(ag.id, av ? '⚠ parado? desde ' + a.em.slice(11) : (a.detalhe || ag.faz) + (a.progresso ? ' · ' + a.progresso : ''), ag.mesa[0] + 11, ag.mesa[1] - 1, av ? 'av' : '');
+      } else {
+        const sx = 68 + (livres % 4) * 11, sy = 141 - Math.floor(livres / 4) * 9;
+        boneco(sx, sy, ag, false); livres++;
+        if (t % 60 < 30 && livres <= 3) balao(ag.id, 'zZ', sx + 5, sy - 1, 'zz'); else if (baloes[ag.id]) baloes[ag.id].remove(), delete baloes[ag.id];
+      }
+    }
+  }
+  function cartoes() {
+    lista.innerHTML = AG.map((ag) => {
+      const a = dados[ag.id] || {}, on = a.estado === 'trabalhando', av = parado({ ...a, id: ag.id });
+      const txt = on ? (a.detalhe || ag.faz) + (a.progresso ? ' · ' + a.progresso : '') : 'livre' + (a.detalhe ? ' · último: ' + a.detalhe : '');
+      return '<div class="agc' + (on ? ' on' : '') + (av ? ' av' : '') + '"><i class="pt"></i><div><b class="n">' + ag.nome + '</b>' + txt.replace(/</g, '&lt;') +
+        '<br><small>' + ag.faz + ' · ' + ag.quando + (a.em ? ' · atualizado ' + a.em.slice(8, 10) + '/' + a.em.slice(5, 7) + ' ' + a.em.slice(11) : '') + '</small></div></div>';
+    }).join('');
+  }
+  async function busca() {
+    try {
+      const r = await fetch('/api/atividade', { credentials: 'same-origin' });
+      if (!r.ok) throw new Error(r.status);
+      const j = await r.json(); dados = j.agentes || {};
+      const n = AG.filter((g) => (dados[g.id] || {}).estado === 'trabalhando').length;
+      info.textContent = n + ' de ' + AG.length + ' trabalhando agora · atualizado ' + (j.agora || '').slice(11);
+    } catch (e) { info.textContent = 'não consegui ler o status agora (' + e.message + ')'; }
+    cartoes();
+  }
+  setInterval(() => { if (document.body.dataset.tab === 'equipe') desenha(); }, 120);
+  setInterval(() => { if (document.body.dataset.tab === 'equipe') busca(); }, 20000);
+  document.querySelectorAll('nav button[data-t="equipe"]').forEach((b) => b.addEventListener('click', busca));
+  if (document.body.dataset.tab === 'equipe') busca();
+  desenha();
+})();
 </script></body></html>
 """
     (PAINEL / "index.html").write_text(pagina, encoding="utf-8")

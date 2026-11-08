@@ -469,6 +469,18 @@ const LIVRE_DOMINIO = /^(ig\/webhook|links|kit|privacidade|ig\/callback|capas\/(
 
 // ---------------------------------------------------------------- API
 async function api(req, env, rota) {
+  if (rota === "atividade" && req.method === "GET") { // aba 🏢 Equipe: o que cada agente está fazendo agora
+    await env.DB.prepare("CREATE TABLE IF NOT EXISTS atividade (agente TEXT PRIMARY KEY, estado TEXT, detalhe TEXT, progresso TEXT, em TEXT)").run();
+    const { results } = await env.DB.prepare("SELECT agente, estado, detalhe, progresso, em FROM atividade").all();
+    const c = await cfg(env);
+    const hoje = agoraBR().slice(0, 10);
+    let n = 0;
+    try { n = (await env.DB.prepare("SELECT COUNT(*) AS n FROM comentarios WHERE em >= ?").bind(hoje).first())?.n || 0; } catch {}
+    const ag = Object.fromEntries(results.map((r) => [r.agente, r]));
+    ag.robo = { agente: "robo", estado: c.token && c.pausado !== "1" ? "trabalhando" : "livre",
+      detalhe: c.token ? (c.pausado === "1" ? "pausado" : `de plantão nos comentários · ${n} hoje`) : "Instagram desconectado", progresso: "", em: c.ultima_rodada || "" };
+    return json({ agora: agoraBR(), agentes: ag });
+  }
   if (rota === "publicados" && req.method === "GET") { // ✅ da Agenda: o que já foi ao ar no Instagram (2 chamadas à API)
     const c = await cfg(env);
     if (!c.token) return json({ erro: "não conectado", itens: [] });
