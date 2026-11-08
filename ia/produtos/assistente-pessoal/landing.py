@@ -116,7 +116,7 @@ footer{{text-align:center;font-size:12.5px;color:#8f8aa8;padding:26px 22px 110px
 </style></head><body>
 {f'<div class="bar">🔥 Lançamento: R$ {e(K["preco_lancamento"])} com o cupom {e(K["cupom"])} <span id="cdb"></span></div>' if cupom_ok and prazo else ''}
 <header class="dk hero"><div class="w">
-<div class="pill"><i></i> Para ChatGPT, Claude e Gemini · funciona no plano grátis</div>
+<div class="pill"><i></i> {"🔥 À venda agora · R$ " + e(preco_final) if tem_checkout else "Para ChatGPT, Claude e Gemini · funciona no plano grátis"}</div>
 <h1>Pare de explicar tudo pra IA. Tenha um <span class="gt">Super Assistente</span> que já te conhece.</h1>
 <p class="sub">10 assistentes prontos para copiar e colar, que trabalham por você nas contas da casa, no cardápio, nos textos, nos estudos e no seu negócio. Configurados em 1 tarde, sem saber programar.</p>
 <div class="mock" aria-hidden="true"><img class="book" src="/capas/kit-p1.jpg" alt="">
