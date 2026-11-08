@@ -1,0 +1,22 @@
+{
+ "data": "2026-11-08",
+ "horario": "15:00",
+ "pilar": "carrossel",
+ "categoria": "novidade",
+ "formato": "carrossel de lançamento",
+ "temas": [
+  "lancamento-super-assistente"
+ ],
+ "fontes": [
+  "https://www.science.org/doi/10.1126/science.adh2586",
+  "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+  "https://www.nber.org/papers/w31161",
+  "https://arxiv.org/abs/2205.11916"
+ ],
+ "cta": "KIT",
+ "produto": "super-assistente-de-ia",
+ "horarios": {
+  "instagram": "2026-11-08 15:00"
+ },
+ "obs": "Lançamento pedido pelo Vitor em 07/11 22h ('lance o produto'). Só Instagram (TikTok só recebe vídeo)."
+}

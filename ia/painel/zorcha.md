@@ -85,6 +85,19 @@ Opa! Aqui estão os 5 projetos 👇
 ⚠️ Importante: nenhum deles traz jogo. Todos só funcionam com a cópia dos SEUS jogos, tirada do seu próprio console (cada README explica). Não compartilhe jogos. 😉
 ```
 
+## KIT · 08/11 15:00
+Post: `2026-11-08-lancamento-super-assistente`
+
+```
+Opa! Aqui está o Super Assistente de IA 👇
+
+10 assistentes prontos (contas, cardápio, revisor, treino, inglês, agenda, estudos, atendimento, viagem e detector de golpe) + as 6 alavancas que turbinam qualquer IA + 10 comandos turbo. PDF de 20 páginas.
+
+👉 https://pay.kiwify.com.br/sV3FJ2D
+
+Garantia de 7 dias. Detalhes: https://painel-iaem60s.vgofredousa.workers.dev/kit
+```
+
 ## LOCAL · 09/11 14:00
 Post: `2026-11-08-ia-gigante-no-pc`
 
