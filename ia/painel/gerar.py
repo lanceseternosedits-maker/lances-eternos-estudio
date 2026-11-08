@@ -311,10 +311,11 @@ def main() -> None:
         if p["rede"] == "instagram":
             ocupadas[p["data"]].append(p)
     for c in cartoes:  # roteiros e vídeos ainda sem agendamento entram na vaga prevista
-        if "aguardando" in c["status"].lower():
+        st_c = c["status"].lower()
+        if "aguardando" in st_c or st_c == "roteiro aprovado":  # aprovado = vídeo em produção: a vaga não está livre
             for rede, quando in horarios_do_post(c["meta"]):
                 if rede == "instagram" and quando not in ocupadas:
-                    ocupadas[quando].append({"status": "AGUARDANDO", "texto": c["titulo"], "rascunho": False, "pasta": c["pasta"].name})
+                    ocupadas[quando].append({"status": "AGUARDANDO" if "aguardando" in st_c else "roteiro aprovado", "texto": ("🎬 " if "aguardando" not in st_c else "") + c["titulo"], "rascunho": False, "pasta": c["pasta"].name})
     semana = []
     livres_3_dias = 0
     for d in range(7):
