@@ -1,14 +1,44 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-07 19:50",
- "leitura": "metricool_2026-11-07.json",
- "resumo": "Em 14 dias: 9 Reels medidos, 7.026 views no Instagram. 2 vídeos fizeram 74% de tudo, e os dois são contagem de projetos com número de estrelas. O TikTok está praticamente parado.",
+ "em": "2026-11-08 07:40",
+ "leitura": "metricool_2026-11-08.json",
+ "resumo": "Em 14 dias: 14 Reels e 19.499 views no Instagram (eram 7.026 na leitura de ontem à noite); as 4 contagens de 07/11 fizeram de 1.331 a 2.511 cada, confirmando o formato. A 1ª história (Deep Blue) já fez 2.705 views com o melhor gancho e retenção, mas quase ninguém salvou nem enviou; o TikTok segue parado.",
  "itens": [
-  {"tipo": "fazer_mais", "titulo": "Contagem de projetos com número forte", "evidencia": "5 skills 2.828 e TV 2.396 views: mediana do formato 3 é 12× a dos outros formatos; salvamento 4,7% e 2,7% do alcance", "acao": "Pelo menos 2 contagens por dia, sempre com número real de estrelas e 'a nº 1 é bizarra'. Tema que a pessoa usa em casa (TV, celular, PC) rende mais que tema de nicho."},
-  {"tipo": "corrigir", "titulo": "Metade sai nos 3 primeiros segundos", "evidencia": "Só 44% (mediana) passa dos 3 s; o melhor nisso foi o desenho animado (58%), que já abre com o resultado na tela", "acao": "1º quadro já com o resultado ou o objeto da nº 1 visível + etiqueta com conflito. Nada de cenário vazio ou apresentação no começo."},
-  {"tipo": "corrigir", "titulo": "Quase ninguém chega no CTA", "evidencia": "Quem fica assiste em média 29% do vídeo (~9 s de ~30 s); só 45 comentários em 5.772 de alcance (0,8%)", "acao": "Pôr 'Comenta PALAVRA' na etiqueta ou na fala até os 8 s, e repetir no meio. O do fim vira bônus."},
-  {"tipo": "fazer_mais", "titulo": "Pergunta pessoal puxa comentário", "evidencia": "Desenho animado teve 15 comentários com 440 de alcance (3,4%, 4× a média) com a pergunta 'Que tema você transformaria em desenho?'", "acao": "Fechar a legenda e a fala com pergunta sobre a vida da pessoa (o que ela faria, qual escolheria), não sobre a ferramenta."},
-  {"tipo": "alerta", "titulo": "TikTok travado e ainda com nome antigo", "evidencia": "Mediana de 23 views por vídeo no TikTok contra 263 no Instagram; o perfil ainda é @lanceseternoss. Posts só de fotos no TikTok fizeram mediana de 116", "acao": "Chefe: trocar o nome e a foto do perfil do TikTok para IA em 60s (só dá no app). Testar 1 post de fotos por dia no TikTok precisa do seu OK, porque hoje a regra é 'carrossel só no Instagram'."},
-  {"tipo": "testar", "titulo": "Histórias e 'como funciona' ainda sem dado", "evidencia": "Os primeiros (Deep Blue e morango, 07/11) entram na próxima leitura; o Metricool atualiza com cerca de 1 dia de atraso", "acao": "Comparar na leitura de 09/11 a mediana de 📜 e ⚙️ com a das novidades antes de mexer na mistura 4/2/2."}
+  {
+   "tipo": "fazer_mais",
+   "titulo": "Contagem segue imbatível",
+   "evidencia": "7 contagens com mediana de 2.500 views contra 231 do mascote no palco (10,8×); ontem PC 2.464, Windows 2.500, Editar vídeo 2.511 e Console no celular 1.331",
+   "acao": "Manter as 4 novidades do dia em contagem com estrelas reais e 'a nº 1 é bizarra'; priorizar PC, Windows e celular, que a pessoa usa todo dia."
+  },
+  {
+   "tipo": "testar",
+   "titulo": "História dá alcance, não dá salvamento",
+   "evidencia": "Deep Blue: 2.705 views, 55% passam dos 3 s e 12,5 s de tempo médio (o maior entre os Reels de ~30 s), mas 1 salvamento e 0 envios em 2.110 de alcance; contagens salvam 1,7% a 4,0%",
+   "acao": "Nas próximas histórias, fechar com algo que dá vontade de guardar ou mandar ('salva pra contar pro seu tio', lista de 3 fatos, o documentário na legenda). É só 1 história: confirmar com mais 2 antes de mudar a mistura 4/2/2."
+  },
+  {
+   "tipo": "corrigir",
+   "titulo": "Gancho ainda perde metade",
+   "evidencia": "Mediana de 45% passa dos 3 s; Editar vídeo caiu para 28% e Programas pro PC para 35%, enquanto Console no celular (57%), Deep Blue (55%) e Windows (54%) abrem com conflito ou com o objeto conhecido",
+   "acao": "1º quadro com a coisa que a pessoa reconhece (o jogo, a janela do Windows, a TV) e uma frase de conflito na etiqueta; nada de abrir com nome de ferramenta."
+  },
+  {
+   "tipo": "fazer_mais",
+   "titulo": "Editar vídeo: pouca gente fica, mas quem fica salva",
+   "evidencia": "Editar vídeo: 83 salvamentos (4,0% do alcance) e 35 envios (1,7%), as maiores taxas do período, mesmo com o pior gancho das contagens (28%)",
+   "acao": "Tema 'ferramenta pra criador de conteúdo' rende salvar e enviar: repetir com gancho visual mais forte (o antes e depois do vídeo no 1º quadro)."
+  },
+  {
+   "tipo": "fazer_mais",
+   "titulo": "Pergunta pessoal puxa comentário",
+   "evidencia": "Console no celular teve 19 comentários em 1.107 de alcance (1,7%) com 'Qual desses você jogaria no ônibus?'; Desenho animado chegou a 23 em 444 (5,2%). Deep Blue ('acha que foi trapaça?') teve só 5",
+   "acao": "Fechar com pergunta sobre uma situação da vida da pessoa (ônibus, trabalho, casa), não opinião abstrata."
+  },
+  {
+   "tipo": "alerta",
+   "titulo": "TikTok parado",
+   "evidencia": "Mediana de 22 views por vídeo contra 970 no Instagram; melhores de ontem: Windows 88 e Editar vídeo 66. Contando todos os 14 posts de fotos, a mediana é 13 (a leitura anterior só tinha os 5 melhores, 73 a 184)",
+   "acao": "Chefe: o perfil ainda é @lanceseternoss; trocar nome e foto para IA em 60s no app. ⚙️ como funciona (morango) ainda não tem dado no Instagram: entra na próxima leitura."
+  }
  ]
 }

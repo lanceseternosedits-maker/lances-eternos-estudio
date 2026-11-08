@@ -37,6 +37,7 @@ O resumo do roteiro para o Vitor mostra os 5 itens marcados.
 - **05/11, 1ª leitura (5 skills, formato 3, ~1 h no ar):** 767 views (2× o melhor vídeo anterior, 356; o carrossel mais recente fez 42), 21 curtidas (2,7%), **19 salvamentos (2,5%)**, **9 envios (1,2%)**, só **2 comentários (0,3%)**, 1 repost.
 - **06/11:** 5 skills chegou a **2.697 views** (5× o 2º lugar); Nintendo 174 em ~1 h (2 curtidas, 1 salvamento), prejudicado por fala rápida e texto fora da área segura; carrosséis 11–27 views → **parar carrosséis**.
 - **Leitura:** o formato 3 funciona (o dobro de views; salvar e enviar altos = conteúdo útil). O ponto fraco é o **comentário**: o "Comenta PALAVRA" só aparece no fim e a maioria sai antes. Carrossel está bem abaixo dos Reels: manter Reels como prioridade.
+- **08/11 (14 Reels):** contagem confirmada em 7 Reels, mediana **2.500 views** contra 231 do mascote no palco; as 4 de 07/11 fizeram 1.331–2.511. Pergunta sobre situação da vida ("jogaria no ônibus?") deu 1,7% de comentário, o dobro da média.
 - **Regras daqui em diante:** (1) **CTA no meio**, na frase-ponte da nº 3: "Essa é até legalzinha… comenta PALAVRA que eu te mando as 5" (curto); (2) **primeiro comentário fixado** em todo post (`firstCommentText` no Metricool) com "💬 Comenta PALAVRA que eu te mando os links"; (3) a 1ª linha da legenda já traz a palavra; (4) capa = 1º quadro com a etiqueta legível (já funciona na grade).
 
 ## Acabamento obrigatório (Vitor, 06/11, depois do Reel da Nintendo: "saiu rápido, o texto muito pra cima, vários bugs")
