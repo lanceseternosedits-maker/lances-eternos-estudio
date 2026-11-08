@@ -9,6 +9,7 @@ Busca no GitHub (repositórios de skills criados desde out/2026, por estrelas) e
 | `exploded-view` | Moh4696/open-3d-skills | Objeto que se desmonta em etapas, com etiqueta presa em cada peça: ótimo para ⚙️ como_funciona ("o que tem dentro do…") |
 | `vox-explainer` | charlie947/motion-graphics-skills (608 ★) | Explicador estilo Vox (papel rasgado, meio-tom, fatos com fonte) para ⚙️ e 📜 |
 | `motion-effects` | charlie947/motion-graphics-skills | 16 efeitos de interface (gráfico que se transforma, busca → resultados, logo de partículas) para demonstrar ferramentas |
+| `systematic-debugging` e `verification-before-completion` | obra/superpowers (a coleção de skills mais citada nos rankings) | Causa raiz antes de qualquer conserto; só dizer "pronto" com prova rodada. Lição de 08/11: nos quadros pretos do vídeo do app, primeiro tentei refazer o quadro (remendo) e só depois achei a causa (a câmera entrando no monitor) |
 | `motion-designer` | hughminhphan/motion-kit | Curvas por movimento (não o "power3.out" de sempre), duração pela distância, reações desiguais, texto que corta em vez de "subir com fade" |
 
 ## Só lido (não instalado)
