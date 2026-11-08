@@ -49,11 +49,15 @@ color:#fff;-webkit-text-stroke:8px #000;paint-order:stroke fill;text-shadow:0 8p
 
 <script type="module">
 import * as THREE from '../cena_trend/three.module.min.js';
+import { RoomEnvironment } from '../cena_trend/RoomEnvironment.js';
 const R = new THREE.WebGLRenderer({ canvas: document.getElementById('c'), antialias: true, preserveDrawingBuffer: true });
 R.setSize(1080, 1920, false); R.setClearColor(0xf1ebe2, 1); R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap;
 const S = new THREE.Scene(); S.fog = new THREE.Fog(0xf1ebe2, 30, 70);
+// luz (skill threejs-scene, 08/11): reflexos de um "estúdio" (RoomEnvironment) para metal e plástico não ficarem chapados
+R.outputColorSpace = THREE.SRGBColorSpace;  // ACES testado e recusado: desbota a madeira e as cores de cartoon
+{ const pm = new THREE.PMREMGenerator(R); S.environment = pm.fromScene(new RoomEnvironment(), 0.04).texture; S.environmentIntensity = 0.25; pm.dispose(); }
 const cam = new THREE.PerspectiveCamera(45, 1080 / 1920, 0.1, 200);
-S.add(new THREE.HemisphereLight(0xffffff, 0xd8c4a5, 1.5));
+S.add(new THREE.HemisphereLight(0xffffff, 0xd8c4a5, 1.15));
 const sol = new THREE.DirectionalLight(0xfff1dc, 1.6); sol.position.set(-6, 14, 10); sol.castShadow = true; sol.shadow.mapSize.set(1024, 1024);
 Object.assign(sol.shadow.camera, { left: -30, right: 30, top: 30, bottom: -30, near: 1, far: 60 }); S.add(sol);
 const ETAPAS = [["p01","🧊","SEU APP"],["p02","🖥️","SERVIDOR 24H"],["p03","🌐","DOMÍNIO"],["p04","🗄️","BANCO DE DADOS"],["p05","🪪","LOGIN"],["p06","🔐","SENHA"],["p07","📱","CÓDIGO"],
@@ -104,7 +108,7 @@ function etiqueta(txt) {
   x.fillStyle = '#ffffff'; x.strokeStyle = '#2b2f38'; x.lineWidth = 6; x.beginPath(); x.roundRect(6, 6, 628, 128, 40); x.fill(); x.stroke();
   x.font = 'bold 64px sans-serif'; x.fillStyle = '#1f232b'; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(txt, 320, 74, 590);
   const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
-  const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: t, depthTest: false, transparent: true })); sp.scale.set(2.9, 0.64, 1); return sp;
+  const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: t, depthTest: false, transparent: true, toneMapped: false })); sp.scale.set(2.9, 0.64, 1); return sp;
 }
 const P3 = (o, x, y, z) => { o.position.set(x, y, z); return o; };
 const R3 = (o, x, y, z) => { o.rotation.set(x, y, z); return o; };
@@ -126,7 +130,7 @@ function disco(r, h, b, m, seg = 56) { const p = [new THREE.Vector2(0, -h / 2)];
 function TX(w, h, desenha, brilha = false, px = 320) {
   const c = document.createElement('canvas'); c.width = Math.round(w * px); c.height = Math.round(h * px); const x = c.getContext('2d'); desenha(x, c.width, c.height);
   const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8;
-  const m = brilha ? new THREE.MeshBasicMaterial({ map: t, transparent: true }) : new THREE.MeshStandardMaterial({ map: t, roughness: 0.45, transparent: true });
+  const m = brilha ? new THREE.MeshBasicMaterial({ map: t, transparent: true, toneMapped: false }) : new THREE.MeshStandardMaterial({ map: t, roughness: 0.45, transparent: true });
   return new THREE.Mesh(new THREE.PlaneGeometry(w, h), m); }
 const rr = (x, a, b, w, h, r, cor) => { x.fillStyle = cor; x.beginPath(); x.roundRect(a, b, w, h, r); x.fill(); };
 const txt = (x, s, a, b, tam, cor, peso = 'bold', al = 'left', fonte = 'sans-serif') => { x.font = `${peso} ${tam}px ${fonte}`; x.fillStyle = cor; x.textAlign = al; x.textBaseline = 'middle'; x.fillText(s, a, b); };
