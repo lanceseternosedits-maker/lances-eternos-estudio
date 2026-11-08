@@ -50,6 +50,6 @@ Regra do Vitor: ninguém quer "aprender IA". O vídeo responde uma **curiosidade
 
 ## 🧩 Séries em peças (formato 4, Vitor 08/11: "explicar sistemas e processos simplificando o difícil")
 Uma série = um sistema explicado em 6 a 12 Reels, "PEÇA N/M". Conferir cada fato na fonte oficial no dia do roteiro.
-- [ ] **Como um app é feito com IA, peça por peça** (10): 1 o app só no seu PC · 2 servidor (por que fica ligado 24 h) · 3 domínio (o endereço) · 4 banco de dados (onde ficam os dados) · 5 login (como o app sabe que é você) · 6 pagamento (como o dinheiro chega) · 7 e-mail automático · 8 backup · 9 segurança e senhas · 10 a IA dentro do app. Brinde: o mapa das 10 peças + o prompt de cada uma pro Claude/ChatGPT.
+- [ ] **Como um app é feito com IA, peça por peça** (15, a cadeia inteira do SaaS): mapa completo, gancho de cada peça e o robô montado na oficina em `semana/serie_app.md`.
 - [ ] **Como o ChatGPT funciona por dentro** (8): 1 tokens (pedaços de palavra) · 2 treino (ler bilhões de textos) · 3 prever a próxima palavra · 4 janela de contexto (memória curta) · 5 temperatura (por que muda a resposta) · 6 memória longa · 7 busca na internet · 8 modo pensar. Fontes: documentação da OpenAI/Anthropic. Reaproveita os ⚙️ já feitos como peças.
 - [ ] **O que acontece quando você manda uma mensagem pra IA** (6): do seu celular ao servidor, ao chip (GPU), à resposta, ao custo de energia. Fontes: documentação oficial e relatórios de energia (IEA).
