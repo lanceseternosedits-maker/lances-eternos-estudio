@@ -677,7 +677,7 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
 }).catch(() => {});
 // 🏢 Equipe (Vitor, 08/11): escritório em pixel art com pessoinhas. Na mesa = trabalhando; fora da mesa = livre, curtindo a área de lazer.
 (() => {
-  const W = 144, H = 208;
+  const W = 144, H = 230, OFF = 22; // OFF = quanto o escritório desceu para caber a parede de vidro
   // cada agente: cor da camisa, cabelo, pele e do que ele gosta quando está livre (peso de cada lugar)
   const AG = [
     { id: 'cacador', nome: 'Caçador', faz: 'busca referências virais lá fora', quando: 'seg e qui 03:53', cor: '#3fb950', cab: '#5b3a1e', pele: '#e0ac69', chapeu: '#8b6b3a', gosta: { navegar: 5, cafe: 2, conversa: 2, gato: 1 } },
@@ -716,51 +716,78 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
   const lista = document.createElement('div');
   sec.appendChild(box); sec.appendChild(info); sec.appendChild(lista);
   const pc = (v, t) => (v / t * 100) + '%';
-  AG.forEach((g) => { const el = document.createElement('div'); el.className = 'tag'; el.textContent = g.nome; el.style.background = g.cor; el.style.left = pc(g.mesa[0] + 12, W); el.style.top = pc(g.mesa[1] + 26, H); box.appendChild(el); });
-  const x = cv.getContext('2d');
+  AG.forEach((g) => { const el = document.createElement('div'); el.className = 'tag'; el.textContent = g.nome; el.style.background = g.cor; el.style.left = pc(g.mesa[0] + 12, W); el.style.top = pc(g.mesa[1] + 26 + OFF, H); box.appendChild(el); });
+  let x = cv.getContext('2d');
   const R = (c, a, b, w, h) => { x.fillStyle = c; x.fillRect(Math.round(a), Math.round(b), w, h); };
   let dados = {}, t = 0;
   const trab = (g) => (dados[g.id] || {}).estado === 'trabalhando';
   const parado = (g) => { const a = dados[g.id] || {}; return trab(g) && a.em && !g.robo && (Date.now() - Date.parse(a.em.replace(' ', 'T') + ':00-03:00')) > 3 * 3600e3; };
   const rnd = (n) => Math.floor(Math.random() * n);
-  // ---------- cenário
-  function cenario() {
-    R('#3a4250', 0, 0, W, 16); R('#2b313b', 0, 15, W, 1);
-    R('#9ad0f5', 52, 3, 40, 9); R('#dff2ff', 54, 4, 14, 3); R('#cfe9fb', 72, 4, 8, 2); R('#6b7380', 71, 3, 1, 9); // janela
-    R('#e6e1d3', 8, 3, 14, 10); R('#e8834a', 10, 5, 8, 1); R('#58a6ff', 10, 7, 6, 1); R('#3fb950', 10, 9, 9, 1); R('#ff6b6b', 10, 11, 4, 1); // quadro da rodada
-    R('#f0f0f0', 30, 4, 8, 8); R('#222', 33, 6, 1, 3); R('#222', 34, 8, 2, 1); // relógio
-    R('#c9a46c', 104, 4, 10, 8); R('#ff6b6b', 106, 6, 6, 4); R('#7ee787', 118, 4, 10, 8); R('#58a6ff', 120, 6, 6, 4); // quadrinhos
-    for (let j = 16, f = 0; j < 100; j += 4, f++) { R(f % 2 ? '#c9a46c' : '#c49d63', 0, j, W, 4); for (let i = (f * 13) % 24; i < W; i += 24) R('#a9844f', i, j, 1, 4); } // piso do trabalho
-    R('#6e5a44', 0, 98, W, 2); // divisória
-    for (let j = 100; j < H; j += 6) for (let i = 0; i < W; i += 6) R(((i + j) / 6) % 2 ? '#3d5a73' : '#456682', i, j, 6, 6); // carpete do lazer
-    // sinuca
+  // ---------- paisagem lá fora (muda com a hora de Brasília) — desenhada num canvas à parte e atualizada a cada 1 s
+  const VID = 16 + OFF; // altura da parede de vidro
+  const mk = (w, h) => { const c = document.createElement('canvas'); c.width = w; c.height = h; return c; };
+  const ceuC = mk(W, VID), fundoC = mk(W, H);
+  const PREDIOS = [[4, 9], [11, 13], [17, 7], [26, 15], [34, 10], [40, 18], [48, 8], [57, 12], [66, 16], [75, 9], [84, 14], [93, 11], [101, 17], [110, 8], [118, 13], [127, 10], [135, 15]];
+  const JANELAS = []; for (let k = 0; k < 90; k++) JANELAS.push([(k * 37) % W, VID - 3 - ((k * 13) % 12), k % 3]);
+  function hora() { return Number(new Date().toLocaleString('en-US', { timeZone: 'America/Sao_Paulo', hour: 'numeric', hour12: false })) % 24; }
+  function ceu(seg) {
+    const c = ceuC.getContext('2d'), h = hora();
+    const fase = h >= 7 && h < 17 ? 'dia' : (h >= 17 && h < 19) || (h >= 5 && h < 7) ? 'tarde' : 'noite';
+    const cores = { dia: ['#4fa9f5', '#bfe6ff'], tarde: ['#5b5fbf', '#ffb36b'], noite: ['#08122b', '#1f2f5c'] }[fase];
+    const g = c.createLinearGradient(0, 0, 0, VID); g.addColorStop(0, cores[0]); g.addColorStop(1, cores[1]);
+    c.fillStyle = g; c.fillRect(0, 0, W, VID);
+    const P = (cor, a, b, w, hh) => { c.fillStyle = cor; c.fillRect(Math.round(a), Math.round(b), w, hh); };
+    if (fase === 'noite') {
+      for (let k = 0; k < 26; k++) if ((k * 7 + Math.floor(seg / 2)) % 9) P('#ffffff', (k * 53) % W, (k * 11) % 12 + 1, 1, 1);
+      P('#f4f1d0', 112, 3, 5, 5); P(cores[0], 114, 3, 3, 3); // lua
+    } else {
+      P(fase === 'dia' ? '#fff3a0' : '#ff8a3d', fase === 'dia' ? 108 : 20, fase === 'dia' ? 3 : 10, 6, 6); // sol
+      for (let k = 0; k < 3; k++) { const cx = ((seg * (0.5 + k * 0.2) + k * 60) % (W + 30)) - 15, cy = 3 + k * 4;
+        P('#ffffffdd', cx, cy, 12, 3); P('#ffffffdd', cx + 3, cy - 2, 6, 2); }
+    }
+    for (let i = 0; i < W; i++) { const m = 6 + Math.round(4 * Math.sin(i / 11) + 2 * Math.sin(i / 5)); P(fase === 'noite' ? '#1b2747' : fase === 'tarde' ? '#7a5b8f' : '#7fa7c9', i, VID - m - 6, 1, m + 6); } // morros ao longe
+    for (const [px, ph] of PREDIOS) P(fase === 'noite' ? '#10182e' : fase === 'tarde' ? '#4b3a5e' : '#5d7a94', px, VID - ph, 7, ph); // cidade
+    if (fase !== 'dia') for (const [jx, jy, k] of JANELAS) if (PREDIOS.some(([px, ph]) => jx >= px && jx < px + 7 && jy >= VID - ph)) if ((k + Math.floor(seg / 7)) % 3) P('#ffd166', jx, jy, 1, 1);
+    for (let i = 2; i < W; i += 9) { P(fase === 'noite' ? '#17331f' : '#3f8f4a', i, VID - 4, 5, 3); P(fase === 'noite' ? '#14291a' : '#2f7d3a', i + 1, VID - 6, 3, 2); } // árvores
+  }
+  // ---------- tudo que não mexe: desenhado uma vez só
+  function estatico() {
+    const antes = x; x = fundoC.getContext('2d');
+    // moldura do vidro (sobre a paisagem)
+    R('#2b313b', 0, 0, W, 2); R('#2b313b', 0, VID - 2, W, 2); for (let i = 0; i <= W; i += 24) R('#2b313b', i - 1, 0, 2, VID);
+    R('#ffffff18', 3, 3, 6, 1); R('#ffffff18', 27, 3, 6, 1); R('#ffffff18', 75, 3, 6, 1); R('#ffffff18', 99, 3, 6, 1); // reflexo no vidro
+    x.save(); x.translate(0, OFF);
+    for (let j = 16, f = 0; j < 100; j += 4, f++) { R(f % 2 ? '#c9a46c' : '#c49d63', 0, j, W, 4); for (let i = (f * 13) % 24; i < W; i += 24) R('#a9844f', i, j, 1, 4); }
+    R('#6e5a44', 0, 98, W, 2);
+    for (let j = 100; j < H - OFF; j += 6) for (let i = 0; i < W; i += 6) R(((i + j) / 6) % 2 ? '#3d5a73' : '#456682', i, j, 6, 6);
     R('#5a3a22', 10, 108, 46, 26); R('#1f7a3d', 13, 111, 40, 20); R('#111', 13, 111, 2, 2); R('#111', 51, 111, 2, 2); R('#111', 13, 129, 2, 2); R('#111', 51, 129, 2, 2); R('#111', 32, 111, 2, 1); R('#111', 32, 130, 2, 1);
     R('#fff', 24, 120, 2, 2); R('#e8834a', 38, 118, 2, 2); R('#f2cc60', 41, 121, 2, 2); R('#ff6b6b', 39, 123, 2, 2); R('#58a6ff', 44, 119, 2, 2);
-    // lanchonete: geladeira + balcão com snacks
     R('#d9dde3', 128, 102, 12, 18); R('#aab0b8', 128, 110, 12, 1); R('#888', 138, 104, 1, 4); R('#888', 138, 113, 1, 4);
     R('#8b5a34', 104, 104, 22, 8); R('#a86f42', 104, 104, 22, 2); R('#f2cc60', 106, 102, 3, 2); R('#e8834a', 110, 101, 3, 3); R('#ff6b6b', 115, 102, 2, 2); R('#7ee787', 119, 101, 3, 3); R('#d2a8ff', 123, 102, 2, 2);
-    // café
-    R('#cfcfcf', 74, 102, 10, 12); R('#333', 76, 105, 6, 3); R(t % 16 < 8 ? '#ff6b6b' : '#7ee787', 82, 103, 1, 1); R('#fff', 77, 111, 3, 2);
-    // TV + sofá
-    R('#222', 20, 168, 32, 18); R(t % 30 < 15 ? '#3d7bf2' : '#7b61ff', 22, 170, 28, 14); R('#ffd166', 28 + (t % 40) / 4, 176, 4, 4); R('#333', 34, 186, 4, 3);
+    R('#cfcfcf', 74, 102, 10, 12); R('#333', 76, 105, 6, 3); R('#fff', 77, 111, 3, 2);
+    R('#222', 20, 168, 32, 18); R('#333', 34, 186, 4, 3);
     R('#8b2e2e', 14, 198, 42, 8); R('#a83a3a', 14, 194, 42, 5); R('#7a2626', 12, 194, 3, 12); R('#7a2626', 55, 194, 3, 12);
-    // PC de navegar
-    R('#6b4a30', 92, 168, 18, 4); R('#222', 96, 160, 10, 8); R(t % 12 < 6 ? '#7ee787' : '#9ad0f5', 97, 161, 8, 6);
-    // fliperama
-    R('#7b61ff', 122, 152, 12, 18); R('#111', 124, 155, 8, 6); R(t % 8 < 4 ? '#ff6b6b' : '#f2cc60', 125, 157, 6, 2); R('#f2cc60', 125, 163, 2, 2); R('#ff6b6b', 129, 163, 2, 2);
-    // tomada do robô + plantas + pufe
+    R('#6b4a30', 92, 168, 18, 4); R('#222', 96, 160, 10, 8);
+    R('#7b61ff', 122, 152, 12, 18); R('#111', 124, 155, 8, 6); R('#f2cc60', 125, 163, 2, 2); R('#ff6b6b', 129, 163, 2, 2);
     R('#e6e1d3', 130, 92, 6, 6); R('#222', 131, 94, 1, 2); R('#222', 134, 94, 1, 2);
     R('#2f7d3a', 2, 100, 7, 8); R('#7a4b2a', 3, 107, 5, 4); R('#2f7d3a', 136, 196, 7, 8); R('#7a4b2a', 137, 203, 5, 4);
+    R('#2f7d3a', 2, 17, 6, 7); R('#7a4b2a', 3, 23, 4, 3); R('#2f7d3a', 136, 17, 6, 7); R('#7a4b2a', 137, 23, 4, 3); // plantas junto ao vidro
     R('#e8834a', 70, 196, 10, 7); R('#ff9a62', 71, 196, 8, 2);
-    // estante na 8ª vaga de mesa
     R('#6b4a30', 116, 60, 22, 18); R('#58a6ff', 118, 62, 3, 6); R('#ff6b6b', 122, 62, 3, 6); R('#f2cc60', 126, 63, 3, 5); R('#3fb950', 118, 70, 4, 6); R('#d2a8ff', 124, 70, 3, 6);
+    for (const [a, b] of MESAS) { R('#7a5232', a, b + 10, 24, 6); R('#5e3f27', a, b + 16, 2, 5); R('#5e3f27', a + 22, b + 16, 2, 5); R('#222', a + 6, b + 2, 12, 8); R('#222', a + 11, b + 10, 2, 1); R('#3b3f46', a + 8, b + 19, 8, 3); }
+    x.restore(); x = antes;
   }
-  function mesa(m, ligado, cor) {
+  // ---------- o que mexe (telas e luzinhas), já dentro do translate
+  function cenario() {
+    R(t % 30 < 15 ? '#3d7bf2' : '#7b61ff', 22, 170, 28, 14); R('#ffd166', 28 + (t % 40) / 4, 176, 4, 4); // TV
+    R(t % 16 < 8 ? '#ff6b6b' : '#7ee787', 82, 103, 1, 1); // café
+    R(t % 12 < 6 ? '#7ee787' : '#9ad0f5', 97, 161, 8, 6); // PC de navegar
+    R(t % 8 < 4 ? '#ff6b6b' : '#f2cc60', 125, 157, 6, 2); // fliperama
+  }
+  function mesa(m, ligado) {
     const [a, b] = m;
-    R('#7a5232', a, b + 10, 24, 6); R('#5e3f27', a, b + 16, 2, 5); R('#5e3f27', a + 22, b + 16, 2, 5);
-    R('#222', a + 6, b + 2, 12, 8); R(ligado ? (t % 20 < 10 ? '#7ee787' : '#58a6ff') : '#151515', a + 7, b + 3, 10, 6); R('#222', a + 11, b + 10, 2, 1);
+    R(ligado ? (t % 20 < 10 ? '#7ee787' : '#58a6ff') : '#151515', a + 7, b + 3, 10, 6);
     if (ligado) R('#ffffff22', a + 3, b + 9, 18, 2);
-    R('#3b3f46', a + 8, b + 19, 8, 3); // cadeira
   }
   // ---------- pessoinha (x,y = pés)
   function pessoa(g, px, py, modo) {
@@ -819,27 +846,27 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     g.faz_agora = l; g.vaga = i; g.alvo = vagas[i]; g.ate = t + 150 + rnd(200);
   }
   function emote(g, txt) { g.emote = txt; g.emoteAte = t + 25; }
-  function passo(g) {
+  function passo(g, dt) {
     if (trab(g)) { g.par && (g.par.par = null, g.par.ate = t); g.par = null; g.faz_agora = 'mesa'; g.alvo = [g.mesa[0] + 12, g.mesa[1] + 22]; }
     else if (g.faz_agora === 'mesa' || !g.faz_agora || t > g.ate) { if (g.par) { g.par.par = null; g.par = null; } escolhe(g); }
     const [ax, ay] = g.alvo || [g.x, g.y];
     const dx = ax - g.x, dy = ay - g.y, d = Math.hypot(dx, dy);
-    if (d > 1.2) { const v = 1.4; g.x += dx / d * v; g.y += dy / d * v; g.dir = dx >= 0 ? 1 : -1; g.modo = 'anda'; return; }
+    if (d > 0.6) { const v = Math.min(d, 15 * dt); g.x += dx / d * v; g.y += dy / d * v; g.dir = dx >= 0 ? 1 : -1; g.modo = 'anda'; return; }
     g.x = ax; g.y = ay;
     const f = g.faz_agora;
     g.modo = f === 'mesa' ? 'senta' : f === 'sinuca' ? 'taco' : f === 'lanche' ? 'come' : 'parado';
     if (f === 'conversa' && g.par) g.dir = g.par.x > g.x ? 1 : -1;
     if (f === 'gato') { g.dir = gato.x > g.x ? 1 : -1; gato.dorme = false; }
-    if (f !== 'mesa' && t > g.emoteAte && Math.random() < 0.02) {
+    if (f !== 'mesa' && t > g.emoteAte && Math.random() < 0.2 * dt) {
       const lista = f === 'conversa' ? ['💬', '😂', 'kkkk', 'viu o Reel?', '👍'] : (LUGARES[f] || { emotes: ['🙂'] }).emotes;
       emote(g, lista[rnd(lista.length)]);
     }
   }
-  function passoGato() {
+  function passoGato(dt) {
     if (AG.some((g) => g.faz_agora === 'gato' && Math.hypot(g.x - gato.x, g.y - gato.y) < 9)) return;
     if (t > gato.ate) { gato.dorme = Math.random() < 0.6; gato.alvo = gato.dorme ? [64 + rnd(20), 186 + rnd(10)] : [10 + rnd(120), 140 + rnd(55)]; gato.ate = t + 200 + rnd(300); }
     const dx = gato.alvo[0] - gato.x, dy = gato.alvo[1] - gato.y, d = Math.hypot(dx, dy);
-    if (d > 1 && !gato.dorme) { gato.x += dx / d * 0.7; gato.y += dy / d * 0.7; }
+    if (d > 0.6 && !gato.dorme) { const v = Math.min(d, 7 * dt); gato.x += dx / d * v; gato.y += dy / d * v; }
   }
   // ---------- balões (HTML, nítidos)
   const baloes = {};
@@ -847,19 +874,24 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     let el = baloes[id];
     if (!txt) { if (el) { el.remove(); delete baloes[id]; } return; }
     if (!el) { el = baloes[id] = document.createElement('div'); box.appendChild(el); }
-    el.className = 'bal ' + (cls || ''); if (el.textContent !== txt) el.textContent = txt;
-    el.style.left = pc(px, W); el.style.top = pc(py, H);
+    const c = 'bal ' + (cls || ''), l = (px / W * 100).toFixed(1) + '%', tp = ((py + OFF) / H * 100).toFixed(1) + '%';
+    if (el.className !== c) el.className = c; if (el.textContent !== txt) el.textContent = txt;
+    if (el.style.left !== l) el.style.left = l; if (el.style.top !== tp) el.style.top = tp;
   }
-  function quadro() {
-    t++;
-    AG.forEach(passo); passoGato();
+  let ultimo = 0, ultimoCeu = -1;
+  function quadro(agora) {
+    const dt = ultimo ? Math.min(0.1, (agora - ultimo) / 1000) : 0; ultimo = agora;
+    t = Math.floor(agora / 100);
+    const seg = Math.floor(agora / 1000);
+    if (seg !== ultimoCeu) { ultimoCeu = seg; ceu(seg); }
+    AG.forEach((g) => passo(g, dt)); passoGato(dt);
+    x.drawImage(ceuC, 0, 0); x.drawImage(fundoC, 0, 0);
+    x.save(); x.translate(0, OFF);
     cenario();
-    AG.forEach((g) => mesa(g.mesa, trab(g) && Math.hypot(g.x - g.alvo[0], g.y - g.alvo[1]) < 2, g.cor));
-    // desenha de cima para baixo (quem está mais embaixo fica na frente)
+    AG.forEach((g) => mesa(g.mesa, trab(g) && Math.hypot(g.x - g.alvo[0], g.y - g.alvo[1]) < 2));
     const todos = [...AG.map((g) => ({ y: g.y, f: () => pessoa(g, g.x, g.y, g.modo) })), { y: gato.y, f: desenhaGato }];
     todos.sort((a, b) => a.y - b.y).forEach((o) => o.f());
-    // mesas da frente por cima de quem está sentado (só o tampo)
-    AG.forEach((g) => { if (g.modo === 'senta') { const [a, b] = g.mesa; R('#3b3f46', a + 8, b + 22, 8, 1); } });
+    x.restore();
     for (const g of AG) {
       const a = dados[g.id] || {};
       if (g.modo === 'senta') balao(g.id, parado(g) ? '⚠ parado? desde ' + (a.em || '').slice(11) : (a.detalhe || g.faz) + (a.progresso ? ' · ' + a.progresso : ''), g.mesa[0] + 12, g.mesa[1] + 1, parado(g) ? 'av' : '');
@@ -884,11 +916,12 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
     } catch (e) { info.textContent = 'não consegui ler o status agora (' + e.message + ')'; }
     cartoes();
   }
-  setInterval(() => { if (document.body.dataset.tab === 'equipe') quadro(); }, 100);
+  estatico();
+  const loop = (ts) => { if (document.body.dataset.tab === 'equipe' && !document.hidden) quadro(ts); else ultimo = 0; requestAnimationFrame(loop); };
+  requestAnimationFrame(loop);
   setInterval(() => { if (document.body.dataset.tab === 'equipe') busca(); }, 20000);
   document.querySelectorAll('nav button[data-t="equipe"]').forEach((b) => b.addEventListener('click', busca));
   if (document.body.dataset.tab === 'equipe') busca();
-  quadro();
 })();
 </script></body></html>
 """
