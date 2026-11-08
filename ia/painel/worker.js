@@ -302,6 +302,76 @@ async function callback(env, url) {
   return Response.redirect(SITE + "/conectar?ok=1", 302);
 }
 
+
+// ---------------------------------------------------------------- acesso ao painel (Vitor, 08/11: "painel não pode ficar aberto ao público")
+// Sem senha: o código de acesso chega por notificação no celular do Vitor (só quem tem o 🔔 ativado recebe).
+// Sessão em cookie HttpOnly por 1 ano; no D1 só fica o hash do token.
+const DOMINIO = "iaem60s.com", PAINEL = "painel.iaem60s.com";
+async function sha(t) { return [...new Uint8Array(await crypto.subtle.digest("SHA-256", txt(t)))].map((b) => b.toString(16).padStart(2, "0")).join(""); }
+const aleatorio = (n) => [...crypto.getRandomValues(new Uint8Array(n))].map((b) => b.toString(16).padStart(2, "0")).join("");
+async function tabelasAcesso(env) {
+  await env.DB.batch([
+    env.DB.prepare("CREATE TABLE IF NOT EXISTS sessoes (hash TEXT PRIMARY KEY, criada TEXT, expira INTEGER, origem TEXT)"),
+    env.DB.prepare("CREATE TABLE IF NOT EXISTS acessos (hash TEXT PRIMARY KEY, expira INTEGER, tentativas INTEGER DEFAULT 0, criado INTEGER)"),
+  ]);
+}
+function cookie(req, nome) {
+  const m = (req.headers.get("cookie") || "").match(new RegExp("(?:^|;\\s*)" + nome + "=([^;]+)"));
+  return m ? m[1] : "";
+}
+async function logado(req, env) {
+  const t = cookie(req, "s");
+  if (!t) return false;
+  try {
+    const r = await env.DB.prepare("SELECT expira FROM sessoes WHERE hash = ?").bind(await sha(t)).first();
+    return !!r && r.expira > Date.now();
+  } catch { return false; }
+}
+async function criarSessao(env, req) {
+  const t = aleatorio(32);
+  await env.DB.prepare("INSERT INTO sessoes (hash, criada, expira, origem) VALUES (?, ?, ?, ?)")
+    .bind(await sha(t), agoraBR(), Date.now() + 365 * 864e5, (req.headers.get("user-agent") || "").slice(0, 120)).run();
+  return `s=${t}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=31536000`;
+}
+async function pedirAcesso(env, url) {
+  await tabelasAcesso(env);
+  const ult = await env.DB.prepare("SELECT MAX(criado) m FROM acessos").first();
+  if (ult && ult.m && Date.now() - ult.m < 60e3) return json({ erro: "espere 1 minuto para pedir outro código" }, 429);
+  const codigo = String(100000 + (crypto.getRandomValues(new Uint32Array(1))[0] % 900000));
+  const link = aleatorio(16);
+  await env.DB.prepare("DELETE FROM acessos WHERE expira < ?").bind(Date.now()).run();
+  await env.DB.batch([
+    env.DB.prepare("INSERT INTO acessos (hash, expira, tentativas, criado) VALUES (?, ?, 0, ?)").bind(await sha("c:" + codigo), Date.now() + 10 * 6e4, Date.now()),
+    env.DB.prepare("INSERT INTO acessos (hash, expira, tentativas, criado) VALUES (?, ?, 0, ?)").bind(await sha("l:" + link), Date.now() + 10 * 6e4, Date.now()),
+  ]);
+  const { results } = await env.DB.prepare("SELECT COUNT(*) n FROM inscricoes").all();
+  if (!results[0].n) return json({ erro: "nenhum celular com o 🔔 ativado" }, 409);
+  await avisarTodos(env, { titulo: `🔐 Código do painel: ${codigo}`, corpo: "Toque aqui para entrar, ou digite o código. Vale 10 minutos. Não pediu? Ignore.", url: "/entrar?l=" + link, tag: "acesso" });
+  return json({ ok: true });
+}
+async function usarAcesso(env, tipo, valor) {
+  await tabelasAcesso(env);
+  const h = await sha(tipo + ":" + valor);
+  const r = await env.DB.prepare("SELECT expira, tentativas FROM acessos WHERE hash = ?").bind(h).first();
+  if (!r || r.expira < Date.now()) {
+    if (tipo === "c") await env.DB.prepare("UPDATE acessos SET tentativas = tentativas + 1").run(); // erra demais → todos os códigos caem
+    await env.DB.prepare("DELETE FROM acessos WHERE tentativas >= 5").run();
+    return false;
+  }
+  await env.DB.prepare("DELETE FROM acessos WHERE hash = ?").bind(h).run();
+  return true;
+}
+function paginaEntrar(msg = "") {
+  return PAGINA("Entrar no painel", `<h1>🔐 Painel IA em 60s</h1>${msg ? `<p>⚠️ ${escH(msg)}</p>` : ""}
+<div class="b"><p>O código de acesso chega por notificação no seu celular (o que tem o 🔔 ativado no app).</p>
+<button id="pedir">📲 Mandar código pro meu celular</button><p id="st"></p>
+<form method="post" action="/entrar"><input name="codigo" inputmode="numeric" autocomplete="one-time-code" placeholder="Código de 6 números" maxlength="6" required><button>Entrar</button></form></div>
+<script>document.getElementById('pedir').onclick=async()=>{const st=document.getElementById('st');st.textContent='Enviando…';
+const r=await fetch('/api/acesso',{method:'POST'});const j=await r.json().catch(()=>({}));st.textContent=r.ok?'✅ Enviado! Veja a notificação no celular.':'⚠️ '+(j.erro||'não deu certo')}</script>`);
+}
+const LIVRE_PAINEL = /^(entrar|sw\.js|manifest\.json|icone-(180|512)\.png|links|kit|privacidade|ig\/callback|capas\/kit-[\w.-]+\.jpg)$/;
+const LIVRE_DOMINIO = /^(links|kit|privacidade|ig\/callback|capas\/kit-[\w.-]+\.jpg|icone-(180|512)\.png)$/;
+
 // ---------------------------------------------------------------- API
 async function api(req, env, rota) {
   if (rota === "decisoes" && req.method === "GET") {
@@ -371,10 +441,30 @@ async function api(req, env, rota) {
 export default {
   async fetch(req, env) {
     const url = new URL(req.url);
-    // domínio próprio: www → sem www; a raiz é a página da bio (o painel continua no workers.dev)
-    if (url.hostname === "www.iaem60s.com") return Response.redirect("https://iaem60s.com" + url.pathname + url.search, 301);
-    const publico = url.hostname === "iaem60s.com";
+    // iaem60s.com = público (bio e venda); painel.iaem60s.com e o workers.dev = painel com acesso
+    if (url.hostname === "www." + DOMINIO) return Response.redirect("https://" + DOMINIO + url.pathname + url.search, 301);
+    const publico = url.hostname === DOMINIO;
     const caminho = url.pathname.replace(/^\/+/, "") || (publico ? "links" : "index.html");
+    if (publico) {
+      if (caminho === "painel") return Response.redirect("https://" + PAINEL + "/", 302);
+      if (!LIVRE_DOMINIO.test(caminho)) return Response.redirect("https://" + DOMINIO + "/", 302);
+    } else if (!LIVRE_PAINEL.test(caminho) && caminho !== "api/acesso") {
+      if (!(await logado(req, env))) {
+        if (caminho.startsWith("api/") || caminho.startsWith("videos/")) return json({ erro: "login" }, 401);
+        return Response.redirect(url.origin + "/entrar", 302);
+      }
+    }
+    if (caminho === "api/acesso" && req.method === "POST") return pedirAcesso(env, url);
+    if (caminho === "entrar") {
+      await tabelasAcesso(env);
+      let ok = false;
+      if (req.method === "POST") ok = await usarAcesso(env, "c", String((await req.formData()).get("codigo") || "").trim());
+      else if (url.searchParams.get("l")) ok = await usarAcesso(env, "l", url.searchParams.get("l"));
+      else if (await logado(req, env)) return Response.redirect(url.origin + "/", 302);
+      else return paginaEntrar();
+      if (!ok) return paginaEntrar("Código inválido ou vencido. Peça outro.");
+      return new Response(null, { status: 302, headers: { location: url.origin + "/", "set-cookie": await criarSessao(env, req) } });
+    }
     if (caminho.startsWith("api/")) return api(req, env, caminho.slice(4));
     // vídeo do post para assistir no app antes de aprovar (repassa Range para o player do iPhone)
     const mv = caminho.match(/^videos\/(\d{4}-\d{2}-\d{2}-[\w-]{1,80})\.mp4$/);
