@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "contagem",
  "chave": "CASA",
  "tese": "3 PROJETOS QUE DEIXAM SUA CASA ESPERTA · +4 MIL ESTRELAS EM 1 MÊS · E O Nº 1 LIBERA SEU PORTA-RETRATO",
@@ -13,7 +13,7 @@
   "transicao": "f) zoom atravessando tela",
   "camera": "d) órbita",
   "fechamento": "d) tela CONTINUE?",
-  "tipografia": "c) Fraunces",
+  "tipografia": "b) Archivo Black (trocado: Fraunces repetiria a Palavra-código)",
   "som": "trilha 03 + efeitos arcade",
   "mascote": "acessório e ação do conceito; ação principal: empacotar"
  },
@@ -39,7 +39,7 @@
    "itens": "projetos-casa",
    "etiqueta": [
     "3 PROJETOS QUE DEIXAM SUA CASA ESPERTA",
-    "+4 MIL ESTRELAS EM 1 MÊS",
+    "+3,6 MIL ESTRELAS EM 1 MÊS",
     "E O Nº 1 LIBERA SEU PORTA-RETRATO"
    ],
    "sfx": [
@@ -55,7 +55,7 @@
    "tag": "3º",
    "item": "House Control",
    "repo": "0xProbabillity/house-control",
-   "estrelas": 878,
+   "estrelas": 893,
    "fala": "Terceiro: sua casa vira um modelo 3D no celular, e você acende a luz tocando nele. Esse é lindo… comenta CASA que eu te mando os três. Mas o primeiro é genial.",
    "legenda": "Terceiro: sua casa vira um modelo 3D no celular, e você acende a luz tocando nele. Esse é lindo… comenta CASA que eu te mando os três. Mas o primeiro é genial.",
    "sfx": [
@@ -71,9 +71,9 @@
    "tag": "2º",
    "item": "CleanFrame",
    "repo": "nthnclrk/CleanFrame",
-   "estrelas": 1004,
-   "fala": "Segundo: uma tela inicial limpa pra TV The Frame, da Samsung. Esse é lindo… comenta CASA que eu te mando os três. Mas o primeiro é genial.",
-   "legenda": "Segundo: uma tela inicial limpa pra TV The Frame, da Samsung. Esse é lindo… comenta CASA que eu te mando os três. Mas o primeiro é genial.",
+   "estrelas": 1034,
+   "fala": "Segundo: uma tela inicial limpa pra TV The Frame, da Samsung.",
+   "legenda": "Segundo: uma tela inicial limpa pra TV The Frame, da Samsung.",
    "sfx": [
     {
      "t": 0.0,
@@ -87,7 +87,7 @@
    "tag": "1º",
    "item": "Photo Frame Dashboard",
    "repo": "wesbos/photo-frame-dashboard",
-   "estrelas": 1683,
+   "estrelas": 1732,
    "fala": "E o primeiro: porta-retrato digital travado vira painel com os apps que você quiser.",
    "legenda": "E o primeiro: porta-retrato digital travado vira painel com os apps que você quiser.",
    "sfx": [

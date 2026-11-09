@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "chave": "SOBREVIVE",
  "tese": "A IA QUE FUNCIONA SEM INTERNET · +2 MIL ESTRELAS EM 2 SEMANAS",
@@ -11,8 +11,8 @@
   "contador": "d) pote de estrelas",
   "legenda": "e) tarja de TV",
   "transicao": "f) zoom atravessando tela",
-  "camera": "d) órbita",
-  "fechamento": "c) post-its na parede",
+  "camera": "a) 2 planos frontais (trocado: órbita repetiria o Artigo; mão repetiria o ChatGPT 1 milhão)",
+  "fechamento": "f) cartões que viram (trocado: post-its repetiriam o ChatGPT 1 milhão)",
   "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
   "som": "trilha 03 + efeitos arcade",
   "mascote": "acessório e ação do conceito; ação principal: costurar"
@@ -44,8 +44,8 @@
    "itens": "ia-do-fim-do-mundo",
    "etiqueta": [
     "A IA QUE FUNCIONA SEM INTERNET",
-    "+2 MIL ESTRELAS EM 2 SEMANAS",
-    ""
+    "+1,5 MIL ESTRELAS EM 2 SEMANAS",
+    "E MOSTRA A FONTE DE TUDO"
    ]
   },
   {
@@ -70,7 +70,7 @@
    "sfx": [],
    "item": "survival-llm",
    "repo": "anonnerdfrenzy/survival-llm",
-   "estrelas": 1529
+   "estrelas": 1582
   },
   {
    "cena": "s4",

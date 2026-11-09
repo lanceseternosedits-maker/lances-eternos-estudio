@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "contagem",
  "chave": "COPIA",
  "tese": "5 PROJETOS PRA ENTENDER QUALQUER PROGRAMA · +26 MIL ESTRELAS EM 1 MÊS · E O Nº 1 TE ENSINA A FAZER O SEU",
@@ -11,8 +11,8 @@
   "contador": "f) termômetro",
   "legenda": "e) tarja de TV",
   "transicao": "f) zoom atravessando tela",
-  "camera": "f) plongée/contra-plongée",
-  "fechamento": "f) cartões que viram",
+  "camera": "c) travelling lateral (trocado: plongée repetiria o Modo pensar)",
+  "fechamento": "e) página de caderno (trocado: cartões repetiriam o Modo pensar)",
   "tipografia": "f) Bebas Neue",
   "som": "trilha 03 + efeitos de cidade",
   "mascote": "acessório e ação do conceito; ação principal: soldar"
@@ -41,7 +41,7 @@
    "itens": "copiar-qualquer-app",
    "etiqueta": [
     "5 PROJETOS PRA ENTENDER QUALQUER PROGRAMA",
-    "+26 MIL ESTRELAS EM 1 MÊS",
+    "+31 MIL ESTRELAS EM 1 MÊS",
     "E O Nº 1 TE ENSINA A FAZER O SEU"
    ],
    "sfx": [
@@ -57,7 +57,7 @@
    "tag": "5º",
    "item": "eleven",
    "repo": "Zfinix/eleven",
-   "estrelas": 970,
+   "estrelas": 978,
    "fala": "Quinto: eleven. Uma IA lê e explica programas fechados do seu lado.",
    "legenda": "Quinto: eleven. Uma IA lê e explica programas fechados do seu lado.",
    "sfx": [
@@ -73,7 +73,7 @@
    "tag": "4º",
    "item": "Reverse Engineer Anything",
    "repo": "NabilRFG12/Reverse-Engineer-anything",
-   "estrelas": 1218,
+   "estrelas": 1240,
    "fala": "Quarto: agentes que descobrem como um app funciona por dentro.",
    "legenda": "Quarto: agentes que descobrem como um app funciona por dentro.",
    "sfx": [
@@ -89,7 +89,7 @@
    "tag": "3º",
    "item": "Awesome Reverse Engineered",
    "repo": "alexgaoth/awesome-reverse-engineered",
-   "estrelas": 1264,
+   "estrelas": 1298,
    "fala": "Terceiro: dezessete mil ferramentas nascidas de engenharia reversa, num lugar só. Esse é poderoso… comenta COPIA que eu te mando os cinco. Mas o próximo é o maior.",
    "legenda": "Terceiro: dezessete mil ferramentas nascidas de engenharia reversa, num lugar só. Esse é poderoso… comenta COPIA que eu te mando os cinco. Mas o próximo é o maior.",
    "sfx": [
@@ -105,7 +105,7 @@
    "tag": "2º",
    "item": "REA Prompts",
    "repo": "JoasASantos/REA-Prompts",
-   "estrelas": 3719,
+   "estrelas": 3851,
    "fala": "Segundo: prompts prontos pra desmontar qualquer programa.",
    "legenda": "Segundo: prompts prontos pra desmontar qualquer programa.",
    "sfx": [
@@ -121,7 +121,7 @@
    "tag": "1º",
    "item": "Craft Anything",
    "repo": "storytold/craft-anything",
-   "estrelas": 18774,
+   "estrelas": 24331,
    "fala": "E o primeiro: entende como qualquer programa funciona e te ajuda a fazer o seu.",
    "legenda": "E o primeiro: entende como qualquer programa funciona e te ajuda a fazer o seu.",
    "sfx": [

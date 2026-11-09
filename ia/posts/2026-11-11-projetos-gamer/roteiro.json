@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "contagem",
  "chave": "GAMER",
  "tese": "5 PROJETOS QUE TODO GAMER QUERIA · +5 MIL ESTRELAS EM 3 SEMANAS · E O Nº 1 TRANSFORMA QUALQUER JOGO EM CO-OP",
@@ -41,7 +41,7 @@
    "itens": "projetos-gamer",
    "etiqueta": [
     "5 PROJETOS QUE TODO GAMER QUERIA",
-    "+5 MIL ESTRELAS EM 3 SEMANAS",
+    "+5 MIL ESTRELAS EM MENOS DE 1 MÊS",
     "E O Nº 1 TRANSFORMA QUALQUER JOGO EM CO-OP"
    ],
    "sfx": [
@@ -57,7 +57,7 @@
    "tag": "5º",
    "item": "BCD",
    "repo": "thebcd69/bcd-games",
-   "estrelas": 493,
+   "estrelas": 521,
    "fala": "Quinto: BCD. Jogos de Windows no iPhone, com Steam e GOG.",
    "legenda": "Quinto: BCD. Jogos de Windows no iPhone, com Steam e GOG.",
    "sfx": [
@@ -73,7 +73,7 @@
    "tag": "4º",
    "item": "Steam Stash",
    "repo": "AssassinCreator/steam-stash-value-report-card",
-   "estrelas": 786,
+   "estrelas": 788,
    "fala": "Quarto: mostra quanto vale a sua biblioteca da Steam.",
    "legenda": "Quarto: mostra quanto vale a sua biblioteca da Steam.",
    "sfx": [
@@ -89,7 +89,7 @@
    "tag": "3º",
    "item": "Autopilot",
    "repo": "ramenvr/autopilot",
-   "estrelas": 804,
+   "estrelas": 826,
    "fala": "Terceiro: Autopilot. Uma IA que joga qualquer jogo. Esse é útil… comenta GAMER que eu te mando os cinco. Mas o próximo é sonho.",
    "legenda": "Terceiro: Autopilot. Uma IA que joga qualquer jogo. Esse é útil… comenta GAMER que eu te mando os cinco. Mas o próximo é sonho.",
    "sfx": [
@@ -105,7 +105,7 @@
    "tag": "2º",
    "item": "Bridgeplay",
    "repo": "raymondchins/Bridgeplay",
-   "estrelas": 887,
+   "estrelas": 918,
    "fala": "Segundo: Bridgeplay. Jogos de Windows da Steam rodando no Mac.",
    "legenda": "Segundo: Bridgeplay. Jogos de Windows da Steam rodando no Mac.",
    "sfx": [
@@ -121,7 +121,7 @@
    "tag": "1º",
    "item": "Co-op Anything",
    "repo": "cranebeaker/coop-anything",
-   "estrelas": 1933,
+   "estrelas": 2016,
    "fala": "E o primeiro: a IA transforma jogo de um jogador em multiplayer com os amigos.",
    "legenda": "E o primeiro: a IA transforma jogo de um jogador em multiplayer com os amigos.",
    "sfx": [
