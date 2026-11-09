@@ -1,6 +1,16 @@
 {
- "gerado_em": "2026-11-09 19:20",
+ "gerado_em": "2026-11-09 19:37",
  "videos": [
+  {
+   "pasta": "2026-11-10-testa-seu-negocio",
+   "titulo": "11 IAS TESTAM SEU NEGÓCIO ANTES DE ABRIR",
+   "quando": "2026-11-12 14:00"
+  },
+  {
+   "pasta": "2026-11-09-bizarros-github",
+   "titulo": "5 PROJETOS MAIS BIZARROS DA SEMANA",
+   "quando": "2026-11-11 19:30"
+  },
   {
    "pasta": "2026-11-09-a-pergunta-de-turing",
    "titulo": "1950: MÁQUINAS PODEM PENSAR?",
@@ -54,14 +64,6 @@
  ],
  "roteiros": [],
  "agenda_3_dias": [
-  {
-   "quando": "2026-11-09 19:30",
-   "titulo": "3 SKILLS CHINESAS QUE FAZEM TRABALHO DE AGÊNCIA",
-   "redes": [
-    "instagram",
-    "tiktok"
-   ]
-  },
   {
    "quando": "2026-11-09 21:30",
    "titulo": "A IA QUE MANDOU ELE LARGAR A ESPOSA",

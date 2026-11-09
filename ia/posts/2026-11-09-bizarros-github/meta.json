@@ -19,6 +19,80 @@
   "instagram": "2026-11-11 19:30",
   "tiktok": "2026-11-11 19:30"
  },
- "status": "roteiro aprovado",
- "categoria": "novidade"
+ "status": "vídeo aguardando aprovação",
+ "categoria": "novidade",
+ "checagem": {
+  "em": "2026-11-09 22:30",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "34.4 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.88 palavras/s (99 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.2 LUFS, pico -1.3 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "5 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "883 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "BIZARRO",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "status_em": "2026-11-09 19:37",
+ "elementos": {
+  "etiqueta": "g) placa de museu (trocado: neon repetiria o Turing)",
+  "nome": "b) carimbo",
+  "contador": "e) placar HI-SCORE",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "b) pódio",
+  "tipografia": "a) Space Grotesk (trocado: Caveat repetiria o Turing)",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "luvas brancas de curador; ação principal: polir as redomas do museu"
+ },
+ "obs_producao": "Produzido em 09/11 no motor da cena_contagem, módulo itens/bizarros-github.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
 }
