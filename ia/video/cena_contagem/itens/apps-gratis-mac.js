@@ -36,13 +36,13 @@ PRINTS.forEach(p => p.g.userData.s = .62); L3.g.userData.s = L2.g.userData.s = 1
 // ---------- mascote: chapéu de palha; corre pendurando ----------
 const CH = new THREE.Group(); CH.position.set(0, 1.5, 0); MAS.corpo.add(CH); const palha = M("#ecc777", { roughness: .9 });
 mesh(new THREE.CylinderGeometry(.92, .92, .05, 32), palha, CH, 0, .03, 0); mesh(new THREE.CylinderGeometry(.42, .5, .36, 24), palha, CH, 0, .22, 0); mesh(new THREE.CylinderGeometry(.505, .505, .09, 24), M(AZ), CH, 0, .1, 0);
-const MZ = .9;
+const MZ = .2;
 const corre = (lt, x0, x1, d = 1.2) => { const k = eio(lin(lt, 0, d)), x = x0 + (x1 - x0) * k; pose(MAS, { x, z: MZ, y: hop(lt, .18, k < 1 ? .1 : .02), ry: k < 1 ? (x1 > x0 ? 1.1 : -1.1) * .8 : .2, braco: k < 1 ? [1.5 + Math.sin(lt * 14) * .5, 1.5 - Math.sin(lt * 14) * .5] : [.3, 2.2], andar: lt * 3 * (k < 1 ? 1 : 0), piscar: pisca(lt) }); MAS.g.rotation.z = 0; };
 const feliz = (lt, x) => { pose(MAS, { x, z: MZ, y: hop(lt, .35, .24), ry: .2, braco: [2.0 + Math.sin(lt * 9) * .3, 2.0 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; };
 grupo("gancho"); grupo("n3"); grupo("n2"); grupo("n1"); grupo("cta");
 const reset = () => { [L3, L2, ...PRINTS].forEach(L => L.g.visible = false); };
 // ---------- órbita ----------
-const ORB = { gancho: [-.3, .1, 6.6, 2.2, V(0, 1.5, -.6)], n3: [.25, -.05, 6.2, 2.1, V(-.8, 1.7, -.6)], n2: [-.2, .15, 6.2, 2.1, V(.6, 1.7, -.6)], n1: [.3, -.25, 6.8, 2.3, V(0, 1.8, -.7)], cta: [.1, -.1, 7.0, 2.2, V(0, 1.5, -.6)] };
+const ORB = { gancho: [-.3, .1, 7.8, 2.2, V(0, 1.5, -.6)], n3: [.25, -.05, 7.4, 2.1, V(-.8, 1.7, -.6)], n2: [-.2, .15, 7.4, 2.1, V(.6, 1.7, -.6)], n1: [.3, -.25, 8.0, 2.3, V(0, 1.8, -.7)], cta: [.1, -.1, 8.2, 2.2, V(0, 1.5, -.6)] };
 const SHOTS = {}; Object.keys(ORB).forEach(n => SHOTS[n] = [[V(0, 2, 6), V(0, 1, 0)], [V(0, 2, 6), V(0, 1, 0)]]);
 const camera = (cam, nome, lt, d) => { const [a0, a1, r, y, l] = ORB[nome] || ORB.cta, a = a0 + (a1 - a0) * eio(lt / d); cam.position.set(l.x + Math.sin(a) * r, y, l.z + Math.cos(a) * r); cam.lookAt(l); };
 const ACT = {

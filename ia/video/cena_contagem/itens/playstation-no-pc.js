@@ -2,8 +2,8 @@
 // Identidade: corredor de locadora de videogame abandonada à noite, fita de "proibido" rasgada, TVs de tubo com chiado, caixas de
 // jogo genéricas (sem arte nem logo), console genérico de blocos que se abre no gancho e de dentro sai um gabinete de PC; nº 1 =
 // corredor escuro com uma luz piscando no fim (terror leve, sem susto). Anil + vermelho + verde-fósforo. Sem logos/personagens da Sony.
-// Elementos: etiqueta em tela de terminal, nome em letreiro split-flap, contador em velocímetro (estrelas da API do GitHub), legenda em
-// tarja de TV, transição zoom atravessando uma tela, plongée/contra-plongée, fechamento CONTINUE?, Archivo Black (Fraunces repetiria o
+// Elementos (trocados na produção p/ não repetir o IA configurada, que sai depois): letreiro neon de locadora, nome em letreiro split-flap, contador em velocímetro (estrelas da API do GitHub), legenda em
+// tarja de TV, transição zoom atravessando uma tela, plongée/contra-plongée, fechamento em pódio, Archivo Black (Fraunces repetiria o
 // Samsung, que sai antes). Mascote de capuz (no topo) se escondendo atrás das prateleiras.
 export default function (K) {
 const { rim, key, THREE, S, cam, mesh, box, M, E, ctex, grupo, pose, MAS, hop, eo, lin, eio, back, V } = K;
@@ -28,8 +28,8 @@ const chiT = ctex(128, 96, (g, w, h, k = 0) => { for (let i = 0; i < 900; i++) {
 const tvs = [[-1.6, -1.2], [1.6, -2.6], [-1.5, -4.0]].map(([x, z]) => { const g = new THREE.Group(); g.position.set(x, 0, z); S.add(g); box(.9, .7, .7, M("#2a2a2e"), g, 0, .35, 0); mesh(new THREE.PlaneGeometry(.66, .5), new THREE.MeshStandardMaterial({ map: chiT, emissive: "#fff", emissiveMap: chiT, emissiveIntensity: .7 }), g, 0, .38, .36); g.rotation.y = x < 0 ? .5 : -.5; return g; });
 // fita de "proibido" rasgada no fundo do corredor
 const fitaT = ctex(256, 32, (g, w, h) => { for (let i = 0; i < 16; i++) { g.fillStyle = i % 2 ? "#ffd23f" : "#111"; g.fillRect(i * 16, 0, 16, h); } g.fillStyle = "#111"; g.font = "400 18px AB"; });
-const fita = mesh(new THREE.PlaneGeometry(3.4, .22), new THREE.MeshBasicMaterial({ map: fitaT, side: THREE.DoubleSide }), S, -.6, 1.5, -6.2); fita.rotation.z = .25;
-const fita2 = mesh(new THREE.PlaneGeometry(2.2, .22), new THREE.MeshBasicMaterial({ map: fitaT, side: THREE.DoubleSide }), S, 1.1, 1.1, -6.25); fita2.rotation.z = -.4;
+const fita = mesh(new THREE.PlaneGeometry(3.4, .22), new THREE.MeshBasicMaterial({ map: fitaT, side: THREE.DoubleSide }), S, -.3, 1.9, -6.35); fita.rotation.z = .2; fita.scale.setScalar(.7);
+const fita2 = mesh(new THREE.PlaneGeometry(2.2, .22), new THREE.MeshBasicMaterial({ map: fitaT, side: THREE.DoubleSide }), S, .5, 1.5, -6.36); fita2.rotation.z = -.35; fita2.scale.setScalar(.7);
 // console genérico de blocos que se abre e solta um gabinete de PC (gancho)
 const CON = new THREE.Group(); CON.position.set(.5, 0, .3); S.add(CON); const conM = M("#e9e9f2", { roughness: .3 });
 const tampa = new THREE.Group(); tampa.position.set(0, .5, -.3); CON.add(tampa); box(1.3, .14, .9, conM, tampa, 0, 0, .3); box(1.3, .5, .9, M("#16173a", { roughness: .3 }), CON, 0, .25, 0); const ledC = box(.2, .03, .02, E(ANIL, 3), CON, 0, .3, .46);
@@ -47,7 +47,7 @@ const porta = box(1.2, 2.2, .1, M("#0d0d18"), G1, 0, 1.1, -6.4); const lampada =
 // ---------- mascote: capuz (no topo, aba pra trás; nada nos olhos); se esconder atrás da prateleira ----------
 const CAP = new THREE.Group(); CAP.position.set(0, 1.45, -.12); MAS.corpo.add(CAP); const capM = M("#2a2d6e", { roughness: .9 });
 const cc = mesh(new THREE.SphereGeometry(.78, 24, 12, 0, Math.PI * 2, 0, Math.PI / 2), capM, CAP, 0, 0, 0); cc.scale.set(1.0, .5, .8);
-const MX = -1.4, MZ = .4;
+const MX = -1.15, MZ = .4;
 const esconde = (lt, k) => { const sai = Math.sin(lt * 1.3) > .2 ? 1 : 0; pose(MAS, { x: MX - k * .7 + sai * .35, z: MZ, y: 0, ry: .5 - k * .3, braco: [1.6, .4], sq: k * .1, piscar: pisca(lt) }); MAS.g.rotation.z = -sai * .12; };
 const olha = (lt, ry = .4) => { pose(MAS, { x: MX, z: MZ, y: hop(lt, .8, .03), ry, braco: [.3, .5 + Math.sin(lt * 2) * .1], piscar: pisca(lt) }); MAS.g.rotation.z = 0; };
 const feliz = lt => { pose(MAS, { x: MX, z: MZ, y: hop(lt, .35, .24), ry: .3, braco: [2.0 + Math.sin(lt * 9) * .3, 2.0 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; };
@@ -82,25 +82,27 @@ const ui = C => { const { X, GH, SEGR, CHAVE, ITENS, MAXE } = C; const GY3 = 620
     fundo(t) { X.fillStyle = FUNDO; X.fillRect(0, 0, 1080, 1920); },
     desenha3D(g, nome, lt, t) { X.drawImage(g, 0, GY3); for (const [y0, y1] of [[GY3, GY3 + 60], [GY3 + GH, GY3 + GH - 80]]) { const fg = X.createLinearGradient(0, y0, 0, y1); fg.addColorStop(0, FUNDO); fg.addColorStop(1, "rgba(20,21,46,0)"); X.fillStyle = fg; X.fillRect(0, Math.min(y0, y1), 1080, Math.abs(y1 - y0)); }
       if (CAB && nome !== "gancho" && nome !== "cta") U.cab2(...CAB); CAB = null; },
-    etiqueta(t, nome) { const [l1, l2, l3] = SEGR[0].etiqueta; X.fillStyle = "#0b0b1a"; X.beginPath(); X.roundRect(60, 288, 890, 270, 18); X.fill(); X.strokeStyle = ANIL; X.lineWidth = 3; X.stroke();
-      X.fillStyle = "#1c1d3d"; X.beginPath(); X.roundRect(60, 288, 890, 46, [18, 18, 0, 0]); X.fill(); [VERM, "#ffd23f", FOSF].forEach((c, i) => { X.fillStyle = c; X.beginPath(); X.arc(92 + i * 30, 311, 9, 0, 7); X.fill(); });
-      X.fillStyle = "#8d90c9"; X.font = "400 20px AB"; X.textAlign = "left"; X.textBaseline = "middle"; X.fillText("locadora@noite:~", 190, 312);
-      X.textBaseline = "alphabetic"; X.fillStyle = FOSF; X.font = "400 44px AB"; X.fillText(">", 84, 402); X.fillStyle = "#fff"; cabe(48, l1, 790); X.fillText(l1, 118, 402); X.fillStyle = FOSF; cabe(46, l2, 800); X.fillText(l2, 118, 466); X.fillStyle = "#ff7a82"; cabe(40, l3, 800); X.fillText(l3, 118, 526);
-      if ((t * 2) % 1 < .5) { const w = X.measureText(l3).width; X.fillRect(126 + w, 494, 22, 38); } },
+    etiqueta(t, nome) { // letreiro neon de locadora: o contorno pisca, o texto fica sempre legível
+      const [l1, l2, l3] = SEGR[0].etiqueta, on = (Math.floor(t * 3) % 6) !== 0; X.save(); X.translate(505, 410);
+      X.fillStyle = "#0b0b1a"; X.beginPath(); X.roundRect(-455, -130, 910, 260, 26); X.fill(); X.shadowColor = ANIL; X.shadowBlur = on ? 34 : 8; X.strokeStyle = on ? "#7a7dff" : "#2f3170"; X.lineWidth = 8; X.beginPath(); X.roundRect(-438, -113, 876, 226, 18); X.stroke(); X.shadowBlur = 0;
+      X.textAlign = "center"; X.textBaseline = "alphabetic"; X.shadowColor = "#fff"; X.shadowBlur = 12; X.fillStyle = "#fff"; cabe(52, l1, 820); X.fillText(l1, 0, -34); X.shadowColor = FOSF; X.fillStyle = FOSF; cabe(52, l2, 820); X.fillText(l2, 0, 30);
+      X.shadowColor = "#ff7a82"; X.fillStyle = "#ff7a82"; cabe(40, l3, 820); X.fillText(l3, 0, 88); X.restore(); },
     cabecalho(s, lt, t) { CAB = [s, lt, t]; },
     cab2(s, lt, t) { const y = 640; X.fillStyle = VERM; X.beginPath(); X.arc(104, y, 42, 0, 7); X.fill(); X.fillStyle = "#fff"; X.font = "400 46px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText(s.tag.replace(/\D/g, ""), 104, y + 3);
-      const nm = s.item.toUpperCase(), tw = Math.min(42, 560 / nm.length - 4); flap(nm, 160, y, tw, lt); velo(s.estrelas * eio(lin(lt, .4, 1.9)), 820, 820); },
+      const nm = s.item.toUpperCase(), tw = Math.min(50, 600 / nm.length - 4); flap(nm, 160, y, tw, lt); velo(s.estrelas * eio(lin(lt, .4, 1.9)), 820, 820); },
     legenda(seg, t) { const ch = C.blocos(seg); let b = ch.findIndex(c => t < c[c.length - 1].t1 + .05); if (b < 0) b = ch.length - 1; const c = ch[b];
-      let fs = 56; X.font = `400 ${fs}px AB`; const tot = () => c.reduce((a, w) => a + X.measureText(w.w + " ").width, 0); while (tot() > 760 && fs > 32) { fs -= 2; X.font = `400 ${fs}px AB`; }
+      let fs = 56; X.font = `400 ${fs}px AB`; const tot = () => c.reduce((a, w) => a + X.measureText(w.w + " ").width, 0); while (tot() > 680 && fs > 30) { fs -= 2; X.font = `400 ${fs}px AB`; }
       const y = 1405; X.fillStyle = "rgba(11,11,26,.92)"; X.fillRect(40, y - 56, 910, 112); X.fillStyle = ANIL; X.fillRect(40, y - 56, 12, 112); X.fillStyle = VERM; X.fillRect(60, y - 88, 150, 38); X.fillStyle = "#fff"; X.font = "400 22px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("● REC", 135, y - 68);
       let x = 505 - tot() / 2; X.font = `400 ${fs}px AB`; X.textAlign = "left"; for (const w of c) { const on = t >= w.t0 - .02, at = on && t < w.t1 + .2; X.fillStyle = at ? FOSF : on ? "#fff" : "rgba(255,255,255,.4)"; X.fillText(w.w, x, y + 4); x += X.measureText(w.w + " ").width; } },
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .34) return; const u = eio(lt / .34), w = 220 + u * 2300, h = w * .8;
       X.save(); X.fillStyle = "#07070f"; X.beginPath(); X.rect(0, 0, 1080, 1920); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 60 * (1 - u) + 6); X.fill("evenodd"); X.strokeStyle = "#3a3d6a"; X.lineWidth = 16; X.beginPath(); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 60 * (1 - u) + 6); X.stroke(); X.restore(); },
-    fechamento(lt) { X.fillStyle = "rgba(7,7,15,.88)"; X.fillRect(60, 620, 890, 840); X.strokeStyle = ANIL; X.lineWidth = 6; X.strokeRect(70, 630, 870, 820);
-      const p = back(lin(lt, 0, .4)); X.save(); X.translate(505, 740); X.scale(p, p); X.fillStyle = "#ffd23f"; X.font = "400 100px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("CONTINUE?", 0, 0); X.restore();
-      const n = Math.max(0, 9 - Math.floor(lt * 2)); X.fillStyle = VERM; X.font = "400 130px AB"; X.textAlign = "center"; X.fillText(String(n), 505, 900);
-      ITENS.slice().reverse().forEach((s, i) => { const a = eo(lin(lt, .3 + i * .1, .6 + i * .1)); X.globalAlpha = a; X.fillStyle = "#e8e9ff"; X.font = "400 36px AB"; X.fillText(`${i + 1}. ${s.item}`, 505, 1010 + i * 50); X.globalAlpha = 1; });
-      const pul = 1 + Math.sin(lt * 7) * .03; X.save(); X.translate(505, 1330); X.scale(pul, pul); X.fillStyle = VERM; X.beginPath(); X.roundRect(-300, -60, 600, 120, 60); X.fill(); X.fillStyle = "#fff"; X.font = "400 70px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("COMENTA " + CHAVE, 0, 4); X.restore(); },
+    fechamento(lt) { // pódio dos 3 primeiros + COMENTA
+      const it = ITENS.slice().reverse(), P = [[it[0], 505, 300, VERM, 1], [it[1], 245, 210, ANIL, 2], [it[2], 765, 150, "#2bb37a", 3]];
+      P.forEach(([s, x, h, c, n], i) => { const k = eo(lin(lt, .1 + i * .15, .5 + i * .15)), hh = h * k, base = 1320; X.fillStyle = c; X.fillRect(x - 125, base - hh, 250, hh); X.fillStyle = "rgba(0,0,0,.2)"; X.fillRect(x - 125, base - hh, 250, 14);
+        if (k > .6) { X.fillStyle = "#fff"; X.font = "400 80px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText(String(n), x, base - hh + 62); X.fillStyle = "#e8e9ff"; X.font = `400 ${cabe(30, s.item, 250)}px AB`; X.fillText(s.item, x, base - hh - 30 + Math.sin(lt * 3 + i) * 3); } });
+      X.fillStyle = "#2a2c55"; X.fillRect(80, 1320, 850, 14);
+      const p = back(lin(lt, .7, 1.1)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(505, 760); X.scale(p, p); X.fillStyle = VERM; X.beginPath(); X.roundRect(-300, -60, 600, 120, 60); X.fill(); X.fillStyle = "#fff"; X.font = "400 70px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("COMENTA " + CHAVE, 0, 4); X.restore();
+      if (lt > 1.1) { X.globalAlpha = eo(lin(lt, 1.1, 1.5)); X.fillStyle = "#fff"; X.font = "400 36px AB"; X.textAlign = "center"; X.fillText("SÓ COM O JOGO QUE É SEU", 505, 1400); X.globalAlpha = 1; } },
   }; return U; };
 const cores = { LAR: VERM, VERDE: FOSF, FUNDO, CREME, TINTA, BRILHO: "rgba(0,0,0,0)" };
 return { SHOTS, ACT, cores, semPalco: true, ui };

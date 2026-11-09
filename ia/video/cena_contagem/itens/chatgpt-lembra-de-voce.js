@@ -33,7 +33,7 @@ const ESC = new THREE.Group(); ESC.position.set(-1.0, 0, -.6); S.add(ESC); for (
 // ---------- mascote: óculos de aro fino + lápis atrás da "orelha" (na lateral) ----------
 const ocM = M("#2a2f38", { roughness: .3 }); const OC = new THREE.Group(); OC.position.set(0, 1.04, .53); MAS.corpo.add(OC); for (const x of [-.27, .27]) mesh(new THREE.TorusGeometry(.21, .02, 8, 32), ocM, OC, x, 0, 0); box(.14, .03, .03, ocM, OC, 0, .02, 0);
 const lapis = box(.06, .06, .5, M("#ffcf3f"), MAS.corpo, .78, 1.3, .05); lapis.rotation.y = .4;
-const MX = -.4, MZ = .45;
+const MX = -1.75, MZ = .45;
 const abre = (lt, alvo) => { const k = Math.sin(lt * 3); pose(MAS, { x: MX + .2, z: MZ, y: hop(lt, .5, .04), ry: -.3, braco: [.6, 1.2 + k * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; };
 const olha = (lt, ry = .2) => { pose(MAS, { x: MX, z: MZ, y: hop(lt, .8, .03), ry, braco: [.3, .5 + Math.sin(lt * 2) * .1], piscar: pisca(lt) }); MAS.g.rotation.z = 0; };
 const feliz = lt => { pose(MAS, { x: MX, z: MZ, y: hop(lt, .35, .24), ry: .1, braco: [2.0 + Math.sin(lt * 9) * .3, 2.0 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; };

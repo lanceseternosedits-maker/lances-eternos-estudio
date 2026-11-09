@@ -7,16 +7,16 @@
  "tese": "1950: MÁQUINAS PODEM PENSAR?",
  "conceito": "Escritório britânico de 1950: máquina de escrever, xícara de chá, quadro-negro com 'CAN MACHINES THINK?' e uma cortina dividindo o palco em dois (o jogo da imitação: de um lado gente, do outro uma máquina). Paleta verde-garrafa + creme.",
  "elementos": {
-  "etiqueta": "c) letreiro neon piscando",
+  "etiqueta": "g) placa de rua (trocado: neon repetiria o Bizarros, que sai depois)",
   "nome": "d) letreiro split-flap",
   "contador": "(sem contador: história)",
   "legenda": "b) uma palavra gigante por vez com pop",
   "transicao": "b) chicote de câmera (whip pan)",
-  "camera": "d) órbita",
-  "fechamento": "e) página de caderno",
+  "camera": "e) câmera na mão (trocado: órbita repetiria a IA chinesa)",
+  "fechamento": "f) cartões que viram (trocado: caderno repetiria a IA chinesa)",
   "tipografia": "e) Caveat (manuscrita)",
   "som": "trilha 02 + máquina de escrever",
-  "mascote": "boina; ação principal: escrever bilhetes e passar por baixo da cortina"
+  "mascote": "boina; ação principal: passar bilhetes por baixo da cortina"
  },
  "brinde": "o artigo original de 1950 + uma curiosidade",
  "fontes": [
@@ -47,7 +47,8 @@
     "1950: MÁQUINAS PODEM PENSAR?",
     "ALAN TURING E O JOGO DA IMITAÇÃO",
     "E A APOSTA PRO ANO 2000"
-   ]
+   ],
+   "itens": "a-pergunta-de-turing"
   },
   {
    "cena": "s1",
