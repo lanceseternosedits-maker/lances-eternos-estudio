@@ -351,8 +351,13 @@ function cartaoProduto(P) {
 async function enviarDM(c, token, igsid, message) {
   const EU = c.modo === "suat" ? c.ig_id : "me";
   const corpo = JSON.stringify({ recipient: { id: igsid }, message });
+  // 09/11: o fallback para /me escondia o erro real ("Object with ID 'me' does not exist"). Agora tenta 2x no ig_id e grava o 1º erro.
   try { return await igFetch(`/${EU}/messages`, token, { method: "POST", body: corpo }); }
-  catch (e) { if (c.modo === "suat") return igFetch("/me/messages", token, { method: "POST", body: corpo }); throw e; }
+  catch (e) {
+    await new Promise((r) => setTimeout(r, 1500));
+    try { return await igFetch(`/${EU}/messages`, token, { method: "POST", body: corpo }); }
+    catch (e2) { throw new Error("1ª: " + e.message.slice(0, 220) + " | 2ª: " + e2.message.slice(0, 220)); }
+  }
 }
 async function tratarToque(env, ev) {
   const igsid = ev.sender && ev.sender.id;
@@ -379,7 +384,7 @@ async function tratarToque(env, ev) {
       }
     }
     else { await enviarDM(c, c.token, igsid, cartaoSegue(palavra, pasta || "")); acao = "pediu_seguir"; }
-  } catch (e) { erro = e.message.slice(0, 300); acao = "erro"; }
+  } catch (e) { erro = e.message.slice(0, 480); acao = "erro"; }
   await env.DB.prepare("CREATE TABLE IF NOT EXISTS dm_eventos (em TEXT, igsid TEXT, tipo TEXT, palavra TEXT, acao TEXT, erro TEXT)").run();
   await env.DB.prepare("INSERT INTO dm_eventos VALUES (?, ?, ?, ?, ?, ?)").bind(agoraBR(), igsid, tipo, palavra || "", acao, erro).run();
 }

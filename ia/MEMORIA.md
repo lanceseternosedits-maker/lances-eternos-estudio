@@ -14,6 +14,7 @@ Toda sessão nova do painel lê este arquivo junto com o CLAUDE.md. Ele guarda o
 - **Negados para refazer:** sua-ia-nao-te-conhece (vídeo; nota: virar "IA COM MEMÓRIA INFINITA", sempre lembra e fica na mesma página) e ia-configurada (sem nota). Roteiros NÍVEL, MORREU e OBRIGADO aprovados → produção.
 
 ## Depende do Vitor
+- **Robô do Insta (09/11):** responde os comentários normalmente, mas no funil em etapas só ~5 de 43 pessoas receberam o material desde 08/11 (no envio direto de 07/11 foram 40). Metade dos toques em "Me Envie"/"Já te sigo" falha, e o erro real ficava escondido pelo fallback `/me`. Correção do log + 2ª tentativa no `painel/worker.js` está commitada, **mas não publicada** (deploy bloqueado na sessão; o no ar ainda é o código antigo). Decidir: publicar e/ou voltar ao envio direto.
 - Estúdio de Reels: nome final, confirmar R$ 17 de lançamento → R$ 47 depois (o "de" tem que virar real), criar o produto na Kiwify e passar o link do checkout.
 - Kiwify do Super Assistente: configurar o webhook (URL no CLAUDE.md, seção Financeiro).
 - Conectores nas rotinas financeiro (Cloudflare) e redes (Cloudflare + Metricool): só pela tela do claude.ai.
