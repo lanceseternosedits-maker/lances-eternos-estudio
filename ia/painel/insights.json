@@ -1,14 +1,14 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-09 12:58",
+ "em": "2026-11-09 19:45",
  "leitura": "metricool_2026-11-09.json",
- "resumo": "As métricas voltaram a andar: os 7 Reels de 08/11 entraram (22 Reels no total) e a contagem segue no topo (mediana 2.536 views, 5,3× o mascote no palco), com VOZ 2.502 e o 1º ⚙️ (FONTE) em 2.095. O alerta novo é o TikTok: os 7 vídeos de 08/11 fizeram 0 a 2 views cada, contra 10–93 no dia anterior; dos posts de hoje, só o MAPA (06h) aparece e ainda com 0.",
+ "resumo": "Nada mudou desde a leitura das 12:58: o Metricool devolveu exatamente os mesmos números (22 Reels, mediana 1.008 views; contagem segue no topo com mediana 2.536, 5,3× o mascote no palco). Dos posts de hoje só o MAPA (06h) aparece, ainda com 0 views no Instagram, então é cedo para julgar a rodada de 09/11; TikTok segue travado (0 a 2 views nos 7 vídeos de 08/11).",
  "itens": [
   {
    "tipo": "alerta",
    "titulo": "TikTok zerou em 08/11",
-   "evidencia": "Os 7 vídeos de 08/11 (DESIGN, FONTE, VOZ, CAMINHO, BICHO, TAY, ESTILO) têm 0 a 2 views cada; em 07/11 foram 10 a 93 (WINDOWS 93, EDITA 72). Mediana geral de vídeo no TikTok: 10,5 views contra 1.008 no Instagram",
-   "acao": "Chefe: abrir o TikTok do @lanceseternoss e ver se há aviso de restrição ou se os vídeos estão como privados/em análise. Enquanto isso, não tirar conclusão de TikTok; próxima leitura confere se os de hoje também zeraram."
+   "evidencia": "Os 7 vídeos de 08/11 (DESIGN, FONTE, VOZ, CAMINHO, BICHO, TAY, ESTILO) seguem com 0 a 2 views cada, igual às 12:58; em 07/11 foram 10 a 93 (WINDOWS 93, EDITA 72). Mediana geral de vídeo no TikTok: 10,5 views contra 1.008 no Instagram. Nenhum TikTok de 09/11 apareceu ainda no Metricool, e no Instagram só o MAPA (0 views)",
+   "acao": "Chefe: abrir o TikTok do @lanceseternoss e ver se há aviso de restrição ou vídeos em análise/privados; conferir também no Metricool se os posts de hoje saíram (só o das 06h aparece). Até isso, não tirar conclusão de TikTok nem da rodada de 09/11."
   },
   {
    "tipo": "fazer_mais",
