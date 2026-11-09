@@ -83,12 +83,12 @@ const ui = C => { const { X, GH, SEGR, CHAVE, ITENS } = C; const GY3 = 620; let 
       let x = 505 - tot() / 2; X.font = `700 ${fs}px SG`; X.textAlign = "left"; for (const w of c) { const on = t >= w.t0 - .02, at = on && t < w.t1 + .2; X.fillStyle = at ? OURO : on ? "#fff" : "rgba(255,255,255,.45)"; X.fillText(w.w, x, y + 4); x += X.measureText(w.w + " ").width; } },
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .34) return; const u = eio(lt / .34), w = 200 + u * 2300, h = w * 1.2;
       X.save(); X.fillStyle = "#1a080e"; X.beginPath(); X.rect(0, 0, 1080, 1920); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 30 * (1 - u) + 6); X.fill("evenodd"); X.strokeStyle = OURO; X.lineWidth = 12; X.beginPath(); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 30 * (1 - u) + 6); X.stroke(); X.restore(); },
-    fechamento(lt) { const it = ITENS.slice().reverse(), P = [[it[0], 505, 300, VINHO, 1], [it[1], 245, 210, OURO, 2], [it[2], 765, 150, "#3aa58a", 3]];
-      P.forEach(([s, x, h, c, n], i) => { const k = eo(lin(lt, .1 + i * .15, .5 + i * .15)), hh = h * k, base = 1320; X.fillStyle = c; X.fillRect(x - 125, base - hh, 250, hh); X.fillStyle = "rgba(0,0,0,.15)"; X.fillRect(x - 125, base - hh, 250, 14);
+    fechamento(lt) { const it = ITENS.slice().reverse(), P = [[it[0], 505, 210, VINHO, 1], [it[1], 245, 140, OURO, 2], [it[2], 765, 100, "#3aa58a", 3]];
+      P.forEach(([s, x, h, c, n], i) => { const k = eo(lin(lt, .1 + i * .15, .5 + i * .15)), hh = h * k, base = 1400; X.fillStyle = c; X.fillRect(x - 125, base - hh, 250, hh); X.fillStyle = "rgba(0,0,0,.15)"; X.fillRect(x - 125, base - hh, 250, 14);
         if (k > .6) { X.fillStyle = "#fff"; X.font = "700 80px SG"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText(String(n), x, base - hh + 62); X.font = `700 ${cabe(30, s.item, 250)}px SG`; X.lineWidth = 8; X.strokeStyle = TINTA; X.strokeText(s.item, x, base - hh - 30 + Math.sin(lt * 3 + i) * 3); X.fillStyle = "#fff"; X.fillText(s.item, x, base - hh - 30 + Math.sin(lt * 3 + i) * 3); } });
-      X.fillStyle = "#3a0a18"; X.fillRect(80, 1320, 850, 14);
+      X.fillStyle = "#3a0a18"; X.fillRect(80, 1400, 850, 14);
       const p = back(lin(lt, .7, 1.1)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(505, 760); X.scale(p, p); X.fillStyle = VINHO; X.beginPath(); X.roundRect(-340, -62, 680, 124, 62); X.fill(); X.fillStyle = "#fff"; X.font = "700 64px SG"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("COMENTA " + CHAVE, 0, 4); X.restore();
-      if (lt > 1.1) { X.globalAlpha = eo(lin(lt, 1.1, 1.5)); X.fillStyle = TINTA; X.font = "700 36px SG"; X.textAlign = "center"; X.fillText("Qual você instalaria no PC de casa?", 505, 1400); X.globalAlpha = 1; } },
+      if (lt > 1.1) { X.globalAlpha = eo(lin(lt, 1.1, 1.5)); X.fillStyle = TINTA; X.font = "700 36px SG"; X.textAlign = "center"; X.fillText("Qual você instalaria no PC de casa?", 505, 1462); X.globalAlpha = 1; } },
   }; return U; };
 const cores = { LAR: VINHO, VERDE: OURO, FUNDO, CREME, TINTA, BRILHO: "rgba(0,0,0,0)" };
 return { SHOTS, ACT, cores, semPalco: true, ui };

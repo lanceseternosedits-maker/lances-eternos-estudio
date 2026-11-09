@@ -54,7 +54,7 @@ const ACT = {
   s2(lt, d, t) { reset(lt); TEL.forEach((m, i) => m.visible = !(i < Math.floor(lin(lt, .3, d) * 14) && (i * 7) % 3)); placar(eio(lin(lt, 0, d)) * .5, "2"); ondaK = .5 + .5 * Math.max(0, Math.sin(lt * 5)); desOnda(lt); aperta(lt, .8); },
   s3(lt, d, t) { reset(lt); TEL.forEach(m => m.visible = false); placar(eio(lin(lt, .2, 2.4)) * .5 + .5, "3"); ondaK = 1; ondaCor = VERDE; desOnda(lt); feliz(lt); },
   s4(lt, d, t) { reset(lt); TEL.forEach(m => m.visible = false); placar(1, "4"); ondaK = .3; ondaCor = VERM; desOnda(lt); lt < 1.2 ? olha(lt, .1) : susto(lt); },
-  cta(lt, d, t) { reset(lt); TEL.forEach(m => m.visible = false); placar(1, "c"); ondaK = .8; ondaCor = VERDE; desOnda(lt); feliz(lt); },
+  cta(lt, d, t) { reset(lt); TEL.forEach(m => m.visible = false); placar(1, "c"); ondaK = .8; ondaCor = VERDE; desOnda(lt); pose(MAS, { x: 1.8, z: 1.2, y: hop(lt, .35, .22), ry: -.3, braco: [2.0 + Math.sin(lt * 9) * .3, 2.0 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; },
 };
 // ---------- 2D: entre y=260 e y=1500, a 130 px da direita ----------
 const ui = C => { const { X, GH, SEGR, CHAVE, blocos } = C; const GY3 = 600;
@@ -89,11 +89,11 @@ const ui = C => { const { X, GH, SEGR, CHAVE, blocos } = C; const GY3 = 600;
       X.fillStyle = "#fff"; c.forEach((w, i) => X.fillText(w.w, xs[i][0], y + 4)); X.save(); hl(); X.clip(); X.fillStyle = ROX2; c.forEach((w, i) => X.fillText(w.w, xs[i][0], y + 4)); X.restore(); },
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .22) return; X.fillStyle = `rgba(255,255,255,${1 - lt / .22})`; X.fillRect(0, 0, 1080, 1920); },
     fechamento(lt) { // pódio do placar final + COMENTA
-      const P = [["WATSON", "US$ 77 mil", 505, 300, AZ, 1], ["CAMPEÃO 1", "US$ 24 mil", 245, 200, "#5b2d86", 2], ["CAMPEÃO 2", "US$ 21 mil", 765, 170, "#7a4aa8", 3]];
-      X.fillStyle = "rgba(239,232,247,.82)"; X.fillRect(0, 640, 1080, 860);
-      P.forEach(([nm, v, x, h, c, n], i) => { const k = eo(lin(lt, .1 + i * .15, .5 + i * .15)), hh = h * k, base = 1290; X.fillStyle = c; X.fillRect(x - 125, base - hh, 250, hh); X.fillStyle = "rgba(0,0,0,.2)"; X.fillRect(x - 125, base - hh, 250, 14);
-        if (k > .6) { X.fillStyle = "#fff"; X.font = "900 76px FR"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText(n + "º", x, base - hh + 64); X.fillStyle = ROX2; X.font = `900 ${cabe(40, nm, 240)}px FR`; X.fillText(nm, x, base - hh - 70); X.fillStyle = "#5b2d86"; X.font = `700 ${cabe(34, v, 240, 700)}px FR`; X.fillText(v, x, base - hh - 28); } });
-      X.fillStyle = ROX2; X.fillRect(80, 1290, 850, 14);
+      const P = [["WATSON", "US$ 77 mil", 410, 220, AZ, 1], ["CAMPEÃO 1", "US$ 24 mil", 190, 150, "#5b2d86", 2], ["CAMPEÃO 2", "US$ 21 mil", 630, 125, "#7a4aa8", 3]];
+      X.fillStyle = "rgba(239,232,247,.45)"; X.fillRect(0, 640, 1080, 860);
+      P.forEach(([nm, v, x, h, c, n], i) => { const k = eo(lin(lt, .1 + i * .15, .5 + i * .15)), hh = h * k, base = 1290; X.fillStyle = c; X.fillRect(x - 100, base - hh, 200, hh); X.fillStyle = "rgba(0,0,0,.2)"; X.fillRect(x - 100, base - hh, 200, 14);
+        if (k > .6) { X.fillStyle = "#fff"; X.font = "900 76px FR"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText(n + "º", x, base - hh + 64); X.fillStyle = ROX2; X.font = `900 ${cabe(40, nm, 200)}px FR`; X.fillText(nm, x, base - hh - 70); X.fillStyle = "#5b2d86"; X.font = `700 ${cabe(34, v, 200, 700)}px FR`; X.fillText(v, x, base - hh - 28); } });
+      X.fillStyle = ROX2; X.fillRect(70, 1290, 690, 14);
       const p = back(lin(lt, .7, 1.1)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(505, 760); X.scale(p, p); X.fillStyle = AZ; X.beginPath(); X.roundRect(-330, -64, 660, 128, 64); X.fill(); X.fillStyle = AMA; X.font = `900 ${cabe(72, "Comenta " + CHAVE, 600)}px FR`; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("Comenta " + CHAVE, 0, 4); X.restore();
       if (lt > 1.1) { X.globalAlpha = eo(lin(lt, 1.1, 1.5)); X.fillStyle = ROX2; X.font = "700 46px FR"; X.textAlign = "center"; X.fillText("Salva pra contar pra alguém", 505, 1360); X.globalAlpha = 1; } },
   }; };
