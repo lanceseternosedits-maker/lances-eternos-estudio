@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-09 19:45",
+ "gerado_em": "2026-11-09 19:49",
  "videos": [
   {
    "pasta": "2026-11-12-watson-jeopardy",
@@ -15,6 +15,11 @@
    "pasta": "2026-11-10-ia-le-whatsapp",
    "titulo": "A IA ACHA AQUELA MENSAGEM NO SEU WHATSAPP",
    "quando": "2026-11-12 06:00"
+  },
+  {
+   "pasta": "2026-11-11-carro-por-1-dolar",
+   "titulo": "O ROBÔ QUE VENDEU UM CARRO POR 1 DÓLAR",
+   "quando": "2026-11-11 21:30"
   },
   {
    "pasta": "2026-11-09-bizarros-github",
