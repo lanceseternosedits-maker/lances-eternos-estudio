@@ -1,1 +1,96 @@
-{"data": "2026-11-11", "horario": "12:00", "pilar": "reel", "categoria": "como_funciona", "formato": "palco", "temas": ["chatgpt-lembra-de-voce"], "fontes": ["https://help.openai.com/en/articles/8590148-memory-faq", "https://help.openai.com/en/articles/8983136-what-is-memory"], "prova_viral": "Incômodo comum ('como ele sabia disso?'); ajuda oficial da OpenAI explica a memória, como apagar e que apagar a conversa não apaga a memória.", "cta": "MEMORIA", "polemica": false, "horarios": {"instagram": "2026-11-11 12:00", "tiktok": "2026-11-11 12:00"}, "status": "roteiro aprovado", "checagem": {"em": "2026-11-09 22:02", "ok": true, "itens": [{"nome": "Formato", "valor": "1080×1920", "ok": true, "regra": "1080×1920"}, {"nome": "Duração", "valor": "29.6 s", "ok": true, "regra": "até 35 s (corte texto se passar)"}, {"nome": "Velocidade da fala", "valor": "2.90 palavras/s (86 palavras)", "ok": true, "regra": "máximo 3,0 palavras/s"}, {"nome": "Volume", "valor": "-14.3 LUFS, pico -1.3 dB", "ok": true, "regra": "entre -16 e -12 LUFS, pico até -1 dB"}, {"nome": "Fontes", "valor": "2 fonte(s)", "ok": true, "regra": "todo fato com fonte"}, {"nome": "Prova viral", "valor": "preenchida", "ok": true, "regra": "toda pauta com a prova de que viralizou"}, {"nome": "Legenda do Instagram", "valor": "883 caracteres", "ok": true, "regra": "até 2.200 caracteres"}, {"nome": "CTA na legenda", "valor": "MEMORIA", "ok": true, "regra": "a palavra do CTA aparece na legenda"}, {"nome": "Resposta da DM", "valor": "ok", "ok": true, "regra": "resposta_dm.txt com os links"}]}}
+{
+ "data": "2026-11-11",
+ "horario": "12:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "chatgpt-lembra-de-voce"
+ ],
+ "fontes": [
+  "https://help.openai.com/en/articles/8590148-memory-faq",
+  "https://help.openai.com/en/articles/8983136-what-is-memory"
+ ],
+ "prova_viral": "Incômodo comum ('como ele sabia disso?'); ajuda oficial da OpenAI explica a memória, como apagar e que apagar a conversa não apaga a memória.",
+ "cta": "MEMORIA",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-11 12:00",
+  "tiktok": "2026-11-11 12:00"
+ },
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-09 22:20",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "29.6 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.90 palavras/s (86 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.3 LUFS, pico -1.3 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "883 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "MEMORIA",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "status_em": "2026-11-09 19:20",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "b) carimbo batendo",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "a) flash branco",
+  "camera": "c) travelling lateral",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + gaveta de fichário",
+  "mascote": "óculos redondos e lápis atrás da orelha; ação principal: abrir gavetas de fichas"
+ },
+ "obs_producao": "Produzido em 09/11 no motor da cena_contagem, módulo itens/chatgpt-lembra-de-voce.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+}
