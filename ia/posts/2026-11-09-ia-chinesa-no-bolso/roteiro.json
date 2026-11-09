@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "chave": "CHINA",
  "tese": "A IA CHINESA QUE CONTROLA SEU PC PELO CELULAR · +13 MIL ESTRELAS EM 2 SEMANAS",
@@ -8,7 +8,7 @@
  "elementos": {
   "etiqueta": "b) papel rasgado com fita",
   "nome": "e) letras caindo e encaixando",
-  "contador": "b) odômetro",
+  "contador": "e) placar HI-SCORE (trocado na produção: odômetro repetiria o ChatGPT lembra de você, que sai antes)",
   "legenda": "e) tarja de TV",
   "transicao": "f) zoom atravessando tela",
   "camera": "d) órbita",
@@ -21,7 +21,7 @@
  "fontes": [
   "https://github.com/ccch1mneyyy/dsh-Go"
  ],
- "prova_viral": "Estrelas no GitHub (API. 07/11/2026): ccch1mneyyy/dsh-Go 13.249, criado em 25/10.",
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): ccch1mneyyy/dsh-Go 13.249, criado em 25/10. Relido em 09/11 (API do GitHub): 16.666 estrelas, criado em 25/10, licença AGPL-3.0.",
  "obs": "README em chinês: reler antes de afirmar recursos. Polêmica pela origem chinesa e pelo acesso ao PC; enfatizar segurança, sem medo gratuito.",
  "polemica": true,
  "agenda": "2026-11-11 14:00",
@@ -41,11 +41,11 @@
      "g": 0.6
     }
    ],
-   "itens": "ia-chinesa-no-bolso",
+   "itens": "2026-11-09-ia-chinesa-no-bolso",
    "etiqueta": [
     "A IA CHINESA QUE CONTROLA SEU PC PELO CELULAR",
-    "+13 MIL ESTRELAS EM 2 SEMANAS",
-    ""
+    "+16 MIL ESTRELAS EM 2 SEMANAS",
+    "LEIA ANTES DE INSTALAR"
    ]
   },
   {
@@ -65,8 +65,8 @@
   {
    "cena": "s3",
    "tag": "",
-   "fala": "Treze mil estrelas em duas semanas. Comenta CHINA que eu te mando.",
-   "legenda": "Treze mil estrelas em duas semanas. Comenta CHINA que eu te mando.",
+   "fala": "Dezesseis mil estrelas em duas semanas. Comenta CHINA que eu te mando.",
+   "legenda": "Dezesseis mil estrelas em duas semanas. Comenta CHINA que eu te mando.",
    "sfx": [],
    "item": "dsh-Go",
    "repo": "ccch1mneyyy/dsh-Go",
@@ -87,5 +87,6 @@
    "sfx": []
   }
  ],
- "categoria": "novidade"
+ "categoria": "novidade",
+ "modelo": "gemini-2.5-flash-preview-tts"
 }

@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "contagem",
  "chave": "BIZARRO",
  "tese": "5 PROJETOS MAIS BIZARROS DA SEMANA · +6 MIL ESTRELAS EM 3 SEMANAS · E O Nº 1 IMPRIME A SUA CARA",
@@ -140,5 +140,6 @@
    "sfx": []
   }
  ],
- "categoria": "novidade"
+ "categoria": "novidade",
+ "modelo": "gemini-2.5-flash-preview-tts"
 }

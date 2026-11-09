@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "contagem",
  "chave": "PLAY",
  "tese": "5 JOGOS DE PLAYSTATION RODANDO NO PC · +8 MIL ESTRELAS EM 1 MÊS · E O Nº 1 FOI APAGADO DA LOJA",
@@ -13,9 +13,9 @@
   "transicao": "f) zoom atravessando tela",
   "camera": "f) plongée/contra-plongée",
   "fechamento": "d) tela CONTINUE?",
-  "tipografia": "c) Fraunces",
+  "tipografia": "b) Archivo Black (trocado na produção: Fraunces repetiria o Samsung, que sai antes)",
   "som": "trilha 03 + efeitos de cidade",
-  "mascote": "acessório e ação do conceito; ação principal: se esconder"
+  "mascote": "capuz; ação principal: se esconder atrás das prateleiras"
  },
  "brinde": "links dos 5 + aviso: precisa da cópia do SEU jogo, nenhum traz arquivos de jogo",
  "fontes": [
@@ -25,7 +25,7 @@
   "https://github.com/Supermedo/uncharted_pc",
   "https://github.com/LoreanXavier/pt-pc"
  ],
- "prova_viral": "Estrelas no GitHub (API, 07/11/2026): CTR Nitro-Fueled 724, inFAMOUS Second Son 1.111, Shadow of the Colossus 1.767, Uncharted 2.219, P.T. 2.426; total 8.247; criados entre 07/10 e 15/10.",
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): CTR Nitro-Fueled 724, inFAMOUS Second Son 1.111, Shadow of the Colossus 1.767, Uncharted 2.219, P.T. 2.426; total 8.247; criados entre 07/10 e 15/10. Relido em 09/11 (API do GitHub): total 8.361 estrelas; P.T. 2.440.",
  "obs": "Nunca ROM/ISO nem link de jogo. Todos dizem 'sem arquivos de jogo' / 'seu dump'. Sem logos, personagens ou capas da Sony/Konami. P.T. foi retirado da PlayStation Store em 2015 (fato conhecido; citar fonte jornalística na legenda).",
  "polemica": true,
  "agenda": "2026-11-11 06:00",
@@ -38,7 +38,7 @@
    "tag": "5 JOGOS DE PLAYSTATION RODANDO NO PC",
    "fala": "Esses jogos de PlayStation nunca saíram pro PC. Os fãs fizeram rodar mesmo assim.",
    "legenda": "Esses jogos de PlayStation nunca saíram pro PC. Os fãs fizeram rodar mesmo assim.",
-   "itens": "playstation-no-pc",
+   "itens": "2026-11-09-playstation-no-pc",
    "etiqueta": [
     "5 JOGOS DE PLAYSTATION RODANDO NO PC",
     "+8 MIL ESTRELAS EM 1 MÊS",
@@ -57,7 +57,7 @@
    "tag": "5º",
    "item": "CTR Nitro-Fueled",
    "repo": "GetLostIn/CTR-NitroFueled-PC",
-   "estrelas": 724,
+   "estrelas": 735,
    "fala": "Quinto: Crash Team Racing rodando nativo no Windows.",
    "legenda": "Quinto: Crash Team Racing rodando nativo no Windows.",
    "sfx": [
@@ -73,7 +73,7 @@
    "tag": "4º",
    "item": "inFAMOUS Second Son",
    "repo": "HayatoG/iss_pc",
-   "estrelas": 1111,
+   "estrelas": 1134,
    "fala": "Quarto: inFAMOUS Second Son, jogável no PC, com o seu jogo.",
    "legenda": "Quarto: inFAMOUS Second Son, jogável no PC, com o seu jogo.",
    "sfx": [
@@ -89,7 +89,7 @@
    "tag": "3º",
    "item": "Shadow of the Colossus",
    "repo": "AjncSystem/ShadowOfTheColossus-PC",
-   "estrelas": 1767,
+   "estrelas": 1811,
    "fala": "Terceiro: Shadow of the Colossus no Windows, sem emulador. Esse é bom… comenta PLAY que eu te mando os cinco. Mas o próximo é lenda.",
    "legenda": "Terceiro: Shadow of the Colossus no Windows, sem emulador. Esse é bom… comenta PLAY que eu te mando os cinco. Mas o próximo é lenda.",
    "sfx": [
@@ -105,7 +105,7 @@
    "tag": "2º",
    "item": "Uncharted",
    "repo": "Supermedo/uncharted_pc",
-   "estrelas": 2219,
+   "estrelas": 2241,
    "fala": "Segundo: a coleção Uncharted rodando nativa no PC.",
    "legenda": "Segundo: a coleção Uncharted rodando nativa no PC.",
    "sfx": [
@@ -121,7 +121,7 @@
    "tag": "1º",
    "item": "P.T.",
    "repo": "LoreanXavier/pt-pc",
-   "estrelas": 2426,
+   "estrelas": 2440,
    "fala": "E o primeiro: P.T., o jogo de terror que foi apagado da loja, agora no PC.",
    "legenda": "E o primeiro: P.T., o jogo de terror que foi apagado da loja, agora no PC.",
    "sfx": [
@@ -140,5 +140,6 @@
    "sfx": []
   }
  ],
- "categoria": "novidade"
+ "categoria": "novidade",
+ "modelo": "gemini-2.5-flash-preview-tts"
 }
