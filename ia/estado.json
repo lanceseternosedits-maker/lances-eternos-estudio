@@ -98,5 +98,11 @@
  "agenda_07_11": "Vitor (07/11 12:10): 6 posts hoje no total. EDITA 13:00 e PC 20:30 já agendados; os 4 primeiros vídeos de 08/11 que ficarem prontos saem hoje às 15:00, 17:00, 19:00 e 21:00. Para domingo continuar com 8, 4 aprovados foram adiantados (ia-gigante-no-pc, skills-chinesas-agencia, apps-pra-quem-vive-no-chat, video-do-zero) e ocupam as vagas que sobrarem em 08/11.",
  "agenda_produto_assistente": "Vitor (08/11): produto nº 2 'Super Assistente de IA' (R$ 17). 3 Reels de validação aprovados (08/11; o CONFIGURA vai mesmo com o veto dos revisores, decisão do Vitor): CONFIGURA 11/11 08:00, ASSISTENTE 12/11 08:00, EQUIPE sem vaga 🆕 ainda (entra na próxima vaga de novidade): 2026-11-10-sua-ia-nao-te-conhece (ASSISTENTE), 2026-11-10-equipe-de-ia (EQUIPE). Medida: comentários com a palavra (tabela comentarios do D1, por palavra). Meta para produzir o kit: somando os 3, pelo menos 30 pedidos em 72 h.",
  "agenda_serie_app": "Vitor (08/11): em vez de 15 curtos, TESTE de 1 vídeo longo (~2,5 min) com a cadeia inteira: posts/2026-11-16-app-completo-com-ia, roteiro aguardando aprovação. Curtos 1–3 pausados (podem virar cortes do longo).",
- "agenda_cidade_0911": "Vitor (09/11): 3 roteiros no formato cidade (Referência 7), roteiro aguardando aprovação, vaga livre: 2026-11-09-em-qual-nivel-de-ia (⚙️ NIVEL), 2026-11-09-ia-ja-morreu-duas-vezes (📜 INVERNO), 2026-11-09-obrigado-custa-milhoes (⚙️ OBRIGADO). Cena nova em video/cena_cidade/."
+ "agenda_cidade_0911": "Vitor (09/11): 3 roteiros no formato cidade (Referência 7), roteiro aguardando aprovação, vaga livre: 2026-11-09-em-qual-nivel-de-ia (⚙️ NIVEL), 2026-11-09-ia-ja-morreu-duas-vezes (📜 INVERNO), 2026-11-09-obrigado-custa-milhoes (⚙️ OBRIGADO). Cena nova em video/cena_cidade/.",
+ "agenda_videos_1114": {
+  "2026-11-09-playstation-no-pc": "vídeo aguardando aprovação desde 2026-11-09 19:17 (sai 2026-11-11 06:00)",
+  "2026-11-09-apps-gratis-mac": "vídeo aguardando aprovação desde 2026-11-09 19:17 (sai 2026-11-11 10:00)",
+  "2026-11-09-ia-chinesa-no-bolso": "vídeo aguardando aprovação desde 2026-11-09 19:17 (sai 2026-11-11 14:00)",
+  "2026-11-09-a-pergunta-de-turing": "vídeo aguardando aprovação desde 2026-11-09 19:17 (sai 2026-11-11 17:00)"
+ }
 }

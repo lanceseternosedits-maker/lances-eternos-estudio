@@ -18,6 +18,80 @@
   "instagram": "2026-11-11 17:00",
   "tiktok": "2026-11-11 17:00"
  },
- "status": "roteiro aprovado",
- "nota_horario": "08/11: saiu de 09/11 17:00 (o ESTUDA foi para lá) para 11/11 17:00, vaga 📜 livre mais próxima"
+ "status": "vídeo aguardando aprovação",
+ "nota_horario": "08/11: saiu de 09/11 17:00 (o ESTUDA foi para lá) para 11/11 17:00, vaga 📜 livre mais próxima",
+ "checagem": {
+  "em": "2026-11-09 22:16",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "31.5 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.82 palavras/s (89 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-13.8 LUFS, pico -1.2 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "888 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "TURING",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "status_em": "2026-11-09 19:17",
+ "elementos": {
+  "etiqueta": "g) placa de rua (trocado: neon repetiria o Bizarros, que sai depois)",
+  "nome": "d) letreiro split-flap",
+  "contador": "(sem contador: história)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "b) chicote de câmera (whip pan)",
+  "camera": "e) câmera na mão (trocado: órbita repetiria a IA chinesa)",
+  "fechamento": "f) cartões que viram (trocado: caderno repetiria a IA chinesa)",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 02 + máquina de escrever",
+  "mascote": "boina; ação principal: passar bilhetes por baixo da cortina"
+ },
+ "obs_producao": "Produzido em 09/11 (turno da madrugada) no motor da cena_contagem, módulo itens/a-pergunta-de-turing.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
 }

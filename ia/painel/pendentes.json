@@ -1,6 +1,26 @@
 {
- "gerado_em": "2026-11-09 16:57",
+ "gerado_em": "2026-11-09 19:17",
  "videos": [
+  {
+   "pasta": "2026-11-09-a-pergunta-de-turing",
+   "titulo": "1950: MÁQUINAS PODEM PENSAR?",
+   "quando": "2026-11-11 17:00"
+  },
+  {
+   "pasta": "2026-11-09-ia-chinesa-no-bolso",
+   "titulo": "A IA CHINESA QUE CONTROLA SEU PC PELO CELULAR",
+   "quando": "2026-11-11 14:00"
+  },
+  {
+   "pasta": "2026-11-09-apps-gratis-mac",
+   "titulo": "3 APPS GRÁTIS QUE O MAC DEVIA TER",
+   "quando": "2026-11-11 10:00"
+  },
+  {
+   "pasta": "2026-11-09-playstation-no-pc",
+   "titulo": "5 JOGOS DE PLAYSTATION RODANDO NO PC",
+   "quando": "2026-11-11 06:00"
+  },
   {
    "pasta": "2026-11-10-samsung-vazou-no-chatgpt",
    "titulo": "ELES COLARAM SEGREDO DA SAMSUNG NO CHATGPT",
@@ -29,14 +49,6 @@
  ],
  "roteiros": [],
  "agenda_3_dias": [
-  {
-   "quando": "2026-11-09 17:00",
-   "titulo": "5 projetos grátis pra estudar com IA. E o nº 1 é bizarro. 📚",
-   "redes": [
-    "instagram",
-    "tiktok"
-   ]
-  },
   {
    "quando": "2026-11-09 19:30",
    "titulo": "3 SKILLS CHINESAS QUE FAZEM TRABALHO DE AGÊNCIA",
