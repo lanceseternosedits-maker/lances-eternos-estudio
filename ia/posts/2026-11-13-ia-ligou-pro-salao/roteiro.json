@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "categoria": "historia",
  "chave": "LIGOU",
@@ -115,5 +115,6 @@
     }
    ]
   }
- ]
+ ],
+ "modelo": "gemini-2.5-flash-preview-tts"
 }

@@ -63,7 +63,7 @@ const ACT = {
   n4(lt) { reset(lt); raio.rotation.y = lt * 1.2; raioM.emissiveIntensity = 2 + Math.sin(lt * 12) * .8; olha(lt, .6); },
   n3(lt) { reset(lt); est.position.y = Math.max(0, 1 - lt * .8) * -.3; olhoE.material.emissiveIntensity = olhoD.material.emissiveIntensity = 1 + Math.sin(lt * 3); esconde(lt, .6); },
   n2(lt) { reset(lt); mapa.rotation.y = Math.sin(lt * 1.5) * .3; mapa.position.y = 1.3 + Math.sin(lt * 2) * .05; olha(lt, .5); },
-  n1(lt, d) { reset(lt); const f = (Math.floor(lt * 7) % 5 === 0 || Math.sin(lt * 23) > .85) ? 0 : 1; luzFim.intensity = 14 * f; lampada.material.emissiveIntensity = 3 * f; esconde(lt, .9); },
+  n1(lt, d) { reset(lt); const f = (Math.floor(lt * 7) % 5 === 0 || Math.sin(lt * 23) > .85) ? 0 : 1; luzFim.intensity = 14 * f; lampada.material.emissiveIntensity = 3 * f; esconde(lt, .3); },
   cta(lt) { reset(lt); feliz(lt); },
 };
 
@@ -97,12 +97,12 @@ const ui = C => { const { X, GH, SEGR, CHAVE, ITENS, MAXE } = C; const GY3 = 620
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .34) return; const u = eio(lt / .34), w = 220 + u * 2300, h = w * .8;
       X.save(); X.fillStyle = "#07070f"; X.beginPath(); X.rect(0, 0, 1080, 1920); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 60 * (1 - u) + 6); X.fill("evenodd"); X.strokeStyle = "#3a3d6a"; X.lineWidth = 16; X.beginPath(); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 60 * (1 - u) + 6); X.stroke(); X.restore(); },
     fechamento(lt) { // pódio dos 3 primeiros + COMENTA
-      const it = ITENS.slice().reverse(), P = [[it[0], 505, 300, VERM, 1], [it[1], 245, 210, ANIL, 2], [it[2], 765, 150, "#2bb37a", 3]];
-      P.forEach(([s, x, h, c, n], i) => { const k = eo(lin(lt, .1 + i * .15, .5 + i * .15)), hh = h * k, base = 1320; X.fillStyle = c; X.fillRect(x - 125, base - hh, 250, hh); X.fillStyle = "rgba(0,0,0,.2)"; X.fillRect(x - 125, base - hh, 250, 14);
+      const it = ITENS.slice().reverse(), P = [[it[0], 505, 210, VERM, 1], [it[1], 245, 140, ANIL, 2], [it[2], 765, 100, "#2bb37a", 3]];
+      P.forEach(([s, x, h, c, n], i) => { const k = eo(lin(lt, .1 + i * .15, .5 + i * .15)), hh = h * k, base = 1400; X.fillStyle = c; X.fillRect(x - 125, base - hh, 250, hh); X.fillStyle = "rgba(0,0,0,.2)"; X.fillRect(x - 125, base - hh, 250, 14);
         if (k > .6) { X.fillStyle = "#fff"; X.font = "400 80px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText(String(n), x, base - hh + 62); X.fillStyle = "#e8e9ff"; X.font = `400 ${cabe(30, s.item, 250)}px AB`; X.fillText(s.item, x, base - hh - 30 + Math.sin(lt * 3 + i) * 3); } });
-      X.fillStyle = "#2a2c55"; X.fillRect(80, 1320, 850, 14);
+      X.fillStyle = "#2a2c55"; X.fillRect(80, 1400, 850, 14);
       const p = back(lin(lt, .7, 1.1)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(505, 760); X.scale(p, p); X.fillStyle = VERM; X.beginPath(); X.roundRect(-300, -60, 600, 120, 60); X.fill(); X.fillStyle = "#fff"; X.font = "400 70px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("COMENTA " + CHAVE, 0, 4); X.restore();
-      if (lt > 1.1) { X.globalAlpha = eo(lin(lt, 1.1, 1.5)); X.fillStyle = "#fff"; X.font = "400 36px AB"; X.textAlign = "center"; X.fillText("SÓ COM O JOGO QUE É SEU", 505, 1400); X.globalAlpha = 1; } },
+      if (lt > 1.1) { X.globalAlpha = eo(lin(lt, 1.1, 1.5)); X.fillStyle = "#fff"; X.font = "400 36px AB"; X.textAlign = "center"; X.fillText("SÓ COM O JOGO QUE É SEU", 505, 1462); X.globalAlpha = 1; } },
   }; return U; };
 const cores = { LAR: VERM, VERDE: FOSF, FUNDO, CREME, TINTA, BRILHO: "rgba(0,0,0,0)" };
 return { SHOTS, ACT, cores, semPalco: true, ui };

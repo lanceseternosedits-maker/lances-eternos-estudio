@@ -81,12 +81,12 @@ const ui = C => { const { X, GH, SEGR, CHAVE } = C; const GY3 = 600;
       let f = 124; X.font = `700 ${f}px FR`; while (X.measureText(txt).width > 820 && f > 50) { f -= 4; X.font = `700 ${f}px FR`; }
       X.save(); X.translate(505, 1395); X.scale(.6 + .4 * p, .6 + .4 * p); X.textAlign = "center"; X.textBaseline = "middle"; X.lineWidth = 16; X.strokeStyle = "#fff"; X.lineJoin = "round"; X.strokeText(txt, 0, 0); X.fillStyle = chave ? VERM : MAR; X.fillText(txt, 0, 0); X.restore(); },
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .14) return; X.fillStyle = `rgba(255,255,255,${.85 * (1 - lt / .14)})`; X.fillRect(0, 0, 1080, 1920); },
-    fechamento(lt) { const P = [["COMENTA " + CHAVE, "#ffcf3f", 505, 780, -.03, 80, MAR, 720, 170], ["Configurações › Personalização › Memórias", "#cfe0ff", 290, 1070, .05, 38, TINTA, 400, 240], ["apaga o que não quer, deixa o que ajuda", "#ffd8c2", 720, 1090, -.05, 38, TINTA, 380, 240]];
+    fechamento(lt) { const P = [["COMENTA " + CHAVE, "#ffcf3f", 505, 780, -.03, 80, MAR, 720, 170], ["Configurações › Personalização › Memórias", "#cfe0ff", 700, 1000, .04, 36, TINTA, 420, 190], ["apaga o que não quer, deixa o que ajuda", "#ffd8c2", 700, 1225, -.04, 36, TINTA, 420, 190]];
       P.forEach(([txt, cor, x, y, r, f, tc, w, h], i) => { const p = back(lin(lt, i * .2, i * .2 + .35)); if (p <= 0) return; X.save(); X.translate(x, y); X.rotate(r + Math.sin(lt * 2 + i) * .01); X.scale(p, p);
         X.shadowColor = "rgba(20,20,40,.3)"; X.shadowBlur = 16; X.shadowOffsetY = 8; X.fillStyle = cor; X.fillRect(-w / 2, -h / 2, w, h); X.shadowColor = "transparent"; X.fillStyle = "rgba(255,255,255,.6)"; X.fillRect(-50, -h / 2 - 14, 100, 28);
         X.fillStyle = tc; X.textAlign = "center"; X.textBaseline = "middle"; X.font = `700 ${f}px FR`; const ws = txt.split(" "), L = []; let c = ""; for (const w2 of ws) { const tt = c ? c + " " + w2 : w2; if (X.measureText(tt).width > w - 40 && c) { L.push(c); c = w2; } else c = tt; } L.push(c);
         L.forEach((l, k) => X.fillText(l, 0, (k - (L.length - 1) / 2) * f * 1.15 + 4)); X.restore(); });
-      if (lt > 1.0) { X.globalAlpha = eo(lin(lt, 1.0, 1.4)); X.fillStyle = MAR; X.font = "700 44px FR"; X.textAlign = "center"; X.fillText("Você sabia que ele guardava isso?", 505, 1320); X.globalAlpha = 1; } },
+      if (lt > 1.0) { X.globalAlpha = eo(lin(lt, 1.0, 1.4)); X.fillStyle = MAR; X.font = "700 44px FR"; X.textAlign = "center"; X.fillText("Você sabia que ele guardava isso?", 505, 1440); X.globalAlpha = 1; } },
   }; };
 const cores = { LAR: MAR, VERDE, FUNDO, CREME: PAP, TINTA, BRILHO: "rgba(0,0,0,0)" };
 return { SHOTS, ACT, cores, semPalco: true, ui, camera };

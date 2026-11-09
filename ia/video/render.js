@@ -10,9 +10,9 @@ const PALS = {
 };
 const rot = JSON.parse(fs.readFileSync("" + (process.env.ROT || "roteiro.json") + "")), tl = JSON.parse(fs.readFileSync(process.env.TL || "out/timeline.json"));
 const WWW = path.join(__dirname, process.env.WWW || "www"); const OUT = process.env.OUT || "out";
-fs.writeFileSync(path.join(WWW, "cfg.json"), JSON.stringify({ pal: PALS[process.env.PALETTE || 4], titulo: rot.titulo, chave: rot.chave || "EQUIPE", segs: rot.segmentos, timeline: tl }));
+const CFGJ = JSON.stringify({ pal: PALS[process.env.PALETTE || 4], titulo: rot.titulo, chave: rot.chave || "EQUIPE", segs: rot.segmentos, timeline: tl }); fs.writeFileSync(path.join(WWW, "cfg.json"), CFGJ); // o servidor responde o cfg desta execução (renders em paralelo não se misturam)
 const types = { html: "text/html", js: "text/javascript", json: "application/json", svg: "image/svg+xml", woff2: "font/woff2" };
-const srv = http.createServer((q, r) => { const f = path.join(WWW, decodeURIComponent(q.url.split("?")[0])); if (!fs.existsSync(f)) { r.writeHead(404); return r.end(); } r.writeHead(200, { "Content-Type": types[f.split(".").pop()] || "application/octet-stream" }); fs.createReadStream(f).pipe(r); }).listen(+(process.env.PORT || 8765));
+const srv = http.createServer((q, r) => { if (q.url.split("?")[0] === "/cfg.json") { r.writeHead(200, { "Content-Type": "application/json" }); return r.end(CFGJ); } const f = path.join(WWW, decodeURIComponent(q.url.split("?")[0])); if (!fs.existsSync(f)) { r.writeHead(404); return r.end(); } r.writeHead(200, { "Content-Type": types[f.split(".").pop()] || "application/octet-stream" }); fs.createReadStream(f).pipe(r); }).listen(+(process.env.PORT || 8765));
 (async () => {
   const b = await chromium.launch({ args: ["--use-gl=angle", "--use-angle=swiftshader", "--enable-unsafe-swiftshader", "--ignore-gpu-blocklist"] });
   const p = await b.newPage({ viewport: { width: 1080, height: 1920 } });
