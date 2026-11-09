@@ -1,0 +1,20 @@
+Comenta COPIA que eu te mando os 5 links. 🔧
+
+As big techs escondem como os programas funcionam. Esses projetos abrem tudo (+31 mil estrelas no GitHub em 1 mês):
+
+5) eleven: uma IA lê e explica programas fechados do seu lado
+4) Reverse Engineer Anything: agentes que descobrem como um app funciona por dentro
+3) Awesome Reverse Engineered: ferramentas nascidas de engenharia reversa, num lugar só
+2) REA Prompts: prompts prontos pra desmontar qualquer programa
+1) Craft Anything: entende como qualquer programa funciona e te ajuda a fazer o seu
+
+⚠️ Use só com programa que é seu ou que a licença permite.
+
+💬 Comenta COPIA e me segue. Deixa o like e manda pra aquele amigo que quer criar o próprio app.
+
+Que programa do seu trabalho você queria fazer do seu jeito? 👇
+
+Fontes: repositórios no GitHub (estrelas conferidas na produção).
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #programacao #apps #github #claude
