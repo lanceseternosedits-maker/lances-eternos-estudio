@@ -4,7 +4,7 @@
 # uso: produz.sh <pasta do post> <trilha opcional>
 set -e
 cd "$(dirname "$0")/.."  # pasta ia/ (funciona com o repositório em qualquer caminho ou nome)
-P=posts/$1
+P=posts/$1; mkdir -p $P/out3d
 python3 - "$P" <<'PY'
 import json,os,sys
 P=sys.argv[1]; t=json.load(open(P+'/out/timeline.json')); b=os.path.abspath(P+'/out3d/base.mp4')
