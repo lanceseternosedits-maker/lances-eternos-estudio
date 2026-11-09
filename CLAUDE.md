@@ -8,6 +8,7 @@ Perfil de Vitor Gofredo: a IA que importa explicada em 60 segundos, em portuguê
 - Nunca esconda falhas: se uma etapa falhou (Metricool recusou, imagem não baixou, chave sumiu), diga o que falhou e o que faria.
 
 ## Onde está cada coisa
+- `ia/MEMORIA.md`: **passagem de bastão** entre conversas (o que está em andamento e o que depende do Vitor). Leia no início de toda sessão do painel; atualize ao fim do dia ou ao trocar de conversa.
 - `ia/AGENTE.md`: **manual completo** (linha editorial, ganchos, carrossel, vídeo, publicação). É a fonte da verdade; o conteúdo dele está importado abaixo.
 - `ia/referencias.md`: o que está viralizando lá fora (atualizado todo dia pelo caçador de referências). `ia/referencias_fixas.md`: exemplos de estilo que o Vitor mandou.
 - `ia/pautas/categorias.md`: banco de pautas das categorias **📜 história da IA** e **⚙️ como a IA funciona** (Vitor, 07/11), com fontes candidatas; regras e mistura por dia em "Categorias" no manual. Todo roteiro novo leva `"categoria"`.
