@@ -1,0 +1,24 @@
+{
+ "formato": "contagem",
+ "titulo": "Feitos por IA",
+ "subtitulo": "e o nº 1 passou de 3 mil views",
+ "palavra": "ESTUDIO",
+ "perfil": "@iaem60s",
+ "brinde": "o passo a passo",
+ "rotulo_numero": "views",
+ "mascote": {"cor": "#e8794a", "acessorio": "bone", "corAcessorio": "#5b3cc4"},
+ "cores": {"parede": "#2b2247", "piso": "#8a5a3c", "destaque": "#ff6b2c", "pilula": "#5b3cc4", "fita": "#efe2c2"},
+ "trilha": {"tom": 2, "bpm": 116, "clima": "alegre"},
+ "fonte_dos_numeros": "Metricool, views do Instagram lidas em 08/11/2026 (ia/painel/resultados.json)",
+ "segmentos": [
+  {"tipo": "gancho", "fala": "Esses 5 vídeos foram feitos por uma IA. E o número 1 passou de 3 mil views."},
+  {"tipo": "item", "n": 5, "nome": "Programas pro Windows", "numero": 2500, "objeto": "monitor", "fala": "Número 5: programas grátis pro Windows. 2.500 views."},
+  {"tipo": "item", "n": 4, "nome": "Editar vídeo", "numero": 2511, "objeto": "claquete", "fala": "Número 4: skills pra editar vídeo."},
+  {"tipo": "item", "n": 3, "nome": "Deep Blue", "numero": 2705, "objeto": "xadrez", "fala": "Número 3: a máquina que venceu no xadrez. Comenta ESTUDIO que eu te mando como fazer."},
+  {"tipo": "item", "n": 2, "nome": "5 skills", "numero": 2881, "objeto": "caixa", "fala": "Número 2: cinco skills do Claude. Quase 2.900."},
+  {"tipo": "item", "n": 1, "nome": "TV e celular", "numero": 3117, "objeto": "tv", "fala": "E o número 1: projetos pra TV e celular. Mais de 3 mil."},
+  {"tipo": "cta", "fala": "Ninguém editou nada. Comenta ESTUDIO e me segue que eu te mando."}
+ ],
+ "legenda_post": "Comenta ESTUDIO que eu te mando o passo a passo 👇\nEsses 5 Reels foram feitos com IA, do roteiro ao MP4.\nQual desses você postaria no seu perfil amanhã?",
+ "primeiro_comentario": "💬 Comenta ESTUDIO que eu te mando o passo a passo"
+}
