@@ -222,3 +222,22 @@ Aqui está a análise detalhada de cada Reel exibido no vídeo, seguida pelo des
 
 **O que copiar (estilo, nunca o vídeo nem os textos):** figurino + cenário novos a cada vídeo com o mesmo mascote; fita crepe no topo; contador de jogo no canto; legenda em pílula; prova de DM dentro do vídeo; estrutura da landing (demo acima da dobra, carta, conversa de exemplo, 4 jeitos, o que recebe, bônus pós-garantia, FAQ honesta com requisito do plano). **O que não copiar:** nomes, frases, os 24 estilos dele, o layout exato da página, os moldes dele.
 **Nosso produto parecido:** ver `produtos/estudio-reels/PLANO.md`.
+
+## Referências 9–13 (09/11, gravações de tela enviadas pelo Vitor; pasta "Referencia" do Drive)
+Números = curtidas · comentários · reposts · envios · salvamentos, vistos na tela.
+- **9 · @igao.ia, "Agente 24h" da clínica de dentista (12,6 mil · 12,1 mil · 162 · 4.485 · 7.902):** história de negócio real contada em telas. Uma paciente manda áudio às 23:46, o agente transcreve, faz a triagem, mostra horários, agenda, confirma e manda lembrete, com um cronômetro **"41 segundos"**. Visual: fundo preto, cartões de interface limpos (WhatsApp, ficha, agenda, cartão "CONFIRMADA 9h30"), legenda centralizada com **1 palavra em itálico serifado destacada**. CTA "comenta AGENDA" e o brinde é o fluxo em PDF. **Lição:** comentário ≈ curtida quando o vídeo mostra a IA **trabalhando por um negócio comum, do começo ao fim**. É o "Gosto do Vitor" na veia.
+- **10 · @clubedasskills, "5 Claudes reprovam seu código" (9.964 · 9.367 · 200 · 2.684 · 7.950):** 3D voxel no estilo do _aighostlab, com uma **banca de jurados**. Cada jurado é um personagem (o hacker, o usuário confuso, o programador sênior, o testador, o veredito), cada um com **um contador próprio** ("INVASÕES 1", "CLIQUES 47", "PROBLEMAS 7", "TESTES 12/13", "ERROS 9"). Título em fita crepe que muda por bloco, legenda em pílula e final com a notificação de DM "O PROMPT DA BANCA". **Lição:** "N IAs julgam o seu X" é molde forte; serve pra currículo, post, negócio, anúncio, contrato.
+- **11 · @andrevale.dev, "Agent Teams no Claude Code" (888 · 487 · 13 · 569):** tutorial em 4 passos com estética de terminal escuro e verde-limão. Selo "PASSO N DE 4" com barrinhas, blocos de código reais, comparação "Time ou subagente?" (custo baixo × gasta mais). Legenda karaokê cinza → branco. Abre com um escritório em pixel art de agentes. **Lição:** passo a passo numerado segura até o fim, mas é técnico demais pro nosso público (ver Regra de ouro); serve só para o visual "PASSO N DE M".
+- **12 · @matheusfonseca.ia, "Virality Predictor" (609 · 438 · 14 · 716):** tela dividida: rosto falando embaixo e animação 2D/pixel em cima (fliperama de "nota viral 0–100", gráfico de retenção "aqui! −42%"). Rótulo em mono maiúsculo na linha da divisão. Fecha com a animação **"1 Seguir · 2 Comente VIRAL"** digitando. **Lição:** mostrar o passo do CTA animado ensina a comentar. Rosto não se aplica (perfil sem rosto).
+- **13 · @thejplabs, "Esse cara ganhou um prêmio do Claude" (322 · 408 · 6 · 111 · 443):** ilustração 2D flat roxa (pessoa + robô), capítulos "01 / O VENCEDOR" e "02 / A EQUIPE" com números grandes (71, 314), comando de terminal e link do GitHub no fim. **Lição:** história de pessoa + "copia o que ele fez" rende comentário, mas o visual flat rendeu menos que o 3D.
+
+**Padrões que se repetem nos campeões (9 e 10, mais o _aighostlab):**
+1. Contador ou cronômetro na tela que muda a cada bloco.
+2. Título curto em fita crepe ou caixa no topo.
+3. Prova do CTA dentro do vídeo (notificação de DM, comentário com a palavra).
+4. A IA fazendo um trabalho inteiro por alguém comum.
+
+**Pautas que saem daqui (para o roteirista avaliar):**
+- (a) "A IA que atende seu [salão/pizzaria/oficina] às 23h", com cronômetro e fluxo em PDF (formato cidade ou telas).
+- (b) "5 IAs julgam seu currículo" e "5 IAs julgam seu anúncio", banca com contadores, brinde = o prompt da banca. Combina com o KIT.
+- (c) Nos Reels de contagem, um quadro curto com a notificação de DM "Aqui seu link…" depois do "Comenta".
