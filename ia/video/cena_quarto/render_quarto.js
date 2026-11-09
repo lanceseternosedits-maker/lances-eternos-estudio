@@ -4,7 +4,7 @@ const [tlArq, saida] = process.argv.slice(2); const TL = JSON.parse(fs.readFileS
 (async () => {
   const b = await chromium.launch({ args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] });
   const p = await b.newPage({ viewport: { width: 1080, height: 1920 } });
-  await p.goto('http://localhost:8765/cena_quarto/index.html'); await p.waitForFunction(() => window.pronto, null, { timeout: 30000 }); await p.evaluate((t) => setTL(t), TL);
+  await p.goto('http://localhost:' + (process.env.PORT || 8765) + '/' + (process.env.CENA || 'cena_quarto/index.html')); await p.waitForFunction(() => window.pronto, null, { timeout: 30000 }); await p.evaluate((t) => setTL(t), TL);
   const ff = spawn('ffmpeg', ['-y', '-loglevel', 'error', '-f', 'image2pipe', '-framerate', String(FPS), '-i', '-', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-crf', '18', '-preset', 'veryfast', saida]);
   const n = Math.round(fim * FPS), ini = +(process.env.INI || 0), ate = Math.min(n, +(process.env.FIM || n)); let ref = 0, refeitos = 0;
   // o SwiftShader às vezes devolve o canvas 3D vazio (quadro preto só com a legenda): JPEG bem menor que o anterior = refaz o quadro
