@@ -1,16 +1,6 @@
 {
- "gerado_em": "2026-11-09 12:59",
+ "gerado_em": "2026-11-09 16:57",
  "videos": [
-  {
-   "pasta": "2026-11-10-sua-ia-nao-te-conhece",
-   "titulo": "SUA IA NÃO SABE NADA DE VOCÊ",
-   "quando": "2026-11-12 08:00"
-  },
-  {
-   "pasta": "2026-11-10-ia-configurada",
-   "titulo": "SUA IA RESPONDE IGUAL PRA TODO MUNDO",
-   "quando": "2026-11-11 08:00"
-  },
   {
    "pasta": "2026-11-10-samsung-vazou-no-chatgpt",
    "titulo": "ELES COLARAM SEGREDO DA SAMSUNG NO CHATGPT",
@@ -37,32 +27,8 @@
    "quando": "2026-11-10 08:00"
   }
  ],
- "roteiros": [
-  {
-   "pasta": "2026-11-09-em-qual-nivel-de-ia",
-   "titulo": "EM QUAL NÍVEL DE IA VOCÊ ESTÁ?",
-   "quando": "2026-11-09"
-  },
-  {
-   "pasta": "2026-11-09-ia-ja-morreu-duas-vezes",
-   "titulo": "A IA QUASE MORREU DUAS VEZES",
-   "quando": "2026-11-09"
-  },
-  {
-   "pasta": "2026-11-09-obrigado-custa-milhoes",
-   "titulo": "SEU OBRIGADO PRA IA CUSTA MILHÕES",
-   "quando": "2026-11-09"
-  }
- ],
+ "roteiros": [],
  "agenda_3_dias": [
-  {
-   "quando": "2026-11-09 14:00",
-   "titulo": "3 JEITOS DE RODAR IA GIGANTE NO SEU PC",
-   "redes": [
-    "instagram",
-    "tiktok"
-   ]
-  },
   {
    "quando": "2026-11-09 17:00",
    "titulo": "5 projetos grátis pra estudar com IA. E o nº 1 é bizarro. 📚",

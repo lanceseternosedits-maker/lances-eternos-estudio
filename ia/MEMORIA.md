@@ -10,7 +10,8 @@ Toda sessão nova do painel lê este arquivo junto com o CLAUDE.md. Ele guarda o
 - **Produção da semana:** a rodada de segunda (04:47) falhou por limite de uso; refeita às 11:36 de 09/11 (28 roteiros ter–sex, pelo painel de revisão).
 - **Cidade 3D (Referência 7):** roteiros NÍVEL, INVERNO e OBRIGADO + cena `video/cena_cidade/` com a sessão de produção.
 - **Estúdio de Reels (produto):** skill sendo montada na sessão do produto (`produtos/estudio-reels/PLANO.md`, `STATUS.md`). Landing pronta em `iaem60s.com/estudio` (pré-lançamento, noindex, "de R$ 47 por R$ 17"), gerada por `produtos/estudio-reels/landing.py`. Não abrir venda antes de a skill fazer tudo o que a página promete.
-- **7 MP4 aguardando aprovação** (10/11 a 12/11): agendar quando aprovados no app (IG + TikTok + story +15 min).
+- **5 MP4 aguardando aprovação de vídeo** (internet-somada, programas-caros-gratis, samsung-vazou, a-ia-ganhou-nome, pense-passo-a-passo): em 09/11 13:29 o Vitor tocou "Aprovar roteiro" neles porque o painel (gerado num clone sem os mp4) mostrava a etapa errada; não vale como aprovação de vídeo. Corrigido no `gerar.py` (o status manda na etapa). Agendar quando aprovados (IG + TikTok + story +15 min).
+- **Negados para refazer:** sua-ia-nao-te-conhece (vídeo; nota: virar "IA COM MEMÓRIA INFINITA", sempre lembra e fica na mesma página) e ia-configurada (sem nota). Roteiros NÍVEL, MORREU e OBRIGADO aprovados → produção.
 
 ## Depende do Vitor
 - Estúdio de Reels: nome final, confirmar R$ 17 de lançamento → R$ 47 depois (o "de" tem que virar real), criar o produto na Kiwify e passar o link do checkout.

@@ -14,7 +14,7 @@
  "prova_viral": "Validação de produto (não é pauta de tendência): o formato 'IA que trabalha por você' é o que mais salva no perfil (5 skills 4,7% e TV 2,7% de salvamento, leitura de 07/11); configurar instruções/Projetos/Gems é recurso oficial das três IAs (fontes).",
  "cta": "ASSISTENTE",
  "polemica": false,
- "status": "vídeo aguardando aprovação",
+ "status": "negado",
  "produto": "kit-assistente-pessoal",
  "revisao": {
   "veredito": "ajustado",
@@ -133,5 +133,6 @@
   "texto": "Sua IA não sabe nada de você",
   "selo": "ASSISTENTE"
  },
- "obs_producao": "Produzido em 08/11: módulo itens/sua-ia-nao-te-conhece.js, recepção de hotel (recepcionista que pede o nome toda vez, ficha do hóspede preenchida e carimbada CADASTRADO, na volta já sabe tudo), CTA ASSISTENTE no meio, página de caderno no fim. Voz 2.5 a 0,88×: 32,6 s."
+ "obs_producao": "Produzido em 08/11: módulo itens/sua-ia-nao-te-conhece.js, recepção de hotel (recepcionista que pede o nome toda vez, ficha do hóspede preenchida e carimbada CADASTRADO, na volta já sabe tudo), CTA ASSISTENTE no meio, página de caderno no fim. Voz 2.5 a 0,88×: 32,6 s.",
+ "nota": "Mude as palavras pra chegar no sentido. Deixe algo do tipo IA COM MEMORIA INFINITA, sempre vai lembrar do que vc falar e sempre vai estar na mesma pagona que voce etc"
 }

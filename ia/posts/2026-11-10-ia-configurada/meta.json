@@ -14,7 +14,7 @@
  "prova_viral": "Validação de produto (não é pauta de tendência): o formato 'IA que trabalha por você' é o que mais salva no perfil (5 skills 4,7% e TV 2,7% de salvamento, leitura de 07/11); configurar instruções/Projetos/Gems é recurso oficial das três IAs (fontes).",
  "cta": "CONFIGURA",
  "polemica": false,
- "status": "vídeo aguardando aprovação",
+ "status": "negado",
  "produto": "kit-assistente-pessoal",
  "revisao": {
   "veredito": "reprovado",
@@ -126,5 +126,6 @@
   "texto": "Sua IA responde igual pra todo mundo",
   "selo": "CONFIGURA"
  },
- "obs_producao": "Produzido em 08/11 (Vitor mandou produzir apesar do veto do painel): módulo itens/ia-configurada.js, cozinha em tela dividida IA NORMAL × IA CONFIGURADA, ficha \"o que você contou\" na geladeira (a IA não vê a geladeira), termômetros SERVE?, CONTINUE? no fim. Roteiro ajustado como pediram fatos/gancho: sem \"testei duas IAs\", CTA CONFIGURA + envio no meio, pergunta de 1 palavra. Voz 2.5 a 0,92×: 31,3 s."
+ "obs_producao": "Produzido em 08/11 (Vitor mandou produzir apesar do veto do painel): módulo itens/ia-configurada.js, cozinha em tela dividida IA NORMAL × IA CONFIGURADA, ficha \"o que você contou\" na geladeira (a IA não vê a geladeira), termômetros SERVE?, CONTINUE? no fim. Roteiro ajustado como pediram fatos/gancho: sem \"testei duas IAs\", CTA CONFIGURA + envio no meio, pergunta de 1 palavra. Voz 2.5 a 0,92×: 31,3 s.",
+ "nota": "negado pelo Vitor em 09/11 13:29 (sem nota)"
 }

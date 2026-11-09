@@ -380,7 +380,7 @@ def main() -> None:
         decide = rot_html = ""
         pct_attr = ""
         if c["pasta"] and "aguardando" in c["status"].lower():
-            etapa = "vídeo" if any((c["pasta"] / n).exists() for n in ("reel.mp4", "short.mp4")) else "roteiro"
+            etapa = "vídeo" if ("vídeo" in c["status"].lower() or any((c["pasta"] / n).exists() for n in ("reel.mp4", "short.mp4"))) else "roteiro"  # status manda: clone sem o mp4 marcava "roteiro" (09/11)
             rot = ler(c["pasta"] / "roteiro.json", {}) or {}
             falas = "".join(f'<li><b>{esc(s.get("cena", ""))}</b> {esc(s.get("fala", ""))}</li>' for s in rot.get("segmentos", []))
             if etapa == "vídeo":
