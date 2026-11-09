@@ -7,13 +7,13 @@
  "conceito": "Estúdio de garagem: caixas de ovo na parede, tapete persa, amplificador velho, luzinhas de Natal; paleta mostarda + vinho + marrom-tapete. Nº 1: o mascote com microfone de pedestal e notas musicais virando degraus. Fone de ouvido gigante como acessório.",
  "elementos": {
   "etiqueta": "b) papel rasgado com fita",
-  "nome": "b) carimbo",
+  "nome": "f) escrito à mão (trocado: carimbo repetiria o Engenheiro)",
   "contador": "e) placar HI-SCORE",
   "legenda": "e) tarja de TV",
   "transicao": "f) zoom atravessando tela",
-  "camera": "d) órbita",
+  "camera": "c) travelling lateral (trocado: órbita repetiria o Engenheiro)",
   "fechamento": "b) pódio",
-  "tipografia": "e) Caveat + Space Grotesk",
+  "tipografia": "c) Fraunces (trocado: Caveat repetiria o Engenheiro)",
   "som": "trilha 03 + efeitos arcade",
   "mascote": "acessório e ação do conceito; ação principal: patinar"
  },
@@ -55,7 +55,7 @@
    "tag": "3º",
    "item": "LYNX SHARE",
    "repo": "Ka1-S/LYNX-SHARE",
-   "estrelas": 739,
+   "estrelas": 796,
    "fala": "Terceiro: LYNX SHARE. Estúdio no estilo FL Studio, que abre seus projetos de lá. Esse é completo… comenta MUSICA que eu te mando os três. Mas o primeiro é o mais legal.",
    "legenda": "Terceiro: LYNX SHARE. Estúdio no estilo FL Studio, que abre seus projetos de lá. Esse é completo… comenta MUSICA que eu te mando os três. Mas o primeiro é o mais legal.",
    "sfx": [
@@ -71,9 +71,9 @@
    "tag": "2º",
    "item": "Lemon Studio",
    "repo": "ItsAlphaNeon/Lemon-Studio",
-   "estrelas": 807,
-   "fala": "Segundo: Lemon Studio. Estúdio de áudio grátis que você já sabe usar. Esse é completo… comenta MUSICA que eu te mando os três. Mas o primeiro é o mais legal.",
-   "legenda": "Segundo: Lemon Studio. Estúdio de áudio grátis que você já sabe usar. Esse é completo… comenta MUSICA que eu te mando os três. Mas o primeiro é o mais legal.",
+   "estrelas": 850,
+   "fala": "Segundo: Lemon Studio. Estúdio de áudio grátis que você já sabe usar.",
+   "legenda": "Segundo: Lemon Studio. Estúdio de áudio grátis que você já sabe usar.",
    "sfx": [
     {
      "t": 0.0,
@@ -87,7 +87,7 @@
    "tag": "1º",
    "item": "onkey",
    "repo": "dsmurrell/onkey",
-   "estrelas": 406,
+   "estrelas": 414,
    "fala": "E o primeiro: onkey. Ouve a música que você ama e te ensina a cantar.",
    "legenda": "E o primeiro: onkey. Ouve a música que você ama e te ensina a cantar.",
    "sfx": [

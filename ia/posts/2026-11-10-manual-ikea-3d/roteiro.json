@@ -9,8 +9,8 @@
   "etiqueta": "e) tela de terminal",
   "nome": "c) máquina de escrever",
   "contador": "d) pote de estrelas",
-  "legenda": "e) tarja de TV",
-  "transicao": "f) zoom atravessando tela",
+  "legenda": "b) uma palavra gigante por vez (trocado: tarja repetiria a Câmera Sony)",
+  "transicao": "d) virada de página (trocado: zoom repetiria a Câmera Sony)",
   "camera": "f) plongée/contra-plongée",
   "fechamento": "c) post-its na parede",
   "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
@@ -44,8 +44,8 @@
    "itens": "manual-ikea-3d",
    "etiqueta": [
     "O MANUAL DA IKEA VIROU ANIMAÇÃO 3D",
-    "+1 MIL ESTRELAS EM 2 SEMANAS",
-    ""
+    "+650 ESTRELAS EM 3 SEMANAS",
+    "É SÓ ESCANEAR O PAPEL"
    ]
   },
   {
@@ -70,7 +70,7 @@
    "sfx": [],
    "item": "bygga",
    "repo": "Nutlope/bygga",
-   "estrelas": 645
+   "estrelas": 658
   },
   {
    "cena": "s4",

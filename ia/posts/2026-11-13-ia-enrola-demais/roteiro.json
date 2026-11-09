@@ -7,8 +7,8 @@
  "tese": "SUA IA ENROLA DEMAIS?",
  "conceito": "Estúdio de rádio AM: microfone de pedestal, placa 'NO AR', cronômetro de cozinha gigante e uma tesoura que corta a fita do discurso. Paleta vermelho-rádio + creme.",
  "elementos": {
-  "etiqueta": "c) letreiro neon piscando",
-  "nome": "d) letreiro split-flap",
+  "etiqueta": "g) placa de rua (trocado: neon repetiria o Animar sem saber)",
+  "nome": "b) carimbo (trocado: split-flap repetiria o Animar sem saber)",
   "contador": "d) pote enchendo de estrelas",
   "legenda": "d) balão de fala do mascote",
   "transicao": "c) íris circular",
@@ -47,7 +47,8 @@
     "SUA IA ENROLA DEMAIS?",
     "ELA NÃO SABE QUANDO PARAR",
     "E COMO DEIXAR DIRETA"
-   ]
+   ],
+   "itens": "ia-enrola-demais"
   },
   {
    "cena": "s1",

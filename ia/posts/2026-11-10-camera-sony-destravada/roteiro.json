@@ -13,7 +13,7 @@
   "transicao": "f) zoom atravessando tela",
   "camera": "d) órbita",
   "fechamento": "f) cartões que viram",
-  "tipografia": "f) Bebas Neue",
+  "tipografia": "b) Archivo Black (trocado: Bebas repetiria o IA enrola demais)",
   "som": "trilha 03 + efeitos arcade",
   "mascote": "acessório e ação do conceito; ação principal: escalar"
  },
@@ -45,7 +45,7 @@
    "etiqueta": [
     "DESTRAVARAM A CÂMERA DA SONY",
     "+1 MIL ESTRELAS EM 3 SEMANAS",
-    ""
+    "E TEM BOTÃO DE VOLTAR"
    ]
   },
   {
@@ -70,7 +70,7 @@
    "sfx": [],
    "item": "a7c2-tools",
    "repo": "QAQLeonard/a7c2-tools",
-   "estrelas": 1136
+   "estrelas": 1159
   },
   {
    "cena": "s4",

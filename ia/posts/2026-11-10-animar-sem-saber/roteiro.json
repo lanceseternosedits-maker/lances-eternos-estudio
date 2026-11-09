@@ -12,7 +12,7 @@
   "legenda": "e) tarja de TV",
   "transicao": "f) zoom atravessando tela",
   "camera": "f) plongée/contra-plongée",
-  "fechamento": "d) tela CONTINUE?",
+  "fechamento": "c) post-its na parede (trocado: CONTINUE? repetiria o IA puxa-saco)",
   "tipografia": "c) Fraunces",
   "som": "trilha 03 + efeitos de cidade",
   "mascote": "acessório e ação do conceito; ação principal: malabarismo"
@@ -39,7 +39,7 @@
    "itens": "animar-sem-saber",
    "etiqueta": [
     "3 SKILLS QUE ANIMAM SEM VOCÊ SABER ANIMAR",
-    "+2 MIL ESTRELAS EM 1 MÊS",
+    "+3,6 MIL ESTRELAS NO GITHUB",
     "E O Nº 1 TIRA A CARA DE IA"
    ],
    "sfx": [
@@ -55,7 +55,7 @@
    "tag": "3º",
    "item": "claude-animation-skills",
    "repo": "artemnovitckii/claude-animation-skills",
-   "estrelas": 451,
+   "estrelas": 529,
    "fala": "Terceiro: seis skills que fazem animação pra Reels sem filmar nada. Esse é prático… comenta ANIMA que eu te mando as três. Mas o primeiro muda tudo.",
    "legenda": "Terceiro: seis skills que fazem animação pra Reels sem filmar nada. Esse é prático… comenta ANIMA que eu te mando as três. Mas o primeiro muda tudo.",
    "sfx": [
@@ -71,9 +71,9 @@
    "tag": "2º",
    "item": "cinecode",
    "repo": "sarpstar/cinecode",
-   "estrelas": 499,
-   "fala": "Segundo: cinecode. Ele escreve o roteiro, monta cada quadro e te entrega o MP4. Esse é prático… comenta ANIMA que eu te mando as três. Mas o primeiro muda tudo.",
-   "legenda": "Segundo: cinecode. Ele escreve o roteiro, monta cada quadro e te entrega o MP4. Esse é prático… comenta ANIMA que eu te mando as três. Mas o primeiro muda tudo.",
+   "estrelas": 1691,
+   "fala": "Segundo: cinecode. Ele escreve o roteiro, monta cada quadro e te entrega o MP4.",
+   "legenda": "Segundo: cinecode. Ele escreve o roteiro, monta cada quadro e te entrega o MP4.",
    "sfx": [
     {
      "t": 0.0,
@@ -87,7 +87,7 @@
    "tag": "1º",
    "item": "motionmaxxing",
    "repo": "Tejashmakwana/motionmaxxing",
-   "estrelas": 1398,
+   "estrelas": 1471,
    "fala": "E o primeiro: motionmaxxing. Pega vídeo com cara de IA e deixa com cara de designer.",
    "legenda": "E o primeiro: motionmaxxing. Pega vídeo com cara de IA e deixa com cara de designer.",
    "sfx": [

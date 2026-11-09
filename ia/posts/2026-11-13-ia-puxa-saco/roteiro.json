@@ -7,7 +7,7 @@
  "tese": "SUA IA CONCORDA DEMAIS COM VOCÊ",
  "conceito": "Camarim de teatro: espelho com lâmpadas em volta, plateia de bonecos aplaudindo tudo, placa de 'APLAUSOS' piscando; no truque, o espelho vira lousa com 3 problemas. Paleta lilás + dourado-camarim.",
  "elementos": {
-  "etiqueta": "b) papel rasgado com fita adesiva",
+  "etiqueta": "f) página de caderno (trocado: papel rasgado repetiria o Música grátis)",
   "nome": "c) máquina de escrever",
   "contador": "d) pote enchendo de estrelas",
   "legenda": "a) bloco de 4 palavras com a atual colorida",
@@ -47,7 +47,8 @@
     "SUA IA CONCORDA DEMAIS COM VOCÊ",
     "A ATUALIZAÇÃO PUXA-SACO",
     "E O PROMPT PRA ELA SER SINCERA"
-   ]
+   ],
+   "itens": "ia-puxa-saco"
   },
   {
    "cena": "s1",
