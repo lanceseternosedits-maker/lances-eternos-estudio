@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "contagem",
  "chave": "EXPLICA",
  "tese": "3 SKILLS QUE FAZEM VÍDEO EXPLICATIVO · +2 MIL ESTRELAS EM 1 MÊS · E O Nº 1 FOI FEITO PRA VIRALIZAR",
@@ -39,7 +39,7 @@
    "itens": "skills-video-explicativo",
    "etiqueta": [
     "3 SKILLS QUE FAZEM VÍDEO EXPLICATIVO",
-    "+2 MIL ESTRELAS EM 1 MÊS",
+    "+2 MIL ESTRELAS NO GITHUB",
     "E O Nº 1 FOI FEITO PRA VIRALIZAR"
    ],
    "sfx": [
@@ -55,7 +55,7 @@
    "tag": "3º",
    "item": "Riso B-roll",
    "repo": "YIAN6557/eian-riso-broll",
-   "estrelas": 361,
+   "estrelas": 366,
    "fala": "Terceiro: animação no estilo gráfica antiga, em duas cores, pra vídeo vertical. Esse é bonito… comenta EXPLICA que eu te mando as três. Mas a primeira é a arma secreta.",
    "legenda": "Terceiro: animação no estilo gráfica antiga, em duas cores, pra vídeo vertical. Esse é bonito… comenta EXPLICA que eu te mando as três. Mas a primeira é a arma secreta.",
    "sfx": [
@@ -71,9 +71,9 @@
    "tag": "2º",
    "item": "Whiteboard Teacher",
    "repo": "liangdabiao/whiteboard-teacher-video",
-   "estrelas": 511,
-   "fala": "Segundo: o desenho vai aparecendo na lousa conforme você fala. Esse é bonito… comenta EXPLICA que eu te mando as três. Mas a primeira é a arma secreta.",
-   "legenda": "Segundo: o desenho vai aparecendo na lousa conforme você fala. Esse é bonito… comenta EXPLICA que eu te mando as três. Mas a primeira é a arma secreta.",
+   "estrelas": 529,
+   "fala": "Segundo: o desenho vai aparecendo na lousa conforme você fala.",
+   "legenda": "Segundo: o desenho vai aparecendo na lousa conforme você fala.",
    "sfx": [
     {
      "t": 0.0,
@@ -87,7 +87,7 @@
    "tag": "1º",
    "item": "Vibe Knowledge Film",
    "repo": "HeyChengC/vibe-knowledge-film",
-   "estrelas": 1107,
+   "estrelas": 1193,
    "fala": "E o primeiro: desmonta um vídeo viral e copia o estilo pro seu tema.",
    "legenda": "E o primeiro: desmonta um vídeo viral e copia o estilo pro seu tema.",
    "sfx": [

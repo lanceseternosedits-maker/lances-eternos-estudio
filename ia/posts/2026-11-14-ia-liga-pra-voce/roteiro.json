@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "chave": "LIGACAO",
  "tese": "A IA LIGA PRO SEU CELULAR QUANDO TERMINA · +295 ESTRELAS EM 2 SEMANAS",
@@ -44,8 +44,8 @@
    "itens": "ia-liga-pra-voce",
    "etiqueta": [
     "A IA LIGA PRO SEU CELULAR QUANDO TERMINA",
-    "+295 ESTRELAS EM 2 SEMANAS",
-    ""
+    "+300 ESTRELAS EM 2 SEMANAS",
+    "E VOCÊ LIGA DE VOLTA"
    ]
   },
   {
@@ -70,7 +70,7 @@
    "sfx": [],
    "item": "agentring",
    "repo": "mutonby/agentring",
-   "estrelas": 295
+   "estrelas": 317
   },
   {
    "cena": "s4",

@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "chave": "COMERCIAL",
  "tese": "A IA FAZ O COMERCIAL DO SEU PRODUTO, COM MÚSICA · +2 MIL ESTRELAS EM 3 SEMANAS",
@@ -44,8 +44,8 @@
    "itens": "comercial-com-trilha",
    "etiqueta": [
     "A IA FAZ O COMERCIAL DO SEU PRODUTO, COM MÚSICA",
-    "+2 MIL ESTRELAS EM 3 SEMANAS",
-    ""
+    "+2,5 MIL ESTRELAS EM 3 SEMANAS",
+    "E COMPÕE A TRILHA"
    ]
   },
   {
@@ -65,12 +65,12 @@
   {
    "cena": "s3",
    "tag": "",
-   "fala": "Duas mil e quatrocentas estrelas. Comenta COMERCIAL que eu te mando.",
-   "legenda": "Duas mil e quatrocentas estrelas. Comenta COMERCIAL que eu te mando.",
+   "fala": "Mais de duas mil e quinhentas estrelas. Comenta COMERCIAL que eu te mando.",
+   "legenda": "Mais de duas mil e quinhentas estrelas. Comenta COMERCIAL que eu te mando.",
    "sfx": [],
    "item": "huashu-motion",
    "repo": "alchaincyf/huashu-motion",
-   "estrelas": 2462
+   "estrelas": 2568
   },
   {
    "cena": "s4",

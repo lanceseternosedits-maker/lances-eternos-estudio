@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "categoria": "novidade",
  "chave": "SITE",
@@ -45,15 +45,16 @@
    ],
    "etiqueta": [
     "SITE SEM CARA DE IA",
-    "50 MIL ESTRELAS · +6,9 MIL NA SEMANA",
+    "+51 MIL ESTRELAS NO GITHUB",
     "E ELA SE AUTOCORRIGE"
-   ]
+   ],
+   "itens": "site-sem-cara-de-ia"
   },
   {
    "cena": "s1",
    "tag": "",
-   "fala": "Chama Hallmark: 50 mil estrelas no GitHub, quase sete mil só nessa semana.",
-   "legenda": "Chama Hallmark: 50 mil estrelas no GitHub, quase sete mil só nessa semana.",
+   "fala": "Chama Hallmark: mais de cinquenta mil estrelas no GitHub.",
+   "legenda": "Chama Hallmark: mais de cinquenta mil estrelas no GitHub.",
    "sfx": [
     {
      "t": 0.0,

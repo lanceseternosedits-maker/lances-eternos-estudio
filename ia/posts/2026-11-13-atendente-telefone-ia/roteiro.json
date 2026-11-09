@@ -1,21 +1,21 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "chave": "LIGA",
  "tese": "CRIE UM ATENDENTE DE TELEFONE COM IA · +462 ESTRELAS EM 3 SEMANAS",
  "conceito": "Central telefônica antiga com cabos de plugar, telefones de disco coloridos, luzinhas piscando; paleta vermelho-telefone + creme + verde-oliva. Mascote de headset de telefonista plugando cabos. Nº 1: um telefone toca e responde sozinho com balão.",
  "elementos": {
-  "etiqueta": "f) página de caderno",
+  "etiqueta": "b) papel rasgado (trocado: caderno repetiria o Sam Altman)",
   "nome": "f) escrito à mão",
   "contador": "f) termômetro",
   "legenda": "e) tarja de TV",
   "transicao": "f) zoom atravessando tela",
   "camera": "d) órbita",
   "fechamento": "f) cartões que viram",
-  "tipografia": "f) Bebas Neue",
+  "tipografia": "b) Archivo Black (trocado: Bebas repetiria o Sam Altman)",
   "som": "trilha 03 + efeitos arcade",
-  "mascote": "acessório e ação do conceito; ação principal: correr"
+  "mascote": "avental e touca de padeiro; ação principal: correr"
  },
  "brinde": "link + roteiro de atendimento pronto para pizzaria/salão",
  "fontes": [
@@ -44,8 +44,8 @@
    "itens": "atendente-telefone-ia",
    "etiqueta": [
     "CRIE UM ATENDENTE DE TELEFONE COM IA",
-    "+462 ESTRELAS EM 3 SEMANAS",
-    ""
+    "+450 ESTRELAS EM 3 SEMANAS",
+    "E TESTA COM OUTRA IA"
    ]
   },
   {
@@ -70,7 +70,7 @@
    "sfx": [],
    "item": "Lampline",
    "repo": "C4rohan/Lampline",
-   "estrelas": 462
+   "estrelas": 456
   },
   {
    "cena": "s4",
