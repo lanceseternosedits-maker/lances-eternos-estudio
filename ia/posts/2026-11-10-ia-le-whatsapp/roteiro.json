@@ -6,7 +6,7 @@
  "tese": "A IA ACHA AQUELA MENSAGEM NO SEU WHATSAPP · +409 ESTRELAS EM 3 SEMANAS",
  "conceito": "Agência de correio antiga: escaninhos de madeira cheios de envelopes verdes, carimbos, uma lupa enorme; paleta verde-WhatsApp-genérico (verde-garrafa) + creme + marrom. Mascote de quepe de carteiro e lupa procurando um envelope. Sem logo do WhatsApp.",
  "elementos": {
-  "etiqueta": "d) faixa diagonal de aviso",
+  "etiqueta": "b) papel rasgado com fita (trocado: faixa de aviso repetiria o Carro por 1 dólar)",
   "nome": "d) split-flap",
   "contador": "c) velocímetro",
   "legenda": "e) tarja de TV",
@@ -15,13 +15,13 @@
   "fechamento": "d) tela CONTINUE?",
   "tipografia": "c) Fraunces",
   "som": "trilha 03 + efeitos arcade",
-  "mascote": "acessório e ação do conceito; ação principal: regar"
+  "mascote": "quepe de carteiro e lupa; ação principal: procurar o envelope certo"
  },
  "brinde": "link + passo a passo + aviso de privacidade",
  "fontes": [
   "https://github.com/finereli/whatsapp-mcp"
  ],
- "prova_viral": "Estrelas no GitHub (API. 07/11/2026): finereli/whatsapp-mcp 409, criado em 18/10.",
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): finereli/whatsapp-mcp 409, criado em 18/10. Relido em 09/11: 411 estrelas.",
  "obs": "Projeto não oficial e só leitura. Dizer claramente que as mensagens passam pelo serviço deles ou pela sua cópia no Cloudflare.",
  "polemica": false,
  "agenda": "2026-11-12 06:00",
@@ -44,8 +44,8 @@
    "itens": "ia-le-whatsapp",
    "etiqueta": [
     "A IA ACHA AQUELA MENSAGEM NO SEU WHATSAPP",
-    "+409 ESTRELAS EM 3 SEMANAS",
-    ""
+    "+400 ESTRELAS EM 3 SEMANAS",
+    "SÓ LEITURA: NÃO MANDA NEM APAGA"
    ]
   },
   {
@@ -70,7 +70,7 @@
    "sfx": [],
    "item": "whatsapp-mcp",
    "repo": "finereli/whatsapp-mcp",
-   "estrelas": 409
+   "estrelas": 411
   },
   {
    "cena": "s4",

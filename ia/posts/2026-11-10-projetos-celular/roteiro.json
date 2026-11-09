@@ -25,7 +25,7 @@
   "https://github.com/zhongerxin/iPhone-use",
   "https://github.com/rddmwmddr/android-ad-cleaner"
  ],
- "prova_viral": "Estrelas no GitHub (API, 07/11/2026): MeshLive 342, Droidline 488, AVault 599, iPhone-use 4.932, Android Ad Cleaner 6.794; total 13.155; criados entre 06/10 e 31/10.",
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): MeshLive 342, Droidline 488, AVault 599, iPhone-use 4.932, Android Ad Cleaner 6.794; total 13.155; criados entre 06/10 e 31/10. Relido em 09/11 (API do GitHub): 13.577 estrelas nos 5. Fala do Droidline sem \"sem cabo e sem root\" (a descrição não confirma).",
  "obs": "Ad Cleaner mira sistemas Android de marcas chinesas (Xiaomi etc., comuns no Brasil): README em chinês, conferir modelos. Gravação de ligação: Lei 9.296/96 e jurisprudência — participante pode gravar; não estimular divulgação.",
  "polemica": false,
  "agenda": "2026-11-12 10:00",
@@ -73,9 +73,9 @@
    "tag": "4º",
    "item": "Droidline",
    "repo": "KnifeLemon/Droidline",
-   "estrelas": 488,
-   "fala": "Quarto: Droidline. Automatiza tarefas repetidas no Android, sem cabo e sem root.",
-   "legenda": "Quarto: Droidline. Automatiza tarefas repetidas no Android, sem cabo e sem root.",
+   "estrelas": 498,
+   "fala": "Quarto: Droidline. Automatiza as tarefas que você repete no Android.",
+   "legenda": "Quarto: Droidline. Automatiza as tarefas que você repete no Android.",
    "sfx": [
     {
      "t": 0.0,
@@ -89,7 +89,7 @@
    "tag": "3º",
    "item": "AVault",
    "repo": "arpanjot-coding/AVault",
-   "estrelas": 599,
+   "estrelas": 619,
    "fala": "Terceiro: AVault. Grava suas ligações num cofre criptografado. Esse é esperto… comenta CELULAR que eu te mando os cinco. Mas o próximo salva.",
    "legenda": "Terceiro: AVault. Grava suas ligações num cofre criptografado. Esse é esperto… comenta CELULAR que eu te mando os cinco. Mas o próximo salva.",
    "sfx": [
@@ -105,7 +105,7 @@
    "tag": "2º",
    "item": "iPhone-use",
    "repo": "zhongerxin/iPhone-use",
-   "estrelas": 4932,
+   "estrelas": 4951,
    "fala": "Segundo: iPhone-use. Uma IA mexe no seu iPhone de verdade pelo cabo.",
    "legenda": "Segundo: iPhone-use. Uma IA mexe no seu iPhone de verdade pelo cabo.",
    "sfx": [
@@ -121,7 +121,7 @@
    "tag": "1º",
    "item": "Android Ad Cleaner",
    "repo": "rddmwmddr/android-ad-cleaner",
-   "estrelas": 6794,
+   "estrelas": 7167,
    "fala": "E o primeiro: tira a propaganda do sistema de celular chinês. Sem root.",
    "legenda": "E o primeiro: tira a propaganda do sistema de celular chinês. Sem root.",
    "sfx": [
