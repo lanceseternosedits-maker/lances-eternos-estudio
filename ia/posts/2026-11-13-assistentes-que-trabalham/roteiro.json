@@ -1,12 +1,12 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "contagem",
  "chave": "AGENTE",
  "tese": "3 ASSISTENTES DE IA QUE TRABALHAM SOZINHOS · +7 MIL ESTRELAS EM 1 MÊS · E O Nº 1 SÓ TE CHAMA QUANDO PRECISA",
  "conceito": "Escritório de madrugada vazio onde só robôzinhos de blocos trabalham: cadeiras girando, luminárias, café esfriando; paleta azul-madrugada + amarelo-luminária + cinza. Gancho: o mascote dorme na mesa enquanto as tarefas se riscam sozinhas. Nº 1: um cartão sobe 'preciso de você' e o mascote acorda.",
  "elementos": {
-  "etiqueta": "d) faixa diagonal de aviso",
+  "etiqueta": "g) placa de rua (trocado: faixa repetiria o Nobel)",
   "nome": "b) carimbo",
   "contador": "e) placar HI-SCORE",
   "legenda": "e) tarja de TV",
@@ -55,7 +55,7 @@
    "tag": "3º",
    "item": "Talorys",
    "repo": "rociiu/talorys",
-   "estrelas": 1447,
+   "estrelas": 1458,
    "fala": "Terceiro: Talorys. Seu assistente com memória e lembretes, na sua conta, de graça. Esse é prático… comenta AGENTE que eu te mando os três. Mas o primeiro é o sonho.",
    "legenda": "Terceiro: Talorys. Seu assistente com memória e lembretes, na sua conta, de graça. Esse é prático… comenta AGENTE que eu te mando os três. Mas o primeiro é o sonho.",
    "sfx": [
@@ -71,9 +71,9 @@
    "tag": "2º",
    "item": "OpenDuet",
    "repo": "CopilotKit/OpenDuet",
-   "estrelas": 1977,
-   "fala": "Segundo: OpenDuet. Um agente que adianta o seu trabalho e te mantém por dentro. Esse é prático… comenta AGENTE que eu te mando os três. Mas o primeiro é o sonho.",
-   "legenda": "Segundo: OpenDuet. Um agente que adianta o seu trabalho e te mantém por dentro. Esse é prático… comenta AGENTE que eu te mando os três. Mas o primeiro é o sonho.",
+   "estrelas": 2009,
+   "fala": "Segundo: OpenDuet. Um agente que adianta o seu trabalho e te mantém por dentro.",
+   "legenda": "Segundo: OpenDuet. Um agente que adianta o seu trabalho e te mantém por dentro.",
    "sfx": [
     {
      "t": 0.0,
@@ -87,7 +87,7 @@
    "tag": "1º",
    "item": "agent-autoloop",
    "repo": "KKKKhazix/agent-autoloop",
-   "estrelas": 3773,
+   "estrelas": 4270,
    "fala": "E o primeiro: ele trabalha no fundo e só te chama quando tem dúvida.",
    "legenda": "E o primeiro: ele trabalha no fundo e só te chama quando tem dúvida.",
    "sfx": [

@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "chave": "TUDO",
  "tese": "ESTÃO REFAZENDO TODO PROGRAMA DO MUNDO · +7 MIL ESTRELAS EM 1 MÊS",
@@ -8,7 +8,7 @@
  "elementos": {
   "etiqueta": "f) página de caderno",
   "nome": "b) carimbo",
-  "contador": "e) placar HI-SCORE",
+  "contador": "c) velocímetro (trocado: HI-SCORE repetiria a IA não sabe o dia)",
   "legenda": "e) tarja de TV",
   "transicao": "f) zoom atravessando tela",
   "camera": "d) órbita",
@@ -45,7 +45,7 @@
    "etiqueta": [
     "ESTÃO REFAZENDO TODO PROGRAMA DO MUNDO",
     "+7 MIL ESTRELAS EM 1 MÊS",
-    ""
+    "E DAR TUDO DE GRAÇA"
    ]
   },
   {
@@ -65,12 +65,12 @@
   {
    "cena": "s3",
    "tag": "",
-   "fala": "Sete mil e quinhentas estrelas em três semanas. Comenta TUDO que eu te mando.",
-   "legenda": "Sete mil e quinhentas estrelas em três semanas. Comenta TUDO que eu te mando.",
+   "fala": "Quase oito mil estrelas em menos de um mês. Comenta TUDO que eu te mando.",
+   "legenda": "Quase oito mil estrelas em menos de um mês. Comenta TUDO que eu te mando.",
    "sfx": [],
    "item": "everything",
    "repo": "HeyPuter/everything",
-   "estrelas": 7498
+   "estrelas": 7808
   },
   {
    "cena": "s4",

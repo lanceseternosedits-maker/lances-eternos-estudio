@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "categoria": "historia",
  "chave": "NOBEL",
@@ -10,8 +10,8 @@
   "etiqueta": "d) faixa diagonal de aviso",
   "nome": "e) letras caindo e encaixando",
   "contador": "(sem contador: história)",
-  "legenda": "a) bloco de 4 palavras com a atual colorida",
-  "transicao": "a) flash branco",
+  "legenda": "c) karaokê com marca-texto (trocado: a opção (a) está gasta)",
+  "transicao": "b) chicote de câmera (trocado: a opção (a) está gasta)",
   "camera": "c) travelling lateral",
   "fechamento": "f) cartões que viram",
   "tipografia": "c) Fraunces",
@@ -48,7 +48,8 @@
     "A IA QUE GANHOU UM NOBEL",
     "ALPHAFOLD, NOBEL DE QUÍMICA 2024",
     "200 MILHÕES DE PROTEÍNAS"
-   ]
+   ],
+   "itens": "ia-ganhou-o-nobel"
   },
   {
    "cena": "s1",

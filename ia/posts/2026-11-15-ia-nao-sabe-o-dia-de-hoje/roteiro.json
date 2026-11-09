@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "categoria": "como_funciona",
  "chave": "LINK",
@@ -12,9 +12,9 @@
   "contador": "e) placar 8-bit HI-SCORE",
   "legenda": "c) karaokê com marca-texto deslizando",
   "transicao": "d) virada de página",
-  "camera": "f) plongée/contra-plongée",
+  "camera": "e) câmera na mão (trocado: plongée repetiria o IA edita foto)",
   "fechamento": "d) tela CONTINUE? com contagem",
-  "tipografia": "a) Space Grotesk",
+  "tipografia": "c) Fraunces (trocado: Space Grotesk é a opção gasta)",
   "som": "trilha 01 + sino de bicicleta",
   "mascote": "boné de jornaleiro; ação principal: entregar o jornal do dia"
  },
@@ -47,7 +47,8 @@
     "SUA IA PAROU NO TEMPO",
     "A DATA DE CORTE",
     "E O TRUQUE PRA ELA SABER DO NOVO"
-   ]
+   ],
+   "itens": "ia-nao-sabe-o-dia-de-hoje"
   },
   {
    "cena": "s1",

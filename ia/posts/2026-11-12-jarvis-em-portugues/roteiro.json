@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "chave": "JARVIS",
  "tese": "UM JARVIS EM PORTUGUÊS NO SEU PC · +1 MIL ESTRELAS EM 1 MÊS",
@@ -44,8 +44,8 @@
    "itens": "jarvis-em-portugues",
    "etiqueta": [
     "UM JARVIS EM PORTUGUÊS NO SEU PC",
-    "+1 MIL ESTRELAS EM 1 MÊS",
-    ""
+    "+500 ESTRELAS EM 1 MÊS",
+    "E O CÓDIGO É ABERTO"
    ]
   },
   {
@@ -70,7 +70,7 @@
    "sfx": [],
    "item": "jarvis-opensource",
    "repo": "jgm-source/jarvis-opensource",
-   "estrelas": 554
+   "estrelas": 579
   },
   {
    "cena": "s4",

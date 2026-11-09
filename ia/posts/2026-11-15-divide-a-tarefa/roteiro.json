@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "categoria": "como_funciona",
  "chave": "PARTES",
@@ -12,8 +12,8 @@
   "contador": "f) termômetro",
   "legenda": "b) uma palavra gigante por vez com pop",
   "transicao": "e) glitch RGB",
-  "camera": "a) 2 planos frontais",
-  "fechamento": "a) lista + pílulas COMENTA",
+  "camera": "c) travelling lateral (trocado: a opção (a) está gasta)",
+  "fechamento": "e) página de caderno (trocado: a opção (a) está gasta)",
   "tipografia": "b) Archivo Black",
   "som": "trilha 01 + batedeira + forno",
   "mascote": "chapéu de confeiteiro; ação principal: montar o bolo andar por andar"
@@ -47,7 +47,8 @@
     "PEDIU TUDO DE UMA VEZ? ERROU",
     "UMA TAREFA POR VEZ",
     "O TRUQUE DOS MANUAIS"
-   ]
+   ],
+   "itens": "divide-a-tarefa"
   },
   {
    "cena": "s1",

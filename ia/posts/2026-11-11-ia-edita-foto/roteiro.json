@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "contagem",
  "chave": "FOTO",
  "tese": "3 IAS GRÁTIS PRA FOTO QUE RODAM NO SEU PC · +2 MIL ESTRELAS EM 1 MÊS · E O Nº 1 TRANSFORMA FOTO EM 3D",
@@ -39,7 +39,7 @@
    "itens": "ia-edita-foto",
    "etiqueta": [
     "3 IAS GRÁTIS PRA FOTO QUE RODAM NO SEU PC",
-    "+2 MIL ESTRELAS EM 1 MÊS",
+    "+1,7 MIL ESTRELAS EM 1 MÊS",
     "E O Nº 1 TRANSFORMA FOTO EM 3D"
    ],
    "sfx": [
@@ -55,7 +55,7 @@
    "tag": "3º",
    "item": "kokon",
    "repo": "GabrieleLozupone/kokon",
-   "estrelas": 309,
+   "estrelas": 325,
    "fala": "Terceiro: kokon. Você descreve a mudança e ele edita, sem limite diário. Esse é ótimo… comenta FOTO que eu te mando os três. Mas o primeiro é bruxaria.",
    "legenda": "Terceiro: kokon. Você descreve a mudança e ele edita, sem limite diário. Esse é ótimo… comenta FOTO que eu te mando os três. Mas o primeiro é bruxaria.",
    "sfx": [
@@ -71,9 +71,9 @@
    "tag": "2º",
    "item": "Shisei",
    "repo": "wquguru/shisei",
-   "estrelas": 455,
-   "fala": "Segundo: Shisei. Mais de duzentas e cinquenta poses prontas pra guiar a sua IA de imagem. Esse é ótimo… comenta FOTO que eu te mando os três. Mas o primeiro é bruxaria.",
-   "legenda": "Segundo: Shisei. Mais de duzentas e cinquenta poses prontas pra guiar a sua IA de imagem. Esse é ótimo… comenta FOTO que eu te mando os três. Mas o primeiro é bruxaria.",
+   "estrelas": 477,
+   "fala": "Segundo: Shisei. Mais de duzentas e cinquenta poses prontas pra guiar a sua IA de imagem.",
+   "legenda": "Segundo: Shisei. Mais de duzentas e cinquenta poses prontas pra guiar a sua IA de imagem.",
    "sfx": [
     {
      "t": 0.0,
@@ -87,7 +87,7 @@
    "tag": "1º",
    "item": "Idol",
    "repo": "speridlabs/idol-sdk",
-   "estrelas": 871,
+   "estrelas": 947,
    "fala": "E o primeiro: Idol. Uma única foto vira um objeto em 3D.",
    "legenda": "E o primeiro: Idol. Uma única foto vira um objeto em 3D.",
    "sfx": [

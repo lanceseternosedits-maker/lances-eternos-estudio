@@ -1,6 +1,6 @@
 {
  "voz": "Puck",
- "estilo": "narrador de Reels brasileiro, energético mas claro, ritmo natural (máx. 3,0 palavras/s)",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
  "formato": "palco",
  "categoria": "historia",
  "chave": "DEMITIDO",
@@ -8,12 +8,12 @@
  "conceito": "Sala de conselho com mesa de vidro e cadeiras de couro, porta giratória de prédio corporativo; uma pilha de cartas assinadas crescendo até o teto; calendário arrancando folhas de 17 a 22. Paleta cinza-grafite + verde-água.",
  "elementos": {
   "etiqueta": "f) página de caderno",
-  "nome": "a) texto embaralhado decifrando",
+  "nome": "d) split-flap (trocado: a opção (a) está gasta)",
   "contador": "(sem contador: história)",
   "legenda": "c) karaokê com marca-texto deslizando",
   "transicao": "c) íris circular",
   "camera": "e) câmera na mão",
-  "fechamento": "b) pódio",
+  "fechamento": "c) post-its na parede (trocado: pódio repetiria os Assistentes)",
   "tipografia": "f) Bebas Neue",
   "som": "trilha 02 + porta giratória",
   "mascote": "terno e gravata frouxa; ação principal: sair e voltar pela porta giratória"
@@ -48,7 +48,8 @@
     "DEMITIRAM O CHEFE DO CHATGPT",
     "OPENAI, NOVEMBRO DE 2023",
     "E ELE VOLTOU EM 5 DIAS"
-   ]
+   ],
+   "itens": "sam-altman-demitido"
   },
   {
    "cena": "s1",
