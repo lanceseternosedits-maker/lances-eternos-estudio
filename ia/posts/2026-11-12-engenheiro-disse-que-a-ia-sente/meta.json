@@ -18,5 +18,79 @@
   "instagram": "2026-11-12 21:30",
   "tiktok": "2026-11-12 21:30"
  },
- "status": "roteiro aprovado"
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-09 22:53",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "32.1 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.90 palavras/s (93 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.4 LUFS, pico -1.5 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "817 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "SENTE",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "status_em": "2026-11-09 19:53",
+ "elementos": {
+  "etiqueta": "c) letreiro neon de cinema (trocado: placa repetiria o Apple não queria)",
+  "nome": "b) carimbo batendo",
+  "contador": "(sem contador: história)",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "b) chicote de câmera (whip pan)",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 03 + projetor de cinema",
+  "mascote": "crachá de funcionário; ação principal: assistir à tela abraçado aos joelhos"
+ },
+ "obs_producao": "Produzido em 09/11 no motor da cena_contagem, módulo itens/engenheiro-disse-que-a-ia-sente.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
 }
