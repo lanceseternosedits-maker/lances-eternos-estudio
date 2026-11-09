@@ -33,6 +33,14 @@ Todo roteiro e `meta.json` levam `"categoria"`: `"novidade"`, `"historia"` ou `"
 5. **Propósito**: o vídeo resolve uma dor clara, e o brinde entrega a solução.
 O resumo do roteiro para o Vitor mostra os 5 itens marcados.
 
+### Título com gancho (Vitor, 09/11, depois de reprovar "Acabou a letra torta da IA" e "Tão fazendo o post da loja com 1 frase")
+Padrão dos títulos que bombaram no _aighostlab ("Acabou com o After Effects", "Tão hackeando a própria TV pra tirar todas as propagandas", "Um canal dark sem mostrar o rosto"):
+- **Inimigo grande que todo mundo conhece** (programa caro, propaganda, algoritmo, a própria marca famosa), nunca uma dor pequena de quem já usa IA ("letra torta").
+- **Transgressão ou paradoxo:** algo que parecia proibido ou impossível ("hackeando a própria TV", "você não precisa mais saber usar o Canva").
+- **Palavras do dia a dia.** Marca famosa só entra quando é o alvo; nome de ferramenta nova nunca abre o título.
+- **Promessa batida não é gancho:** "com 1 frase", "em segundos", "pronto" sozinhos são descrição.
+Como escolher: escreva 6 títulos em 3 arquétipos (paradoxo/contrário, mata-inimigo, segredo/"aba escondida"), com a skill `skills/viral-hooks` (`references/hook-archetypes.md` e `hook-anti-patterns.md`), e descarte os que só descrevem a ferramenta. Aprovado pelo Vitor: **"Você não precisa mais saber usar o Canva."**
+
 ## Resultados que guiam a produção (atualizar a cada leitura; números em `metricas.json`)
 - **05/11, 1ª leitura (5 skills, formato 3, ~1 h no ar):** 767 views (2× o melhor vídeo anterior, 356; o carrossel mais recente fez 42), 21 curtidas (2,7%), **19 salvamentos (2,5%)**, **9 envios (1,2%)**, só **2 comentários (0,3%)**, 1 repost.
 - **06/11:** 5 skills chegou a **2.697 views** (5× o 2º lugar); Nintendo 174 em ~1 h (2 curtidas, 1 salvamento), prejudicado por fala rápida e texto fora da área segura; carrosséis 11–27 views → **parar carrosséis**.
