@@ -58,7 +58,7 @@ const BS = { gancho: [V(.2, 4.2, 7.0), V(0, 1.2, -1.0)], n5: [V(-.4, 1.0, 6.4), 
 const SHOTS = {}; Object.keys(BS).forEach(n => { const s = [BS[n][0], BS[n][1]]; SHOTS[n] = [s, s]; });
 const camera = (cam, nome, lt, d) => { const [p, l] = BS[nome] || BS.cta, u = eio(Math.min(1, lt / d)); cam.position.set(p.x, p.y + (p.y > 2 ? -.4 : .25) * u, p.z - u * .5); cam.lookAt(l.x, l.y, l.z); };
 const item = (n, lt) => { reset(lt); pulaMuro(AP[n], lin(lt, .15, 1.05) * 1.3); FL = fotografa(lt, 1.15); };
-const ACT = { gancho(lt) { reset(lt); olha(lt); }, cta(lt) { reset(lt); NS.forEach((n, i) => noMuro(AP[n], i)); feliz(lt); } };
+const ACT = { gancho(lt) { reset(lt); olha(lt); }, cta(lt) { reset(lt); NS.forEach((n, i) => noMuro(AP[n], i)); FLASH.intensity = 0; pose(MAS, { x: 1.7, z: 1.3, y: hop(lt, .35, .22), ry: -.4, braco: [2.0 + Math.sin(lt * 9) * .3, 2.0 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; } };
 NS.forEach(n => ACT[n] = lt => item(n, lt));
 // ---------- 2D: entre y=260 e y=1500, a 130 px da direita ----------
 const ui = C => { const { X, GH, SEGR, CHAVE, ITENS, MAXE } = C; const GY3 = 620; let CAB = null;
@@ -92,13 +92,13 @@ const ui = C => { const { X, GH, SEGR, CHAVE, ITENS, MAXE } = C; const GY3 = 620
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .34) return; const u = eio(lt / .34), w = 240 + u * 2300, h = w * .62;
       X.save(); X.fillStyle = "#1d1f24"; X.beginPath(); X.rect(0, 0, 1080, 1920); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 20 * (1 - u) + 4); X.fill("evenodd"); X.restore(); },
     fechamento(lt) { // página de caderno com os 5, riscando ✓
-      X.save(); X.translate(505, 960); X.rotate(-.015); X.shadowColor = "rgba(0,0,0,.25)"; X.shadowBlur = 24; X.fillStyle = "#fffdf6"; X.fillRect(-430, -300, 860, 560); X.shadowColor = "transparent";
+      X.save(); X.translate(420, 900); X.scale(.78, .78); X.rotate(-.015); X.shadowColor = "rgba(0,0,0,.25)"; X.shadowBlur = 24; X.fillStyle = "#fffdf6"; X.fillRect(-430, -300, 860, 560); X.shadowColor = "transparent";
       X.strokeStyle = "rgba(58,123,213,.3)"; X.lineWidth = 2; for (let y = -220; y < 260; y += 80) { X.beginPath(); X.moveTo(-430, y + 40); X.lineTo(430, y + 40); X.stroke(); } X.strokeStyle = "rgba(232,50,60,.5)"; X.beginPath(); X.moveTo(-350, -300); X.lineTo(-350, 260); X.stroke();
       X.fillStyle = TINTA; X.font = "400 46px AB"; X.textAlign = "left"; X.textBaseline = "alphabetic"; X.fillText("PULARAM O MURO:", -320, -240);
       ITENS.slice().reverse().forEach((s, i) => { const k = lin(lt, .15 + i * .14, .4 + i * .14); if (k <= 0) return; X.globalAlpha = k; const y = -165 + i * 80; X.fillStyle = CORAL2; X.font = "400 40px AB"; X.fillText((i + 1) + ".", -320, y); X.fillStyle = TINTA; X.font = `400 ${cabe(40, s.item, 420)}px AB`; X.fillText(s.item, -270, y); X.fillStyle = "#7a8596"; X.font = "400 32px AB"; X.textAlign = "right"; X.fillText(fmtP(s.estrelas) + " ★", 400, y); X.textAlign = "left";
         X.strokeStyle = PLACA; X.lineWidth = 7; X.lineCap = "round"; const c = eo(lin(lt, .3 + i * .14, .5 + i * .14)); if (c > 0) { X.beginPath(); X.moveTo(-395, y - 18); X.lineTo(-395 + 14 * Math.min(1, c * 2), y - 18 + 14 * Math.min(1, c * 2)); if (c > .5) X.lineTo(-381 + 26 * (c - .5) * 2, y - 4 - 34 * (c - .5) * 2); X.stroke(); } X.globalAlpha = 1; });
       X.restore();
-      const p = back(lin(lt, .9, 1.3)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(505, 1300); X.scale(p, p); X.fillStyle = CORAL; X.beginPath(); X.roundRect(-300, -60, 600, 120, 60); X.fill(); X.fillStyle = "#fff"; X.font = "400 70px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("COMENTA " + CHAVE, 0, 4); X.restore();
+      const p = back(lin(lt, .9, 1.3)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(420, 1290); X.scale(p, p); X.fillStyle = CORAL; X.beginPath(); X.roundRect(-300, -60, 600, 120, 60); X.fill(); X.fillStyle = "#fff"; X.font = "400 70px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("COMENTA " + CHAVE, 0, 4); X.restore();
       if (lt > 1.3) { X.globalAlpha = eo(lin(lt, 1.3, 1.7)); X.fillStyle = "#7a8596"; X.font = "400 30px AB"; X.textAlign = "center"; X.fillText("PROJETOS EXPERIMENTAIS · USE POR SUA CONTA", 505, 1400); X.globalAlpha = 1; } },
   }; return U; };
 const cores = { LAR: CORAL, VERDE: PLACA, FUNDO, CREME, TINTA, BRILHO: "rgba(0,0,0,0)" };

@@ -56,7 +56,7 @@ const ACT = {
   s2(lt, d) { reset(lt); telaK = 2 + lin(lt, .3, d * .7) * 2.01; desTela(); lt < d * .7 ? assiste(lt, -.5) : pensa(lt); },
   s3(lt, d) { reset(lt); telaK = 4; telaFase = lt > .9 ? 2 : 0; desTela(); lt > .9 && lt < 2.4 ? susto(lt) : assiste(lt, -.3); },
   s4(lt, d) { reset(lt); telaK = 4; desTela(); pensa(lt); },
-  cta(lt, d) { reset(lt); telaK = 4; desTela(); assiste(lt, -.2); },
+  cta(lt, d) { reset(lt); telaK = 4; desTela(); pose(MAS, { x: 1.35, z: 1.5, y: Math.sin(lt * 1.2) * .01, ry: -.35, sq: .06, braco: [-.35, -.35], piscar: pisca(lt) }); MAS.g.rotation.z = 0; },
 };
 // ---------- 2D: entre y=260 e y=1500, a 130 px da direita ----------
 const ui = C => { const { X, GH, SEGR, CHAVE } = C; const GY3 = 600;
@@ -89,12 +89,12 @@ const ui = C => { const { X, GH, SEGR, CHAVE } = C; const GY3 = 600;
       if (nome === "gancho" || lt > .3) return; const k = 1 - lt / .3; X.save(); X.globalAlpha = .55 * k;
       for (let i = 0; i < 26; i++) { const y = 560 + ((i * 137) % 880), w = 300 + (i * 97) % 500, x = ((i * 211 + lt * 6000) % 1500) - 300; X.fillStyle = i % 3 ? "rgba(216,248,255,.5)" : "rgba(255,95,162,.8)"; X.fillRect(x, y, w, 6 + (i % 4) * 5); } X.restore(); X.globalAlpha = 1; },
     fechamento(lt) { // post-its na parede: 2022 · LaMDA · DEMITIDO
-      X.fillStyle = "rgba(14,21,40,.8)"; X.fillRect(0, 640, 1080, 860);
+      X.fillStyle = "rgba(14,21,40,.45)"; X.fillRect(0, 640, 1080, 860);
       [["2022", "Google", "#ffe27a", -.06], ["LaMDA", "a IA", "#9ff0ff", .05], ["DEMITIDO", "o engenheiro", "#ffb3d1", -.03]].forEach(([a, b, c, r], i) => { const k = back(lin(lt, .1 + i * .2, .45 + i * .2)); if (k <= 0) return; const x = 215 + i * 290, y = 860 + (i % 2) * 30;
         X.save(); X.translate(x, y); X.rotate(r); X.scale(k, k); X.shadowColor = "rgba(0,0,0,.4)"; X.shadowBlur = 16; X.fillStyle = c; X.fillRect(-125, -125, 250, 250); X.shadowBlur = 0; X.fillStyle = "rgba(255,255,255,.55)"; X.fillRect(-50, -140, 100, 32);
         X.fillStyle = TINTA; X.textAlign = "center"; X.textBaseline = "middle"; X.font = `700 ${cabe(80, a, 220)}px CV`; X.fillText(a, 0, -14); X.font = "700 42px CV"; X.fillStyle = "#3a4560"; X.fillText(b, 0, 60); X.restore(); });
-      const p = back(lin(lt, .8, 1.2)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(505, 1150); X.scale(p, p); X.fillStyle = ROSA; X.beginPath(); X.roundRect(-300, -66, 600, 132, 66); X.fill(); X.fillStyle = "#fff"; X.font = "700 88px CV"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("Comenta " + CHAVE, 0, 6); X.restore();
-      if (lt > 1.2) { X.globalAlpha = eo(lin(lt, 1.2, 1.6)); X.fillStyle = PAPEL; X.font = "700 56px CV"; X.textAlign = "center"; X.fillText("Salva pra contar pra alguém", 505, 1300); X.globalAlpha = 1; } },
+      const p = back(lin(lt, .8, 1.2)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(400, 1150); X.scale(p, p); X.fillStyle = ROSA; X.beginPath(); X.roundRect(-300, -66, 600, 132, 66); X.fill(); X.fillStyle = "#fff"; X.font = "700 88px CV"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("Comenta " + CHAVE, 0, 6); X.restore();
+      if (lt > 1.2) { X.globalAlpha = eo(lin(lt, 1.2, 1.6)); X.fillStyle = PAPEL; X.font = "700 56px CV"; X.textAlign = "center"; X.fillText("Salva pra contar pra alguém", 400, 1300); X.globalAlpha = 1; } },
   }; };
 const cores = { LAR: ROSA, VERDE: CIANO, FUNDO, CREME: PAPEL, TINTA, BRILHO: "rgba(0,0,0,0)" };
 return { SHOTS, ACT, cores, semPalco: true, ui, camera };

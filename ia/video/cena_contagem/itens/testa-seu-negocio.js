@@ -52,7 +52,7 @@ const ACT = {
   s2(lt, d) { reset(lt); plateia(eio(lin(lt, .2, d * .7)), lt); virado(lt, -.6); },
   s3(lt, d) { reset(lt); tags.forEach(t => t.visible = true); POTE = ESTR * eio(lin(lt, .3, 2.2)); feliz(lt); },
   s4(lt) { reset(lt); tags.forEach(t => t.visible = true); vid.material.emissiveIntensity = .4 + Math.max(0, Math.sin(lt * 9)) * 1.5; virado(lt, -.2); },
-  cta(lt) { reset(lt); tags.forEach(t => t.visible = true); feliz(lt); },
+  cta(lt) { reset(lt); tags.forEach(t => t.visible = true); pose(MAS, { x: -1.3, z: 1.0, y: hop(lt, .35, .22), ry: .2, braco: [2.0 + Math.sin(lt * 9) * .3, 2.0 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; },
 };
 // ---------- 2D: entre y=260 e y=1500, a 130 px da direita ----------
 const ui = C => { const { X, GH, SEGR, CHAVE, blocos, decifra } = C; const GY3 = 600;
@@ -79,12 +79,12 @@ const ui = C => { const { X, GH, SEGR, CHAVE, blocos, decifra } = C; const GY3 =
       let x = 505 - tot() / 2; X.font = `700 ${fs}px SG`; X.textAlign = "left"; for (const w of c) { const on = t >= w.t0 - .02, at = on && t < w.t1 + .2; X.fillStyle = at ? OURO : on ? "#fff" : "rgba(255,255,255,.45)"; X.fillText(w.w, x, y + 4); x += X.measureText(w.w + " ").width; } },
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .34) return; const u = eio(lt / .34), w = 220 + u * 2300, h = w * .62;
       X.save(); X.fillStyle = "#0b1636"; X.beginPath(); X.rect(0, 0, 1080, 1920); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 20 * (1 - u) + 6); X.fill("evenodd"); X.strokeStyle = OURO; X.lineWidth = 12; X.beginPath(); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 20 * (1 - u) + 6); X.stroke(); X.restore(); },
-    fechamento(lt) { const P = [["COMENTA " + CHAVE, OURO, 505, 790, -.03, 76, MAR, 760, 170], ["11 skills grátis pro Claude", "#cfe0ff", 290, 1070, .05, 44, TINTA, 400, 230], ["mostra o furo antes de abrir", "#ffd8c2", 720, 1090, -.05, 44, TINTA, 380, 230]];
+    fechamento(lt) { const P = [["COMENTA " + CHAVE, OURO, 505, 790, -.03, 76, MAR, 760, 170], ["11 skills grátis pro Claude", "#cfe0ff", 700, 1000, .04, 40, TINTA, 420, 190], ["mostra o furo antes de abrir", "#ffd8c2", 700, 1225, -.04, 40, TINTA, 420, 190]];
       P.forEach(([txt, cor, x, y, r, f, tc, w, h], i) => { const p = back(lin(lt, i * .2, i * .2 + .35)); if (p <= 0) return; X.save(); X.translate(x, y); X.rotate(r + Math.sin(lt * 2 + i) * .01); X.scale(p, p);
         X.shadowColor = "rgba(20,20,40,.3)"; X.shadowBlur = 16; X.shadowOffsetY = 8; X.fillStyle = cor; X.fillRect(-w / 2, -h / 2, w, h); X.shadowColor = "transparent"; X.fillStyle = "rgba(255,255,255,.6)"; X.fillRect(-50, -h / 2 - 14, 100, 28);
         X.fillStyle = tc; X.textAlign = "center"; X.textBaseline = "middle"; X.font = `700 ${f}px SG`; const ws = txt.split(" "), L = []; let c = ""; for (const w2 of ws) { const tt = c ? c + " " + w2 : w2; if (X.measureText(tt).width > w - 40 && c) { L.push(c); c = w2; } else c = tt; } L.push(c);
         L.forEach((l, k) => X.fillText(l, 0, (k - (L.length - 1) / 2) * f * 1.15 + 4)); X.restore(); });
-      if (lt > 1.0) { X.globalAlpha = eo(lin(lt, 1.0, 1.4)); X.fillStyle = TINTA; X.font = "700 40px SG"; X.textAlign = "center"; X.fillText("Qual negócio você abriria?", 505, 1320); X.globalAlpha = 1; } },
+      if (lt > 1.0) { X.globalAlpha = eo(lin(lt, 1.0, 1.4)); X.fillStyle = TINTA; X.font = "700 40px SG"; X.textAlign = "center"; X.fillText("Qual negócio você abriria?", 505, 1440); X.globalAlpha = 1; } },
   }; };
 const cores = { LAR: MAR, VERDE: OURO, FUNDO, CREME: BR, TINTA, BRILHO: "rgba(0,0,0,0)" };
 return { SHOTS, ACT, cores, semPalco: true, ui, camera };
