@@ -338,6 +338,13 @@ function cartaoSegue(palavra, pasta) {
               { type: "web_url", title: "Abrir perfil", url: PERFIL }],
   }] } } };
 }
+function cartaoMaterial(palavra) {
+  return { attachment: { type: "template", payload: { template_type: "generic", elements: [{
+    title: "Aqui está o seu material 📩",
+    subtitle: `Toca no botão pra abrir o de ${sem(palavra)}.`.slice(0, 80),
+    buttons: [{ type: "web_url", title: "Abrir material", url: `https://iaem60s.com/links#${encodeURIComponent(sem(palavra))}` }],
+  }] } } };
+}
 function cartaoProduto(P) {
   const botoes = [];
   if (P.checkout) botoes.push({ type: "web_url", title: "Quero o meu 🔥", url: "https://iaem60s.com/comprar?o=dm" });
@@ -376,11 +383,15 @@ async function tratarToque(env, ev) {
   let acao = "", erro = "";
   try {
     if (segue) {
-      await enviarDM(c, c.token, igsid, { text: item.dm.slice(0, 990) }); acao = "material";
+      try { await enviarDM(c, c.token, igsid, { text: item.dm.slice(0, 990) }); acao = "material"; }
+      catch (e) { // 09/11: o texto falhou em metade dos toques e o cartão nunca falha; plano B = cartão com o link do material
+        erro = "texto: " + e.message.slice(0, 300);
+        await enviarDM(c, c.token, igsid, cartaoMaterial(palavra)); acao = "material_link";
+      }
       // depois do brinde, oferece o produto (Vitor, 08/11); no KIT não repete
       const P = R.produto || {};
       if (P.nome && sem(palavra) !== "KIT") {
-        try { await enviarDM(c, c.token, igsid, cartaoProduto(P)); acao = "material+oferta"; } catch (e) { erro = "oferta: " + e.message.slice(0, 200); }
+        try { await enviarDM(c, c.token, igsid, cartaoProduto(P)); acao += "+oferta"; } catch (e) { erro += (erro ? " | " : "") + "oferta: " + e.message.slice(0, 200); }
       }
     }
     else { await enviarDM(c, c.token, igsid, cartaoSegue(palavra, pasta || "")); acao = "pediu_seguir"; }
