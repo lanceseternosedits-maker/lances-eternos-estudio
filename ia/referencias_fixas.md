@@ -241,3 +241,10 @@ Números = curtidas · comentários · reposts · envios · salvamentos, vistos 
 - (a) "A IA que atende seu [salão/pizzaria/oficina] às 23h", com cronômetro e fluxo em PDF (formato cidade ou telas).
 - (b) "5 IAs julgam seu currículo" e "5 IAs julgam seu anúncio", banca com contadores, brinde = o prompt da banca. Combina com o KIT.
 - (c) Nos Reels de contagem, um quadro curto com a notificação de DM "Aqui seu link…" depois do "Comenta".
+
+**Ferramentas e skills que aparecem nesses vídeos (avaliadas em 09/11):**
+- **find-skills** (vercel-labs/skills, MIT; aparece no _aighostlab "é só pedir"): procura e instala skills por assunto (`npx skills find <assunto>`). **Instalada** em `.claude/skills/find-skills/`. Antes de instalar o que ela achar: ler o código, licença MIT/Apache e mais de 1 mil instalações.
+- **Everything Claude Code / ECC** (affaan-m, MIT, ~214 mil ★; o vencedor do hackathon da Ref. 13): um pacote enorme de agentes, skills e comandos. **Não instalado inteiro** (pesado e muda o comportamento de tudo). Fica de pauta 🆕 e de fonte para copiar 1 skill pontual quando precisar. Não usar o pacote npm `everything-claude-code`: o socket.dev mostrava aviso de ataque de cadeia de suprimentos em pacotes npm.
+- **Virality Predictor do Higgsfield** (Ref. 12): dá nota a clipes de até 15 s (gancho, retenção, mapa de atenção), pela web, pela linha de comando e por MCP. Diziam que estava grátis em prévia. **Pede conta nova** no Higgsfield, então só com o OK do Vitor. Daria para medir o gancho dos nossos Reels antes de mandar para aprovação.
+- **Agent Teams do Claude Code** (Ref. 11): vários Claudes trabalhando juntos (variável `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`). **Não adotado agora**: cada colega é uma sessão inteira e gasta muito mais token, e o limite semanal já está no aviso. Já fazemos o mesmo com sessões separadas (produção, produto, painel).
+- **"Prompt da banca"** (Ref. 10) e **fluxo do agente da clínica** (Ref. 9): o material é distribuído por DM e não é público. A ideia da banca já existe aqui (painel de revisão com 4 revisores); o agente da clínica vira pauta (a).
