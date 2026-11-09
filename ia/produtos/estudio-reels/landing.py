@@ -25,7 +25,9 @@ link = "/comprar?o=estudio" if tem_checkout else "https://www.instagram.com/iaem
 cta = f"Quero o Estúdio por R$ {K['preco']}" if tem_checkout else "Quero entrar na lista · comenta ESTUDIO"
 micro = ("pagamento único · Pix ou cartão · garantia de 7 dias" if tem_checkout
          else "pré-lançamento: comente ESTUDIO em qualquer Reel do @iaem60s e receba o link primeiro")
-ancora = f'<s>R$ {e(K["ancora"])}</s> ' if K.get("ancora") else ""
+ancora = (f'<span class="lc">🔥 PREÇO DE LANÇAMENTO</span><div class="de">de <s>R$ {e(K["ancora"])}</s> por</div>' if K.get("ancora") else "")
+desc = (f'{round(100 - 100 * int(K["preco"]) / int(K["ancora"]))}% OFF' if K.get("ancora") else "")
+de_por = (f'de <s>R$ {e(K["ancora"])}</s> por <b>R$ {e(K["preco"])}</b>' if K.get("ancora") else f'<b>R$ {e(K["preco"])}</b>')
 
 # ---- prova: só número real (Metricool, lido pelo analista)
 T = R["totais"]
@@ -39,8 +41,12 @@ def med(nome):
     return 0
 periodo = R["periodo"]
 d = lambda s: f"{s[8:10]}/{s[5:7]}"
+RD = json.loads(sorted((IA / "painel" / "dados").glob("redes_*.json"))[-1].read_text(encoding="utf-8"))
+dias = [(r[-1], float(r[3] or 0), float(r[0] or 0)) for r in RD["ig"] if r[3]]   # (dia, views do dia, seguidores)
+pico = max(dias, key=lambda x: x[1]); seg_pico = int(pico[2]); views_pico = int(pico[1]); vezes = views_pico // max(1, seg_pico)
+vezes_reel = melhor["views"] // max(1, seg_pico)
 provas = [(br(T["views_ig"]), f"views no Instagram em {T['reels_medidos']} Reels"), (br(melhor["views"]), "views no melhor Reel"),
-          (br(T["salvamentos"]), "salvamentos"), (br(T["comentarios"]), "comentários")]
+          (br(views_pico), f"views num único dia ({pico[0][6:]}/{pico[0][4:6]})"), (f"{vezes}×", f"mais views que seguidores nesse dia ({seg_pico} seguidores)")]
 prova_h = "".join(f'<div class="nm rv"><b>{n}</b><span>{e(t)}</span></div>' for n, t in provas)
 
 ESTILOS = [("tv", "Contagem 5 → 1", "Sala de TV à noite. O formato que mais deu view no perfil."),
@@ -48,7 +54,13 @@ ESTILOS = [("tv", "Contagem 5 → 1", "Sala de TV à noite. O formato que mais d
            ("edicao", "Ilha de edição", "Claquete, tela e grade roxa. Pra falar de vídeo e criação."),
            ("windows", "Papel e termômetro", "Etiqueta de papel rasgado e medidor subindo. Pra comparar."),
            ("historia", "Linha do tempo", "Cena de época e manchete de jornal. Pra contar história."),
-           ("sistema", "Sistema em peças", "Quarto, computador e cada peça virando um objeto. Pra explicar como algo funciona.")]
+           ("sistema", "Sistema em peças", "Quarto, computador e cada peça virando um objeto. Pra explicar como algo funciona."),
+           ("feira", "Feira de rua", "Barraca, letras penduradas e o objeto do assunto na mão."),
+           ("console", "Pôr do sol", "Céu laranja e tarja de \"ao vivo\" na legenda."),
+           ("fliperama", "Fliperama neon", "Máquinas acesas e letreiro piscando. Pra pauta polêmica."),
+           ("cinema", "Cinema drive-in", "Tela gigante, carros e balão de fala."),
+           ("mesa", "Mesa de trabalho", "Notebook que solta janelas e post-its. Pra programa e produtividade."),
+           ("agencia", "Agência criativa", "Orçamento, cartaz e faixa de aviso. Pra trabalho de agência.")]
 galeria = "".join(f'<figure class="gl rv"><video src="estudio/{k}.mp4" poster="estudio/{k}.jpg" muted loop playsinline autoplay preload="none"></video>'
                   f'<figcaption><b>{e(n)}</b><span>{e(t)}</span></figcaption></figure>' for k, n, t in ESTILOS)
 
@@ -68,7 +80,7 @@ JEITOS = [("Do zero", "Você dá o assunto", "Ele escreve, revisa, anima, narra 
 jeitos_h = "".join(f'<div class="jt rv"><small>{e(a)}</small><b>{e(b)}</b><p>{e(c)}</p></div>' for a, b, c in JEITOS)
 
 RECEBE = [("A skill do Estúdio", "Instala no Claude Code e vira o seu estúdio: roteiro, revisão, animação 3D, voz, legenda, trilha e MP4."),
-          ("6 cenários prontos", "Os mesmos que você vê nesta página, com regras de cor, luz e câmera, e um jeito novo a cada vídeo."),
+          ("12 cenários prontos", "Os mesmos que você vê nesta página, com regras de cor, luz e câmera, e um jeito novo a cada vídeo."),
           ("Seu mascote 3D", "Responda 5 perguntas e escolha entre 3 opções. Ajuste conversando; ele aparece igual em todo vídeo."),
           ("Kit de publicação", "Para cada Reel: legenda, 1º comentário fixado, palavra do \"Comenta\" e a resposta da DM."),
           ("Guia em PDF", "Da instalação ao primeiro Reel, com os pedidos que funcionam e o que fazer se travar.")]
@@ -130,6 +142,9 @@ ul.rc b{{display:block}}ul.rc span{{font-size:14.5px;color:var(--m)}}
 .pq{{display:grid;grid-template-columns:1fr 1fr;gap:12px;font-size:15px}}.pq div{{background:var(--t2);border-radius:16px;padding:16px}}.pq h3{{font:17px Titulo;margin:0 0 8px}}.pq p{{margin:6px 0;color:#d4cfe6}}
 .preco{{text-align:center;background:var(--t2);border:1px solid #ff7a3d55;border-radius:26px;padding:30px 20px;box-shadow:0 30px 80px #ff7a3d22}}
 .preco s{{color:var(--m);font-size:20px}}.pv{{font:clamp(64px,18vw,88px)/1 Titulo;margin:6px 0}}.pv small{{font-size:.38em;vertical-align:.9em;margin-right:4px}}
+.lc{{display:inline-block;background:#ff3d5a;color:#fff;font:13px Titulo;letter-spacing:.06em;padding:6px 12px;border-radius:99px;margin-bottom:10px;animation:pl 1.6s ease-in-out infinite}}@keyframes pl{{50%{{transform:scale(1.06)}}}}
+.de{{font-size:20px;color:var(--m)}}.de s{{color:#ff8a9a;font-size:26px;text-decoration-thickness:3px}}.off{{display:inline-block;font:15px Titulo;color:#3ddc84;margin-bottom:4px}}
+.hp{{margin:14px 0 0;font-size:17px;color:#e9e5f7}}.hp s{{color:#ff8a9a}}.hp b{{font-family:Titulo;color:var(--a);font-size:22px}}
 .req{{display:inline-block;margin:12px 0 18px;font-size:13.5px;color:#ffd8a8;background:#ff7a3d1f;border:1px solid #ff7a3d55;border-radius:99px;padding:6px 12px}}
 .gar{{display:grid;grid-template-columns:92px 1fr;gap:16px;align-items:center;margin-top:24px}}.selo{{width:92px;height:92px;border-radius:50%;border:3px solid #3ddc84;display:grid;place-items:center;text-align:center;font:30px/1 Titulo;color:#3ddc84}}.selo small{{display:block;font:10px Mono;letter-spacing:.12em}}
 details{{background:var(--t2);border-radius:14px;margin:8px 0;padding:4px 16px;border:1px solid #ffffff10}}summary{{cursor:pointer;font-weight:700;padding:12px 0;list-style:none}}summary:after{{content:"+";float:right;color:var(--l);font-size:20px}}details[open] summary:after{{content:"–"}}details p{{margin:0 0 14px;color:#d4cfe6}}
@@ -137,22 +152,22 @@ details{{background:var(--t2);border-radius:14px;margin:8px 0;padding:4px 16px;b
 footer{{text-align:center;font-size:12.5px;color:#7f7a98;padding:30px 22px 110px}}footer a{{color:#a9a3c7}}
 .fix{{position:fixed;left:12px;right:12px;bottom:12px;z-index:10;transform:translateY(140%);transition:transform .35s}}.fix.on{{transform:none}}.fix .btn{{font-size:17px;padding:16px}}
 .rv{{opacity:0;transform:translateY(18px);transition:opacity .6s,transform .6s cubic-bezier(.2,.8,.2,1)}}.rv.in{{opacity:1;transform:none}}
-@media(min-width:900px){{.hero .w{{max-width:1080px;grid-template-columns:1.15fr .85fr;align-items:center}}.gls{{grid-template-columns:repeat(3,1fr)}}.dfs,.jts{{grid-template-columns:1fr 1fr}}.fix{{display:none}}}}
+@media(min-width:900px){{.hero .w{{max-width:1080px;grid-template-columns:1.15fr .85fr;align-items:center}}.gls{{grid-template-columns:repeat(4,1fr)}}.dfs,.jts{{grid-template-columns:1fr 1fr}}.fix{{display:none}}}}
 @media(prefers-reduced-motion:reduce){{.rv{{opacity:1;transform:none}}}}
 </style></head><body>
 <nav><b>Estúdio de Reels <i>·</i> IA em 60s</b><a href="{e(link)}">{"Quero" if tem_checkout else "Lista"}</a></nav>
 <header class="hero"><div class="w">
- <div><span class="tape">FEITO PELO @IAEM60S</span>
+ <div><span class="tape">{br(views_pico)} VIEWS EM 1 DIA · PERFIL COM {seg_pico} SEGUIDORES</span>
   <h1>Você dá o assunto. <span class="gt">Ele entrega o Reel pronto.</span></h1>
   <p class="sub">Roteiro com gancho, animação 3D, voz, legenda palavra por palavra e MP4 no tamanho do Reels e do TikTok. Sem abrir editor, sem aprender After Effects.</p>
-  <a class="btn" href="{e(link)}">{e(cta)} →</a><p class="mi">{e(micro)}</p>
-  <ul class="ck"><li>6 cenários prontos</li><li>4 revisores no roteiro</li><li>você só aprova</li></ul></div>
- <div class="cel"><span class="cnt">{br(melhor["views"])} views ▶</span><video id="demo" src="estudio/demo.mp4" poster="estudio/demo.jpg" muted loop playsinline autoplay preload="metadata"></video>
+  <a class="btn" href="{e(link)}">{e(cta)} →</a><p class="hp">{"🔥 lançamento: " if K.get("ancora") else ""}{de_por}</p><p class="mi">{e(micro)}</p>
+  <ul class="ck"><li>12 cenários prontos</li><li>4 revisores no roteiro</li><li>você só aprova</li></ul></div>
+ <div class="cel"><span class="cnt">▶ {br(melhor["views"])} views · {seg_pico} seguidores</span><video id="demo" src="estudio/demo.mp4" poster="estudio/demo.jpg" muted loop playsinline autoplay preload="metadata"></video>
   <button class="som" id="som">🔊 toque pra ouvir</button></div>
 </div></header>
 
-<section class="w"><span class="k">prova, sem enfeite</span><h2>Um perfil novo. <span class="gt">{br(T["views_ig"])} views</span> em 2 semanas.</h2>
-<p>Todo Reel do @iaem60s sai deste estúdio. Esses são os números do Instagram de {d(periodo[0])} a {d(periodo[1])}, sem anúncio pago:</p>
+<section class="w"><span class="k">números reais do perfil</span><h2>{seg_pico} seguidores. <span class="gt">{br(views_pico)} views</span> num dia só.</h2>
+<p>O @iaem60s começou do zero em outubro. Todo Reel dele sai deste estúdio. Sem anúncio pago, sem rosto, sem editor: <b>um Reel fez {vezes_reel}× o número de seguidores do perfil.</b></p>
 <div class="nms">{prova_h}</div><p class="fonte">fonte: Instagram @iaem60s via Metricool · {T["reels_medidos"]} Reels medidos · números de um perfil que começou do zero, não promessa de resultado</p></section>
 
 <section class="carta"><div class="w"><span class="k">pra quem posta (ou queria postar) todo dia</span><h2>O problema nunca foi ideia. <em>É a edição.</em></h2>
@@ -172,7 +187,7 @@ footer{{text-align:center;font-size:12.5px;color:#7f7a98;padding:30px 22px 110px
 
 <section class="w" style="padding-top:0"><span class="k">3 jeitos de usar</span><h2>Do zero, <span class="gt">com a sua voz</span> ou sem ideia nenhuma.</h2><div class="jts">{jeitos_h}</div></section>
 
-<section class="w"><span class="k">cenários</span><h2>Um cenário pra <span class="gt">cada assunto.</span></h2><p>Todos saíram do estúdio e foram ao ar no @iaem60s. E nenhum vídeo repete a combinação de cenário, cor e câmera do anterior.</p><div class="gls">{galeria}</div></section>
+<section class="w"><span class="k">cenários</span><h2>Um cenário pra <span class="gt">cada assunto.</span></h2><p>Todos saíram deste estúdio e estão no @iaem60s. E nenhum vídeo repete a combinação de cenário, cor e câmera do anterior.</p><div class="gls">{galeria}</div></section>
 
 <section class="w"><span class="k">o que ninguém mais faz</span><h2>Não é só animar. <span class="gt">É acertar antes.</span></h2><div class="dfs">{dif_h}</div></section>
 
@@ -182,7 +197,7 @@ footer{{text-align:center;font-size:12.5px;color:#7f7a98;padding:30px 22px 110px
 <section class="w" style="padding-top:0"><div class="pq"><div class="rv"><h3>É pra você se…</h3><p>✓ você quer postar todo dia sem passar a tarde editando</p><p>✓ tem perfil, negócio ou marca pessoal</p><p>✓ já usa (ou topa assinar) o Claude Pro</p></div>
 <div class="rv"><h3>Não é pra você se…</h3><p>✗ você só tem celular, sem computador</p><p>✗ procura vídeo com gente real filmada</p><p>✗ quer promessa de ficar rico</p></div></div></section>
 
-<section class="w" id="preco"><div class="preco rv"><span class="k">pagamento único</span><div>{ancora}</div><div class="pv"><small>R$</small>{e(K["preco"])}</div>
+<section class="w" id="preco"><div class="preco rv">{ancora}<div class="pv"><small>R$</small>{e(K["preco"])}</div><div class="off">{desc} · pagamento único</div>
 <span class="req">⚠️ Requisito: Claude Pro (ou acima) + computador Windows ou Mac</span>
 <a class="btn" href="{e(link)}">{e(cta)} →</a><p class="mi">{e(micro)}</p></div>
 <div class="gar rv"><div class="selo">7<small>DIAS</small></div><div><b>Garantia de 7 dias.</b> Instale, faça seus Reels. Se não for pra você, peça o reembolso em até 7 dias e recebe 100% de volta.</div></div></section>
