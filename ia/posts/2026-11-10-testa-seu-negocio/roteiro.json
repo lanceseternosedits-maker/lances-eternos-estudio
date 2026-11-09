@@ -7,11 +7,11 @@
  "conceito": "Sala de reunião de tubarões em miniatura (sem rostos humanos): mesa comprida, cadeiras de couro com bonecos de bloco anônimos, quadro com gráfico; paleta azul-marinho + dourado + branco. Gancho: uma ideia em lâmpada é colocada na mesa e todos se viram. Mascote de gravata e crachá apresentando.",
  "elementos": {
   "etiqueta": "f) página de caderno",
-  "nome": "c) máquina de escrever",
+  "nome": "a) texto embaralhado decifrando (trocado: máquina repetiria o Diz pra que é)",
   "contador": "d) pote de estrelas",
   "legenda": "e) tarja de TV",
   "transicao": "f) zoom atravessando tela",
-  "camera": "d) órbita",
+  "camera": "e) câmera na mão (trocado: órbita repetiria o Diz pra que é)",
   "fechamento": "c) post-its na parede",
   "tipografia": "d) Press Start 2P (só enfeite) + Space Grotesk",
   "som": "trilha 03 + efeitos arcade",
@@ -21,7 +21,7 @@
  "fontes": [
   "https://github.com/Jakeschincariol/founder-skill"
  ],
- "prova_viral": "Estrelas no GitHub (API. 07/11/2026): Jakeschincariol/founder-skill 2.589, criado em 07/10.",
+ "prova_viral": "Estrelas no GitHub (API. 07/11/2026): Jakeschincariol/founder-skill 2.589, criado em 07/10. Relido em 09/11: 2.818 estrelas, MIT.",
  "obs": "Grátis, MIT. Sem promessa de lucro. O README cita Hormozi/Thiel/Jobs: não usar nomes nem rostos no vídeo.",
  "polemica": false,
  "agenda": "2026-11-12 14:00",
@@ -44,8 +44,8 @@
    "itens": "testa-seu-negocio",
    "etiqueta": [
     "11 IAS TESTAM SEU NEGÓCIO ANTES DE ABRIR",
-    "+3 MIL ESTRELAS EM 1 MÊS",
-    ""
+    "+2,8 MIL ESTRELAS EM 1 MÊS",
+    "E TUDO DE GRAÇA"
    ]
   },
   {
@@ -70,7 +70,7 @@
    "sfx": [],
    "item": "founder-skill",
    "repo": "Jakeschincariol/founder-skill",
-   "estrelas": 2589
+   "estrelas": 2818
   },
   {
    "cena": "s4",

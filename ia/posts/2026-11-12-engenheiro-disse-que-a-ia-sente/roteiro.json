@@ -7,7 +7,7 @@
  "tese": "ELE DISSE QUE A IA TINHA SENTIMENTOS",
  "conceito": "Cabine de cinema vazia à noite: um projetor joga conversas na tela como legenda de filme, poltronas vermelhas, pipoca derrubada; no fim, um crachá caindo numa caixa de papelão. Paleta preto-azulado + vermelho-poltrona.",
  "elementos": {
-  "etiqueta": "g) placa de rua/aeroporto",
+  "etiqueta": "c) letreiro neon de cinema (trocado: placa repetiria o Apple não queria)",
   "nome": "b) carimbo batendo",
   "contador": "(sem contador: história)",
   "legenda": "d) balão de fala do mascote",
@@ -47,7 +47,8 @@
     "ELE DISSE QUE A IA TINHA SENTIMENTOS",
     "GOOGLE, 2022",
     "E FOI DEMITIDO"
-   ]
+   ],
+   "itens": "engenheiro-disse-que-a-ia-sente"
   },
   {
    "cena": "s1",

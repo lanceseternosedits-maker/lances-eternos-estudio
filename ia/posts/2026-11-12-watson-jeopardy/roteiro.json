@@ -7,8 +7,8 @@
  "tese": "2011: A MÁQUINA GANHOU O SHOW DA TV",
  "conceito": "Estúdio de programa de auditório: três púlpitos com placar luminoso, painel de perguntas azul, plateia de bonequinhos; no púlpito do meio, um monitor com um globo. Paleta azul-royal + dourado-placar. Sem logo da IBM nem do programa.",
  "elementos": {
-  "etiqueta": "f) página de caderno",
-  "nome": "a) texto embaralhado decifrando",
+  "etiqueta": "e) tela de terminal (trocado: caderno repetiria o Testa seu negócio)",
+  "nome": "d) split-flap (trocado: decifrando repetiria o Testa seu negócio)",
   "contador": "(sem contador: história)",
   "legenda": "c) karaokê com marca-texto deslizando",
   "transicao": "a) flash branco",
@@ -48,7 +48,8 @@
     "2011: A MÁQUINA GANHOU O SHOW DA TV",
     "WATSON × OS 2 MAIORES CAMPEÕES",
     "E ERROU FEIO NO FIM"
-   ]
+   ],
+   "itens": "watson-jeopardy"
   },
   {
    "cena": "s1",

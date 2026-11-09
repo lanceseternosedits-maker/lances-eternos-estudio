@@ -16,7 +16,7 @@
   "fechamento": "d) tela CONTINUE? com contagem",
   "tipografia": "e) Caveat (manuscrita)",
   "som": "trilha 01 + teclado de escritório",
-  "mascote": "crachá 'NOVO' e mochila; ação principal: ler o manual de boas-vindas"
+  "mascote": "crachá 'NOVO' pendurado no braço e mochila; ação principal: ler o manual de boas-vindas"
  },
  "brinde": "modelo de frase de contexto",
  "fontes": [
@@ -47,7 +47,8 @@
     "A IA É UM ESTAGIÁRIO GÊNIO",
     "FALTA CONTEXTO, NÃO INTELIGÊNCIA",
     "E 1 FRASE RESOLVE"
-   ]
+   ],
+   "itens": "diz-pra-que-e"
   },
   {
    "cena": "s1",

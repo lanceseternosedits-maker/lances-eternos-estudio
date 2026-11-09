@@ -25,7 +25,7 @@
   "https://github.com/govijr/terminal-mac",
   "https://github.com/oosexgang/hakios-xnu-kernel"
  ],
- "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Mac Subsystem for Android 540, Snapintosh 1.196, UniXNU 2.090, terminal-mac 2.185, hakios 2.571; total 8.582; criados entre 15/10 e 03/11.",
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Mac Subsystem for Android 540, Snapintosh 1.196, UniXNU 2.090, terminal-mac 2.185, hakios 2.571; total 8.582; criados entre 15/10 e 03/11. Relido em 09/11 (API do GitHub): 8.994 estrelas nos 5 (etiqueta: quase 9 mil).",
  "obs": "Sem logo da Apple (nada de maçã mordida). Projetos experimentais; macOS fora de hardware Apple viola a licença do macOS: dizer 'a Apple não permite'. Não ensinar o passo a passo no vídeo.",
  "polemica": true,
  "agenda": "2026-11-12 19:30",
@@ -41,7 +41,7 @@
    "itens": "apple-nao-queria",
    "etiqueta": [
     "5 PROJETOS QUE A APPLE NÃO QUERIA",
-    "+9 MIL ESTRELAS EM 3 SEMANAS",
+    "QUASE 9 MIL ESTRELAS EM 3 SEMANAS",
     "E O Nº 1 RODA NUM ANDROID"
    ],
    "sfx": [
@@ -57,7 +57,7 @@
    "tag": "5º",
    "item": "Mac Subsystem for Android",
    "repo": "harkhowalia-1/MacSubsystemForAndroid",
-   "estrelas": 540,
+   "estrelas": 545,
    "fala": "Quinto: apps de Android rodando no Mac, cada um na sua janela.",
    "legenda": "Quinto: apps de Android rodando no Mac, cada um na sua janela.",
    "sfx": [
@@ -73,7 +73,7 @@
    "tag": "4º",
    "item": "Snapintosh",
    "repo": "Snapintosh/Snapintosh",
-   "estrelas": 1196,
+   "estrelas": 1227,
    "fala": "Quarto: o macOS ligando num notebook que nem é da Apple.",
    "legenda": "Quarto: o macOS ligando num notebook que nem é da Apple.",
    "sfx": [
@@ -89,7 +89,7 @@
    "tag": "3º",
    "item": "UniXNU",
    "repo": "UniXNU/UniXNU",
-   "estrelas": 2090,
+   "estrelas": 2141,
    "fala": "Terceiro: iOS e macOS em aparelhos que não são da Apple. Esse é ousado… comenta APPLE que eu te mando os cinco. Mas o próximo é pior.",
    "legenda": "Terceiro: iOS e macOS em aparelhos que não são da Apple. Esse é ousado… comenta APPLE que eu te mando os cinco. Mas o próximo é pior.",
    "sfx": [
@@ -105,7 +105,7 @@
    "tag": "2º",
    "item": "terminal-mac",
    "repo": "govijr/terminal-mac",
-   "estrelas": 2185,
+   "estrelas": 2429,
    "fala": "Segundo: um macOS inteiro rodando dentro do terminal.",
    "legenda": "Segundo: um macOS inteiro rodando dentro do terminal.",
    "sfx": [
@@ -121,7 +121,7 @@
    "tag": "1º",
    "item": "hakios",
    "repo": "oosexgang/hakios-xnu-kernel",
-   "estrelas": 2571,
+   "estrelas": 2652,
    "fala": "E o primeiro: o coração do sistema da Apple rodando num celular Android.",
    "legenda": "E o primeiro: o coração do sistema da Apple rodando num celular Android.",
    "sfx": [
