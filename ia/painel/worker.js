@@ -464,8 +464,8 @@ function paginaEntrar(msg = "") {
 <script>document.getElementById('pedir').onclick=async()=>{const st=document.getElementById('st');st.textContent='Enviando…';
 const r=await fetch('/api/acesso',{method:'POST'});const j=await r.json().catch(()=>({}));st.textContent=r.ok?'✅ Enviado! Veja a notificação no celular.':'⚠️ '+(j.erro||'não deu certo')}</script>`);
 }
-const LIVRE_PAINEL = /^(ig\/webhook|comprar|kiwify\/webhook|entrar|sw\.js|manifest\.json|icone-(180|512)\.png|links|kit|privacidade|ig\/callback|capas\/(kit|thumb)-[\w.-]+\.jpg)$/;
-const LIVRE_DOMINIO = /^(ig\/webhook|comprar|kiwify\/webhook|links|kit|privacidade|ig\/callback|capas\/(kit|thumb)-[\w.-]+\.jpg|icone-(180|512)\.png)$/;
+const LIVRE_PAINEL = /^(ig\/webhook|comprar|kiwify\/webhook|entrar|sw\.js|manifest\.json|icone-(180|512)\.png|links|kit|estudio|estudio\/[\w-]+\.(?:mp4|jpg)|privacidade|ig\/callback|capas\/(kit|thumb)-[\w.-]+\.jpg)$/;
+const LIVRE_DOMINIO = /^(ig\/webhook|comprar|kiwify\/webhook|links|kit|estudio|estudio\/[\w-]+\.(?:mp4|jpg)|privacidade|ig\/callback|capas\/(kit|thumb)-[\w.-]+\.jpg|icone-(180|512)\.png)$/;
 
 // ---------------------------------------------------------------- API
 // ---------- 💵 Financeiro (Vitor, 08/11): vendas da Kiwify (webhook) + funil (visitas ao /kit, cliques em comprar, comentários KIT, cartões de oferta na DM)
@@ -658,6 +658,12 @@ export default {
     if (caminho === "links") return paginaLinks();
     if (caminho === "comprar") { ctx.waitUntil(contaFunil(env, "clique", url.searchParams.get("o") || "direto")); return Response.redirect(CHECKOUT, 302); }
     if (caminho === "kiwify/webhook" && req.method === "POST") return kiwify(req, env, ctx, url);
+    // Estúdio de Reels (Vitor, 09/11): landing em /estudio e mídia em /estudio/<arquivo> (vídeo/imagem do repositório com o tipo certo)
+    if (caminho === "estudio") { ctx.waitUntil(contaFunil(env, "visita-estudio", url.searchParams.get("o") || "direto"));
+      return fetch(BASE + "estudio.html?t=" + Date.now(), { cf: { cacheTtl: 0 } }).then((r) => new Response(r.body, { status: r.ok ? 200 : 502, headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-cache" } })); }
+    { const m = caminho.match(/^estudio\/([\w-]+)\.(mp4|jpg)$/);
+      if (m) return fetch(BASE + "estudio/" + m[1] + "." + m[2], { cf: { cacheTtl: 3600 } }).then((r) => new Response(r.body, { status: r.ok ? 200 : 404,
+        headers: { "content-type": m[2] === "mp4" ? "video/mp4" : "image/jpeg", "cache-control": "public, max-age=3600", "accept-ranges": "bytes" } })); }
     if (caminho === "kit") ctx.waitUntil(contaFunil(env, "visita", url.searchParams.get("o") || "direto"));
     if (caminho === "kit") return fetch(BASE + "kit.html?t=" + Date.now(), { cf: { cacheTtl: 0 } }).then((r) => new Response(r.body, { status: r.ok ? 200 : 502, headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-cache" } }));
     if (caminho === "conectar") return paginaConectar(env, url);
