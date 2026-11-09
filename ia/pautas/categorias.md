@@ -12,7 +12,7 @@ Regras: ver "Categorias" no `AGENTE.md`. Toda data, número e frase daqui **é c
 - [x] (08/11 (tay-microsoft)) **O chatbot que virou racista em 16 horas** — 2016, Tay (Microsoft) no Twitter, desligada em menos de um dia. Gancho: polêmica dentro da lei, sem repetir as frases ofensivas. Fontes: blog oficial da Microsoft (25/03/2016) · The Verge/BBC.
 - [x] (14/11 15:00 (artigo-que-criou-o-chatgpt)) **O artigo de 2017 que criou o ChatGPT** — "Attention Is All You Need", 8 pesquisadores do Google; o "T" do GPT vem daí, e quase todos saíram do Google depois. Fontes: arxiv.org/abs/1706.03762 · Financial Times/Wired sobre os autores.
 - [x] (14/11 19:00 (chatgpt-1-milhao-em-5-dias)) **1 milhão de pessoas em 5 dias** — 30/11/2022, lançamento do ChatGPT; o "código vermelho" no Google. Fontes: openai.com/index/chatgpt · post de Sam Altman (05/12/2022) · NYT (21/12/2022, "code red").
-- [ ] **O inverno da IA** — anos 70 e 80: as promessas falharam, os governos cortaram o dinheiro e "IA" virou palavrão. Fontes: Relatório Lighthill (1973) · livros de história da computação.
+- [x] **O inverno da IA** (usado: posts/2026-11-09-ia-ja-morreu-duas-vezes) — anos 70 e 80: as promessas falharam, os governos cortaram o dinheiro e "IA" virou palavrão. Fontes: Relatório Lighthill (1973) · livros de história da computação.
 - [x] (12/11 14:00 (watson-jeopardy)) **A IA que ganhou no programa de perguntas** — 2011, IBM Watson vence os campeões do Jeopardy!. Fontes: IBM (história do Watson) · NYT (fev/2011).
 - [ ] **O dia em que a IA aprendeu a ver** — 2012, AlexNet esmaga a competição ImageNet usando placas de vídeo de videogame. Fontes: artigo de Krizhevsky, Sutskever e Hinton (NeurIPS 2012) · ImageNet.
 

@@ -386,6 +386,15 @@
    "dm": "Oi! Que bom que você comentou BIZARRO 🙌\nAqui está o que eu prometi (links dos 5):\n• https://github.com/Leonxlnx/athenaion\n• https://github.com/divagr18/qwenputer\n• https://github.com/Noniv/web-ocean\n• https://github.com/chenglou/handwired\n• https://github.com/aschmelyun/print-my-profile-pic\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
   {
+   "palavra": "NIVEL",
+   "pasta": "2026-11-09-em-qual-nivel-de-ia",
+   "quando": "2026-11-09",
+   "titulo": "Em qual nível de IA você está?",
+   "thumb": "",
+   "url": "",
+   "dm": "Aqui está! 🪜\n\nNível 2 → conte quem você é no começo da conversa.\nNível 3 → ChatGPT: Configurações → Personalização → Instruções personalizadas (texto pronto: \"Sou [profissão], moro em [cidade], quero respostas curtas, com passo a passo e exemplos do meu dia a dia\"). No Claude: crie um Projeto e cole o mesmo texto nas instruções.\nNível 4 → ChatGPT: peça \"me manda um resumo das notícias de [tema] todo dia às 7h\" (Tarefas, conforme o seu plano).\nNível 5 → ChatGPT agent: dê a tarefa inteira e acompanhe (planos pagos).\n\nFontes: help.openai.com/en/articles/8096356 · help.openai.com/en/articles/10291617 · openai.com/index/introducing-chatgpt-agent\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
    "palavra": "CHINA",
    "pasta": "2026-11-09-ia-chinesa-no-bolso",
    "quando": "2026-11-11 14:00",
@@ -402,6 +411,15 @@
    "thumb": "/capas/thumb-2026-11-09-ia-esquece-a-conversa.jpg",
    "url": "",
    "dm": "Aqui está! 🧠\n\n📝 Prompt: \"Resuma esta conversa em 10 linhas: objetivo, decisões tomadas, dados importantes e o que falta fazer. Escreva de um jeito que eu possa colar numa conversa nova.\"\nDepois abra um chat novo, cole o resumo e continue.\n\n📚 O estudo: https://arxiv.org/abs/2307.03172\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
+   "palavra": "INVERNO",
+   "pasta": "2026-11-09-ia-ja-morreu-duas-vezes",
+   "quando": "2026-11-09",
+   "titulo": "A IA quase morreu duas vezes",
+   "thumb": "",
+   "url": "",
+   "dm": "Aqui está! ❄️\n\n📄 Relatório Lighthill (1973): http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/contents.htm\n📄 Proposta de Dartmouth (1955): http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf\n📄 AlexNet (2012): https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html\n\nCuriosidade: a AlexNet foi treinada em 2 placas de vídeo de videogame (GTX 580) e venceu a competição ImageNet com folga.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
   {
    "palavra": "INTERNET",
@@ -429,6 +447,15 @@
    "thumb": "/capas/thumb-2026-11-09-manda-print.jpg",
    "url": "",
    "dm": "Aqui está! 📸\n\n1) Erro: \"O que está errado nesta tela e como eu resolvo, passo a passo?\"\n2) Conta: \"Explique esta conta linha por linha e diga se tem algo estranho.\"\n3) Gráfico: \"Resuma este gráfico em 3 frases simples.\"\n4) Cardápio/rótulo: \"Traduza e me diga o que é cada item.\"\n\nDica: corte o print só na parte que importa e esconda dados pessoais.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
+   "palavra": "OBRIGADO",
+   "pasta": "2026-11-09-obrigado-custa-milhoes",
+   "quando": "2026-11-09",
+   "titulo": "Seu obrigado pra IA custa milhões",
+   "thumb": "",
+   "url": "",
+   "dm": "Aqui está! 🙏\n\nTruque: em vez de mandar só \"obrigado\", agradeça junto do próximo pedido (\"valeu! agora me ajuda com…\"). É uma mensagem a menos.\n\nFontes:\n• Sam Altman sobre \"dezenas de milhões\": https://www.techradar.com/computing/artificial-intelligence/chatgpt-spends-tens-of-millions-of-dollars-on-people-saying-please-and-thank-you-but-sam-altman-says-its-worth-it\n• Conta de energia por pergunta (0,34 Wh, \"um forno por pouco mais de 1 segundo\"): https://blog.samaltman.com/the-gentle-singularity\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
   {
    "palavra": "PLAY",

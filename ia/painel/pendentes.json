@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-08 19:41",
+ "gerado_em": "2026-11-09 03:53",
  "videos": [
   {
    "pasta": "2026-11-10-sua-ia-nao-te-conhece",
@@ -37,16 +37,24 @@
    "quando": "2026-11-10 08:00"
   }
  ],
- "roteiros": [],
- "agenda_3_dias": [
+ "roteiros": [
   {
-   "quando": "2026-11-08 20:30",
-   "titulo": "10 estilos de animação pra pedir pro Claude. Qual é o seu favorito? 🎨",
-   "redes": [
-    "instagram",
-    "tiktok"
-   ]
+   "pasta": "2026-11-09-em-qual-nivel-de-ia",
+   "titulo": "EM QUAL NÍVEL DE IA VOCÊ ESTÁ?",
+   "quando": "2026-11-09"
   },
+  {
+   "pasta": "2026-11-09-ia-ja-morreu-duas-vezes",
+   "titulo": "A IA QUASE MORREU DUAS VEZES",
+   "quando": "2026-11-09"
+  },
+  {
+   "pasta": "2026-11-09-obrigado-custa-milhoes",
+   "titulo": "SEU OBRIGADO PRA IA CUSTA MILHÕES",
+   "quando": "2026-11-09"
+  }
+ ],
+ "agenda_3_dias": [
   {
    "quando": "2026-11-09 06:00",
    "titulo": "3 APPS PRA QUEM VIVE NO CHATGPT",

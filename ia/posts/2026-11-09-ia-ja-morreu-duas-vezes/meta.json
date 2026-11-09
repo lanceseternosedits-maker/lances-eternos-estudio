@@ -1,0 +1,70 @@
+{
+ "data": null,
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "cidade (Referência 7)",
+ "temas": [
+  "ia-ja-morreu-duas-vezes"
+ ],
+ "fontes": [
+  "http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf",
+  "http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/contents.htm",
+  "https://en.wikipedia.org/wiki/AI_winter",
+  "https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html"
+ ],
+ "prova_viral": "📜 Fontes históricas: proposta de Dartmouth (1955/1956), Relatório Lighthill (1973, cortes no Reino Unido), quebra do mercado de máquinas LISP (1987, verbete AI winter), AlexNet (NeurIPS 2012, treinada em 2 placas GTX 580). Rende agora: formato cidade da Referência 7 (@lucassena, 09/11: 1.176 comentários, 2.977 envios) e o debate \"IA é bolha?\".",
+ "cta": "INVERNO",
+ "polemica": false,
+ "status": "roteiro aguardando aprovação",
+ "horarios": null,
+ "elementos": {
+  "trilha": "5 etapas no topo (estações com ano)",
+  "contador": "ano grande (1956 → 2012)",
+  "legenda": "karaokê (palavra atual branca, próximas cinza) em pílula escura",
+  "camera": "travelling lateral pela rua principal",
+  "paleta": "muda por estação (amarelo → azul-gelo → neon → cinza → rosa-flor)",
+  "objeto": "placa de videogame gigante que acende a cidade",
+  "fechamento": "\"salva pra contar\" + loop no verão",
+  "tipografia": "Fraunces"
+ },
+ "nota_aprovacao": "Pedido do Vitor (09/11, via sessão do painel): roteiros no formato cidade da Referência 7; vaga livre até ele aprovar.",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "história forte, datas conferidas",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "passa",
+    "nota": "História de verdade com gancho de tensão, na linha de Deep Blue e Tay; faltava ligar com o hoje."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "passa",
+    "nota": "Tensão em 1 s, etiqueta com anos reais, CTA e envio no meio, salva pra contar e pergunta de 1 palavra."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "88 palavras (~31 s) ok, mas 'inverno' aparece sem explicação e duas frases têm 14–15 palavras."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "Datas e fontes batem (Dartmouth, Lighthill 1973, LISP 1987, AlexNet 2012); 'morreu' e 'resolver num verão' exageravam; cortes de 1973 foram no Reino Unido."
+   },
+   {
+    "revisor": "2ª volta",
+    "veredito": "passa",
+    "nota": "História clara, 3 fatos na legenda, 'salva pra contar'."
+   }
+  ],
+  "ajustes": [
+   "tese/gancho: 'morreu' → 'quase morreu' (fatos: inverno da IA é o nome que os pesquisadores dão)",
+   "e1: 'prometeram resolver a IA num verão' → 'acharam que dava pra avançar muito num verão' (fatos)",
+   "e2: cortes atribuídos ao Reino Unido + 'Primeiro inverno' para o 'Segundo inverno' fazer sentido (fatos/clareza)",
+   "e3/e5: 'computadores vendidos pra empresas'; 'aprendeu a ver imagens com placas de videogame' (vitor/fatos)",
+   "cta: pergunta de vida 'Qual foi a primeira IA que você usou?' (vitor)"
+  ],
+  "em": "2026-11-09 01:20"
+ }
+}

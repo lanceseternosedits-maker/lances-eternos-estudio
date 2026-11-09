@@ -1,0 +1,70 @@
+{
+ "data": null,
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "cidade (Referência 7)",
+ "temas": [
+  "em-qual-nivel-de-ia"
+ ],
+ "fontes": [
+  "https://help.openai.com/en/articles/8096356-custom-instructions-for-chatgpt",
+  "https://help.openai.com/en/articles/10291617-tasks-in-chatgpt",
+  "https://openai.com/index/introducing-chatgpt-agent/",
+  "https://support.claude.com/en/articles/9517075-what-are-projects"
+ ],
+ "prova_viral": "Referência 7 (@lucassena, 09/11): formato cidade em 5 etapas, 10,4 mil curtidas, 1.176 comentários, 2.977 envios. Recursos oficiais: instruções personalizadas e Tarefas do ChatGPT, ChatGPT agent (jul/2025), Projetos do Claude. Ideia aprovada pelo Vitor (09/11, via sessão do painel).",
+ "cta": "NIVEL",
+ "polemica": false,
+ "status": "roteiro aguardando aprovação",
+ "horarios": null,
+ "elementos": {
+  "trilha": "5 etapas no topo (PERGUNTA · CONTEXTO · INSTRUÇÕES · TAREFAS · AGENTE)",
+  "contador": "horas livres na semana, selo ilustrativo",
+  "legenda": "karaokê (palavra atual branca, próximas cinza) em pílula escura",
+  "camera": "órbita alta lenta em volta da torre",
+  "paleta": "menta + coral",
+  "objeto": "torre de 5 andares que acende",
+  "fechamento": "frase em 2 tempos + loop no 1º quadro",
+  "tipografia": "Space Grotesk"
+ },
+ "nota_aprovacao": "Pedido do Vitor (09/11, via sessão do painel): roteiros no formato cidade da Referência 7; vaga livre até ele aprovar.",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "escada de níveis, sem exagero, CTA no meio",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "passa",
+    "nota": "Diferente do ia-configurada: escada de 5 níveis que termina na IA agindo sozinha (delegar); cuidado pra não parecer aula."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "CTA e envio no meio certos, mas o gancho falado era descrição sem tensão."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "94 palavras (~34 s) cabem, cada nível tem 1 ideia, mas a fala do meio tem 20 palavras numa frase só."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "Recursos existem, mas 'esquece na hora', 'lembra sempre' e 'age sozinha' exageravam; Tarefas e agente dependem de plano pago."
+   },
+   {
+    "revisor": "2ª volta",
+    "veredito": "passa",
+    "nota": "Escada de 5 níveis, CTA no meio, pergunta de 1 número."
+   }
+  ],
+  "ajustes": [
+   "gancho: de 'ela responde e te esquece na hora' para 'na conversa nova ela começa do zero' (fatos + gancho: conflito sem exagero)",
+   "e1/e3/e4/e5: 'lembra sempre' → 'segue em toda conversa nova'; 'tarefas marcadas' → 'você agenda'; 'age sozinha' → 'faz o trabalho por você, com sua permissão' (fatos/vitor)",
+   "meio: frase única de 20 palavras virou 12 (clareza)",
+   "cta: pergunta de vida com 1 palavra: 'comenta o número do seu nível' (gancho)",
+   "etiqueta: tirei o jargão 'agente'; legenda diz que Tarefas e agente dependem de plano pago"
+  ],
+  "em": "2026-11-09 01:20"
+ }
+}

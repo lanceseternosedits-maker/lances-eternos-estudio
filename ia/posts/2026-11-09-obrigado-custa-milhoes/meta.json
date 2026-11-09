@@ -1,0 +1,69 @@
+{
+ "data": null,
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "cidade (Referência 7)",
+ "temas": [
+  "obrigado-custa-milhoes"
+ ],
+ "fontes": [
+  "https://www.techradar.com/computing/artificial-intelligence/chatgpt-spends-tens-of-millions-of-dollars-on-people-saying-please-and-thank-you-but-sam-altman-says-its-worth-it",
+  "https://www.entrepreneur.com/business-news/sam-altman-saying-please-and-thank-you-to-chatgpt-costs/490341",
+  "https://blog.samaltman.com/the-gentle-singularity"
+ ],
+ "prova_viral": "Sam Altman no X (16/04/2025): \"tens of millions of dollars well spent — you never know\" (TechRadar, Entrepreneur). \"The Gentle Singularity\" (10/06/2025): 0,34 Wh por pergunta, \"about what an oven would use in a little over one second\". Formato cidade da Referência 7 (@lucassena, 09/11).",
+ "cta": "OBRIGADO",
+ "polemica": true,
+ "status": "roteiro aguardando aprovação",
+ "horarios": null,
+ "elementos": {
+  "trilha": "5 etapas no topo (VOCÊ DIGITA · VIAGEM · DATA CENTER · ENERGIA · VOLTA)",
+  "contador": "mensagens (ilustrativo)",
+  "legenda": "karaokê (palavra atual branca, próximas cinza) em pílula escura",
+  "camera": "câmera que segue a bolinha de luz (seguidor)",
+  "paleta": "azul-noite + âmbar",
+  "objeto": "forno de luz ligado por 1 segundo",
+  "fechamento": "\"de nada!\" volta ao celular + loop",
+  "tipografia": "Archivo Black"
+ },
+ "nota_aprovacao": "Pedido do Vitor (09/11, via sessão do painel): roteiros no formato cidade da Referência 7; vaga livre até ele aprovar.",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "frase atribuída ao Altman, truque claro",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "ajustar",
+    "nota": "Vida prática e polêmico com fonte forte, mas o truque precisa aparecer mais cedo e mais claro."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "passa",
+    "nota": "Conflito imediato, celular no 1º quadro, número real citando o Altman, CTA no meio e pergunta fácil."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "86 palavras (~31 s), simples, mas a cena 5 junta duas ideias numa frase de 14 palavras."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "Citações do Altman corretas; faltava atribuir a frase a ele e dizer que a energia é a média por pergunta."
+   },
+   {
+    "revisor": "2ª volta",
+    "veredito": "passa",
+    "nota": "Números atribuídos ao Altman, ressalva na legenda, truque claro."
+   }
+  ],
+  "ajustes": [
+   "gancho: a frase passa a ser atribuída ao Altman ('diz o chefe da OpenAI') (fatos)",
+   "e2/e3: 'atravessa a internet' → 'viaja'; 'pensa' → 'monta a resposta' (vitor)",
+   "e4: 'uma pergunta média… por pouco mais de um segundo', fiel ao texto do Altman (fatos)",
+   "e5: duas ideias em duas frases, sem período (clareza/fatos)",
+   "cta: truque mais claro, 'junto com o próximo pedido' (vitor)"
+  ],
+  "em": "2026-11-09 01:20"
+ }
+}
