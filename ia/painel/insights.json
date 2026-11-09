@@ -1,44 +1,44 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-08 19:45",
- "leitura": "metricool_2026-11-08.json",
- "resumo": "Leitura das 19:45 sem novidade: o Metricool não atualizou as métricas desde as 07:40 (os 14 Reels têm os mesmos números) e os 7 posts de hoje, já publicados, ainda não aparecem na análise. As conclusões da manhã continuam valendo (contagem 10,8× o mascote; história dá alcance mas não salvamento); o 1º ⚙️ como funciona (advogado/FONTE) e a 2ª 📜 história (Tay) entram na próxima leitura.",
+ "em": "2026-11-09 12:58",
+ "leitura": "metricool_2026-11-09.json",
+ "resumo": "As métricas voltaram a andar: os 7 Reels de 08/11 entraram (22 Reels no total) e a contagem segue no topo (mediana 2.536 views, 5,3× o mascote no palco), com VOZ 2.502 e o 1º ⚙️ (FONTE) em 2.095. O alerta novo é o TikTok: os 7 vídeos de 08/11 fizeram 0 a 2 views cada, contra 10–93 no dia anterior; dos posts de hoje, só o MAPA (06h) aparece e ainda com 0.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "Métricas congeladas desde a manhã",
-   "evidencia": "Os 14 Reels têm exatamente os mesmos números das 07:40 (ex.: TV e celular 3.117, Deep Blue 2.705) e nenhum dos posts de 08/11 aparece na análise, embora o Metricool mostre como publicados DESIGN 07h, FONTE 09h, VOZ 11h, CAMINHO 13h, kit 15h, BICHO 17h e TAY 19h",
-   "acao": "Não mudar nada com base nesta leitura. Chefe: se amanhã cedo continuar igual, reconectar o Instagram no Metricool. Próxima leitura compara ⚙️ FONTE x 📜 TAY x 🆕 DESIGN/VOZ."
+   "titulo": "TikTok zerou em 08/11",
+   "evidencia": "Os 7 vídeos de 08/11 (DESIGN, FONTE, VOZ, CAMINHO, BICHO, TAY, ESTILO) têm 0 a 2 views cada; em 07/11 foram 10 a 93 (WINDOWS 93, EDITA 72). Mediana geral de vídeo no TikTok: 10,5 views contra 1.008 no Instagram",
+   "acao": "Chefe: abrir o TikTok do @lanceseternoss e ver se há aviso de restrição ou se os vídeos estão como privados/em análise. Enquanto isso, não tirar conclusão de TikTok; próxima leitura confere se os de hoje também zeraram."
   },
   {
    "tipo": "fazer_mais",
-   "titulo": "Contagem segue imbatível",
-   "evidencia": "7 contagens com mediana de 2.500 views contra 231 do mascote no palco (10,8×); ontem PC 2.464, Windows 2.500, Editar vídeo 2.511 e Console no celular 1.331",
-   "acao": "Manter as 4 novidades do dia em contagem com estrelas reais e 'a nº 1 é bizarra'; priorizar PC, Windows e celular, que a pessoa usa todo dia."
-  },
-  {
-   "tipo": "testar",
-   "titulo": "História dá alcance, não dá salvamento",
-   "evidencia": "Deep Blue: 2.705 views, 55% passam dos 3 s e 12,5 s de tempo médio (o maior entre os Reels de ~30 s), mas 1 salvamento e 0 envios em 2.110 de alcance; contagens salvam 1,7% a 4,0%",
-   "acao": "Nas próximas histórias, fechar com algo que dá vontade de guardar ou mandar ('salva pra contar pro seu tio', lista de 3 fatos, o documentário na legenda). É só 1 história: confirmar com mais 2 antes de mudar a mistura 4/2/2."
+   "titulo": "Contagem continua imbatível",
+   "evidencia": "10 contagens com mediana de 2.536 views e 3,0% de salvamento, contra 482 views e 0,8% do mascote no palco (10 Reels). Novas de 08/11: VOZ 2.502 (65 salvamentos) e DESIGN 1.252",
+   "acao": "Manter as 4 novidades do dia em contagem com objeto do dia a dia (TV, PC, Windows, celular, voz). Preferir 5 itens: as de 3 itens (VOZ, DESIGN) seguraram só 17% do vídeo, contra 30% de TV e SKILLS."
   },
   {
    "tipo": "corrigir",
-   "titulo": "Gancho ainda perde metade",
-   "evidencia": "Mediana de 45% passa dos 3 s; Editar vídeo caiu para 28% e Programas pro PC para 35%, enquanto Console no celular (57%), Deep Blue (55%) e Windows (54%) abrem com conflito ou com o objeto conhecido",
-   "acao": "1º quadro com a coisa que a pessoa reconhece (o jogo, a janela do Windows, a TV) e uma frase de conflito na etiqueta; nada de abrir com nome de ferramenta."
+   "titulo": "Narrativa dá views, não dá salvamento",
+   "evidencia": "Agora são 3 Reels de mascote com história/explicação (Deep Blue 2.753 views, FONTE 2.095, Tay 564): 1, 3 e 1 salvamentos (0,0–0,2% do alcance) e 0 a 4 envios; contagens salvam 1,7–4,7%. FONTE tinha 'prompt pronto' como brinde e mesmo assim salvou 0,2%",
+   "acao": "Em toda 📜 e ⚙️, mostrar na tela o truque/lista no fim ('salva: 3 frases pra IA não inventar') como cartão final legível, e pedir 'salva' na fala, não só na legenda."
   },
   {
    "tipo": "fazer_mais",
-   "titulo": "Pergunta pessoal puxa comentário",
-   "evidencia": "Console no celular teve 19 comentários em 1.107 de alcance (1,7%) com 'Qual desses você jogaria no ônibus?'; Desenho animado chegou a 23 em 444 (5,2%). Deep Blue ('acha que foi trapaça?') teve só 5",
-   "acao": "Fechar com pergunta sobre uma situação da vida da pessoa (ônibus, trabalho, casa), não opinião abstrata."
+   "titulo": "Noite rende mais",
+   "evidencia": "Posts das 18h em diante: mediana 2.478 views (6 Reels) contra 1.252 de manhã (5) e 614 à tarde (11). Parte disso é formato: as maiores contagens caíram à noite (TV, PC, 10 estilos)",
+   "acao": "Colocar a contagem mais forte da rodada no horário de 19:30 (úteis) / 19:00 (fim de semana); não mudar a grade ainda, só a escolha de qual roteiro vai em cada horário."
   },
   {
-   "tipo": "alerta",
-   "titulo": "TikTok parado",
-   "evidencia": "Mediana de 22 views por vídeo contra 970 no Instagram; melhores de ontem: Windows 88 e Editar vídeo 66. Contando todos os 14 posts de fotos, a mediana é 13 (a leitura anterior só tinha os 5 melhores, 73 a 184)",
-   "acao": "Chefe: o perfil ainda é @lanceseternoss; trocar nome e foto para IA em 60s no app. ⚙️ como funciona (morango) ainda não tem dado no Instagram: entra na próxima leitura."
+   "tipo": "testar",
+   "titulo": "10 estilos segurou metade do vídeo",
+   "evidencia": "10 estilos (lista + demo): 2.280 views e 52,5% do vídeo assistido em média, a maior retenção da leitura (contagens ficam em 17–30%); 55 salvamentos. Comentário baixo (0,3%) com pergunta de opinião ('qual é o seu favorito?')",
+   "acao": "Testar mais 2 'mesma coisa em 10 versões' (ex.: mesma foto em 10 estilos, mesmo prompt em 10 IAs) com pergunta de vida no fim, para confirmar a retenção."
+  },
+  {
+   "tipo": "corrigir",
+   "titulo": "Pergunta de opinião não puxa comentário",
+   "evidencia": "Opinião: ESTILO 0,3%, XADREZ ('foi trapaça?') 0,2%, TAY ('culpa da IA ou das pessoas?') 0,6%. Vida/experiência: Desenho animado 5,1%, Console ('no ônibus') 1,9%, CAMINHO ('qual etapa você não sabia?') 1,1%",
+   "acao": "Regra 4 confirmada: trocar toda pergunta final por situação da vida da pessoa ('onde você usaria?', 'qual você instalaria no PC do trabalho?')."
   }
  ]
 }
