@@ -54,7 +54,7 @@ const ACT = {
   s2(lt, d, t) { reset(lt); desPl(1); espTxt = "SIM!"; desEsp(lt); POTE = 1; ouve(lt, -.5); },
   s3(lt, d, t) { reset(lt); const bateu = soco(lt, .5); desPl(!bateu || Math.floor(lt * 12) % 7 === 0 && lt < 1.2); PLACA.rotation.z = bateu ? Math.min(.25, (lt - .75) * 1.2) * Math.cos((lt - .75) * 8) : 0; desEsp(lt); POTE = 1; },
   s4(lt, d, t) { reset(lt); desPl(0); PLACA.rotation.z = .12; espSincero = lt > .8; desEsp(lt); POTE = 1; ouve(lt, -.4); },
-  cta(lt, d, t) { reset(lt); desPl(0); PLACA.rotation.z = .12; espSincero = true; desEsp(lt); POTE = 1; ouve(lt, -.2); },
+  cta(lt, d, t) { reset(lt); desPl(0); PLACA.rotation.z = .12; espSincero = true; desEsp(lt); POTE = 1; pose(MAS, { x: MX, z: MZ + 1.4, y: hop(lt, .8, .03), ry: -.2, braco: [.3, .6], piscar: pisca(lt) }); MAS.g.rotation.z = 0; },
 };
 // ---------- 2D: entre y=260 e y=1500, a 130 px da direita ----------
 const ui = C => { const { X, GH, SEGR, CHAVE, blocos } = C; const GY3 = 600;
@@ -83,10 +83,10 @@ const ui = C => { const { X, GH, SEGR, CHAVE, blocos } = C; const GY3 = 600;
       X.save(); X.fillStyle = CORT2; X.beginPath(); X.rect(0, 0, 1080, 1920); X.moveTo(505 + Math.max(1, r), 1000); X.arc(505, 1000, Math.max(1, r), 0, Math.PI * 2, true); X.closePath(); X.fill();
       X.strokeStyle = OURO; X.lineWidth = 14; X.beginPath(); X.arc(505, 1000, Math.max(1, r), 0, Math.PI * 2); X.stroke(); X.restore(); },
     fechamento(lt) { // tela CONTINUE? com contagem
-      X.fillStyle = "rgba(20,10,8,.88)"; X.beginPath(); X.roundRect(90, 660, 830, 640, 30); X.fill(); X.strokeStyle = OURO; X.lineWidth = 6; X.stroke();
-      X.textAlign = "center"; X.textBaseline = "middle"; X.fillStyle = "#fff"; X.font = "400 110px BB"; X.fillText("CONTINUE?", 505, 770); const n = Math.max(0, 9 - Math.floor(lt * 1.6)); X.fillStyle = OURO; X.font = "400 190px BB"; X.save(); X.translate(505, 950); const pp = 1 + .12 * (1 - ((lt * 1.6) % 1)); X.scale(pp, pp); X.fillText(String(n), 0, 0); X.restore();
-      const p = back(lin(lt, .5, .9)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(505, 1140); X.scale(p, p); X.fillStyle = CORT; X.beginPath(); X.roundRect(-320, -66, 640, 132, 66); X.fill(); X.fillStyle = "#fff"; X.font = `400 ${cabe(90, "COMENTA " + CHAVE, 580)}px BB`; X.fillText("COMENTA " + CHAVE, 0, 6); X.restore();
-      if (lt > 1.0) { X.globalAlpha = eo(lin(lt, 1.0, 1.4)); X.fillStyle = "#f3e3cf"; X.font = "400 44px BB"; X.fillText("E RECEBE O PROMPT DA OPINIÃO SINCERA", 505, 1250); X.globalAlpha = 1; } },
+      X.fillStyle = "rgba(20,10,8,.88)"; X.beginPath(); X.roundRect(90, 650, 830, 440, 30); X.fill(); X.strokeStyle = OURO; X.lineWidth = 6; X.stroke();
+      X.textAlign = "center"; X.textBaseline = "middle"; X.fillStyle = "#fff"; X.font = "400 90px BB"; X.fillText("CONTINUE?", 505, 715); const n = Math.max(0, 9 - Math.floor(lt * 1.6)); X.fillStyle = OURO; X.font = "400 120px BB"; X.save(); X.translate(505, 830); const pp = 1 + .12 * (1 - ((lt * 1.6) % 1)); X.scale(pp, pp); X.fillText(String(n), 0, 0); X.restore();
+      const p = back(lin(lt, .5, .9)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(505, 960); X.scale(p, p); X.fillStyle = CORT; X.beginPath(); X.roundRect(-320, -66, 640, 132, 66); X.fill(); X.fillStyle = "#fff"; X.font = `400 ${cabe(90, "COMENTA " + CHAVE, 580)}px BB`; X.fillText("COMENTA " + CHAVE, 0, 6); X.restore();
+      if (lt > 1.0) { X.globalAlpha = eo(lin(lt, 1.0, 1.4)); X.fillStyle = "#f3e3cf"; X.font = "400 44px BB"; X.fillText("E RECEBE O PROMPT DA OPINIÃO SINCERA", 505, 1055); X.globalAlpha = 1; } },
   }; };
 const cores = { LAR: CORT, VERDE: OURO, FUNDO, CREME, TINTA, BRILHO: "rgba(0,0,0,0)" };
 return { SHOTS, ACT, cores, semPalco: true, ui, camera };

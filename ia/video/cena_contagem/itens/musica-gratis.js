@@ -54,7 +54,7 @@ const ACT = {
   n3(lt, d) { reset(lt); surge(G3, lin(lt, .2, .6)); PADS.forEach((p, i) => p.material.emissiveIntensity = (Math.floor(lt * 6) + i * 5) % 7 < 2 ? 1.6 : .1); patina(lt, 1.6, .9, 1.0); },
   n2(lt, d) { reset(lt); surge(G2, lin(lt, .2, .6)); FAD.forEach((f, i) => f.position.z = .1 - Math.max(0, Math.sin(lt * 2 + i * .6)) * .2); desOnda(lt); patina(lt, -1.8, .9, 1.0); },
   n1(lt, d) { reset(lt); surge(G1, lin(lt, .2, .6)); NOTAS.forEach((m, i) => { const u = (lt * .5 + i / 6) % 1; m.visible = lt > .6; m.position.set(-.8 + u * 1.6, 1.6 + Math.sin(u * Math.PI) * .9, -.35); m.rotation.z = Math.sin(lt * 3 + i) * .3; m.material.opacity = Math.sin(u * Math.PI); m.material.transparent = true; }); cab.scale.setScalar(1 + Math.sin(lt * 10) * .04); patina(lt, 1.8, .9, 1.0); },
-  cta(lt, d) { reset(lt); G1.visible = true; G1.scale.setScalar(1); feliz(lt, .9); },
+  cta(lt, d) { reset(lt); G1.visible = true; G1.scale.setScalar(1); pose(MAS, { x: 1.3, z: MZ + .6, y: hop(lt, .35, .22), ry: -.3, braco: [2.0 + Math.sin(lt * 9) * .3, 2.0 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; },
 };
 // ---------- 2D: entre y=260 e y=1500, a 130 px da direita ----------
 const ui = C => { const { X, GH, SEGR, CHAVE, ITENS, MAXE } = C; const GY3 = 620; let CAB = null;
@@ -80,11 +80,11 @@ const ui = C => { const { X, GH, SEGR, CHAVE, ITENS, MAXE } = C; const GY3 = 620
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .34) return; const u = eio(lt / .34), w = 240 + u * 2300, h = w * .62;
       X.save(); X.fillStyle = "#120c22"; X.beginPath(); X.rect(0, 0, 1080, 1920); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 20 * (1 - u) + 4); X.fill("evenodd"); X.restore(); },
     fechamento(lt) { // pódio dos 3 + COMENTA
-      X.fillStyle = "rgba(242,251,248,.85)"; X.fillRect(0, 640, 1080, 860);
-      const it = ITENS.slice().reverse(), P = [[it[0], 505, 300, ROSA, 1], [it[1], 245, 210, MENTA2, 2], [it[2], 765, 150, ROXO, 3]];
-      P.forEach(([s, x, h, c, n], i) => { const k = eo(lin(lt, .1 + i * .15, .5 + i * .15)), hh = h * k, base = 1290; X.fillStyle = c; X.fillRect(x - 125, base - hh, 250, hh); X.fillStyle = "rgba(0,0,0,.2)"; X.fillRect(x - 125, base - hh, 250, 14);
-        if (k > .6) { X.fillStyle = "#fff"; X.font = "900 76px FR"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText(n + "º", x, base - hh + 64); X.fillStyle = TINTA; X.font = `900 ${cabe(40, s.item, 240)}px FR`; X.fillText(s.item, x, base - hh - 70); X.fillStyle = "#6a6a80"; X.font = "700 30px FR"; X.fillText(fmtP(s.estrelas) + " ★", x, base - hh - 30); } });
-      X.fillStyle = TINTA; X.fillRect(80, 1290, 850, 14);
+      X.fillStyle = "rgba(242,251,248,.45)"; X.fillRect(0, 640, 1080, 860);
+      const it = ITENS.slice().reverse(), P = [[it[0], 410, 220, ROSA, 1], [it[1], 190, 150, MENTA2, 2], [it[2], 630, 110, ROXO, 3]];
+      P.forEach(([s, x, h, c, n], i) => { const k = eo(lin(lt, .1 + i * .15, .5 + i * .15)), hh = h * k, base = 1290; X.fillStyle = c; X.fillRect(x - 100, base - hh, 200, hh); X.fillStyle = "rgba(0,0,0,.2)"; X.fillRect(x - 100, base - hh, 200, 14);
+        if (k > .6) { X.fillStyle = "#fff"; X.font = "900 76px FR"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText(n + "º", x, base - hh + 64); X.fillStyle = TINTA; X.font = `900 ${cabe(40, s.item, 200)}px FR`; X.fillText(s.item, x, base - hh - 70); X.fillStyle = "#6a6a80"; X.font = "700 30px FR"; X.fillText(fmtP(s.estrelas) + " ★", x, base - hh - 30); } });
+      X.fillStyle = TINTA; X.fillRect(70, 1290, 690, 14);
       const p = back(lin(lt, .7, 1.1)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(505, 760); X.scale(p, p); X.fillStyle = ROSA; X.beginPath(); X.roundRect(-320, -62, 640, 124, 62); X.fill(); X.fillStyle = "#fff"; X.font = `900 ${cabe(70, "Comenta " + CHAVE, 580)}px FR`; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("Comenta " + CHAVE, 0, 4); X.restore();
       if (lt > 1.1) { X.globalAlpha = eo(lin(lt, 1.1, 1.5)); X.fillStyle = TINTA; X.font = "700 40px FR"; X.textAlign = "center"; X.fillText("Qual música você gravaria primeiro?", 505, 1360); X.globalAlpha = 1; } },
   }; return U; };
