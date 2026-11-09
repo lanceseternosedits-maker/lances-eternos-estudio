@@ -48,7 +48,7 @@ const ACT = {
   s2(lt) { reset(); CARIMBO.position.y = .96 + Math.abs(Math.sin(lt * 4)) * .25; olha(lt, .6); },
   s3(lt, d) { reset(); ALVO.position.z = .73; envAchado.emissiveIntensity = 1.2; const k = lin(lt, 1.2, 1.6); CART.visible = k > 0; CART.scale.setScalar(Math.max(.01, back(k))); VEL = ESTR * eio(lin(lt, .3, 1.8)); feliz(lt); },
   s4(lt) { reset(); SRV.visible = true; ledS.forEach((l, i) => l.material.emissiveIntensity = .6 + Math.max(0, Math.sin(lt * 6 - i)) * 1.5); olha(lt, -.2); },
-  cta(lt) { reset(); CART.visible = true; feliz(lt); },
+  cta(lt) { reset(); CART.visible = true; pose(MAS, { x: MX, z: MZ + 1.7, y: hop(lt, .35, .24), ry: .2, braco: [2.0 + Math.sin(lt * 9) * .3, 2.0 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; },
 };
 // ---------- 2D: entre y=260 e y=1500, a 130 px da direita ----------
 const ui = C => { const { X, GH, SEGR, CHAVE } = C; const GY3 = 600;
@@ -78,11 +78,11 @@ const ui = C => { const { X, GH, SEGR, CHAVE } = C; const GY3 = 600;
       let x = 505 - tot() / 2; X.font = `700 ${fs}px FR`; X.textAlign = "left"; for (const w of c) { const on = t >= w.t0 - .02, at = on && t < w.t1 + .2; X.fillStyle = at ? "#ffe9a0" : on ? "#fff" : "rgba(255,255,255,.45)"; X.fillText(w.w, x, y + 4); x += X.measureText(w.w + " ").width; } },
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .34) return; const u = eio(lt / .34), w = 200 + u * 2300, h = w * 1.85;
       X.save(); X.fillStyle = "#0d1a12"; X.beginPath(); X.rect(0, 0, 1080, 1920); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 40 * (1 - u) + 6); X.fill("evenodd"); X.strokeStyle = VG; X.lineWidth = 12; X.beginPath(); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 40 * (1 - u) + 6); X.stroke(); X.restore(); },
-    fechamento(lt) { X.fillStyle = "rgba(15,40,25,.9)"; X.fillRect(60, 620, 890, 840); X.strokeStyle = OURO; X.lineWidth = 6; X.strokeRect(70, 630, 870, 820);
-      const p = back(lin(lt, 0, .4)); X.save(); X.translate(505, 760); X.scale(p, p); X.fillStyle = "#ffe9a0"; X.font = "700 100px FR"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("CONTINUE?", 0, 0); X.restore();
-      const n = Math.max(0, 9 - Math.floor(lt * 2)); X.fillStyle = "#7cf2a8"; X.font = "700 160px FR"; X.textAlign = "center"; X.fillText(String(n), 505, 960);
-      if (lt > .8) { X.globalAlpha = eo(lin(lt, .8, 1.2)); X.fillStyle = CR; X.font = "700 46px FR"; X.fillText("Que mensagem você nunca acha?", 505, 1110); X.globalAlpha = 1; }
-      const pul = 1 + Math.sin(lt * 7) * .03; X.save(); X.translate(505, 1300); X.scale(pul, pul); X.fillStyle = VG; X.beginPath(); X.roundRect(-280, -62, 560, 124, 62); X.fill(); X.fillStyle = "#fff"; X.font = "700 70px FR"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("COMENTA " + CHAVE, 0, 4); X.restore(); },
+    fechamento(lt) { X.fillStyle = "rgba(15,40,25,.9)"; X.fillRect(60, 620, 890, 500); X.strokeStyle = OURO; X.lineWidth = 6; X.strokeRect(70, 630, 870, 480);
+      const p = back(lin(lt, 0, .4)); X.save(); X.translate(505, 700); X.scale(p, p); X.fillStyle = "#ffe9a0"; X.font = "700 86px FR"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("CONTINUE?", 0, 0); X.restore();
+      const n = Math.max(0, 9 - Math.floor(lt * 2)); X.fillStyle = "#7cf2a8"; X.font = "700 110px FR"; X.textAlign = "center"; X.fillText(String(n), 505, 840);
+      if (lt > .8) { X.globalAlpha = eo(lin(lt, .8, 1.2)); X.fillStyle = CR; X.font = "700 46px FR"; X.fillText("Que mensagem você nunca acha?", 505, 930); X.globalAlpha = 1; }
+      const pul = 1 + Math.sin(lt * 7) * .03; X.save(); X.translate(505, 1030); X.scale(pul, pul); X.fillStyle = VG; X.beginPath(); X.roundRect(-280, -62, 560, 124, 62); X.fill(); X.fillStyle = "#fff"; X.font = "700 70px FR"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("COMENTA " + CHAVE, 0, 4); X.restore(); },
   }; };
 const cores = { LAR: VG, VERDE: OURO, FUNDO, CREME: CR, TINTA, BRILHO: "rgba(0,0,0,0)" };
 return { SHOTS, ACT, cores, semPalco: true, ui, camera };

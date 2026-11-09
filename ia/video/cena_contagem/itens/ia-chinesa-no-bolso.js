@@ -58,7 +58,7 @@ const ACT = {
   s2(lt, d) { reset(lt); fluxo(lt, true); telaD(lin(lt, .2, d - .2)); pilota(lt); },
   s3(lt, d) { reset(lt); fluxo(lt, true); telaD(1); HS = 16666 * eio(lin(lt, .3, 2.4)); feliz(lt); },
   s4(lt, d) { reset(lt); fluxo(lt, false); telaD(1); CAD.visible = true; CAD.scale.setScalar(Math.max(.01, back(lin(lt, .2, .6)))); PLACA.visible = lt > 1.0; PLACA.scale.setScalar(Math.max(.01, back(lin(lt, 1.0, 1.4)))); olha(lt, .6); },
-  cta(lt, d) { reset(lt); fluxo(lt, true); telaD(1); CAD.visible = true; PLACA.visible = true; feliz(lt); },
+  cta(lt, d) { reset(lt); fluxo(lt, true); telaD(1); CAD.visible = true; PLACA.visible = true; pose(MAS, { x: MX, z: MZ + 1.2, y: hop(lt, .35, .24), ry: .3, braco: [2.0 + Math.sin(lt * 9) * .3, 2.0 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; },
 };
 // ---------- 2D: entre y=260 e y=1500, a 130 px da direita ----------
 const ui = C => { const { X, GH, SEGR, CHAVE } = C; const GY3 = 600;
@@ -82,7 +82,7 @@ const ui = C => { const { X, GH, SEGR, CHAVE } = C; const GY3 = 600;
       let x = 505 - tot() / 2; X.font = `400 ${fs}px AB`; X.textAlign = "left"; for (const w of c) { const on = t >= w.t0 - .02, at = on && t < w.t1 + .2; X.fillStyle = at ? OURO : on ? "#fff" : "rgba(255,255,255,.45)"; X.fillText(w.w, x, y + 4); x += X.measureText(w.w + " ").width; } },
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .34) return; const u = eio(lt / .34), w = 180 + u * 2300, h = w * 1.85;
       X.save(); X.fillStyle = "#0e0707"; X.beginPath(); X.rect(0, 0, 1080, 1920); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 40 * (1 - u) + 6); X.fill("evenodd"); X.strokeStyle = JADE; X.lineWidth = 12; X.beginPath(); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 40 * (1 - u) + 6); X.stroke(); X.restore(); },
-    fechamento(lt) { X.save(); X.translate(505, 1020); X.rotate(-.01); X.fillStyle = "#fffdf6"; X.shadowColor = "rgba(0,0,0,.3)"; X.shadowBlur = 20; X.fillRect(-440, -320, 880, 640); X.shadowColor = "transparent";
+    fechamento(lt) { X.save(); X.translate(620, 900); X.scale(.72, .72); X.rotate(-.01); X.fillStyle = "#fffdf6"; X.shadowColor = "rgba(0,0,0,.3)"; X.shadowBlur = 20; X.fillRect(-440, -320, 880, 640); X.shadowColor = "transparent";
       X.strokeStyle = "rgba(224,49,43,.2)"; X.lineWidth = 2; for (let y = -250; y < 320; y += 64) { X.beginPath(); X.moveTo(-440, y); X.lineTo(440, y); X.stroke(); }
       X.fillStyle = VERM; X.font = "400 48px AB"; X.textAlign = "left"; X.textBaseline = "alphabetic"; X.fillText("ANTES DE INSTALAR:", -390, -200);
       ["leia o README todo", "use num PC de teste", "não deixe senha aberta"].forEach((l, i) => { const a = eo(lin(lt, .15 + i * .2, .5 + i * .2)); X.globalAlpha = a; X.fillStyle = TINTA; X.font = "400 44px AB"; X.fillText("✓ " + l, -380 + (1 - a) * 30, -122 + i * 64); });
