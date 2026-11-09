@@ -55,7 +55,7 @@ const ACT = {
   n2(lt) { reset(); telaD("iphone"); olha(lt, .6); },
   n1(lt, d) { const k = lin(lt, .8, 2.6); telaD("limpo", k); BOL.forEach((b, i) => { const t0 = .8 + i * .18, u = lin(lt, t0, t0 + .9); b.visible = u > 0 && u < 1; if (!b.visible) return; b.position.set(.6 + Math.sin(i * 2.1) * .8 * u, 1.9 + u * 1.2, -.4 + Math.cos(i) * .3); b.scale.setScalar(u < .8 ? .6 + u : (1 - u) * 7); });
     if (k < 1) conserta(lt); else feliz(lt); },
-  cta(lt) { reset(); telaD("limpo", 1); feliz(lt); },
+  cta(lt) { reset(); telaD("limpo", 1); pose(MAS, { x: MX, z: MZ + .9, y: hop(lt, .35, .24), ry: .3, braco: [2.0 + Math.sin(lt * 9) * .3, 2.0 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; },
 };
 // ---------- 2D: entre y=260 e y=1500, a 130 px da direita ----------
 const ui = C => { const { X, GH, SEGR, CHAVE, ITENS, MAXE } = C; const GY3 = 620; let CAB = null;
@@ -85,8 +85,8 @@ const ui = C => { const { X, GH, SEGR, CHAVE, ITENS, MAXE } = C; const GY3 = 620
     fechamento(lt) { const it = ITENS.slice().reverse().slice(0, 3); it.forEach((s, i) => { const x = 210 + i * 300, y = 860, p = lin(lt, .15 + i * .22, .55 + i * .22), sx = Math.abs(Math.cos(p * Math.PI)), frente = p >= .5;
         X.save(); X.translate(x, y); X.scale(Math.max(.02, sx), 1); X.fillStyle = frente ? "#fff" : TURQ; X.beginPath(); X.roundRect(-130, -180, 260, 360, 22); X.fill(); X.textAlign = "center"; X.textBaseline = "middle";
         if (!frente) { X.fillStyle = "#fff"; X.font = "400 140px AB"; X.fillText("?", 0, 8); } else { X.fillStyle = LAR; X.font = "400 60px AB"; X.fillText("Nº " + (i + 1), 0, -100); X.fillStyle = TINTA; X.font = `400 ${cabe(40, s.item, 230)}px AB`; X.fillText(s.item, 0, -10); X.fillStyle = TURQ2; X.font = "400 40px AB"; X.fillText(fmtP(s.estrelas) + " ★", 0, 80); } X.restore(); });
-      const p = back(lin(lt, .9, 1.3)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(505, 1210); X.scale(p, p); X.fillStyle = LAR; X.beginPath(); X.roundRect(-340, -62, 680, 124, 62); X.fill(); X.fillStyle = "#fff"; X.font = "400 66px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("COMENTA " + CHAVE, 0, 4); X.restore();
-      if (lt > 1.3) { X.globalAlpha = eo(lin(lt, 1.3, 1.7)); X.fillStyle = TINTA; X.font = "400 38px AB"; X.textAlign = "center"; X.fillText("Seu celular tem propaganda no sistema?", 505, 1330); X.globalAlpha = 1; } },
+      const p = back(lin(lt, .9, 1.3)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(670, 1180); X.scale(p, p); X.fillStyle = LAR; X.beginPath(); X.roundRect(-260, -54, 520, 108, 54); X.fill(); X.fillStyle = "#fff"; X.font = "400 46px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("COMENTA " + CHAVE, 0, 4); X.restore();
+      if (lt > 1.3) { X.globalAlpha = eo(lin(lt, 1.3, 1.7)); X.fillStyle = TINTA; X.font = "400 28px AB"; X.textAlign = "center"; X.fillText("Seu celular tem propaganda no sistema?", 670, 1285); X.globalAlpha = 1; } },
   }; return U; };
 const cores = { LAR, VERDE: TURQ, FUNDO, CREME: BRANCO, TINTA, BRILHO: "rgba(0,0,0,0)" };
 return { SHOTS, ACT, cores, semPalco: true, ui };

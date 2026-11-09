@@ -52,7 +52,7 @@ const ACT = {
   s2(lt, d) { reset(lt); preco(0); bal(BALS[0], lin(lt, .8, 1.2), 2.3); bal(BALS[1], lin(lt, 2.2, 2.6), 3.0); chao2(lt, -.9, -.5); },
   s3(lt, d) { reset(lt); const k = lin(lt, 1.0, 2.2); preco(k < 1 ? k * .99 : 1); bal(BALS[2], lin(lt, 2.4, 2.8), 2.6); if (lt < 2.4) chao2(lt, 1.85, -.3); else pula(lt); },
   s4(lt, d) { reset(lt); preco(1); const b = lin(lt, 1.2, 1.8); TAG.rotation.z = b * .6; chao2(lt, 1.85, -.2); },
-  cta(lt, d) { reset(lt); preco(1); pose(MAS, { x: 1.9, z: 1.5, y: hop(lt, .35, .24), ry: -.4, braco: [2.0 + Math.sin(lt * 9) * .3, 2.0 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; },
+  cta(lt, d) { reset(lt); preco(1); pose(MAS, { x: 1.45, z: 1.5, y: hop(lt, .35, .24), ry: -.4, braco: [2.0 + Math.sin(lt * 9) * .3, 2.0 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; },
 };
 // ---------- 2D: entre y=260 e y=1500, a 130 px da direita ----------
 const ui = C => { const { X, GH, SEGR, CHAVE, blocos } = C; const GY3 = 600;

@@ -51,7 +51,7 @@ const ACT = {
   s2(lt, d) { reset(); papel("generico"); DUV.forEach((m, i) => { const k = lin(lt, .4 + i * .9, .8 + i * .9); m.visible = k > 0; m.scale.setScalar(Math.max(.01, back(k))); m.position.set(MX - .6 + i * .8, 2.6 + (i % 2) * .3 + Math.sin(lt * 2 + i) * .05, MZ); m.lookAt(cam.position); }); QUAL = .22; duvida(lt); },
   s3(lt, d) { reset(); papel("ficha", lin(lt, .3, d)); QUAL = .22 + eio(lin(lt, .3, d - .3)) * .55; le(lt, .5); },
   s4(lt, d) { reset(); papel("ficha", lin(lt, .2, d - .5)); QUAL = .77 + eio(lin(lt, 0, d)) * .18; if (lt < d * .6) le(lt, .5); else feliz(lt); },
-  cta(lt) { reset(); papel("ficha", 1); QUAL = .95; feliz(lt); },
+  cta(lt) { reset(); papel("ficha", 1); QUAL = .95; pose(MAS, { x: MX, z: MZ + 1.7, y: hop(lt, .35, .24), ry: .2, braco: [2.0 + Math.sin(lt * 9) * .3, 2.0 + Math.sin(lt * 9 + 1) * .3], piscar: pisca(lt) }); MAS.g.rotation.z = 0; },
 };
 // ---------- 2D: entre y=260 e y=1500, a 130 px da direita ----------
 const ui = C => { const { X, GH, SEGR, CHAVE, blocos } = C; const GY3 = 600;
@@ -79,11 +79,11 @@ const ui = C => { const { X, GH, SEGR, CHAVE, blocos } = C; const GY3 = 600;
       X.fillStyle = "rgba(255,111,97,.55)"; X.beginPath(); X.roundRect(xs[0][0] - 14, y - fs * .32, Math.max(0, fim - xs[0][0] + 14), fs * .62, 8); X.fill();
       X.textAlign = "left"; X.textBaseline = "middle"; c.forEach((w, i) => { X.fillStyle = TINTA; X.fillText(w.w, xs[i][0], y + 2); }); },
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .3) return; const k = 1 - lt / .3, cv = X.canvas; X.save(); for (let i = 1; i <= 6; i++) { X.globalAlpha = .22 * k; X.drawImage(cv, i * 70 * k, 0); X.drawImage(cv, -i * 50 * k, 0); } X.globalAlpha = .5 * k; X.fillStyle = "#fff"; for (let i = 0; i < 14; i++) X.fillRect(0, 300 + (i * 97) % 1200, 1080, 4 + (i % 3) * 3); X.restore(); },
-    fechamento(lt) { X.fillStyle = "rgba(31,35,41,.9)"; X.fillRect(60, 620, 890, 840); X.strokeStyle = CORAL; X.lineWidth = 6; X.strokeRect(70, 630, 870, 820);
-      const p = back(lin(lt, 0, .4)); X.save(); X.translate(505, 750); X.scale(p, p); X.fillStyle = AMAR; X.font = "700 110px CV"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("Continue?", 0, 0); X.restore();
-      const n = Math.max(0, 9 - Math.floor(lt * 2)); X.fillStyle = CORAL; X.font = "700 150px CV"; X.textAlign = "center"; X.fillText(String(n), 505, 930);
-      if (lt > .8) { X.globalAlpha = eo(lin(lt, .8, 1.2)); X.fillStyle = CR; X.font = "700 52px CV"; X.fillText("Qual pedido você vai refazer?", 505, 1090); X.globalAlpha = 1; }
-      const pul = 1 + Math.sin(lt * 7) * .03; X.save(); X.translate(505, 1290); X.scale(pul, pul); X.fillStyle = CORAL; X.beginPath(); X.roundRect(-340, -64, 680, 128, 64); X.fill(); X.fillStyle = "#fff"; X.font = "700 76px CV"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("Comenta " + CHAVE, 0, 4); X.restore(); },
+    fechamento(lt) { X.fillStyle = "rgba(31,35,41,.9)"; X.fillRect(60, 620, 890, 500); X.strokeStyle = CORAL; X.lineWidth = 6; X.strokeRect(70, 630, 870, 480);
+      const p = back(lin(lt, 0, .4)); X.save(); X.translate(505, 700); X.scale(p, p); X.fillStyle = AMAR; X.font = "700 92px CV"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("Continue?", 0, 0); X.restore();
+      const n = Math.max(0, 9 - Math.floor(lt * 2)); X.fillStyle = CORAL; X.font = "700 110px CV"; X.textAlign = "center"; X.fillText(String(n), 505, 835);
+      if (lt > .8) { X.globalAlpha = eo(lin(lt, .8, 1.2)); X.fillStyle = CR; X.font = "700 52px CV"; X.fillText("Qual pedido você vai refazer?", 505, 930); X.globalAlpha = 1; }
+      const pul = 1 + Math.sin(lt * 7) * .03; X.save(); X.translate(505, 1030); X.scale(pul, pul); X.fillStyle = CORAL; X.beginPath(); X.roundRect(-340, -64, 680, 128, 64); X.fill(); X.fillStyle = "#fff"; X.font = "700 76px CV"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("Comenta " + CHAVE, 0, 4); X.restore(); },
   }; };
 const cores = { LAR: CORAL, VERDE, FUNDO, CREME: CR, TINTA, BRILHO: "rgba(0,0,0,0)" };
 return { SHOTS, ACT, cores, semPalco: true, ui, camera };
