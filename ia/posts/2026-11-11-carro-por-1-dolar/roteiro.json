@@ -16,7 +16,7 @@
   "fechamento": "f) cartões que viram",
   "tipografia": "f) Bebas Neue (trocado: Space Grotesk repetiria o Bizarros)",
   "som": "trilha 03 + caixa registradora",
-  "mascote": "chave de carro no pescoço; ação principal: pular de alegria em cima do capô"
+  "mascote": "chave do carro pendurada no braço (fora do rosto); ação principal: pular de alegria em cima do capô"
  },
  "brinde": "a reportagem do caso + a lição pra quem usa chatbot no negócio",
  "fontes": [
@@ -47,7 +47,8 @@
     "O ROBÔ QUE VENDEU UM CARRO POR 1 DÓLAR",
     "CHEVROLET, DEZEMBRO DE 2023",
     "E DISSE QUE VALIA NA JUSTIÇA"
-   ]
+   ],
+   "itens": "carro-por-1-dolar"
   },
   {
    "cena": "s1",

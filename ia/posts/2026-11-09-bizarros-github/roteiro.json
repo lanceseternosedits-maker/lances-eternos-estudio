@@ -15,7 +15,7 @@
   "fechamento": "b) pódio",
   "tipografia": "a) Space Grotesk (trocado: Caveat repetiria o Turing)",
   "som": "trilha 03 + efeitos de cidade",
-  "mascote": "acessório e ação do conceito; ação principal: cozinhar"
+  "mascote": "luvas brancas de curador; ação principal: polir as redomas do museu"
  },
  "brinde": "links dos 5",
  "fontes": [
@@ -25,7 +25,7 @@
   "https://github.com/chenglou/handwired",
   "https://github.com/aschmelyun/print-my-profile-pic"
  ],
- "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Athenaion 685, Qwenputer 703, Web Ocean 1.005, Handwired 2.127, Print My Profile Pic 1.801; total 6.321; criados entre 15/10 e 27/10.",
+ "prova_viral": "Estrelas no GitHub (API, 07/11/2026): Athenaion 685, Qwenputer 703, Web Ocean 1.005, Handwired 2.127, Print My Profile Pic 1.801; total 6.321; criados entre 15/10 e 27/10. Relido em 09/11 (API do GitHub): 6.421 estrelas nos 5. Fala do web-ocean trocada: \"arquivo menor que uma foto\" não está na fonte.",
  "obs": "",
  "polemica": false,
  "agenda": "2026-11-11 19:30",
@@ -57,7 +57,7 @@
    "tag": "5º",
    "item": "Athenaion",
    "repo": "Leonxlnx/athenaion",
-   "estrelas": 685,
+   "estrelas": 691,
    "fala": "Quinto: uma Grécia antiga inteira feita só com código, sem uma imagem.",
    "legenda": "Quinto: uma Grécia antiga inteira feita só com código, sem uma imagem.",
    "sfx": [
@@ -73,7 +73,7 @@
    "tag": "4º",
    "item": "Qwenputer",
    "repo": "divagr18/qwenputer",
-   "estrelas": 703,
+   "estrelas": 758,
    "fala": "Quarto: um computador inteiro escondido dentro de uma IA.",
    "legenda": "Quarto: um computador inteiro escondido dentro de uma IA.",
    "sfx": [
@@ -89,9 +89,9 @@
    "tag": "3º",
    "item": "Web Ocean",
    "repo": "Noniv/web-ocean",
-   "estrelas": 1005,
-   "fala": "Terceiro: um oceano com pôr do sol num arquivo menor que uma foto. Esse é lindo… comenta BIZARRO que eu te mando os cinco. Mas o próximo é pior.",
-   "legenda": "Terceiro: um oceano com pôr do sol num arquivo menor que uma foto. Esse é lindo… comenta BIZARRO que eu te mando os cinco. Mas o próximo é pior.",
+   "estrelas": 1013,
+   "fala": "Terceiro: um oceano com pôr do sol feito do zero, sem motor de jogo. Esse é lindo… comenta BIZARRO que eu te mando os cinco. Mas o próximo é pior.",
+   "legenda": "Terceiro: um oceano com pôr do sol feito do zero, sem motor de jogo. Esse é lindo… comenta BIZARRO que eu te mando os cinco. Mas o próximo é pior.",
    "sfx": [
     {
      "t": 0.0,
@@ -105,7 +105,7 @@
    "tag": "2º",
    "item": "Handwired",
    "repo": "chenglou/handwired",
-   "estrelas": 2127,
+   "estrelas": 2135,
    "fala": "Segundo: transforma código comum numa rede neural.",
    "legenda": "Segundo: transforma código comum numa rede neural.",
    "sfx": [
@@ -121,7 +121,7 @@
    "tag": "1º",
    "item": "Print My Profile Pic",
    "repo": "aschmelyun/print-my-profile-pic",
-   "estrelas": 1801,
+   "estrelas": 1824,
    "fala": "E o primeiro: você dá uma estrela e a sua foto sai impressa numa maquininha de recibo.",
    "legenda": "E o primeiro: você dá uma estrela e a sua foto sai impressa numa maquininha de recibo.",
    "sfx": [
