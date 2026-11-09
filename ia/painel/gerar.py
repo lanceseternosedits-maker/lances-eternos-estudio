@@ -508,6 +508,34 @@ def main() -> None:
     # ---- 💵 Caixa do produto (agente financeiro): números ao vivo de /api/financeiro, preenchidos pelo script da página
     html_gastos = (f'<div id="caixa" data-gastos-brl="{total_mes * cambio:.2f}" data-cambio="{cambio}"><h3>💵 Super Assistente de IA</h3><p class="mut">carregando vendas…</p></div>'
                    + '<h3>💸 Gastos do projeto</h3>' + html_gastos)
+    # ---- 🧠 Consumo da Claude (Vitor, 09/11): quem gasta o limite de uso; dados em painel/consumo.json (python3 painel/consumo.py)
+    html_consumo = '<p class="mut">Sem leitura ainda (rode python3 painel/consumo.py).</p>'
+    ck = IA / "painel" / "consumo.json"
+    if ck.exists():
+        C = json.loads(ck.read_text(encoding="utf-8"))
+        barra = lambda pct, cor: f'<div class="cbar"><i style="width:{max(pct, 0.6)}%;background:{cor}"></i></div>'
+        pizza, acc = [], 0.0
+        for g in C["grupos"]:
+            pizza.append(f'{g["cor"]} {acc:.2f}% {acc + g["pct"]:.2f}%'); acc += g["pct"]
+        tk = C["tokens_pct"]; TKN = [("cache_lido", "releitura de contexto", "#ff7a3d"), ("cache_gravado", "contexto novo guardado", "#f5b83d"),
+                                     ("saida", "texto escrito", "#38c172"), ("entrada", "texto lido novo", "#3d7bf2")]
+        html_consumo = ('<div class="filas"><div class="kpi"><b>US$ ' + f'{C["total_usd"]:,.0f}'.replace(",", ".") + '</b><span>peso total (equivalente em API)</span></div>'
+            + f'<div class="kpi"><b>{C["grupos"][0]["pct"]}%</b><span>{esc(C["grupos"][0]["nome"])}</span></div>'
+            + f'<div class="kpi"><b>{tk.get("cache_lido", 0)}%</b><span>dos tokens são releitura de contexto</span></div></div>'
+            + '<div class="analista"><p class="it">🧠 Leitura</p>' + "".join(f"<p>• {esc(x)}</p>" for x in C["leitura"]) + '</div>'
+            + '<h3>Por tarefa</h3><div class="cpie" style="background:conic-gradient(' + ",".join(pizza) + ')"></div>'
+            + "".join(f'<div class="crow"><span><b>{esc(g["nome"])}</b><small>{g["sessoes"]} {"sessão" if g["sessoes"] == 1 else "sessões"} · US$ {g["usd"]:.2f}</small></span><em>{g["pct"]}%</em>{barra(g["pct"], g["cor"])}</div>' for g in C["grupos"])
+            + '<h3>Por modelo</h3>' + "".join(f'<div class="crow"><span><b>{esc(m["modelo"])}</b><small>US$ {m["usd"]:.2f}</small></span><em>{m["pct"]}%</em>{barra(m["pct"], "#7b61ff" if "Opus" in m["modelo"] else "#3d7bf2")}</div>' for m in C["modelos"])
+            + '<h3>Onde vão os tokens</h3><div class="cstack">' + "".join(f'<i style="width:{tk.get(k, 0)}%;background:{c}" title="{n}"></i>' for k, n, c in TKN) + '</div>'
+            + '<div class="cleg">' + "".join(f'<span><i style="background:{c}"></i>{n} {tk.get(k, 0)}%</span>' for k, n, c in TKN) + '</div>'
+            + '<h3>Sessões que mais pesaram</h3><table class="gastos"><tr><th>Sessão</th><th class="num">Peso</th></tr>'
+            + "".join(f'<tr><td><b>{esc(t["titulo"])}</b><br><small>{esc(t["modelo"])} · desde {t["criada"][8:10]}/{t["criada"][5:7]} · {t["cache_lido_m"]} mi tokens relidos</small></td><td class="num"><b>US$ {t["usd"]:.2f}</b></td></tr>' for t in C["top"])
+            + '</table><p class="mut">' + esc(C["nota"]) + f' Leitura de {esc(C["lido_em"][:16].replace("T", " "))} UTC.</p>'
+            + '<style>.cpie{width:150px;height:150px;border-radius:50%;margin:6px auto 14px;box-shadow:inset 0 0 0 38px var(--bg,#0d1117)}'
+            + '.crow{display:grid;grid-template-columns:1fr auto;gap:2px 10px;margin:8px 0}.crow span b{display:block;font-size:14px}.crow small{color:#8b949e;font-size:12px}.crow em{font-style:normal;font-weight:800;align-self:center}'
+            + '.cbar{grid-column:1/-1;height:9px;background:#ffffff14;border-radius:9px;overflow:hidden}.cbar i{display:block;height:100%;border-radius:9px}'
+            + '.cstack{display:flex;height:22px;border-radius:11px;overflow:hidden;margin:8px 0}.cstack i{display:block;height:100%}'
+            + '.cleg{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:12.5px}.cleg i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px}</style>')
 
     cont = defaultdict(int)
     for c in cartoes:
@@ -533,7 +561,7 @@ header h1{{margin:0;font-size:19px;flex:1}}header h1 small{{display:block;font-s
 .ib{{font:inherit;font-size:13px;font-weight:600;padding:7px 11px;border-radius:20px;border:1px solid var(--line);background:var(--card);color:var(--tx);cursor:pointer}}
 #sino{{border-color:#ffb54766;color:var(--esp)}}#sino.ok{{border-color:#3ecf8e66;color:var(--ok)}}
 main{{padding:12px 14px 20px;max-width:1100px;margin:auto}}
-.aba{{display:none}}body[data-tab=aprovar] .aba-aprovar,body[data-tab=agenda] .aba-agenda,body[data-tab=publicados] .aba-publicados,body[data-tab=todos] .aba-todos,body[data-tab=gastos] .aba-gastos,body[data-tab=resultados] .aba-resultados,body[data-tab=equipe] .aba-equipe{{display:block}}
+.aba{{display:none}}body[data-tab=aprovar] .aba-aprovar,body[data-tab=agenda] .aba-agenda,body[data-tab=publicados] .aba-publicados,body[data-tab=todos] .aba-todos,body[data-tab=gastos] .aba-gastos,body[data-tab=resultados] .aba-resultados,body[data-tab=equipe] .aba-equipe,body[data-tab=consumo] .aba-consumo{{display:block}}
 body[data-tab=gastos] #grade,body[data-tab=gastos] #vazio,body[data-tab=resultados] #grade,body[data-tab=resultados] #vazio,body[data-tab=equipe] #grade,body[data-tab=equipe] #vazio{{display:none!important}}
 .ins{{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--mut);border-radius:14px;padding:10px 12px;margin:0 0 8px}}.ins h4{{margin:2px 0 6px;font-size:15px}}.ins p{{margin:4px 0;font-size:13px}}.ins .ev{{color:var(--mut)}}.it{{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);margin:0}}.ins-ok{{border-left-color:#3fb950}}.ins-warn{{border-left-color:#d29922}}.ins-info{{border-left-color:#58a6ff}}.ins-erro{{border-left-color:var(--erro)}}.analista{{background:linear-gradient(135deg,#2a1f4a,#1c2a3f);border-radius:14px;padding:12px;margin:0 0 10px}}.analista p{{margin:4px 0;font-size:14px}}.barra{{height:6px;background:var(--line);border-radius:3px;margin-top:6px}}.barra i{{display:block;height:100%;background:#e8834a;border-radius:3px}}table.res .num{{width:78px}}table.res a{{color:inherit;text-decoration:none}}ul.auto{{font-size:13px;color:var(--mut);padding-left:18px}}ul.auto li{{margin:4px 0}}
 .kpi{{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 8px;text-align:center}}.kpi b{{display:block;font-size:19px}}.kpi span{{font-size:11px;color:var(--mut)}}
@@ -608,11 +636,12 @@ details.resp textarea{{width:100%;box-sizing:border-box;background:var(--bg);col
 <section class="aba aba-resultados"><h2>📊 Resultados</h2><div class="analista" id="robo"><p class="it">🤖 Robô de comentários</p><p>carregando…</p></div>{html_resultados}</section>
 <section class="aba aba-equipe"><h2>🏢 Equipe</h2></section>
 <section class="aba aba-gastos"><h2>💰 Gastos de {agora:%m/%Y}</h2>{html_gastos}</section>
+<section class="aba aba-consumo"><h2>🧠 Consumo da Claude</h2>{html_consumo}</section>
 <section class="aba aba-todos"><h2>Todos os posts ({len(cartoes)})</h2><div class="chipsbar" id="baldes"><button data-b="" class="on">Todos</button>{chips_todos}</div><div class="chipsbar" id="cats-t"><button data-c="" class="on">Todas</button>{chips_cat}</div></section>
 <div class="grade" id="grade">{"".join(html_cartoes)}</div>
 <div class="vazio" id="vazio" style="display:none">Nada por aqui 🎉</div>
 </main>
-<nav><button data-t="aprovar"><i>📥</i>Aprovar<span class="badge" data-cont="pend"></span></button><button data-t="agenda"><i>📅</i>Agenda</button><button data-t="publicados"><i>✅</i>Publicados</button><button data-t="todos"><i>🗂</i>Todos</button><button data-t="resultados"><i>📊</i>Result.</button><button data-t="equipe"><i>🏢</i>Equipe</button><button data-t="gastos"><i>💰</i>Gastos</button></nav>
+<nav><button data-t="aprovar"><i>📥</i>Aprovar<span class="badge" data-cont="pend"></span></button><button data-t="agenda"><i>📅</i>Agenda</button><button data-t="publicados"><i>✅</i>Publicados</button><button data-t="todos"><i>🗂</i>Todos</button><button data-t="resultados"><i>📊</i>Result.</button><button data-t="equipe"><i>🏢</i>Equipe</button><button data-t="gastos"><i>💰</i>Gastos</button><button data-t="consumo"><i>🧠</i>Uso</button></nav>
 <script>
 const F = {{ fila: 'pend', e: '', ca: '', b: '', ct: '', chance: false }};
 const FILA = {{ aprovar: 'pend', 'aprovado-agora': 'aprov', producao: 'aprov', 'negado-agora': 'neg', negado: 'neg' }};
@@ -685,7 +714,7 @@ document.querySelectorAll('#cats-t button').forEach(b => b.onclick = () => {{ F.
 """ + JS + """
 const inicio = (location.hash || '').slice(1).replace('pendentes', 'aprovar');
 recontar();
-aba(['aprovar', 'agenda', 'publicados', 'todos', 'resultados', 'gastos'].includes(inicio) ? inicio : (document.querySelector('#grade article[data-bucket=aprovar]') ? 'aprovar' : 'agenda'));
+aba(['aprovar', 'agenda', 'publicados', 'todos', 'resultados', 'gastos', 'consumo', 'equipe'].includes(inicio) ? inicio : (document.querySelector('#grade article[data-bucket=aprovar]') ? 'aprovar' : 'agenda'));
 // ✅ na Agenda (Vitor, 08/11): confere ao vivo no Instagram o que já foi ao ar (Reel/post e story) e marca a linha
 fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.json() : { itens: [] }).then(({ itens = [] }) => {
   const ts = itens.map((i) => ({ t: Date.parse(i.t), tipo: i.tipo, url: i.url })).filter((i) => !isNaN(i.t));

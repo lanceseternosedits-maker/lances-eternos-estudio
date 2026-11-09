@@ -1,0 +1,204 @@
+{
+ "lido_em": "2026-11-09T14:32:49Z",
+ "total_usd": 483.26,
+ "grupos": [
+  {
+   "grupo": "painel",
+   "nome": "🧭 Conversa do painel (orquestra tudo)",
+   "cor": "#ff7a3d",
+   "usd": 210.11,
+   "pct": 43.5,
+   "sessoes": 1,
+   "cache_lido_m": 602.7,
+   "saida_m": 1.23
+  },
+  {
+   "grupo": "setup",
+   "nome": "🛠️ Montagem do projeto",
+   "cor": "#f5b83d",
+   "usd": 104.39,
+   "pct": 21.6,
+   "sessoes": 3,
+   "cache_lido_m": 208.2,
+   "saida_m": 0.64
+  },
+  {
+   "grupo": "producao",
+   "nome": "🎬 Produção de vídeos",
+   "cor": "#7b61ff",
+   "usd": 90.3,
+   "pct": 18.7,
+   "sessoes": 8,
+   "cache_lido_m": 208.6,
+   "saida_m": 0.91
+  },
+  {
+   "grupo": "outros",
+   "nome": "📦 Outros projetos do Vitor",
+   "cor": "#9aa0ab",
+   "usd": 64.91,
+   "pct": 13.4,
+   "sessoes": 9,
+   "cache_lido_m": 122.4,
+   "saida_m": 0.56
+  },
+  {
+   "grupo": "roteiros",
+   "nome": "✍️ Roteiros",
+   "cor": "#3d7bf2",
+   "usd": 7.37,
+   "pct": 1.5,
+   "sessoes": 1,
+   "cache_lido_m": 8.5,
+   "saida_m": 0.11
+  },
+  {
+   "grupo": "produto",
+   "nome": "🧪 Produto Estúdio de Reels",
+   "cor": "#38c172",
+   "usd": 5.36,
+   "pct": 1.1,
+   "sessoes": 1,
+   "cache_lido_m": 10.7,
+   "saida_m": 0.08
+  },
+  {
+   "grupo": "rotina:cacador",
+   "nome": "🔎 Caçador de referências",
+   "cor": "#5fd1c1",
+   "usd": 0.54,
+   "pct": 0.1,
+   "sessoes": 1,
+   "cache_lido_m": 1.1,
+   "saida_m": 0.01
+  },
+  {
+   "grupo": "rotina:cobranca",
+   "nome": "🔔 Cobrança",
+   "cor": "#5fd1c1",
+   "usd": 0.12,
+   "pct": 0.0,
+   "sessoes": 1,
+   "cache_lido_m": 0.1,
+   "saida_m": 0.0
+  },
+  {
+   "grupo": "rotina:financeiro",
+   "nome": "💵 Financeiro",
+   "cor": "#5fd1c1",
+   "usd": 0.1,
+   "pct": 0.0,
+   "sessoes": 1,
+   "cache_lido_m": 0.2,
+   "saida_m": 0.0
+  },
+  {
+   "grupo": "rotina:redes",
+   "nome": "📈 Redes sociais",
+   "cor": "#5fd1c1",
+   "usd": 0.07,
+   "pct": 0.0,
+   "sessoes": 1,
+   "cache_lido_m": 0.1,
+   "saida_m": 0.0
+  }
+ ],
+ "modelos": [
+  {
+   "modelo": "Opus 5.5",
+   "usd": 479.47,
+   "pct": 99.2
+  },
+  {
+   "modelo": "Sonnet 5.5",
+   "usd": 3.79,
+   "pct": 0.8
+  }
+ ],
+ "tokens": {
+  "entrada": 2658119,
+  "saida": 3556027,
+  "cache_lido": 1162585724,
+  "cache_gravado": 23748773
+ },
+ "tokens_pct": {
+  "entrada": 0.2,
+  "saida": 0.3,
+  "cache_lido": 97.5,
+  "cache_gravado": 2.0
+ },
+ "top": [
+  {
+   "titulo": "IAEM60S",
+   "grupo": "painel",
+   "usd": 210.11,
+   "modelo": "Opus 5.5",
+   "cache_lido_m": 602.7,
+   "criada": "2026-11-07"
+  },
+  {
+   "titulo": "Aprovação de conteúdos",
+   "grupo": "setup",
+   "usd": 80.28,
+   "modelo": "Opus 5.5",
+   "cache_lido_m": 152.4,
+   "criada": "2026-11-04"
+  },
+  {
+   "titulo": "IA em 60s – produção dos vídeos de 09 e 10/11",
+   "grupo": "producao",
+   "usd": 53.02,
+   "modelo": "Opus 5.5",
+   "cache_lido_m": 127.3,
+   "criada": "2026-11-08"
+  },
+  {
+   "titulo": "outro projeto",
+   "grupo": "outros",
+   "usd": 35.53,
+   "modelo": "Opus 5.5",
+   "cache_lido_m": 75.8,
+   "criada": "2026-11-05"
+  },
+  {
+   "titulo": "Importar projeto IAEM60S",
+   "grupo": "setup",
+   "usd": 23.86,
+   "modelo": "Opus 5.5",
+   "cache_lido_m": 55.5,
+   "criada": "2026-11-04"
+  },
+  {
+   "titulo": "outro projeto",
+   "grupo": "outros",
+   "usd": 15.32,
+   "modelo": "Opus 5.5",
+   "cache_lido_m": 23.3,
+   "criada": "2026-11-08"
+  },
+  {
+   "titulo": "IA em 60s – produção 08/11 (A): Windows 07:00 + app de Mac 19:00",
+   "grupo": "producao",
+   "usd": 7.81,
+   "modelo": "Opus 5.5",
+   "cache_lido_m": 15.3,
+   "criada": "2026-11-07"
+  },
+  {
+   "titulo": "IA em 60s – roteiros por categoria 09–15/11 (história, como funciona)",
+   "grupo": "roteiros",
+   "usd": 7.37,
+   "modelo": "Opus 5.5",
+   "cache_lido_m": 8.5,
+   "criada": "2026-11-07"
+  }
+ ],
+ "leitura": [
+  "A conversa do painel sozinha é 43.5% do consumo: ela carrega uma conversa enorme (cada resposta relê o histórico). Ação: trabalho pesado (vídeo, landing, produto) vai para sessão nova e curta; o painel só orquestra.",
+  "97.5% dos tokens são releitura de contexto (cache), não texto novo: conversa longa custa mais a cada mensagem.",
+  "Opus responde por 99% do peso. Ação: produção de vídeo e rotinas em Sonnet (gasta bem menos do limite); Opus só para decidir e revisar.",
+  "As rotinas agendadas (caçador, redes, financeiro, cobrança) somam só US$ 0.83 (0.2%): são baratas, podem continuar.",
+  "Produção de vídeos: 18.7% em 8 sessões (~US$ 11 por sessão)."
+ ],
+ "nota": "US$ = quanto custaria na API (peso de cada tarefa). O plano do Claude é fixo; o que acaba é o limite de uso (5 h e semanal)."
+}
