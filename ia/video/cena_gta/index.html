@@ -1,5 +1,6 @@
 <!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{font-family:AB;src:url(../cena_contagem/f/archivo-black-latin-400-normal.woff2)}
+@font-face{font-family:FR;src:url(../cena_contagem/f/fraunces-latin-700-normal.woff2)}
 @font-face{font-family:SG;src:url(../cena_contagem/f/space-grotesk-latin-700-normal.woff2)}
 *{margin:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
 canvas{position:absolute;left:0;top:0;width:1080px;height:1920px}
@@ -10,7 +11,7 @@ canvas{position:absolute;left:0;top:0;width:1080px;height:1920px}
 // gráfico de gritos, lista pra aprovar, contador de cortes, telão, torres de moedas, etiqueta "lançado 2013", fogos do 6, comenta.
 // Interface: setTL(timeline), setT(t), eventos(). Render: CENA=cena_gta/index.html node cena_quarto/render_quarto.js <tl> <mp4>
 import * as THREE from '../cena_trend/three.module.min.js';
-for (const f of ['400 60px AB', '700 60px SG']) await document.fonts.load(f);
+for (const f of ['400 60px AB', '700 60px SG', '700 60px FR']) await document.fonts.load(f);
 const R = new THREE.WebGLRenderer({ canvas: document.getElementById('g'), antialias: true, preserveDrawingBuffer: true });
 R.setSize(1080, 1920, false); R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap; R.outputColorSpace = THREE.SRGBColorSpace;
 const S = new THREE.Scene(); const cam = new THREE.PerspectiveCamera(40, 1080 / 1920, .1, 500);
@@ -100,6 +101,12 @@ const pil = (x, y, w, h, r, c) => { X.fillStyle = c; X.beginPath(); X.roundRect(
 function cabe(txt, f, mx, fam = 'AB') { while (f > 18) { X.font = fnt(f, fam); if (X.measureText(txt).width <= mx) break; f -= 2; } return f; }
 function neon(txt, x, y, f, cor = '#fff', glow = ROSA, al = 'center', fam = 'AB') { X.save(); X.font = fnt(f, fam); X.textAlign = al; X.textBaseline = 'middle'; X.lineJoin = 'round';
   X.shadowColor = 'rgba(60,20,40,.45)'; X.shadowBlur = f * .12; X.shadowOffsetY = f * .05; X.lineWidth = f * .1; X.strokeStyle = 'rgba(50,20,40,.85)'; X.strokeText(txt, x, y); X.shadowColor = 'transparent'; X.fillStyle = cor; X.fillText(txt, x, y); X.restore(); }
+// "VI" em algarismo romano (fonte e degradê nossos, sem o logo oficial): ouro → laranja → coral, contorno fino
+function romano(txt, x, y, f, al = 'center') { X.save(); X.font = `700 ${f}px FR`; X.textAlign = al; X.textBaseline = 'middle'; X.lineJoin = 'round';
+  const g = X.createLinearGradient(0, y - f * .5, 0, y + f * .45); g.addColorStop(0, '#ffe6a0'); g.addColorStop(.5, '#ffad5c'); g.addColorStop(1, '#ff6f61');
+  X.shadowColor = 'rgba(60,20,40,.45)'; X.shadowBlur = f * .12; X.shadowOffsetY = f * .05; X.lineWidth = f * .08; X.strokeStyle = 'rgba(50,20,40,.9)'; X.strokeText(txt, x, y); X.shadowColor = 'transparent'; X.fillStyle = g; X.fillText(txt, x, y); X.restore(); }
+function gtaVI(x, y, f, al = 'center', pre = '', corPre = '#fff') { X.save(); X.font = fnt(f); const wp = X.measureText(pre).width, wg = X.measureText('GTA ').width; X.font = `700 ${f * 1.15}px FR`; const wv = X.measureText('VI').width; X.restore();
+  const x0 = al === 'center' ? x - (wp + wg + wv) / 2 : x; if (pre) neon(pre, x0, y, f, corPre, ROSA, 'left'); neon('GTA ', x0 + wp, y, f, '#fff', ROSA, 'left'); romano('VI', x0 + wp + wg, y - f * .04, f * 1.15, 'left'); }
 function estrelas(n, lt) { const w = 300, x = 505 - w / 2, y = 280; pil(x, y, w, 76, 38, 'rgba(58,28,40,.82)'); X.strokeStyle = ROSA; X.lineWidth = 3; X.beginPath(); X.roundRect(x, y, w, 76, 38); X.stroke();
   for (let i = 0; i < 4; i++) { const on = i < n, nov = i === n - 1, s = nov ? back(lin(lt, .05, .4)) : 1; X.save(); X.translate(x + 48 + i * 46, y + 38); X.scale(s, s); X.fillStyle = on ? '#ffd36e' : 'rgba(255,255,255,.25)'; star(0, 0, 17); X.restore(); }
   X.fillStyle = '#fff'; X.font = fnt(30, 'SG'); X.textAlign = 'left'; X.textBaseline = 'middle'; X.fillText(n + '/4', x + 232, y + 40); }
@@ -178,11 +185,11 @@ function mundo(cena, lt, d, t) {
 function ui(cena, lt, d, t, s) {
   const Y = 760;
   if (cena === 'gancho') { const a = back(lin(lt, 0, .35)); X.save(); X.translate(505, 1000); X.scale(a, a); neon(String(DIA), 0, 0, 290, '#fff', ROSA); X.restore();
-    const k = eo(lin(lt, .3, .7)); X.globalAlpha = k; neon('DIAS PRA CLIPAR', 505, 1175, 62, '#fff', ROSA); neon('ANTES DO GTA 6', 505, 1245, 52, '#ffd36e', LARANJA);
+    const k = eo(lin(lt, .3, .7)); X.globalAlpha = k; neon('DIAS PRA CLIPAR', 505, 1175, 62, '#fff', ROSA); gtaVI(505, 1245, 52, 'center', 'ANTES DO ', '#ffd36e');
     X.font = fnt(30, 'SG'); const tx = 'lançamento: 19 nov 2026'; const tw = X.measureText(tx).width + 40; pil(505 - tw / 2, 1285, tw, 48, 24, 'rgba(58,28,40,.8)'); X.fillStyle = '#fff'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 505, 1310); X.globalAlpha = 1;
     if (lt > d * .55) { const b = back(lin(lt, d * .55, d * .55 + .3)); X.save(); X.translate(505, 560); X.rotate(-.05); X.scale(b, b); pil(-260, -48, 520, 96, 16, '#e8283c'); X.fillStyle = '#fff'; X.font = fnt(50); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('AINDA NÃO SAIU', 0, 4); X.restore(); } }
   if (cena === 'oportunidade') { const k1 = eo(lin(lt, .1, .5)), k2 = eo(lin(lt, .7, 1.1)); X.globalAlpha = k1; neon('MAIOR OPORTUNIDADE', 505, 980, cabe('MAIOR OPORTUNIDADE', 74, 860), '#fff', ROSA); X.globalAlpha = k2; neon('DA GERAÇÃO.', 505, 1070, 74, ROSA, '#ff9ad1'); X.globalAlpha = 1; }
-  if (cena === 'recorde') { const n = Math.round(90421491 * eio(lin(lt, .2, Math.min(d - .3, 2.4)))); odometro(n, 505, 690, 8, '1º TRAILER DO GTA 6', 'VIEWS EM 24 H · RECORDE GUINNESS'); }
+  if (cena === 'recorde') { const n = Math.round(90421491 * eio(lin(lt, .2, Math.min(d - .3, 2.4)))); odometro(n, 505, 690, 8, '1º TRAILER DO GTA VI', 'VIEWS EM 24 H · RECORDE GUINNESS'); }
   if (cena === 'clipado') { X.globalAlpha = eo(lin(lt, .1, .4)); neon('RECORDE ATUAL', 290, 700, 44, '#fff', CIANO); X.globalAlpha = eo(lin(lt, .8, 1.2)); neon('O MAIS CLIPADO', 730, 400, 50, ROSA, '#ff9ad1');
     X.globalAlpha = eo(lin(lt, 1.3, 1.7)); neon('DE TODOS OS TEMPOS', 505, 1230, 58, '#fff', ROSA); X.globalAlpha = 1; }
   if (cena === 'fila') { flap('1º DA FILA', 505, 540, 78, 112, lin(lt, .1, 1.3)); }
@@ -222,8 +229,8 @@ function ui(cena, lt, d, t, s) {
       X.save(); X.shadowColor = 'rgba(0,0,0,.45)'; X.shadowBlur = 30; X.fillStyle = '#f4ecff'; X.beginPath(); X.moveTo(-230, -100); X.lineTo(-140, -170); X.lineTo(140, -170); X.lineTo(230, -100); X.lineTo(230, 220); X.lineTo(-230, 220); X.closePath(); X.fill(); X.restore();
       X.fillStyle = '#2a0b45'; X.beginPath(); X.arc(0, -120, 16, 0, 7); X.fill(); X.font = fnt(40, 'SG'); X.textAlign = 'center'; X.fillStyle = '#6a5a7a'; X.fillText('GTA 5 · LANÇADO', 0, -40); X.fillStyle = '#2a0b45'; X.font = fnt(150); X.fillText('2013', 0, 110); X.restore(); }
     else { const n = Math.round(230000000 * eio(lin(lt, d * .42, d * .9))); odometro(n, 505, 680, 9, 'JOGO DE 2013', 'CÓPIAS VENDIDAS · TAKE-TWO', ROXO); } }
-  if (cena === 'imagina') { const a = back(lin(lt, .05, .4)); X.save(); X.translate(505, 600); X.scale(a, a); X.save(); X.shadowColor = ROSA; X.shadowBlur = 60; pil(-120, -150, 240, 300, 30, 'rgba(20,6,30,.85)'); X.restore(); X.strokeStyle = '#fff'; X.lineWidth = 6; X.beginPath(); X.roundRect(-120, -150, 240, 300, 30); X.stroke(); neon('6', 0, 10, 240, '#fff', ROSA); X.restore();
-    X.globalAlpha = eo(lin(lt, .3, .6)); neon('IMAGINA', 505, 1000, 88, '#fff', ROSA); neon('O GTA 6.', 505, 1100, 88, ROSA, '#ff9ad1'); X.globalAlpha = 1; }
+  if (cena === 'imagina') { const a = back(lin(lt, .05, .4)); X.save(); X.translate(505, 600); X.scale(a, a); X.save(); X.shadowColor = ROSA; X.shadowBlur = 60; pil(-120, -150, 240, 300, 30, 'rgba(20,6,30,.85)'); X.restore(); X.strokeStyle = '#fff'; X.lineWidth = 6; X.beginPath(); X.roundRect(-120, -150, 240, 300, 30); X.stroke(); romano('VI', 0, 6, 210); X.restore();
+    X.globalAlpha = eo(lin(lt, .3, .6)); neon('IMAGINA', 505, 1000, 88, '#fff', ROSA); gtaVI(505, 1100, 88, 'center', 'O '); X.globalAlpha = 1; }
   if (cena === 'cta') { const k = eo(lin(lt, .05, .35)); X.globalAlpha = k; neon('COMENTA', 505, 560, 70, '#fff', ROSA); neon('CORTES', 505, 670, 130, ROSA, '#ff9ad1');
     pil(110, 790, 790, 92, 46, '#fff'); X.fillStyle = '#e8283c'; X.beginPath(); X.arc(160, 836, 22, 0, 7); X.fill(); X.fillStyle = '#1a0b24'; X.font = fnt(40, 'SG'); X.textAlign = 'left'; X.textBaseline = 'middle';
     const tx = 'CORTES'.slice(0, Math.ceil(6 * lin(lt, .3, 1.2))); X.fillText(tx + (Math.floor(t * 3) % 2 && lt < 1.3 ? '|' : ''), 200, 838);
@@ -252,7 +259,7 @@ window.capa = () => {
   X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(40,20,50,.15)'); vg.addColorStop(.3, 'rgba(0,0,0,0)'); vg.addColorStop(.6, 'rgba(60,25,45,.12)'); vg.addColorStop(1, 'rgba(60,25,45,.55)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
   X.save(); X.translate(540, 300); X.rotate(-.04); pil(-250, -50, 500, 100, 18, '#e8283c'); X.fillStyle = '#fff'; X.font = fnt(54); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('SAI 19/11', 0, 4); X.restore();
   neon(String(DIA), 300, 1080, 420, '#fff', ROSA); neon('DIAS', 300, 1330, 92, '#ffd36e', LARANJA);
-  neon('PRA', 760, 960, 96, '#fff', ROSA); neon('CLIPAR', 760, 1070, 120, '#fff', ROSA); neon('ANTES DO', 760, 1190, 74, '#ffd36e', LARANJA); neon('GTA 6', 760, 1300, 130, ROSA, '#ff9ad1');
+  neon('PRA', 760, 960, 96, '#fff', ROSA); neon('CLIPAR', 760, 1070, 120, '#fff', ROSA); neon('ANTES DO', 760, 1190, 74, '#ffd36e', LARANJA); gtaVI(760, 1300, 118);
   X.font = fnt(40, 'SG'); const tx = '💬 Comenta CORTES'; const tw = X.measureText(tx).width + 60; pil(540 - tw / 2, 1500, tw, 84, 42, 'rgba(255,255,255,.95)'); X.fillStyle = '#2a0b45'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 540, 1544);
 };
 window.pronto = true;
