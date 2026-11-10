@@ -1,5 +1,6 @@
 <!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{font-family:AB;src:url(../cena_contagem/f/archivo-black-latin-400-normal.woff2)}
+@font-face{font-family:PD;src:url(fontes/pricedown.otf)}
 @font-face{font-family:FR;src:url(../cena_contagem/f/fraunces-latin-700-normal.woff2)}
 @font-face{font-family:SG;src:url(../cena_contagem/f/space-grotesk-latin-700-normal.woff2)}
 *{margin:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
@@ -11,7 +12,8 @@ canvas{position:absolute;left:0;top:0;width:1080px;height:1920px}
 // gráfico de gritos, lista pra aprovar, contador de cortes, telão, torres de moedas, etiqueta "lançado 2013", fogos do 6, comenta.
 // Interface: setTL(timeline), setT(t), eventos(). Render: CENA=cena_gta/index.html node cena_quarto/render_quarto.js <tl> <mp4>
 import * as THREE from '../cena_trend/three.module.min.js';
-for (const f of ['400 60px AB', '700 60px SG', '700 60px FR']) await document.fonts.load(f);
+for (const f of ['400 60px AB', '700 60px SG', '700 60px FR', '400 60px PD']) await document.fonts.load(f);
+if (!document.fonts.check('400 60px PD')) console.error('fonte Pricedown ausente: rode video/baixa_pricedown.sh');
 // logo oficial do GTA VI (Rockstar Games; uso autorizado pelo Vitor em 10/11, em contexto de notícia)
 const LOGO = new Image(); LOGO.src = 'gta6_logo.png'; await LOGO.decode();
 const R = new THREE.WebGLRenderer({ canvas: document.getElementById('g'), antialias: true, preserveDrawingBuffer: true });
@@ -98,10 +100,10 @@ for (let i = 0; i < NF; i++) { const a = rnd() * 6.283, b = Math.acos(2 * rnd() 
 
 // ---------- camada 2D ----------
 const U = document.getElementById('u'), X = U.getContext('2d');
-const fnt = (s, f = 'AB') => `${f === 'AB' ? 400 : 700} ${s}px ${f}`;
+const fnt = (s, f = 'AB') => `${f === 'SG' || f === 'FR' ? 700 : 400} ${s * (f === 'PD' ? 1.18 : 1)}px ${f}`;
 const pil = (x, y, w, h, r, c) => { X.fillStyle = c; X.beginPath(); X.roundRect(x, y, w, h, r); X.fill(); };
 function cabe(txt, f, mx, fam = 'AB') { while (f > 18) { X.font = fnt(f, fam); if (X.measureText(txt).width <= mx) break; f -= 2; } return f; }
-function neon(txt, x, y, f, cor = '#fff', glow = ROSA, al = 'center', fam = 'AB') { X.save(); X.font = fnt(f, fam); X.textAlign = al; X.textBaseline = 'middle'; X.lineJoin = 'round';
+function neon(txt, x, y, f, cor = '#fff', glow = ROSA, al = 'center', fam = 'PD') { X.save(); X.font = fnt(f, fam); X.textAlign = al; X.textBaseline = 'middle'; X.lineJoin = 'round';
   if (cor === '#ffd36e' || cor === ROSA || cor === 'grad') { const g = X.createLinearGradient(0, y - f * .5, 0, y + f * .5); g.addColorStop(0, '#ff5fa8'); g.addColorStop(.55, '#ff8a6a'); g.addColorStop(1, '#ffb84a'); cor = g; }
   X.shadowColor = 'rgba(30,8,50,.55)'; X.shadowBlur = f * .1; X.shadowOffsetY = f * .07; X.lineWidth = f * .16; X.strokeStyle = '#3a1458'; X.strokeText(txt, x, y); X.shadowColor = 'transparent'; X.fillStyle = cor; X.fillText(txt, x, y); X.restore(); }
 // "VI" em algarismo romano (fonte e degradê nossos, sem o logo oficial): ouro → laranja → coral, contorno fino
@@ -261,7 +263,7 @@ window.capa = () => {
   mundo('gancho', 9, 10, 1.3); CAD.scale.setScalar(1); CAD.visible = true;
   hemi.intensity = 1.6; cam.fov = 46; cam.updateProjectionMatrix(); cam.position.copy(V(-1.2, 2.4, 17)); cam.lookAt(V(2.2, 5.2, -30)); cam.rotateZ(.05); R.render(S, cam); cam.fov = 40; cam.updateProjectionMatrix(); hemi.intensity = 1.25;
   X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(30,10,60,.2)'); vg.addColorStop(.28, 'rgba(0,0,0,0)'); vg.addColorStop(.42, 'rgba(30,10,60,.25)'); vg.addColorStop(.6, 'rgba(30,10,60,.62)'); vg.addColorStop(.85, 'rgba(30,10,60,.72)'); vg.addColorStop(1, 'rgba(30,10,60,.8)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
-  X.save(); X.translate(540, 300); X.rotate(-.04); const sg = X.createLinearGradient(-250, 0, 250, 0); sg.addColorStop(0, '#7b3fd0'); sg.addColorStop(.5, '#ff4f9a'); sg.addColorStop(1, '#ff9a4a'); X.lineWidth = 10; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(-250, -50, 500, 100, 18); X.stroke(); pil(-250, -50, 500, 100, 18, sg); X.fillStyle = '#fff'; X.font = fnt(54); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('SAI 19/11', 0, 4); X.restore();
+  X.save(); X.translate(540, 300); X.rotate(-.04); const sg = X.createLinearGradient(-250, 0, 250, 0); sg.addColorStop(0, '#7b3fd0'); sg.addColorStop(.5, '#ff4f9a'); sg.addColorStop(1, '#ff9a4a'); X.lineWidth = 10; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(-250, -50, 500, 100, 18); X.stroke(); pil(-250, -50, 500, 100, 18, sg); X.fillStyle = '#fff'; X.font = fnt(58, 'PD'); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('SAI 19/11', 0, 6); X.restore();
   neon(String(DIA), 300, 1080, 420, '#fff', ROSA); neon('DIAS', 300, 1330, 92, '#ffd36e', LARANJA);
   neon('PRA', 760, 960, 96, '#fff', ROSA); neon('CLIPAR', 760, 1070, 120, '#fff', ROSA); neon('ANTES DO', 760, 1180, 70, '#ffd36e', LARANJA); logo(760, 1360, 290);
   X.font = fnt(40, 'SG'); const tx = '💬 Comenta CORTES'; const tw = X.measureText(tx).width + 60; X.lineWidth = 8; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(540 - tw / 2, 1500, tw, 84, 42); X.stroke(); pil(540 - tw / 2, 1500, tw, 84, 42, '#fff'); X.fillStyle = '#3a1458'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 540, 1544);
