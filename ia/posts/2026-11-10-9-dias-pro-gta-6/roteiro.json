@@ -1,0 +1,89 @@
+{
+ "titulo": "9 dias pra clipar antes do GTA 6",
+ "chave": "CORTES",
+ "categoria": "novidade",
+ "formato": "cidade neon (cópia de estrutura da Referência 14, _aighostlab)",
+ "voz": "Puck",
+ "estilo": "Diga em português do Brasil, com energia de criador de Reels, tom de urgência e oportunidade, ritmo natural",
+ "cauda": 0.9,
+ "tese": "9 DIAS PRA CLIPAR · ANTES DO GTA 6",
+ "brinde": "Sistema de cortes: passo a passo + prompt pro Claude Code + script que acha os gritos da live e corta em vertical com legenda",
+ "fontes": [
+  "Rockstar Games (X, 06/11/2025): GTA 6 em 19/11/2026; MP1st e TweakTown",
+  "Guinness World Records: 1º trailer do GTA 6 com 90.421.491 views em 24 h (recorde de vídeo não musical); Push Square, PC Gamer",
+  "Take-Two, resultado do 1º tri do ano fiscal 2027 (ago/2026): GTA V passou de 230 milhões de cópias; Game Developer"
+ ],
+ "prova_viral": "Reel do @_aighostlab '9 dias pra clipar antes do lançamento' (gravação do Vitor no Drive, 09/11): 5.890 curtidas, 2.469 comentários, 1.904 envios, 3.303 salvamentos",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "fala": "Você tem nove dias pra aprender a clipar antes do GTA 6 sair.",
+   "legenda": "Você tem nove dias pra aprender a clipar antes do GTA 6 sair."
+  },
+  {
+   "cena": "oportunidade",
+   "fala": "É a maior oportunidade da geração pra quem sabe cortar vídeo.",
+   "legenda": "É a maior oportunidade da geração pra quem sabe cortar vídeo."
+  },
+  {
+   "cena": "recorde",
+   "fala": "O primeiro trailer fez noventa milhões de views em um dia.",
+   "legenda": "O primeiro trailer fez 90 milhões de views em um dia."
+  },
+  {
+   "cena": "clipado",
+   "fala": "Vai ser o jogo mais clipado de todos os tempos.",
+   "legenda": "Vai ser o jogo mais clipado de todos os tempos."
+  },
+  {
+   "cena": "fila",
+   "fala": "E eu vou te mostrar como ter os cortes prontos antes de todo mundo.",
+   "legenda": "E eu vou te mostrar como ter os cortes prontos antes de todo mundo."
+  },
+  {
+   "cena": "p1",
+   "fala": "Pega a live de um streamer que libera corte.",
+   "legenda": "Pega a live de um streamer que libera corte."
+  },
+  {
+   "cena": "p2",
+   "fala": "Coloca na pasta e fala pro Claude: corta essa live em cinco.",
+   "legenda": "Coloca na pasta e fala pro Claude: corta essa live em cinco."
+  },
+  {
+   "cena": "p3",
+   "fala": "Ele acha os gritos e as reações…",
+   "legenda": "Ele acha os gritos e as reações…"
+  },
+  {
+   "cena": "p4",
+   "fala": "e te mostra a lista pra aprovar. Manda pro amigo que vive vendo live.",
+   "legenda": "e te mostra a lista pra aprovar. Manda pro amigo que vive vendo live."
+  },
+  {
+   "cena": "prontos",
+   "fala": "Em minutos, os cortes saem com legenda, título e zoom.",
+   "legenda": "Em minutos, os cortes saem com legenda, título e zoom."
+  },
+  {
+   "cena": "longo",
+   "fala": "E ainda monta o vídeo longo pro YouTube, que costuma pagar mais.",
+   "legenda": "E ainda monta o vídeo longo pro YouTube, que costuma pagar mais."
+  },
+  {
+   "cena": "gta5",
+   "fala": "O GTA 5 é de 2013 e já passou de duzentos e trinta milhões de cópias.",
+   "legenda": "O GTA 5 é de 2013 e já passou de 230 milhões de cópias."
+  },
+  {
+   "cena": "imagina",
+   "fala": "Imagina o GTA 6.",
+   "legenda": "Imagina o GTA 6."
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta CORTES e me segue que eu te mando o sistema.",
+   "legenda": "Comenta CORTES e me segue que eu te mando o sistema."
+  }
+ ]
+}

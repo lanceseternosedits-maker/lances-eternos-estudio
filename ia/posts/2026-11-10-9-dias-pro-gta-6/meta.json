@@ -1,0 +1,46 @@
+{
+ "data": "2026-11-10",
+ "horario": "21:30",
+ "pilar": "reel",
+ "formato": "cidade neon",
+ "temas": [
+  "gta-6",
+  "cortes-de-live"
+ ],
+ "empresas": [
+  "Rockstar Games",
+  "Take-Two"
+ ],
+ "cta": "CORTES",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-10 21:30",
+  "tiktok": "2026-11-10 21:30"
+ },
+ "categoria": "novidade",
+ "status": "roteiro aprovado",
+ "aprovacao_roteiro": "Vitor na conversa, 10/11 01:50: 'dê prioridade… quero um vídeo o mais próximo possível… contexto, cenas, narração. Tudo!'",
+ "referencia": "Referência 14: Reel do @_aighostlab '9 dias pra clipar antes do lançamento' (gravação do Vitor no Drive, 09/11 20:41)",
+ "capa": {
+  "objeto": "fila na porta EM BREVE",
+  "texto": "9 dias pra clipar antes do GTA 6",
+  "selo": "SAI 19/11"
+ },
+ "elementos": {
+  "etiqueta": "g) letreiro EM BREVE + número gigante",
+  "nome": "d) split-flap",
+  "contador": "b) odômetro",
+  "legenda": "c) karaokê com palavra amarela",
+  "transicao": "flash rosa + câmera deslizando",
+  "camera": "c) travelling pela avenida",
+  "fechamento": "caixa de comentário digitando + cartão de DM",
+  "tipografia": "b) Archivo Black + Space Grotesk",
+  "som": "trilha própria + whoosh/relógio/impacto",
+  "mascote": "1º da fila na porta e no PC (de costas digitando)"
+ },
+ "fontes": [
+  "Rockstar Games (06/11/2025): GTA 6 em 19/11/2026",
+  "Guinness World Records: 90.421.491 views em 24 h",
+  "Take-Two (ago/2026): GTA V passou de 230 milhões"
+ ]
+}

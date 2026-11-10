@@ -18,7 +18,7 @@
   "instagram": "2026-11-11 12:00",
   "tiktok": "2026-11-11 12:00"
  },
- "status": "vídeo aguardando aprovação",
+ "status": "negado",
  "checagem": {
   "em": "2026-11-09 22:20",
   "ok": true,
@@ -92,5 +92,6 @@
   "som": "trilha 03 + gaveta de fichário",
   "mascote": "óculos redondos e lápis atrás da orelha; ação principal: abrir gavetas de fichas"
  },
- "obs_producao": "Produzido em 09/11 no motor da cena_contagem, módulo itens/chatgpt-lembra-de-voce.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+ "obs_producao": "Produzido em 09/11 no motor da cena_contagem, módulo itens/chatgpt-lembra-de-voce.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados.",
+ "nota": "Enreco fraco (vídeo negado em 09/11)"
 }
