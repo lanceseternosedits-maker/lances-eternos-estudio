@@ -18,5 +18,79 @@
   "instagram": "2026-11-15 09:00",
   "tiktok": "2026-11-15 09:00"
  },
- "status": "roteiro aprovado"
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-10 11:07",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "32.4 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.90 palavras/s (94 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.0 LUFS, pico -1.5 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "748 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "LINK",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "status_em": "2026-11-10 08:07",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita adesiva",
+  "nome": "c) máquina de escrever",
+  "contador": "e) placar 8-bit HI-SCORE",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "d) virada de página",
+  "camera": "e) câmera na mão (trocado: plongée repetiria o IA edita foto)",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "c) Fraunces (trocado: Space Grotesk é a opção gasta)",
+  "som": "trilha 01 + sino de bicicleta",
+  "mascote": "boné de jornaleiro; ação principal: entregar o jornal do dia"
+ },
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/ia-nao-sabe-o-dia-de-hoje.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
 }

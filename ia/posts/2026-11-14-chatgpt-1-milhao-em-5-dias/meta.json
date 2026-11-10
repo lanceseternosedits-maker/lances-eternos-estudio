@@ -18,5 +18,79 @@
   "instagram": "2026-11-14 20:30",
   "tiktok": "2026-11-14 20:30"
  },
- "status": "roteiro aprovado"
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-10 11:06",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "32.4 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.90 palavras/s (94 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.0 LUFS, pico -1.5 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "760 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "MILHAO",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "status_em": "2026-11-10 08:07",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "b) carimbo batendo",
+  "contador": "(sem contador: história)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 03 + festa + língua de sogra",
+  "mascote": "chapéu de aniversário de cone; ação principal: soprar as velas"
+ },
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/chatgpt-1-milhao-em-5-dias.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
 }

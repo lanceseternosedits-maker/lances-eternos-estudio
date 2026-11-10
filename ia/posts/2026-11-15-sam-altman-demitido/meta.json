@@ -19,5 +19,79 @@
   "instagram": "2026-11-15 20:30",
   "tiktok": "2026-11-15 20:30"
  },
- "status": "roteiro aprovado"
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-10 11:07",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "33.3 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.80 palavras/s (93 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-13.8 LUFS, pico -0.6 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "3 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "810 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "DEMITIDO",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "status_em": "2026-11-10 08:07",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "d) split-flap (trocado: a opção (a) está gasta)",
+  "contador": "(sem contador: história)",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "c) post-its na parede (trocado: pódio repetiria os Assistentes)",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 02 + porta giratória",
+  "mascote": "terno e gravata frouxa; ação principal: sair e voltar pela porta giratória"
+ },
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/sam-altman-demitido.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
 }
