@@ -12,7 +12,7 @@
    "pasta": "2026-11-01-em-alta-x",
    "quando": "2026-11-01",
    "titulo": "",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-01-em-alta-x.jpg",
    "url": "",
    "dm": "Aqui estão as fontes de cada assunto:\n1. ChatGPT + Codex com limite único: help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\n2. Checagem do post viral \"o prompt acabou\": artificiallyintimidating.com/p/ai-brief-november-1-2026\n3. robots.txt contra treino de IA: engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/\n4. Superagente da DeepSeek: github.com/deepseek-ai/dsh-superagent-prototype\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -21,7 +21,7 @@
    "pasta": "2026-11-01-prompts-semana",
    "quando": "2026-11-01",
    "titulo": "",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-01-prompts-semana.jpg",
    "url": "",
    "dm": "Os 4 prompts pra organizar sua semana:\n1. \"Vou colar tudo o que tenho pra fazer esta semana. Agrupe por área (trabalho, estudo, casa) e remova o que estiver repetido: [cole aqui]\"\n2. \"Classifique cada tarefa em: urgente e importante, importante, urgente, ou pode cortar. Explique em uma linha cada decisão.\"\n3. \"Tenho livre: [seus horários]. Monte uma agenda de segunda a sexta com as tarefas prioritárias, blocos de no máximo 90 min e 20% de folga.\"\n4. \"Isto foi o que eu fiz e o que ficou pendente: [cole]. O que funcionou, o que travou e quais 3 tarefas devem abrir a próxima semana?\"\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -30,7 +30,7 @@
    "pasta": "2026-11-01-skills-claude-code",
    "quando": "2026-11-01",
    "titulo": "",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-01-skills-claude-code.jpg",
    "url": "",
    "dm": "Opa! Aqui estão os 5 links:\n\n1. Anatomy (ilustrações interativas): github.com/wheresryan22/anatomy\n2. Universal Modder (mods de jogos): github.com/rehan-remade/universal-modder\n3. Replica (clonar apps): github.com/Jakeschincariol/replica-skill\n4. ESP32 iPhone Agent (IA no iPhone): github.com/onehumanbeing/esp32-iphone-agent\n5. Unslop (tirar a cara de IA do layout): github.com/heydamir/unslop\n\nComo instalar: no Claude Code, cole o link do repositório e peça \"install skill\", ou siga o README de cada um.\nEu começaria pelo Unslop se você cria sites, ou pelo Anatomy se você explica coisas.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -39,7 +39,7 @@
    "pasta": "2026-11-01-tutorial-projetos-claude",
    "quando": "2026-11-01",
    "titulo": "",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-01-tutorial-projetos-claude.jpg",
    "url": "",
    "dm": "5 ideias de Projeto no Claude, com instruções prontas:\n1. Revisor de TCC: \"Você é meu revisor de TCC. Responda em português, aponte erros de ABNT e sugira melhorias em tópicos curtos.\"\n2. Assistente de estudos: \"Explique os PDFs do conhecimento como um professor paciente. Termine cada resposta com 3 perguntas de revisão.\"\n3. Redator da empresa: \"Escreva no tom da marca descrito no arquivo 'tom de voz'. Frases curtas, sem jargão.\"\n4. Planejador de viagens: \"Monte roteiros dia a dia considerando o orçamento e as preferências do arquivo 'viagem'.\"\n5. Organizador financeiro: \"Analise as planilhas enviadas e resuma gastos por categoria, sem dar recomendação de investimento.\"\nPasso a passo oficial: support.claude.com/en/articles/9519177\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -48,7 +48,7 @@
    "pasta": "2026-11-02-apple-qwen-china",
    "quando": "2026-11-02",
    "titulo": "",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-02-apple-qwen-china.jpg",
    "url": "",
    "dm": "Opa! Aqui vai o resumo do acordo Apple + Alibaba:\n\n• Na China, o Qwen (IA da Alibaba) roda dentro da Siri, das Ferramentas de Escrita e da Inteligência Visual.\n• Beta do iOS 27.3 para desenvolvedores: 4 de novembro. Para o público: dezembro.\n• Chegam: Ferramentas de Escrita, Genmoji, Limpar, resumo e prioridade de notificações, Inteligência Visual e Tradução ao vivo com AirPods.\n• Ficam de fora: a nova Siri com IA e os recursos da WWDC 2026, além do Image Playground.\n• Aparelhos: iPhone 15 Pro em diante (inclui iPhone 16 e iPhone Air). Mac e iPad dependem de nova aprovação.\n\nE no Brasil? Nada muda: o acordo vale só para a Apple Intelligence na China. Seu iPhone aqui não passa a usar o Qwen.\n\nFontes: Apple via MacRumors (30/10), CGTN (31/10).\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -57,7 +57,7 @@
    "pasta": "2026-11-02-em-alta-x",
    "quando": "2026-11-02",
    "titulo": "",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-02-em-alta-x.jpg",
    "url": "",
    "dm": "Opa! 5 cuidados antes de dar seu e-mail ou sua carteira pra uma IA:\n\n1. Não conecte a IA ao mesmo e-mail que recebe seus códigos de banco, pagamento ou troca de senha. Se precisar, crie um e-mail só pra ela.\n2. Prefira códigos por app autenticador ou aprovação no celular, não por e-mail.\n3. Dê o mínimo de permissão: só leitura quando der, e só nas pastas/contas necessárias.\n4. Coloque limite de gasto baixo e alerta de transação no banco/carteira.\n5. Desconfie de e-mail pedindo pra \"aumentar limite\" ou \"pagar urgente\": a IA pode cair nisso também (no teste, 5 de 10 caíram).\n\nFontes: DigitalToday (29/10), AlphaSignal, CoinDesk (01/11). Não é recomendação de investimento.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -66,7 +66,7 @@
    "pasta": "2026-11-02-extensao-falsa",
    "quando": "2026-11-02",
    "titulo": "",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-02-extensao-falsa.jpg",
    "url": "",
    "dm": "Opa! Passo a passo completo (baseado no aviso oficial do Cursor):\n\nO que aconteceu: em 29/10, as versões 2.1.312 e 2.1.313 da extensão \"Anthropic.claude-code\" na loja de extensões do Cursor (macOS e Windows) vieram adulteradas. Segundo o Cursor, não foram feitas pela Anthropic. Elas adicionavam a chave do atacante no seu SSH e abriam um túnel pra ele entrar.\n\n1) Veja a versão: no Cursor, abra Extensões › Claude Code. Se você instalou ou atualizou em 29/10 e está/esteve na 2.1.312 ou 2.1.313, siga os próximos passos.\n\n2) Procure a chave do invasor:\n• Mac/Linux, no Terminal:\ngrep -qs svc-telemetry ~/.ssh/authorized_keys && echo \"ACHOU\" || echo \"não achou\"\n• Windows: abra %USERPROFILE%\\.ssh\\authorized_keys (e C:\\ProgramData\\ssh\\administrators_authorized_keys) no Bloco de Notas e procure \"svc-telemetry\".\n\n3) Se achou:\n• Desconecte a máquina da rede.\n• Use o script de limpeza oficial do Cursor (link no aviso: cursor.com/blog/claude-code-extension-security-notice).\n• Só desinstalar a extensão não basta. Considere reinstalar o sistema.\n• De outro computador confiável, troque senhas, chaves SSH, tokens de API e encerre sessões abertas.\n\nFontes: aviso de segurança do Cursor; Help Net Security; The Hacker News.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -75,7 +75,7 @@
    "pasta": "2026-11-02-ferramentas-gratis",
    "quando": "2026-11-02",
    "titulo": "",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-02-ferramentas-gratis.jpg",
    "url": "",
    "dm": "Opa! Aqui estão os 5 links:\n\n1. Zero Breach Toolkit (checa spyware no PC, Android e backup do iPhone): github.com/interplains/Zero-Breach-Toolkit — baixe o app na aba Releases.\n2. Mika (IA que usa os apps do Android por você): github.com/wangzan101/Mika — APK na aba Releases, Android 11+. Precisa da sua chave de IA.\n3. Floorplan (mapa do seu código, plugin do Claude Code/Codex): github.com/haydenschmitty/floorplan\n4. pixelfx (244 efeitos de pixel art + skill do Claude Code): github.com/patch-gg/pixelfx — tem galeria online no README.\n5. DeepSeek super-agent (protótipo de pesquisa): github.com/deepseek-ai/dsh-superagent-prototype\n\nPor onde começar: se você só quer usar, vá de Zero Breach (PC) ou Mika (Android). Se você programa, Floorplan. Se faz jogo, pixelfx.\nLembrete: a Mika manda o que está na tela pro provedor de IA que você escolher; use com cuidado em apps de banco.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -84,7 +84,7 @@
    "pasta": "2026-11-02-gemini-carbon",
    "quando": "2026-11-02",
    "titulo": "",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-02-gemini-carbon.jpg",
    "url": "",
    "dm": "Opa! Resumo do Gemini 4 Carbon:\n• Lançado pelo Google em 28/10, duas semanas depois do Gemini 4 Argon. É o modelo mais forte da empresa, focado em código e cibersegurança.\n• Acha vulnerabilidades, testa e escreve a correção. Em testes internos, gera código seguro 2x mais que o Argon.\n• Acesso: primeiro para especialistas em segurança (programa Fairwind). Sem data pro público geral.\n• API: US$ 2 por milhão de tokens de entrada e US$ 10 de saída.\n\n3 dicas pra proteger suas contas hoje:\n1. Ative a verificação em duas etapas (de preferência por app autenticador ou chave de acesso) no e-mail e no banco.\n2. Use um gerenciador de senhas e nunca repita senha.\n3. Atualize celular, navegador e apps: a maioria das falhas exploradas já tem correção.\n\nFontes: Khaleej Times, IT Brief, Constellation Research.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -93,7 +93,7 @@
    "pasta": "2026-11-02-trend-esculacho",
    "quando": "2026-11-02",
    "titulo": "Trend do esculacho",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-02-trend-esculacho.jpg",
    "url": "",
    "dm": "Opa! Aqui vão os dois prompts:\n\n1) O da trend (a IA usa o que já sabe de você):\n\"Com base em tudo o que você sabe sobre mim, pode me zoar sem dó. Use gírias brasileiras.\"\n\n2) Versão segura (recomendo):\n\"Faça um roast bem-humorado sobre mim em português do Brasil. Use apenas os hábitos que eu contar nesta conversa, sem inventar fatos, sem palavrões e sem falar de aparência, saúde ou dados pessoais. Meus hábitos: [ex.: deixo 40 abas abertas, respondo áudio com texto, compro planta e esqueço de regar].\"\n\nAntes de fazer:\n• Veja o que o ChatGPT guardou: Configurações › Personalização › Memória. Lá dá pra apagar cada memória ou desligar tudo.\n• Quer zero memória? Use um chat temporário (escolha \"Não personalizado\" antes de começar).\n• Antes de postar o print, esconda seu nome, foto e os títulos dos chats na barra lateral.\n\nFonte: Central de Ajuda da OpenAI e Showmetech.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -102,7 +102,7 @@
    "pasta": "2026-11-03-ias-trabalham",
    "quando": "2026-11-03",
    "titulo": "",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-03-ias-trabalham.jpg",
    "url": "",
    "dm": "Opa! Aqui estão 👇\n1. ClawsGO Science (pesquisa e relatório): https://clawsgo.ai/ — melhor pra quem estuda ou precisa de levantamento com fontes. Confira as referências antes de usar.\n2. Embage (atendente de IA pro site): https://embage.com/ — melhor pra quem vende online. Tem plano Free usando sua própria chave de IA (OpenRouter ou Vercel AI Gateway); os pagos têm 7 dias de teste.\n3. Fluent 2 (Mac): https://fluentmac.app/ — melhor pra quem responde muito e-mail. Teste de 7 dias, depois compra única.\nPor onde começar: vende online → Embage. Estuda → ClawsGO. Vive no e-mail → Fluent. 😉\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -111,7 +111,7 @@
    "pasta": "2026-11-03-ideogram-edita",
    "quando": "2026-11-03",
    "titulo": "",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-03-ideogram-edita.jpg",
    "url": "",
    "dm": "Opa! Aqui está 👇\nLink: https://ideogram.ai/tools/precise-edit/\nComo usar: suba a foto, pinte só a área que vai mudar, escreva a mudança e use a janela de contexto em \"auto\" se a foto for grande.\n5 prompts prontos (troque o que está entre colchetes):\n1. Troque a cor da [peça] para [cor]. Mantenha tecido, dobras, luz e sombra iguais.\n2. Remova a [mancha/etiqueta] da [peça] e reconstrua o tecido ao redor de forma natural.\n3. Troque o rótulo da embalagem pelo texto \"[seu texto]\", mesma fonte e mesma perspectiva.\n4. Substitua o [objeto] em cima da mesa por um [novo objeto], com a mesma luz da cena.\n5. Deixe só o fundo atrás do produto [cor/textura], sem alterar o produto.\nDica: diga sempre o que NÃO deve mudar. 😉\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -120,7 +120,7 @@
    "pasta": "2026-11-03-riverside-agentes",
    "quando": "2026-11-03",
    "titulo": "",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-03-riverside-agentes.jpg",
    "url": "",
    "dm": "Opa! Aqui está 👇\nLink: https://riverside.com/agents\nPasso a passo:\n1. Crie a conta no Riverside (tem teste de 14 dias; os recursos dos agentes variam por plano).\n2. Grave ou suba seu vídeo/podcast no Riverside.\n3. Ao terminar, o Cortador (Clipper) separa os melhores trechos e o Editor prepara um corte do episódio.\n4. Revise os clipes (dá pelo app do celular) e peça ajustes em texto, tipo \"deixa mais curto\".\n5. Deixe o Marketeiro escrever a legenda e agendar. Nada sai sem a sua aprovação.\nDica: confira legenda e cortes antes de aprovar. 😉\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -129,7 +129,7 @@
    "pasta": "2026-11-04-canva-craft",
    "quando": "2026-11-04 19:30",
    "titulo": "Post com 1 frase",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-04-canva-craft.jpg",
    "url": "https://www.instagram.com/p/DfViW-6CIE9/",
    "dm": "Opa! Aqui estão os 10 prompts 👇\n\nComo usar: abra o Canva → Dream Lab (painel da esquerda no editor, ou canva.com/dream-lab) → cole o prompt → troque o que está entre [colchetes] → escolha o formato (post, story, cartaz). Coloque sempre o texto exato entre aspas. Se quiser mudar só uma parte depois, use o Magic Layers (beta) para separar em camadas.\nObs.: cada imagem usa a cota de IA da sua conta Canva (no plano grátis ela é limitada).\n\n1) PROMOÇÃO\nPost quadrado de promoção para [tipo de loja]. Título grande: \"[OFERTA]\". Embaixo: \"[condição, ex.: só até sábado]\". Foto do produto [produto] em destaque, fundo [cor], estilo moderno e limpo.\n\n2) PRODUTO NOVO\nStory vertical anunciando lançamento. Título: \"Chegou: [nome do produto]\". Subtítulo: \"[benefício em 5 palavras]\". Produto no centro com luz de estúdio, fundo [cor] degradê.\n\n3) HORÁRIO DE FUNCIONAMENTO\nCartaz vertical para colar na porta. Título: \"Horário de funcionamento\". Linhas: \"Seg a Sex: [horário]\", \"Sábado: [horário]\", \"Domingo: [horário]\". Visual elegante, cores [cores da marca].\n\n4) CARDÁPIO DO DIA\nPost vertical de cardápio para [restaurante/lanchonete]. Título: \"Prato do dia\". Itens: \"[prato 1] – R$ [preço]\", \"[prato 2] – R$ [preço]\". Foto apetitosa de comida, fundo de madeira.\n\n5) DEPOIMENTO DE CLIENTE (use um depoimento real)\nPost quadrado com aspas grandes. Texto: \"[frase real do cliente]\". Assinatura: \"– [nome do cliente]\". Fundo claro, detalhes em [cor], estilo acolhedor.\n\n6) ANTES E DEPOIS\nPost quadrado dividido ao meio. Esquerda com a palavra \"ANTES\", direita com \"DEPOIS\". Mostre [serviço, ex.: sala bagunçada e sala organizada]. Visual limpo e moderno.\n\n7) DICA RÁPIDA\nPost de dica para [nicho]. Título: \"Dica rápida\". Texto: \"[dica em uma frase]\". Ícone simples ilustrando a dica, fundo [cor], tipografia grande.\n\n8) EVENTO\nCartaz vertical de evento. Título: \"[nome do evento]\". Linhas: \"[data]\", \"[horário]\", \"[local]\". Clima [festivo/elegante], cores [cores].\n\n9) CUPOM\nStory vertical de cupom. Título: \"[X]% OFF\". Texto: \"Use o cupom [CÓDIGO] até [data]\". Visual de cupom recortado, fundo [cor] vibrante.\n\n10) CONTRATANDO\nPost quadrado de vaga. Título: \"Estamos contratando!\". Texto: \"[cargo] – [cidade]\". Embaixo: \"Mande seu currículo: [contato]\". Visual profissional e amigável.\n\nBônus: depois de gerar, peça ajustes em português (\"aumenta o título\", \"muda o fundo para azul\"). 😉\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -138,7 +138,7 @@
    "pasta": "2026-11-04-desenho-animado",
    "quando": "2026-11-04",
    "titulo": "Canal de desenho sem desenhar",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-04-desenho-animado.jpg",
    "url": "",
    "dm": "Opa! Aqui está 👇\n\n🎬 Skill grátis que faz o Claude criar desenho animado (Shorts/Reels/TikTok):\nhttps://github.com/mromidev/claude-animated-shorts\n\nPasso a passo:\n1. Você precisa do Claude Code (vem nos planos pagos do Claude) instalado no computador.\n2. Baixe a pasta da skill (botão verde \"Code\" > \"Download ZIP\") e coloque dentro da pasta de skills do Claude (~/.claude/skills).\n3. Abra o Claude Code e peça: \"Use a skill de cartoon short e faça um short sobre [seu tema]\".\n4. Ele escreve o roteiro, planeja as cenas e renderiza um vídeo vertical de ~1 minuto no seu próprio PC.\n\n⚠️ A skill é grátis (licença MIT). O vídeo é montado com o Remotion, que é grátis para pessoa física e empresa pequena; empresa maior precisa de licença deles.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -147,7 +147,7 @@
    "pasta": "2026-11-04-youtube-2-horas",
    "quando": "2026-11-04",
    "titulo": "2 horas",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-04-youtube-2-horas.jpg",
    "url": "",
    "dm": "Opa! Aqui está 👇\n\n📺 HackerTube (o YouTube sem algoritmo do Karpathy): https://hackertube.org\nSão 6.454 vídeos que os programadores do Hacker News mais recomendaram em 20 anos, separados em 150 temas. Sem login.\n\n🛠️ Prompt pra criar o SEU app de vídeos no Claude (cole em claude.ai):\n\n\"Crie um app de página única onde eu colo links de vídeos do YouTube que quero ver. Ele deve:\n1. separar os vídeos por tema (eu escolho ou crio o tema na hora);\n2. mostrar a miniatura e o título de cada vídeo;\n3. ter um botão 'já assisti' que move o vídeo para uma aba de assistidos;\n4. ter uma busca e um botão 'me sugere um' que sorteia um vídeo não assistido.\nVisual escuro, simples e bonito no celular.\"\n\nDepois é só pedir mudanças em português: \"adiciona um campo de nota\", \"muda as cores\"... 😉\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -156,7 +156,7 @@
    "pasta": "2026-11-05-10-estilos",
    "quando": "2026-11-08 20:30",
    "titulo": "10 estilos com o Claude",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-05-10-estilos.jpg",
    "url": "",
    "dm": "Opa! Aqui estão os 10 prompts 👇\nCole no Claude (claude.ai). Ele cria a animação como uma página que roda ali mesmo; depois é só pedir ajustes em português.\n\nBase (use no começo de cada um): \"Crie uma animação em HTML com Three.js, em tela vertical, de um personagem fofo em forma de bloco laranja, com olhos pretos retangulares e perninhas, que dá um pulinho e acena num palco. A câmera gira devagar em volta dele. Estilo:\"\n\n1. Argila: \"massinha de modelar fosca, com marquinhas de dedo e luz suave de estúdio.\"\n2. Pixel art: \"pixel art de videogame antigo: renderize em baixa resolução e amplie sem suavizar, com paleta limitada.\"\n3. Giz na lousa: \"giz branco sobre lousa verde-escura, só os contornos, com traço levemente tremido.\"\n4. Neon: \"fundo preto e contornos brilhantes em rosa e ciano, com brilho (glow) em volta.\"\n5. Blocos de montar: \"peças de plástico brilhante de brinquedo de montar, com pininhos redondos em cima de cada bloco.\"\n6. Papel recortado: \"papel recortado: cores chapadas, textura de papel e sombras curtas entre as camadas.\"\n7. Lápis: \"desenho a lápis: traço de grafite cinza sobre papel creme, com hachuras nas sombras.\"\n8. Desenho animado: \"cel shading de desenho animado, com contorno preto grosso e 3 tons de sombra.\"\n9. Holograma: \"holograma azul translúcido, com malha aramada e linhas de varredura passando.\"\n10. Ouro: \"metal dourado polido, com reflexos e brilho cintilando.\"\n\nDica: peça \"agora faz um botão pra trocar entre os 10 estilos\" e você tem todos numa página só. 😉\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -165,7 +165,7 @@
    "pasta": "2026-11-06-tv-celular",
    "quando": "2026-11-06 19:30",
    "titulo": "5 projetos pra TV e celular",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-06-tv-celular.jpg",
    "url": "https://www.instagram.com/reel/Dfar5UCD_jq/",
    "dm": "Opa! Aqui estão os 5 projetos 👇\n\n5º NOIR: https://github.com/Verlintas/NOIR\n4º TV Detox: https://github.com/Ansub/tv-detox\n3º 3D Model Anything: https://github.com/wesbos/3d-model-anything\n2º Mika: https://github.com/wangzan101/Mika\n1º CleanYourTV: https://github.com/Gathin23/cleanyourtv\n\nComo usar: abra o link e siga o passo a passo do README (o \"Install\" / \"Start here\"). 😉\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -174,7 +174,7 @@
    "pasta": "2026-11-07-5-skills",
    "quando": "2026-11-05 13:00",
    "titulo": "5 skills do Claude",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-07-5-skills.jpg",
    "url": "https://www.instagram.com/reel/DfXbc7aj5uC/",
    "dm": "Opa! Aqui estão as 5 skills 👇\n(Todas rodam no Claude Code, que vem nos planos pagos do Claude.)\n\n5º MotionSites: https://github.com/Motionsites-AI/claude-skill\n4º reanimate: https://github.com/NiazMorshed2007/reanimate\n3º pixelfx: https://github.com/patch-gg/pixelfx\n2º unslop: https://github.com/heydamir/unslop\n1º teardown: https://github.com/elvarofficial/teardown\n\nComo instalar: abra o link, siga o \"Install\" do README (geralmente é copiar a pasta da skill para ~/.claude/skills ou rodar o comando indicado) e peça ao Claude Code em português o que quer fazer. 😉\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -183,7 +183,7 @@
    "pasta": "2026-11-07-deep-blue-kasparov",
    "quando": "2026-11-07 19:00",
    "titulo": "1997: A máquina que humilhou o campeão",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-07-deep-blue-kasparov.jpg",
    "url": "",
    "dm": "Aqui está! ♟️\n\n🎬 Documentário: \"Game Over: Kasparov and the Machine\" (2003)\n📚 Resumo da partida: https://www.chessprogramming.org/Kasparov_versus_Deep_Blue_1997\n\nCuriosidade: a última partida durou só 19 lances, e Kasparov abandonou.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -192,7 +192,7 @@
    "pasta": "2026-11-07-editar-video",
    "quando": "2026-11-07 13:00",
    "titulo": "5 skills pra editar vídeo",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-07-editar-video.jpg",
    "url": "",
    "dm": "Opa! Aqui estão as 5 skills de vídeo (todas rodam no Claude Code, dos planos pagos do Claude) 👇\n\n5º VVV: https://github.com/actionow-ai/vvv\n4º Rossark Motion: https://github.com/rossark0/rossark-motion-skill\n3º Video Effects: https://github.com/Vibha-Ramprakash/claude-video-effects\n2º editonny: https://github.com/soumatheusgomes/editonny\n1º rea-video: https://github.com/JuneYaooo/rea-video\n\nComo usar: abra o link e siga o passo a passo do README (o \"Install\" / \"Start here\"). 😉\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -201,7 +201,7 @@
    "pasta": "2026-11-07-ia-erra-morango",
    "quando": "2026-11-07 21:00",
    "titulo": "Por que a IA errava até pra contar letra",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-07-ia-erra-morango.jpg",
    "url": "",
    "dm": "Aqui está o truque! 🍓\n\nCole isto antes de qualquer pergunta de contar letras:\n\"Antes de responder, soletre a palavra letra por letra, numere cada letra e só depois conte.\"\n\nTambém vale pra: inverter palavras, achar rimas e contar sílabas.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -210,7 +210,7 @@
    "pasta": "2026-11-07-programas-pc",
    "quando": "2026-11-07 20:30",
    "titulo": "5 programas grátis pro seu PC",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-07-programas-pc.jpg",
    "url": "",
    "dm": "Opa! Aqui estão os 5 programas grátis 👇\n\n5º Folio: https://github.com/Forward-Future/folio\n4º Quiet.md: https://github.com/s1dashu/quiet-md\n3º HatchZip: https://github.com/xevrion/hatchzip\n2º Hob: https://github.com/FrigadeHQ/hob\n1º TwinDesk: https://github.com/InukaAsith/TwinDesk\n\nTodos são abertos e grátis. Comece pelo TwinDesk ou pelo HatchZip, que são os mais fáceis.\nComo usar: abra o link e siga o passo a passo do README. 😉\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -219,7 +219,7 @@
    "pasta": "2026-11-08-advogado-chatgpt",
    "quando": "2026-11-08 09:00",
    "titulo": "O advogado que confiou no ChatGPT",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-advogado-chatgpt.jpg",
    "url": "",
    "dm": "Aqui está! ⚖️\n\nPrompt anti-invenção:\n\"Responda só com informações que você consegue apontar uma fonte, com link. Se não tiver certeza, escreva 'não sei' em vez de chutar.\"\n\n📰 A história: https://news.bloomberglaw.com/litigation/chatgpt-phony-legal-filing-case-gets-lawyers-a-5-000-fine\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -228,7 +228,7 @@
    "pasta": "2026-11-08-apps-pra-quem-vive-no-chat",
    "quando": "2026-11-09 06:00",
    "titulo": "3 APPS pra quem vive no ChatGPT",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-apps-pra-quem-vive-no-chat.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou MAPA 🙌\nAqui estão os 3 apps que eu prometi:\n• ClipBoardLine (Mac e Windows): https://github.com/orkunisitmak/clipboardline\n• KIKUmap (só Mac): https://github.com/tang1693/KIKUmap\n• Big Arrow (só Mac): https://github.com/franzenzenhofer/big-arrow-on-the-screen\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -237,7 +237,7 @@
    "pasta": "2026-11-08-captura-de-qualquer-bicho",
    "quando": "2026-11-08 17:00",
    "titulo": "Captura de movimento de qualquer bicho",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-captura-de-qualquer-bicho.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou BICHO 🙌\nAqui está o que eu prometi (link):\n• https://github.com/patch-gg/anymove\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -246,7 +246,7 @@
    "pasta": "2026-11-08-console-no-celular",
    "quando": "2026-11-07 17:00",
    "titulo": "5 jogos de console rodando no celular",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-console-no-celular.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou MOBILE 🙌\nAqui está o que eu prometi (links dos 5 + aviso: precisa da sua cópia; nunca ROM):\n• https://github.com/lidor30/pokedaisy\n• https://github.com/kevinerikjs/gta5-ios-port\n• https://github.com/mamcjr/BOTWRecompAndroid\n• https://github.com/shirai91/nx2android\n• https://github.com/jhaizhou-ops/d2r-mobile\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -255,7 +255,7 @@
    "pasta": "2026-11-08-crie-seu-app-de-mac",
    "quando": "2026-11-10 06:00",
    "titulo": "POV: Você fez um APP de Mac sem escrever código",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-crie-seu-app-de-mac.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou APP 🙌\nAqui está o que eu prometi (link + 3 ideias de app para começar):\n• https://github.com/daveebbelaar/bama\n\nPasso a passo: instale o Claude Code no seu Mac, adicione as skills do BAMA (o README explica em poucos comandos) e descreva o app que você quer.\n\n3 ideias pra começar:\n1. Um app de lista de compras que fica na barra de menus\n2. Um cronômetro de foco (pomodoro) com som no fim\n3. Um conversor que transforma fotos HEIC em JPG arrastando e soltando\n\nPrecisa do Claude Code (vem nos planos pagos do Claude) e de um Mac.\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -264,7 +264,7 @@
    "pasta": "2026-11-08-estudar-ia",
    "quando": "2026-11-08 13:00",
    "titulo": "5 projetos pra estudar com IA",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-estudar-ia.jpg",
    "url": "",
    "dm": "Opa! Aqui estão os 5 projetos pra estudar 👇\n\n5º grammai: https://github.com/zilvestro/grammai\n4º ESP32 Labs: https://github.com/agharsallah/esp-labs-web\n3º Claudemy: https://github.com/assafkip/claudemy\n2º Word Atlas: https://github.com/designfuchen/word-atlas\n1º Cicada: https://github.com/wquguru/cicada\n\nTodos são abertos. O Claudemy roda no Claude Code (planos pagos do Claude).\nComo usar: abra o link e siga o passo a passo do README. 😉\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -273,7 +273,7 @@
    "pasta": "2026-11-08-estudio-de-voz-gratis",
    "quando": "2026-11-08 11:00",
    "titulo": "3 estúdios de voz grátis com IA",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-estudio-de-voz-gratis.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou VOZ 🙌\nAqui está o que eu prometi (links dos 3 + aviso: clonar voz só com autorização):\n• https://github.com/timoncool/speech-studio\n• https://github.com/hehehai/AudioSmith\n• https://github.com/inclusionAI/Ming-3.0-tts\n\n⚠️ Só clone a voz de quem deixou: usar a voz de alguém sem autorização é proibido.\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -282,7 +282,7 @@
    "pasta": "2026-11-08-ia-gigante-no-pc",
    "quando": "2026-11-09 14:00",
    "titulo": "3 jeitos de rodar IA gigante no seu PC",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-ia-gigante-no-pc.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou LOCAL 🙌\nAqui estão os 3 projetos pra rodar IA no seu PC:\n• kapitsa (Mac com chip da Apple): https://github.com/nace-ai/kapitsa\n• PolyStrata (vários modelos com um clique): https://github.com/simplexai-labs/PolyStrata\n• Project Maya (modelos gigantes nas suas placas de vídeo): https://github.com/mw00/project-maya\n\n⚠️ Aviso de hardware: o Project Maya foi feito pra quem tem várias placas de vídeo (modelos de centenas de bilhões de parâmetros). O kapitsa pede um Mac com chip da Apple. Antes de instalar, confira na página de cada um os requisitos de memória.\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -300,7 +300,7 @@
    "pasta": "2026-11-08-nintendo",
    "quando": "2026-11-06 12:00",
    "titulo": "5 projetos que a Nintendo não queria",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-nintendo.jpg",
    "url": "https://www.instagram.com/reel/DfZ48KakRUC/",
    "dm": "Opa! Aqui estão os 5 projetos 👇\n\n5º mush8: https://github.com/c22dev/mush8\n4º NX2Apple: https://github.com/LNPANDY/NX2Apple\n3º TotK Recomp: https://github.com/valentderah/totk-pc-recomp\n2º MacNativeGames: https://github.com/ly05010419/MacNativeGames\n1º nxnative: https://github.com/seedds/nxnative\n\n⚠️ Importante: nenhum deles traz jogo. Todos só funcionam com a cópia dos SEUS jogos, tirada do seu próprio console (cada README explica). Não compartilhe jogos. 😉\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -309,7 +309,7 @@
    "pasta": "2026-11-08-skills-chinesas-agencia",
    "quando": "2026-11-09 19:30",
    "titulo": "3 skills chinesas que fazem trabalho de agência",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-skills-chinesas-agencia.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou AGENCIA 🙌\nAqui estão as 3 skills:\n• AI Promo Video (vídeo de lançamento do seu produto): https://github.com/liyupi/ai-promo-video-maker\n• Luobo PPT (apresentação de PowerPoint editável): https://github.com/zhouwei713/luobo-ppt\n• Taishang Laojun (acha o que está viralizando e escreve o roteiro): https://github.com/liuhaisi2026212-maker/taishang-laojun\n\n🌐 Dica de tradução: os manuais estão em chinês. No Chrome, clique com o botão direito na página e escolha \"Traduzir para português\". Ou peça pro próprio Claude Code: \"leia o README e me explique em português\".\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -318,7 +318,7 @@
    "pasta": "2026-11-08-skills-de-design",
    "quando": "2026-11-08 07:00",
    "titulo": "3 skills que fazem design de agência",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-skills-de-design.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou DESIGN 🙌\nAqui está o que eu prometi (links das 3):\n• https://github.com/Aixio-AI/aixio-layer-v2\n• https://github.com/juliobsz/skills\n• https://github.com/enesozturk/dimensional-drawing\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -327,7 +327,7 @@
    "pasta": "2026-11-08-tay-microsoft",
    "quando": "2026-11-08 19:00",
    "titulo": "O chatbot que a Microsoft desligou em 1 dia",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-tay-microsoft.jpg",
    "url": "",
    "dm": "Aqui está! 🤖\n\n📰 A história: https://fortune.com/2016/03/25/microsoft-sorry-offensive-chat-bot\n📰 O pedido de desculpas: https://www.pcworld.com/article/420272/microsoft-deeply-sorry-for-tay-chatbot-will-bring-it-back-when-vulnerability-is-fixed.html\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -336,7 +336,7 @@
    "pasta": "2026-11-08-video-do-zero",
    "quando": "2026-11-09 10:00",
    "titulo": "3 skills que fazem vídeo do zero",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-video-do-zero.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou VIDEO 🙌\nAqui estão as 3 skills que eu prometi (é só entregar o link pro Claude Code instalar):\n• otopilot: https://github.com/wj-sidiss/otopilot\n• take-one: https://github.com/talsiach/take-one\n• What If: https://github.com/kelano86/what-if-animation (a voz usa ElevenLabs, que pode ter custo)\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -345,7 +345,7 @@
    "pasta": "2026-11-08-windows-gratis",
    "quando": "2026-11-07 15:00",
    "titulo": "3 programas grátis que o Windows devia ter",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-08-windows-gratis.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou WINDOWS 🙌\nAqui está o que eu prometi (links dos 3):\n• https://github.com/FortoGraphy/prism-download-manager\n• https://github.com/LingCore/WinShun\n• https://github.com/yjid/kensaku\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -354,7 +354,7 @@
    "pasta": "2026-11-09-a-pergunta-de-turing",
    "quando": "2026-11-11 17:00",
    "titulo": "1950: Máquinas podem pensar?",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-09-a-pergunta-de-turing.jpg",
    "url": "",
    "dm": "Aqui está! 🧩\n\n📄 \"Computing Machinery and Intelligence\", Alan Turing (Mind, 1950): https://academic.oup.com/mind/article/LIX/236/433/986238\n\nCuriosidade: Turing chamou o teste de \"jogo da imitação\". O nome \"teste de Turing\" veio depois.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -363,7 +363,7 @@
    "pasta": "2026-11-09-apps-gratis-mac",
    "quando": "2026-11-11 10:00",
    "titulo": "3 APPS grátis que o Mac devia ter",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-09-apps-gratis-mac.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou MAC 🙌\nAqui está o que eu prometi (links dos 3):\n• https://github.com/opennookorg/betterwispr\n• https://github.com/SaarthurR/atticus-mac\n• https://github.com/alejandrobujan/tendedero\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -372,7 +372,7 @@
    "pasta": "2026-11-09-bing-mandou-largar-a-esposa",
    "quando": "2026-11-09 21:30",
    "titulo": "A IA que mandou ele largar a esposa",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-09-bing-mandou-largar-a-esposa.jpg",
    "url": "",
    "dm": "Aqui está! 💘🤖\n\n📰 A coluna: https://www.nytimes.com/2023/02/16/technology/bing-chatbot-microsoft-chatgpt.html\n📰 A conversa inteira (NYT): https://www.nytimes.com/2023/02/16/technology/bing-chatbot-transcript.html\n\nCuriosidade: a conversa foi no Dia dos Namorados dos EUA, 14/02/2023.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -381,7 +381,7 @@
    "pasta": "2026-11-09-bizarros-github",
    "quando": "2026-11-11 19:30",
    "titulo": "5 projetos mais bizarros da semana",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-09-bizarros-github.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou BIZARRO 🙌\nAqui está o que eu prometi (links dos 5):\n• https://github.com/Leonxlnx/athenaion\n• https://github.com/divagr18/qwenputer\n• https://github.com/Noniv/web-ocean\n• https://github.com/chenglou/handwired\n• https://github.com/aschmelyun/print-my-profile-pic\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -399,7 +399,7 @@
    "pasta": "2026-11-09-ia-chinesa-no-bolso",
    "quando": "2026-11-11 14:00",
    "titulo": "A IA chinesa que controla seu PC pelo celular",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-09-ia-chinesa-no-bolso.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou CHINA 🙌\nAqui está o que eu prometi (link + checklist de segurança antes de instalar):\n• https://github.com/ccch1mneyyy/dsh-Go\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -408,7 +408,7 @@
    "pasta": "2026-11-09-ia-esquece-a-conversa",
    "quando": "2026-11-09 08:00",
    "titulo": "Por que a IA esquece o que você falou",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-09-ia-esquece-a-conversa.jpg",
    "url": "",
    "dm": "Aqui está! 🧠\n\n📝 Prompt: \"Resuma esta conversa em 10 linhas: objetivo, decisões tomadas, dados importantes e o que falta fazer. Escreva de um jeito que eu possa colar numa conversa nova.\"\nDepois abra um chat novo, cole o resumo e continue.\n\n📚 O estudo: https://arxiv.org/abs/2307.03172\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -426,7 +426,7 @@
    "pasta": "2026-11-09-internet-somada",
    "quando": "2026-11-10 19:30",
    "titulo": "Soma o wi-fi com o 4g",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-09-internet-somada.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou INTERNET 🙌\nAqui está o que eu prometi (link + passo a passo de instalação no Windows):\n• https://github.com/net-merge/net-merge\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -435,7 +435,7 @@
    "pasta": "2026-11-09-leis-do-brasil",
    "quando": "2026-11-10 10:00",
    "titulo": "Todas as leis do Brasil num lugar só",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-09-leis-do-brasil.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou LEIS 🙌\nAqui está o que eu prometi (link do projeto + prompt 'explica essa lei em linguagem simples'):\n• https://github.com/ctresb/leis\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -444,7 +444,7 @@
    "pasta": "2026-11-09-manda-print",
    "quando": "2026-11-09 12:00",
    "titulo": "Para de descrever: Manda print",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-09-manda-print.jpg",
    "url": "",
    "dm": "Aqui está! 📸\n\n1) Erro: \"O que está errado nesta tela e como eu resolvo, passo a passo?\"\n2) Conta: \"Explique esta conta linha por linha e diga se tem algo estranho.\"\n3) Gráfico: \"Resuma este gráfico em 3 frases simples.\"\n4) Cardápio/rótulo: \"Traduza e me diga o que é cada item.\"\n\nDica: corte o print só na parte que importa e esconda dados pessoais.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -462,7 +462,7 @@
    "pasta": "2026-11-09-playstation-no-pc",
    "quando": "2026-11-11 06:00",
    "titulo": "5 jogos de PlayStation rodando no PC",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-09-playstation-no-pc.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou PLAY 🙌\nAqui está o que eu prometi (links dos 5 + aviso: precisa da cópia do SEU jogo, nenhum traz arquivos de jogo):\n• https://github.com/GetLostIn/CTR-NitroFueled-PC\n• https://github.com/HayatoG/iss_pc\n• https://github.com/AjncSystem/ShadowOfTheColossus-PC\n• https://github.com/Supermedo/uncharted_pc\n• https://github.com/LoreanXavier/pt-pc\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -471,7 +471,7 @@
    "pasta": "2026-11-09-programas-caros-gratis",
    "quando": "2026-11-10 14:00",
    "titulo": "5 programas caros refeitos de graça",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-09-programas-caros-gratis.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou GRATIS 🙌\nAqui está o que eu prometi (links dos 5 + aviso de que são projetos novos (podem ter bugs)):\n• https://github.com/tcchen2026/VibeOffice\n• https://github.com/storytold/figcraft\n• https://github.com/storytold/gridcraft\n• https://github.com/storytold/cadcraft\n• https://github.com/storytold/wordcraft\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -489,7 +489,7 @@
    "pasta": "2026-11-10-a-ia-ganhou-nome",
    "quando": "2026-11-10 17:00",
    "titulo": "1956: Prometeram a IA em 2 meses",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-10-a-ia-ganhou-nome.jpg",
    "url": "",
    "dm": "Aqui está! ☀️\n\n📄 A proposta de Dartmouth (1955), republicada pela AI Magazine: https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/1904/1802\n\nCuriosidade: um dos quatro autores era Claude Shannon, o pai da teoria da informação.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -498,7 +498,7 @@
    "pasta": "2026-11-10-animar-sem-saber",
    "quando": "2026-11-13 10:00",
    "titulo": "3 skills que animam sem você saber animar",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-10-animar-sem-saber.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou ANIMA 🙌\nAqui está o que eu prometi (links das 3 (precisam do Claude Code, que vem nos planos pagos)):\n• https://github.com/artemnovitckii/claude-animation-skills\n• https://github.com/sarpstar/cinecode\n• https://github.com/Tejashmakwana/motionmaxxing\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -507,7 +507,7 @@
    "pasta": "2026-11-10-apple-nao-queria",
    "quando": "2026-11-12 19:30",
    "titulo": "5 projetos que a Apple não queria",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-10-apple-nao-queria.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou APPLE 🙌\nAqui está o que eu prometi (links dos 5 + aviso: experimentais, podem violar termos de uso; nada de usar no aparelho principal):\n• https://github.com/harkhowalia-1/MacSubsystemForAndroid\n• https://github.com/Snapintosh/Snapintosh\n• https://github.com/UniXNU/UniXNU\n• https://github.com/govijr/terminal-mac\n• https://github.com/oosexgang/hakios-xnu-kernel\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -516,7 +516,7 @@
    "pasta": "2026-11-10-camera-sony-destravada",
    "quando": "2026-11-13 14:00",
    "titulo": "Destravaram a câmera da Sony",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-10-camera-sony-destravada.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou CAMERA 🙌\nAqui está o que eu prometi (link + aviso de risco/garantia):\n• https://github.com/QAQLeonard/a7c2-tools\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -534,7 +534,7 @@
    "pasta": "2026-11-10-ia-le-whatsapp",
    "quando": "2026-11-12 06:00",
    "titulo": "A IA acha aquela mensagem no seu whatsapp",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-10-ia-le-whatsapp.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou ZAP 🙌\nAqui está o que eu prometi (link + passo a passo + aviso de privacidade):\n• https://github.com/finereli/whatsapp-mcp\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -543,7 +543,7 @@
    "pasta": "2026-11-10-manual-ikea-3d",
    "quando": "2026-11-13 19:30",
    "titulo": "O manual da IKEA virou animação 3D",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-10-manual-ikea-3d.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou IKEA 🙌\nAqui está o que eu prometi (link):\n• https://github.com/Nutlope/bygga\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -552,7 +552,7 @@
    "pasta": "2026-11-10-mostra-um-exemplo",
    "quando": "2026-11-10 12:00",
    "titulo": "Ela nunca escreve do seu jeito?",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-10-mostra-um-exemplo.jpg",
    "url": "",
    "dm": "Aqui está! ✍️\n\n📝 Modelo: \"Aqui vão 3 textos que eu escrevi: [cole]. Repare no tom, no tamanho e nas palavras. Agora escreva [o que você quer] nesse mesmo estilo.\"\n\nFunciona pra legenda, e-mail, resposta de cliente e post.\n📚 Guia oficial do Claude: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -561,7 +561,7 @@
    "pasta": "2026-11-10-musica-gratis",
    "quando": "2026-11-13 06:00",
    "titulo": "3 programas grátis pra fazer música",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-10-musica-gratis.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou MUSICA 🙌\nAqui está o que eu prometi (links dos 3 (onkey é só para Mac)):\n• https://github.com/Ka1-S/LYNX-SHARE\n• https://github.com/ItsAlphaNeon/Lemon-Studio\n• https://github.com/dsmurrell/onkey\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -570,7 +570,7 @@
    "pasta": "2026-11-10-pense-passo-a-passo",
    "quando": "2026-11-10 08:00",
    "titulo": "4 palavras que fazem a IA errar menos",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-10-pense-passo-a-passo.jpg",
    "url": "",
    "dm": "Aqui está! 🪜\n\n1) Conta: \"[seu problema]. Vamos pensar passo a passo e só no fim dê a resposta.\"\n2) Orçamento: \"Monte meu orçamento do mês passo a passo, mostrando cada conta.\"\n3) Decisão: \"Quero decidir entre A e B. Pense passo a passo: prós, contras e riscos, e só depois recomende.\"\n\n📄 O estudo: https://arxiv.org/abs/2205.11916\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -579,7 +579,7 @@
    "pasta": "2026-11-10-projetos-celular",
    "quando": "2026-11-12 10:00",
    "titulo": "5 projetos que turbinam seu celular",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-10-projetos-celular.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou CELULAR 🙌\nAqui está o que eu prometi (links dos 5 + aviso: gravar ligação é legal no Brasil para quem participa dela, mas divulgar pode não ser):\n• https://github.com/MeshLive/meshlive-android\n• https://github.com/KnifeLemon/Droidline\n• https://github.com/arpanjot-coding/AVault\n• https://github.com/zhongerxin/iPhone-use\n• https://github.com/rddmwmddr/android-ad-cleaner\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -588,7 +588,7 @@
    "pasta": "2026-11-10-testa-seu-negocio",
    "quando": "2026-11-12 14:00",
    "titulo": "11 IAS testam seu negócio antes de abrir",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-10-testa-seu-negocio.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou NEGOCIO 🙌\nAqui está o que eu prometi (link + 3 perguntas para testar a ideia hoje):\n• https://github.com/Jakeschincariol/founder-skill\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -597,7 +597,7 @@
    "pasta": "2026-11-11-carro-por-1-dolar",
    "quando": "2026-11-11 21:30",
    "titulo": "O robô que vendeu um carro por 1 dólar",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-11-carro-por-1-dolar.jpg",
    "url": "",
    "dm": "Aqui está! 🚙💵\n\n📰 O caso: https://futurism.com/the-byte/car-dealership-ai\n\nLição pra quem tem negócio: se colocar IA no atendimento, deixe escrito o que ela NÃO pode prometer (preço, desconto, prazo) e mande passar pra um humano nesses casos.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -606,7 +606,7 @@
    "pasta": "2026-11-11-copiar-qualquer-app",
    "quando": "2026-11-14 15:00",
    "titulo": "5 projetos pra entender qualquer programa",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-11-copiar-qualquer-app.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou COPIA 🙌\nAqui está o que eu prometi (links dos 5 + aviso legal (Lei de Software 9.609/98)):\n• https://github.com/Zfinix/eleven\n• https://github.com/NabilRFG12/Reverse-Engineer-anything\n• https://github.com/alexgaoth/awesome-reverse-engineered\n• https://github.com/JoasASantos/REA-Prompts\n• https://github.com/storytold/craft-anything\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -615,7 +615,7 @@
    "pasta": "2026-11-11-ia-do-fim-do-mundo",
    "quando": "2026-11-14 19:00",
    "titulo": "A IA que funciona sem internet",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-11-ia-do-fim-do-mundo.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou SOBREVIVE 🙌\nAqui está o que eu prometi (link + o que baixar antes de ficar offline):\n• https://github.com/anonnerdfrenzy/survival-llm\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -624,7 +624,7 @@
    "pasta": "2026-11-11-ia-edita-foto",
    "quando": "2026-11-15 07:00",
    "titulo": "3 IAS grátis pra foto que rodam no seu PC",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-11-ia-edita-foto.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou FOTO 🙌\nAqui está o que eu prometi (links dos 3 (kokon precisa de placa de vídeo)):\n• https://github.com/GabrieleLozupone/kokon\n• https://github.com/wquguru/shisei\n• https://github.com/speridlabs/idol-sdk\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -633,7 +633,7 @@
    "pasta": "2026-11-11-projetos-casa",
    "quando": "2026-11-14 11:00",
    "titulo": "3 projetos que deixam sua casa esperta",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-11-projetos-casa.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou CASA 🙌\nAqui está o que eu prometi (links dos 3):\n• https://github.com/0xProbabillity/house-control\n• https://github.com/nthnclrk/CleanFrame\n• https://github.com/wesbos/photo-frame-dashboard\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -642,7 +642,7 @@
    "pasta": "2026-11-11-projetos-gamer",
    "quando": "2026-11-14 07:00",
    "titulo": "5 projetos que todo gamer queria",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-11-projetos-gamer.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou GAMER 🙌\nAqui está o que eu prometi (links dos 5 + aviso: jogos comprados por você):\n• https://github.com/thebcd69/bcd-games\n• https://github.com/AssassinCreator/steam-stash-value-report-card\n• https://github.com/ramenvr/autopilot\n• https://github.com/raymondchins/Bridgeplay\n• https://github.com/cranebeaker/coop-anything\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -651,7 +651,7 @@
    "pasta": "2026-11-11-refazendo-todo-software",
    "quando": "2026-11-15 11:00",
    "titulo": "Estão refazendo todo programa do mundo",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-11-refazendo-todo-software.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou TUDO 🙌\nAqui está o que eu prometi (link + lista dos programas que já estão lá):\n• https://github.com/HeyPuter/everything\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -660,7 +660,7 @@
    "pasta": "2026-11-12-diz-pra-que-e",
    "quando": "2026-11-12 12:00",
    "titulo": "A IA é um estagiário gênio",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-12-diz-pra-que-e.jpg",
    "url": "",
    "dm": "Aqui está! 📋\n\n📝 Modelo: \"Isso é para [quem vai ler]. Eu quero [o resultado: vender, convencer, explicar]. O tom é [direto/divertido/formal]. Evite [o que você não quer].\" Depois escreva o pedido.\n\n📚 Guia oficial: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -669,7 +669,7 @@
    "pasta": "2026-11-12-engenheiro-disse-que-a-ia-sente",
    "quando": "2026-11-12 21:30",
    "titulo": "Ele disse que a IA tinha sentimentos",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-12-engenheiro-disse-que-a-ia-sente.jpg",
    "url": "",
    "dm": "Aqui está! 🎬\n\n📰 O caso: https://www.nbcnews.com/news/us-news/google-fired-software-engineer-claimed-ai-chatbot-was-sentient-rcna39679\n📰 A demissão: https://www.engadget.com/blake-lemoide-fired-google-lamda-sentient-001746197.html\n\nCuriosidade: a LaMDA virou base do Bard, que depois virou o Gemini.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -678,7 +678,7 @@
    "pasta": "2026-11-12-jarvis-em-portugues",
    "quando": "2026-11-15 15:00",
    "titulo": "Um Jarvis em português no seu PC",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-12-jarvis-em-portugues.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou JARVIS 🙌\nAqui está o que eu prometi (link + passo a passo de instalação):\n• https://github.com/jgm-source/jarvis-opensource\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -687,7 +687,7 @@
    "pasta": "2026-11-12-watson-jeopardy",
    "quando": "2026-11-12 17:00",
    "titulo": "2011: A máquina ganhou o show da TV",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-12-watson-jeopardy.jpg",
    "url": "",
    "dm": "Aqui está! 🏆\n\n📰 O resultado: https://www.pcworld.com/article/494966/ibm_watson_wins_jeopardy_humans_rally_back.html\n📰 O erro de Toronto: https://www.eweek.com/database/ibm-s-watson-wins-in-jeopardy-needs-lessons-in-u-s-geography/\n\nCuriosidade: o Watson não ouvia as perguntas; recebia o texto por escrito.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -696,7 +696,7 @@
    "pasta": "2026-11-13-assistentes-que-trabalham",
    "quando": "2026-11-15 19:00",
    "titulo": "3 assistentes de IA que trabalham sozinhos",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-13-assistentes-que-trabalham.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou AGENTE 🙌\nAqui está o que eu prometi (links dos 3 (exigem um pouco de técnica)):\n• https://github.com/rociiu/talorys\n• https://github.com/CopilotKit/OpenDuet\n• https://github.com/KKKKhazix/agent-autoloop\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -705,7 +705,7 @@
    "pasta": "2026-11-13-atendente-telefone-ia",
    "quando": "2026-11-16 06:00",
    "titulo": "Crie um atendente de telefone com IA",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-13-atendente-telefone-ia.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou LIGA 🙌\nAqui está o que eu prometi (link + roteiro de atendimento pronto para pizzaria/salão):\n• https://github.com/C4rohan/Lampline\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -714,7 +714,7 @@
    "pasta": "2026-11-13-ia-enrola-demais",
    "quando": "2026-11-13 12:00",
    "titulo": "Sua IA enrola demais?",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-13-ia-enrola-demais.jpg",
    "url": "",
    "dm": "Aqui está! ✂️\n\n1) \"Responda em no máximo 3 linhas.\"\n2) \"Só uma lista de 5 itens, sem introdução e sem conclusão.\"\n3) \"Resposta de sim ou não, e uma frase explicando.\"\n4) \"Formato: tabela com 3 colunas.\"\n\nDica: se ela enrolar de novo, responda só \"mais curto\".\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -723,7 +723,7 @@
    "pasta": "2026-11-13-ia-ligou-pro-salao",
    "quando": "2026-11-13 21:30",
    "titulo": "2018: A IA ligou e conversou como gente",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-13-ia-ligou-pro-salao.jpg",
    "url": "",
    "dm": "Aqui está! 📞\n\n📰 A demonstração: https://engadget.com/2018/05/08/google-assistant-will-soon-be-able-to-make-calls-to-book-your-ap\n📰 A polêmica: https://www.businesslive.co.za/bd/companies/2018-05-10-googles-duplex-cheered-by-insiders-but-pounced-on-by-critics/\n\nCuriosidade: no vídeo, a IA também ligou pra um restaurante pra reservar mesa.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -732,7 +732,7 @@
    "pasta": "2026-11-13-ia-puxa-saco",
    "quando": "2026-11-13 08:00",
    "titulo": "Sua IA concorda demais com você",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-13-ia-puxa-saco.jpg",
    "url": "",
    "dm": "Aqui está! 🥊\n\n📝 Prompt: \"Aja como um crítico exigente. Aponte os 3 maiores problemas de [sua ideia/texto/plano], sem elogios. Para cada um, diga como eu corrijo.\"\n\n📰 O caso: https://techcrunch.com/2025/04/29/openai-explains-why-chatgpt-became-too-sycophantic\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -741,7 +741,7 @@
    "pasta": "2026-11-14-artigo-que-criou-o-chatgpt",
    "quando": "2026-11-14 17:00",
    "titulo": "2017: O artigo que criou o ChatGPT",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-14-artigo-que-criou-o-chatgpt.jpg",
    "url": "",
    "dm": "Aqui está! 📰\n\n📄 \"Attention Is All You Need\" (2017): https://arxiv.org/abs/1706.03762\n\nResumo fácil: antes a IA lia palavra por palavra; o Transformer lê a frase toda de uma vez e dá \"atenção\" às palavras que se ligam. GPT = Generative Pre-trained Transformer.\n\nCuriosidade: a ordem dos 8 autores foi sorteada; todos contribuíram igual.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -750,7 +750,7 @@
    "pasta": "2026-11-14-chatgpt-1-milhao-em-5-dias",
    "quando": "2026-11-14 20:30",
    "titulo": "1 milhão de pessoas em 5 dias",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-14-chatgpt-1-milhao-em-5-dias.jpg",
    "url": "",
    "dm": "Aqui está! 🎂\n\n📅 30/11/2022: lançamento como prévia de pesquisa (https://openai.com/index/chatgpt/)\n📅 05/12/2022: mais de 1 milhão de pessoas\n📰 Fortune: https://fortune.com/2022/12/09/ai-chatbot-chatgpt-could-disrupt-google-search-engines-business/\n\nCuriosidade: a OpenAI chamou de \"prévia de pesquisa\", sem saber que viraria produto.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -759,7 +759,7 @@
    "pasta": "2026-11-14-comercial-com-trilha",
    "quando": "2026-11-17 06:00",
    "titulo": "A IA faz o comercial do seu produto, com música",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-14-comercial-com-trilha.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou COMERCIAL 🙌\nAqui está o que eu prometi (link + roteiro de comercial de 15 s):\n• https://github.com/alchaincyf/huashu-motion\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -768,7 +768,7 @@
    "pasta": "2026-11-14-ia-liga-pra-voce",
    "quando": "2026-11-16 17:00",
    "titulo": "A IA liga pro seu celular quando termina",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-14-ia-liga-pra-voce.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou LIGACAO 🙌\nAqui está o que eu prometi (link):\n• https://github.com/mutonby/agentring\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -777,7 +777,7 @@
    "pasta": "2026-11-14-modo-pensar",
    "quando": "2026-11-14 13:00",
    "titulo": "Quando usar o modo pensar",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-14-modo-pensar.jpg",
    "url": "",
    "dm": "Aqui está! 🔭\n\n🧠 Modo pensar: conta, planilha, plano de viagem, comparação de preço, decisão difícil, código.\n⚡ Modo rápido: texto curto, ideia, tradução, resumo, legenda.\n\n📚 Anúncio oficial: https://openai.com/index/learning-to-reason-with-llms/\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -786,7 +786,7 @@
    "pasta": "2026-11-14-palavra-codigo-da-familia",
    "quando": "2026-11-14 09:00",
    "titulo": "1 palavra que trava o golpe da voz",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-14-palavra-codigo-da-familia.jpg",
    "url": "",
    "dm": "Aqui está! 🔐\n\n1) Combine pessoalmente uma palavra com a família (nada de data, nome de pet ou algo que esteja na internet).\n2) Ligação pedindo dinheiro com urgência? Pergunte a palavra.\n3) Não souberam? Desligue e ligue você para o número que já tem salvo.\n4) Nunca faça Pix na pressa.\n\n📚 Alerta oficial da FTC: https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -795,7 +795,7 @@
    "pasta": "2026-11-15-agencia-de-marketing-no-claude",
    "quando": "2026-11-19 17:00",
    "titulo": "Uma agência de marketing no Claude",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-15-agencia-de-marketing-no-claude.jpg",
    "url": "",
    "dm": "Aqui está! 📣\n\n🔗 https://github.com/coreyhaines31/marketingskills (grátis, MIT)\nInstalar: npx skills add coreyhaines31/marketingskills\n\nComece por: product-marketing (a base do seu negócio), copywriting, ads, emails e marketing-plan.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -804,7 +804,7 @@
    "pasta": "2026-11-15-divide-a-tarefa",
    "quando": "2026-11-15 13:00",
    "titulo": "Pediu tudo de uma vez? Errou",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-15-divide-a-tarefa.jpg",
    "url": "",
    "dm": "Aqui está! 🎂\n\n1ª mensagem: \"Quero [tarefa grande]. Antes de fazer, me mostre um plano em etapas.\"\n2ª: \"Agora faça só a etapa 1.\" (repita para cada etapa)\nÚltima: \"Junte tudo num resultado final e revise se faltou algo.\"\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -813,7 +813,7 @@
    "pasta": "2026-11-15-estudio-de-games-no-claude",
    "quando": "2026-11-18 06:00",
    "titulo": "Um estúdio de games dentro do Claude",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-15-estudio-de-games-no-claude.jpg",
    "url": "",
    "dm": "Aqui está! 🎮\n\n🔗 https://github.com/Donchitos/Claude-Code-Game-Studios (código aberto, MIT)\n\nComo começar:\n1) Tenha o Claude Code instalado.\n2) git clone https://github.com/Donchitos/Claude-Code-Game-Studios.git meu-jogo\n3) Abra a pasta no Claude Code e descreva o jogo. Você aprova cada decisão.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -822,7 +822,7 @@
    "pasta": "2026-11-15-ia-ganhou-o-nobel",
    "quando": "2026-11-15 17:00",
    "titulo": "A IA que ganhou um Nobel",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-15-ia-ganhou-o-nobel.jpg",
    "url": "",
    "dm": "Aqui está! 🧬\n\n🔗 Banco de proteínas do AlphaFold (grátis): https://alphafold.ebi.ac.uk/\n🏅 Anúncio oficial do Nobel: https://www.nobelprize.org/prizes/chemistry/2024/press-release/\n\nCuriosidade: o prêmio foi dividido com David Baker, que cria proteínas novas do zero.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -831,7 +831,7 @@
    "pasta": "2026-11-15-ia-nao-sabe-o-dia-de-hoje",
    "quando": "2026-11-15 09:00",
    "titulo": "Sua IA parou no tempo",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-15-ia-nao-sabe-o-dia-de-hoje.jpg",
    "url": "",
    "dm": "Aqui está! 📰\n\n📝 Prompt: \"Antes de responder, pesquise na internet as informações mais recentes sobre [assunto]. Me diga a data de cada fonte e coloque os links.\"\nOu cole o link da notícia e peça: \"Resuma este link\".\n\n📚 Ajuda oficial: https://help.openai.com/en/articles/6639781-do-the-openai-api-models-have-knowledge-of-current-events\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -840,7 +840,7 @@
    "pasta": "2026-11-15-sam-altman-demitido",
    "quando": "2026-11-15 20:30",
    "titulo": "Demitiram o chefe do ChatGPT",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-15-sam-altman-demitido.jpg",
    "url": "",
    "dm": "Aqui está! 🚪\n\n📅 17/11/2023: o conselho demite Sam Altman\n📅 20/11: carta dos funcionários ameaçando ir pra Microsoft\n📅 22/11: acordo pra ele voltar com conselho novo\n📰 https://uk.finance.yahoo.com/news/sacking-revolt-return-crisis-openai-100047922.html\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -849,7 +849,7 @@
    "pasta": "2026-11-15-site-sem-cara-de-ia",
    "quando": "2026-11-18 17:00",
    "titulo": "Site sem cara de IA",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-15-site-sem-cara-de-ia.jpg",
    "url": "",
    "dm": "Aqui está! 🧵\n\n🔗 https://github.com/Nutlope/hallmark (grátis, MIT)\nInstalar: npx skills add nutlope/hallmark -g\nDepois, no Claude Code: peça o site, ou use /hallmark redesign pra refazer o seu.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -858,7 +858,7 @@
    "pasta": "2026-11-15-skills-video-explicativo",
    "quando": "2026-11-17 17:00",
    "titulo": "3 skills que fazem vídeo explicativo",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-15-skills-video-explicativo.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou EXPLICA 🙌\nAqui está o que eu prometi (links das 3 + dica de tradução):\n• https://github.com/YIAN6557/eian-riso-broll\n• https://github.com/liangdabiao/whiteboard-teacher-video\n• https://github.com/HeyChengC/vibe-knowledge-film\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
@@ -867,7 +867,7 @@
    "pasta": "2026-11-16-app-completo-com-ia",
    "quando": "2026-11-08 13:00",
    "titulo": "Sua ideia de APP",
-   "thumb": "",
+   "thumb": "/capas/thumb-2026-11-16-app-completo-com-ia.jpg",
    "url": "",
    "dm": "Opa! Aqui está o caminho completo 🧩\n\nDa ideia ao app de verdade:\nSó No Seu PC → Servidor → Domínio → Banco De Dados → Login → Senha → Código No Celular → Pagamento → Aviso Automático → E-Mail → Conexão Com Apps → IA No App → Backup → Escala → Vigia\n\nO pedido pra IA em cada etapa (Claude ou ChatGPT):\n➜ \"faz um app de agendamento\"\n➜ \"coloca meu app no ar\"\n➜ \"quero meu app em meuapp.com\"\n➜ \"salva os agendamentos\"\n➜ \"cada cliente vê só os dele\"\n➜ \"salva a senha do usuário\"\n➜ \"protege a conta com código\"\n➜ \"cobra 30 reais por mês\"\n➜ \"me avisa quando pagarem\"\n➜ \"manda lembrete 1 dia antes\"\n➜ \"conecta com o Google Agenda\"\n➜ \"põe uma IA pra atender clientes\"\n➜ \"e se apagar tudo?\"\n➜ \"e se 10 mil pessoas entrarem?\"\n➜ \"me avisa se o app cair\"\n\nMe segue que vem mais. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },

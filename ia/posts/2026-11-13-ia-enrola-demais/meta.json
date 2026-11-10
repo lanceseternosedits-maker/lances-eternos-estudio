@@ -1,1 +1,96 @@
-{"data": "2026-11-13", "horario": "12:00", "pilar": "reel", "categoria": "como_funciona", "formato": "palco", "temas": ["ia-enrola-demais"], "fontes": ["https://platform.openai.com/docs/guides/prompt-engineering", "https://khub.net/web/digital-sharing-hub/resources/-/ddl_display/ddl/1070475023/968336903/maximized"], "prova_viral": "Incômodo comum (resposta longa demais); o guia oficial da OpenAI lista 'Specify the desired length of the output' entre as táticas.", "cta": "CURTO", "polemica": false, "horarios": {"instagram": "2026-11-13 12:00", "tiktok": "2026-11-13 12:00"}, "status": "roteiro aprovado", "checagem": {"em": "2026-11-10 10:32", "ok": true, "itens": [{"nome": "Formato", "valor": "1080×1920", "ok": true, "regra": "1080×1920"}, {"nome": "Duração", "valor": "29.0 s", "ok": true, "regra": "até 35 s (corte texto se passar)"}, {"nome": "Velocidade da fala", "valor": "2.90 palavras/s (84 palavras)", "ok": true, "regra": "máximo 3,0 palavras/s"}, {"nome": "Volume", "valor": "-14.2 LUFS, pico -1.5 dB", "ok": true, "regra": "entre -16 e -12 LUFS, pico até -1 dB"}, {"nome": "Fontes", "valor": "2 fonte(s)", "ok": true, "regra": "todo fato com fonte"}, {"nome": "Prova viral", "valor": "preenchida", "ok": true, "regra": "toda pauta com a prova de que viralizou"}, {"nome": "Legenda do Instagram", "valor": "731 caracteres", "ok": true, "regra": "até 2.200 caracteres"}, {"nome": "CTA na legenda", "valor": "CURTO", "ok": true, "regra": "a palavra do CTA aparece na legenda"}, {"nome": "Resposta da DM", "valor": "ok", "ok": true, "regra": "resposta_dm.txt com os links"}]}}
+{
+ "data": "2026-11-13",
+ "horario": "12:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "ia-enrola-demais"
+ ],
+ "fontes": [
+  "https://platform.openai.com/docs/guides/prompt-engineering",
+  "https://khub.net/web/digital-sharing-hub/resources/-/ddl_display/ddl/1070475023/968336903/maximized"
+ ],
+ "prova_viral": "Incômodo comum (resposta longa demais); o guia oficial da OpenAI lista 'Specify the desired length of the output' entre as táticas.",
+ "cta": "CURTO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-13 12:00",
+  "tiktok": "2026-11-13 12:00"
+ },
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-10 10:32",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "29.0 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.90 palavras/s (84 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.2 LUFS, pico -1.5 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "731 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "CURTO",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "status_em": "2026-11-10 07:52",
+ "elementos": {
+  "etiqueta": "g) placa de rua (trocado: neon repetiria o Animar sem saber)",
+  "nome": "b) carimbo (trocado: split-flap repetiria o Animar sem saber)",
+  "contador": "d) pote enchendo de estrelas",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "e) página de caderno",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 02 + tesoura + estática de rádio",
+  "mascote": "fone de radialista; ação principal: cortar a fita com a tesoura"
+ },
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/ia-enrola-demais.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+}

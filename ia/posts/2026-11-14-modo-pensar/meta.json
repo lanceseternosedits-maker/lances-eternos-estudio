@@ -1,1 +1,96 @@
-{"data": "2026-11-14", "horario": "13:00", "pilar": "reel", "categoria": "como_funciona", "formato": "palco", "temas": ["modo-pensar"], "fontes": ["https://openai.com/index/learning-to-reason-with-llms/", "https://simonwillison.net/2024/Sep/12/openai-o1/"], "prova_viral": "Curiosidade comum (por que ela 'pensa'); anúncio oficial do o1 (OpenAI, 12/09/2024): 74% no AIME 2024 com uma tentativa contra 12% do GPT-4o.", "cta": "PENSAR", "polemica": false, "horarios": {"instagram": "2026-11-14 13:00", "tiktok": "2026-11-14 13:00"}, "status": "roteiro aprovado", "checagem": {"em": "2026-11-10 10:34", "ok": true, "itens": [{"nome": "Formato", "valor": "1080×1920", "ok": true, "regra": "1080×1920"}, {"nome": "Duração", "valor": "34.3 s", "ok": true, "regra": "até 35 s (corte texto se passar)"}, {"nome": "Velocidade da fala", "valor": "2.57 palavras/s (88 palavras)", "ok": true, "regra": "máximo 3,0 palavras/s"}, {"nome": "Volume", "valor": "-14.3 LUFS, pico -1.5 dB", "ok": true, "regra": "entre -16 e -12 LUFS, pico até -1 dB"}, {"nome": "Fontes", "valor": "2 fonte(s)", "ok": true, "regra": "todo fato com fonte"}, {"nome": "Prova viral", "valor": "preenchida", "ok": true, "regra": "toda pauta com a prova de que viralizou"}, {"nome": "Legenda do Instagram", "valor": "831 caracteres", "ok": true, "regra": "até 2.200 caracteres"}, {"nome": "CTA na legenda", "valor": "PENSAR", "ok": true, "regra": "a palavra do CTA aparece na legenda"}, {"nome": "Resposta da DM", "valor": "ok", "ok": true, "regra": "resposta_dm.txt com os links"}]}}
+{
+ "data": "2026-11-14",
+ "horario": "13:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "modo-pensar"
+ ],
+ "fontes": [
+  "https://openai.com/index/learning-to-reason-with-llms/",
+  "https://simonwillison.net/2024/Sep/12/openai-o1/"
+ ],
+ "prova_viral": "Curiosidade comum (por que ela 'pensa'); anúncio oficial do o1 (OpenAI, 12/09/2024): 74% no AIME 2024 com uma tentativa contra 12% do GPT-4o.",
+ "cta": "PENSAR",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-14 13:00",
+  "tiktok": "2026-11-14 13:00"
+ },
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-10 10:34",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "34.3 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.57 palavras/s (88 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.3 LUFS, pico -1.5 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "831 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "PENSAR",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "status_em": "2026-11-10 07:52",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "e) placar 8-bit HI-SCORE",
+  "legenda": "a) bloco de 4 palavras com a atual colorida",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 03 + ampulheta + grilos",
+  "mascote": "touca de lã com pompom; ação principal: virar a ampulheta"
+ },
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/modo-pensar.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+}
