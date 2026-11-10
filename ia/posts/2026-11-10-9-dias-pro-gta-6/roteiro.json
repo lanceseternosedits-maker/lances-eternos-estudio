@@ -1,12 +1,12 @@
 {
- "titulo": "8 dias pra aprender a clipar antes do lançamento do GTA",
+ "titulo": "9 dias pra aprender a clipar antes do lançamento do GTA",
  "chave": "CORTES",
  "categoria": "novidade",
  "formato": "cidade neon (cópia de estrutura da Referência 14, _aighostlab)",
  "voz": "Puck",
  "estilo": "Diga em português do Brasil, com energia de criador de Reels, tom de urgência e oportunidade, ritmo natural",
  "cauda": 0.9,
- "tese": "8 DIAS PRA APRENDER A CLIPAR · ANTES DO LANÇAMENTO DO GTA",
+ "tese": "9 DIAS PRA APRENDER A CLIPAR · ANTES DO LANÇAMENTO DO GTA",
  "brinde": "Sistema de cortes: passo a passo + prompt pro Claude Code + script que acha os gritos da live e corta em vertical com legenda",
  "fontes": [
   "Rockstar Games (X, 06/11/2025): GTA 6 em 19/11/2026; MP1st e TweakTown",
@@ -17,8 +17,8 @@
  "segmentos": [
   {
    "cena": "gancho",
-   "fala": "Você tem oito dias pra aprender a clipar antes do GTA 6 sair.",
-   "legenda": "Você tem oito dias pra aprender a clipar antes do GTA VI sair."
+   "fala": "Você tem nove dias pra aprender a clipar antes do GTA 6 sair.",
+   "legenda": "Você tem nove dias pra aprender a clipar antes do GTA VI sair."
   },
   {
    "cena": "oportunidade",
@@ -86,5 +86,6 @@
    "legenda": "Comenta CORTES e me segue que eu te mando o sistema."
   }
  ],
- "obs_voz": "Pro tentada em 10/11 (6 frases, ~US$ 0,02) e sem cota; voz final na flash padrão"
+ "obs_voz": "Pro tentada em 10/11 (6 frases, ~US$ 0,02) e sem cota; voz final na flash padrão",
+ "modelo": "gemini-2.5-flash-preview-tts"
 }

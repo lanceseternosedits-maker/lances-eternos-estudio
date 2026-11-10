@@ -1,5 +1,5 @@
 {
- "data": "2026-11-11",
+ "data": "2026-11-10",
  "horario": "13:00",
  "pilar": "reel",
  "formato": "cidade neon",
@@ -14,8 +14,8 @@
  "cta": "CORTES",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-11 13:00",
-  "tiktok": "2026-11-11 13:00"
+  "instagram": "2026-11-10 13:00",
+  "tiktok": "2026-11-10 13:00"
  },
  "categoria": "novidade",
  "status": "vídeo aguardando aprovação",
@@ -23,7 +23,7 @@
  "referencia": "Referência 14: Reel do @_aighostlab '9 dias pra clipar antes do lançamento' (gravação do Vitor no Drive, 09/11 20:41)",
  "capa": {
   "objeto": "fila na porta EM BREVE",
-  "texto": "8 dias pra aprender a clipar antes do lançamento do GTA",
+  "texto": "9 dias pra aprender a clipar antes do lançamento do GTA",
   "selo": "SAI 19/11"
  },
  "elementos": {
@@ -43,7 +43,7 @@
   "Guinness World Records: 90.421.491 views em 24 h",
   "Take-Two (ago/2026): GTA V passou de 230 milhões"
  ],
- "horario_obs": "Vitor, 10/11: primeiro da produção, postar 11/11 às 13:00 (fora da grade, pedido dele)",
+ "horario_obs": "Vitor, 10/11 11:48: aprovado, sair HOJE 13:00 (9 dias pro lançamento)",
  "excecao_logo": "Vitor, 10/11: \"pode usar a logo do jogo, tá de boa\" — logo oficial do GTA VI (Rockstar Games) na abertura, no final e na capa; fonte da imagem: logowik.com",
  "checagem": {
   "em": "2026-11-10 09:40",
