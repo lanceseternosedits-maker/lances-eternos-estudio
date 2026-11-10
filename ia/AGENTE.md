@@ -114,6 +114,7 @@ Modelo: `posts/2026-11-10-9-dias-pro-gta-6/` + `video/cena_gta/` (Referência 14
 - **Neon com brilho:** texto grande com contorno escuro e glow; paleta curta por vídeo (no GTA: rosa, roxo, ciano e amarelo).
 - **Progresso visível:** passos com selo de estrelas "1/4…4/4"; contador que muda a cada bloco.
 - **Fechamento:** caixa de comentário digitando a palavra + cartão da DM chegando; o último 0,6 s volta ao 1º quadro (loop).
+- **Capa no mesmo mundo 3D:** a capa é renderizada pela própria cena (`window.capa()` na `cena_gta`; `node video/cena_gta/capa.js <saida.jpg>` com o http.server na 8790), nunca o modelo genérico do `capas.js`: avenida com profundidade e sol ao fundo, número/título neon grande no recorte 3:4, selo vermelho no topo e pílula "Comenta PALAVRA" (Vitor, 10/11: "capa fraquíssima… mais alinhada com o vídeo").
 - **Duração:** pode passar de 35 s quando a história pede (o GTA tem ~50 s), mantendo ≤ 3,0 palavras/s.
 Motor: copie `video/cena_gta/index.html` (helpers `neon`, `flap`, `odometro`, `estrelas`, `cartaoBranco`, `SHOT` por cena) e troque mundo, paleta e cenas; teste com `node cena_gta/teste.js` e renderize com `CENA=<pasta>/index.html node cena_quarto/render_quarto.js`. O objetivo é ser a referência: cada vídeo novo tem que superar o anterior em pelo menos um detalhe (profundidade, efeito ou acabamento).
 

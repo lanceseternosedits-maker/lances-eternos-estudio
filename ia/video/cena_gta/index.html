@@ -245,5 +245,15 @@ window.setT = t => {
   // flash rosa curto na troca de cena
   if (k > 0 && lt < .12) { X.fillStyle = `rgba(255,120,200,${.35 * (1 - lt / .12)})`; X.fillRect(0, 0, 1080, 1920); }
 };
+// capa do Reel (1080x1920, tudo importante no recorte 3:4 da grade: y 240–1680): mesmo mundo do gancho, sem legenda
+window.capa = () => {
+  mundo('gancho', 9, 10, 1.3); CAD.scale.setScalar(1); CAD.visible = true;
+  hemi.intensity = 1.6; cam.fov = 46; cam.updateProjectionMatrix(); cam.position.copy(V(-1.2, 2.4, 17)); cam.lookAt(V(2.2, 5.2, -30)); cam.rotateZ(.05); R.render(S, cam); cam.fov = 40; cam.updateProjectionMatrix(); hemi.intensity = 1.25;
+  X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(20,0,30,.35)'); vg.addColorStop(.3, 'rgba(0,0,0,0)'); vg.addColorStop(.48, 'rgba(20,0,30,.1)'); vg.addColorStop(.75, 'rgba(20,0,30,.6)'); vg.addColorStop(1, 'rgba(20,0,30,.8)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
+  X.save(); X.translate(540, 300); X.rotate(-.04); pil(-250, -50, 500, 100, 18, '#e8283c'); X.fillStyle = '#fff'; X.font = fnt(54); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('SAI 19/11', 0, 4); X.restore();
+  neon(String(DIA), 300, 1080, 420, '#fff', ROSA); neon('DIAS', 300, 1330, 92, '#ffd36e', LARANJA);
+  neon('PRA', 760, 960, 96, '#fff', ROSA); neon('CLIPAR', 760, 1070, 120, '#fff', ROSA); neon('ANTES DO', 760, 1190, 74, '#ffd36e', LARANJA); neon('GTA 6', 760, 1300, 130, ROSA, '#ff9ad1');
+  X.font = fnt(40, 'SG'); const tx = '💬 Comenta CORTES'; const tw = X.measureText(tx).width + 60; pil(540 - tw / 2, 1500, tw, 84, 42, 'rgba(255,255,255,.95)'); X.fillStyle = '#2a0b45'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 540, 1544);
+};
 window.pronto = true;
 </script></body></html>
