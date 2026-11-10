@@ -154,7 +154,7 @@ window.eventos = () => { const ev = []; TL.segmentos.forEach((s, i) => { if (i) 
   if (/^p\d/.test(s.cena)) ev.push({ t: s.t0 + .08, som: 'ding' }); if (s.cena === 'gancho') ev.push({ t: s.t0 + s.dur_voz * .62, som: 'stamp' }); if (s.cena === 'fila') ev.push({ t: s.t0 + .2, som: 'clock', dur: 1.2 });
   if (s.cena === 'recorde' || s.cena === 'gta5') ev.push({ t: s.t0 + .3, som: 'clock', dur: 1.4 }); if (s.cena === 'imagina') ev.push({ t: s.t0 + .1, som: 'impact' }); if (s.cena === 'cta') ev.push({ t: s.t0 + .3, som: 'typing', dur: 1.0 }); if (s.cena === 'p4') ev.push({ t: s.t0 + .6, som: 'pop' }); });
   ev.push({ t: TL.total - .6, som: 'whoosh' }); return ev; };
-const DIA = 19 - 10; // GTA 6 sai em 19/11/2026; post em 10/11 → 9 dias
+const DIA = 19 - 11; // GTA 6 sai em 19/11/2026; post em 11/11 → 8 dias
 
 function mundo(cena, lt, d, t) {
   // fila sacode; cadeado só no gancho/fila; letreiro EM BREVE
