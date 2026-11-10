@@ -1,6 +1,6 @@
 {
- "data": "2026-11-10",
- "horario": "21:30",
+ "data": "2026-11-11",
+ "horario": "13:00",
  "pilar": "reel",
  "formato": "cidade neon",
  "temas": [
@@ -14,8 +14,8 @@
  "cta": "CORTES",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-10 21:30",
-  "tiktok": "2026-11-10 21:30"
+  "instagram": "2026-11-11 13:00",
+  "tiktok": "2026-11-11 13:00"
  },
  "categoria": "novidade",
  "status": "roteiro aprovado",
@@ -23,7 +23,7 @@
  "referencia": "Referência 14: Reel do @_aighostlab '9 dias pra clipar antes do lançamento' (gravação do Vitor no Drive, 09/11 20:41)",
  "capa": {
   "objeto": "fila na porta EM BREVE",
-  "texto": "9 dias pra clipar antes do GTA 6",
+  "texto": "8 dias pra clipar antes do GTA 6",
   "selo": "SAI 19/11"
  },
  "elementos": {
@@ -42,5 +42,6 @@
   "Rockstar Games (06/11/2025): GTA 6 em 19/11/2026",
   "Guinness World Records: 90.421.491 views em 24 h",
   "Take-Two (ago/2026): GTA V passou de 230 milhões"
- ]
+ ],
+ "horario_obs": "Vitor, 10/11: primeiro da produção, postar 11/11 às 13:00 (fora da grade, pedido dele)"
 }

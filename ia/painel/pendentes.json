@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-09 20:03",
+ "gerado_em": "2026-11-10 02:16",
  "videos": [
   {
    "pasta": "2026-11-13-ia-puxa-saco",
@@ -7,119 +7,29 @@
    "quando": "2026-11-13 08:00"
   },
   {
-   "pasta": "2026-11-10-musica-gratis",
-   "titulo": "3 PROGRAMAS GRÁTIS PRA FAZER MÚSICA",
-   "quando": "2026-11-13 06:00"
-  },
-  {
    "pasta": "2026-11-12-engenheiro-disse-que-a-ia-sente",
    "titulo": "ELE DISSE QUE A IA TINHA SENTIMENTOS",
    "quando": "2026-11-12 21:30"
   },
   {
-   "pasta": "2026-11-10-apple-nao-queria",
-   "titulo": "5 PROJETOS QUE A APPLE NÃO QUERIA",
-   "quando": "2026-11-12 19:30"
-  },
-  {
    "pasta": "2026-11-12-watson-jeopardy",
    "titulo": "2011: A MÁQUINA GANHOU O SHOW DA TV",
    "quando": "2026-11-12 17:00"
-  },
-  {
-   "pasta": "2026-11-10-testa-seu-negocio",
-   "titulo": "11 IAS TESTAM SEU NEGÓCIO ANTES DE ABRIR",
-   "quando": "2026-11-12 14:00"
-  },
-  {
-   "pasta": "2026-11-12-diz-pra-que-e",
-   "titulo": "A IA É UM ESTAGIÁRIO GÊNIO",
-   "quando": "2026-11-12 12:00"
-  },
-  {
-   "pasta": "2026-11-10-projetos-celular",
-   "titulo": "5 PROJETOS QUE TURBINAM SEU CELULAR",
-   "quando": "2026-11-12 10:00"
-  },
-  {
-   "pasta": "2026-11-10-ia-le-whatsapp",
-   "titulo": "A IA ACHA AQUELA MENSAGEM NO SEU WHATSAPP",
-   "quando": "2026-11-12 06:00"
-  },
-  {
-   "pasta": "2026-11-11-carro-por-1-dolar",
-   "titulo": "O ROBÔ QUE VENDEU UM CARRO POR 1 DÓLAR",
-   "quando": "2026-11-11 21:30"
-  },
-  {
-   "pasta": "2026-11-09-bizarros-github",
-   "titulo": "5 PROJETOS MAIS BIZARROS DA SEMANA",
-   "quando": "2026-11-11 19:30"
-  },
-  {
-   "pasta": "2026-11-09-a-pergunta-de-turing",
-   "titulo": "1950: MÁQUINAS PODEM PENSAR?",
-   "quando": "2026-11-11 17:00"
-  },
-  {
-   "pasta": "2026-11-09-ia-chinesa-no-bolso",
-   "titulo": "A IA CHINESA QUE CONTROLA SEU PC PELO CELULAR",
-   "quando": "2026-11-11 14:00"
-  },
-  {
-   "pasta": "2026-11-11-chatgpt-lembra-de-voce",
-   "titulo": "O CHATGPT LEMBRA DE VOCÊ",
-   "quando": "2026-11-11 12:00"
-  },
-  {
-   "pasta": "2026-11-09-apps-gratis-mac",
-   "titulo": "3 APPS GRÁTIS QUE O MAC DEVIA TER",
-   "quando": "2026-11-11 10:00"
-  },
-  {
-   "pasta": "2026-11-09-playstation-no-pc",
-   "titulo": "5 JOGOS DE PLAYSTATION RODANDO NO PC",
-   "quando": "2026-11-11 06:00"
-  },
-  {
-   "pasta": "2026-11-10-samsung-vazou-no-chatgpt",
-   "titulo": "ELES COLARAM SEGREDO DA SAMSUNG NO CHATGPT",
-   "quando": "2026-11-10 21:30"
-  },
-  {
-   "pasta": "2026-11-09-internet-somada",
-   "titulo": "SOMA O WI-FI COM O 4G",
-   "quando": "2026-11-10 19:30"
-  },
-  {
-   "pasta": "2026-11-10-a-ia-ganhou-nome",
-   "titulo": "1956: PROMETERAM A IA EM 2 MESES",
-   "quando": "2026-11-10 17:00"
-  },
-  {
-   "pasta": "2026-11-09-programas-caros-gratis",
-   "titulo": "5 PROGRAMAS CAROS REFEITOS DE GRAÇA",
-   "quando": "2026-11-10 14:00"
-  },
-  {
-   "pasta": "2026-11-10-pense-passo-a-passo",
-   "titulo": "4 PALAVRAS QUE FAZEM A IA ERRAR MENOS",
-   "quando": "2026-11-10 08:00"
   }
  ],
  "roteiros": [],
  "agenda_3_dias": [
   {
-   "quando": "2026-11-09 21:30",
-   "titulo": "A IA QUE MANDOU ELE LARGAR A ESPOSA",
+   "quando": "2026-11-10 06:00",
+   "titulo": "POV: VOCÊ FEZ UM APP DE MAC SEM ESCREVER CÓDIGO",
    "redes": [
     "instagram",
     "tiktok"
    ]
   },
   {
-   "quando": "2026-11-10 06:00",
-   "titulo": "POV: VOCÊ FEZ UM APP DE MAC SEM ESCREVER CÓDIGO",
+   "quando": "2026-11-10 08:00",
+   "titulo": "4 PALAVRAS QUE FAZEM A IA ERRAR MENOS",
    "redes": [
     "instagram",
     "tiktok"
@@ -136,6 +46,118 @@
   {
    "quando": "2026-11-10 12:00",
    "titulo": "ELA NUNCA ESCREVE DO SEU JEITO?",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-10 14:00",
+   "titulo": "5 PROGRAMAS CAROS REFEITOS DE GRAÇA",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-10 17:00",
+   "titulo": "1956: PROMETERAM A IA EM 2 MESES",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-10 19:30",
+   "titulo": "SOMA O WI-FI COM O 4G",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-11 06:00",
+   "titulo": "5 JOGOS DE PLAYSTATION RODANDO NO PC",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-11 10:00",
+   "titulo": "3 APPS GRÁTIS QUE O MAC DEVIA TER",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-11 14:00",
+   "titulo": "A IA CHINESA QUE CONTROLA SEU PC PELO CELULAR",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-11 17:00",
+   "titulo": "1950: MÁQUINAS PODEM PENSAR?",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-11 19:30",
+   "titulo": "5 PROJETOS MAIS BIZARROS DA SEMANA",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-11 21:30",
+   "titulo": "O ROBÔ QUE VENDEU UM CARRO POR 1 DÓLAR",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-12 06:00",
+   "titulo": "A IA ACHA AQUELA MENSAGEM NO SEU WHATSAPP",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-12 10:00",
+   "titulo": "5 PROJETOS QUE TURBINAM SEU CELULAR",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-12 12:00",
+   "titulo": "A IA É UM ESTAGIÁRIO GÊNIO",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-12 14:00",
+   "titulo": "11 IAS TESTAM SEU NEGÓCIO ANTES DE ABRIR",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-12 19:30",
+   "titulo": "5 PROJETOS QUE A APPLE NÃO QUERIA",
    "redes": [
     "instagram",
     "tiktok"

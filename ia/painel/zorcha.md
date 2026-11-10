@@ -6,6 +6,8 @@ Gerado por `python3 painel/zorcha.py`. Um bloco por Reel publicado ou agendado, 
 
 **Respostas públicas (variar):** "Te mandei na DM! 📩 Se não aparecer, olha em Solicitações de mensagem." · "Enviado no direct! 🚀 Confere lá (às vezes cai em Solicitações)." · "Mandei agora na DM 😉" · "Prontinho, tá na sua DM! 📩" · "Chegou aí? Mandei no direct 🙌"
 
+⚠️ Palavras usadas em mais de um Reel: GRATIS. Por isso o gatilho tem que ser o Reel específico.
+
 ## CAMINHO · 08/11 13:00
 Post: `2026-11-16-app-completo-com-ia`
 
@@ -37,6 +39,92 @@ Me segue que vem mais. 💜
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
+## CONTEXTO · 12/11 12:00
+Post: `2026-11-12-diz-pra-que-e`
+
+```
+Aqui está! 📋
+
+📝 Modelo: "Isso é para [quem vai ler]. Eu quero [o resultado: vender, convencer, explicar]. O tom é [direto/divertido/formal]. Evite [o que você não quer]." Depois escreva o pedido.
+
+📚 Guia oficial: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## DOLAR · 11/11 21:30
+Post: `2026-11-11-carro-por-1-dolar`
+
+```
+Aqui está! 🚙💵
+
+📰 O caso: https://futurism.com/the-byte/car-dealership-ai
+
+Lição pra quem tem negócio: se colocar IA no atendimento, deixe escrito o que ela NÃO pode prometer (preço, desconto, prazo) e mande passar pra um humano nesses casos.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## NEGOCIO · 12/11 14:00
+Post: `2026-11-10-testa-seu-negocio`
+
+```
+Oi! Que bom que você comentou NEGOCIO 🙌
+Aqui está o que eu prometi (link + 3 perguntas para testar a ideia hoje):
+• https://github.com/Jakeschincariol/founder-skill
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## CELULAR · 12/11 10:00
+Post: `2026-11-10-projetos-celular`
+
+```
+Oi! Que bom que você comentou CELULAR 🙌
+Aqui está o que eu prometi (links dos 5 + aviso: gravar ligação é legal no Brasil para quem participa dela, mas divulgar pode não ser):
+• https://github.com/MeshLive/meshlive-android
+• https://github.com/KnifeLemon/Droidline
+• https://github.com/arpanjot-coding/AVault
+• https://github.com/zhongerxin/iPhone-use
+• https://github.com/rddmwmddr/android-ad-cleaner
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## PASSO · 10/11 08:00
+Post: `2026-11-10-pense-passo-a-passo`
+
+```
+Aqui está! 🪜
+
+1) Conta: "[seu problema]. Vamos pensar passo a passo e só no fim dê a resposta."
+2) Orçamento: "Monte meu orçamento do mês passo a passo, mostrando cada conta."
+3) Decisão: "Quero decidir entre A e B. Pense passo a passo: prós, contras e riscos, e só depois recomende."
+
+📄 O estudo: https://arxiv.org/abs/2205.11916
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## MUSICA · 13/11 06:00
+Post: `2026-11-10-musica-gratis`
+
+```
+Oi! Que bom que você comentou MUSICA 🙌
+Aqui está o que eu prometi (links dos 3 (onkey é só para Mac)):
+• https://github.com/Ka1-S/LYNX-SHARE
+• https://github.com/ItsAlphaNeon/Lemon-Studio
+• https://github.com/dsmurrell/onkey
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
 ## EXEMPLO · 10/11 12:00
 Post: `2026-11-10-mostra-um-exemplo`
 
@@ -47,6 +135,83 @@ Aqui está! ✍️
 
 Funciona pra legenda, e-mail, resposta de cliente e post.
 📚 Guia oficial do Claude: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## ZAP · 12/11 06:00
+Post: `2026-11-10-ia-le-whatsapp`
+
+```
+Oi! Que bom que você comentou ZAP 🙌
+Aqui está o que eu prometi (link + passo a passo + aviso de privacidade):
+• https://github.com/finereli/whatsapp-mcp
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## APPLE · 12/11 19:30
+Post: `2026-11-10-apple-nao-queria`
+
+```
+Oi! Que bom que você comentou APPLE 🙌
+Aqui está o que eu prometi (links dos 5 + aviso: experimentais, podem violar termos de uso; nada de usar no aparelho principal):
+• https://github.com/harkhowalia-1/MacSubsystemForAndroid
+• https://github.com/Snapintosh/Snapintosh
+• https://github.com/UniXNU/UniXNU
+• https://github.com/govijr/terminal-mac
+• https://github.com/oosexgang/hakios-xnu-kernel
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## VERAO · 10/11 17:00
+Post: `2026-11-10-a-ia-ganhou-nome`
+
+```
+Aqui está! ☀️
+
+📄 A proposta de Dartmouth (1955), republicada pela AI Magazine: https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/1904/1802
+
+Curiosidade: um dos quatro autores era Claude Shannon, o pai da teoria da informação.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## GRATIS · 10/11 14:00
+Post: `2026-11-09-programas-caros-gratis`
+
+```
+Oi! Que bom que você comentou GRATIS 🙌
+Aqui está o que eu prometi (links dos 5 + aviso de que são projetos novos (podem ter bugs)):
+• https://github.com/tcchen2026/VibeOffice
+• https://github.com/storytold/figcraft
+• https://github.com/storytold/gridcraft
+• https://github.com/storytold/cadcraft
+• https://github.com/storytold/wordcraft
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## PLAY · 11/11 06:00
+Post: `2026-11-09-playstation-no-pc`
+
+```
+Oi! Que bom que você comentou PLAY 🙌
+Aqui está o que eu prometi (links dos 5 + aviso: precisa da cópia do SEU jogo, nenhum traz arquivos de jogo):
+• https://github.com/GetLostIn/CTR-NitroFueled-PC
+• https://github.com/HayatoG/iss_pc
+• https://github.com/AjncSystem/ShadowOfTheColossus-PC
+• https://github.com/Supermedo/uncharted_pc
+• https://github.com/LoreanXavier/pt-pc
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
 
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
@@ -80,6 +245,19 @@ Se curtir, me segue pra mais IA que serve pra vida real. 💜
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
+## INTERNET · 10/11 19:30
+Post: `2026-11-09-internet-somada`
+
+```
+Oi! Que bom que você comentou INTERNET 🙌
+Aqui está o que eu prometi (link + passo a passo de instalação no Windows):
+• https://github.com/net-merge/net-merge
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
 ## RESUMO · 09/11 08:00
 Post: `2026-11-09-ia-esquece-a-conversa`
 
@@ -94,6 +272,36 @@ Depois abra um chat novo, cole o resumo e continue.
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
+## CHINA · 11/11 14:00
+Post: `2026-11-09-ia-chinesa-no-bolso`
+
+```
+Oi! Que bom que você comentou CHINA 🙌
+Aqui está o que eu prometi (link + checklist de segurança antes de instalar):
+• https://github.com/ccch1mneyyy/dsh-Go
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## BIZARRO · 11/11 19:30
+Post: `2026-11-09-bizarros-github`
+
+```
+Oi! Que bom que você comentou BIZARRO 🙌
+Aqui está o que eu prometi (links dos 5):
+• https://github.com/Leonxlnx/athenaion
+• https://github.com/divagr18/qwenputer
+• https://github.com/Noniv/web-ocean
+• https://github.com/chenglou/handwired
+• https://github.com/aschmelyun/print-my-profile-pic
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
 ## SYDNEY · 09/11 21:30
 Post: `2026-11-09-bing-mandou-largar-a-esposa`
 
@@ -104,6 +312,34 @@ Aqui está! 💘🤖
 📰 A conversa inteira (NYT): https://www.nytimes.com/2023/02/16/technology/bing-chatbot-transcript.html
 
 Curiosidade: a conversa foi no Dia dos Namorados dos EUA, 14/02/2023.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## MAC · 11/11 10:00
+Post: `2026-11-09-apps-gratis-mac`
+
+```
+Oi! Que bom que você comentou MAC 🙌
+Aqui está o que eu prometi (links dos 3):
+• https://github.com/opennookorg/betterwispr
+• https://github.com/SaarthurR/atticus-mac
+• https://github.com/alejandrobujan/tendedero
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## TURING · 11/11 17:00
+Post: `2026-11-09-a-pergunta-de-turing`
+
+```
+Aqui está! 🧩
+
+📄 "Computing Machinery and Intelligence", Alan Turing (Mind, 1950): https://academic.oup.com/mind/article/LIX/236/433/986238
+
+Curiosidade: Turing chamou o teste de "jogo da imitação". O nome "teste de Turing" veio depois.
 
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
