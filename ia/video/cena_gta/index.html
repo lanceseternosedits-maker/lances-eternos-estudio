@@ -52,7 +52,7 @@ function predio(x, z, w, d, h, cor, neon) { const g = new THREE.Group(); g.posit
 const cores = ['#f6c7ae', '#f0a99a', '#e8b4c4', '#fbd9bd', '#d99aa8', '#f4bfa0'], neons = [null, null, null, null, null, null];
 for (const lado of [-1, 1]) for (let z = 30; z > -170; z -= 7 + rnd() * 4) { const w = 5 + rnd() * 4, h = 6 + rnd() * 18; predio(lado * (9 + w / 2 + rnd() * 2), z, w, 5 + rnd() * 3, h, cores[(rnd() * 6) | 0], neons[(rnd() * 6) | 0]); }
 // postes com luz rosa
-for (let z = 26; z > -120; z -= 12) for (const x of [-6.4, 6.4]) { box(.15, 4, .15, M('#333'), S, x, 2, z); box(.9, .12, .3, E('#ffe0a8', 1.2), S, x * .9, 4, z); }
+for (let z = 26; z > -120; z -= 12) for (const x of [-6.4, 6.4]) { if (x < 0 && z > 0) continue; box(.15, 4, .15, M('#333'), S, x, 2, z); box(.9, .12, .3, E('#ffe0a8', 1.2), S, x * .9, 4, z); }
 
 // ---------- prédio "EM BREVE" (alvo da fila), à direita do começo da avenida ----------
 const LOJA = new THREE.Group(); LOJA.position.set(8.5, 0, -6); LOJA.rotation.y = -Math.PI / 2; S.add(LOJA);
