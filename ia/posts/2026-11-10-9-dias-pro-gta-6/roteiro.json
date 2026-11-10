@@ -85,5 +85,7 @@
    "fala": "Comenta CORTES e me segue que eu te mando o sistema.",
    "legenda": "Comenta CORTES e me segue que eu te mando o sistema."
   }
- ]
+ ],
+ "modelo": "gemini-2.5-pro-preview-tts",
+ "obs_voz": "Pro aprovada pelo Vitor em 10/11 (~US$ 0,04): cota diária da flash esgotada"
 }

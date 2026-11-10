@@ -106,6 +106,17 @@ Para ⚙️ como_funciona e para explicar processos/tecnologia que parecem difí
 
 **Visual padrão do formato 4 (Vitor, 08/11: "seguir a linha da referência: num quarto, as requisições no computador e linkando com o objeto fora"):** `video/cena_quarto/` (3D, three.js). Quarto claro (piso de madeira, paredes claras, janela, tapete, planta); o mascote sentado na mesa digitando. Em cada etapa: (1) câmera por cima do ombro, o **pedido aparece digitado na tela do PC**; (2) a câmera sai do PC e vai até a **cadeia do sistema no chão do quarto**, onde o **objeto de verdade** da etapa surge (rack do servidor, cilindros do banco de dados, cadeado, cartão "PAGO ✓", sino, envelope…) ligado ao anterior por um cabo com pulsos. No fim, a câmera sobe e mostra a cadeia inteira. Sem neon, cores básicas; narração contínua, sem numerar. Render: `cd video && python3 -m http.server 8765` e `node cena_quarto/render_quarto.js <timeline.json> <saida.mp4>` (~0,3 s por quadro). `cena_fluxo` (esteira) e `cena_app` (2D) ficam de reserva.
 
+## Padrão de qualidade "perfil referência" (Vitor, 10/11: "quero que os próximos sejam produzidos no mesmo padrão… que sejamos perfil REFERÊNCIA ao invés de nos espelharmos em outros")
+Modelo: `posts/2026-11-10-9-dias-pro-gta-6/` + `video/cena_gta/` (Referência 14, @_aighostlab). Vale para **todo vídeo novo**, de qualquer categoria:
+- **Mundo 3D com profundidade:** cidade/cenário de blocos inteiro com avenida, prédios dos dois lados, céu em degradê com sol, neblina de distância e luz quente de pôr do sol. Nada de palco fechado nem fundo chapado.
+- **Câmera viajando:** cada cena tem a sua posição no mundo; a câmera desliza de uma para a outra (corte seco só em salto grande), com leve inclinação e movimento contínuo. Nenhum quadro parado.
+- **Cada fala vira um objeto ou efeito:** número gigante neon, letreiro split-flap, odômetro girando, prédio que cresce, cadeado, pasta 3D, gráfico de picos, lista com checks, cartões que sobem, torres de moedas, fogos. Uma ideia por cena, um efeito forte por cena.
+- **Neon com brilho:** texto grande com contorno escuro e glow; paleta curta por vídeo (no GTA: rosa, roxo, ciano e amarelo).
+- **Progresso visível:** passos com selo de estrelas "1/4…4/4"; contador que muda a cada bloco.
+- **Fechamento:** caixa de comentário digitando a palavra + cartão da DM chegando; o último 0,6 s volta ao 1º quadro (loop).
+- **Duração:** pode passar de 35 s quando a história pede (o GTA tem ~50 s), mantendo ≤ 3,0 palavras/s.
+Motor: copie `video/cena_gta/index.html` (helpers `neon`, `flap`, `odometro`, `estrelas`, `cartaoBranco`, `SHOT` por cena) e troque mundo, paleta e cenas; teste com `node cena_gta/teste.js` e renderize com `CENA=<pasta>/index.html node cena_quarto/render_quarto.js`. O objetivo é ser a referência: cada vídeo novo tem que superar o anterior em pelo menos um detalhe (profundidade, efeito ou acabamento).
+
 ## Formato 3: contagem regressiva com mistério (referência @casadoclaude.ia, 05/11)
 Para listas de skills/ferramentas com número forte. Etiqueta fixa de 3 camadas (assunto + número real em laranja + promessa: "e a nº 1 é bizarra"); contagem 5 → 1 com a melhor no fim; cada item: nome se revelando de texto embaralhado + contador animado de instalações/estrelas (número da fonte, nunca estimado) + demonstração ou antes/depois; frase-ponte de cliffhanger ("essa é legalzinha… mas a próxima…"); mascote aponta e reage; fundo escuro com destaque laranja. Detalhes em `referencias_fixas.md`.
 
