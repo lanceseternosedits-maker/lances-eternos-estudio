@@ -83,7 +83,7 @@ const ui = C => { const { X, GH, SEGR, CHAVE, blocos } = C; const GY3 = 620;
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .34) return; const u = eio(lt / .34), w = 260 + u * 2300, h = w * .62;
       X.save(); X.fillStyle = "#111418"; X.beginPath(); X.rect(0, 0, 1080, 1920); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 18 * (1 - u) + 4); X.fill("evenodd"); X.restore(); },
     fechamento(lt) { // cartões que viram: PERFIS · LUTS · VERTICAL
-      X.fillStyle = "rgba(238,241,244,.8)"; X.fillRect(0, 640, 1080, 860);
+      X.fillStyle = "rgba(238,241,244,.28)"; X.fillRect(0, 640, 1080, 860);
       [["PERFIS", "de cor novos"], ["LUTS", "próprias"], ["VERTICAL", "a tela"]].forEach(([a, b], i) => { const k = lin(lt, .1 + i * .22, .55 + i * .22), sx = Math.abs(Math.cos(k * Math.PI)), frente = k > .5, x = 210 + i * 300, y = 880;
         X.save(); X.translate(x, y); X.scale(Math.max(.02, sx), 1); X.fillStyle = frente ? "#fff" : LAR; X.beginPath(); X.roundRect(-130, -170, 260, 340, 22); X.fill();
         if (frente) { X.fillStyle = TINTA; X.font = `400 ${cabe(52, a, 220)}px AB`; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText(a, 0, -20); X.fillStyle = "#56606b"; X.font = "400 30px AB"; X.fillText(b, 0, 46); } else { X.fillStyle = "#fff"; X.font = "400 130px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("?", 0, 8); } X.restore(); });

@@ -86,7 +86,7 @@ const ui = C => { const { X, GH, SEGR, CHAVE } = C; const GY3 = 600;
       X.save(); X.fillStyle = CREME; X.beginPath(); X.moveTo(x, 0); X.quadraticCurveTo(x - 160, 960, x, 1920); X.lineTo(x + 420, 1920); X.lineTo(x + 420, 0); X.closePath(); X.fill();
       const g = X.createLinearGradient(x - 80, 0, x + 120, 0); g.addColorStop(0, "rgba(0,0,0,0)"); g.addColorStop(.6, "rgba(0,0,0,.2)"); g.addColorStop(1, "rgba(0,0,0,0)"); X.fillStyle = g; X.fillRect(x - 80, 0, 200, 1920); X.restore(); },
     fechamento(lt) { // post-its na parede
-      X.fillStyle = "rgba(243,246,241,.8)"; X.fillRect(0, 640, 1080, 860);
+      X.fillStyle = "rgba(243,246,241,.28)"; X.fillRect(0, 640, 1080, 860);
       [["1", "ESCANEIA", "o manual", "#ffe27a", -.06], ["2", "GIRA", "a peça", "#bfe6c9", .05], ["3", "ENCAIXA", "sem briga", "#ffc4b8", -.03]].forEach(([n, a, b, c, r], i) => { const k = back(lin(lt, .1 + i * .2, .45 + i * .2)); if (k <= 0) return; const x = 215 + i * 290, y = 870 + (i % 2) * 30;
         X.save(); X.translate(x, y); X.rotate(r); X.scale(k, k); X.shadowColor = "rgba(0,0,0,.3)"; X.shadowBlur = 14; X.fillStyle = c; X.fillRect(-125, -125, 250, 250); X.shadowBlur = 0; X.fillStyle = "rgba(255,255,255,.55)"; X.fillRect(-50, -140, 100, 32);
         X.fillStyle = TINTA; X.textAlign = "center"; X.textBaseline = "middle"; X.font = "400 34px PS"; X.fillText(n, 0, -70); X.font = `700 ${cabe(52, a, 220)}px SG`; X.fillText(a, 0, 4); X.fillStyle = "#4a5a50"; X.font = "700 34px SG"; X.fillText(b, 0, 62); X.restore(); });

@@ -91,13 +91,13 @@ const ui = C => { const { X, GH, SEGR, CHAVE } = C; const GY3 = 600;
       X.save(); X.fillStyle = VERDE2; X.beginPath(); X.rect(0, 0, 1080, 1920); X.moveTo(505 + Math.max(1, r), 1000); X.arc(505, 1000, Math.max(1, r), 0, Math.PI * 2, true); X.closePath(); X.fill();
       X.strokeStyle = AMAR; X.lineWidth = 14; X.beginPath(); X.arc(505, 1000, Math.max(1, r), 0, Math.PI * 2); X.stroke(); X.restore(); },
     fechamento(lt) { // página de caderno com os 2 truques
-      X.save(); X.translate(505, 930); X.rotate(-.015); X.shadowColor = "rgba(0,0,0,.25)"; X.shadowBlur = 24; X.fillStyle = "#fffdf6"; X.fillRect(-430, -270, 860, 480); X.shadowColor = "transparent";
-      X.strokeStyle = "rgba(47,111,176,.3)"; X.lineWidth = 2; for (let y = -190; y < 210; y += 80) { X.beginPath(); X.moveTo(-430, y + 40); X.lineTo(430, y + 40); X.stroke(); } X.strokeStyle = "rgba(232,50,60,.5)"; X.beginPath(); X.moveTo(-350, -270); X.lineTo(-350, 210); X.stroke();
+      X.save(); X.translate(505, 850); X.rotate(-.015); X.shadowColor = "rgba(0,0,0,.25)"; X.shadowBlur = 24; X.fillStyle = "#fffdf6"; X.fillRect(-430, -270, 860, 430); X.shadowColor = "transparent";
+      X.strokeStyle = "rgba(47,111,176,.3)"; X.lineWidth = 2; for (let y = -190; y < 140; y += 80) { X.beginPath(); X.moveTo(-430, y + 40); X.lineTo(430, y + 40); X.stroke(); } X.strokeStyle = "rgba(232,50,60,.5)"; X.beginPath(); X.moveTo(-350, -270); X.lineTo(-350, 210); X.stroke();
       X.textAlign = "left"; X.textBaseline = "alphabetic"; X.fillStyle = VERDE; X.font = "400 62px BB"; X.fillText("PRA IA PARAR DE ENROLAR:", -320, -200);
       [["1.", "DIGA O TAMANHO: \"EM 3 LINHAS\""], ["2.", "DIGA O FORMATO: \"LISTA DE 5\""], ["3.", "PEÇA: \"SEM INTRODUÇÃO\""]].forEach(([n, s], i) => { const k = lin(lt, .15 + i * .2, .45 + i * .2); if (k <= 0) return; X.globalAlpha = k; const y = -110 + i * 80; X.fillStyle = VERM; X.font = "400 52px BB"; X.fillText(n, -320, y); X.fillStyle = TINTA; X.font = `400 ${cabe(52, s, 640)}px BB`; X.fillText(s, -270, y); X.globalAlpha = 1; });
       X.restore();
-      const p = back(lin(lt, .9, 1.3)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(505, 1250); X.scale(p, p); X.fillStyle = VERM; X.beginPath(); X.roundRect(-300, -64, 600, 128, 64); X.fill(); X.fillStyle = "#fff"; X.font = "400 92px BB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("COMENTA " + CHAVE, 0, 6); X.restore();
-      if (lt > 1.3) { X.globalAlpha = eo(lin(lt, 1.3, 1.7)); X.fillStyle = TINTA; X.font = "400 44px BB"; X.textAlign = "center"; X.fillText("E RECEBE OS PROMPTS PRONTOS", 505, 1360); X.globalAlpha = 1; } },
+      const p = back(lin(lt, .9, 1.3)) * (1 + Math.sin(lt * 6) * .03); X.save(); X.translate(300, 1250); X.scale(p * .82, p * .82); X.fillStyle = VERM; X.beginPath(); X.roundRect(-300, -64, 600, 128, 64); X.fill(); X.fillStyle = "#fff"; X.font = "400 92px BB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("COMENTA " + CHAVE, 0, 6); X.restore();
+      if (lt > 1.3) { X.globalAlpha = eo(lin(lt, 1.3, 1.7)); X.fillStyle = TINTA; X.font = "400 44px BB"; X.textAlign = "center"; X.fillText("E RECEBE OS PROMPTS PRONTOS", 300, 1350); X.globalAlpha = 1; } },
   }; };
 const cores = { LAR: VERDE, VERDE: AMAR, FUNDO, CREME: PAPEL, TINTA, BRILHO: "rgba(0,0,0,0)" };
 return { SHOTS, ACT, cores, semPalco: true, ui, camera };

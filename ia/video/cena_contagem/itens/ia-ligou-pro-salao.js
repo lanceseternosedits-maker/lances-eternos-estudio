@@ -80,7 +80,7 @@ const ui = C => { const { X, GH, SEGR, CHAVE, blocos } = C; const GY3 = 600;
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .3) return; const k = 1 - lt / .3, cv = X.canvas; X.save(); X.globalCompositeOperation = "lighter"; X.globalAlpha = .45 * k;
       X.drawImage(cv, 22 * k, 0); X.drawImage(cv, -22 * k, 0); X.restore(); X.save(); X.globalAlpha = .7 * k; for (let i = 0; i < 10; i++) { const y = 600 + ((i * 131 + Math.floor(lt * 60) * 37) % 860); X.fillStyle = i % 2 ? "rgba(255,0,90,.5)" : "rgba(0,220,255,.5)"; X.fillRect(0, y, 1080, 6 + (i % 3) * 8); } X.restore(); },
     fechamento(lt) { // cartões que viram: 2018 · HUM-HUM · VAI AVISAR
-      X.fillStyle = "rgba(242,251,248,.78)"; X.fillRect(0, 640, 1080, 860);
+      X.fillStyle = "rgba(242,251,248,.28)"; X.fillRect(0, 640, 1080, 860);
       [["2018", "o ano"], ["HUM-HUM", "o detalhe"], ["AVISAR", "a promessa"]].forEach(([a, b], i) => { const k = lin(lt, .1 + i * .22, .55 + i * .22), sx = Math.abs(Math.cos(k * Math.PI)), frente = k > .5, x = 210 + i * 300, y = 870;
         X.save(); X.translate(x, y); X.scale(Math.max(.02, sx), 1); X.fillStyle = frente ? "#fff" : ROSA; X.beginPath(); X.roundRect(-130, -170, 260, 340, 22); X.fill();
         if (frente) { X.fillStyle = MENTA2; X.font = `400 ${cabe(56, a, 220)}px AB`; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText(a, 0, -20); X.fillStyle = "#6a6475"; X.font = "400 30px AB"; X.fillText(b, 0, 46); } else { X.fillStyle = "#fff"; X.font = "400 120px AB"; X.textAlign = "center"; X.textBaseline = "middle"; X.fillText("?", 0, 8); } X.restore(); });

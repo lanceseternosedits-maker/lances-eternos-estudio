@@ -83,7 +83,7 @@ const ui = C => { const { X, GH, SEGR, CHAVE, ITENS, MAXE } = C; const GY3 = 620
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .34) return; const u = eio(lt / .34), w = 160 + u * 2300, h = w * 1.75;
       X.save(); X.fillStyle = "#0c0c14"; X.beginPath(); X.rect(0, 0, 1080, 1920); X.roundRect(505 - w / 2, 1000 - h / 2, w, h, 30 * (1 - u) + 4); X.fill("evenodd"); X.restore(); },
     fechamento(lt) { // post-its na parede com as 3 skills
-      X.fillStyle = "rgba(238,241,251,.82)"; X.fillRect(0, 640, 1080, 860);
+      X.fillStyle = "rgba(238,241,251,.28)"; X.fillRect(0, 640, 1080, 860);
       ITENS.slice().reverse().forEach((s, i) => { const k = back(lin(lt, .1 + i * .2, .45 + i * .2)); if (k <= 0) return; const x = 215 + i * 290, y = 870 + (i % 2) * 30, c = [AMAR, "#9fe8ff", "#ffb3dc"][i];
         X.save(); X.translate(x, y); X.rotate([-.06, .05, -.03][i]); X.scale(k, k); X.shadowColor = "rgba(0,0,0,.3)"; X.shadowBlur = 14; X.fillStyle = c; X.fillRect(-125, -125, 250, 250); X.shadowBlur = 0; X.fillStyle = "rgba(255,255,255,.55)"; X.fillRect(-50, -140, 100, 32);
         X.fillStyle = TINTA; X.textAlign = "center"; X.textBaseline = "middle"; X.font = "900 56px FR"; X.fillText("Nº " + (i + 1), 0, -64); X.font = `900 ${cabe(40, s.item, 220)}px FR`; X.fillText(s.item, 0, 4); X.fillStyle = "#4a5070"; X.font = "700 32px FR"; X.fillText(fmtP(s.estrelas) + " ★", 0, 66); X.restore(); });
