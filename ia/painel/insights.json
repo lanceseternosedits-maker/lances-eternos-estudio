@@ -1,44 +1,44 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-09 19:45",
- "leitura": "metricool_2026-11-09.json",
- "resumo": "Nada mudou desde a leitura das 12:58: o Metricool devolveu exatamente os mesmos números (22 Reels, mediana 1.008 views; contagem segue no topo com mediana 2.536, 5,3× o mascote no palco). Dos posts de hoje só o MAPA (06h) aparece, ainda com 0 views no Instagram, então é cedo para julgar a rodada de 09/11; TikTok segue travado (0 a 2 views nos 7 vídeos de 08/11).",
+ "em": "2026-11-10 07:45",
+ "leitura": "metricool_2026-11-10.json",
+ "resumo": "A rodada de 09/11 veio bem abaixo: os 8 Reels fizeram 3 a 807 views (MAPA, 22 h no ar, é o melhor), e as 5 contagens de projetos do GitHub ficaram em 204–807 com só 26–50% passando dos 3 s, puxando a mediana da contagem de 2.536 para 1.514. TikTok segue travado pelo 3º dia (os 16 vídeos desde 08/11 fizeram 0 a 7 views), e os de 07/11 continuam crescendo devagar no Instagram (ESTILO 2.280→2.728, CAMINHO 764→1.032).",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "TikTok zerou em 08/11",
-   "evidencia": "Os 7 vídeos de 08/11 (DESIGN, FONTE, VOZ, CAMINHO, BICHO, TAY, ESTILO) seguem com 0 a 2 views cada, igual às 12:58; em 07/11 foram 10 a 93 (WINDOWS 93, EDITA 72). Mediana geral de vídeo no TikTok: 10,5 views contra 1.008 no Instagram. Nenhum TikTok de 09/11 apareceu ainda no Metricool, e no Instagram só o MAPA (0 views)",
-   "acao": "Chefe: abrir o TikTok do @lanceseternoss e ver se há aviso de restrição ou vídeos em análise/privados; conferir também no Metricool se os posts de hoje saíram (só o das 06h aparece). Até isso, não tirar conclusão de TikTok nem da rodada de 09/11."
+   "titulo": "TikTok travado há 3 dias",
+   "evidencia": "Os 16 vídeos de 08/11 e 09/11 (incluindo APP e SYDNEY de hoje) têm 0 a 7 views cada; em 07/11 foram 10 a 93 e em 01/11 os posts de foto fizeram 115 a 191. Mediana de vídeo no TikTok: 3 views contra 650 no Instagram",
+   "acao": "Chefe: abrir o app do TikTok do @lanceseternoss e checar Central de Contas/aviso de restrição e se os vídeos estão como 'público'. Se estiver tudo normal, testar 1 post de fotos (mediana 14) e 1 vídeo postado direto pelo app, sem o Metricool, para isolar a causa."
   },
   {
-   "tipo": "fazer_mais",
-   "titulo": "Contagem continua imbatível",
-   "evidencia": "10 contagens com mediana de 2.536 views e 3,0% de salvamento, contra 482 views e 0,8% do mascote no palco (10 Reels). Novas de 08/11: VOZ 2.502 (65 salvamentos) e DESIGN 1.252",
-   "acao": "Manter as 4 novidades do dia em contagem com objeto do dia a dia (TV, PC, Windows, celular, voz). Preferir 5 itens: as de 3 itens (VOZ, DESIGN) seguraram só 17% do vídeo, contra 30% de TV e SKILLS."
-  },
-  {
-   "tipo": "corrigir",
-   "titulo": "Narrativa dá views, não dá salvamento",
-   "evidencia": "Agora são 3 Reels de mascote com história/explicação (Deep Blue 2.753 views, FONTE 2.095, Tay 564): 1, 3 e 1 salvamentos (0,0–0,2% do alcance) e 0 a 4 envios; contagens salvam 1,7–4,7%. FONTE tinha 'prompt pronto' como brinde e mesmo assim salvou 0,2%",
-   "acao": "Em toda 📜 e ⚙️, mostrar na tela o truque/lista no fim ('salva: 3 frases pra IA não inventar') como cartão final legível, e pedir 'salva' na fala, não só na legenda."
-  },
-  {
-   "tipo": "fazer_mais",
-   "titulo": "Noite rende mais",
-   "evidencia": "Posts das 18h em diante: mediana 2.478 views (6 Reels) contra 1.252 de manhã (5) e 614 à tarde (11). Parte disso é formato: as maiores contagens caíram à noite (TV, PC, 10 estilos)",
-   "acao": "Colocar a contagem mais forte da rodada no horário de 19:30 (úteis) / 19:00 (fim de semana); não mudar a grade ainda, só a escolha de qual roteiro vai em cada horário."
-  },
-  {
-   "tipo": "testar",
-   "titulo": "10 estilos segurou metade do vídeo",
-   "evidencia": "10 estilos (lista + demo): 2.280 views e 52,5% do vídeo assistido em média, a maior retenção da leitura (contagens ficam em 17–30%); 55 salvamentos. Comentário baixo (0,3%) com pergunta de opinião ('qual é o seu favorito?')",
-   "acao": "Testar mais 2 'mesma coisa em 10 versões' (ex.: mesma foto em 10 estilos, mesmo prompt em 10 IAs) com pergunta de vida no fim, para confirmar a retenção."
+   "tipo": "alerta",
+   "titulo": "Rodada de 09/11 caiu no Instagram",
+   "evidencia": "AGENCIA 204 (9 h no ar), ESTUDA 289, LOCAL 338, VIDEO 392, MAPA 807 (22 h), PRINT 250, RESUMO 218. Na leitura de ontem, as contagens de 08/11 com 32–36 h no ar já tinham 1.252–2.502 (DESIGN, VOZ). Ainda é cedo (menos de 24 h), mas a queda pegou formatos e horários diferentes ao mesmo tempo",
+   "acao": "Na leitura da noite, comparar de novo com 24–36 h no ar antes de mudar regra. Se continuar abaixo de 800, tratar como problema de tema (ver item seguinte), não de formato."
   },
   {
    "tipo": "corrigir",
-   "titulo": "Pergunta de opinião não puxa comentário",
-   "evidencia": "Opinião: ESTILO 0,3%, XADREZ ('foi trapaça?') 0,2%, TAY ('culpa da IA ou das pessoas?') 0,6%. Vida/experiência: Desenho animado 5,1%, Console ('no ônibus') 1,9%, CAMINHO ('qual etapa você não sabia?') 1,1%",
-   "acao": "Regra 4 confirmada: trocar toda pergunta final por situação da vida da pessoa ('onde você usaria?', 'qual você instalaria no PC do trabalho?')."
+   "titulo": "Contagem de nicho não segura o gancho",
+   "evidencia": "Contagens de 09/11 com tema de GitHub/dev: ESTUDA 26,5%, LOCAL 30,3%, AGENCIA 31,2% passam dos 3 s, com 3,9–5,5 s de tempo médio; as de objeto do dia a dia ficam em 44–54% (TV 44,6%, WINDOWS 54,1%, MOBILE 59%). MAPA (apps pra quem vive no ChatGPT) foi a melhor da rodada: 49,7%",
+   "acao": "Na próxima rodada, o 1º quadro e a 1ª frase de toda contagem precisam nomear um objeto ou dor do dia a dia (PC, celular, TV, ChatGPT, prova) e não 'skills'/'projetos do GitHub'. Evitar temas que pedem máquina forte ou plano pago no gancho (LOCAL, AGENCIA)."
+  },
+  {
+   "tipo": "fazer_mais",
+   "titulo": "Lista com demo segue crescendo",
+   "evidencia": "10 ESTILOS subiu de 2.280 para 2.728 views em 12 h, com 72 salvamentos (3,3%) e 27 envios, retenção de 9,6 s; CAMINHO subiu de 764 para 1.032 (20 salvamentos, 15,2 s de tempo médio, o maior da leitura). Lista + demo: mediana 1.390 com 2 Reels",
+   "acao": "Encaixar 1 'mesma coisa em 10 versões' ou 1 'mapa completo' por rodada, no horário da noite, para confirmar com o 3º Reel."
+  },
+  {
+   "tipo": "fazer_mais",
+   "titulo": "Noite continua à frente",
+   "evidencia": "Posts das 18h em diante: mediana 1.683 views (8 Reels) contra 600 de manhã (8) e 570 à tarde (14). Mas AGENCIA (19:32) fez só 204 em 9 h, então horário não salva tema fraco",
+   "acao": "Manter a contagem mais forte (objeto doméstico) no horário das 19:30/19:00; não mudar a grade."
+  },
+  {
+   "tipo": "corrigir",
+   "titulo": "📜 e ⚙️ seguem sem salvamento",
+   "evidencia": "História (3 Reels): mediana 686 views e 0,0% de salvar; como funciona (4): 641 e 0,35%; novidade (23): 2,05%. Novos ⚙️ de 09/11: PRINT 250 views com 1 salvamento, RESUMO 218 com 0. SYDNEY (📜, 7 h) tem 85,7% passando dos 3 s, mas só 11 views: cedo",
+   "acao": "Manter a regra de ontem: toda 📜/⚙️ termina com cartão final legível do truque e 'salva' falado. Conferir na leitura da noite se SYDNEY confirma o gancho forte de história."
   }
  ]
 }
