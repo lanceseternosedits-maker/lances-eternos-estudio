@@ -14,9 +14,9 @@ for (const f of ['400 60px AB', '700 60px SG']) await document.fonts.load(f);
 const R = new THREE.WebGLRenderer({ canvas: document.getElementById('g'), antialias: true, preserveDrawingBuffer: true });
 R.setSize(1080, 1920, false); R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap; R.outputColorSpace = THREE.SRGBColorSpace;
 const S = new THREE.Scene(); const cam = new THREE.PerspectiveCamera(40, 1080 / 1920, .1, 500);
-S.fog = new THREE.Fog(0x8a2b6e, 40, 150);
-const hemi = new THREE.HemisphereLight(0xffb0d8, 0x40124a, 1.25); S.add(hemi);
-const sol = new THREE.DirectionalLight(0xffa77a, 2.4); sol.position.set(-20, 14, -40); sol.castShadow = true; sol.shadow.mapSize.set(2048, 2048);
+S.fog = new THREE.Fog(0xf7a98a, 35, 170);
+const hemi = new THREE.HemisphereLight(0xffe2c4, 0x8a5a6a, 1.35); S.add(hemi);
+const sol = new THREE.DirectionalLight(0xffb070, 2.6); sol.position.set(-8, 10, -60); sol.castShadow = true; sol.shadow.mapSize.set(2048, 2048); sol.shadow.bias = -0.0006; sol.shadow.normalBias = .04;
 Object.assign(sol.shadow.camera, { left: -40, right: 40, top: 40, bottom: -40, near: 1, far: 120 }); S.add(sol, sol.target);
 const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)), lin = (t, a, b) => cl((t - a) / (b - a)), eo = x => 1 - Math.pow(1 - cl(x), 3);
 const eio = x => { x = cl(x); return x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; }, back = x => { x = cl(x); const c = 1.7; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
@@ -26,36 +26,35 @@ function mesh(g, m, par = S, x = 0, y = 0, z = 0) { const o = new THREE.Mesh(g, 
 const box = (w, h, d, m, par, x, y, z) => mesh(new THREE.BoxGeometry(w, h, d), m, par, x, y, z);
 function ctex(w, h, draw) { const c = document.createElement('canvas'); c.width = w; c.height = h; const g = c.getContext('2d'); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.draw = (...a) => { g.clearRect(0, 0, w, h); draw(g, w, h, ...a); t.needsUpdate = true; }; t.draw(); return t; }
 const V = (x, y, z) => new THREE.Vector3(x, y, z);
-const ROSA = '#ff3fa4', ROXO = '#7b2cff', CIANO = '#4fe3ff', CREME = '#fff3e6', LARANJA = '#ff7a3d';
+const ROSA = '#ff6f61', ROXO = '#6b4aa0', CIANO = '#ffc36b', CREME = '#fff3e6', LARANJA = '#ff7a3d';
 
 // ---------- céu: degradê pôr do sol + sol listrado ----------
-const ceuT = ctex(64, 512, g => { const d = g.createLinearGradient(0, 0, 0, 512); d.addColorStop(0, '#2a0b45'); d.addColorStop(.45, '#8a2b6e'); d.addColorStop(.75, '#ff6f91'); d.addColorStop(1, '#ffc38a'); g.fillStyle = d; g.fillRect(0, 0, 64, 512); });
+const ceuT = ctex(64, 512, g => { const d = g.createLinearGradient(0, 0, 0, 512); d.addColorStop(0, '#6b5aa8'); d.addColorStop(.38, '#e98aa0'); d.addColorStop(.7, '#ffb37a'); d.addColorStop(1, '#ffe2a8'); g.fillStyle = d; g.fillRect(0, 0, 64, 512); });
 S.background = ceuT;
-const solT = ctex(512, 512, g => { const d = g.createLinearGradient(0, 0, 0, 512); d.addColorStop(0, '#ffe36e'); d.addColorStop(1, '#ff3f8e'); g.fillStyle = d; g.beginPath(); g.arc(256, 256, 250, 0, 7); g.fill();
-  g.globalCompositeOperation = 'destination-out'; for (let i = 0; i < 7; i++) g.fillRect(0, 300 + i * 30, 512, 6 + i * 2); });
-const SOL = mesh(new THREE.PlaneGeometry(40, 40), new THREE.MeshBasicMaterial({ map: solT, transparent: true, fog: false, depthWrite: false }), S, 0, 12, -140); SOL.castShadow = SOL.receiveShadow = false;
+const solT = ctex(512, 512, g => { const h = g.createRadialGradient(256, 256, 60, 256, 256, 256); h.addColorStop(0, 'rgba(255,246,214,1)'); h.addColorStop(.42, 'rgba(255,214,140,1)'); h.addColorStop(.46, 'rgba(255,190,120,.55)'); h.addColorStop(1, 'rgba(255,170,110,0)'); g.fillStyle = h; g.fillRect(0, 0, 512, 512); });
+const SOL = mesh(new THREE.PlaneGeometry(70, 70), new THREE.MeshBasicMaterial({ map: solT, transparent: true, fog: false, depthWrite: false }), S, 0, 10, -150); SOL.castShadow = SOL.receiveShadow = false;
 
 // ---------- cidade: avenida principal (eixo z) com prédios dos dois lados ----------
-const chao = mesh(new THREE.PlaneGeometry(400, 400), M('#2b1238', { roughness: .35, metalness: .2 })); chao.rotation.x = -Math.PI / 2;
-const rua = box(10, .02, 300, M('#1a0b24', { roughness: .3, metalness: .3 }), S, 0, .01, -60);
-for (let z = 60; z > -200; z -= 6) box(.25, .03, 2.4, E('#ffd36e', 1.2), S, 0, .03, z);
-for (const x of [-5.6, 5.6]) box(1.2, .18, 300, M('#4a2050'), S, x, .09, -60);
+const chao = mesh(new THREE.PlaneGeometry(400, 400), M('#c98a7a', { roughness: .8 })); chao.rotation.x = -Math.PI / 2;
+const rua = box(10, .02, 300, M('#6e4a5a', { roughness: .55, metalness: .1 }), S, 0, .01, -60);
+for (let z = 60; z > -200; z -= 6) box(.25, .03, 2.4, M('#fff1d6'), S, 0, .03, z);
+for (const x of [-5.6, 5.6]) box(1.2, .18, 300, M('#e8b9a4'), S, x, .09, -60);
 const janT = ctex(128, 256, g => { g.fillStyle = '#1b0b2a'; g.fillRect(0, 0, 128, 256); for (let y = 10; y < 256; y += 26) for (let x = 10; x < 128; x += 30) { g.fillStyle = Math.random() < .55 ? (Math.random() < .5 ? '#ffd1f0' : '#ffb36b') : '#3a1a4a'; g.fillRect(x, y, 18, 14); } });
 janT.wrapS = janT.wrapT = THREE.RepeatWrapping;
 const PRED = [];
-function predio(x, z, w, d, h, cor, neon) { const g = new THREE.Group(); g.position.set(x, 0, z); S.add(g); const mt = M(cor, { map: janT.clone() }); mt.map.repeat.set(Math.max(1, w / 3), Math.max(1, h / 5)); mt.map.needsUpdate = true;
+function predio(x, z, w, d, h, cor, neon) { const g = new THREE.Group(); g.position.set(x, 0, z); S.add(g); const mt = M(cor, { roughness: .85 });
   const b = box(w, h, d, mt, g, 0, h / 2, 0); b.userData.base = h; if (neon) { box(w + .1, .25, d + .1, E(neon, 2.5), g, 0, h, 0); box(.2, h, .2, E(neon, 2), g, x < 0 ? w / 2 : -w / 2, h / 2, d / 2); } PRED.push(g); return g; }
-const cores = ['#e9d6ff', '#ffc6e3', '#b78bff', '#ff9ccc', '#ffe3f3', '#c7a6ff'], neons = [ROSA, CIANO, ROXO, '#ff6bd5', null, null];
+const cores = ['#f6c7ae', '#f0a99a', '#e8b4c4', '#fbd9bd', '#d99aa8', '#f4bfa0'], neons = [null, null, null, null, null, null];
 for (const lado of [-1, 1]) for (let z = 30; z > -170; z -= 7 + rnd() * 4) { const w = 5 + rnd() * 4, h = 6 + rnd() * 18; predio(lado * (9 + w / 2 + rnd() * 2), z, w, 5 + rnd() * 3, h, cores[(rnd() * 6) | 0], neons[(rnd() * 6) | 0]); }
 // postes com luz rosa
-for (let z = 26; z > -120; z -= 12) for (const x of [-6.4, 6.4]) { box(.15, 4, .15, M('#333'), S, x, 2, z); box(.9, .12, .3, E('#ff9ad1', 3), S, x * .9, 4, z); }
+for (let z = 26; z > -120; z -= 12) for (const x of [-6.4, 6.4]) { box(.15, 4, .15, M('#333'), S, x, 2, z); box(.9, .12, .3, E('#ffe0a8', 1.2), S, x * .9, 4, z); }
 
 // ---------- prédio "EM BREVE" (alvo da fila), à direita do começo da avenida ----------
 const LOJA = new THREE.Group(); LOJA.position.set(8.5, 0, -6); LOJA.rotation.y = -Math.PI / 2; S.add(LOJA);
-box(12, 9, 6, M('#ffd9ec', { map: janT }), LOJA, 0, 4.5, 0); box(12.2, .4, 6.2, E(ROSA, 2.5), LOJA, 0, 9, 0);
-const breveT = ctex(512, 128, (g, w, h, txt = 'EM BREVE') => { g.fillStyle = '#18061f'; g.fillRect(0, 0, w, h); g.fillStyle = '#fff'; g.font = '400 82px AB'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.shadowColor = ROSA; g.shadowBlur = 22; g.fillText(txt, w / 2, h / 2 + 4); });
+box(12, 9, 6, M('#fbe3d0'), LOJA, 0, 4.5, 0); box(12.2, .4, 6.2, M('#d97a6a'), LOJA, 0, 9, 0);
+const breveT = ctex(512, 128, (g, w, h, txt = 'EM BREVE') => { g.fillStyle = '#fff4e6'; g.fillRect(0, 0, w, h); g.fillStyle = '#c4473a'; g.font = '400 82px AB'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(txt, w / 2, h / 2 + 4); });
 const LETREIRO = mesh(new THREE.PlaneGeometry(7, 1.75), new THREE.MeshBasicMaterial({ map: breveT }), LOJA, 0, 6.6, 3.05);
-const PORTA = box(3, 3.6, .2, E('#ffb3dc', 1.6), LOJA, 0, 1.8, 3.02);
+const PORTA = box(3, 3.6, .2, M('#7a4a5a'), LOJA, 0, 1.8, 3.02);
 // cadeado gigante na porta
 const CAD = new THREE.Group(); CAD.position.set(0, 2.2, 3.6); LOJA.add(CAD); box(2, 1.7, .6, M('#ffcf4a', { metalness: .7, roughness: .3 }), CAD, 0, 0, 0);
 const arco = mesh(new THREE.TorusGeometry(.65, .16, 12, 24, Math.PI), M('#d9d9e8', { metalness: .9, roughness: .2 }), CAD, 0, .85, 0); box(.25, .5, .1, M('#3a1a4a'), CAD, 0, -.1, .31);
@@ -71,8 +70,8 @@ function mascote(esc = 1) { const g = new THREE.Group(); const c = M('#d9774a', 
 const MASC = mascote(1.1); // 1º da fila
 // ---------- escritório (p1–p4): mesa com monitor numa sala rosa, montado longe (x=60) ----------
 const SALA = new THREE.Group(); SALA.position.set(60, 0, 0); S.add(SALA);
-box(14, .2, 12, M('#3a1650'), SALA, 0, .1, 0); box(14, 9, .3, M('#5a1f73'), SALA, 0, 4.5, -5); box(.3, 9, 12, M('#4a1a62'), SALA, -7, 4.5, 0);
-box(4, 3, .1, E('#ff9ad1', .6), SALA, -3.5, 5.5, -4.8); // quadro neon
+box(14, .2, 12, M('#8a5a4c'), SALA, 0, .1, 0); box(14, 9, .3, M('#c27a62'), SALA, 0, 4.5, -5); box(.3, 9, 12, M('#a8654f'), SALA, -7, 4.5, 0);
+box(4, 3, .1, M('#ffd9b0'), SALA, -3.5, 5.5, -4.8); // quadro neon
 const MESA = box(6, .25, 2.6, M('#e9d6ff'), SALA, 0, 2.1, -2.6); for (const x of [-2.8, 2.8]) box(.2, 2, 2.4, M('#b78bff'), SALA, x, 1, -2.6);
 const telaT = ctex(640, 400, () => {}); const TELA = mesh(new THREE.PlaneGeometry(4.2, 2.6), new THREE.MeshBasicMaterial({ map: telaT }), SALA, 0, 3.9, -3.55);
 box(4.4, 2.8, .15, M('#1a1a22'), SALA, 0, 3.9, -3.65); box(.3, 1, .3, M('#1a1a22'), SALA, 0, 2.6, -3.7);
@@ -85,7 +84,7 @@ mesh(new THREE.PlaneGeometry(1.8, .68), new THREE.MeshBasicMaterial({ map: lvT, 
 const arqT = ctex(320, 200, g => { const d = g.createLinearGradient(0, 0, 0, 200); d.addColorStop(0, '#ff6f91'); d.addColorStop(1, '#2a0b45'); g.fillStyle = d; g.fillRect(0, 0, 320, 200); g.fillStyle = '#e8283c'; g.fillRect(14, 14, 80, 34); g.fillStyle = '#fff'; g.font = '400 24px AB'; g.fillText('LIVE', 24, 40); g.font = '700 24px SG'; g.fillText('live_gta.mp4 · 4h12', 14, 182); });
 const ARQ = mesh(new THREE.BoxGeometry(2.6, 1.6, .06), [M('#fff'), M('#fff'), M('#fff'), M('#fff'), new THREE.MeshBasicMaterial({ map: arqT }), M('#fff')], PASTA, 0, 3, .3);
 // ---------- prédio que cresce ("o mais clipado") e prédio do recorde atual, numa praça (z=-60) ----------
-const RECD = predio(-3.6, -60, 4.4, 4.4, 16, '#f2eaff', CIANO); const MAIS = predio(3.6, -60, 4.4, 4.4, 6, '#ff9ccc', ROSA); MAIS.children[0].material.emissive.set('#ff3fa4'); MAIS.children[0].material.emissiveIntensity = .45; RECD.children[0].material.emissive.set('#4fe3ff'); RECD.children[0].material.emissiveIntensity = .2;
+const RECD = predio(-3.6, -60, 4.4, 4.4, 16, '#f2eaff', CIANO); const MAIS = predio(3.6, -60, 4.4, 4.4, 6, '#ff9ccc', ROSA); MAIS.children[0].material.color.set('#f08a78'); MAIS.children[0].material.emissive.set('#ff8a6a'); MAIS.children[0].material.emissiveIntensity = .12; RECD.children[0].material.color.set('#f6e4d4');
 // ---------- torres de moedas (longo) ----------
 const MOEDAS = new THREE.Group(); MOEDAS.position.set(0, 0, -100); MOEDAS.scale.setScalar(.7); S.add(MOEDAS); const gm = new THREE.CylinderGeometry(.9, .9, .22, 24), mm = M('#ffc93a', { metalness: .85, roughness: .25 });
 const pilhas = []; for (let k = 0; k < 5; k++) { const p = new THREE.InstancedMesh(gm, mm, 40); p.position.set(-4.8 + k * 2.4, 0, (k % 2) * 1.2); MOEDAS.add(p); pilhas.push(p); }
@@ -100,17 +99,17 @@ const fnt = (s, f = 'AB') => `${f === 'AB' ? 400 : 700} ${s}px ${f}`;
 const pil = (x, y, w, h, r, c) => { X.fillStyle = c; X.beginPath(); X.roundRect(x, y, w, h, r); X.fill(); };
 function cabe(txt, f, mx, fam = 'AB') { while (f > 18) { X.font = fnt(f, fam); if (X.measureText(txt).width <= mx) break; f -= 2; } return f; }
 function neon(txt, x, y, f, cor = '#fff', glow = ROSA, al = 'center', fam = 'AB') { X.save(); X.font = fnt(f, fam); X.textAlign = al; X.textBaseline = 'middle'; X.lineJoin = 'round';
-  X.lineWidth = f * .16; X.strokeStyle = 'rgba(20,0,30,.75)'; X.strokeText(txt, x, y); X.shadowColor = glow; X.shadowBlur = f * .45; X.fillStyle = cor; X.fillText(txt, x, y); X.shadowBlur = 0; X.fillText(txt, x, y); X.restore(); }
-function estrelas(n, lt) { const w = 300, x = 505 - w / 2, y = 280; pil(x, y, w, 76, 38, 'rgba(25,8,40,.82)'); X.strokeStyle = ROSA; X.lineWidth = 3; X.beginPath(); X.roundRect(x, y, w, 76, 38); X.stroke();
+  X.shadowColor = 'rgba(60,20,40,.45)'; X.shadowBlur = f * .12; X.shadowOffsetY = f * .05; X.lineWidth = f * .1; X.strokeStyle = 'rgba(50,20,40,.85)'; X.strokeText(txt, x, y); X.shadowColor = 'transparent'; X.fillStyle = cor; X.fillText(txt, x, y); X.restore(); }
+function estrelas(n, lt) { const w = 300, x = 505 - w / 2, y = 280; pil(x, y, w, 76, 38, 'rgba(58,28,40,.82)'); X.strokeStyle = ROSA; X.lineWidth = 3; X.beginPath(); X.roundRect(x, y, w, 76, 38); X.stroke();
   for (let i = 0; i < 4; i++) { const on = i < n, nov = i === n - 1, s = nov ? back(lin(lt, .05, .4)) : 1; X.save(); X.translate(x + 48 + i * 46, y + 38); X.scale(s, s); X.fillStyle = on ? '#ffd36e' : 'rgba(255,255,255,.25)'; star(0, 0, 17); X.restore(); }
   X.fillStyle = '#fff'; X.font = fnt(30, 'SG'); X.textAlign = 'left'; X.textBaseline = 'middle'; X.fillText(n + '/4', x + 232, y + 40); }
 function star(x, y, r) { X.beginPath(); for (let i = 0; i < 10; i++) { const a = -Math.PI / 2 + i * Math.PI / 5, rr = i % 2 ? r * .45 : r; X.lineTo(x + Math.cos(a) * rr, y + Math.sin(a) * rr); } X.closePath(); X.fill(); }
 function flap(txt, cx, y, cw, ch, k, cor = '#fff') { // letreiro split-flap: letras embaralham até assentar (k 0→1)
   const L = txt.length, AZ = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'; const x0 = cx - (L * (cw + 8) - 8) / 2;
   for (let i = 0; i < L; i++) { const ch0 = txt[i]; const ok = k > (i + 1) / (L + 2); const c = ch0 === ' ' ? ' ' : ok ? ch0 : AZ[(Math.floor(k * 60) * 7 + i * 13) % AZ.length]; const x = x0 + i * (cw + 8);
-    if (ch0 !== ' ') { pil(x, y, cw, ch, 10, '#14081c'); X.fillStyle = 'rgba(255,255,255,.08)'; X.fillRect(x, y + ch / 2 - 1, cw, 2); X.fillStyle = cor; X.font = fnt(ch * .62); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(c, x + cw / 2, y + ch / 2 + 3); } } }
+    if (ch0 !== ' ') { pil(x, y, cw, ch, 10, '#3a1e2a'); X.fillStyle = 'rgba(255,255,255,.08)'; X.fillRect(x, y + ch / 2 - 1, cw, 2); X.fillStyle = cor; X.font = fnt(ch * .62); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(c, x + cw / 2, y + ch / 2 + 3); } } }
 function odometro(n, cx, y, dig, rot, sub, glow = ROSA) { const s = n.toLocaleString('pt-BR'); const W = 74, H = 116; let w = 0; for (const c of s) w += c === '.' ? 22 : W + 6; let x = cx - w / 2;
-  X.save(); X.shadowColor = glow; X.shadowBlur = 40; pil(cx - w / 2 - 30, y - 30, w + 60, H + 60, 30, 'rgba(25,8,40,.9)'); X.restore(); X.strokeStyle = glow; X.lineWidth = 5; X.beginPath(); X.roundRect(cx - w / 2 - 30, y - 30, w + 60, H + 60, 30); X.stroke();
+  X.save(); X.shadowColor = glow; X.shadowBlur = 40; pil(cx - w / 2 - 30, y - 30, w + 60, H + 60, 30, 'rgba(58,28,40,.9)'); X.restore(); X.strokeStyle = glow; X.lineWidth = 5; X.beginPath(); X.roundRect(cx - w / 2 - 30, y - 30, w + 60, H + 60, 30); X.stroke();
   for (const c of s) { if (c === '.') { X.fillStyle = '#fff'; X.fillRect(x + 6, y + H - 16, 10, 10); x += 22; continue; } pil(x, y, W, H, 10, '#f4ecff'); X.fillStyle = '#1a0b24'; X.font = fnt(84); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(c, x + W / 2, y + H / 2 + 4); X.fillStyle = 'rgba(0,0,0,.12)'; X.fillRect(x, y + H / 2, W, 2); x += W + 6; }
   if (rot) { X.font = fnt(36, 'SG'); const tw = X.measureText(rot).width + 40; pil(cx - tw / 2, y - 100, tw, 56, 28, '#fff'); X.fillStyle = '#2a0b45'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(rot, cx, y - 70); }
   if (sub) { X.font = fnt(30, 'SG'); const tw = X.measureText(sub).width + 40; pil(cx - tw / 2, y + H + 52, tw, 52, 26, ROSA); X.fillStyle = '#fff'; X.textAlign = 'center'; X.fillText(sub, cx, y + H + 80); } }
@@ -161,6 +160,7 @@ function mundo(cena, lt, d, t) {
   FILA.forEach((p, i) => { p.position.y = Math.abs(Math.sin(t * 6 + i)) * .08; });
   CAD.visible = cena === 'gancho' || cena === 'fila'; CAD.scale.setScalar(cena === 'gancho' ? Math.max(.01, back(lin(lt, d * .55, d * .55 + .4))) : 1); CAD.rotation.z = cena === 'gancho' ? Math.sin(t * 9) * .05 * lin(lt, d * .6, d) : 0;
   MASC.position.set(4.1, 0, -4.7); MASC.rotation.y = -Math.PI * .75 + (cena === 'fila' ? Math.sin(t * 4) * .2 : 0); MASC.position.y = cena === 'fila' ? Math.abs(Math.sin(t * 7)) * .25 : 0;
+  RECD.visible = MAIS.visible = cena === 'recorde' || cena === 'clipado';
   // prédio do "mais clipado" cresce no clipado
   const hm = cena === 'clipado' ? 6 + 22 * eio(lin(lt, .2, d * .8)) : ['recorde'].includes(cena) ? 6 : 28; MAIS.children[0].scale.y = hm / 6; MAIS.children[0].position.y = hm / 2; MAIS.children[1].position.y = hm;
   // sala: pasta e tela
@@ -179,7 +179,7 @@ function ui(cena, lt, d, t, s) {
   const Y = 760;
   if (cena === 'gancho') { const a = back(lin(lt, 0, .35)); X.save(); X.translate(505, 1000); X.scale(a, a); neon(String(DIA), 0, 0, 290, '#fff', ROSA); X.restore();
     const k = eo(lin(lt, .3, .7)); X.globalAlpha = k; neon('DIAS PRA CLIPAR', 505, 1175, 62, '#fff', ROSA); neon('ANTES DO GTA 6', 505, 1245, 52, '#ffd36e', LARANJA);
-    X.font = fnt(30, 'SG'); const tx = 'lançamento: 19 nov 2026'; const tw = X.measureText(tx).width + 40; pil(505 - tw / 2, 1285, tw, 48, 24, 'rgba(25,8,40,.8)'); X.fillStyle = '#fff'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 505, 1310); X.globalAlpha = 1;
+    X.font = fnt(30, 'SG'); const tx = 'lançamento: 19 nov 2026'; const tw = X.measureText(tx).width + 40; pil(505 - tw / 2, 1285, tw, 48, 24, 'rgba(58,28,40,.8)'); X.fillStyle = '#fff'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 505, 1310); X.globalAlpha = 1;
     if (lt > d * .55) { const b = back(lin(lt, d * .55, d * .55 + .3)); X.save(); X.translate(505, 560); X.rotate(-.05); X.scale(b, b); pil(-260, -48, 520, 96, 16, '#e8283c'); X.fillStyle = '#fff'; X.font = fnt(50); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('AINDA NÃO SAIU', 0, 4); X.restore(); } }
   if (cena === 'oportunidade') { const k1 = eo(lin(lt, .1, .5)), k2 = eo(lin(lt, .7, 1.1)); X.globalAlpha = k1; neon('MAIOR OPORTUNIDADE', 505, 980, cabe('MAIOR OPORTUNIDADE', 74, 860), '#fff', ROSA); X.globalAlpha = k2; neon('DA GERAÇÃO.', 505, 1070, 74, ROSA, '#ff9ad1'); X.globalAlpha = 1; }
   if (cena === 'recorde') { const n = Math.round(90421491 * eio(lin(lt, .2, Math.min(d - .3, 2.4)))); odometro(n, 505, 690, 8, '1º TRAILER DO GTA 6', 'VIEWS EM 24 H · RECORDE GUINNESS'); }
@@ -214,7 +214,7 @@ function ui(cena, lt, d, t, s) {
       const gd = X.createLinearGradient(0, -125, 0, 125); gd.addColorStop(0, '#ff6f91'); gd.addColorStop(1, '#2a0b45'); pil(-70, -125, 140, 250, 14, '#fff'); X.fillStyle = gd; X.fillRect(-64, -119, 128, 238); X.fillStyle = '#ffd36e'; X.beginPath(); X.arc(0, -20, 26, 0, 7); X.fill();
       for (let j = 0; j < 4; j++) { X.fillStyle = [ROXO, ROSA, CIANO][j % 3]; X.fillRect(-60 + j * 32, 60 - (j * 23) % 50, 26, 59 - 60 + 60); }
       X.font = fnt(18, 'SG'); const w = X.measureText(tags[i]).width + 20; pil(-w / 2, 140, w, 36, 10, '#ffd36e'); X.fillStyle = '#2a0b45'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tags[i], 0, 159); X.restore(); } }
-  if (cena === 'longo') { const k = eo(lin(lt, .1, .5)); X.globalAlpha = k; X.save(); X.shadowColor = ROSA; X.shadowBlur = 40; pil(110, 520, 790, 470, 24, '#14081c'); X.restore(); X.strokeStyle = ROSA; X.lineWidth = 6; X.beginPath(); X.roundRect(110, 520, 790, 470, 24); X.stroke();
+  if (cena === 'longo') { const k = eo(lin(lt, .1, .5)); X.globalAlpha = k; X.save(); X.shadowColor = ROSA; X.shadowBlur = 40; pil(110, 520, 790, 470, 24, '#3a1e2a'); X.restore(); X.strokeStyle = ROSA; X.lineWidth = 6; X.beginPath(); X.roundRect(110, 520, 790, 470, 24); X.stroke();
     neon('MELHORES', 505, 610, 78, '#fff', ROSA); neon('MOMENTOS', 505, 700, 78, '#fff', ROSA); for (let i = 0; i < 5; i++) { const x = 150 + i * 146; const gd = X.createLinearGradient(0, 770, 0, 900); gd.addColorStop(0, '#ff6f91'); gd.addColorStop(1, '#2a0b45'); X.fillStyle = gd; X.fillRect(x, 770, 130, 160); }
     X.fillStyle = '#fff'; X.font = fnt(26, 'SG'); X.textAlign = 'left'; X.fillText('▶ 18:47 · YouTube', 150, 960); X.globalAlpha = 1;
     if (lt > d * .5) { const b = back(lin(lt, d * .5, d * .5 + .3)); X.save(); X.translate(505, 1190); X.scale(b, b); pil(-300, -46, 600, 92, 16, '#ffd36e'); X.fillStyle = '#2a0b45'; X.font = fnt(42); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('VÍDEO LONGO', 0, 4); X.restore(); } }
@@ -249,7 +249,7 @@ window.setT = t => {
 window.capa = () => {
   mundo('gancho', 9, 10, 1.3); CAD.scale.setScalar(1); CAD.visible = true;
   hemi.intensity = 1.6; cam.fov = 46; cam.updateProjectionMatrix(); cam.position.copy(V(-1.2, 2.4, 17)); cam.lookAt(V(2.2, 5.2, -30)); cam.rotateZ(.05); R.render(S, cam); cam.fov = 40; cam.updateProjectionMatrix(); hemi.intensity = 1.25;
-  X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(20,0,30,.35)'); vg.addColorStop(.3, 'rgba(0,0,0,0)'); vg.addColorStop(.48, 'rgba(20,0,30,.1)'); vg.addColorStop(.75, 'rgba(20,0,30,.6)'); vg.addColorStop(1, 'rgba(20,0,30,.8)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
+  X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(40,20,50,.15)'); vg.addColorStop(.3, 'rgba(0,0,0,0)'); vg.addColorStop(.6, 'rgba(60,25,45,.12)'); vg.addColorStop(1, 'rgba(60,25,45,.55)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
   X.save(); X.translate(540, 300); X.rotate(-.04); pil(-250, -50, 500, 100, 18, '#e8283c'); X.fillStyle = '#fff'; X.font = fnt(54); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('SAI 19/11', 0, 4); X.restore();
   neon(String(DIA), 300, 1080, 420, '#fff', ROSA); neon('DIAS', 300, 1330, 92, '#ffd36e', LARANJA);
   neon('PRA', 760, 960, 96, '#fff', ROSA); neon('CLIPAR', 760, 1070, 120, '#fff', ROSA); neon('ANTES DO', 760, 1190, 74, '#ffd36e', LARANJA); neon('GTA 6', 760, 1300, 130, ROSA, '#ff9ad1');
