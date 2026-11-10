@@ -13,4 +13,4 @@ Qual conta do seu mês você mais erra? 👇
 Fonte: Kojima et al., "Large Language Models are Zero-Shot Reasoners" (2022, arXiv 2205.11916; NeurIPS 2022).
 Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
 
-#ia #inteligenciaartificial #chatgpt #prompt #dicasdeia #matematica #produtividade
+#ia #inteligenciaartificial #chatgpt #prompt #dicasdeia

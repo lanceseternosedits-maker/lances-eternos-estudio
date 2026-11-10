@@ -74,6 +74,8 @@ def checar(pasta: Path) -> dict:
             itens.append(item("Legenda do Instagram", f"{len(leg)} caracteres", len(leg) <= 2200, "até 2.200 caracteres"))
             if cta:
                 itens.append(item("CTA na legenda", cta, cta in leg.upper(), "a palavra do CTA aparece na legenda"))
+            tags = len(re.findall(r"#\w+", leg))  # Instagram: máx. 5 por post desde dez/2025 (Vitor, 10/11)
+            itens.append(item("Hashtags no Instagram", str(tags), 3 <= tags <= 5, "de 3 a 5 hashtags (o Instagram limita a 5)"))
             break
     else:  # aviso: algumas legendas foram direto para o Metricool sem arquivo na pasta
         itens.append(item("Legenda do Instagram", "não está na pasta (confira no Metricool)", None, "legenda_reel_instagram.txt"))

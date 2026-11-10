@@ -10,4 +10,4 @@ Qual peça você quer entender primeiro? 👇
 Fonte: MDN Web Docs (Mozilla).
 Animação e voz feitas com IA. Perfil independente.
 
-#ia #claude #chatgpt #programacao #app #tecnologia #comofunciona
+#ia #claude #chatgpt #programacao #app

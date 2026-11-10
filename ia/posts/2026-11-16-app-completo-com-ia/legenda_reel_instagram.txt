@@ -9,4 +9,4 @@ Qual dessas etapas você não sabia que existia? 👇
 Fontes: MDN Web Docs (Mozilla) e documentação da Stripe.
 Animação e voz feitas com IA. Perfil independente.
 
-#ia #claude #chatgpt #app #programacao #tecnologia #empreendedorismo
+#ia #claude #chatgpt #app #programacao

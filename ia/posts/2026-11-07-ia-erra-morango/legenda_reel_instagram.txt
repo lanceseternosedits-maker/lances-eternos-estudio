@@ -13,4 +13,4 @@ Você já pegou a IA errando uma coisa boba assim? 👇
 Fontes: HackerNoon ("Why can't AI count letters") e 16x Prompt ("Why ChatGPT can't count r's in strawberry").
 Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
 
-#ia #inteligenciaartificial #chatgpt #dicasdeia #tokens #tecnologia
+#ia #inteligenciaartificial #chatgpt #dicasdeia #tokens

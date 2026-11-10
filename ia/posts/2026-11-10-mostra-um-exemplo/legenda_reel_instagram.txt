@@ -13,4 +13,4 @@ Qual mensagem do seu trabalho você mais repete? 👇
 Fontes: Brown et al., 2020 (arXiv 2005.14165) e guia oficial de prompts da Anthropic.
 Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
 
-#ia #inteligenciaartificial #chatgpt #claude #prompt #dicasdeia #produtividade
+#ia #inteligenciaartificial #chatgpt #claude #prompt

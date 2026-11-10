@@ -13,4 +13,4 @@ Ela já esqueceu algo importante seu no meio de um trabalho? 👇
 Fontes: estudo "Lost in the Middle" (Stanford, arXiv 2307.03172) e documentação oficial de janela de contexto da Anthropic.
 Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
 
-#ia #inteligenciaartificial #chatgpt #claude #dicasdeia #prompt #produtividade
+#ia #inteligenciaartificial #chatgpt #claude #dicasdeia

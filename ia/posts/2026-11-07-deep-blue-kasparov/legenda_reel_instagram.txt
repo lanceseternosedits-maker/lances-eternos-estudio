@@ -13,4 +13,4 @@ E você, acha que foi trapaça? 👇
 Fontes: Chess Programming Wiki (Kasparov versus Deep Blue 1997) e The Conversation ("Twenty years on from Deep Blue vs Kasparov").
 Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
 
-#ia #inteligenciaartificial #xadrez #historiadaia #deepblue #kasparov #tecnologia
+#ia #inteligenciaartificial #xadrez #historiadaia #deepblue

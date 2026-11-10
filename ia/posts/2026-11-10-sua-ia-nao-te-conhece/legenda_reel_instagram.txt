@@ -18,4 +18,4 @@ Você já cansou de explicar tudo de novo pra IA? Sim ou não 👇
 Fontes: central de ajuda da OpenAI (instruções personalizadas), do Claude (Projetos) e do Google (Gems).
 Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
 
-#ia #chatgpt #claude #gemini #dicasdeia #produtividade #inteligenciaartificial
+#ia #chatgpt #claude #gemini #dicasdeia
