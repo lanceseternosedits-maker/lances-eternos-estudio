@@ -1,8 +1,8 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-10 07:45",
+ "em": "2026-11-10 19:41",
  "leitura": "metricool_2026-11-10.json",
- "resumo": "A rodada de 09/11 veio bem abaixo: os 8 Reels fizeram 3 a 807 views (MAPA, 22 h no ar, é o melhor), e as 5 contagens de projetos do GitHub ficaram em 204–807 com só 26–50% passando dos 3 s, puxando a mediana da contagem de 2.536 para 1.514. TikTok segue travado pelo 3º dia (os 16 vídeos desde 08/11 fizeram 0 a 7 views), e os de 07/11 continuam crescendo devagar no Instagram (ESTILO 2.280→2.728, CAMINHO 764→1.032).",
+ "resumo": "A leitura da noite não trouxe número novo: as métricas do Metricool estão paradas desde a leitura das 07:43 (todos os 30 Reels e 46 TikToks com os mesmos valores), e os 7 Reels publicados hoje depois das 06:00 (PASSO, LEIS, EXEMPLO, CORTES, GRATIS, VERAO, INTERNET) ainda não aparecem nas métricas, embora o agendador mostre todos como publicados. Os insights abaixo são os da manhã e seguem válidos; a comparação da rodada de 09/11 com 24–36 h no ar fica para a próxima leitura.",
  "itens": [
   {
    "tipo": "alerta",
@@ -12,9 +12,9 @@
   },
   {
    "tipo": "alerta",
-   "titulo": "Rodada de 09/11 caiu no Instagram",
-   "evidencia": "AGENCIA 204 (9 h no ar), ESTUDA 289, LOCAL 338, VIDEO 392, MAPA 807 (22 h), PRINT 250, RESUMO 218. Na leitura de ontem, as contagens de 08/11 com 32–36 h no ar já tinham 1.252–2.502 (DESIGN, VOZ). Ainda é cedo (menos de 24 h), mas a queda pegou formatos e horários diferentes ao mesmo tempo",
-   "acao": "Na leitura da noite, comparar de novo com 24–36 h no ar antes de mudar regra. Se continuar abaixo de 800, tratar como problema de tema (ver item seguinte), não de formato."
+   "titulo": "Métricas do Metricool congeladas desde a manhã",
+   "evidencia": "Leitura das 19:40 idêntica à das 07:43 (MAPA 807, AGENCIA 204, ESTILO 2.728, APP 3; TikTok APP 0 views). Hoje foram publicados 7 Reels e 8 TikToks (status PUBLISHED no agendador), mas nenhum entra no getAnalyticsDataByMetrics; o mais recente na métrica é APP, das 06:06",
+   "acao": "Chefe: abrir o Metricool no navegador e ver se a conexão do Instagram/TikTok pede reconexão (aviso na aba Conexões). Se estiver ok, é atraso do Metricool; a próxima leitura confere. Não mudar regra de produção com base nos números de 09/11 até a métrica voltar."
   },
   {
    "tipo": "corrigir",

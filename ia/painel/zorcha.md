@@ -182,6 +182,19 @@ Curiosidade: um dos quatro autores era Claude Shannon, o pai da teoria da inform
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
+## CORTES · 10/11 13:00
+Post: `2026-11-10-9-dias-pro-gta-6`
+
+```
+Oi! Que bom que você comentou CORTES 🙌
+Aqui está o Sistema de Cortes (passo a passo + prompt pro Claude Code + o script que acha os gritos da live e corta em vertical):
+• https://github.com/lanceseternosedits-maker/lances-eternos-estudio/tree/midia-ia/ia/produtos/sistema-cortes
+
+Só corte live de quem libera corte. Bora clipar o GTA 6! 🎮
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
 ## GRATIS · 10/11 14:00
 Post: `2026-11-09-programas-caros-gratis`
 
