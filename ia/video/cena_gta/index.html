@@ -191,7 +191,7 @@ function mundo(cena, lt, d, t) {
 function ui(cena, lt, d, t, s) {
   const Y = 760;
   if (cena === 'gancho') { const a = back(lin(lt, 0, .35)); X.save(); X.translate(505, 950); X.scale(a, a); neon(String(DIA), 0, 0, 280, '#fff', ROSA); X.restore();
-    const k = eo(lin(lt, .3, .7)); X.globalAlpha = k; neon('DIAS PRA CLIPAR', 505, 1110, 62, '#fff', ROSA); neon('ANTES DO', 395, 1235, 54, '#ffd36e', LARANJA); logo(640, 1235, 175);
+    const k = eo(lin(lt, .3, .7)); X.globalAlpha = k; neon('DIAS PRA APRENDER A CLIPAR', 505, 1110, 56, '#fff', ROSA); neon('ANTES DO LANÇAMENTO DO', 420, 1225, 48, '#ffd36e', LARANJA); logo(800, 1225, 165);
     X.font = fnt(30, 'SG'); const tx = 'lançamento: 19 nov 2026'; const tw = X.measureText(tx).width + 40; pil(505 - tw / 2, 1330, tw, 48, 24, 'rgba(58,28,40,.8)'); X.fillStyle = '#fff'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 505, 1355); X.globalAlpha = 1;
     if (lt > d * .55) { const b = back(lin(lt, d * .55, d * .55 + .3)); X.save(); X.translate(505, 560); X.rotate(-.05); X.scale(b, b); pil(-260, -48, 520, 96, 16, '#e8283c'); X.fillStyle = '#fff'; X.font = fnt(50); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('AINDA NÃO SAIU', 0, 4); X.restore(); } }
   if (cena === 'oportunidade') { const k1 = eo(lin(lt, .1, .5)), k2 = eo(lin(lt, .7, 1.1)); X.globalAlpha = k1; neon('MAIOR OPORTUNIDADE', 505, 980, cabe('MAIOR OPORTUNIDADE', 74, 860), '#fff', ROSA); X.globalAlpha = k2; neon('DA GERAÇÃO.', 505, 1070, 74, ROSA, '#ff9ad1'); X.globalAlpha = 1; }
@@ -262,10 +262,11 @@ window.setT = t => {
 window.capa = () => {
   mundo('gancho', 9, 10, 1.3); CAD.scale.setScalar(1); CAD.visible = true;
   hemi.intensity = 1.6; cam.fov = 46; cam.updateProjectionMatrix(); cam.position.copy(V(-1.2, 2.4, 17)); cam.lookAt(V(2.2, 5.2, -30)); cam.rotateZ(.05); R.render(S, cam); cam.fov = 40; cam.updateProjectionMatrix(); hemi.intensity = 1.25;
-  X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(30,10,60,.2)'); vg.addColorStop(.28, 'rgba(0,0,0,0)'); vg.addColorStop(.42, 'rgba(30,10,60,.25)'); vg.addColorStop(.6, 'rgba(30,10,60,.62)'); vg.addColorStop(.85, 'rgba(30,10,60,.72)'); vg.addColorStop(1, 'rgba(30,10,60,.8)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
-  X.save(); X.translate(540, 300); X.rotate(-.04); const sg = X.createLinearGradient(-250, 0, 250, 0); sg.addColorStop(0, '#7b3fd0'); sg.addColorStop(.5, '#ff4f9a'); sg.addColorStop(1, '#ff9a4a'); X.lineWidth = 10; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(-250, -50, 500, 100, 18); X.stroke(); pil(-250, -50, 500, 100, 18, sg); X.fillStyle = '#fff'; X.font = fnt(58, 'PD'); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('SAI 19/11', 0, 6); X.restore();
-  neon(String(DIA), 300, 1080, 420, '#fff', ROSA); neon('DIAS', 300, 1330, 92, '#ffd36e', LARANJA);
-  neon('PRA', 760, 960, 96, '#fff', ROSA); neon('CLIPAR', 760, 1070, 120, '#fff', ROSA); neon('ANTES DO', 760, 1180, 70, '#ffd36e', LARANJA); logo(760, 1360, 290);
+  X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(30,10,60,.2)'); vg.addColorStop(.22, 'rgba(30,10,60,.35)'); vg.addColorStop(.42, 'rgba(30,10,60,.55)'); vg.addColorStop(.6, 'rgba(30,10,60,.62)'); vg.addColorStop(.85, 'rgba(30,10,60,.72)'); vg.addColorStop(1, 'rgba(30,10,60,.8)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
+  X.save(); X.translate(540, 400); X.rotate(-.04); const sg = X.createLinearGradient(-250, 0, 250, 0); sg.addColorStop(0, '#7b3fd0'); sg.addColorStop(.5, '#ff4f9a'); sg.addColorStop(1, '#ff9a4a'); X.lineWidth = 10; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(-250, -50, 500, 100, 18); X.stroke(); pil(-250, -50, 500, 100, 18, sg); X.fillStyle = '#fff'; X.font = fnt(58, 'PD'); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('SAI 19/11', 0, 6); X.restore();
+  neon(String(DIA) + ' DIAS', 540, 640, 230, '#fff', ROSA);
+  neon('PRA APRENDER', 540, 835, 112, '#fff', ROSA); neon('A CLIPAR', 540, 955, 138, 'grad', ROSA);
+  neon('ANTES DO LANÇAMENTO DO', 540, 1075, 68, '#fff', ROSA); logo(540, 1285, 360);
   X.font = fnt(40, 'SG'); const tx = '💬 Comenta CORTES'; const tw = X.measureText(tx).width + 60; X.lineWidth = 8; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(540 - tw / 2, 1500, tw, 84, 42); X.stroke(); pil(540 - tw / 2, 1500, tw, 84, 42, '#fff'); X.fillStyle = '#3a1458'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 540, 1544);
 };
 window.pronto = true;
