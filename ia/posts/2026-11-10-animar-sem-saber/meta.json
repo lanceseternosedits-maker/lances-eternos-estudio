@@ -1,1 +1,96 @@
-{"data": "2026-11-13", "horario": "10:00", "pilar": "reel", "formato": "contagem", "temas": ["animar-sem-saber"], "fontes": ["https://github.com/artemnovitckii/claude-animation-skills", "https://github.com/sarpstar/cinecode", "https://github.com/Tejashmakwana/motionmaxxing"], "cta": "ANIMA", "polemica": false, "horarios": {"instagram": "2026-11-13 10:00", "tiktok": "2026-11-13 10:00"}, "status": "roteiro aprovado", "categoria": "novidade", "checagem": {"em": "2026-11-10 10:31", "ok": true, "itens": [{"nome": "Formato", "valor": "1080×1920", "ok": true, "regra": "1080×1920"}, {"nome": "Duração", "valor": "28.6 s", "ok": true, "regra": "até 35 s (corte texto se passar)"}, {"nome": "Velocidade da fala", "valor": "2.83 palavras/s (81 palavras)", "ok": true, "regra": "máximo 3,0 palavras/s"}, {"nome": "Volume", "valor": "-14.3 LUFS, pico -1.4 dB", "ok": true, "regra": "entre -16 e -12 LUFS, pico até -1 dB"}, {"nome": "Fontes", "valor": "3 fonte(s)", "ok": true, "regra": "todo fato com fonte"}, {"nome": "Prova viral", "valor": "preenchida", "ok": true, "regra": "toda pauta com a prova de que viralizou"}, {"nome": "Legenda do Instagram", "valor": "737 caracteres", "ok": true, "regra": "até 2.200 caracteres"}, {"nome": "CTA na legenda", "valor": "ANIMA", "ok": true, "regra": "a palavra do CTA aparece na legenda"}, {"nome": "Resposta da DM", "valor": "ok", "ok": true, "regra": "resposta_dm.txt com os links"}]}}
+{
+ "data": "2026-11-13",
+ "horario": "10:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "animar-sem-saber"
+ ],
+ "fontes": [
+  "https://github.com/artemnovitckii/claude-animation-skills",
+  "https://github.com/sarpstar/cinecode",
+  "https://github.com/Tejashmakwana/motionmaxxing"
+ ],
+ "cta": "ANIMA",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-13 10:00",
+  "tiktok": "2026-11-13 10:00"
+ },
+ "status": "vídeo aguardando aprovação",
+ "categoria": "novidade",
+ "checagem": {
+  "em": "2026-11-10 11:04",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "28.6 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.83 palavras/s (81 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.3 LUFS, pico -1.4 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "3 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "737 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "ANIMA",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "status_em": "2026-11-10 08:05",
+ "elementos": {
+  "etiqueta": "c) letreiro neon",
+  "nome": "d) split-flap",
+  "contador": "c) velocímetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "c) post-its na parede (trocado: CONTINUE? repetiria o IA puxa-saco)",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + efeitos de cidade",
+  "mascote": "acessório e ação do conceito; ação principal: malabarismo"
+ },
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/animar-sem-saber.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+}

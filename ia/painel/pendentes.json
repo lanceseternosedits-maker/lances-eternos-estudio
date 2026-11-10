@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-10 07:52",
+ "gerado_em": "2026-11-10 08:05",
  "videos": [
   {
    "pasta": "2026-11-14-artigo-que-criou-o-chatgpt",
@@ -32,9 +32,29 @@
    "quando": "2026-11-14 07:00"
   },
   {
+   "pasta": "2026-11-13-ia-ligou-pro-salao",
+   "titulo": "2018: A IA LIGOU E CONVERSOU COMO GENTE",
+   "quando": "2026-11-13 21:30"
+  },
+  {
+   "pasta": "2026-11-10-manual-ikea-3d",
+   "titulo": "O MANUAL DA IKEA VIROU ANIMAÇÃO 3D",
+   "quando": "2026-11-13 19:30"
+  },
+  {
+   "pasta": "2026-11-10-camera-sony-destravada",
+   "titulo": "DESTRAVARAM A CÂMERA DA SONY",
+   "quando": "2026-11-13 14:00"
+  },
+  {
    "pasta": "2026-11-13-ia-enrola-demais",
    "titulo": "SUA IA ENROLA DEMAIS?",
    "quando": "2026-11-13 12:00"
+  },
+  {
+   "pasta": "2026-11-10-animar-sem-saber",
+   "titulo": "3 SKILLS QUE ANIMAM SEM VOCÊ SABER ANIMAR",
+   "quando": "2026-11-13 10:00"
   },
   {
    "pasta": "2026-11-13-ia-puxa-saco",
@@ -59,14 +79,6 @@
  ],
  "roteiros": [],
  "agenda_3_dias": [
-  {
-   "quando": "2026-11-10 08:00",
-   "titulo": "4 PALAVRAS QUE FAZEM A IA ERRAR MENOS",
-   "redes": [
-    "instagram",
-    "tiktok"
-   ]
-  },
   {
    "quando": "2026-11-10 10:00",
    "titulo": "TODAS AS LEIS DO BRASIL NUM LUGAR SÓ",
