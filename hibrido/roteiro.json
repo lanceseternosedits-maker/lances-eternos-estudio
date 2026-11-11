@@ -1,0 +1,41 @@
+{
+  "titulo": "Deep Blue x o campeão (teste híbrido)",
+  "estilo": "high-end stylized 3D animated film look, soft global illumination, subsurface shading, rich saturated palette of deep navy, electric cyan and magenta accents, cinematic rim lighting, clean bold silhouette, crisp edges, no text, no logos, no watermark",
+  "personagens": {
+    "campeao": "chunky rounded-cube 3D character representing a chess grandmaster: cube-shaped head with dark curly hair on top, thick eyebrows, small dark suit with red tie, short stubby arms and legs, expressive big eyes",
+    "maquina": "chunky rounded-cube 3D robot character representing a 1990s supercomputer: tall black glossy cube body with rows of glowing cyan and magenta lights on its chest, small square screen face with two simple glowing eyes, stubby metal arms and legs"
+  },
+  "cenas": [
+    {
+      "id": "abertura", "dur": 4.0,
+      "fundo": "grand 1997 world chess championship hall seen from the audience, empty stage with one chess table under a dramatic spotlight, volumetric light beams through haze, rows of blurred audience seats in the foreground",
+      "atores": [],
+      "texto": ["1997:", "A MÁQUINA", "VENCEU O", "CAMPEÃO"], "y_texto": 300, "cor": "ciano"
+    },
+    {
+      "id": "duelo", "dur": 4.5,
+      "fundo": "the same chess championship stage seen from the side, chess table in the middle, big screen with a chess board behind, spotlights and haze",
+      "atores": [
+        {"p": "campeao", "pose": "standing, hand on chin, thinking hard, slight frown, three-quarter view facing right", "x": 0.27, "y": 0.93, "h": 0.46, "entra": "esquerda"},
+        {"p": "maquina", "pose": "standing tall and confident, lights glowing, three-quarter view facing left", "x": 0.75, "y": 0.93, "h": 0.55, "entra": "direita"}
+      ],
+      "texto": ["O CAMPEÃO", "x DEEP BLUE"], "y_texto": 200, "cor": "ciano", "vs": true
+    },
+    {
+      "id": "queda", "dur": 4.0,
+      "fundo": "extreme close-up of a glossy chessboard in a dark arena, shallow depth of field, cinematic bokeh lights in cyan and magenta",
+      "atores": [
+        {"p": "campeao", "pose": "shocked, both hands on head, mouth open, front view", "x": 0.5, "y": 0.95, "h": 0.5, "entra": "baixo"}
+      ],
+      "texto": ["19 LANCES.", "FIM DE JOGO."], "y_texto": 220, "cor": "magenta", "impacto": 1.0
+    },
+    {
+      "id": "cta", "dur": 2.5,
+      "fundo": "dark futuristic neon space with soft glowing cyan and magenta bokeh, empty center for text",
+      "atores": [
+        {"p": "maquina", "pose": "waving hello cheerfully, front view", "x": 0.5, "y": 0.97, "h": 0.42, "entra": "baixo"}
+      ],
+      "texto": ["COMENTA", "XADREZ"], "y_texto": 420, "cor": "ciano"
+    }
+  ]
+}
