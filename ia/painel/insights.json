@@ -1,20 +1,20 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-11 07:45",
+ "em": "2026-11-11 19:45",
  "leitura": "metricool_2026-11-11.json",
- "resumo": "As métricas voltaram a andar: os 7 Reels de 10/11 apareceram, com LEIS (540) e CORTES do GTA 6 (517) na frente, mas a mediana do dia é 260 views, contra 1,3–2,9 mil das contagens de 07–08/11. O alcance da conta caiu desde 09/11 em todos os formatos (até contagens fazem 221–811), PASSO e SYDNEY travaram em 20–24 views, 📜/⚙️ seguem com 0 salvamento e o TikTok continua parado (0–3 views).",
+ "resumo": "Leitura das 19:40 sem novidade: o Metricool devolveu exatamente os mesmos números das 07:40 (37 Reels, último de 10/11 19:33) e ainda não trouxe os 5 Reels de hoje (PLAY, MAC, CHINA, TURING, BIZARRO), que constam como publicados no planejador. As conclusões da manhã seguem valendo: alcance em queda desde 09/11, 🆕 utilidade brasileira na frente (LEIS 540, CORTES 517), 📜/⚙️ com 0 salvamento e TikTok parado.",
  "itens": [
+  {
+   "tipo": "alerta",
+   "titulo": "Métricas do Metricool paradas desde 07:40",
+   "evidencia": "As 37 linhas do Instagram e as 54 do TikTok vieram idênticas às das 07:40 (ex.: LEIS 540, CORTES 517, ESTILO 2.788). Os Reels PLAY (06:00), MAC (10:00), CHINA (14:00), TURING (17:00) e BIZARRO (19:30) e os TikToks MAC, CHINA, TURING e BIZARRO aparecem como PUBLISHED no planejador, mas não entram na análise.",
+   "acao": "Nada a mudar na produção por causa desta leitura. Chefe, se amanhã cedo os Reels de 11/11 ainda não aparecerem, vale reconectar o Instagram/TikTok no Metricool; a próxima leitura compara a rodada de 11/11 com a de 10/11."
+  },
   {
    "tipo": "alerta",
    "titulo": "Alcance da conta caiu desde 09/11",
    "evidencia": "Mediana de views por dia de postagem (Brasília): 07/11 = 2.684 (5 Reels); 08/11 = 1.316 (7); 09/11 = 309 (8); 10/11 = 260 (8, com 1–25 h no ar). Os de 09/11 quase não cresceram em 24 h (AGENCIA 204→221, LOCAL 338→364, MAPA 807→811). Até contagens (MAPA 811, ESTUDA 578, VIDEO 426) ficam longe das 2,5–3,2 mil de antes.",
    "acao": "Não é o formato: a queda pega tudo. Chefe, vale testar 2 dias com menos posts (4 Reels/dia, só os mais fortes: contagem com objeto doméstico e utilidade brasileira) para ver se a média por Reel volta. Na próxima leitura comparo."
-  },
-  {
-   "tipo": "alerta",
-   "titulo": "PASSO e SYDNEY sem distribuição",
-   "evidencia": "PASSO (10/11 08:08) tem 20 views e alcance 14 em ~23 h; SYDNEY (09/11 21:32) tem 24 views e alcance 16 em ~34 h. Os dois têm boa retenção de quem viu (57% e 50% passam dos 3 s), então o problema é entrega, não gancho. O Reel postado 2 h antes do PASSO (APP) fez 417.",
-   "acao": "Chefe: abrir os dois no app do Instagram e ver se há aviso (música, 'não recomendável', original). Se não houver, não repostar igual; registrar como falha de entrega e seguir."
   },
   {
    "tipo": "fazer_mais",
