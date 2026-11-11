@@ -1274,10 +1274,10 @@
   {
    "data": "2026-11-12 14:00",
    "rede": "instagram",
-   "status": "PENDING",
+   "status": "rascunho (teste 4/dia)",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "testa-seu-negocio",
    "pasta": "2026-11-10-testa-seu-negocio",
    "lido_em": "2026-11-10 02:16"
@@ -1285,10 +1285,10 @@
   {
    "data": "2026-11-12 14:00",
    "rede": "tiktok",
-   "status": "PENDING",
+   "status": "rascunho (teste 4/dia)",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "testa-seu-negocio",
    "pasta": "2026-11-10-testa-seu-negocio",
    "lido_em": "2026-11-10 02:16"
@@ -1296,10 +1296,10 @@
   {
    "data": "2026-11-12 14:15",
    "rede": "instagram",
-   "status": "PENDING",
+   "status": "rascunho (teste 4/dia)",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "testa-seu-negocio",
    "pasta": "2026-11-10-testa-seu-negocio",
    "lido_em": "2026-11-10 02:16"
@@ -1703,10 +1703,10 @@
   {
    "data": "2026-11-12 12:00",
    "rede": "instagram",
-   "status": "PENDING",
+   "status": "rascunho (teste 4/dia)",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "diz-pra-que-e",
    "pasta": "2026-11-12-diz-pra-que-e",
    "lido_em": "2026-11-10 02:16"
@@ -1714,10 +1714,10 @@
   {
    "data": "2026-11-12 12:00",
    "rede": "tiktok",
-   "status": "PENDING",
+   "status": "rascunho (teste 4/dia)",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "diz-pra-que-e",
    "pasta": "2026-11-12-diz-pra-que-e",
    "lido_em": "2026-11-10 02:16"
@@ -1725,10 +1725,10 @@
   {
    "data": "2026-11-12 12:15",
    "rede": "instagram",
-   "status": "PENDING",
+   "status": "rascunho (teste 4/dia)",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "diz-pra-que-e",
    "pasta": "2026-11-12-diz-pra-que-e",
    "lido_em": "2026-11-10 02:16"
