@@ -1,0 +1,633 @@
+From d92292dc6269f6b0114c9269eb419f08cf4c3826 Mon Sep 17 00:00:00 2001
+From: IA em 60s <noreply@anthropic.com>
+Date: Wed, 11 Nov 2026 07:40:15 +0000
+Subject: [PATCH] =?UTF-8?q?Equipe=20IA=20em=2060s:=20agentes=20da=20nuvem?=
+ =?UTF-8?q?=20(painel=20/api/atividade)=20no=20escrit=C3=B3rio?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ package.json                  |   1 +
+ scripts/equipe-login.ts       |  66 ++++++++
+ server/index.ts               |   9 +
+ server/model/office.ts        |  23 ++-
+ server/sources/equipe.test.ts |  79 +++++++++
+ server/sources/equipe.ts      | 301 ++++++++++++++++++++++++++++++++++
+ shared/timeline.ts            |   8 +-
+ 7 files changed, 481 insertions(+), 6 deletions(-)
+ create mode 100644 scripts/equipe-login.ts
+ create mode 100644 server/sources/equipe.test.ts
+ create mode 100644 server/sources/equipe.ts
+
+diff --git a/package.json b/package.json
+index 587db21..2a37669 100644
+--- a/package.json
++++ b/package.json
+@@ -38,6 +38,7 @@
+     "mod:install": "tsx scripts/mod-install.ts install",
+     "mod:uninstall": "tsx scripts/mod-install.ts uninstall",
+     "mod:status": "tsx scripts/mod-install.ts status",
++    "equipe:login": "tsx scripts/equipe-login.ts",
+     "codex:install": "tsx scripts/codex-install.ts install",
+     "codex:uninstall": "tsx scripts/codex-install.ts uninstall",
+     "codex:status": "tsx scripts/codex-install.ts status",
+diff --git a/scripts/equipe-login.ts b/scripts/equipe-login.ts
+new file mode 100644
+index 0000000..14e51dd
+--- /dev/null
++++ b/scripts/equipe-login.ts
+@@ -0,0 +1,66 @@
++// npm run equipe:login — conecta o Habblaud ao painel da IA em 60s para a equipe aparecer no escritório.
++//
++// Usa o mesmo acesso do painel: o código chega por notificação no celular (o que tem o 🔔 ativado no app), você
++// digita aqui, e a sessão (cookie) fica em ~/.habblaud/equipe.json (permissão 600; ou em HABBLAUD_DATA_DIR).
++// Nada além disso é guardado. `npm run equipe:login -- --sair` apaga a sessão.
++
++import { existsSync, rmSync } from 'node:fs';
++import { homedir } from 'node:os';
++import { join, resolve } from 'node:path';
++import { createInterface } from 'node:readline/promises';
++import { credentialPath, DEFAULT_EQUIPE_URL, saveCredential } from '../server/sources/equipe';
++
++const dataDir = resolve(process.env.HABBLAUD_DATA_DIR?.trim() || join(homedir(), '.habblaud'));
++const url = (process.env.HABBLAUD_EQUIPE_URL?.trim() || DEFAULT_EQUIPE_URL).replace(/\/+$/, '');
++
++async function main(): Promise<void> {
++  if (process.argv.includes('--sair')) {
++    const f = credentialPath(dataDir);
++    if (existsSync(f)) rmSync(f);
++    console.log(`Sessão da equipe apagada (${f}).`);
++    return;
++  }
++  console.log(`🏢 Conectar a equipe IA em 60s (${url})\n`);
++  const pedir = await fetch(`${url}/api/acesso`, { method: 'POST' });
++  const pj = (await pedir.json().catch(() => ({}))) as { erro?: string };
++  if (!pedir.ok) {
++    console.error(`⚠️  Não deu para mandar o código: ${pj.erro ?? `o painel respondeu ${pedir.status}`}`);
++    if (pedir.status !== 429) process.exit(1);
++    console.log('   Se um código chegou há menos de 1 minuto, pode usar ele.');
++  } else {
++    console.log('📲 Código enviado. Veja a notificação "🔐 Código do painel" no celular (vale 10 minutos).');
++  }
++  const rl = createInterface({ input: process.stdin, output: process.stdout });
++  const codigo = (await rl.question('Código de 6 números: ')).trim();
++  rl.close();
++  if (!/^\d{6}$/.test(codigo)) {
++    console.error('⚠️  O código tem 6 números.');
++    process.exit(1);
++  }
++  const entrar = await fetch(`${url}/entrar`, {
++    method: 'POST',
++    body: new URLSearchParams({ codigo }),
++    redirect: 'manual',
++  });
++  const cookie = /(?:^|[;,]\s*)s=([0-9a-f]{16,})/.exec(entrar.headers.get('set-cookie') ?? '')?.[1];
++  if (!cookie) {
++    console.error('⚠️  Código inválido ou vencido. Rode de novo para pedir outro.');
++    process.exit(1);
++  }
++  const teste = await fetch(`${url}/api/atividade`, { headers: { cookie: `s=${cookie}` }, redirect: 'manual' });
++  if (!teste.ok) {
++    console.error(`⚠️  Entrou, mas /api/atividade respondeu ${teste.status}.`);
++    process.exit(1);
++  }
++  const j = (await teste.json()) as { agentes?: Record<string, { estado?: string }> };
++  const file = saveCredential(dataDir, { url, cookie, savedAt: new Date().toISOString() });
++  const n = Object.keys(j.agentes ?? {}).length;
++  const t = Object.values(j.agentes ?? {}).filter((a) => a.estado === 'trabalhando').length;
++  console.log(`\n✅ Conectado. ${n} agentes no painel, ${t} trabalhando agora.`);
++  console.log(`   Sessão guardada em ${file} (vale 1 ano). Reinicie o Habblaud para a equipe entrar no prédio.`);
++}
++
++main().catch((err) => {
++  console.error(`⚠️  ${err instanceof Error ? err.message : String(err)}`);
++  process.exit(1);
++});
+diff --git a/server/index.ts b/server/index.ts
+index 227e0e5..04ff4fb 100644
+--- a/server/index.ts
++++ b/server/index.ts
+@@ -58,6 +58,7 @@ import { OwnerSocial } from './world/social';
+ import { BuildingTokens } from './world/tokens';
+ import { BuildingUplink } from './world/uplink';
+ import { WorldViewer } from './world/viewer';
++import { EquipeSource, loadCredential } from './sources/equipe';
+ 
+ const config = loadConfig();
+ const startedAt = Date.now();
+@@ -317,6 +318,13 @@ late.ptys = ptys;
+ late.ptyOff = ptyOff;
+ 
+ if (config.demo) office.setDemo(true);
++// Equipe IA em 60s: os agentes da nuvem (tabela `atividade` do painel). Liga sozinha depois de `npm run equipe:login`;
++// HABBLAUD_EQUIPE=0 desliga.
++const equipeCred = process.env.HABBLAUD_EQUIPE?.trim() === '0' ? undefined : loadCredential(config.dataDir);
++const equipe = equipeCred
++  ? new EquipeSource({ cred: equipeCred, log, onUpdate: (u) => office.setTeam(u.snap, u.feed, u.notices) })
++  : undefined;
++equipe?.start();
+ // As fontes síncronas (a do Claude Code) terminam o boot aqui, antes de o hub começar a transmitir.
+ void agents.start();
+ accounts.start();
+@@ -557,6 +565,7 @@ function shutdown(signal: string): void {
+   updates.stop();
+   worldViewer?.stop();
+   worldUplink?.stop();
++  equipe?.stop();
+   world?.stop();
+   names.flush();
+   void closeVite?.();
+diff --git a/server/model/office.ts b/server/model/office.ts
+index aacf0b7..11c4ed5 100644
+--- a/server/model/office.ts
++++ b/server/model/office.ts
+@@ -209,6 +209,8 @@ export class Office {
+   private last: OfficeSnapshot | null = null;
+   private demo: DemoSimulator | null = null;
+   private demoSnap: OfficeSnapshot | null = null;
++  /** Equipe IA em 60s (server/sources/equipe.ts): agentes da nuvem, ids "equipe:", misturados como o demo. */
++  private teamSnap: OfficeSnapshot | null = null;
+   private booting = false;
+   /** Fontes bootando agora (beginBoot/endBoot contados): o boot só termina quando todas terminaram. */
+   private bootDepth = 0;
+@@ -299,10 +301,20 @@ export class Office {
+   detail(id: string): AgentDetail | undefined {
+     const rec = this.agents.get(id);
+     if (rec) return { agent: cloneAgent(rec.info), history: rec.history.slice() };
+-    const demo = this.demoSnap?.agents.find((a) => a.id === id);
++    const demo = this.demoSnap?.agents.find((a) => a.id === id) ?? this.teamSnap?.agents.find((a) => a.id === id);
+     return demo ? { agent: cloneAgent(demo), history: demo.recent.slice() } : undefined;
+   }
+ 
++  /** Atualiza a equipe IA em 60s (null = sai do prédio), com o feed e os avisos do que mudou. */
++  setTeam(snap: OfficeSnapshot | null, feed: FeedItem[] = [], notices: Notice[] = []): void {
++    this.teamSnap = snap;
++    this.recomputeRoomNames();
++    if (feed.length) this.pushFeed(feed);
++    if (!this.booting) this.pendingNotices.push(...notices);
++    this.dirty = true;
++    this.markDirty();
++  }
++
+   recentFeed(n: number): FeedItem[] {
+     return this.feed.slice(-n);
+   }
+@@ -894,7 +906,7 @@ export class Office {
+       if (r.info.id === id || (r.removeAt !== undefined && !leaving) || nameKey(r.info.name) !== key) continue;
+       return tr('{0} já está no escritório em {1}', [r.info.name, this.roomName(r.info.roomId)]);
+     }
+-    for (const a of this.demoSnap?.agents ?? []) {
++    for (const a of [...(this.demoSnap?.agents ?? []), ...(this.teamSnap?.agents ?? [])]) {
+       if (nameKey(a.name) === key) return tr('{0} já está no escritório em {1}', [a.name, this.roomName(a.roomId)]);
+     }
+     for (const [n, room] of this.deps.names.reservedNames(roomId)) {
+@@ -955,6 +967,7 @@ export class Office {
+     const now = this.now();
+     const entries = new Map(this.rooms);
+     for (const r of this.demoSnap?.rooms ?? []) entries.set(r.id, { path: r.path, createdAt: r.createdAt });
++    for (const r of this.teamSnap?.rooms ?? []) entries.set(r.id, { path: r.path, createdAt: r.createdAt });
+     this.slots.sync(entries.keys(), now);
+     const rooms: RoomInfo[] = [...entries]
+       .map(([id, r]) => ({
+@@ -990,8 +1003,8 @@ export class Office {
+       rev: this.rev,
+       serverTime: now,
+       rooms,
+-      agents: [...real, ...demoAgents].map(trim),
+-      accounts: [...this.deps.accounts(sessions), ...(this.demoSnap?.accounts ?? [])],
++      agents: [...real, ...demoAgents, ...(this.teamSnap?.agents ?? [])].map(trim),
++      accounts: [...this.deps.accounts(sessions), ...(this.demoSnap?.accounts ?? []), ...(this.teamSnap?.accounts ?? [])],
+       ...(ptys ? { ptys: ptys.list } : {}),
+       meta: {
+         demo: this.isDemo(),
+@@ -1019,6 +1032,7 @@ export class Office {
+       used.add(r.info.name);
+     }
+     for (const a of this.demoSnap?.agents ?? []) used.add(a.name);
++    for (const a of this.teamSnap?.agents ?? []) used.add(a.name);
+     for (const n of this.deps.names.reservedNames().keys()) used.add(n);
+     return used;
+   }
+@@ -1048,6 +1062,7 @@ export class Office {
+   private recomputeRoomNames(): void {
+     const paths = new Map([...this.rooms].map(([id, r]) => [id, r.path]));
+     for (const r of this.demoSnap?.rooms ?? []) paths.set(r.id, r.path);
++    for (const r of this.teamSnap?.rooms ?? []) paths.set(r.id, r.path);
+     this.roomNames = roomDisplayNames(paths);
+     for (const [id, path] of paths) {
+       const alias = this.deps.roomAlias?.(path);
+diff --git a/server/sources/equipe.test.ts b/server/sources/equipe.test.ts
+new file mode 100644
+index 0000000..379f44c
+--- /dev/null
++++ b/server/sources/equipe.test.ts
+@@ -0,0 +1,79 @@
++import { mkdtempSync, statSync } from 'node:fs';
++import { tmpdir } from 'node:os';
++import { join } from 'node:path';
++import { describe, expect, it, vi } from 'vitest';
++import { isDemoId } from '../../shared/timeline';
++import { EQUIPE, EquipeSource, equipeSnapshot, loadCredential, parseEm, saveCredential, STALE_MS, type EquipeUpdate } from './equipe';
++
++// 11/11/2026 10:00 em Brasília = 13:00 UTC
++const NOW = Date.UTC(2026, 10, 11, 13, 0);
++
++describe('equipe IA em 60s', () => {
++  it('lê o horário do painel (Brasília, UTC−3)', () => {
++    expect(parseEm('2026-11-11 10:00')).toBe(NOW);
++    expect(Number.isNaN(parseEm('ontem'))).toBe(true);
++  });
++
++  it('monta um personagem por agente, nas salas por setor, com ids fora do World', () => {
++    const { snap } = equipeSnapshot(
++      { agentes: { estudio: { agente: 'estudio', estado: 'trabalhando', detalhe: 'renderizando reels', progresso: '3/5', em: '2026-11-11 09:50' } } },
++      NOW,
++      NOW - 60_000,
++    );
++    expect(snap.agents).toHaveLength(EQUIPE.length);
++    expect(snap.rooms.map((r) => r.name)).toEqual(['Produção', 'Resultados', 'Vendas e DMs']);
++    for (const a of snap.agents) {
++      expect(isDemoId(a.id)).toBe(true);
++      expect(isDemoId(a.roomId)).toBe(true);
++      expect(snap.rooms.some((r) => r.id === a.roomId)).toBe(true);
++    }
++    expect(isDemoId(snap.accounts[0].id)).toBe(true);
++    const est = snap.agents.find((a) => a.name === 'Estúdio')!;
++    expect(est.status).toBe('working');
++    expect(est.activity?.text).toBe('renderizando reels (3/5)');
++    expect(est.tasks[0].title).toContain('3/5');
++    expect(snap.agents.find((a) => a.name === 'Caçador')!.status).toBe('idle');
++  });
++
++  it('trabalhando há mais de 3 h sem atualizar vira "parado?" (mão levantada)', () => {
++    const em = new Date(NOW - STALE_MS - 3_600_000 - 3 * 3_600_000).toISOString().slice(0, 16).replace('T', ' ');
++    const { snap } = equipeSnapshot({ agentes: { analista: { agente: 'analista', estado: 'trabalhando', detalhe: 'lendo métricas', em } } }, NOW, NOW);
++    const a = snap.agents.find((x) => x.name === 'Analista')!;
++    expect(a.status).toBe('waiting');
++    expect(a.waitingFor).toMatch(/parado\?.*4 h/);
++  });
++
++  it('guarda a sessão com permissão 600', () => {
++    const dir = mkdtempSync(join(tmpdir(), 'equipe-'));
++    const file = saveCredential(dir, { url: 'https://painel.exemplo', cookie: 'abc', savedAt: 'x' });
++    expect(statSync(file).mode & 0o777).toBe(0o600);
++    expect(loadCredential(dir, {})?.cookie).toBe('abc');
++    expect(loadCredential(dir, { HABBLAUD_EQUIPE_COOKIE: 's=zzz' })?.cookie).toBe('zzz');
++  });
++
++  it('avisa quando alguém começa, termina ou para, e para de tentar sem login', async () => {
++    let body: unknown = { agentes: {} };
++    let status = 200;
++    const fetchImpl = vi.fn(async () => new Response(JSON.stringify(body), { status })) as unknown as typeof fetch;
++    const updates: EquipeUpdate[] = [];
++    const warn = vi.fn();
++    let now = NOW;
++    const src = new EquipeSource({ cred: { url: 'https://p', cookie: 'c', savedAt: '' }, onUpdate: (u) => updates.push(u), log: { info: () => {}, warn }, fetchImpl, now: () => now });
++    await src.poll(true);
++    expect(updates[0].feed).toHaveLength(0);
++    body = { agentes: { roteirista: { agente: 'roteirista', estado: 'trabalhando', detalhe: 'escrevendo roteiros', progresso: '2/28', em: '2026-11-11 10:00' } } };
++    await src.poll();
++    expect(updates[1].feed.map((f) => f.agentName)).toEqual(['Roteirista']);
++    expect(updates[1].notices[0].text).toMatch(/Roteirista começou/);
++    body = { agentes: { roteirista: { agente: 'roteirista', estado: 'livre', detalhe: '28 roteiros prontos', em: '2026-11-11 10:30' } } };
++    now += 30 * 60_000;
++    await src.poll();
++    expect(updates[2].notices[0]).toMatchObject({ level: 'success' });
++    status = 401;
++    await src.poll();
++    await src.poll();
++    expect(updates).toHaveLength(3);
++    expect(warn).toHaveBeenCalledTimes(1);
++    expect(warn.mock.calls[0][0]).toMatch(/equipe:login/);
++  });
++});
+diff --git a/server/sources/equipe.ts b/server/sources/equipe.ts
+new file mode 100644
+index 0000000..240f553
+--- /dev/null
++++ b/server/sources/equipe.ts
+@@ -0,0 +1,301 @@
++// Equipe IA em 60s: os agentes que rodam na nuvem (rotinas agendadas) entram no escritório como personagens.
++//
++// Cada rotina grava o que está fazendo na tabela `atividade` do painel (D1 iaem60s-painel); o painel expõe isso em
++// GET /api/atividade, atrás do login por código no celular. Esta fonte lê essa rota a cada poucos segundos e monta
++// um OfficeSnapshot só com a equipe (salas por setor, um personagem por agente), que o Office mistura aos agentes
++// reais, como faz com o modo demonstração.
++//
++// Os ids começam com "equipe:" (ver isDemoId em shared/timeline.ts): a equipe nunca sobe para o Habblaud World,
++// não entra no timelapse e não ganha terminal, mensagens nem editor de personagem — ela não é uma sessão desta máquina.
++
++import { chmodSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
++import { dirname, join } from 'node:path';
++import type { AppearanceParts } from '../../shared/appearance';
++import { hash32 } from '../../shared/hash';
++import type {
++  AccountInfo,
++  Activity,
++  ActivityKind,
++  AgentInfo,
++  AgentStatus,
++  FeedItem,
++  Notice,
++  OfficeSnapshot,
++  RoomInfo,
++} from '../../shared/types';
++
++export const EQUIPE_PREFIX = 'equipe:';
++export const DEFAULT_EQUIPE_URL = 'https://painel.iaem60s.com';
++/** Trabalhando sem atualizar há mais que isso = "⚠ parado?" (a mesma regra da aba Equipe do painel). */
++export const STALE_MS = 3 * 3600_000;
++const POLL_MS = 15_000;
++
++/** Uma linha da tabela `atividade`, como o painel devolve. `em` = "AAAA-MM-DD HH:MM" no horário de Brasília. */
++export interface AtividadeRow {
++  agente: string;
++  estado?: string;
++  detalhe?: string;
++  progresso?: string;
++  em?: string;
++}
++
++export interface AtividadeResponse {
++  agora?: string;
++  agentes?: Record<string, AtividadeRow>;
++}
++
++interface Membro {
++  id: string;
++  nome: string;
++  faz: string;
++  sala: string;
++  kind: ActivityKind;
++  icon: string;
++  look: 'f' | 'm';
++  parts: AppearanceParts;
++}
++
++/** Salas (setores) do prédio, na ordem em que aparecem. */
++export const SALAS: Record<string, string> = {
++  producao: 'Produção',
++  resultados: 'Resultados',
++  vendas: 'Vendas e DMs',
++};
++
++/** A equipe, com o mesmo nome, função e visual da aba 🏢 Equipe do painel (ia/painel/index.html). */
++export const EQUIPE: readonly Membro[] = [
++  { id: 'cacador', nome: 'Caçador', faz: 'busca referências virais lá fora', sala: 'producao', kind: 'web', icon: '🔎', look: 'm',
++    parts: { top: '#3fb950', hair: '#5b3a1e', skin: '#e0ac69', accessory: 'cap', accessoryColor: '#8b6b3a' } },
++  { id: 'roteirista', nome: 'Roteirista', faz: 'escreve os roteiros da rodada', sala: 'producao', kind: 'write', icon: '✍️', look: 'f',
++    parts: { top: '#58a6ff', hair: '#1f1f1f', skin: '#c68642', topStyle: 'blouse' } },
++  { id: 'revisores', nome: 'Revisores', faz: 'os 4 revisores conferem cada roteiro', sala: 'producao', kind: 'read', icon: '🧐', look: 'm',
++    parts: { top: '#ff6b6b', hair: '#b55239', skin: '#f1c27d', accessory: 'glasses', accessoryColor: '#1f1f1f' } },
++  { id: 'estudio', nome: 'Estúdio', faz: 'renderiza os vídeos aprovados', sala: 'producao', kind: 'run', icon: '🎬', look: 'm',
++    parts: { top: '#e8834a', hair: '#2b2b2b', skin: '#8d5524', accessory: 'headphones', accessoryColor: '#1f1f1f', topStyle: 'hoodie' } },
++  { id: 'analista', nome: 'Analista', faz: 'lê as métricas e escreve insights', sala: 'resultados', kind: 'search', icon: '📊', look: 'f',
++    parts: { top: '#d2a8ff', hair: '#e6c27a', skin: '#ffdbac', accessory: 'glasses', accessoryColor: '#1f1f1f', topStyle: 'sweater' } },
++  { id: 'social', nome: 'Redes', faz: 'acompanha seguidores e alcance no IG e no TikTok', sala: 'resultados', kind: 'web', icon: '📈', look: 'f',
++    parts: { top: '#ff7eb6', hair: '#e8834a', skin: '#ffdbac' } },
++  { id: 'cobranca', nome: 'Cobrança', faz: 'te avisa do que espera aprovação', sala: 'resultados', kind: 'communicate', icon: '📣', look: 'm',
++    parts: { top: '#f2cc60', hair: '#7a3b1e', skin: '#e0ac69', topStyle: 'polo' } },
++  { id: 'financeiro', nome: 'Financeiro', faz: 'cuida das vendas e do lucro do Super Assistente', sala: 'vendas', kind: 'plan', icon: '💵', look: 'm',
++    parts: { top: '#2ea043', hair: '#3b2a1a', skin: '#f1c27d', topStyle: 'shirt_tie' } },
++  { id: 'robo', nome: 'Robô das DMs', faz: 'responde quem comenta a palavra', sala: 'vendas', kind: 'communicate', icon: '🤖', look: 'm',
++    parts: { top: '#79c0ff', hair: '#9aa4ad', skin: '#c9d1d9', accessory: 'headphones', accessoryColor: '#79c0ff' } },
++];
++
++const ACCOUNT_ID = `${EQUIPE_PREFIX}iaem60s`;
++const roomId = (sala: string): string => `${EQUIPE_PREFIX}${sala}`;
++const agentId = (id: string): string => `${EQUIPE_PREFIX}${id}`;
++
++/** "AAAA-MM-DD HH:MM" (Brasília, UTC−3) → epoch ms; NaN se vier fora do formato. */
++export function parseEm(em: string | undefined): number {
++  const m = /^(\d{4})-(\d{2})-(\d{2})[ T](\d{2}):(\d{2})/.exec(em ?? '');
++  if (!m) return NaN;
++  return Date.UTC(+m[1], +m[2] - 1, +m[3], +m[4] + 3, +m[5]);
++}
++
++const clip = (s: string, n: number): string => (s.length > n ? s.slice(0, n - 1) + '…' : s);
++
++function ago(ms: number): string {
++  const min = Math.max(0, Math.round(ms / 60_000));
++  if (min < 60) return `${min} min`;
++  const h = Math.floor(min / 60);
++  return min % 60 ? `${h} h ${min % 60} min` : `${h} h`;
++}
++
++export interface EquipeState {
++  agent: AgentInfo;
++  /** Chave do que mudou: estado + detalhe + progresso (+ parado?). */
++  key: string;
++}
++
++/** Monta um agente do escritório a partir da linha da tabela `atividade` (ou da falta dela). */
++export function toAgent(m: Membro, row: AtividadeRow | undefined, now: number, startedAt: number): EquipeState {
++  const at = parseEm(row?.em);
++  const when = Number.isFinite(at) ? Math.min(at, now) : startedAt;
++  const working = row?.estado === 'trabalhando';
++  const stale = working && Number.isFinite(at) && now - at > STALE_MS;
++  const detalhe = (row?.detalhe ?? '').trim();
++  const progresso = (row?.progresso ?? '').trim();
++  const status: AgentStatus = stale ? 'waiting' : working ? 'working' : 'idle';
++  const text = working
++    ? clip(progresso ? `${detalhe || m.faz} (${progresso})` : detalhe || m.faz, 46)
++    : clip(detalhe ? `Livre · ${detalhe}` : 'Livre (na copa)', 46);
++  const activity: Activity = {
++    id: `${agentId(m.id)}:${row?.em ?? 'nunca'}:${hash32(`${row?.estado}|${detalhe}|${progresso}`)}`,
++    kind: working ? m.kind : 'done',
++    icon: working ? m.icon : '☕',
++    text,
++    detail: clip([detalhe, progresso && `progresso ${progresso}`, row?.em && `atualizado em ${row.em}`].filter(Boolean).join(' · '), 300) || undefined,
++    tool: 'Equipe',
++    at: when,
++  };
++  const agent: AgentInfo = {
++    id: agentId(m.id),
++    kind: 'main',
++    roomId: roomId(m.sala),
++    name: m.nome,
++    look: m.look,
++    role: m.faz,
++    title: detalhe || m.faz,
++    sessionId: agentId(m.id),
++    account: ACCOUNT_ID,
++    status,
++    ...(stale ? { waitingFor: `⚠ parado? trabalhando sem atualizar há ${ago(now - at)}` } : {}),
++    activity,
++    recent: [activity],
++    tasks: progresso ? [{ id: 'progresso', title: `${detalhe || m.faz} — ${progresso}`, status: 'in_progress', activeForm: detalhe || m.faz }] : [],
++    startedAt,
++    lastEventAt: when,
++    statusSince: when,
++    stats: { toolCalls: 0, tokensIn: 0, tokensOut: 0, subagents: 0 },
++    seed: hash32(agentId(m.id)),
++    parts: m.parts,
++    custom: true,
++  };
++  return { agent, key: `${status}|${detalhe}|${progresso}` };
++}
++
++/** Snapshot só da equipe (salas, agentes e a "conta" IA em 60s). */
++export function equipeSnapshot(data: AtividadeResponse, now: number, startedAt: number): { snap: OfficeSnapshot; states: Map<string, EquipeState> } {
++  const states = new Map<string, EquipeState>();
++  for (const m of EQUIPE) states.set(agentId(m.id), toAgent(m, data.agentes?.[m.id], now, startedAt));
++  const rooms: RoomInfo[] = Object.entries(SALAS).map(([id, name], i) => ({
++    id: roomId(id),
++    name,
++    path: `/IA em 60s/${name}`,
++    slot: i,
++    seed: hash32(roomId(id)),
++    createdAt: startedAt,
++  }));
++  const agents = [...states.values()].map((s) => s.agent);
++  const account: AccountInfo = {
++    id: ACCOUNT_ID,
++    short: '60',
++    name: 'IA em 60s',
++    color: '#e8834a',
++    configDir: '',
++    sessions: agents.filter((a) => a.status !== 'idle').length,
++    usageStatus: 'disabled',
++  };
++  return {
++    snap: { rev: 0, serverTime: now, rooms, agents, accounts: [account], meta: {} as OfficeSnapshot['meta'] },
++    states,
++  };
++}
++
++// ---------------------------------------------------------------- credencial (cookie do painel)
++
++export interface EquipeCredential {
++  url: string;
++  cookie: string;
++  savedAt: string;
++}
++
++export const credentialPath = (dataDir: string): string => join(dataDir, 'equipe.json');
++
++export function loadCredential(dataDir: string, env: NodeJS.ProcessEnv = process.env): EquipeCredential | undefined {
++  const url = (env.HABBLAUD_EQUIPE_URL?.trim() || DEFAULT_EQUIPE_URL).replace(/\/+$/, '');
++  const fromEnv = env.HABBLAUD_EQUIPE_COOKIE?.trim();
++  if (fromEnv) return { url, cookie: fromEnv.replace(/^s=/, ''), savedAt: '' };
++  const file = credentialPath(dataDir);
++  if (!existsSync(file)) return undefined;
++  try {
++    const c = JSON.parse(readFileSync(file, 'utf8')) as Partial<EquipeCredential>;
++    return c.cookie ? { url: (c.url || url).replace(/\/+$/, ''), cookie: c.cookie, savedAt: c.savedAt ?? '' } : undefined;
++  } catch {
++    return undefined;
++  }
++}
++
++export function saveCredential(dataDir: string, cred: EquipeCredential): string {
++  const file = credentialPath(dataDir);
++  mkdirSync(dirname(file), { recursive: true, mode: 0o700 });
++  writeFileSync(file, JSON.stringify(cred, null, 2) + '\n', { mode: 0o600 });
++  chmodSync(file, 0o600);
++  return file;
++}
++
++// ---------------------------------------------------------------- a fonte
++
++export interface EquipeUpdate {
++  snap: OfficeSnapshot | null;
++  feed: FeedItem[];
++  notices: Notice[];
++}
++
++export interface EquipeSourceOptions {
++  cred: EquipeCredential;
++  onUpdate: (u: EquipeUpdate) => void;
++  log: { info: (m: string) => void; warn: (m: string) => void };
++  fetchImpl?: typeof fetch;
++  now?: () => number;
++  intervalMs?: number;
++}
++
++/** Lê /api/atividade do painel em intervalos e avisa o Office do que mudou. */
++export class EquipeSource {
++  private timer: NodeJS.Timeout | null = null;
++  private prev = new Map<string, EquipeState>();
++  private readonly startedAt: number;
++  private readonly now: () => number;
++  private failing = '';
++  private seq = 0;
++
++  constructor(private readonly o: EquipeSourceOptions) {
++    this.now = o.now ?? Date.now;
++    this.startedAt = this.now();
++  }
++
++  start(): void {
++    if (this.timer) return;
++    void this.poll(true);
++    this.timer = setInterval(() => void this.poll(false), this.o.intervalMs ?? POLL_MS);
++    this.timer.unref?.();
++  }
++
++  stop(): void {
++    if (this.timer) clearInterval(this.timer);
++    this.timer = null;
++  }
++
++  async poll(first = false): Promise<void> {
++    let data: AtividadeResponse;
++    try {
++      const r = await (this.o.fetchImpl ?? fetch)(`${this.o.cred.url}/api/atividade`, {
++        headers: { cookie: `s=${this.o.cred.cookie}`, accept: 'application/json' },
++        redirect: 'manual',
++        signal: AbortSignal.timeout(10_000),
++      });
++      if (r.status === 401 || (r.status >= 300 && r.status < 400)) throw new Error('login vencido: rode `npm run equipe:login` de novo');
++      if (!r.ok) throw new Error(`o painel respondeu ${r.status}`);
++      data = (await r.json()) as AtividadeResponse;
++    } catch (err) {
++      const msg = err instanceof Error ? err.message : String(err);
++      if (msg !== this.failing) this.o.log.warn(`Equipe IA em 60s: ${msg}`);
++      this.failing = msg;
++      return;
++    }
++    if (this.failing) this.o.log.info('Equipe IA em 60s: conexão com o painel de volta.');
++    this.failing = '';
++    const now = this.now();
++    const { snap, states } = equipeSnapshot(data, now, this.startedAt);
++    const feed: FeedItem[] = [];
++    const notices: Notice[] = [];
++    for (const [id, s] of states) {
++      const before = this.prev.get(id);
++      if (before?.key === s.key) continue;
++      const a = s.agent;
++      if (!first) {
++        feed.push({ id: `${id}:${++this.seq}`, agentId: id, roomId: a.roomId, agentName: a.name, roomName: SALAS[a.roomId.slice(EQUIPE_PREFIX.length)] ?? a.roomId, account: a.account, activity: a.activity! });
++        if (a.status === 'waiting') notices.push({ id: `${id}:n${this.seq}`, level: 'warn', text: `⚠ ${a.name} parado? ${a.waitingFor ?? ''}`.trim(), agentId: id, roomId: a.roomId, at: now });
++        else if (before?.agent.status === 'working' && a.status === 'idle') notices.push({ id: `${id}:n${this.seq}`, level: 'success', text: `✅ ${a.name} terminou e foi para a copa`, agentId: id, roomId: a.roomId, at: now });
++        else if (before?.agent.status !== 'working' && a.status === 'working') notices.push({ id: `${id}:n${this.seq}`, level: 'info', text: `${a.activity?.icon ?? '▶'} ${a.name} começou: ${a.activity?.text ?? ''}`, agentId: id, roomId: a.roomId, at: now });
++      }
++    }
++    this.prev = states;
++    if (first) this.o.log.info(`Equipe IA em 60s: ${states.size} agentes no prédio (${[...states.values()].filter((s) => s.agent.status === 'working').length} trabalhando).`);
++    this.o.onUpdate({ snap, feed, notices });
++  }
++}
+diff --git a/shared/timeline.ts b/shared/timeline.ts
+index 49a615f..0162765 100644
+--- a/shared/timeline.ts
++++ b/shared/timeline.ts
+@@ -229,8 +229,12 @@ export function compactAccount(a: AccountInfo, demo = false): TimelineAccount {
+   return out;
+ }
+ 
+-/** Agentes, salas e contas do modo demonstração usam o prefixo "demo:" (ver Office.setDemo). */
+-export const isDemoId = (id: string): boolean => id.startsWith('demo:');
++/**
++ * Agentes, salas e contas do modo demonstração usam o prefixo "demo:" (ver Office.setDemo). A equipe IA em 60s
++ * (server/sources/equipe.ts, prefixo "equipe:") segue as mesmas regras: são agentes da nuvem, não sessões desta máquina,
++ * então nunca sobem para o World, não entram no timelapse e não ganham terminal nem editor de personagem.
++ */
++export const isDemoId = (id: string): boolean => id.startsWith('demo:') || id.startsWith('equipe:');
+ 
+ export function compactSnapshot(snap: OfficeSnapshot, isDemo: (id: string) => boolean = isDemoId): TimelineFrame {
+   return {
+-- 
+2.43.0
+
