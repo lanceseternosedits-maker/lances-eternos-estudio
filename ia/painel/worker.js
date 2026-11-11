@@ -5,7 +5,8 @@
 // cada vídeo novo em "vídeo aguardando aprovação". Segredo VAPID_PRIVADA (JWK) e VAPID_PUBLICA ficam só no Worker.
 const BASE = "https://raw.githubusercontent.com/lanceseternosedits-maker/lances-eternos-estudio/midia-ia/ia/painel/";
 const SITE = "https://iaem60s.com"; // domínio próprio (08/11); o painel-iaem60s.vgofredousa.workers.dev continua funcionando
-const TIPOS = { html: "text/html; charset=utf-8", json: "application/manifest+json", png: "image/png", jpg: "image/jpeg" };
+const TIPOS = { html: "text/html; charset=utf-8", json: "application/manifest+json", png: "image/png", jpg: "image/jpeg",
+  js: "text/javascript; charset=utf-8", css: "text/css; charset=utf-8", woff2: "font/woff2", woff: "font/woff", webmanifest: "application/manifest+json" };
 const json = (dados, status = 200) =>
   new Response(JSON.stringify(dados), { status, headers: { "content-type": "application/json; charset=utf-8", "cache-control": "no-store" } });
 const agoraBR = () => new Date().toLocaleString("sv-SE", { timeZone: "America/Sao_Paulo" }).slice(0, 16);
@@ -686,7 +687,8 @@ export default {
     if (caminho === "ig/callback") return callback(env, url);
     if (caminho === "privacidade") return PAGINA("Privacidade", "<h1>Política de privacidade · IA em 60s</h1><p>Este app responde automaticamente a comentários feitos nos Reels do perfil IA em 60s no Instagram, com o link prometido no vídeo. Guardamos só o ID do comentário, o nome de usuário público e o texto do comentário, para não responder duas vezes. Não vendemos nem compartilhamos dados. Para pedir a exclusão, mande uma DM para o perfil com a palavra EXCLUIR e apagamos em até 7 dias.</p>");
     if (caminho === "sw.js") return new Response(SW, { headers: { "content-type": "application/javascript; charset=utf-8", "cache-control": "no-cache" } });
-    if (!/^(index\.html|manifest\.json|icone-(180|512)\.png|capas\/[\w.-]+\.jpg)$/.test(caminho)) {
+    // habblaud/: o escritório do Habblaud na aba 🏢 Equipe (Vitor, 11/11); arquivos com hash em habblaud/bundle/
+    if (!/^(index\.html|manifest\.json|icone-(180|512)\.png|capas\/[\w.-]+\.jpg|habblaud\/(?:[\w@-]+\/)*[\w@.-]+\.(?:html|js|css|png|json|webmanifest|woff2?))$/.test(caminho) || caminho.includes("..")) {
       return new Response("não encontrado", { status: 404 });
     }
     const html = caminho.endsWith(".html");

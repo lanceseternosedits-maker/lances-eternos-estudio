@@ -763,6 +763,7 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
   st.textContent = '.escr{position:relative;width:100%;max-width:432px;margin:0 auto 12px}.escr canvas{width:100%;image-rendering:pixelated;border-radius:14px;border:1px solid var(--line);display:block}' +
     '.bal{position:absolute;transform:translate(-50%,-100%);background:#fff;color:#111;font-size:10px;line-height:1.2;padding:3px 6px;border-radius:8px;max-width:120px;text-align:center;box-shadow:0 1px 0 #0006;pointer-events:none;transition:left .1s linear,top .1s linear}.bal:after{content:"";position:absolute;left:50%;bottom:-4px;border:4px solid transparent;border-top-color:#fff;border-bottom:0;margin-left:-4px}.bal.em{font-size:12px;padding:1px 5px}.bal.av{background:#ffb547}' +
     '.tag{position:absolute;transform:translateX(-50%);font-size:9px;font-weight:700;color:#111;padding:1px 5px;border-radius:6px;white-space:nowrap;pointer-events:none}' +
+    '.hbt{display:flex;gap:6px;align-items:center;margin:0 0 8px}.hbt button{background:var(--card);border:1px solid var(--line);color:inherit;border-radius:999px;padding:5px 12px;font-size:13px}.hbt button.on{background:#e8834a;border-color:#e8834a;color:#111;font-weight:700}.hbt a{margin-left:auto;font-size:13px;color:var(--mut);text-decoration:none}.hbf iframe{width:100%;height:72vh;min-height:420px;border:1px solid var(--line);border-radius:14px;display:block;background:#1d2421;margin:0 0 12px}' +
     '.agc{display:flex;gap:10px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 10px;margin:0 0 6px;font-size:13px}.agc b.n{display:block}.agc .pt{width:10px;height:10px;border-radius:50%;margin-top:5px;flex:none;background:#555}.agc.on .pt{background:#3fb950;box-shadow:0 0 6px #3fb950}.agc.av .pt{background:#ffb547}.agc small{color:var(--mut)}';
   document.head.appendChild(st);
   const box = document.createElement('div'); box.className = 'escr';
@@ -770,6 +771,28 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
   const info = document.createElement('p'); info.style.cssText = 'font-size:12px;color:var(--mut);margin:0 0 8px';
   const lista = document.createElement('div');
   sec.appendChild(box); sec.appendChild(info); sec.appendChild(lista);
+  // 🏨 Habblaud (Vitor, 11/11): o escritório do Habblaud (github.com/marmottajr/habblaud, MIT, com a ponte em
+  // ferramentas/habblaud do main) mostrando a equipe; mora em /habblaud/ e lê o mesmo /api/atividade.
+  // "Clássico" volta a este escritório desenhado aqui. A escolha fica no aparelho.
+  let modo = localStorage.getItem('equipe-modo') === 'classico' ? 'classico' : 'habblaud';
+  const hb = document.createElement('div');
+  hb.innerHTML = '<div class="hbt"><button data-m="habblaud">🏨 Habblaud</button><button data-m="classico">🎨 Clássico</button><a href="/habblaud/index.html?equipe=1" target="_blank" rel="noopener">⛶ tela cheia</a></div><div class="hbf"></div>';
+  sec.insertBefore(hb, box);
+  const hbf = hb.querySelector('.hbf');
+  const aplica = () => {
+    hb.querySelectorAll('button').forEach((b) => b.classList.toggle('on', b.dataset.m === modo));
+    box.style.display = modo === 'classico' ? '' : 'none';
+    hbf.style.display = modo === 'habblaud' ? '' : 'none';
+    // só carrega o Habblaud quando a aba Equipe é aberta (não pesa nas outras abas)
+    if (modo === 'habblaud' && !hbf.firstChild && document.body.dataset.tab === 'equipe') {
+      const f = document.createElement('iframe');
+      f.src = '/habblaud/index.html?equipe=1'; f.title = 'Habblaud: o escritório da equipe'; f.allow = 'fullscreen';
+      hbf.appendChild(f);
+    }
+  };
+  hb.querySelectorAll('button').forEach((b) => b.addEventListener('click', () => { modo = b.dataset.m; localStorage.setItem('equipe-modo', modo); aplica(); }));
+  document.querySelectorAll('nav button[data-t="equipe"]').forEach((b) => b.addEventListener('click', () => setTimeout(aplica, 0)));
+  aplica();
   const pc = (v, t) => (v / t * 100) + '%';
   AG.forEach((g) => { const el = document.createElement('div'); el.className = 'tag'; el.textContent = g.nome; el.style.background = g.cor; el.style.left = pc(g.mesa[0] + 12, W); el.style.top = pc(g.mesa[1] + 26 + OFF, H); box.appendChild(el); });
   let x = cv.getContext('2d');
@@ -1079,12 +1102,12 @@ fetch('/api/publicados', { credentials: 'same-origin' }).then((r) => r.ok ? r.js
       if (!r.ok) throw new Error(r.status);
       const j = await r.json(); dados = j.agentes || {};
       const n = AG.filter(trab).length;
-      info.textContent = n + ' de ' + AG.length + ' trabalhando · toque numa mesa ou num personagem para ver a tela dele · atualizado ' + (j.agora || '').slice(11);
+      info.textContent = n + ' de ' + AG.length + ' trabalhando · ' + (modo === 'classico' ? 'toque numa mesa ou num personagem para ver a tela dele' : 'toque num personagem para ver o que ele está fazendo') + ' · atualizado ' + (j.agora || '').slice(11);
     } catch (e) { info.textContent = 'não consegui ler o status agora (' + e.message + ')'; }
     cartoes();
   }
   estatico();
-  const loop = (ts) => { if (document.body.dataset.tab === 'equipe' && !document.hidden) quadro(ts); else ultimo = 0; requestAnimationFrame(loop); };
+  const loop = (ts) => { if (document.body.dataset.tab === 'equipe' && !document.hidden && modo === 'classico') quadro(ts); else ultimo = 0; requestAnimationFrame(loop); };
   requestAnimationFrame(loop);
   setInterval(() => { if (document.body.dataset.tab === 'equipe') busca(); }, 20000);
   document.querySelectorAll('nav button[data-t="equipe"]').forEach((b) => b.addEventListener('click', busca));
