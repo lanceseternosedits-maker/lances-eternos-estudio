@@ -1,25 +1,233 @@
-From d92292dc6269f6b0114c9269eb419f08cf4c3826 Mon Sep 17 00:00:00 2001
+From 0bebd6f6d31acbebba0999ee11de3f7b00f10ce2 Mon Sep 17 00:00:00 2001
 From: IA em 60s <noreply@anthropic.com>
-Date: Wed, 11 Nov 2026 07:40:15 +0000
+Date: Wed, 11 Nov 2026 14:55:02 +0000
 Subject: [PATCH] =?UTF-8?q?Equipe=20IA=20em=2060s:=20agentes=20da=20nuvem?=
- =?UTF-8?q?=20(painel=20/api/atividade)=20no=20escrit=C3=B3rio?=
+ =?UTF-8?q?=20(painel=20/api/atividade)=20no=20escrit=C3=B3rio=20e=20modo?=
+ =?UTF-8?q?=20=3Fequipe=3D1=20para=20a=20aba=20Equipe=20do=20painel?=
 MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit
 
 ---
+ client/src/app.ts             |   2 +-
+ client/src/net/store.ts       |  53 +++++++++-
+ client/src/ui/notify.ts       |   2 +-
+ client/src/ui/overlays.ts     |   4 +-
+ client/src/ui/topbar.ts       |   8 +-
+ client/src/world/assets.ts    |   4 +-
  package.json                  |   1 +
- scripts/equipe-login.ts       |  66 ++++++++
- server/index.ts               |   9 +
- server/model/office.ts        |  23 ++-
- server/sources/equipe.test.ts |  79 +++++++++
- server/sources/equipe.ts      | 301 ++++++++++++++++++++++++++++++++++
+ scripts/equipe-login.ts       |  66 ++++++++++++
+ server/index.ts               |   9 ++
+ server/model/office.ts        |  23 +++-
+ server/sources/equipe.test.ts |  79 ++++++++++++++
+ server/sources/equipe.ts      | 113 ++++++++++++++++++++
+ shared/equipe.ts              | 193 ++++++++++++++++++++++++++++++++++
+ shared/locales/en.ts          |   4 +
+ shared/locales/es.ts          |   4 +
+ shared/locales/fr.ts          |   4 +
  shared/timeline.ts            |   8 +-
- 7 files changed, 481 insertions(+), 6 deletions(-)
+ vite.config.ts                |   2 +
+ 18 files changed, 563 insertions(+), 16 deletions(-)
  create mode 100644 scripts/equipe-login.ts
  create mode 100644 server/sources/equipe.test.ts
  create mode 100644 server/sources/equipe.ts
+ create mode 100644 shared/equipe.ts
 
+diff --git a/client/src/app.ts b/client/src/app.ts
+index fedbd25..97da61f 100644
+--- a/client/src/app.ts
++++ b/client/src/app.ts
+@@ -21,7 +21,7 @@ export function start(): void {
+   );
+ 
+   const params = new URLSearchParams(location.search);
+-  const store = new OfficeStore({ mock: params.has('mock') });
++  const store = new OfficeStore({ mock: params.has('mock'), equipe: params.has('equipe') });
+   const worldCanvas = document.getElementById('world') as HTMLCanvasElement;
+   const uiRoot = document.getElementById('ui') as HTMLElement;
+   const world = createWorld(worldCanvas, store);
+diff --git a/client/src/net/store.ts b/client/src/net/store.ts
+index eb16934..de917f3 100644
+--- a/client/src/net/store.ts
++++ b/client/src/net/store.ts
+@@ -7,6 +7,7 @@
+ import type { AppearanceParts } from '../../../shared/appearance';
+ import type { Activity, AgentDetail, AgentInfo, FeedItem, Notice, OfficeSnapshot, OutboxMessage, PermissionDecision, PermissionRequestInfo, RoomInfo } from '../../../shared/types';
+ import { DemoSimulator } from '../../../shared/demo/simulator';
++import { diffEquipe, equipeSnapshot, POLL_MS as EQUIPE_POLL_MS, type AtividadeResponse, type EquipeState } from '../../../shared/equipe';
+ import { tr } from '../../../shared/i18n';
+ 
+ export type ConnectionState = 'connecting' | 'open' | 'closed' | 'mock';
+@@ -43,6 +44,14 @@ export interface EventSourceLike {
+ 
+ export interface StoreOptions {
+   mock?: boolean;
++  /**
++   * Equipe IA em 60s (?equipe=1): o Habblaud dentro da aba 🏢 Equipe do painel. Sem servidor do Habblaud: lê
++   * GET /api/atividade do próprio painel (mesma origem, com o cookie do login) e monta o escritório no navegador
++   * (shared/equipe.ts). Implica `mock` (nada de terminal, mensagens, timelapse nem World).
++   */
++  equipe?: boolean;
++  /** Endereço da atividade da equipe (padrão: /api/atividade). */
++  equipeUrl?: string;
+   /** Parâmetros do modo mock (padrão: a query string da página). */
+   search?: string;
+   /** Fábrica do stream (padrão: `new EventSource(url)`). */
+@@ -89,6 +98,7 @@ export class OfficeStore {
+   feed: FeedItem[] = [];
+   connection: ConnectionState = 'connecting';
+   readonly mock: boolean;
++  readonly equipe: boolean;
+ 
+   // eslint-disable-next-line @typescript-eslint/no-explicit-any
+   private listeners = new Map<keyof StoreEvents, Set<(value: any) => void>>();
+@@ -112,7 +122,9 @@ export class OfficeStore {
+   private live: { snap: OfficeSnapshot; at: number } | null = null;
+ 
+   constructor(opts: StoreOptions = {}) {
+-    this.mock = !!opts.mock;
++    this.equipe = !!opts.equipe;
++    this.mock = !!opts.mock || this.equipe;
++    this.equipeUrl = opts.equipeUrl ?? '/api/atividade';
+     this.search = opts.search ?? (typeof location !== 'undefined' ? location.search : '');
+     this.openStream = opts.eventSource ?? ((url) => new EventSource(url));
+   }
+@@ -500,8 +512,47 @@ export class OfficeStore {
+   /** Simulador do modo ?mock=1 (também responde os pedidos de permissão fictícios). */
+   private mockSim: DemoSimulator | null = null;
+ 
++  private readonly equipeUrl: string;
++  private equipePrev = new Map<string, EquipeState>();
++  private readonly equipeSeq = { n: 0 };
++  private readonly equipeStart = Date.now();
++  /** Último erro da leitura da equipe ('' = ok), para avisar uma vez só. */
++  private equipeErr = '';
++
++  private startEquipe(): void {
++    this.setConnection('mock');
++    const poll = async (): Promise<void> => {
++      let data: AtividadeResponse;
++      try {
++        const res = await fetch(this.equipeUrl, { cache: 'no-store', credentials: 'same-origin' });
++        if (res.status === 401) throw new Error(tr('Entre no painel de novo para ver a equipe.'));
++        if (!res.ok) throw new Error(tr('O painel respondeu {0}.', [String(res.status)]));
++        data = (await res.json()) as AtividadeResponse;
++      } catch (err) {
++        const msg = err instanceof Error ? err.message : String(err);
++        if (msg !== this.equipeErr) this.emit('notice', { id: `equipe-erro-${Date.now()}`, level: 'warn', text: msg, at: Date.now() });
++        this.equipeErr = msg;
++        return;
++      }
++      this.equipeErr = '';
++      const now = Date.now();
++      const { snap, states } = equipeSnapshot(data, now, this.equipeStart);
++      const { feed, notices } = diffEquipe(this.equipePrev, states, now, this.equipeSeq);
++      this.equipePrev = states;
++      // Sem a "conta" da equipe: dentro do painel só existe ela, e o cartão de uso (5 h / semana) não se aplica.
++      this.applySnapshot({ ...snap, accounts: [], rev: this.equipeSeq.n + 1 });
++      if (feed.length) this.applyFeed(feed);
++      notices.forEach((n) => this.emit('notice', n));
++    };
++    void poll();
++    this.mockTimer = setInterval(() => void poll(), EQUIPE_POLL_MS);
++    // Voltando ao app (celular desbloqueado, aba de volta): lê na hora em vez de esperar o próximo intervalo.
++    if (typeof document !== 'undefined') document.addEventListener('visibilitychange', () => document.visibilityState === 'visible' && void poll());
++  }
++
+   private startMock(): void {
+     if (this.mockTimer) return;
++    if (this.equipe) return this.startEquipe();
+     this.setConnection('mock');
+     const sim = new DemoSimulator(mockOptionsFrom(this.search));
+     this.mockSim = sim;
+diff --git a/client/src/ui/notify.ts b/client/src/ui/notify.ts
+index b4da2d6..8bea56e 100644
+--- a/client/src/ui/notify.ts
++++ b/client/src/ui/notify.ts
+@@ -57,7 +57,7 @@ export class Notifier implements UiComponent {
+         const notification = new Notification(tr('Habblaud — precisa de você'), {
+           body: n.text,
+           tag: n.agentId ?? n.id,
+-          icon: '/assets/brand/favicon-32.png',
++          icon: `${import.meta.env.BASE_URL}assets/brand/favicon-32.png`,
+         });
+         notification.onclick = () => {
+           window.focus();
+diff --git a/client/src/ui/overlays.ts b/client/src/ui/overlays.ts
+index ff3a055..81261e2 100644
+--- a/client/src/ui/overlays.ts
++++ b/client/src/ui/overlays.ts
+@@ -11,7 +11,7 @@ const DISCONNECTED_BANNER_MS = 8_000;
+ 
+ function brandMark(size: number): HTMLElement {
+   const mark = h('span', { class: 'ui-brand__mark' });
+-  const img = h('img', { attrs: { src: '/assets/brand/logo-mark@4x.png', alt: '', width: size, height: size, draggable: 'false' } });
++  const img = h('img', { attrs: { src: `${import.meta.env.BASE_URL}assets/brand/logo-mark@4x.png`, alt: '', width: size, height: size, draggable: 'false' } });
+   img.addEventListener('error', () => {
+     mark.innerHTML = FALLBACK_MARK;
+   });
+@@ -76,7 +76,7 @@ export class EmptyState implements UiComponent {
+ 
+   constructor(private ctx: UiContext) {
+     const art = h('div', { class: 'ui-empty__art', attrs: { 'aria-hidden': 'true' } });
+-    const img = h('img', { attrs: { src: '/assets/illustrations/empty-office.png', alt: '', draggable: 'false' } });
++    const img = h('img', { attrs: { src: `${import.meta.env.BASE_URL}assets/illustrations/empty-office.png`, alt: '', draggable: 'false' } });
+     img.addEventListener('error', () => {
+       img.remove();
+       art.classList.add('is-css');
+diff --git a/client/src/ui/topbar.ts b/client/src/ui/topbar.ts
+index 9d1f490..60152ed 100644
+--- a/client/src/ui/topbar.ts
++++ b/client/src/ui/topbar.ts
+@@ -57,7 +57,7 @@ export class TopBar implements UiComponent {
+   constructor(private ctx: UiContext) {
+     // Marca: usa o logo do projeto se existir; senão, o prédio em pixels.
+     const mark = h('span', { class: 'ui-brand__mark' });
+-    const logo = h('img', { attrs: { src: '/assets/brand/logo-mark.png', srcset: '/assets/brand/logo-mark@4x.png 4x', alt: '', width: 32, height: 32, draggable: 'false' } });
++    const logo = h('img', { attrs: { src: `${import.meta.env.BASE_URL}assets/brand/logo-mark.png`, srcset: `${import.meta.env.BASE_URL}assets/brand/logo-mark@4x.png 4x`, alt: '', width: 32, height: 32, draggable: 'false' } });
+     logo.addEventListener('error', () => {
+       mark.innerHTML = FALLBACK_MARK;
+     });
+@@ -180,13 +180,15 @@ export class TopBar implements UiComponent {
+     const conn = store.connection;
+     if (conn === 'open') this.hadOpen = true;
+     const label =
+-      conn === 'open' ? tr('Conectado') : conn === 'mock' ? tr('Simulação') : conn === 'closed' ? tr('Desconectado') : this.hadOpen ? tr('Reconectando…') : tr('Conectando…');
++      conn === 'open' ? tr('Conectado') : conn === 'mock' ? (store.equipe ? tr('Equipe ao vivo') : tr('Simulação')) : conn === 'closed' ? tr('Desconectado') : this.hadOpen ? tr('Reconectando…') : tr('Conectando…');
+     setText(this.pillText, label);
+     setVariant(this.pill, 'is-', conn);
+     setTitle(
+       this.pill,
+       conn === 'mock'
+-        ? tr('Dados simulados no navegador (?mock=1)')
++        ? store.equipe
++          ? tr('A equipe IA em 60s, lida do painel a cada 15 s')
++          : tr('Dados simulados no navegador (?mock=1)')
+         : conn === 'open'
+           ? tr('Recebendo eventos do servidor em tempo real')
+           : tr('Sem conexão com o servidor do Habblaud'),
+diff --git a/client/src/world/assets.ts b/client/src/world/assets.ts
+index 4c04b9b..5621584 100644
+--- a/client/src/world/assets.ts
++++ b/client/src/world/assets.ts
+@@ -45,7 +45,7 @@ function loadImage(file: string): Promise<HTMLImageElement | null> {
+     img.decoding = 'async';
+     img.onload = () => resolve(img.naturalWidth > 0 ? img : null);
+     img.onerror = () => resolve(null);
+-    img.src = `/assets/${file.replace(/^\/+/, '')}`;
++    img.src = `${import.meta.env.BASE_URL}assets/${file.replace(/^\/+/, '')}`;
+   });
+ }
+ 
+@@ -57,7 +57,7 @@ function validFile(f: unknown): f is ManifestFile {
+ 
+ export async function loadWorldAssets(signal?: AbortSignal): Promise<WorldAssets | null> {
+   try {
+-    const res = await fetch('/assets/manifest.json', { signal, cache: 'no-cache' });
++    const res = await fetch(`${import.meta.env.BASE_URL}assets/manifest.json`, { signal, cache: 'no-cache' });
+     if (!res.ok || !(res.headers.get('content-type') ?? '').includes('json')) return null;
+     const m = (await res.json()) as Manifest;
+     const wallArt: WallArtAsset[] = [];
 diff --git a/package.json b/package.json
 index 587db21..2a37669 100644
 --- a/package.json
@@ -304,41 +512,146 @@ index 0000000..379f44c
 +});
 diff --git a/server/sources/equipe.ts b/server/sources/equipe.ts
 new file mode 100644
-index 0000000..240f553
+index 0000000..89dc7f5
 --- /dev/null
 +++ b/server/sources/equipe.ts
-@@ -0,0 +1,301 @@
-+// Equipe IA em 60s: os agentes que rodam na nuvem (rotinas agendadas) entram no escritório como personagens.
-+//
-+// Cada rotina grava o que está fazendo na tabela `atividade` do painel (D1 iaem60s-painel); o painel expõe isso em
-+// GET /api/atividade, atrás do login por código no celular. Esta fonte lê essa rota a cada poucos segundos e monta
-+// um OfficeSnapshot só com a equipe (salas por setor, um personagem por agente), que o Office mistura aos agentes
-+// reais, como faz com o modo demonstração.
+@@ -0,0 +1,113 @@
++// Equipe IA em 60s no servidor: lê GET /api/atividade do painel (atrás do login por código no celular) a cada poucos
++// segundos e entrega ao Office um snapshot só com a equipe, misturado aos agentes reais como o modo demonstração.
++// A parte pura (quem é quem, salas, conversão) está em shared/equipe.ts.
++
++import { chmodSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
++import { dirname, join } from 'node:path';
++import { DEFAULT_EQUIPE_URL, diffEquipe, equipeSnapshot, POLL_MS, type AtividadeResponse, type EquipeState } from '../../shared/equipe';
++import type { FeedItem, Notice, OfficeSnapshot } from '../../shared/types';
++
++export * from '../../shared/equipe';
++
++// ---------------------------------------------------------------- credencial (cookie do painel)
++
++export interface EquipeCredential {
++  url: string;
++  cookie: string;
++  savedAt: string;
++}
++
++export const credentialPath = (dataDir: string): string => join(dataDir, 'equipe.json');
++
++export function loadCredential(dataDir: string, env: NodeJS.ProcessEnv = process.env): EquipeCredential | undefined {
++  const url = (env.HABBLAUD_EQUIPE_URL?.trim() || DEFAULT_EQUIPE_URL).replace(/\/+$/, '');
++  const fromEnv = env.HABBLAUD_EQUIPE_COOKIE?.trim();
++  if (fromEnv) return { url, cookie: fromEnv.replace(/^s=/, ''), savedAt: '' };
++  const file = credentialPath(dataDir);
++  if (!existsSync(file)) return undefined;
++  try {
++    const c = JSON.parse(readFileSync(file, 'utf8')) as Partial<EquipeCredential>;
++    return c.cookie ? { url: (c.url || url).replace(/\/+$/, ''), cookie: c.cookie, savedAt: c.savedAt ?? '' } : undefined;
++  } catch {
++    return undefined;
++  }
++}
++
++export function saveCredential(dataDir: string, cred: EquipeCredential): string {
++  const file = credentialPath(dataDir);
++  mkdirSync(dirname(file), { recursive: true, mode: 0o700 });
++  writeFileSync(file, JSON.stringify(cred, null, 2) + '\n', { mode: 0o600 });
++  chmodSync(file, 0o600);
++  return file;
++}
++
++// ---------------------------------------------------------------- a fonte
++
++export interface EquipeUpdate {
++  snap: OfficeSnapshot | null;
++  feed: FeedItem[];
++  notices: Notice[];
++}
++
++export interface EquipeSourceOptions {
++  cred: EquipeCredential;
++  onUpdate: (u: EquipeUpdate) => void;
++  log: { info: (m: string) => void; warn: (m: string) => void };
++  fetchImpl?: typeof fetch;
++  now?: () => number;
++  intervalMs?: number;
++}
++
++/** Lê /api/atividade do painel em intervalos e avisa o Office do que mudou. */
++export class EquipeSource {
++  private timer: NodeJS.Timeout | null = null;
++  private prev = new Map<string, EquipeState>();
++  private readonly startedAt: number;
++  private readonly now: () => number;
++  private failing = '';
++  private seq = { n: 0 };
++
++  constructor(private readonly o: EquipeSourceOptions) {
++    this.now = o.now ?? Date.now;
++    this.startedAt = this.now();
++  }
++
++  start(): void {
++    if (this.timer) return;
++    void this.poll(true);
++    this.timer = setInterval(() => void this.poll(false), this.o.intervalMs ?? POLL_MS);
++    this.timer.unref?.();
++  }
++
++  stop(): void {
++    if (this.timer) clearInterval(this.timer);
++    this.timer = null;
++  }
++
++  async poll(first = false): Promise<void> {
++    let data: AtividadeResponse;
++    try {
++      const r = await (this.o.fetchImpl ?? fetch)(`${this.o.cred.url}/api/atividade`, {
++        headers: { cookie: `s=${this.o.cred.cookie}`, accept: 'application/json' },
++        redirect: 'manual',
++        signal: AbortSignal.timeout(10_000),
++      });
++      if (r.status === 401 || (r.status >= 300 && r.status < 400)) throw new Error('login vencido: rode `npm run equipe:login` de novo');
++      if (!r.ok) throw new Error(`o painel respondeu ${r.status}`);
++      data = (await r.json()) as AtividadeResponse;
++    } catch (err) {
++      const msg = err instanceof Error ? err.message : String(err);
++      if (msg !== this.failing) this.o.log.warn(`Equipe IA em 60s: ${msg}`);
++      this.failing = msg;
++      return;
++    }
++    if (this.failing) this.o.log.info('Equipe IA em 60s: conexão com o painel de volta.');
++    this.failing = '';
++    const now = this.now();
++    const { snap, states } = equipeSnapshot(data, now, this.startedAt);
++    const { feed, notices } = diffEquipe(this.prev, states, now, this.seq);
++    this.prev = states;
++    if (first) this.o.log.info(`Equipe IA em 60s: ${states.size} agentes no prédio (${[...states.values()].filter((s) => s.agent.status === 'working').length} trabalhando).`);
++    this.o.onUpdate({ snap, feed, notices });
++  }
++}
+diff --git a/shared/equipe.ts b/shared/equipe.ts
+new file mode 100644
+index 0000000..2405803
+--- /dev/null
++++ b/shared/equipe.ts
+@@ -0,0 +1,193 @@
++// Equipe IA em 60s, a parte pura (sem Node): quem é quem, salas, e como uma linha da tabela `atividade` do painel vira
++// um personagem do escritório. Usada pelo servidor (server/sources/equipe.ts) e pelo navegador no modo ?equipe=1
++// (client/src/net/store.ts), quando o Habblaud roda dentro da aba 🏢 Equipe do painel.
 +//
 +// Os ids começam com "equipe:" (ver isDemoId em shared/timeline.ts): a equipe nunca sobe para o Habblaud World,
 +// não entra no timelapse e não ganha terminal, mensagens nem editor de personagem — ela não é uma sessão desta máquina.
 +
-+import { chmodSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
-+import { dirname, join } from 'node:path';
-+import type { AppearanceParts } from '../../shared/appearance';
-+import { hash32 } from '../../shared/hash';
-+import type {
-+  AccountInfo,
-+  Activity,
-+  ActivityKind,
-+  AgentInfo,
-+  AgentStatus,
-+  FeedItem,
-+  Notice,
-+  OfficeSnapshot,
-+  RoomInfo,
-+} from '../../shared/types';
++import type { AppearanceParts } from './appearance';
++import { hash32 } from './hash';
++import type { AccountInfo, Activity, ActivityKind, AgentInfo, AgentStatus, FeedItem, Notice, OfficeSnapshot, RoomInfo } from './types';
 +
 +export const EQUIPE_PREFIX = 'equipe:';
 +export const DEFAULT_EQUIPE_URL = 'https://painel.iaem60s.com';
++/** Intervalo entre leituras do painel. */
++export const POLL_MS = 15_000;
 +/** Trabalhando sem atualizar há mais que isso = "⚠ parado?" (a mesma regra da aba Equipe do painel). */
 +export const STALE_MS = 3 * 3600_000;
-+const POLL_MS = 15_000;
 +
 +/** Uma linha da tabela `atividade`, como o painel devolve. `em` = "AAAA-MM-DD HH:MM" no horário de Brasília. */
 +export interface AtividadeRow {
@@ -490,125 +803,70 @@ index 0000000..240f553
 +    usageStatus: 'disabled',
 +  };
 +  return {
-+    snap: { rev: 0, serverTime: now, rooms, agents, accounts: [account], meta: {} as OfficeSnapshot['meta'] },
++    snap: { rev: 0, serverTime: now, rooms, agents, accounts: [account], meta: { demo: false, sources: [], startedAt, version: 'equipe' } },
 +    states,
 +  };
 +}
 +
-+// ---------------------------------------------------------------- credencial (cookie do painel)
-+
-+export interface EquipeCredential {
-+  url: string;
-+  cookie: string;
-+  savedAt: string;
-+}
-+
-+export const credentialPath = (dataDir: string): string => join(dataDir, 'equipe.json');
-+
-+export function loadCredential(dataDir: string, env: NodeJS.ProcessEnv = process.env): EquipeCredential | undefined {
-+  const url = (env.HABBLAUD_EQUIPE_URL?.trim() || DEFAULT_EQUIPE_URL).replace(/\/+$/, '');
-+  const fromEnv = env.HABBLAUD_EQUIPE_COOKIE?.trim();
-+  if (fromEnv) return { url, cookie: fromEnv.replace(/^s=/, ''), savedAt: '' };
-+  const file = credentialPath(dataDir);
-+  if (!existsSync(file)) return undefined;
-+  try {
-+    const c = JSON.parse(readFileSync(file, 'utf8')) as Partial<EquipeCredential>;
-+    return c.cookie ? { url: (c.url || url).replace(/\/+$/, ''), cookie: c.cookie, savedAt: c.savedAt ?? '' } : undefined;
-+  } catch {
-+    return undefined;
++/**
++ * O que mudou entre duas leituras: um item de feed por agente que mudou e um aviso quando alguém começa, termina ou
++ * fica "parado?". Na primeira leitura (`prev` vazio) não avisa nada.
++ */
++export function diffEquipe(prev: Map<string, EquipeState>, states: Map<string, EquipeState>, now: number, seq: { n: number }): { feed: FeedItem[]; notices: Notice[] } {
++  const feed: FeedItem[] = [];
++  const notices: Notice[] = [];
++  if (!prev.size) return { feed, notices };
++  for (const [id, s] of states) {
++    const before = prev.get(id);
++    if (before?.key === s.key) continue;
++    const a = s.agent;
++    const n = ++seq.n;
++    feed.push({ id: `${id}:${n}`, agentId: id, roomId: a.roomId, agentName: a.name, roomName: SALAS[a.roomId.slice(EQUIPE_PREFIX.length)] ?? a.roomId, account: a.account, activity: a.activity! });
++    if (a.status === 'waiting') notices.push({ id: `${id}:n${n}`, level: 'warn', text: `⚠ ${a.name} parado? ${a.waitingFor ?? ''}`.trim(), agentId: id, roomId: a.roomId, at: now });
++    else if (before?.agent.status === 'working' && a.status === 'idle') notices.push({ id: `${id}:n${n}`, level: 'success', text: `✅ ${a.name} terminou e foi para a copa`, agentId: id, roomId: a.roomId, at: now });
++    else if (before?.agent.status !== 'working' && a.status === 'working') notices.push({ id: `${id}:n${n}`, level: 'info', text: `${a.activity?.icon ?? '▶'} ${a.name} começou: ${a.activity?.text ?? ''}`, agentId: id, roomId: a.roomId, at: now });
 +  }
++  return { feed, notices };
 +}
-+
-+export function saveCredential(dataDir: string, cred: EquipeCredential): string {
-+  const file = credentialPath(dataDir);
-+  mkdirSync(dirname(file), { recursive: true, mode: 0o700 });
-+  writeFileSync(file, JSON.stringify(cred, null, 2) + '\n', { mode: 0o600 });
-+  chmodSync(file, 0o600);
-+  return file;
-+}
-+
-+// ---------------------------------------------------------------- a fonte
-+
-+export interface EquipeUpdate {
-+  snap: OfficeSnapshot | null;
-+  feed: FeedItem[];
-+  notices: Notice[];
-+}
-+
-+export interface EquipeSourceOptions {
-+  cred: EquipeCredential;
-+  onUpdate: (u: EquipeUpdate) => void;
-+  log: { info: (m: string) => void; warn: (m: string) => void };
-+  fetchImpl?: typeof fetch;
-+  now?: () => number;
-+  intervalMs?: number;
-+}
-+
-+/** Lê /api/atividade do painel em intervalos e avisa o Office do que mudou. */
-+export class EquipeSource {
-+  private timer: NodeJS.Timeout | null = null;
-+  private prev = new Map<string, EquipeState>();
-+  private readonly startedAt: number;
-+  private readonly now: () => number;
-+  private failing = '';
-+  private seq = 0;
-+
-+  constructor(private readonly o: EquipeSourceOptions) {
-+    this.now = o.now ?? Date.now;
-+    this.startedAt = this.now();
-+  }
-+
-+  start(): void {
-+    if (this.timer) return;
-+    void this.poll(true);
-+    this.timer = setInterval(() => void this.poll(false), this.o.intervalMs ?? POLL_MS);
-+    this.timer.unref?.();
-+  }
-+
-+  stop(): void {
-+    if (this.timer) clearInterval(this.timer);
-+    this.timer = null;
-+  }
-+
-+  async poll(first = false): Promise<void> {
-+    let data: AtividadeResponse;
-+    try {
-+      const r = await (this.o.fetchImpl ?? fetch)(`${this.o.cred.url}/api/atividade`, {
-+        headers: { cookie: `s=${this.o.cred.cookie}`, accept: 'application/json' },
-+        redirect: 'manual',
-+        signal: AbortSignal.timeout(10_000),
-+      });
-+      if (r.status === 401 || (r.status >= 300 && r.status < 400)) throw new Error('login vencido: rode `npm run equipe:login` de novo');
-+      if (!r.ok) throw new Error(`o painel respondeu ${r.status}`);
-+      data = (await r.json()) as AtividadeResponse;
-+    } catch (err) {
-+      const msg = err instanceof Error ? err.message : String(err);
-+      if (msg !== this.failing) this.o.log.warn(`Equipe IA em 60s: ${msg}`);
-+      this.failing = msg;
-+      return;
-+    }
-+    if (this.failing) this.o.log.info('Equipe IA em 60s: conexão com o painel de volta.');
-+    this.failing = '';
-+    const now = this.now();
-+    const { snap, states } = equipeSnapshot(data, now, this.startedAt);
-+    const feed: FeedItem[] = [];
-+    const notices: Notice[] = [];
-+    for (const [id, s] of states) {
-+      const before = this.prev.get(id);
-+      if (before?.key === s.key) continue;
-+      const a = s.agent;
-+      if (!first) {
-+        feed.push({ id: `${id}:${++this.seq}`, agentId: id, roomId: a.roomId, agentName: a.name, roomName: SALAS[a.roomId.slice(EQUIPE_PREFIX.length)] ?? a.roomId, account: a.account, activity: a.activity! });
-+        if (a.status === 'waiting') notices.push({ id: `${id}:n${this.seq}`, level: 'warn', text: `⚠ ${a.name} parado? ${a.waitingFor ?? ''}`.trim(), agentId: id, roomId: a.roomId, at: now });
-+        else if (before?.agent.status === 'working' && a.status === 'idle') notices.push({ id: `${id}:n${this.seq}`, level: 'success', text: `✅ ${a.name} terminou e foi para a copa`, agentId: id, roomId: a.roomId, at: now });
-+        else if (before?.agent.status !== 'working' && a.status === 'working') notices.push({ id: `${id}:n${this.seq}`, level: 'info', text: `${a.activity?.icon ?? '▶'} ${a.name} começou: ${a.activity?.text ?? ''}`, agentId: id, roomId: a.roomId, at: now });
-+      }
-+    }
-+    this.prev = states;
-+    if (first) this.o.log.info(`Equipe IA em 60s: ${states.size} agentes no prédio (${[...states.values()].filter((s) => s.agent.status === 'working').length} trabalhando).`);
-+    this.o.onUpdate({ snap, feed, notices });
-+  }
-+}
+diff --git a/shared/locales/en.ts b/shared/locales/en.ts
+index 46e8fc7..5474597 100644
+--- a/shared/locales/en.ts
++++ b/shared/locales/en.ts
+@@ -3273,4 +3273,8 @@ export const EN: Readonly<Record<string, string>> = {
+   "Carimbo deixado na portaria: {0}": "Stamp left at the front desk: {0}",
+   "Entre no prédio ou chegue mais perto da porta para carimbar.": "Go into the building or get closer to the door to stamp.",
+   "O carimbo não foi deixado. Tente de novo.": "The stamp wasn't left. Try again.",
++  "Equipe ao vivo": "Team live",
++  "A equipe IA em 60s, lida do painel a cada 15 s": "The IA em 60s team, read from the dashboard every 15 s",
++  "Entre no painel de novo para ver a equipe.": "Sign in to the dashboard again to see the team.",
++  "O painel respondeu {0}.": "The dashboard answered {0}.",
+ };
+diff --git a/shared/locales/es.ts b/shared/locales/es.ts
+index 0e07979..6d5f53e 100644
+--- a/shared/locales/es.ts
++++ b/shared/locales/es.ts
+@@ -3274,4 +3274,8 @@ export const ES: Readonly<Record<string, string>> = {
+   "Carimbo deixado na portaria: {0}": "Sello dejado en la recepción: {0}",
+   "Entre no prédio ou chegue mais perto da porta para carimbar.": "Entra al edificio o acércate más a la puerta para sellar.",
+   "O carimbo não foi deixado. Tente de novo.": "El sello no se dejó. Inténtalo de nuevo.",
++  "Equipe ao vivo": "Equipo en vivo",
++  "A equipe IA em 60s, lida do painel a cada 15 s": "El equipo de IA em 60s, leído del panel cada 15 s",
++  "Entre no painel de novo para ver a equipe.": "Vuelve a entrar al panel para ver al equipo.",
++  "O painel respondeu {0}.": "El panel respondió {0}.",
+ };
+diff --git a/shared/locales/fr.ts b/shared/locales/fr.ts
+index 7e27d0e..bfe0ad0 100644
+--- a/shared/locales/fr.ts
++++ b/shared/locales/fr.ts
+@@ -3290,4 +3290,8 @@ export const FR: Readonly<Record<string, string>> = {
+   "Carimbo deixado na portaria: {0}": "Tampon laissé à l'accueil : {0}",
+   "Entre no prédio ou chegue mais perto da porta para carimbar.": "Entrez dans l'immeuble ou approchez-vous de la porte pour tamponner.",
+   "O carimbo não foi deixado. Tente de novo.": "Le tampon n'a pas été laissé. Réessayez.",
++  "Equipe ao vivo": "Équipe en direct",
++  "A equipe IA em 60s, lida do painel a cada 15 s": "L'équipe IA em 60s, lue depuis le tableau de bord toutes les 15 s",
++  "Entre no painel de novo para ver a equipe.": "Reconnectez-vous au tableau de bord pour voir l'équipe.",
++  "O painel respondeu {0}.": "Le tableau de bord a répondu {0}.",
+ };
 diff --git a/shared/timeline.ts b/shared/timeline.ts
 index 49a615f..0162765 100644
 --- a/shared/timeline.ts
@@ -628,6 +886,19 @@ index 49a615f..0162765 100644
  
  export function compactSnapshot(snap: OfficeSnapshot, isDemo: (id: string) => boolean = isDemoId): TimelineFrame {
    return {
+diff --git a/vite.config.ts b/vite.config.ts
+index 7b77f23..a122921 100644
+--- a/vite.config.ts
++++ b/vite.config.ts
+@@ -7,6 +7,8 @@ const r = (p: string) => fileURLToPath(new URL(p, import.meta.url));
+ // `npm run dev:client` sobe só o Vite (use ?mock=1 para dados simulados no navegador).
+ export default defineConfig({
+   root: r('./client'),
++  // HABBLAUD_BASE=/habblaud/ gera o cliente para morar numa subpasta (a aba 🏢 Equipe do painel IA em 60s).
++  base: process.env.HABBLAUD_BASE || '/',
+   // No navegador vai só o dicionário do idioma ativo (client/src/main.ts), não os três: ver shared/locales/all.ts.
+   resolve: { alias: [{ find: /^\.\/locales\/all$/, replacement: r('./shared/locales/none.ts') }] },
+   publicDir: r('./client/public'),
 -- 
 2.43.0
 

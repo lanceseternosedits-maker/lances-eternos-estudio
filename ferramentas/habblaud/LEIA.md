@@ -16,6 +16,15 @@ npm run build && npm start                # http://localhost:4747
 
 Opcional: `npm run mod:install` (uso das contas e status ao vivo das sessões locais).
 
+## Na aba 🏢 Equipe do painel (celular)
+
+O mesmo escritório roda dentro do painel, sem Mac e sem servidor do Habblaud: o worker serve o cliente em
+`/habblaud/` (arquivos em `ia/painel/habblaud/` do `midia-ia`) e ele abre com `?equipe=1`, lendo `/api/atividade`
+direto do painel, com o login que o celular já tem. A aba mostra o Habblaud por padrão, com 🎨 Clássico (o escritório
+antigo) e ⛶ tela cheia.
+
+Para atualizar os arquivos do painel depois de mudar a ponte: `bash ferramentas/habblaud/gerar-painel.sh <pasta do midia-ia>`.
+
 ## O que aparece
 
 | Sala | Agentes |
@@ -49,6 +58,7 @@ O painel é lido a cada 15 s. Para a equipe aparecer certa, cada rotina continua
   `server/sources/equipe.ts` (a fonte), `server/sources/equipe.test.ts`, `scripts/equipe-login.ts`; mudanças pequenas em
   `server/model/office.ts`, `server/index.ts`, `shared/timeline.ts` e `package.json`.
 - `instalar.sh`: baixa, aplica e instala.
+- `gerar-painel.sh`: gera o cliente para `ia/painel/habblaud/` do `midia-ia`.
 
 Testado com um painel simulado (os 5 testes novos passam; a suíte do Habblaud continua igual: as 2 falhas que existem já
 falhavam antes da ponte, uma de tempo do World e outra de permissão de arquivo ao rodar como root). O login de verdade
