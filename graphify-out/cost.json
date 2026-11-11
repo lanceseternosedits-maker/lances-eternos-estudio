@@ -1,0 +1,13 @@
+{
+  "runs": [
+    {
+      "date": "2026-11-11T03:48:01.020746+00:00",
+      "input_tokens": 1247997,
+      "output_tokens": 558044,
+      "files": 1022,
+      "backend": "gemini"
+    }
+  ],
+  "total_input_tokens": 1247997,
+  "total_output_tokens": 558044
+}
