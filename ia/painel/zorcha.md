@@ -6,7 +6,7 @@ Gerado por `python3 painel/zorcha.py`. Um bloco por Reel publicado ou agendado, 
 
 **Respostas públicas (variar):** "Te mandei na DM! 📩 Se não aparecer, olha em Solicitações de mensagem." · "Enviado no direct! 🚀 Confere lá (às vezes cai em Solicitações)." · "Mandei agora na DM 😉" · "Prontinho, tá na sua DM! 📩" · "Chegou aí? Mandei no direct 🙌"
 
-⚠️ Palavras usadas em mais de um Reel: GRATIS. Por isso o gatilho tem que ser o Reel específico.
+⚠️ Palavras usadas em mais de um Reel: AGENTE, FOTO, GRATIS. Por isso o gatilho tem que ser o Reel específico.
 
 ## CAMINHO · 08/11 13:00
 Post: `2026-11-16-app-completo-com-ia`
@@ -39,6 +39,220 @@ Me segue que vem mais. 💜
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
+## DEMITIDO · 15/11 20:30
+Post: `2026-11-15-sam-altman-demitido`
+
+```
+Aqui está! 🚪
+
+📅 17/11/2023: o conselho demite Sam Altman
+📅 20/11: carta dos funcionários ameaçando ir pra Microsoft
+📅 22/11: acordo pra ele voltar com conselho novo
+📰 https://uk.finance.yahoo.com/news/sacking-revolt-return-crisis-openai-100047922.html
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## LINK · 15/11 09:00
+Post: `2026-11-15-ia-nao-sabe-o-dia-de-hoje`
+
+```
+Aqui está! 📰
+
+📝 Prompt: "Antes de responder, pesquise na internet as informações mais recentes sobre [assunto]. Me diga a data de cada fonte e coloque os links."
+Ou cole o link da notícia e peça: "Resuma este link".
+
+📚 Ajuda oficial: https://help.openai.com/en/articles/6639781-do-the-openai-api-models-have-knowledge-of-current-events
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## NOBEL · 15/11 17:00
+Post: `2026-11-15-ia-ganhou-o-nobel`
+
+```
+Aqui está! 🧬
+
+🔗 Banco de proteínas do AlphaFold (grátis): https://alphafold.ebi.ac.uk/
+🏅 Anúncio oficial do Nobel: https://www.nobelprize.org/prizes/chemistry/2024/press-release/
+
+Curiosidade: o prêmio foi dividido com David Baker, que cria proteínas novas do zero.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## PARTES · 15/11 13:00
+Post: `2026-11-15-divide-a-tarefa`
+
+```
+Aqui está! 🎂
+
+1ª mensagem: "Quero [tarefa grande]. Antes de fazer, me mostre um plano em etapas."
+2ª: "Agora faça só a etapa 1." (repita para cada etapa)
+Última: "Junte tudo num resultado final e revise se faltou algo."
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## SENHA · 14/11 09:00
+Post: `2026-11-14-palavra-codigo-da-familia`
+
+```
+Aqui está! 🔐
+
+1) Combine pessoalmente uma palavra com a família (nada de data, nome de pet ou algo que esteja na internet).
+2) Ligação pedindo dinheiro com urgência? Pergunte a palavra.
+3) Não souberam? Desligue e ligue você para o número que já tem salvo.
+4) Nunca faça Pix na pressa.
+
+📚 Alerta oficial da FTC: https://consumer.ftc.gov/consumer-alerts/2023/03/scammers-use-ai-enhance-their-family-emergency-schemes
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## PENSAR · 14/11 13:00
+Post: `2026-11-14-modo-pensar`
+
+```
+Aqui está! 🔭
+
+🧠 Modo pensar: conta, planilha, plano de viagem, comparação de preço, decisão difícil, código.
+⚡ Modo rápido: texto curto, ideia, tradução, resumo, legenda.
+
+📚 Anúncio oficial: https://openai.com/index/learning-to-reason-with-llms/
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## MILHAO · 14/11 20:30
+Post: `2026-11-14-chatgpt-1-milhao-em-5-dias`
+
+```
+Aqui está! 🎂
+
+📅 30/11/2022: lançamento como prévia de pesquisa (https://openai.com/index/chatgpt/)
+📅 05/12/2022: mais de 1 milhão de pessoas
+📰 Fortune: https://fortune.com/2022/12/09/ai-chatbot-chatgpt-could-disrupt-google-search-engines-business/
+
+Curiosidade: a OpenAI chamou de "prévia de pesquisa", sem saber que viraria produto.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## ARTIGO · 14/11 17:00
+Post: `2026-11-14-artigo-que-criou-o-chatgpt`
+
+```
+Aqui está! 📰
+
+📄 "Attention Is All You Need" (2017): https://arxiv.org/abs/1706.03762
+
+Resumo fácil: antes a IA lia palavra por palavra; o Transformer lê a frase toda de uma vez e dá "atenção" às palavras que se ligam. GPT = Generative Pre-trained Transformer.
+
+Curiosidade: a ordem dos 8 autores foi sorteada; todos contribuíram igual.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## CRITICA · 13/11 08:00
+Post: `2026-11-13-ia-puxa-saco`
+
+```
+Aqui está! 🥊
+
+📝 Prompt: "Aja como um crítico exigente. Aponte os 3 maiores problemas de [sua ideia/texto/plano], sem elogios. Para cada um, diga como eu corrijo."
+
+📰 O caso: https://techcrunch.com/2025/04/29/openai-explains-why-chatgpt-became-too-sycophantic
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## LIGOU · 13/11 21:30
+Post: `2026-11-13-ia-ligou-pro-salao`
+
+```
+Aqui está! 📞
+
+📰 A demonstração: https://engadget.com/2018/05/08/google-assistant-will-soon-be-able-to-make-calls-to-book-your-ap
+📰 A polêmica: https://www.businesslive.co.za/bd/companies/2018-05-10-googles-duplex-cheered-by-insiders-but-pounced-on-by-critics/
+
+Curiosidade: no vídeo, a IA também ligou pra um restaurante pra reservar mesa.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## CURTO · 13/11 12:00
+Post: `2026-11-13-ia-enrola-demais`
+
+```
+Aqui está! ✂️
+
+1) "Responda em no máximo 3 linhas."
+2) "Só uma lista de 5 itens, sem introdução e sem conclusão."
+3) "Resposta de sim ou não, e uma frase explicando."
+4) "Formato: tabela com 3 colunas."
+
+Dica: se ela enrolar de novo, responda só "mais curto".
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## AGENTE · 15/11 19:00
+Post: `2026-11-13-assistentes-que-trabalham`
+
+```
+Oi! Que bom que você comentou AGENTE 🙌
+Aqui está o que eu prometi (links dos 3 (exigem um pouco de técnica)):
+• https://github.com/rociiu/talorys
+• https://github.com/CopilotKit/OpenDuet
+• https://github.com/KKKKhazix/agent-autoloop
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## WATSON · 12/11 17:00
+Post: `2026-11-12-watson-jeopardy`
+
+```
+Aqui está! 🏆
+
+📰 O resultado: https://www.pcworld.com/article/494966/ibm_watson_wins_jeopardy_humans_rally_back.html
+📰 O erro de Toronto: https://www.eweek.com/database/ibm-s-watson-wins-in-jeopardy-needs-lessons-in-u-s-geography/
+
+Curiosidade: o Watson não ouvia as perguntas; recebia o texto por escrito.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## JARVIS · 15/11 15:00
+Post: `2026-11-12-jarvis-em-portugues`
+
+```
+Oi! Que bom que você comentou JARVIS 🙌
+Aqui está o que eu prometi (link + passo a passo de instalação):
+• https://github.com/jgm-source/jarvis-opensource
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## SENTE · 12/11 21:30
+Post: `2026-11-12-engenheiro-disse-que-a-ia-sente`
+
+```
+Aqui está! 🎬
+
+📰 O caso: https://www.nbcnews.com/news/us-news/google-fired-software-engineer-claimed-ai-chatbot-was-sentient-rcna39679
+📰 A demissão: https://www.engadget.com/blake-lemoide-fired-google-lamda-sentient-001746197.html
+
+Curiosidade: a LaMDA virou base do Bard, que depois virou o Gemini.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
 ## CONTEXTO · 12/11 12:00
 Post: `2026-11-12-diz-pra-que-e`
 
@@ -48,6 +262,96 @@ Aqui está! 📋
 📝 Modelo: "Isso é para [quem vai ler]. Eu quero [o resultado: vender, convencer, explicar]. O tom é [direto/divertido/formal]. Evite [o que você não quer]." Depois escreva o pedido.
 
 📚 Guia oficial: https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## TUDO · 15/11 11:00
+Post: `2026-11-11-refazendo-todo-software`
+
+```
+Oi! Que bom que você comentou TUDO 🙌
+Aqui está o que eu prometi (link + lista dos programas que já estão lá):
+• https://github.com/HeyPuter/everything
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## GAMER · 14/11 07:00
+Post: `2026-11-11-projetos-gamer`
+
+```
+Oi! Que bom que você comentou GAMER 🙌
+Aqui está o que eu prometi (links dos 5 + aviso: jogos comprados por você):
+• https://github.com/thebcd69/bcd-games
+• https://github.com/AssassinCreator/steam-stash-value-report-card
+• https://github.com/ramenvr/autopilot
+• https://github.com/raymondchins/Bridgeplay
+• https://github.com/cranebeaker/coop-anything
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## CASA · 14/11 11:00
+Post: `2026-11-11-projetos-casa`
+
+```
+Oi! Que bom que você comentou CASA 🙌
+Aqui está o que eu prometi (links dos 3):
+• https://github.com/0xProbabillity/house-control
+• https://github.com/nthnclrk/CleanFrame
+• https://github.com/wesbos/photo-frame-dashboard
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## FOTO · 15/11 07:00
+Post: `2026-11-11-ia-edita-foto`
+
+```
+Oi! Que bom que você comentou FOTO 🙌
+Aqui está o que eu prometi (links dos 3 (kokon precisa de placa de vídeo)):
+• https://github.com/GabrieleLozupone/kokon
+• https://github.com/wquguru/shisei
+• https://github.com/speridlabs/idol-sdk
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## SOBREVIVE · 14/11 19:00
+Post: `2026-11-11-ia-do-fim-do-mundo`
+
+```
+Oi! Que bom que você comentou SOBREVIVE 🙌
+Aqui está o que eu prometi (link + o que baixar antes de ficar offline):
+• https://github.com/anonnerdfrenzy/survival-llm
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## COPIA · 14/11 15:00
+Post: `2026-11-11-copiar-qualquer-app`
+
+```
+Oi! Que bom que você comentou COPIA 🙌
+Aqui está o que eu prometi (links dos 5 + aviso legal (Lei de Software 9.609/98)):
+• https://github.com/Zfinix/eleven
+• https://github.com/NabilRFG12/Reverse-Engineer-anything
+• https://github.com/alexgaoth/awesome-reverse-engineered
+• https://github.com/JoasASantos/REA-Prompts
+• https://github.com/storytold/craft-anything
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
 
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
@@ -139,6 +443,19 @@ Funciona pra legenda, e-mail, resposta de cliente e post.
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
+## IKEA · 13/11 19:30
+Post: `2026-11-10-manual-ikea-3d`
+
+```
+Oi! Que bom que você comentou IKEA 🙌
+Aqui está o que eu prometi (link):
+• https://github.com/Nutlope/bygga
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
 ## ZAP · 12/11 06:00
 Post: `2026-11-10-ia-le-whatsapp`
 
@@ -146,6 +463,19 @@ Post: `2026-11-10-ia-le-whatsapp`
 Oi! Que bom que você comentou ZAP 🙌
 Aqui está o que eu prometi (link + passo a passo + aviso de privacidade):
 • https://github.com/finereli/whatsapp-mcp
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## CAMERA · 13/11 14:00
+Post: `2026-11-10-camera-sony-destravada`
+
+```
+Oi! Que bom que você comentou CAMERA 🙌
+Aqui está o que eu prometi (link + aviso de risco/garantia):
+• https://github.com/QAQLeonard/a7c2-tools
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜
 
@@ -163,6 +493,21 @@ Aqui está o que eu prometi (links dos 5 + aviso: experimentais, podem violar te
 • https://github.com/UniXNU/UniXNU
 • https://github.com/govijr/terminal-mac
 • https://github.com/oosexgang/hakios-xnu-kernel
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## ANIMA · 13/11 10:00
+Post: `2026-11-10-animar-sem-saber`
+
+```
+Oi! Que bom que você comentou ANIMA 🙌
+Aqui está o que eu prometi (links das 3 (precisam do Claude Code, que vem nos planos pagos)):
+• https://github.com/artemnovitckii/claude-animation-skills
+• https://github.com/sarpstar/cinecode
+• https://github.com/Tejashmakwana/motionmaxxing
 
 Se curtir, me segue pra mais IA que serve pra vida real. 💜
 

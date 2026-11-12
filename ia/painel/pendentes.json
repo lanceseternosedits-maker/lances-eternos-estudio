@@ -1,137 +1,8 @@
 {
- "gerado_em": "2026-11-11 19:41",
- "videos": [
-  {
-   "pasta": "2026-11-15-sam-altman-demitido",
-   "titulo": "DEMITIRAM O CHEFE DO CHATGPT",
-   "quando": "2026-11-15 20:30"
-  },
-  {
-   "pasta": "2026-11-13-assistentes-que-trabalham",
-   "titulo": "3 ASSISTENTES DE IA QUE TRABALHAM SOZINHOS",
-   "quando": "2026-11-15 19:00"
-  },
-  {
-   "pasta": "2026-11-15-ia-ganhou-o-nobel",
-   "titulo": "A IA QUE GANHOU UM NOBEL",
-   "quando": "2026-11-15 17:00"
-  },
-  {
-   "pasta": "2026-11-12-jarvis-em-portugues",
-   "titulo": "UM JARVIS EM PORTUGUÊS NO SEU PC",
-   "quando": "2026-11-15 15:00"
-  },
-  {
-   "pasta": "2026-11-15-divide-a-tarefa",
-   "titulo": "PEDIU TUDO DE UMA VEZ? ERROU",
-   "quando": "2026-11-15 13:00"
-  },
-  {
-   "pasta": "2026-11-11-refazendo-todo-software",
-   "titulo": "ESTÃO REFAZENDO TODO PROGRAMA DO MUNDO",
-   "quando": "2026-11-15 11:00"
-  },
-  {
-   "pasta": "2026-11-15-ia-nao-sabe-o-dia-de-hoje",
-   "titulo": "SUA IA PAROU NO TEMPO",
-   "quando": "2026-11-15 09:00"
-  },
-  {
-   "pasta": "2026-11-11-ia-edita-foto",
-   "titulo": "3 IAS GRÁTIS PRA FOTO QUE RODAM NO SEU PC",
-   "quando": "2026-11-15 07:00"
-  },
-  {
-   "pasta": "2026-11-14-chatgpt-1-milhao-em-5-dias",
-   "titulo": "1 MILHÃO DE PESSOAS EM 5 DIAS",
-   "quando": "2026-11-14 20:30"
-  },
-  {
-   "pasta": "2026-11-11-ia-do-fim-do-mundo",
-   "titulo": "A IA QUE FUNCIONA SEM INTERNET",
-   "quando": "2026-11-14 19:00"
-  },
-  {
-   "pasta": "2026-11-14-artigo-que-criou-o-chatgpt",
-   "titulo": "2017: O ARTIGO QUE CRIOU O CHATGPT",
-   "quando": "2026-11-14 17:00"
-  },
-  {
-   "pasta": "2026-11-11-copiar-qualquer-app",
-   "titulo": "5 PROJETOS PRA ENTENDER QUALQUER PROGRAMA",
-   "quando": "2026-11-14 15:00"
-  },
-  {
-   "pasta": "2026-11-14-modo-pensar",
-   "titulo": "QUANDO USAR O MODO PENSAR",
-   "quando": "2026-11-14 13:00"
-  },
-  {
-   "pasta": "2026-11-11-projetos-casa",
-   "titulo": "3 PROJETOS QUE DEIXAM SUA CASA ESPERTA",
-   "quando": "2026-11-14 11:00"
-  },
-  {
-   "pasta": "2026-11-14-palavra-codigo-da-familia",
-   "titulo": "1 PALAVRA QUE TRAVA O GOLPE DA VOZ",
-   "quando": "2026-11-14 09:00"
-  },
-  {
-   "pasta": "2026-11-11-projetos-gamer",
-   "titulo": "5 PROJETOS QUE TODO GAMER QUERIA",
-   "quando": "2026-11-14 07:00"
-  },
-  {
-   "pasta": "2026-11-13-ia-ligou-pro-salao",
-   "titulo": "2018: A IA LIGOU E CONVERSOU COMO GENTE",
-   "quando": "2026-11-13 21:30"
-  },
-  {
-   "pasta": "2026-11-10-manual-ikea-3d",
-   "titulo": "O MANUAL DA IKEA VIROU ANIMAÇÃO 3D",
-   "quando": "2026-11-13 19:30"
-  },
-  {
-   "pasta": "2026-11-10-camera-sony-destravada",
-   "titulo": "DESTRAVARAM A CÂMERA DA SONY",
-   "quando": "2026-11-13 14:00"
-  },
-  {
-   "pasta": "2026-11-13-ia-enrola-demais",
-   "titulo": "SUA IA ENROLA DEMAIS?",
-   "quando": "2026-11-13 12:00"
-  },
-  {
-   "pasta": "2026-11-10-animar-sem-saber",
-   "titulo": "3 SKILLS QUE ANIMAM SEM VOCÊ SABER ANIMAR",
-   "quando": "2026-11-13 10:00"
-  },
-  {
-   "pasta": "2026-11-13-ia-puxa-saco",
-   "titulo": "SUA IA CONCORDA DEMAIS COM VOCÊ",
-   "quando": "2026-11-13 08:00"
-  },
-  {
-   "pasta": "2026-11-12-engenheiro-disse-que-a-ia-sente",
-   "titulo": "ELE DISSE QUE A IA TINHA SENTIMENTOS",
-   "quando": "2026-11-12 21:30"
-  },
-  {
-   "pasta": "2026-11-12-watson-jeopardy",
-   "titulo": "2011: A MÁQUINA GANHOU O SHOW DA TV",
-   "quando": "2026-11-12 17:00"
-  }
- ],
+ "gerado_em": "2026-11-11 23:36",
+ "videos": [],
  "roteiros": [],
  "agenda_3_dias": [
-  {
-   "quando": "2026-11-11 21:30",
-   "titulo": "O ROBÔ QUE VENDEU UM CARRO POR 1 DÓLAR",
-   "redes": [
-    "instagram",
-    "tiktok"
-   ]
-  },
   {
    "quando": "2026-11-12 06:00",
    "titulo": "A IA ACHA AQUELA MENSAGEM NO SEU WHATSAPP",
@@ -149,6 +20,14 @@
    ]
   },
   {
+   "quando": "2026-11-12 17:00",
+   "titulo": "2011: A MÁQUINA GANHOU O SHOW DA TV",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
    "quando": "2026-11-12 19:30",
    "titulo": "5 PROJETOS QUE A APPLE NÃO QUERIA",
    "redes": [
@@ -157,8 +36,128 @@
    ]
   },
   {
+   "quando": "2026-11-12 21:30",
+   "titulo": "ELE DISSE QUE A IA TINHA SENTIMENTOS",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
    "quando": "2026-11-13 06:00",
    "titulo": "3 PROGRAMAS GRÁTIS PRA FAZER MÚSICA",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-13 08:00",
+   "titulo": "SUA IA CONCORDA DEMAIS COM VOCÊ",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-13 10:00",
+   "titulo": "3 SKILLS QUE ANIMAM SEM VOCÊ SABER ANIMAR",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-13 12:00",
+   "titulo": "SUA IA ENROLA DEMAIS?",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-13 14:00",
+   "titulo": "DESTRAVARAM A CÂMERA DA SONY",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-13 19:30",
+   "titulo": "O MANUAL DA IKEA VIROU ANIMAÇÃO 3D",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-13 21:30",
+   "titulo": "2018: A IA LIGOU E CONVERSOU COMO GENTE",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-14 07:00",
+   "titulo": "5 PROJETOS QUE TODO GAMER QUERIA",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-14 09:00",
+   "titulo": "1 PALAVRA QUE TRAVA O GOLPE DA VOZ",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-14 11:00",
+   "titulo": "3 PROJETOS QUE DEIXAM SUA CASA ESPERTA",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-14 13:00",
+   "titulo": "QUANDO USAR O MODO PENSAR",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-14 15:00",
+   "titulo": "5 PROJETOS PRA ENTENDER QUALQUER PROGRAMA",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-14 17:00",
+   "titulo": "2017: O ARTIGO QUE CRIOU O CHATGPT",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-14 19:00",
+   "titulo": "A IA QUE FUNCIONA SEM INTERNET",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-14 20:30",
+   "titulo": "1 MILHÃO DE PESSOAS EM 5 DIAS",
    "redes": [
     "instagram",
     "tiktok"
