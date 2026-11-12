@@ -91,6 +91,17 @@ def _mediana(xs):
     return xs[n // 2] if n % 2 else round(math.sqrt(xs[n // 2 - 1] * xs[n // 2]))
 
 
+def prob_real(pct: float) -> float:
+    """Chance real (0-1) de passar de ~1.000 views, pela calibração em painel/calibracao.json (python3 painel/calibra.py)."""
+    cal = _ler(IA / "painel" / "calibracao.json", None)
+    if not cal or not cal.get("pontos"):
+        return pct / 100
+    pts = cal["pontos"]
+    ate = [p["prob"] for p in pts if p["nota"] <= pct]
+    depois = [p["prob"] for p in pts if p["nota"] >= pct]
+    return round(((ate[-1] if ate else depois[0]) + (depois[0] if depois else ate[-1])) / 2, 3)
+
+
 def chance(pasta: Path, hist: list[dict]) -> dict:
     rot = _ler(pasta / "roteiro.json", {}) or {}
     meta = _ler(pasta / "meta.json", {}) or {}
@@ -180,7 +191,7 @@ def chance(pasta: Path, hist: list[dict]) -> dict:
 
     pct = max(5, min(85, sum(a for a, _ in fatores)))
     nivel = "boa aposta" if pct >= 50 else "médio" if pct >= 30 else "arriscado"
-    return {"pct": pct, "nivel": nivel, "tipo": tipo, "fatores": fatores}
+    return {"pct": pct, "prob_real": prob_real(pct), "nivel": nivel, "tipo": tipo, "fatores": fatores}
 
 
 def filtrar(pasta: Path, hist: list[dict] | None = None) -> dict:
