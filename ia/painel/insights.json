@@ -1,44 +1,44 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-11 19:45",
- "leitura": "metricool_2026-11-11.json",
- "resumo": "Leitura das 19:40 sem novidade: o Metricool devolveu exatamente os mesmos números das 07:40 (37 Reels, último de 10/11 19:33) e ainda não trouxe os 5 Reels de hoje (PLAY, MAC, CHINA, TURING, BIZARRO), que constam como publicados no planejador. As conclusões da manhã seguem valendo: alcance em queda desde 09/11, 🆕 utilidade brasileira na frente (LEIS 540, CORTES 517), 📜/⚙️ com 0 salvamento e TikTok parado.",
+ "em": "2026-11-12 07:50",
+ "leitura": "metricool_2026-11-12.json",
+ "resumo": "Os Reels de 11/11 finalmente entraram: PLAY (5 jogos de PlayStation no PC) fez 1.709 views em 1 dia, 6,5× a mediana do dia (264), confirmando que contagem com jogo/objeto conhecido é o que ainda fura a queda de alcance; o resto da rodada ficou em 47–357, no mesmo patamar de 09–10/11. 📜 segue com 0 salvamento (TURING, DOLAR), e o TikTok deu o primeiro sinal de vida: os vídeos da tarde/noite de 11/11 fizeram 32–89 views contra 0–6 nos de 09–10/11.",
  "itens": [
   {
-   "tipo": "alerta",
-   "titulo": "Métricas do Metricool paradas desde 07:40",
-   "evidencia": "As 37 linhas do Instagram e as 54 do TikTok vieram idênticas às das 07:40 (ex.: LEIS 540, CORTES 517, ESTILO 2.788). Os Reels PLAY (06:00), MAC (10:00), CHINA (14:00), TURING (17:00) e BIZARRO (19:30) e os TikToks MAC, CHINA, TURING e BIZARRO aparecem como PUBLISHED no planejador, mas não entram na análise.",
-   "acao": "Nada a mudar na produção por causa desta leitura. Chefe, se amanhã cedo os Reels de 11/11 ainda não aparecerem, vale reconectar o Instagram/TikTok no Metricool; a próxima leitura compara a rodada de 11/11 com a de 10/11."
-  },
-  {
-   "tipo": "alerta",
-   "titulo": "Alcance da conta caiu desde 09/11",
-   "evidencia": "Mediana de views por dia de postagem (Brasília): 07/11 = 2.684 (5 Reels); 08/11 = 1.316 (7); 09/11 = 309 (8); 10/11 = 260 (8, com 1–25 h no ar). Os de 09/11 quase não cresceram em 24 h (AGENCIA 204→221, LOCAL 338→364, MAPA 807→811). Até contagens (MAPA 811, ESTUDA 578, VIDEO 426) ficam longe das 2,5–3,2 mil de antes.",
-   "acao": "Não é o formato: a queda pega tudo. Chefe, vale testar 2 dias com menos posts (4 Reels/dia, só os mais fortes: contagem com objeto doméstico e utilidade brasileira) para ver se a média por Reel volta. Na próxima leitura comparo."
-  },
-  {
    "tipo": "fazer_mais",
-   "titulo": "Utilidade brasileira e assunto do momento lideram a rodada",
-   "evidencia": "LEIS: 540 views, 25 curtidas, 11 comentários (2,5% do alcance), 9 salvamentos, 4 envios, 50,9% passam dos 3 s. CORTES (GTA 6 em 9 dias): 517 views, 9 comentários, 5 salvamentos. Os dois perguntam algo da vida (\"qual lei você já quis entender?\", \"você assiste live de quem?\").",
-   "acao": "Na próxima rodada, mais 2 roteiros 🆕 do tipo 'ferramenta grátis que resolve um problema do brasileiro' (contrato, imposto, conta de luz) e 1 gancho de data quente (GTA 6 em 19/11), sempre com pergunta de vida no fim."
-  },
-  {
-   "tipo": "corrigir",
-   "titulo": "📜 e ⚙️ seguem sem salvamento",
-   "evidencia": "Rodada de 10/11: EXEMPLO 249 views/0 salvos, VERAO 247/0, PASSO 20/0; SYDNEY 24/0. Por categoria (37 Reels): 🆕 novidade mediana 540 views e 1,7% de salvamento; 📜 história 467 e 0,0%; ⚙️ como funciona 252 e 0,1%.",
-   "acao": "Limitar 📜/⚙️ a no máximo 1 por dia e só com o cartão final legível do truque (o prompt na tela) + 'salva pra usar' na fala; o resto da rodada em 🆕 contagem/utilidade."
-  },
-  {
-   "tipo": "corrigir",
-   "titulo": "Gancho fraco em GRATIS e VERAO",
-   "evidencia": "Só 25,2% passam dos 3 s em GRATIS (270 views) e 30,5% em VERAO (247), contra 50,9% em LEIS e 51,1% em APP. GRATIS abre com 'Você paga caro por programa…' e VERAO com data de 1955: os dois demoram para mostrar o objeto.",
-   "acao": "1ª frase com o objeto e o conflito em até 1 s: 'O Word, o Excel e o AutoCAD de graça, refeitos do zero' em vez de 'você paga caro'. Em 📜, abrir pela virada ('Prometeram resolver a IA em 2 meses. Deu errado') e não pela data."
+   "titulo": "Jogos + objeto conhecido seguem furando a queda",
+   "evidencia": "PLAY (contagem de 5 jogos de PlayStation no PC, 06:06): 1.709 views, 1.532 de alcance, 37 curtidas, 12 salvamentos, 52,4% passam dos 3 s. Os outros 5 Reels de 11/11 ficaram em 47–357. Os 3 Reels de jogos da quinzena: MOBILE 1.722, PLAY 1.709, CORTES/GTA 6 695 (subiu de 517 desde ontem).",
+   "acao": "Na próxima rodada, pelo menos 1 contagem de jogos por dia (console, emulação legal, mods, GTA 6 até 19/11), sempre com o nome do jogo na 1ª frase e o aviso \"só com o seu jogo\"."
   },
   {
    "tipo": "alerta",
-   "titulo": "TikTok travado há 4 dias",
-   "evidencia": "Os 8 vídeos novos de 10–11/11 (PASSO a PLAY) têm 0 a 3 views cada; mediana de vídeo no TikTok: 2 views contra 527 no Instagram. Em 07/11 ainda eram 10–93 e posts de fotos de 01/11 fizeram 115–193.",
-   "acao": "Mesma ação de ontem, ainda pendente: chefe, checar no app do TikTok se há restrição na conta ou se os vídeos estão públicos; testar 1 vídeo postado direto pelo app, sem o Metricool."
+   "titulo": "Alcance médio continua baixo, mesmo com 6 posts",
+   "evidencia": "Mediana de views por dia de postagem: 07/11 2.687 · 08/11 1.320 · 09/11 311 · 10/11 274 · 11/11 264 (6 Reels, não 8). Os de 10/11 cresceram pouco em 12 h (LEIS 540→605, CORTES 517→695, INTERNET 60→146).",
+   "acao": "Reduzir de 8 para 6 em 11/11 ainda não mudou a mediana; é cedo (1 dia). Chefe, o teste de 4 Reels/dia por 2 dias segue sendo a forma de saber se é saturação; sem esse teste, manter só os formatos fortes (contagem com objeto doméstico/jogo e utilidade brasileira)."
+  },
+  {
+   "tipo": "corrigir",
+   "titulo": "📜 prende, mas ninguém salva",
+   "evidencia": "DOLAR (carro por 1 dólar): 269 views em ~10 h, a melhor retenção da rodada (58,3% passam dos 3 s, 11,8 s de tempo médio, 36% do vídeo) e 0 salvamento. TURING: 220 views, 39,7% nos 3 s, 0 salvamento. Na quinzena, 📜 tem mediana 266 views e 0,0% de salvar (6 Reels); ⚙️ 256 e 0,1%.",
+   "acao": "Manter no máximo 1 📜 por dia e escolher o tipo DOLAR (caso absurdo com objeto do dia a dia: carro, dinheiro), não o tipo TURING/VERAO (data e cientista). Fechar com uma lição prática na tela (\"o que dizer pra IA não prometer\") para dar motivo de salvar."
+  },
+  {
+   "tipo": "corrigir",
+   "titulo": "Contagens de nicho Mac/GitHub não pegam",
+   "evidencia": "MAC (3 apps grátis pro Mac): 260 views, 43,5% nos 3 s. BIZARRO (5 projetos inúteis do GitHub): 47 views em ~12 h, mesmo com 2,6% de salvar e de comentar entre os poucos que viram. Contra PLAY 1.709 no mesmo dia e mesmo formato.",
+   "acao": "Contagem só com objeto que todo mundo tem (PC Windows, celular, TV, console); evitar recorte \"só Mac\" e \"projeto inútil\". Gancho com o produto famoso no 1º segundo."
+  },
+  {
+   "tipo": "testar",
+   "titulo": "TikTok acordou nos posts da tarde/noite de 11/11",
+   "evidencia": "Views TikTok de 11/11: CHINA 89, BIZARRO 87, TURING 47, DOLAR 32, contra MAC 2 e PLAY 0 de manhã e 0–6 em todos de 09–10/11. Correção: as leituras anteriores citavam \"24–51 views\" no TikTok, mas esse número era a duração do vídeo; a mediana real dos vídeos na quinzena é 2 views.",
+   "acao": "Na próxima leitura, ver se os TikToks de 12/11 seguem acima de 30 views. Se sim, a restrição passou; se não, chefe, ainda vale postar 1 vídeo direto pelo app do TikTok para comparar."
+  },
+  {
+   "tipo": "testar",
+   "titulo": "Utilidade brasileira continua crescendo devagar",
+   "evidencia": "LEIS chegou a 605 views, 30 curtidas, 11 comentários (2,2% do alcance), 10 salvamentos, 6 envios; segue o melhor de comentário entre os Reels de 10–11/11 com mais de 200 views.",
+   "acao": "Manter 1 🆕 de utilidade brasileira por dia (lei, imposto, conta de luz, contrato) com pergunta de vida no fim."
   }
  ]
 }
