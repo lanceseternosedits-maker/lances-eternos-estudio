@@ -1,0 +1,17 @@
+Comenta MAPA que eu te mando o link e o passo a passo pra instalar. 🗺️
+
+Seu plano do Claude acaba rápido? O problema são os tokens.
+
+3 fatos:
+1) A cada sessão nova, o Claude Code sai lendo seus arquivos de novo, e isso gasta tokens antes de você pedir qualquer coisa.
+2) O Graphify roda uma vez e transforma o seu projeto num mapa: cada arquivo, cada função, cada ligação. É grátis e de código aberto (licença MIT).
+3) No teste do criador, com 52 arquivos, cada consulta gastou 71,5 vezes menos tokens. Quanto maior o projeto, maior a economia.
+
+💬 Comenta MAPA e me segue. Manda pro amigo que vive estourando o limite do Claude.
+
+Qual projeto do seu trabalho você ia mapear primeiro? 👇
+
+Fontes: github.com/safishamsi/graphify (README) e Augment Code.
+Animação e voz feitas com IA. Perfil independente, sem ligação com a Anthropic.
+
+#claudecode #claude #ia #programacao #produtividade

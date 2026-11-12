@@ -1,0 +1,27 @@
+{
+ "data": null,
+ "horario": null,
+ "pilar": "reel",
+ "formato": "oficina 3D com dois personagens",
+ "temas": [
+  "graphify",
+  "tokens-claude"
+ ],
+ "empresas": [
+  "Anthropic"
+ ],
+ "cta": "MAPA",
+ "polemica": false,
+ "categoria": "novidade",
+ "status": "vídeo aguardando aprovação",
+ "aprovacao_roteiro": "Vitor pediu o vídeo igual à referência (Referência 15) em outra conversa; confirmado em 12/11",
+ "referencia": "Referência 15: Reel do @clubedasskills 'O problema dos tokens' (gravação do Vitor no Drive, 10/11 19:14)",
+ "capa": {
+  "texto": "Seu plano acaba em 2 dias? Resolveram."
+ },
+ "fontes": [
+  "github.com/safishamsi/graphify (README, licença MIT, 71,5x)",
+  "Augment Code (30/06/2026): 74,8 mil estrelas"
+ ],
+ "obs_producao": "cena_tokens (padrão perfil referência): oficina ao entardecer, tanque de TOKENS, arquivo de pastas, mapa em 3D, 2 vozes (Puck + Fenrir). Personagem coadjuvante próprio (menta de boné), não o roxo de óculos da referência. Horário a definir pelo Vitor."
+}

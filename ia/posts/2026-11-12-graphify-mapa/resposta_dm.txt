@@ -1,0 +1,11 @@
+Oi! Que bom que você comentou MAPA 🙌
+Aqui está o Graphify (grátis, código aberto):
+• https://github.com/safishamsi/graphify
+
+Passo a passo no Claude Code:
+1) No terminal: pip install graphifyy
+2) graphify claude install
+3) Dentro do Claude Code, na pasta do projeto: /graphify
+Pronto: nas próximas sessões o Claude consulta o mapa em vez de reler tudo.
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜

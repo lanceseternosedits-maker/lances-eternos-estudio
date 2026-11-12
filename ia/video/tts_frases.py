@@ -24,8 +24,8 @@ def gera(k):
             time.sleep(10 * (tent + 1))
 USOU_PAGA = []
 def _gera(k, chave):
-    body = {"contents": [{"parts": [{"text": f"{ESTILO}. Leia só o texto entre aspas: \"{S[k]['fala']}\""}]}],
-            "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": VOZ}}}}}
+    body = {"contents": [{"parts": [{"text": f"{S[k].get("estilo", ESTILO)}. Leia só o texto entre aspas: \"{S[k]['fala']}\""}]}],
+            "generationConfig": {"responseModalities": ["AUDIO"], "speechConfig": {"voiceConfig": {"prebuiltVoiceConfig": {"voiceName": S[k].get("voz", VOZ)}}}}}
     req = urllib.request.Request(f"https://generativelanguage.googleapis.com/v1beta/models/{MODELO}:generateContent", data=json.dumps(body).encode(),
                                  headers={"x-goog-api-key": chave, "Content-Type": "application/json"})
     pcm = base64.b64decode(json.load(urllib.request.urlopen(req, timeout=300))["candidates"][0]["content"]["parts"][0]["inlineData"]["data"])

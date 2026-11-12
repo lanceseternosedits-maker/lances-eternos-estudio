@@ -1,0 +1,135 @@
+{
+ "titulo": "Resolveram o problema dos tokens do Claude",
+ "chave": "MAPA",
+ "categoria": "novidade",
+ "formato": "oficina 3D com dois personagens (Referência 15, @clubedasskills)",
+ "voz": "Puck",
+ "modelo": "gemini-2.5-flash-preview-tts",
+ "cauda": 0.9,
+ "tese": "O PROBLEMA DOS TOKENS",
+ "brinde": "Link do Graphify + passo a passo de instalação no Claude Code (pip install graphifyy, graphify claude install, /graphify)",
+ "fontes": [
+  "github.com/safishamsi/graphify (README: 71,5x menos tokens por consulta num corpus misto de 52 arquivos; licença MIT)",
+  "Augment Code (30/06/2026): 74,8 mil estrelas no GitHub"
+ ],
+ "prova_viral": "Reel do @clubedasskills 'O problema dos tokens' (gravação do Vitor no Drive, 10/11 19:14): 2.388 curtidas, 1.856 comentários, 1.021 envios, 2.390 salvamentos",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "quem": "A",
+   "fala": "Resolveram o problema dos tokens do Claude.",
+   "legenda": "Resolveram o problema dos tokens do Claude.",
+   "estilo": "Diga em português do Brasil, como o personagem principal de um Reel: confiante, animado, ritmo natural"
+  },
+  {
+   "cena": "plano",
+   "quem": "B",
+   "fala": "Peraí, meu plano de vinte dólares acaba em dois dias?",
+   "legenda": "Peraí, meu plano de 20 dólares acaba em 2 dias?",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, como um personagem coadjuvante curioso e um pouco indignado, fazendo pergunta, ritmo natural"
+  },
+  {
+   "cena": "problema",
+   "quem": "A",
+   "fala": "Esse é o problema. E uma ferramenta grátis faz ele render muito mais.",
+   "legenda": "Esse é o problema. E uma ferramenta grátis faz ele render muito mais.",
+   "estilo": "Diga em português do Brasil, como o personagem principal de um Reel: confiante, animado, ritmo natural"
+  },
+  {
+   "cena": "porque",
+   "quem": "B",
+   "fala": "E por que ele acaba tão rápido?",
+   "legenda": "E por que ele acaba tão rápido?",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, como um personagem coadjuvante curioso e um pouco indignado, fazendo pergunta, ritmo natural"
+  },
+  {
+   "cena": "sessao",
+   "quem": "A",
+   "fala": "Porque a cada sessão nova, o Claude Code sai procurando nos seus arquivos de novo.",
+   "legenda": "Porque a cada sessão nova, o Claude Code sai procurando nos seus arquivos de novo.",
+   "estilo": "Diga em português do Brasil, como o personagem principal de um Reel: confiante, animado, ritmo natural"
+  },
+  {
+   "cena": "le",
+   "quem": "A",
+   "fala": "Abre arquivo, lê função, e lá se vão milhares de tokens antes de você pedir qualquer coisa.",
+   "legenda": "Abre arquivo, lê função, e lá se vão milhares de tokens antes de você pedir qualquer coisa.",
+   "estilo": "Diga em português do Brasil, como o personagem principal de um Reel: confiante, animado, ritmo natural"
+  },
+  {
+   "cena": "solucao",
+   "quem": "B",
+   "fala": "E qual é a solução?",
+   "legenda": "E qual é a solução?",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, como um personagem coadjuvante curioso e um pouco indignado, fazendo pergunta, ritmo natural"
+  },
+  {
+   "cena": "graphify",
+   "quem": "A",
+   "fala": "Chama Graphify. É grátis e de código aberto.",
+   "legenda": "Chama Graphify. É grátis e de código aberto.",
+   "estilo": "Diga em português do Brasil, como o personagem principal de um Reel: confiante, animado, ritmo natural"
+  },
+  {
+   "cena": "mapa",
+   "quem": "A",
+   "fala": "Você roda uma vez, e ele transforma o seu projeto num mapa.",
+   "legenda": "Você roda uma vez, e ele transforma o seu projeto num mapa.",
+   "estilo": "Diga em português do Brasil, como o personagem principal de um Reel: confiante, animado, ritmo natural"
+  },
+  {
+   "cena": "meucodigo",
+   "quem": "B",
+   "fala": "Tipo um mapa do meu código?",
+   "legenda": "Tipo um mapa do meu código?",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, como um personagem coadjuvante curioso e um pouco indignado, fazendo pergunta, ritmo natural"
+  },
+  {
+   "cena": "exato",
+   "quem": "A",
+   "fala": "Exato. Cada arquivo, cada função, cada ligação.",
+   "legenda": "Exato. Cada arquivo, cada função, cada ligação.",
+   "estilo": "Diga em português do Brasil, como o personagem principal de um Reel: confiante, animado, ritmo natural"
+  },
+  {
+   "cena": "proxima",
+   "quem": "A",
+   "fala": "Na próxima sessão, o Claude não sai procurando. Ele só consulta o mapa.",
+   "legenda": "Na próxima sessão, o Claude não sai procurando. Ele só consulta o mapa.",
+   "estilo": "Diga em português do Brasil, como o personagem principal de um Reel: confiante, animado, ritmo natural"
+  },
+  {
+   "cena": "quanto",
+   "quem": "B",
+   "fala": "E quanto economiza?",
+   "legenda": "E quanto economiza?",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, como um personagem coadjuvante curioso e um pouco indignado, fazendo pergunta, ritmo natural"
+  },
+  {
+   "cena": "economia",
+   "quem": "A",
+   "fala": "No teste do criador, setenta e uma vezes menos tokens. E quanto maior o projeto, mais você economiza.",
+   "legenda": "No teste do criador, 71 vezes menos tokens. E quanto maior o projeto, mais você economiza.",
+   "estilo": "Diga em português do Brasil, como o personagem principal de um Reel: confiante, animado, ritmo natural"
+  },
+  {
+   "cena": "para",
+   "quem": "A",
+   "fala": "Para de pagar pro Claude procurar a mesma coisa duas vezes.",
+   "legenda": "Para de pagar pro Claude procurar a mesma coisa duas vezes.",
+   "estilo": "Diga em português do Brasil, como o personagem principal de um Reel: confiante, animado, ritmo natural"
+  },
+  {
+   "cena": "cta",
+   "quem": "A",
+   "fala": "Comenta MAPA que eu te mando o link e o passo a passo.",
+   "legenda": "Comenta MAPA que eu te mando o link e o passo a passo.",
+   "estilo": "Diga em português do Brasil, como o personagem principal de um Reel: confiante, animado, ritmo natural"
+  }
+ ]
+}
