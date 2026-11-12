@@ -1,0 +1,14 @@
+Aqui está a ficha! 📋
+
+Cola isso no começo da conversa (ChatGPT, Claude ou Gemini) e troca o que está entre colchetes:
+
+"Antes de responder, saiba quem eu sou:
+1) Eu sou [seu nome], trabalho com [sua área].
+2) No dia a dia eu preciso de ajuda com [3 tarefas].
+3) Quero respostas em [curtas / passo a passo], em português do Brasil.
+4) Se faltar informação, me pergunte antes de chutar.
+5) Se não souber, diga que não sabe."
+
+Dica: no ChatGPT, vale salvar isso em Configurações > Personalização. No Claude e no Gemini, cole num Projeto ou nas instruções.
+
+Quer 10 assistentes prontos que já te conhecem? Comenta KIT. Se curtiu, me segue. 💜

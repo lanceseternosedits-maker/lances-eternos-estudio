@@ -1,0 +1,116 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "SOZINHA",
+ "tese": "3 IAs QUE USAM SEU CELULAR POR VOCÊ · +11 MIL ESTRELAS · E A Nº 1 ABRE OS SEUS APPS",
+ "conceito": "Mesa de cabeceira de madrugada: um celular gigante em pé, tela acesa, com dedinhos de blocos tocando sozinhos nos ícones, lâmpada de abajur, despertador e copo d'água. Paleta azul-noite + verde-tela + rosa-abajur. Gancho: o celular vibra e a tela toca nela mesma, sem ninguém. Nº 1: o dedinho abre um app, resolve a tarefa e devolve um 'feito'.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "a) número + barra de blocos",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "e) glitch RGB",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 03 + toques de tela",
+  "mascote": "pijama e touca de dormir; ação principal: dormir e acordar com o celular tocando"
+ },
+ "brinde": "links dos 3 + aviso de segurança (dar acesso ao celular a uma IA mexe com dados pessoais: testar em aparelho/conta secundária)",
+ "fontes": [
+  "https://github.com/wangzan101/Mika",
+  "https://github.com/DIYgod/pinky",
+  "https://github.com/JosssphZhou/poki"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 12/11/2026): Mika 8.301 (Apache-2.0, criado em 29/10), pinky 1.913 (Apache-2.0, 06/11), poki 989 (AGPL-3.0, 05/11); total 11.203. Referências 12/11: pinky = prioridade 1 como novidade; tema 'celular trabalha sozinho' é o gosto do Vitor.",
+ "obs": "'O que faz' vem só das descrições oficiais dos repositórios (README bloqueado aqui): Mika = agente de IA no próprio Android que opera apps e a web; pinky = deixa agentes de IA usarem o celular, com você no controle; poki = agentes de IA operam um iPhone de verdade, sem jailbreak nem hardware extra. Instalação, requisitos e custo (modelos de IA podem pedir chave paga) NÃO VERIFICADOS: dizer 'projetos novos, pedem um pouco de técnica' e conferir os READMEs antes de produzir. Mika já apareceu como 1 item no Reel TV (06/11): aqui é o foco do tema, com ângulo diferente (3 jeitos de a IA usar o celular).",
+ "polemica": false,
+ "agenda": "2026-11-16 10:00",
+ "palavras": 93,
+ "duracao_estimada_s": 33.2,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 IAs QUE USAM SEU CELULAR POR VOCÊ",
+   "fala": "Três IAs usam o seu celular por você. E a número um abre os seus apps sozinha.",
+   "legenda": "Três IAs usam o seu celular por você. E a número um abre os seus apps sozinha.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "3 IAs QUE USAM SEU CELULAR POR VOCÊ",
+    "MAIS DE 11 MIL ESTRELAS NO GITHUB",
+    "E A Nº 1 ABRE OS SEUS APPS"
+   ],
+   "itens": "ia-usa-seu-celular"
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "fala": "Terceiro: poki. Deixa uma IA usar um iPhone de verdade, sem desbloquear o aparelho. Comenta SOZINHA que eu te mando os três. Manda pra um amigo. O primeiro é o mais popular.",
+   "legenda": "Terceiro: poki. Deixa uma IA usar um iPhone de verdade, sem desbloquear o aparelho. Comenta SOZINHA que eu te mando os três. Manda pra um amigo. O primeiro é o mais popular.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "poki",
+   "repo": "JosssphZhou/poki",
+   "estrelas": 989
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "fala": "Segundo: pinky. Seu assistente de IA usa o celular e você fica no controle.",
+   "legenda": "Segundo: pinky. Seu assistente de IA usa o celular e você fica no controle.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "pinky",
+   "repo": "DIYgod/pinky",
+   "estrelas": 1913
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "fala": "E o primeiro: Mika. Uma IA no Android que opera apps e a web.",
+   "legenda": "E o primeiro: Mika. Uma IA no Android que opera apps e a web.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Mika",
+   "repo": "wangzan101/Mika",
+   "estrelas": 8301
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA SOZINHA",
+   "fala": "Projetos novos, pedem um pouco de técnica. Que tarefa do celular você nunca mais quer fazer?",
+   "legenda": "Projetos novos, pedem um pouco de técnica. Que tarefa do celular você nunca mais quer fazer?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

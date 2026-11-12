@@ -1,0 +1,119 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "FICHA",
+ "tese": "O GPT-4 CUSTOU US$ 78 MILHÕES · E NÃO TE CONHECE",
+ "conceito": "Biblioteca gigante de blocos com milhares de estantes e um painel de bilhões de botõezinhos que o mascote ajusta um a um; uma máquina de cobrar soma o valor subindo. No fim, o mascote entrega uma ficha de papel (QUEM SOU EU) que entra numa ranhura e a biblioteca 'acende'. Paleta marrom-madeira + amarelo-abajur + azul-ficha.",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "c) máquina de escrever",
+  "contador": "b) odômetro de rolinhos (US$ subindo)",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "d) virada de página",
+  "camera": "c) travelling lateral",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 02 + papel e máquina de escrever",
+  "mascote": "óculos de bibliotecário; ação principal: girar botões e carimbar a ficha"
+ },
+ "brinde": "a ficha QUEM SOU EU pronta (5 linhas pra colar no começo da conversa) em ChatGPT, Claude e Gemini",
+ "fontes": [
+  "https://hai.stanford.edu/ai-index/2024-ai-index-report",
+  "https://aiindex.stanford.edu/wp-content/uploads/2024/05/HAI_AI-Index-Report-2024.pdf"
+ ],
+ "prova_viral": "⚙️: curiosidade que a pessoa já teve ('por que a IA não me conhece?'). Número de gancho vem do AI Index 2024 (Stanford HAI): GPT-4 ~US$ 78 milhões e Gemini Ultra ~US$ 191 milhões em computação de treino (estimativa). Pergunta ligada aos Reels de maior comentário (PRINT, CONTEXTO).",
+ "obs": "Valor é ESTIMATIVA do AI Index 2024 (custo de computação), nunca dizer que a OpenAI informou. Conferir no relatório antes de produzir. Seção 'O que você recebe' do kit tem a ficha QUEM SOU EU; aqui o brinde é uma versão curta e grátis.",
+ "polemica": false,
+ "agenda": "2026-11-16 08:00",
+ "palavras": 94,
+ "duracao_estimada_s": 33.6,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "O GPT-4 CUSTOU US$ 78 MILHÕES",
+   "fala": "O GPT-4 não sabe quem você é. E, só em computação, custou uns 78 milhões de dólares, estima Stanford.",
+   "legenda": "O GPT-4 não sabe quem você é. E, só em computação, custou uns 78 milhões de dólares, estima Stanford.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "O GPT-4 CUSTOU US$ 78 MILHÕES",
+    "ESTIMATIVA DE STANFORD (2024)",
+    "E AINDA NÃO SABE QUEM VOCÊ É"
+   ],
+   "itens": "treinar-custa-milhoes"
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Treinar é fazer a IA ler uma biblioteca gigante.",
+   "legenda": "Treinar é fazer a IA ler uma biblioteca gigante.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Mas ela aprende com texto geral, não com a sua vida.",
+   "legenda": "Mas ela aprende com texto geral, não com a sua vida.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Por isso ela chuta o seu jeito. Comenta FICHA que eu te mando a ficha pronta. Manda pra quem usa IA.",
+   "legenda": "Por isso ela chuta o seu jeito. Comenta FICHA que eu te mando a ficha pronta. Manda pra quem usa IA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "O truque: cola 5 linhas sobre você no começo. Por exemplo: sou dona de padaria, quero resposta curta.",
+   "legenda": "O truque: cola 5 linhas sobre você no começo. Por exemplo: sou dona de padaria, quero resposta curta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA FICHA",
+   "fala": "Salva essa ficha. Comenta FICHA e me segue. O que você pede pra IA toda semana?",
+   "legenda": "Salva essa ficha. Comenta FICHA e me segue. O que você pede pra IA toda semana?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

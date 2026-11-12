@@ -26,7 +26,7 @@ for f in sorted(glob.glob(os.path.join(BASE, "posts", "*", "meta.json"))):
     G.add_node(pid, tipo="post", label=pid[11:], data=m.get("data"), score=s)
     links = [("pilar", m.get("pilar")), ("formato", m.get("formato")), ("paleta", f"paleta {m.get('paleta')}"), ("cta", m.get("cta"))]
     links += [("tema", t) for t in m.get("temas", [])] + [("empresa", e) for e in m.get("empresas", [])] + [("fonte", x) for x in m.get("fontes", [])]
-    links += [("rede", r) for r in m.get("horarios", {})] + [("horario", h[:2] + "h") for h in m.get("horarios", {}).values()]
+    links += [("rede", r) for r in (m.get("horarios") or {})] + [("horario", h[:2] + "h") for h in (m.get("horarios") or {}).values()]
     for tipo, v in links:
         if not v: continue
         n = f"{tipo}:{v}"; G.add_node(n, tipo=tipo, label=str(v)); G.add_edge(pid, n)

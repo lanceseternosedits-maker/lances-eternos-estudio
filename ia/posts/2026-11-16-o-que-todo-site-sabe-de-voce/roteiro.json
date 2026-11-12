@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "RASTRO",
+ "tese": "5 COISAS QUE TODO SITE SABE DE VOCÊ · E A Nº 1 TE RECONHECE SEM COOKIE",
+ "conceito": "Corredor de um prédio comercial à noite: uma porta de vidro (a aba do navegador) com um segurança de blocos que anota coisas numa prancheta enquanto uma pessoa de blocos entra sem perceber. Cada item vira uma etiqueta colada na camisa dela (idioma, tela, aparelho, placa). Paleta azul-segurança + amarelo-etiqueta + preto-vidro. Gancho: porta automática abre e a prancheta já tem o nome dela.",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "d) letreiro split-flap de aeroporto",
+  "contador": "c) velocímetro/medidor circular",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "f) zoom atravessando uma tela",
+  "camera": "c) travelling lateral",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "d) Press Start 2P só nos enfeites + Space Grotesk",
+  "som": "trilha 03 + bipes de scanner",
+  "mascote": "colete de segurança e crachá; ação principal: anotar na prancheta e carimbar"
+ },
+ "brinde": "link da ferramenta who-are-you + o teste Cover Your Tracks da EFF + 3 jeitos de reduzir o rastro",
+ "fontes": [
+  "https://github.com/yt1988/who-are-you",
+  "https://coveryourtracks.eff.org/",
+  "https://developer.mozilla.org/en-US/docs/Web/API/Navigator",
+  "https://developer.mozilla.org/en-US/docs/Web/API/WEBGL_debug_renderer_info",
+  "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/resolvedOptions"
+ ],
+ "prova_viral": "who-are-you (yt1988): 577 estrelas em 12/11/2026 (API do GitHub; criado em 01/11), MIT; descrição oficial: 'Who do websites think you are? A privacy self-check'. Tema 'o que a big tech sabe de você' é do gosto do Vitor; utilidade brasileira e pergunta da vida (navegador) rendem comentário.",
+ "obs": "POLÊMICA dentro da lei e verdadeira: só mostra o que o próprio navegador entrega a qualquer site (idioma, fuso, tela, navegador/sistema, e em alguns navegadores o modelo da placa de vídeo). 'Impressão digital do navegador': estudo da EFF (Eckersley, 2010) achou 83,6% dos navegadores únicos; dizer 'num estudo da EFF'. Não ensinar a burlar nada nem a rastrear terceiros; a ferramenta é um autoteste. Navegadores com proteção (Firefox, Brave, Safari) reduzem parte disso: não prometer 'anonimato'. Conferir o número da EFF e a ferramenta antes de produzir.",
+ "polemica": true,
+ "agenda": "2026-11-16 19:30",
+ "palavras": 92,
+ "duracao_estimada_s": 32.9,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 COISAS QUE TODO SITE SABE DE VOCÊ",
+   "fala": "Qualquer site vê cinco coisas do seu navegador antes do primeiro clique.",
+   "legenda": "Qualquer site vê cinco coisas do seu navegador antes do primeiro clique.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "5 COISAS QUE TODO SITE SABE DE VOCÊ",
+    "SEM VOCÊ CLICAR EM NADA",
+    "E A Nº 1 TE RECONHECE SEM COOKIE"
+   ],
+   "itens": "o-que-todo-site-sabe-de-voce"
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "fala": "Quinto: o seu idioma e o seu fuso horário.",
+   "legenda": "Quinto: o seu idioma e o seu fuso horário.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Idioma e fuso"
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "fala": "Quarto: o tamanho da sua tela.",
+   "legenda": "Quarto: o tamanho da sua tela.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Tamanho da tela"
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "fala": "Terceiro: seu navegador e sistema. Comenta RASTRO que eu te mando o teste. Manda pra um amigo. A próxima assusta.",
+   "legenda": "Terceiro: seu navegador e sistema. Comenta RASTRO que eu te mando o teste. Manda pra um amigo. A próxima assusta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Navegador e sistema"
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "fala": "Segundo: em alguns navegadores, até a placa de vídeo.",
+   "legenda": "Segundo: em alguns navegadores, até a placa de vídeo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Placa de vídeo"
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "fala": "E o primeiro: isso e mais alguns detalhes viram uma impressão digital. Num estudo da EFF de 2010, 8 em 10 navegadores testados eram únicos.",
+   "legenda": "E o primeiro: isso e mais alguns detalhes viram uma impressão digital. Num estudo da EFF de 2010, 8 em 10 navegadores testados eram únicos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Impressão digital"
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA RASTRO",
+   "fala": "Comenta RASTRO e me segue. Qual navegador você usa no celular?",
+   "legenda": "Comenta RASTRO e me segue. Qual navegador você usa no celular?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

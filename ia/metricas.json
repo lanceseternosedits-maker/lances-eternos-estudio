@@ -847,5 +847,362 @@
    }
   ],
   "tiktok_resumo": "views TikTok 18–35 por vídeo no 05–08/11 (exceto CAMINHO 115); 'TKPO06' (2º número) chegou a 93 no WINDOWS e 72 no EDITA; baixíssimo vs Instagram."
+ },
+ "leitura_api_2026_11_12": {
+  "janela": "2026-10-29 a 2026-11-12",
+  "nota": "Metricool IG parou em 10/11 22:33 (Reels de 11 e 12/11 ainda nao aparecem). TikTok: 24-51 views por video (ex.: 33,34,51).",
+  "instagram_reels": {
+   "INTERNET": {
+    "views": 60,
+    "alcance": 46,
+    "curtidas": 1,
+    "comentarios": 1,
+    "salvos": 0,
+    "envios": 0,
+    "tempo_medio_s": 8.686,
+    "pct_3s": 63.5
+   },
+   "VERAO": {
+    "views": 247,
+    "alcance": 220,
+    "curtidas": 2,
+    "comentarios": 1,
+    "salvos": 0,
+    "envios": 0,
+    "tempo_medio_s": 5.24,
+    "pct_3s": 30.5
+   },
+   "GRATIS": {
+    "views": 270,
+    "alcance": 233,
+    "curtidas": 5,
+    "comentarios": 3,
+    "salvos": 3,
+    "envios": 0,
+    "tempo_medio_s": 4.662,
+    "pct_3s": 25.2
+   },
+   "CORTES": {
+    "views": 517,
+    "alcance": 445,
+    "curtidas": 9,
+    "comentarios": 9,
+    "salvos": 5,
+    "envios": 1,
+    "tempo_medio_s": 7.948,
+    "pct_3s": 41.4
+   },
+   "EXEMPLO": {
+    "views": 249,
+    "alcance": 231,
+    "curtidas": 2,
+    "comentarios": 1,
+    "salvos": 0,
+    "envios": 0,
+    "tempo_medio_s": 5.966,
+    "pct_3s": 41.0
+   },
+   "LEIS": {
+    "views": 540,
+    "alcance": 448,
+    "curtidas": 25,
+    "comentarios": 11,
+    "salvos": 9,
+    "envios": 4,
+    "tempo_medio_s": 7.093,
+    "pct_3s": 50.9
+   },
+   "PASSO": {
+    "views": 20,
+    "alcance": 14,
+    "curtidas": 2,
+    "comentarios": 1,
+    "salvos": 0,
+    "envios": 0,
+    "tempo_medio_s": 12.361,
+    "pct_3s": 57.1
+   },
+   "APP": {
+    "views": 417,
+    "alcance": 366,
+    "curtidas": 3,
+    "comentarios": 3,
+    "salvos": 10,
+    "envios": 1,
+    "tempo_medio_s": 6.812,
+    "pct_3s": 51.1
+   },
+   "SYDNEY": {
+    "views": 24,
+    "alcance": 16,
+    "curtidas": 2,
+    "comentarios": 2,
+    "salvos": 0,
+    "envios": 0,
+    "tempo_medio_s": 10.435,
+    "pct_3s": 50.0
+   },
+   "AGENCIA": {
+    "views": 221,
+    "alcance": 197,
+    "curtidas": 5,
+    "comentarios": 1,
+    "salvos": 2,
+    "envios": 0,
+    "tempo_medio_s": 4.23,
+    "pct_3s": 31.8
+   },
+   "ESTUDA": {
+    "views": 578,
+    "alcance": 471,
+    "curtidas": 16,
+    "comentarios": 9,
+    "salvos": 15,
+    "envios": 5,
+    "tempo_medio_s": 6.674,
+    "pct_3s": 30.3
+   },
+   "LOCAL": {
+    "views": 364,
+    "alcance": 305,
+    "curtidas": 6,
+    "comentarios": 2,
+    "salvos": 4,
+    "envios": 2,
+    "tempo_medio_s": 5.97,
+    "pct_3s": 31.4
+   },
+   "PRINT": {
+    "views": 254,
+    "alcance": 221,
+    "curtidas": 1,
+    "comentarios": 3,
+    "salvos": 1,
+    "envios": 0,
+    "tempo_medio_s": 8.232,
+    "pct_3s": 45.8
+   },
+   "VIDEO": {
+    "views": 426,
+    "alcance": 354,
+    "curtidas": 9,
+    "comentarios": 7,
+    "salvos": 9,
+    "envios": 4,
+    "tempo_medio_s": 7.106,
+    "pct_3s": 47.5
+   },
+   "RESUMO": {
+    "views": 221,
+    "alcance": 194,
+    "curtidas": 3,
+    "comentarios": 1,
+    "salvos": 0,
+    "envios": 0,
+    "tempo_medio_s": 6.453,
+    "pct_3s": 37.3
+   },
+   "MAPA": {
+    "views": 811,
+    "alcance": 704,
+    "curtidas": 14,
+    "comentarios": 3,
+    "salvos": 7,
+    "envios": 2,
+    "tempo_medio_s": 6.774,
+    "pct_3s": 49.4
+   },
+   "ESTILO": {
+    "views": 2788,
+    "alcance": 2222,
+    "curtidas": 113,
+    "comentarios": 9,
+    "salvos": 75,
+    "envios": 28,
+    "tempo_medio_s": 9.55,
+    "pct_3s": 49.6
+   },
+   "TAY": {
+    "views": 687,
+    "alcance": 608,
+    "curtidas": 17,
+    "comentarios": 3,
+    "salvos": 1,
+    "envios": 0,
+    "tempo_medio_s": 9.922,
+    "pct_3s": 50.7
+   },
+   "BICHO": {
+    "views": 740,
+    "alcance": 633,
+    "curtidas": 18,
+    "comentarios": 11,
+    "salvos": 17,
+    "envios": 11,
+    "tempo_medio_s": 7.906,
+    "pct_3s": 51.7
+   },
+   "CAMINHO": {
+    "views": 1034,
+    "alcance": 895,
+    "curtidas": 31,
+    "comentarios": 9,
+    "salvos": 20,
+    "envios": 3,
+    "tempo_medio_s": 15.203,
+    "pct_3s": 41.1
+   },
+   "VOZ": {
+    "views": 2556,
+    "alcance": 2231,
+    "curtidas": 61,
+    "comentarios": 23,
+    "salvos": 65,
+    "envios": 19,
+    "tempo_medio_s": 5.853,
+    "pct_3s": 39.8
+   },
+   "FONTE": {
+    "views": 2124,
+    "alcance": 1853,
+    "curtidas": 43,
+    "comentarios": 5,
+    "salvos": 3,
+    "envios": 4,
+    "tempo_medio_s": 10.319,
+    "pct_3s": 49.5
+   },
+   "DESIGN": {
+    "views": 1316,
+    "alcance": 1100,
+    "curtidas": 24,
+    "comentarios": 7,
+    "salvos": 37,
+    "envios": 8,
+    "tempo_medio_s": 6.155,
+    "pct_3s": 31.7
+   },
+   "PC": {
+    "views": 2684,
+    "alcance": 2227,
+    "curtidas": 73,
+    "comentarios": 11,
+    "salvos": 55,
+    "envios": 9,
+    "tempo_medio_s": 7.228,
+    "pct_3s": 35.5
+   },
+   "XADREZ": {
+    "views": 2756,
+    "alcance": 2149,
+    "curtidas": 65,
+    "comentarios": 5,
+    "salvos": 1,
+    "envios": 0,
+    "tempo_medio_s": 12.623,
+    "pct_3s": 55.0
+   },
+   "MOBILE": {
+    "views": 1721,
+    "alcance": 1422,
+    "curtidas": 75,
+    "comentarios": 27,
+    "salvos": 19,
+    "envios": 2,
+    "tempo_medio_s": 10.27,
+    "pct_3s": 59.1
+   },
+   "WINDOWS": {
+    "views": 2587,
+    "alcance": 2233,
+    "curtidas": 66,
+    "comentarios": 15,
+    "salvos": 38,
+    "envios": 12,
+    "tempo_medio_s": 9.457,
+    "pct_3s": 54.1
+   },
+   "EDITA": {
+    "views": 2914,
+    "alcance": 2389,
+    "curtidas": 89,
+    "comentarios": 24,
+    "salvos": 100,
+    "envios": 39,
+    "tempo_medio_s": 6.701,
+    "pct_3s": 28.9
+   },
+   "TV": {
+    "views": 3246,
+    "alcance": 2587,
+    "curtidas": 112,
+    "comentarios": 32,
+    "salvos": 81,
+    "envios": 40,
+    "tempo_medio_s": 10.405,
+    "pct_3s": 44.6
+   },
+   "NINTENDO": {
+    "views": 615,
+    "alcance": 537,
+    "curtidas": 16,
+    "comentarios": 5,
+    "salvos": 5,
+    "envios": 0,
+    "tempo_medio_s": 8.122,
+    "pct_3s": 46.7
+   },
+   "POST": {
+    "views": 271,
+    "alcance": 223,
+    "curtidas": 7,
+    "comentarios": 5,
+    "salvos": 2,
+    "envios": 1,
+    "tempo_medio_s": 7.695,
+    "pct_3s": 56.6
+   },
+   "SKILLS": {
+    "views": 2925,
+    "alcance": 2325,
+    "curtidas": 106,
+    "comentarios": 23,
+    "salvos": 109,
+    "envios": 45,
+    "tempo_medio_s": 10.632,
+    "pct_3s": 46.7
+   },
+   "DESENHO": {
+    "views": 527,
+    "alcance": 450,
+    "curtidas": 15,
+    "comentarios": 23,
+    "salvos": 11,
+    "envios": 4,
+    "tempo_medio_s": 8.26,
+    "pct_3s": 59.0
+   },
+   "VAGA": {
+    "views": 201,
+    "alcance": 173,
+    "curtidas": 5,
+    "comentarios": 1,
+    "salvos": 2,
+    "envios": 0,
+    "tempo_medio_s": 5.458,
+    "pct_3s": 32.0
+   },
+   "CARBON": {
+    "views": 52,
+    "alcance": 45,
+    "curtidas": 3,
+    "comentarios": 0,
+    "salvos": 0,
+    "envios": 0,
+    "tempo_medio_s": 1.608,
+    "pct_3s": 11.1
+   }
+  },
+  "tiktok": "6 metricas TKPO02..10: views ~24-51 por video, 0-6 outras; sem destaque"
  }
 }

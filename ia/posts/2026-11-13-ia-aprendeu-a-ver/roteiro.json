@@ -1,0 +1,119 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "VISAO",
+ "tese": "2012: A IA APRENDEU A VER · COM 2 PLACAS DE VIDEOGAME",
+ "conceito": "Sala de exposição de fotos em 2012 vista como galeria: milhões de molduras na parede, um robô de blocos errando e acertando o que tem em cada foto; duas placas de vídeo gigantes ligadas por cabo no centro, brilhando. Paleta branco-galeria + verde-GPU + vermelho-erro. Gancho: placa neon 'ERRO 26%' racha e vira '15%'.",
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "d) letreiro split-flap",
+  "contador": "c) velocímetro/medidor circular (taxa de erro caindo)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "c) íris circular",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "e) página de caderno",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 01 + clique de câmera",
+  "mascote": "câmera fotográfica no pescoço e boné; ação principal: tirar foto e revelar"
+ },
+ "brinde": "o artigo original da AlexNet + a curiosidade da placa de jogo",
+ "fontes": [
+  "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf",
+  "https://image-net.org/challenges/LSVRC/2012/results.html"
+ ],
+ "prova_viral": "Marco de 2012 (NeurIPS 2012; resultado do ILSVRC em out/2012) sempre citado quando falam de IA e placas de vídeo. Fonte histórica, não métrica de rede social. Ligação com o dia a dia: reconhecimento de imagens nas fotos do celular.",
+ "obs": "Erro citado é o 'top-5' (a resposta certa fica entre os 5 palpites da IA): 15,3% da AlexNet contra 26,2% do 2º lugar, e dizer isso na legenda. Treino: cerca de 5 a 6 dias em duas placas GTX 580 (artigo). Conferir os números no artigo no dia da produção.",
+ "polemica": false,
+ "agenda": "2026-11-13 17:00",
+ "palavras": 83,
+ "duracao_estimada_s": 29.6,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "2012: A IA APRENDEU A VER",
+   "fala": "Em 2012, uma IA de placas de videogame humilhou todo mundo.",
+   "legenda": "Em 2012, uma IA de placas de videogame humilhou todo mundo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "2012: A IA APRENDEU A VER",
+    "ERROU 15%; O 2º LUGAR, 26%",
+    "E USOU PLACAS DE VIDEOGAME"
+   ],
+   "itens": "ia-aprendeu-a-ver"
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "A prova: dizer o que tem em milhões de fotos, com cinco palpites.",
+   "legenda": "A prova: dizer o que tem em milhões de fotos, com cinco palpites.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "O segundo lugar errou 26%. A AlexNet, essa IA, errou só 15%.",
+   "legenda": "O segundo lugar errou 26%. A AlexNet, essa IA, errou só 15%.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Isso abriu caminho pra IA que reconhece o que tem nas suas fotos. Comenta VISAO que eu te mando o artigo. Manda pra um amigo.",
+   "legenda": "Isso abriu caminho pra IA que reconhece o que tem nas suas fotos. Comenta VISAO que eu te mando o artigo. Manda pra um amigo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Ela treinou cerca de cinco dias em duas placas de videogame.",
+   "legenda": "Ela treinou cerca de cinco dias em duas placas de videogame.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA VISAO",
+   "fala": "Salva pra contar pra alguém. Quantas fotos tem no seu celular?",
+   "legenda": "Salva pra contar pra alguém. Quantas fotos tem no seu celular?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

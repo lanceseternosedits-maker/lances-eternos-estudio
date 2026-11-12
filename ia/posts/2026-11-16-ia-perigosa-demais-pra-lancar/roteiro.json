@@ -1,0 +1,119 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "PERIGO",
+ "tese": "2019: A IA QUE FICOU NO COFRE",
+ "conceito": "Cofre de laboratório de 2019: um cofre de blocos com a porta entreaberta e luz vermelha de alarme girando; dentro, um livro que escreve sozinho. Os cadeados vão abrindo um a um em quatro etapas (tamanhos de modelo), até a porta abrir de vez. Paleta vermelho-alarme + azul-laboratório + dourado-cofre.",
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "b) carimbo batendo",
+  "contador": "(sem contador: história)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "e) glitch RGB",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "c) Fraunces + Bebas Neue",
+  "som": "trilha 03 + alarme e cadeados",
+  "mascote": "jaleco e lanterna; ação principal: girar a roda do cofre"
+ },
+ "brinde": "o texto original da OpenAI de 14/02/2019 + a notícia da liberação completa em 11/2019",
+ "fontes": [
+  "https://openai.com/index/better-language-models/",
+  "https://thenextweb.com/artificial-intelligence/2019/11/05/remember-that-scary-ai-text-generator-that-was-too-dangerous-to-release-its-out-now/"
+ ],
+ "prova_viral": "Fonte histórica: anúncio do GPT-2 pela OpenAI em 14/02/2019 e liberação completa em 05/11/2019, muito noticiada (TNW, The Register, ZDNet). Por que rende agora: o ChatGPT faz 4 anos no fim deste mês e o debate 'IA perigosa demais?' voltou com os modelos atuais.",
+ "obs": "Fatos: em 14/02/2019 a OpenAI apresentou o GPT-2 e NÃO liberou o modelo completo, citando risco de uso malicioso (textos falsos convincentes); liberou em etapas ao longo do ano, até a versão de 1,5 bilhão de parâmetros em 05/11/2019. Críticos disseram que era marketing: apresentar como debate, sem tomar lado. NÃO afirmar que causou ou evitou algum dano. Conferir datas no blog da OpenAI no dia da produção.",
+ "polemica": true,
+ "agenda": "2026-11-16 21:30",
+ "palavras": 88,
+ "duracao_estimada_s": 31.4,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "2019: A IA QUE FICOU NO COFRE",
+   "fala": "Em 2019, a OpenAI segurou uma IA por medo de ela espalhar mentira.",
+   "legenda": "Em 2019, a OpenAI segurou uma IA por medo de ela espalhar mentira.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "2019: A IA QUE FICOU NO COFRE",
+    "A IMPRENSA: 'PERIGOSA DEMAIS'",
+    "O GPT-2, ANTEPASSADO DO CHATGPT"
+   ],
+   "itens": "ia-perigosa-demais-pra-lancar"
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Era o GPT-2, um gerador de texto, antepassado do ChatGPT. A empresa temeu textos falsos convincentes.",
+   "legenda": "Era o GPT-2, um gerador de texto, antepassado do ChatGPT. A empresa temeu textos falsos convincentes.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Liberou aos poucos, em quatro tamanhos cada vez maiores.",
+   "legenda": "Liberou aos poucos, em quatro tamanhos cada vez maiores.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Em novembro de 2019, soltou a versão completa. Comenta PERIGO que eu te mando o texto original. Manda pra um amigo.",
+   "legenda": "Em novembro de 2019, soltou a versão completa. Comenta PERIGO que eu te mando o texto original. Manda pra um amigo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "A imprensa disse que era perigosa demais. Críticos disseram: marketing. O debate continua.",
+   "legenda": "A imprensa disse que era perigosa demais. Críticos disseram: marketing. O debate continua.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA PERIGO",
+   "fala": "Salva pra contar pra alguém. Hoje o ChatGPT escreve e-mails. Quantos e-mails você escreve por semana?",
+   "legenda": "Salva pra contar pra alguém. Hoje o ChatGPT escreve e-mails. Quantos e-mails você escreve por semana?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

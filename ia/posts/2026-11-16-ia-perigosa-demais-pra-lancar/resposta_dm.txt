@@ -1,0 +1,8 @@
+Aqui está! 🔒
+
+📄 O anúncio original da OpenAI sobre o GPT-2 (14/02/2019): https://openai.com/index/better-language-models/
+📰 A notícia da liberação completa (05/11/2019): https://thenextweb.com/artificial-intelligence/2019/11/05/remember-that-scary-ai-text-generator-that-was-too-dangerous-to-release-its-out-now/
+
+Curiosidade: o GPT-2 foi liberado em etapas. O maior tinha 1,5 bilhão de parâmetros; os modelos de hoje são muito maiores.
+
+Se curtiu, me segue pra mais IA e tecnologia que serve pra vida real. 💜

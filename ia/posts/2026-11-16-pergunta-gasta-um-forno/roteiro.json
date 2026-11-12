@@ -1,0 +1,119 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "FORNO",
+ "tese": "UMA PERGUNTA MÉDIA = FORNO LIGADO POR 1 SEGUNDO",
+ "conceito": "Cozinha de brinquedo em miniatura com um forno de blocos e um medidor de luz (relógio de energia) em cima; cada pergunta que chega vira um cartão que passa na esteira e faz o forno acender por um instante. Ao lado, um datacenter minúsculo de prateleiras piscando. Paleta laranja-forno + cinza-aço + creme. Gancho: o forno acende por 1 segundo e apaga.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "b) carimbo batendo",
+  "contador": "f) termômetro",
+  "legenda": "a) bloco de 4 palavras com a atual colorida",
+  "transicao": "a) flash branco",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 01 + forno e relógio de luz",
+  "mascote": "avental e luva de forno; ação principal: apertar o relógio de luz como cronômetro"
+ },
+ "brinde": "o prompt 'pergunta bem feita numa mensagem só' (modelo de pedido completo) para gastar menos tentativas",
+ "fontes": [
+  "https://blog.samaltman.com/the-gentle-singularity",
+  "https://www.datacenterdynamics.com/en/news/sam-altman-chatgpt-queries-consume-034-watt-hours-of-electricity-and-0000085-gallons-of-water/"
+ ],
+ "prova_viral": "⚙️: pergunta de curiosidade que muita gente tem ('IA gasta muita energia?'). Número divulgado por Sam Altman (jun/2025) e noticiado por vários veículos (DCD, Business Insider, TechRadar). Polêmica leve: o número é da própria empresa.",
+ "obs": "Números: 0,34 Wh por pergunta média do ChatGPT (ligar um forno por pouco mais de 1 s) e 0,000085 galão de água (~1/15 de colher de chá), segundo Sam Altman no post 'The Gentle Singularity' (10/06/2025). Dizer sempre 'segundo o CEO da OpenAI' e que é número da própria empresa. NUNCA afirmar que treino/total de data centers é pouco: foco só na pergunta média. Conferir o post no dia da produção.",
+ "polemica": true,
+ "agenda": "2026-11-16 12:00",
+ "palavras": 84,
+ "duracao_estimada_s": 30.0,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "1 PERGUNTA = 1 SEGUNDO DE FORNO",
+   "fala": "Segundo o CEO da OpenAI, uma pergunta ao ChatGPT liga um forno por 1 segundo.",
+   "legenda": "Segundo o CEO da OpenAI, uma pergunta ao ChatGPT liga um forno por 1 segundo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "1 PERGUNTA = 1 SEGUNDO DE FORNO",
+    "SEGUNDO O CEO DA OPENAI",
+    "A CONTA É DELE, NÃO DE UM AUDITOR"
+   ],
+   "itens": "pergunta-gasta-um-forno"
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "O número é do Sam Altman: 0,34 watt-hora em média, uma medida de energia.",
+   "legenda": "O número é do Sam Altman: 0,34 watt-hora em média, uma medida de energia.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Mas é número da própria empresa. Vale conferir, não só acreditar.",
+   "legenda": "Mas é número da própria empresa. Vale conferir, não só acreditar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Com milhões de pessoas, a conta cresce. Comenta FORNO que eu te mando a fonte. Manda pra um amigo.",
+   "legenda": "Com milhões de pessoas, a conta cresce. Comenta FORNO que eu te mando a fonte. Manda pra um amigo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "O truque pra acertar de primeira: pede tudo numa mensagem só, bem explicada.",
+   "legenda": "O truque pra acertar de primeira: pede tudo numa mensagem só, bem explicada.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA FORNO",
+   "fala": "Comenta FORNO e me segue. Quantas vezes por dia você usa IA?",
+   "legenda": "Comenta FORNO e me segue. Quantas vezes por dia você usa IA?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

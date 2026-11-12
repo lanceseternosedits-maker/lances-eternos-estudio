@@ -1,7 +1,49 @@
 {
- "gerado_em": "2026-11-11 23:36",
- "videos": [],
- "roteiros": [],
+ "gerado_em": "2026-11-12 05:04",
+ "videos": [
+  {
+   "pasta": "2026-11-12-graphify-mapa",
+   "titulo": "Comenta MAPA que eu te mando o link e o passo a passo pra instalar. 🗺️",
+   "quando": "2026-11-12"
+  }
+ ],
+ "roteiros": [
+  {
+   "pasta": "2026-11-16-ia-perigosa-demais-pra-lancar",
+   "titulo": "2019: A IA QUE FICOU NO COFRE",
+   "quando": "2026-11-16 21:30"
+  },
+  {
+   "pasta": "2026-11-16-o-que-todo-site-sabe-de-voce",
+   "titulo": "5 COISAS QUE TODO SITE SABE DE VOCÊ",
+   "quando": "2026-11-16 19:30"
+  },
+  {
+   "pasta": "2026-11-16-5-coisas-que-a-ia-faz-por-voce",
+   "titulo": "5 COISAS QUE A IA FAZ POR VOCÊ",
+   "quando": "2026-11-16 14:00"
+  },
+  {
+   "pasta": "2026-11-16-pergunta-gasta-um-forno",
+   "titulo": "1 PERGUNTA = 1 SEGUNDO DE FORNO",
+   "quando": "2026-11-16 12:00"
+  },
+  {
+   "pasta": "2026-11-16-ia-usa-seu-celular",
+   "titulo": "3 IAs QUE USAM SEU CELULAR POR VOCÊ",
+   "quando": "2026-11-16 10:00"
+  },
+  {
+   "pasta": "2026-11-16-treinar-custa-milhoes",
+   "titulo": "O GPT-4 CUSTOU US$ 78 MILHÕES",
+   "quando": "2026-11-16 08:00"
+  },
+  {
+   "pasta": "2026-11-13-ia-aprendeu-a-ver",
+   "titulo": "2012: A IA APRENDEU A VER",
+   "quando": "2026-11-13 17:00"
+  }
+ ],
  "agenda_3_dias": [
   {
    "quando": "2026-11-12 06:00",

@@ -1,0 +1,137 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "KIT",
+ "tese": "5 COISAS QUE A IA FAZ POR VOCÊ · E A Nº 1 AJUDA A DESCONFIAR DE GOLPE",
+ "conceito": "Cozinha-sala de uma casa de blocos no fim da tarde: geladeira, mesa com contas, esteira de treino e um celular com mensagem suspeita. Cada item vira um cartão na parede com uma tarefa riscada por um carimbo verde 'FEITO'. Paleta pêssego-fim-de-tarde + verde-feito + cinza-quente. Gancho: pilha de papéis na mesa (contas, cardápio, mensagens) some uma a uma.",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita adesiva",
+  "nome": "f) escrito à mão",
+  "contador": "d) pote enchendo de estrelas (tarefas feitas)",
+  "legenda": "e) tarja de TV/arcade",
+  "transicao": "d) virada de página",
+  "camera": "e) câmera na mão",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 02 + carimbo e papel",
+  "mascote": "avental e lista de compras; ação principal: carimbar FEITO"
+ },
+ "brinde": "a DM do KIT (checkout do Super Assistente de IA, R$ 17) + 1 prompt grátis de amostra (Detector de golpe)",
+ "fontes": [
+  "https://www.science.org/doi/10.1126/science.adh2586",
+  "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/phishing"
+ ],
+ "prova_viral": "Kit 'Super Assistente de IA' (produtos/assistente-pessoal/venda.md): assistentes Contas da casa, Cardápio, Revisor de mensagens, Personal de treino e Detector de golpe. Base: estudo na Science (2023, Noy e Zhang): quem usou ChatGPT em escrita levou 40% menos tempo, com 18% mais qualidade. Pautas de utilidade brasileira lideram (LEIS 2,5% de comentário).",
+ "obs": "Reel de venda do kit (regra da rodada nº 5): nº 1 = Detector de golpe (novo; ainda não foi nº 1 em outro Reel). Esta rodada só tem 1 vaga de contagem em cada metade livre: o segundo Reel do kit fica para a rodada de segunda (sex/sáb/dom/seg já estão ocupados). Sem prometer resultado financeiro. Nada de 'grátis': o kit custa R$ 17 e tem garantia de 7 dias. Não dizer que a IA 'garante' pegar golpe: ela ajuda a desconfiar.",
+ "polemica": false,
+ "agenda": "2026-11-16 14:00",
+ "palavras": 97,
+ "duracao_estimada_s": 34.6,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 COISAS QUE A IA FAZ POR VOCÊ",
+   "fala": "Cinco coisas em que a IA te ajuda rapidinho. A número um ajuda a desconfiar de golpe.",
+   "legenda": "Cinco coisas em que a IA te ajuda rapidinho. A número um ajuda a desconfiar de golpe.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "5 COISAS QUE A IA FAZ POR VOCÊ",
+    "COM UM ASSISTENTE PRONTO",
+    "E A Nº 1 AJUDA A DESCONFIAR DE GOLPE"
+   ],
+   "itens": "5-coisas-que-a-ia-faz-por-voce"
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "fala": "Quinto: o cardápio da semana, com a lista de compras.",
+   "legenda": "Quinto: o cardápio da semana, com a lista de compras.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Cardápio da semana"
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "fala": "Quarto: as contas da casa, sem planilha.",
+   "legenda": "Quarto: as contas da casa, sem planilha.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Contas da casa"
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "fala": "Terceiro: revisar aquela mensagem difícil. Comenta KIT que eu te mando o link do Super Assistente de IA. Manda pra um amigo sem tempo.",
+   "legenda": "Terceiro: revisar aquela mensagem difícil. Comenta KIT que eu te mando o link do Super Assistente de IA. Manda pra um amigo sem tempo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Revisor de mensagens"
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "fala": "Segundo: um personal que monta o seu treino.",
+   "legenda": "Segundo: um personal que monta o seu treino.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Personal de treino"
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "fala": "E o primeiro: um detetive que lê a mensagem suspeita e aponta sinais de golpe.",
+   "legenda": "E o primeiro: um detetive que lê a mensagem suspeita e aponta sinais de golpe.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Detector de golpe"
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA KIT",
+   "fala": "Comenta KIT e me segue. O kit custa 17 reais. Qual dessas você faz na mão?",
+   "legenda": "Comenta KIT e me segue. O kit custa 17 reais. Qual dessas você faz na mão?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

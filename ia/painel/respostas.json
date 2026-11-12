@@ -674,6 +674,15 @@
    "dm": "Aqui está! 🎬\n\n📰 O caso: https://www.nbcnews.com/news/us-news/google-fired-software-engineer-claimed-ai-chatbot-was-sentient-rcna39679\n📰 A demissão: https://www.engadget.com/blake-lemoide-fired-google-lamda-sentient-001746197.html\n\nCuriosidade: a LaMDA virou base do Bard, que depois virou o Gemini.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
   {
+   "palavra": "MAPA",
+   "pasta": "2026-11-12-graphify-mapa",
+   "quando": "2026-11-12",
+   "titulo": "O problema dos tokens",
+   "thumb": "",
+   "url": "",
+   "dm": "Oi! Que bom que você comentou MAPA 🙌\nAqui está o Graphify (grátis, código aberto):\n• https://github.com/safishamsi/graphify\n\nPasso a passo no Claude Code:\n1) No terminal: pip install graphifyy\n2) graphify claude install\n3) Dentro do Claude Code, na pasta do projeto: /graphify\nPronto: nas próximas sessões o Claude consulta o mapa em vez de reler tudo.\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
    "palavra": "JARVIS",
    "pasta": "2026-11-12-jarvis-em-portugues",
    "quando": "2026-11-15 15:00",
@@ -708,6 +717,15 @@
    "thumb": "/capas/thumb-2026-11-13-atendente-telefone-ia.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou LIGA 🙌\nAqui está o que eu prometi (link + roteiro de atendimento pronto para pizzaria/salão):\n• https://github.com/C4rohan/Lampline\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
+   "palavra": "VISAO",
+   "pasta": "2026-11-13-ia-aprendeu-a-ver",
+   "quando": "2026-11-13 17:00",
+   "titulo": "2012: A IA aprendeu a ver",
+   "thumb": "",
+   "url": "",
+   "dm": "Aqui está! 👁️\n\n📄 O artigo da AlexNet (NeurIPS 2012): https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf\n🏁 Resultado oficial da prova (ILSVRC 2012): https://image-net.org/challenges/LSVRC/2012/results.html\n\nCuriosidade: as duas placas eram GTX 580, placas pra jogar, lançadas em 2010. Depois disso, as placas de vídeo viraram o motor de quase toda IA.\n\nSe curtiu, me segue pra mais IA e tecnologia que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
   {
    "palavra": "CURTO",
@@ -863,6 +881,15 @@
    "dm": "Oi! Que bom que você comentou EXPLICA 🙌\nAqui está o que eu prometi (links das 3 + dica de tradução):\n• https://github.com/YIAN6557/eian-riso-broll\n• https://github.com/liangdabiao/whiteboard-teacher-video\n• https://github.com/HeyChengC/vibe-knowledge-film\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
   {
+   "palavra": "KIT",
+   "pasta": "2026-11-16-5-coisas-que-a-ia-faz-por-voce",
+   "quando": "2026-11-16 14:00",
+   "titulo": "5 coisas que a IA faz por você",
+   "thumb": "",
+   "url": "",
+   "dm": "DM do KIT: usar a resposta global KIT (painel/respostas.json), checkout do Super Assistente de IA.\nOi! Que bom que você comentou KIT 🙌 O Super Assistente de IA tem 10 assistentes prontos pra copiar e colar no ChatGPT, Claude ou Gemini (R$ 17, garantia de 7 dias). Link: ver respostas.json."
+  },
+  {
    "palavra": "CAMINHO",
    "pasta": "2026-11-16-app-completo-com-ia",
    "quando": "2026-11-08 13:00",
@@ -870,6 +897,42 @@
    "thumb": "/capas/thumb-2026-11-16-app-completo-com-ia.jpg",
    "url": "",
    "dm": "Opa! Aqui está o caminho completo 🧩\n\nDa ideia ao app de verdade:\nSó No Seu PC → Servidor → Domínio → Banco De Dados → Login → Senha → Código No Celular → Pagamento → Aviso Automático → E-Mail → Conexão Com Apps → IA No App → Backup → Escala → Vigia\n\nO pedido pra IA em cada etapa (Claude ou ChatGPT):\n➜ \"faz um app de agendamento\"\n➜ \"coloca meu app no ar\"\n➜ \"quero meu app em meuapp.com\"\n➜ \"salva os agendamentos\"\n➜ \"cada cliente vê só os dele\"\n➜ \"salva a senha do usuário\"\n➜ \"protege a conta com código\"\n➜ \"cobra 30 reais por mês\"\n➜ \"me avisa quando pagarem\"\n➜ \"manda lembrete 1 dia antes\"\n➜ \"conecta com o Google Agenda\"\n➜ \"põe uma IA pra atender clientes\"\n➜ \"e se apagar tudo?\"\n➜ \"e se 10 mil pessoas entrarem?\"\n➜ \"me avisa se o app cair\"\n\nMe segue que vem mais. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
+   "palavra": "PERIGO",
+   "pasta": "2026-11-16-ia-perigosa-demais-pra-lancar",
+   "quando": "2026-11-16 21:30",
+   "titulo": "2019: A IA que ficou no cofre",
+   "thumb": "",
+   "url": "",
+   "dm": "Aqui está! 🔒\n\n📄 O anúncio original da OpenAI sobre o GPT-2 (14/02/2019): https://openai.com/index/better-language-models/\n📰 A notícia da liberação completa (05/11/2019): https://thenextweb.com/artificial-intelligence/2019/11/05/remember-that-scary-ai-text-generator-that-was-too-dangerous-to-release-its-out-now/\n\nCuriosidade: o GPT-2 foi liberado em etapas. O maior tinha 1,5 bilhão de parâmetros; os modelos de hoje são muito maiores.\n\nSe curtiu, me segue pra mais IA e tecnologia que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
+   "palavra": "SOZINHA",
+   "pasta": "2026-11-16-ia-usa-seu-celular",
+   "quando": "2026-11-16 10:00",
+   "titulo": "3 IAS que usam seu celular por você",
+   "thumb": "",
+   "url": "",
+   "dm": "Oi! Que bom que você comentou SOZINHA 🙌\nAqui estão os 3 projetos que eu prometi:\n• Mika (Android): https://github.com/wangzan101/Mika\n• pinky: https://github.com/DIYgod/pinky\n• poki (iPhone): https://github.com/JosssphZhou/poki\n\n⚠️ Importante: são projetos novos e pedem um pouco de técnica. Uma IA com controle do celular enxerga seus apps e dados, então teste num aparelho ou conta secundária e leia o README antes.\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
+   "palavra": "RASTRO",
+   "pasta": "2026-11-16-o-que-todo-site-sabe-de-voce",
+   "quando": "2026-11-16 19:30",
+   "titulo": "5 coisas que todo site sabe de você",
+   "thumb": "",
+   "url": "",
+   "dm": "Oi! Que bom que você comentou RASTRO 🙌\nAqui está o que eu prometi:\n🔎 Teste da EFF (grátis, mostra o que seu navegador entrega): https://coveryourtracks.eff.org/\n🛠️ Projeto aberto who-are-you (autoteste de privacidade): https://github.com/yt1988/who-are-you\n\n3 jeitos de reduzir seu rastro:\n1) Use um navegador com proteção contra rastreio ativada (Firefox, Brave ou Safari).\n2) Bloqueie cookies de terceiros e limpe os dados do site de vez em quando.\n3) Evite instalar extensões que você não conhece: elas veem tudo que você abre.\n\nNenhum jeito garante anonimato total, mas já corta bastante. Se curtiu, me segue. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
+   "palavra": "FORNO",
+   "pasta": "2026-11-16-pergunta-gasta-um-forno",
+   "quando": "2026-11-16 12:00",
+   "titulo": "1 pergunta = 1 segundo de forno",
+   "thumb": "",
+   "url": "",
+   "dm": "Aqui está! 🔥\n\n📰 O post original do Sam Altman (10/06/2025): https://blog.samaltman.com/the-gentle-singularity\n📰 A reportagem do Data Center Dynamics: https://www.datacenterdynamics.com/en/news/sam-altman-chatgpt-queries-consume-034-watt-hours-of-electricity-and-0000085-gallons-of-water/\n\nModelo da pergunta bem feita (uma mensagem só):\n\"Contexto: [quem sou eu e o que preciso]. Tarefa: [o que quero]. Formato: [lista / 3 linhas / tabela]. Se faltar algo, me pergunte antes de responder.\"\n\nLembrando: 0,34 Wh é número da própria OpenAI, não de um auditor externo.\n\nSe curtiu, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
   {
    "palavra": "PEÇA",
@@ -897,6 +960,15 @@
    "thumb": "",
    "url": "",
    "dm": "Opa! Aqui está o mapa da série 🧩\n\nAs 15 peças de um app de verdade:\nAPP → DEPLOY → DOMÍNIO → BANCO DE DADOS → LOGIN → SENHA → 2FA → PAGAMENTO → WEBHOOK → E-MAIL → API → IA NO APP → BACKUP → ESCALA → MONITORAMENTO\n\nVocê está na peça 3: DOMÍNIO.\n\nPrompt pra pedir pro Claude ou ChatGPT:\n\"Comprei o domínio meuapp.com. Me explica passo a passo como apontar ele para o meu app que já está no ar, e quanto tempo demora pra funcionar.\"\n\nAmanhã sai a próxima peça. Me segue pra não perder. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
+   "palavra": "FICHA",
+   "pasta": "2026-11-16-treinar-custa-milhoes",
+   "quando": "2026-11-16 08:00",
+   "titulo": "O gpt-4 custou us$ 78 milhões",
+   "thumb": "",
+   "url": "",
+   "dm": "Aqui está a ficha! 📋\n\nCola isso no começo da conversa (ChatGPT, Claude ou Gemini) e troca o que está entre colchetes:\n\n\"Antes de responder, saiba quem eu sou:\n1) Eu sou [seu nome], trabalho com [sua área].\n2) No dia a dia eu preciso de ajuda com [3 tarefas].\n3) Quero respostas em [curtas / passo a passo], em português do Brasil.\n4) Se faltar informação, me pergunte antes de chutar.\n5) Se não souber, diga que não sabe.\"\n\nDica: no ChatGPT, vale salvar isso em Configurações > Personalização. No Claude e no Gemini, cole num Projeto ou nas instruções.\n\nQuer 10 assistentes prontos que já te conhecem? Comenta KIT. Se curtiu, me segue. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   }
  ],
  "globais": [
