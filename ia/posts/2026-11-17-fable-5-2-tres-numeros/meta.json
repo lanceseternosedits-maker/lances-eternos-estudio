@@ -1,6 +1,6 @@
 {
  "data": "2026-11-17",
- "horario": "12:00",
+ "horario": "16:00",
  "pilar": "reel",
  "categoria": "novidade",
  "formato": "contagem",
@@ -15,8 +15,8 @@
  "cta": "FABLE",
  "polemica": false,
  "horarios": {
-  "instagram": "2026-11-17 12:00",
-  "tiktok": "2026-11-17 12:00"
+  "instagram": "2026-11-17 16:00",
+  "tiktok": "2026-11-17 16:00"
  },
  "elementos": {
   "etiqueta": "d) faixa diagonal de aviso",
