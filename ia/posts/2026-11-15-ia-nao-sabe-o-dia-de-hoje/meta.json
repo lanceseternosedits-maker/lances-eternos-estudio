@@ -90,5 +90,6 @@
   "som": "trilha 01 + sino de bicicleta",
   "mascote": "boné de jornaleiro; ação principal: entregar o jornal do dia"
  },
- "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/ia-nao-sabe-o-dia-de-hoje.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/ia-nao-sabe-o-dia-de-hoje.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados.",
+ "derrubado": "virou rascunho no Metricool em 12/11 (chance abaixo do corte de 55%)"
 }

@@ -90,5 +90,6 @@
   "som": "trilha 02 + rotativa de jornal",
   "mascote": "viseira de jornalista; ação principal: girar na cadeira e sair rolando"
  },
- "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/artigo-que-criou-o-chatgpt.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/artigo-que-criou-o-chatgpt.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados.",
+ "derrubado": "virou rascunho no Metricool em 12/11 (chance abaixo do corte de 55%)"
 }

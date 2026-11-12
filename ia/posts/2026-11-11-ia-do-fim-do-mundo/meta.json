@@ -88,5 +88,6 @@
   "som": "trilha 03 + efeitos arcade",
   "mascote": "acessório e ação do conceito; ação principal: costurar"
  },
- "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/ia-do-fim-do-mundo.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/ia-do-fim-do-mundo.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados.",
+ "derrubado": "virou rascunho no Metricool em 12/11 (chance abaixo do corte de 55%)"
 }

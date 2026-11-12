@@ -90,5 +90,6 @@
   "som": "trilha 02 + tesoura + estática de rádio",
   "mascote": "fone de radialista; ação principal: cortar a fita com a tesoura"
  },
- "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/ia-enrola-demais.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/ia-enrola-demais.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados.",
+ "derrubado": "virou rascunho no Metricool em 12/11 (chance abaixo do corte de 55%)"
 }

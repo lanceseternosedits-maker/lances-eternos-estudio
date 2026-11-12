@@ -91,5 +91,6 @@
   "som": "trilha 03 + vidro de laboratório",
   "mascote": "jaleco e óculos de laboratório; ação principal: dobrar um colar de contas até virar proteína"
  },
- "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/ia-ganhou-o-nobel.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/ia-ganhou-o-nobel.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados.",
+ "derrubado": "virou rascunho no Metricool em 12/11 (chance abaixo do corte de 55%)"
 }

@@ -90,5 +90,6 @@
   "som": "trilha 03 + festa + língua de sogra",
   "mascote": "chapéu de aniversário de cone; ação principal: soprar as velas"
  },
- "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/chatgpt-1-milhao-em-5-dias.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/chatgpt-1-milhao-em-5-dias.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados.",
+ "derrubado": "virou rascunho no Metricool em 12/11 (chance abaixo do corte de 55%)"
 }

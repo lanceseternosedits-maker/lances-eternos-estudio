@@ -91,5 +91,6 @@
   "som": "trilha 02 + campainha de auditório",
   "mascote": "gravata-borboleta brilhante de apresentador; ação principal: apertar a campainha"
  },
- "obs_producao": "Produzido em 09/11 no motor da cena_contagem, módulo itens/watson-jeopardy.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+ "obs_producao": "Produzido em 09/11 no motor da cena_contagem, módulo itens/watson-jeopardy.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados.",
+ "derrubado": "virou rascunho no Metricool em 12/11 (chance abaixo do corte de 55%)"
 }

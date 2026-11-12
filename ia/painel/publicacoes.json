@@ -1211,10 +1211,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "musica-gratis",
    "pasta": "2026-11-10-musica-gratis",
-   "lido_em": "2026-11-10 02:16"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 06:00",
@@ -1222,10 +1222,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "musica-gratis",
    "pasta": "2026-11-10-musica-gratis",
-   "lido_em": "2026-11-10 02:16"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 06:15",
@@ -1233,10 +1233,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "musica-gratis",
    "pasta": "2026-11-10-musica-gratis",
-   "lido_em": "2026-11-10 02:16"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-12 19:30",
@@ -1739,10 +1739,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "assistentes-que-trabalham",
    "pasta": "2026-11-13-assistentes-que-trabalham",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 19:00",
@@ -1750,10 +1750,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "assistentes-que-trabalham",
    "pasta": "2026-11-13-assistentes-que-trabalham",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 19:15",
@@ -1761,10 +1761,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "assistentes-que-trabalham",
    "pasta": "2026-11-13-assistentes-que-trabalham",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 15:00",
@@ -1772,10 +1772,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "jarvis-em-portugues",
    "pasta": "2026-11-12-jarvis-em-portugues",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 15:00",
@@ -1783,10 +1783,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "jarvis-em-portugues",
    "pasta": "2026-11-12-jarvis-em-portugues",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 15:15",
@@ -1794,10 +1794,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "jarvis-em-portugues",
    "pasta": "2026-11-12-jarvis-em-portugues",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 11:00",
@@ -1805,10 +1805,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "refazendo-todo-software",
    "pasta": "2026-11-11-refazendo-todo-software",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 11:00",
@@ -1816,10 +1816,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "refazendo-todo-software",
    "pasta": "2026-11-11-refazendo-todo-software",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 11:15",
@@ -1827,10 +1827,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "refazendo-todo-software",
    "pasta": "2026-11-11-refazendo-todo-software",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 07:00",
@@ -1838,10 +1838,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-edita-foto",
    "pasta": "2026-11-11-ia-edita-foto",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 07:00",
@@ -1849,10 +1849,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-edita-foto",
    "pasta": "2026-11-11-ia-edita-foto",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 07:15",
@@ -1860,10 +1860,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-edita-foto",
    "pasta": "2026-11-11-ia-edita-foto",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 19:00",
@@ -1871,10 +1871,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-do-fim-do-mundo",
    "pasta": "2026-11-11-ia-do-fim-do-mundo",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 19:00",
@@ -1882,10 +1882,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-do-fim-do-mundo",
    "pasta": "2026-11-11-ia-do-fim-do-mundo",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 19:15",
@@ -1893,10 +1893,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-do-fim-do-mundo",
    "pasta": "2026-11-11-ia-do-fim-do-mundo",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 15:00",
@@ -1937,10 +1937,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "projetos-casa",
    "pasta": "2026-11-11-projetos-casa",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 11:00",
@@ -1948,10 +1948,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "projetos-casa",
    "pasta": "2026-11-11-projetos-casa",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 11:15",
@@ -1959,10 +1959,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "projetos-casa",
    "pasta": "2026-11-11-projetos-casa",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 07:00",
@@ -1970,10 +1970,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "projetos-gamer",
    "pasta": "2026-11-11-projetos-gamer",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 07:00",
@@ -1981,10 +1981,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "projetos-gamer",
    "pasta": "2026-11-11-projetos-gamer",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 07:15",
@@ -1992,10 +1992,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "projetos-gamer",
    "pasta": "2026-11-11-projetos-gamer",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 19:30",
@@ -2003,10 +2003,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "manual-ikea-3d",
    "pasta": "2026-11-10-manual-ikea-3d",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 19:30",
@@ -2014,10 +2014,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "manual-ikea-3d",
    "pasta": "2026-11-10-manual-ikea-3d",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 19:45",
@@ -2025,10 +2025,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "manual-ikea-3d",
    "pasta": "2026-11-10-manual-ikea-3d",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 14:00",
@@ -2036,10 +2036,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "camera-sony-destravada",
    "pasta": "2026-11-10-camera-sony-destravada",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 14:00",
@@ -2047,10 +2047,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "camera-sony-destravada",
    "pasta": "2026-11-10-camera-sony-destravada",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 14:15",
@@ -2058,10 +2058,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "camera-sony-destravada",
    "pasta": "2026-11-10-camera-sony-destravada",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 10:00",
@@ -2069,10 +2069,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "animar-sem-saber",
    "pasta": "2026-11-10-animar-sem-saber",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 10:00",
@@ -2080,10 +2080,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "animar-sem-saber",
    "pasta": "2026-11-10-animar-sem-saber",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 10:15",
@@ -2091,10 +2091,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "animar-sem-saber",
    "pasta": "2026-11-10-animar-sem-saber",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 20:30",
@@ -2102,10 +2102,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "sam-altman-demitido",
    "pasta": "2026-11-15-sam-altman-demitido",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 20:30",
@@ -2113,10 +2113,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "sam-altman-demitido",
    "pasta": "2026-11-15-sam-altman-demitido",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 20:45",
@@ -2124,10 +2124,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "sam-altman-demitido",
    "pasta": "2026-11-15-sam-altman-demitido",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 17:00",
@@ -2135,10 +2135,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-ganhou-o-nobel",
    "pasta": "2026-11-15-ia-ganhou-o-nobel",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 17:00",
@@ -2146,10 +2146,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-ganhou-o-nobel",
    "pasta": "2026-11-15-ia-ganhou-o-nobel",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 17:15",
@@ -2157,10 +2157,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-ganhou-o-nobel",
    "pasta": "2026-11-15-ia-ganhou-o-nobel",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 09:00",
@@ -2168,10 +2168,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-nao-sabe-o-dia-de-hoje",
    "pasta": "2026-11-15-ia-nao-sabe-o-dia-de-hoje",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 09:00",
@@ -2179,10 +2179,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-nao-sabe-o-dia-de-hoje",
    "pasta": "2026-11-15-ia-nao-sabe-o-dia-de-hoje",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 09:15",
@@ -2190,10 +2190,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-nao-sabe-o-dia-de-hoje",
    "pasta": "2026-11-15-ia-nao-sabe-o-dia-de-hoje",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 20:30",
@@ -2201,10 +2201,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "chatgpt-1-milhao-em-5-dias",
    "pasta": "2026-11-14-chatgpt-1-milhao-em-5-dias",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 20:30",
@@ -2212,10 +2212,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "chatgpt-1-milhao-em-5-dias",
    "pasta": "2026-11-14-chatgpt-1-milhao-em-5-dias",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 20:45",
@@ -2223,10 +2223,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "chatgpt-1-milhao-em-5-dias",
    "pasta": "2026-11-14-chatgpt-1-milhao-em-5-dias",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 17:00",
@@ -2234,10 +2234,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "artigo-que-criou-o-chatgpt",
    "pasta": "2026-11-14-artigo-que-criou-o-chatgpt",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 17:00",
@@ -2245,10 +2245,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "artigo-que-criou-o-chatgpt",
    "pasta": "2026-11-14-artigo-que-criou-o-chatgpt",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 17:15",
@@ -2256,10 +2256,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "artigo-que-criou-o-chatgpt",
    "pasta": "2026-11-14-artigo-que-criou-o-chatgpt",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 09:00",
@@ -2267,10 +2267,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "palavra-codigo-da-familia",
    "pasta": "2026-11-14-palavra-codigo-da-familia",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 09:00",
@@ -2278,10 +2278,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "palavra-codigo-da-familia",
    "pasta": "2026-11-14-palavra-codigo-da-familia",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 09:15",
@@ -2289,10 +2289,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "palavra-codigo-da-familia",
    "pasta": "2026-11-14-palavra-codigo-da-familia",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 21:30",
@@ -2300,10 +2300,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-ligou-pro-salao",
    "pasta": "2026-11-13-ia-ligou-pro-salao",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 21:30",
@@ -2311,10 +2311,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-ligou-pro-salao",
    "pasta": "2026-11-13-ia-ligou-pro-salao",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 21:45",
@@ -2322,10 +2322,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-ligou-pro-salao",
    "pasta": "2026-11-13-ia-ligou-pro-salao",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 08:00",
@@ -2333,10 +2333,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-puxa-saco",
    "pasta": "2026-11-13-ia-puxa-saco",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 08:00",
@@ -2344,10 +2344,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-puxa-saco",
    "pasta": "2026-11-13-ia-puxa-saco",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 08:15",
@@ -2355,10 +2355,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-puxa-saco",
    "pasta": "2026-11-13-ia-puxa-saco",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-12 21:30",
@@ -2366,10 +2366,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "engenheiro-disse-que-a-ia-sente",
    "pasta": "2026-11-12-engenheiro-disse-que-a-ia-sente",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-12 21:30",
@@ -2377,10 +2377,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "engenheiro-disse-que-a-ia-sente",
    "pasta": "2026-11-12-engenheiro-disse-que-a-ia-sente",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-12 21:45",
@@ -2388,10 +2388,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "engenheiro-disse-que-a-ia-sente",
    "pasta": "2026-11-12-engenheiro-disse-que-a-ia-sente",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-12 17:00",
@@ -2399,10 +2399,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "watson-jeopardy",
    "pasta": "2026-11-12-watson-jeopardy",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-12 17:00",
@@ -2410,10 +2410,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "watson-jeopardy",
    "pasta": "2026-11-12-watson-jeopardy",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-12 17:15",
@@ -2421,10 +2421,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "watson-jeopardy",
    "pasta": "2026-11-12-watson-jeopardy",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 12:00",
@@ -2432,10 +2432,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-enrola-demais",
    "pasta": "2026-11-13-ia-enrola-demais",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 12:00",
@@ -2443,10 +2443,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-enrola-demais",
    "pasta": "2026-11-13-ia-enrola-demais",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-13 12:15",
@@ -2454,10 +2454,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "ia-enrola-demais",
    "pasta": "2026-11-13-ia-enrola-demais",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 13:00",
@@ -2465,10 +2465,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "modo-pensar",
    "pasta": "2026-11-14-modo-pensar",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 13:00",
@@ -2476,10 +2476,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "modo-pensar",
    "pasta": "2026-11-14-modo-pensar",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-14 13:15",
@@ -2487,10 +2487,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "modo-pensar",
    "pasta": "2026-11-14-modo-pensar",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 13:00",
@@ -2498,10 +2498,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "REEL",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "divide-a-tarefa",
    "pasta": "2026-11-15-divide-a-tarefa",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 13:00",
@@ -2509,10 +2509,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": null,
-   "rascunho": false,
+   "rascunho": true,
    "texto": "divide-a-tarefa",
    "pasta": "2026-11-15-divide-a-tarefa",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-15 13:15",
@@ -2520,10 +2520,10 @@
    "status": "PENDING",
    "url": null,
    "tipo": "STORY",
-   "rascunho": false,
+   "rascunho": true,
    "texto": "divide-a-tarefa",
    "pasta": "2026-11-15-divide-a-tarefa",
-   "lido_em": "2026-11-11 23:36"
+   "lido_em": "2026-11-12 11:50"
   },
   {
    "data": "2026-11-10 13:00",

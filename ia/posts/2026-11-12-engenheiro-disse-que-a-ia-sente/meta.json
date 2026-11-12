@@ -90,5 +90,6 @@
   "som": "trilha 03 + projetor de cinema",
   "mascote": "crachá de funcionário; ação principal: assistir à tela abraçado aos joelhos"
  },
- "obs_producao": "Produzido em 09/11 no motor da cena_contagem, módulo itens/engenheiro-disse-que-a-ia-sente.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+ "obs_producao": "Produzido em 09/11 no motor da cena_contagem, módulo itens/engenheiro-disse-que-a-ia-sente.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados.",
+ "derrubado": "virou rascunho no Metricool em 12/11 (chance abaixo do corte de 55%)"
 }
