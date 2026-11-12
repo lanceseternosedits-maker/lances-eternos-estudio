@@ -1,64 +1,42 @@
 # Referências em alta (atualizado pelo agente de referências)
 
-Última atualização: **2026-11-09, 07:15 UTC** (janela: 02/11 a 09/11).
+Última atualização: **2026-11-12, ~07:00 UTC** (janela: 05/11 a 12/11).
 
 **Exemplos fixos do Vitor** (Reels animados do _aighostlab: mascote cubo laranja em diorama 3D, corte a cada frase; 3º exemplo "Reverse Engineer Anything"; 4º exemplo colagem em papel kraft com carimbos; análise do _aighostlab de 04/11): estão em `referencias_fixas.md`, sem alterações. Continuam valendo e devem ser lidos junto com este arquivo. (Lembrete da regra de 04/11: nada de selo contador "1/7" nos vídeos.)
 
-> **Sobre os números desta rodada:** as estrelas e as datas de criação vêm da **API oficial de busca do GitHub, lida em 09/11**. Não consegui abrir os READMEs (a leitura de páginas do GitHub foi bloqueada nesta execução), então "o que faz" vem só da descrição oficial de cada repositório, e **licença, instalação, requisitos e custo estão marcados como "não verificado"**. TikTok, Instagram e X bloqueiam leitura automática: não há números de views desta rodada. Antes de colocar "bombou lá fora" ou "grátis" no post, o agente de produção deve abrir o repositório e conferir licença e requisitos.
+> **Sobre os números desta rodada:** estrelas, licenças e datas de criação vêm da **API oficial de busca do GitHub, lida em 12/11**. A leitura dos READMEs de repositórios de terceiros foi bloqueada de novo, então "o que faz" vem só da descrição oficial e **instalação, requisitos e custo estão "não verificado"**. A busca na web não trouxe nada novo e datado da semana (só notícias de fevereiro). TikTok, Instagram e X bloqueiam leitura automática: sem números de views. Rodada enxuta: **só 3 itens passaram no teste de relevância**. Antes de escrever "bombou lá fora" ou "grátis" no post, abrir o repositório e conferir.
 
 ## Viralizando lá fora
-Filtrado pelo "teste de relevância" do `AGENTE.md`. Ordem = prioridade sugerida. Todos nasceram nas últimas 2 semanas e já têm milhares de estrelas (estrela no GitHub = pessoas que salvaram o projeto).
+Filtrado pelo "teste de relevância" do `AGENTE.md`. Ordem = prioridade sugerida.
 
-1. **unslop** (skill do Claude que tira a "cara de feito por IA" do seu site/app)
-   - **O que faz (descrição oficial):** "uma skill do Claude que transforma interface vibecoded, com cara de IA, em uma interface desenhada".
-   - **Por que dá vontade:** quem monta site, loja ou página com IA sabe que sai tudo igual e genérico. Esta skill promete o contrário, sem pagar designer.
-   - **Brinde possível:** o link do projeto + passo a passo de 3 linhas para ativar a skill + um prompt "antes e depois" para a pessoa colar.
-   - **Prova:** **12.189 estrelas**, repositório criado em 29/10 (≈11 dias); o mais forte da busca ([heydamir/unslop](https://github.com/heydamir/unslop), lido via API em 09/11).
-   - **Não verificado:** licença, se é grátis, instalação. Conferir antes de dizer "grátis".
+1. **pinky** (deixa agentes de IA usarem o seu celular, com você no controle)
+   - **O que faz (descrição oficial):** "Let AI agents use your phone, with you in the loop" (agentes de IA operam o celular e você acompanha/aprova).
+   - **Por que dá vontade:** é o gosto do Vitor: a IA **trabalha por você** no celular. Autor conhecido (DIYgod, criador do RSSHub), o que ajuda na confiança.
+   - **Brinde possível:** link + lista "5 tarefas para pedir ao agente" (só as que estiverem no README ou que a gente testar).
+   - **Prova:** **1.908 estrelas**, criado em 06/11, licença **Apache-2.0** ([DIYgod/pinky](https://github.com/DIYgod/pinky), API em 12/11).
+   - **Não verificado:** quais celulares (Android/iPhone), instalação, modelos usados, permissões. Agente que controla o celular mexe em dados pessoais: avisar no vídeo. Parece a mesma ideia do Mika da rodada de 09/11; usar um ou outro, não os dois.
 
-2. **Mika** (agente de IA que opera o seu Android)
-   - **O que faz (descrição oficial):** "um agente de IA no aparelho para Android que opera apps e a web para fazer as coisas por você".
-   - **Por que dá vontade:** é exatamente o gosto do Vitor: a IA que **trabalha por você** no celular, sem você aprender nada.
-   - **Brinde possível:** link + lista "5 tarefas para pedir ao agente" (só se testadas ou lidas no README).
-   - **Prova:** **7.804 estrelas**, criado em 29/10 ([wangzan101/Mika](https://github.com/wangzan101/Mika), via API em 09/11).
-   - **Não verificado:** licença, custo, quais modelos usa, nível de permissão que pede no celular. **Cuidado:** agente que controla o celular mexe em dados pessoais; no vídeo, avisar para testar com cuidado e ler o que o app pede.
+2. **ste80-humanizer** (skill que tira a "cara de texto feito por IA")
+   - **O que faz (descrição oficial):** "agent skill que remove os sinais de IA e reescreve o texto 80% do caminho para o ASD-STE100 (inglês técnico simplificado), método que Andrej Karpathy compartilhou".
+   - **Por que dá vontade:** todo mundo reconhece texto "de IA" (legenda, e-mail, currículo). Inimigo grande e conhecido; a skill promete o contrário.
+   - **Brinde possível:** link + prompt "antes e depois" para a pessoa colar num texto dela. **Cuidado:** a regra foi feita para inglês; não verificado se funciona bem em português, então testar antes de prometer.
+   - **Prova:** **418 estrelas**, criado em 09/11, licença **MIT** ([Dodaios/ste80-humanizer](https://github.com/Dodaios/ste80-humanizer), API em 12/11). Número menor que os da lista anterior: prova fraca, só entra se faltar pauta.
 
-3. **claude-animated-shorts** (skill grátis que faz vídeo curto animado viral)
-   - **O que faz (descrição oficial):** "skill grátis do Claude: shorts animados de histórias que viralizam (personagens 2D num mundo 3D) com three.js + Remotion".
-   - **Por que dá vontade:** "animar sem saber animar", mesma linha do Clayzo; a descrição já diz "grátis".
-   - **Brinde possível:** o link + um prompt de roteiro de 30 s para a pessoa testar.
-   - **Prova:** **2.468 estrelas**, criado em 01/11 ([mromidev/claude-animated-shorts](https://github.com/mromidev/claude-animated-shorts), via API em 09/11).
-   - **Atenção:** já está instalada no nosso projeto (ver `AGENTE.md`, 08/11), então podemos mostrar resultado real nosso. Licença MIT já registrada na instalação de 08/11.
+3. **cinematic-skill** (filme narrado feito só com código)
+   - **O que faz (descrição oficial):** "skill para agentes: filmes narrados feitos inteiramente por código, com uma câmera contínua sobre fotos, mapas e cartões, sincronizada com a voz" (Claude Code, Codex, Cursor, Gemini).
+   - **Por que dá vontade:** "fazer um filme/anúncio sem editor", mesma linha de cinecode e animated-shorts.
+   - **Prova:** **213 estrelas**, criado em 09/11, **MIT** ([Moh4696/cinematic-skill](https://github.com/Moh4696/cinematic-skill), API em 12/11). Prova fraca e tema já coberto; baixa prioridade.
 
-4. **Claude skill da MotionSites** (landing page de cinema com o Claude)
-   - **O que faz (descrição oficial):** "skill grátis do Claude: faz o Claude construir landing pages cinematográficas, nível de prêmio".
-   - **Por que dá vontade:** trabalho de agência (site de apresentação de negócio) feito pela IA; combina com o gosto "skills que fazem trabalho de agência".
-   - **Brinde possível:** link + prompt para a página do negócio da pessoa.
-   - **Prova:** **1.874 estrelas**, criado em 26/10 ([Motionsites-AI/claude-skill](https://github.com/Motionsites-AI/claude-skill), via API em 09/11).
-   - **Não verificado:** licença e se a skill leva a algum serviço pago do próprio MotionSites.
+**Continuam de pé da rodada de 09/11** (números não relidos, valem como estavam): unslop (12.189★ em 09/11), Mika (7.804★), claude-animated-shorts (2.468★, já instalada no nosso projeto), skill da MotionSites (1.874★). Conferir estrelas no dia da produção.
 
-5. **cinecode** (filme feito por código, com agente)
-   - **O que faz (descrição oficial):** "filmes feitos com código: curtas, vídeos longos de YouTube, anúncios, explicativos e clipes: um agente de código escreve o roteiro e monta cada quadro".
-   - **Por que dá vontade:** "fazer um anúncio/filme sem câmera nem editor".
-   - **Prova:** **1.682 estrelas**, criado em 03/11 ([sarpstar/cinecode](https://github.com/sarpstar/cinecode), via API em 09/11): o mais novo da lista.
-   - **Não verificado:** tudo além da descrição. Parecido com o item 3; usar só um dos dois por semana.
-
-6. **digital-human-koubo** (apresentador digital a partir de uma foto) — **usar com cuidado**
-   - **O que faz (descrição oficial):** "vídeos de humano digital falando, a partir de uma foto: geração via Renoise MCP + 5 estilos de edição + 48 componentes de acabamento" (skill para agentes).
-   - **Prova:** **1.888 estrelas**, criado em 26/10 ([andyhuo520/digital-human-koubo](https://github.com/andyhuo520/digital-human-koubo), via API em 09/11).
-   - **Limite editorial:** se usar, só com **foto da própria pessoa** e deixar claro; nada de deepfake de terceiros. Depende do serviço Renoise (custo não verificado). Baixa prioridade.
-
-**Também apareceram (sem prova de utilidade para a pessoa comum, descartados):** patch-gg/pixelfx (6.158★, 244 efeitos de pixel art; nichado), elvarofficial/teardown (2.691★, simulador 3D de máquinas desmontáveis; curiosidade), caru-ini/stack-diagram (2.157★, diagrama de arquitetura; programador), benjitaylor/skills (2.737★, conteúdo não verificado), kubai087/kubai-icons (401★, ícones animados). Cuidado com repositórios de "Claude pré-ativado/jailbreak/toolkit completo" que aparecem em alta com poucos dias: parecem isca de golpe, **não divulgar**.
+**Apareceram e foram descartados:** S2Arm (2.659★, rodar jogos de Switch no iPhone: tema Nintendo flopou e é adjacente a pirataria; não divulgar), GestaltX / Erosion-CN / NX2navi (editores de sistema do iOS e afins: nicho/risco), sheeridVerify (2.046★, nome sugere burlar verificação de desconto/estudante: **não divulgar**), agentes-chat (547★, alternativa ao Slack com agentes, AGPL, exige Docker: técnico), phoneuse (613★, iPhone a partir de um PC Linux: técnico), lot-map (448★, mapa do Claude Code: curiosidade de programador), line-art-animation (489★, nicho), tinker-ai-skill (316★, programador).
 
 ## Ganchos sugeridos
 Seguem o padrão de título com inimigo grande e paradoxo de `AGENTE.md` (nome de ferramenta nunca abre o título).
-- **"Seu site parece feito por IA"** (unslop; mata-inimigo: o visual genérico de IA que todo mundo reconhece). Variante: "O fim do site com cara de IA".
-- **"Um agente usa seu celular por você"** (Mika; delegar). Variante: "Seu celular agora trabalha sozinho".
-- **"Você não precisa mais de agência de sites"** (MotionSites; inimigo = agência cara). Só se a skill for mesmo grátis.
-- **"Animar sem saber animar"** (claude-animated-shorts; mostrar um resultado nosso nos primeiros segundos).
-- **"Anúncio sem câmera nem editor"** (cinecode).
-- **Chamadas de DM:** "Comenta SITE que eu te mando o passo a passo" (unslop) / "Comenta AGENTE" (Mika) / "Comenta ANIMA" (animated-shorts).
-- **Sugestão de prioridade:** (1) unslop como 🆕 novidade (maior número da semana); (2) Mika como 🆕 de "IA que trabalha por você", após conferir segurança; (3) animated-shorts com resultado nosso. Evitar temas dos últimos 14 dias (`estado.json`).
+- **"Seu celular agora trabalha sozinho"** (pinky ou Mika; tese 4 palavras). Variante: "A IA usa seu celular por você". Chamada de DM: "Comenta AGENTE que eu te mando o passo a passo".
+- **"Seu texto parece feito por IA"** (ste80-humanizer; inimigo = o texto genérico de IA). Variante: "O fim do texto com cara de IA". DM: "Comenta TEXTO".
+- **"Filme sem câmera nem editor"** (cinematic-skill / cinecode / animated-shorts; usar só um por semana). DM: "Comenta FILME".
+- **Prioridade sugerida:** (1) pinky como 🆕 novidade (maior número da semana, após conferir segurança); (2) ste80 só se funcionar em português num teste nosso; (3) animated-shorts com resultado nosso. Evitar temas dos últimos 14 dias (`estado.json`).
 
 ## Ganchos que estão rendendo (rodada anterior, 04/11)
 Adaptados da ideia dos posts acima, nunca traduzidos.
