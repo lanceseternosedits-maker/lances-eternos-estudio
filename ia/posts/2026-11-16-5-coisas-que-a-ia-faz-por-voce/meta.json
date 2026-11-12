@@ -1,1 +1,114 @@
-{"data": "2026-11-16", "horario": "14:00", "pilar": "reel", "categoria": "novidade", "formato": "contagem", "temas": ["5-coisas-que-a-ia-faz-por-voce"], "fontes": ["https://www.science.org/doi/10.1126/science.adh2586", "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/phishing"], "prova_viral": "Kit 'Super Assistente de IA' (produtos/assistente-pessoal/venda.md): assistentes Contas da casa, Cardápio, Revisor de mensagens, Personal de treino e Detector de golpe. Base: estudo na Science (2023, Noy e Zhang): quem usou ChatGPT em escrita levou 40% menos tempo, com 18% mais qualidade. Pautas de utilidade brasileira lideram (LEIS 2,5% de comentário).", "cta": "KIT", "polemica": false, "horarios": {"instagram": "2026-11-16 14:00", "tiktok": "2026-11-16 14:00"}, "elementos": {"etiqueta": "b) papel rasgado com fita adesiva", "nome": "f) escrito à mão", "contador": "d) pote enchendo de estrelas (tarefas feitas)", "legenda": "e) tarja de TV/arcade", "transicao": "d) virada de página", "camera": "e) câmera na mão", "fechamento": "a) lista + pílulas COMENTA", "tipografia": "e) Caveat (manuscrita)", "som": "trilha 02 + carimbo e papel", "mascote": "avental e lista de compras; ação principal: carimbar FEITO"}, "status": "roteiro aguardando aprovação", "primeiro_comentario": "💬 Comenta KIT que eu te mando na DM 👇\nQuer o kit com 10 assistentes prontos? Comenta KIT", "revisao": {"veredito": "ajustado", "resumo": "utilidade doméstica, preço dito, sem promessa", "pareceres": [{"revisor": "vitor", "veredito": "passa", "nota": "Utilidade doméstica, nº 1 forte."}, {"revisor": "fatos", "veredito": "passa", "nota": "Preço R$ 17 e garantia de 7 dias conferem com venda.md."}, {"revisor": "gancho", "veredito": "passa", "nota": "CTA KIT no meio."}, {"revisor": "clareza", "veredito": "passa", "nota": "34,6 s."}], "ajustes": ["gancho/etiqueta: 'ajuda a desconfiar de golpe'; n3: cita Super Assistente de IA; cta diz R$ 17"], "em": "2026-11-12 12:00"}, "checagem": {"em": "2026-11-12 08:03", "ok": false, "itens": [{"nome": "Vídeo", "valor": "nenhum reel.mp4/short.mp4", "ok": false, "regra": "o MP4 final precisa estar na pasta"}, {"nome": "Fontes", "valor": "2 fonte(s)", "ok": true, "regra": "todo fato com fonte"}, {"nome": "Prova viral", "valor": "preenchida", "ok": true, "regra": "toda pauta com a prova de que viralizou"}, {"nome": "Legenda do Instagram", "valor": "1062 caracteres", "ok": true, "regra": "até 2.200 caracteres"}, {"nome": "CTA na legenda", "valor": "KIT", "ok": true, "regra": "a palavra do CTA aparece na legenda"}, {"nome": "Hashtags no Instagram", "valor": "5", "ok": true, "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"}, {"nome": "Resposta da DM", "valor": "ok", "ok": true, "regra": "resposta_dm.txt com os links"}]}}
+{
+ "data": "2026-11-16",
+ "horario": "14:00",
+ "pilar": "reel",
+ "categoria": "novidade",
+ "formato": "contagem",
+ "temas": [
+  "5-coisas-que-a-ia-faz-por-voce"
+ ],
+ "fontes": [
+  "https://www.science.org/doi/10.1126/science.adh2586",
+  "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/phishing"
+ ],
+ "prova_viral": "Kit 'Super Assistente de IA' (produtos/assistente-pessoal/venda.md): assistentes Contas da casa, Cardápio, Revisor de mensagens, Personal de treino e Detector de golpe. Base: estudo na Science (2023, Noy e Zhang): quem usou ChatGPT em escrita levou 40% menos tempo, com 18% mais qualidade. Pautas de utilidade brasileira lideram (LEIS 2,5% de comentário).",
+ "cta": "KIT",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-16 14:00",
+  "tiktok": "2026-11-16 14:00"
+ },
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita adesiva",
+  "nome": "f) escrito à mão",
+  "contador": "d) pote enchendo de estrelas (tarefas feitas)",
+  "legenda": "e) tarja de TV/arcade",
+  "transicao": "d) virada de página",
+  "camera": "e) câmera na mão",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 02 + carimbo e papel",
+  "mascote": "avental e lista de compras; ação principal: carimbar FEITO"
+ },
+ "status": "descartado",
+ "primeiro_comentario": "💬 Comenta KIT que eu te mando na DM 👇\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "utilidade doméstica, preço dito, sem promessa",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "passa",
+    "nota": "Utilidade doméstica, nº 1 forte."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "passa",
+    "nota": "Preço R$ 17 e garantia de 7 dias conferem com venda.md."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "passa",
+    "nota": "CTA KIT no meio."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "passa",
+    "nota": "34,6 s."
+   }
+  ],
+  "ajustes": [
+   "gancho/etiqueta: 'ajuda a desconfiar de golpe'; n3: cita Super Assistente de IA; cta diz R$ 17"
+  ],
+  "em": "2026-11-12 12:00"
+ },
+ "checagem": {
+  "em": "2026-11-12 08:03",
+  "ok": false,
+  "itens": [
+   {
+    "nome": "Vídeo",
+    "valor": "nenhum reel.mp4/short.mp4",
+    "ok": false,
+    "regra": "o MP4 final precisa estar na pasta"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "1062 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "KIT",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Hashtags no Instagram",
+    "valor": "5",
+    "ok": true,
+    "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "nota_filtro": "chance 43%, abaixo do corte"
+}

@@ -1,1 +1,114 @@
-{"data": "2026-11-16", "horario": "12:00", "pilar": "reel", "categoria": "como_funciona", "formato": "palco", "temas": ["pergunta-gasta-um-forno"], "fontes": ["https://blog.samaltman.com/the-gentle-singularity", "https://www.datacenterdynamics.com/en/news/sam-altman-chatgpt-queries-consume-034-watt-hours-of-electricity-and-0000085-gallons-of-water/"], "prova_viral": "⚙️: pergunta de curiosidade que muita gente tem ('IA gasta muita energia?'). Número divulgado por Sam Altman (jun/2025) e noticiado por vários veículos (DCD, Business Insider, TechRadar). Polêmica leve: o número é da própria empresa.", "cta": "FORNO", "polemica": true, "horarios": {"instagram": "2026-11-16 12:00", "tiktok": "2026-11-16 12:00"}, "elementos": {"etiqueta": "e) tela de terminal", "nome": "b) carimbo batendo", "contador": "f) termômetro", "legenda": "a) bloco de 4 palavras com a atual colorida", "transicao": "a) flash branco", "camera": "a) 2 planos frontais", "fechamento": "d) tela CONTINUE? com contagem", "tipografia": "b) Archivo Black", "som": "trilha 01 + forno e relógio de luz", "mascote": "avental e luva de forno; ação principal: apertar o relógio de luz como cronômetro"}, "status": "roteiro aguardando aprovação", "primeiro_comentario": "💬 Comenta FORNO que eu te mando na DM 👇", "revisao": {"veredito": "ajustado", "resumo": "número atribuído ao CEO, truque prático", "pareceres": [{"revisor": "vitor", "veredito": "passa", "nota": "Curiosidade do dia a dia com truque útil."}, {"revisor": "fatos", "veredito": "passa", "nota": "0,34 Wh e forno de ~1 s, atribuídos a Sam Altman."}, {"revisor": "gancho", "veredito": "passa", "nota": "Etiqueta com número e fonte."}, {"revisor": "clareza", "veredito": "passa", "nota": "30 s."}], "ajustes": ["gancho atribui ao CEO e à média; s4 'pra acertar de primeira'"], "em": "2026-11-12 12:00"}, "checagem": {"em": "2026-11-12 08:03", "ok": false, "itens": [{"nome": "Vídeo", "valor": "nenhum reel.mp4/short.mp4", "ok": false, "regra": "o MP4 final precisa estar na pasta"}, {"nome": "Fontes", "valor": "2 fonte(s)", "ok": true, "regra": "todo fato com fonte"}, {"nome": "Prova viral", "valor": "preenchida", "ok": true, "regra": "toda pauta com a prova de que viralizou"}, {"nome": "Legenda do Instagram", "valor": "960 caracteres", "ok": true, "regra": "até 2.200 caracteres"}, {"nome": "CTA na legenda", "valor": "FORNO", "ok": true, "regra": "a palavra do CTA aparece na legenda"}, {"nome": "Hashtags no Instagram", "valor": "5", "ok": true, "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"}, {"nome": "Resposta da DM", "valor": "ok", "ok": true, "regra": "resposta_dm.txt com os links"}]}}
+{
+ "data": "2026-11-16",
+ "horario": "12:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "pergunta-gasta-um-forno"
+ ],
+ "fontes": [
+  "https://blog.samaltman.com/the-gentle-singularity",
+  "https://www.datacenterdynamics.com/en/news/sam-altman-chatgpt-queries-consume-034-watt-hours-of-electricity-and-0000085-gallons-of-water/"
+ ],
+ "prova_viral": "⚙️: pergunta de curiosidade que muita gente tem ('IA gasta muita energia?'). Número divulgado por Sam Altman (jun/2025) e noticiado por vários veículos (DCD, Business Insider, TechRadar). Polêmica leve: o número é da própria empresa.",
+ "cta": "FORNO",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-16 12:00",
+  "tiktok": "2026-11-16 12:00"
+ },
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "b) carimbo batendo",
+  "contador": "f) termômetro",
+  "legenda": "a) bloco de 4 palavras com a atual colorida",
+  "transicao": "a) flash branco",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 01 + forno e relógio de luz",
+  "mascote": "avental e luva de forno; ação principal: apertar o relógio de luz como cronômetro"
+ },
+ "status": "descartado",
+ "primeiro_comentario": "💬 Comenta FORNO que eu te mando na DM 👇",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "número atribuído ao CEO, truque prático",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "passa",
+    "nota": "Curiosidade do dia a dia com truque útil."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "passa",
+    "nota": "0,34 Wh e forno de ~1 s, atribuídos a Sam Altman."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "passa",
+    "nota": "Etiqueta com número e fonte."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "passa",
+    "nota": "30 s."
+   }
+  ],
+  "ajustes": [
+   "gancho atribui ao CEO e à média; s4 'pra acertar de primeira'"
+  ],
+  "em": "2026-11-12 12:00"
+ },
+ "checagem": {
+  "em": "2026-11-12 08:03",
+  "ok": false,
+  "itens": [
+   {
+    "nome": "Vídeo",
+    "valor": "nenhum reel.mp4/short.mp4",
+    "ok": false,
+    "regra": "o MP4 final precisa estar na pasta"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "2 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "960 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "FORNO",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Hashtags no Instagram",
+    "valor": "5",
+    "ok": true,
+    "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "nota_filtro": "chance 53%, abaixo do corte"
+}

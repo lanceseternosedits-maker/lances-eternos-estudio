@@ -14,6 +14,7 @@ from pathlib import Path
 
 IA = Path(__file__).resolve().parent.parent
 BASE = 25  # 2 de 8 Reels medidos passaram de ~300 views (07/11)
+CORTE_CHANCE = 70  # Vitor, 12/11: roteiro novo com chance abaixo disto é descartado sozinho (status "descartado"), sem ir para a aprovação
 CORTE = 250  # views de referência (perto da mediana dos Reels medidos)
 # apelidos da leitura da API (metricas.json) -> pasta do post
 APELIDOS = {"5 skills": "2026-11-07-5-skills", "desenho animado": "2026-11-04-desenho-animado", "canva": "2026-11-04-canva-craft",
@@ -180,3 +181,31 @@ def chance(pasta: Path, hist: list[dict]) -> dict:
     pct = max(5, min(85, sum(a for a, _ in fatores)))
     nivel = "boa aposta" if pct >= 50 else "médio" if pct >= 30 else "arriscado"
     return {"pct": pct, "nivel": nivel, "tipo": tipo, "fatores": fatores}
+
+
+def filtrar(pasta: Path, hist: list[dict] | None = None) -> dict:
+    """Filtro do Vitor (12/11): chance < CORTE_CHANCE -> meta.json status "descartado" + nota_filtro; senão não mexe.
+    Chame para todo roteiro novo ANTES de mandar para a aprovação. Devolve {"pct", "descartado"}."""
+    hist = hist if hist is not None else historico()
+    pct = chance(pasta, hist)["pct"]
+    if pct >= CORTE_CHANCE:
+        return {"pct": pct, "descartado": False}
+    mp = pasta / "meta.json"
+    meta = _ler(mp, {}) or {}
+    meta["status"] = "descartado"
+    meta["nota_filtro"] = f"chance {pct}%, abaixo do corte"
+    mp.write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
+    return {"pct": pct, "descartado": True}
+
+
+if __name__ == "__main__":  # python3 painel/chance.py -> filtra os roteiros hoje "aguardando aprovação"
+    h = historico()
+    ok = desc = 0
+    for d in sorted((IA / "posts").iterdir()):
+        st = str((_ler(d / "meta.json", {}) or {}).get("status") or "").lower()
+        if d.is_dir() and "roteiro aguardando" in st:
+            r = filtrar(d, h)
+            desc += r["descartado"]
+            ok += not r["descartado"]
+            print(f'{r["pct"]:>3}%  {"DESCARTADO" if r["descartado"] else "fica      "}  {d.name}')
+    print(f"{desc} descartados, {ok} ficaram (corte {CORTE_CHANCE}%)")

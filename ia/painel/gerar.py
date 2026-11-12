@@ -286,6 +286,9 @@ def main() -> None:
         cartoes.append({"pasta": None, "meta": {}, "pubs": [p], "status": status_do_post({}, [p]), "quando": p["data"],
                         "titulo": p.get("texto", ""), "capa": None, "metricas": {}, "checagem": None})
     cartoes.sort(key=lambda c: c["quando"], reverse=True)
+    # filtro de chance (Vitor, 12/11): descartados saem da fila e dos cartões; só a contagem aparece
+    n_descartados = sum(1 for c in cartoes if str(c["meta"].get("status") or "").lower() == "descartado")
+    cartoes = [c for c in cartoes if str(c["meta"].get("status") or "").lower() != "descartado"]
 
     # ---- o que precisa do Vitor
     pendencias = []
@@ -627,6 +630,7 @@ details.resp textarea{{width:100%;box-sizing:border-box;background:var(--bg);col
 <section class="aba aba-aprovar">
  <div class="filas" id="filas"><button data-f="pend" class="on">⏳ Pendentes <b data-cont="pend">0</b></button><button data-f="aprov">✔ Aprovados <b data-cont="aprov">0</b></button><button data-f="neg">✘ Negados <b data-cont="neg">0</b></button></div>
  <div id="aviso"></div>
+ {(f'<p class="it" style="opacity:.7;font-size:13px">🗑 {n_descartados} descartados pelo filtro (chance abaixo de {chance_mod.CORTE_CHANCE}%)</p>') if n_descartados else ''}
  {('<div class="pend"><ul>' + pend + '</ul></div>') if pend else ''}
  <div class="seg" id="seg"><button data-e="" class="on">Tudo</button><button data-e="vídeo">🎬 Vídeos</button><button data-e="roteiro">📝 Roteiros</button></div>
  <div class="chipsbar" id="cats-a"><button data-c="" class="on">Todas</button>{chips_cat}<button id="porchance">🔥 maior chance</button></div>

@@ -674,6 +674,15 @@
    "dm": "Aqui está! 🎬\n\n📰 O caso: https://www.nbcnews.com/news/us-news/google-fired-software-engineer-claimed-ai-chatbot-was-sentient-rcna39679\n📰 A demissão: https://www.engadget.com/blake-lemoide-fired-google-lamda-sentient-001746197.html\n\nCuriosidade: a LaMDA virou base do Bard, que depois virou o Gemini.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
   {
+   "palavra": "FABLE",
+   "pasta": "2026-11-12-fable-5-2-tres-numeros",
+   "quando": "2026-11-12 16:00",
+   "titulo": "A IA que você usa ficou mais rápida",
+   "thumb": "",
+   "url": "",
+   "dm": "Oi! Que bom que você comentou FABLE 🙌\nOs 3 números do Claude Fable 5.2 (lançado em 09/11/2026):\n• Até 30% mais rápido que o Fable 5.1 (TNW e MakeUseOf)\n• Preço: US$ 10 → US$ 8 por milhão de pedaços de texto de entrada (US$ 50 → US$ 40 na saída), valores da API\n• Teste de robôs (RoboDojo): 27,6% → 64,9%\n\nLinks:\nhttps://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price\nhttps://www.makeuseof.com/fable-52-is-here-and-these-claude-users-get-a-week-to-try-it-at-no-extra-cost/\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
    "palavra": "MAPA",
    "pasta": "2026-11-12-graphify-mapa",
    "quando": "2026-11-12",
@@ -683,6 +692,24 @@
    "dm": "Oi! Que bom que você comentou MAPA 🙌\nAqui está o Graphify (grátis, código aberto):\n• https://github.com/safishamsi/graphify\n\nPasso a passo no Claude Code:\n1) No terminal: pip install graphifyy\n2) graphify claude install\n3) Dentro do Claude Code, na pasta do projeto: /graphify\nPronto: nas próximas sessões o Claude consulta o mapa em vez de reler tudo.\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
   {
+   "palavra": "GTA",
+   "pasta": "2026-11-12-gta-6-sai-quinta",
+   "quando": "2026-11-12 19:00",
+   "titulo": "Gta 6 sai quinta, dia 19",
+   "thumb": "",
+   "url": "",
+   "dm": "Oi! Que bom que você comentou GTA 🙌\nChecklist pro lançamento do GTA 6 (quinta, 19/11, edição padrão a partir de R$ 449,90):\n1) Veja quanto espaço livre tem no seu PS5 ou Xbox Series.\n2) Entre na sua conta (PSN ou Xbox) e confira se o pagamento está certo.\n3) Compare o preço só em loja oficial; desconfie de preço muito abaixo.\n4) Se a loja liberar pré-download, baixe antes pra não perder a noite.\n\nTudo só com jogo que é seu e em loja oficial. Se curtir, me segue pra mais notícia que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
+   "palavra": "MOCHILA",
+   "pasta": "2026-11-12-ia-esquece-o-comeco",
+   "quando": "2026-11-12 13:00",
+   "titulo": "Por que a IA esquece o que você falou?",
+   "thumb": "",
+   "url": "",
+   "dm": "Aqui está o truque! 🎒\n\nQuando a conversa ficar longa, cole isto de novo na conversa (troque o que está entre colchetes):\n\n\"Lembrete das minhas regras:\n1) Responda em [curto / passo a passo].\n2) Tom: [simples, sem jargão].\n3) Evite: [o que te irrita].\nPode continuar de onde parou.\"\n\nQuer 10 assistentes prontos que já te conhecem? Comenta KIT. Se curtiu, me segue. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
    "palavra": "JARVIS",
    "pasta": "2026-11-12-jarvis-em-portugues",
    "quando": "2026-11-15 15:00",
@@ -690,6 +717,15 @@
    "thumb": "/capas/thumb-2026-11-12-jarvis-em-portugues.jpg",
    "url": "",
    "dm": "Oi! Que bom que você comentou JARVIS 🙌\nAqui está o que eu prometi (link + passo a passo de instalação):\n• https://github.com/jgm-source/jarvis-opensource\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
+   "palavra": "PADRINHO",
+   "pasta": "2026-11-12-padrinho-da-ia-saiu-do-google",
+   "quando": "2026-11-12 20:30",
+   "titulo": "Ele ajudou a criar a IA e saiu do Google",
+   "thumb": "",
+   "url": "",
+   "dm": "Oi! Que bom que você comentou PADRINHO 🙌\nAs fontes da história:\n• NYT, 01/05/2023: https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html\n• Nobel de Física 2024: https://www.nobelprize.org/prizes/physics/2024/press-release/\n\nCuriosidade: ele dividiu o prêmio com John Hopfield. Se curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
   {
    "palavra": "WATSON",
@@ -969,42 +1005,6 @@
    "thumb": "",
    "url": "",
    "dm": "Aqui está a ficha! 📋\n\nCola isso no começo da conversa (ChatGPT, Claude ou Gemini) e troca o que está entre colchetes:\n\n\"Antes de responder, saiba quem eu sou:\n1) Eu sou [seu nome], trabalho com [sua área].\n2) No dia a dia eu preciso de ajuda com [3 tarefas].\n3) Quero respostas em [curtas / passo a passo], em português do Brasil.\n4) Se faltar informação, me pergunte antes de chutar.\n5) Se não souber, diga que não sabe.\"\n\nDica: no ChatGPT, vale salvar isso em Configurações > Personalização. No Claude e no Gemini, cole num Projeto ou nas instruções.\n\nQuer 10 assistentes prontos que já te conhecem? Comenta KIT. Se curtiu, me segue. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
-  },
-  {
-   "palavra": "FABLE",
-   "pasta": "2026-11-17-fable-5-2-tres-numeros",
-   "quando": "2026-11-17 16:00",
-   "titulo": "A IA que você usa ficou mais rápida",
-   "thumb": "",
-   "url": "",
-   "dm": "Oi! Que bom que você comentou FABLE 🙌\nOs 3 números do Claude Fable 5.2 (lançado em 09/11/2026):\n• Até 30% mais rápido que o Fable 5.1 (TNW e MakeUseOf)\n• Preço: US$ 10 → US$ 8 por milhão de pedaços de texto de entrada (US$ 50 → US$ 40 na saída), valores da API\n• Teste de robôs (RoboDojo): 27,6% → 64,9%\n\nLinks:\nhttps://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price\nhttps://www.makeuseof.com/fable-52-is-here-and-these-claude-users-get-a-week-to-try-it-at-no-extra-cost/\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
-  },
-  {
-   "palavra": "GTA",
-   "pasta": "2026-11-17-gta-6-sai-quinta",
-   "quando": "2026-11-17 09:00",
-   "titulo": "Gta 6 sai quinta, dia 19",
-   "thumb": "",
-   "url": "",
-   "dm": "Oi! Que bom que você comentou GTA 🙌\nChecklist pro lançamento do GTA 6 (quinta, 19/11, edição padrão a partir de R$ 449,90):\n1) Veja quanto espaço livre tem no seu PS5 ou Xbox Series.\n2) Entre na sua conta (PSN ou Xbox) e confira se o pagamento está certo.\n3) Compare o preço só em loja oficial; desconfie de preço muito abaixo.\n4) Se a loja liberar pré-download, baixe antes pra não perder a noite.\n\nTudo só com jogo que é seu e em loja oficial. Se curtir, me segue pra mais notícia que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
-  },
-  {
-   "palavra": "MOCHILA",
-   "pasta": "2026-11-17-ia-esquece-o-comeco",
-   "quando": "2026-11-17 12:00",
-   "titulo": "Por que a IA esquece o que você falou?",
-   "thumb": "",
-   "url": "",
-   "dm": "Aqui está o truque! 🎒\n\nQuando a conversa ficar longa, cole isto de novo na conversa (troque o que está entre colchetes):\n\n\"Lembrete das minhas regras:\n1) Responda em [curto / passo a passo].\n2) Tom: [simples, sem jargão].\n3) Evite: [o que te irrita].\nPode continuar de onde parou.\"\n\nQuer 10 assistentes prontos que já te conhecem? Comenta KIT. Se curtiu, me segue. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
-  },
-  {
-   "palavra": "PADRINHO",
-   "pasta": "2026-11-17-padrinho-da-ia-saiu-do-google",
-   "quando": "2026-11-17 19:00",
-   "titulo": "Ele ajudou a criar a IA e saiu do Google",
-   "thumb": "",
-   "url": "",
-   "dm": "Oi! Que bom que você comentou PADRINHO 🙌\nAs fontes da história:\n• NYT, 01/05/2023: https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html\n• Nobel de Física 2024: https://www.nobelprize.org/prizes/physics/2024/press-release/\n\nCuriosidade: ele dividiu o prêmio com John Hopfield. Se curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   }
  ],
  "globais": [

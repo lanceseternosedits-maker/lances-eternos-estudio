@@ -1,69 +1,33 @@
 {
- "gerado_em": "2026-11-12 08:24",
+ "gerado_em": "2026-11-12 09:28",
  "videos": [
+  {
+   "pasta": "2026-11-12-padrinho-da-ia-saiu-do-google",
+   "titulo": "ELE AJUDOU A CRIAR A IA E SAIU DO GOOGLE",
+   "quando": "2026-11-12 20:30"
+  },
+  {
+   "pasta": "2026-11-12-gta-6-sai-quinta",
+   "titulo": "GTA 6 SAI QUINTA, DIA 19",
+   "quando": "2026-11-12 19:00"
+  },
+  {
+   "pasta": "2026-11-12-fable-5-2-tres-numeros",
+   "titulo": "A IA QUE VOCÊ USA FICOU MAIS RÁPIDA",
+   "quando": "2026-11-12 16:00"
+  },
+  {
+   "pasta": "2026-11-12-ia-esquece-o-comeco",
+   "titulo": "POR QUE A IA ESQUECE O QUE VOCÊ FALOU?",
+   "quando": "2026-11-12 13:00"
+  },
   {
    "pasta": "2026-11-12-graphify-mapa",
    "titulo": "Comenta MAPA que eu te mando o link e o passo a passo pra instalar. 🗺️",
    "quando": "2026-11-12"
   }
  ],
- "roteiros": [
-  {
-   "pasta": "2026-11-17-padrinho-da-ia-saiu-do-google",
-   "titulo": "ELE AJUDOU A CRIAR A IA E SAIU DO GOOGLE",
-   "quando": "2026-11-17 19:00"
-  },
-  {
-   "pasta": "2026-11-17-fable-5-2-tres-numeros",
-   "titulo": "A IA QUE VOCÊ USA FICOU MAIS RÁPIDA",
-   "quando": "2026-11-17 16:00"
-  },
-  {
-   "pasta": "2026-11-17-ia-esquece-o-comeco",
-   "titulo": "POR QUE A IA ESQUECE O QUE VOCÊ FALOU?",
-   "quando": "2026-11-17 12:00"
-  },
-  {
-   "pasta": "2026-11-17-gta-6-sai-quinta",
-   "titulo": "GTA 6 SAI QUINTA, DIA 19",
-   "quando": "2026-11-17 09:00"
-  },
-  {
-   "pasta": "2026-11-16-ia-perigosa-demais-pra-lancar",
-   "titulo": "2019: A IA QUE FICOU NO COFRE",
-   "quando": "2026-11-16 21:30"
-  },
-  {
-   "pasta": "2026-11-16-o-que-todo-site-sabe-de-voce",
-   "titulo": "5 COISAS QUE TODO SITE SABE DE VOCÊ",
-   "quando": "2026-11-16 19:30"
-  },
-  {
-   "pasta": "2026-11-16-5-coisas-que-a-ia-faz-por-voce",
-   "titulo": "5 COISAS QUE A IA FAZ POR VOCÊ",
-   "quando": "2026-11-16 14:00"
-  },
-  {
-   "pasta": "2026-11-16-pergunta-gasta-um-forno",
-   "titulo": "1 PERGUNTA = 1 SEGUNDO DE FORNO",
-   "quando": "2026-11-16 12:00"
-  },
-  {
-   "pasta": "2026-11-16-ia-usa-seu-celular",
-   "titulo": "3 IAs QUE USAM SEU CELULAR POR VOCÊ",
-   "quando": "2026-11-16 10:00"
-  },
-  {
-   "pasta": "2026-11-16-treinar-custa-milhoes",
-   "titulo": "O GPT-4 CUSTOU US$ 78 MILHÕES",
-   "quando": "2026-11-16 08:00"
-  },
-  {
-   "pasta": "2026-11-13-ia-aprendeu-a-ver",
-   "titulo": "2012: A IA APRENDEU A VER",
-   "quando": "2026-11-13 17:00"
-  }
- ],
+ "roteiros": [],
  "agenda_3_dias": [
   {
    "quando": "2026-11-12 10:00",
@@ -220,6 +184,14 @@
   {
    "quando": "2026-11-15 07:00",
    "titulo": "3 IAS GRÁTIS PRA FOTO QUE RODAM NO SEU PC",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-15 09:00",
+   "titulo": "SUA IA PAROU NO TEMPO",
    "redes": [
     "instagram",
     "tiktok"
