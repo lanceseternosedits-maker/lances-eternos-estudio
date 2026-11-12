@@ -27,16 +27,16 @@
  "prova_viral": "Data quente: lançamento em 19/11/2026 (Mixvale, SavePoint, Omelete/Gamevicio: Take-Two reconfirmou). Jogos furam a queda de alcance (PLAY 1.709, MOBILE 1.722, CORTES/GTA 6 695). Pedido direto do Vitor (12/11).",
  "obs": "Fatos lidos só em títulos/trechos de busca (os sites bloquearam a leitura da página inteira): conferir no dia da produção data, plataformas e preço R$ 449,90 (a partir de, edição padrão) no comunicado da Rockstar/Take-Two ou em 2 matérias abertas. Sem dica de pirataria; sem prometer nada sobre PC.",
  "polemica": false,
- "agenda": "2026-11-17 09:00",
+ "agenda": "2026-11-12 19:00",
  "palavras": 72,
  "duracao_estimada_s": 25.7,
- "status": "roteiro aguardando aprovação",
+ "status": "roteiro aprovado",
  "segmentos": [
   {
    "cena": "gancho",
    "tag": "GTA 6 SAI QUINTA, DIA 19",
-   "fala": "O GTA 6 sai quinta, dia 19. E a versão padrão começa em 449 reais.",
-   "legenda": "O GTA 6 sai quinta, dia 19. E a versão padrão começa em 449 reais.",
+   "fala": "O GTA 6 sai quinta que vem, dia 19. E a versão padrão começa em 449 reais.",
+   "legenda": "O GTA 6 sai quinta que vem, dia 19. E a versão padrão começa em 449 reais.",
    "sfx": [
     {
      "t": 0.0,

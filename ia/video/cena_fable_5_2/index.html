@@ -1,0 +1,200 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:AB;src:url(../cena_contagem/f/archivo-black-latin-400-normal.woff2)}
+@font-face{font-family:SG;src:url(../cena_contagem/f/space-grotesk-latin-700-normal.woff2)}
+*{margin:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+canvas{position:absolute;left:0;top:0;width:1080px;height:1920px}
+</style></head><body><canvas id="g" width="1080" height="1920"></canvas><canvas id="u" width="1080" height="1920"></canvas>
+<script type="module">
+// Fable 5.2 · 3 números. Motor da cena_gta (cidade de blocos ao pôr do sol), mundo novo: placa de preço sobre a avenida,
+// corredores (velocidade) e braço robótico que monta uma torre (teste de robôs). Interface: setTL, setT, eventos, capa.
+import * as THREE from '../cena_trend/three.module.min.js';
+for (const f of ['400 60px AB', '700 60px SG']) await document.fonts.load(f);
+const R = new THREE.WebGLRenderer({ canvas: document.getElementById('g'), antialias: true, preserveDrawingBuffer: true });
+R.setSize(1080, 1920, false); R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap; R.outputColorSpace = THREE.SRGBColorSpace;
+const S = new THREE.Scene(); const cam = new THREE.PerspectiveCamera(40, 1080 / 1920, .1, 500);
+S.fog = new THREE.Fog(0xf7a98a, 35, 170);
+const hemi = new THREE.HemisphereLight(0xffe2c4, 0x8a5a6a, 1.35); S.add(hemi);
+const sol = new THREE.DirectionalLight(0xffb070, 2.6); sol.position.set(-8, 10, -60); sol.castShadow = true; sol.shadow.mapSize.set(2048, 2048); sol.shadow.bias = -0.0006; sol.shadow.normalBias = .04;
+Object.assign(sol.shadow.camera, { left: -40, right: 40, top: 40, bottom: -40, near: 1, far: 120 }); S.add(sol, sol.target);
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)), lin = (t, a, b) => cl((t - a) / (b - a)), eo = x => 1 - Math.pow(1 - cl(x), 3);
+const eio = x => { x = cl(x); return x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; }, back = x => { x = cl(x); const c = 1.7; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+let sd = 11; const rnd = () => (sd = (sd * 16807) % 2147483647) / 2147483647;
+const M = (c, o = {}) => new THREE.MeshStandardMaterial({ color: c, roughness: .6, ...o }), E = (c, k = 2) => new THREE.MeshStandardMaterial({ color: c, emissive: c, emissiveIntensity: k, roughness: .4 });
+function mesh(g, m, par = S, x = 0, y = 0, z = 0) { const o = new THREE.Mesh(g, m); o.position.set(x, y, z); o.castShadow = o.receiveShadow = true; par.add(o); return o; }
+const box = (w, h, d, m, par, x, y, z) => mesh(new THREE.BoxGeometry(w, h, d), m, par, x, y, z);
+function ctex(w, h, draw) { const c = document.createElement('canvas'); c.width = w; c.height = h; const g = c.getContext('2d'); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.draw = (...a) => { g.clearRect(0, 0, w, h); draw(g, w, h, ...a); t.needsUpdate = true; }; t.draw(); return t; }
+const V = (x, y, z) => new THREE.Vector3(x, y, z);
+const TERRA = '#d9774a', OURO = '#ffc93a', CEU = '#5fb8ff', ROXO = '#6b4aa0', CREME = '#fff3e6', LARANJA = '#ff7a3d';
+
+// ---------- céu pôr do sol + sol ----------
+S.background = ctex(64, 512, g => { const d = g.createLinearGradient(0, 0, 0, 512); d.addColorStop(0, '#3f4cb8'); d.addColorStop(.35, '#a65ab4'); d.addColorStop(.62, '#ff7f8a'); d.addColorStop(.85, '#ffb070'); d.addColorStop(1, '#ffd89a'); g.fillStyle = d; g.fillRect(0, 0, 64, 512); });
+const solT = ctex(512, 512, g => { const h = g.createRadialGradient(256, 256, 60, 256, 256, 256); h.addColorStop(0, 'rgba(255,246,214,1)'); h.addColorStop(.42, 'rgba(255,214,140,1)'); h.addColorStop(.46, 'rgba(255,190,120,.55)'); h.addColorStop(1, 'rgba(255,170,110,0)'); g.fillStyle = h; g.fillRect(0, 0, 512, 512); });
+const SOL = mesh(new THREE.PlaneGeometry(70, 70), new THREE.MeshBasicMaterial({ map: solT, transparent: true, fog: false, depthWrite: false }), S, 0, 10, -150); SOL.castShadow = SOL.receiveShadow = false;
+
+// ---------- cidade lisa: avenida + prédios pastel dos dois lados ----------
+const chao = mesh(new THREE.PlaneGeometry(400, 400), M('#c98a7a', { roughness: .8 })); chao.rotation.x = -Math.PI / 2;
+box(10, .02, 300, M('#6e4a5a', { roughness: .55, metalness: .1 }), S, 0, .01, -60);
+for (let z = 60; z > -200; z -= 6) box(.25, .03, 2.4, M('#fff1d6'), S, 0, .03, z);
+for (const x of [-5.6, 5.6]) box(1.2, .18, 300, M('#e8b9a4'), S, x, .09, -60);
+const cores = ['#f6c7ae', '#f0a99a', '#e8b4c4', '#fbd9bd', '#d99aa8', '#f4bfa0'];
+for (const lado of [-1, 1]) for (let z = 30; z > -170; z -= 7 + rnd() * 4) { const w = 5 + rnd() * 4, h = 6 + rnd() * 18; const g = new THREE.Group(); g.position.set(lado * (9 + w / 2 + rnd() * 2), 0, z); S.add(g); box(w, h, 5 + rnd() * 3, M(cores[(rnd() * 6) | 0], { roughness: .85 }), g, 0, h / 2, 0); }
+for (let z = 26; z > -120; z -= 12) for (const x of [-6.4, 6.4]) { box(.15, 4, .15, M('#333'), S, x, 2, z); box(.9, .12, .3, E('#ffe0a8', 1.2), S, x * .9, 4, z); }
+
+// ---------- mascote com capacete e luva ----------
+function mascote(esc = 1, cor = TERRA, cap = OURO) { const g = new THREE.Group(); const c = M(cor, { roughness: .55 }); box(1.6, 1.05, .9, c, g, 0, 1.0, 0); const bl = []; for (const x of [-.95, .95]) bl.push(box(.32, .32, .4, c, g, x, 1.0, 0));
+  for (const x of [-.32, .32]) box(.13, .3, .05, M('#111'), g, x, 1.1, .46); const pernas = []; for (let i = 0; i < 4; i++) pernas.push(box(.16, .4, .16, c, g, -.55 + i * .37, .25, 0));
+  box(1.72, .42, 1.0, M(cap, { roughness: .4 }), g, 0, 1.74, 0); box(1.72, .12, .5, M(cap, { roughness: .4 }), g, 0, 1.55, .6); box(.42, .42, .46, M('#fff3e6'), g, 1.1, 1.0, 0); // luva branca
+  g.scale.setScalar(esc); S.add(g); g.userData = { pernas, bl }; return g; }
+function rotulo(txt, cor, w = 2.6) { const t = ctex(256, 96, g => { g.fillStyle = '#fff3e6'; g.beginPath(); g.roundRect(0, 0, 256, 96, 24); g.fill(); g.fillStyle = cor; g.font = '400 52px AB'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(txt, 128, 52); });
+  return new THREE.Mesh(new THREE.PlaneGeometry(w, w * 96 / 256), new THREE.MeshBasicMaterial({ map: t, transparent: true })); }
+
+// ---------- corredores (n3 velocidade) ----------
+const CORR = new THREE.Group(); S.add(CORR);
+const velho = mascote(1.25, '#a99aa4', '#c9bcc4'), novo = mascote(1.25, TERRA, OURO); CORR.add(velho, novo); velho.rotation.y = novo.rotation.y = Math.PI; // de costas p/ -z? correm para -z olhando -z
+velho.rotation.y = novo.rotation.y = 0; velho.rotation.y = novo.rotation.y = Math.PI; // rosto para +z? (ajustado abaixo)
+const r1 = rotulo('ANTES', '#7a6a76'), r2 = rotulo('5.2', '#c4473a', 2.0); r1.rotation.y = r2.rotation.y = -Math.PI / 2; CORR.add(r1, r2);
+const riscos = []; for (let i = 0; i < 12; i++) riscos.push(box(.06, .06, 2.4 + (i % 3), M('#fff3e6'), CORR, 0, 0, 0));
+// ---------- placa de preço sobre a avenida (n2) ----------
+const PLACA = new THREE.Group(); PLACA.position.set(0, 0, -24); S.add(PLACA);
+for (const x of [-6.2, 6.2]) box(.5, 11, .5, M('#7a4a5a'), PLACA, x, 5.5, 0);
+box(13.6, .5, .7, M('#7a4a5a'), PLACA, 0, 10.8, 0);
+const placaT = ctex(1024, 512, (g, w, h, k1 = 0, k2 = 0) => {
+  g.fillStyle = '#fff3e6'; g.fillRect(0, 0, w, h); g.fillStyle = '#d9774a'; g.fillRect(0, 0, w, 70); g.fillStyle = '#fff'; g.font = '700 38px SG'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('POR MILHÃO DE PEDAÇOS DE TEXTO', w / 2, 38);
+  g.fillStyle = '#6a5a7a'; g.font = '400 150px AB'; g.fillText('US$ 10', 240, 290); const sx = 240 - 200, ex = sx + 400 * eo(k1);
+  if (k1 > 0) { g.strokeStyle = '#e8283c'; g.lineWidth = 22; g.lineCap = 'round'; g.beginPath(); g.moveTo(sx, 330); g.lineTo(ex, 250); g.stroke(); }
+  g.save(); g.translate(745, 290); const s = back(k2); g.scale(s, s); g.fillStyle = '#c4473a'; g.font = '400 170px AB'; g.fillText('US$ 8', 0, 0); g.restore();
+  g.fillStyle = '#2a0b45'; g.font = '700 34px SG'; g.fillText('ENTRADA  10 → 8   ·   SAÍDA  50 → 40', w / 2, 460); });
+const PL = mesh(new THREE.PlaneGeometry(12, 6), new THREE.MeshBasicMaterial({ map: placaT, fog: false }), PLACA, 0, 7.6, .45); PL.castShadow = false;
+box(12.4, 6.4, .5, M('#5a3a4a'), PLACA, 0, 7.6, .1);
+// ---------- robô montador + torre (n1) ----------
+const ROBO = new THREE.Group(); ROBO.position.set(0, 0, -14); S.add(ROBO);
+const CORES_B = [TERRA, OURO, CEU, '#ff9ccc', '#8bd17c', TERRA, OURO, CEU];
+const TORRE = []; for (let i = 0; i < 8; i++) TORRE.push(box(1.7, .6, 1.7, M(CORES_B[i], { roughness: .5 }), ROBO, 0, .3 + i * .6 + .3, 0));
+box(3.4, .3, 3.4, M('#7a4a5a'), ROBO, 0, .15, 0);
+const BASEX = 3.6, PIV = V(BASEX, 1.6, 0), L1 = 3.5, L2 = 3.5;
+box(1.8, 1.4, 1.8, M('#e8d6c8'), ROBO, BASEX, .7, 0); const ombro = mesh(new THREE.CylinderGeometry(.5, .5, 1.1, 20), M('#7a4a5a'), ROBO, BASEX, 1.6, 0); ombro.rotation.x = Math.PI / 2;
+const link1 = new THREE.Group(), link2 = new THREE.Group(); ROBO.add(link1); link1.position.copy(PIV); box(L1, .55, .7, M('#ffb84a'), link1, L1 / 2, 0, 0); link1.add(link2); link2.position.set(L1, 0, 0);
+box(L2, .45, .6, M('#ff9a5c'), link2, L2 / 2, 0, 0); const mao = new THREE.Group(); link2.add(mao); mao.position.set(L2, 0, 0); box(.4, .9, .9, M('#5a3a4a'), mao, .1, 0, 0);
+const cotov = mesh(new THREE.CylinderGeometry(.4, .4, .9, 20), M('#7a4a5a'), link1, L1, 0, 0); cotov.rotation.x = Math.PI / 2;
+const PILHA = V(BASEX + 3.2, .55, 0); box(1.7, .6, 1.7, M(CORES_B[3]), ROBO, PILHA.x, .6, 0); const PEC = box(1.7, .6, 1.7, M(CORES_B[3]), ROBO, 0, 0, 0);
+const mascR = mascote(1.1); mascR.position.set(-3.6, 0, 1.2); mascR.rotation.y = Math.PI * .8;
+// ---------- pódio (cta) ----------
+const POD = new THREE.Group(); POD.position.set(0, 0, 6); S.add(POD);
+const podT = n => ctex(128, 128, g => { g.fillStyle = '#fff3e6'; g.fillRect(0, 0, 128, 128); g.fillStyle = '#c4473a'; g.font = '400 100px AB'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(n, 64, 70); });
+[[-2.2, 1.6, '2', '#ffb84a'], [0, 2.4, '1', TERRA], [2.2, 1.1, '3', '#e8b4c4']].forEach(([x, h, n, c]) => { const b = box(2, h, 2, M(c, { roughness: .5 }), POD, x, h / 2, 0); const p = new THREE.Mesh(new THREE.PlaneGeometry(1.2, 1.2), new THREE.MeshBasicMaterial({ map: podT(n) })); p.position.set(x, h / 2, 1.01); POD.add(p); });
+const mascP = mascote(1.2); POD.add(mascP); mascP.position.set(0, 2.4, 0); mascP.rotation.y = 0;
+// ---------- camada 2D ----------
+const U = document.getElementById('u'), X = U.getContext('2d');
+const fnt = (s, f = 'AB') => `${f === 'SG' ? 700 : 400} ${s}px ${f}`;
+const pil = (x, y, w, h, r, c) => { X.fillStyle = c; X.beginPath(); X.roundRect(x, y, w, h, r); X.fill(); };
+function cabe(txt, f, mx, fam = 'AB') { while (f > 18) { X.font = fnt(f, fam); if (X.measureText(txt).width <= mx) break; f -= 2; } return f; }
+function neon(txt, x, y, f, cor = '#fff', al = 'center', fam = 'AB') { X.save(); X.font = fnt(f, fam); X.textAlign = al; X.textBaseline = 'middle'; X.lineJoin = 'round';
+  if (cor === 'grad') { const g = X.createLinearGradient(0, y - f * .5, 0, y + f * .5); g.addColorStop(0, '#ffe08a'); g.addColorStop(.55, '#ffad5c'); g.addColorStop(1, '#ff7a3d'); cor = g; }
+  X.shadowColor = 'rgba(30,8,50,.55)'; X.shadowBlur = f * .1; X.shadowOffsetY = f * .07; X.lineWidth = f * .16; X.strokeStyle = '#3a1458'; X.strokeText(txt, x, y); X.shadowColor = 'transparent'; X.fillStyle = cor; X.fillText(txt, x, y); X.restore(); }
+function faixa(y, h, a = .5) { const g = X.createLinearGradient(0, y, 0, y + h); g.addColorStop(0, 'rgba(40,14,52,0)'); g.addColorStop(.18, `rgba(40,14,52,${a})`); g.addColorStop(.82, `rgba(40,14,52,${a})`); g.addColorStop(1, 'rgba(40,14,52,0)'); X.fillStyle = g; X.fillRect(0, y, 1080, h); }
+function star(x, y, r) { X.beginPath(); for (let i = 0; i < 10; i++) { const a = -Math.PI / 2 + i * Math.PI / 5, rr = i % 2 ? r * .45 : r; X.lineTo(x + Math.cos(a) * rr, y + Math.sin(a) * rr); } X.closePath(); X.fill(); }
+function estrelas(n, lt) { const w = 250, x = 505 - w / 2, y = 440; pil(x, y, w, 70, 35, 'rgba(58,28,40,.85)'); X.strokeStyle = '#ffb84a'; X.lineWidth = 3; X.beginPath(); X.roundRect(x, y, w, 70, 35); X.stroke();
+  for (let i = 0; i < 3; i++) { const on = i < n, nov = i === n - 1, s = nov ? back(lin(lt, .05, .4)) : 1; X.save(); X.translate(x + 46 + i * 46, y + 35); X.scale(s, s); X.fillStyle = on ? '#ffd36e' : 'rgba(255,255,255,.25)'; star(0, 0, 17); X.restore(); }
+  X.fillStyle = '#fff'; X.font = fnt(30, 'SG'); X.textAlign = 'left'; X.textBaseline = 'middle'; X.fillText(n + '/3', x + 170, y + 37); }
+// faixa diagonal de aviso (etiqueta persistente)
+function aviso(txt, sub, lt, cena) { const a = back(lin(lt, 0, .4)); X.save(); X.translate(540, 335); X.rotate(-.05); X.scale(cena === 'gancho' ? a : 1, cena === 'gancho' ? a : 1);
+  const W = 1040, H = 108; X.save(); X.beginPath(); X.rect(-W / 2, -H / 2, W, H); X.clip(); X.fillStyle = '#ffc93a'; X.fillRect(-W / 2, -H / 2, W, H); X.fillStyle = '#3a1458'; for (let i = -20; i < 24; i++) { X.beginPath(); X.moveTo(-W / 2 + i * 60, -H / 2); X.lineTo(-W / 2 + i * 60 + 30, -H / 2); X.lineTo(-W / 2 + i * 60 + 70, H / 2); X.lineTo(-W / 2 + i * 60 + 40, H / 2); X.fill(); } X.restore();
+  pil(-W / 2 + 30, -H / 2 + 12, W - 60, H - 24, 14, '#3a1458'); const f = cabe(txt, 46, W - 110); X.font = fnt(f); X.fillStyle = '#fff'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(txt, 0, 3); X.restore();
+  if (sub) { X.save(); X.translate(540, 432); X.rotate(-.05); neon(sub, 0, 0, cabe(sub, 40, 900, 'SG'), '#ffd36e', 'center', 'SG'); X.restore(); } }
+const AZ = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+function decifra(txt, cx, y, f, k) { const L = txt.length; X.font = fnt(f); const w = X.measureText(txt).width + 60; pil(cx - w / 2, y - f * .75, w, f * 1.5, f * .3, 'rgba(58,28,40,.88)'); X.strokeStyle = '#ffb84a'; X.lineWidth = 4; X.beginPath(); X.roundRect(cx - w / 2, y - f * .75, w, f * 1.5, f * .3); X.stroke();
+  let s = ''; for (let i = 0; i < L; i++) s += txt[i] === ' ' ? ' ' : (k > (i + 1) / (L + 2) ? txt[i] : AZ[(Math.floor(k * 50) * 7 + i * 13) % AZ.length]); X.fillStyle = '#fff'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(s, cx, y + 3); }
+function legenda(seg, t) { const ws = seg.palavras || []; const ch = []; let cur = []; for (const w of ws) { cur.push(w); if (/[.,:?!…]$/.test(w.w) || cur.length >= 4) { ch.push(cur); cur = []; } } if (cur.length) ch.push(cur);
+  let b = ch.findIndex(c => t < c[c.length - 1].t1 + .05); if (b < 0) b = ch.length - 1; const c = ch[b]; if (!c) return;
+  let f = 60; X.font = fnt(f, 'SG'); const tot = () => c.reduce((a, w) => a + X.measureText(w.w + ' ').width, 0); while (tot() > 800 && f > 34) { f -= 2; X.font = fnt(f, 'SG'); }
+  const W = tot(), y = 1400; faixa(y - 80, 160, .55); let x = 505 - W / 2; X.textAlign = 'left'; X.textBaseline = 'middle'; X.lineJoin = 'round';
+  for (const w of c) { const on = t >= w.t0 - .03, at = on && t < w.t1 + .08; X.lineWidth = 13; X.strokeStyle = '#3a1458'; X.strokeText(w.w, x, y); X.fillStyle = at ? '#ffb84a' : on ? '#fff' : 'rgba(255,255,255,.55)'; X.fillText(w.w, x, y); x += X.measureText(w.w + ' ').width; } }
+function cartao(x, y, w, h) { X.save(); X.shadowColor = 'rgba(0,0,0,.4)'; X.shadowBlur = 30; X.shadowOffsetY = 12; pil(x, y, w, h, 28, CREME); X.restore(); }
+function velocimetro(v, cx, cy, r) { // medidor circular: 0 → +40%, ponteiro vai até o valor (v em 0..1 de 0..30%)
+  X.save(); X.translate(cx, cy); X.lineCap = 'round'; X.lineWidth = 46; X.strokeStyle = 'rgba(58,28,40,.9)'; X.beginPath(); X.arc(0, 0, r, Math.PI, 2 * Math.PI); X.stroke();
+  const a1 = Math.PI + Math.PI * (.75 * v), g = X.createLinearGradient(-r, 0, r, 0); g.addColorStop(0, '#ffe08a'); g.addColorStop(1, '#ff7a3d'); X.strokeStyle = g; X.lineWidth = 34; X.beginPath(); X.arc(0, 0, r, Math.PI, a1); X.stroke();
+  for (let i = 0; i <= 8; i++) { const a = Math.PI + Math.PI * i / 8; X.strokeStyle = '#fff3e6'; X.lineWidth = 5; X.beginPath(); X.moveTo(Math.cos(a) * (r + 34), Math.sin(a) * (r + 34)); X.lineTo(Math.cos(a) * (r + 52), Math.sin(a) * (r + 52)); X.stroke(); }
+  X.rotate(a1 + Math.PI); X.fillStyle = '#fff'; X.strokeStyle = '#3a1458'; X.lineWidth = 6; X.beginPath(); X.moveTo(-12, -12); X.lineTo(r - 20, 0); X.lineTo(-12, 12); X.closePath(); X.stroke(); X.fill(); X.rotate(-(a1 + Math.PI)); X.beginPath(); X.arc(0, 0, 26, 0, 7); X.fillStyle = '#ffc93a'; X.fill(); X.stroke(); X.restore(); }
+
+// ---------- cenas ----------
+const SHOT = {
+  gancho: lt => [V(-1.5 + lt * .4, 2.6, 6 - lt * .3), V(0, 4.0, -20)],
+  n3: lt => [V(-1.2 + lt * .25, 2.6, 6 - lt * .2), V(0, 4.0, -20)],
+  n2: lt => [V(-2 + lt * .4, 4.5, 17 - lt * .8), V(0, 7.0, -24)],
+  n1: lt => { const a = -.3 + lt * .11; return [V(Math.sin(a) * 24, 4.7, -14 + Math.cos(a) * 24), V(0, 4.7, -14)]; },
+  cta: lt => [V(0, 3.6, 27 - lt * .2), V(0, 4.7, 6)],
+};
+let TL = null; window.setTL = t => { TL = t; };
+window.eventos = () => { const ev = []; TL.segmentos.forEach((s, i) => { if (i) ev.push({ t: s.t0, som: i % 2 ? 'whoosh' : 'whoosh2' });
+  if (s.cena === 'gancho') ev.push({ t: s.t0 + s.dur_voz * .5, som: 'stamp' }); if (s.cena === 'n3') ev.push({ t: s.t0 + .3, som: 'riser', dur: 1.8 }); if (s.cena === 'n2') { ev.push({ t: s.t0 + .9, som: 'stamp' }); ev.push({ t: s.t0 + 2.4, som: 'pop' }); }
+  if (s.cena === 'n1') for (let k = 0; k < 4; k++) ev.push({ t: s.t0 + .3 + 1.2 * (k + .8), som: 'pop' }); if (s.cena === 'cta') { ev.push({ t: s.t0 + .3, som: 'typing', dur: 1.0 }); ev.push({ t: s.t0 + 1.7, som: 'ding' }); } });
+  ev.push({ t: TL.total - .6, som: 'whoosh' }); return ev; };
+
+function ik(dx, dy) { let d = Math.hypot(dx, dy); d = Math.min(d, L1 + L2 - .02); const base = Math.atan2(dy, dx), c1 = Math.acos(cl((L1 * L1 + d * d - L2 * L2) / (2 * L1 * d), -1, 1)), c2 = Math.acos(cl((L1 * L1 + L2 * L2 - d * d) / (2 * L1 * L2), -1, 1)); return [base + c1, -(Math.PI - c2)]; }
+function mundo(cena, lt, d, t) {
+  // corredores
+  CORR.visible = cena === 'n3' || cena === 'gancho';
+  if (CORR.visible) { const zv = -24 + 1.25 * lt, zn = -24 + 1.63 * lt; velho.position.set(-1.9, Math.abs(Math.sin(t * 7)) * .22, zv); novo.position.set(1.9, Math.abs(Math.sin(t * 10)) * .3, zn); velho.rotation.y = novo.rotation.y = 0;
+    r1.position.set(velho.position.x, 2.7, zv); r2.position.set(novo.position.x, 2.7, zn); r1.rotation.y = r2.rotation.y = 0; r1.visible = r2.visible = cena === 'n3';
+    [velho, novo].forEach((m, j) => m.userData.pernas.forEach((p, i) => { p.position.y = .25 + Math.max(0, Math.sin(t * (j ? 22 : 15) + i * 1.6)) * .14; }));
+    riscos.forEach((r, i) => { r.position.set(novo.position.x + (i < 6 ? -1.1 : 1.1), .5 + (i % 4) * .45, zn - 2.6 - ((t * 9 + i * 2.3) % 6)); r.visible = lt > .15; }); }
+  // placa de preço
+  PLACA.visible = cena === 'n2'; if (PLACA.visible) placaT.draw(eio(lin(lt, .8, 1.5)), lin(lt, 2.3, 3.0));
+  // robô + torre
+  ROBO.visible = cena === 'n1'; PEC.visible = false;
+  if (cena === 'n1') { const P = 1.2, t0 = .3, n = cl(Math.floor((lt - t0) / P), -1, 3), fase = ((lt - t0) / P) - Math.floor((lt - t0) / P), pos = lt < t0 ? 0 : 1; let cnt = 3 + (lt < t0 ? 0 : n + (fase > .78 ? 1 : 0)); cnt = Math.min(7, cnt);
+    TORRE.forEach((b, i) => { b.visible = i < cnt; b.scale.setScalar(1); if (i === cnt - 1 && i >= 3) { const kk = lin(fase, .78, .98); b.scale.setScalar(n >= 0 && lt >= t0 ? .8 + .2 * back(kk) : 1); } });
+    let tx, ty; const topY = 3 * .6 + n * .6 + .3; if (lt < t0 || n > 3 || (n === 3 && fase > .78)) { tx = PILHA.x - BASEX; ty = PILHA.y + .9; } else { const m = eio(lin(fase, 0, .78)); const a = V(PILHA.x - BASEX, PILHA.y + 1.2, 0), b = V(0 - BASEX + .0, topY + .9, 0); const arc = Math.sin(m * Math.PI) * 1.4; tx = a.x + (b.x - a.x) * m; ty = a.y + (b.y - a.y) * m + arc; }
+    const [q1, q2] = ik(tx, ty - 0 + (-PIV.y + 0.0)); link1.rotation.z = q1; link2.rotation.z = q2;
+    if (lt >= t0 && n >= 0 && n <= 3 && fase <= .78) { PEC.visible = true; const w = mao.getWorldPosition(new THREE.Vector3()); ROBO.worldToLocal(w); PEC.position.set(w.x - .1, w.y - .3, 0); }
+    mascR.position.y = Math.abs(Math.sin(t * 5)) * (lt > 3 ? .1 : .02); mascR.rotation.y = Math.PI * .8; }
+  mascR.visible = ROBO.visible; if (mascR.parent !== ROBO) ROBO.add(mascR);
+  POD.visible = cena === 'cta'; if (POD.visible) { mascP.position.y = 2.4 + Math.abs(Math.sin(t * 6)) * .18; mascP.userData.bl[1].position.y = 1.0 + Math.sin(t * 8) * .25; mascP.userData.bl[0].position.y = 1.0 + Math.sin(t * 8 + 2) * .15; POD.scale.setScalar(.2 + .8 * back(lin(lt, 0, .5))); }
+  SOL.position.y = 12 + Math.sin(t * .2) * .3;
+}
+function iris(lt) { const k = lin(lt, 0, .5); if (k >= 1) return; const r = 40 + 1500 * eio(k); X.save(); X.beginPath(); X.rect(0, 0, 1080, 1920); X.arc(540, 900, r, 0, 7); X.fillStyle = '#3a1458'; X.fill('evenodd'); X.strokeStyle = '#ffc93a'; X.lineWidth = 12; X.beginPath(); X.arc(540, 900, r, 0, 7); X.stroke(); X.restore(); }
+
+function ui(cena, lt, d, t, s) {
+  if (cena === 'gancho') { aviso('A IA QUE VOCÊ USA FICOU MAIS RÁPIDA', '3 NÚMEROS DO CLAUDE FABLE 5.2', lt, cena);
+    faixa(560, 560, .45); const a = back(lin(lt, .1, .5)); X.save(); X.translate(505, 760); X.scale(a, a); neon('3', 0, 0, 330, 'grad'); X.restore();
+    X.globalAlpha = eo(lin(lt, .4, .8)); neon('NÚMEROS DO FABLE 5.2', 505, 960, cabe('NÚMEROS DO FABLE 5.2', 70, 880), '#fff'); X.globalAlpha = eo(lin(lt, 1.6, 2.1));
+    X.font = fnt(34, 'SG'); const tx = 'ATÉ 30% MAIS RÁPIDA · API 20% MAIS BARATA'; const f = cabe(tx, 34, 900, 'SG'); X.font = fnt(f, 'SG'); const tw = X.measureText(tx).width + 50; pil(505 - tw / 2, 1050, tw, 70, 35, '#fff'); X.fillStyle = '#3a1458'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 505, 1087); X.globalAlpha = 1;
+    if (lt > d * .5) { const b = back(lin(lt, d * .5, d * .5 + .3)); X.save(); X.translate(505, 1210); X.rotate(-.04); X.scale(b, b); pil(-300, -44, 600, 88, 16, '#e8283c'); X.fillStyle = '#fff'; X.font = fnt(44); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('MAIS RÁPIDA. SÓ ISSO?', 0, 3); X.restore(); } }
+  else if (cena !== 'cta') aviso('A IA QUE VOCÊ USA FICOU MAIS RÁPIDA', '', lt, cena);
+  if (cena === 'n3') { estrelas(1, lt); decifra('VELOCIDADE', 505, 580, 52, lin(lt, .1, 1.0)); faixa(640, 420, .4);
+    const v = eio(lin(lt, .5, 2.6)); velocimetro(v, 505, 930, 230); X.save(); X.translate(505, 960); const b = back(lin(lt, 2.4, 2.9)); X.scale(b, b); neon('ATÉ +30%', 0, 80, 120, 'grad'); X.restore();
+    if (lt > 3.4 && lt < 6.6) { const b = back(lin(lt, 3.4, 3.7)); X.save(); X.translate(505, 1215); X.scale(b, b); const tx = 'Comenta FABLE'; X.font = fnt(46, 'SG'); const tw = X.measureText(tx).width + 110; X.shadowColor = 'rgba(0,0,0,.4)'; X.shadowBlur = 20; pil(-tw / 2, -46, tw, 92, 46, '#fff'); X.shadowColor = 'transparent'; X.fillStyle = '#e8283c'; X.beginPath(); X.arc(-tw / 2 + 48, 0, 16, 0, 7); X.fill(); X.fillStyle = '#1a0b24'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 22, 3); X.restore(); } }
+  if (cena === 'n2') { estrelas(2, lt); decifra('PREÇO', 505, 580, 52, lin(lt, .1, .9)); const k = back(lin(lt, 2.4, 2.9));
+    if (lt > 3.2) { const b = back(lin(lt, 3.2, 3.6)); X.save(); X.translate(505, 1190); X.scale(b, b); const tx = 'SÓ PRA QUEM PROGRAMA (API)'; X.font = fnt(36, 'SG'); const tw = X.measureText(tx).width + 70; pil(-tw / 2, -40, tw, 80, 40, '#3a1458'); X.strokeStyle = '#ffc93a'; X.lineWidth = 4; X.beginPath(); X.roundRect(-tw / 2, -40, tw, 80, 40); X.stroke(); X.fillStyle = '#fff'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 0, 3); X.restore(); }
+    if (lt > 4.4) { const b = back(lin(lt, 4.4, 4.8)); X.save(); X.translate(840, 1090); X.rotate(.08); X.scale(b, b); pil(-110, -48, 220, 96, 20, '#2bd17e'); X.fillStyle = '#fff'; X.font = fnt(62); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('-20%', 0, 4); X.restore(); } }
+  if (cena === 'n1') { estrelas(3, lt); decifra('TESTE DE ROBÔS', 505, 580, 52, lin(lt, .1, 1.0)); faixa(650, 400, .4);
+    const k = eio(lin(lt, .5, 4.6)), n = 27.6 + (64.9 - 27.6) * k, nn = Math.round(n); neon(nn + '%', 505, 790, 230, 'grad');
+    const x0 = 170, W = 680, y = 960; pil(x0, y, W, 56, 28, 'rgba(58,28,40,.9)'); const g = X.createLinearGradient(x0, 0, x0 + W, 0); g.addColorStop(0, '#ffe08a'); g.addColorStop(1, '#ff7a3d'); X.fillStyle = g; X.beginPath(); X.roundRect(x0 + 5, y + 5, Math.max(40, (W - 10) * n / 100), 46, 23); X.fill();
+    X.fillStyle = '#fff'; X.font = fnt(28, 'SG'); X.textAlign = 'left'; X.fillText('antes: 28%', x0, y + 100); X.textAlign = 'right'; X.fillText('Fable 5.2: 65%', x0 + W, y + 100); }
+  if (cena === 'cta') { const k = eo(lin(lt, .05, .35)); X.globalAlpha = k; faixa(300, 760, .45); neon('COMENTA', 505, 400, 70, '#fff'); neon('FABLE', 505, 520, 140, 'grad');
+    pil(110, 620, 790, 92, 46, '#fff'); X.fillStyle = '#e8283c'; X.beginPath(); X.arc(160, 666, 22, 0, 7); X.fill(); X.fillStyle = '#1a0b24'; X.font = fnt(40, 'SG'); X.textAlign = 'left'; X.textBaseline = 'middle';
+    const tx = 'FABLE'.slice(0, Math.ceil(5 * lin(lt, .3, 1.1))); X.fillText(tx + (Math.floor(t * 3) % 2 && lt < 1.2 ? '|' : ''), 200, 668);
+    if (lt > 1.3) { const b = back(lin(lt, 1.3, 1.65)); X.save(); X.translate(505, 840); X.scale(b, b); cartao(-395, -90, 790, 180); X.fillStyle = '#2a0b45'; X.font = fnt(36); X.textAlign = 'center'; X.fillText('Tá aqui o resumo dos 3 números 👇', 0, -30);
+      X.font = fnt(26, 'SG'); X.fillStyle = '#4a3a5a'; X.fillText('velocidade · preço · teste de robôs + links', 0, 18); X.fillStyle = ROXO; X.fillText('🔗 Resumo Fable 5.2', 0, 58); X.restore(); } X.globalAlpha = 1; }
+}
+window.setT = t => {
+  const SG = TL.segmentos; let k = SG.findIndex(s => t < s.fim); if (k < 0) k = SG.length - 1; const s = SG[k], lt = t - s.t0, d = s.fim - s.t0, cena = s.cena;
+  const LOOP = .6, kl = lin(t, TL.total - LOOP, TL.total);
+  mundo(kl > .5 ? 'gancho' : cena, kl > .5 ? 0 : lt, kl > .5 ? SG[0].fim : d, t);
+  let [p, l] = SHOT[cena](lt); if (k > 0 && lt < .35) { const pv = SG[k - 1], [pp, ll] = SHOT[pv.cena](pv.fim - pv.t0); if (!(pp.distanceTo(p) > 25)) { const e = eio(lt / .35); p = pp.lerp(p, e); l = ll.lerp(l, e); } }
+  if (kl > 0) { const [p0, l0] = SHOT.gancho(0); p = p.clone().lerp(p0, eio(kl)); l = l.clone().lerp(l0, eio(kl)); }
+  cam.position.copy(p); cam.lookAt(l); cam.rotateZ(.035 * Math.sin(t * .5)); R.render(S, cam);
+  X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(20,0,30,.35)'); vg.addColorStop(.22, 'rgba(0,0,0,0)'); vg.addColorStop(.68, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(20,0,30,.45)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
+  if (kl > .5) { ui('gancho', 1.2, SG[0].fim, t, SG[0]); return; }
+  ui(cena, lt, d, t, s); legenda(s, t); if (k > 0) iris(lt);
+};
+window.capa = () => {
+  mundo('n3', 7, 7.3, 1.3); r1.visible = r2.visible = true; CORR.visible = true; r1.visible = r2.visible = true; PLACA.visible = false; hemi.intensity = 1.6; cam.fov = 46; cam.updateProjectionMatrix(); cam.position.copy(V(0, 2.6, 2)); cam.lookAt(V(0, 4.3, -20)); cam.rotateZ(.04); R.render(S, cam); cam.fov = 40; cam.updateProjectionMatrix(); hemi.intensity = 1.25;
+  X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(30,10,60,.2)'); vg.addColorStop(.22, 'rgba(30,10,60,.35)'); vg.addColorStop(.42, 'rgba(30,10,60,.5)'); vg.addColorStop(.6, 'rgba(30,10,60,.22)'); vg.addColorStop(.85, 'rgba(30,10,60,.3)'); vg.addColorStop(1, 'rgba(30,10,60,.5)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
+  aviso('A IA QUE VOCÊ USA FICOU MAIS RÁPIDA', '', 1, 'x'); neon('3 NÚMEROS', 540, 640, 150, '#fff'); neon('DO CLAUDE', 540, 790, 100, '#fff'); neon('FABLE 5.2', 540, 930, 150, 'grad');
+  const tx = 'ATÉ 30% MAIS RÁPIDA'; X.font = fnt(54, 'SG'); const tw = X.measureText(tx).width + 70; pil(540 - tw / 2, 1050, tw, 100, 50, '#fff'); X.fillStyle = '#3a1458'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 540, 1102);
+  const t2 = 'E API 20% MAIS BARATA'; X.font = fnt(46, 'SG'); const w2 = X.measureText(t2).width + 70; pil(540 - w2 / 2, 1180, w2, 88, 44, '#ffc93a'); X.fillStyle = '#3a1458'; X.fillText(t2, 540, 1226);
+  X.font = fnt(40, 'SG'); const t3 = 'Comenta FABLE'; const w3 = X.measureText(t3).width + 60; X.lineWidth = 8; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(540 - w3 / 2, 1450, w3, 84, 42); X.stroke(); pil(540 - w3 / 2, 1450, w3, 84, 42, '#fff'); X.fillStyle = '#3a1458'; X.fillText(t3, 540, 1494);
+};
+window.pronto = true;
+</script></body></html>

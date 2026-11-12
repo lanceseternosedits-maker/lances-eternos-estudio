@@ -1,0 +1,230 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:AB;src:url(../cena_contagem/f/archivo-black-latin-400-normal.woff2)}
+@font-face{font-family:PD;src:url(../cena_contagem/f/archivo-black-latin-400-normal.woff2)}
+@font-face{font-family:FR;src:url(../cena_contagem/f/fraunces-latin-700-normal.woff2)}
+@font-face{font-family:SG;src:url(../cena_contagem/f/space-grotesk-latin-700-normal.woff2)}
+*{margin:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+canvas{position:absolute;left:0;top:0;width:1080px;height:1920px}
+</style></head><body><canvas id="g" width="1080" height="1920"></canvas><canvas id="u" width="1080" height="1920"></canvas>
+<script type="module">
+import * as THREE from '../cena_trend/three.module.min.js';
+await document.fonts.load('400 60px AB'); await document.fonts.load('700 60px SG');
+const R = new THREE.WebGLRenderer({ canvas: document.getElementById('g'), antialias: true, preserveDrawingBuffer: true });
+R.setSize(1080, 1920, false); R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap; R.outputColorSpace = THREE.SRGBColorSpace;
+const S = new THREE.Scene(); const cam = new THREE.PerspectiveCamera(40, 1080 / 1920, .1, 500);
+S.fog = new THREE.Fog(0xf7a98a, 35, 170);
+const hemi = new THREE.HemisphereLight(0xffe2c4, 0x8a5a6a, 1.35); S.add(hemi);
+const sol = new THREE.DirectionalLight(0xffb070, 2.6); sol.position.set(-8, 10, -60); sol.castShadow = true; sol.shadow.mapSize.set(2048, 2048); sol.shadow.bias = -0.0006; sol.shadow.normalBias = .04;
+Object.assign(sol.shadow.camera, { left: -40, right: 40, top: 40, bottom: -40, near: 1, far: 120 }); S.add(sol, sol.target);
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)), lin = (t, a, b) => cl((t - a) / (b - a)), eo = x => 1 - Math.pow(1 - cl(x), 3);
+const eio = x => { x = cl(x); return x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; }, back = x => { x = cl(x); const c = 1.7; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+let sd = 11; const rnd = () => (sd = (sd * 16807) % 2147483647) / 2147483647;
+const M = (c, o = {}) => new THREE.MeshStandardMaterial({ color: c, roughness: .6, ...o }), E = (c, k = 2) => new THREE.MeshStandardMaterial({ color: c, emissive: c, emissiveIntensity: k, roughness: .4 });
+function mesh(g, m, par = S, x = 0, y = 0, z = 0) { const o = new THREE.Mesh(g, m); o.position.set(x, y, z); o.castShadow = o.receiveShadow = true; par.add(o); return o; }
+const box = (w, h, d, m, par, x, y, z) => mesh(new THREE.BoxGeometry(w, h, d), m, par, x, y, z);
+function ctex(w, h, draw) { const c = document.createElement('canvas'); c.width = w; c.height = h; const g = c.getContext('2d'); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.draw = (...a) => { g.clearRect(0, 0, w, h); draw(g, w, h, ...a); t.needsUpdate = true; }; t.draw(); return t; }
+const V = (x, y, z) => new THREE.Vector3(x, y, z);
+const ROSA = '#ff6f61', ROXO = '#6b4aa0', CIANO = '#ffc36b', CREME = '#fff3e6', LARANJA = '#ff7a3d';
+
+// ---------- céu: degradê pôr do sol + sol listrado ----------
+const ceuT = ctex(64, 512, g => { const d = g.createLinearGradient(0, 0, 0, 512); d.addColorStop(0, '#3f4cb8'); d.addColorStop(.35, '#a65ab4'); d.addColorStop(.62, '#ff7f8a'); d.addColorStop(.85, '#ffb070'); d.addColorStop(1, '#ffd89a'); g.fillStyle = d; g.fillRect(0, 0, 64, 512); });
+S.background = ceuT;
+const solT = ctex(512, 512, g => { const h = g.createRadialGradient(256, 256, 60, 256, 256, 256); h.addColorStop(0, 'rgba(255,246,214,1)'); h.addColorStop(.42, 'rgba(255,214,140,1)'); h.addColorStop(.46, 'rgba(255,190,120,.55)'); h.addColorStop(1, 'rgba(255,170,110,0)'); g.fillStyle = h; g.fillRect(0, 0, 512, 512); });
+const SOL = mesh(new THREE.PlaneGeometry(70, 70), new THREE.MeshBasicMaterial({ map: solT, transparent: true, fog: false, depthWrite: false }), S, 0, 10, -150); SOL.castShadow = SOL.receiveShadow = false;
+
+// ---------- cidade: avenida principal (eixo z) com prédios dos dois lados ----------
+const chao = mesh(new THREE.PlaneGeometry(400, 400), M('#c98a7a', { roughness: .8 })); chao.rotation.x = -Math.PI / 2;
+const rua = box(10, .02, 300, M('#6e4a5a', { roughness: .55, metalness: .1 }), S, 0, .01, -60);
+for (let z = 60; z > -200; z -= 6) box(.25, .03, 2.4, M('#fff1d6'), S, 0, .03, z);
+for (const x of [-5.6, 5.6]) box(1.2, .18, 300, M('#e8b9a4'), S, x, .09, -60);
+const janT = ctex(128, 256, g => { g.fillStyle = '#1b0b2a'; g.fillRect(0, 0, 128, 256); for (let y = 10; y < 256; y += 26) for (let x = 10; x < 128; x += 30) { g.fillStyle = Math.random() < .55 ? (Math.random() < .5 ? '#ffd1f0' : '#ffb36b') : '#3a1a4a'; g.fillRect(x, y, 18, 14); } });
+janT.wrapS = janT.wrapT = THREE.RepeatWrapping;
+const PRED = [];
+function predio(x, z, w, d, h, cor, neon) { const g = new THREE.Group(); g.position.set(x, 0, z); S.add(g); const mt = M(cor, { roughness: .85 });
+  const b = box(w, h, d, mt, g, 0, h / 2, 0); b.userData.base = h; if (neon) { box(w + .1, .25, d + .1, E(neon, 2.5), g, 0, h, 0); box(.2, h, .2, E(neon, 2), g, x < 0 ? w / 2 : -w / 2, h / 2, d / 2); } PRED.push(g); return g; }
+const cores = ['#f6c7ae', '#f0a99a', '#e8b4c4', '#fbd9bd', '#d99aa8', '#f4bfa0'], neons = [null, null, null, null, null, null];
+for (const lado of [-1, 1]) for (let z = 30; z > -170; z -= 7 + rnd() * 4) { const w = 5 + rnd() * 4, h = 6 + rnd() * 18; predio(lado * (9 + w / 2 + rnd() * 2), z, w, 5 + rnd() * 3, h, cores[(rnd() * 6) | 0], neons[(rnd() * 6) | 0]); }
+// postes com luz rosa
+for (let z = 26; z > -120; z -= 12) for (const x of [-6.4, 6.4]) { if (x < 0 && z > 0) continue; box(.15, 4, .15, M('#333'), S, x, 2, z); box(.9, .12, .3, E('#ffe0a8', 1.2), S, x * .9, 4, z); }
+
+
+// ---------- mascote (bloco terracota; óculos escuros e boné: esperando o lançamento) ----------
+function mascote(esc = 1) { const g = new THREE.Group(); const c = M('#d9774a', { roughness: .55 }); box(1.6, 1.05, .9, c, g, 0, 1.0, 0);
+  const armL = box(.32, .32, .4, c, g, -.95, 1.0, 0), armR = box(.32, .32, .4, c, g, .95, 1.0, 0);
+  box(1.12, .2, .06, M('#15101c', { roughness: .3 }), g, 0, 1.12, .47); box(.4, .26, .07, M('#15101c', { roughness: .25 }), g, -.32, 1.1, .47); box(.4, .26, .07, M('#15101c', { roughness: .25 }), g, .32, 1.1, .47); // óculos
+  box(1.66, .3, .96, M('#3a7bd5'), g, 0, 1.68, 0); box(1.1, .1, .75, M('#2b5fb0'), g, 0, 1.58, .62); // boné
+  for (let i = 0; i < 4; i++) box(.16, .4, .16, c, g, -.55 + i * .37, .25, 0); g.userData = { armL, armR }; g.scale.setScalar(esc); S.add(g); return g; }
+const MASC = mascote(1);
+
+// ---------- calendário gigante (quadro em dois pés) com folhas que caem ----------
+const CAL = new THREE.Group(); CAL.position.set(0, 0, -4); S.add(CAL);
+for (const x of [-1.9, 1.9]) box(.35, 3.4, .35, M('#8a5a6a'), CAL, x, 1.7, -.3);
+box(5.0, 5.7, .35, M('#fff3e6'), CAL, 0, 5.1, 0); box(5.2, .6, .4, M('#e0584a'), CAL, 0, 8.1, 0);
+for (const x of [-1.6, 0, 1.6]) { const a = mesh(new THREE.TorusGeometry(.2, .06, 8, 16), M('#d9d9e8', { metalness: .8, roughness: .3 }), CAL, x, 8.0, .26); }
+const MESES = ['DOM', 'SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SÁB'];
+function folhaTex(n) { return ctex(512, 560, (g, w, h) => { g.fillStyle = '#fff3e6'; g.fillRect(0, 0, w, h); g.fillStyle = '#e0584a'; g.fillRect(0, 0, w, 70); g.fillStyle = '#fff'; g.font = '400 40px AB'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('NOVEMBRO 2026', w / 2, 38);
+  g.fillStyle = '#3a1458'; g.font = '400 300px AB'; g.fillText(String(n), w / 2, 300); g.font = '400 54px AB'; g.fillStyle = '#6a5a7a'; g.fillText(MESES[(n - 1 + 0) % 7 === 0 ? 0 : 0] && ['QUI', 'SEX', 'SÁB', 'DOM', 'SEG', 'TER', 'QUA'][(n - 19 + 70) % 7], w / 2, 490); }); }
+// 19/11/2026 é quinta; n=12 → QUI? calculado acima: (n-19) mod 7 = 0 → QUI. 12 → QUI, ok (12/11/2026 também é quinta).
+const calT = ctex(512, 560, () => {}); const FACE = mesh(new THREE.PlaneGeometry(4.8, 5.25), new THREE.MeshBasicMaterial({ map: calT }), CAL, 0, 4.9, .19); FACE.castShadow = false;
+function desenhaCal(modo, k, t) { const g = calT.image.getContext('2d'); g.clearRect(0, 0, 512, 560); g.fillStyle = '#fff3e6'; g.fillRect(0, 0, 512, 560); g.fillStyle = '#e0584a'; g.fillRect(0, 0, 512, 70); g.fillStyle = '#fff'; g.font = '400 40px AB'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText('NOVEMBRO 2026', 256, 38);
+  if (modo === 'dia') { g.fillStyle = '#3a1458'; g.font = '400 300px AB'; g.fillText('19', 256, 300); g.font = '400 54px AB'; g.fillStyle = '#e0584a'; g.fillText('QUINTA-FEIRA', 256, 490); }
+  else { const cw = 66, x0 = 25, y0 = 130; g.font = '400 24px AB'; g.fillStyle = '#6a5a7a'; MESES.forEach((m, i) => g.fillText(m, x0 + i * cw + cw / 2, 100));
+    for (let d = 1; d <= 30; d++) { const i = d - 1 + 0, col = i % 7, row = (i / 7) | 0, cx = x0 + col * cw + cw / 2, cy = y0 + row * 78 + 38;
+      if (d === 19) { const s = 1 + .08 * Math.sin(t * 6); g.fillStyle = '#e0584a'; g.beginPath(); g.arc(cx, cy, 33 * s, 0, 7); g.fill(); g.fillStyle = '#fff'; } else g.fillStyle = d < 12 ? '#c9bfd0' : '#3a1458'; g.font = '400 32px AB'; g.fillText(String(d), cx, cy + 2); } }
+  calT.needsUpdate = true; }
+const FOLHAS = []; for (let i = 0; i < 7; i++) { const grp = new THREE.Group(); grp.position.set(0, 7.78, .22 + (6 - i) * .012); CAL.add(grp);
+  const mt = new THREE.MeshBasicMaterial({ map: folhaTex(12 + i), transparent: true }); const pl = new THREE.Mesh(new THREE.PlaneGeometry(4.8, 5.25), mt); pl.position.y = -2.625 + .02; grp.add(pl); FOLHAS.push({ grp, mt }); }
+
+// ---------- consoles (genéricos: sem logo nem formato de marca) ----------
+const CON = new THREE.Group(); CON.position.set(0, 0, -34); S.add(CON);
+const LA = [], LB = [];
+function pedestal(x, cor) { box(2.9, .5, 2.9, M('#f6c7ae'), CON, x, .25, 0); const d = mesh(new THREE.CylinderGeometry(1.35, 1.5, .3, 32), M(cor), CON, x, .65, 0); return d; }
+pedestal(-1.9, '#e8b4c4'); pedestal(1.9, '#e8b4c4');
+// A: torre branca em pé com faixa que acende (azul-claro)
+box(1.0, 3.2, 1.7, M('#fbf6f2', { roughness: .35 }), CON, -1.9, 2.4, 0); box(1.04, 3.0, .5, M('#e6dde6', { roughness: .4 }), CON, -1.9, 2.4, .6);
+const faixaA = mesh(new THREE.BoxGeometry(.12, 2.6, .12), E('#7ec8ff', 0), CON, -1.4, 2.4, .85); const anelA = mesh(new THREE.CylinderGeometry(1.55, 1.55, .06, 32), new THREE.MeshBasicMaterial({ color: '#9fd6ff', transparent: true, opacity: 0 }), CON, -1.9, .83, 0);
+// B: caixa preta com grade e faixa que acende (verde-limão)
+box(1.9, 1.9, 1.9, M('#2a2630', { roughness: .45 }), CON, 1.9, 1.75, 0); for (let i = 0; i < 6; i++) box(1.5, .05, .12, M('#15111a'), CON, 1.9, 2.72, -.6 + i * .24);
+const faixaB = mesh(new THREE.BoxGeometry(1.2, .1, .1), E('#a8ff5a', 0), CON, 1.9, 1.2, .96); const anelB = mesh(new THREE.CylinderGeometry(1.55, 1.55, .06, 32), new THREE.MeshBasicMaterial({ color: '#c8ff8a', transparent: true, opacity: 0 }), CON, 1.9, .83, 0);
+
+// ---------- pórtico com etiqueta de preço ----------
+const PRE = new THREE.Group(); PRE.position.set(0, 0, -62); S.add(PRE);
+for (const x of [-3.4, 3.4]) box(.5, 9, .5, M('#8a5a6a'), PRE, x, 4.5, 0); box(7.6, .55, .6, M('#6e4a5a'), PRE, 0, 9, 0);
+const TAG = new THREE.Group(); TAG.position.set(0, 8.7, .2); PRE.add(TAG);
+mesh(new THREE.CylinderGeometry(.04, .04, 1.6, 6), M('#f6e4d4'), TAG, 0, -.8, 0); const tagT = ctex(512, 320, g => { g.fillStyle = '#fff3e6'; g.fillRect(0, 0, 512, 320); g.fillStyle = '#e0584a'; g.fillRect(0, 0, 512, 22); g.fillRect(0, 298, 512, 22); g.fillStyle = '#3a1458'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.font = '400 64px AB'; g.fillText('VERSÃO', 256, 120); g.fillText('PADRÃO', 256, 200); });
+const tagB = box(4.6, 2.9, .22, M('#fff3e6'), TAG, 0, -3.1, 0); mesh(new THREE.PlaneGeometry(4.5, 2.8), new THREE.MeshBasicMaterial({ map: tagT }), TAG, 0, -3.1, .12).castShadow = false; mesh(new THREE.CylinderGeometry(.22, .22, .3, 16), M('#3a1458'), TAG, 0, -1.9, .02).rotation.x = Math.PI / 2;
+
+// ---------- confete para o final ----------
+const NF = 160, conf = new THREE.InstancedMesh(new THREE.BoxGeometry(.22, .04, .14), new THREE.MeshBasicMaterial({ color: '#fff', fog: false }), NF); S.add(conf); const cdir = [];
+for (let i = 0; i < NF; i++) { cdir.push([rnd() - .5, rnd(), rnd() - .5, rnd() * 6]); conf.setColorAt(i, new THREE.Color([ROSA, CIANO, '#ffd36e', '#ffffff', '#b78bff'][i % 5])); }
+const m4 = new THREE.Matrix4(), qq = new THREE.Quaternion(), eu = new THREE.Euler();
+
+// ---------- camada 2D ----------
+const U = document.getElementById('u'), X = U.getContext('2d');
+const fnt = (s, f = 'AB') => `${f === 'SG' ? 700 : 400} ${s}px ${f}`;
+const pil = (x, y, w, h, r, c) => { X.fillStyle = c; X.beginPath(); X.roundRect(x, y, w, h, r); X.fill(); };
+function cabe(txt, f, mx, fam = 'AB') { while (f > 18) { X.font = fnt(f, fam); if (X.measureText(txt).width <= mx) break; f -= 2; } return f; }
+function neon(txt, x, y, f, cor = '#fff', al = 'center', fam = 'AB') { X.save(); X.font = fnt(f, fam); X.textAlign = al; X.textBaseline = 'middle'; X.lineJoin = 'round';
+  if (cor === 'grad') { const g = X.createLinearGradient(0, y - f * .5, 0, y + f * .5); g.addColorStop(0, '#ff5fa8'); g.addColorStop(.55, '#ff8a6a'); g.addColorStop(1, '#ffb84a'); cor = g; }
+  X.shadowColor = 'rgba(30,8,50,.55)'; X.shadowBlur = f * .1; X.shadowOffsetY = f * .07; X.lineWidth = f * .17; X.strokeStyle = '#3a1458'; X.strokeText(txt, x, y); X.shadowColor = 'transparent'; X.fillStyle = cor; X.fillText(txt, x, y); X.restore(); }
+function cartaoBranco(x, y, w, h) { X.save(); X.shadowColor = 'rgba(0,0,0,.4)'; X.shadowBlur = 30; X.shadowOffsetY = 12; pil(x, y, w, h, 28, CREME); X.restore(); }
+function placa(cx, y, w, h, l1, l2, f1, f2) { X.save(); X.shadowColor = 'rgba(0,0,0,.45)'; X.shadowBlur = 26; X.shadowOffsetY = 10; pil(cx - w / 2, y, w, h, 26, '#2a1648'); X.restore();
+  X.strokeStyle = '#fff'; X.lineWidth = 8; X.beginPath(); X.roundRect(cx - w / 2 + 12, y + 12, w - 24, h - 24, 18); X.stroke(); X.strokeStyle = '#ff8a6a'; X.lineWidth = 3; X.beginPath(); X.roundRect(cx - w / 2 + 24, y + 24, w - 48, h - 48, 12); X.stroke();
+  for (const [bx, by] of [[-1, -1], [1, -1], [-1, 1], [1, 1]]) { X.fillStyle = '#ffd9b0'; X.beginPath(); X.arc(cx + bx * (w / 2 - 38), y + h / 2 + by * (h / 2 - 38), 7, 0, 7); X.fill(); }
+  if (l2) { neon(l1, cx, y + h * .3, cabe(l1, f1, w - 120), '#fff'); neon(l2, cx, y + h * .68, f2, 'grad'); } else neon(l1, cx, y + h / 2 + 2, cabe(l1, f1, w - 120), '#fff'); }
+function selo(cur) { const w = 440, x = 505 - w / 2, y = 372; pil(x, y, w, 80, 40, 'rgba(58,28,40,.86)'); X.strokeStyle = ROSA; X.lineWidth = 3; X.beginPath(); X.roundRect(x, y, w, 80, 40); X.stroke();
+  X.font = fnt(24, 'SG'); X.fillStyle = '#fff'; X.textAlign = 'left'; X.textBaseline = 'middle'; X.fillText('ANTES DE JOGAR', x + 24, y + 41);
+  for (let i = 0; i < 3; i++) { const n = 3 - i, done = n > cur, on = n === cur, cx = x + 292 + i * 52, cy = y + 40; X.fillStyle = done ? '#2bd17e' : on ? '#ffd36e' : 'rgba(255,255,255,.28)'; X.beginPath(); X.arc(cx, cy, 20, 0, 7); X.fill();
+    X.fillStyle = '#2a0b45'; X.textAlign = 'center'; X.font = fnt(24); if (done) { X.strokeStyle = '#fff'; X.lineWidth = 5; X.beginPath(); X.moveTo(cx - 8, cy); X.lineTo(cx - 2, cy + 7); X.lineTo(cx + 9, cy - 7); X.stroke(); } else X.fillText(String(n), cx, cy + 2); } }
+function flap(txt, cx, y, cw, ch, k, cor = '#fff') { const L = txt.length, AZ = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'; const x0 = cx - (L * (cw + 8) - 8) / 2;
+  for (let i = 0; i < L; i++) { const ch0 = txt[i]; const ok = k > (i + 1) / (L + 2); const c = ch0 === ' ' ? ' ' : /[^A-Z0-9]/.test(ch0) ? ch0 : ok ? ch0 : AZ[(Math.floor(k * 60) * 7 + i * 13) % AZ.length]; const x = x0 + i * (cw + 8);
+    if (ch0 !== ' ') { pil(x, y, cw, ch, 10, '#3a1e2a'); X.fillStyle = 'rgba(255,255,255,.1)'; X.fillRect(x, y + ch / 2 - 1, cw, 2); X.fillStyle = cor; X.font = fnt(ch * .62); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(c, x + cw / 2, y + ch / 2 + 3); } } }
+// odômetro de rolinhos: cada dígito gira de 0 até o valor, um de cada vez
+function rolinhos(txt, cx, y, k) { const W = 92, H = 138, G = 8; const wid = c => /\d/.test(c) ? W + G : c === ',' ? 34 : 0; let tot = 0; for (const c of txt) tot += wid(c); const pre = 'R$'; X.font = fnt(76); const wp = X.measureText(pre).width + 28; const L = tot + wp;
+  X.save(); X.shadowColor = 'rgba(0,0,0,.4)'; X.shadowBlur = 30; pil(cx - L / 2 - 40, y - 40, L + 80, H + 80, 32, 'rgba(58,28,40,.92)'); X.restore(); X.strokeStyle = '#ff8a6a'; X.lineWidth = 5; X.beginPath(); X.roundRect(cx - L / 2 - 40, y - 40, L + 80, H + 80, 32); X.stroke();
+  let x = cx - L / 2; X.fillStyle = '#ffd36e'; X.font = fnt(76); X.textAlign = 'left'; X.textBaseline = 'middle'; X.fillText(pre, x, y + H / 2 + 4); x += wp; let di = 0, nd = txt.replace(/\D/g, '').length;
+  for (const c of txt) { if (c === ',') { X.fillStyle = '#fff'; X.fillRect(x + 6, y + H - 22, 14, 14); x += 34; continue; } const d = +c, s0 = .02 + di * .1, e0 = .45 + di * .11, p = eo(lin(k, s0, e0)), v = p * (20 + d), fl = Math.floor(v), fr = v - fl; di++;
+    X.save(); X.beginPath(); X.roundRect(x, y, W, H, 12); X.clip(); X.fillStyle = '#f4ecff'; X.fillRect(x, y, W, H); X.fillStyle = '#1a0b24'; X.font = fnt(96); X.textAlign = 'center'; X.fillText(String(fl % 10), x + W / 2, y + H / 2 + 4 - fr * H); X.fillText(String((fl + 1) % 10), x + W / 2, y + H / 2 + 4 + H - fr * H);
+    const sh = X.createLinearGradient(0, y, 0, y + H); sh.addColorStop(0, 'rgba(0,0,0,.28)'); sh.addColorStop(.25, 'rgba(0,0,0,0)'); sh.addColorStop(.75, 'rgba(0,0,0,0)'); sh.addColorStop(1, 'rgba(0,0,0,.28)'); X.fillStyle = sh; X.fillRect(x, y, W, H); X.restore(); x += W + G; } }
+// legenda: uma palavra gigante por vez, com "pop", sobre faixa escura
+function legenda(seg, t) { const ws = seg.palavras || []; if (!ws.length) return; let w = ws.filter(a => t >= a.t0 - .03).pop() || ws[0];
+  const txt = w.w.replace(/[.,:?!…"“”]+$/g, '').toUpperCase(); const pop = .55 + .45 * back(lin(t, w.t0 - .03, w.t0 + .15)); const f = cabe(txt, 150, 800);
+  X.save(); X.fillStyle = 'rgba(30,10,50,.5)'; X.beginPath(); X.roundRect(60, 1272, 870, 200, 40); X.fill();
+  X.translate(495, 1372); X.scale(pop, pop); neon(txt, 0, 0, f, /\d/.test(txt) ? 'grad' : '#fff'); X.restore(); }
+
+// ---------- câmera por cena ----------
+const SHOT = {
+  gancho: lt => [V(-3 + lt * .8, 3.6, 23), V(.3, 6.4, -4)],
+  n3: lt => [V(3.4 - lt * .8, 3.8, 22), V(0, 6.3, -4)],
+  n2: lt => [V(-3 + lt * .9, 3.4, -14), V(0, 1.4, -34)],
+  n1: lt => [V(3 - lt * .8, 4.4, -44), V(0, 6.4, -62)],
+  cta: lt => [V(0, 2.6, -70 - lt * .7), V(0, 3.8, -120)],
+};
+let TL = null; window.setTL = t => { TL = t; };
+const achaPal = (s, re) => (s.palavras.find(p => re.test(p.w)) || s.palavras[0]).t0 - s.t0;
+window.eventos = () => { const ev = []; TL.segmentos.forEach((s, i) => { if (i) ev.push({ t: s.t0, som: i % 2 ? 'whoosh' : 'whoosh2' });
+  if (s.cena === 'gancho') { ev.push({ t: s.t0 + achaPal(s, /^19/) , som: 'stamp' }); ev.push({ t: s.t0 + .3, som: 'paper', dur: 1.8 }); }
+  if (s.cena === 'n3') ev.push({ t: s.t0 + .35, som: 'pop' });
+  if (s.cena === 'n2') { ev.push({ t: s.t0 + achaPal(s, /^PlayS/i), som: 'ding' }); ev.push({ t: s.t0 + achaPal(s, /^Xbox/i), som: 'ding' }); }
+  if (s.cena === 'n1') ev.push({ t: s.t0 + .5, som: 'clock', dur: 2.2 }); if (s.cena === 'n1') ev.push({ t: s.t0 + 3.3, som: 'impact' });
+  if (s.cena === 'cta') { ev.push({ t: s.t0 + 1.2, som: 'typing', dur: .8 }); ev.push({ t: s.t0 + 2.2, som: 'pop' }); } });
+  ev.push({ t: TL.total - .6, som: 'whoosh' }); return ev; };
+
+let sheetEnd = 3;
+function mundo(cena, lt, d, t, seg) {
+  const ganc = cena === 'gancho';
+  // calendário: folhas 12→18 caem até a palavra "19"; depois a folha do 19 fica; n3 mostra o mês
+  if (ganc && seg) sheetEnd = Math.max(1.6, achaPal(seg, /^19/) + .1);
+  const offs = [2.0, 1.5, 1.1, .8, .55, .3, 0], base = sheetEnd - .5;
+  FOLHAS.forEach((f, i) => { const ts = Math.max(.2, base - offs[i] * Math.min(1, sheetEnd / 2.6)), p = ganc ? lin(lt, ts, ts + .5) : 1; const sw = eio(Math.min(1, p / .55)), fall = Math.max(0, p - .35) / .65;
+    f.grp.visible = ganc && p < 1; f.grp.rotation.x = -sw * 1.3; f.grp.position.y = 7.78 - fall * fall * 9; f.grp.position.x = fall * (i % 2 ? 1.5 : -1.5); f.grp.rotation.z = fall * (i % 2 ? .8 : -.8); f.mt.opacity = 1 - fall * .7; });
+  CAL.scale.setScalar(1 + (ganc ? .06 * Math.max(0, 1 - Math.abs(lt - sheetEnd) * 3) : 0));
+  desenhaCal(cena === 'n3' ? 'mes' : 'dia', 0, t);
+  // mascote esperando: balanço, olha o relógio
+  const pos = { gancho: [3.3, 0, -.5, 1.3], n3: [-3.3, 0, -.5, 1.3], n2: [0, 0, -28.5, .85], n1: [-2.9, 0, -53, 1.1], cta: [1.4, 0, -84, 1.2] }[cena] || [2, 0, 4, .95];
+  MASC.position.set(pos[0], Math.abs(Math.sin(t * 3.2)) * .06, pos[2]); MASC.scale.setScalar(pos[3]); MASC.rotation.y = (cena === 'n3' ? .35 : -.25) * 0 + (cena === 'gancho' ? -.35 : cena === 'n3' ? .35 : 0); MASC.rotation.z = Math.sin(t * 1.4) * .04;
+  const rel = Math.max(0, Math.sin(t * 1.1)); MASC.userData.armL.position.set(-.95 + .25 * rel, 1.0 + .55 * rel, .15 * rel); MASC.userData.armR.position.y = 1.0 + Math.max(0, Math.sin(t * 5)) * .06;
+  // consoles acendem na fala
+  if (cena === 'n2') { const ta = achaPal(seg, /^PlayS/i), tb = achaPal(seg, /^Xbox/i), ka = eo(lin(lt, ta, ta + .3)), kb = eo(lin(lt, tb, tb + .3));
+    faixaA.material.emissiveIntensity = 3.2 * ka; anelA.material.opacity = .5 * ka; faixaB.material.emissiveIntensity = 3.2 * kb; anelB.material.opacity = .5 * kb; CON.children.forEach(o => { }); }
+  else if (cena !== 'n2') { }
+  // etiqueta balança e cai no lugar
+  const kt = cena === 'n1' ? lt : 3; TAG.position.y = 8.7 + (cena === 'n1' ? 6 * (1 - back(lin(lt, 0, .55))) : 0); TAG.rotation.z = Math.sin(t * 2.3) * .09 * (cena === 'n1' ? Math.max(.3, 1 - lin(lt, .5, 3.5)) : 1);
+  // confete (n1 final e cta)
+  conf.visible = cena === 'n1' || cena === 'cta'; if (conf.visible) { const T0 = cena === 'n1' ? lt - 3.2 : lt + 1.5; for (let i = 0; i < NF; i++) { const c = cdir[i], tb = T0 - c[3] * .03; const k = tb < 0 ? 0 : tb;
+      const o = cena === 'n1' ? V(0, 0, -62) : V(0, 0, -100); const p = V(o.x + c[0] * 18 * Math.min(1, k * 1.2), 18 - k * k * 2 - c[1] * 3 + (1 - Math.min(1, k * 1.5)) * -8, o.z - 6 + c[2] * 14); const s = tb < 0 || k > 4.5 ? 0 : 1; eu.set(k * 5 + i, k * 3, i); qq.setFromEuler(eu); m4.compose(p, qq, V(s, s, s)); conf.setMatrixAt(i, m4); } conf.instanceMatrix.needsUpdate = true; }
+  PRE.visible = cena === 'n1';
+  SOL.position.y = 12 + Math.sin(t * .2) * .3;
+}
+
+function ui(cena, lt, d, t, s) {
+  if (cena === 'gancho') { const a = back(lin(lt, 0, .4)); X.save(); X.translate(505, 292); X.scale(a, a); X.translate(-505, -292); placa(505, 292, 860, 250, 'GTA 6 SAI QUINTA,', 'DIA 19', 66, 150); X.restore();
+    const k = back(lin(lt, .5, .9)); X.save(); X.translate(505, 600); X.scale(k, k); const t1 = '3 COISAS ANTES DE JOGAR'; const f = cabe(t1, 40, 700); X.font = fnt(f); const w = X.measureText(t1).width + 70; pil(-w / 2, -38, w, 76, 38, '#fff'); X.fillStyle = '#3a1458'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(t1, 0, 3); X.restore();
+    const tp = achaPal(s, /^449/); if (lt > tp - .2) { const b = back(lin(lt, tp - .2, tp + .15)); X.save(); X.translate(505, 695); X.rotate(-.03); X.scale(b, b); const t2 = 'A PARTIR DE R$ 449,90'; const f2 = cabe(t2, 44, 760); X.font = fnt(f2); const w2 = X.measureText(t2).width + 70; const g = X.createLinearGradient(-w2 / 2, 0, w2 / 2, 0); g.addColorStop(0, '#ff5fa8'); g.addColorStop(1, '#ff9a4a'); X.lineWidth = 8; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(-w2 / 2, -40, w2, 80, 40); X.stroke(); pil(-w2 / 2, -40, w2, 80, 40, g); X.fillStyle = '#fff'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(t2, 0, 4); X.restore(); } return; }
+  if (cena === 'cta') { } else {
+  const a = eo(lin(lt, 0, .3)); X.globalAlpha = a; placa(505, 270, 760, 96, 'GTA 6 SAI QUINTA · DIA 19', null, 40, 0); selo(cena === 'n3' ? 3 : cena === 'n2' ? 2 : 1); X.globalAlpha = 1; }
+  if (cena === 'n3') { const k = lin(lt, .25, 1.4); flap('QUINTA 19/11', 505, 520, 62, 96, k);
+    const tc = achaPal(s, /^Comenta/i); if (lt > tc - .1) { const b = back(lin(lt, tc - .1, tc + .25)); X.save(); X.translate(505, 690); X.scale(b, b); const t1 = '💬 COMENTA GTA'; X.font = fnt(56); const w = X.measureText(t1).width + 80; X.lineWidth = 9; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(-w / 2, -48, w, 96, 48); X.stroke(); pil(-w / 2, -48, w, 96, 48, '#fff'); X.fillStyle = '#3a1458'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(t1, 0, 4); X.restore(); }
+    const tm = achaPal(s, /^Manda/i); if (lt > tm - .1) { const b = back(lin(lt, tm - .1, tm + .25)); X.save(); X.translate(505, 810); X.scale(b, b); const t1 = '➜ MANDA PRA QUEM NÃO DORME'; const f = cabe(t1, 38, 760); X.font = fnt(f); const w = X.measureText(t1).width + 60; pil(-w / 2, -36, w, 72, 36, '#ffd36e'); X.fillStyle = '#3a1458'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(t1, 0, 3); X.restore(); } }
+  if (cena === 'n2') { const ta = achaPal(s, /^PlayS/i), tb = achaPal(s, /^Xbox/i);
+    const tag = (txt, x, y, t0, cor) => { if (lt < t0) return; const b = back(lin(lt, t0, t0 + .3)); X.save(); X.translate(x, y); X.scale(b, b); X.font = fnt(46); const w = X.measureText(txt).width + 54; X.lineWidth = 8; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(-w / 2, -40, w, 80, 40); X.stroke(); pil(-w / 2, -40, w, 80, 40, cor); X.fillStyle = '#fff'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(txt, 0, 4); X.restore(); };
+    tag('PS5', 290, 560, ta, '#4aa3ff'); tag('XBOX SERIES', 725, 560, tb, '#3c9a3c');
+    const tc = achaPal(s, /^Confere/i); if (lt > tc - .1) { const b = back(lin(lt, tc - .1, tc + .3)); X.save(); X.translate(505, 760); X.scale(b, b); cartaoBranco(-380, -90, 760, 180); X.fillStyle = '#3a1458'; X.font = fnt(44); X.textAlign = 'left'; X.textBaseline = 'middle'; X.fillText('CONFERE O ESPAÇO', -340, -42);
+      pil(-340, 8, 680, 40, 20, '#e9dff0'); const q = eio(lin(lt, tc + .1, tc + 1.2)); const g = X.createLinearGradient(-340, 0, 340, 0); g.addColorStop(0, '#2bd17e'); g.addColorStop(1, '#8be8b2'); pil(-340, 8, 680 * .6 * q + 1, 40, 20, g);
+      if (q > .95) { X.fillStyle = '#2bd17e'; X.font = fnt(34, 'SG'); X.textAlign = 'right'; X.fillText('✓ LIVRE?', 340, -40); } X.restore(); } }
+  if (cena === 'n1') { const k = lin(lt, .5, 3.1); const pr = back(lin(lt, .2, .6)); X.save(); X.translate(505, 560); X.scale(pr, pr); X.font = fnt(44); const t1 = 'A PARTIR DE'; const w = X.measureText(t1).width + 60; pil(-w / 2, -34, w, 68, 34, '#fff'); X.fillStyle = '#3a1458'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(t1, 0, 3); X.restore();
+    rolinhos('449,90', 505, 640, k); }
+  if (cena === 'cta') { const k = back(lin(lt, .05, .45)); X.save(); X.translate(505, 580); X.scale(k, k); X.translate(-505, -580); cartaoBranco(110, 300, 790, 560); X.fillStyle = '#e0584a'; X.font = fnt(38); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('CHECKLIST DE LANÇAMENTO', 505, 365);
+    const L = ['Pré-download', 'Espaço livre no console', 'Conta PSN / Xbox', 'Preço: R$ 449,90']; L.forEach((tx, i) => { const y = 465 + i * 96, on = lt > .35 + i * .3, s2 = back(lin(lt, .35 + i * .3, .6 + i * .3)); pil(150, y - 32, 710, 66, 16, i % 2 ? '#f3e6ff' : '#ffe9dc'); X.fillStyle = '#2a0b45'; X.font = fnt(34); X.textAlign = 'left'; X.fillText(tx, 220, y + 2);
+      if (on) { X.save(); X.translate(184, y + 1); X.scale(s2, s2); X.fillStyle = '#2bd17e'; X.beginPath(); X.arc(0, 0, 20, 0, 7); X.fill(); X.strokeStyle = '#fff'; X.lineWidth = 5; X.beginPath(); X.moveTo(-8, 0); X.lineTo(-2, 7); X.lineTo(9, -7); X.stroke(); X.restore(); } }); X.restore();
+    const kc = eo(lin(lt, 1.0, 1.3)); X.globalAlpha = kc; pil(110, 900, 790, 92, 46, '#fff'); X.lineWidth = 8; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(110, 900, 790, 92, 46); X.stroke(); X.fillStyle = '#e8283c'; X.beginPath(); X.arc(160, 946, 22, 0, 7); X.fill(); X.fillStyle = '#1a0b24'; X.font = fnt(40, 'SG'); X.textAlign = 'left'; X.textBaseline = 'middle';
+    const tx = 'GTA'.slice(0, Math.ceil(3 * lin(lt, 1.1, 1.8))); X.fillText(tx + (Math.floor(t * 3) % 2 && lt < 1.9 ? '|' : ''), 200, 948); X.globalAlpha = 1;
+    if (lt > 2.1) { const b = back(lin(lt, 2.1, 2.45)); X.save(); X.translate(505, 1110); X.scale(b, b); cartaoBranco(-395, -95, 790, 190); X.fillStyle = '#2a0b45'; X.font = fnt(36); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('Tá aqui o checklist 👇', 0, -34); X.font = fnt(26, 'SG'); X.fillStyle = '#4a3a5a'; X.fillText('pré-download, espaço, conta e preço', 0, 14); X.fillStyle = ROXO; X.fillText('📩 chegou na sua DM', 0, 56); X.restore(); } }
+}
+
+window.setT = t => {
+  const SG = TL.segmentos; let k = SG.findIndex(s => t < s.fim); if (k < 0) k = SG.length - 1; const s = SG[k], lt = t - s.t0, d = s.fim - s.t0, cena = s.cena;
+  const LOOP = .6, kl = lin(t, TL.total - LOOP, TL.total);
+  const cm = kl > .5 ? 'gancho' : cena, sm = kl > .5 ? SG[0] : s;
+  mundo(cm, kl > .5 ? SG[0].fim * .8 : lt, kl > .5 ? SG[0].fim : d, t, sm);
+  let [p, l] = SHOT[cena](lt); const gl = .5; if (k > 0 && lt < gl) { const pv = SG[k - 1], [pp, ll] = SHOT[pv.cena](pv.fim - pv.t0); const e = eio(lt / gl); p = pp.lerp(p, e); l = ll.lerp(l, e); }
+  if (kl > 0) { const [p0, l0] = SHOT.gancho(SG[0].fim * .8); p = p.clone().lerp(p0, eio(kl)); l = l.clone().lerp(l0, eio(kl)); }
+  cam.position.copy(p); cam.lookAt(l); cam.rotateZ(.035 * Math.sin(t * .5)); R.render(S, cam);
+  X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(20,0,30,.35)'); vg.addColorStop(.22, 'rgba(0,0,0,0)'); vg.addColorStop(.68, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(20,0,30,.45)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
+  if (kl > .5) { ui('gancho', SG[0].fim * .8, SG[0].fim, t, SG[0]); legenda(SG[0], SG[0].t0 + 2); return; }
+  ui(cena, lt, d, t, s); legenda(s, t);
+  // chicote de câmera: riscos horizontais e flash rosa na troca de cena
+  if (k > 0 && lt < gl) { const a = Math.sin(Math.PI * lt / gl); for (let i = 0; i < 14; i++) { const y = (i * 137 + 60) % 1900, h = 6 + (i * 53) % 26; const g = X.createLinearGradient(0, 0, 1080, 0); g.addColorStop(0, 'rgba(255,230,210,0)'); g.addColorStop(.5, `rgba(255,230,210,${.45 * a})`); g.addColorStop(1, 'rgba(255,230,210,0)'); X.fillStyle = g; X.fillRect(0, y, 1080, h); }
+    X.fillStyle = `rgba(255,150,170,${.28 * Math.max(0, 1 - lt / .15)})`; X.fillRect(0, 0, 1080, 1920); }
+};
+window.capa = () => {
+  sheetEnd = 1; mundo('gancho', 9, 10, 1.3, null); FOLHAS.forEach(f => f.grp.visible = false); MASC.position.set(3.3, 0, -.5); MASC.scale.setScalar(1.3);
+  hemi.intensity = 1.6; cam.fov = 40; cam.updateProjectionMatrix(); cam.position.copy(V(-1.2, 3.2, 21)); cam.lookAt(V(.2, 5.9, -4)); cam.rotateZ(.04); R.render(S, cam); cam.fov = 40; cam.updateProjectionMatrix(); hemi.intensity = 1.25;
+  X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(30,10,60,.2)'); vg.addColorStop(.22, 'rgba(30,10,60,.35)'); vg.addColorStop(.42, 'rgba(30,10,60,.5)'); vg.addColorStop(.6, 'rgba(30,10,60,.55)'); vg.addColorStop(.85, 'rgba(30,10,60,.7)'); vg.addColorStop(1, 'rgba(30,10,60,.8)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
+  X.save(); X.translate(540, 390); X.rotate(-.04); const sg = X.createLinearGradient(-250, 0, 250, 0); sg.addColorStop(0, '#7b3fd0'); sg.addColorStop(.5, '#ff4f9a'); sg.addColorStop(1, '#ff9a4a'); X.lineWidth = 10; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(-250, -50, 500, 100, 18); X.stroke(); pil(-250, -50, 500, 100, 18, sg); X.fillStyle = '#fff'; X.font = fnt(54); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('GTA 6 · 19/11', 0, 6); X.restore();
+  neon('SAI', 540, 510, 100, '#fff'); neon('QUINTA', 540, 640, 190, 'grad'); neon('3 COISAS PRA SABER', 540, 1445, 58, '#fff');
+  X.save(); X.translate(540, 1335); X.rotate(-.03); const t2 = 'A PARTIR DE R$ 449,90'; X.font = fnt(52); const w2 = X.measureText(t2).width + 80; const g = X.createLinearGradient(-w2 / 2, 0, w2 / 2, 0); g.addColorStop(0, '#ff5fa8'); g.addColorStop(1, '#ff9a4a'); X.lineWidth = 10; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(-w2 / 2, -50, w2, 100, 50); X.stroke(); pil(-w2 / 2, -50, w2, 100, 50, g); X.fillStyle = '#fff'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(t2, 0, 5); X.restore();
+  X.font = fnt(40, 'SG'); const tx = '💬 Comenta GTA'; const tw = X.measureText(tx).width + 60; X.lineWidth = 8; X.strokeStyle = '#3a1458'; X.beginPath(); X.roundRect(540 - tw / 2, 1520, tw, 84, 42); X.stroke(); pil(540 - tw / 2, 1520, tw, 84, 42, '#fff'); X.fillStyle = '#3a1458'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 540, 1564);
+};
+window.pronto = true;
+</script></body></html>

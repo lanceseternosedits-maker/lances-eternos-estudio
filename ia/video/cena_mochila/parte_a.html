@@ -1,0 +1,13 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:AB;src:url(../cena_contagem/f/archivo-black-latin-400-normal.woff2)}
+@font-face{font-family:FR;src:url(../cena_contagem/f/fraunces-latin-700-normal.woff2)}
+@font-face{font-family:SG;src:url(../cena_contagem/f/space-grotesk-latin-700-normal.woff2)}
+*{margin:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+canvas{position:absolute;left:0;top:0;width:1080px;height:1920px}
+</style></head><body><canvas id="g" width="1080" height="1920"></canvas><canvas id="u" width="1080" height="1920"></canvas>
+<script type="module">
+// "A IA esquece o começo" (12/11): biblioteca-estação ao pôr do sol. Esteira de caixas de texto entra numa mochila gigante de tamanho fixo;
+// a caixa do COMEÇO sobe, passa a borda e cai. Truque: as 3 regras entram de novo na esteira. Motor da cena_gta (padrão perfil referência).
+// Interface: setTL(timeline), setT(t), eventos(), capa(). Render: CENA=cena_mochila/index.html node cena_quarto/render_quarto.js <tl> <mp4>
+import * as THREE from '../cena_trend/three.module.min.js';
+for (const f of ['400 60px AB', '700 60px SG', '700 60px FR']) await document.fonts.load(f);

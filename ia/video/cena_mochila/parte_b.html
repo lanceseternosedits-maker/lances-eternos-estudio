@@ -1,0 +1,37 @@
+const R = new THREE.WebGLRenderer({ canvas: document.getElementById('g'), antialias: true, preserveDrawingBuffer: true });
+R.setSize(1080, 1920, false); R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap; R.outputColorSpace = THREE.SRGBColorSpace;
+const S = new THREE.Scene(); const cam = new THREE.PerspectiveCamera(40, 1080 / 1920, .1, 500);
+S.fog = new THREE.Fog(0xf7a98a, 35, 170);
+const hemi = new THREE.HemisphereLight(0xffe2c4, 0x8a5a6a, 1.35); S.add(hemi);
+const sol = new THREE.DirectionalLight(0xffb070, 2.6); sol.position.set(-8, 10, -60); sol.castShadow = true; sol.shadow.mapSize.set(2048, 2048); sol.shadow.bias = -0.0006; sol.shadow.normalBias = .04;
+Object.assign(sol.shadow.camera, { left: -40, right: 40, top: 40, bottom: -40, near: 1, far: 120 }); S.add(sol, sol.target);
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)), lin = (t, a, b) => cl((t - a) / (b - a)), eo = x => 1 - Math.pow(1 - cl(x), 3);
+const eio = x => { x = cl(x); return x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; }, back = x => { x = cl(x); const c = 1.7; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+let sd = 11; const rnd = () => (sd = (sd * 16807) % 2147483647) / 2147483647;
+const M = (c, o = {}) => new THREE.MeshStandardMaterial({ color: c, roughness: .6, ...o }), E = (c, k = 2) => new THREE.MeshStandardMaterial({ color: c, emissive: c, emissiveIntensity: k, roughness: .4 });
+function mesh(g, m, par = S, x = 0, y = 0, z = 0) { const o = new THREE.Mesh(g, m); o.position.set(x, y, z); o.castShadow = o.receiveShadow = true; par.add(o); return o; }
+const box = (w, h, d, m, par, x, y, z) => mesh(new THREE.BoxGeometry(w, h, d), m, par, x, y, z);
+function ctex(w, h, draw) { const c = document.createElement('canvas'); c.width = w; c.height = h; const g = c.getContext('2d'); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.draw = (...a) => { g.clearRect(0, 0, w, h); draw(g, w, h, ...a); t.needsUpdate = true; }; t.draw(); return t; }
+const V = (x, y, z) => new THREE.Vector3(x, y, z);
+const ROSA = '#ff6f61', ROXO = '#6b4aa0', CIANO = '#ffc36b', CREME = '#fff3e6', LARANJA = '#ff7a3d';
+
+// ---------- céu: degradê pôr do sol + sol listrado ----------
+const ceuT = ctex(64, 512, g => { const d = g.createLinearGradient(0, 0, 0, 512); d.addColorStop(0, '#3f4cb8'); d.addColorStop(.35, '#a65ab4'); d.addColorStop(.62, '#ff7f8a'); d.addColorStop(.85, '#ffb070'); d.addColorStop(1, '#ffd89a'); g.fillStyle = d; g.fillRect(0, 0, 64, 512); });
+S.background = ceuT;
+const solT = ctex(512, 512, g => { const h = g.createRadialGradient(256, 256, 60, 256, 256, 256); h.addColorStop(0, 'rgba(255,246,214,1)'); h.addColorStop(.42, 'rgba(255,214,140,1)'); h.addColorStop(.46, 'rgba(255,190,120,.55)'); h.addColorStop(1, 'rgba(255,170,110,0)'); g.fillStyle = h; g.fillRect(0, 0, 512, 512); });
+const SOL = mesh(new THREE.PlaneGeometry(70, 70), new THREE.MeshBasicMaterial({ map: solT, transparent: true, fog: false, depthWrite: false }), S, 0, 10, -150); SOL.castShadow = SOL.receiveShadow = false;
+
+// ---------- cidade: avenida principal (eixo z) com prédios dos dois lados ----------
+const chao = mesh(new THREE.PlaneGeometry(400, 400), M('#c98a7a', { roughness: .8 })); chao.rotation.x = -Math.PI / 2;
+const rua = box(10, .02, 300, M('#6e4a5a', { roughness: .55, metalness: .1 }), S, 0, .01, -60);
+for (let z = 60; z > -200; z -= 6) box(.25, .03, 2.4, M('#fff1d6'), S, 0, .03, z);
+for (const x of [-5.6, 5.6]) box(1.2, .18, 300, M('#e8b9a4'), S, x, .09, -60);
+const janT = ctex(128, 256, g => { g.fillStyle = '#1b0b2a'; g.fillRect(0, 0, 128, 256); for (let y = 10; y < 256; y += 26) for (let x = 10; x < 128; x += 30) { g.fillStyle = Math.random() < .55 ? (Math.random() < .5 ? '#ffd1f0' : '#ffb36b') : '#3a1a4a'; g.fillRect(x, y, 18, 14); } });
+janT.wrapS = janT.wrapT = THREE.RepeatWrapping;
+const PRED = [];
+function predio(x, z, w, d, h, cor, neon) { const g = new THREE.Group(); g.position.set(x, 0, z); S.add(g); const mt = M(cor, { roughness: .85 });
+  const b = box(w, h, d, mt, g, 0, h / 2, 0); b.userData.base = h; if (neon) { box(w + .1, .25, d + .1, E(neon, 2.5), g, 0, h, 0); box(.2, h, .2, E(neon, 2), g, x < 0 ? w / 2 : -w / 2, h / 2, d / 2); } PRED.push(g); return g; }
+const cores = ['#f6c7ae', '#f0a99a', '#e8b4c4', '#fbd9bd', '#d99aa8', '#f4bfa0'], neons = [null, null, null, null, null, null];
+for (const lado of [-1, 1]) for (let z = 30; z > -170; z -= 7 + rnd() * 4) { const w = 5 + rnd() * 4, h = 6 + rnd() * 18; predio(lado * (9 + w / 2 + rnd() * 2), z, w, 5 + rnd() * 3, h, cores[(rnd() * 6) | 0], neons[(rnd() * 6) | 0]); }
+// postes com luz rosa
+for (let z = 26; z > -120; z -= 12) for (const x of [-6.4, 6.4]) { if (x < 0 && z > 0) continue; box(.15, 4, .15, M('#333'), S, x, 2, z); box(.9, .12, .3, E('#ffe0a8', 1.2), S, x * .9, 4, z); }

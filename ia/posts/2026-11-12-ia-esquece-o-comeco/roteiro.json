@@ -26,10 +26,10 @@
  "prova_viral": "Curiosidade/incômodo comum de quem usa IA (esquece regra dada no início). Fonte: documentação oficial sobre janela de contexto (limite de texto por conversa). ⚙️ da rodada: fechar com truque salvável e \"salva\" na fala.",
  "obs": "Sem número: conferir nas duas páginas de docs que a conversa tem limite e que o texto antigo pode sair/ser resumido; usar \"mochila\" só como metáfora. Não citar tamanho de nenhum modelo.",
  "polemica": false,
- "agenda": "2026-11-17 12:00",
+ "agenda": "2026-11-12 13:00",
  "palavras": 78,
  "duracao_estimada_s": 27.9,
- "status": "roteiro aguardando aprovação",
+ "status": "roteiro aprovado",
  "segmentos": [
   {
    "cena": "gancho",
