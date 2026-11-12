@@ -136,5 +136,12 @@
     }
    ]
   }
- ]
+ ],
+ "producao": {
+  "padrao": "Padrão 'perfil referência' (AGENTE.md, 10/11) obrigatório: motor video/cena_gta (copiar index.html, helpers neon/flap/odometro/estrelas/cartaoBranco/SHOT); mundo 3D com profundidade (avenida, prédios dos dois lados, céu lilás→rosa→laranja→dourado, sol baixo, neblina); câmera viajando sem quadro parado; cada fala vira objeto/efeito (1 efeito forte por cena); prédios lisos pastel, sem textura de janelas nem neon, sem glow; texto/selo/pílula/legenda na linguagem do tema, branco com contorno escuro grosso e faixa escura atrás do texto; selo de progresso; fechamento com caixa de comentário digitando a palavra + cartão da DM e loop no 1º quadro; capa renderizada pela própria cena (node video/cena_gta/capa.js), nunca o capas.js genérico; área segura y 260–1500 e 130 px da direita; fala ≤ 3,0 palavras/s; superar o vídeo anterior em pelo menos um detalhe.",
+  "mundo": "avenida de portas de vidro (abas) ao anoitecer: segurança de blocos anotando e etiquetas coladas na camisa de um visitante",
+  "tipografia_tema": "Space Grotesk + Archivo Black; azul-segurança → amarelo-etiqueta",
+  "efeitos_chave": "medidor circular, letreiro split-flap, etiquetas que sobem",
+  "quando": "só depois do OK do Vitor no roteiro (e 2º OK no MP4)"
+ }
 }

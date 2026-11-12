@@ -112,5 +112,12 @@
     }
    ]
   }
- ]
+ ],
+ "producao": {
+  "padrao": "Padrão 'perfil referência' (AGENTE.md, 10/11) obrigatório: motor video/cena_gta (copiar index.html, helpers neon/flap/odometro/estrelas/cartaoBranco/SHOT); mundo 3D com profundidade (avenida, prédios dos dois lados, céu lilás→rosa→laranja→dourado, sol baixo, neblina); câmera viajando sem quadro parado; cada fala vira objeto/efeito (1 efeito forte por cena); prédios lisos pastel, sem textura de janelas nem neon, sem glow; texto/selo/pílula/legenda na linguagem do tema, branco com contorno escuro grosso e faixa escura atrás do texto; selo de progresso; fechamento com caixa de comentário digitando a palavra + cartão da DM e loop no 1º quadro; capa renderizada pela própria cena (node video/cena_gta/capa.js), nunca o capas.js genérico; área segura y 260–1500 e 130 px da direita; fala ≤ 3,0 palavras/s; superar o vídeo anterior em pelo menos um detalhe.",
+  "mundo": "cidade de celulares gigantes ao entardecer: avenida de telas, dedinhos de bloco tocando ícones sozinhos",
+  "tipografia_tema": "Space Grotesk + Archivo Black; azul-noite → rosa-abajur, verde-tela",
+  "efeitos_chave": "estrelas somando 11 mil, cartões 3º/2º/1º subindo, aviso de segurança em placa",
+  "quando": "só depois do OK do Vitor no roteiro (e 2º OK no MP4)"
+ }
 }
