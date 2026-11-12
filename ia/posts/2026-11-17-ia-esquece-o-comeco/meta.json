@@ -1,0 +1,66 @@
+{
+ "data": "2026-11-17",
+ "horario": "10:00",
+ "pilar": "reel",
+ "categoria": "como_funciona",
+ "formato": "palco",
+ "temas": [
+  "ia-esquece-o-comeco"
+ ],
+ "fontes": [
+  "https://docs.claude.com/en/docs/build-with-claude/context-windows",
+  "https://platform.openai.com/docs/guides/conversation-state"
+ ],
+ "prova_viral": "Curiosidade/incômodo comum de quem usa IA (esquece regra dada no início). Fonte: documentação oficial sobre janela de contexto (limite de texto por conversa). ⚙️ da rodada: fechar com truque salvável e \"salva\" na fala.",
+ "cta": "MOCHILA",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-17 10:00",
+  "tiktok": "2026-11-17 10:00"
+ },
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita adesiva",
+  "nome": "b) carimbo batendo",
+  "contador": "f) termômetro",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 01 + papel",
+  "mascote": "mochila e crachá; ação principal: arrumar a mochila"
+ },
+ "status": "roteiro aguardando aprovação",
+ "primeiro_comentario": "💬 Comenta MOCHILA que eu te mando na DM 👇",
+ "teste": "4 vídeos por dia (Vitor, 12/11)",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "dor comum, truque salvável",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "passa",
+    "nota": "Sem número inventado; fala com \"pode\"."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "passa",
+    "nota": "Sem número inventado; fala com \"pode\"."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "passa",
+    "nota": "Sem número inventado; fala com \"pode\"."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "passa",
+    "nota": "Sem número inventado; fala com \"pode\"."
+   }
+  ],
+  "ajustes": [
+   "2 voltas: cortei números sem fonte, tirei aspas e \"dez mensagens\", troquei abertura e pergunta final, \"até 30%\", 28→65%"
+  ],
+  "em": "2026-11-12 11:23"
+ }
+}

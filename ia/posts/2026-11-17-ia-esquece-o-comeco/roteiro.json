@@ -1,0 +1,126 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "chave": "MOCHILA",
+ "tese": "POR QUE A IA ESQUECE O COMEÇO DA CONVERSA · MOCHILA DE TAMANHO FIXO",
+ "conceito": "biblioteca-estação ao pôr do sol: esteira de caixas de texto entrando numa mochila gigante, o começo caindo pela borda",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita adesiva",
+  "nome": "b) carimbo batendo",
+  "contador": "f) termômetro",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 01 + papel",
+  "mascote": "mochila e crachá; ação principal: arrumar a mochila"
+ },
+ "brinde": "texto pronto de \"3 regras\" para colar de novo (modelo de lembrete)",
+ "fontes": [
+  "https://docs.claude.com/en/docs/build-with-claude/context-windows",
+  "https://platform.openai.com/docs/guides/conversation-state"
+ ],
+ "prova_viral": "Curiosidade/incômodo comum de quem usa IA (esquece regra dada no início). Fonte: documentação oficial sobre janela de contexto (limite de texto por conversa). ⚙️ da rodada: fechar com truque salvável e \"salva\" na fala.",
+ "obs": "Sem número: conferir nas duas páginas de docs que a conversa tem limite e que o texto antigo pode sair/ser resumido; usar \"mochila\" só como metáfora. Não citar tamanho de nenhum modelo.",
+ "polemica": false,
+ "agenda": "2026-11-17 10:00",
+ "palavras": 78,
+ "duracao_estimada_s": 27.9,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "POR QUE A IA ESQUECE O QUE VOCÊ FALOU?",
+   "fala": "Por que a IA esquece o começo da conversa?",
+   "legenda": "Por que a IA esquece o começo da conversa?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "POR QUE A IA ESQUECE O QUE VOCÊ FALOU?",
+    "A MOCHILA DELA TEM TAMANHO FIXO",
+    "O TRUQUE: COLA DE NOVO AS 3 REGRAS"
+   ],
+   "itens": "ia-esquece-o-comeco"
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Ela carrega uma mochila de tamanho fixo.",
+   "legenda": "Ela carrega uma mochila de tamanho fixo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Conversa longa enche a mochila, e o começo pode sair.",
+   "legenda": "Conversa longa enche a mochila, e o começo pode sair.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Por isso ela pode ignorar a sua regra do início. Comenta MOCHILA que eu te mando o truque. Manda pra quem briga com a IA.",
+   "legenda": "Por isso ela pode ignorar a sua regra do início. Comenta MOCHILA que eu te mando o truque. Manda pra quem briga com a IA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "O truque: quando a conversa ficar longa, cola de novo as três regras.",
+   "legenda": "O truque: quando a conversa ficar longa, cola de novo as três regras.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA MOCHILA",
+   "fala": "Salva esse truque. Em que tarefa a IA mais esquece o que você pediu?",
+   "legenda": "Salva esse truque. Em que tarefa a IA mais esquece o que você pediu?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ],
+ "producao": {
+  "padrao": "Padrão 'perfil referência' (AGENTE.md, 10/11) obrigatório: motor video/cena_gta (copiar index.html, helpers neon/flap/odometro/estrelas/cartaoBranco/SHOT); mundo 3D com profundidade (avenida, prédios dos dois lados, céu lilás→rosa→laranja→dourado, sol baixo, neblina); câmera viajando sem quadro parado; cada fala vira objeto/efeito (1 efeito forte por cena); prédios lisos pastel, sem textura de janelas nem neon, sem glow; texto/selo/pílula/legenda na linguagem do tema, branco com contorno escuro grosso e faixa escura atrás do texto; selo de progresso; fechamento com caixa de comentário digitando a palavra + cartão da DM e loop no 1º quadro; capa renderizada pela própria cena (node video/cena_gta/capa.js), nunca o capas.js genérico; área segura y 260–1500 e 130 px da direita; fala ≤ 3,0 palavras/s; superar o vídeo anterior em pelo menos um detalhe.",
+  "mundo": "biblioteca-estação ao pôr do sol: esteira de caixas de texto entrando numa mochila gigante, o começo caindo pela borda",
+  "tipografia_tema": "Fraunces (título) + Archivo Black; marrom-madeira → dourado, mochila azul",
+  "efeitos_chave": "mochila enchendo, caixa do começo caindo, 3 cartões de regra voltando e check",
+  "quando": "só depois do OK do Vitor no roteiro (e 2º OK no MP4)"
+ }
+}

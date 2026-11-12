@@ -1,0 +1,120 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "GTA",
+ "tese": "GTA 6 SAI QUINTA · 3 COISAS QUE VOCÊ PRECISA SABER · A PARTIR DE R$ 449,90",
+ "conceito": "avenida de cidade ensolarada no pôr do sol (Vice City de blocos, sem logo nem personagem do jogo), calendário gigante com folha 19 caindo, console e etiqueta de preço",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "d) letreiro split-flap",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "b) chicote de câmera",
+  "camera": "c) travelling lateral",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 02 + efeitos arcade",
+  "mascote": "óculos escuros e boné; ação principal: esperar a fila do lançamento"
+ },
+ "brinde": "checklist de lançamento (pré-download, espaço livre, conta PSN/Xbox, preço) em texto",
+ "fontes": [
+  "https://www.mixvale.com.br/2026/10/15/gta-6-lancamento-em-19-de-novembro-de-2026-tera-versoes-para-ps5-e-xbox-series-a-partir-de-r-44990/",
+  "https://savepoint.com.br/2026/10/24/gta-6-data-lancamento-preco-brasil-dublado/",
+  "https://www.omelete.com.br/games/gta-6-ceo-da-take-two-confirma-mais-uma-vez-lancamento-em-2026"
+ ],
+ "prova_viral": "Data quente: lançamento em 19/11/2026 (Mixvale, SavePoint, Omelete/Gamevicio: Take-Two reconfirmou). Jogos furam a queda de alcance (PLAY 1.709, MOBILE 1.722, CORTES/GTA 6 695). Pedido direto do Vitor (12/11).",
+ "obs": "Fatos lidos só em títulos/trechos de busca (os sites bloquearam a leitura da página inteira): conferir no dia da produção data, plataformas e preço R$ 449,90 (a partir de, edição padrão) no comunicado da Rockstar/Take-Two ou em 2 matérias abertas. Sem dica de pirataria; sem prometer nada sobre PC.",
+ "polemica": false,
+ "agenda": "2026-11-17 08:00",
+ "palavras": 72,
+ "duracao_estimada_s": 25.7,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "GTA 6 SAI QUINTA, DIA 19",
+   "fala": "O GTA 6 sai quinta, dia 19. E a versão padrão começa em 449 reais.",
+   "legenda": "O GTA 6 sai quinta, dia 19. E a versão padrão começa em 449 reais.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "GTA 6 SAI QUINTA, DIA 19",
+    "3 COISAS ANTES DE JOGAR",
+    "A PARTIR DE R$ 449,90"
+   ],
+   "itens": "gta-6-sai-quinta"
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "fala": "Terceiro: a data. Quinta, 19 de novembro. Comenta GTA que eu te mando o checklist. Manda pra quem não dorme esperando.",
+   "legenda": "Terceiro: a data. Quinta, 19 de novembro. Comenta GTA que eu te mando o checklist. Manda pra quem não dorme esperando.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "data",
+   "numero": "QUINTA 19/11"
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "fala": "Segundo: sai pro PlayStation 5 e pro Xbox Series. Confere o espaço no seu.",
+   "legenda": "Segundo: sai pro PlayStation 5 e pro Xbox Series. Confere o espaço no seu.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "plataformas",
+   "numero": "PS5 · XBOX SERIES"
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "fala": "E o primeiro: o preço. A partir de 449 reais e 90 centavos.",
+   "legenda": "E o primeiro: o preço. A partir de 449 reais e 90 centavos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "preço",
+   "numero": "R$ 449,90"
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA GTA",
+   "fala": "Salva esse checklist. Você vai jogar no primeiro dia?",
+   "legenda": "Salva esse checklist. Você vai jogar no primeiro dia?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ],
+ "producao": {
+  "padrao": "Padrão 'perfil referência' (AGENTE.md, 10/11) obrigatório: motor video/cena_gta (copiar index.html, helpers neon/flap/odometro/estrelas/cartaoBranco/SHOT); mundo 3D com profundidade (avenida, prédios dos dois lados, céu lilás→rosa→laranja→dourado, sol baixo, neblina); câmera viajando sem quadro parado; cada fala vira objeto/efeito (1 efeito forte por cena); prédios lisos pastel, sem textura de janelas nem neon, sem glow; texto/selo/pílula/legenda na linguagem do tema, branco com contorno escuro grosso e faixa escura atrás do texto; selo de progresso; fechamento com caixa de comentário digitando a palavra + cartão da DM e loop no 1º quadro; capa renderizada pela própria cena (node video/cena_gta/capa.js), nunca o capas.js genérico; área segura y 260–1500 e 130 px da direita; fala ≤ 3,0 palavras/s; superar o vídeo anterior em pelo menos um detalhe.",
+  "mundo": "avenida de cidade ensolarada no pôr do sol (Vice City de blocos, sem logo nem personagem do jogo), calendário gigante com folha 19 caindo, console e etiqueta de preço",
+  "tipografia_tema": "Pricedown só se o jogo for o alvo: aqui usar Archivo Black com roxo→rosa→laranja do tema; números gigantes",
+  "efeitos_chave": "folha do calendário virando para 19, dois consoles que acendem, odômetro do preço até 449,90",
+  "quando": "só depois do OK do Vitor no roteiro (e 2º OK no MP4)"
+ }
+}

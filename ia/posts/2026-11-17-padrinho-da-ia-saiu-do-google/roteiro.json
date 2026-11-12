@@ -1,0 +1,126 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "palco",
+ "categoria": "historia",
+ "chave": "PADRINHO",
+ "tese": "O PADRINHO DA IA SAIU DO GOOGLE PRA AVISAR · 2023 · NOBEL EM 2024",
+ "conceito": "linha do tempo em avenida ao pôr do sol: prédio do campus de blocos 2023 e palanque do Nobel 2024, placa grande com a data",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "c) máquina de escrever",
+  "contador": "e) placar 8-bit HI-SCORE",
+  "legenda": "e) tarja de TV/arcade",
+  "transicao": "f) zoom atravessando uma tela",
+  "camera": "e) câmera na mão",
+  "fechamento": "e) página de caderno",
+  "tipografia": "f) Bebas Neue",
+  "som": "trilha 01 + clique",
+  "mascote": "terno e óculos de professor; ação principal: sair por uma porta com uma caixa"
+ },
+ "brinde": "link da matéria do NYT + do comunicado do Nobel + 1 curiosidade (ele dividiu o prêmio com John Hopfield)",
+ "fontes": [
+  "https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html",
+  "https://www.nobelprize.org/prizes/physics/2024/press-release/"
+ ],
+ "prova_viral": "Fonte histórica: NYT (01/05/2023) e Nobel de Física 2024 (nobelprize.org). Ligação com agora: o debate sobre riscos da IA segue em alta e o Nobel é recente (out/2024). 📜 da rodada: no máximo 1 por dia no teste.",
+ "obs": "Conferir no dia da produção na NYT e no nobelprize.org: data (01/05/2023), motivo dito por ele (falar dos riscos) e o prêmio (Física 2024, com John Hopfield). Não atribuir a ele frases que não estão na fonte; não dizer que o Google fez algo errado. Sem medo gratuito.",
+ "polemica": false,
+ "agenda": "2026-11-17 14:00",
+ "palavras": 93,
+ "duracao_estimada_s": 33.2,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "ELE AJUDOU A CRIAR A IA E SAIU DO GOOGLE",
+   "fala": "O padrinho da IA ajudou a criar a IA de hoje. E saiu do Google pra falar dos riscos.",
+   "legenda": "O padrinho da IA ajudou a criar a IA de hoje. E saiu do Google pra falar dos riscos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "ELE AJUDOU A CRIAR A IA E SAIU DO GOOGLE",
+    "MAIO DE 2023: QUERIA FALAR DOS RISCOS",
+    "UM ANO E MEIO DEPOIS, GANHOU O NOBEL"
+   ],
+   "itens": "padrinho-da-ia-saiu-do-google"
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Geoffrey Hinton, o padrinho da IA, saiu do Google em maio de 2023.",
+   "legenda": "Geoffrey Hinton, o padrinho da IA, saiu do Google em maio de 2023.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Disse que queria falar livremente dos riscos da tecnologia.",
+   "legenda": "Disse que queria falar livremente dos riscos da tecnologia.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Em 2024, ganhou o Nobel de Física por trabalhos com redes neurais. Comenta PADRINHO que eu te mando a matéria. Manda pra quem usa IA todo dia.",
+   "legenda": "Em 2024, ganhou o Nobel de Física por trabalhos com redes neurais. Comenta PADRINHO que eu te mando a matéria. Manda pra quem usa IA todo dia.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Vale pra você também: confere a resposta da IA antes de usar.",
+   "legenda": "Vale pra você também: confere a resposta da IA antes de usar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA PADRINHO",
+   "fala": "Salva pra contar pra alguém. Você confere o que a IA te responde?",
+   "legenda": "Salva pra contar pra alguém. Você confere o que a IA te responde?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ],
+ "producao": {
+  "padrao": "Padrão 'perfil referência' (AGENTE.md, 10/11) obrigatório: motor video/cena_gta (copiar index.html, helpers neon/flap/odometro/estrelas/cartaoBranco/SHOT); mundo 3D com profundidade (avenida, prédios dos dois lados, céu lilás→rosa→laranja→dourado, sol baixo, neblina); câmera viajando sem quadro parado; cada fala vira objeto/efeito (1 efeito forte por cena); prédios lisos pastel, sem textura de janelas nem neon, sem glow; texto/selo/pílula/legenda na linguagem do tema, branco com contorno escuro grosso e faixa escura atrás do texto; selo de progresso; fechamento com caixa de comentário digitando a palavra + cartão da DM e loop no 1º quadro; capa renderizada pela própria cena (node video/cena_gta/capa.js), nunca o capas.js genérico; área segura y 260–1500 e 130 px da direita; fala ≤ 3,0 palavras/s; superar o vídeo anterior em pelo menos um detalhe.",
+  "mundo": "linha do tempo em avenida ao pôr do sol: prédio do campus de blocos 2023 e palanque do Nobel 2024, placa grande com a data",
+  "tipografia_tema": "Bebas Neue + Archivo Black; azul-escuro → dourado, medalha",
+  "efeitos_chave": "data grande em split-flap (2023 → 2024), porta de prédio se abrindo, medalha girando",
+  "quando": "só depois do OK do Vitor no roteiro (e 2º OK no MP4)"
+ }
+}

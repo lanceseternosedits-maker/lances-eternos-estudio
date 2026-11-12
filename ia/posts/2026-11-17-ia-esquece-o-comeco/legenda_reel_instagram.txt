@@ -1,0 +1,14 @@
+Comenta MOCHILA que eu te mando o truque pronto. 🎒
+
+A IA não esquece de propósito: cada conversa tem uma "mochila" de tamanho fixo. Quando a conversa fica longa, o começo pode sair da mochila (ou ser resumido, dependendo do app), e é por isso que ela pode ignorar a regra que você deu lá atrás.
+
+O truque: quando a conversa ficar longa, cole de novo as 3 regras que importam (tom, formato, o que evitar).
+
+💬 Comenta MOCHILA e me segue. Salva pra copiar depois. Deixa o like e manda pra aquele amigo que briga com a IA.
+
+Em que tarefa a IA mais esquece o que você pediu? 👇
+
+Fonte: documentação oficial sobre janela de contexto (Anthropic e OpenAI).
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #inteligenciaartificial #chatgpt #dicasdeia #produtividade

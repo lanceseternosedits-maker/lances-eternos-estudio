@@ -24,7 +24,7 @@ Regras: ver "Categorias" no `AGENTE.md`. Toda data, número e frase daqui **é c
 - [x] (13/11 19:30, ia-ligou-pro-salao) **A IA que ligou pro salão** — Google Duplex, I/O 2018. Fontes: Engadget · BusinessLive.
 - [x] (15/11 15:00, ia-ganhou-o-nobel) **A IA que ganhou um Nobel** — AlphaFold, Nobel de Química 2024. Fontes: nobelprize.org · TechCrunch.
 - [x] (15/11 19:00, sam-altman-demitido) **Demitiram o chefe do ChatGPT** — 17–22/11/2023. Fontes: GPB/NPR · Yahoo Finance · Rolling Stone.
-- [ ] **Reservas (conferir fontes antes):** OpenAI Five vence os campeões de Dota 2 (2019) · Hinton sai do Google pra alertar sobre IA (2023) · GPT-2 'perigoso demais pra lançar' (2019; usado 16/11 21:30, ia-perigosa-demais-pra-lancar).
+- [ ] **Reservas (conferir fontes antes):** OpenAI Five vence os campeões de Dota 2 (2019) · Hinton sai do Google (2023; usado 17/11 14:00, padrinho-da-ia-saiu-do-google) · GPT-2 'perigoso demais pra lançar' (2019; usado 16/11 21:30, ia-perigosa-demais-pra-lancar).
 
 ## ⚙️ Como a IA funciona (explicado com objeto do dia a dia, nunca aula)
 
