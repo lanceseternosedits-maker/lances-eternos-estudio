@@ -14,7 +14,7 @@ from pathlib import Path
 
 IA = Path(__file__).resolve().parent.parent
 BASE = 25  # 2 de 8 Reels medidos passaram de ~300 views (07/11)
-CORTE_CHANCE = 70  # Vitor, 12/11: roteiro novo com chance abaixo disto é descartado sozinho (status "descartado"), sem ir para a aprovação
+CORTE_CHANCE = 55  # Vitor, 12/11: era 70 (nenhum Reel medido passava); 55 depois da calibração. Abaixo disto o roteiro novo é descartado sozinho
 CORTE = 250  # views de referência (perto da mediana dos Reels medidos)
 # apelidos da leitura da API (metricas.json) -> pasta do post
 APELIDOS = {"5 skills": "2026-11-07-5-skills", "desenho animado": "2026-11-04-desenho-animado", "canva": "2026-11-04-canva-craft",
