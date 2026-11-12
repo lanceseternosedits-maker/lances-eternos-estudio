@@ -15,6 +15,10 @@ Toda sessão nova do painel lê este arquivo junto com o CLAUDE.md. Ele guarda o
 
 - **Teste 4 Reels/dia (Vitor, 11/11: "seguir com ação recomendada"):** alcance caiu desde 09/11 (mediana/dia 2.684 → 260). Em 12 e 13/11 ficam só 4 por dia (12/11: ZAP 06:00, CELULAR 10:00, WATSON 17:00, APPLE 19:30; 13/11: MUSICA 06:00, ANIMA 10:00, IKEA 19:30, LIGOU 21:30). Viraram **rascunho no Metricool** (Reel + TikTok + story, nada apagado): CONTEXTO 12/11 12:00, NEGOCIO 12/11 14:00, SENTE 12/11 21:30, CRITICA 13/11 08:00, CURTO 13/11 12:00, CAMERA 13/11 14:00. O analista compara na leitura de 14/11; se a média por Reel subir, reaproveitar os 6 rascunhos em vagas futuras (trocar data e tirar o rascunho); se não, voltar às 8/dia.
 
+## Produção PAUSADA (Vitor, 12/11)
+- Rotinas **produção (seg e qui)** e **turno da madrugada** desligadas (enabled false, não apagadas) até o novo padrão de qualidade ficar pronto. A rodada de quinta já tinha rodado às 04:48 de 12/11, antes da pausa.
+- Quando voltar: **4 vídeos por dia** (não mais 8). Ajustar a grade (`semana/cronograma.py`), o CLAUDE.md, o AGENTE.md e o prompt da rotina de produção antes de religar.
+
 ## Depende do Vitor
 - **Robô do Insta (09/11):** o Vitor **quer o botão "Me Envie"** (webhook_ok = 1; ficou 0 só das 17:05 às 17:15). Problema: depois do toque, o envio do TEXTO do material falha em ~metade das vezes (cartões sempre passam), então quem segue fica sem nada (ex.: Paulo, Desterro). Correção pronta e commitada no `painel/worker.js` (se o texto falhar → cartão "Aqui está o seu material" com botão "Abrir material" → `/links#PALAVRA`; log com o erro real), **publicada em 09/11 ~19:05** (regra de permissão do curl PUT liberada pelo Vitor). Republicar com PUT na API do Cloudflare, metadata `{"main_module":"worker.js","compatibility_date":"2026-11-01","keep_bindings":["secret_text","d1","plain_text"]}`. Depois conferir `dm_eventos` (acao `material_link` e o erro real).
 - Estúdio de Reels: nome final, confirmar R$ 17 de lançamento → R$ 47 depois (o "de" tem que virar real), criar o produto na Kiwify e passar o link do checkout.
