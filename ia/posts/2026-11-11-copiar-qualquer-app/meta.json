@@ -1,6 +1,6 @@
 {
- "data": "2026-11-14",
- "horario": "15:00",
+ "data": "2026-11-12",
+ "horario": "12:00",
  "pilar": "reel",
  "formato": "contagem",
  "temas": [
@@ -16,8 +16,8 @@
  "cta": "COPIA",
  "polemica": true,
  "horarios": {
-  "instagram": "2026-11-14 15:00",
-  "tiktok": "2026-11-14 15:00"
+  "instagram": "2026-11-12 12:00",
+  "tiktok": "2026-11-12 12:00"
  },
  "categoria": "novidade",
  "checagem": {
@@ -92,5 +92,6 @@
   "som": "trilha 03 + efeitos de cidade",
   "mascote": "acessório e ação do conceito; ação principal: soldar"
  },
- "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/copiar-qualquer-app.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/copiar-qualquer-app.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados.",
+ "antecipado": "Vitor, 12/11"
 }

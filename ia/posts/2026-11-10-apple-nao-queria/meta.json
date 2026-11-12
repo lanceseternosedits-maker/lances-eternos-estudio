@@ -1,6 +1,6 @@
 {
  "data": "2026-11-12",
- "horario": "19:30",
+ "horario": "18:00",
  "pilar": "reel",
  "formato": "contagem",
  "temas": [
@@ -16,8 +16,8 @@
  "cta": "APPLE",
  "polemica": true,
  "horarios": {
-  "instagram": "2026-11-12 19:30",
-  "tiktok": "2026-11-12 19:30"
+  "instagram": "2026-11-12 18:00",
+  "tiktok": "2026-11-12 18:00"
  },
  "categoria": "novidade",
  "checagem": {
@@ -92,5 +92,6 @@
   "som": "trilha 03 + efeitos de cidade",
   "mascote": "acessório e ação do conceito; ação principal: fotografar"
  },
- "obs_producao": "Produzido em 09/11 no motor da cena_contagem, módulo itens/apple-nao-queria.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados."
+ "obs_producao": "Produzido em 09/11 no motor da cena_contagem, módulo itens/apple-nao-queria.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados.",
+ "antecipado": "Vitor, 12/11"
 }

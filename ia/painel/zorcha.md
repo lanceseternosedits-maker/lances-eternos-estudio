@@ -339,7 +339,7 @@ Se curtir, me segue pra mais IA que serve pra vida real. 💜
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
-## COPIA · 14/11 15:00
+## COPIA · 12/11 12:00
 Post: `2026-11-11-copiar-qualquer-app`
 
 ```
@@ -482,7 +482,7 @@ Se curtir, me segue pra mais IA que serve pra vida real. 💜
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
-## APPLE · 12/11 19:30
+## APPLE · 12/11 18:00
 Post: `2026-11-10-apple-nao-queria`
 
 ```
