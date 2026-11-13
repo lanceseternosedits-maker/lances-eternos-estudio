@@ -1,0 +1,50 @@
+{
+ "pilar": "reel",
+ "categoria": "novidade",
+ "formato": "contagem",
+ "temas": [
+  "jogos-do-pc-no-celular"
+ ],
+ "fontes": [
+  "https://github.com/MrCreativ3001/moonlight-web-stream",
+  "https://github.com/moonlight-stream/moonlight-ios",
+  "https://github.com/moonlight-stream/moonlight-android",
+  "https://github.com/moonlight-stream/moonlight-qt",
+  "https://github.com/SunshineStream/Sunshine"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 13/11/2026): moonlight-web-stream 748, Moonlight iOS 1.720, Moonlight Android 7.475, Moonlight PC 19.498, Sunshine 43.321; total 72.762",
+ "cta": "CONSOLE",
+ "polemica": false,
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "d) letreiro split-flap",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "f) zoom atravessando uma tela",
+  "camera": "c) travelling lateral",
+  "fechamento": "b) pódio",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 02 + arcade",
+  "mascote": "fone gamer; ação principal: jogar deitado num sofá"
+ },
+ "status": "reprovado na revisão",
+ "primeiro_comentario": "💬 Comenta CONSOLE que eu te mando na DM 👇\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "revisao": {
+  "veredito": "reprovado",
+  "resumo": "não é IA, nichado gamer",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "reprova",
+    "nota": "Nichado de PC gamer com nomes técnicos e não é algo que a IA faz por você."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "O jogo roda no PC e só aparece no celular; \"qualquer tela\" exagera."
+   }
+  ],
+  "ajustes": [],
+  "em": "2026-11-13 01:36"
+ }
+}

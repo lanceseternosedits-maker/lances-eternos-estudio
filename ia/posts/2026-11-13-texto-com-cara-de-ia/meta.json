@@ -1,0 +1,33 @@
+{
+ "pilar": "reel",
+ "categoria": "novidade",
+ "formato": "contagem",
+ "temas": [
+  "texto-com-cara-de-ia"
+ ],
+ "fontes": [
+  "https://github.com/Dodaios/ste80-humanizer",
+  "https://github.com/harshaneel/humanize",
+  "https://github.com/theclaymethod/unslop",
+  "https://github.com/lynote-ai/humanize-text",
+  "https://github.com/blader/humanizer"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 13/11/2026): STE80 Humanizer 464, humanize 622, unslop 1.051, humanize-text 3.508, Humanizer 68.483; total 74.128",
+ "cta": "TEXTO",
+ "polemica": false,
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "b) carimbo batendo",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV/arcade",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "e) página de caderno",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 02 + papel e caneta",
+  "mascote": "óculos de leitura; ação principal: apagar e reescrever"
+ },
+ "status": "descartado",
+ "primeiro_comentario": "💬 Comenta TEXTO que eu te mando na DM 👇\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "nota_filtro": "chance 43%, abaixo do corte"
+}

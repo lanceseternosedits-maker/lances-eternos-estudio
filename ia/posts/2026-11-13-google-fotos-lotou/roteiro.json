@@ -1,0 +1,157 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "FOTOS",
+ "tese": "5 PROGRAMAS GRÁTIS PRO GOOGLE FOTOS LOTADO · +170 MIL ESTRELAS · E O Nº 1 É BIZARRO",
+ "conceito": "avenida ao pôr do sol com prédios de álbuns de foto e um cofre-casa que recebe as fotos que saem de uma nuvem",
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita adesiva",
+  "nome": "f) escrito à mão",
+  "contador": "d) pote enchendo de estrelas",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 01 + clique de câmera",
+  "mascote": "câmera no pescoço e chapéu; ação principal: guardar fotos numa caixa"
+ },
+ "brinde": "links dos 5 + passo a passo para baixar as fotos do Google (Google Takeout) e importar",
+ "fontes": [
+  "https://github.com/damongolding/immich-kiosk",
+  "https://github.com/immichFrame/ImmichFrame",
+  "https://github.com/simulot/immich-go",
+  "https://github.com/photoprism/photoprism",
+  "https://github.com/immich-app/immich"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 13/11/2026): Immich Kiosk 1.746, ImmichFrame 2.429, immich-go 7.184, PhotoPrism 40.444, Immich 119.044; total 170.847",
+ "obs": "Descrições oficiais: Immich \"self-hosted photo and video management\"; PhotoPrism \"AI-Powered Photos App\"; immich-go \"importing google photos takeout archives\"; ImmichFrame e Immich Kiosk = telas de fotos/slideshow. A busca \"pelo que tem na foto\" do Immich (busca inteligente) conferir na documentação no dia. Grátis e código aberto (AGPL/GPL), mas precisa de um PC/servidor ligado em casa e backup próprio: dizer na fala. \"Já quer cobrar\": o Google Fotos usa o armazenamento da conta Google (15 GB grátis, depois Google One pago) — conferir na página do Google no dia.",
+ "polemica": false,
+ "palavras": 96,
+ "duracao_estimada_s": 34.3,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROGRAMAS GRÁTIS PRO GOOGLE FOTOS LOTADO",
+   "fala": "O Google Fotos lotou? Cinco programas grátis montam um na sua casa. E o número um é bizarro.",
+   "legenda": "O Google Fotos lotou? Cinco programas grátis montam um na sua casa. E o número um é bizarro.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "5 PROGRAMAS GRÁTIS PRO GOOGLE FOTOS LOTADO",
+    "+170 MIL ESTRELAS",
+    "E O Nº 1 É BIZARRO"
+   ],
+   "itens": "google-fotos-lotou"
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "fala": "Quinto: Immich Kiosk. Mostra as suas fotos na TV, como porta-retrato.",
+   "legenda": "Quinto: Immich Kiosk. Mostra as suas fotos na TV, como porta-retrato.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Immich Kiosk",
+   "repo": "damongolding/immich-kiosk",
+   "estrelas": 1746
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "fala": "Quarto: ImmichFrame. Um tablet pode virar porta-retrato das suas fotos.",
+   "legenda": "Quarto: ImmichFrame. Um tablet pode virar porta-retrato das suas fotos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "ImmichFrame",
+   "repo": "immichFrame/ImmichFrame",
+   "estrelas": 2429
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "fala": "Terceiro: immich-go. Importa as fotos que você baixa do Google. Comenta FOTOS que eu te mando os cinco. Manda pra quem vive sem espaço.",
+   "legenda": "Terceiro: immich-go. Importa as fotos que você baixa do Google. Comenta FOTOS que eu te mando os cinco. Manda pra quem vive sem espaço.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "immich-go",
+   "repo": "simulot/immich-go",
+   "estrelas": 7184
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "fala": "Segundo: PhotoPrism. Organiza as fotos com IA.",
+   "legenda": "Segundo: PhotoPrism. Organiza as fotos com IA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "PhotoPrism",
+   "repo": "photoprism/photoprism",
+   "estrelas": 40444
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "fala": "E o primeiro: Immich. Um Google Fotos todo seu, dentro do seu PC.",
+   "legenda": "E o primeiro: Immich. Um Google Fotos todo seu, dentro do seu PC.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Immich",
+   "repo": "immich-app/immich",
+   "estrelas": 119044
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA FOTOS",
+   "fala": "Grátis, mas pede PC ligado e backup. Quantas fotos tem no seu celular?",
+   "legenda": "Grátis, mas pede PC ligado e backup. Quantas fotos tem no seu celular?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ],
+ "producao": {
+  "padrao": "Padrão 'perfil referência' (AGENTE.md, 10/11) obrigatório: motor video/cena_gta (copiar index.html, helpers neon/flap/odometro/estrelas/cartaoBranco/SHOT); mundo 3D com profundidade (avenida, prédios dos dois lados, céu lilás→rosa→laranja→dourado, sol baixo, neblina); câmera viajando sem quadro parado; cada fala vira objeto/efeito (1 efeito forte por cena); prédios lisos pastel, sem textura de janelas nem neon, sem glow; texto/selo/pílula/legenda na linguagem do tema, branco com contorno escuro grosso e faixa escura atrás do texto; selo de progresso; fechamento com caixa de comentário digitando a palavra + cartão da DM e loop no 1º quadro; capa renderizada pela própria cena (node video/cena_gta/capa.js), nunca o capas.js genérico; área segura y 260–1500 e 130 px da direita; fala ≤ 3,0 palavras/s; superar o vídeo anterior em pelo menos um detalhe.",
+  "mundo": "avenida ao pôr do sol com prédios de álbuns de foto e um cofre-casa que recebe as fotos que saem de uma nuvem",
+  "tipografia_tema": "Fraunces + Archivo Black; rosa-pôr-do-sol → azul-nuvem",
+  "efeitos_chave": "fotos voando da nuvem para a casa, barra de espaço lotada estourando, porta-retratos acendendo",
+  "quando": "só depois do OK do Vitor no roteiro (e 2º OK no MP4)"
+ },
+ "agenda": "2026-11-14 12:00 (sugerido)"
+}

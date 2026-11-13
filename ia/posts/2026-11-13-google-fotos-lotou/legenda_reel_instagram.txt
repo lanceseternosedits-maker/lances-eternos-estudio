@@ -1,0 +1,20 @@
+Comenta FOTOS que eu te mando os 5 links. 📸
+
+O Google Fotos lotou? Cinco programas grátis montam um Google Fotos na sua casa:
+
+5) Immich Kiosk: mostra as suas fotos na TV, como porta-retrato
+4) ImmichFrame: um tablet pode virar porta-retrato das suas fotos
+3) immich-go: importa o arquivo que o Google te deixa baixar (Google Takeout)
+2) PhotoPrism: organiza as fotos com IA
+1) Immich: um Google Fotos todo seu, dentro do seu PC
+
+⚠️ Os programas são grátis e de código aberto, mas precisam de um PC ou servidor ligado em casa, espaço em disco e backup seu. Os nº 4 e 5 só mostram fotos que já estão no Immich.
+
+💬 Comenta FOTOS e me segue. Salva pra testar depois. Deixa o like e manda pra aquele amigo que vive sem espaço no celular.
+
+Quantas fotos tem no seu celular hoje? 👇
+
+Fontes: repositórios no GitHub (estrelas em 13/11/2026: 170.847 somadas).
+Animação e voz feitas com IA. Perfil independente, sem ligação com o Google nem com as empresas citadas.
+
+#googlefotos #fotos #celular #ia #tecnologia

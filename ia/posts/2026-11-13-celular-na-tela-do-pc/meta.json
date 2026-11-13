@@ -1,0 +1,50 @@
+{
+ "pilar": "reel",
+ "categoria": "novidade",
+ "formato": "contagem",
+ "temas": [
+  "celular-na-tela-do-pc"
+ ],
+ "fontes": [
+  "https://github.com/AkiChase/scrcpy-mask",
+  "https://github.com/NetrisTV/ws-scrcpy",
+  "https://github.com/SimonAKing/scrcpy-gui",
+  "https://github.com/barry-ran/QtScrcpy",
+  "https://github.com/Genymobile/scrcpy"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 13/11/2026): scrcpy-mask 1.117, ws-scrcpy 2.615, scrcpy-gui 4.185, QtScrcpy 32.839, scrcpy 154.696; total 195.452",
+ "cta": "ESPELHO",
+ "polemica": false,
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "c) máquina de escrever",
+  "contador": "c) velocímetro/medidor circular",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "b) chicote de câmera",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 03 + cliques de mouse",
+  "mascote": "crachá de escritório; ação principal: trabalhar com o celular pela tela"
+ },
+ "status": "reprovado na revisão",
+ "primeiro_comentario": "💬 Comenta ESPELHO que eu te mando na DM 👇\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "revisao": {
+  "veredito": "reprovado",
+  "resumo": "ferramenta técnica, não é IA",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "reprova",
+    "nota": "Ferramenta de desenvolvedor (depuração USB, só Android) e não é IA."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "Vale só para Android e pede depuração USB."
+   }
+  ],
+  "ajustes": [],
+  "em": "2026-11-13 01:36"
+ }
+}

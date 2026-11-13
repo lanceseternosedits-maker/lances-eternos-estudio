@@ -1,0 +1,68 @@
+{
+ "pilar": "reel",
+ "categoria": "novidade",
+ "formato": "contagem",
+ "temas": [
+  "google-fotos-lotou"
+ ],
+ "fontes": [
+  "https://github.com/damongolding/immich-kiosk",
+  "https://github.com/immichFrame/ImmichFrame",
+  "https://github.com/simulot/immich-go",
+  "https://github.com/photoprism/photoprism",
+  "https://github.com/immich-app/immich"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 13/11/2026): Immich Kiosk 1.746, ImmichFrame 2.429, immich-go 7.184, PhotoPrism 40.444, Immich 119.044; total 170.847",
+ "cta": "FOTOS",
+ "polemica": false,
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita adesiva",
+  "nome": "f) escrito à mão",
+  "contador": "d) pote enchendo de estrelas",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 01 + clique de câmera",
+  "mascote": "câmera no pescoço e chapéu; ação principal: guardar fotos numa caixa"
+ },
+ "status": "roteiro aguardando aprovação",
+ "primeiro_comentario": "💬 Comenta FOTOS que eu te mando na DM 👇\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "dor comum, avisos de PC e backup",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "ajustar",
+    "nota": "Dor de gente comum; deixar claro que precisa de PC ligado."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "immich-go importa o Takeout; nº 4 e 5 só exibem fotos do Immich; avisos incluídos."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "passa",
+    "nota": "Conflito no 1º segundo com marca famosa como alvo."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "passa",
+    "nota": "Frases curtas, ~34 s."
+   }
+  ],
+  "ajustes": [
+   "ajustes de fatos e clareza aplicados"
+  ],
+  "em": "2026-11-13 01:36"
+ },
+ "data": "2026-11-14",
+ "horario": "12:00",
+ "horarios": {
+  "instagram": "2026-11-14 12:00",
+  "tiktok": "2026-11-14 12:00"
+ }
+}

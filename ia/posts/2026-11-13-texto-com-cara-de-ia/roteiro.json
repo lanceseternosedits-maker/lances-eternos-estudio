@@ -1,0 +1,156 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "TEXTO",
+ "tese": "5 SKILLS GRÁTIS PRA TIRAR A CARA DE IA DO TEXTO · +74 MIL ESTRELAS · E A Nº 1 É BIZARRA",
+ "conceito": "avenida ao pôr do sol com outdoors cheios de texto robótico que viram letras escritas à mão",
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "b) carimbo batendo",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV/arcade",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "e) página de caderno",
+  "tipografia": "e) Caveat (manuscrita)",
+  "som": "trilha 02 + papel e caneta",
+  "mascote": "óculos de leitura; ação principal: apagar e reescrever"
+ },
+ "brinde": "links dos 5 + prompt pronto em português para tirar a cara de IA de um texto",
+ "fontes": [
+  "https://github.com/Dodaios/ste80-humanizer",
+  "https://github.com/harshaneel/humanize",
+  "https://github.com/theclaymethod/unslop",
+  "https://github.com/lynote-ai/humanize-text",
+  "https://github.com/blader/humanizer"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 13/11/2026): STE80 Humanizer 464, humanize 622, unslop 1.051, humanize-text 3.508, Humanizer 68.483; total 74.128",
+ "obs": "Descrições oficiais: humanizer \"removes signs of AI-generated writing\"; humanize-text \"rewrite AI-generated text into natural, human-sounding prose\"; unslop (theclaymethod) \"de-AI your writing\", sem licença declarada; humanize \"make AI writing sound human\"; ste80-humanizer \"removes AI tells… Simplified Technical English\". Todas pensadas para inglês: avisar. Ética: não vender como \"enganar detector\" nem para trabalho escolar; o ângulo é texto que soa como você.",
+ "polemica": false,
+ "palavras": 98,
+ "duracao_estimada_s": 35.0,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 SKILLS GRÁTIS PRA TIRAR A CARA DE IA DO TEXTO",
+   "fala": "Todo mundo percebe texto feito por IA. Cinco skills grátis tiram essa cara. E a número um é bizarra.",
+   "legenda": "Todo mundo percebe texto feito por IA. Cinco skills grátis tiram essa cara. E a número um é bizarra.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "5 SKILLS GRÁTIS PRA TIRAR A CARA DE IA DO TEXTO",
+    "+74 MIL ESTRELAS",
+    "E A Nº 1 É BIZARRA"
+   ],
+   "itens": "texto-com-cara-de-ia"
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "fala": "Quinto: STE80 Humanizer. Deixa o texto simples e direto.",
+   "legenda": "Quinto: STE80 Humanizer. Deixa o texto simples e direto.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "STE80 Humanizer",
+   "repo": "Dodaios/ste80-humanizer",
+   "estrelas": 464
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "fala": "Quarto: humanize. Faz o texto soar como gente.",
+   "legenda": "Quarto: humanize. Faz o texto soar como gente.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "humanize",
+   "repo": "harshaneel/humanize",
+   "estrelas": 622
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "fala": "Terceiro: unslop. Corta as manias da IA. Comenta TEXTO que eu te mando os cinco. Manda pra quem escreve tudo no ChatGPT.",
+   "legenda": "Terceiro: unslop. Corta as manias da IA. Comenta TEXTO que eu te mando os cinco. Manda pra quem escreve tudo no ChatGPT.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "unslop",
+   "repo": "theclaymethod/unslop",
+   "estrelas": 1051
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "fala": "Segundo: humanize-text. Reescreve o texto da IA em linguagem natural.",
+   "legenda": "Segundo: humanize-text. Reescreve o texto da IA em linguagem natural.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "humanize-text",
+   "repo": "lynote-ai/humanize-text",
+   "estrelas": 3508
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "fala": "E o primeiro: Humanizer. Uma skill que apaga os sinais de texto feito por IA.",
+   "legenda": "E o primeiro: Humanizer. Uma skill que apaga os sinais de texto feito por IA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Humanizer",
+   "repo": "blader/humanizer",
+   "estrelas": 68483
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA TEXTO",
+   "fala": "Feitas pro inglês: em português, teste antes. Que texto do trabalho você escreve com IA?",
+   "legenda": "Feitas pro inglês: em português, teste antes. Que texto do trabalho você escreve com IA?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ],
+ "producao": {
+  "padrao": "Padrão 'perfil referência' (AGENTE.md, 10/11) obrigatório: motor video/cena_gta (copiar index.html, helpers neon/flap/odometro/estrelas/cartaoBranco/SHOT); mundo 3D com profundidade (avenida, prédios dos dois lados, céu lilás→rosa→laranja→dourado, sol baixo, neblina); câmera viajando sem quadro parado; cada fala vira objeto/efeito (1 efeito forte por cena); prédios lisos pastel, sem textura de janelas nem neon, sem glow; texto/selo/pílula/legenda na linguagem do tema, branco com contorno escuro grosso e faixa escura atrás do texto; selo de progresso; fechamento com caixa de comentário digitando a palavra + cartão da DM e loop no 1º quadro; capa renderizada pela própria cena (node video/cena_gta/capa.js), nunca o capas.js genérico; área segura y 260–1500 e 130 px da direita; fala ≤ 3,0 palavras/s; superar o vídeo anterior em pelo menos um detalhe.",
+  "mundo": "avenida ao pôr do sol com outdoors cheios de texto robótico que viram letras escritas à mão",
+  "tipografia_tema": "Caveat (manuscrita) + Archivo Black; cinza-robô → laranja-sol",
+  "efeitos_chave": "palavras de robô caindo do outdoor, caneta gigante reescrevendo, carimbo HUMANO",
+  "quando": "só depois do OK do Vitor no roteiro (e 2º OK no MP4)"
+ }
+}

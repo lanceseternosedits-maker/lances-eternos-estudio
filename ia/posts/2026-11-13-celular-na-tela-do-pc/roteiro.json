@@ -1,0 +1,156 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "ESPELHO",
+ "tese": "5 PROGRAMAS GRÁTIS PRA USAR O CELULAR NO PC · +195 MIL ESTRELAS · E O Nº 1 É BIZARRO",
+ "conceito": "avenida ao pôr do sol com um monitor gigante num prédio mostrando um celular que sai do bolso e entra na tela",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "c) máquina de escrever",
+  "contador": "c) velocímetro/medidor circular",
+  "legenda": "c) karaokê com marca-texto deslizando",
+  "transicao": "b) chicote de câmera",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 03 + cliques de mouse",
+  "mascote": "crachá de escritório; ação principal: trabalhar com o celular pela tela"
+ },
+ "brinde": "links dos 5 + como ligar a depuração USB no Android em 3 passos",
+ "fontes": [
+  "https://github.com/AkiChase/scrcpy-mask",
+  "https://github.com/NetrisTV/ws-scrcpy",
+  "https://github.com/SimonAKing/scrcpy-gui",
+  "https://github.com/barry-ran/QtScrcpy",
+  "https://github.com/Genymobile/scrcpy"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 13/11/2026): scrcpy-mask 1.117, ws-scrcpy 2.615, scrcpy-gui 4.185, QtScrcpy 32.839, scrcpy 154.696; total 195.452",
+ "obs": "Descrições oficiais: scrcpy \"Display and control your Android device\"; QtScrcpy \"Android real-time display control\"; scrcpy-gui \"simple & beautiful GUI for scrcpy\"; ws-scrcpy \"web client prototype for scrcpy\"; scrcpy-mask \"mouse and key mapping… similar to a game emulator\". Licenças Apache-2.0/MIT. Só Android (iPhone não). Precisa ativar a depuração USB: avisar que dá acesso total ao aparelho, usar só no próprio PC.",
+ "polemica": false,
+ "palavras": 94,
+ "duracao_estimada_s": 33.6,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROGRAMAS GRÁTIS PRA USAR O CELULAR NO PC",
+   "fala": "Cinco programas grátis colocam o seu celular inteiro na tela do PC. E o número um é bizarro.",
+   "legenda": "Cinco programas grátis colocam o seu celular inteiro na tela do PC. E o número um é bizarro.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "5 PROGRAMAS GRÁTIS PRA USAR O CELULAR NO PC",
+    "+195 MIL ESTRELAS",
+    "E O Nº 1 É BIZARRO"
+   ],
+   "itens": "celular-na-tela-do-pc"
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "fala": "Quinto: scrcpy-mask. Joga os jogos do celular com mouse e teclado.",
+   "legenda": "Quinto: scrcpy-mask. Joga os jogos do celular com mouse e teclado.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "scrcpy-mask",
+   "repo": "AkiChase/scrcpy-mask",
+   "estrelas": 1117
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "fala": "Quarto: ws-scrcpy. Abre o celular dentro do navegador.",
+   "legenda": "Quarto: ws-scrcpy. Abre o celular dentro do navegador.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "ws-scrcpy",
+   "repo": "NetrisTV/ws-scrcpy",
+   "estrelas": 2615
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "fala": "Terceiro: scrcpy-gui. Tudo com botão, sem digitar comando. Comenta ESPELHO que eu te mando os cinco. Manda pra quem vive no celular.",
+   "legenda": "Terceiro: scrcpy-gui. Tudo com botão, sem digitar comando. Comenta ESPELHO que eu te mando os cinco. Manda pra quem vive no celular.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "scrcpy-gui",
+   "repo": "SimonAKing/scrcpy-gui",
+   "estrelas": 4185
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "fala": "Segundo: QtScrcpy. Mostra e controla o celular em tempo real.",
+   "legenda": "Segundo: QtScrcpy. Mostra e controla o celular em tempo real.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "QtScrcpy",
+   "repo": "barry-ran/QtScrcpy",
+   "estrelas": 32839
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "fala": "E o primeiro: scrcpy. Seu Android inteiro numa janela, controlado pelo mouse.",
+   "legenda": "E o primeiro: scrcpy. Seu Android inteiro numa janela, controlado pelo mouse.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "scrcpy",
+   "repo": "Genymobile/scrcpy",
+   "estrelas": 154696
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA ESPELHO",
+   "fala": "Grátis e só pra Android. No trabalho, você usaria o celular pelo PC?",
+   "legenda": "Grátis e só pra Android. No trabalho, você usaria o celular pelo PC?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ],
+ "producao": {
+  "padrao": "Padrão 'perfil referência' (AGENTE.md, 10/11) obrigatório: motor video/cena_gta (copiar index.html, helpers neon/flap/odometro/estrelas/cartaoBranco/SHOT); mundo 3D com profundidade (avenida, prédios dos dois lados, céu lilás→rosa→laranja→dourado, sol baixo, neblina); câmera viajando sem quadro parado; cada fala vira objeto/efeito (1 efeito forte por cena); prédios lisos pastel, sem textura de janelas nem neon, sem glow; texto/selo/pílula/legenda na linguagem do tema, branco com contorno escuro grosso e faixa escura atrás do texto; selo de progresso; fechamento com caixa de comentário digitando a palavra + cartão da DM e loop no 1º quadro; capa renderizada pela própria cena (node video/cena_gta/capa.js), nunca o capas.js genérico; área segura y 260–1500 e 130 px da direita; fala ≤ 3,0 palavras/s; superar o vídeo anterior em pelo menos um detalhe.",
+  "mundo": "avenida ao pôr do sol com um monitor gigante num prédio mostrando um celular que sai do bolso e entra na tela",
+  "tipografia_tema": "Space Grotesk + Archivo Black; azul-tela → laranja-sol",
+  "efeitos_chave": "celular voando para dentro do monitor, cursor gigante tocando ícones, odômetro de estrelas",
+  "quando": "só depois do OK do Vitor no roteiro (e 2º OK no MP4)"
+ }
+}
