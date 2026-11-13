@@ -683,6 +683,26 @@ export default {
         headers: { "content-type": m[2] === "mp4" ? "video/mp4" : "image/jpeg", "cache-control": "public, max-age=3600", "accept-ranges": "bytes" } })); }
     if (caminho === "kit") ctx.waitUntil(contaFunil(env, "visita", url.searchParams.get("o") || "direto"));
     if (caminho === "kit") return fetch(BASE + "kit.html?t=" + Date.now(), { cf: { cacheTtl: 0 } }).then((r) => new Response(r.body, { status: r.ok ? 200 : 502, headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-cache" } }));
+    // Conta de PESQUISA do Instagram (Vitor, 13/11, Agent Reach): o Vitor cola aqui o cookie "sessionid" de uma conta secundária
+    // (nunca a do @iaem60s). Fica só no D1 (config.ig_pesquisa_sessionid); as sessões leem pelo conector e gravam em ~/.secrets.
+    if (caminho === "segredo-instagram") {
+      let aviso = "";
+      if (req.method === "POST") {
+        const v = String((await req.formData()).get("sessionid") || "").trim().replace(/^sessionid=/, "").replace(/;.*$/, "");
+        if (/^[\w%:.-]{20,400}$/.test(v)) {
+          await env.DB.prepare("INSERT INTO config (nome, valor, em) VALUES (?, ?, ?) ON CONFLICT(nome) DO UPDATE SET valor = excluded.valor, em = excluded.em")
+            .bind("ig_pesquisa_sessionid", v, new Date().toISOString()).run();
+          aviso = "<p style='color:#2e9e5b'><b>✅ Salvo.</b> Pode fechar esta página.</p>";
+        } else aviso = "<p style='color:#c0392b'>Isso não parece um sessionid (copie só o valor do cookie).</p>";
+      }
+      const tem = await env.DB.prepare("SELECT em FROM config WHERE nome = 'ig_pesquisa_sessionid'").first().catch(() => null);
+      return PAGINA("Conta de pesquisa do Instagram", `<h1>🔎 Conta de pesquisa do Instagram</h1>${aviso}
+<p>Use uma <b>conta secundária</b>, nunca a do @iaem60s (o Instagram pode bloquear a conta usada para pesquisa automática).</p>
+<p>${tem ? "Já tem um cookie salvo (" + tem.em.slice(0, 16).replace("T", " ") + " UTC). Colar outro substitui." : "Nenhum cookie salvo ainda."}</p>
+<ol><li>No computador, entre no instagram.com com a conta secundária.</li><li>Aperte F12 → aba <b>Application</b> (ou Armazenamento) → Cookies → https://www.instagram.com.</li><li>Copie o <b>valor</b> da linha <b>sessionid</b> e cole abaixo.</li></ol>
+<form method="post"><input name="sessionid" autocomplete="off" style="width:100%;padding:12px;font-size:16px" placeholder="valor do sessionid"><p><button style="padding:12px 18px;font-size:16px">Salvar</button></p></form>
+<p style="color:#777;font-size:13px">O valor fica só no banco protegido do painel; nunca vai para o GitHub nem para a conversa.</p>`);
+    }
     if (caminho === "conectar") return paginaConectar(env, url);
     if (caminho === "ig/callback") return callback(env, url);
     if (caminho === "privacidade") return PAGINA("Privacidade", "<h1>Política de privacidade · IA em 60s</h1><p>Este app responde automaticamente a comentários feitos nos Reels do perfil IA em 60s no Instagram, com o link prometido no vídeo. Guardamos só o ID do comentário, o nome de usuário público e o texto do comentário, para não responder duas vezes. Não vendemos nem compartilhamos dados. Para pedir a exclusão, mande uma DM para o perfil com a palavra EXCLUIR e apagamos em até 7 dias.</p>");
