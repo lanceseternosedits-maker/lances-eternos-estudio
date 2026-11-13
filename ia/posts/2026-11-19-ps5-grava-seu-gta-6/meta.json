@@ -1,0 +1,33 @@
+{
+ "data": "2026-11-19",
+ "horario": "06:00",
+ "horarios": {
+  "instagram": "2026-11-19 06:00",
+  "tiktok": "2026-11-19 06:00"
+ },
+ "categoria": "novidade",
+ "pilar": "lista",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "temas": [
+  "GTA 6",
+  "games",
+  "clipes",
+  "PS5"
+ ],
+ "empresas": [],
+ "fontes": [
+  "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+  "https://www.tweaktown.com/news/76220/ps5-can-capture-up-to-1-hour-of-4k-gameplay-video-with-create-button/index.html",
+  "https://www.digitaltrends.com/gaming/how-to-record-gameplay-on-a-ps5",
+  "https://github.com/WyattBlue/auto-editor",
+  "https://github.com/RafaelGodoyEbert/ViralCutter",
+  "https://github.com/artbyjazi/autoclip"
+ ],
+ "prova_viral": "GTA 6 sai em 19/11/2026 (Rockstar Newswire); Sony e Microsoft dizem que é o jogo mais pré-vendido das suas lojas. Estrelas no GitHub (API, 13/11/2026): auto-editor 5.870, ViralCutter 450, autoclip 284; total 6.604. PS5 guarda até 60 min de jogo recente e salva em 15 s a 60 min (TweakTown, Digital Trends).",
+ "cta": "GTA",
+ "polemica": false,
+ "status": "descartado",
+ "pedido": "Vitor, 13/11: foco em GTA 6 (como clipar as novidades do jogo)",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 48%, abaixo do corte"
+}

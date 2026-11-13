@@ -15,7 +15,7 @@
  "prova_viral": "Referência 7 (@lucassena, 09/11): formato cidade em 5 etapas, 10,4 mil curtidas, 1.176 comentários, 2.977 envios. Recursos oficiais: instruções personalizadas e Tarefas do ChatGPT, ChatGPT agent (jul/2025), Projetos do Claude. Ideia aprovada pelo Vitor (09/11, via sessão do painel).",
  "cta": "NIVEL",
  "polemica": false,
- "status": "roteiro aprovado",
+ "status": "descartado",
  "horarios": null,
  "elementos": {
   "trilha": "5 etapas no topo (PERGUNTA · CONTEXTO · INSTRUÇÕES · TAREFAS · AGENTE)",
@@ -66,5 +66,7 @@
    "etiqueta: tirei o jargão 'agente'; legenda diz que Tarefas e agente dependem de plano pago"
   ],
   "em": "2026-11-09 01:20"
- }
+ },
+ "status_antes_filtro": "roteiro aprovado",
+ "nota_filtro": "chance 5%, abaixo do corte"
 }

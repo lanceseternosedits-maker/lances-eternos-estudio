@@ -1,0 +1,7 @@
+As 5 pra transformar sua jogatina de GTA 6 em Reel 🎮
+5) Botão Criar do PS5: Configurações > Capturas e transmissões > Capturas > "Duração da jogabilidade recente" (até 60 min).
+4) Clipe rápido: nos atalhos do botão Criar, escolha "Clipes de vídeo fáceis" e aperte 2x pra salvar. No Xbox: botão Xbox > Capturar e compartilhar > Gravar o que aconteceu.
+3) auto-editor (grátis): corta sozinho as partes paradas. https://github.com/WyattBlue/auto-editor  → comando: auto-editor meu_clipe.mp4
+2) ViralCutter (grátis): vídeo longo vira cortes verticais. https://github.com/RafaelGodoyEbert/ViralCutter
+1) autoclip (grátis, roda no seu PC): acha os melhores trechos e entrega em 9:16 com legenda. https://github.com/artbyjazi/autoclip
+Passe o clipe do console pro PC por pendrive ou pelo app do PlayStation. Só use gravação do seu próprio jogo.

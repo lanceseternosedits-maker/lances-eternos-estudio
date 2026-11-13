@@ -15,7 +15,9 @@
   "instagram": "2026-11-17 06:00",
   "tiktok": "2026-11-17 06:00"
  },
- "status": "roteiro aprovado",
+ "status": "descartado",
  "categoria": "novidade",
- "horario_provisorio": "Vitor (07/11): grade intercalada (4 🆕 por dia em 09–15/11) tirou esta novidade da semana; horário provisório, a rodada de quinta (12/11) confirma"
+ "horario_provisorio": "Vitor (07/11): grade intercalada (4 🆕 por dia em 09–15/11) tirou esta novidade da semana; horário provisório, a rodada de quinta (12/11) confirma",
+ "status_antes_filtro": "roteiro aprovado",
+ "nota_filtro": "chance 41%, abaixo do corte"
 }

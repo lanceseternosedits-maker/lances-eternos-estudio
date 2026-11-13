@@ -989,6 +989,15 @@
    "dm": "Oi! Que bom que você comentou SOZINHA 🙌\nAqui estão os 3 projetos que eu prometi:\n• Mika (Android): https://github.com/wangzan101/Mika\n• pinky: https://github.com/DIYgod/pinky\n• poki (iPhone): https://github.com/JosssphZhou/poki\n\n⚠️ Importante: são projetos novos e pedem um pouco de técnica. Uma IA com controle do celular enxerga seus apps e dados, então teste num aparelho ou conta secundária e leia o README antes.\n\nSe curtir, me segue pra mais IA que serve pra vida real. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   },
   {
+   "palavra": "NVIDIA",
+   "pasta": "2026-11-16-nvidia-perdeu-o-chefe",
+   "quando": "2026-11-16 19:30",
+   "titulo": "A nvidia perdeu o chefe",
+   "thumb": "",
+   "url": "",
+   "dm": "Tá aqui a linha do tempo da semana da Nvidia 👇\n• 08/11: Jensen Huang admite que foi infiel à esposa.\n• 12/11: renuncia como CEO, presidente e membro do conselho, com efeito imediato. Colette Kress (diretora financeira) vira CEO interina. Comunicado oficial: https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition\n• 12/11: o Departamento de Justiça dos EUA diz que NÃO concluiu se a mulher citada era espiã; a China chama a acusação de \"sem fundamento\". https://www.usnews.com/news/top-news/articles/2026-11-12/us-justice-department-has-not-concluded-alice-huang-was-chinese-spy-blanche-says\n• 13/11: a ação vai para a 6ª semana seguida de queda, a maior sequência desde 2012 (~US$ 1,6 trilhão a menos). https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html\n• 17/11: primeiro balanço sem ele.\n• 01/12: três comissões da Câmara chamaram o Jensen para depor. https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout\nCuriosidade: a Nvidia foi fundada em 1993, e o Jensen foi CEO desde o primeiro dia.\n(Não é recomendação de investimento.)\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
    "palavra": "RASTRO",
    "pasta": "2026-11-16-o-que-todo-site-sabe-de-voce",
    "quando": "2026-11-16 19:30",
@@ -1041,6 +1050,15 @@
    "thumb": "",
    "url": "",
    "dm": "Aqui está a ficha! 📋\n\nCola isso no começo da conversa (ChatGPT, Claude ou Gemini) e troca o que está entre colchetes:\n\n\"Antes de responder, saiba quem eu sou:\n1) Eu sou [seu nome], trabalho com [sua área].\n2) No dia a dia eu preciso de ajuda com [3 tarefas].\n3) Quero respostas em [curtas / passo a passo], em português do Brasil.\n4) Se faltar informação, me pergunte antes de chutar.\n5) Se não souber, diga que não sabe.\"\n\nDica: no ChatGPT, vale salvar isso em Configurações > Personalização. No Claude e no Gemini, cole num Projeto ou nas instruções.\n\nQuer 10 assistentes prontos que já te conhecem? Comenta KIT. Se curtiu, me segue. 💜\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
+  },
+  {
+   "palavra": "GTA",
+   "pasta": "2026-11-19-ps5-grava-seu-gta-6",
+   "quando": "2026-11-19 06:00",
+   "titulo": "Seu ps5 grava seu gta 6 sozinho",
+   "thumb": "",
+   "url": "",
+   "dm": "As 5 pra transformar sua jogatina de GTA 6 em Reel 🎮\n5) Botão Criar do PS5: Configurações > Capturas e transmissões > Capturas > \"Duração da jogabilidade recente\" (até 60 min).\n4) Clipe rápido: nos atalhos do botão Criar, escolha \"Clipes de vídeo fáceis\" e aperte 2x pra salvar. No Xbox: botão Xbox > Capturar e compartilhar > Gravar o que aconteceu.\n3) auto-editor (grátis): corta sozinho as partes paradas. https://github.com/WyattBlue/auto-editor  → comando: auto-editor meu_clipe.mp4\n2) ViralCutter (grátis): vídeo longo vira cortes verticais. https://github.com/RafaelGodoyEbert/ViralCutter\n1) autoclip (grátis, roda no seu PC): acha os melhores trechos e entrega em 9:16 com legenda. https://github.com/artbyjazi/autoclip\nPasse o clipe do console pro PC por pendrive ou pelo app do PlayStation. Só use gravação do seu próprio jogo.\n\nP.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando."
   }
  ],
  "globais": [

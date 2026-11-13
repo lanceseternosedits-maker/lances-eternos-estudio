@@ -15,7 +15,7 @@
  "prova_viral": "📜 Fontes históricas: proposta de Dartmouth (1955/1956), Relatório Lighthill (1973, cortes no Reino Unido), quebra do mercado de máquinas LISP (1987, verbete AI winter), AlexNet (NeurIPS 2012, treinada em 2 placas GTX 580). Rende agora: formato cidade da Referência 7 (@lucassena, 09/11: 1.176 comentários, 2.977 envios) e o debate \"IA é bolha?\".",
  "cta": "INVERNO",
  "polemica": false,
- "status": "roteiro aprovado",
+ "status": "descartado",
  "horarios": null,
  "elementos": {
   "trilha": "5 etapas no topo (estações com ano)",
@@ -66,5 +66,7 @@
    "cta: pergunta de vida 'Qual foi a primeira IA que você usou?' (vitor)"
   ],
   "em": "2026-11-09 01:20"
- }
+ },
+ "status_antes_filtro": "roteiro aprovado",
+ "nota_filtro": "chance 31%, abaixo do corte"
 }

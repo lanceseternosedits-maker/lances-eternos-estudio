@@ -16,17 +16,15 @@ from pathlib import Path
 
 IA = Path(__file__).resolve().parent.parent
 POSTS = IA / "posts"
-# Vitor (07/11): intercalar sempre (nunca 2 novidades seguidas): 4 🆕 + 2 ⚙️ (manhã) + 2 📜 (noite)
-UTEIS = [("06:00", "N"), ("08:00", "F"), ("10:00", "N"), ("12:00", "F"), ("14:00", "N"), ("17:00", "H"), ("19:30", "N"), ("21:30", "H")]
-FDS = [("07:00", "N"), ("09:00", "F"), ("11:00", "N"), ("13:00", "F"), ("15:00", "N"), ("17:00", "H"), ("19:00", "N"), ("20:30", "H")]
+# Vitor (13/11): 4 por dia = 2 🆕 (1º e 3º horário) + 1 ⚙️ (meio-dia) + 1 📜 (noite), intercalado
+UTEIS = [("06:00", "N"), ("12:00", "F"), ("19:30", "N"), ("21:30", "H")]
+FDS = [("09:00", "N"), ("13:00", "F"), ("19:00", "N"), ("20:30", "H")]
+# grade antiga de 8/dia (07–12/11): úteis 06/08/10/12/14/17/19:30/21:30; fds 07/09/11/13/15/17/19/20:30
 FDS_08 = [("07:00", "N"), ("09:00", "F"), ("11:00", "N"), ("13:00", "N"), ("15:00", "H"), ("17:00", "N"), ("19:00", "H"), ("20:30", "N")]  # 08/11 já agendado, grade antiga
 HOJE_RESTO = [("15:00", "N"), ("17:00", "N"), ("19:00", "H"), ("21:00", "F")]  # sábado 07/11: 6 no total (Vitor, 07/11)
-FIXOS = {"2026-11-07 13:00": "2026-11-07-editar-video", "2026-11-07 20:30": "2026-11-07-programas-pc",
-         "2026-11-08 13:00": "2026-11-08-estudar-ia", "2026-11-08 20:30": "2026-11-05-10-estilos"}
+FIXOS: dict = {}  # já agendados no Metricool que não podem mudar (os de 07–08/11 já saíram)
 # ordem de prioridade das novidades (vídeos prontos primeiro)
-PRIMEIRAS = ["2026-11-08-windows-gratis", "2026-11-08-console-no-celular", "2026-11-08-skills-de-design",
-             "2026-11-08-estudio-de-voz-gratis", "2026-11-08-captura-de-qualquer-bicho", "2026-11-08-apps-pra-quem-vive-no-chat",
-             "2026-11-08-video-do-zero", "2026-11-08-ia-gigante-no-pc", "2026-11-08-skills-chinesas-agencia", "2026-11-08-crie-seu-app-de-mac"]
+PRIMEIRAS: list = []  # a lista de 08/11 já foi publicada
 # aprovados primeiro; roteiro ainda sem aprovação fica por último
 ORDEM_STATUS = {"vídeo aguardando aprovação": 0, "roteiro aprovado": 1, "roteiro aguardando aprovação": 2}
 CAT = {"N": "novidade", "H": "historia", "F": "como_funciona"}
@@ -37,11 +35,13 @@ def ler(p):
     return json.loads(p.read_text(encoding="utf-8")) if p.exists() else {}
 
 
-def slots():
-    out = [("2026-11-07", h, c) for h, c in HOJE_RESTO]
-    d = dt.date(2026, 11, 8)
-    while d <= dt.date(2026, 11, 15):
-        for h, c in (FDS_08 if d == dt.date(2026, 11, 8) else FDS if d.weekday() >= 5 else UTEIS):
+def slots(dias: int = 10):
+    """Vagas de hoje (Brasília) até `dias` dias à frente, na grade de 4 por dia (Vitor, 13/11)."""
+    out = []
+    d = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=3)).date()
+    fim = d + dt.timedelta(days=dias)
+    while d <= fim:
+        for h, c in (FDS if d.weekday() >= 5 else UTEIS):
             out.append((str(d), h, c))
         d += dt.timedelta(days=1)
     return out
@@ -99,8 +99,8 @@ def main(aplicar: bool):
                 r.setdefault("categoria", posts[nome]["cat"])
                 (p / "roteiro.json").write_text(json.dumps(r, ensure_ascii=False, indent=1), encoding="utf-8")
     (IA / "semana" / "cronograma.md").write_text(
-        "# Cronograma por categoria (07 a 15/11)\n\nGerado por `semana/cronograma.py`. 🆕 novidade · 📜 história · ⚙️ como funciona.\n"
-        "Regra (Vitor, 07/11): 8 por dia, sempre intercalado = 4 🆕 + 2 ⚙️ + 2 📜, nunca 2 novidades seguidas (sábado 07/11: 6 no total; domingo 08/11 ficou na grade antiga, já agendado).\n\n| Quando | Cat. | Post |\n|---|---|---|\n"
+        "# Cronograma por categoria (próximos 10 dias)\n\nGerado por `semana/cronograma.py`. 🆕 novidade · 📜 história · ⚙️ como funciona.\n"
+        "Regra (Vitor, 13/11): 4 por dia, intercalado = 2 🆕 (1º e 3º) + 1 ⚙️ + 1 📜; úteis 06:00/12:00/19:30/21:30, fim de semana 09:00/13:00/19:00/20:30.\n\n| Quando | Cat. | Post |\n|---|---|---|\n"
         + "\n".join(linhas) + f"\n\nVagas: {len(vagas)}. Novidades sem horário: {', '.join(novidades) or 'nenhuma'}.\n", encoding="utf-8")
 
 

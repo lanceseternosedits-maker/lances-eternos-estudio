@@ -1,0 +1,33 @@
+{
+ "data": "2026-11-16",
+ "horario": "19:30",
+ "horarios": {
+  "instagram": "2026-11-16 19:30",
+  "tiktok": "2026-11-16 19:30"
+ },
+ "categoria": "novidade",
+ "pilar": "notícia",
+ "formato": "reel notícia (padrão perfil referência)",
+ "temas": [
+  "Nvidia",
+  "Jensen Huang",
+  "big tech"
+ ],
+ "empresas": [
+  "Nvidia"
+ ],
+ "fontes": [
+  "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+  "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+  "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+  "https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout",
+  "https://www.usnews.com/news/top-news/articles/2026-11-12/us-justice-department-has-not-concluded-alice-huang-was-chinese-spy-blanche-says"
+ ],
+ "prova_viral": "Notícia do topo do mundo tech em 12–13/11: comunicado oficial da Nvidia (12/11, renúncia com efeito imediato, Colette Kress interina); CNBC (13/11): ação em 6ª semana seguida de queda, maior sequência desde 2012, ~US$ 1,6 trilhão a menos; CNN (11/11): ~US$ 1,76 trilhão e convocação para depor; US News/Reuters (12/11): Departamento de Justiça não concluiu se Alice Huang era espiã; China nega.",
+ "cta": "NVIDIA",
+ "polemica": true,
+ "status": "descartado",
+ "pedido": "Vitor, 13/11: 'Manda falar da fofoca da nvidia. Ta em alta. E eh sobre o mundo tech'",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 25%, abaixo do corte"
+}

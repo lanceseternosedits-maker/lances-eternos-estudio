@@ -27,7 +27,7 @@
   "som": "trilha 01 + clique de câmera",
   "mascote": "câmera no pescoço e chapéu; ação principal: guardar fotos numa caixa"
  },
- "status": "roteiro aguardando aprovação",
+ "status": "descartado",
  "primeiro_comentario": "💬 Comenta FOTOS que eu te mando na DM 👇\nQuer o kit com 10 assistentes prontos? Comenta KIT",
  "revisao": {
   "veredito": "ajustado",
@@ -64,5 +64,7 @@
  "horarios": {
   "instagram": "2026-11-14 12:00",
   "tiktok": "2026-11-14 12:00"
- }
+ },
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 50%, abaixo do corte"
 }

@@ -14,7 +14,7 @@ from pathlib import Path
 
 IA = Path(__file__).resolve().parent.parent
 BASE = 25  # 2 de 8 Reels medidos passaram de ~300 views (07/11)
-CORTE_CHANCE = 55  # Vitor, 12/11: era 70 (nenhum Reel medido passava); 55 depois da calibração. Abaixo disto o roteiro novo é descartado sozinho
+CORTE_CHANCE = 56  # Vitor, 13/11: 56 (era 70, depois 55 com a calibração); vale também para roteiros aprovados. Abaixo disto o roteiro novo é descartado sozinho
 CORTE = 250  # views de referência (perto da mediana dos Reels medidos)
 # apelidos da leitura da API (metricas.json) -> pasta do post
 APELIDOS = {"5 skills": "2026-11-07-5-skills", "desenho animado": "2026-11-04-desenho-animado", "canva": "2026-11-04-canva-craft",
@@ -203,18 +203,20 @@ def filtrar(pasta: Path, hist: list[dict] | None = None) -> dict:
         return {"pct": pct, "descartado": False}
     mp = pasta / "meta.json"
     meta = _ler(mp, {}) or {}
+    if meta.get("status") and meta["status"] != "descartado":
+        meta["status_antes_filtro"] = meta["status"]
     meta["status"] = "descartado"
     meta["nota_filtro"] = f"chance {pct}%, abaixo do corte"
     mp.write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
     return {"pct": pct, "descartado": True}
 
 
-if __name__ == "__main__":  # python3 painel/chance.py -> filtra os roteiros hoje "aguardando aprovação"
+if __name__ == "__main__":  # python3 painel/chance.py -> filtra roteiros "aguardando aprovação" e "roteiro aprovado" (Vitor, 13/11)
     h = historico()
     ok = desc = 0
     for d in sorted((IA / "posts").iterdir()):
         st = str((_ler(d / "meta.json", {}) or {}).get("status") or "").lower()
-        if d.is_dir() and "roteiro aguardando" in st:
+        if d.is_dir() and ("roteiro aguardando" in st or st == "roteiro aprovado"):
             r = filtrar(d, h)
             desc += r["descartado"]
             ok += not r["descartado"]

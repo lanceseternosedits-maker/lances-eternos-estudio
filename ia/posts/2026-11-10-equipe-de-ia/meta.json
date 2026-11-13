@@ -14,7 +14,7 @@
  "prova_viral": "Validação de produto (não é pauta de tendência): o formato 'IA que trabalha por você' é o que mais salva no perfil (5 skills 4,7% e TV 2,7% de salvamento, leitura de 07/11); configurar instruções/Projetos/Gems é recurso oficial das três IAs (fontes).",
  "cta": "EQUIPE",
  "polemica": false,
- "status": "roteiro aprovado",
+ "status": "descartado",
  "produto": "kit-assistente-pessoal",
  "revisao": {
   "veredito": "ajustado",
@@ -52,5 +52,7 @@
   ],
   "em": "2026-11-08 15:06"
  },
- "nota_aprovacao": "aprovado pelo Vitor no app em 07/11 21:38; o painel de revisão ajustou o texto em 08/11 (ver revisao)"
+ "nota_aprovacao": "aprovado pelo Vitor no app em 07/11 21:38; o painel de revisão ajustou o texto em 08/11 (ver revisao)",
+ "status_antes_filtro": "roteiro aprovado",
+ "nota_filtro": "chance 26%, abaixo do corte"
 }
