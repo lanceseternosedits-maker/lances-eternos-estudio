@@ -1,9 +1,15 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-13 08:10",
+ "em": "2026-11-13 19:50",
  "leitura": "metricool_2026-11-13.json",
- "resumo": "Os 4 Reels de 12/11 entraram (até 18:07) e a queda de alcance parou num platô: mediana por dia 311 · 277 · 330 · 324 de 09 a 12/11, bem abaixo dos 2.688 de 07/11, mas sem cair mais. O melhor de 12/11 foi APPLE (596, \"o que a Apple não queria\"), repetindo o padrão de PLAY (1.713) e CORTES (698): objeto/marca que todo mundo conhece com inimigo grande; 📜 segue com 0,0% de salvar e TikTok continua acordado à tarde/noite.",
+ "resumo": "Nada mudou desde a leitura das 07:43: o Metricool devolveu os mesmos números e nenhum Reel ou TikTok saiu em 13/11, porque os 7 posts do dia (MUSICA, CRITICA, ANIMA, CURTO, CAMERA, IKEA, LIGOU) seguem como rascunho no Metricool. As conclusões da manhã continuam valendo (marca conhecida + inimigo grande no topo, 📜 sem salvar, mediana de 428 views em 47 Reels); só dá para ler algo novo quando voltar a publicar.",
  "itens": [
+  {
+   "tipo": "alerta",
+   "titulo": "13/11 sem nenhum post: os 7 do dia estão como rascunho",
+   "evidencia": "getScheduledPosts às 19:45: os 7 Reels de 13/11 (06:00 MUSICA, 08:00 CRITICA, 10:00 ANIMA, 12:00 CURTO, 14:00 CAMERA, 19:30 IKEA, 21:30 LIGOU) estão com draft=true e status PENDING, sem publicar. Último Reel no ar: APPLE, 12/11 18:07. Rascunhos de 14 e 15/11 também (publicacoes.json).",
+   "acao": "Vitor decide: se a pausa não foi de propósito, tirar do rascunho LIGOU (21:30) e reagendar os perdidos; se foi o teste de menos volume, anotar a data para comparar views por dia antes e depois."
+  },
   {
    "tipo": "testar",
    "titulo": "Semana x semana: dobrar o volume dividiu as views em vez de somar",
@@ -27,12 +33,6 @@
    "titulo": "📜 prende e quase ninguém salva",
    "evidencia": "DOLAR subiu de 269 para 429 e tem 57,6% nos 3 s (o melhor gancho do dia), mas 0 salvamentos; TURING 229 e 0. Mediana 📜 346 views e 0,0% de salvar em 6 Reels da tabela; ⚙️ 258 e 0,1%; 🆕 530 e 1,7%.",
    "acao": "Manter no máximo 1 📜 por dia, à noite, e fechar com o cartão legível da lição (\"o que a IA NÃO pode prometer\") + \"salva\" na fala; ⚙️ só com objeto do dia a dia no palco."
-  },
-  {
-   "tipo": "corrigir",
-   "titulo": "Contagens sem objeto conhecido seguem fracas",
-   "evidencia": "CELULAR 272 (0,9% de salvar, 0 envios), BIZARRO 96, MAC 267, INTERNET 148. Todas abaixo da mediana dos 14 dias (428).",
-   "acao": "No título da contagem, troque a categoria genérica (\"5 projetos pro celular\") pela marca/aparelho e por um resultado concreto (\"tira a propaganda do seu Xiaomi\")."
   },
   {
    "tipo": "testar",
