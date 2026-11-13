@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-13 10:43",
+ "gerado_em": "2026-11-13 15:10",
  "leitura": "metricool_2026-11-13.json",
  "lido_em": "2026-11-13 07:43",
  "periodo": [
@@ -1225,6 +1225,186 @@
   "O público salva (1,2% do alcance) mais do que comenta (0,8%). Conteúdo útil funciona; o comentário ainda é o ponto fraco.",
   "TikTok travado: mediana de 2,0 views por vídeo contra 428 no Instagram; posts de fotos no TikTok tiveram mediana de 14."
  ],
+ "semana_x_semana": {
+  "semanas": [
+   {
+    "nome": "S1 nov",
+    "de_iso": "2026-11-01",
+    "de": "01/11",
+    "ate": "07/11",
+    "ate_nominal": "07/11",
+    "completa": true,
+    "dias": 7,
+    "reels": 14,
+    "reels_por_dia": 2.0,
+    "views": 20921,
+    "views_por_dia": 2989,
+    "mediana_views": 1168,
+    "media_views": 1494,
+    "acima_1000": 7,
+    "alcance": 17096,
+    "salvamentos": 422,
+    "envios": 153,
+    "comentarios": 169,
+    "salvar_pct": 2.5,
+    "enviar_pct": 0.9,
+    "comentar_pct": 1.0,
+    "passou_3s_pct": 45.650000000000006,
+    "idade_mediana_dias": 7.2,
+    "top": [
+     {
+      "titulo": "5 projetos pra TV e celular",
+      "views": 3257
+     },
+     {
+      "titulo": "5 skills do Claude",
+      "views": 2938
+     },
+     {
+      "titulo": "5 skills pra editar vídeo",
+      "views": 2926
+     }
+    ],
+    "por_categoria": {
+     "novidade": {
+      "n": 13,
+      "mediana_views": 615
+     },
+     "historia": {
+      "n": 1,
+      "mediana_views": 2756
+     }
+    },
+    "tiktok_videos": 15,
+    "tiktok_views": 610,
+    "tiktok_mediana": 24
+   },
+   {
+    "nome": "S2 nov",
+    "de_iso": "2026-11-08",
+    "de": "08/11",
+    "ate": "12/11",
+    "ate_nominal": "14/11",
+    "completa": false,
+    "dias": 5,
+    "reels": 33,
+    "reels_por_dia": 6.6,
+    "views": 21509,
+    "views_por_dia": 4302,
+    "mediana_views": 392,
+    "media_views": 652,
+    "acima_1000": 6,
+    "alcance": 18353,
+    "salvamentos": 336,
+    "envios": 102,
+    "comentarios": 156,
+    "salvar_pct": 1.8,
+    "enviar_pct": 0.6,
+    "comentar_pct": 0.8,
+    "passou_3s_pct": 45.0,
+    "idade_mediana_dias": 3.0,
+    "top": [
+     {
+      "titulo": "10 estilos de animação",
+      "views": 2797
+     },
+     {
+      "titulo": "3 estúdios de voz grátis",
+      "views": 2561
+     },
+     {
+      "titulo": "Advogado e o ChatGPT",
+      "views": 2124
+     }
+    ],
+    "por_categoria": {
+     "novidade": {
+      "n": 22,
+      "mediana_views": 426
+     },
+     "historia": {
+      "n": 5,
+      "mediana_views": 264
+     },
+     "como_funciona": {
+      "n": 6,
+      "mediana_views": 258
+     }
+    },
+    "tiktok_videos": 33,
+    "tiktok_views": 493,
+    "tiktok_mediana": 1
+   }
+  ],
+  "dias": [
+   {
+    "data": "2026-11-02",
+    "reels": 3,
+    "views": 427,
+    "mediana": 174
+   },
+   {
+    "data": "2026-11-03",
+    "reels": 1,
+    "views": 201,
+    "mediana": 201
+   },
+   {
+    "data": "2026-11-04",
+    "reels": 1,
+    "views": 530,
+    "mediana": 530
+   },
+   {
+    "data": "2026-11-05",
+    "reels": 2,
+    "views": 3209,
+    "mediana": 1604
+   },
+   {
+    "data": "2026-11-06",
+    "reels": 2,
+    "views": 3872,
+    "mediana": 1936
+   },
+   {
+    "data": "2026-11-07",
+    "reels": 5,
+    "views": 12682,
+    "mediana": 2688
+   },
+   {
+    "data": "2026-11-08",
+    "reels": 7,
+    "views": 11265,
+    "mediana": 1321
+   },
+   {
+    "data": "2026-11-09",
+    "reels": 8,
+    "views": 2913,
+    "mediana": 311
+   },
+   {
+    "data": "2026-11-10",
+    "reels": 8,
+    "views": 2716,
+    "mediana": 277
+   },
+   {
+    "data": "2026-11-11",
+    "reels": 6,
+    "views": 3126,
+    "mediana": 330
+   },
+   {
+    "data": "2026-11-12",
+    "reels": 4,
+    "views": 1489,
+    "mediana": 324
+   }
+  ]
+ },
  "tiktok": [
   {
    "titulo": "5 projetos que a Apple não queria",

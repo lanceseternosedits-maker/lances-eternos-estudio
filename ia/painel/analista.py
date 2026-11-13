@@ -67,6 +67,69 @@ def duracao(meta: dict) -> float | None:
     return None
 
 
+def semanas(leituras, lido_em):
+    """Semana x semana do mês (Vitor, 13/11): S1 = dias 1–7, S2 = 8–14, S3 = 15–21, S4 = 22–28, S5 = 29+.
+    Junta todas as leituras (a mais nova vale para cada post), porque cada uma só cobre 14 dias."""
+    ig, tk = {}, {}
+    for f in leituras:
+        d = ler(f, {}) or {}
+        for row in d.get("instagram") or []:
+            r = dict(zip(d["instagram_campos"], row)); ig[r["url"]] = r
+        for row in d.get("tiktok") or []:
+            r = dict(zip(d["tiktok_campos"], row)); tk[r["url"]] = r
+    try:
+        agora = dt.datetime.strptime(lido_em, "%Y-%m-%d %H:%M")
+    except Exception:
+        agora = dt.datetime.now()
+    def chave(q):
+        return (q.year, q.month, min((q.day - 1) // 7 + 1, 5))
+    MES = ["", "jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
+    g, gt, dias = {}, {}, {}
+    for r in ig.values():
+        q = brt(r["data_utc"])
+        pasta = r.get("pasta")
+        meta = ler(IA / "posts" / pasta / "meta.json", {}) if pasta else {}
+        rot = ler(IA / "posts" / pasta / "roteiro.json", {}) if pasta else {}
+        x = {"q": q, "titulo": r.get("titulo"), "views": r.get("views") or 0, "alcance": r.get("alcance") or 0,
+             "salv": r.get("salvamentos") or 0, "env": r.get("envios") or 0, "com": r.get("comentarios") or 0,
+             "p3": r.get("taxa_3s"), "cat": (meta or {}).get("categoria") or (rot or {}).get("categoria") or "novidade"}
+        g.setdefault(chave(q), []).append(x)
+        dias.setdefault(q.strftime("%Y-%m-%d"), []).append(x["views"])
+    for r in tk.values():
+        if r.get("duracao_s"):
+            gt.setdefault(chave(brt(r["data_utc"])), []).append(r.get("views") or 0)
+    out = []
+    for k in sorted(g):
+        v = g[k]; a, m, n = k
+        ini = dt.datetime(a, m, (n - 1) * 7 + 1)
+        fim_nom = ini + dt.timedelta(days=6) if n < 5 else (dt.datetime(a + (m == 12), m % 12 + 1, 1) - dt.timedelta(days=1))
+        ultimo = max(x["q"] for x in v)
+        fim = min(fim_nom, ultimo)
+        ndias = (fim.date() - ini.date()).days + 1
+        alc = sum(x["alcance"] for x in v)
+        top = sorted(v, key=lambda x: -x["views"])[:3]
+        cats = {}
+        for x in v:
+            cats.setdefault(x["cat"], []).append(x["views"])
+        tkv = gt.get(k) or []
+        out.append({
+            "nome": f"S{n} {MES[m]}", "de_iso": ini.strftime("%Y-%m-%d"), "de": ini.strftime("%d/%m"), "ate": fim.strftime("%d/%m"), "ate_nominal": fim_nom.strftime("%d/%m"),
+            "completa": fim_nom.date() < agora.date(), "dias": ndias, "reels": len(v), "reels_por_dia": round(len(v) / ndias, 1),
+            "views": sum(x["views"] for x in v), "views_por_dia": round(sum(x["views"] for x in v) / ndias),
+            "mediana_views": round(mediana([x["views"] for x in v]) or 0), "media_views": round(sum(x["views"] for x in v) / len(v)),
+            "acima_1000": sum(1 for x in v if x["views"] >= 1000), "alcance": alc,
+            "salvamentos": sum(x["salv"] for x in v), "envios": sum(x["env"] for x in v), "comentarios": sum(x["com"] for x in v),
+            "salvar_pct": pct(sum(x["salv"] for x in v), alc), "enviar_pct": pct(sum(x["env"] for x in v), alc),
+            "comentar_pct": pct(sum(x["com"] for x in v), alc), "passou_3s_pct": mediana([x["p3"] for x in v]),
+            "idade_mediana_dias": round(mediana([(agora - x["q"]).total_seconds() / 86400 for x in v]) or 0, 1),
+            "top": [{"titulo": x["titulo"], "views": x["views"]} for x in top],
+            "por_categoria": {c: {"n": len(l), "mediana_views": round(mediana(l))} for c, l in cats.items()},
+            "tiktok_videos": len(tkv), "tiktok_views": sum(tkv), "tiktok_mediana": mediana(tkv),
+        })
+    serie = [{"data": d, "reels": len(l), "views": sum(l), "mediana": round(mediana(l))} for d, l in sorted(dias.items())]
+    return {"semanas": out, "dias": serie}
+
+
 def main():
     leituras = sorted((PAINEL / "dados").glob("metricool_*.json"))
     if not leituras:
@@ -154,6 +217,7 @@ def main():
     saida = {"gerado_em": dt.datetime.now().strftime("%Y-%m-%d %H:%M"), "leitura": leituras[-1].name, "lido_em": d.get("lido_em"),
              "periodo": d.get("periodo"), "totais": tot, "reels": itens, "por_formato": por_fmt, "por_categoria": grupo("categoria"),
              "por_faixa": grupo("faixa"), "insights_auto": auto,
+             "semana_x_semana": semanas(leituras, d.get("lido_em") or ""),
              "tiktok": [{"titulo": r.get("titulo"), "views": r.get("views"), "foto": not r.get("duracao_s"), "pasta": r.get("pasta")} for r in tiktok]}
     (PAINEL / "resultados.json").write_text(json.dumps(saida, ensure_ascii=False, indent=1), encoding="utf-8")
 

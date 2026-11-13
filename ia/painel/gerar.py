@@ -475,12 +475,52 @@ def main() -> None:
         return (f'<h3>{nome}</h3><table class="gastos"><tr><th>Grupo</th><th class="num">Mediana views</th><th class="num">Salvam</th></tr>'
                 + "".join(f'<tr><td><b>{esc(CATEGORIAS.get(x["nome"], x["nome"]))}</b> <small>({x["n"]})</small></td><td class="num">{milhar(x["mediana_views"])}</td>'
                           f'<td class="num">{num(x["salvar_pct"])}%</td></tr>' for x in g) + '</table>')
+    # ---- 📅 Semana x semana (Vitor, 13/11): S1 = dias 1–7, S2 = 8–14… do mês, de resultados.json["semana_x_semana"]
+    sxs = res.get("semana_x_semana") or {}
+    sem = (sxs.get("semanas") or [])[-2:]
+    html_semanas = ""
+    if len(sem) == 2:
+        a, b = sem
+        def delta(x, y, pp=False):
+            if x is None or y is None:
+                return "–"
+            if pp:
+                d = round(y - x, 1)
+                return f'<span style="color:var(--{"ok" if d >= 0 else "erro"})">{"+" if d >= 0 else ""}{num(d)} p.p.</span>'
+            if not x:
+                return "–"
+            d = round(100 * (y - x) / x)
+            return f'<span style="color:var(--{"ok" if d >= 0 else "erro"})">{"+" if d >= 0 else ""}{d}%</span>'
+        L = [("🎬 Reels publicados", "reels", milhar, False), ("📆 Reels por dia", "reels_por_dia", num, False),
+             ("👀 Views somadas", "views", milhar, False), ("📈 Views por dia (soma)", "views_por_dia", milhar, False),
+             ("🎯 Mediana por Reel", "mediana_views", milhar, False), ("➗ Média por Reel", "media_views", milhar, False),
+             ("🔥 Reels com 1.000+", "acima_1000", milhar, False), ("⏱ Passa dos 3 s (mediana)", "passou_3s_pct", lambda v: num(round(v, 1)) + "%", True),
+             ("💾 Salvam (do alcance)", "salvar_pct", lambda v: num(v) + "%", True), ("✈️ Enviam", "enviar_pct", lambda v: num(v) + "%", True),
+             ("💬 Comentam", "comentar_pct", lambda v: num(v) + "%", True), ("🎵 TikTok: mediana por vídeo", "tiktok_mediana", num, False)]
+        cab = lambda w: f'{esc(w["nome"])}<br><small>{esc(w["de"])}–{esc(w["ate"])}{"" if w["completa"] else " (em curso)"}</small>'
+        linhas = "".join(f'<tr><td>{rot}</td><td class="num">{f(a.get(k))}</td><td class="num"><b>{f(b.get(k))}</b></td><td class="num">{delta(a.get(k), b.get(k), pp)}</td></tr>' for rot, k, f, pp in L)
+        tops = lambda w: " · ".join(f'{esc(t["titulo"] or "?")} <b>{milhar(t["views"])}</b>' for t in w.get("top") or [])
+        cats = lambda w: " · ".join(f'{CATEGORIAS.get(c, c)} {v["n"]} (med. {milhar(v["mediana_views"])})' for c, v in (w.get("por_categoria") or {}).items())
+        dias = [x for x in sxs.get("dias") or [] if x["data"] >= a.get("de_iso", "")]
+        vm = max([x["views"] for x in dias] or [1]) or 1
+        barras = "".join(f'<div class="dia" title="{x["reels"]} Reels · {milhar(x["views"])} views · mediana {milhar(x["mediana"])}"><b>{milhar(x["views"])}</b>'
+                         f'<i style="height:{max(3, round(70 * x["views"] / vm))}px;background:{"#58a6ff" if x["data"] >= b.get("de_iso", "") else "#8b949e"}"></i>'
+                         f'<small>{x["data"][8:10]}/{x["data"][5:7]}<br>{x["reels"]}🎬</small></div>' for x in dias)
+        notas = "".join(f"<p>• {esc(t)}</p>" for t in ins.get("semanas") or [])
+        html_semanas = (f'<h3>📅 Semana x semana</h3><table class="gastos sxs"><tr><th>Instagram</th><th class="num">{cab(a)}</th><th class="num">{cab(b)}</th><th class="num">Δ</th></tr>{linhas}</table>'
+            f'<p class="mut" style="font-size:12px;margin:4px 0">Top 3 {esc(a["nome"])}: {tops(a)}<br>Top 3 {esc(b["nome"])}: {tops(b)}<br>'
+            f'Categorias {esc(a["nome"])}: {cats(a)}<br>Categorias {esc(b["nome"])}: {cats(b)}</p>'
+            f'<p class="it" style="margin:10px 0 2px">Views somadas por dia (cinza = {esc(a["nome"])}, azul = {esc(b["nome"])})</p><div class="dias">{barras}</div>'
+            + (f'<div class="analista"><p class="it">🤖 Leitura da comparação</p>{notas}</div>' if notas else "")
+            + f'<p class="mut" style="font-size:12px">S1 = dias 1–7 do mês, S2 = 8–14, S3 = 15–21, S4 = 22–28. Views contadas até a leitura de {esc(str(res.get("lido_em") or ""))}: '
+              f'os Reels de {esc(b["nome"])} estão no ar há {num(b.get("idade_mediana_dias"))} dias (mediana), os de {esc(a["nome"])} há {num(a.get("idade_mediana_dias"))}. Porcentagens sobre o alcance somado.</p>'
+            '<style>.dias{display:flex;gap:4px;align-items:flex-end;overflow-x:auto;padding-bottom:4px}.dia{flex:1;min-width:30px;display:flex;flex-direction:column;align-items:center;font-size:10px;gap:2px}.dia i{display:block;width:100%;border-radius:3px 3px 0 0}.dia small{color:var(--mut);text-align:center;line-height:1.2}table.sxs th,table.sxs td{padding:7px 6px;line-height:1.25}table.sxs .num{width:auto}table.sxs th:first-child,table.sxs td:first-child{width:42%}table.sxs th:last-child{width:17%}</style>')
     html_resultados = ('<p class="mut" style="font-size:12px">Sem leitura ainda: rode <code>python3 painel/analista.py</code>.</p>' if not res else
         f'<div class="filas"><div class="kpi"><b>{milhar(tot.get("views_ig"))}</b><span>views no Instagram</span></div>'
         f'<div class="kpi"><b>{milhar(tot.get("mediana_views_ig"))}</b><span>mediana por Reel</span></div>'
         f'<div class="kpi"><b>{milhar(tot.get("salvamentos"))} · {milhar(tot.get("envios"))}</b><span>salvos · envios</span></div></div>'
         f'<div class="analista"><p class="it">🤖 Agente analista · leitura de {esc(str(ins.get("em") or res.get("lido_em") or "")[8:10])}/{esc(str(ins.get("em") or "")[5:7])} {esc(str(ins.get("em") or "")[11:16])}</p>'
-        f'<p>{esc(ins.get("resumo") or "")}</p></div>{cards_ins}'
+        f'<p>{esc(ins.get("resumo") or "")}</p></div>{cards_ins}{html_semanas}'
         + ("<h3>Automático (regras)</h3><ul class='auto'>" + "".join(f"<li>{esc(a)}</li>" for a in res.get("insights_auto") or []) + "</ul>")
         + f'<h3>Reels ({len(reels)}, {esc(" a ".join(f"{d[8:10]}/{d[5:7]}" for d in res.get("periodo") or []))})</h3>'
         f'<table class="gastos res"><tr><th>Reel</th><th class="num">Views</th><th class="num">Passa 3 s</th><th class="num">Salvam</th></tr>{linhas_r}</table>'
