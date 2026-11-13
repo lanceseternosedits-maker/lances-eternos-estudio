@@ -1,44 +1,44 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-12 19:45",
- "leitura": "metricool_2026-11-12.json",
- "resumo": "Nada mudou desde a leitura das 07:45: o Metricool devolveu exatamente os mesmos números nos 44 Reels e 60 TikToks (os de 12/11 ainda não entraram, só ZAP com 0), então os achados seguem: PLAY 1.709 views (6,5× a mediana de 11/11, 264) mostra que contagem de jogos fura a queda, e 📜 prende sem salvar. É cedo para julgar a rodada de 12/11 e o TikTok da tarde; a próxima leitura deve trazer os dois.",
+ "em": "2026-11-13 07:45",
+ "leitura": "metricool_2026-11-13.json",
+ "resumo": "Os 4 Reels de 12/11 entraram (até 18:07) e a queda de alcance parou num platô: mediana por dia 311 · 277 · 330 · 324 de 09 a 12/11, bem abaixo dos 2.688 de 07/11, mas sem cair mais. O melhor de 12/11 foi APPLE (596, \"o que a Apple não queria\"), repetindo o padrão de PLAY (1.713) e CORTES (698): objeto/marca que todo mundo conhece com inimigo grande; 📜 segue com 0,0% de salvar e TikTok continua acordado à tarde/noite.",
  "itens": [
   {
    "tipo": "fazer_mais",
-   "titulo": "Jogos + objeto conhecido seguem furando a queda",
-   "evidencia": "PLAY (contagem de 5 jogos de PlayStation no PC, 06:06): 1.709 views, 1.532 de alcance, 37 curtidas, 12 salvamentos, 52,4% passam dos 3 s. Os outros 5 Reels de 11/11 ficaram em 47–357. Os 3 Reels de jogos da quinzena: MOBILE 1.722, PLAY 1.709, CORTES/GTA 6 695 (subiu de 517 desde ontem).",
-   "acao": "Na próxima rodada, pelo menos 1 contagem de jogos por dia (console, emulação legal, mods, GTA 6 até 19/11), sempre com o nome do jogo na 1ª frase e o aviso \"só com o seu jogo\". (Leitura 19:43 idêntica à das 07:45: Metricool sem atualização.)"
+   "titulo": "\"O que a big tech não queria\" + marca conhecida segue no topo",
+   "evidencia": "12/11: APPLE 596 views (1,8× a mediana do dia, 324), 49,7% nos 3 s, 2,2% de salvar. Na mesma linha: PLAY 1.713 (11/11), CORTES/GTA 6 698 (10/11). Já os sem marca conhecida no mesmo dia: CELULAR 272, ZAP 246.",
+   "acao": "Na próxima rodada, pelo menos 1 contagem por dia com marca que todo mundo tem em casa (Apple, PlayStation, Windows, Samsung, Google) e o inimigo no gancho (\"o que a X não queria\"); jogos continuam com 1 por dia."
+  },
+  {
+   "tipo": "fazer_mais",
+   "titulo": "COPIA: ensinar a IA a desmontar app salva bem",
+   "evidencia": "COPIA (12/11 12:13) teve 375 views e 3,4% de salvar (11 salvamentos em 321 de alcance), o maior % de salvar desde EDITA/SKILLS; 1,6% de comentário. Mas só 36,3% passa dos 3 s.",
+   "acao": "Repetir o tema \"faça a IA fazer o app/programa do seu jeito\" (regra de ouro do Vitor), com gancho mais forte no 1º quadro: o programa conhecido sendo aberto/desmontado na tela, não o texto."
   },
   {
    "tipo": "alerta",
-   "titulo": "Alcance médio continua baixo, mesmo com 6 posts",
-   "evidencia": "Mediana de views por dia de postagem: 07/11 2.687 · 08/11 1.320 · 09/11 311 · 10/11 274 · 11/11 264 (6 Reels, não 8). Os de 10/11 cresceram pouco em 12 h (LEIS 540→605, CORTES 517→695, INTERNET 60→146).",
-   "acao": "Reduzir de 8 para 6 em 11/11 ainda não mudou a mediana; é cedo (1 dia). Chefe, o teste de 4 Reels/dia por 2 dias segue sendo a forma de saber se é saturação; sem esse teste, manter só os formatos fortes (contagem com objeto doméstico/jogo e utilidade brasileira)."
+   "titulo": "Alcance estabilizou baixo: parou de cair, mas não voltou",
+   "evidencia": "Mediana de views por dia: 07/11 2.688 · 08/11 1.321 · 09/11 311 · 10/11 277 · 11/11 330 · 12/11 324. Gancho geral 45% nos 3 s, igual às leituras anteriores; nada no vídeo piorou.",
+   "acao": "Não mudar o formato por causa disso. Seguir intercalando e usar a próxima rodada para testar 1 variável por vez (marca conhecida no gancho); se a mediana seguir ~300 por mais 3 dias, levar ao Vitor a discussão de volume (8 por dia)."
   },
   {
    "tipo": "corrigir",
-   "titulo": "📜 prende, mas ninguém salva",
-   "evidencia": "DOLAR (carro por 1 dólar): 269 views em ~10 h, a melhor retenção da rodada (58,3% passam dos 3 s, 11,8 s de tempo médio, 36% do vídeo) e 0 salvamento. TURING: 220 views, 39,7% nos 3 s, 0 salvamento. Na quinzena, 📜 tem mediana 266 views e 0,0% de salvar (6 Reels); ⚙️ 256 e 0,1%.",
-   "acao": "Manter no máximo 1 📜 por dia e escolher o tipo DOLAR (caso absurdo com objeto do dia a dia: carro, dinheiro), não o tipo TURING/VERAO (data e cientista). Fechar com uma lição prática na tela (\"o que dizer pra IA não prometer\") para dar motivo de salvar."
+   "titulo": "📜 prende e quase ninguém salva",
+   "evidencia": "DOLAR subiu de 269 para 429 e tem 57,6% nos 3 s (o melhor gancho do dia), mas 0 salvamentos; TURING 229 e 0. Mediana 📜 346 views e 0,0% de salvar em 6 Reels da tabela; ⚙️ 258 e 0,1%; 🆕 530 e 1,7%.",
+   "acao": "Manter no máximo 1 📜 por dia, à noite, e fechar com o cartão legível da lição (\"o que a IA NÃO pode prometer\") + \"salva\" na fala; ⚙️ só com objeto do dia a dia no palco."
   },
   {
    "tipo": "corrigir",
-   "titulo": "Contagens de nicho Mac/GitHub não pegam",
-   "evidencia": "MAC (3 apps grátis pro Mac): 260 views, 43,5% nos 3 s. BIZARRO (5 projetos inúteis do GitHub): 47 views em ~12 h, mesmo com 2,6% de salvar e de comentar entre os poucos que viram. Contra PLAY 1.709 no mesmo dia e mesmo formato.",
-   "acao": "Contagem só com objeto que todo mundo tem (PC Windows, celular, TV, console); evitar recorte \"só Mac\" e \"projeto inútil\". Gancho com o produto famoso no 1º segundo."
+   "titulo": "Contagens sem objeto conhecido seguem fracas",
+   "evidencia": "CELULAR 272 (0,9% de salvar, 0 envios), BIZARRO 96, MAC 267, INTERNET 148. Todas abaixo da mediana dos 14 dias (428).",
+   "acao": "No título da contagem, troque a categoria genérica (\"5 projetos pro celular\") pela marca/aparelho e por um resultado concreto (\"tira a propaganda do seu Xiaomi\")."
   },
   {
    "tipo": "testar",
-   "titulo": "TikTok acordou nos posts da tarde/noite de 11/11",
-   "evidencia": "Views TikTok de 11/11: CHINA 89, BIZARRO 87, TURING 47, DOLAR 32, contra MAC 2 e PLAY 0 de manhã e 0–6 em todos de 09–10/11. Correção: as leituras anteriores citavam \"24–51 views\" no TikTok, mas esse número era a duração do vídeo; a mediana real dos vídeos na quinzena é 2 views.",
-   "acao": "Na próxima leitura, ver se os TikToks de 12/11 seguem acima de 30 views. Se sim, a restrição passou; se não, chefe, ainda vale postar 1 vídeo direto pelo app do TikTok para comparar."
-  },
-  {
-   "tipo": "testar",
-   "titulo": "Utilidade brasileira continua crescendo devagar",
-   "evidencia": "LEIS chegou a 605 views, 30 curtidas, 11 comentários (2,2% do alcance), 10 salvamentos, 6 envios; segue o melhor de comentário entre os Reels de 10–11/11 com mais de 200 views.",
-   "acao": "Manter 1 🆕 de utilidade brasileira por dia (lei, imposto, conta de luz, contrato) com pergunta de vida no fim."
+   "titulo": "TikTok acordou à tarde e à noite (cedo para regra)",
+   "evidencia": "Desde a tarde de 11/11, 7 de 10 vídeos tiveram 50–94 views (CHINA 91, BIZARRO 94, CELULAR 88, DOLAR 68, APPLE 66, TURING 50); 10/11 inteiro ficou em 0–5. Os de 06h seguem em 0–1 (PLAY 0, ZAP 1), mas MAC às 10h fez 2 e CELULAR às 10h fez 88.",
+   "acao": "Manter os horários; na próxima leitura conferir se os posts das 06h no TikTok continuam em zero com mais 3 vídeos antes de sugerir mudar a grade."
   }
  ]
 }
