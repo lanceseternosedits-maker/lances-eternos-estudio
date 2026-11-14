@@ -11,7 +11,7 @@ class Motor2:
         self.sw, self.sh = int(w * escala) // 2 * 2, int(h * escala) // 2 * 2
         self.ctx = moderngl.create_standalone_context()
         quad = self.ctx.buffer(np.array([-1, -1, 1, -1, -1, 1, 1, 1], "f4"))
-        self.pS = self.ctx.program(vertex_shader=VERT, fragment_shader=open(f"{AQUI}/scene2.frag").read())
+        self.pS = self.ctx.program(vertex_shader=VERT, fragment_shader=open(f"{AQUI}/{os.environ.get('CENA_FRAG', 'scene2.frag')}").read())
         self.pP = self.ctx.program(vertex_shader=VERT, fragment_shader=open(f"{AQUI}/post2.frag").read())
         self.vS = self.ctx.vertex_array(self.pS, [(quad, "2f", "p")])
         self.vP = self.ctx.vertex_array(self.pP, [(quad, "2f", "p")])

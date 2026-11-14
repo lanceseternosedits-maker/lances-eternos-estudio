@@ -18,7 +18,7 @@
   "instagram": "2026-11-18 06:00",
   "tiktok": "2026-11-18 06:00"
  },
- "status": "vídeo aguardando aprovação",
+ "status": "roteiro aprovado",
  "horario_provisorio": "Vitor (07/11): grade intercalada (4 🆕 por dia em 09–15/11) tirou esta novidade da semana; horário provisório, a rodada de quinta (12/11) confirma",
  "checagem": {
   "em": "2026-11-14 16:59",
@@ -90,5 +90,6 @@
   "motor": "v6 (cena_neon/video6.py, 2 vozes Puck+Fenrir, texto Visual clean)",
   "render_min": 26,
   "em": "2026-11-14"
- }
+ },
+ "nota_video": "14/11: MP4 v6 (câmera fechada, palco neon) recusado pelo Vitor na conversa: \"quero cenário moderno e mudança de câmera\". Refazendo no v7."
 }

@@ -2,21 +2,262 @@
  "voz": "Puck",
  "estilo": "Diga em português do Brasil, voz confiante de criador de Reels contando uma fofoca séria, ritmo natural",
  "cauda": 0.9,
- "musica": {"MUS_PROG": "menor", "MUS_TOM": "-2"},
+ "musica": {
+  "MUS_PROG": "menor",
+  "MUS_TOM": "-2"
+ },
  "segmentos": [
-  {"cena": "gancho", "quem": "A", "tipo": "A", "braco": 1, "fala": "A empresa que faz o cérebro da IA perdeu o chefe em uma semana.", "cab": ["a Nvidia ", "perdeu o chefe"], "chave": ["cérebro", "chefe"], "placa": "SEM CHEFE", "cor": "vermelho"},
-  {"cena": "peraí", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, surpreso e curioso, pergunta curta", "fala": "Peraí, a Nvidia?", "cab": ["peraí, ", "a Nvidia?"], "chave": ["Nvidia?"], "balao": "A NVIDIA?"},
-  {"cena": "chips", "quem": "A", "tipo": "A", "grafo": "cresce", "fala": "Ela faz os chips de boa parte da IA que você usa.", "cab": ["os chips ", "da IA"], "chave": ["chips"]},
-  {"cena": "renuncia", "quem": "A", "tipo": "A", "fala": "No dia doze, o fundador Jensen Huang renunciou.", "cab": ["12/11 · ", "renunciou"], "chave": ["renunciou."], "conta": [0, 33, "{} ANOS"], "cor": "ouro"},
-  {"cena": "porque", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, curioso, pergunta curta", "fala": "E por quê?", "cab": ["e por ", "quê?"], "chave": ["quê?"], "balao": "POR QUÊ?"},
-  {"cena": "traicao", "quem": "A", "tipo": "A", "fala": "Dias antes, ele admitiu que traiu a esposa.", "cab": ["dias antes, ", "admitiu"], "chave": ["traiu"], "placa": "ADMITIU", "cor": "vermelho"},
-  {"cena": "espia", "quem": "A", "tipo": "AB", "fala": "E surgiu a suspeita de que uma das mulheres trabalhava pra China.", "cab": ["só ", "suspeita"], "chave": ["suspeita", "China."], "placa": "SUSPEITA", "cor": "vermelho"},
-  {"cena": "provado", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, desconfiado, pergunta curta", "fala": "E isso foi provado?", "cab": ["foi ", "provado?"], "chave": ["provado?"], "balao": "PROVADO?"},
-  {"cena": "nada_provado", "quem": "A", "tipo": "A", "fala": "Não. Os Estados Unidos não concluíram nada, e a China nega.", "cab": ["nada ", "comprovado"], "chave": ["nada,", "nega."], "placa": "NÃO COMPROVADO", "cor": "ciano"},
-  {"cena": "cta_meio", "quem": "A", "tipo": "AB", "braco": 1, "fala": "Comenta NVIDIA que eu te mando as fontes. E manda pro amigo que vive falando de IA.", "cab": ["comenta ", "NVIDIA"], "chave": ["NVIDIA", "fontes."], "placa": "NVIDIA", "cor": "ouro"},
-  {"cena": "trilhao", "quem": "A", "tipo": "A", "fala": "A Nvidia já perdeu mais de um trilhão e meio de dólares em valor.", "cab": ["valor ", "derretendo"], "chave": ["trilhão", "meio"], "conta": [0, 1.6, "-US$ {} TRI"], "cor": "vermelho", "medidor": [92, 35, "VALOR"]},
-  {"cena": "congresso", "quem": "A", "tipo": "AB", "fala": "E o Congresso chamou ele pra depor.", "cab": ["o Congresso ", "chamou"], "chave": ["Congresso", "depor."], "placa": "DEPOR · 1º/12", "cor": "azul"},
-  {"cena": "pergunta", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, curioso e simpático, pergunta para quem assiste", "fala": "E quantas IAs você usa no dia sem perceber?", "cab": ["quantas ", "você usa?"], "chave": ["IAs", "perceber?"], "balao": "QUANTAS?"},
-  {"cena": "cta", "quem": "A", "tipo": "A", "braco": 1, "fala": "Comenta NVIDIA e me segue.", "cab": ["comenta ", "NVIDIA"], "chave": ["NVIDIA"], "placa": "NVIDIA", "cor": "ouro", "grafo": 1}
+  {
+   "cena": "gancho",
+   "quem": "A",
+   "tipo": "A",
+   "braco": 1,
+   "fala": "A empresa que faz o cérebro da IA perdeu o chefe em uma semana.",
+   "cab": [
+    "a Nvidia ",
+    "perdeu o chefe"
+   ],
+   "chave": [
+    "cérebro",
+    "chefe"
+   ],
+   "placa": "SEM CHEFE",
+   "cor": "vermelho"
+  },
+  {
+   "cena": "peraí",
+   "quem": "B",
+   "tipo": "B",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, surpreso e curioso, pergunta curta",
+   "fala": "Peraí, a Nvidia?",
+   "cab": [
+    "peraí, ",
+    "a Nvidia?"
+   ],
+   "chave": [
+    "Nvidia?"
+   ],
+   "balao": "A NVIDIA?"
+  },
+  {
+   "cena": "chips",
+   "quem": "A",
+   "tipo": "A",
+   "grafo": "cresce",
+   "fala": "Ela faz os chips de boa parte da IA que você usa.",
+   "cab": [
+    "os chips ",
+    "da IA"
+   ],
+   "chave": [
+    "chips"
+   ]
+  },
+  {
+   "cena": "renuncia",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "No dia doze, o fundador Jensen Huang renunciou.",
+   "cab": [
+    "12/11 · ",
+    "renunciou"
+   ],
+   "chave": [
+    "renunciou."
+   ],
+   "conta": [
+    0,
+    33,
+    "{} ANOS"
+   ],
+   "cor": "ouro"
+  },
+  {
+   "cena": "porque",
+   "quem": "B",
+   "tipo": "B",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, curioso, pergunta curta",
+   "fala": "E por quê?",
+   "cab": [
+    "e por ",
+    "quê?"
+   ],
+   "chave": [
+    "quê?"
+   ],
+   "balao": "POR QUÊ?"
+  },
+  {
+   "cena": "traicao",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "Dias antes, ele admitiu que traiu a esposa.",
+   "cab": [
+    "dias antes, ",
+    "admitiu"
+   ],
+   "chave": [
+    "traiu"
+   ],
+   "placa": "ADMITIU",
+   "cor": "vermelho"
+  },
+  {
+   "cena": "espia",
+   "quem": "A",
+   "tipo": "AB",
+   "fala": "E surgiu a suspeita de que uma das mulheres trabalhava pra China.",
+   "cab": [
+    "só ",
+    "suspeita"
+   ],
+   "chave": [
+    "suspeita",
+    "China."
+   ],
+   "placa": "SUSPEITA",
+   "cor": "vermelho"
+  },
+  {
+   "cena": "provado",
+   "quem": "B",
+   "tipo": "B",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, desconfiado, pergunta curta",
+   "fala": "E isso foi provado?",
+   "cab": [
+    "foi ",
+    "provado?"
+   ],
+   "chave": [
+    "provado?"
+   ],
+   "balao": "PROVADO?"
+  },
+  {
+   "cena": "nada_provado",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "Não. Os Estados Unidos não concluíram nada, e a China nega.",
+   "cab": [
+    "nada ",
+    "comprovado"
+   ],
+   "chave": [
+    "nada,",
+    "nega."
+   ],
+   "placa": "NÃO COMPROVADO",
+   "cor": "ciano"
+  },
+  {
+   "cena": "cta_meio",
+   "quem": "A",
+   "tipo": "AB",
+   "braco": 1,
+   "fala": "Comenta NVIDIA que eu te mando as fontes. E manda pro amigo que vive falando de IA.",
+   "cab": [
+    "comenta ",
+    "NVIDIA"
+   ],
+   "chave": [
+    "NVIDIA",
+    "fontes."
+   ],
+   "placa": "NVIDIA",
+   "cor": "ouro"
+  },
+  {
+   "cena": "trilhao",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "A Nvidia já perdeu mais de um trilhão e meio de dólares em valor.",
+   "cab": [
+    "valor ",
+    "derretendo"
+   ],
+   "chave": [
+    "trilhão",
+    "meio"
+   ],
+   "conta": [
+    0,
+    1.6,
+    "-US$ {} TRI"
+   ],
+   "cor": "vermelho",
+   "medidor": [
+    92,
+    35,
+    "VALOR"
+   ]
+  },
+  {
+   "cena": "congresso",
+   "quem": "A",
+   "tipo": "AB",
+   "fala": "E o Congresso chamou ele pra depor.",
+   "cab": [
+    "o Congresso ",
+    "chamou"
+   ],
+   "chave": [
+    "Congresso",
+    "depor."
+   ],
+   "placa": "DEPOR · 1º/12",
+   "cor": "azul"
+  },
+  {
+   "cena": "pergunta",
+   "quem": "B",
+   "tipo": "B",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, curioso e simpático, pergunta para quem assiste",
+   "fala": "E quantas IAs você usa no dia sem perceber?",
+   "cab": [
+    "quantas ",
+    "você usa?"
+   ],
+   "chave": [
+    "IAs",
+    "perceber?"
+   ],
+   "balao": "QUANTAS?"
+  },
+  {
+   "cena": "cta",
+   "quem": "A",
+   "tipo": "A",
+   "braco": 1,
+   "fala": "Comenta NVIDIA e me segue.",
+   "cab": [
+    "comenta ",
+    "NVIDIA"
+   ],
+   "chave": [
+    "NVIDIA"
+   ],
+   "placa": "NVIDIA",
+   "cor": "ouro",
+   "grafo": 1
+  }
+ ],
+ "tema": 2,
+ "tema_cor": [
+  0.15,
+  0.95,
+  0.55
+ ],
+ "sem_cams": [
+  "lateral",
+  "lateral2"
+ ],
+ "placa_pos": [
+  0,
+  3.0,
+  -3.5
  ]
 }

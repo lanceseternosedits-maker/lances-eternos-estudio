@@ -1,18 +1,212 @@
 {
  "voz": "Puck",
  "cauda": 0.9,
- "musica": {"MUS_TOM": "-3", "MUS_BATIDA": "0.45"},
+ "musica": {
+  "MUS_TOM": "-3",
+  "MUS_BATIDA": "0.45"
+ },
  "segmentos": [
-  {"cena": "gancho", "quem": "A", "tipo": "A", "braco": 1, "fala": "Seu PS5 já grava a última hora do seu GTA 6. E dá pra virar Reel grátis.", "cab": ["seu PS5 ", "já grava"], "chave": ["GTA", "6.", "grátis."], "placa": "GTA 6 · 19/11", "cor": "vermelho"},
-  {"cena": "peraí", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, surpreso, pergunta curta", "fala": "Sozinho? Como assim?", "cab": ["como ", "assim?"], "chave": ["assim?"], "balao": "COMO ASSIM?"},
-  {"cena": "n5", "quem": "A", "tipo": "A", "fala": "Quinto: o botão Criar guarda sozinho os últimos sessenta minutos.", "cab": ["nº 5 · ", "botão Criar"], "chave": ["Criar", "sessenta"], "conta": [0, 60, "{} MINUTOS"], "cor": "azul"},
-  {"cena": "n4", "quem": "A", "tipo": "A", "fala": "Quarto: no modo clipe rápido, aperta duas vezes e salva.", "cab": ["nº 4 · ", "clipe rápido"], "chave": ["duas", "vezes"], "placa": "2 TOQUES", "cor": "ciano"},
-  {"cena": "n3", "quem": "A", "tipo": "A", "fala": "Terceiro: o auto-editor corta toda parte parada.", "cab": ["nº 3 · ", "corta o parado"], "chave": ["auto-editor", "parada."], "conta": [0, 5870, "{} ESTRELAS"], "cor": "ouro"},
-  {"cena": "cta_meio", "quem": "A", "tipo": "AB", "braco": 1, "fala": "Essa é legalzinha… comenta GTA que eu te mando as cinco. E manda pro amigo que vai jogar.", "cab": ["comenta ", "GTA"], "chave": ["GTA", "cinco."], "placa": "GTA", "cor": "ouro"},
-  {"cena": "segundo", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, curioso, pergunta curta", "fala": "E o segundo?", "cab": ["e o ", "segundo?"], "chave": ["segundo?"], "balao": "E O Nº 2?"},
-  {"cena": "n2", "quem": "A", "tipo": "A", "grafo": "cresce", "fala": "Segundo: o ViralCutter transforma vídeo longo em corte de TikTok.", "cab": ["nº 2 · ", "corte pronto"], "chave": ["ViralCutter", "TikTok."], "placa": "CORTE PRO TIKTOK", "cor": "azul"},
-  {"cena": "n1", "quem": "A", "tipo": "AB", "braco": 1, "grafo": 1, "fala": "E o primeiro: o autoclip entrega os melhores trechos em pé, com legenda.", "cab": ["nº 1 · ", "o mais bizarro"], "chave": ["autoclip", "legenda."], "placa": "Nº 1", "cor": "ouro"},
-  {"cena": "pergunta", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, animado, pergunta para quem assiste", "fala": "Vai jogar dia dezenove ou vai esperar?", "cab": ["vai jogar ", "dia 19?"], "chave": ["dezenove"], "balao": "DIA 19?"},
-  {"cena": "cta", "quem": "A", "tipo": "A", "braco": 1, "fala": "Comenta GTA e me segue que eu te mando as cinco.", "cab": ["comenta ", "GTA"], "chave": ["GTA"], "placa": "GTA", "cor": "ouro", "grafo": 1}
+  {
+   "cena": "gancho",
+   "quem": "A",
+   "tipo": "A",
+   "braco": 1,
+   "fala": "Seu PS5 já grava a última hora do seu GTA 6. E dá pra virar Reel grátis.",
+   "cab": [
+    "seu PS5 ",
+    "já grava"
+   ],
+   "chave": [
+    "GTA",
+    "6.",
+    "grátis."
+   ],
+   "placa": "GTA 6 · 19/11",
+   "cor": "vermelho"
+  },
+  {
+   "cena": "peraí",
+   "quem": "B",
+   "tipo": "B",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, surpreso, pergunta curta",
+   "fala": "Sozinho? Como assim?",
+   "cab": [
+    "como ",
+    "assim?"
+   ],
+   "chave": [
+    "assim?"
+   ],
+   "balao": "COMO ASSIM?"
+  },
+  {
+   "cena": "n5",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "Quinto: o botão Criar guarda sozinho os últimos sessenta minutos.",
+   "cab": [
+    "nº 5 · ",
+    "botão Criar"
+   ],
+   "chave": [
+    "Criar",
+    "sessenta"
+   ],
+   "conta": [
+    0,
+    60,
+    "{} MINUTOS"
+   ],
+   "cor": "azul"
+  },
+  {
+   "cena": "n4",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "Quarto: no modo clipe rápido, aperta duas vezes e salva.",
+   "cab": [
+    "nº 4 · ",
+    "clipe rápido"
+   ],
+   "chave": [
+    "duas",
+    "vezes"
+   ],
+   "placa": "2 TOQUES",
+   "cor": "ciano"
+  },
+  {
+   "cena": "n3",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "Terceiro: o auto-editor corta toda parte parada.",
+   "cab": [
+    "nº 3 · ",
+    "corta o parado"
+   ],
+   "chave": [
+    "auto-editor",
+    "parada."
+   ],
+   "conta": [
+    0,
+    5870,
+    "{} ESTRELAS"
+   ],
+   "cor": "ouro"
+  },
+  {
+   "cena": "cta_meio",
+   "quem": "A",
+   "tipo": "AB",
+   "braco": 1,
+   "fala": "Essa é legalzinha… comenta GTA que eu te mando as cinco. E manda pro amigo que vai jogar.",
+   "cab": [
+    "comenta ",
+    "GTA"
+   ],
+   "chave": [
+    "GTA",
+    "cinco."
+   ],
+   "placa": "GTA",
+   "cor": "ouro"
+  },
+  {
+   "cena": "segundo",
+   "quem": "B",
+   "tipo": "B",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, curioso, pergunta curta",
+   "fala": "E o segundo?",
+   "cab": [
+    "e o ",
+    "segundo?"
+   ],
+   "chave": [
+    "segundo?"
+   ],
+   "balao": "E O Nº 2?"
+  },
+  {
+   "cena": "n2",
+   "quem": "A",
+   "tipo": "A",
+   "grafo": "cresce",
+   "fala": "Segundo: o ViralCutter transforma vídeo longo em corte de TikTok.",
+   "cab": [
+    "nº 2 · ",
+    "corte pronto"
+   ],
+   "chave": [
+    "ViralCutter",
+    "TikTok."
+   ],
+   "placa": "CORTE PRO TIKTOK",
+   "cor": "azul"
+  },
+  {
+   "cena": "n1",
+   "quem": "A",
+   "tipo": "AB",
+   "braco": 1,
+   "grafo": 1,
+   "fala": "E o primeiro: o autoclip entrega os melhores trechos em pé, com legenda.",
+   "cab": [
+    "nº 1 · ",
+    "o mais bizarro"
+   ],
+   "chave": [
+    "autoclip",
+    "legenda."
+   ],
+   "placa": "Nº 1",
+   "cor": "ouro"
+  },
+  {
+   "cena": "pergunta",
+   "quem": "B",
+   "tipo": "B",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, animado, pergunta para quem assiste",
+   "fala": "Vai jogar dia dezenove ou vai esperar?",
+   "cab": [
+    "vai jogar ",
+    "dia 19?"
+   ],
+   "chave": [
+    "dezenove"
+   ],
+   "balao": "DIA 19?"
+  },
+  {
+   "cena": "cta",
+   "quem": "A",
+   "tipo": "A",
+   "braco": 1,
+   "fala": "Comenta GTA e me segue que eu te mando as cinco.",
+   "cab": [
+    "comenta ",
+    "GTA"
+   ],
+   "chave": [
+    "GTA"
+   ],
+   "placa": "GTA",
+   "cor": "ouro",
+   "grafo": 1
+  }
+ ],
+ "tema": 3,
+ "tema_cor": [
+  1.0,
+  0.45,
+  0.6
+ ],
+ "placa_pos": [
+  0,
+  2.9,
+  -3.2
  ]
 }

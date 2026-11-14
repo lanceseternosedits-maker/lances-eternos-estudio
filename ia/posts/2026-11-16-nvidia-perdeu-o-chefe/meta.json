@@ -26,7 +26,7 @@
  "prova_viral": "Notícia do topo do mundo tech em 12–13/11: comunicado oficial da Nvidia (12/11, renúncia com efeito imediato, Colette Kress interina); CNBC (13/11): ação em 6ª semana seguida de queda, maior sequência desde 2012, ~US$ 1,6 trilhão a menos; CNN (11/11): ~US$ 1,76 trilhão e convocação para depor; US News/Reuters (12/11): Departamento de Justiça não concluiu se Alice Huang era espiã; China nega.",
  "cta": "NVIDIA",
  "polemica": true,
- "status": "vídeo aguardando aprovação",
+ "status": "roteiro aprovado",
  "pedido": "Vitor, 13/11: 'Manda falar da fofoca da nvidia. Ta em alta. E eh sobre o mundo tech'",
  "status_antes_filtro": "roteiro aguardando aprovação",
  "nota_filtro": "chance 25%, abaixo do corte",
@@ -102,5 +102,6 @@
   "motor": "v6 (cena_neon/video6.py, 2 vozes Puck+Fenrir, texto Visual clean)",
   "render_min": 30,
   "em": "2026-11-14"
- }
+ },
+ "nota_video": "14/11: MP4 v6 (câmera fechada, palco neon) recusado pelo Vitor na conversa: \"quero cenário moderno e mudança de câmera\". Refazendo no v7."
 }
