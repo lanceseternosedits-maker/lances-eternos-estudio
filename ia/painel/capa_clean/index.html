@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:AB;src:url(../../video/cena_contagem/f/archivo-black-latin-400-normal.woff2)}
+@font-face{font-family:IN;src:url(../../video/cena_contagem/f/inter-latin-500-normal.woff2)}
+*{margin:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+canvas{position:absolute;left:0;top:0;width:1080px;height:1920px}
+</style></head><body><canvas id="bg" width="1080" height="1920"></canvas><canvas id="g" width="1080" height="1920"></canvas><canvas id="u" width="1080" height="1920"></canvas>
+<script type="module">
+// Capa "clean" (Vitor, 14/11: "mais organizado, clean, menos infantil"; Referência 15).
+// 1 cor sólida + título branco + etiqueta amarela + 1 objeto 3D de estúdio + subtítulo dourado + barra da marca.
+// Tudo dentro do recorte 3:4 da grade (y 240–1680).
+import * as THREE from '../../video/cena_trend/three.module.min.js';
+await document.fonts.load('400 60px AB'); await document.fonts.load('500 30px IN');
+const CORES = { vermelho: ['#d7263d', '#8e0f22'], azul: ['#2457e6', '#0f2c8a'], roxo: ['#7a35e0', '#3d1494'], verde: ['#12a06b', '#06573a'], magenta: ['#d0216f', '#7c0b3f'], laranja: ['#f06a1d', '#9a3608'] };
+const R = new THREE.WebGLRenderer({ canvas: document.getElementById('g'), antialias: true, alpha: true, preserveDrawingBuffer: true });
+R.setSize(1080, 1920, false); R.setClearColor(0, 0); R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap; R.outputColorSpace = THREE.SRGBColorSpace; R.toneMapping = THREE.ACESFilmicToneMapping; R.toneMappingExposure = 1.05;
+const S = new THREE.Scene(); const cam = new THREE.PerspectiveCamera(26, 1080 / 1920, .1, 100);
+S.add(new THREE.HemisphereLight(0xffffff, 0x404060, 1.1));
+const key = new THREE.DirectionalLight(0xffffff, 2.6); key.position.set(-4, 7, 6); key.castShadow = true; key.shadow.mapSize.set(2048, 2048); key.shadow.radius = 6; Object.assign(key.shadow.camera, { left: -5, right: 5, top: 5, bottom: -5 }); S.add(key);
+const rim = new THREE.DirectionalLight(0xffffff, 1.4); rim.position.set(5, 3, -5); S.add(rim);
+const sombra = new THREE.Mesh(new THREE.PlaneGeometry(14, 14), new THREE.ShadowMaterial({ opacity: .32 })); sombra.rotation.x = -Math.PI / 2; sombra.receiveShadow = true; S.add(sombra);
+const P = (c, o = {}) => new THREE.MeshPhysicalMaterial({ color: c, roughness: .35, clearcoat: .6, clearcoatRoughness: .25, ...o });
+const add = (g, m, par, x = 0, y = 0, z = 0) => { const o = new THREE.Mesh(g, m); o.position.set(x, y, z); o.castShadow = o.receiveShadow = true; par.add(o); return o; };
+const rbox = (w, h, d, r = .08) => { const s = new THREE.Shape(), x = -w / 2, y = -h / 2; s.moveTo(x + r, y); s.lineTo(x + w - r, y); s.quadraticCurveTo(x + w, y, x + w, y + r); s.lineTo(x + w, y + h - r); s.quadraticCurveTo(x + w, y + h, x + w - r, y + h); s.lineTo(x + r, y + h); s.quadraticCurveTo(x, y + h, x, y + h - r); s.lineTo(x, y + r); s.quadraticCurveTo(x, y, x + r, y);
+  const g = new THREE.ExtrudeGeometry(s, { depth: d, bevelEnabled: true, bevelSize: r * .5, bevelThickness: r * .5, bevelSegments: 4 }); g.translate(0, 0, -d / 2); return g; };
+function ctex(w, h, draw) { const c = document.createElement('canvas'); c.width = w; c.height = h; draw(c.getContext('2d'), w, h); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 8; return t; }
+// ---------- objetos ----------
+const OBJ = {
+  aviao() { const g = new THREE.Group(); const b = P('#f4f5f8'), az = P('#1d3a8a'), ci = P('#9aa3b5', { metalness: .6, roughness: .3 });
+    const f = add(new THREE.CapsuleGeometry(.42, 3.4, 12, 32), b, g, 0, 1.2, 0); f.rotation.x = Math.PI / 2;
+    const asa = add(rbox(4.6, .9, .1, .05), b, g, 0, 1.05, .2); asa.rotation.x = Math.PI / 2; const est = add(rbox(1.7, .5, .08, .04), b, g, 0, 1.3, -1.9); est.rotation.x = Math.PI / 2;
+    add(rbox(.1, 1.0, .8, .05), az, g, 0, 1.85, -1.9); for (const s of [-1, 1]) { const m = add(new THREE.CylinderGeometry(.24, .24, .8, 24), ci, g, s * 1.25, .85, .45); m.rotation.x = Math.PI / 2; }
+    for (let i = 0; i < 7; i++) for (const s of [-1, 1]) add(new THREE.SphereGeometry(.05, 8, 8), P('#203050'), g, s * .4, 1.33, 1.2 - i * .32);
+    add(new THREE.CylinderGeometry(.04, .04, .45, 8), P('#333'), g, 0, .45, 1.3); g.rotation.set(-.12, -.75, .12); g.position.y = .3; return g; },
+  chip() { const g = new THREE.Group(); const corpo = add(rbox(3.4, 1.6, .5, .12), P('#1c1d22', { metalness: .4 }), g, 0, 1.2, 0);
+    const tamp = add(rbox(3.0, 1.25, .1, .08), P('#c9ccd4', { metalness: .9, roughness: .25 }), g, 0, 1.2, .3);
+    for (const x of [-.8, .8]) { const v = add(new THREE.CylinderGeometry(.5, .5, .08, 40), P('#2b2d33', { metalness: .3 }), g, x, 1.2, .38); v.rotation.x = Math.PI / 2; for (let k = 0; k < 7; k++) { const p = add(new THREE.BoxGeometry(.06, .42, .03), P('#4a4d55'), g, x, 1.2, .43); p.rotation.z = k * Math.PI / 7; } }
+    add(new THREE.BoxGeometry(2.2, .14, .06), P('#d4a017', { metalness: .9, roughness: .2 }), g, -.4, .35, 0); add(rbox(3.4, .2, .5, .06), P('#76b900', { emissive: '#76b900', emissiveIntensity: .25 }), g, 0, 2.05, 0);
+    g.rotation.set(-.35, -.55, 0); g.position.y = .2; return g; },
+  controle() { const g = new THREE.Group(); const m = P('#f2f3f6'); add(rbox(2.6, 1.2, .5, .45), m, g, 0, 1.2, 0); for (const s of [-1, 1]) { const a = add(new THREE.CapsuleGeometry(.42, .7, 8, 24), m, g, s * 1.05, .85, 0); a.rotation.z = s * .5; }
+    const pr = P('#22252c'); add(rbox(.62, .18, .12, .04), pr, g, -.72, 1.35, .36); add(rbox(.18, .62, .12, .04), pr, g, -.72, 1.35, .36);
+    [['#2bb673', 0, .22], ['#e74c3c', .22, 0], ['#3b82f6', -.22, 0], ['#f5c518', 0, -.22]].forEach(([c, x, y]) => add(new THREE.SphereGeometry(.1, 20, 20), P(c), g, .72 + x, 1.35 + y, .38));
+    for (const x of [-.32, .32]) add(new THREE.CylinderGeometry(.2, .2, .2, 24), pr, g, x, 1.0, .36).rotation.x = Math.PI / 2;
+    g.rotation.set(-.55, -.3, .08); g.position.y = .4; return g; },
+  mascote() { const g = new THREE.Group(); const c = P('#d9774a', { clearcoat: .2 }); add(rbox(1.9, 1.25, 1.0, .12), c, g, 0, 1.3, 0); for (const s of [-1, 1]) add(rbox(.38, .38, .4, .08), c, g, s * 1.15, 1.25, 0);
+    for (const s of [-1, 1]) add(rbox(.13, .36, .06, .05), P('#111'), g, s * .35, 1.42, .53); for (let i = 0; i < 4; i++) add(rbox(.2, .5, .2, .05), c, g, -.66 + i * .44, .38, 0); g.rotation.y = -.35; return g; },
+};
+let ATUAL = null;
+function mostra(nome) { if (ATUAL) S.remove(ATUAL); ATUAL = OBJ[nome](); S.add(ATUAL); ATUAL.traverse(o => { if (o.isMesh) o.castShadow = true; });
+  const bb = new THREE.Box3().setFromObject(ATUAL), c = bb.getCenter(new THREE.Vector3()), sz = bb.getSize(new THREE.Vector3()).length();
+  const dist = sz * 3.8; cam.position.set(c.x, c.y + dist * .3, c.z + dist); cam.lookAt(c); cam.setViewOffset(1080, 1920, 0, 40, 1080, 1920); // objeto no centro (~y 900), ~60% da largura
+  R.render(S, cam); }
+// ---------- camada 2D ----------
+const B = document.getElementById('bg').getContext('2d'), X = document.getElementById('u').getContext('2d');
+const fnt = (s, f = 'AB') => `${f === 'IN' ? 500 : 400} ${s}px ${f}`;
+function fit(txt, f, mx, fam = 'AB') { while (f > 20) { X.font = fnt(f, fam); if (X.measureText(txt).width <= mx) break; f -= 2; } return f; }
+function linhas(txt, f, mx) { // quebra em até 2 linhas equilibradas
+  X.font = fnt(f); if (X.measureText(txt).width <= mx) return [txt]; const w = txt.split(' '); let best = [txt], bd = 1e9;
+  for (let i = 1; i < w.length; i++) { const a = w.slice(0, i).join(' '), b = w.slice(i).join(' '); const d = Math.abs(X.measureText(a).width - X.measureText(b).width); if (d < bd) { bd = d; best = [a, b]; } } return best; }
+function texto(txt, x, y, f, cor, track = -.02) { X.save(); X.font = fnt(f); X.textAlign = 'center'; X.textBaseline = 'alphabetic'; X.letterSpacing = `${track * f}px`; X.shadowColor = 'rgba(0,0,0,.28)'; X.shadowBlur = f * .18; X.shadowOffsetY = f * .06; X.fillStyle = cor; X.fillText(txt, x, y); X.restore(); }
+function pill(txt, cx, cy, rot = -.06) { X.save(); X.translate(cx, cy); X.rotate(rot); X.font = fnt(40); const w = X.measureText(txt).width + 56, h = 70; X.shadowColor = 'rgba(0,0,0,.3)'; X.shadowBlur = 18; X.shadowOffsetY = 6;
+  X.fillStyle = '#ffc93c'; X.beginPath(); X.roundRect(-w / 2, -h / 2, w, h, 35); X.fill(); X.shadowColor = 'transparent'; X.fillStyle = '#2a1a00'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(txt, 0, 3); X.restore(); }
+function marca(y) { const txt1 = 'IA em 60s', txt2 = '@iaem60s'; X.font = fnt(30, 'IN'); const w1 = X.measureText(txt1).width, w2 = X.measureText(txt2).width; const w = 70 + w1 + 50 + w2 + 40, x = 540 - w / 2, h = 64;
+  X.fillStyle = 'rgba(10,10,20,.62)'; X.beginPath(); X.roundRect(x, y, w, h, 32); X.fill(); X.fillStyle = '#d9774a'; X.beginPath(); X.roundRect(x + 18, y + 14, 36, 36, 9); X.fill(); X.fillStyle = '#111'; X.fillRect(x + 28, y + 24, 5, 12); X.fillRect(x + 39, y + 24, 5, 12);
+  X.fillStyle = '#fff'; X.textBaseline = 'middle'; X.textAlign = 'left'; X.fillText(txt1, x + 70, y + h / 2 + 1); X.fillStyle = 'rgba(255,255,255,.35)'; X.fillRect(x + 70 + w1 + 24, y + 18, 2, 28); X.fillStyle = 'rgba(255,255,255,.85)'; X.fillText(txt2, x + 70 + w1 + 50, y + h / 2 + 1); }
+window.capa = ({ cor = 'azul', titulo, etiqueta, objeto = 'mascote', sub }) => {
+  const [c1, c2] = CORES[cor] || CORES.azul; const gr = B.createRadialGradient(540, 820, 80, 540, 900, 1250); gr.addColorStop(0, c1); gr.addColorStop(1, c2); B.fillStyle = gr; B.fillRect(0, 0, 1080, 1920);
+  mostra(objeto); X.clearRect(0, 0, 1080, 1920);
+  const ft = linhas(titulo, 132, 960), f1 = Math.min(...ft.map(l => fit(l, 132, 960))); ft.forEach((l, i) => texto(l, 540, 430 + i * f1 * .98 - (ft.length - 1) * f1 * .2, f1, '#ffffff'));
+  if (etiqueta) pill(etiqueta, 330, 680);
+  const ls = fit(sub, 96, 940) >= 72 ? [sub] : linhas(sub, 96, 900), f2 = Math.min(...ls.map(l => fit(l, 96, 900))); const g = X.createLinearGradient(0, 1180, 0, 1400); g.addColorStop(0, '#ffe066'); g.addColorStop(1, '#ffb21e');
+  ls.forEach((l, i) => texto(l, 540, 1330 + i * f2 * .98 - (ls.length - 1) * f2 * .5, f2, g));
+  marca(1470); };
+window.pronto = true;
+</script></body></html>

@@ -248,3 +248,12 @@ Números = curtidas · comentários · reposts · envios · salvamentos, vistos 
 - **Virality Predictor do Higgsfield** (Ref. 12): dá nota a clipes de até 15 s (gancho, retenção, mapa de atenção), pela web, pela linha de comando e por MCP. Diziam que estava grátis em prévia. **Pede conta nova** no Higgsfield, então só com o OK do Vitor. Daria para medir o gancho dos nossos Reels antes de mandar para aprovação.
 - **Agent Teams do Claude Code** (Ref. 11): vários Claudes trabalhando juntos (variável `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1`). **Não adotado agora**: cada colega é uma sessão inteira e gasta muito mais token, e o limite semanal já está no aviso. Já fazemos o mesmo com sessões separadas (produção, produto, painel).
 - **"Prompt da banca"** (Ref. 10) e **fluxo do agente da clínica** (Ref. 9): o material é distribuído por DM e não é público. A ideia da banca já existe aqui (painel de revisão com 4 revisores); o agente da clínica vira pauta (a).
+
+## Referência 15 (14/11): @clubedasskills, grade de Reels (prints enviados pelo Vitor: "quero mais organizado, clean, menos infantil")
+O que faz a grade deles parecer profissional (e a nossa, infantil):
+- **Um sistema, não um enfeite por post:** todas as capas têm o mesmo esqueleto. Título branco no topo (1 a 3 palavras, letra pesada, espaçamento apertado), etiqueta amarela pequena encostada no objeto ("COFRE", "MCP", "FABLE"), **um** objeto 3D de estúdio no centro (cofre, placa de vídeo, gráfico de barras, personagens), subtítulo amarelo-dourado embaixo ("NA SUA CONTA", "CUSTA O DOBRO") e barra escura da marca no rodapé (logo + site).
+- **Fundo de uma cor só, saturada** (vermelho, azul, roxo, verde, magenta), com leve degradê radial; a cor muda de post para post e a grade ganha ritmo. Nada de cenário, céu, cidade ou textura atrás do texto.
+- **Sem contorno, sem neon, sem emoji, sem várias pílulas:** só 2 cores de texto (branco e dourado) e sombra suave. Muito respiro e margens largas; tudo centralizado.
+- **Número no título** sempre que existe ("3 MCPs", "10 ESTILOS", "6 DIAS", "US$ 100").
+- Eles cobrem os mesmos assuntos que nós (Fable 5.2 custa o dobro, clipar o GTA 6) com 10 a 25 mil views: o que muda é a embalagem.
+Adaptado (sem copiar marca nem personagens deles): `painel/capa_clean/` (modelo de capa "clean"; exemplos em `painel/capa_clean/exemplos.jpg`).
