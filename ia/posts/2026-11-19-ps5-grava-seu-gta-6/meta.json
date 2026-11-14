@@ -26,8 +26,10 @@
  "prova_viral": "GTA 6 sai em 19/11/2026 (Rockstar Newswire); Sony e Microsoft dizem que é o jogo mais pré-vendido das suas lojas. Estrelas no GitHub (API, 13/11/2026): auto-editor 5.870, ViralCutter 450, autoclip 284; total 6.604. PS5 guarda até 60 min de jogo recente e salva em 15 s a 60 min (TweakTown, Digital Trends).",
  "cta": "GTA",
  "polemica": false,
- "status": "descartado",
+ "status": "roteiro aprovado",
  "pedido": "Vitor, 13/11: foco em GTA 6 (como clipar as novidades do jogo)",
  "status_antes_filtro": "roteiro aguardando aprovação",
- "nota_filtro": "chance 48%, abaixo do corte"
+ "nota_filtro": "chance 48%, abaixo do corte",
+ "status_antes_excecao": "descartado",
+ "excecao_corte": "Vitor 13/11 (por voz): \"esses dois roteiros aí, da NVIDIA do GTA, eu vou passar eles como exceção. Pode mandar produzir.\""
 }
