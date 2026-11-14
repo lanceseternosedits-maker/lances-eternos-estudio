@@ -2557,6 +2557,42 @@
    "texto": "9-dias-pro-gta-6",
    "pasta": "2026-11-10-9-dias-pro-gta-6",
    "lido_em": "2026-11-11 23:36"
+  },
+  {
+   "data": "2026-11-14 00:10",
+   "rede": "instagram",
+   "status": "PUBLISHED",
+   "url": "https://www.instagram.com/reel/DftNW0oiVtU/",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Comenta VOO que eu te mando a linha do tempo com as fontes ✈️",
+   "erro": "",
+   "lido_em": "2026-11-14 02:50",
+   "pasta": "2026-11-13-eua-pararam-os-voos"
+  },
+  {
+   "data": "2026-11-14 03:05",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "VIDEO",
+   "rascunho": false,
+   "texto": "Os EUA pararam todos os voos por mais de 4 horas",
+   "erro": "",
+   "lido_em": "2026-11-14 02:50",
+   "pasta": "2026-11-13-eua-pararam-os-voos"
+  },
+  {
+   "data": "2026-11-14 03:05",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "STORY",
+   "rascunho": false,
+   "texto": "",
+   "erro": "",
+   "lido_em": "2026-11-14 02:50",
+   "pasta": "2026-11-13-eua-pararam-os-voos"
   }
  ]
 }

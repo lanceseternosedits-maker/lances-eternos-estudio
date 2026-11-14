@@ -197,7 +197,7 @@ Dica: se ela enrolar de novo, responda só "mais curto".
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
-## VOO · 13/11 23:30
+## VOO · 14/11 00:10
 Post: `2026-11-13-eua-pararam-os-voos`
 
 ```
