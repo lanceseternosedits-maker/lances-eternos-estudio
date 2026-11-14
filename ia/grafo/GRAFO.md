@@ -1,117 +1,122 @@
 # Grafo de conteúdo do IA em 60s
-Gerado em 2026-11-07 17:52 · 122 posts · 757 nós · 1409 ligações
+Gerado em 2026-11-14 16:17 · 176 posts · 1084 nós · 2054 ligações
 
 ## Use antes de criar
 
-- **Temas saturados (3+ posts em 7 dias, evite):** nenhum
+- **Temas saturados (3+ posts em 7 dias, evite):** jogos, PC, história, GTA 6, celular, IA, projetos
 - **Empresas saturadas (3+ posts em 7 dias, evite):** nenhuma
 - **Pilares sem post nos últimos 7 dias (prioridade):** novidade, tutorial, recomendacao, em_alta
-- **Posts por pilar (7 dias):** reel 39
+- **Posts por pilar (7 dias):** reel 59, notícia 2, lista 1
 
 ## O que vem funcionando
 
 ### Pilar
 | Pilar | posts | engajamento médio |
 |---|---|---|
-| lista | 6 | 44 |
-| reel | 92 | sem dado |
-| novidade | 9 | sem dado |
-| tutorial | 8 | sem dado |
-| em_alta | 4 | 0 |
+| lista | 7 | 284 |
+| tutorial | 8 | 98 |
+| em_alta | 4 | 94 |
+| reel | 142 | 61 |
+| notícia | 2 | 8 |
+| novidade | 9 | 3 |
 | recomendacao | 3 | sem dado |
+| carrossel | 1 | sem dado |
 
 ### Tema
 | Tema | posts | engajamento médio |
 |---|---|---|
-| GitHub em alta | 5 | 82 |
-| skills do Claude Code | 3 | 41 |
-| games | 1 | 7 |
-| Nintendo Switch | 1 | 7 |
-| polêmica legal | 1 | 7 |
-| agentes de IA | 7 | sem dado |
-| produtividade | 4 | sem dado |
-| segurança | 3 | sem dado |
+| edição de vídeo | 2 | 434 |
+| TV Android | 1 | 415 |
+| estilos de animação | 1 | 359 |
+| prompts para o Claude | 1 | 359 |
+| animação 3D no claude.ai | 1 | 359 |
+| skills do Claude Code | 3 | 335 |
+| GitHub em alta | 5 | 333 |
+| estudio-de-voz-gratis | 1 | 306 |
 
 ### Empresa
 | Empresa | posts | engajamento médio |
 |---|---|---|
-| Anthropic (Claude) | 2 | 82 |
-| Anthropic | 11 | 0 |
-| OpenAI | 5 | sem dado |
-| Google | 3 | sem dado |
+| Anthropic (Claude) | 2 | 418 |
+| Rockstar Games | 1 | 77 |
+| Take-Two | 1 | 77 |
+| Anthropic | 12 | 50 |
+| Canva | 1 | 23 |
+| OpenAI | 5 | 3 |
+| Google | 3 | 3 |
 | GitHub | 3 | sem dado |
-| 1Password | 2 | sem dado |
-| Microsoft | 2 | sem dado |
-| DeepSeek | 2 | sem dado |
 
 ### Paleta
 | Paleta | posts | engajamento médio |
 |---|---|---|
-| paleta None | 97 | 44 |
-| paleta 1 | 9 | sem dado |
-| paleta 2 | 5 | sem dado |
+| paleta vermelho NO AR + madeira + verde-válvula | 1 | 306 |
+| paleta azul-klein + laranja + branco-papel | 1 | 149 |
+| paleta 0 | 1 | 94 |
+| paleta None | 151 | 92 |
+| paleta 2 | 5 | 23 |
+| paleta 1 | 9 | 5 |
+| paleta 3 | 4 | 3 |
 | paleta 4 | 4 | sem dado |
-| paleta 3 | 4 | sem dado |
-| paleta 0 | 1 | 0 |
-| paleta vermelho NO AR + madeira + verde-válvula | 1 | sem dado |
-| paleta azul-klein + laranja + branco-papel | 1 | sem dado |
 
 ### Horário
 | Horário | posts | engajamento médio |
 |---|---|---|
-| 05h | 2 | 82 |
-| 06h | 2 | 7 |
-| 20h | 93 | sem dado |
-| 19h | 6 | 0 |
-| 17h | 4 | sem dado |
-| 18h | 3 | sem dado |
-| 12h | 3 | 0 |
-| 07h | 3 | sem dado |
+| 07h | 3 | 347 |
+| 05h | 2 | 250 |
+| 06h | 2 | 228 |
+| 08h | 2 | 219 |
+| 19h | 6 | 94 |
+| 12h | 3 | 94 |
+| 20h | 136 | 59 |
+| 04h | 1 | 23 |
 
 ### Rede
 | Rede | posts | engajamento médio |
 |---|---|---|
-| instagram | 122 | 30 |
-| tiktok | 120 | 30 |
-| youtube | 15 | sem dado |
-| instagram_reel | 1 | sem dado |
+| tiktok | 162 | 92 |
+| instagram | 165 | 91 |
+| story | 2 | 58 |
+| instagram_reel | 1 | 23 |
+| youtube | 15 | 3 |
 
 ### Formato
 | Formato | posts | engajamento médio |
 |---|---|---|
-| reel formato 3 (contagem regressiva com mistério) | 6 | 44 |
-| palco | 66 | sem dado |
-| contagem | 26 | sem dado |
-| lista | 10 | sem dado |
-| noticia | 5 | sem dado |
-| tutorial | 3 | sem dado |
-| reel | 2 | sem dado |
-| reel animado | 1 | sem dado |
+| reel lista + demonstração (formato 2) | 1 | 359 |
+| reel formato 3 (contagem regressiva com mistério) | 7 | 284 |
+| formato 4 longo (cadeia inteira), cena_app (motion graphics neon) | 1 | 109 |
+| reel animado 3D | 1 | 94 |
+| contagem | 35 | 94 |
+| cidade neon | 1 | 77 |
+| palco | 75 | 27 |
+| carrossel + reel 3D | 1 | 23 |
 
 ### Melhores posts
 
-- 2026-11-07-5-skills (lista): 82
-- 2026-11-08-nintendo (lista): 7
-- 2026-11-04-desenho-animado (em_alta): 0
+- 2026-11-07-5-skills (lista): 476
+- 2026-11-07-editar-video (lista): 434
+- 2026-11-06-tv-celular (lista): 415
+- 2026-11-05-10-estilos (tutorial): 359
+- 2026-11-08-estudio-de-voz-gratis (reel): 306
 
 ## Cobertura geral
 
 | Tema | posts |
 |---|---|
+| jogos | 9 |
 | agentes de IA | 7 |
+| produtividade | 6 |
+| PC | 6 |
 | GitHub em alta | 5 |
-| produtividade | 4 |
+| história | 5 |
+| GTA 6 | 5 |
+| celular | 4 |
+| IA | 4 |
 | skills do Claude Code | 3 |
-| segurança | 3 |
-| programação | 3 |
-| segurança de IA | 3 |
 | privacidade | 3 |
-| IPO | 2 |
-| GitHub | 2 |
-| IA local | 2 |
-| IA no celular | 2 |
-| edição de vídeo | 2 |
-| games | 1 |
-| Nintendo Switch | 1 |
+| programação | 3 |
+| segurança | 3 |
+| segurança de IA | 3 |
+| projetos | 3 |
 
 Engajamento = salvamentos×3 + compartilhamentos×3 + comentários×2 + curtidas, somado nas redes.

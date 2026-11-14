@@ -673,7 +673,7 @@
    "tipo": "post",
    "label": "gemini-carbon",
    "data": "2026-11-02",
-   "score": null
+   "score": 3.0
   },
   {
    "id": "cta:CARBON",
@@ -715,7 +715,7 @@
    "tipo": "post",
    "label": "reel-skills",
    "data": "2026-11-02",
-   "score": null
+   "score": 7.0
   },
   {
    "id": "formato:reel animado",
@@ -742,7 +742,7 @@
    "tipo": "post",
    "label": "trend-esculacho",
    "data": "2026-11-02",
-   "score": null
+   "score": 3.0
   },
   {
    "id": "cta:ZOEIRA",
@@ -935,7 +935,7 @@
    "tipo": "post",
    "label": "canva-craft",
    "data": "2026-11-04",
-   "score": null
+   "score": 23.0
   },
   {
    "id": "formato:carrossel + reel 3D",
@@ -1012,7 +1012,7 @@
    "tipo": "post",
    "label": "desenho-animado",
    "data": "2026-11-04",
-   "score": 0.0
+   "score": 94.0
   },
   {
    "id": "formato:reel animado 3D",
@@ -1141,7 +1141,7 @@
    "tipo": "post",
    "label": "10-estilos",
    "data": "2026-11-08",
-   "score": null
+   "score": 359.0
   },
   {
    "id": "formato:reel lista + demonstração (formato 2)",
@@ -1193,7 +1193,7 @@
    "tipo": "post",
    "label": "tv-celular",
    "data": "2026-11-06",
-   "score": null
+   "score": 415.0
   },
   {
    "id": "pilar:lista",
@@ -1255,7 +1255,7 @@
    "tipo": "post",
    "label": "5-skills",
    "data": "2026-11-05",
-   "score": 82.0
+   "score": 476.0
   },
   {
    "id": "cta:SKILLS",
@@ -1292,7 +1292,7 @@
    "tipo": "post",
    "label": "deep-blue-kasparov",
    "data": "2026-11-07",
-   "score": null
+   "score": 78.0
   },
   {
    "id": "pilar:reel",
@@ -1329,7 +1329,7 @@
    "tipo": "post",
    "label": "editar-video",
    "data": "2026-11-07",
-   "score": null
+   "score": 434.0
   },
   {
    "id": "cta:EDITA",
@@ -1393,7 +1393,7 @@
    "tipo": "post",
    "label": "programas-pc",
    "data": "2026-11-07",
-   "score": null
+   "score": 260.0
   },
   {
    "id": "cta:PC",
@@ -1435,7 +1435,7 @@
    "tipo": "post",
    "label": "advogado-chatgpt",
    "data": "2026-11-08",
-   "score": null
+   "score": 62.0
   },
   {
    "id": "cta:FONTE",
@@ -1484,7 +1484,7 @@
    "tipo": "post",
    "label": "apps-pra-quem-vive-no-chat",
    "data": "2026-11-09",
-   "score": null
+   "score": 41.0
   },
   {
    "id": "formato:contagem",
@@ -1553,7 +1553,7 @@
    "tipo": "post",
    "label": "captura-de-qualquer-bicho",
    "data": "2026-11-08",
-   "score": null
+   "score": 91.0
   },
   {
    "id": "cta:BICHO",
@@ -1575,7 +1575,7 @@
    "tipo": "post",
    "label": "console-no-celular",
    "data": "2026-11-07",
-   "score": null
+   "score": 186.0
   },
   {
    "id": "cta:MOBILE",
@@ -1617,7 +1617,7 @@
    "tipo": "post",
    "label": "crie-seu-app-de-mac",
    "data": "2026-11-10",
-   "score": null
+   "score": 40.0
   },
   {
    "id": "cta:APP",
@@ -1638,8 +1638,8 @@
    "id": "2026-11-08-estudar-ia",
    "tipo": "post",
    "label": "estudar-ia",
-   "data": "2026-11-08",
-   "score": null
+   "data": "2026-11-09",
+   "score": 79.0
   },
   {
    "id": "cta:ESTUDA",
@@ -1686,7 +1686,7 @@
    "tipo": "post",
    "label": "estudio-de-voz-gratis",
    "data": "2026-11-08",
-   "score": null
+   "score": 306.0
   },
   {
    "id": "paleta:paleta vermelho NO AR + madeira + verde-válvula",
@@ -1745,7 +1745,7 @@
    "tipo": "post",
    "label": "ia-gigante-no-pc",
    "data": "2026-11-09",
-   "score": null
+   "score": 25.0
   },
   {
    "id": "cta:LOCAL",
@@ -1795,11 +1795,58 @@
    "label": "https://github.com/smithjohn78390/tongjiang-lab"
   },
   {
+   "id": "2026-11-08-lancamento-super-assistente",
+   "tipo": "post",
+   "label": "lancamento-super-assistente",
+   "data": "2026-11-08",
+   "score": null
+  },
+  {
+   "id": "pilar:carrossel",
+   "tipo": "pilar",
+   "label": "carrossel"
+  },
+  {
+   "id": "formato:carrossel de lançamento",
+   "tipo": "formato",
+   "label": "carrossel de lançamento"
+  },
+  {
+   "id": "cta:KIT",
+   "tipo": "cta",
+   "label": "KIT"
+  },
+  {
+   "id": "tema:lancamento-super-assistente",
+   "tipo": "tema",
+   "label": "lancamento-super-assistente"
+  },
+  {
+   "id": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "tipo": "fonte",
+   "label": "https://www.science.org/doi/10.1126/science.adh2586"
+  },
+  {
+   "id": "fonte:https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+   "tipo": "fonte",
+   "label": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700"
+  },
+  {
+   "id": "fonte:https://www.nber.org/papers/w31161",
+   "tipo": "fonte",
+   "label": "https://www.nber.org/papers/w31161"
+  },
+  {
+   "id": "fonte:https://arxiv.org/abs/2205.11916",
+   "tipo": "fonte",
+   "label": "https://arxiv.org/abs/2205.11916"
+  },
+  {
    "id": "2026-11-08-nintendo",
    "tipo": "post",
    "label": "nintendo",
    "data": "2026-11-06",
-   "score": 7.0
+   "score": 41.0
   },
   {
    "id": "cta:JOGO",
@@ -1851,7 +1898,7 @@
    "tipo": "post",
    "label": "skills-chinesas-agencia",
    "data": "2026-11-09",
-   "score": null
+   "score": 13.0
   },
   {
    "id": "cta:AGENCIA",
@@ -1883,7 +1930,7 @@
    "tipo": "post",
    "label": "skills-de-design",
    "data": "2026-11-08",
-   "score": null
+   "score": 149.0
   },
   {
    "id": "paleta:paleta azul-klein + laranja + branco-papel",
@@ -1920,7 +1967,7 @@
    "tipo": "post",
    "label": "tay-microsoft",
    "data": "2026-11-08",
-   "score": null
+   "score": 26.0
   },
   {
    "id": "cta:TAY",
@@ -1969,7 +2016,7 @@
    "tipo": "post",
    "label": "video-do-zero",
    "data": "2026-11-09",
-   "score": null
+   "score": 50.0
   },
   {
    "id": "cta:VIDEO",
@@ -2001,7 +2048,7 @@
    "tipo": "post",
    "label": "windows-gratis",
    "data": "2026-11-07",
-   "score": null
+   "score": 210.0
   },
   {
    "id": "cta:WINDOWS",
@@ -2032,8 +2079,8 @@
    "id": "2026-11-09-a-pergunta-de-turing",
    "tipo": "post",
    "label": "a-pergunta-de-turing",
-   "data": "2026-11-09",
-   "score": null
+   "data": "2026-11-11",
+   "score": 8.0
   },
   {
    "id": "cta:TURING",
@@ -2060,7 +2107,7 @@
    "tipo": "post",
    "label": "apps-gratis-mac",
    "data": "2026-11-11",
-   "score": null
+   "score": 12.0
   },
   {
    "id": "cta:MAC",
@@ -2092,7 +2139,7 @@
    "tipo": "post",
    "label": "bing-mandou-largar-a-esposa",
    "data": "2026-11-09",
-   "score": null
+   "score": 6.0
   },
   {
    "id": "cta:SYDNEY",
@@ -2119,7 +2166,7 @@
    "tipo": "post",
    "label": "bizarros-github",
    "data": "2026-11-11",
-   "score": null
+   "score": 11.0
   },
   {
    "id": "cta:BIZARRO",
@@ -2189,11 +2236,53 @@
    "label": "https://decrypt.co/382574/chatgpt-gif-maker-openai-unannounced-images-2-6-model"
   },
   {
+   "id": "2026-11-09-em-qual-nivel-de-ia",
+   "tipo": "post",
+   "label": "em-qual-nivel-de-ia",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "formato:cidade (Referência 7)",
+   "tipo": "formato",
+   "label": "cidade (Referência 7)"
+  },
+  {
+   "id": "cta:NIVEL",
+   "tipo": "cta",
+   "label": "NIVEL"
+  },
+  {
+   "id": "tema:em-qual-nivel-de-ia",
+   "tipo": "tema",
+   "label": "em-qual-nivel-de-ia"
+  },
+  {
+   "id": "fonte:https://help.openai.com/en/articles/8096356-custom-instructions-for-chatgpt",
+   "tipo": "fonte",
+   "label": "https://help.openai.com/en/articles/8096356-custom-instructions-for-chatgpt"
+  },
+  {
+   "id": "fonte:https://help.openai.com/en/articles/10291617-tasks-in-chatgpt",
+   "tipo": "fonte",
+   "label": "https://help.openai.com/en/articles/10291617-tasks-in-chatgpt"
+  },
+  {
+   "id": "fonte:https://openai.com/index/introducing-chatgpt-agent/",
+   "tipo": "fonte",
+   "label": "https://openai.com/index/introducing-chatgpt-agent/"
+  },
+  {
+   "id": "fonte:https://support.claude.com/en/articles/9517075-what-are-projects",
+   "tipo": "fonte",
+   "label": "https://support.claude.com/en/articles/9517075-what-are-projects"
+  },
+  {
    "id": "2026-11-09-ia-chinesa-no-bolso",
    "tipo": "post",
    "label": "ia-chinesa-no-bolso",
    "data": "2026-11-11",
-   "score": null
+   "score": 23.0
   },
   {
    "id": "cta:CHINA",
@@ -2215,7 +2304,7 @@
    "tipo": "post",
    "label": "ia-esquece-a-conversa",
    "data": "2026-11-09",
-   "score": null
+   "score": 5.0
   },
   {
    "id": "cta:RESUMO",
@@ -2238,11 +2327,48 @@
    "label": "https://docs.claude.com/en/docs/build-with-claude/context-windows"
   },
   {
+   "id": "2026-11-09-ia-ja-morreu-duas-vezes",
+   "tipo": "post",
+   "label": "ia-ja-morreu-duas-vezes",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "cta:INVERNO",
+   "tipo": "cta",
+   "label": "INVERNO"
+  },
+  {
+   "id": "tema:ia-ja-morreu-duas-vezes",
+   "tipo": "tema",
+   "label": "ia-ja-morreu-duas-vezes"
+  },
+  {
+   "id": "fonte:http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf",
+   "tipo": "fonte",
+   "label": "http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf"
+  },
+  {
+   "id": "fonte:http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/contents.htm",
+   "tipo": "fonte",
+   "label": "http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/contents.htm"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/AI_winter",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/AI_winter"
+  },
+  {
+   "id": "fonte:https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+   "tipo": "fonte",
+   "label": "https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html"
+  },
+  {
    "id": "2026-11-09-internet-somada",
    "tipo": "post",
    "label": "internet-somada",
    "data": "2026-11-10",
-   "score": null
+   "score": 3.0
   },
   {
    "id": "cta:INTERNET",
@@ -2264,7 +2390,7 @@
    "tipo": "post",
    "label": "leis-do-brasil",
    "data": "2026-11-10",
-   "score": null
+   "score": 82.0
   },
   {
    "id": "cta:LEIS",
@@ -2286,7 +2412,7 @@
    "tipo": "post",
    "label": "manda-print",
    "data": "2026-11-09",
-   "score": null
+   "score": 10.0
   },
   {
    "id": "cta:PRINT",
@@ -2309,11 +2435,43 @@
    "label": "https://platform.openai.com/docs/guides/images-vision"
   },
   {
+   "id": "2026-11-09-obrigado-custa-milhoes",
+   "tipo": "post",
+   "label": "obrigado-custa-milhoes",
+   "data": "2026-11-09",
+   "score": null
+  },
+  {
+   "id": "cta:OBRIGADO",
+   "tipo": "cta",
+   "label": "OBRIGADO"
+  },
+  {
+   "id": "tema:obrigado-custa-milhoes",
+   "tipo": "tema",
+   "label": "obrigado-custa-milhoes"
+  },
+  {
+   "id": "fonte:https://www.techradar.com/computing/artificial-intelligence/chatgpt-spends-tens-of-millions-of-dollars-on-people-saying-please-and-thank-you-but-sam-altman-says-its-worth-it",
+   "tipo": "fonte",
+   "label": "https://www.techradar.com/computing/artificial-intelligence/chatgpt-spends-tens-of-millions-of-dollars-on-people-saying-please-and-thank-you-but-sam-altman-says-its-worth-it"
+  },
+  {
+   "id": "fonte:https://www.entrepreneur.com/business-news/sam-altman-saying-please-and-thank-you-to-chatgpt-costs/490341",
+   "tipo": "fonte",
+   "label": "https://www.entrepreneur.com/business-news/sam-altman-saying-please-and-thank-you-to-chatgpt-costs/490341"
+  },
+  {
+   "id": "fonte:https://blog.samaltman.com/the-gentle-singularity",
+   "tipo": "fonte",
+   "label": "https://blog.samaltman.com/the-gentle-singularity"
+  },
+  {
    "id": "2026-11-09-playstation-no-pc",
    "tipo": "post",
    "label": "playstation-no-pc",
    "data": "2026-11-11",
-   "score": null
+   "score": 83.0
   },
   {
    "id": "cta:PLAY",
@@ -2355,7 +2513,7 @@
    "tipo": "post",
    "label": "programas-caros-gratis",
    "data": "2026-11-10",
-   "score": null
+   "score": 20.0
   },
   {
    "id": "tema:programas-caros-gratis",
@@ -2388,11 +2546,63 @@
    "label": "https://github.com/storytold/wordcraft"
   },
   {
+   "id": "2026-11-10-9-dias-pro-gta-6",
+   "tipo": "post",
+   "label": "9-dias-pro-gta-6",
+   "data": "2026-11-10",
+   "score": 77.0
+  },
+  {
+   "id": "formato:cidade neon",
+   "tipo": "formato",
+   "label": "cidade neon"
+  },
+  {
+   "id": "cta:CORTES",
+   "tipo": "cta",
+   "label": "CORTES"
+  },
+  {
+   "id": "tema:gta-6",
+   "tipo": "tema",
+   "label": "gta-6"
+  },
+  {
+   "id": "tema:cortes-de-live",
+   "tipo": "tema",
+   "label": "cortes-de-live"
+  },
+  {
+   "id": "empresa:Rockstar Games",
+   "tipo": "empresa",
+   "label": "Rockstar Games"
+  },
+  {
+   "id": "empresa:Take-Two",
+   "tipo": "empresa",
+   "label": "Take-Two"
+  },
+  {
+   "id": "fonte:Rockstar Games (06/11/2025): GTA 6 em 19/11/2026",
+   "tipo": "fonte",
+   "label": "Rockstar Games (06/11/2025): GTA 6 em 19/11/2026"
+  },
+  {
+   "id": "fonte:Guinness World Records: 90.421.491 views em 24 h",
+   "tipo": "fonte",
+   "label": "Guinness World Records: 90.421.491 views em 24 h"
+  },
+  {
+   "id": "fonte:Take-Two (ago/2026): GTA V passou de 230 milhões",
+   "tipo": "fonte",
+   "label": "Take-Two (ago/2026): GTA V passou de 230 milhões"
+  },
+  {
    "id": "2026-11-10-a-ia-ganhou-nome",
    "tipo": "post",
    "label": "a-ia-ganhou-nome",
    "data": "2026-11-10",
-   "score": null
+   "score": 4.0
   },
   {
    "id": "cta:VERAO",
@@ -2451,7 +2661,7 @@
    "tipo": "post",
    "label": "apple-nao-queria",
    "data": "2026-11-12",
-   "score": null
+   "score": 197.0
   },
   {
    "id": "cta:APPLE",
@@ -2511,11 +2721,55 @@
    "label": "https://github.com/QAQLeonard/a7c2-tools"
   },
   {
+   "id": "2026-11-10-equipe-de-ia",
+   "tipo": "post",
+   "label": "equipe-de-ia",
+   "data": "2026-11-10",
+   "score": null
+  },
+  {
+   "id": "cta:EQUIPE",
+   "tipo": "cta",
+   "label": "EQUIPE"
+  },
+  {
+   "id": "tema:equipe-de-ia",
+   "tipo": "tema",
+   "label": "equipe-de-ia"
+  },
+  {
+   "id": "fonte:https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions",
+   "tipo": "fonte",
+   "label": "https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions"
+  },
+  {
+   "id": "fonte:https://support.google.com/gemini/answer/15146780",
+   "tipo": "fonte",
+   "label": "https://support.google.com/gemini/answer/15146780"
+  },
+  {
+   "id": "2026-11-10-ia-configurada",
+   "tipo": "post",
+   "label": "ia-configurada",
+   "data": "2026-11-11",
+   "score": null
+  },
+  {
+   "id": "cta:CONFIGURA",
+   "tipo": "cta",
+   "label": "CONFIGURA"
+  },
+  {
+   "id": "tema:ia-configurada",
+   "tipo": "tema",
+   "label": "ia-configurada"
+  },
+  {
    "id": "2026-11-10-ia-le-whatsapp",
    "tipo": "post",
    "label": "ia-le-whatsapp",
    "data": "2026-11-12",
-   "score": null
+   "score": 10.0
   },
   {
    "id": "cta:ZAP",
@@ -2559,7 +2813,7 @@
    "tipo": "post",
    "label": "mostra-um-exemplo",
    "data": "2026-11-10",
-   "score": null
+   "score": 5.0
   },
   {
    "id": "cta:EXEMPLO",
@@ -2618,7 +2872,7 @@
    "tipo": "post",
    "label": "pense-passo-a-passo",
    "data": "2026-11-10",
-   "score": null
+   "score": 5.0
   },
   {
    "id": "cta:PASSO",
@@ -2631,11 +2885,6 @@
    "label": "pense-passo-a-passo"
   },
   {
-   "id": "fonte:https://arxiv.org/abs/2205.11916",
-   "tipo": "fonte",
-   "label": "https://arxiv.org/abs/2205.11916"
-  },
-  {
    "id": "fonte:https://proceedings.neurips.cc/paper/2022/hash/8bb0d291acd4acf06ef112099c16f326-Abstract-Conference.html",
    "tipo": "fonte",
    "label": "https://proceedings.neurips.cc/paper/2022/hash/8bb0d291acd4acf06ef112099c16f326-Abstract-Conference.html"
@@ -2645,7 +2894,7 @@
    "tipo": "post",
    "label": "projetos-celular",
    "data": "2026-11-12",
-   "score": null
+   "score": 22.0
   },
   {
    "id": "cta:CELULAR",
@@ -2715,6 +2964,23 @@
    "label": "https://help.openai.com/en/articles/7730893-data-controls-faq"
   },
   {
+   "id": "2026-11-10-sua-ia-nao-te-conhece",
+   "tipo": "post",
+   "label": "sua-ia-nao-te-conhece",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:ASSISTENTE",
+   "tipo": "cta",
+   "label": "ASSISTENTE"
+  },
+  {
+   "id": "tema:sua-ia-nao-te-conhece",
+   "tipo": "tema",
+   "label": "sua-ia-nao-te-conhece"
+  },
+  {
    "id": "2026-11-10-testa-seu-negocio",
    "tipo": "post",
    "label": "testa-seu-negocio",
@@ -2741,7 +3007,7 @@
    "tipo": "post",
    "label": "carro-por-1-dolar",
    "data": "2026-11-11",
-   "score": null
+   "score": 8.0
   },
   {
    "id": "cta:DOLAR",
@@ -2794,8 +3060,8 @@
    "id": "2026-11-11-copiar-qualquer-app",
    "tipo": "post",
    "label": "copiar-qualquer-app",
-   "data": "2026-11-14",
-   "score": null
+   "data": "2026-11-12",
+   "score": 82.0
   },
   {
    "id": "cta:COPIA",
@@ -3125,6 +3391,33 @@
    "label": "https://www.engadget.com/blake-lemoide-fired-google-lamda-sentient-001746197.html"
   },
   {
+   "id": "2026-11-12-fable-5-2-tres-numeros",
+   "tipo": "post",
+   "label": "fable-5-2-tres-numeros",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:FABLE",
+   "tipo": "cta",
+   "label": "FABLE"
+  },
+  {
+   "id": "tema:fable-5-2-tres-numeros",
+   "tipo": "tema",
+   "label": "fable-5-2-tres-numeros"
+  },
+  {
+   "id": "fonte:https://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price",
+   "tipo": "fonte",
+   "label": "https://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price"
+  },
+  {
+   "id": "fonte:https://www.makeuseof.com/fable-52-is-here-and-these-claude-users-get-a-week-to-try-it-at-no-extra-cost/",
+   "tipo": "fonte",
+   "label": "https://www.makeuseof.com/fable-52-is-here-and-these-claude-users-get-a-week-to-try-it-at-no-extra-cost/"
+  },
+  {
    "id": "2026-11-12-figurinhas-de-aves",
    "tipo": "post",
    "label": "figurinhas-de-aves",
@@ -3145,6 +3438,92 @@
    "id": "fonte:https://github.com/alchaincyf/huashu-bird-sticker",
    "tipo": "fonte",
    "label": "https://github.com/alchaincyf/huashu-bird-sticker"
+  },
+  {
+   "id": "2026-11-12-graphify-mapa",
+   "tipo": "post",
+   "label": "graphify-mapa",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "formato:oficina 3D com dois personagens",
+   "tipo": "formato",
+   "label": "oficina 3D com dois personagens"
+  },
+  {
+   "id": "tema:graphify",
+   "tipo": "tema",
+   "label": "graphify"
+  },
+  {
+   "id": "tema:tokens-claude",
+   "tipo": "tema",
+   "label": "tokens-claude"
+  },
+  {
+   "id": "fonte:github.com/safishamsi/graphify (README, licença MIT, 71,5x)",
+   "tipo": "fonte",
+   "label": "github.com/safishamsi/graphify (README, licença MIT, 71,5x)"
+  },
+  {
+   "id": "fonte:Augment Code (30/06/2026): 74,8 mil estrelas",
+   "tipo": "fonte",
+   "label": "Augment Code (30/06/2026): 74,8 mil estrelas"
+  },
+  {
+   "id": "2026-11-12-gta-6-sai-quinta",
+   "tipo": "post",
+   "label": "gta-6-sai-quinta",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:GTA",
+   "tipo": "cta",
+   "label": "GTA"
+  },
+  {
+   "id": "tema:gta-6-sai-quinta",
+   "tipo": "tema",
+   "label": "gta-6-sai-quinta"
+  },
+  {
+   "id": "fonte:https://www.mixvale.com.br/2026/10/15/gta-6-lancamento-em-19-de-novembro-de-2026-tera-versoes-para-ps5-e-xbox-series-a-partir-de-r-44990/",
+   "tipo": "fonte",
+   "label": "https://www.mixvale.com.br/2026/10/15/gta-6-lancamento-em-19-de-novembro-de-2026-tera-versoes-para-ps5-e-xbox-series-a-partir-de-r-44990/"
+  },
+  {
+   "id": "fonte:https://savepoint.com.br/2026/10/24/gta-6-data-lancamento-preco-brasil-dublado/",
+   "tipo": "fonte",
+   "label": "https://savepoint.com.br/2026/10/24/gta-6-data-lancamento-preco-brasil-dublado/"
+  },
+  {
+   "id": "fonte:https://www.omelete.com.br/games/gta-6-ceo-da-take-two-confirma-mais-uma-vez-lancamento-em-2026",
+   "tipo": "fonte",
+   "label": "https://www.omelete.com.br/games/gta-6-ceo-da-take-two-confirma-mais-uma-vez-lancamento-em-2026"
+  },
+  {
+   "id": "2026-11-12-ia-esquece-o-comeco",
+   "tipo": "post",
+   "label": "ia-esquece-o-comeco",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:MOCHILA",
+   "tipo": "cta",
+   "label": "MOCHILA"
+  },
+  {
+   "id": "tema:ia-esquece-o-comeco",
+   "tipo": "tema",
+   "label": "ia-esquece-o-comeco"
+  },
+  {
+   "id": "fonte:https://platform.openai.com/docs/guides/conversation-state",
+   "tipo": "fonte",
+   "label": "https://platform.openai.com/docs/guides/conversation-state"
   },
   {
    "id": "2026-11-12-imagem-sai-do-chiado",
@@ -3238,6 +3617,33 @@
    "id": "fonte:https://github.com/datalab-to/indra",
    "tipo": "fonte",
    "label": "https://github.com/datalab-to/indra"
+  },
+  {
+   "id": "2026-11-12-padrinho-da-ia-saiu-do-google",
+   "tipo": "post",
+   "label": "padrinho-da-ia-saiu-do-google",
+   "data": "2026-11-12",
+   "score": null
+  },
+  {
+   "id": "cta:PADRINHO",
+   "tipo": "cta",
+   "label": "PADRINHO"
+  },
+  {
+   "id": "tema:padrinho-da-ia-saiu-do-google",
+   "tipo": "tema",
+   "label": "padrinho-da-ia-saiu-do-google"
+  },
+  {
+   "id": "fonte:https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html",
+   "tipo": "fonte",
+   "label": "https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html"
+  },
+  {
+   "id": "fonte:https://www.nobelprize.org/prizes/physics/2024/press-release/",
+   "tipo": "fonte",
+   "label": "https://www.nobelprize.org/prizes/physics/2024/press-release/"
   },
   {
    "id": "2026-11-12-quadros-ganham-vida",
@@ -3343,6 +3749,48 @@
    "label": "https://github.com/C4rohan/Lampline"
   },
   {
+   "id": "2026-11-13-celular-na-tela-do-pc",
+   "tipo": "post",
+   "label": "celular-na-tela-do-pc",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:ESPELHO",
+   "tipo": "cta",
+   "label": "ESPELHO"
+  },
+  {
+   "id": "tema:celular-na-tela-do-pc",
+   "tipo": "tema",
+   "label": "celular-na-tela-do-pc"
+  },
+  {
+   "id": "fonte:https://github.com/AkiChase/scrcpy-mask",
+   "tipo": "fonte",
+   "label": "https://github.com/AkiChase/scrcpy-mask"
+  },
+  {
+   "id": "fonte:https://github.com/NetrisTV/ws-scrcpy",
+   "tipo": "fonte",
+   "label": "https://github.com/NetrisTV/ws-scrcpy"
+  },
+  {
+   "id": "fonte:https://github.com/SimonAKing/scrcpy-gui",
+   "tipo": "fonte",
+   "label": "https://github.com/SimonAKing/scrcpy-gui"
+  },
+  {
+   "id": "fonte:https://github.com/barry-ran/QtScrcpy",
+   "tipo": "fonte",
+   "label": "https://github.com/barry-ran/QtScrcpy"
+  },
+  {
+   "id": "fonte:https://github.com/Genymobile/scrcpy",
+   "tipo": "fonte",
+   "label": "https://github.com/Genymobile/scrcpy"
+  },
+  {
    "id": "2026-11-13-corrida-sem-motorista",
    "tipo": "post",
    "label": "corrida-sem-motorista",
@@ -3368,6 +3816,147 @@
    "id": "fonte:https://www.rdworldonline.com/darpa-grand-challenge-at-21-two-decades-ago-driverless-vehicles-made-history-in-the-mojave-desert/",
    "tipo": "fonte",
    "label": "https://www.rdworldonline.com/darpa-grand-challenge-at-21-two-decades-ago-driverless-vehicles-made-history-in-the-mojave-desert/"
+  },
+  {
+   "id": "2026-11-13-eua-pararam-os-voos",
+   "tipo": "post",
+   "label": "eua-pararam-os-voos",
+   "data": "2026-11-14",
+   "score": 8.0
+  },
+  {
+   "id": "pilar:notícia",
+   "tipo": "pilar",
+   "label": "notícia"
+  },
+  {
+   "id": "formato:reel contagem (padrão perfil referência)",
+   "tipo": "formato",
+   "label": "reel contagem (padrão perfil referência)"
+  },
+  {
+   "id": "cta:VOO",
+   "tipo": "cta",
+   "label": "VOO"
+  },
+  {
+   "id": "tema:voos",
+   "tipo": "tema",
+   "label": "voos"
+  },
+  {
+   "id": "tema:EUA",
+   "tipo": "tema",
+   "label": "EUA"
+  },
+  {
+   "id": "tema:FAA",
+   "tipo": "tema",
+   "label": "FAA"
+  },
+  {
+   "id": "tema:pane",
+   "tipo": "tema",
+   "label": "pane"
+  },
+  {
+   "id": "fonte:https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+   "tipo": "fonte",
+   "label": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+  },
+  {
+   "id": "fonte:https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
+   "tipo": "fonte",
+   "label": "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
+  },
+  {
+   "id": "fonte:https://www.nbcnews.com/news/us-news/live-blog/live-updates-flights-grounded-faa-communications-outage-rcna609268",
+   "tipo": "fonte",
+   "label": "https://www.nbcnews.com/news/us-news/live-blog/live-updates-flights-grounded-faa-communications-outage-rcna609268"
+  },
+  {
+   "id": "fonte:https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+   "tipo": "fonte",
+   "label": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+  },
+  {
+   "id": "fonte:https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/",
+   "tipo": "fonte",
+   "label": "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+  },
+  {
+   "id": "rede:story",
+   "tipo": "rede",
+   "label": "story"
+  },
+  {
+   "id": "2026-11-13-google-fotos-lotou",
+   "tipo": "post",
+   "label": "google-fotos-lotou",
+   "data": "2026-11-14",
+   "score": null
+  },
+  {
+   "id": "cta:FOTOS",
+   "tipo": "cta",
+   "label": "FOTOS"
+  },
+  {
+   "id": "tema:google-fotos-lotou",
+   "tipo": "tema",
+   "label": "google-fotos-lotou"
+  },
+  {
+   "id": "fonte:https://github.com/damongolding/immich-kiosk",
+   "tipo": "fonte",
+   "label": "https://github.com/damongolding/immich-kiosk"
+  },
+  {
+   "id": "fonte:https://github.com/immichFrame/ImmichFrame",
+   "tipo": "fonte",
+   "label": "https://github.com/immichFrame/ImmichFrame"
+  },
+  {
+   "id": "fonte:https://github.com/simulot/immich-go",
+   "tipo": "fonte",
+   "label": "https://github.com/simulot/immich-go"
+  },
+  {
+   "id": "fonte:https://github.com/photoprism/photoprism",
+   "tipo": "fonte",
+   "label": "https://github.com/photoprism/photoprism"
+  },
+  {
+   "id": "fonte:https://github.com/immich-app/immich",
+   "tipo": "fonte",
+   "label": "https://github.com/immich-app/immich"
+  },
+  {
+   "id": "2026-11-13-ia-aprendeu-a-ver",
+   "tipo": "post",
+   "label": "ia-aprendeu-a-ver",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:VISAO",
+   "tipo": "cta",
+   "label": "VISAO"
+  },
+  {
+   "id": "tema:ia-aprendeu-a-ver",
+   "tipo": "tema",
+   "label": "ia-aprendeu-a-ver"
+  },
+  {
+   "id": "fonte:https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf",
+   "tipo": "fonte",
+   "label": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf"
+  },
+  {
+   "id": "fonte:https://image-net.org/challenges/LSVRC/2012/results.html",
+   "tipo": "fonte",
+   "label": "https://image-net.org/challenges/LSVRC/2012/results.html"
   },
   {
    "id": "2026-11-13-ia-enrola-demais",
@@ -3449,6 +4038,48 @@
    "id": "fonte:https://venturebeat.com/ai/openai-rolls-back-chatgpts-sycophancy-and-explains-what-went-wrong",
    "tipo": "fonte",
    "label": "https://venturebeat.com/ai/openai-rolls-back-chatgpts-sycophancy-and-explains-what-went-wrong"
+  },
+  {
+   "id": "2026-11-13-jogos-do-pc-no-celular",
+   "tipo": "post",
+   "label": "jogos-do-pc-no-celular",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "cta:CONSOLE",
+   "tipo": "cta",
+   "label": "CONSOLE"
+  },
+  {
+   "id": "tema:jogos-do-pc-no-celular",
+   "tipo": "tema",
+   "label": "jogos-do-pc-no-celular"
+  },
+  {
+   "id": "fonte:https://github.com/MrCreativ3001/moonlight-web-stream",
+   "tipo": "fonte",
+   "label": "https://github.com/MrCreativ3001/moonlight-web-stream"
+  },
+  {
+   "id": "fonte:https://github.com/moonlight-stream/moonlight-ios",
+   "tipo": "fonte",
+   "label": "https://github.com/moonlight-stream/moonlight-ios"
+  },
+  {
+   "id": "fonte:https://github.com/moonlight-stream/moonlight-android",
+   "tipo": "fonte",
+   "label": "https://github.com/moonlight-stream/moonlight-android"
+  },
+  {
+   "id": "fonte:https://github.com/moonlight-stream/moonlight-qt",
+   "tipo": "fonte",
+   "label": "https://github.com/moonlight-stream/moonlight-qt"
+  },
+  {
+   "id": "fonte:https://github.com/SunshineStream/Sunshine",
+   "tipo": "fonte",
+   "label": "https://github.com/SunshineStream/Sunshine"
   },
   {
    "id": "2026-11-13-linux-em-todo-lugar",
@@ -3557,6 +4188,43 @@
    "id": "fonte:https://github.com/andrisgauracs/wifi-sensing-kit",
    "tipo": "fonte",
    "label": "https://github.com/andrisgauracs/wifi-sensing-kit"
+  },
+  {
+   "id": "2026-11-13-texto-com-cara-de-ia",
+   "tipo": "post",
+   "label": "texto-com-cara-de-ia",
+   "data": "2026-11-13",
+   "score": null
+  },
+  {
+   "id": "tema:texto-com-cara-de-ia",
+   "tipo": "tema",
+   "label": "texto-com-cara-de-ia"
+  },
+  {
+   "id": "fonte:https://github.com/Dodaios/ste80-humanizer",
+   "tipo": "fonte",
+   "label": "https://github.com/Dodaios/ste80-humanizer"
+  },
+  {
+   "id": "fonte:https://github.com/harshaneel/humanize",
+   "tipo": "fonte",
+   "label": "https://github.com/harshaneel/humanize"
+  },
+  {
+   "id": "fonte:https://github.com/theclaymethod/unslop",
+   "tipo": "fonte",
+   "label": "https://github.com/theclaymethod/unslop"
+  },
+  {
+   "id": "fonte:https://github.com/lynote-ai/humanize-text",
+   "tipo": "fonte",
+   "label": "https://github.com/lynote-ai/humanize-text"
+  },
+  {
+   "id": "fonte:https://github.com/blader/humanizer",
+   "tipo": "fonte",
+   "label": "https://github.com/blader/humanizer"
   },
   {
    "id": "2026-11-14-3d-sem-saber",
@@ -4028,6 +4696,1081 @@
    "id": "fonte:https://github.com/HeyChengC/vibe-knowledge-film",
    "tipo": "fonte",
    "label": "https://github.com/HeyChengC/vibe-knowledge-film"
+  },
+  {
+   "id": "2026-11-16-5-coisas-que-a-ia-faz-por-voce",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "tema:5-coisas-que-a-ia-faz-por-voce",
+   "tipo": "tema",
+   "label": "5-coisas-que-a-ia-faz-por-voce"
+  },
+  {
+   "id": "fonte:https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/phishing",
+   "tipo": "fonte",
+   "label": "https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/phishing"
+  },
+  {
+   "id": "2026-11-16-app-completo-com-ia",
+   "tipo": "post",
+   "label": "app-completo-com-ia",
+   "data": "2026-11-08",
+   "score": 109.0
+  },
+  {
+   "id": "formato:formato 4 longo (cadeia inteira), cena_app (motion graphics neon)",
+   "tipo": "formato",
+   "label": "formato 4 longo (cadeia inteira), cena_app (motion graphics neon)"
+  },
+  {
+   "id": "cta:CAMINHO",
+   "tipo": "cta",
+   "label": "CAMINHO"
+  },
+  {
+   "id": "tema:app-completo-com-ia",
+   "tipo": "tema",
+   "label": "app-completo-com-ia"
+  },
+  {
+   "id": "fonte:https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server",
+   "tipo": "fonte",
+   "label": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server"
+  },
+  {
+   "id": "fonte:https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+   "tipo": "fonte",
+   "label": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name"
+  },
+  {
+   "id": "fonte:https://developer.mozilla.org/en-US/docs/Glossary/DNS",
+   "tipo": "fonte",
+   "label": "https://developer.mozilla.org/en-US/docs/Glossary/DNS"
+  },
+  {
+   "id": "fonte:https://developer.mozilla.org/en-US/docs/Glossary/Hash_function",
+   "tipo": "fonte",
+   "label": "https://developer.mozilla.org/en-US/docs/Glossary/Hash_function"
+  },
+  {
+   "id": "fonte:https://docs.stripe.com/webhooks",
+   "tipo": "fonte",
+   "label": "https://docs.stripe.com/webhooks"
+  },
+  {
+   "id": "fonte:https://docs.stripe.com/security",
+   "tipo": "fonte",
+   "label": "https://docs.stripe.com/security"
+  },
+  {
+   "id": "2026-11-16-gta-fas-no-celular",
+   "tipo": "post",
+   "label": "gta-fas-no-celular",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "formato:contagem (formato 3)",
+   "tipo": "formato",
+   "label": "contagem (formato 3)"
+  },
+  {
+   "id": "tema:GTA",
+   "tipo": "tema",
+   "label": "GTA"
+  },
+  {
+   "id": "tema:celular",
+   "tipo": "tema",
+   "label": "celular"
+  },
+  {
+   "id": "tema:console",
+   "tipo": "tema",
+   "label": "console"
+  },
+  {
+   "id": "tema:PC",
+   "tipo": "tema",
+   "label": "PC"
+  },
+  {
+   "id": "fonte:https://github.com/mempage4k/glue5",
+   "tipo": "fonte",
+   "label": "https://github.com/mempage4k/glue5"
+  },
+  {
+   "id": "fonte:https://github.com/SebasKitten/Grand-V",
+   "tipo": "fonte",
+   "label": "https://github.com/SebasKitten/Grand-V"
+  },
+  {
+   "id": "fonte:https://github.com/gothamor/gta-vcs-recomp",
+   "tipo": "fonte",
+   "label": "https://github.com/gothamor/gta-vcs-recomp"
+  },
+  {
+   "id": "fonte:https://github.com/c22dev/muguet",
+   "tipo": "fonte",
+   "label": "https://github.com/c22dev/muguet"
+  },
+  {
+   "id": "fonte:https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+   "tipo": "fonte",
+   "label": "https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+  },
+  {
+   "id": "2026-11-16-ia-perigosa-demais-pra-lancar",
+   "tipo": "post",
+   "label": "ia-perigosa-demais-pra-lancar",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "cta:PERIGO",
+   "tipo": "cta",
+   "label": "PERIGO"
+  },
+  {
+   "id": "tema:ia-perigosa-demais-pra-lancar",
+   "tipo": "tema",
+   "label": "ia-perigosa-demais-pra-lancar"
+  },
+  {
+   "id": "fonte:https://openai.com/index/better-language-models/",
+   "tipo": "fonte",
+   "label": "https://openai.com/index/better-language-models/"
+  },
+  {
+   "id": "fonte:https://thenextweb.com/artificial-intelligence/2019/11/05/remember-that-scary-ai-text-generator-that-was-too-dangerous-to-release-its-out-now/",
+   "tipo": "fonte",
+   "label": "https://thenextweb.com/artificial-intelligence/2019/11/05/remember-that-scary-ai-text-generator-that-was-too-dangerous-to-release-its-out-now/"
+  },
+  {
+   "id": "2026-11-16-ia-usa-seu-celular",
+   "tipo": "post",
+   "label": "ia-usa-seu-celular",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "cta:SOZINHA",
+   "tipo": "cta",
+   "label": "SOZINHA"
+  },
+  {
+   "id": "tema:ia-usa-seu-celular",
+   "tipo": "tema",
+   "label": "ia-usa-seu-celular"
+  },
+  {
+   "id": "fonte:https://github.com/DIYgod/pinky",
+   "tipo": "fonte",
+   "label": "https://github.com/DIYgod/pinky"
+  },
+  {
+   "id": "fonte:https://github.com/JosssphZhou/poki",
+   "tipo": "fonte",
+   "label": "https://github.com/JosssphZhou/poki"
+  },
+  {
+   "id": "2026-11-16-nvidia-nasceu-numa-lanchonete",
+   "tipo": "post",
+   "label": "nvidia-nasceu-numa-lanchonete",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "cta:DENNYS",
+   "tipo": "cta",
+   "label": "DENNYS"
+  },
+  {
+   "id": "tema:Nvidia",
+   "tipo": "tema",
+   "label": "Nvidia"
+  },
+  {
+   "id": "tema:história",
+   "tipo": "tema",
+   "label": "história"
+  },
+  {
+   "id": "tema:GPU",
+   "tipo": "tema",
+   "label": "GPU"
+  },
+  {
+   "id": "tema:AlexNet",
+   "tipo": "tema",
+   "label": "AlexNet"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/Nvidia",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/Nvidia"
+  },
+  {
+   "id": "2026-11-16-nvidia-perdeu-o-chefe",
+   "tipo": "post",
+   "label": "nvidia-perdeu-o-chefe",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "formato:reel notícia (padrão perfil referência)",
+   "tipo": "formato",
+   "label": "reel notícia (padrão perfil referência)"
+  },
+  {
+   "id": "cta:NVIDIA",
+   "tipo": "cta",
+   "label": "NVIDIA"
+  },
+  {
+   "id": "tema:Jensen Huang",
+   "tipo": "tema",
+   "label": "Jensen Huang"
+  },
+  {
+   "id": "tema:big tech",
+   "tipo": "tema",
+   "label": "big tech"
+  },
+  {
+   "id": "empresa:Nvidia",
+   "tipo": "empresa",
+   "label": "Nvidia"
+  },
+  {
+   "id": "fonte:https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "tipo": "fonte",
+   "label": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+  },
+  {
+   "id": "fonte:https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+   "tipo": "fonte",
+   "label": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
+  },
+  {
+   "id": "fonte:https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+   "tipo": "fonte",
+   "label": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html"
+  },
+  {
+   "id": "fonte:https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout",
+   "tipo": "fonte",
+   "label": "https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
+  },
+  {
+   "id": "fonte:https://www.usnews.com/news/top-news/articles/2026-11-12/us-justice-department-has-not-concluded-alice-huang-was-chinese-spy-blanche-says",
+   "tipo": "fonte",
+   "label": "https://www.usnews.com/news/top-news/articles/2026-11-12/us-justice-department-has-not-concluded-alice-huang-was-chinese-spy-blanche-says"
+  },
+  {
+   "id": "2026-11-16-o-que-todo-site-sabe-de-voce",
+   "tipo": "post",
+   "label": "o-que-todo-site-sabe-de-voce",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "cta:RASTRO",
+   "tipo": "cta",
+   "label": "RASTRO"
+  },
+  {
+   "id": "tema:o-que-todo-site-sabe-de-voce",
+   "tipo": "tema",
+   "label": "o-que-todo-site-sabe-de-voce"
+  },
+  {
+   "id": "fonte:https://github.com/yt1988/who-are-you",
+   "tipo": "fonte",
+   "label": "https://github.com/yt1988/who-are-you"
+  },
+  {
+   "id": "fonte:https://coveryourtracks.eff.org/",
+   "tipo": "fonte",
+   "label": "https://coveryourtracks.eff.org/"
+  },
+  {
+   "id": "fonte:https://developer.mozilla.org/en-US/docs/Web/API/Navigator",
+   "tipo": "fonte",
+   "label": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator"
+  },
+  {
+   "id": "fonte:https://developer.mozilla.org/en-US/docs/Web/API/WEBGL_debug_renderer_info",
+   "tipo": "fonte",
+   "label": "https://developer.mozilla.org/en-US/docs/Web/API/WEBGL_debug_renderer_info"
+  },
+  {
+   "id": "fonte:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/resolvedOptions",
+   "tipo": "fonte",
+   "label": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/resolvedOptions"
+  },
+  {
+   "id": "2026-11-16-pergunta-gasta-um-forno",
+   "tipo": "post",
+   "label": "pergunta-gasta-um-forno",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "cta:FORNO",
+   "tipo": "cta",
+   "label": "FORNO"
+  },
+  {
+   "id": "tema:pergunta-gasta-um-forno",
+   "tipo": "tema",
+   "label": "pergunta-gasta-um-forno"
+  },
+  {
+   "id": "fonte:https://www.datacenterdynamics.com/en/news/sam-altman-chatgpt-queries-consume-034-watt-hours-of-electricity-and-0000085-gallons-of-water/",
+   "tipo": "fonte",
+   "label": "https://www.datacenterdynamics.com/en/news/sam-altman-chatgpt-queries-consume-034-watt-hours-of-electricity-and-0000085-gallons-of-water/"
+  },
+  {
+   "id": "2026-11-16-por-que-a-ia-responde-diferente",
+   "tipo": "post",
+   "label": "por-que-a-ia-responde-diferente",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "cta:DADO",
+   "tipo": "cta",
+   "label": "DADO"
+  },
+  {
+   "id": "tema:temperatura",
+   "tipo": "tema",
+   "label": "temperatura"
+  },
+  {
+   "id": "tema:dado",
+   "tipo": "tema",
+   "label": "dado"
+  },
+  {
+   "id": "tema:IA",
+   "tipo": "tema",
+   "label": "IA"
+  },
+  {
+   "id": "fonte:https://platform.openai.com/docs/api-reference/chat/create",
+   "tipo": "fonte",
+   "label": "https://platform.openai.com/docs/api-reference/chat/create"
+  },
+  {
+   "id": "fonte:https://docs.anthropic.com/en/api/messages",
+   "tipo": "fonte",
+   "label": "https://docs.anthropic.com/en/api/messages"
+  },
+  {
+   "id": "2026-11-16-por-que-a-placa-de-video-roda-ia",
+   "tipo": "post",
+   "label": "por-que-a-placa-de-video-roda-ia",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "tema:placa de vídeo",
+   "tipo": "tema",
+   "label": "placa de vídeo"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/Graphics_processing_unit",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/Graphics_processing_unit"
+  },
+  {
+   "id": "fonte:https://docs.nvidia.com/cuda/cuda-c-programming-guide/",
+   "tipo": "fonte",
+   "label": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/"
+  },
+  {
+   "id": "2026-11-16-serie-app-01-app",
+   "tipo": "post",
+   "label": "serie-app-01-app",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "formato:formato 4 (série em peças)",
+   "tipo": "formato",
+   "label": "formato 4 (série em peças)"
+  },
+  {
+   "id": "cta:PEÇA",
+   "tipo": "cta",
+   "label": "PEÇA"
+  },
+  {
+   "id": "tema:serie-app-01-app",
+   "tipo": "tema",
+   "label": "serie-app-01-app"
+  },
+  {
+   "id": "2026-11-16-serie-app-02-deploy",
+   "tipo": "post",
+   "label": "serie-app-02-deploy",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "tema:serie-app-02-deploy",
+   "tipo": "tema",
+   "label": "serie-app-02-deploy"
+  },
+  {
+   "id": "fonte:https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/Publishing_your_website",
+   "tipo": "fonte",
+   "label": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/Publishing_your_website"
+  },
+  {
+   "id": "2026-11-16-serie-app-03-dominio",
+   "tipo": "post",
+   "label": "serie-app-03-dominio",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "tema:serie-app-03-dominio",
+   "tipo": "tema",
+   "label": "serie-app-03-dominio"
+  },
+  {
+   "id": "2026-11-16-treinar-custa-milhoes",
+   "tipo": "post",
+   "label": "treinar-custa-milhoes",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "cta:FICHA",
+   "tipo": "cta",
+   "label": "FICHA"
+  },
+  {
+   "id": "tema:treinar-custa-milhoes",
+   "tipo": "tema",
+   "label": "treinar-custa-milhoes"
+  },
+  {
+   "id": "fonte:https://hai.stanford.edu/ai-index/2024-ai-index-report",
+   "tipo": "fonte",
+   "label": "https://hai.stanford.edu/ai-index/2024-ai-index-report"
+  },
+  {
+   "id": "fonte:https://aiindex.stanford.edu/wp-content/uploads/2024/05/HAI_AI-Index-Report-2024.pdf",
+   "tipo": "fonte",
+   "label": "https://aiindex.stanford.edu/wp-content/uploads/2024/05/HAI_AI-Index-Report-2024.pdf"
+  },
+  {
+   "id": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "tipo": "post",
+   "label": "tv-sem-propaganda-lg-samsung",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "cta:TELA",
+   "tipo": "cta",
+   "label": "TELA"
+  },
+  {
+   "id": "tema:TV",
+   "tipo": "tema",
+   "label": "TV"
+  },
+  {
+   "id": "tema:projetos",
+   "tipo": "tema",
+   "label": "projetos"
+  },
+  {
+   "id": "tema:propaganda",
+   "tipo": "tema",
+   "label": "propaganda"
+  },
+  {
+   "id": "tema:Android TV",
+   "tipo": "tema",
+   "label": "Android TV"
+  },
+  {
+   "id": "tema:o que a fabricante não queria",
+   "tipo": "tema",
+   "label": "o que a fabricante não queria"
+  },
+  {
+   "id": "fonte:https://github.com/humblemuzzu/dumbtv",
+   "tipo": "fonte",
+   "label": "https://github.com/humblemuzzu/dumbtv"
+  },
+  {
+   "id": "fonte:https://github.com/man15h/tellyscope",
+   "tipo": "fonte",
+   "label": "https://github.com/man15h/tellyscope"
+  },
+  {
+   "id": "fonte:https://github.com/udhaykumarbala/cleanyourtv-app",
+   "tipo": "fonte",
+   "label": "https://github.com/udhaykumarbala/cleanyourtv-app"
+  },
+  {
+   "id": "fonte:https://github.com/simbasjungles/free-my-tv",
+   "tipo": "fonte",
+   "label": "https://github.com/simbasjungles/free-my-tv"
+  },
+  {
+   "id": "fonte:https://github.com/pengchujin/aerial-tv",
+   "tipo": "fonte",
+   "label": "https://github.com/pengchujin/aerial-tv"
+  },
+  {
+   "id": "2026-11-17-5-coisas-ia-golpe",
+   "tipo": "post",
+   "label": "5-coisas-ia-golpe",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "tema:assistente",
+   "tipo": "tema",
+   "label": "assistente"
+  },
+  {
+   "id": "tema:kit",
+   "tipo": "tema",
+   "label": "kit"
+  },
+  {
+   "id": "tema:golpe",
+   "tipo": "tema",
+   "label": "golpe"
+  },
+  {
+   "id": "2026-11-17-a-ia-tem-um-chefe-invisivel",
+   "tipo": "post",
+   "label": "a-ia-tem-um-chefe-invisivel",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "cta:CHEFE",
+   "tipo": "cta",
+   "label": "CHEFE"
+  },
+  {
+   "id": "tema:prompt de sistema",
+   "tipo": "tema",
+   "label": "prompt de sistema"
+  },
+  {
+   "id": "tema:papel",
+   "tipo": "tema",
+   "label": "papel"
+  },
+  {
+   "id": "fonte:https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts",
+   "tipo": "fonte",
+   "label": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts"
+  },
+  {
+   "id": "2026-11-17-clipe-do-word",
+   "tipo": "post",
+   "label": "clipe-do-word",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "tema:Word",
+   "tipo": "tema",
+   "label": "Word"
+  },
+  {
+   "id": "tema:Clippy",
+   "tipo": "tema",
+   "label": "Clippy"
+  },
+  {
+   "id": "tema:Microsoft",
+   "tipo": "tema",
+   "label": "Microsoft"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/Office_Assistant",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/Office_Assistant"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/Clippy",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/Clippy"
+  },
+  {
+   "id": "2026-11-17-eliza-o-primeiro-chatbot",
+   "tipo": "post",
+   "label": "eliza-o-primeiro-chatbot",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "tema:ELIZA",
+   "tipo": "tema",
+   "label": "ELIZA"
+  },
+  {
+   "id": "tema:chatbot",
+   "tipo": "tema",
+   "label": "chatbot"
+  },
+  {
+   "id": "tema:MIT",
+   "tipo": "tema",
+   "label": "MIT"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/ELIZA",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/ELIZA"
+  },
+  {
+   "id": "2026-11-17-gta6-5-fatos-meia-noite",
+   "tipo": "post",
+   "label": "gta6-5-fatos-meia-noite",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "cta:GTA6",
+   "tipo": "cta",
+   "label": "GTA6"
+  },
+  {
+   "id": "tema:GTA 6",
+   "tipo": "tema",
+   "label": "GTA 6"
+  },
+  {
+   "id": "tema:lançamento",
+   "tipo": "tema",
+   "label": "lançamento"
+  },
+  {
+   "id": "fonte:https://www.terra.com.br/byte/rockstar-define-horario-de-lancamento-de-gta-6-no-brasil,9c7a2350108c3b419e3b9195af134c642d7ssmyk.html",
+   "tipo": "fonte",
+   "label": "https://www.terra.com.br/byte/rockstar-define-horario-de-lancamento-de-gta-6-no-brasil,9c7a2350108c3b419e3b9195af134c642d7ssmyk.html"
+  },
+  {
+   "id": "fonte:https://www.terra.com.br/byte/rockstar-finaliza-desenvolvimento-de-gta-6-dias-antes-do-lancamento,16a5a31a0e5fdb2ac7ee3db53d4ddcdc0qnh4ych.html",
+   "tipo": "fonte",
+   "label": "https://www.terra.com.br/byte/rockstar-finaliza-desenvolvimento-de-gta-6-dias-antes-do-lancamento,16a5a31a0e5fdb2ac7ee3db53d4ddcdc0qnh4ych.html"
+  },
+  {
+   "id": "2026-11-17-ias-que-trabalham-por-voce",
+   "tipo": "post",
+   "label": "ias-que-trabalham-por-voce",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "cta:ROBO",
+   "tipo": "cta",
+   "label": "ROBO"
+  },
+  {
+   "id": "tema:agentes",
+   "tipo": "tema",
+   "label": "agentes"
+  },
+  {
+   "id": "tema:IA trabalha por você",
+   "tipo": "tema",
+   "label": "IA trabalha por você"
+  },
+  {
+   "id": "tema:automação",
+   "tipo": "tema",
+   "label": "automação"
+  },
+  {
+   "id": "fonte:https://github.com/FrigadeHQ/yogurt",
+   "tipo": "fonte",
+   "label": "https://github.com/FrigadeHQ/yogurt"
+  },
+  {
+   "id": "2026-11-17-jogos-no-celular-e-no-mac",
+   "tipo": "post",
+   "label": "jogos-no-celular-e-no-mac",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "cta:JOGOS",
+   "tipo": "cta",
+   "label": "JOGOS"
+  },
+  {
+   "id": "tema:Mac",
+   "tipo": "tema",
+   "label": "Mac"
+  },
+  {
+   "id": "tema:Switch",
+   "tipo": "tema",
+   "label": "Switch"
+  },
+  {
+   "id": "tema:PlayStation",
+   "tipo": "tema",
+   "label": "PlayStation"
+  },
+  {
+   "id": "fonte:https://github.com/jhaizhou-ops/S2Arm",
+   "tipo": "fonte",
+   "label": "https://github.com/jhaizhou-ops/S2Arm"
+  },
+  {
+   "id": "2026-11-17-por-que-a-ia-erra-letras-de-morango",
+   "tipo": "post",
+   "label": "por-que-a-ia-erra-letras-de-morango",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "cta:MORANGO",
+   "tipo": "cta",
+   "label": "MORANGO"
+  },
+  {
+   "id": "tema:tokens",
+   "tipo": "tema",
+   "label": "tokens"
+  },
+  {
+   "id": "tema:morango",
+   "tipo": "tema",
+   "label": "morango"
+  },
+  {
+   "id": "tema:IA erra",
+   "tipo": "tema",
+   "label": "IA erra"
+  },
+  {
+   "id": "fonte:https://platform.openai.com/tokenizer",
+   "tipo": "fonte",
+   "label": "https://platform.openai.com/tokenizer"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/Large_language_model",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/Large_language_model"
+  },
+  {
+   "id": "2026-11-18-gta6-5-coisas-antes-da-meia-noite",
+   "tipo": "post",
+   "label": "gta6-5-coisas-antes-da-meia-noite",
+   "data": "2026-11-18",
+   "score": null
+  },
+  {
+   "id": "tema:checklist",
+   "tipo": "tema",
+   "label": "checklist"
+  },
+  {
+   "id": "2026-11-18-gta6-5-numeros-e-curiosidades",
+   "tipo": "post",
+   "label": "gta6-5-numeros-e-curiosidades",
+   "data": "2026-11-18",
+   "score": null
+  },
+  {
+   "id": "cta:VICE",
+   "tipo": "cta",
+   "label": "VICE"
+  },
+  {
+   "id": "tema:mapa",
+   "tipo": "tema",
+   "label": "mapa"
+  },
+  {
+   "id": "tema:curiosidades",
+   "tipo": "tema",
+   "label": "curiosidades"
+  },
+  {
+   "id": "fonte:https://metropoles.com/colunas/metropoles-games/gta-6-bate-recorde-historico-antes-do-lancamento",
+   "tipo": "fonte",
+   "label": "https://metropoles.com/colunas/metropoles-games/gta-6-bate-recorde-historico-antes-do-lancamento"
+  },
+  {
+   "id": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota",
+   "tipo": "post",
+   "label": "ia-que-ganhou-dos-campeoes-de-dota",
+   "data": "2026-11-18",
+   "score": null
+  },
+  {
+   "id": "cta:DOTA",
+   "tipo": "cta",
+   "label": "DOTA"
+  },
+  {
+   "id": "tema:Dota 2",
+   "tipo": "tema",
+   "label": "Dota 2"
+  },
+  {
+   "id": "tema:OpenAI Five",
+   "tipo": "tema",
+   "label": "OpenAI Five"
+  },
+  {
+   "id": "fonte:https://openai.com/index/openai-five-defeats-dota-2-world-champions/",
+   "tipo": "fonte",
+   "label": "https://openai.com/index/openai-five-defeats-dota-2-world-champions/"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/OpenAI_Five",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/OpenAI_Five"
+  },
+  {
+   "id": "2026-11-18-por-que-a-ia-fica-lenta",
+   "tipo": "post",
+   "label": "por-que-a-ia-fica-lenta",
+   "data": "2026-11-18",
+   "score": null
+  },
+  {
+   "id": "cta:FILA",
+   "tipo": "cta",
+   "label": "FILA"
+  },
+  {
+   "id": "tema:fila",
+   "tipo": "tema",
+   "label": "fila"
+  },
+  {
+   "id": "tema:lentidão",
+   "tipo": "tema",
+   "label": "lentidão"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/Queueing_theory",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/Queueing_theory"
+  },
+  {
+   "id": "2026-11-18-por-que-ia-de-imagem-erra-a-mao",
+   "tipo": "post",
+   "label": "por-que-ia-de-imagem-erra-a-mao",
+   "data": "2026-11-18",
+   "score": null
+  },
+  {
+   "id": "cta:MAO",
+   "tipo": "cta",
+   "label": "MAO"
+  },
+  {
+   "id": "tema:mão",
+   "tipo": "tema",
+   "label": "mão"
+  },
+  {
+   "id": "tema:imagem",
+   "tipo": "tema",
+   "label": "imagem"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/Text-to-image_model",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/Text-to-image_model"
+  },
+  {
+   "id": "2026-11-19-4-jogos-nintendo-no-pc",
+   "tipo": "post",
+   "label": "4-jogos-nintendo-no-pc",
+   "data": "2026-11-19",
+   "score": null
+  },
+  {
+   "id": "cta:RECOMP",
+   "tipo": "cta",
+   "label": "RECOMP"
+  },
+  {
+   "id": "tema:recompilação",
+   "tipo": "tema",
+   "label": "recompilação"
+  },
+  {
+   "id": "fonte:https://github.com/Dittobyte/Recompia",
+   "tipo": "fonte",
+   "label": "https://github.com/Dittobyte/Recompia"
+  },
+  {
+   "id": "fonte:https://github.com/kuraeow/ultratears",
+   "tipo": "fonte",
+   "label": "https://github.com/kuraeow/ultratears"
+  },
+  {
+   "id": "fonte:https://github.com/Revivedx/SavageWindRecomp",
+   "tipo": "fonte",
+   "label": "https://github.com/Revivedx/SavageWindRecomp"
+  },
+  {
+   "id": "2026-11-19-5-coisas-ia-contas-da-casa",
+   "tipo": "post",
+   "label": "5-coisas-ia-contas-da-casa",
+   "data": "2026-11-19",
+   "score": null
+  },
+  {
+   "id": "tema:contas",
+   "tipo": "tema",
+   "label": "contas"
+  },
+  {
+   "id": "2026-11-19-fantasmas-do-pac-man",
+   "tipo": "post",
+   "label": "fantasmas-do-pac-man",
+   "data": "2026-11-19",
+   "score": null
+  },
+  {
+   "id": "cta:FANTASMA",
+   "tipo": "cta",
+   "label": "FANTASMA"
+  },
+  {
+   "id": "tema:Pac-Man",
+   "tipo": "tema",
+   "label": "Pac-Man"
+  },
+  {
+   "id": "tema:IA em jogos",
+   "tipo": "tema",
+   "label": "IA em jogos"
+  },
+  {
+   "id": "fonte:https://pacman.holenet.info/",
+   "tipo": "fonte",
+   "label": "https://pacman.holenet.info/"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/Pac-Man",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/Pac-Man"
+  },
+  {
+   "id": "2026-11-19-por-que-o-jogo-trava-no-lancamento",
+   "tipo": "post",
+   "label": "por-que-o-jogo-trava-no-lancamento",
+   "data": "2026-11-19",
+   "score": null
+  },
+  {
+   "id": "cta:SERVIDOR",
+   "tipo": "cta",
+   "label": "SERVIDOR"
+  },
+  {
+   "id": "tema:servidor",
+   "tipo": "tema",
+   "label": "servidor"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/Server_(computing)",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/Server_(computing)"
+  },
+  {
+   "id": "2026-11-19-ps5-grava-seu-gta-6",
+   "tipo": "post",
+   "label": "ps5-grava-seu-gta-6",
+   "data": "2026-11-19",
+   "score": null
+  },
+  {
+   "id": "tema:clipes",
+   "tipo": "tema",
+   "label": "clipes"
+  },
+  {
+   "id": "tema:PS5",
+   "tipo": "tema",
+   "label": "PS5"
+  },
+  {
+   "id": "fonte:https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+   "tipo": "fonte",
+   "label": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+  },
+  {
+   "id": "fonte:https://www.tweaktown.com/news/76220/ps5-can-capture-up-to-1-hour-of-4k-gameplay-video-with-create-button/index.html",
+   "tipo": "fonte",
+   "label": "https://www.tweaktown.com/news/76220/ps5-can-capture-up-to-1-hour-of-4k-gameplay-video-with-create-button/index.html"
+  },
+  {
+   "id": "fonte:https://www.digitaltrends.com/gaming/how-to-record-gameplay-on-a-ps5",
+   "tipo": "fonte",
+   "label": "https://www.digitaltrends.com/gaming/how-to-record-gameplay-on-a-ps5"
+  },
+  {
+   "id": "fonte:https://github.com/WyattBlue/auto-editor",
+   "tipo": "fonte",
+   "label": "https://github.com/WyattBlue/auto-editor"
+  },
+  {
+   "id": "fonte:https://github.com/RafaelGodoyEbert/ViralCutter",
+   "tipo": "fonte",
+   "label": "https://github.com/RafaelGodoyEbert/ViralCutter"
+  },
+  {
+   "id": "fonte:https://github.com/artbyjazi/autoclip",
+   "tipo": "fonte",
+   "label": "https://github.com/artbyjazi/autoclip"
+  },
+  {
+   "id": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter",
+   "tipo": "post",
+   "label": "3-programas-gratis-que-o-windows-devia-ter",
+   "data": "2026-11-20",
+   "score": null
+  },
+  {
+   "id": "tema:Windows",
+   "tipo": "tema",
+   "label": "Windows"
+  },
+  {
+   "id": "fonte:https://github.com/oinkvm/oink",
+   "tipo": "fonte",
+   "label": "https://github.com/oinkvm/oink"
+  },
+  {
+   "id": "fonte:https://github.com/shanselman/gputaskman",
+   "tipo": "fonte",
+   "label": "https://github.com/shanselman/gputaskman"
+  },
+  {
+   "id": "fonte:https://github.com/anefzaoui/misterdownloadmanager",
+   "tipo": "fonte",
+   "label": "https://github.com/anefzaoui/misterdownloadmanager"
   }
  ],
  "links": [
@@ -4240,6 +5983,10 @@
    "target": "2026-11-04-youtube-2-horas"
   },
   {
+   "source": "empresa:Anthropic",
+   "target": "2026-11-12-graphify-mapa"
+  },
+  {
    "source": "empresa:OpenAI",
    "target": "2026-11-01-em-alta-x"
   },
@@ -4433,6 +6180,10 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-08-lancamento-super-assistente"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-08-nintendo"
   },
   {
@@ -4509,6 +6260,10 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-10-9-dias-pro-gta-6"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-10-a-ia-ganhou-nome"
   },
   {
@@ -4522,6 +6277,10 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-10-camera-sony-destravada"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-10-ia-configurada"
   },
   {
    "source": "rede:instagram",
@@ -4550,6 +6309,10 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-10-samsung-vazou-no-chatgpt"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-10-sua-ia-nao-te-conhece"
   },
   {
    "source": "rede:instagram",
@@ -4613,7 +6376,19 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-12-fable-5-2-tres-numeros"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-12-gta-6-sai-quinta"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-12-ia-esquece-o-comeco"
   },
   {
    "source": "rede:instagram",
@@ -4630,6 +6405,10 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-12-ocr-15x-rapido"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-12-padrinho-da-ia-saiu-do-google"
   },
   {
    "source": "rede:instagram",
@@ -4650,6 +6429,18 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-eua-pararam-os-voos"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-google-fotos-lotou"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-13-ia-aprendeu-a-ver"
   },
   {
    "source": "rede:instagram",
@@ -4750,6 +6541,134 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-15-skills-video-explicativo"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-16-5-coisas-que-a-ia-faz-por-voce"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-16-app-completo-com-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-16-gta-fas-no-celular"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-16-ia-perigosa-demais-pra-lancar"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-16-ia-usa-seu-celular"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-16-nvidia-nasceu-numa-lanchonete"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-16-nvidia-perdeu-o-chefe"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-16-o-que-todo-site-sabe-de-voce"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-16-pergunta-gasta-um-forno"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-16-por-que-a-ia-responde-diferente"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-16-por-que-a-placa-de-video-roda-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-16-treinar-custa-milhoes"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-16-tv-sem-propaganda-lg-samsung"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-17-5-coisas-ia-golpe"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-17-a-ia-tem-um-chefe-invisivel"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-17-clipe-do-word"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-17-eliza-o-primeiro-chatbot"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-17-gta6-5-fatos-meia-noite"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-17-ias-que-trabalham-por-voce"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-17-por-que-a-ia-erra-letras-de-morango"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-18-gta6-5-numeros-e-curiosidades"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-18-por-que-a-ia-fica-lenta"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-18-por-que-ia-de-imagem-erra-a-mao"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-19-4-jogos-nintendo-no-pc"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-19-fantasmas-do-pac-man"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-19-por-que-o-jogo-trava-no-lancamento"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
   },
   {
    "source": "rede:tiktok",
@@ -4985,6 +6904,10 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-10-9-dias-pro-gta-6"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-10-a-ia-ganhou-nome"
   },
   {
@@ -4998,6 +6921,10 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-10-camera-sony-destravada"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-10-ia-configurada"
   },
   {
    "source": "rede:tiktok",
@@ -5026,6 +6953,10 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-10-samsung-vazou-no-chatgpt"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-10-sua-ia-nao-te-conhece"
   },
   {
    "source": "rede:tiktok",
@@ -5089,7 +7020,19 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-12-fable-5-2-tres-numeros"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-12-gta-6-sai-quinta"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-12-ia-esquece-o-comeco"
   },
   {
    "source": "rede:tiktok",
@@ -5106,6 +7049,10 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-12-ocr-15x-rapido"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-12-padrinho-da-ia-saiu-do-google"
   },
   {
    "source": "rede:tiktok",
@@ -5126,6 +7073,18 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-eua-pararam-os-voos"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-google-fotos-lotou"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-13-ia-aprendeu-a-ver"
   },
   {
    "source": "rede:tiktok",
@@ -5226,6 +7185,134 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-15-skills-video-explicativo"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-16-5-coisas-que-a-ia-faz-por-voce"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-16-app-completo-com-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-16-gta-fas-no-celular"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-16-ia-perigosa-demais-pra-lancar"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-16-ia-usa-seu-celular"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-16-nvidia-nasceu-numa-lanchonete"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-16-nvidia-perdeu-o-chefe"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-16-o-que-todo-site-sabe-de-voce"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-16-pergunta-gasta-um-forno"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-16-por-que-a-ia-responde-diferente"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-16-por-que-a-placa-de-video-roda-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-16-treinar-custa-milhoes"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-16-tv-sem-propaganda-lg-samsung"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-17-5-coisas-ia-golpe"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-17-a-ia-tem-um-chefe-invisivel"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-17-clipe-do-word"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-17-eliza-o-primeiro-chatbot"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-17-gta6-5-fatos-meia-noite"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-17-ias-que-trabalham-por-voce"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-17-por-que-a-ia-erra-letras-de-morango"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-18-gta6-5-numeros-e-curiosidades"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-18-por-que-a-ia-fica-lenta"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-18-por-que-ia-de-imagem-erra-a-mao"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-19-4-jogos-nintendo-no-pc"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-19-fantasmas-do-pac-man"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-19-por-que-o-jogo-trava-no-lancamento"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
   },
   {
    "source": "rede:youtube",
@@ -5561,6 +7648,10 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-08-lancamento-super-assistente"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-08-skills-chinesas-agencia"
   },
   {
@@ -5633,6 +7724,10 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-10-9-dias-pro-gta-6"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-10-a-ia-ganhou-nome"
   },
   {
@@ -5646,6 +7741,10 @@
   {
    "source": "horario:20h",
    "target": "2026-11-10-camera-sony-destravada"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-10-ia-configurada"
   },
   {
    "source": "horario:20h",
@@ -5674,6 +7773,10 @@
   {
    "source": "horario:20h",
    "target": "2026-11-10-samsung-vazou-no-chatgpt"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-10-sua-ia-nao-te-conhece"
   },
   {
    "source": "horario:20h",
@@ -5737,7 +7840,19 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-12-fable-5-2-tres-numeros"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-12-gta-6-sai-quinta"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-12-ia-esquece-o-comeco"
   },
   {
    "source": "horario:20h",
@@ -5754,6 +7869,10 @@
   {
    "source": "horario:20h",
    "target": "2026-11-12-ocr-15x-rapido"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-12-padrinho-da-ia-saiu-do-google"
   },
   {
    "source": "horario:20h",
@@ -5774,6 +7893,18 @@
   {
    "source": "horario:20h",
    "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-eua-pararam-os-voos"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-google-fotos-lotou"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-13-ia-aprendeu-a-ver"
   },
   {
    "source": "horario:20h",
@@ -5874,6 +8005,134 @@
   {
    "source": "horario:20h",
    "target": "2026-11-15-skills-video-explicativo"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-16-5-coisas-que-a-ia-faz-por-voce"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-16-app-completo-com-ia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-16-gta-fas-no-celular"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-16-ia-perigosa-demais-pra-lancar"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-16-ia-usa-seu-celular"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-16-nvidia-nasceu-numa-lanchonete"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-16-nvidia-perdeu-o-chefe"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-16-o-que-todo-site-sabe-de-voce"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-16-pergunta-gasta-um-forno"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-16-por-que-a-ia-responde-diferente"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-16-por-que-a-placa-de-video-roda-ia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-16-treinar-custa-milhoes"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-16-tv-sem-propaganda-lg-samsung"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-17-5-coisas-ia-golpe"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-17-a-ia-tem-um-chefe-invisivel"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-17-clipe-do-word"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-17-eliza-o-primeiro-chatbot"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-17-gta6-5-fatos-meia-noite"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-17-ias-que-trabalham-por-voce"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-17-por-que-a-ia-erra-letras-de-morango"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-18-gta6-5-numeros-e-curiosidades"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-18-por-que-a-ia-fica-lenta"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-18-por-que-ia-de-imagem-erra-a-mao"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-19-4-jogos-nintendo-no-pc"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-19-fantasmas-do-pac-man"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-19-por-que-o-jogo-trava-no-lancamento"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
   },
   {
    "source": "2026-11-01-github-agentes",
@@ -6106,6 +8365,14 @@
   {
    "source": "tema:produtividade",
    "target": "2026-11-07-programas-pc"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-17-5-coisas-ia-golpe"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-19-5-coisas-ia-contas-da-casa"
   },
   {
    "source": "2026-11-01-semana-em-ia",
@@ -6356,6 +8623,38 @@
    "target": "2026-11-09-programas-caros-gratis"
   },
   {
+   "source": "tema:jogos",
+   "target": "2026-11-16-gta-fas-no-celular"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-16-por-que-a-placa-de-video-roda-ia"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-17-gta6-5-fatos-meia-noite"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-19-4-jogos-nintendo-no-pc"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-19-fantasmas-do-pac-man"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-19-por-que-o-jogo-trava-no-lancamento"
+  },
+  {
    "source": "2026-11-02-gemini-carbon",
    "target": "cta:CARBON"
   },
@@ -6554,6 +8853,10 @@
   {
    "source": "2026-11-03-riverside-agentes",
    "target": "fonte:Podnews (comunicado 27/10)"
+  },
+  {
+   "source": "cta:CLIPE",
+   "target": "2026-11-17-clipe-do-word"
   },
   {
    "source": "tema:edição de vídeo",
@@ -6825,6 +9128,10 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-08-lancamento-super-assistente"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-08-nintendo"
   },
   {
@@ -6869,11 +9176,19 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-09-em-qual-nivel-de-ia"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-09-ia-chinesa-no-bolso"
   },
   {
    "source": "paleta:paleta None",
    "target": "2026-11-09-ia-esquece-a-conversa"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-09-ia-ja-morreu-duas-vezes"
   },
   {
    "source": "paleta:paleta None",
@@ -6889,11 +9204,19 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-09-obrigado-custa-milhoes"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-09-playstation-no-pc"
   },
   {
    "source": "paleta:paleta None",
    "target": "2026-11-09-programas-caros-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-10-9-dias-pro-gta-6"
   },
   {
    "source": "paleta:paleta None",
@@ -6910,6 +9233,14 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-10-camera-sony-destravada"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-10-equipe-de-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-10-ia-configurada"
   },
   {
    "source": "paleta:paleta None",
@@ -6938,6 +9269,10 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-10-samsung-vazou-no-chatgpt"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-10-sua-ia-nao-te-conhece"
   },
   {
    "source": "paleta:paleta None",
@@ -7001,7 +9336,23 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-12-fable-5-2-tres-numeros"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-12-graphify-mapa"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-12-gta-6-sai-quinta"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-12-ia-esquece-o-comeco"
   },
   {
    "source": "paleta:paleta None",
@@ -7021,6 +9372,10 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-12-padrinho-da-ia-saiu-do-google"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-12-quadros-ganham-vida"
   },
   {
@@ -7037,7 +9392,23 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-13-celular-na-tela-do-pc"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-eua-pararam-os-voos"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-google-fotos-lotou"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-ia-aprendeu-a-ver"
   },
   {
    "source": "paleta:paleta None",
@@ -7050,6 +9421,10 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-13-ia-puxa-saco"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-jogos-do-pc-no-celular"
   },
   {
    "source": "paleta:paleta None",
@@ -7066,6 +9441,10 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-13-placas-de-10-dolares"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-13-texto-com-cara-de-ia"
   },
   {
    "source": "paleta:paleta None",
@@ -7140,6 +9519,146 @@
    "target": "2026-11-15-skills-video-explicativo"
   },
   {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-5-coisas-que-a-ia-faz-por-voce"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-app-completo-com-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-gta-fas-no-celular"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-ia-perigosa-demais-pra-lancar"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-ia-usa-seu-celular"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-nvidia-nasceu-numa-lanchonete"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-nvidia-perdeu-o-chefe"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-o-que-todo-site-sabe-de-voce"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-pergunta-gasta-um-forno"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-por-que-a-ia-responde-diferente"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-por-que-a-placa-de-video-roda-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-serie-app-01-app"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-serie-app-02-deploy"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-serie-app-03-dominio"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-treinar-custa-milhoes"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-16-tv-sem-propaganda-lg-samsung"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-17-5-coisas-ia-golpe"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-17-a-ia-tem-um-chefe-invisivel"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-17-clipe-do-word"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-17-eliza-o-primeiro-chatbot"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-17-gta6-5-fatos-meia-noite"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-17-ias-que-trabalham-por-voce"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-17-por-que-a-ia-erra-letras-de-morango"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-18-gta6-5-numeros-e-curiosidades"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-18-por-que-a-ia-fica-lenta"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-18-por-que-ia-de-imagem-erra-a-mao"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-19-4-jogos-nintendo-no-pc"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-19-fantasmas-do-pac-man"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-19-por-que-o-jogo-trava-no-lancamento"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
+  },
+  {
    "source": "empresa:Anthropic (Claude)",
    "target": "2026-11-07-5-skills"
   },
@@ -7212,6 +9731,10 @@
    "target": "2026-11-08-nintendo"
   },
   {
+   "source": "pilar:lista",
+   "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
    "source": "formato:reel formato 3 (contagem regressiva com mistério)",
    "target": "2026-11-07-5-skills"
   },
@@ -7232,6 +9755,10 @@
    "target": "2026-11-08-nintendo"
   },
   {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
    "source": "tema:GitHub em alta",
    "target": "2026-11-07-5-skills"
   },
@@ -7246,6 +9773,10 @@
   {
    "source": "tema:GitHub em alta",
    "target": "2026-11-08-estudar-ia"
+  },
+  {
+   "source": "fonte:https://github.com/wangzan101/Mika",
+   "target": "2026-11-16-ia-usa-seu-celular"
   },
   {
    "source": "horario:06h",
@@ -7393,11 +9924,19 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-09-em-qual-nivel-de-ia"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-09-ia-chinesa-no-bolso"
   },
   {
    "source": "pilar:reel",
    "target": "2026-11-09-ia-esquece-a-conversa"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-09-ia-ja-morreu-duas-vezes"
   },
   {
    "source": "pilar:reel",
@@ -7413,11 +9952,19 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-09-obrigado-custa-milhoes"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-09-playstation-no-pc"
   },
   {
    "source": "pilar:reel",
    "target": "2026-11-09-programas-caros-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-10-9-dias-pro-gta-6"
   },
   {
    "source": "pilar:reel",
@@ -7434,6 +9981,14 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-10-camera-sony-destravada"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-10-equipe-de-ia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-10-ia-configurada"
   },
   {
    "source": "pilar:reel",
@@ -7462,6 +10017,10 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-10-samsung-vazou-no-chatgpt"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-10-sua-ia-nao-te-conhece"
   },
   {
    "source": "pilar:reel",
@@ -7525,7 +10084,23 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-12-fable-5-2-tres-numeros"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-12-figurinhas-de-aves"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-12-graphify-mapa"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-12-gta-6-sai-quinta"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-12-ia-esquece-o-comeco"
   },
   {
    "source": "pilar:reel",
@@ -7545,6 +10120,10 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-12-padrinho-da-ia-saiu-do-google"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-12-quadros-ganham-vida"
   },
   {
@@ -7561,7 +10140,19 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-13-celular-na-tela-do-pc"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-google-fotos-lotou"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-ia-aprendeu-a-ver"
   },
   {
    "source": "pilar:reel",
@@ -7574,6 +10165,10 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-13-ia-puxa-saco"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-jogos-do-pc-no-celular"
   },
   {
    "source": "pilar:reel",
@@ -7590,6 +10185,10 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-13-placas-de-10-dolares"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-13-texto-com-cara-de-ia"
   },
   {
    "source": "pilar:reel",
@@ -7662,6 +10261,138 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-15-skills-video-explicativo"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-5-coisas-que-a-ia-faz-por-voce"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-app-completo-com-ia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-gta-fas-no-celular"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-ia-perigosa-demais-pra-lancar"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-ia-usa-seu-celular"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-nvidia-nasceu-numa-lanchonete"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-o-que-todo-site-sabe-de-voce"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-pergunta-gasta-um-forno"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-por-que-a-ia-responde-diferente"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-por-que-a-placa-de-video-roda-ia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-serie-app-01-app"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-serie-app-02-deploy"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-serie-app-03-dominio"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-treinar-custa-milhoes"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-16-tv-sem-propaganda-lg-samsung"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-17-5-coisas-ia-golpe"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-17-a-ia-tem-um-chefe-invisivel"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-17-clipe-do-word"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-17-eliza-o-primeiro-chatbot"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-17-gta6-5-fatos-meia-noite"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-17-ias-que-trabalham-por-voce"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-17-por-que-a-ia-erra-letras-de-morango"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-18-gta6-5-numeros-e-curiosidades"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-18-por-que-a-ia-fica-lenta"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-18-por-que-ia-de-imagem-erra-a-mao"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-19-4-jogos-nintendo-no-pc"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-19-fantasmas-do-pac-man"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-19-por-que-o-jogo-trava-no-lancamento"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
   },
   {
    "source": "formato:palco",
@@ -7741,6 +10472,14 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-10-equipe-de-ia"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-10-ia-configurada"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-10-ia-le-whatsapp"
   },
   {
@@ -7758,6 +10497,10 @@
   {
    "source": "formato:palco",
    "target": "2026-11-10-samsung-vazou-no-chatgpt"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-10-sua-ia-nao-te-conhece"
   },
   {
    "source": "formato:palco",
@@ -7809,6 +10552,10 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-12-ia-esquece-o-comeco"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-12-imagem-sai-do-chiado"
   },
   {
@@ -7825,6 +10572,10 @@
   },
   {
    "source": "formato:palco",
+   "target": "2026-11-12-padrinho-da-ia-saiu-do-google"
+  },
+  {
+   "source": "formato:palco",
    "target": "2026-11-12-quadros-ganham-vida"
   },
   {
@@ -7838,6 +10589,10 @@
   {
    "source": "formato:palco",
    "target": "2026-11-13-corrida-sem-motorista"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-13-ia-aprendeu-a-ver"
   },
   {
    "source": "formato:palco",
@@ -7924,6 +10679,18 @@
    "target": "2026-11-15-site-sem-cara-de-ia"
   },
   {
+   "source": "formato:palco",
+   "target": "2026-11-16-ia-perigosa-demais-pra-lancar"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-16-pergunta-gasta-um-forno"
+  },
+  {
+   "source": "formato:palco",
+   "target": "2026-11-16-treinar-custa-milhoes"
+  },
+  {
    "source": "2026-11-07-editar-video",
    "target": "cta:EDITA"
   },
@@ -7990,6 +10757,10 @@
   {
    "source": "2026-11-07-programas-pc",
    "target": "fonte:https://github.com/InukaAsith/TwinDesk"
+  },
+  {
+   "source": "tema:programas grátis",
+   "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
   },
   {
    "source": "2026-11-08-advogado-chatgpt",
@@ -8125,7 +10896,27 @@
   },
   {
    "source": "formato:contagem",
+   "target": "2026-11-12-fable-5-2-tres-numeros"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-12-gta-6-sai-quinta"
+  },
+  {
+   "source": "formato:contagem",
    "target": "2026-11-13-assistentes-que-trabalham"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-13-celular-na-tela-do-pc"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-13-google-fotos-lotou"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-13-jogos-do-pc-no-celular"
   },
   {
    "source": "formato:contagem",
@@ -8137,11 +10928,31 @@
   },
   {
    "source": "formato:contagem",
+   "target": "2026-11-13-texto-com-cara-de-ia"
+  },
+  {
+   "source": "formato:contagem",
    "target": "2026-11-14-3d-sem-saber"
   },
   {
    "source": "formato:contagem",
    "target": "2026-11-15-skills-video-explicativo"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-16-5-coisas-que-a-ia-faz-por-voce"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-16-ia-usa-seu-celular"
+  },
+  {
+   "source": "formato:contagem",
+   "target": "2026-11-16-o-que-todo-site-sabe-de-voce"
+  },
+  {
+   "source": "cta:MAPA",
+   "target": "2026-11-12-graphify-mapa"
   },
   {
    "source": "2026-11-08-blender-com-ia",
@@ -8202,6 +11013,14 @@
   {
    "source": "2026-11-08-console-no-celular",
    "target": "fonte:https://github.com/jhaizhou-ops/d2r-mobile"
+  },
+  {
+   "source": "fonte:https://github.com/kevinerikjs/gta5-ios-port",
+   "target": "2026-11-16-gta-fas-no-celular"
+  },
+  {
+   "source": "fonte:https://github.com/shirai91/nx2android",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
   },
   {
    "source": "2026-11-08-crie-seu-app-de-mac",
@@ -8316,6 +11135,66 @@
    "target": "fonte:https://github.com/smithjohn78390/tongjiang-lab"
   },
   {
+   "source": "2026-11-08-lancamento-super-assistente",
+   "target": "pilar:carrossel"
+  },
+  {
+   "source": "2026-11-08-lancamento-super-assistente",
+   "target": "formato:carrossel de lançamento"
+  },
+  {
+   "source": "2026-11-08-lancamento-super-assistente",
+   "target": "cta:KIT"
+  },
+  {
+   "source": "2026-11-08-lancamento-super-assistente",
+   "target": "tema:lancamento-super-assistente"
+  },
+  {
+   "source": "2026-11-08-lancamento-super-assistente",
+   "target": "fonte:https://www.science.org/doi/10.1126/science.adh2586"
+  },
+  {
+   "source": "2026-11-08-lancamento-super-assistente",
+   "target": "fonte:https://www.hbs.edu/faculty/Pages/item.aspx?num=64700"
+  },
+  {
+   "source": "2026-11-08-lancamento-super-assistente",
+   "target": "fonte:https://www.nber.org/papers/w31161"
+  },
+  {
+   "source": "2026-11-08-lancamento-super-assistente",
+   "target": "fonte:https://arxiv.org/abs/2205.11916"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-16-5-coisas-que-a-ia-faz-por-voce"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-17-5-coisas-ia-golpe"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "target": "2026-11-16-5-coisas-que-a-ia-faz-por-voce"
+  },
+  {
+   "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "target": "2026-11-17-5-coisas-ia-golpe"
+  },
+  {
+   "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "fonte:https://arxiv.org/abs/2205.11916",
+   "target": "2026-11-10-pense-passo-a-passo"
+  },
+  {
    "source": "2026-11-08-nintendo",
    "target": "cta:JOGO"
   },
@@ -8350,6 +11229,14 @@
   {
    "source": "2026-11-08-nintendo",
    "target": "fonte:https://github.com/seedds/nxnative"
+  },
+  {
+   "source": "tema:games",
+   "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "source": "fonte:https://github.com/valentderah/totk-pc-recomp",
+   "target": "2026-11-19-4-jogos-nintendo-no-pc"
   },
   {
    "source": "2026-11-08-skills-chinesas-agencia",
@@ -8464,6 +11351,10 @@
    "target": "fonte:https://github.com/yjid/kensaku"
   },
   {
+   "source": "cta:WINDOWS",
+   "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
+  },
+  {
    "source": "2026-11-09-a-pergunta-de-turing",
    "target": "cta:TURING"
   },
@@ -8564,6 +11455,54 @@
    "target": "fonte:https://decrypt.co/382574/chatgpt-gif-maker-openai-unannounced-images-2-6-model"
   },
   {
+   "source": "2026-11-09-em-qual-nivel-de-ia",
+   "target": "formato:cidade (Referência 7)"
+  },
+  {
+   "source": "2026-11-09-em-qual-nivel-de-ia",
+   "target": "cta:NIVEL"
+  },
+  {
+   "source": "2026-11-09-em-qual-nivel-de-ia",
+   "target": "tema:em-qual-nivel-de-ia"
+  },
+  {
+   "source": "2026-11-09-em-qual-nivel-de-ia",
+   "target": "fonte:https://help.openai.com/en/articles/8096356-custom-instructions-for-chatgpt"
+  },
+  {
+   "source": "2026-11-09-em-qual-nivel-de-ia",
+   "target": "fonte:https://help.openai.com/en/articles/10291617-tasks-in-chatgpt"
+  },
+  {
+   "source": "2026-11-09-em-qual-nivel-de-ia",
+   "target": "fonte:https://openai.com/index/introducing-chatgpt-agent/"
+  },
+  {
+   "source": "2026-11-09-em-qual-nivel-de-ia",
+   "target": "fonte:https://support.claude.com/en/articles/9517075-what-are-projects"
+  },
+  {
+   "source": "formato:cidade (Referência 7)",
+   "target": "2026-11-09-ia-ja-morreu-duas-vezes"
+  },
+  {
+   "source": "formato:cidade (Referência 7)",
+   "target": "2026-11-09-obrigado-custa-milhoes"
+  },
+  {
+   "source": "fonte:https://support.claude.com/en/articles/9517075-what-are-projects",
+   "target": "2026-11-10-equipe-de-ia"
+  },
+  {
+   "source": "fonte:https://support.claude.com/en/articles/9517075-what-are-projects",
+   "target": "2026-11-10-ia-configurada"
+  },
+  {
+   "source": "fonte:https://support.claude.com/en/articles/9517075-what-are-projects",
+   "target": "2026-11-10-sua-ia-nao-te-conhece"
+  },
+  {
    "source": "2026-11-09-ia-chinesa-no-bolso",
    "target": "cta:CHINA"
   },
@@ -8590,6 +11529,38 @@
   {
    "source": "2026-11-09-ia-esquece-a-conversa",
    "target": "fonte:https://docs.claude.com/en/docs/build-with-claude/context-windows"
+  },
+  {
+   "source": "fonte:https://docs.claude.com/en/docs/build-with-claude/context-windows",
+   "target": "2026-11-12-ia-esquece-o-comeco"
+  },
+  {
+   "source": "2026-11-09-ia-ja-morreu-duas-vezes",
+   "target": "cta:INVERNO"
+  },
+  {
+   "source": "2026-11-09-ia-ja-morreu-duas-vezes",
+   "target": "tema:ia-ja-morreu-duas-vezes"
+  },
+  {
+   "source": "2026-11-09-ia-ja-morreu-duas-vezes",
+   "target": "fonte:http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf"
+  },
+  {
+   "source": "2026-11-09-ia-ja-morreu-duas-vezes",
+   "target": "fonte:http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/contents.htm"
+  },
+  {
+   "source": "2026-11-09-ia-ja-morreu-duas-vezes",
+   "target": "fonte:https://en.wikipedia.org/wiki/AI_winter"
+  },
+  {
+   "source": "2026-11-09-ia-ja-morreu-duas-vezes",
+   "target": "fonte:https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html"
+  },
+  {
+   "source": "fonte:https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+   "target": "2026-11-16-nvidia-nasceu-numa-lanchonete"
   },
   {
    "source": "2026-11-09-internet-somada",
@@ -8630,6 +11601,30 @@
   {
    "source": "2026-11-09-manda-print",
    "target": "fonte:https://platform.openai.com/docs/guides/images-vision"
+  },
+  {
+   "source": "2026-11-09-obrigado-custa-milhoes",
+   "target": "cta:OBRIGADO"
+  },
+  {
+   "source": "2026-11-09-obrigado-custa-milhoes",
+   "target": "tema:obrigado-custa-milhoes"
+  },
+  {
+   "source": "2026-11-09-obrigado-custa-milhoes",
+   "target": "fonte:https://www.techradar.com/computing/artificial-intelligence/chatgpt-spends-tens-of-millions-of-dollars-on-people-saying-please-and-thank-you-but-sam-altman-says-its-worth-it"
+  },
+  {
+   "source": "2026-11-09-obrigado-custa-milhoes",
+   "target": "fonte:https://www.entrepreneur.com/business-news/sam-altman-saying-please-and-thank-you-to-chatgpt-costs/490341"
+  },
+  {
+   "source": "2026-11-09-obrigado-custa-milhoes",
+   "target": "fonte:https://blog.samaltman.com/the-gentle-singularity"
+  },
+  {
+   "source": "fonte:https://blog.samaltman.com/the-gentle-singularity",
+   "target": "2026-11-16-pergunta-gasta-um-forno"
   },
   {
    "source": "2026-11-09-playstation-no-pc",
@@ -8684,6 +11679,42 @@
    "target": "fonte:https://github.com/storytold/wordcraft"
   },
   {
+   "source": "2026-11-10-9-dias-pro-gta-6",
+   "target": "formato:cidade neon"
+  },
+  {
+   "source": "2026-11-10-9-dias-pro-gta-6",
+   "target": "cta:CORTES"
+  },
+  {
+   "source": "2026-11-10-9-dias-pro-gta-6",
+   "target": "tema:gta-6"
+  },
+  {
+   "source": "2026-11-10-9-dias-pro-gta-6",
+   "target": "tema:cortes-de-live"
+  },
+  {
+   "source": "2026-11-10-9-dias-pro-gta-6",
+   "target": "empresa:Rockstar Games"
+  },
+  {
+   "source": "2026-11-10-9-dias-pro-gta-6",
+   "target": "empresa:Take-Two"
+  },
+  {
+   "source": "2026-11-10-9-dias-pro-gta-6",
+   "target": "fonte:Rockstar Games (06/11/2025): GTA 6 em 19/11/2026"
+  },
+  {
+   "source": "2026-11-10-9-dias-pro-gta-6",
+   "target": "fonte:Guinness World Records: 90.421.491 views em 24 h"
+  },
+  {
+   "source": "2026-11-10-9-dias-pro-gta-6",
+   "target": "fonte:Take-Two (ago/2026): GTA V passou de 230 milhões"
+  },
+  {
    "source": "2026-11-10-a-ia-ganhou-nome",
    "target": "cta:VERAO"
   },
@@ -8718,6 +11749,10 @@
   {
    "source": "2026-11-10-animar-sem-saber",
    "target": "fonte:https://github.com/Tejashmakwana/motionmaxxing"
+  },
+  {
+   "source": "fonte:https://github.com/sarpstar/cinecode",
+   "target": "2026-11-17-ias-que-trabalham-por-voce"
   },
   {
    "source": "2026-11-10-apple-nao-queria",
@@ -8758,6 +11793,46 @@
   {
    "source": "2026-11-10-camera-sony-destravada",
    "target": "fonte:https://github.com/QAQLeonard/a7c2-tools"
+  },
+  {
+   "source": "2026-11-10-equipe-de-ia",
+   "target": "cta:EQUIPE"
+  },
+  {
+   "source": "2026-11-10-equipe-de-ia",
+   "target": "tema:equipe-de-ia"
+  },
+  {
+   "source": "2026-11-10-equipe-de-ia",
+   "target": "fonte:https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions"
+  },
+  {
+   "source": "2026-11-10-equipe-de-ia",
+   "target": "fonte:https://support.google.com/gemini/answer/15146780"
+  },
+  {
+   "source": "fonte:https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions",
+   "target": "2026-11-10-ia-configurada"
+  },
+  {
+   "source": "fonte:https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions",
+   "target": "2026-11-10-sua-ia-nao-te-conhece"
+  },
+  {
+   "source": "fonte:https://support.google.com/gemini/answer/15146780",
+   "target": "2026-11-10-ia-configurada"
+  },
+  {
+   "source": "fonte:https://support.google.com/gemini/answer/15146780",
+   "target": "2026-11-10-sua-ia-nao-te-conhece"
+  },
+  {
+   "source": "2026-11-10-ia-configurada",
+   "target": "cta:CONFIGURA"
+  },
+  {
+   "source": "2026-11-10-ia-configurada",
+   "target": "tema:ia-configurada"
   },
   {
    "source": "2026-11-10-ia-le-whatsapp",
@@ -8833,10 +11908,6 @@
   },
   {
    "source": "2026-11-10-pense-passo-a-passo",
-   "target": "fonte:https://arxiv.org/abs/2205.11916"
-  },
-  {
-   "source": "2026-11-10-pense-passo-a-passo",
    "target": "fonte:https://proceedings.neurips.cc/paper/2022/hash/8bb0d291acd4acf06ef112099c16f326-Abstract-Conference.html"
   },
   {
@@ -8886,6 +11957,14 @@
   {
    "source": "2026-11-10-samsung-vazou-no-chatgpt",
    "target": "fonte:https://help.openai.com/en/articles/7730893-data-controls-faq"
+  },
+  {
+   "source": "2026-11-10-sua-ia-nao-te-conhece",
+   "target": "cta:ASSISTENTE"
+  },
+  {
+   "source": "2026-11-10-sua-ia-nao-te-conhece",
+   "target": "tema:sua-ia-nao-te-conhece"
   },
   {
    "source": "2026-11-10-testa-seu-negocio",
@@ -8986,6 +12065,14 @@
   {
    "source": "2026-11-11-eliza-primeira-ia-terapeuta",
    "target": "fonte:https://99percentinvisible.org/episode/the-eliza-effect/transcript"
+  },
+  {
+   "source": "cta:ELIZA",
+   "target": "2026-11-17-eliza-o-primeiro-chatbot"
+  },
+  {
+   "source": "fonte:https://dl.acm.org/doi/10.1145/365153.365168",
+   "target": "2026-11-17-eliza-o-primeiro-chatbot"
   },
   {
    "source": "2026-11-11-ia-do-fim-do-mundo",
@@ -9092,6 +12179,18 @@
    "target": "fonte:https://github.com/cranebeaker/coop-anything"
   },
   {
+   "source": "fonte:https://github.com/thebcd69/bcd-games",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "fonte:https://github.com/raymondchins/Bridgeplay",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "fonte:https://github.com/cranebeaker/coop-anything",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
    "source": "2026-11-11-refazendo-todo-software",
    "target": "cta:TUDO"
   },
@@ -9132,6 +12231,22 @@
    "target": "fonte:https://www.engadget.com/blake-lemoide-fired-google-lamda-sentient-001746197.html"
   },
   {
+   "source": "2026-11-12-fable-5-2-tres-numeros",
+   "target": "cta:FABLE"
+  },
+  {
+   "source": "2026-11-12-fable-5-2-tres-numeros",
+   "target": "tema:fable-5-2-tres-numeros"
+  },
+  {
+   "source": "2026-11-12-fable-5-2-tres-numeros",
+   "target": "fonte:https://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price"
+  },
+  {
+   "source": "2026-11-12-fable-5-2-tres-numeros",
+   "target": "fonte:https://www.makeuseof.com/fable-52-is-here-and-these-claude-users-get-a-week-to-try-it-at-no-extra-cost/"
+  },
+  {
    "source": "2026-11-12-figurinhas-de-aves",
    "target": "cta:AVES"
   },
@@ -9142,6 +12257,66 @@
   {
    "source": "2026-11-12-figurinhas-de-aves",
    "target": "fonte:https://github.com/alchaincyf/huashu-bird-sticker"
+  },
+  {
+   "source": "2026-11-12-graphify-mapa",
+   "target": "formato:oficina 3D com dois personagens"
+  },
+  {
+   "source": "2026-11-12-graphify-mapa",
+   "target": "tema:graphify"
+  },
+  {
+   "source": "2026-11-12-graphify-mapa",
+   "target": "tema:tokens-claude"
+  },
+  {
+   "source": "2026-11-12-graphify-mapa",
+   "target": "fonte:github.com/safishamsi/graphify (README, licença MIT, 71,5x)"
+  },
+  {
+   "source": "2026-11-12-graphify-mapa",
+   "target": "fonte:Augment Code (30/06/2026): 74,8 mil estrelas"
+  },
+  {
+   "source": "2026-11-12-gta-6-sai-quinta",
+   "target": "cta:GTA"
+  },
+  {
+   "source": "2026-11-12-gta-6-sai-quinta",
+   "target": "tema:gta-6-sai-quinta"
+  },
+  {
+   "source": "2026-11-12-gta-6-sai-quinta",
+   "target": "fonte:https://www.mixvale.com.br/2026/10/15/gta-6-lancamento-em-19-de-novembro-de-2026-tera-versoes-para-ps5-e-xbox-series-a-partir-de-r-44990/"
+  },
+  {
+   "source": "2026-11-12-gta-6-sai-quinta",
+   "target": "fonte:https://savepoint.com.br/2026/10/24/gta-6-data-lancamento-preco-brasil-dublado/"
+  },
+  {
+   "source": "2026-11-12-gta-6-sai-quinta",
+   "target": "fonte:https://www.omelete.com.br/games/gta-6-ceo-da-take-two-confirma-mais-uma-vez-lancamento-em-2026"
+  },
+  {
+   "source": "cta:GTA",
+   "target": "2026-11-16-gta-fas-no-celular"
+  },
+  {
+   "source": "cta:GTA",
+   "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "source": "2026-11-12-ia-esquece-o-comeco",
+   "target": "cta:MOCHILA"
+  },
+  {
+   "source": "2026-11-12-ia-esquece-o-comeco",
+   "target": "tema:ia-esquece-o-comeco"
+  },
+  {
+   "source": "2026-11-12-ia-esquece-o-comeco",
+   "target": "fonte:https://platform.openai.com/docs/guides/conversation-state"
   },
   {
    "source": "2026-11-12-imagem-sai-do-chiado",
@@ -9196,6 +12371,26 @@
    "target": "fonte:https://github.com/datalab-to/indra"
   },
   {
+   "source": "cta:TEXTO",
+   "target": "2026-11-13-texto-com-cara-de-ia"
+  },
+  {
+   "source": "2026-11-12-padrinho-da-ia-saiu-do-google",
+   "target": "cta:PADRINHO"
+  },
+  {
+   "source": "2026-11-12-padrinho-da-ia-saiu-do-google",
+   "target": "tema:padrinho-da-ia-saiu-do-google"
+  },
+  {
+   "source": "2026-11-12-padrinho-da-ia-saiu-do-google",
+   "target": "fonte:https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html"
+  },
+  {
+   "source": "2026-11-12-padrinho-da-ia-saiu-do-google",
+   "target": "fonte:https://www.nobelprize.org/prizes/physics/2024/press-release/"
+  },
+  {
    "source": "2026-11-12-quadros-ganham-vida",
    "target": "cta:QUADRO"
   },
@@ -9244,6 +12439,10 @@
    "target": "fonte:https://github.com/KKKKhazix/agent-autoloop"
   },
   {
+   "source": "fonte:https://github.com/KKKKhazix/agent-autoloop",
+   "target": "2026-11-17-ias-que-trabalham-por-voce"
+  },
+  {
    "source": "2026-11-13-atendente-telefone-ia",
    "target": "cta:LIGA"
   },
@@ -9254,6 +12453,34 @@
   {
    "source": "2026-11-13-atendente-telefone-ia",
    "target": "fonte:https://github.com/C4rohan/Lampline"
+  },
+  {
+   "source": "2026-11-13-celular-na-tela-do-pc",
+   "target": "cta:ESPELHO"
+  },
+  {
+   "source": "2026-11-13-celular-na-tela-do-pc",
+   "target": "tema:celular-na-tela-do-pc"
+  },
+  {
+   "source": "2026-11-13-celular-na-tela-do-pc",
+   "target": "fonte:https://github.com/AkiChase/scrcpy-mask"
+  },
+  {
+   "source": "2026-11-13-celular-na-tela-do-pc",
+   "target": "fonte:https://github.com/NetrisTV/ws-scrcpy"
+  },
+  {
+   "source": "2026-11-13-celular-na-tela-do-pc",
+   "target": "fonte:https://github.com/SimonAKing/scrcpy-gui"
+  },
+  {
+   "source": "2026-11-13-celular-na-tela-do-pc",
+   "target": "fonte:https://github.com/barry-ran/QtScrcpy"
+  },
+  {
+   "source": "2026-11-13-celular-na-tela-do-pc",
+   "target": "fonte:https://github.com/Genymobile/scrcpy"
   },
   {
    "source": "2026-11-13-corrida-sem-motorista",
@@ -9270,6 +12497,110 @@
   {
    "source": "2026-11-13-corrida-sem-motorista",
    "target": "fonte:https://www.rdworldonline.com/darpa-grand-challenge-at-21-two-decades-ago-driverless-vehicles-made-history-in-the-mojave-desert/"
+  },
+  {
+   "source": "2026-11-13-eua-pararam-os-voos",
+   "target": "pilar:notícia"
+  },
+  {
+   "source": "2026-11-13-eua-pararam-os-voos",
+   "target": "formato:reel contagem (padrão perfil referência)"
+  },
+  {
+   "source": "2026-11-13-eua-pararam-os-voos",
+   "target": "cta:VOO"
+  },
+  {
+   "source": "2026-11-13-eua-pararam-os-voos",
+   "target": "tema:voos"
+  },
+  {
+   "source": "2026-11-13-eua-pararam-os-voos",
+   "target": "tema:EUA"
+  },
+  {
+   "source": "2026-11-13-eua-pararam-os-voos",
+   "target": "tema:FAA"
+  },
+  {
+   "source": "2026-11-13-eua-pararam-os-voos",
+   "target": "tema:pane"
+  },
+  {
+   "source": "2026-11-13-eua-pararam-os-voos",
+   "target": "fonte:https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+  },
+  {
+   "source": "2026-11-13-eua-pararam-os-voos",
+   "target": "fonte:https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140"
+  },
+  {
+   "source": "2026-11-13-eua-pararam-os-voos",
+   "target": "fonte:https://www.nbcnews.com/news/us-news/live-blog/live-updates-flights-grounded-faa-communications-outage-rcna609268"
+  },
+  {
+   "source": "2026-11-13-eua-pararam-os-voos",
+   "target": "fonte:https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/"
+  },
+  {
+   "source": "2026-11-13-eua-pararam-os-voos",
+   "target": "fonte:https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+  },
+  {
+   "source": "2026-11-13-eua-pararam-os-voos",
+   "target": "rede:story"
+  },
+  {
+   "source": "pilar:notícia",
+   "target": "2026-11-16-nvidia-perdeu-o-chefe"
+  },
+  {
+   "source": "rede:story",
+   "target": "2026-11-16-app-completo-com-ia"
+  },
+  {
+   "source": "2026-11-13-google-fotos-lotou",
+   "target": "cta:FOTOS"
+  },
+  {
+   "source": "2026-11-13-google-fotos-lotou",
+   "target": "tema:google-fotos-lotou"
+  },
+  {
+   "source": "2026-11-13-google-fotos-lotou",
+   "target": "fonte:https://github.com/damongolding/immich-kiosk"
+  },
+  {
+   "source": "2026-11-13-google-fotos-lotou",
+   "target": "fonte:https://github.com/immichFrame/ImmichFrame"
+  },
+  {
+   "source": "2026-11-13-google-fotos-lotou",
+   "target": "fonte:https://github.com/simulot/immich-go"
+  },
+  {
+   "source": "2026-11-13-google-fotos-lotou",
+   "target": "fonte:https://github.com/photoprism/photoprism"
+  },
+  {
+   "source": "2026-11-13-google-fotos-lotou",
+   "target": "fonte:https://github.com/immich-app/immich"
+  },
+  {
+   "source": "2026-11-13-ia-aprendeu-a-ver",
+   "target": "cta:VISAO"
+  },
+  {
+   "source": "2026-11-13-ia-aprendeu-a-ver",
+   "target": "tema:ia-aprendeu-a-ver"
+  },
+  {
+   "source": "2026-11-13-ia-aprendeu-a-ver",
+   "target": "fonte:https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf"
+  },
+  {
+   "source": "2026-11-13-ia-aprendeu-a-ver",
+   "target": "fonte:https://image-net.org/challenges/LSVRC/2012/results.html"
   },
   {
    "source": "2026-11-13-ia-enrola-demais",
@@ -9322,6 +12653,34 @@
   {
    "source": "2026-11-13-ia-puxa-saco",
    "target": "fonte:https://venturebeat.com/ai/openai-rolls-back-chatgpts-sycophancy-and-explains-what-went-wrong"
+  },
+  {
+   "source": "2026-11-13-jogos-do-pc-no-celular",
+   "target": "cta:CONSOLE"
+  },
+  {
+   "source": "2026-11-13-jogos-do-pc-no-celular",
+   "target": "tema:jogos-do-pc-no-celular"
+  },
+  {
+   "source": "2026-11-13-jogos-do-pc-no-celular",
+   "target": "fonte:https://github.com/MrCreativ3001/moonlight-web-stream"
+  },
+  {
+   "source": "2026-11-13-jogos-do-pc-no-celular",
+   "target": "fonte:https://github.com/moonlight-stream/moonlight-ios"
+  },
+  {
+   "source": "2026-11-13-jogos-do-pc-no-celular",
+   "target": "fonte:https://github.com/moonlight-stream/moonlight-android"
+  },
+  {
+   "source": "2026-11-13-jogos-do-pc-no-celular",
+   "target": "fonte:https://github.com/moonlight-stream/moonlight-qt"
+  },
+  {
+   "source": "2026-11-13-jogos-do-pc-no-celular",
+   "target": "fonte:https://github.com/SunshineStream/Sunshine"
   },
   {
    "source": "2026-11-13-linux-em-todo-lugar",
@@ -9386,6 +12745,34 @@
   {
    "source": "2026-11-13-placas-de-10-dolares",
    "target": "fonte:https://github.com/andrisgauracs/wifi-sensing-kit"
+  },
+  {
+   "source": "cta:PLACA",
+   "target": "2026-11-16-por-que-a-placa-de-video-roda-ia"
+  },
+  {
+   "source": "2026-11-13-texto-com-cara-de-ia",
+   "target": "tema:texto-com-cara-de-ia"
+  },
+  {
+   "source": "2026-11-13-texto-com-cara-de-ia",
+   "target": "fonte:https://github.com/Dodaios/ste80-humanizer"
+  },
+  {
+   "source": "2026-11-13-texto-com-cara-de-ia",
+   "target": "fonte:https://github.com/harshaneel/humanize"
+  },
+  {
+   "source": "2026-11-13-texto-com-cara-de-ia",
+   "target": "fonte:https://github.com/theclaymethod/unslop"
+  },
+  {
+   "source": "2026-11-13-texto-com-cara-de-ia",
+   "target": "fonte:https://github.com/lynote-ai/humanize-text"
+  },
+  {
+   "source": "2026-11-13-texto-com-cara-de-ia",
+   "target": "fonte:https://github.com/blader/humanizer"
   },
   {
    "source": "2026-11-14-3d-sem-saber",
@@ -9462,6 +12849,10 @@
   {
    "source": "2026-11-14-comercial-com-trilha",
    "target": "fonte:https://github.com/alchaincyf/huashu-motion"
+  },
+  {
+   "source": "fonte:https://github.com/alchaincyf/huashu-motion",
+   "target": "2026-11-17-ias-que-trabalham-por-voce"
   },
   {
    "source": "2026-11-14-ia-liga-pra-voce",
@@ -9666,6 +13057,938 @@
   {
    "source": "2026-11-15-skills-video-explicativo",
    "target": "fonte:https://github.com/HeyChengC/vibe-knowledge-film"
+  },
+  {
+   "source": "2026-11-16-5-coisas-que-a-ia-faz-por-voce",
+   "target": "tema:5-coisas-que-a-ia-faz-por-voce"
+  },
+  {
+   "source": "2026-11-16-5-coisas-que-a-ia-faz-por-voce",
+   "target": "fonte:https://www.ftc.gov/business-guidance/small-businesses/cybersecurity/phishing"
+  },
+  {
+   "source": "2026-11-16-app-completo-com-ia",
+   "target": "formato:formato 4 longo (cadeia inteira), cena_app (motion graphics neon)"
+  },
+  {
+   "source": "2026-11-16-app-completo-com-ia",
+   "target": "cta:CAMINHO"
+  },
+  {
+   "source": "2026-11-16-app-completo-com-ia",
+   "target": "tema:app-completo-com-ia"
+  },
+  {
+   "source": "2026-11-16-app-completo-com-ia",
+   "target": "fonte:https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server"
+  },
+  {
+   "source": "2026-11-16-app-completo-com-ia",
+   "target": "fonte:https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name"
+  },
+  {
+   "source": "2026-11-16-app-completo-com-ia",
+   "target": "fonte:https://developer.mozilla.org/en-US/docs/Glossary/DNS"
+  },
+  {
+   "source": "2026-11-16-app-completo-com-ia",
+   "target": "fonte:https://developer.mozilla.org/en-US/docs/Glossary/Hash_function"
+  },
+  {
+   "source": "2026-11-16-app-completo-com-ia",
+   "target": "fonte:https://docs.stripe.com/webhooks"
+  },
+  {
+   "source": "2026-11-16-app-completo-com-ia",
+   "target": "fonte:https://docs.stripe.com/security"
+  },
+  {
+   "source": "fonte:https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server",
+   "target": "2026-11-16-serie-app-01-app"
+  },
+  {
+   "source": "fonte:https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_web_server",
+   "target": "2026-11-16-serie-app-02-deploy"
+  },
+  {
+   "source": "fonte:https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/What_is_a_domain_name",
+   "target": "2026-11-16-serie-app-03-dominio"
+  },
+  {
+   "source": "fonte:https://developer.mozilla.org/en-US/docs/Glossary/DNS",
+   "target": "2026-11-16-serie-app-03-dominio"
+  },
+  {
+   "source": "2026-11-16-gta-fas-no-celular",
+   "target": "formato:contagem (formato 3)"
+  },
+  {
+   "source": "2026-11-16-gta-fas-no-celular",
+   "target": "tema:GTA"
+  },
+  {
+   "source": "2026-11-16-gta-fas-no-celular",
+   "target": "tema:celular"
+  },
+  {
+   "source": "2026-11-16-gta-fas-no-celular",
+   "target": "tema:console"
+  },
+  {
+   "source": "2026-11-16-gta-fas-no-celular",
+   "target": "tema:PC"
+  },
+  {
+   "source": "2026-11-16-gta-fas-no-celular",
+   "target": "fonte:https://github.com/mempage4k/glue5"
+  },
+  {
+   "source": "2026-11-16-gta-fas-no-celular",
+   "target": "fonte:https://github.com/SebasKitten/Grand-V"
+  },
+  {
+   "source": "2026-11-16-gta-fas-no-celular",
+   "target": "fonte:https://github.com/gothamor/gta-vcs-recomp"
+  },
+  {
+   "source": "2026-11-16-gta-fas-no-celular",
+   "target": "fonte:https://github.com/c22dev/muguet"
+  },
+  {
+   "source": "2026-11-16-gta-fas-no-celular",
+   "target": "fonte:https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-16-nvidia-nasceu-numa-lanchonete"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-16-por-que-a-ia-responde-diferente"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-16-por-que-a-placa-de-video-roda-ia"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-16-tv-sem-propaganda-lg-samsung"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-17-5-coisas-ia-golpe"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-17-a-ia-tem-um-chefe-invisivel"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-17-clipe-do-word"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-17-eliza-o-primeiro-chatbot"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-17-gta6-5-fatos-meia-noite"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-17-ias-que-trabalham-por-voce"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-17-por-que-a-ia-erra-letras-de-morango"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-18-gta6-5-numeros-e-curiosidades"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-18-por-que-a-ia-fica-lenta"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-18-por-que-ia-de-imagem-erra-a-mao"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-19-4-jogos-nintendo-no-pc"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-19-fantasmas-do-pac-man"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-19-por-que-o-jogo-trava-no-lancamento"
+  },
+  {
+   "source": "formato:contagem (formato 3)",
+   "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-16-tv-sem-propaganda-lg-samsung"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-17-ias-que-trabalham-por-voce"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "tema:console",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-16-por-que-a-placa-de-video-roda-ia"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-17-ias-que-trabalham-por-voce"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-19-4-jogos-nintendo-no-pc"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
+  },
+  {
+   "source": "fonte:https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+   "target": "2026-11-17-gta6-5-fatos-meia-noite"
+  },
+  {
+   "source": "fonte:https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+   "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "fonte:https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+   "target": "2026-11-18-gta6-5-numeros-e-curiosidades"
+  },
+  {
+   "source": "2026-11-16-ia-perigosa-demais-pra-lancar",
+   "target": "cta:PERIGO"
+  },
+  {
+   "source": "2026-11-16-ia-perigosa-demais-pra-lancar",
+   "target": "tema:ia-perigosa-demais-pra-lancar"
+  },
+  {
+   "source": "2026-11-16-ia-perigosa-demais-pra-lancar",
+   "target": "fonte:https://openai.com/index/better-language-models/"
+  },
+  {
+   "source": "2026-11-16-ia-perigosa-demais-pra-lancar",
+   "target": "fonte:https://thenextweb.com/artificial-intelligence/2019/11/05/remember-that-scary-ai-text-generator-that-was-too-dangerous-to-release-its-out-now/"
+  },
+  {
+   "source": "2026-11-16-ia-usa-seu-celular",
+   "target": "cta:SOZINHA"
+  },
+  {
+   "source": "2026-11-16-ia-usa-seu-celular",
+   "target": "tema:ia-usa-seu-celular"
+  },
+  {
+   "source": "2026-11-16-ia-usa-seu-celular",
+   "target": "fonte:https://github.com/DIYgod/pinky"
+  },
+  {
+   "source": "2026-11-16-ia-usa-seu-celular",
+   "target": "fonte:https://github.com/JosssphZhou/poki"
+  },
+  {
+   "source": "fonte:https://github.com/DIYgod/pinky",
+   "target": "2026-11-17-ias-que-trabalham-por-voce"
+  },
+  {
+   "source": "2026-11-16-nvidia-nasceu-numa-lanchonete",
+   "target": "cta:DENNYS"
+  },
+  {
+   "source": "2026-11-16-nvidia-nasceu-numa-lanchonete",
+   "target": "tema:Nvidia"
+  },
+  {
+   "source": "2026-11-16-nvidia-nasceu-numa-lanchonete",
+   "target": "tema:história"
+  },
+  {
+   "source": "2026-11-16-nvidia-nasceu-numa-lanchonete",
+   "target": "tema:GPU"
+  },
+  {
+   "source": "2026-11-16-nvidia-nasceu-numa-lanchonete",
+   "target": "tema:AlexNet"
+  },
+  {
+   "source": "2026-11-16-nvidia-nasceu-numa-lanchonete",
+   "target": "fonte:https://en.wikipedia.org/wiki/Nvidia"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-16-nvidia-perdeu-o-chefe"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-17-clipe-do-word"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-17-eliza-o-primeiro-chatbot"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-19-fantasmas-do-pac-man"
+  },
+  {
+   "source": "tema:GPU",
+   "target": "2026-11-16-por-que-a-placa-de-video-roda-ia"
+  },
+  {
+   "source": "2026-11-16-nvidia-perdeu-o-chefe",
+   "target": "formato:reel notícia (padrão perfil referência)"
+  },
+  {
+   "source": "2026-11-16-nvidia-perdeu-o-chefe",
+   "target": "cta:NVIDIA"
+  },
+  {
+   "source": "2026-11-16-nvidia-perdeu-o-chefe",
+   "target": "tema:Jensen Huang"
+  },
+  {
+   "source": "2026-11-16-nvidia-perdeu-o-chefe",
+   "target": "tema:big tech"
+  },
+  {
+   "source": "2026-11-16-nvidia-perdeu-o-chefe",
+   "target": "empresa:Nvidia"
+  },
+  {
+   "source": "2026-11-16-nvidia-perdeu-o-chefe",
+   "target": "fonte:https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+  },
+  {
+   "source": "2026-11-16-nvidia-perdeu-o-chefe",
+   "target": "fonte:https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
+  },
+  {
+   "source": "2026-11-16-nvidia-perdeu-o-chefe",
+   "target": "fonte:https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html"
+  },
+  {
+   "source": "2026-11-16-nvidia-perdeu-o-chefe",
+   "target": "fonte:https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout"
+  },
+  {
+   "source": "2026-11-16-nvidia-perdeu-o-chefe",
+   "target": "fonte:https://www.usnews.com/news/top-news/articles/2026-11-12/us-justice-department-has-not-concluded-alice-huang-was-chinese-spy-blanche-says"
+  },
+  {
+   "source": "2026-11-16-o-que-todo-site-sabe-de-voce",
+   "target": "cta:RASTRO"
+  },
+  {
+   "source": "2026-11-16-o-que-todo-site-sabe-de-voce",
+   "target": "tema:o-que-todo-site-sabe-de-voce"
+  },
+  {
+   "source": "2026-11-16-o-que-todo-site-sabe-de-voce",
+   "target": "fonte:https://github.com/yt1988/who-are-you"
+  },
+  {
+   "source": "2026-11-16-o-que-todo-site-sabe-de-voce",
+   "target": "fonte:https://coveryourtracks.eff.org/"
+  },
+  {
+   "source": "2026-11-16-o-que-todo-site-sabe-de-voce",
+   "target": "fonte:https://developer.mozilla.org/en-US/docs/Web/API/Navigator"
+  },
+  {
+   "source": "2026-11-16-o-que-todo-site-sabe-de-voce",
+   "target": "fonte:https://developer.mozilla.org/en-US/docs/Web/API/WEBGL_debug_renderer_info"
+  },
+  {
+   "source": "2026-11-16-o-que-todo-site-sabe-de-voce",
+   "target": "fonte:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/resolvedOptions"
+  },
+  {
+   "source": "2026-11-16-pergunta-gasta-um-forno",
+   "target": "cta:FORNO"
+  },
+  {
+   "source": "2026-11-16-pergunta-gasta-um-forno",
+   "target": "tema:pergunta-gasta-um-forno"
+  },
+  {
+   "source": "2026-11-16-pergunta-gasta-um-forno",
+   "target": "fonte:https://www.datacenterdynamics.com/en/news/sam-altman-chatgpt-queries-consume-034-watt-hours-of-electricity-and-0000085-gallons-of-water/"
+  },
+  {
+   "source": "2026-11-16-por-que-a-ia-responde-diferente",
+   "target": "cta:DADO"
+  },
+  {
+   "source": "2026-11-16-por-que-a-ia-responde-diferente",
+   "target": "tema:temperatura"
+  },
+  {
+   "source": "2026-11-16-por-que-a-ia-responde-diferente",
+   "target": "tema:dado"
+  },
+  {
+   "source": "2026-11-16-por-que-a-ia-responde-diferente",
+   "target": "tema:IA"
+  },
+  {
+   "source": "2026-11-16-por-que-a-ia-responde-diferente",
+   "target": "fonte:https://platform.openai.com/docs/api-reference/chat/create"
+  },
+  {
+   "source": "2026-11-16-por-que-a-ia-responde-diferente",
+   "target": "fonte:https://docs.anthropic.com/en/api/messages"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-17-a-ia-tem-um-chefe-invisivel"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-18-por-que-a-ia-fica-lenta"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-18-por-que-ia-de-imagem-erra-a-mao"
+  },
+  {
+   "source": "2026-11-16-por-que-a-placa-de-video-roda-ia",
+   "target": "tema:placa de vídeo"
+  },
+  {
+   "source": "2026-11-16-por-que-a-placa-de-video-roda-ia",
+   "target": "fonte:https://en.wikipedia.org/wiki/Graphics_processing_unit"
+  },
+  {
+   "source": "2026-11-16-por-que-a-placa-de-video-roda-ia",
+   "target": "fonte:https://docs.nvidia.com/cuda/cuda-c-programming-guide/"
+  },
+  {
+   "source": "2026-11-16-serie-app-01-app",
+   "target": "formato:formato 4 (série em peças)"
+  },
+  {
+   "source": "2026-11-16-serie-app-01-app",
+   "target": "cta:PEÇA"
+  },
+  {
+   "source": "2026-11-16-serie-app-01-app",
+   "target": "tema:serie-app-01-app"
+  },
+  {
+   "source": "formato:formato 4 (série em peças)",
+   "target": "2026-11-16-serie-app-02-deploy"
+  },
+  {
+   "source": "formato:formato 4 (série em peças)",
+   "target": "2026-11-16-serie-app-03-dominio"
+  },
+  {
+   "source": "cta:PEÇA",
+   "target": "2026-11-16-serie-app-02-deploy"
+  },
+  {
+   "source": "cta:PEÇA",
+   "target": "2026-11-16-serie-app-03-dominio"
+  },
+  {
+   "source": "2026-11-16-serie-app-02-deploy",
+   "target": "tema:serie-app-02-deploy"
+  },
+  {
+   "source": "2026-11-16-serie-app-02-deploy",
+   "target": "fonte:https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/Publishing_your_website"
+  },
+  {
+   "source": "2026-11-16-serie-app-03-dominio",
+   "target": "tema:serie-app-03-dominio"
+  },
+  {
+   "source": "2026-11-16-treinar-custa-milhoes",
+   "target": "cta:FICHA"
+  },
+  {
+   "source": "2026-11-16-treinar-custa-milhoes",
+   "target": "tema:treinar-custa-milhoes"
+  },
+  {
+   "source": "2026-11-16-treinar-custa-milhoes",
+   "target": "fonte:https://hai.stanford.edu/ai-index/2024-ai-index-report"
+  },
+  {
+   "source": "2026-11-16-treinar-custa-milhoes",
+   "target": "fonte:https://aiindex.stanford.edu/wp-content/uploads/2024/05/HAI_AI-Index-Report-2024.pdf"
+  },
+  {
+   "source": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "target": "cta:TELA"
+  },
+  {
+   "source": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "target": "tema:TV"
+  },
+  {
+   "source": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "target": "tema:projetos"
+  },
+  {
+   "source": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "target": "tema:propaganda"
+  },
+  {
+   "source": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "target": "tema:Android TV"
+  },
+  {
+   "source": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "target": "tema:o que a fabricante não queria"
+  },
+  {
+   "source": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "target": "fonte:https://github.com/humblemuzzu/dumbtv"
+  },
+  {
+   "source": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "target": "fonte:https://github.com/man15h/tellyscope"
+  },
+  {
+   "source": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "target": "fonte:https://github.com/udhaykumarbala/cleanyourtv-app"
+  },
+  {
+   "source": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "target": "fonte:https://github.com/simbasjungles/free-my-tv"
+  },
+  {
+   "source": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "target": "fonte:https://github.com/pengchujin/aerial-tv"
+  },
+  {
+   "source": "tema:projetos",
+   "target": "2026-11-17-ias-que-trabalham-por-voce"
+  },
+  {
+   "source": "tema:projetos",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "2026-11-17-5-coisas-ia-golpe",
+   "target": "tema:assistente"
+  },
+  {
+   "source": "2026-11-17-5-coisas-ia-golpe",
+   "target": "tema:kit"
+  },
+  {
+   "source": "2026-11-17-5-coisas-ia-golpe",
+   "target": "tema:golpe"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "tema:kit",
+   "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "tema:golpe",
+   "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "2026-11-17-a-ia-tem-um-chefe-invisivel",
+   "target": "cta:CHEFE"
+  },
+  {
+   "source": "2026-11-17-a-ia-tem-um-chefe-invisivel",
+   "target": "tema:prompt de sistema"
+  },
+  {
+   "source": "2026-11-17-a-ia-tem-um-chefe-invisivel",
+   "target": "tema:papel"
+  },
+  {
+   "source": "2026-11-17-a-ia-tem-um-chefe-invisivel",
+   "target": "fonte:https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts"
+  },
+  {
+   "source": "2026-11-17-clipe-do-word",
+   "target": "tema:Word"
+  },
+  {
+   "source": "2026-11-17-clipe-do-word",
+   "target": "tema:Clippy"
+  },
+  {
+   "source": "2026-11-17-clipe-do-word",
+   "target": "tema:Microsoft"
+  },
+  {
+   "source": "2026-11-17-clipe-do-word",
+   "target": "fonte:https://en.wikipedia.org/wiki/Office_Assistant"
+  },
+  {
+   "source": "2026-11-17-clipe-do-word",
+   "target": "fonte:https://en.wikipedia.org/wiki/Clippy"
+  },
+  {
+   "source": "2026-11-17-eliza-o-primeiro-chatbot",
+   "target": "tema:ELIZA"
+  },
+  {
+   "source": "2026-11-17-eliza-o-primeiro-chatbot",
+   "target": "tema:chatbot"
+  },
+  {
+   "source": "2026-11-17-eliza-o-primeiro-chatbot",
+   "target": "tema:MIT"
+  },
+  {
+   "source": "2026-11-17-eliza-o-primeiro-chatbot",
+   "target": "fonte:https://en.wikipedia.org/wiki/ELIZA"
+  },
+  {
+   "source": "2026-11-17-gta6-5-fatos-meia-noite",
+   "target": "cta:GTA6"
+  },
+  {
+   "source": "2026-11-17-gta6-5-fatos-meia-noite",
+   "target": "tema:GTA 6"
+  },
+  {
+   "source": "2026-11-17-gta6-5-fatos-meia-noite",
+   "target": "tema:lançamento"
+  },
+  {
+   "source": "2026-11-17-gta6-5-fatos-meia-noite",
+   "target": "fonte:https://www.terra.com.br/byte/rockstar-define-horario-de-lancamento-de-gta-6-no-brasil,9c7a2350108c3b419e3b9195af134c642d7ssmyk.html"
+  },
+  {
+   "source": "2026-11-17-gta6-5-fatos-meia-noite",
+   "target": "fonte:https://www.terra.com.br/byte/rockstar-finaliza-desenvolvimento-de-gta-6-dias-antes-do-lancamento,16a5a31a0e5fdb2ac7ee3db53d4ddcdc0qnh4ych.html"
+  },
+  {
+   "source": "cta:GTA6",
+   "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "tema:GTA 6",
+   "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "tema:GTA 6",
+   "target": "2026-11-18-gta6-5-numeros-e-curiosidades"
+  },
+  {
+   "source": "tema:GTA 6",
+   "target": "2026-11-19-por-que-o-jogo-trava-no-lancamento"
+  },
+  {
+   "source": "tema:GTA 6",
+   "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "source": "tema:lançamento",
+   "target": "2026-11-19-por-que-o-jogo-trava-no-lancamento"
+  },
+  {
+   "source": "fonte:https://www.terra.com.br/byte/rockstar-define-horario-de-lancamento-de-gta-6-no-brasil,9c7a2350108c3b419e3b9195af134c642d7ssmyk.html",
+   "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "fonte:https://www.terra.com.br/byte/rockstar-define-horario-de-lancamento-de-gta-6-no-brasil,9c7a2350108c3b419e3b9195af134c642d7ssmyk.html",
+   "target": "2026-11-18-gta6-5-numeros-e-curiosidades"
+  },
+  {
+   "source": "fonte:https://www.terra.com.br/byte/rockstar-define-horario-de-lancamento-de-gta-6-no-brasil,9c7a2350108c3b419e3b9195af134c642d7ssmyk.html",
+   "target": "2026-11-19-por-que-o-jogo-trava-no-lancamento"
+  },
+  {
+   "source": "fonte:https://www.terra.com.br/byte/rockstar-finaliza-desenvolvimento-de-gta-6-dias-antes-do-lancamento,16a5a31a0e5fdb2ac7ee3db53d4ddcdc0qnh4ych.html",
+   "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "2026-11-17-ias-que-trabalham-por-voce",
+   "target": "cta:ROBO"
+  },
+  {
+   "source": "2026-11-17-ias-que-trabalham-por-voce",
+   "target": "tema:agentes"
+  },
+  {
+   "source": "2026-11-17-ias-que-trabalham-por-voce",
+   "target": "tema:IA trabalha por você"
+  },
+  {
+   "source": "2026-11-17-ias-que-trabalham-por-voce",
+   "target": "tema:automação"
+  },
+  {
+   "source": "2026-11-17-ias-que-trabalham-por-voce",
+   "target": "fonte:https://github.com/FrigadeHQ/yogurt"
+  },
+  {
+   "source": "2026-11-17-jogos-no-celular-e-no-mac",
+   "target": "cta:JOGOS"
+  },
+  {
+   "source": "2026-11-17-jogos-no-celular-e-no-mac",
+   "target": "tema:Mac"
+  },
+  {
+   "source": "2026-11-17-jogos-no-celular-e-no-mac",
+   "target": "tema:Switch"
+  },
+  {
+   "source": "2026-11-17-jogos-no-celular-e-no-mac",
+   "target": "tema:PlayStation"
+  },
+  {
+   "source": "2026-11-17-jogos-no-celular-e-no-mac",
+   "target": "fonte:https://github.com/jhaizhou-ops/S2Arm"
+  },
+  {
+   "source": "2026-11-17-por-que-a-ia-erra-letras-de-morango",
+   "target": "cta:MORANGO"
+  },
+  {
+   "source": "2026-11-17-por-que-a-ia-erra-letras-de-morango",
+   "target": "tema:tokens"
+  },
+  {
+   "source": "2026-11-17-por-que-a-ia-erra-letras-de-morango",
+   "target": "tema:morango"
+  },
+  {
+   "source": "2026-11-17-por-que-a-ia-erra-letras-de-morango",
+   "target": "tema:IA erra"
+  },
+  {
+   "source": "2026-11-17-por-que-a-ia-erra-letras-de-morango",
+   "target": "fonte:https://platform.openai.com/tokenizer"
+  },
+  {
+   "source": "2026-11-17-por-que-a-ia-erra-letras-de-morango",
+   "target": "fonte:https://en.wikipedia.org/wiki/Large_language_model"
+  },
+  {
+   "source": "2026-11-18-gta6-5-coisas-antes-da-meia-noite",
+   "target": "tema:checklist"
+  },
+  {
+   "source": "2026-11-18-gta6-5-numeros-e-curiosidades",
+   "target": "cta:VICE"
+  },
+  {
+   "source": "2026-11-18-gta6-5-numeros-e-curiosidades",
+   "target": "tema:mapa"
+  },
+  {
+   "source": "2026-11-18-gta6-5-numeros-e-curiosidades",
+   "target": "tema:curiosidades"
+  },
+  {
+   "source": "2026-11-18-gta6-5-numeros-e-curiosidades",
+   "target": "fonte:https://metropoles.com/colunas/metropoles-games/gta-6-bate-recorde-historico-antes-do-lancamento"
+  },
+  {
+   "source": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota",
+   "target": "cta:DOTA"
+  },
+  {
+   "source": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota",
+   "target": "tema:Dota 2"
+  },
+  {
+   "source": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota",
+   "target": "tema:OpenAI Five"
+  },
+  {
+   "source": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota",
+   "target": "fonte:https://openai.com/index/openai-five-defeats-dota-2-world-champions/"
+  },
+  {
+   "source": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota",
+   "target": "fonte:https://en.wikipedia.org/wiki/OpenAI_Five"
+  },
+  {
+   "source": "2026-11-18-por-que-a-ia-fica-lenta",
+   "target": "cta:FILA"
+  },
+  {
+   "source": "2026-11-18-por-que-a-ia-fica-lenta",
+   "target": "tema:fila"
+  },
+  {
+   "source": "2026-11-18-por-que-a-ia-fica-lenta",
+   "target": "tema:lentidão"
+  },
+  {
+   "source": "2026-11-18-por-que-a-ia-fica-lenta",
+   "target": "fonte:https://en.wikipedia.org/wiki/Queueing_theory"
+  },
+  {
+   "source": "2026-11-18-por-que-ia-de-imagem-erra-a-mao",
+   "target": "cta:MAO"
+  },
+  {
+   "source": "2026-11-18-por-que-ia-de-imagem-erra-a-mao",
+   "target": "tema:mão"
+  },
+  {
+   "source": "2026-11-18-por-que-ia-de-imagem-erra-a-mao",
+   "target": "tema:imagem"
+  },
+  {
+   "source": "2026-11-18-por-que-ia-de-imagem-erra-a-mao",
+   "target": "fonte:https://en.wikipedia.org/wiki/Text-to-image_model"
+  },
+  {
+   "source": "2026-11-19-4-jogos-nintendo-no-pc",
+   "target": "cta:RECOMP"
+  },
+  {
+   "source": "2026-11-19-4-jogos-nintendo-no-pc",
+   "target": "tema:recompilação"
+  },
+  {
+   "source": "2026-11-19-4-jogos-nintendo-no-pc",
+   "target": "fonte:https://github.com/Dittobyte/Recompia"
+  },
+  {
+   "source": "2026-11-19-4-jogos-nintendo-no-pc",
+   "target": "fonte:https://github.com/kuraeow/ultratears"
+  },
+  {
+   "source": "2026-11-19-4-jogos-nintendo-no-pc",
+   "target": "fonte:https://github.com/Revivedx/SavageWindRecomp"
+  },
+  {
+   "source": "2026-11-19-5-coisas-ia-contas-da-casa",
+   "target": "tema:contas"
+  },
+  {
+   "source": "2026-11-19-fantasmas-do-pac-man",
+   "target": "cta:FANTASMA"
+  },
+  {
+   "source": "2026-11-19-fantasmas-do-pac-man",
+   "target": "tema:Pac-Man"
+  },
+  {
+   "source": "2026-11-19-fantasmas-do-pac-man",
+   "target": "tema:IA em jogos"
+  },
+  {
+   "source": "2026-11-19-fantasmas-do-pac-man",
+   "target": "fonte:https://pacman.holenet.info/"
+  },
+  {
+   "source": "2026-11-19-fantasmas-do-pac-man",
+   "target": "fonte:https://en.wikipedia.org/wiki/Pac-Man"
+  },
+  {
+   "source": "2026-11-19-por-que-o-jogo-trava-no-lancamento",
+   "target": "cta:SERVIDOR"
+  },
+  {
+   "source": "2026-11-19-por-que-o-jogo-trava-no-lancamento",
+   "target": "tema:servidor"
+  },
+  {
+   "source": "2026-11-19-por-que-o-jogo-trava-no-lancamento",
+   "target": "fonte:https://en.wikipedia.org/wiki/Server_(computing)"
+  },
+  {
+   "source": "2026-11-19-ps5-grava-seu-gta-6",
+   "target": "tema:clipes"
+  },
+  {
+   "source": "2026-11-19-ps5-grava-seu-gta-6",
+   "target": "tema:PS5"
+  },
+  {
+   "source": "2026-11-19-ps5-grava-seu-gta-6",
+   "target": "fonte:https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+  },
+  {
+   "source": "2026-11-19-ps5-grava-seu-gta-6",
+   "target": "fonte:https://www.tweaktown.com/news/76220/ps5-can-capture-up-to-1-hour-of-4k-gameplay-video-with-create-button/index.html"
+  },
+  {
+   "source": "2026-11-19-ps5-grava-seu-gta-6",
+   "target": "fonte:https://www.digitaltrends.com/gaming/how-to-record-gameplay-on-a-ps5"
+  },
+  {
+   "source": "2026-11-19-ps5-grava-seu-gta-6",
+   "target": "fonte:https://github.com/WyattBlue/auto-editor"
+  },
+  {
+   "source": "2026-11-19-ps5-grava-seu-gta-6",
+   "target": "fonte:https://github.com/RafaelGodoyEbert/ViralCutter"
+  },
+  {
+   "source": "2026-11-19-ps5-grava-seu-gta-6",
+   "target": "fonte:https://github.com/artbyjazi/autoclip"
+  },
+  {
+   "source": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter",
+   "target": "tema:Windows"
+  },
+  {
+   "source": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter",
+   "target": "fonte:https://github.com/oinkvm/oink"
+  },
+  {
+   "source": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter",
+   "target": "fonte:https://github.com/shanselman/gputaskman"
+  },
+  {
+   "source": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter",
+   "target": "fonte:https://github.com/anefzaoui/misterdownloadmanager"
   }
  ]
 }
