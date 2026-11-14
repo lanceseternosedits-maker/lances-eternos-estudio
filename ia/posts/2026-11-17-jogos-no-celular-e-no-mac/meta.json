@@ -35,10 +35,26 @@
   "veredito": "ajustado",
   "resumo": "sem \"de graça\" pro jogo; aviso legal na fala",
   "pareceres": [
-   "vitor: ajustar (tirar Steam/GOG, explicar o nº 1)",
-   "fatos: ajustar (jogo você precisa ter; ordem por estrelas)",
-   "gancho: ajustar (etiqueta de conflito, pergunta de vida)",
-   "clareza: ajustar (falas curtas, sem \"nativos\")"
+   {
+    "revisor": "vitor",
+    "veredito": "ajustar",
+    "nota": "Tirar Steam/GOG e explicar o nº 1."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "O jogo você precisa ter; ordem por estrelas."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Etiqueta de conflito e pergunta de vida."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "Falas curtas, sem \"nativos\"."
+   }
   ],
   "obs": "2ª volta não rodada por economia de tokens; ajustes aplicados conforme os 4 pareceres"
  }

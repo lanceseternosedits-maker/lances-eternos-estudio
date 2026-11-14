@@ -33,10 +33,26 @@
   "veredito": "ajustado",
   "resumo": "gancho/fatos/clareza ajustados; sem \"tiram tudo\"",
   "pareceres": [
-   "vitor: ajustar (jargão, manter o que instala fácil)",
-   "fatos: ajustar (sem exagero, ordem por estrelas, reler README no dia)",
-   "gancho: ajustar (conflito na etiqueta)",
-   "clareza: ajustar (falas mais curtas, sem \"root\")"
+   {
+    "revisor": "vitor",
+    "veredito": "ajustar",
+    "nota": "Dor comum, mas com jargão: manter o que instala fácil."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "Sem exagero (\"tiram tudo\"), ordem por estrelas, reler README no dia."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Frase de conflito na etiqueta."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "Falas mais curtas, sem \"root\"."
+   }
   ],
   "obs": "2ª volta não rodada por economia de tokens; ajustes aplicados conforme os 4 pareceres"
  }

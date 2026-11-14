@@ -29,10 +29,26 @@
   "veredito": "reprovado",
   "resumo": "nicho de gamer; fatos não verificáveis",
   "pareceres": [
-   "vitor: reprova (nicho, repete Nintendo de 07/11)",
-   "fatos: reprova (sem emulador/nativo não verificável)",
-   "gancho: ajustar",
-   "clareza: ajustar"
+   {
+    "revisor": "vitor",
+    "veredito": "reprova",
+    "nota": "Nicho de gamer; repete Nintendo de 07/11."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "reprova",
+    "nota": "\"Sem emulador\" e \"nativo\" não verificáveis daqui."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Etiqueta sem conflito, pergunta de opinião."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "Jargão: recompilaram, nativo."
+   }
   ]
  }
 }

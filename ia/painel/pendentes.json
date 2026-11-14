@@ -1,6 +1,17 @@
 {
- "gerado_em": "2026-11-14 12:37",
+ "gerado_em": "2026-11-14 13:17",
  "videos": [],
- "roteiros": [],
+ "roteiros": [
+  {
+   "pasta": "2026-11-17-jogos-no-celular-e-no-mac",
+   "titulo": "5 JOGOS DE CONSOLE NO SEU CELULAR",
+   "quando": "2026-11-17 19:30"
+  },
+  {
+   "pasta": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "titulo": "SUA TV TEM PROPAGANDA NA TELA INICIAL",
+   "quando": "2026-11-16 06:00"
+  }
+ ],
  "agenda_3_dias": []
 }
