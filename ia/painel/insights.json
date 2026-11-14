@@ -1,14 +1,14 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-14 07:50",
+ "em": "2026-11-14 19:45",
  "leitura": "metricool_2026-11-14.json",
- "resumo": "O que mudou desde ontem: nenhum Reel agendado saiu desde 12/11 17:00 (todos seguem como rascunho no Metricool, e os de 14 e 15/11 também), e o único post novo foi o VOO, feito na mão (293 views). Sem concorrência, o último Reel cresceu: APPLE foi de 596 para 1.909 views e COPIA de 375 para 648; S2 já soma 23.432 views (mais que a S1 inteira) com mediana de 408 em 34 Reels.",
+ "resumo": "Nada mudou desde a leitura das 07:50: o Metricool devolveu exatamente os mesmos números (48 Reels, mediana 430; APPLE 1.909, COPIA 648, VOO 293) e nenhum Reel novo saiu desde o VOO (14/11 00:11), então a publicação segue parada há ~55 h. Os insights da manhã continuam valendo; o que falta é voltar a publicar para testar se 4 por dia segura a mediana.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "Publicação parada há 38 h: tudo agendado está como rascunho",
-   "evidencia": "getScheduledPosts às 07:40: 10 Reels perdidos (WATSON e SENTE de 12/11; MUSICA, CRITICA, ANIMA, CURTO, CAMERA, IKEA e LIGOU de 13/11; GAMER de 14/11 07:00) com draft=true e PENDING. SENHA (09:00), CASA, PENSAR, ARTIGO, SOBREVIVE e MILHAO de hoje e os 7 de 15/11 também estão como rascunho. Só saiu o VOO (14/11 00:10, publicado na mão).",
-   "acao": "Vitor decide: tirar do rascunho a partir do SENHA (09:00) se a pausa não foi de propósito; os perdidos de 12–13/11 podem voltar em vagas livres da próxima rodada (não estão velhos: 📜 e ⚙️ não dependem de data)."
+   "titulo": "Publicação parada há ~55 h e números congelados desde 07:45",
+   "evidencia": "Leitura das 19:45: nenhum Reel novo depois do VOO (14/11 00:11); SENHA (09:00) e os demais de hoje não saíram. Todos os 48 Reels e 64 TikToks têm exatamente os mesmos números da leitura das 07:45 (ex.: APPLE 1.909, ESTILO 2.800, TV 3.261), o que é estranho em 12 h: ou o Metricool não sincronizou, ou a conta parou de ser entregue.",
+   "acao": "Vitor decide: tirar do rascunho os Reels agendados (getScheduledPosts às 07:40 mostrava tudo como draft) e conferir no app do Instagram se as views do APPLE mudaram; se mudaram, é atraso do Metricool e a próxima leitura corrige."
   },
   {
    "tipo": "fazer_mais",
@@ -18,8 +18,8 @@
   },
   {
    "tipo": "testar",
-   "titulo": "36 h sem post novo e o último Reel cresceu 3×: indício a favor de menos volume",
-   "evidencia": "S1 (01–07/11): 14 Reels, 20.934 views, mediana 1.168. S2 (08–14/11): 34 Reels, 23.432 views (+12%), mediana 408 (−65%). Na pausa forçada, APPLE ganhou 1.313 views e COPIA 273; os Reels de 08–09/11 quase não se mexeram. É 1 caso só: cedo para regra.",
+   "titulo": "Pausa longa: o crescimento sem post novo parou",
+   "evidencia": "Até 07:45 a pausa ajudou (APPLE 596 → 1.909, COPIA 375 → 648). De 07:45 a 19:45 nenhum Reel ganhou view, nem esses. S1: 14 Reels, mediana 1.168; S2: 34 Reels, mediana 408. Ainda é 1 caso só: cedo para regra.",
    "acao": "Quando voltar a publicar, manter os 4 por dia (grade de 13/11) e comparar views por dia e mediana com 09–12/11 (~3.000 por dia, mediana ~310). Se a mediana subir, 4 por dia é o teto."
   },
   {

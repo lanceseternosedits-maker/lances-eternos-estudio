@@ -1,7 +1,7 @@
 {
- "gerado_em": "2026-11-14 10:45",
+ "gerado_em": "2026-11-14 22:45",
  "leitura": "metricool_2026-11-14.json",
- "lido_em": "2026-11-14 07:45",
+ "lido_em": "2026-11-14 19:45",
  "periodo": [
   "2026-10-31",
   "2026-11-14"
@@ -1274,7 +1274,7 @@
     "enviar_pct": 0.9,
     "comentar_pct": 1.0,
     "passou_3s_pct": 45.650000000000006,
-    "idade_mediana_dias": 8.2,
+    "idade_mediana_dias": 8.7,
     "top": [
      {
       "titulo": "5 projetos pra TV e celular",
@@ -1326,7 +1326,7 @@
     "enviar_pct": 0.6,
     "comentar_pct": 0.9,
     "passou_3s_pct": 43.4,
-    "idade_mediana_dias": 3.9,
+    "idade_mediana_dias": 4.4,
     "top": [
      {
       "titulo": "10 estilos de animação",
