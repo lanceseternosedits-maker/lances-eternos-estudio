@@ -1,6 +1,6 @@
 {
  "data": "2026-11-19",
- "horario": "17:00",
+ "horario": "19:30",
  "pilar": "reel",
  "categoria": "novidade",
  "formato": "palco",
@@ -15,9 +15,10 @@
  "cta": "MARKETING",
  "polemica": true,
  "horarios": {
-  "instagram": "2026-11-19 17:00",
-  "tiktok": "2026-11-19 17:00"
+  "instagram": "2026-11-19 19:30",
+  "tiktok": "2026-11-19 19:30"
  },
  "status": "roteiro aprovado",
- "horario_provisorio": "Vitor (07/11): grade intercalada (4 🆕 por dia em 09–15/11) tirou esta novidade da semana; horário provisório, a rodada de quinta (12/11) confirma"
+ "horario_provisorio": "Vitor (07/11): grade intercalada (4 🆕 por dia em 09–15/11) tirou esta novidade da semana; horário provisório, a rodada de quinta (12/11) confirma",
+ "nota_horario": "14/11: 17:00 saiu da grade de 4/dia; movido para a vaga 🆕 livre mais próxima (19/11 19:30)"
 }

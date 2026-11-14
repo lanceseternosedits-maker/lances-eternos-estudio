@@ -1,0 +1,18 @@
+{
+ "voz": "Puck",
+ "cauda": 0.9,
+ "musica": {"MUS_TOM": "2", "MUS_CHIP": "1"},
+ "segmentos": [
+  {"cena": "gancho", "quem": "A", "tipo": "A", "braco": 1, "fala": "Tem gente montando um estúdio de games inteiro com 49 funcionários de IA.", "cab": ["um estúdio de ", "games"], "chave": ["games", "49"], "conta": [0, 49, "{} NA EQUIPE"], "cor": "verde"},
+  {"cena": "peraí", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, surpreso, pergunta curta", "fala": "Funcionários de IA?", "cab": ["funcionários ", "de IA?"], "chave": ["IA?"], "balao": "DE IA?"},
+  {"cena": "s1", "quem": "A", "tipo": "A", "fala": "O projeto se chama Claude Code Game Studios e já passou de 39 mil estrelas no GitHub.", "cab": ["em alta no ", "GitHub"], "chave": ["39", "mil", "estrelas"], "conta": [0, 39, "+{} MIL ESTRELAS"], "cor": "ouro"},
+  {"cena": "s2", "quem": "A", "tipo": "AB", "grafo": "cresce", "fala": "Ele dá ao Claude um diretor, líderes de equipe e especialistas, igual a um estúdio de verdade.", "cab": ["um estúdio ", "de verdade"], "chave": ["diretor,", "especialistas,"]},
+  {"cena": "quem", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, curioso, pergunta curta", "fala": "E quem faz o quê?", "cab": ["quem faz ", "o quê?"], "chave": ["quê?"], "balao": "QUEM FAZ O QUÊ?"},
+  {"cena": "s3", "quem": "A", "tipo": "A", "grafo": 1, "fala": "Cada um cuida de uma parte: roteiro, código, teste e lançamento.", "cab": ["cada um ", "uma parte"], "chave": ["roteiro,", "código,", "teste", "lançamento."], "placa": "4 EQUIPES", "cor": "azul"},
+  {"cena": "cta_meio", "quem": "A", "tipo": "AB", "braco": 1, "fala": "Comenta GAME que eu te mando o link. E manda pro amigo que sonha em criar um jogo.", "cab": ["comenta ", "GAME"], "chave": ["GAME", "link."], "placa": "GAME", "cor": "ouro"},
+  {"cena": "programa", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, curioso, pergunta curta", "fala": "E funciona em qual programa?", "cab": ["qual ", "programa?"], "chave": ["programa?"], "balao": "QUAL PROGRAMA?"},
+  {"cena": "s4", "quem": "A", "tipo": "A", "fala": "Godot, Unity e Unreal. E toda decisão importante passa por você antes.", "cab": ["quem decide ", "é você"], "chave": ["Godot,", "Unity", "Unreal.", "você"], "placa": "VOCÊ DECIDE", "cor": "verde"},
+  {"cena": "pergunta", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, simpático, pergunta para quem assiste", "fala": "Qual jogo você faria primeiro?", "cab": ["qual jogo ", "você faria?"], "chave": ["jogo", "primeiro?"], "balao": "QUAL JOGO?"},
+  {"cena": "cta", "quem": "A", "tipo": "A", "braco": 1, "fala": "Comenta GAME e me segue.", "cab": ["comenta ", "GAME"], "chave": ["GAME"], "placa": "GAME", "cor": "ouro", "grafo": 1}
+ ]
+}

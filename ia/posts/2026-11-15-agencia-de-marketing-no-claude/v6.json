@@ -1,0 +1,17 @@
+{
+ "voz": "Puck",
+ "cauda": 0.9,
+ "musica": {"MUS_TOM": "5", "MUS_SEM_PALMA": "1"},
+ "segmentos": [
+  {"cena": "gancho", "quem": "A", "tipo": "A", "braco": 1, "fala": "Agência cobra caro por anúncio, e-mail e SEO. Tem gente fazendo tudo isso com 53 skills gratuitas.", "cab": ["adeus, ", "agência cara"], "chave": ["caro", "53", "gratuitas."], "conta": [0, 53, "{} SKILLS GRÁTIS"], "cor": "verde"},
+  {"cena": "peraí", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, surpreso, pergunta curta", "fala": "De graça mesmo?", "cab": ["de graça ", "mesmo?"], "chave": ["mesmo?"], "balao": "DE GRAÇA?"},
+  {"cena": "s1", "quem": "A", "tipo": "A", "fala": "Sim. É o pacote Marketing Skills, com 60 mil estrelas no GitHub.", "cab": ["grátis no ", "GitHub"], "chave": ["60", "mil", "estrelas"], "conta": [0, 60, "+{} MIL ESTRELAS"], "cor": "ouro"},
+  {"cena": "s2", "quem": "A", "tipo": "AB", "grafo": "cresce", "fala": "Cada skill é um especialista: anúncio no Google e no Meta, texto de página, e-mail e até campanha no WhatsApp.", "cab": ["cada skill, ", "um especialista"], "chave": ["especialista:", "WhatsApp."]},
+  {"cena": "todavez", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, desconfiado, pergunta curta", "fala": "E tenho que explicar tudo toda vez?", "cab": ["toda ", "vez?"], "chave": ["vez?"], "balao": "TODA VEZ?"},
+  {"cena": "s3", "quem": "A", "tipo": "A", "fala": "Não. Você conta do seu negócio uma vez e todas usam essa base.", "cab": ["conta ", "uma vez só"], "chave": ["uma", "vez", "base."], "placa": "1 VEZ SÓ", "cor": "verde"},
+  {"cena": "cta_meio", "quem": "A", "tipo": "AB", "braco": 1, "fala": "Comenta MARKETING que eu te mando o link. E manda pro amigo que tem um negócio.", "cab": ["comenta ", "MARKETING"], "chave": ["MARKETING", "link."], "placa": "MARKETING", "cor": "ouro"},
+  {"cena": "s4", "quem": "A", "tipo": "A", "fala": "Tem até uma que desmonta como o concorrente cresceu.", "cab": ["espiando ", "o concorrente"], "chave": ["concorrente", "cresceu."], "placa": "CONCORRENTE", "cor": "vermelho"},
+  {"cena": "pergunta", "quem": "B", "tipo": "B", "voz": "Fenrir", "estilo": "Diga em português do Brasil, simpático, pergunta para quem assiste", "fala": "Qual parte você entregaria pra IA?", "cab": ["o que você ", "entregaria?"], "chave": ["parte", "IA?"], "balao": "QUAL PARTE?"},
+  {"cena": "cta", "quem": "A", "tipo": "A", "braco": 1, "fala": "Comenta MARKETING e me segue.", "cab": ["comenta ", "MARKETING"], "chave": ["MARKETING"], "placa": "MARKETING", "cor": "ouro", "grafo": 1}
+ ]
+}
