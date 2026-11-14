@@ -1,133 +1,134 @@
 {
- "data": "2026-11-12",
- "horario": "20:30",
- "pilar": "reel",
- "categoria": "historia",
- "formato": "palco",
- "temas": [
-  "padrinho-da-ia-saiu-do-google"
- ],
- "fontes": [
-  "https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html",
-  "https://www.nobelprize.org/prizes/physics/2024/press-release/"
- ],
- "prova_viral": "Fonte histórica: NYT (01/05/2023) e Nobel de Física 2024 (nobelprize.org). Ligação com agora: o debate sobre riscos da IA segue em alta e o Nobel é recente (out/2024). 📜 da rodada: no máximo 1 por dia no teste.",
- "cta": "PADRINHO",
- "polemica": false,
- "horarios": {
-  "instagram": "2026-11-12 20:30",
-  "tiktok": "2026-11-12 20:30"
- },
- "elementos": {
-  "etiqueta": "f) página de caderno",
-  "nome": "c) máquina de escrever",
-  "contador": "e) placar 8-bit HI-SCORE",
-  "legenda": "e) tarja de TV/arcade",
-  "transicao": "f) zoom atravessando uma tela",
-  "camera": "e) câmera na mão",
-  "fechamento": "e) página de caderno",
-  "tipografia": "f) Bebas Neue",
-  "som": "trilha 01 + clique",
-  "mascote": "terno e óculos de professor; ação principal: sair por uma porta com uma caixa"
- },
- "status": "vídeo aguardando aprovação",
- "primeiro_comentario": "💬 Comenta PADRINHO que eu te mando na DM 👇",
- "teste": "4 vídeos por dia (Vitor, 12/11)",
- "revisao": {
-  "veredito": "ajustado",
-  "resumo": "história com personagem, fonte ok",
-  "pareceres": [
-   {
-    "revisor": "vitor",
-    "veredito": "passa",
-    "nota": "Sem aspas; NYT a conferir na produção."
-   },
-   {
-    "revisor": "fatos",
-    "veredito": "passa",
-    "nota": "Sem aspas; NYT a conferir na produção."
-   },
-   {
-    "revisor": "gancho",
-    "veredito": "passa",
-    "nota": "Sem aspas; NYT a conferir na produção."
-   },
-   {
-    "revisor": "clareza",
-    "veredito": "passa",
-    "nota": "Sem aspas; NYT a conferir na produção."
-   }
+  "data": "2026-11-12",
+  "horario": "20:30",
+  "pilar": "reel",
+  "categoria": "historia",
+  "formato": "palco",
+  "temas": [
+    "padrinho-da-ia-saiu-do-google"
   ],
-  "ajustes": [
-   "2 voltas: cortei números sem fonte, tirei aspas e \"dez mensagens\", troquei abertura e pergunta final, \"até 30%\", 28→65%"
+  "fontes": [
+    "https://www.nytimes.com/2023/05/01/technology/ai-google-chatbot-engineer-quits-hinton.html",
+    "https://www.nobelprize.org/prizes/physics/2024/press-release/"
   ],
-  "em": "2026-11-12 11:23"
- },
- "aprovado_por": "Vitor, na conversa (12/11: \"quero pra hoje\")",
- "checagem": {
-  "em": "2026-11-12 12:20",
-  "ok": true,
-  "itens": [
-   {
-    "nome": "Formato",
-    "valor": "1080×1920",
+  "prova_viral": "Fonte histórica: NYT (01/05/2023) e Nobel de Física 2024 (nobelprize.org). Ligação com agora: o debate sobre riscos da IA segue em alta e o Nobel é recente (out/2024). 📜 da rodada: no máximo 1 por dia no teste.",
+  "cta": "PADRINHO",
+  "polemica": false,
+  "horarios": {
+    "instagram": "2026-11-12 20:30",
+    "tiktok": "2026-11-12 20:30"
+  },
+  "elementos": {
+    "etiqueta": "f) página de caderno",
+    "nome": "c) máquina de escrever",
+    "contador": "e) placar 8-bit HI-SCORE",
+    "legenda": "e) tarja de TV/arcade",
+    "transicao": "f) zoom atravessando uma tela",
+    "camera": "e) câmera na mão",
+    "fechamento": "e) página de caderno",
+    "tipografia": "f) Bebas Neue",
+    "som": "trilha 01 + clique",
+    "mascote": "terno e óculos de professor; ação principal: sair por uma porta com uma caixa"
+  },
+  "status": "negado",
+  "primeiro_comentario": "💬 Comenta PADRINHO que eu te mando na DM 👇",
+  "teste": "4 vídeos por dia (Vitor, 12/11)",
+  "revisao": {
+    "veredito": "ajustado",
+    "resumo": "história com personagem, fonte ok",
+    "pareceres": [
+      {
+        "revisor": "vitor",
+        "veredito": "passa",
+        "nota": "Sem aspas; NYT a conferir na produção."
+      },
+      {
+        "revisor": "fatos",
+        "veredito": "passa",
+        "nota": "Sem aspas; NYT a conferir na produção."
+      },
+      {
+        "revisor": "gancho",
+        "veredito": "passa",
+        "nota": "Sem aspas; NYT a conferir na produção."
+      },
+      {
+        "revisor": "clareza",
+        "veredito": "passa",
+        "nota": "Sem aspas; NYT a conferir na produção."
+      }
+    ],
+    "ajustes": [
+      "2 voltas: cortei números sem fonte, tirei aspas e \"dez mensagens\", troquei abertura e pergunta final, \"até 30%\", 28→65%"
+    ],
+    "em": "2026-11-12 11:23"
+  },
+  "aprovado_por": "Vitor, na conversa (12/11: \"quero pra hoje\")",
+  "checagem": {
+    "em": "2026-11-12 12:20",
     "ok": true,
-    "regra": "1080×1920"
-   },
-   {
-    "nome": "Duração",
-    "valor": "31.9 s",
-    "ok": true,
-    "regra": "até 35 s (corte texto se passar)"
-   },
-   {
-    "nome": "Velocidade da fala",
-    "valor": "2.92 palavras/s (93 palavras)",
-    "ok": true,
-    "regra": "máximo 3,0 palavras/s"
-   },
-   {
-    "nome": "Volume",
-    "valor": "-14.6 LUFS, pico -1.4 dB",
-    "ok": true,
-    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
-   },
-   {
-    "nome": "Fontes",
-    "valor": "2 fonte(s)",
-    "ok": true,
-    "regra": "todo fato com fonte"
-   },
-   {
-    "nome": "Prova viral",
-    "valor": "preenchida",
-    "ok": true,
-    "regra": "toda pauta com a prova de que viralizou"
-   },
-   {
-    "nome": "Legenda do Instagram",
-    "valor": "695 caracteres",
-    "ok": true,
-    "regra": "até 2.200 caracteres"
-   },
-   {
-    "nome": "CTA na legenda",
-    "valor": "PADRINHO",
-    "ok": true,
-    "regra": "a palavra do CTA aparece na legenda"
-   },
-   {
-    "nome": "Hashtags no Instagram",
-    "valor": "5",
-    "ok": true,
-    "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
-   },
-   {
-    "nome": "Resposta da DM",
-    "valor": "ok",
-    "ok": true,
-    "regra": "resposta_dm.txt com os links"
-   }
-  ]
- }
+    "itens": [
+      {
+        "nome": "Formato",
+        "valor": "1080×1920",
+        "ok": true,
+        "regra": "1080×1920"
+      },
+      {
+        "nome": "Duração",
+        "valor": "31.9 s",
+        "ok": true,
+        "regra": "até 35 s (corte texto se passar)"
+      },
+      {
+        "nome": "Velocidade da fala",
+        "valor": "2.92 palavras/s (93 palavras)",
+        "ok": true,
+        "regra": "máximo 3,0 palavras/s"
+      },
+      {
+        "nome": "Volume",
+        "valor": "-14.6 LUFS, pico -1.4 dB",
+        "ok": true,
+        "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+      },
+      {
+        "nome": "Fontes",
+        "valor": "2 fonte(s)",
+        "ok": true,
+        "regra": "todo fato com fonte"
+      },
+      {
+        "nome": "Prova viral",
+        "valor": "preenchida",
+        "ok": true,
+        "regra": "toda pauta com a prova de que viralizou"
+      },
+      {
+        "nome": "Legenda do Instagram",
+        "valor": "695 caracteres",
+        "ok": true,
+        "regra": "até 2.200 caracteres"
+      },
+      {
+        "nome": "CTA na legenda",
+        "valor": "PADRINHO",
+        "ok": true,
+        "regra": "a palavra do CTA aparece na legenda"
+      },
+      {
+        "nome": "Hashtags no Instagram",
+        "valor": "5",
+        "ok": true,
+        "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
+      },
+      {
+        "nome": "Resposta da DM",
+        "valor": "ok",
+        "ok": true,
+        "regra": "resposta_dm.txt com os links"
+      }
+    ]
+  },
+  "nota": "Fraco"
 }

@@ -110,5 +110,6 @@
    }
   ]
  },
- "nota_filtro": "chance 43%, abaixo do corte"
+ "status_antes_filtro": "roteiro aprovado",
+ "nota_filtro": "chance 39%, abaixo do corte"
 }

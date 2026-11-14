@@ -197,6 +197,20 @@ Dica: se ela enrolar de novo, responda só "mais curto".
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
+## VOO · 13/11 23:30
+Post: `2026-11-13-eua-pararam-os-voos`
+
+```
+Tá aqui o que aconteceu ✈️
+• 13/11, fim da tarde (hora de Nova York): o FAA (a agência de aviação dos EUA) proibiu todas as decolagens no país por uma pane de telecomunicação em vários centros de controle de voo.
+• Durou mais de 4 horas; quase 5 mil voos cancelados (FlightAware) e cancelamentos devem seguir no fim de semana.
+• O governo diz que não há sinal de ataque. É a primeira parada nacional desde janeiro de 2023.
+Fontes: CNBC https://www.cnbc.com/2026/11/13/faa-ground-stop.html · ABC https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140 · NBC https://www.nbcnews.com/news/us-news/live-blog/live-updates-flights-grounded-faa-communications-outage-rcna609268
+Seu voo foi cancelado? Veja no app da companhia a remarcação sem custo e, nos EUA, o reembolso em dinheiro se você não quiser remarcar.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
 ## AGENTE · 15/11 19:00
 Post: `2026-11-13-assistentes-que-trabalham`
 

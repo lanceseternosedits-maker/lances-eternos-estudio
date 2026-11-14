@@ -1,134 +1,135 @@
 {
- "data": "2026-11-12",
- "horario": "19:00",
- "pilar": "reel",
- "categoria": "novidade",
- "formato": "contagem",
- "temas": [
-  "gta-6-sai-quinta"
- ],
- "fontes": [
-  "https://www.mixvale.com.br/2026/10/15/gta-6-lancamento-em-19-de-novembro-de-2026-tera-versoes-para-ps5-e-xbox-series-a-partir-de-r-44990/",
-  "https://savepoint.com.br/2026/10/24/gta-6-data-lancamento-preco-brasil-dublado/",
-  "https://www.omelete.com.br/games/gta-6-ceo-da-take-two-confirma-mais-uma-vez-lancamento-em-2026"
- ],
- "prova_viral": "Data quente: lançamento em 19/11/2026 (Mixvale, SavePoint, Omelete/Gamevicio: Take-Two reconfirmou). Jogos furam a queda de alcance (PLAY 1.709, MOBILE 1.722, CORTES/GTA 6 695). Pedido direto do Vitor (12/11).",
- "cta": "GTA",
- "polemica": false,
- "horarios": {
-  "instagram": "2026-11-12 19:00",
-  "tiktok": "2026-11-12 19:00"
- },
- "elementos": {
-  "etiqueta": "g) placa de rua/aeroporto",
-  "nome": "d) letreiro split-flap",
-  "contador": "b) odômetro de rolinhos",
-  "legenda": "b) uma palavra gigante por vez com pop",
-  "transicao": "b) chicote de câmera",
-  "camera": "c) travelling lateral",
-  "fechamento": "a) lista + pílulas COMENTA",
-  "tipografia": "b) Archivo Black",
-  "som": "trilha 02 + efeitos arcade",
-  "mascote": "óculos escuros e boné; ação principal: esperar a fila do lançamento"
- },
- "status": "vídeo aguardando aprovação",
- "primeiro_comentario": "💬 Comenta GTA que eu te mando na DM 👇\nQuer o kit com 10 assistentes prontos? Comenta KIT",
- "teste": "4 vídeos por dia (Vitor, 12/11)",
- "revisao": {
-  "veredito": "ajustado",
-  "resumo": "gancho forte, preço a conferir",
-  "pareceres": [
-   {
-    "revisor": "vitor",
-    "veredito": "passa",
-    "nota": "Data/plataformas em 2 fontes; preço R$ 449,90 lido só em trechos: conferir na produção."
-   },
-   {
-    "revisor": "fatos",
-    "veredito": "passa",
-    "nota": "Data/plataformas em 2 fontes; preço R$ 449,90 lido só em trechos: conferir na produção."
-   },
-   {
-    "revisor": "gancho",
-    "veredito": "passa",
-    "nota": "Data/plataformas em 2 fontes; preço R$ 449,90 lido só em trechos: conferir na produção."
-   },
-   {
-    "revisor": "clareza",
-    "veredito": "passa",
-    "nota": "Data/plataformas em 2 fontes; preço R$ 449,90 lido só em trechos: conferir na produção."
-   }
+  "data": "2026-11-12",
+  "horario": "19:00",
+  "pilar": "reel",
+  "categoria": "novidade",
+  "formato": "contagem",
+  "temas": [
+    "gta-6-sai-quinta"
   ],
-  "ajustes": [
-   "2 voltas: cortei números sem fonte, tirei aspas e \"dez mensagens\", troquei abertura e pergunta final, \"até 30%\", 28→65%"
+  "fontes": [
+    "https://www.mixvale.com.br/2026/10/15/gta-6-lancamento-em-19-de-novembro-de-2026-tera-versoes-para-ps5-e-xbox-series-a-partir-de-r-44990/",
+    "https://savepoint.com.br/2026/10/24/gta-6-data-lancamento-preco-brasil-dublado/",
+    "https://www.omelete.com.br/games/gta-6-ceo-da-take-two-confirma-mais-uma-vez-lancamento-em-2026"
   ],
-  "em": "2026-11-12 11:23"
- },
- "aprovado_por": "Vitor, na conversa (12/11: \"quero pra hoje\")",
- "checagem": {
-  "em": "2026-11-12 12:21",
-  "ok": true,
-  "itens": [
-   {
-    "nome": "Formato",
-    "valor": "1080×1920",
+  "prova_viral": "Data quente: lançamento em 19/11/2026 (Mixvale, SavePoint, Omelete/Gamevicio: Take-Two reconfirmou). Jogos furam a queda de alcance (PLAY 1.709, MOBILE 1.722, CORTES/GTA 6 695). Pedido direto do Vitor (12/11).",
+  "cta": "GTA",
+  "polemica": false,
+  "horarios": {
+    "instagram": "2026-11-12 19:00",
+    "tiktok": "2026-11-12 19:00"
+  },
+  "elementos": {
+    "etiqueta": "g) placa de rua/aeroporto",
+    "nome": "d) letreiro split-flap",
+    "contador": "b) odômetro de rolinhos",
+    "legenda": "b) uma palavra gigante por vez com pop",
+    "transicao": "b) chicote de câmera",
+    "camera": "c) travelling lateral",
+    "fechamento": "a) lista + pílulas COMENTA",
+    "tipografia": "b) Archivo Black",
+    "som": "trilha 02 + efeitos arcade",
+    "mascote": "óculos escuros e boné; ação principal: esperar a fila do lançamento"
+  },
+  "status": "negado",
+  "primeiro_comentario": "💬 Comenta GTA que eu te mando na DM 👇\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+  "teste": "4 vídeos por dia (Vitor, 12/11)",
+  "revisao": {
+    "veredito": "ajustado",
+    "resumo": "gancho forte, preço a conferir",
+    "pareceres": [
+      {
+        "revisor": "vitor",
+        "veredito": "passa",
+        "nota": "Data/plataformas em 2 fontes; preço R$ 449,90 lido só em trechos: conferir na produção."
+      },
+      {
+        "revisor": "fatos",
+        "veredito": "passa",
+        "nota": "Data/plataformas em 2 fontes; preço R$ 449,90 lido só em trechos: conferir na produção."
+      },
+      {
+        "revisor": "gancho",
+        "veredito": "passa",
+        "nota": "Data/plataformas em 2 fontes; preço R$ 449,90 lido só em trechos: conferir na produção."
+      },
+      {
+        "revisor": "clareza",
+        "veredito": "passa",
+        "nota": "Data/plataformas em 2 fontes; preço R$ 449,90 lido só em trechos: conferir na produção."
+      }
+    ],
+    "ajustes": [
+      "2 voltas: cortei números sem fonte, tirei aspas e \"dez mensagens\", troquei abertura e pergunta final, \"até 30%\", 28→65%"
+    ],
+    "em": "2026-11-12 11:23"
+  },
+  "aprovado_por": "Vitor, na conversa (12/11: \"quero pra hoje\")",
+  "checagem": {
+    "em": "2026-11-12 12:21",
     "ok": true,
-    "regra": "1080×1920"
-   },
-   {
-    "nome": "Duração",
-    "valor": "27.9 s",
-    "ok": true,
-    "regra": "até 35 s (corte texto se passar)"
-   },
-   {
-    "nome": "Velocidade da fala",
-    "valor": "2.65 palavras/s (74 palavras)",
-    "ok": true,
-    "regra": "máximo 3,0 palavras/s"
-   },
-   {
-    "nome": "Volume",
-    "valor": "-14.9 LUFS, pico -1.3 dB",
-    "ok": true,
-    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
-   },
-   {
-    "nome": "Fontes",
-    "valor": "3 fonte(s)",
-    "ok": true,
-    "regra": "todo fato com fonte"
-   },
-   {
-    "nome": "Prova viral",
-    "valor": "preenchida",
-    "ok": true,
-    "regra": "toda pauta com a prova de que viralizou"
-   },
-   {
-    "nome": "Legenda do Instagram",
-    "valor": "587 caracteres",
-    "ok": true,
-    "regra": "até 2.200 caracteres"
-   },
-   {
-    "nome": "CTA na legenda",
-    "valor": "GTA",
-    "ok": true,
-    "regra": "a palavra do CTA aparece na legenda"
-   },
-   {
-    "nome": "Hashtags no Instagram",
-    "valor": "5",
-    "ok": true,
-    "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
-   },
-   {
-    "nome": "Resposta da DM",
-    "valor": "ok",
-    "ok": true,
-    "regra": "resposta_dm.txt com os links"
-   }
-  ]
- }
+    "itens": [
+      {
+        "nome": "Formato",
+        "valor": "1080×1920",
+        "ok": true,
+        "regra": "1080×1920"
+      },
+      {
+        "nome": "Duração",
+        "valor": "27.9 s",
+        "ok": true,
+        "regra": "até 35 s (corte texto se passar)"
+      },
+      {
+        "nome": "Velocidade da fala",
+        "valor": "2.65 palavras/s (74 palavras)",
+        "ok": true,
+        "regra": "máximo 3,0 palavras/s"
+      },
+      {
+        "nome": "Volume",
+        "valor": "-14.9 LUFS, pico -1.3 dB",
+        "ok": true,
+        "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+      },
+      {
+        "nome": "Fontes",
+        "valor": "3 fonte(s)",
+        "ok": true,
+        "regra": "todo fato com fonte"
+      },
+      {
+        "nome": "Prova viral",
+        "valor": "preenchida",
+        "ok": true,
+        "regra": "toda pauta com a prova de que viralizou"
+      },
+      {
+        "nome": "Legenda do Instagram",
+        "valor": "587 caracteres",
+        "ok": true,
+        "regra": "até 2.200 caracteres"
+      },
+      {
+        "nome": "CTA na legenda",
+        "valor": "GTA",
+        "ok": true,
+        "regra": "a palavra do CTA aparece na legenda"
+      },
+      {
+        "nome": "Hashtags no Instagram",
+        "valor": "5",
+        "ok": true,
+        "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
+      },
+      {
+        "nome": "Resposta da DM",
+        "valor": "ok",
+        "ok": true,
+        "regra": "resposta_dm.txt com os links"
+      }
+    ]
+  },
+  "nota": "Video de publicidade gratis?"
 }

@@ -1,133 +1,134 @@
 {
- "data": "2026-11-12",
- "horario": "16:00",
- "pilar": "reel",
- "categoria": "novidade",
- "formato": "contagem",
- "temas": [
-  "fable-5-2-tres-numeros"
- ],
- "fontes": [
-  "https://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price",
-  "https://www.makeuseof.com/fable-52-is-here-and-these-claude-users-get-a-week-to-try-it-at-no-extra-cost/"
- ],
- "prova_viral": "Lançamento em 09/11/2026 (TNW, MakeUseOf, CNBC, MacRumors). Pedido direto do Vitor (12/11). Fatos lidos em 2 matérias (TNW e MakeUseOf): preço 10/50 → 8/40 dólares por milhão de tokens (-20%), até 30% mais rápido, RoboDojo 27,6% → 64,9%.",
- "cta": "FABLE",
- "polemica": false,
- "horarios": {
-  "instagram": "2026-11-12 16:00",
-  "tiktok": "2026-11-12 16:00"
- },
- "elementos": {
-  "etiqueta": "d) faixa diagonal de aviso",
-  "nome": "a) texto embaralhado decifrando",
-  "contador": "c) velocímetro/medidor circular",
-  "legenda": "a) bloco de 4 palavras com a atual colorida",
-  "transicao": "c) íris circular",
-  "camera": "d) órbita",
-  "fechamento": "b) pódio",
-  "tipografia": "a) Space Grotesk",
-  "som": "trilha 03 + máquina",
-  "mascote": "capacete e luva; ação principal: montar uma torre com o robô"
- },
- "status": "vídeo aguardando aprovação",
- "primeiro_comentario": "💬 Comenta FABLE que eu te mando na DM 👇\nQuer o kit com 10 assistentes prontos? Comenta KIT",
- "teste": "4 vídeos por dia (Vitor, 12/11)",
- "revisao": {
-  "veredito": "ajustado",
-  "resumo": "números de 2 fontes, \"até 30%\"",
-  "pareceres": [
-   {
-    "revisor": "vitor",
-    "veredito": "passa",
-    "nota": "Preço só \"pra quem programa\"; 28→65% (27,6→64,9)."
-   },
-   {
-    "revisor": "fatos",
-    "veredito": "passa",
-    "nota": "Preço só \"pra quem programa\"; 28→65% (27,6→64,9)."
-   },
-   {
-    "revisor": "gancho",
-    "veredito": "passa",
-    "nota": "Preço só \"pra quem programa\"; 28→65% (27,6→64,9)."
-   },
-   {
-    "revisor": "clareza",
-    "veredito": "passa",
-    "nota": "Preço só \"pra quem programa\"; 28→65% (27,6→64,9)."
-   }
+  "data": "2026-11-12",
+  "horario": "16:00",
+  "pilar": "reel",
+  "categoria": "novidade",
+  "formato": "contagem",
+  "temas": [
+    "fable-5-2-tres-numeros"
   ],
-  "ajustes": [
-   "2 voltas: cortei números sem fonte, tirei aspas e \"dez mensagens\", troquei abertura e pergunta final, \"até 30%\", 28→65%"
+  "fontes": [
+    "https://thenextweb.com/news/claude-fable-5-2-mythos-5-2-anthropic-launch-price",
+    "https://www.makeuseof.com/fable-52-is-here-and-these-claude-users-get-a-week-to-try-it-at-no-extra-cost/"
   ],
-  "em": "2026-11-12 11:23"
- },
- "aprovado_por": "Vitor, na conversa (12/11: \"quero pra hoje\")",
- "checagem": {
-  "em": "2026-11-12 12:20",
-  "ok": true,
-  "itens": [
-   {
-    "nome": "Formato",
-    "valor": "1080×1920",
+  "prova_viral": "Lançamento em 09/11/2026 (TNW, MakeUseOf, CNBC, MacRumors). Pedido direto do Vitor (12/11). Fatos lidos em 2 matérias (TNW e MakeUseOf): preço 10/50 → 8/40 dólares por milhão de tokens (-20%), até 30% mais rápido, RoboDojo 27,6% → 64,9%.",
+  "cta": "FABLE",
+  "polemica": false,
+  "horarios": {
+    "instagram": "2026-11-12 16:00",
+    "tiktok": "2026-11-12 16:00"
+  },
+  "elementos": {
+    "etiqueta": "d) faixa diagonal de aviso",
+    "nome": "a) texto embaralhado decifrando",
+    "contador": "c) velocímetro/medidor circular",
+    "legenda": "a) bloco de 4 palavras com a atual colorida",
+    "transicao": "c) íris circular",
+    "camera": "d) órbita",
+    "fechamento": "b) pódio",
+    "tipografia": "a) Space Grotesk",
+    "som": "trilha 03 + máquina",
+    "mascote": "capacete e luva; ação principal: montar uma torre com o robô"
+  },
+  "status": "negado",
+  "primeiro_comentario": "💬 Comenta FABLE que eu te mando na DM 👇\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+  "teste": "4 vídeos por dia (Vitor, 12/11)",
+  "revisao": {
+    "veredito": "ajustado",
+    "resumo": "números de 2 fontes, \"até 30%\"",
+    "pareceres": [
+      {
+        "revisor": "vitor",
+        "veredito": "passa",
+        "nota": "Preço só \"pra quem programa\"; 28→65% (27,6→64,9)."
+      },
+      {
+        "revisor": "fatos",
+        "veredito": "passa",
+        "nota": "Preço só \"pra quem programa\"; 28→65% (27,6→64,9)."
+      },
+      {
+        "revisor": "gancho",
+        "veredito": "passa",
+        "nota": "Preço só \"pra quem programa\"; 28→65% (27,6→64,9)."
+      },
+      {
+        "revisor": "clareza",
+        "veredito": "passa",
+        "nota": "Preço só \"pra quem programa\"; 28→65% (27,6→64,9)."
+      }
+    ],
+    "ajustes": [
+      "2 voltas: cortei números sem fonte, tirei aspas e \"dez mensagens\", troquei abertura e pergunta final, \"até 30%\", 28→65%"
+    ],
+    "em": "2026-11-12 11:23"
+  },
+  "aprovado_por": "Vitor, na conversa (12/11: \"quero pra hoje\")",
+  "checagem": {
+    "em": "2026-11-12 12:20",
     "ok": true,
-    "regra": "1080×1920"
-   },
-   {
-    "nome": "Duração",
-    "valor": "29.8 s",
-    "ok": true,
-    "regra": "até 35 s (corte texto se passar)"
-   },
-   {
-    "nome": "Velocidade da fala",
-    "valor": "2.95 palavras/s (88 palavras)",
-    "ok": true,
-    "regra": "máximo 3,0 palavras/s"
-   },
-   {
-    "nome": "Volume",
-    "valor": "-14.7 LUFS, pico -1.2 dB",
-    "ok": true,
-    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
-   },
-   {
-    "nome": "Fontes",
-    "valor": "2 fonte(s)",
-    "ok": true,
-    "regra": "todo fato com fonte"
-   },
-   {
-    "nome": "Prova viral",
-    "valor": "preenchida",
-    "ok": true,
-    "regra": "toda pauta com a prova de que viralizou"
-   },
-   {
-    "nome": "Legenda do Instagram",
-    "valor": "664 caracteres",
-    "ok": true,
-    "regra": "até 2.200 caracteres"
-   },
-   {
-    "nome": "CTA na legenda",
-    "valor": "FABLE",
-    "ok": true,
-    "regra": "a palavra do CTA aparece na legenda"
-   },
-   {
-    "nome": "Hashtags no Instagram",
-    "valor": "5",
-    "ok": true,
-    "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
-   },
-   {
-    "nome": "Resposta da DM",
-    "valor": "ok",
-    "ok": true,
-    "regra": "resposta_dm.txt com os links"
-   }
-  ]
- }
+    "itens": [
+      {
+        "nome": "Formato",
+        "valor": "1080×1920",
+        "ok": true,
+        "regra": "1080×1920"
+      },
+      {
+        "nome": "Duração",
+        "valor": "29.8 s",
+        "ok": true,
+        "regra": "até 35 s (corte texto se passar)"
+      },
+      {
+        "nome": "Velocidade da fala",
+        "valor": "2.95 palavras/s (88 palavras)",
+        "ok": true,
+        "regra": "máximo 3,0 palavras/s"
+      },
+      {
+        "nome": "Volume",
+        "valor": "-14.7 LUFS, pico -1.2 dB",
+        "ok": true,
+        "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+      },
+      {
+        "nome": "Fontes",
+        "valor": "2 fonte(s)",
+        "ok": true,
+        "regra": "todo fato com fonte"
+      },
+      {
+        "nome": "Prova viral",
+        "valor": "preenchida",
+        "ok": true,
+        "regra": "toda pauta com a prova de que viralizou"
+      },
+      {
+        "nome": "Legenda do Instagram",
+        "valor": "664 caracteres",
+        "ok": true,
+        "regra": "até 2.200 caracteres"
+      },
+      {
+        "nome": "CTA na legenda",
+        "valor": "FABLE",
+        "ok": true,
+        "regra": "a palavra do CTA aparece na legenda"
+      },
+      {
+        "nome": "Hashtags no Instagram",
+        "valor": "5",
+        "ok": true,
+        "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
+      },
+      {
+        "nome": "Resposta da DM",
+        "valor": "ok",
+        "ok": true,
+        "regra": "resposta_dm.txt com os links"
+      }
+    ]
+  },
+  "nota": "Qualidade de imagem muito abaixo"
 }
