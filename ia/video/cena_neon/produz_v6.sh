@@ -1,5 +1,6 @@
 #!/bin/bash
 # Render v6 completo de um post: 2 processos em paralelo (--faixa), junta, trilha + voz e grava <post>/reel.mp4.
+# SO_MIX=1 pula o render e só junta/mixa.
 # Uso (de ia/): bash video/cena_neon/produz_v6.sh posts/<pasta>   (precisa de out/timeline.json, out/voz.wav e v6.json)
 set -e
 P=$(realpath "$1"); D=$(dirname "$(realpath "$0")"); R=$P/out/v6; mkdir -p "$R"
@@ -7,8 +8,8 @@ export DISPLAY=${DISPLAY:-:99} POST=$P
 pgrep Xvfb >/dev/null || (Xvfb :99 -screen 0 1280x1024x24 >/dev/null 2>&1 &); sleep 1
 NQ=$(cd "$D" && python3 -c "import json;print(int(round(json.load(open('$P/out/timeline.json'))['total']*30)))")
 M=$((NQ/2)); ini=$(date +%s)
-(cd "$D" && python3 video6.py "$R/a.mp4" --faixa 0:$M > "$R/a.log" 2>&1) &
-(cd "$D" && python3 video6.py "$R/b.mp4" --faixa $M:$NQ > "$R/b.log" 2>&1) &
+[ -z "$SO_MIX" ] && (cd "$D" && python3 video6.py "$R/a.mp4" --faixa 0:$M > "$R/a.log" 2>&1) &
+[ -z "$SO_MIX" ] && (cd "$D" && python3 video6.py "$R/b.mp4" --faixa $M:$NQ > "$R/b.log" 2>&1) &
 wait
 printf "file '%s'\nfile '%s'\n" "$R/a.mp4" "$R/b.mp4" > "$R/lista.txt"
 ffmpeg -v error -y -f concat -safe 0 -i "$R/lista.txt" -c copy "$R/video.mp4"
