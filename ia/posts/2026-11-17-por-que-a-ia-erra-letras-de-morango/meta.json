@@ -1,0 +1,28 @@
+{
+ "data": "2026-11-17",
+ "horario": "12:00",
+ "horarios": {
+  "instagram": "2026-11-17 12:00",
+  "tiktok": "2026-11-17 12:00"
+ },
+ "categoria": "como_funciona",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "tokens",
+  "morango",
+  "IA erra"
+ ],
+ "fontes": [
+  "https://platform.openai.com/tokenizer",
+  "https://en.wikipedia.org/wiki/Large_language_model"
+ ],
+ "prova_viral": "Explicação consolidada: OpenAI Tokenizer (texto vira tokens) e Wikipedia (LLM) (imprensa técnica, sem estrelas).",
+ "cta": "MORANGO",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 5,
+ "primeiro_comentario": "💬 Comenta MORANGO que eu te mando o truque e 3 pedidos prontos.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 33%, abaixo do corte"
+}

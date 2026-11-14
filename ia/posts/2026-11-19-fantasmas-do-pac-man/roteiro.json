@@ -1,0 +1,112 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "historia",
+ "chave": "FANTASMA",
+ "tese": "EM 1980, CADA FANTASMA DO PAC-MAN JÁ TINHA UM CÉREBRO DIFERENTE",
+ "conceito": "Labirinto neon de fliperama em 3D com quatro fantasmas de blocos; cada um desenha o caminho que escolheu em linha colorida; nº 1: o laranja se vira e foge. Sem arte ou logo do Pac-Man.",
+ "brinde": "o mapa do comportamento de cada fantasma + o artigo de referência",
+ "fontes": [
+  "https://pacman.holenet.info/",
+  "https://en.wikipedia.org/wiki/Pac-Man"
+ ],
+ "prova_viral": "Fonte histórica: The Pac-Man Dossier (Jamey Pittman) e Wikipedia (Pac-Man): cada fantasma tem regra de perseguição própria (1980).",
+ "obs": "Lista de 4. Conferir os comportamentos no Pac-Man Dossier antes de produzir; usar só arte própria.",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "OS FANTASMAS DO PAC-MAN TINHAM IA",
+   "fala": "Em 1980, cada fantasma do Pac-Man já tinha um cérebro diferente.",
+   "legenda": "Em 1980, cada fantasma do Pac-Man já tinha um cérebro diferente.",
+   "visual": "fliperama neon com um labirinto e quatro fantasmas de blocos",
+   "itens": "fantasmas-do-pac-man",
+   "etiqueta": [
+    "OS FANTASMAS DO PAC-MAN TINHAM IA",
+    "4 CÉREBROS DIFERENTES DESDE 1980",
+    "E O Nº 1 FOGE DE PERTO"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Blinky",
+   "fala": "Quarto: o vermelho, Blinky, persegue você direto.",
+   "legenda": "4º Blinky: o vermelho persegue direto",
+   "visual": "o vermelho persegue direto",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Pinky",
+   "fala": "Terceiro: a rosa, Pinky, tenta cortar o seu caminho pela frente. Comenta FANTASMA e manda pra quem cresceu no fliperama.",
+   "legenda": "3º Pinky: a rosa tenta cortar o caminho",
+   "visual": "a rosa tenta cortar o caminho",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Inky",
+   "fala": "Segundo: o azul, Inky, usa a posição do vermelho pra te cercar.",
+   "legenda": "2º Inky: o azul usa o vermelho pra te cercar",
+   "visual": "o azul usa o vermelho pra te cercar",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Clyde",
+   "fala": "E o um: o laranja, Clyde, persegue de longe e foge quando chega perto.",
+   "legenda": "1º Clyde: o laranja foge quando chega perto",
+   "visual": "o laranja foge quando chega perto",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "d) split-flap",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "d) virada de página",
+  "mascote": "boné + correndo",
+  "camera": "e) câmera na mão",
+  "fechamento": "b) pódio",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 64,
+ "duracao_estimada_s": 22.9
+}

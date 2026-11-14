@@ -1,0 +1,4 @@
+Tá aqui 👇 o truque:
+Pra rodar IA no PC, olhe a memória da placa de vídeo (VRAM) antes da velocidade: modelos grandes não cabem em placa com pouca memória.
+Regra rápida: quanto mais VRAM, maior o modelo que cabe.
+https://en.wikipedia.org/wiki/Graphics_processing_unit

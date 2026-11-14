@@ -1,0 +1,127 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "historia",
+ "chave": "DOTA",
+ "tese": "A IA QUE GANHOU DOS CAMPEÕES DO MUNDO DE DOTA 2 · 5 FATOS · E O Nº 1 É O PLACAR",
+ "conceito": "Arena de jogo de blocos: cinco robôs de uma cor e cinco jogadores de outra; contador de anos de treino girando como odômetro; nº 1: placar 2 x 0 acende. Sem logos da Valve/OpenAI nem rostos.",
+ "brinde": "linha do tempo do OpenAI Five + o artigo da OpenAI",
+ "fontes": [
+  "https://openai.com/index/openai-five-defeats-dota-2-world-champions/",
+  "https://en.wikipedia.org/wiki/OpenAI_Five"
+ ],
+ "prova_viral": "Fonte histórica: OpenAI (13/04/2019): OpenAI Five venceu a OG, campeã mundial de Dota 2, por 2 a 0; Wikipedia (OpenAI Five).",
+ "obs": "Conferir na fonte: ano do 1x1 (2017), a OG como campeã mundial e a data (13/04/2019) antes de produzir.",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IA QUE GANHOU DOS CAMPEÕES DE DOTA",
+   "fala": "Em 2019, uma IA enfrentou os campeões mundiais de Dota 2. E ganhou jogando em equipe.",
+   "legenda": "Em 2019, uma IA enfrentou os campeões mundiais de Dota 2. E ganhou jogando em equipe.",
+   "visual": "arena de jogo de blocos com cinco robôs de um lado e cinco jogadores do outro",
+   "itens": "ia-que-ganhou-dos-campeoes-de-dota",
+   "etiqueta": [
+    "A IA QUE GANHOU DOS CAMPEÕES DE DOTA",
+    "5 FATOS DE 2017 A 2019",
+    "E O Nº 1 É O PLACAR"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "2017",
+   "fala": "Cinco: 2017. A OpenAI vence um jogador profissional no um contra um.",
+   "legenda": "5º 2017: vence um profissional no 1 contra 1",
+   "visual": "vence um profissional no 1 contra 1",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "5 contra 5",
+   "fala": "Quatro: depois, ela aprende a jogar em equipe, cinco robôs contra cinco humanos.",
+   "legenda": "4º 5 contra 5: aprende a jogar em equipe",
+   "visual": "aprende a jogar em equipe",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Treino",
+   "fala": "Três: ela treinava jogando contra si mesma, cento e oitenta anos de partida por dia. Comenta DOTA e manda pra quem joga em equipe.",
+   "legenda": "3º Treino: 180 anos de partidas por dia, contra si mesma",
+   "visual": "180 anos de partidas por dia, contra si mesma",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "A OG",
+   "fala": "Dois: abril de 2019. Ela encara a OG, campeã mundial.",
+   "legenda": "2º A OG: abril de 2019: enfrenta a OG, campeã mundial",
+   "visual": "abril de 2019: enfrenta a OG, campeã mundial",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "O placar",
+   "fala": "E o um: vence por dois a zero.",
+   "legenda": "1º O placar: vence por 2 a 0",
+   "visual": "vence por 2 a 0",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "a) caixa creme no topo",
+  "nome": "c) máquina de escrever",
+  "contador": "a) número + barra de blocos",
+  "legenda": "b) uma palavra gigante por vez",
+  "transicao": "c) íris circular",
+  "mascote": "óculos + digitando",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 83,
+ "duracao_estimada_s": 29.6
+}

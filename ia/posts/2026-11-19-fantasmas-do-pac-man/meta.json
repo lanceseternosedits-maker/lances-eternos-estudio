@@ -1,0 +1,29 @@
+{
+ "data": "2026-11-19",
+ "horario": "21:30",
+ "horarios": {
+  "instagram": "2026-11-19 21:30",
+  "tiktok": "2026-11-19 21:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "Pac-Man",
+  "jogos",
+  "história",
+  "IA em jogos"
+ ],
+ "fontes": [
+  "https://pacman.holenet.info/",
+  "https://en.wikipedia.org/wiki/Pac-Man"
+ ],
+ "prova_viral": "Fonte histórica: The Pac-Man Dossier (Jamey Pittman) e Wikipedia (Pac-Man): cada fantasma tem regra de perseguição própria (1980).",
+ "cta": "FANTASMA",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 13,
+ "primeiro_comentario": "💬 Comenta FANTASMA que eu te mando o mapa dos fantasmas e o artigo.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 32%, abaixo do corte"
+}

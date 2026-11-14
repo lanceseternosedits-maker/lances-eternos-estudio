@@ -1,0 +1,8 @@
+Tá aqui 👇 os links dos 5:
+5º yogurt: https://github.com/FrigadeHQ/yogurt
+4º pinky: https://github.com/DIYgod/pinky
+3º cinecode: https://github.com/sarpstar/cinecode
+2º huashu-motion: https://github.com/alchaincyf/huashu-motion
+1º agent-autoloop: https://github.com/KKKKhazix/agent-autoloop
+
+⚠️ Vários precisam de Claude Code ou outra IA de programação (plano pago) e de um pouco de conhecimento técnico.

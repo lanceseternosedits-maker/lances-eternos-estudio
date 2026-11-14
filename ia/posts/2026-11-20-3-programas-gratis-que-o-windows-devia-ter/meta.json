@@ -1,0 +1,29 @@
+{
+ "data": "2026-11-20",
+ "horario": "06:00",
+ "horarios": {
+  "instagram": "2026-11-20 06:00",
+  "tiktok": "2026-11-20 06:00"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "PC",
+  "Windows",
+  "programas grátis"
+ ],
+ "fontes": [
+  "https://github.com/oinkvm/oink",
+  "https://github.com/shanselman/gputaskman",
+  "https://github.com/anefzaoui/misterdownloadmanager"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 14/11/2026): oink 1.679, gputaskman 3.185, misterdownloadmanager 9.403, total 14.267; projetos criados entre 16/10 e 08/11/2026.",
+ "cta": "WINDOWS",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 14,
+ "primeiro_comentario": "💬 Comenta WINDOWS que eu te mando os links dos 3.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 42%, abaixo do corte"
+}

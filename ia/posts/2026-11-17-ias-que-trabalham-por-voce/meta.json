@@ -1,0 +1,34 @@
+{
+ "data": "2026-11-17",
+ "horario": "19:30",
+ "horarios": {
+  "instagram": "2026-11-17 19:30",
+  "tiktok": "2026-11-17 19:30"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "agentes",
+  "projetos",
+  "celular",
+  "PC",
+  "IA trabalha por você",
+  "automação"
+ ],
+ "fontes": [
+  "https://github.com/FrigadeHQ/yogurt",
+  "https://github.com/DIYgod/pinky",
+  "https://github.com/sarpstar/cinecode",
+  "https://github.com/alchaincyf/huashu-motion",
+  "https://github.com/KKKKhazix/agent-autoloop"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 14/11/2026): yogurt 1.397, pinky 2.132, cinecode 2.484, huashu-motion 2.701, agent-autoloop 5.303, total 14.017; projetos criados entre 16/10 e 08/11/2026.",
+ "cta": "ROBO",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 6,
+ "primeiro_comentario": "💬 Comenta ROBO que eu te mando os links dos 5.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 48%, abaixo do corte"
+}

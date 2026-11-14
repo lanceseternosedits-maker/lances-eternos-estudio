@@ -1,0 +1,18 @@
+Comenta DADO que eu te mando os 2 pedidos prontos. 🎲
+
+Você pergunta a mesma coisa pra IA e ela responde diferente. Cinco passos explicam.
+
+5º Sorteio: ela sorteia a próxima palavra
+4º O dado: é um dado com lados mais prováveis
+3º Temperatura: o botão de temperatura decide a ousadia
+2º Efeito: alta é criativa, baixa é certinha
+1º Truque: peça 3 versões ou "responda direto"
+
+💬 Comenta DADO e me segue. Deixa o like e manda pra aquele amigo que usa IA todo dia.
+
+Qual resposta de IA já te surpreendeu no trabalho? 👇
+
+Fontes: documentação da OpenAI e da Anthropic (parâmetro temperature). Sem ligação com as empresas citadas.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #chatgpt #inteligenciaartificial #dicasdeia #comofunciona

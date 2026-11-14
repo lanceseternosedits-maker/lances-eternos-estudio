@@ -1,0 +1,29 @@
+{
+ "data": "2026-11-18",
+ "horario": "19:30",
+ "horarios": {
+  "instagram": "2026-11-18 19:30",
+  "tiktok": "2026-11-18 19:30"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "GTA 6",
+  "mapa",
+  "curiosidades"
+ ],
+ "fontes": [
+  "https://metropoles.com/colunas/metropoles-games/gta-6-bate-recorde-historico-antes-do-lancamento",
+  "https://www.terra.com.br/byte/rockstar-define-horario-de-lancamento-de-gta-6-no-brasil,9c7a2350108c3b419e3b9195af134c642d7ssmyk.html",
+  "https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+ ],
+ "prova_viral": "Notícia: Metrópoles (12/11/2026) pré-venda e mapa; Terra (13/11) data; Rockstar confirma 19/11/2026 (imprensa, sem estrelas).",
+ "cta": "VICE",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 9,
+ "primeiro_comentario": "💬 Comenta VICE que eu te mando o resumo do que é confirmado e do que é boato.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 20%, abaixo do corte"
+}

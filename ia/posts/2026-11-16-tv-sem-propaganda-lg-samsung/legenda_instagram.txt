@@ -1,0 +1,20 @@
+Comenta TELA que eu te mando os links dos 5. 📺
+
+Muitas TVs mostram propaganda na tela inicial. Cinco projetos grátis tiram os anúncios.
+
+5º tellyscope: limpa a TV Android pelo celular
+4º dumbtv: tira anúncio e rastreio da Fire TV
+3º cleanyourtv-app: app de celular que limpa a TV Android
+2º free-my-tv: tela sem anúncio na Google TV, LG e Samsung
+1º aerial-tv: tela inicial estilo Apple TV, sem anúncio
+
+⚠️ Mexer na TV é por sua conta: leia o README e use só na sua. Pode afetar a garantia.
+
+💬 Comenta TELA e me segue. Deixa o like e manda pra aquele amigo que reclama dos anúncios da TV.
+
+Qual a pior propaganda que aparece na sua TV? 👇
+
+Fonte: repositórios no GitHub (estrelas conferidas na produção). Projetos independentes, sem ligação com as marcas de TV.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#tv #smarttv #tecnologia #gratis #android

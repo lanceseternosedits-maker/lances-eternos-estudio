@@ -1,0 +1,128 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "GTA6",
+ "tese": "GTA 6 ABRE À MEIA-NOITE · 5 COISAS PRA FAZER ANTES",
+ "conceito": "Quarto de gamer à noite: relógio que avança até 00:00, console de blocos e uma lista de checagem em post-its que viram check verde; nº 1: um link falso ganha carimbo GOLPE. Sem logos da Rockstar.",
+ "brinde": "checklist \"antes da meia-noite\" + links das fontes",
+ "fontes": [
+  "https://www.terra.com.br/byte/rockstar-define-horario-de-lancamento-de-gta-6-no-brasil,9c7a2350108c3b419e3b9195af134c642d7ssmyk.html",
+  "https://www.terra.com.br/byte/rockstar-finaliza-desenvolvimento-de-gta-6-dias-antes-do-lancamento,16a5a31a0e5fdb2ac7ee3db53d4ddcdc0qnh4ych.html",
+  "https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+ ],
+ "prova_viral": "Notícia do dia: Terra (13/11/2026) horário, pré-carga e 212 GB; Terra (09/11) jogo pronto; Rockstar confirma 19/11/2026 (imprensa, sem estrelas).",
+ "obs": "Variante da vaga 4 de 17/11; só uma delas segue. Releia as fontes no dia.",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "GTA 6 ABRE À MEIA-NOITE",
+   "fala": "O GTA 6 abre à meia-noite. Cinco coisas pra fazer antes, e a número um evita golpe.",
+   "legenda": "O GTA 6 abre à meia-noite. Cinco coisas pra fazer antes, e a número um evita golpe.",
+   "visual": "relógio gigante 20:00 ao lado de um console de blocos com barra de download",
+   "itens": "gta6-5-coisas-antes-da-meia-noite",
+   "etiqueta": [
+    "GTA 6 ABRE À MEIA-NOITE",
+    "5 COISAS PRA FAZER ANTES",
+    "E A Nº 1 EVITA GOLPE"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Espaço",
+   "fala": "Quinto: libere espaço. O download pode pedir até duzentos e doze gigas.",
+   "legenda": "5º Espaço: libere até 212 GB",
+   "visual": "libere até 212 GB",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Pré-carga",
+   "fala": "Quarto: veja se a pré-carga terminou. Ela está liberada desde dez de novembro.",
+   "legenda": "4º Pré-carga: confira se a pré-carga terminou",
+   "visual": "confira se a pré-carga terminou",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Conta",
+   "fala": "Terceiro: entre na sua conta e atualize o console antes. Comenta GTA6 e manda pra um amigo que vai virar a noite.",
+   "legenda": "3º Conta: entre na conta e atualize o console",
+   "visual": "entre na conta e atualize o console",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Hora",
+   "fala": "Segundo: lembre que abre à meia-noite de Brasília, liberando por região.",
+   "legenda": "2º Hora: 0h de quinta, por região",
+   "visual": "0h de quinta, por região",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Golpe",
+   "fala": "E o um: desconfie de GTA 6 pra PC. Não tem data, qualquer link é suspeito.",
+   "legenda": "1º Golpe: GTA 6 pra PC não tem data: desconfie",
+   "visual": "GTA 6 pra PC não tem data: desconfie",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "c) velocímetro circular",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando uma tela",
+  "mascote": "lanterna + procurando",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 91,
+ "duracao_estimada_s": 32.5
+}

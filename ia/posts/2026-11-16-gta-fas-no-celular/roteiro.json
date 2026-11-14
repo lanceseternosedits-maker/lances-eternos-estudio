@@ -1,0 +1,141 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "GTA",
+ "tese": "5 PROJETOS QUE FÃS FIZERAM PRA JOGAR GTA NO CELULAR E NO PC · SEM EMULADOR",
+ "conceito": "Cidade neon de blocos ao entardecer com uma placa de rua GTA 6 = QUINTA; cada projeto sai de um celular como uma cena da cidade; nº 1: o celular vira janela para a cidade com carros em multiplayer. Sem logos, personagens ou mapas da Rockstar.",
+ "brinde": "links dos 5 projetos + o aviso de que só funcionam com o SEU jogo",
+ "fontes": [
+  "https://github.com/mempage4k/glue5",
+  "https://github.com/SebasKitten/Grand-V",
+  "https://github.com/kevinerikjs/gta5-ios-port",
+  "https://github.com/gothamor/gta-vcs-recomp",
+  "https://github.com/c22dev/muguet",
+  "https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 14/11/2026): glue5 295, Grand-V 404, gta5-ios-port 605, gta-vcs-recomp 648, muguet 817, total 2.769; projetos criados entre 16/10 e 08/11/2026.",
+ "obs": "Reler estrelas e links no dia da produção; trocar item que tiver caído. NUNCA link/dica de ROM ou pirataria. Confirmar no README de cada um que exige arquivos do jogo do usuário.",
+ "polemica": true,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "GTA NO CELULAR: 5 PROJETOS DE FÃS",
+   "fala": "O GTA 6 está chegando. Mas fãs já botaram o GTA pra rodar no celular.",
+   "legenda": "O GTA 6 está chegando. Mas fãs já botaram o GTA pra rodar no celular.",
+   "visual": "mapa de cidade neon ao pôr do sol; um celular acende com um carro dentro",
+   "itens": "gta-fas-no-celular",
+   "etiqueta": [
+    "GTA NO CELULAR: 5 PROJETOS DE FÃS",
+    "+2,7 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 TEM MULTIPLAYER"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "glue5",
+   "fala": "Quinto: glue5. O GTA 5 rodando no iPhone, no Mac e no Android.",
+   "legenda": "5º glue5: GTA 5 no iPhone, Mac e Android",
+   "visual": "GTA 5 no iPhone, Mac e Android",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "mempage4k/glue5",
+   "estrelas": 295
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Grand-V",
+   "fala": "Quarto: Grand-V. O GTA 5 rodando direto no navegador.",
+   "legenda": "4º Grand-V: GTA 5 direto no navegador",
+   "visual": "GTA 5 direto no navegador",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "SebasKitten/Grand-V",
+   "estrelas": 404
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "gta5-ios-port",
+   "fala": "Terceiro: gta5-ios-port. GTA 5 nativo no iPhone, com os arquivos do seu jogo. Essa é legalzinha… comenta GTA e manda pra um amigo.",
+   "legenda": "3º gta5-ios-port: GTA 5 nativo no iPhone",
+   "visual": "GTA 5 nativo no iPhone",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "kevinerikjs/gta5-ios-port",
+   "estrelas": 605
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "gta-vcs-recomp",
+   "fala": "Segundo: Vice City Stories rodando nativo no PC. A mesma cidade do GTA 6.",
+   "legenda": "2º gta-vcs-recomp: Vice City Stories nativo no PC",
+   "visual": "Vice City Stories nativo no PC",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "gothamor/gta-vcs-recomp",
+   "estrelas": 648
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "muguet",
+   "fala": "E o um: muguet. GTA 5 nativo no iPhone e no Mac, com multiplayer.",
+   "legenda": "1º muguet: GTA 5 nativo no iPhone e Mac, com multiplayer",
+   "visual": "GTA 5 nativo no iPhone e Mac, com multiplayer",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ],
+   "repo": "c22dev/muguet",
+   "estrelas": 817
+  }
+ ],
+ "elementos": {
+  "etiqueta": "a) caixa creme no topo",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "d) virada de página",
+  "mascote": "óculos + digitando",
+  "camera": "e) câmera na mão",
+  "fechamento": "b) pódio",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 88,
+ "duracao_estimada_s": 31.4
+}

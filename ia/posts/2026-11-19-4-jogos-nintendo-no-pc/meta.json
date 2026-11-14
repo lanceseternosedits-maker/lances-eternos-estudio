@@ -1,0 +1,38 @@
+{
+ "data": "2026-11-19",
+ "horario": "19:30",
+ "horarios": {
+  "instagram": "2026-11-19 19:30",
+  "tiktok": "2026-11-19 19:30"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "jogos",
+  "PC",
+  "recompilação"
+ ],
+ "fontes": [
+  "https://github.com/Dittobyte/Recompia",
+  "https://github.com/kuraeow/ultratears",
+  "https://github.com/Revivedx/SavageWindRecomp",
+  "https://github.com/valentderah/totk-pc-recomp"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 14/11/2026): Recompia 776, ultratears 915, SavageWindRecomp 4.327, totk-pc-recomp 7.186, total 13.204; projetos criados entre 16/10 e 08/11/2026.",
+ "cta": "RECOMP",
+ "polemica": true,
+ "status": "reprovado na revisão",
+ "vaga": 12,
+ "primeiro_comentario": "💬 Comenta RECOMP que eu te mando os links dos 4.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "revisao": {
+  "veredito": "reprovado",
+  "resumo": "nicho de gamer; fatos não verificáveis",
+  "pareceres": [
+   "vitor: reprova (nicho, repete Nintendo de 07/11)",
+   "fatos: reprova (sem emulador/nativo não verificável)",
+   "gancho: ajustar",
+   "clareza: ajustar"
+  ]
+ }
+}

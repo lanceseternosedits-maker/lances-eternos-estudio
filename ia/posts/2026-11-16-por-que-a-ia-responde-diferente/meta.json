@@ -1,0 +1,28 @@
+{
+ "data": "2026-11-16",
+ "horario": "12:00",
+ "horarios": {
+  "instagram": "2026-11-16 12:00",
+  "tiktok": "2026-11-16 12:00"
+ },
+ "categoria": "como_funciona",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "temperatura",
+  "dado",
+  "IA"
+ ],
+ "fontes": [
+  "https://platform.openai.com/docs/api-reference/chat/create",
+  "https://docs.anthropic.com/en/api/messages"
+ ],
+ "prova_viral": "Explicação consolidada: documentação oficial da OpenAI e da Anthropic sobre o parâmetro temperature (imprensa técnica, sem estrelas).",
+ "cta": "DADO",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 2,
+ "primeiro_comentario": "💬 Comenta DADO que eu te mando os 2 pedidos prontos.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 21%, abaixo do corte"
+}

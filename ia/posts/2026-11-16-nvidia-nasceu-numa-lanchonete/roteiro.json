@@ -1,0 +1,127 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "historia",
+ "chave": "DENNYS",
+ "tese": "A NVIDIA NASCEU NUMA LANCHONETE · 5 DATAS · E A Nº 1 MUDOU A IA",
+ "conceito": "Lanchonete anos 90 em 3D: balcão, cardápio de papel e uma placa de vídeo dourada que gira; cada data vira um guardanapo com carimbo; nº 1: duas placas de jogo ligadas por cabos acendem uma tela de fotos. Sem logo da Nvidia nem rostos.",
+ "brinde": "linha do tempo da Nvidia (1993 a 2012) com os links das fontes",
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Nvidia",
+  "https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html"
+ ],
+ "prova_viral": "Fonte histórica: Wikipedia (Nvidia fundada em 1993, reunião num Denny's em San Jose) e artigo AlexNet (NeurIPS 2012: erro top-5 de 15,3% contra 26,2% do 2º, treinado com duas GPUs GTX 580). Gancho do dia: a semana da Nvidia está no topo das notícias de tecnologia.",
+ "obs": "Sem foco na fofoca (já tem o roteiro NVIDIA aprovado). Reler as datas nas fontes. 📜 fecha com \"salva pra contar pra alguém\" (na legenda e na fala final do vídeo).",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A NVIDIA NASCEU NUMA LANCHONETE",
+   "fala": "A Nvidia nasceu numa lanchonete. E uma placa de jogo mudou a IA pra sempre.",
+   "legenda": "A Nvidia nasceu numa lanchonete. E uma placa de jogo mudou a IA pra sempre.",
+   "visual": "mesa de lanchonete dos anos 90 com uma placa de vídeo dourada no lugar do prato",
+   "itens": "nvidia-nasceu-numa-lanchonete",
+   "etiqueta": [
+    "A NVIDIA NASCEU NUMA LANCHONETE",
+    "5 DATAS DE 1993 A 2012",
+    "E A Nº 1 MUDOU A IA"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "1993",
+   "fala": "Cinco: 1993. Três engenheiros criam a Nvidia, numa reunião num Denny's.",
+   "legenda": "5º 1993: 3 engenheiros fundam a Nvidia, numa lanchonete",
+   "visual": "3 engenheiros fundam a Nvidia, numa lanchonete",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "1999",
+   "fala": "Quatro: 1999. A GeForce 256, que a Nvidia chama de primeira GPU do mundo.",
+   "legenda": "4º 1999: GeForce 256, a \"primeira GPU\"",
+   "visual": "GeForce 256, a \"primeira GPU\"",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "2007",
+   "fala": "Três: 2007. A CUDA deixa a placa de vídeo fazer outras contas, além de jogo. Comenta DENNYS e manda pra quem joga.",
+   "legenda": "3º 2007: CUDA: a placa faz outras contas",
+   "visual": "CUDA: a placa faz outras contas",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "2012",
+   "fala": "Dois: 2012. Dois pesquisadores treinam a AlexNet com duas placas de jogo.",
+   "legenda": "2º 2012: AlexNet treinada com duas placas de jogo",
+   "visual": "AlexNet treinada com duas placas de jogo",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "ImageNet",
+   "fala": "E o um: errou 15% na prova de imagens, contra 26% do segundo. Ali a IA decolou.",
+   "legenda": "1º ImageNet: 15% de erro contra 26% do 2º lugar",
+   "visual": "15% de erro contra 26% do 2º lugar",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "f) escrito à mão",
+  "contador": "c) velocímetro circular",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando uma tela",
+  "mascote": "crachá + carimbando",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 91,
+ "duracao_estimada_s": 32.5
+}

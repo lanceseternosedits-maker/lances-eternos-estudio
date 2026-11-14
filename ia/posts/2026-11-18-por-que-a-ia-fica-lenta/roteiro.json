@@ -1,0 +1,126 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "como_funciona",
+ "chave": "FILA",
+ "tese": "POR QUE A IA FICA LENTA NO HORÁRIO DE PICO · 5 PASSOS",
+ "conceito": "Lanchonete lotada: cada cliente é um pedido e cada caixa é uma placa de vídeo; nº 1: um cliente com pedido curto passa na frente. Sem logos.",
+ "brinde": "o truque pra IA responder mais rápido",
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Queueing_theory"
+ ],
+ "prova_viral": "Explicação consolidada de fila de pedidos em servidores (Wikipedia, teoria das filas); simplificada (imprensa técnica, sem estrelas).",
+ "obs": "Simplificação: não afirmar o motivo exato de nenhuma empresa; manter como explicação geral.",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "POR QUE A IA FICA LENTA",
+   "fala": "Às vezes a IA demora uma eternidade pra responder. Cinco passos explicam.",
+   "legenda": "Às vezes a IA demora uma eternidade pra responder. Cinco passos explicam.",
+   "visual": "lanchonete lotada com fila saindo pela porta",
+   "itens": "por-que-a-ia-fica-lenta",
+   "etiqueta": [
+    "POR QUE A IA FICA LENTA",
+    "5 PASSOS EM 30 SEGUNDOS",
+    "E O Nº 1 É O TRUQUE"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Pedidos",
+   "fala": "Cinco: milhares de pessoas mandam pedido ao mesmo tempo.",
+   "legenda": "5º Pedidos: milhares de pedidos ao mesmo tempo",
+   "visual": "milhares de pedidos ao mesmo tempo",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Placas",
+   "fala": "Quatro: cada resposta ocupa uma placa de vídeo cara por alguns segundos.",
+   "legenda": "4º Placas: cada resposta ocupa uma placa cara",
+   "visual": "cada resposta ocupa uma placa cara",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Fila",
+   "fala": "Três: quando as placas lotam, os pedidos entram numa fila. Comenta FILA que eu te mando o truque, e manda pra um amigo.",
+   "legenda": "3º Fila: as placas lotam e entra na fila",
+   "visual": "as placas lotam e entra na fila",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Tamanho",
+   "fala": "Dois: pedido longo e conversa gigante demoram ainda mais.",
+   "legenda": "2º Tamanho: pedido longo demora mais",
+   "visual": "pedido longo demora mais",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Truque",
+   "fala": "E o um, o truque: peça curto, e deixe o trabalho pesado pra fora do horário de pico.",
+   "legenda": "1º Truque: peça curto e fuja do horário de pico",
+   "visual": "peça curto e fuja do horário de pico",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "c) máquina de escrever",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "d) virada de página",
+  "mascote": "lanterna + procurando",
+  "camera": "e) câmera na mão",
+  "fechamento": "b) pódio",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 83,
+ "duracao_estimada_s": 29.6
+}

@@ -1,0 +1,104 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "WINDOWS",
+ "tese": "3 PROGRAMAS GRÁTIS QUE O WINDOWS DEVIA TER DE FÁBRICA · +14 MIL ESTRELAS",
+ "conceito": "Mesa de trabalho: notebook que solta janelas-programas como post-its; cada programa cola na tela; nº 1: uma barra de download que acelera. Sem logos de terceiros nem da Microsoft.",
+ "brinde": "links dos 3 + qual instalar primeiro",
+ "fontes": [
+  "https://github.com/oinkvm/oink",
+  "https://github.com/shanselman/gputaskman",
+  "https://github.com/anefzaoui/misterdownloadmanager"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 14/11/2026): oink 1.679, gputaskman 3.185, misterdownloadmanager 9.403, total 14.267; projetos criados entre 16/10 e 08/11/2026.",
+ "obs": "README de oink e misterdownloadmanager cita Windows; gputaskman é Windows/Linux/WSL (conferido na busca do GitHub em 14/11). Lista de 3 (como a do Windows de 07/11, outros programas).",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "3 PROGRAMAS GRÁTIS QUE O WINDOWS DEVIA TER",
+   "fala": "Três programas grátis que o Windows devia ter de fábrica. Juntos, catorze mil estrelas.",
+   "legenda": "Três programas grátis que o Windows devia ter de fábrica. Juntos, catorze mil estrelas.",
+   "visual": "mesa de trabalho com notebook que solta janelas de programas, uma por uma",
+   "itens": "3-programas-gratis-que-o-windows-devia-ter",
+   "etiqueta": [
+    "3 PROGRAMAS GRÁTIS QUE O WINDOWS DEVIA TER",
+    "+14 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 ENFRENTA O PAGO"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "oink",
+   "fala": "Terceiro: oink. Teclado, mouse e área de transferência compartilhados entre seus computadores. Essa é legalzinha… comenta WINDOWS e manda pra um amigo.",
+   "legenda": "3º oink: um teclado e mouse pra vários computadores",
+   "visual": "um teclado e mouse pra vários computadores",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "oinkvm/oink",
+   "estrelas": 1679
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "gputaskman",
+   "fala": "Segundo: gputaskman. Mostra quanto da placa de vídeo cada programa usa.",
+   "legenda": "2º gputaskman: mostra o uso da placa de vídeo por programa",
+   "visual": "mostra o uso da placa de vídeo por programa",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "shanselman/gputaskman",
+   "estrelas": 3185
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "misterdownloadmanager",
+   "fala": "E o um: misterdownloadmanager. Um gerenciador de download aberto, escrito do zero.",
+   "legenda": "1º misterdownloadmanager: gerenciador de download aberto, escrito do zero",
+   "visual": "gerenciador de download aberto, escrito do zero",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ],
+   "repo": "anefzaoui/misterdownloadmanager",
+   "estrelas": 9403
+  }
+ ],
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "d) virada de página",
+  "mascote": "mochila + lendo",
+  "camera": "e) câmera na mão",
+  "fechamento": "b) pódio",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 59,
+ "duracao_estimada_s": 21.1
+}

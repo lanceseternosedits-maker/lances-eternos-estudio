@@ -1,0 +1,29 @@
+{
+ "data": "2026-11-17",
+ "horario": "21:30",
+ "horarios": {
+  "instagram": "2026-11-17 21:30",
+  "tiktok": "2026-11-17 21:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "Word",
+  "Clippy",
+  "história",
+  "Microsoft"
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Office_Assistant",
+  "https://en.wikipedia.org/wiki/Clippy"
+ ],
+ "prova_viral": "Fonte histórica: Wikipedia (Office Assistant): Clippit no Office 97, desligado por padrão no Office XP, removido no Office 2007. Gancho do dia: Copilot dentro do Word.",
+ "cta": "CLIPE",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 7,
+ "primeiro_comentario": "💬 Comenta CLIPE que eu te mando a linha do tempo com as fontes.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 45%, abaixo do corte"
+}

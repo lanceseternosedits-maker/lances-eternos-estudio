@@ -1,0 +1,45 @@
+{
+ "data": "2026-11-17",
+ "horario": "19:30",
+ "horarios": {
+  "instagram": "2026-11-17 19:30",
+  "tiktok": "2026-11-17 19:30"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "jogos",
+  "celular",
+  "console",
+  "PC",
+  "projetos",
+  "Mac",
+  "Switch",
+  "PlayStation"
+ ],
+ "fontes": [
+  "https://github.com/shirai91/nx2android",
+  "https://github.com/thebcd69/bcd-games",
+  "https://github.com/raymondchins/Bridgeplay",
+  "https://github.com/jhaizhou-ops/S2Arm",
+  "https://github.com/cranebeaker/coop-anything"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 14/11/2026): nx2android 1.601, bcd-games 549, Bridgeplay 966, S2Arm 2.947, coop-anything 2.117, total 8.180; projetos criados entre 16/10 e 08/11/2026.",
+ "cta": "JOGOS",
+ "polemica": true,
+ "status": "roteiro aguardando aprovação",
+ "vaga": 6,
+ "primeiro_comentario": "💬 Comenta JOGOS que eu te mando os links dos 5.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "sem \"de graça\" pro jogo; aviso legal na fala",
+  "pareceres": [
+   "vitor: ajustar (tirar Steam/GOG, explicar o nº 1)",
+   "fatos: ajustar (jogo você precisa ter; ordem por estrelas)",
+   "gancho: ajustar (etiqueta de conflito, pergunta de vida)",
+   "clareza: ajustar (falas curtas, sem \"nativos\")"
+  ],
+  "obs": "2ª volta não rodada por economia de tokens; ajustes aplicados conforme os 4 pareceres"
+ }
+}

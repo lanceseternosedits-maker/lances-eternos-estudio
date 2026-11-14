@@ -1,0 +1,127 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "KIT",
+ "tese": "5 COISAS QUE A IA FAZ POR VOCÊ · A Nº 1 PEGA GOLPE",
+ "conceito": "Mesa de cozinha de manhã com objetos reconhecíveis (celular, boleto, panela, agenda); o nº 1 é um celular com mensagem falsa de banco que ganha carimbo GOLPE. Mascote só reage.",
+ "brinde": "kit Super Assistente de IA (10 assistentes prontos) via DM de venda (KIT)",
+ "fontes": [
+  "https://www.science.org/doi/10.1126/science.adh2586"
+ ],
+ "prova_viral": "Science (2023): profissionais que usaram ChatGPT em tarefas de escrita levaram 40% menos tempo, com 18% mais qualidade (imprensa/estudo, sem estrelas).",
+ "obs": "VENDE O KIT (rodada: 1º de 2). nº 1 = Detector de golpe; o de 19/11 usa Contas da casa. 1º comentário fixado leva \"Quer o kit com 10 assistentes prontos? Comenta KIT\".",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 COISAS QUE A IA FAZ POR VOCÊ",
+   "fala": "Você faz sozinho cinco coisas que a IA resolve em dez segundos. E a número um pega golpe.",
+   "legenda": "Você faz sozinho cinco coisas que a IA resolve em dez segundos. E a número um pega golpe.",
+   "visual": "mesa de casa com celular, boleto, panela e agenda; cada objeto acende com um ícone de IA",
+   "itens": "5-coisas-ia-golpe",
+   "etiqueta": [
+    "5 COISAS QUE A IA FAZ POR VOCÊ",
+    "40% MENOS TEMPO EM TAREFAS DE ESCRITA",
+    "E A Nº 1 PEGA GOLPE"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Mensagem",
+   "fala": "Quinto: responder aquela mensagem chata do trabalho sem perder meia hora.",
+   "legenda": "5º Mensagem: ela escreve e você só revisa",
+   "visual": "ela escreve e você só revisa",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Cardápio",
+   "fala": "Quarto: montar o cardápio da semana com o que tem na geladeira.",
+   "legenda": "4º Cardápio: cardápio com o que você tem em casa",
+   "visual": "cardápio com o que você tem em casa",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Semana",
+   "fala": "Terceiro: organizar a semana. Você conta as tarefas, ela monta o horário. Comenta KIT que eu te mando os dez assistentes prontos, e manda pra um amigo.",
+   "legenda": "3º Semana: organiza a semana pra você",
+   "visual": "organiza a semana pra você",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Treino e estudo",
+   "fala": "Segundo: criar o treino da semana ou o plano de estudo da prova.",
+   "legenda": "2º Treino e estudo: treino e plano de estudo sob medida",
+   "visual": "treino e plano de estudo sob medida",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Detector de golpe",
+   "fala": "E o um: cola a mensagem do banco, e ela diz se é golpe e por quê.",
+   "legenda": "1º Detector de golpe: cola a mensagem e ela diz se é golpe",
+   "visual": "cola a mensagem e ela diz se é golpe",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "c) máquina de escrever",
+  "contador": "d) pote enchendo",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "e) glitch RGB",
+  "mascote": "fone + se escondendo",
+  "camera": "c) travelling lateral",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 98,
+ "duracao_estimada_s": 35.0,
+ "kit": true
+}

@@ -1,0 +1,126 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "como_funciona",
+ "chave": "CHEFE",
+ "tese": "TODO APP DE IA TEM UM CHEFE INVISÍVEL · 5 PASSOS",
+ "conceito": "Escritório 3D: um crachá de chefe flutua atrás do funcionário-IA e sussurra regras; nº 1: o usuário coloca um crachá novo no peito do funcionário. Sem logos.",
+ "brinde": "5 papéis prontos pra IA (professor, revisor, treinador...)",
+ "fontes": [
+  "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts"
+ ],
+ "prova_viral": "Explicação consolidada: guia oficial de prompts da Anthropic (system prompts) (imprensa técnica, sem estrelas).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "O CHEFE INVISÍVEL DA IA",
+   "fala": "Todo app de IA tem um chefe invisível que manda mais do que você.",
+   "legenda": "Todo app de IA tem um chefe invisível que manda mais do que você.",
+   "visual": "escritório com um crachá de chefe invisível sobre a mesa",
+   "itens": "a-ia-tem-um-chefe-invisivel",
+   "etiqueta": [
+    "O CHEFE INVISÍVEL DA IA",
+    "5 PASSOS EM 30 SEGUNDOS",
+    "E O Nº 1 É O TRUQUE"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Regras",
+   "fala": "Cinco: antes da sua pergunta, a empresa escreve regras escondidas pra IA.",
+   "legenda": "5º Regras: a empresa escreve regras escondidas",
+   "visual": "a empresa escreve regras escondidas",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "O nome",
+   "fala": "Quatro: essas regras se chamam prompt de sistema.",
+   "legenda": "4º O nome: chamam-se prompt de sistema",
+   "visual": "chamam-se prompt de sistema",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Efeito",
+   "fala": "Três: por isso a mesma IA muda de jeito em cada app. Comenta CHEFE que eu te mando 5 papéis prontos, e manda pra um amigo.",
+   "legenda": "3º Efeito: a mesma IA muda de jeito em cada app",
+   "visual": "a mesma IA muda de jeito em cada app",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "O poder",
+   "fala": "Dois: elas definem o tom, o papel e o que a IA recusa.",
+   "legenda": "2º O poder: definem tom, papel e recusas",
+   "visual": "definem tom, papel e recusas",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Truque",
+   "fala": "E o um, o truque: comece dizendo o papel. Você é um professor de inglês.",
+   "legenda": "1º Truque: comece dizendo o papel da IA",
+   "visual": "comece dizendo o papel da IA",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "b) carimbo batendo",
+  "contador": "a) número + barra de blocos",
+  "legenda": "b) uma palavra gigante por vez",
+  "transicao": "c) íris circular",
+  "mascote": "capa + pilotando",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 88,
+ "duracao_estimada_s": 31.4
+}

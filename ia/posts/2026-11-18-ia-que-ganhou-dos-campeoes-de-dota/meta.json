@@ -1,0 +1,29 @@
+{
+ "data": "2026-11-18",
+ "horario": "21:30",
+ "horarios": {
+  "instagram": "2026-11-18 21:30",
+  "tiktok": "2026-11-18 21:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "Dota 2",
+  "OpenAI Five",
+  "jogos",
+  "história"
+ ],
+ "fontes": [
+  "https://openai.com/index/openai-five-defeats-dota-2-world-champions/",
+  "https://en.wikipedia.org/wiki/OpenAI_Five"
+ ],
+ "prova_viral": "Fonte histórica: OpenAI (13/04/2019): OpenAI Five venceu a OG, campeã mundial de Dota 2, por 2 a 0; Wikipedia (OpenAI Five).",
+ "cta": "DOTA",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 10,
+ "primeiro_comentario": "💬 Comenta DOTA que eu te mando a linha do tempo com as fontes.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 39%, abaixo do corte"
+}

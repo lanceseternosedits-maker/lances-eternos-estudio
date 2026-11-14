@@ -1,0 +1,43 @@
+{
+ "data": "2026-11-16",
+ "horario": "06:00",
+ "horarios": {
+  "instagram": "2026-11-16 06:00",
+  "tiktok": "2026-11-16 06:00"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "TV",
+  "celular",
+  "projetos",
+  "propaganda",
+  "Android TV",
+  "o que a fabricante não queria"
+ ],
+ "fontes": [
+  "https://github.com/humblemuzzu/dumbtv",
+  "https://github.com/man15h/tellyscope",
+  "https://github.com/udhaykumarbala/cleanyourtv-app",
+  "https://github.com/simbasjungles/free-my-tv",
+  "https://github.com/pengchujin/aerial-tv"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 14/11/2026): dumbtv 2.056, tellyscope 2.021, cleanyourtv-app 2.139, free-my-tv 6.378, aerial-tv 11.815, total 24.409; projetos criados entre 16/10 e 08/11/2026.",
+ "cta": "TELA",
+ "polemica": true,
+ "status": "roteiro aguardando aprovação",
+ "vaga": 1,
+ "primeiro_comentario": "💬 Comenta TELA que eu te mando os links dos 5.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "gancho/fatos/clareza ajustados; sem \"tiram tudo\"",
+  "pareceres": [
+   "vitor: ajustar (jargão, manter o que instala fácil)",
+   "fatos: ajustar (sem exagero, ordem por estrelas, reler README no dia)",
+   "gancho: ajustar (conflito na etiqueta)",
+   "clareza: ajustar (falas mais curtas, sem \"root\")"
+  ],
+  "obs": "2ª volta não rodada por economia de tokens; ajustes aplicados conforme os 4 pareceres"
+ }
+}

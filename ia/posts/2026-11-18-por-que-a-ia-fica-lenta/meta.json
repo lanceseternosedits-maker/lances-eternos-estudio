@@ -1,0 +1,27 @@
+{
+ "data": "2026-11-18",
+ "horario": "12:00",
+ "horarios": {
+  "instagram": "2026-11-18 12:00",
+  "tiktok": "2026-11-18 12:00"
+ },
+ "categoria": "como_funciona",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "fila",
+  "lentidão",
+  "IA"
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Queueing_theory"
+ ],
+ "prova_viral": "Explicação consolidada de fila de pedidos em servidores (Wikipedia, teoria das filas); simplificada (imprensa técnica, sem estrelas).",
+ "cta": "FILA",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 8,
+ "primeiro_comentario": "💬 Comenta FILA que eu te mando o truque pra IA responder mais rápido.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 33%, abaixo do corte"
+}

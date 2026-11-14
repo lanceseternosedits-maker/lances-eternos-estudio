@@ -1,0 +1,127 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "como_funciona",
+ "chave": "DADO",
+ "tese": "POR QUE A IA RESPONDE DIFERENTE TODA VEZ · 5 PASSOS",
+ "conceito": "Mesa de jogo com um dado gigante de palavras; cada passo gira o dado e mostra o resultado; nº 1: dois dados lado a lado, um certinho e um ousado. Sem logos.",
+ "brinde": "os 2 pedidos prontos pra IA responder do jeito que você quer",
+ "fontes": [
+  "https://platform.openai.com/docs/api-reference/chat/create",
+  "https://docs.anthropic.com/en/api/messages"
+ ],
+ "prova_viral": "Explicação consolidada: documentação oficial da OpenAI e da Anthropic sobre o parâmetro temperature (imprensa técnica, sem estrelas).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "POR QUE A IA RESPONDE DIFERENTE",
+   "fala": "Você pergunta a mesma coisa pra IA e ela responde diferente. Cinco passos explicam.",
+   "legenda": "Você pergunta a mesma coisa pra IA e ela responde diferente. Cinco passos explicam.",
+   "visual": "mesa com um dado gigante de seis lados com palavras",
+   "itens": "por-que-a-ia-responde-diferente",
+   "etiqueta": [
+    "POR QUE A IA RESPONDE DIFERENTE",
+    "5 PASSOS EM 30 SEGUNDOS",
+    "E O Nº 1 É O TRUQUE"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Sorteio",
+   "fala": "Cinco: a IA não tem resposta pronta. Ela sorteia a próxima palavra.",
+   "legenda": "5º Sorteio: ela sorteia a próxima palavra",
+   "visual": "ela sorteia a próxima palavra",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "O dado",
+   "fala": "Quatro: o sorteio é um dado, com lados mais prováveis que outros.",
+   "legenda": "4º O dado: é um dado com lados mais prováveis",
+   "visual": "é um dado com lados mais prováveis",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Temperatura",
+   "fala": "Três: o botão de temperatura decide o quanto o dado é ousado. Comenta DADO que eu te mando os dois pedidos prontos, e manda pra um amigo.",
+   "legenda": "3º Temperatura: o botão de temperatura decide a ousadia",
+   "visual": "o botão de temperatura decide a ousadia",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Efeito",
+   "fala": "Dois: temperatura alta é criativa. Baixa é certinha.",
+   "legenda": "2º Efeito: alta é criativa, baixa é certinha",
+   "visual": "alta é criativa, baixa é certinha",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Truque",
+   "fala": "E o um, o truque: peça três versões, ou diga: responda direto, sem enfeitar.",
+   "legenda": "1º Truque: peça 3 versões ou \"responda direto\"",
+   "visual": "peça 3 versões ou \"responda direto\"",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "f) escrito à mão",
+  "contador": "d) pote enchendo",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "e) glitch RGB",
+  "mascote": "mochila + lendo",
+  "camera": "c) travelling lateral",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 87,
+ "duracao_estimada_s": 31.1
+}

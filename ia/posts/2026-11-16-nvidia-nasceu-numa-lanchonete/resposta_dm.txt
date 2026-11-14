@@ -1,0 +1,7 @@
+Tá aqui 👇 a linha do tempo:
+1993: fundação da Nvidia (reunião num Denny's, San Jose)
+1999: GeForce 256, a "primeira GPU" segundo a Nvidia
+2007: CUDA
+2012: AlexNet (duas GTX 580) vence o ImageNet, 15,3% de erro contra 26,2%
+https://en.wikipedia.org/wiki/Nvidia
+https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html

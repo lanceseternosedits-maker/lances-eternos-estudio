@@ -1,0 +1,18 @@
+Comenta PLACA que eu te mando o truque e a tabela de memória da placa. 🎮
+
+Por que a mesma placa de vídeo roda o jogo e também a IA? Cinco passos.
+
+5º CPU: o processador faz um prato por vez
+4º GPU: a placa são mil cozinheiros simples
+3º Jogo: no jogo, cada pedaço é um pixel
+2º IA: na IA, milhões de contas iguais
+1º Truque: olhe a memória da placa (VRAM)
+
+💬 Comenta PLACA e me segue. Deixa o like e manda pra aquele amigo que usa IA todo dia.
+
+Seu PC do trabalho aguentaria rodar IA? 👇
+
+Fontes: Wikipedia (GPU) e guia de programação CUDA. Sem ligação com as empresas citadas.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #pc #placadevideo #games #tecnologia

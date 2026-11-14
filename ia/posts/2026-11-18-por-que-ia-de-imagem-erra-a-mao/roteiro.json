@@ -1,0 +1,126 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "como_funciona",
+ "chave": "MAO",
+ "tese": "POR QUE A IA DE IMAGEM FAZ MÃO COM SEIS DEDOS · 5 PASSOS",
+ "conceito": "Ateliê 3D: uma mão gigante de blocos com dedos que aparecem e somem; nº 1: uma lupa corrige só a mão e o resto fica igual. Sem logos.",
+ "brinde": "o truque + 3 pedidos pra mão sair certa",
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Text-to-image_model"
+ ],
+ "prova_viral": "Explicação consolidada de modelos texto-imagem (Wikipedia); simplificada (imprensa técnica, sem estrelas). Hoje a falha diminuiu em muitos modelos.",
+ "obs": "Dizer na fala que \"ainda acontece em alguns modelos\"; vários modelos novos já melhoraram.",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "POR QUE A IA FAZ MÃO ERRADA",
+   "fala": "Por que a IA de imagem faz mão com seis dedos? Cinco passos.",
+   "legenda": "Por que a IA de imagem faz mão com seis dedos? Cinco passos.",
+   "visual": "ateliê com uma mão de blocos com dedos a mais",
+   "itens": "por-que-ia-de-imagem-erra-a-mao",
+   "etiqueta": [
+    "POR QUE A IA FAZ MÃO ERRADA",
+    "5 PASSOS EM 30 SEGUNDOS",
+    "E O Nº 1 É O TRUQUE"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Fotos",
+   "fala": "Cinco: ela aprende com milhões de fotos, mas ninguém explica o que é dedo.",
+   "legenda": "5º Fotos: aprende com fotos, sem saber o que é dedo",
+   "visual": "aprende com fotos, sem saber o que é dedo",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "A mão",
+   "fala": "Quatro: numa foto, a mão aparece de mil jeitos: fechada, pegando coisa, atrás de outra.",
+   "legenda": "4º A mão: a mão aparece de mil jeitos",
+   "visual": "a mão aparece de mil jeitos",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "O padrão",
+   "fala": "Três: ela aprende que mão é um monte de dedos parecidos, e erra a conta. Comenta MAO que eu te mando o truque, e manda pra um amigo.",
+   "legenda": "3º O padrão: mão = vários dedos parecidos, e erra a conta",
+   "visual": "mão = vários dedos parecidos, e erra a conta",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "O quadro",
+   "fala": "Dois: ela desenha a imagem toda de uma vez, sem contar dedos.",
+   "legenda": "2º O quadro: desenha tudo de uma vez, sem contar",
+   "visual": "desenha tudo de uma vez, sem contar",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Truque",
+   "fala": "E o um, o truque: gere várias e conserte só a mão numa segunda rodada.",
+   "legenda": "1º Truque: gere várias e conserte só a mão",
+   "visual": "gere várias e conserte só a mão",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "a) caixa creme no topo",
+  "nome": "d) split-flap",
+  "contador": "c) velocímetro circular",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando uma tela",
+  "mascote": "óculos + digitando",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 97,
+ "duracao_estimada_s": 34.6
+}

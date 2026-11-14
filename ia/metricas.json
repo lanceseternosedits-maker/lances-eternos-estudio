@@ -1369,5 +1369,138 @@
    }
   },
   "tiktok": "6 metricas TKPO02..10: views ~24-51 por video, 0-6 outras; sem destaque"
+ },
+ "leitura_api_2026_11_14": {
+  "janela": "2026-10-31 a 2026-11-14 (Metricool ate 14/11 03:11; 14/11 nada novo publicado)",
+  "nota": "Instagram 14 dias. TikTok: 0-94 views por video (maior 94 em 11/11); 29 views no 1o do dia 14/11.",
+  "instagram_reels": {
+   "TV": {
+    "views": 3261,
+    "alcance": 2591,
+    "curtidas": 112,
+    "comentarios": 30,
+    "salvos": 81,
+    "envios": 40,
+    "pct_3s": 44.6
+   },
+   "SKILLS": {
+    "views": 2940,
+    "curtidas": 106,
+    "comentarios": 23,
+    "salvos": 108,
+    "envios": 46,
+    "pct_3s": 46.8
+   },
+   "EDITA": {
+    "views": 2930,
+    "curtidas": 89,
+    "comentarios": 24,
+    "salvos": 99,
+    "envios": 39,
+    "pct_3s": 29.0
+   },
+   "ESTILO": {
+    "views": 2800,
+    "curtidas": 113,
+    "comentarios": 9,
+    "salvos": 76,
+    "envios": 28,
+    "pct_3s": 49.5
+   },
+   "XADREZ": {
+    "views": 2756,
+    "comentarios": 5,
+    "salvos": 1,
+    "pct_3s": 55.0
+   },
+   "PC": {
+    "views": 2689,
+    "salvos": 55,
+    "envios": 9,
+    "pct_3s": 35.5
+   },
+   "VOZ": {
+    "views": 2562,
+    "salvos": 65,
+    "envios": 19,
+    "pct_3s": 39.9
+   },
+   "APPLE": {
+    "views": 1909,
+    "curtidas": 42,
+    "comentarios": 22,
+    "salvos": 37,
+    "envios": 10,
+    "pct_3s": 51.9
+   },
+   "PLAY": {
+    "views": 1713,
+    "curtidas": 37,
+    "comentarios": 5,
+    "salvos": 12,
+    "pct_3s": 52.4
+   },
+   "MOBILE": {
+    "views": 1722,
+    "curtidas": 75,
+    "comentarios": 27,
+    "salvos": 19,
+    "pct_3s": 59.0
+   },
+   "CORTES": {
+    "views": 698,
+    "comentarios": 15,
+    "salvos": 10,
+    "envios": 4,
+    "pct_3s": 45.0
+   },
+   "COPIA": {
+    "views": 648,
+    "comentarios": 7,
+    "salvos": 18,
+    "pct_3s": 40.2
+   },
+   "VOO": {
+    "views": 293,
+    "curtidas": 4,
+    "comentarios": 2,
+    "pct_3s": 42.5
+   },
+   "ZAP": {
+    "views": 250,
+    "pct_3s": 37.8
+   },
+   "CELULAR": {
+    "views": 291,
+    "pct_3s": 40.8
+   },
+   "DOLAR": {
+    "views": 430,
+    "salvos": 0,
+    "pct_3s": 57.7
+   },
+   "PASSO": {
+    "views": 26,
+    "pct_3s": 57.9
+   },
+   "SYDNEY": {
+    "views": 27,
+    "pct_3s": 42.9
+   },
+   "CARBON": {
+    "views": 52,
+    "pct_3s": 11.1
+   },
+   "BIZARRO": {
+    "views": 97,
+    "pct_3s": 40.2
+   },
+   "INTERNET": {
+    "views": 148,
+    "pct_3s": 46.6
+   }
+  },
+  "tiktok": "61 videos, 0-94 views; so 7 passaram de 50 (11/11 tarde). Nada vira ali.",
+  "padrao": "Topo: contagem de 5 com objeto de casa (TV, PC, Windows) ou jogo/marca grande (APPLE, PLAY, MOBILE) e 'o que a X nao queria'; salvar/enviar so em lista util. Piores: 📜/⚙️ sem objeto (PASSO, SYDNEY), nicho (BIZARRO, CARBON), noticia curta (VOO 293)."
  }
 }
