@@ -37,10 +37,10 @@ const OBJ = {
     add(new THREE.BoxGeometry(2.2, .14, .06), P('#d4a017', { metalness: .9, roughness: .2 }), g, -.4, .35, 0); add(rbox(3.4, .2, .5, .06), P('#76b900', { emissive: '#76b900', emissiveIntensity: .25 }), g, 0, 2.05, 0);
     g.rotation.set(-.35, -.55, 0); g.position.y = .2; return g; },
   controle() { const g = new THREE.Group(); const m = P('#f2f3f6'); add(rbox(2.6, 1.2, .5, .45), m, g, 0, 1.2, 0); for (const s of [-1, 1]) { const a = add(new THREE.CapsuleGeometry(.42, .7, 8, 24), m, g, s * 1.05, .85, 0); a.rotation.z = s * .5; }
-    const pr = P('#22252c'); add(rbox(.62, .18, .12, .04), pr, g, -.72, 1.35, .36); add(rbox(.18, .62, .12, .04), pr, g, -.72, 1.35, .36);
-    [['#2bb673', 0, .22], ['#e74c3c', .22, 0], ['#3b82f6', -.22, 0], ['#f5c518', 0, -.22]].forEach(([c, x, y]) => add(new THREE.SphereGeometry(.1, 20, 20), P(c), g, .72 + x, 1.35 + y, .38));
-    for (const x of [-.32, .32]) add(new THREE.CylinderGeometry(.2, .2, .2, 24), pr, g, x, 1.0, .36).rotation.x = Math.PI / 2;
-    g.rotation.set(-.55, -.3, .08); g.position.y = .4; return g; },
+    const pr = P('#22252c'); add(rbox(.62, .18, .12, .04), pr, g, -.72, 1.35, .42); add(rbox(.18, .62, .12, .04), pr, g, -.72, 1.35, .42);
+    [['#2bb673', 0, .22], ['#e74c3c', .22, 0], ['#3b82f6', -.22, 0], ['#f5c518', 0, -.22]].forEach(([c, x, y]) => add(new THREE.SphereGeometry(.13, 20, 20), P(c), g, .72 + x, 1.35 + y, .4));
+    for (const x of [-.32, .32]) add(new THREE.CylinderGeometry(.2, .2, .2, 24), pr, g, x, 1.0, .42).rotation.x = Math.PI / 2;
+    g.rotation.set(.15, -.28, .05); g.position.y = .2; return g; },
   mascote() { const g = new THREE.Group(); const c = P('#d9774a', { clearcoat: .2 }); add(rbox(1.9, 1.25, 1.0, .12), c, g, 0, 1.3, 0); for (const s of [-1, 1]) add(rbox(.38, .38, .4, .08), c, g, s * 1.15, 1.25, 0);
     for (const s of [-1, 1]) add(rbox(.13, .36, .06, .05), P('#111'), g, s * .35, 1.42, .53); for (let i = 0; i < 4; i++) add(rbox(.2, .5, .2, .05), c, g, -.66 + i * .44, .38, 0); g.rotation.y = -.35; return g; },
 };

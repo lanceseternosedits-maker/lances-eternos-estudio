@@ -22,7 +22,7 @@ Toda sessão nova do painel lê este arquivo junto com o CLAUDE.md. Ele guarda o
 - **Foco de conteúdo (Vitor, 13/11):** fofoca da Nvidia (renúncia do Jensen Huang em 12/11) e GTA 6 (sai 19/11; como clipar). Roteiros feitos em 13/11: `2026-11-16-nvidia-perdeu-o-chefe` (25%) e `2026-11-19-ps5-grava-seu-gta-6` (48%), os dois **descartados pelo filtro** (sem apagar). Se o Vitor quiser furar o corte, é decisão dele.
 
 ## Visual clean (14/11)
-- Vitor mandou prints do @clubedasskills: "mais organizado, clean, menos infantil". Modelo de capa novo em `painel/capa_clean/` (exemplos: Voos, Nvidia, GTA em `painel/capa_clean/exemplos.jpg`); regra "Visual clean" no AGENTE.md. Falta: aplicar a mesma linguagem no texto dos vídeos (motor do vídeo ainda usa contorno/neon) e melhorar o objeto "controle".
+- Vitor mandou prints do @clubedasskills: "mais organizado, clean, menos infantil". Modelo de capa novo **aprovado em 14/11** em `painel/capa_clean/` (exemplos: Voos, Nvidia, GTA em `painel/capa_clean/exemplos.jpg`); regra "Visual clean" no AGENTE.md. Falta: aplicar a mesma linguagem no texto dos vídeos (motor do vídeo ainda usa contorno/neon) . Capa clean do Reel dos voos pronta em `posts/2026-11-13-eua-pararam-os-voos/capa_instagram_clean.jpg`: o Vitor troca à mão no app do Instagram (Reel já publicado).
 - 14/11 00:10: Reel "EUA pararam os voos" publicado no IG (pedido direto do Vitor); TikTok e story às 03:05.
 
 ## Depende do Vitor
