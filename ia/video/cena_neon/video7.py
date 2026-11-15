@@ -124,7 +124,7 @@ SIGN_POS = tuple(CFG.get("placa_pos", [0., 3.4, -2.6]))
 # movimentos de camera (Vitor, 14/11: "quero mudança de câmera, não câmera fechada como repórter")
 def _cam(nome, q, lt, alvo):
     ax, ay, az = alvo
-    if nome == "abertura":   a, b, t = (ax, 5.8, 12.5), (ax, 2.3, 8.6), (ax, 1.1, az)
+    if nome == "abertura":   a, b, t = ((ax, 5.8, 8.2), (ax, 2.3, 7.0), (ax, 1.1, az)) if TEMA > 2.5 else ((ax, 5.8, 12.5), (ax, 2.3, 8.6), (ax, 1.1, az))  # cidade: predios a partir de r=9
     elif nome == "orbita":
         g = -.65 + 1.1 * q; r = 5.6
         return (ax + math.sin(g) * r, 1.7, az + math.cos(g) * r), (ax, 1.05, az), 1.0
