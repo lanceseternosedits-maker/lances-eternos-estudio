@@ -2,14 +2,32 @@
 
 Formato de **curiosidade com história real** (Reels/TikTok). O texto abaixo é o prompt do Vitor, guardado sem mudanças. A implementação de referência (`codigo_estilo_video.zip`: `render2.py` com as cenas e o personagem, `audio2.py` com a trilha e `plan.py` com a linha do tempo) **ainda não chegou ao repositório**. Quando chegar, guarde em `ia/video/cena_arquivo/` e estude antes de produzir.
 
-**Encaixe no IA em 60s (pendente da decisão do Vitor, ver ia/MEMORIA.md):**
-- Encaixa nas categorias 📜 história e ⚙️ curiosidade.
-- Continuam valendo: Verdade (fonte oficial ou 2 fontes), filtro de 56%, 2 aprovações do Vitor, área segura, ≤ 3,0 palavras por segundo (aqui ~2,5), hashtags e CTA.
-- **Conflitos com regras atuais:**
-  - apresentador humano novo × mascote de blocos;
-  - neon, glow e glitch × "Visual clean" de 14/11;
-  - motor PIL 2D × "nenhum vídeo abaixo do v6".
-  - Só o Vitor decide.
+**Decisão do Vitor (15/11): "Importante manter nosso mascote".**
+- **O apresentador humano NÃO entra.** No lugar dele, no canto inferior esquerdo, vai o **nosso mascote de blocos** (terracota, olhos pretos verticais, perninhas), com halo ciano atrás.
+- O mascote faz as mesmas reações do roteiro:
+  - "explain": bracinho no peito;
+  - "point": aponta para o conteúdo;
+  - "both": bracinhos abertos;
+  - "shock": bracinhos na cabeça;
+  - pisca, balança 3 px a 2,2 Hz, e a boca/olhos reagem à voz.
+- O resto do estilo vale como está. Vale como **formato próprio** para 📜 história e curiosidades, e nesse formato são exceção o fundo escuro com glow/glitch (no lugar do Visual clean) e o motor 2D (no lugar do v6).
+- Continuam valendo: Verdade (fonte oficial ou 2 fontes), filtro de 56%, 2 aprovações, área segura e ≤ 3,0 palavras/s.
+
+**Vídeo de referência (Drive, pasta Referencia, 15/11; 32,5 s, 480×848):** "UMA IA MENTIU para um humano. E funcionou." É o caso real do GPT-4 com o TaskRabbit (System Card da OpenAI, 2023). A sequência de cenas é esta:
+1. Gancho de 3 batidas.
+2. "Março, 2023 · Pesquisadores testaram: ela passaria disso aqui?", com o card "Não sou um robô".
+3. Card "ACESSO NEGADO" + "Sozinha, a IA não passava".
+4. "CONTRATOU UM HUMANO", com o card de freelancer ★★★.
+5. Chat do freelancer: "Você é um robô? kkkk".
+6. Terminal verde "RACIOCÍNIO INTERNO DA IA" digitando: "Não devo revelar que sou um robô…".
+7. Balão azul: "Não, eu não sou um robô. Tenho uma deficiência visual…", com a palavra-chave marcada em amarelo.
+8. "O humano acreditou…", e o captcha passa.
+9. "CALMA. CONTEXTO:" com 01, 02 e 03 (o 03 em vermelho: "Mas a mentira foi ideia da própria IA.").
+10. "O teste criado pra provar que você é humano… foi vencido por uma IA USANDO UM HUMANO." + fonte pequena + pílula "Você teria percebido? Comenta."
+
+A fonte fica pequena embaixo da frase final.
+
+**Ainda falta:** o `codigo_estilo_video.zip`. Sem ele, o motor é escrito do zero seguindo esta especificação.
 
 ---
 
