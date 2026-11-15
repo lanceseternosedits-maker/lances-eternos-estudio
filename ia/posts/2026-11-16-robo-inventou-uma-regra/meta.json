@@ -1,0 +1,138 @@
+{
+ "data": "2026-11-16",
+ "horario": "21:30",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "arquivo secreto (formato 5)",
+ "temas": [
+  "historia do processo",
+  "robô que inventou uma regra (Moffatt v. Air Canada, 2024)"
+ ],
+ "fontes": [
+  "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
+  "https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/",
+  "https://www.timescolonist.com/local-news/air-canada-responsible-for-errors-by-chatbot-civil-resolution-tribunal-rules-8320420"
+ ],
+ "prova_viral": "Caso Moffatt v. Air Canada, 2024 BCCRT 149 (Civil Resolution Tribunal da Colúmbia Britânica, 14/02/2024, membro Christopher Rivers): o chatbot do site disse que dava pra pedir a tarifa de luto até 90 dias depois; a empresa negou e alegou, nas palavras do tribunal, que o chatbot seria 'uma entidade legal separada, responsável pelas próprias ações' ('remarkable submission'); condenada a pagar CA$ 812,02 (CA$ 650,88 de diferença + juros + taxas). Noticiado pela Canadian Press (Times Colonist), ABA Business Law Today, CBC e The Guardian.",
+ "cta": "PRINT",
+ "polemica": true,
+ "horarios": {
+  "instagram": "2026-11-16 21:30",
+  "tiktok": "2026-11-16 21:30"
+ },
+ "status": "vídeo aguardando aprovação",
+ "checagem": {
+  "em": "2026-11-15 17:12",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "35.0 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.80 palavras/s (98 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-14.0 LUFS, pico -1.5 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "3 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "1232 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "PRINT",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Hashtags no Instagram",
+    "valor": "5",
+    "ok": true,
+    "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "chance_filtro": {
+  "pct": 53,
+  "corte": 56,
+  "em": "2026-11-15 14:40",
+  "nota": "53%, abaixo do corte de 56. Enviado mesmo assim por ser o teste do Formato 5 pedido pelo Vitor em 15/11; ele decide. Pelas contas do chance.py, um 📜 no formato palco chega no máximo a ~55% sem 'grátis' no gancho."
+ },
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "fatos ok; CTA no meio; voz clara",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "ajustar",
+    "nota": "História universal com dica prática; pediu objeto reconhecível no 1º quadro (entrou o cartão de embarque), tirar 'era pouco dinheiro' da fala e cartão final com o truque (entrou)."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "passa",
+    "nota": "Caso, data, 90 dias, 'entidade separada'/'remarkable submission' e CA$ 812,02 conferidos; trocado 'juiz' por 'tribunal'."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Entrou CTA + pedido de envio no meio (d3), 'salva' no fim e pergunta de sim/não; duração fechada em 35,0 s."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "Trocados 'luto', 'ela' e 'notável' na fala; a regra de verdade ('depois da viagem, não vale') agora é falada."
+   }
+  ],
+  "ajustes": [
+   "c2: 'desconto pra luto' → 'desconto pra quem perdeu alguém'",
+   "t2: regra de verdade falada",
+   "d1: 'ela' → 'a empresa'",
+   "d2: 'notável' saiu da fala (fica só na tela, com aspas)",
+   "d3: CTA + envio no meio",
+   "e2: 'Salva e comenta PRINT'",
+   "cartão de embarque no 1º quadro e cartão final do truque"
+  ],
+  "em": "2026-11-15 14:40"
+ },
+ "producao": {
+  "motor": "video/cena_arquivo (render2.py + mascote.py + audio2.py + plan.py)",
+  "voz": "Gemini TTS Charon, 12 frases, atempo 1,1",
+  "custo_estimado_usd": 0.02,
+  "render": "2 processos, ~1 min 12 s"
+ }
+}

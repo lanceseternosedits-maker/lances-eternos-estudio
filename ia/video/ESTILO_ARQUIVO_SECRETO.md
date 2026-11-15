@@ -1,6 +1,6 @@
 # Estilo "Arquivo Secreto" (Vitor, 15/11: "mais um prompt pra você absorver e somar aos vídeos")
 
-Formato de **curiosidade com história real** (Reels/TikTok). O texto abaixo é o prompt do Vitor, guardado sem mudanças. A implementação de referência (`codigo_estilo_video.zip`: `render2.py` com as cenas e o personagem, `audio2.py` com a trilha e `plan.py` com a linha do tempo) **ainda não chegou ao repositório**. Quando chegar, guarde em `ia/video/cena_arquivo/` e estude antes de produzir.
+Formato de **curiosidade com história real** (Reels/TikTok). O texto abaixo é o prompt do Vitor, guardado sem mudanças. A implementação de referência (`codigo_estilo_video.zip`) **foi instalada em 15/11** em `ia/video/cena_arquivo/` (README lá; originais em `referencia/`). É o **Formato 5** do manual.
 
 **Decisão do Vitor (15/11): "Importante manter nosso mascote".**
 - **O apresentador humano NÃO entra.** No lugar dele, no canto inferior esquerdo, vai o **nosso mascote de blocos** (terracota, olhos pretos verticais, perninhas), com halo ciano atrás.
@@ -27,7 +27,7 @@ Formato de **curiosidade com história real** (Reels/TikTok). O texto abaixo é 
 
 A fonte fica pequena embaixo da frase final.
 
-**Ainda falta:** o `codigo_estilo_video.zip`. Sem ele, o motor é escrito do zero seguindo esta especificação.
+**Instalado em 15/11:** `ia/video/cena_arquivo/` (1º vídeo: `posts/2026-11-16-robo-inventou-uma-regra/`).
 
 ---
 

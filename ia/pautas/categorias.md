@@ -25,6 +25,7 @@ Regras: ver "Categorias" no `AGENTE.md`. Toda data, número e frase daqui **é c
 - [x] (15/11 15:00, ia-ganhou-o-nobel) **A IA que ganhou um Nobel** — AlphaFold, Nobel de Química 2024. Fontes: nobelprize.org · TechCrunch.
 - [x] (15/11 19:00, sam-altman-demitido) **Demitiram o chefe do ChatGPT** — 17–22/11/2023. Fontes: GPB/NPR · Yahoo Finance · Rolling Stone.
 - [ ] **Reservas (conferir fontes antes):** OpenAI Five vence os campeões de Dota 2 (2019) · Hinton sai do Google (2023; usado 17/11 14:00, padrinho-da-ia-saiu-do-google) · GPT-2 'perigoso demais pra lançar' (2019; usado 16/11 21:30, ia-perigosa-demais-pra-lancar).
+- [x] (16/11 21:30, robo-inventou-uma-regra; Formato 5) **O robô que inventou uma regra** — nov/2022 a 14/02/2024, chatbot de companhia aérea promete desconto de luto em 90 dias; a empresa diz que o robô responde por si; o tribunal manda pagar CA$ 812,02. Fontes: Moffatt v. Air Canada, 2024 BCCRT 149 · ABA Business Law Today · Canadian Press.
 
 ## ⚙️ Como a IA funciona (explicado com objeto do dia a dia, nunca aula)
 
