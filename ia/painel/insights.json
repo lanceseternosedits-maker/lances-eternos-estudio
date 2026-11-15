@@ -1,52 +1,51 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-14 19:45",
- "leitura": "metricool_2026-11-14.json",
- "resumo": "Nada mudou desde a leitura das 07:50: o Metricool devolveu exatamente os mesmos números (48 Reels, mediana 430; APPLE 1.909, COPIA 648, VOO 293) e nenhum Reel novo saiu desde o VOO (14/11 00:11), então a publicação segue parada há ~55 h. Os insights da manhã continuam valendo; o que falta é voltar a publicar para testar se 4 por dia segura a mediana.",
+ "em": "2026-11-15 07:45",
+ "leitura": "metricool_2026-11-15.json",
+ "resumo": "Os números voltaram a andar (não estavam congelados): VOO 293 → 324 no Instagram e 12 → 122 no TikTok, virando o TikTok de vídeo mais visto desde 07/11. Mas nenhum Reel novo saiu desde o VOO (14/11 00:11), então segue sem dado novo para testar a grade de 4 por dia.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "Publicação parada há ~55 h e números congelados desde 07:45",
-   "evidencia": "Leitura das 19:45: nenhum Reel novo depois do VOO (14/11 00:11); SENHA (09:00) e os demais de hoje não saíram. Todos os 48 Reels e 64 TikToks têm exatamente os mesmos números da leitura das 07:45 (ex.: APPLE 1.909, ESTILO 2.800, TV 3.261), o que é estranho em 12 h: ou o Metricool não sincronizou, ou a conta parou de ser entregue.",
-   "acao": "Vitor decide: tirar do rascunho os Reels agendados (getScheduledPosts às 07:40 mostrava tudo como draft) e conferir no app do Instagram se as views do APPLE mudaram; se mudaram, é atraso do Metricool e a próxima leitura corrige."
+   "titulo": "Só 1 Reel desde 12/11 18:07; nada saiu em 15/11",
+   "evidencia": "Leitura de 15/11 07:43: 48 Reels, o último é o VOO (14/11 00:11). Em ~61 h saiu 1 Reel; na S2 eram 6–8 por dia de 08 a 11/11. As views não estavam congeladas: em 12 h o VOO foi de 293 para 324 e o APPLE de 1.909 para 1.914.",
+   "acao": "Vitor decide: conferir os agendados no Metricool (na leitura de 14/11 estavam como rascunho) e voltar à grade de 4 por dia, para a próxima leitura ter dado novo."
   },
   {
    "tipo": "fazer_mais",
-   "titulo": "APPLE triplicou: marca conhecida + \"o que a X não queria\" segue no topo",
-   "evidencia": "APPLE (12/11 18:07): 596 → 1.909 views em 36 h, 51,9% nos 3 s, 37 salvamentos (2,3%) e 22 comentários (1,4%). É o melhor Reel desde 08/11, ao lado do PLAY (1.713). Sem marca no mesmo dia: CELULAR 291, ZAP 250.",
-   "acao": "Na próxima rodada, 1 contagem por dia com marca que todo mundo tem (Apple, PlayStation, Windows, Samsung, Google) e o inimigo no gancho (\"o que a X não queria\"); jogos continuam com 1 por dia."
+   "titulo": "Marca conhecida + \"o que a X não queria\" segue no topo",
+   "evidencia": "APPLE 1.914 views (51,8% nos 3 s, 37 salvamentos, 22 comentários = 1,4%), PLAY 1.713 e CORTES/GTA 6 700 são os 3 melhores desde 09/11. Sem marca no mesmo período: CELULAR 292, ZAP 252, MAC 269, BIZARRO 98.",
+   "acao": "Na próxima rodada, 1 contagem por dia com marca que todo mundo tem (Apple, PlayStation, Samsung, Google, Windows) e o inimigo no gancho; GTA 6 sai em 19/11: manter 1 de jogo por dia nesta semana."
   },
   {
    "tipo": "testar",
-   "titulo": "Pausa longa: o crescimento sem post novo parou",
-   "evidencia": "Até 07:45 a pausa ajudou (APPLE 596 → 1.909, COPIA 375 → 648). De 07:45 a 19:45 nenhum Reel ganhou view, nem esses. S1: 14 Reels, mediana 1.168; S2: 34 Reels, mediana 408. Ainda é 1 caso só: cedo para regra.",
-   "acao": "Quando voltar a publicar, manter os 4 por dia (grade de 13/11) e comparar views por dia e mediana com 09–12/11 (~3.000 por dia, mediana ~310). Se a mediana subir, 4 por dia é o teto."
+   "titulo": "TikTok: o VOO acordou depois de 24 h",
+   "evidencia": "VOO no TikTok (postado 14/11 03:05 UTC): 12 views na leitura de 14/11 19:45 e 122 agora, acima do melhor da S2 (BIZARRO 94). Mediana dos vídeos segue em 2 views; 1 caso só.",
+   "acao": "Ainda é cedo para regra: no próximo assunto quente do dia (notícia com data), postar no TikTok de novo e reler em 24 h, não em 12 h."
   },
   {
    "tipo": "fazer_mais",
-   "titulo": "COPIA: ensinar a IA a desmontar app salva e comenta",
-   "evidencia": "COPIA (12/11 12:13): 375 → 648 views, 18 salvamentos (3,4% do alcance, o melhor % desde EDITA/SKILLS), 7 comentários (1,3%). Gancho fraco: 40,2% nos 3 s.",
-   "acao": "Repetir \"faça a IA fazer o programa do seu jeito\" (regra de ouro do Vitor) com o programa conhecido sendo aberto na tela já no 1º quadro, não texto."
+   "titulo": "COPIA e LEIS: utilidade que salva e comenta",
+   "evidencia": "COPIA 652 views, 18 salvamentos (3,3% do alcance) e 7 comentários (1,3%), mas só 40,2% nos 3 s. LEIS 608 views, 2,0% de salvar e 2,2% de comentar (11). Contagem tem mediana 734 contra 268 do mascote no palco.",
+   "acao": "Repetir \"faça a IA fazer do seu jeito\" e utilidade brasileira, com o programa/documento conhecido aberto na tela já no 1º quadro (o gancho do COPIA é o ponto a corrigir)."
   },
   {
    "tipo": "corrigir",
    "titulo": "📜 e ⚙️ prendem mas não salvam",
-   "evidencia": "📜: mediana 347 views e 0,0% de salvar em 6 Reels (DOLAR 430, 57,7% nos 3 s, 0 salvamentos; TURING 229, 0). ⚙️: 258 views e 0,1% em 6. 🆕: 556 e 1,5% em 36. Mascote no palco: 268 de mediana contra 732 da contagem.",
-   "acao": "No máximo 1 📜 por dia, à noite, fechando com cartão legível da lição + \"salva\" na fala; ⚙️ só com objeto do dia a dia no palco e truque em lista no fim."
+   "evidencia": "📜: mediana 348 views e 0,0% de salvar em 6 (DOLAR 431 com 57,5% nos 3 s e 41% assistido, 0 salvamentos). ⚙️: 258 views e 0,1% em 6 (PASSO 27, EXEMPLO 260). 🆕: 558 views e 1,55% de salvar em 36.",
+   "acao": "No máximo 1 📜 por dia, à noite, fechando com cartão legível da lição + \"salva\" na fala; ⚙️ só com objeto do dia a dia no palco e o truque em lista no fim."
   },
   {
-   "tipo": "alerta",
-   "titulo": "TikTok: notícia do VOO também não pegou",
-   "evidencia": "VOO no TikTok (14/11 03:05): 12 views. Os melhores seguem em 68–94 (BIZARRO 94, CHINA 91, CELULAR 90, DOLAR 69, APPLE 68); mediana de 2 views em 64 posts. Sem vídeos novos desde 12/11, nada para comparar horário.",
-   "acao": "Nada a mudar ainda; reler quando os Reels voltarem a sair. Postar notícia às 03:00 não ajudou (12 views)."
+   "tipo": "corrigir",
+   "titulo": "Gancho: mais da metade sai antes dos 3 s",
+   "evidencia": "Mediana de 44,25% passa dos 3 s em 48 Reels; os piores recentes são 5 programas caros grátis (25,9%), Dartmouth (31,7%) e ZAP (37,5%). Os melhores ganchos: DOLAR 57,5%, PASSO 55,0%, PLAY 52,4%, APPLE 51,8%.",
+   "acao": "1º quadro com a marca/objeto já em cena e conflito na 1ª frase (\"a Apple não deixa…\", \"o robô aceitou vender por 1 dólar\"), sem abrir com lista de nomes."
   }
  ],
  "semanas": [
-  "Volume: a S1 (01–07/11) teve 14 Reels (2 por dia); a S2 (08–14/11) tem 34, quase todos de 08 a 12/11 (6–8 por dia). De 12/11 17:00 até agora só saiu o VOO, porque o resto ficou como rascunho.",
-  "Por Reel caiu forte: mediana 1.168 → 408 views (−65%); na S1, 7 de 14 Reels passaram de 1.000.",
-  "No total a S2 já passou a S1: 20.934 → 23.432 views (+12%), 2.991 → 3.347 por dia, com mais que o dobro de Reels.",
-  "O que fez a S2 subir desde ontem foi o APPLE (596 → 1.909) e o COPIA (375 → 648), crescendo nas 36 h sem post novo.",
-  "Qualidade por Reel parecida: passa dos 3 s 45,7% → 43,4%; salvar 2,5% → 1,9%; comentar 1,0% → 0,9%. O vídeo não piorou; a distribuição por post caiu.",
-  "TikTok foi no sentido oposto do volume: mediana por vídeo despencou e o melhor da S2 fez 94 views."
+  "S1 (01–07/11): 14 Reels, 20.955 views, mediana 1.169, 7 acima de 1.000. S2 (08–14/11): 34 Reels, 23.504 views (+12%), mediana 408 (−65%), 7 acima de 1.000.",
+  "Desde a leitura anterior a S2 ganhou só ~70 views (23.432 → 23.504): sem post novo, o crescimento dos antigos parou.",
+  "Qualidade por Reel parecida: passa dos 3 s 45,7% → 43,9%; salvar 2,5% → 1,9%; comentar 1,0% → 0,9%. A distribuição por post caiu, o vídeo não piorou.",
+  "TikTok: S1 15 vídeos, 610 views, mediana 24; S2 34 vídeos, 621 views, mediana 1. O VOO (122) é o único sinal novo.",
+  "S3 (15/11 em diante) ainda sem Reel publicado."
  ]
 }
