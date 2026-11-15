@@ -290,7 +290,7 @@ def main():
     a, b = 0, NQ
     if "--faixa" in sys.argv: a, b = [int(x) for x in sys.argv[sys.argv.index("--faixa") + 1].split(":")]; b = min(b, NQ)
     ff = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-                           "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
+                           "-c:v", "libx264", "-preset", "medium", "-crf", "23", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
     for i in range(a, b):
         ff.stdin.write(quadro(m, i).tobytes())
         if i % 60 == 0: print("quadro", i, "/", b, flush=True)
