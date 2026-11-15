@@ -1,14 +1,14 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-15 07:45",
+ "em": "2026-11-15 19:45",
  "leitura": "metricool_2026-11-15.json",
- "resumo": "Os números voltaram a andar (não estavam congelados): VOO 293 → 324 no Instagram e 12 → 122 no TikTok, virando o TikTok de vídeo mais visto desde 07/11. Mas nenhum Reel novo saiu desde o VOO (14/11 00:11), então segue sem dado novo para testar a grade de 4 por dia.",
+ "resumo": "Nada mudou em 12 h: os 48 Reels e os 64 TikToks têm exatamente os mesmos números da leitura de 07:43 (VOO 324, APPLE 1.914, TikTok VOO 122). O motivo está no Metricool: os 8 Reels de 15/11 (FOTO, LINK, TUDO, PARTES, JARVIS, NOBEL, AGENTE, DEMITIDO) e os TikToks pares seguem como rascunho, com horário já vencido, então não há dado novo para analisar.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "Só 1 Reel desde 12/11 18:07; nada saiu em 15/11",
-   "evidencia": "Leitura de 15/11 07:43: 48 Reels, o último é o VOO (14/11 00:11). Em ~61 h saiu 1 Reel; na S2 eram 6–8 por dia de 08 a 11/11. As views não estavam congeladas: em 12 h o VOO foi de 293 para 324 e o APPLE de 1.909 para 1.914.",
-   "acao": "Vitor decide: conferir os agendados no Metricool (na leitura de 14/11 estavam como rascunho) e voltar à grade de 4 por dia, para a próxima leitura ter dado novo."
+   "titulo": "Os 8 Reels de hoje ficaram presos como rascunho",
+   "evidencia": "Metricool às 19:45 de 15/11: os posts das 07:00 às 20:30 (FOTO, LINK, TUDO, PARTES, JARVIS, NOBEL, AGENTE, DEMITIDO, mais os TikToks e Stories pares) estão com draft=true e status PENDING, criados em 12/11. O último Reel no ar é o VOO (14/11 00:11): são ~67 h sem post novo. Em 12 h, nenhum Reel ganhou 1 view sequer (VOO 324 = 324, APPLE 1.914 = 1.914).",
+   "acao": "Vitor decide: tirar do rascunho os agendados (ou reagendar os de 15/11 para 16/11 na grade de 4 por dia: 06:00 🆕 · 12:00 ⚙️ · 19:30 🆕 · 21:30 📜). DEMITIDO depende da data (aniversário em 17–22/11): publicar até 17/11."
   },
   {
    "tipo": "fazer_mais",
@@ -18,8 +18,8 @@
   },
   {
    "tipo": "testar",
-   "titulo": "TikTok: o VOO acordou depois de 24 h",
-   "evidencia": "VOO no TikTok (postado 14/11 03:05 UTC): 12 views na leitura de 14/11 19:45 e 122 agora, acima do melhor da S2 (BIZARRO 94). Mediana dos vídeos segue em 2 views; 1 caso só.",
+   "titulo": "TikTok: o VOO parou em 122",
+   "evidencia": "VOO no TikTok: 12 views em 14/11 19:45, 122 em 15/11 07:43 e 122 de novo agora. Mediana dos 64 vídeos segue em 2 views; 1 caso só.",
    "acao": "Ainda é cedo para regra: no próximo assunto quente do dia (notícia com data), postar no TikTok de novo e reler em 24 h, não em 12 h."
   },
   {
@@ -43,9 +43,9 @@
  ],
  "semanas": [
   "S1 (01–07/11): 14 Reels, 20.955 views, mediana 1.169, 7 acima de 1.000. S2 (08–14/11): 34 Reels, 23.504 views (+12%), mediana 408 (−65%), 7 acima de 1.000.",
-  "Desde a leitura anterior a S2 ganhou só ~70 views (23.432 → 23.504): sem post novo, o crescimento dos antigos parou.",
+  "Desde a leitura de 07:43 nenhum número mudou (S2 segue em 23.504 views): sem post novo, os antigos pararam de crescer.",
   "Qualidade por Reel parecida: passa dos 3 s 45,7% → 43,9%; salvar 2,5% → 1,9%; comentar 1,0% → 0,9%. A distribuição por post caiu, o vídeo não piorou.",
   "TikTok: S1 15 vídeos, 610 views, mediana 24; S2 34 vídeos, 621 views, mediana 1. O VOO (122) é o único sinal novo.",
-  "S3 (15/11 em diante) ainda sem Reel publicado."
+  "S3 (15/11 em diante) ainda sem Reel publicado: os 8 agendados de 15/11 ficaram como rascunho."
  ]
 }
