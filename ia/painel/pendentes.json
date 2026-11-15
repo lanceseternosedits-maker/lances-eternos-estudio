@@ -1,38 +1,21 @@
 {
- "gerado_em": "2026-11-14 22:44",
+ "gerado_em": "2026-11-15 01:38",
  "videos": [
   {
    "pasta": "2026-11-15-agencia-de-marketing-no-claude",
    "titulo": "UMA AGÊNCIA DE MARKETING NO CLAUDE",
    "quando": "2026-11-19 19:30"
-  },
+  }
+ ],
+ "roteiros": [],
+ "agenda_3_dias": [
   {
-   "pasta": "2026-11-19-ps5-grava-seu-gta-6",
-   "titulo": "SEU PS5 GRAVA SEU GTA 6 SOZINHO",
-   "quando": "2026-11-19 06:00"
-  },
-  {
-   "pasta": "2026-11-15-estudio-de-games-no-claude",
-   "titulo": "UM ESTÚDIO DE GAMES DENTRO DO CLAUDE",
-   "quando": "2026-11-18 06:00"
-  },
-  {
-   "pasta": "2026-11-16-nvidia-perdeu-o-chefe",
+   "quando": "2026-11-16 19:30",
    "titulo": "A NVIDIA PERDEU O CHEFE",
-   "quando": "2026-11-16 19:30"
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
   }
- ],
- "roteiros": [
-  {
-   "pasta": "2026-11-17-jogos-no-celular-e-no-mac",
-   "titulo": "5 JOGOS DE CONSOLE NO SEU CELULAR",
-   "quando": "2026-11-17 19:30"
-  },
-  {
-   "pasta": "2026-11-16-tv-sem-propaganda-lg-samsung",
-   "titulo": "SUA TV TEM PROPAGANDA NA TELA INICIAL",
-   "quando": "2026-11-16 06:00"
-  }
- ],
- "agenda_3_dias": []
+ ]
 }

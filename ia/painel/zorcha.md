@@ -8,6 +8,38 @@ Gerado por `python3 painel/zorcha.py`. Um bloco por Reel publicado ou agendado, 
 
 ⚠️ Palavras usadas em mais de um Reel: AGENTE, FOTO, GRATIS. Por isso o gatilho tem que ser o Reel específico.
 
+## GTA · 19/11 06:00
+Post: `2026-11-19-ps5-grava-seu-gta-6`
+
+```
+As 5 pra transformar sua jogatina de GTA 6 em Reel 🎮
+5) Botão Criar do PS5: Configurações > Capturas e transmissões > Capturas > "Duração da jogabilidade recente" (até 60 min).
+4) Clipe rápido: nos atalhos do botão Criar, escolha "Clipes de vídeo fáceis" e aperte 2x pra salvar. No Xbox: botão Xbox > Capturar e compartilhar > Gravar o que aconteceu.
+3) auto-editor (grátis): corta sozinho as partes paradas. https://github.com/WyattBlue/auto-editor  → comando: auto-editor meu_clipe.mp4
+2) ViralCutter (grátis): vídeo longo vira cortes verticais. https://github.com/RafaelGodoyEbert/ViralCutter
+1) autoclip (grátis, roda no seu PC): acha os melhores trechos e entrega em 9:16 com legenda. https://github.com/artbyjazi/autoclip
+Passe o clipe do console pro PC por pendrive ou pelo app do PlayStation. Só use gravação do seu próprio jogo.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## NVIDIA · 16/11 19:30
+Post: `2026-11-16-nvidia-perdeu-o-chefe`
+
+```
+Tá aqui a linha do tempo da semana da Nvidia 👇
+• 08/11: Jensen Huang admite que foi infiel à esposa.
+• 12/11: renuncia como CEO, presidente e membro do conselho, com efeito imediato. Colette Kress (diretora financeira) vira CEO interina. Comunicado oficial: https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition
+• 12/11: o Departamento de Justiça dos EUA diz que NÃO concluiu se a mulher citada era espiã; a China chama a acusação de "sem fundamento". https://www.usnews.com/news/top-news/articles/2026-11-12/us-justice-department-has-not-concluded-alice-huang-was-chinese-spy-blanche-says
+• 13/11: a ação vai para a 6ª semana seguida de queda, a maior sequência desde 2012 (~US$ 1,6 trilhão a menos). https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html
+• 17/11: primeiro balanço sem ele.
+• 01/12: três comissões da Câmara chamaram o Jensen para depor. https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout
+Curiosidade: a Nvidia foi fundada em 1993, e o Jensen foi CEO desde o primeiro dia.
+(Não é recomendação de investimento.)
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
 ## CAMINHO · 08/11 13:00
 Post: `2026-11-16-app-completo-com-ia`
 
@@ -77,6 +109,22 @@ Aqui está! 🧬
 🏅 Anúncio oficial do Nobel: https://www.nobelprize.org/prizes/chemistry/2024/press-release/
 
 Curiosidade: o prêmio foi dividido com David Baker, que cria proteínas novas do zero.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## GAME · 18/11 06:00
+Post: `2026-11-15-estudio-de-games-no-claude`
+
+```
+Aqui está! 🎮
+
+🔗 https://github.com/Donchitos/Claude-Code-Game-Studios (código aberto, MIT)
+
+Como começar:
+1) Tenha o Claude Code instalado.
+2) git clone https://github.com/Donchitos/Claude-Code-Game-Studios.git meu-jogo
+3) Abra a pasta no Claude Code e descreva o jogo. Você aprova cada decisão.
 
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```

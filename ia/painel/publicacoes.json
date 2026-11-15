@@ -1,6 +1,6 @@
 {
  "_fonte": "Metricool getScheduledPosts (blogId 7637900), uma linha por rede. Atualize a cada agendamento.",
- "lido_em": "2026-11-11 23:36",
+ "lido_em": "2026-11-15 01:40",
  "publicacoes": [
   {
    "data": "2026-11-01 11:45",
@@ -2593,6 +2593,114 @@
    "erro": "",
    "lido_em": "2026-11-14 02:50",
    "pasta": "2026-11-13-eua-pararam-os-voos"
+  },
+  {
+   "data": "2026-11-16 19:30",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "A Nvidia perdeu o chefe",
+   "erro": "",
+   "lido_em": "2026-11-15 01:40",
+   "pasta": "2026-11-16-nvidia-perdeu-o-chefe"
+  },
+  {
+   "data": "2026-11-16 19:30",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "VIDEO",
+   "rascunho": false,
+   "texto": "A Nvidia perdeu o chefe",
+   "erro": "",
+   "lido_em": "2026-11-15 01:40",
+   "pasta": "2026-11-16-nvidia-perdeu-o-chefe"
+  },
+  {
+   "data": "2026-11-16 19:45",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "STORY",
+   "rascunho": false,
+   "texto": "",
+   "erro": "",
+   "lido_em": "2026-11-15 01:40",
+   "pasta": "2026-11-16-nvidia-perdeu-o-chefe"
+  },
+  {
+   "data": "2026-11-18 06:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Estúdio de games no Claude",
+   "erro": "",
+   "lido_em": "2026-11-15 01:40",
+   "pasta": "2026-11-15-estudio-de-games-no-claude"
+  },
+  {
+   "data": "2026-11-18 06:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "VIDEO",
+   "rascunho": false,
+   "texto": "Estúdio de games no Claude",
+   "erro": "",
+   "lido_em": "2026-11-15 01:40",
+   "pasta": "2026-11-15-estudio-de-games-no-claude"
+  },
+  {
+   "data": "2026-11-18 06:15",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "STORY",
+   "rascunho": false,
+   "texto": "",
+   "erro": "",
+   "lido_em": "2026-11-15 01:40",
+   "pasta": "2026-11-15-estudio-de-games-no-claude"
+  },
+  {
+   "data": "2026-11-19 06:00",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Seu PS5 grava seu GTA 6",
+   "erro": "",
+   "lido_em": "2026-11-15 01:40",
+   "pasta": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "data": "2026-11-19 06:00",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "VIDEO",
+   "rascunho": false,
+   "texto": "Seu PS5 grava seu GTA 6",
+   "erro": "",
+   "lido_em": "2026-11-15 01:40",
+   "pasta": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "data": "2026-11-19 06:15",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "STORY",
+   "rascunho": false,
+   "texto": "",
+   "erro": "",
+   "lido_em": "2026-11-15 01:40",
+   "pasta": "2026-11-19-ps5-grava-seu-gta-6"
   }
  ]
 }
