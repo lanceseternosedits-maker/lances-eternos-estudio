@@ -27,6 +27,9 @@ Toda sessão nova do painel lê este arquivo junto com o CLAUDE.md. Ele guarda o
 
 - **Ruflo (14/11):** lido e testado; só entraram os agentes `ruflo-researcher` e `ruflo-verifier` (`.claude/agents/ruflo/`, MIT). Sem `init`, sem hooks, sem MCP, sem conta. Detalhe em "Autonomia para melhorar".
 
+## Estilo "Arquivo Secreto" (15/11)
+- Prompt do Vitor guardado em `ia/video/ESTILO_ARQUIVO_SECRETO.md` (curiosidade com história real, fundo escuro com grid, apresentador humano flat no canto, SLAM/glitch, trilha própria). **Falta:** o `codigo_estilo_video.zip` (render2/audio2/plan) e a decisão do Vitor sobre onde entra (conflita com mascote de blocos, Visual clean e "mínimo v6").
+
 ## Depende do Vitor
 - **Robô do Insta (09/11):** o Vitor **quer o botão "Me Envie"** (webhook_ok = 1; ficou 0 só das 17:05 às 17:15). Problema: depois do toque, o envio do TEXTO do material falha em ~metade das vezes (cartões sempre passam), então quem segue fica sem nada (ex.: Paulo, Desterro). Correção pronta e commitada no `painel/worker.js` (se o texto falhar → cartão "Aqui está o seu material" com botão "Abrir material" → `/links#PALAVRA`; log com o erro real), **publicada em 09/11 ~19:05** (regra de permissão do curl PUT liberada pelo Vitor). Republicar com PUT na API do Cloudflare, metadata `{"main_module":"worker.js","compatibility_date":"2026-11-01","keep_bindings":["secret_text","d1","plain_text"]}`. Depois conferir `dm_eventos` (acao `material_link` e o erro real).
 - Estúdio de Reels: nome final, confirmar R$ 17 de lançamento → R$ 47 depois (o "de" tem que virar real), criar o produto na Kiwify e passar o link do checkout.
