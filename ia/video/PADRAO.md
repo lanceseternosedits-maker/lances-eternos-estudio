@@ -23,3 +23,6 @@ Ritmo: 4 vídeos por dia (Vitor, 12/11: "Vamos diminuir a quantidade e melhorar 
 - Renderizador: v2/video5.py (cenas, tempo, legenda, atuação, função enquadrar) sobre v2/video4.py + v2/scene2.frag (cena 3D) + v2/post2.frag (acabamento), rodando com moderngl.
 - Tempo das palavras: vem do TTS (Gemini, vozes Puck e Fenrir) da pipeline do repositório lances-eternos-estudio.
 - Custo: zero além do TTS que já é usado. Nesta máquina sem placa de vídeo, 61 s levam cerca de 55 min; num PC com GPU, minutos.
+
+## v7 (Vitor, 14/11: "fazer vídeo com o formato do teste v7, com a definição e o acabamento de agora")
+O v6 com câmera fechada no personagem ("parece repórter") foi recusado. Daqui em diante: `video/cena_neon/video7.py` + `scene3.frag`, mesmos personagens e acabamento do v6, com **cenário moderno próprio por vídeo** (`tema` no `v6.json` do post: 1 estúdio com parede de LED, 2 data center, 3 cidade ao pôr do sol; `tema_cor` muda a cor) e **câmera mudando a cada cena** (abertura, órbita, travelling, ângulo baixo, de cima, lateral, dolly, revela; close só de vez em quando). Roteiro com 2 vozes em `posts/<pasta>/v6.json`; render com `bash video/cena_neon/produz_v7.sh posts/<pasta>` (2 processos, ~27–31 min por vídeo de 36–48 s).
