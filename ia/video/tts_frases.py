@@ -38,7 +38,7 @@ dur = lambda f: float(subprocess.run(["ffprobe", "-v", "error", "-show_entries",
 sil = lambda w: max(1, len(re.findall(r"[aeiouáéíóúâêôãõà]+", w.lower())))
 segs, t = [], INI
 for k, s in enumerate(S):
-    d = dur(arqs[k]); leg = s["legenda"].split(); p = [sil(w) + 0.5 for w in leg]; x = t; ws = []
+    d = dur(arqs[k]); leg = s.get("legenda", s["fala"]).split(); p = [sil(w) + 0.5 for w in leg]; x = t; ws = []
     for w, q in zip(leg, p): e = d * q / sum(p); ws.append({"w": w, "t0": round(x, 3), "t1": round(x + e, 3)}); x += e
     segs.append({**{a: b for a, b in s.items() if a != "fala"}, "t0": round(t, 3), "t1": round(t + d, 3), "palavras": ws, "dur_voz": round(d, 3)}); t += d + GAP
 total = round(t - GAP + R.get("cauda", 0.9), 3); segs[0]["t0"] = 0.0

@@ -168,6 +168,9 @@ def enquadrar(c, pos, k, lt):
     if all(vis):  # plano a dois: afasta para caber os dois inteiros
         cp = tuple(t + (c0 - t) * 1.5 for c0, t in zip(cp, (ct[0], ct[1], ct[2])))
     if TEMA == 1: cp = (cp[0], min(cp[1], 5.4), max(cp[2], -5.0))  # dentro do estudio (teto 6,6)
+    if TEMA > 2.5:  # cidade: predios a partir de r=9 (plano a dois afastado entrava no predio = quadro preto)
+        r = math.hypot(cp[0], cp[2] - .3)
+        if r > 8.0: cp = (cp[0] * 8.0 / r, cp[1], .3 + (cp[2] - .3) * 8.0 / r)
     c["uCamPos"] = cp; c["uCamTgt"] = ct; c["uFov"] = fov
     # personagens viram um pouco para a camera (rosto sempre visivel)
     for i in (0, 1):
@@ -201,7 +204,7 @@ def legenda(lay, k, T):
         if T >= c[0][0] - .02: b = j
     c = [(t, w) for t, w in ch[b] if T >= t - .02]
     if not c: return
-    gap = 22; larg = [F_LEG.getlength(w) for _, w in ch[b]]
+    gap = 34; larg = [F_LEG.getlength(w) for _, w in ch[b]]
     tot = sum(larg) + gap * (len(larg) - 1)
     if tot > W - 180:  # palavra comprida: diminui o bloco
         f = ImageFont.truetype(AF, int(84 * (W - 180) / tot)); larg = [f.getlength(w) for _, w in ch[b]]; tot = sum(larg) + gap * (len(larg) - 1)
