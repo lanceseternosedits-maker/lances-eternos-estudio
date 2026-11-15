@@ -163,5 +163,9 @@
     "2026-11-19-ps5-grava-seu-gta-6": "vídeo aguardando aprovação (2026-11-19 06:00)",
     "2026-11-15-agencia-de-marketing-no-claude": "vídeo aguardando aprovação (2026-11-19 19:30)"
   },
-  "nota_teste_4_por_dia": "Teste de 4 vídeos em 17/11 (Vitor: 09:00 GTA 6, 12:00 ⚙️, 16:00 Fable 5.2, 19:00 📜); demais horários e dias seguem na grade de 8."
+  "nota_teste_4_por_dia": "Teste de 4 vídeos em 17/11 (Vitor: 09:00 GTA 6, 12:00 ⚙️, 16:00 Fable 5.2, 19:00 📜); demais horários e dias seguem na grade de 8.",
+  "aguardando_aprovacao": {
+    "2026-11-16-tv-sem-propaganda-lg-samsung": "vídeo aguardando aprovação (15/11 02:40); vaga sugerida 16/11 06:00",
+    "2026-11-17-jogos-no-celular-e-no-mac": "vídeo aguardando aprovação (15/11 02:40); vaga sugerida 17/11 19:30"
+  }
 }

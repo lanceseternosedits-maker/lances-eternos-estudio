@@ -7,7 +7,7 @@
   },
   "categoria": "novidade",
   "pilar": "reel",
-  "formato": "contagem (formato 3)",
+  "formato": "reel v7 (2 vozes)",
   "temas": [
     "TV",
     "celular",
@@ -26,7 +26,7 @@
   "prova_viral": "Estrelas no GitHub (API, 14/11/2026): dumbtv 2.056, tellyscope 2.021, cleanyourtv-app 2.139, free-my-tv 6.378, aerial-tv 11.815, total 24.409; projetos criados entre 16/10 e 08/11/2026.",
   "cta": "TELA",
   "polemica": true,
-  "status": "roteiro aprovado",
+  "status": "vídeo aguardando aprovação",
   "vaga": 1,
   "primeiro_comentario": "💬 Comenta TELA que eu te mando os links dos 5.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
   "revisao": {
@@ -55,5 +55,71 @@
       }
     ],
     "obs": "2ª volta não rodada por economia de tokens; ajustes aplicados conforme os 4 pareceres"
+  },
+  "checagem": {
+    "em": "2026-11-15 05:35",
+    "ok": false,
+    "itens": [
+      {
+        "nome": "Formato",
+        "valor": "1080×1920",
+        "ok": true,
+        "regra": "1080×1920"
+      },
+      {
+        "nome": "Duração",
+        "valor": "44.2 s",
+        "ok": false,
+        "regra": "até 35 s (corte texto se passar)"
+      },
+      {
+        "nome": "Velocidade da fala",
+        "valor": "1.88 palavras/s (83 palavras)",
+        "ok": true,
+        "regra": "máximo 3,0 palavras/s"
+      },
+      {
+        "nome": "Volume",
+        "valor": "-13.8 LUFS, pico -1.0 dB",
+        "ok": true,
+        "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+      },
+      {
+        "nome": "Fontes",
+        "valor": "5 fonte(s)",
+        "ok": true,
+        "regra": "todo fato com fonte"
+      },
+      {
+        "nome": "Prova viral",
+        "valor": "preenchida",
+        "ok": true,
+        "regra": "toda pauta com a prova de que viralizou"
+      },
+      {
+        "nome": "Legenda do Instagram",
+        "valor": "891 caracteres",
+        "ok": true,
+        "regra": "até 2.200 caracteres"
+      },
+      {
+        "nome": "CTA na legenda",
+        "valor": "TELA",
+        "ok": true,
+        "regra": "a palavra do CTA aparece na legenda"
+      },
+      {
+        "nome": "Hashtags no Instagram",
+        "valor": "5",
+        "ok": true,
+        "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
+      },
+      {
+        "nome": "Resposta da DM",
+        "valor": "ok",
+        "ok": true,
+        "regra": "resposta_dm.txt com os links"
+      }
+    ]
   }
 }

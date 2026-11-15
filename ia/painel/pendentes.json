@@ -1,10 +1,20 @@
 {
- "gerado_em": "2026-11-15 01:38",
+ "gerado_em": "2026-11-15 02:35",
  "videos": [
   {
    "pasta": "2026-11-15-agencia-de-marketing-no-claude",
    "titulo": "UMA AGÊNCIA DE MARKETING NO CLAUDE",
    "quando": "2026-11-19 19:30"
+  },
+  {
+   "pasta": "2026-11-17-jogos-no-celular-e-no-mac",
+   "titulo": "5 JOGOS DE CONSOLE NO SEU CELULAR",
+   "quando": "2026-11-17 19:30"
+  },
+  {
+   "pasta": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "titulo": "SUA TV TEM PROPAGANDA NA TELA INICIAL",
+   "quando": "2026-11-16 06:00"
   }
  ],
  "roteiros": [],
