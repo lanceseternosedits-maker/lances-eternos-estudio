@@ -3,7 +3,8 @@
   "horario": "06:00",
   "horarios": {
     "instagram": "2026-11-16 06:00",
-    "tiktok": "2026-11-16 06:00"
+    "tiktok": "2026-11-16 06:00",
+    "story": "2026-11-16 06:15"
   },
   "categoria": "novidade",
   "pilar": "reel",
@@ -26,7 +27,6 @@
   "prova_viral": "Estrelas no GitHub (API, 14/11/2026): dumbtv 2.056, tellyscope 2.021, cleanyourtv-app 2.139, free-my-tv 6.378, aerial-tv 11.815, total 24.409; projetos criados entre 16/10 e 08/11/2026.",
   "cta": "TELA",
   "polemica": true,
-  "status": "vídeo aguardando aprovação",
   "vaga": 1,
   "primeiro_comentario": "💬 Comenta TELA que eu te mando os links dos 5.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
   "revisao": {
