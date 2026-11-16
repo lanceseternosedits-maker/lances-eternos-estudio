@@ -1,44 +1,44 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-15 19:45",
- "leitura": "metricool_2026-11-15.json",
- "resumo": "Nada mudou em 12 h: os 48 Reels e os 64 TikToks têm exatamente os mesmos números da leitura de 07:43 (VOO 324, APPLE 1.914, TikTok VOO 122). O motivo está no Metricool: os 8 Reels de 15/11 (FOTO, LINK, TUDO, PARTES, JARVIS, NOBEL, AGENTE, DEMITIDO) e os TikToks pares seguem como rascunho, com horário já vencido, então não há dado novo para analisar.",
+ "em": "2026-11-16 07:45",
+ "leitura": "metricool_2026-11-16.json",
+ "resumo": "A fila voltou a andar: o TELA (TV sem propaganda) saiu às 06:00 no Reels e no TikTok, depois de ~54 h sem post novo (último era o VOO, 14/11 00:11), e o NVIDIA está agendado para 19:30 sem rascunho. Os números quase não se mexeram em 12 h (VOO 324→328, APPLE 1.914→1.918), e o TELA ainda não aparece nas métricas do Instagram, então as regras abaixo seguem valendo.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "Os 8 Reels de hoje ficaram presos como rascunho",
-   "evidencia": "Metricool às 19:45 de 15/11: os posts das 07:00 às 20:30 (FOTO, LINK, TUDO, PARTES, JARVIS, NOBEL, AGENTE, DEMITIDO, mais os TikToks e Stories pares) estão com draft=true e status PENDING, criados em 12/11. O último Reel no ar é o VOO (14/11 00:11): são ~67 h sem post novo. Em 12 h, nenhum Reel ganhou 1 view sequer (VOO 324 = 324, APPLE 1.914 = 1.914).",
-   "acao": "Vitor decide: tirar do rascunho os agendados (ou reagendar os de 15/11 para 16/11 na grade de 4 por dia: 06:00 🆕 · 12:00 ⚙️ · 19:30 🆕 · 21:30 📜). DEMITIDO depende da data (aniversário em 17–22/11): publicar até 17/11."
+   "titulo": "Publicação destravou, mas ainda sem dado do post novo",
+   "evidencia": "Metricool 07:43 de 16/11: Reel TELA PUBLISHED às 06:00 (instagram.com/reel/Dfy_hiiEjVe) e TikTok TELA no ar com 0 views após ~1,5 h; NVIDIA 19:30 com draft=false. O último Reel medido segue sendo o VOO (14/11 00:11). Em 12 h, os 48 Reels somaram só +17 views no total (APPLE +4, VOO +4).",
+   "acao": "Conferir na leitura da noite se TELA e NVIDIA entraram nas métricas; os posts de 15/11 que estavam em rascunho não foram reconferidos aqui."
   },
   {
    "tipo": "fazer_mais",
    "titulo": "Marca conhecida + \"o que a X não queria\" segue no topo",
-   "evidencia": "APPLE 1.914 views (51,8% nos 3 s, 37 salvamentos, 22 comentários = 1,4%), PLAY 1.713 e CORTES/GTA 6 700 são os 3 melhores desde 09/11. Sem marca no mesmo período: CELULAR 292, ZAP 252, MAC 269, BIZARRO 98.",
-   "acao": "Na próxima rodada, 1 contagem por dia com marca que todo mundo tem (Apple, PlayStation, Samsung, Google, Windows) e o inimigo no gancho; GTA 6 sai em 19/11: manter 1 de jogo por dia nesta semana."
-  },
-  {
-   "tipo": "testar",
-   "titulo": "TikTok: o VOO parou em 122",
-   "evidencia": "VOO no TikTok: 12 views em 14/11 19:45, 122 em 15/11 07:43 e 122 de novo agora. Mediana dos 64 vídeos segue em 2 views; 1 caso só.",
-   "acao": "Ainda é cedo para regra: no próximo assunto quente do dia (notícia com data), postar no TikTok de novo e reler em 24 h, não em 12 h."
-  },
-  {
-   "tipo": "fazer_mais",
-   "titulo": "COPIA e LEIS: utilidade que salva e comenta",
-   "evidencia": "COPIA 652 views, 18 salvamentos (3,3% do alcance) e 7 comentários (1,3%), mas só 40,2% nos 3 s. LEIS 608 views, 2,0% de salvar e 2,2% de comentar (11). Contagem tem mediana 734 contra 268 do mascote no palco.",
-   "acao": "Repetir \"faça a IA fazer do seu jeito\" e utilidade brasileira, com o programa/documento conhecido aberto na tela já no 1º quadro (o gancho do COPIA é o ponto a corrigir)."
+   "evidencia": "Desde 09/11: APPLE 1.918 views (51,7% nos 3 s, 37 salvamentos, 22 comentários), PLAY 1.714 e CORTES/GTA 6 701. Sem marca no mesmo período: CELULAR 293, ZAP 252, MAC 269, BIZARRO 98.",
+   "acao": "1 contagem por dia com marca que todo mundo tem (Apple, PlayStation, Samsung, Google, Windows) e o inimigo no gancho; GTA 6 sai em 19/11: manter 1 de jogo por dia até lá. O TELA (LG/Samsung no texto) é o teste dessa regra: medir na leitura da noite."
   },
   {
    "tipo": "corrigir",
    "titulo": "📜 e ⚙️ prendem mas não salvam",
-   "evidencia": "📜: mediana 348 views e 0,0% de salvar em 6 (DOLAR 431 com 57,5% nos 3 s e 41% assistido, 0 salvamentos). ⚙️: 258 views e 0,1% em 6 (PASSO 27, EXEMPLO 260). 🆕: 558 views e 1,55% de salvar em 36.",
+   "evidencia": "🆕 novidade: mediana 558 views e 1,55% de salvar (36 Reels). 📜 história: 348 views e 0,0% de salvar (6), apesar de 46,8% nos 3 s (DOLAR 432 views, 57,4% nos 3 s, 0 salvamentos). ⚙️ como funciona: 258 views e 0,1% (6).",
    "acao": "No máximo 1 📜 por dia, à noite, fechando com cartão legível da lição + \"salva\" na fala; ⚙️ só com objeto do dia a dia no palco e o truque em lista no fim."
+  },
+  {
+   "tipo": "fazer_mais",
+   "titulo": "Contagem bate o mascote no palco 2,7×",
+   "evidencia": "Contagem (formato 3): mediana 737 views e 2,0% de salvar em 22 Reels. Mascote no palco (formato 1): 268 views e 0,3% em 24. Lista + demo: 1.430, mas só 2 Reels (cedo).",
+   "acao": "Manter a contagem como padrão das 🆕; mascote no palco só para 📜/notícia, e testar mais 2 lista + demo antes de virar regra."
   },
   {
    "tipo": "corrigir",
    "titulo": "Gancho: mais da metade sai antes dos 3 s",
-   "evidencia": "Mediana de 44,25% passa dos 3 s em 48 Reels; os piores recentes são 5 programas caros grátis (25,9%), Dartmouth (31,7%) e ZAP (37,5%). Os melhores ganchos: DOLAR 57,5%, PASSO 55,0%, PLAY 52,4%, APPLE 51,8%.",
-   "acao": "1º quadro com a marca/objeto já em cena e conflito na 1ª frase (\"a Apple não deixa…\", \"o robô aceitou vender por 1 dólar\"), sem abrir com lista de nomes."
+   "evidencia": "Mediana de 44,3% passa dos 3 s em 48 Reels; GRATIS 25,9%, ESTUDA 30,2%, DESIGN 32,0%. Os que mais seguram: MOBILE 59,0%, DESENHO 58,8%, DOLAR 57,4%.",
+   "acao": "1º quadro com o objeto conhecido já na tela (console, TV, app famoso) e a 1ª frase com conflito; nada de logo ou título parado no início."
+  },
+  {
+   "tipo": "testar",
+   "titulo": "TikTok: VOO cresceu devagar, resto parado",
+   "evidencia": "VOO 122→126 views em 12 h; mediana dos vídeos segue 3 views contra 431 no Instagram; fotos 10. TELA 0 views após 1,5 h. 1 caso só que passa de 100 desde 11/11.",
+   "acao": "Ainda é cedo para regra: reler o TELA e o NVIDIA no TikTok em 24 h antes de mudar algo."
   }
  ],
  "semanas": [

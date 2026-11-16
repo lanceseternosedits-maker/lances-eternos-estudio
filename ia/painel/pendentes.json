@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-16 05:15",
+ "gerado_em": "2026-11-16 07:44",
  "videos": [],
  "roteiros": [
   {
@@ -14,14 +14,6 @@
   }
  ],
  "agenda_3_dias": [
-  {
-   "quando": "2026-11-16 06:00",
-   "titulo": "SUA TV TEM PROPAGANDA NA TELA INICIAL",
-   "redes": [
-    "instagram",
-    "tiktok"
-   ]
-  },
   {
    "quando": "2026-11-16 19:30",
    "titulo": "A NVIDIA PERDEU O CHEFE",
@@ -41,6 +33,14 @@
   {
    "quando": "2026-11-18 06:00",
    "titulo": "UM ESTÚDIO DE GAMES DENTRO DO CLAUDE",
+   "redes": [
+    "instagram",
+    "tiktok"
+   ]
+  },
+  {
+   "quando": "2026-11-19 06:00",
+   "titulo": "SEU PS5 GRAVA SEU GTA 6 SOZINHO",
    "redes": [
     "instagram",
     "tiktok"
