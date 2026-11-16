@@ -1,14 +1,14 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-16 07:45",
+ "em": "2026-11-16 19:41",
  "leitura": "metricool_2026-11-16.json",
- "resumo": "A fila voltou a andar: o TELA (TV sem propaganda) saiu às 06:00 no Reels e no TikTok, depois de ~54 h sem post novo (último era o VOO, 14/11 00:11), e o NVIDIA está agendado para 19:30 sem rascunho. Os números quase não se mexeram em 12 h (VOO 324→328, APPLE 1.914→1.918), e o TELA ainda não aparece nas métricas do Instagram, então as regras abaixo seguem valendo.",
+ "resumo": "Leitura da noite idêntica à da manhã: nenhum dos 48 Reels mudou um número em 12 h (VOO 328, APPLE 1.918) e o TELA, no ar desde 06:00, ainda não entrou nas métricas do Instagram; o TikTok TELA segue com 0 views. Parece atraso de sincronização do Metricool, então as regras abaixo continuam valendo e o teste do TELA/NVIDIA fica para a próxima leitura.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "Publicação destravou, mas ainda sem dado do post novo",
-   "evidencia": "Metricool 07:43 de 16/11: Reel TELA PUBLISHED às 06:00 (instagram.com/reel/Dfy_hiiEjVe) e TikTok TELA no ar com 0 views após ~1,5 h; NVIDIA 19:30 com draft=false. O último Reel medido segue sendo o VOO (14/11 00:11). Em 12 h, os 48 Reels somaram só +17 views no total (APPLE +4, VOO +4).",
-   "acao": "Conferir na leitura da noite se TELA e NVIDIA entraram nas métricas; os posts de 15/11 que estavam em rascunho não foram reconferidos aqui."
+   "titulo": "Métricas congeladas: Metricool sem atualizar há 12 h",
+   "evidencia": "Leituras de 07:43 e 19:39 de 16/11 com os mesmos valores em todos os 48 Reels e 57 TikToks (VOO 328 views, APPLE 1.918, PLAY 1.714). O Reel TELA (06:00) não aparece no Instagram; TikTok TELA com 0 views após ~13,5 h. NVIDIA (19:30) também ainda sem dado.",
+   "acao": "Chefe, vale abrir o Metricool e checar se a conexão do Instagram/TikTok precisa reconectar. Até lá, não tirar conclusão do TELA nem do NVIDIA; manter as regras atuais na próxima rodada de roteiros."
   },
   {
    "tipo": "fazer_mais",
@@ -37,7 +37,7 @@
   {
    "tipo": "testar",
    "titulo": "TikTok: VOO cresceu devagar, resto parado",
-   "evidencia": "VOO 122→126 views em 12 h; mediana dos vídeos segue 3 views contra 431 no Instagram; fotos 10. TELA 0 views após 1,5 h. 1 caso só que passa de 100 desde 11/11.",
+   "evidencia": "Mediana dos vídeos segue 3 views contra 431 no Instagram; fotos 10. VOO 126 views (parado desde a manhã) e TELA 0 views após ~13,5 h. Só o VOO passa de 100 desde 11/11.",
    "acao": "Ainda é cedo para regra: reler o TELA e o NVIDIA no TikTok em 24 h antes de mudar algo."
   }
  ],
