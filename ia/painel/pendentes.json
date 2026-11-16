@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-11-16 04:44",
+ "gerado_em": "2026-11-16 05:10",
  "videos": [
   {
    "pasta": "2026-11-15-agencia-de-marketing-no-claude",
@@ -12,7 +12,18 @@
    "quando": "2026-11-17 19:30"
   }
  ],
- "roteiros": [],
+ "roteiros": [
+  {
+   "pasta": "2026-11-18-ia-no-pc-sem-placa-nvidia",
+   "titulo": "SEM PLACA DA NVIDIA, SEM IA? MENTIRA",
+   "quando": "2026-11-18 19:30"
+  },
+  {
+   "pasta": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
+   "titulo": "PARA DE PAGAR EDITOR PRO SEU JOGO",
+   "quando": "2026-11-17 06:00"
+  }
+ ],
  "agenda_3_dias": [
   {
    "quando": "2026-11-16 06:00",

@@ -1,0 +1,35 @@
+{
+ "data": "2026-11-20",
+ "horario": "06:00",
+ "horarios": {
+  "instagram": "2026-11-20 06:00",
+  "tiktok": "2026-11-20 06:00"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "temas": [
+  "IA que trabalha por você",
+  "produtividade",
+  "kit",
+  "Organizador da semana"
+ ],
+ "fontes": [
+  "https://github.com/lllyasviel/Fooocus",
+  "https://github.com/janhq/jan",
+  "https://github.com/nomic-ai/gpt4all",
+  "https://github.com/ollama/ollama",
+  "https://www.science.org/doi/10.1126/science.adh2586"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 16/11/2026): Fooocus 53.937, Jan 45.736, GPT4All 77.345, Ollama 187.157; total 364.175. Estudo: profissionais com ChatGPT em tarefas de escrita levaram 40% menos tempo e entregaram 18% mais qualidade (Science, 2023).",
+ "cta": "KIT",
+ "polemica": false,
+ "vaga": 9,
+ "candidato": "b",
+ "primeiro_comentario": "💬 Comenta KIT que eu te mando o kit com 10 assistentes prontos",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; métricas de 16/11",
+ "status": "descartado",
+ "kit_venda": "Organizador da semana",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 41%, abaixo do corte"
+}

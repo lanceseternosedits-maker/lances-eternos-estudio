@@ -1,0 +1,70 @@
+{
+ "data": "2026-11-18",
+ "horario": "19:30",
+ "horarios": {
+  "instagram": "2026-11-18 19:30",
+  "tiktok": "2026-11-18 19:30"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "temas": [
+  "Nvidia",
+  "placa de vídeo",
+  "IA local",
+  "jogos",
+  "PC",
+  "github"
+ ],
+ "fontes": [
+  "https://github.com/janhq/jan",
+  "https://github.com/nomic-ai/gpt4all",
+  "https://github.com/vosen/ZLUDA",
+  "https://github.com/ggml-org/llama.cpp",
+  "https://github.com/ollama/ollama",
+  "https://www.tomshardware.com/pc-components/gpus/nvidia-bans-using-translation-layers-for-cuda-software-to-run-on-other-chips-new-restriction-apparently-targets-zluda-and-some-chinese-gpu-makers"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 16/11/2026): Jan 45.736, GPT4All 77.345, ZLUDA 15.199, llama.cpp 135.261, Ollama 187.157; total 460.698. Contexto: a Nvidia proibiu, nos termos do CUDA, camadas de tradução como o ZLUDA (Tom's Hardware, 05/03/2024).",
+ "cta": "PLACA",
+ "polemica": true,
+ "vaga": 5,
+ "candidato": "b",
+ "primeiro_comentario": "💬 Comenta PLACA que eu te mando os 5 links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; métricas de 16/11",
+ "status": "roteiro aguardando aprovação",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "ressalva no ZLUDA, fonte corrigida",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "ajustar",
+    "nota": "Polêmica boa; ZLUDA e llama.cpp são jargão."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "Estrelas batem; ZLUDA \"tenta rodar\"; sem afirmar comunicado de saída."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Faltavam objeto no 1º quadro e pergunta final."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "\"Motor\" e \"IA local\" vagos."
+   }
+  ],
+  "ajustes": [
+   "etiqueta: 'RODA IA COM 1 COMANDO'",
+   "ZLUDA: 'tenta rodar… (em desenvolvimento)'",
+   "llama.cpp sem 'motor'",
+   "tirei a afirmação do comunicado da Nvidia",
+   "pergunta final sobre a placa do PC"
+  ],
+  "em": "2026-11-16 05:10",
+  "obs": "2ª volta não rodada por economia de tokens; ajustes aplicados conforme os 4 pareceres"
+ }
+}

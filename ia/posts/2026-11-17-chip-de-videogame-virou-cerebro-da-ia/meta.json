@@ -1,0 +1,33 @@
+{
+ "data": "2026-11-17",
+ "horario": "12:00",
+ "horarios": {
+  "instagram": "2026-11-17 12:00",
+  "tiktok": "2026-11-17 12:00"
+ },
+ "categoria": "como_funciona",
+ "pilar": "reel",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "temas": [
+  "Nvidia",
+  "placa de vídeo",
+  "como funciona",
+  "IA",
+  "jogos"
+ ],
+ "fontes": [
+  "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+  "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+  "https://developer.nvidia.com/about-cuda"
+ ],
+ "prova_viral": "AlexNet treinada em duas GPUs GeForce GTX 580 (artigo NeurIPS 2012); CUDA lançado pela Nvidia em 2007; semana da saída de Jensen Huang (comunicado da Nvidia, 11/11) e balanço em 17/11.",
+ "cta": "CHIP",
+ "polemica": false,
+ "vaga": 2,
+ "candidato": "a",
+ "primeiro_comentario": "💬 Comenta CHIP que eu te mando Guia de 1 página: quanta memória de vídeo cada tipo de IA pede\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; métricas de 16/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 32%, abaixo do corte"
+}

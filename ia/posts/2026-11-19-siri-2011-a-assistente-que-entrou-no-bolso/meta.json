@@ -1,0 +1,32 @@
+{
+ "data": "2026-11-19",
+ "horario": "21:30",
+ "horarios": {
+  "instagram": "2026-11-19 21:30",
+  "tiktok": "2026-11-19 21:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "temas": [
+  "Siri",
+  "assistente de voz",
+  "história da IA",
+  "2011",
+  "iPhone"
+ ],
+ "fontes": [
+  "https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/",
+  "https://en.wikipedia.org/wiki/Siri"
+ ],
+ "prova_viral": "Apple Newsroom (04/10/2011): iPhone 4S com Siri; Wikipedia (Siri): origem no SRI International e aquisição pela Apple em 2010.",
+ "cta": "SIRI",
+ "polemica": false,
+ "vaga": 8,
+ "candidato": "b",
+ "primeiro_comentario": "💬 Comenta SIRI que eu te mando Link da matéria da Apple sobre a Siri e uma curiosidade extra\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; métricas de 16/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 49%, abaixo do corte"
+}

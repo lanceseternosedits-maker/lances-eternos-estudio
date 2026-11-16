@@ -1,0 +1,97 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "como_funciona",
+ "chave": "TOKEN",
+ "tese": "POR QUE A IA COBRA POR PEDAÇO DE PALAVRA · 3 FATOS · E O Nº 1 ECONOMIZA SEU LIMITE",
+ "conceito": "Estúdio de rádio de blocos: uma esteira que quebra frases em pedaços de lego; cada pedaço entra numa catraca com contador.",
+ "brinde": "Modelo de pedido curto e 3 cortes que economizam limite",
+ "fontes": [
+  "https://platform.openai.com/tokenizer",
+  "https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them"
+ ],
+ "prova_viral": "Ajuda oficial da OpenAI: 1 token ≈ 4 caracteres ou ≈ 3/4 de palavra em inglês; textos em outros idiomas costumam usar mais tokens (OpenAI Tokenizer).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "POR QUE A IA COBRA POR PEDAÇO DE PALAVRA",
+   "fala": "A IA não lê palavras. Ela lê pedaços, e é por pedaço que ela cobra.",
+   "legenda": "A IA não lê palavras. Ela lê pedaços, e é por pedaço que ela cobra.",
+   "visual": "",
+   "itens": "por",
+   "etiqueta": [
+    "POR QUE A IA COBRA POR PEDAÇO DE PALAVRA",
+    "3 FATOS",
+    "E O Nº 1 ECONOMIZA SEU LIMITE"
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Pedaços",
+   "fala": "Terceiro: cada pedaço se chama token, e um token é cerca de três quartos de uma palavra.",
+   "legenda": "3º Pedaços: cada pedaço se chama token (cerca de 3/4 de palavra em inglês)",
+   "visual": "cada pedaço se chama token (cerca de 3/4 de palavra em inglês)",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Português",
+   "fala": "Segundo: em português costuma gastar mais pedaços. Manda pra um amigo.",
+   "legenda": "2º Português: em português costuma gastar mais tokens por palavra",
+   "visual": "em português costuma gastar mais tokens por palavra",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Limite",
+   "fala": "Primeiro: pedido curto e direto gasta menos do seu limite. Corte o que não ajuda.",
+   "legenda": "1º Limite: pedido curto e direto gasta menos do seu limite",
+   "visual": "pedido curto e direto gasta menos do seu limite",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Truque: mande só o trecho que importa. Comenta TOKEN e me segue.",
+   "legenda": "Comenta TOKEN",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "b) carimbo batendo",
+  "contador": "c) medidor circular",
+  "legenda": "a) bloco de 4 palavras",
+  "transicao": "e) glitch RGB",
+  "camera": "c) travelling lateral",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "mascote": "gravata + pasta, se escondendo",
+  "cenario": "terraço ao pôr do sol",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 70,
+ "duracao_estimada_s": 25.0
+}

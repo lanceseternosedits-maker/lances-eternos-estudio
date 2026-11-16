@@ -1,0 +1,43 @@
+{
+ "data": "2026-11-19",
+ "horario": "12:00",
+ "horarios": {
+  "instagram": "2026-11-19 12:00",
+  "tiktok": "2026-11-19 12:00"
+ },
+ "categoria": "como_funciona",
+ "pilar": "reel",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "temas": [
+  "placa de vídeo",
+  "Ollama",
+  "Windows",
+  "programas",
+  "PC"
+ ],
+ "fontes": [
+  "https://github.com/ollama/ollama",
+  "https://github.com/ggml-org/llama.cpp"
+ ],
+ "prova_viral": "Ollama: 187.157 estrelas no GitHub (API, 16/11/2026), licença MIT; regra prática: modelo de 7 bilhões de parâmetros em 4 bits ocupa na casa de 4 a 5 GB (documentação do llama.cpp/Ollama).",
+ "cta": "MEMORIA",
+ "polemica": false,
+ "vaga": 7,
+ "candidato": "a",
+ "primeiro_comentario": "💬 Comenta MEMORIA que eu te mando Tabela: quantos gigas de memória cada tamanho de IA pede\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; métricas de 16/11",
+ "status": "reprovado na revisão",
+ "revisao": {
+  "veredito": "reprovado",
+  "resumo": "vitor reprovou",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "reprova",
+    "nota": "reprovado pelo revisor vitor: aula técnica (parâmetros) e repete o Ollama do roteiro de 18/11"
+   }
+  ],
+  "ajustes": [],
+  "em": "2026-11-16 05:10"
+ }
+}

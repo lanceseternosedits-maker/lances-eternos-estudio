@@ -1502,5 +1502,106 @@
   },
   "tiktok": "61 videos, 0-94 views; so 7 passaram de 50 (11/11 tarde). Nada vira ali.",
   "padrao": "Topo: contagem de 5 com objeto de casa (TV, PC, Windows) ou jogo/marca grande (APPLE, PLAY, MOBILE) e 'o que a X nao queria'; salvar/enviar so em lista util. Piores: 📜/⚙️ sem objeto (PASSO, SYDNEY), nicho (BIZARRO, CARBON), noticia curta (VOO 293)."
+ },
+ "leitura_api_2026_11_16": {
+  "janela": "2026-11-02 a 2026-11-16 (Metricool até 14/11 03:11; 14–16/11 ainda fora)",
+  "nota": "Instagram Reels 14 dias; colunas: views, alcance, curtidas, comentários, salvos, envios, tempo médio, % 3 s. TikTok: 0–122 views por vídeo.",
+  "instagram_reels": {
+   "TV": {
+    "views": 3268,
+    "comentarios": 30,
+    "salvos": 82,
+    "envios": 40,
+    "pct_3s": 44.6
+   },
+   "SKILLS": {
+    "views": 2944,
+    "comentarios": 23,
+    "salvos": 108,
+    "envios": 46,
+    "pct_3s": 46.8
+   },
+   "EDITA": {
+    "views": 2935,
+    "comentarios": 24,
+    "salvos": 99,
+    "envios": 39,
+    "pct_3s": 29.1
+   },
+   "ESTILO": {
+    "views": 2807,
+    "pct_3s": 49.5
+   },
+   "XADREZ": {
+    "views": 2756,
+    "pct_3s": 55.0
+   },
+   "PC": {
+    "views": 2690,
+    "pct_3s": 35.5
+   },
+   "WINDOWS": {
+    "views": 2592,
+    "pct_3s": 54.1
+   },
+   "VOZ": {
+    "views": 2564,
+    "comentarios": 25,
+    "salvos": 65,
+    "envios": 19,
+    "pct_3s": 39.9
+   },
+   "FONTE": {
+    "views": 2124,
+    "pct_3s": 49.5
+   },
+   "APPLE": {
+    "views": 1914,
+    "comentarios": 22,
+    "salvos": 37,
+    "envios": 10,
+    "pct_3s": 51.8
+   },
+   "MOBILE": {
+    "views": 1723,
+    "pct_3s": 59.0
+   },
+   "PLAY": {
+    "views": 1713,
+    "pct_3s": 52.4
+   },
+   "COPIA": {
+    "views": 652,
+    "pct_3s": 40.2
+   },
+   "VOO": {
+    "views": 324,
+    "pct_3s": 43.9
+   },
+   "DOLAR": {
+    "views": 431,
+    "pct_3s": 57.5
+   },
+   "CELULAR": {
+    "views": 292
+   },
+   "ZAP": {
+    "views": 252
+   },
+   "BIZARRO": {
+    "views": 98
+   },
+   "PASSO": {
+    "views": 27,
+    "pct_3s": 55.0
+   },
+   "SYDNEY": {
+    "views": 27
+   },
+   "CARBON": {
+    "views": 52,
+    "pct_3s": 11.1
+   }
+  }
  }
 }

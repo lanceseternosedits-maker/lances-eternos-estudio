@@ -1,0 +1,97 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "historia",
+ "chave": "SIRI",
+ "tese": "EM 2011 UMA ASSISTENTE ENTROU NO BOLSO DE MILHÕES · 3 FATOS DESSA HISTÓRIA · E O Nº 1 É DE OUTUBRO",
+ "conceito": "Linha do tempo: laboratório de 2007, loja de 2010 com contrato, palco de 2011 com celular de blocos genérico; sem logo da Apple.",
+ "brinde": "Link da matéria da Apple sobre a Siri e uma curiosidade extra",
+ "fontes": [
+  "https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/",
+  "https://en.wikipedia.org/wiki/Siri"
+ ],
+ "prova_viral": "Apple Newsroom (04/10/2011): iPhone 4S com Siri; Wikipedia (Siri): origem no SRI International e aquisição pela Apple em 2010.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "EM 2011 UMA ASSISTENTE ENTROU NO BOLSO DE MILHÕES",
+   "fala": "Em 2011, uma assistente de voz entrou no bolso de milhões de pessoas.",
+   "legenda": "Em 2011, uma assistente de voz entrou no bolso de milhões de pessoas.",
+   "visual": "",
+   "itens": "siri",
+   "etiqueta": [
+    "EM 2011 UMA ASSISTENTE ENTROU NO BOLSO DE MILHÕES",
+    "3 FATOS DESSA HISTÓRIA",
+    "E O Nº 1 É DE OUTUBRO"
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "SRI",
+   "fala": "Terceiro: a Siri nasceu num projeto do instituto de pesquisa SRI.",
+   "legenda": "3º SRI: a Siri nasceu num projeto do instituto de pesquisa SRI",
+   "visual": "a Siri nasceu num projeto do instituto de pesquisa SRI",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "2010",
+   "fala": "Segundo: a Apple comprou a empresa da Siri em 2010. Manda pra um amigo.",
+   "legenda": "2º 2010: a Apple comprou a empresa da Siri em 2010",
+   "visual": "a Apple comprou a empresa da Siri em 2010",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "iPhone 4S",
+   "fala": "Primeiro: ela foi apresentada com o iPhone 4S, em outubro de 2011.",
+   "legenda": "1º iPhone 4S: foi apresentada com o iPhone 4S em outubro de 2011",
+   "visual": "foi apresentada com o iPhone 4S em outubro de 2011",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Salva pra contar pra alguém. Comenta SIRI e me segue.",
+   "legenda": "Comenta SIRI",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "b) carimbo batendo",
+  "contador": "c) medidor circular",
+  "legenda": "b) uma palavra gigante com pop",
+  "transicao": "e) glitch RGB",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "mascote": "capacete + lanterna, lendo",
+  "cenario": "escritório vazio ao amanhecer",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 60,
+ "duracao_estimada_s": 21.4
+}

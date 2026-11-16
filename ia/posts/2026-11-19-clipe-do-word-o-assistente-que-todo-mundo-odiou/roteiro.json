@@ -1,0 +1,97 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "historia",
+ "chave": "CLIPE",
+ "tese": "ELE OFERECIA AJUDA NO WORD E QUASE NINGUÉM QUIS · 3 FATOS DESSA HISTÓRIA · E O Nº 1 É O FIM DELE",
+ "conceito": "Linha do tempo: escritório de 1997 de blocos com monitor de tubo e um clipe de papel genérico (sem o personagem original), 2001 com o clipe desligado, 2007 sem ele.",
+ "brinde": "Link da matéria sobre o assistente do Office e uma curiosidade extra",
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Office_Assistant",
+  "https://support.microsoft.com/office"
+ ],
+ "prova_viral": "Wikipedia (Office Assistant): estreia no Office 97, desligado por padrão no Office XP (2001) e removido no Office 2007.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "ELE OFERECIA AJUDA NO WORD E QUASE NINGUÉM QUIS",
+   "fala": "Ele pulava na tela do Word oferecendo ajuda. Quase ninguém quis.",
+   "legenda": "Ele pulava na tela do Word oferecendo ajuda. Quase ninguém quis.",
+   "visual": "",
+   "itens": "clipe",
+   "etiqueta": [
+    "ELE OFERECIA AJUDA NO WORD E QUASE NINGUÉM QUIS",
+    "3 FATOS DESSA HISTÓRIA",
+    "E O Nº 1 É O FIM DELE"
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Office 97",
+   "fala": "Terceiro: o Clippy estreou no Office 97, perguntando se você estava escrevendo uma carta.",
+   "legenda": "3º Office 97: o Clippy estreou no Office 97 perguntando se você escrevia uma carta",
+   "visual": "o Clippy estreou no Office 97 perguntando se você escrevia uma carta",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Office XP",
+   "fala": "Segundo: no Office XP, em 2001, ele já vinha desligado de fábrica. Manda pra um amigo.",
+   "legenda": "2º Office XP: no Office XP (2001) já vinha desligado de fábrica",
+   "visual": "no Office XP (2001) já vinha desligado de fábrica",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Office 2007",
+   "fala": "Primeiro: o Office 2007 tirou o assistente de vez.",
+   "legenda": "1º Office 2007: o Office 2007 tirou o assistente de vez",
+   "visual": "o Office 2007 tirou o assistente de vez",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Salva pra contar pra alguém. Comenta CLIPE e me segue.",
+   "legenda": "Comenta CLIPE",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "d) letreiro split-flap",
+  "contador": "d) pote enchendo de estrelas",
+  "legenda": "a) bloco de 4 palavras",
+  "transicao": "d) virada de página",
+  "camera": "c) travelling lateral",
+  "fechamento": "d) tela CONTINUE?",
+  "mascote": "chapéu de chef + colher, montando peças",
+  "cenario": "sala de estar à noite",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 60,
+ "duracao_estimada_s": 21.4
+}

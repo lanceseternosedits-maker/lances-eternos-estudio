@@ -1,0 +1,32 @@
+{
+ "data": "2026-11-20",
+ "horario": "12:00",
+ "horarios": {
+  "instagram": "2026-11-20 12:00",
+  "tiktok": "2026-11-20 12:00"
+ },
+ "categoria": "como_funciona",
+ "pilar": "reel",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "temas": [
+  "tokens",
+  "limite",
+  "como funciona",
+  "IA",
+  "custo"
+ ],
+ "fontes": [
+  "https://platform.openai.com/tokenizer",
+  "https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them"
+ ],
+ "prova_viral": "Ajuda oficial da OpenAI: 1 token ≈ 4 caracteres ou ≈ 3/4 de palavra em inglês; textos em outros idiomas costumam usar mais tokens (OpenAI Tokenizer).",
+ "cta": "TOKEN",
+ "polemica": false,
+ "vaga": 10,
+ "candidato": "a",
+ "primeiro_comentario": "💬 Comenta TOKEN que eu te mando Modelo de pedido curto e 3 cortes que economizam limite\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; métricas de 16/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 32%, abaixo do corte"
+}

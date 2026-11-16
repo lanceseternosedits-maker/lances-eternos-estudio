@@ -1,0 +1,16 @@
+Comenta CHIP que eu te mando Guia de 1 página: quanta memória de vídeo cada tipo de IA pede.
+
+Por que uma empresa de placa de jogo virou o cérebro da IA? 3 fatos e 1 truque pra comprar placa.
+
+3º Mil continhas: a placa faz mil continhas ao mesmo tempo, e a IA é feita de continhas
+2º CUDA: em 2007 o CUDA liberou a placa pra além dos jogos
+1º AlexNet: em 2012 a AlexNet treinou em duas placas de jogo e esmagou o concurso de imagens
+
+💬 Comenta CHIP e me segue. Deixa o like e manda pra aquele amigo que curte tecnologia.
+
+Você já escolheu PC pensando em jogo ou em IA? 👇
+
+Fonte: Artigo AlexNet (NeurIPS 2012); Nvidia (CUDA, comunicado de 11/11).
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#nvidia #ia #placadevideo #pcgamer #tecnologia

@@ -1141,7 +1141,7 @@
    "tipo": "post",
    "label": "10-estilos",
    "data": "2026-11-08",
-   "score": 359.0
+   "score": 362.0
   },
   {
    "id": "formato:reel lista + demonstração (formato 2)",
@@ -1193,7 +1193,7 @@
    "tipo": "post",
    "label": "tv-celular",
    "data": "2026-11-06",
-   "score": 415.0
+   "score": 419.0
   },
   {
    "id": "pilar:lista",
@@ -2166,7 +2166,7 @@
    "tipo": "post",
    "label": "bizarros-github",
    "data": "2026-11-11",
-   "score": 11.0
+   "score": 12.0
   },
   {
    "id": "cta:BIZARRO",
@@ -2513,7 +2513,7 @@
    "tipo": "post",
    "label": "programas-caros-gratis",
    "data": "2026-11-10",
-   "score": 20.0
+   "score": 21.0
   },
   {
    "id": "tema:programas-caros-gratis",
@@ -3007,7 +3007,7 @@
    "tipo": "post",
    "label": "carro-por-1-dolar",
    "data": "2026-11-11",
-   "score": 8.0
+   "score": 9.0
   },
   {
    "id": "cta:DOLAR",
@@ -3822,7 +3822,7 @@
    "tipo": "post",
    "label": "eua-pararam-os-voos",
    "data": "2026-11-14",
-   "score": 8.0
+   "score": 12.0
   },
   {
    "id": "pilar:notícia",
@@ -5095,6 +5095,43 @@
    "label": "https://docs.nvidia.com/cuda/cuda-c-programming-guide/"
   },
   {
+   "id": "2026-11-16-robo-inventou-uma-regra",
+   "tipo": "post",
+   "label": "robo-inventou-uma-regra",
+   "data": "2026-11-16",
+   "score": null
+  },
+  {
+   "id": "formato:arquivo secreto (formato 5)",
+   "tipo": "formato",
+   "label": "arquivo secreto (formato 5)"
+  },
+  {
+   "id": "tema:historia do processo",
+   "tipo": "tema",
+   "label": "historia do processo"
+  },
+  {
+   "id": "tema:robô que inventou uma regra (Moffatt v. Air Canada, 2024)",
+   "tipo": "tema",
+   "label": "robô que inventou uma regra (Moffatt v. Air Canada, 2024)"
+  },
+  {
+   "id": "fonte:https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do",
+   "tipo": "fonte",
+   "label": "https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do"
+  },
+  {
+   "id": "fonte:https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/",
+   "tipo": "fonte",
+   "label": "https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/"
+  },
+  {
+   "id": "fonte:https://www.timescolonist.com/local-news/air-canada-responsible-for-errors-by-chatbot-civil-resolution-tribunal-rules-8320420",
+   "tipo": "fonte",
+   "label": "https://www.timescolonist.com/local-news/air-canada-responsible-for-errors-by-chatbot-civil-resolution-tribunal-rules-8320420"
+  },
+  {
    "id": "2026-11-16-serie-app-01-app",
    "tipo": "post",
    "label": "serie-app-01-app",
@@ -5180,6 +5217,11 @@
    "score": null
   },
   {
+   "id": "formato:reel v7 (2 vozes)",
+   "tipo": "formato",
+   "label": "reel v7 (2 vozes)"
+  },
+  {
    "id": "cta:TELA",
    "tipo": "cta",
    "label": "TELA"
@@ -5257,6 +5299,53 @@
    "label": "golpe"
   },
   {
+   "id": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
+   "tipo": "post",
+   "label": "5-programas-gratis-pra-editar-o-video-do-seu-jogo",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "tema:github",
+   "tipo": "tema",
+   "label": "github"
+  },
+  {
+   "id": "tema:editar vídeo",
+   "tipo": "tema",
+   "label": "editar vídeo"
+  },
+  {
+   "id": "fonte:https://github.com/mltframework/shotcut",
+   "tipo": "fonte",
+   "label": "https://github.com/mltframework/shotcut"
+  },
+  {
+   "id": "fonte:https://github.com/HandBrake/HandBrake",
+   "tipo": "fonte",
+   "label": "https://github.com/HandBrake/HandBrake"
+  },
+  {
+   "id": "fonte:https://github.com/mifi/lossless-cut",
+   "tipo": "fonte",
+   "label": "https://github.com/mifi/lossless-cut"
+  },
+  {
+   "id": "fonte:https://github.com/obsproject/obs-studio",
+   "tipo": "fonte",
+   "label": "https://github.com/obsproject/obs-studio"
+  },
+  {
+   "id": "fonte:https://github.com/WyattBlue/auto-editor",
+   "tipo": "fonte",
+   "label": "https://github.com/WyattBlue/auto-editor"
+  },
+  {
+   "id": "fonte:https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+   "tipo": "fonte",
+   "label": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+  },
+  {
    "id": "2026-11-17-a-ia-tem-um-chefe-invisivel",
    "tipo": "post",
    "label": "a-ia-tem-um-chefe-invisivel",
@@ -5282,6 +5371,55 @@
    "id": "fonte:https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts",
    "tipo": "fonte",
    "label": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts"
+  },
+  {
+   "id": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver",
+   "tipo": "post",
+   "label": "alexnet-2012-a-ia-aprendeu-a-ver",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "tema:história da IA",
+   "tipo": "tema",
+   "label": "história da IA"
+  },
+  {
+   "id": "tema:ImageNet",
+   "tipo": "tema",
+   "label": "ImageNet"
+  },
+  {
+   "id": "tema:2012",
+   "tipo": "tema",
+   "label": "2012"
+  },
+  {
+   "id": "fonte:https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+   "tipo": "fonte",
+   "label": "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html"
+  },
+  {
+   "id": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia",
+   "tipo": "post",
+   "label": "chip-de-videogame-virou-cerebro-da-ia",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "cta:CHIP",
+   "tipo": "cta",
+   "label": "CHIP"
+  },
+  {
+   "id": "tema:como funciona",
+   "tipo": "tema",
+   "label": "como funciona"
+  },
+  {
+   "id": "fonte:https://developer.nvidia.com/about-cuda",
+   "tipo": "fonte",
+   "label": "https://developer.nvidia.com/about-cuda"
   },
   {
    "id": "2026-11-17-clipe-do-word",
@@ -5375,6 +5513,23 @@
    "label": "https://www.terra.com.br/byte/rockstar-finaliza-desenvolvimento-de-gta-6-dias-antes-do-lancamento,16a5a31a0e5fdb2ac7ee3db53d4ddcdc0qnh4ych.html"
   },
   {
+   "id": "2026-11-17-gta6-5-programas-gratis-pra-clipar",
+   "tipo": "post",
+   "label": "gta6-5-programas-gratis-pra-clipar",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "tema:clipes",
+   "tipo": "tema",
+   "label": "clipes"
+  },
+  {
+   "id": "tema:editor de vídeo",
+   "tipo": "tema",
+   "label": "editor de vídeo"
+  },
+  {
    "id": "2026-11-17-ias-que-trabalham-por-voce",
    "tipo": "post",
    "label": "ias-que-trabalham-por-voce",
@@ -5439,6 +5594,33 @@
    "label": "https://github.com/jhaizhou-ops/S2Arm"
   },
   {
+   "id": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete",
+   "tipo": "post",
+   "label": "nvidia-nasceu-numa-mesa-de-lanchonete",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "cta:MESA",
+   "tipo": "cta",
+   "label": "MESA"
+  },
+  {
+   "id": "tema:1993",
+   "tipo": "tema",
+   "label": "1993"
+  },
+  {
+   "id": "tema:chips",
+   "tipo": "tema",
+   "label": "chips"
+  },
+  {
+   "id": "fonte:https://www.nbcmiami.com/news/business/money-report/jensen-huang-started-his-2-trillion-company-nvidia-at-a-dennys-breakfast-booth/3302554",
+   "tipo": "fonte",
+   "label": "https://www.nbcmiami.com/news/business/money-report/jensen-huang-started-his-2-trillion-company-nvidia-at-a-dennys-breakfast-booth/3302554"
+  },
+  {
    "id": "2026-11-17-por-que-a-ia-erra-letras-de-morango",
    "tipo": "post",
    "label": "por-que-a-ia-erra-letras-de-morango",
@@ -5474,6 +5656,134 @@
    "id": "fonte:https://en.wikipedia.org/wiki/Large_language_model",
    "tipo": "fonte",
    "label": "https://en.wikipedia.org/wiki/Large_language_model"
+  },
+  {
+   "id": "2026-11-17-por-que-o-gta6-tem-212-gb",
+   "tipo": "post",
+   "label": "por-que-o-gta6-tem-212-gb",
+   "data": "2026-11-17",
+   "score": null
+  },
+  {
+   "id": "cta:BAIXA",
+   "tipo": "cta",
+   "label": "BAIXA"
+  },
+  {
+   "id": "tema:pré-carga",
+   "tipo": "tema",
+   "label": "pré-carga"
+  },
+  {
+   "id": "tema:212 GB",
+   "tipo": "tema",
+   "label": "212 GB"
+  },
+  {
+   "id": "tema:download",
+   "tipo": "tema",
+   "label": "download"
+  },
+  {
+   "id": "fonte:https://www.tweaktown.com/news/114473/rockstar-reveals-gta-6-pre-load-times-confirms-212gb-install-size/index.html",
+   "tipo": "fonte",
+   "label": "https://www.tweaktown.com/news/114473/rockstar-reveals-gta-6-pre-load-times-confirms-212gb-install-size/index.html"
+  },
+  {
+   "id": "fonte:https://primagames.com/news/gta-6-preload-date-and-file-size-confirmed-by-rockstar",
+   "tipo": "fonte",
+   "label": "https://primagames.com/news/gta-6-preload-date-and-file-size-confirmed-by-rockstar"
+  },
+  {
+   "id": "2026-11-18-5-coisas-ia-faz-mensagens",
+   "tipo": "post",
+   "label": "5-coisas-ia-faz-mensagens",
+   "data": "2026-11-18",
+   "score": null
+  },
+  {
+   "id": "tema:IA que trabalha por você",
+   "tipo": "tema",
+   "label": "IA que trabalha por você"
+  },
+  {
+   "id": "tema:Revisor de mensagens",
+   "tipo": "tema",
+   "label": "Revisor de mensagens"
+  },
+  {
+   "id": "fonte:https://github.com/Mintplex-Labs/anything-llm",
+   "tipo": "fonte",
+   "label": "https://github.com/Mintplex-Labs/anything-llm"
+  },
+  {
+   "id": "fonte:https://github.com/ggml-org/whisper.cpp",
+   "tipo": "fonte",
+   "label": "https://github.com/ggml-org/whisper.cpp"
+  },
+  {
+   "id": "fonte:https://github.com/n8n-io/n8n",
+   "tipo": "fonte",
+   "label": "https://github.com/n8n-io/n8n"
+  },
+  {
+   "id": "fonte:https://github.com/open-webui/open-webui",
+   "tipo": "fonte",
+   "label": "https://github.com/open-webui/open-webui"
+  },
+  {
+   "id": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video",
+   "tipo": "post",
+   "label": "como-a-ia-acha-o-melhor-momento-do-video",
+   "data": "2026-11-18",
+   "score": null
+  },
+  {
+   "id": "cta:CORTE",
+   "tipo": "cta",
+   "label": "CORTE"
+  },
+  {
+   "id": "tema:auto-editor",
+   "tipo": "tema",
+   "label": "auto-editor"
+  },
+  {
+   "id": "fonte:https://auto-editor.com",
+   "tipo": "fonte",
+   "label": "https://auto-editor.com"
+  },
+  {
+   "id": "2026-11-18-gta-v-800-milhoes-em-24-horas",
+   "tipo": "post",
+   "label": "gta-v-800-milhoes-em-24-horas",
+   "data": "2026-11-18",
+   "score": null
+  },
+  {
+   "id": "cta:RECORDE",
+   "tipo": "cta",
+   "label": "RECORDE"
+  },
+  {
+   "id": "tema:GTA V",
+   "tipo": "tema",
+   "label": "GTA V"
+  },
+  {
+   "id": "tema:recorde",
+   "tipo": "tema",
+   "label": "recorde"
+  },
+  {
+   "id": "fonte:https://www.guinnessworldrecords.com/news/2013/10/confirmed-grand-theft--auto-breaks-six-sales-world-records-51900",
+   "tipo": "fonte",
+   "label": "https://www.guinnessworldrecords.com/news/2013/10/confirmed-grand-theft--auto-breaks-six-sales-world-records-51900"
+  },
+  {
+   "id": "fonte:https://www.engadget.com/2013-09-20-grand-theft-auto-5-sales-surpass-1-billion.html",
+   "tipo": "fonte",
+   "label": "https://www.engadget.com/2013-09-20-grand-theft-auto-5-sales-surpass-1-billion.html"
   },
   {
    "id": "2026-11-18-gta6-5-coisas-antes-da-meia-noite",
@@ -5515,6 +5825,55 @@
    "label": "https://metropoles.com/colunas/metropoles-games/gta-6-bate-recorde-historico-antes-do-lancamento"
   },
   {
+   "id": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce",
+   "tipo": "post",
+   "label": "gta6-amanha-5-coisas-ia-por-voce",
+   "data": "2026-11-18",
+   "score": null
+  },
+  {
+   "id": "tema:Assistente de contas da casa",
+   "tipo": "tema",
+   "label": "Assistente de contas da casa"
+  },
+  {
+   "id": "2026-11-18-ia-no-pc-sem-placa-nvidia",
+   "tipo": "post",
+   "label": "ia-no-pc-sem-placa-nvidia",
+   "data": "2026-11-18",
+   "score": null
+  },
+  {
+   "id": "fonte:https://github.com/janhq/jan",
+   "tipo": "fonte",
+   "label": "https://github.com/janhq/jan"
+  },
+  {
+   "id": "fonte:https://github.com/nomic-ai/gpt4all",
+   "tipo": "fonte",
+   "label": "https://github.com/nomic-ai/gpt4all"
+  },
+  {
+   "id": "fonte:https://github.com/vosen/ZLUDA",
+   "tipo": "fonte",
+   "label": "https://github.com/vosen/ZLUDA"
+  },
+  {
+   "id": "fonte:https://github.com/ggml-org/llama.cpp",
+   "tipo": "fonte",
+   "label": "https://github.com/ggml-org/llama.cpp"
+  },
+  {
+   "id": "fonte:https://github.com/ollama/ollama",
+   "tipo": "fonte",
+   "label": "https://github.com/ollama/ollama"
+  },
+  {
+   "id": "fonte:https://www.tomshardware.com/pc-components/gpus/nvidia-bans-using-translation-layers-for-cuda-software-to-run-on-other-chips-new-restriction-apparently-targets-zluda-and-some-chinese-gpu-makers",
+   "tipo": "fonte",
+   "label": "https://www.tomshardware.com/pc-components/gpus/nvidia-bans-using-translation-layers-for-cuda-software-to-run-on-other-chips-new-restriction-apparently-targets-zluda-and-some-chinese-gpu-makers"
+  },
+  {
    "id": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota",
    "tipo": "post",
    "label": "ia-que-ganhou-dos-campeoes-de-dota",
@@ -5545,6 +5904,23 @@
    "id": "fonte:https://en.wikipedia.org/wiki/OpenAI_Five",
    "tipo": "fonte",
    "label": "https://en.wikipedia.org/wiki/OpenAI_Five"
+  },
+  {
+   "id": "2026-11-18-openai-five-vence-os-campeoes-de-dota",
+   "tipo": "post",
+   "label": "openai-five-vence-os-campeoes-de-dota",
+   "data": "2026-11-18",
+   "score": null
+  },
+  {
+   "id": "tema:2019",
+   "tipo": "tema",
+   "label": "2019"
+  },
+  {
+   "id": "fonte:https://openai.com/index/openai-five/",
+   "tipo": "fonte",
+   "label": "https://openai.com/index/openai-five/"
   },
   {
    "id": "2026-11-18-por-que-a-ia-fica-lenta",
@@ -5601,6 +5977,70 @@
    "label": "https://en.wikipedia.org/wiki/Text-to-image_model"
   },
   {
+   "id": "2026-11-18-por-que-o-modo-pensar-custa-mais",
+   "tipo": "post",
+   "label": "por-que-o-modo-pensar-custa-mais",
+   "data": "2026-11-18",
+   "score": null
+  },
+  {
+   "id": "tema:modo pensar",
+   "tipo": "tema",
+   "label": "modo pensar"
+  },
+  {
+   "id": "tema:custo",
+   "tipo": "tema",
+   "label": "custo"
+  },
+  {
+   "id": "fonte:https://www.anthropic.com/claude-fable-and-mythos-5-2",
+   "tipo": "fonte",
+   "label": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+  },
+  {
+   "id": "2026-11-18-windows-11-sem-propaganda",
+   "tipo": "post",
+   "label": "windows-11-sem-propaganda",
+   "data": "2026-11-18",
+   "score": null
+  },
+  {
+   "id": "cta:LIMPA",
+   "tipo": "cta",
+   "label": "LIMPA"
+  },
+  {
+   "id": "tema:Windows",
+   "tipo": "tema",
+   "label": "Windows"
+  },
+  {
+   "id": "fonte:https://github.com/farag2/Sophia-Script-for-Windows",
+   "tipo": "fonte",
+   "label": "https://github.com/farag2/Sophia-Script-for-Windows"
+  },
+  {
+   "id": "fonte:https://github.com/ntdevlabs/tiny11builder",
+   "tipo": "fonte",
+   "label": "https://github.com/ntdevlabs/tiny11builder"
+  },
+  {
+   "id": "fonte:https://github.com/valinet/ExplorerPatcher",
+   "tipo": "fonte",
+   "label": "https://github.com/valinet/ExplorerPatcher"
+  },
+  {
+   "id": "fonte:https://github.com/Raphire/Win11Debloat",
+   "tipo": "fonte",
+   "label": "https://github.com/Raphire/Win11Debloat"
+  },
+  {
+   "id": "fonte:https://github.com/ChrisTitusTech/winutil",
+   "tipo": "fonte",
+   "label": "https://github.com/ChrisTitusTech/winutil"
+  },
+  {
    "id": "2026-11-19-4-jogos-nintendo-no-pc",
    "tipo": "post",
    "label": "4-jogos-nintendo-no-pc",
@@ -5643,6 +6083,18 @@
    "id": "tema:contas",
    "tipo": "tema",
    "label": "contas"
+  },
+  {
+   "id": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou",
+   "tipo": "post",
+   "label": "clipe-do-word-o-assistente-que-todo-mundo-odiou",
+   "data": "2026-11-19",
+   "score": null
+  },
+  {
+   "id": "fonte:https://support.microsoft.com/office",
+   "tipo": "fonte",
+   "label": "https://support.microsoft.com/office"
   },
   {
    "id": "2026-11-19-fantasmas-do-pac-man",
@@ -5706,19 +6158,9 @@
    "score": null
   },
   {
-   "id": "tema:clipes",
-   "tipo": "tema",
-   "label": "clipes"
-  },
-  {
    "id": "tema:PS5",
    "tipo": "tema",
    "label": "PS5"
-  },
-  {
-   "id": "fonte:https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
-   "tipo": "fonte",
-   "label": "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
   },
   {
    "id": "fonte:https://www.tweaktown.com/news/76220/ps5-can-capture-up-to-1-hour-of-4k-gameplay-video-with-create-button/index.html",
@@ -5731,11 +6173,6 @@
    "label": "https://www.digitaltrends.com/gaming/how-to-record-gameplay-on-a-ps5"
   },
   {
-   "id": "fonte:https://github.com/WyattBlue/auto-editor",
-   "tipo": "fonte",
-   "label": "https://github.com/WyattBlue/auto-editor"
-  },
-  {
    "id": "fonte:https://github.com/RafaelGodoyEbert/ViralCutter",
    "tipo": "fonte",
    "label": "https://github.com/RafaelGodoyEbert/ViralCutter"
@@ -5746,16 +6183,65 @@
    "label": "https://github.com/artbyjazi/autoclip"
   },
   {
+   "id": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia",
+   "tipo": "post",
+   "label": "quanta-memoria-de-video-pra-rodar-ia",
+   "data": "2026-11-19",
+   "score": null
+  },
+  {
+   "id": "tema:Ollama",
+   "tipo": "tema",
+   "label": "Ollama"
+  },
+  {
+   "id": "tema:programas",
+   "tipo": "tema",
+   "label": "programas"
+  },
+  {
+   "id": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso",
+   "tipo": "post",
+   "label": "siri-2011-a-assistente-que-entrou-no-bolso",
+   "data": "2026-11-19",
+   "score": null
+  },
+  {
+   "id": "tema:Siri",
+   "tipo": "tema",
+   "label": "Siri"
+  },
+  {
+   "id": "tema:assistente de voz",
+   "tipo": "tema",
+   "label": "assistente de voz"
+  },
+  {
+   "id": "tema:2011",
+   "tipo": "tema",
+   "label": "2011"
+  },
+  {
+   "id": "tema:iPhone",
+   "tipo": "tema",
+   "label": "iPhone"
+  },
+  {
+   "id": "fonte:https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/",
+   "tipo": "fonte",
+   "label": "https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/"
+  },
+  {
+   "id": "fonte:https://en.wikipedia.org/wiki/Siri",
+   "tipo": "fonte",
+   "label": "https://en.wikipedia.org/wiki/Siri"
+  },
+  {
    "id": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter",
    "tipo": "post",
    "label": "3-programas-gratis-que-o-windows-devia-ter",
    "data": "2026-11-20",
    "score": null
-  },
-  {
-   "id": "tema:Windows",
-   "tipo": "tema",
-   "label": "Windows"
   },
   {
    "id": "fonte:https://github.com/oinkvm/oink",
@@ -5771,6 +6257,79 @@
    "id": "fonte:https://github.com/anefzaoui/misterdownloadmanager",
    "tipo": "fonte",
    "label": "https://github.com/anefzaoui/misterdownloadmanager"
+  },
+  {
+   "id": "2026-11-20-5-coisas-ia-faz-janta",
+   "tipo": "post",
+   "label": "5-coisas-ia-faz-janta",
+   "data": "2026-11-20",
+   "score": null
+  },
+  {
+   "id": "tema:Cardápio da semana",
+   "tipo": "tema",
+   "label": "Cardápio da semana"
+  },
+  {
+   "id": "fonte:https://github.com/lllyasviel/Fooocus",
+   "tipo": "fonte",
+   "label": "https://github.com/lllyasviel/Fooocus"
+  },
+  {
+   "id": "2026-11-20-5-coisas-ia-faz-semana-organizada",
+   "tipo": "post",
+   "label": "5-coisas-ia-faz-semana-organizada",
+   "data": "2026-11-20",
+   "score": null
+  },
+  {
+   "id": "tema:Organizador da semana",
+   "tipo": "tema",
+   "label": "Organizador da semana"
+  },
+  {
+   "id": "2026-11-20-5-programas-gratis-novos-pro-seu-pc",
+   "tipo": "post",
+   "label": "5-programas-gratis-novos-pro-seu-pc",
+   "data": "2026-11-20",
+   "score": null
+  },
+  {
+   "id": "tema:novidades",
+   "tipo": "tema",
+   "label": "novidades"
+  },
+  {
+   "id": "fonte:https://github.com/interplains/Zero-Breach-Toolkit",
+   "tipo": "fonte",
+   "label": "https://github.com/interplains/Zero-Breach-Toolkit"
+  },
+  {
+   "id": "fonte:https://github.com/RoutineMiku/apkstart",
+   "tipo": "fonte",
+   "label": "https://github.com/RoutineMiku/apkstart"
+  },
+  {
+   "id": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra",
+   "tipo": "post",
+   "label": "por-que-a-ia-cobra-por-pedaco-de-palavra",
+   "data": "2026-11-20",
+   "score": null
+  },
+  {
+   "id": "cta:TOKEN",
+   "tipo": "cta",
+   "label": "TOKEN"
+  },
+  {
+   "id": "tema:limite",
+   "tipo": "tema",
+   "label": "limite"
+  },
+  {
+   "id": "fonte:https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them",
+   "tipo": "fonte",
+   "label": "https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them"
   }
  ],
  "links": [
@@ -6588,6 +7147,10 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-16-robo-inventou-uma-regra"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-16-treinar-custa-milhoes"
   },
   {
@@ -6600,7 +7163,19 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-17-a-ia-tem-um-chefe-invisivel"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia"
   },
   {
    "source": "rede:instagram",
@@ -6616,6 +7191,10 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-17-ias-que-trabalham-por-voce"
   },
   {
@@ -6624,7 +7203,27 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-17-por-que-a-ia-erra-letras-de-morango"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-17-por-que-o-gta6-tem-212-gb"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-18-5-coisas-ia-faz-mensagens"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-18-gta-v-800-milhoes-em-24-horas"
   },
   {
    "source": "rede:instagram",
@@ -6636,7 +7235,19 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-18-openai-five-vence-os-campeoes-de-dota"
   },
   {
    "source": "rede:instagram",
@@ -6648,11 +7259,23 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-18-por-que-o-modo-pensar-custa-mais"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-18-windows-11-sem-propaganda"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-19-4-jogos-nintendo-no-pc"
   },
   {
    "source": "rede:instagram",
    "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
   },
   {
    "source": "rede:instagram",
@@ -6668,7 +7291,31 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
   },
   {
    "source": "rede:tiktok",
@@ -7232,6 +7879,10 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-16-robo-inventou-uma-regra"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-16-treinar-custa-milhoes"
   },
   {
@@ -7244,7 +7895,19 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-17-a-ia-tem-um-chefe-invisivel"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia"
   },
   {
    "source": "rede:tiktok",
@@ -7260,6 +7923,10 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-17-ias-que-trabalham-por-voce"
   },
   {
@@ -7268,7 +7935,27 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-17-por-que-a-ia-erra-letras-de-morango"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-17-por-que-o-gta6-tem-212-gb"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-18-5-coisas-ia-faz-mensagens"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-18-gta-v-800-milhoes-em-24-horas"
   },
   {
    "source": "rede:tiktok",
@@ -7280,7 +7967,19 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-18-openai-five-vence-os-campeoes-de-dota"
   },
   {
    "source": "rede:tiktok",
@@ -7292,11 +7991,23 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-18-por-que-o-modo-pensar-custa-mais"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-18-windows-11-sem-propaganda"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-19-4-jogos-nintendo-no-pc"
   },
   {
    "source": "rede:tiktok",
    "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
   },
   {
    "source": "rede:tiktok",
@@ -7312,7 +8023,31 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
   },
   {
    "source": "rede:youtube",
@@ -8052,6 +8787,10 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-16-robo-inventou-uma-regra"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-16-treinar-custa-milhoes"
   },
   {
@@ -8064,7 +8803,19 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-17-a-ia-tem-um-chefe-invisivel"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia"
   },
   {
    "source": "horario:20h",
@@ -8080,6 +8831,10 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-17-ias-que-trabalham-por-voce"
   },
   {
@@ -8088,7 +8843,27 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-17-por-que-a-ia-erra-letras-de-morango"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-17-por-que-o-gta6-tem-212-gb"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-18-5-coisas-ia-faz-mensagens"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-18-gta-v-800-milhoes-em-24-horas"
   },
   {
    "source": "horario:20h",
@@ -8100,7 +8875,19 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-18-openai-five-vence-os-campeoes-de-dota"
   },
   {
    "source": "horario:20h",
@@ -8112,11 +8899,23 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-18-por-que-o-modo-pensar-custa-mais"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-18-windows-11-sem-propaganda"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-19-4-jogos-nintendo-no-pc"
   },
   {
    "source": "horario:20h",
    "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
   },
   {
    "source": "horario:20h",
@@ -8132,7 +8931,31 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
   },
   {
    "source": "2026-11-01-github-agentes",
@@ -8271,6 +9094,10 @@
    "target": "2026-11-01-semana-em-ia"
   },
   {
+   "source": "tema:IA local",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
    "source": "tema:privacidade",
    "target": "2026-11-02-trend-esculacho"
   },
@@ -8372,7 +9199,23 @@
   },
   {
    "source": "tema:produtividade",
+   "target": "2026-11-18-5-coisas-ia-faz-mensagens"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "tema:produtividade",
    "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
   },
   {
    "source": "2026-11-01-semana-em-ia",
@@ -8523,6 +9366,10 @@
    "target": "horario:07h"
   },
   {
+   "source": "cta:SIRI",
+   "target": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso"
+  },
+  {
    "source": "tema:IA no celular",
    "target": "2026-11-02-ferramentas-gratis"
   },
@@ -8632,7 +9479,19 @@
   },
   {
    "source": "tema:jogos",
+   "target": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia"
+  },
+  {
+   "source": "tema:jogos",
    "target": "2026-11-17-gta6-5-fatos-meia-noite"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
   },
   {
    "source": "tema:jogos",
@@ -8640,7 +9499,23 @@
   },
   {
    "source": "tema:jogos",
+   "target": "2026-11-17-por-que-o-gta6-tem-212-gb"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-18-gta-v-800-milhoes-em-24-horas"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
+   "source": "tema:jogos",
    "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-18-openai-five-vence-os-campeoes-de-dota"
   },
   {
    "source": "tema:jogos",
@@ -8856,11 +9731,23 @@
   },
   {
    "source": "cta:CLIPE",
+   "target": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo"
+  },
+  {
+   "source": "cta:CLIPE",
    "target": "2026-11-17-clipe-do-word"
+  },
+  {
+   "source": "cta:CLIPE",
+   "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
   },
   {
    "source": "tema:edição de vídeo",
    "target": "2026-11-07-editar-video"
+  },
+  {
+   "source": "tema:edição de vídeo",
+   "target": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video"
   },
   {
    "source": "2026-11-04-canva-craft",
@@ -9021,6 +9908,10 @@
   {
    "source": "2026-11-04-youtube-2-horas",
    "target": "fonte:pbxscience.com"
+  },
+  {
+   "source": "tema:Claude",
+   "target": "2026-11-18-por-que-o-modo-pensar-custa-mais"
   },
   {
    "source": "2026-11-05-10-estilos",
@@ -9564,6 +10455,10 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-16-robo-inventou-uma-regra"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-16-serie-app-01-app"
   },
   {
@@ -9588,7 +10483,19 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-17-a-ia-tem-um-chefe-invisivel"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia"
   },
   {
    "source": "paleta:paleta None",
@@ -9604,6 +10511,10 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-17-ias-que-trabalham-por-voce"
   },
   {
@@ -9612,7 +10523,27 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-17-por-que-a-ia-erra-letras-de-morango"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-17-por-que-o-gta6-tem-212-gb"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-18-5-coisas-ia-faz-mensagens"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-18-gta-v-800-milhoes-em-24-horas"
   },
   {
    "source": "paleta:paleta None",
@@ -9624,7 +10555,19 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-18-openai-five-vence-os-campeoes-de-dota"
   },
   {
    "source": "paleta:paleta None",
@@ -9636,11 +10579,23 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-18-por-que-o-modo-pensar-custa-mais"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-18-windows-11-sem-propaganda"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-19-4-jogos-nintendo-no-pc"
   },
   {
    "source": "paleta:paleta None",
    "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
   },
   {
    "source": "paleta:paleta None",
@@ -9656,7 +10611,31 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
   },
   {
    "source": "empresa:Anthropic (Claude)",
@@ -9756,7 +10735,91 @@
   },
   {
    "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-17-por-que-o-gta6-tem-212-gb"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-18-5-coisas-ia-faz-mensagens"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-18-gta-v-800-milhoes-em-24-horas"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-18-openai-five-vence-os-campeoes-de-dota"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-18-por-que-o-modo-pensar-custa-mais"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-18-windows-11-sem-propaganda"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
    "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
+   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
+   "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
   },
   {
    "source": "tema:GitHub em alta",
@@ -10304,6 +11367,10 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-16-robo-inventou-uma-regra"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-16-serie-app-01-app"
   },
   {
@@ -10328,7 +11395,19 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-17-a-ia-tem-um-chefe-invisivel"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia"
   },
   {
    "source": "pilar:reel",
@@ -10344,6 +11423,10 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-17-ias-que-trabalham-por-voce"
   },
   {
@@ -10352,7 +11435,27 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-17-por-que-a-ia-erra-letras-de-morango"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-17-por-que-o-gta6-tem-212-gb"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-18-5-coisas-ia-faz-mensagens"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-18-gta-v-800-milhoes-em-24-horas"
   },
   {
    "source": "pilar:reel",
@@ -10364,7 +11467,19 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-18-openai-five-vence-os-campeoes-de-dota"
   },
   {
    "source": "pilar:reel",
@@ -10376,11 +11491,23 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-18-por-que-o-modo-pensar-custa-mais"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-18-windows-11-sem-propaganda"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-19-4-jogos-nintendo-no-pc"
   },
   {
    "source": "pilar:reel",
    "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
   },
   {
    "source": "pilar:reel",
@@ -10392,7 +11519,31 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
   },
   {
    "source": "formato:palco",
@@ -10759,8 +11910,28 @@
    "target": "fonte:https://github.com/InukaAsith/TwinDesk"
   },
   {
+   "source": "cta:PC",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
+   "source": "tema:programas grátis",
+   "target": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo"
+  },
+  {
+   "source": "tema:programas grátis",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "tema:programas grátis",
+   "target": "2026-11-18-windows-11-sem-propaganda"
+  },
+  {
    "source": "tema:programas grátis",
    "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
+  },
+  {
+   "source": "tema:programas grátis",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
   },
   {
    "source": "2026-11-08-advogado-chatgpt",
@@ -11176,7 +12347,23 @@
   },
   {
    "source": "cta:KIT",
+   "target": "2026-11-18-5-coisas-ia-faz-mensagens"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "cta:KIT",
    "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
   },
   {
    "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
@@ -11188,11 +12375,31 @@
   },
   {
    "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "target": "2026-11-18-5-coisas-ia-faz-mensagens"
+  },
+  {
+   "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
    "target": "2026-11-19-5-coisas-ia-contas-da-casa"
+  },
+  {
+   "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
   },
   {
    "source": "fonte:https://arxiv.org/abs/2205.11916",
    "target": "2026-11-10-pense-passo-a-passo"
+  },
+  {
+   "source": "fonte:https://arxiv.org/abs/2205.11916",
+   "target": "2026-11-18-por-que-o-modo-pensar-custa-mais"
   },
   {
    "source": "2026-11-08-nintendo",
@@ -11603,6 +12810,10 @@
    "target": "fonte:https://platform.openai.com/docs/guides/images-vision"
   },
   {
+   "source": "cta:PRINT",
+   "target": "2026-11-16-robo-inventou-uma-regra"
+  },
+  {
    "source": "2026-11-09-obrigado-custa-milhoes",
    "target": "cta:OBRIGADO"
   },
@@ -12011,6 +13222,10 @@
    "target": "fonte:https://help.openai.com/en/articles/8983136-what-is-memory"
   },
   {
+   "source": "cta:MEMORIA",
+   "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
+  },
+  {
    "source": "2026-11-11-copiar-qualquer-app",
    "target": "cta:COPIA"
   },
@@ -12304,6 +13519,10 @@
   },
   {
    "source": "cta:GTA",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "cta:GTA",
    "target": "2026-11-19-ps5-grava-seu-gta-6"
   },
   {
@@ -12556,7 +13775,23 @@
   },
   {
    "source": "rede:story",
+   "target": "2026-11-15-estudio-de-games-no-claude"
+  },
+  {
+   "source": "rede:story",
    "target": "2026-11-16-app-completo-com-ia"
+  },
+  {
+   "source": "rede:story",
+   "target": "2026-11-16-nvidia-perdeu-o-chefe"
+  },
+  {
+   "source": "rede:story",
+   "target": "2026-11-16-tv-sem-propaganda-lg-samsung"
+  },
+  {
+   "source": "rede:story",
+   "target": "2026-11-19-ps5-grava-seu-gta-6"
   },
   {
    "source": "2026-11-13-google-fotos-lotou",
@@ -12601,6 +13836,14 @@
   {
    "source": "2026-11-13-ia-aprendeu-a-ver",
    "target": "fonte:https://image-net.org/challenges/LSVRC/2012/results.html"
+  },
+  {
+   "source": "cta:VISAO",
+   "target": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver"
+  },
+  {
+   "source": "fonte:https://image-net.org/challenges/LSVRC/2012/results.html",
+   "target": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver"
   },
   {
    "source": "2026-11-13-ia-enrola-demais",
@@ -12751,6 +13994,10 @@
    "target": "2026-11-16-por-que-a-placa-de-video-roda-ia"
   },
   {
+   "source": "cta:PLACA",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
    "source": "2026-11-13-texto-com-cara-de-ia",
    "target": "tema:texto-com-cara-de-ia"
   },
@@ -12893,6 +14140,10 @@
   {
    "source": "2026-11-14-modo-pensar",
    "target": "fonte:https://simonwillison.net/2024/Sep/12/openai-o1/"
+  },
+  {
+   "source": "cta:PENSAR",
+   "target": "2026-11-18-por-que-o-modo-pensar-custa-mais"
   },
   {
    "source": "2026-11-14-palavra-codigo-da-familia",
@@ -13172,10 +14423,6 @@
   },
   {
    "source": "formato:contagem (formato 3)",
-   "target": "2026-11-16-tv-sem-propaganda-lg-samsung"
-  },
-  {
-   "source": "formato:contagem (formato 3)",
    "target": "2026-11-17-5-coisas-ia-golpe"
   },
   {
@@ -13197,10 +14444,6 @@
   {
    "source": "formato:contagem (formato 3)",
    "target": "2026-11-17-ias-que-trabalham-por-voce"
-  },
-  {
-   "source": "formato:contagem (formato 3)",
-   "target": "2026-11-17-jogos-no-celular-e-no-mac"
   },
   {
    "source": "formato:contagem (formato 3)",
@@ -13268,6 +14511,10 @@
   },
   {
    "source": "tema:PC",
+   "target": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo"
+  },
+  {
+   "source": "tema:PC",
    "target": "2026-11-17-ias-que-trabalham-por-voce"
   },
   {
@@ -13276,11 +14523,27 @@
   },
   {
    "source": "tema:PC",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-18-windows-11-sem-propaganda"
+  },
+  {
+   "source": "tema:PC",
    "target": "2026-11-19-4-jogos-nintendo-no-pc"
   },
   {
    "source": "tema:PC",
+   "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
+  },
+  {
+   "source": "tema:PC",
    "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
   },
   {
    "source": "fonte:https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
@@ -13359,6 +14622,22 @@
    "target": "2026-11-16-nvidia-perdeu-o-chefe"
   },
   {
+   "source": "tema:Nvidia",
+   "target": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
    "source": "tema:história",
    "target": "2026-11-17-clipe-do-word"
   },
@@ -13368,7 +14647,19 @@
   },
   {
    "source": "tema:história",
+   "target": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-18-gta-v-800-milhoes-em-24-horas"
+  },
+  {
+   "source": "tema:história",
    "target": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
   },
   {
    "source": "tema:história",
@@ -13377,6 +14668,10 @@
   {
    "source": "tema:GPU",
    "target": "2026-11-16-por-que-a-placa-de-video-roda-ia"
+  },
+  {
+   "source": "tema:AlexNet",
+   "target": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver"
   },
   {
    "source": "2026-11-16-nvidia-perdeu-o-chefe",
@@ -13417,6 +14712,18 @@
   {
    "source": "2026-11-16-nvidia-perdeu-o-chefe",
    "target": "fonte:https://www.usnews.com/news/top-news/articles/2026-11-12/us-justice-department-has-not-concluded-alice-huang-was-chinese-spy-blanche-says"
+  },
+  {
+   "source": "tema:Jensen Huang",
+   "target": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete"
+  },
+  {
+   "source": "fonte:https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "target": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia"
+  },
+  {
+   "source": "fonte:https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "target": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete"
   },
   {
    "source": "2026-11-16-o-que-todo-site-sabe-de-voce",
@@ -13488,11 +14795,23 @@
   },
   {
    "source": "tema:IA",
+   "target": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia"
+  },
+  {
+   "source": "tema:IA",
    "target": "2026-11-18-por-que-a-ia-fica-lenta"
   },
   {
    "source": "tema:IA",
    "target": "2026-11-18-por-que-ia-de-imagem-erra-a-mao"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-18-por-que-o-modo-pensar-custa-mais"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
   },
   {
    "source": "2026-11-16-por-que-a-placa-de-video-roda-ia",
@@ -13505,6 +14824,42 @@
   {
    "source": "2026-11-16-por-que-a-placa-de-video-roda-ia",
    "target": "fonte:https://docs.nvidia.com/cuda/cuda-c-programming-guide/"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
+  },
+  {
+   "source": "2026-11-16-robo-inventou-uma-regra",
+   "target": "formato:arquivo secreto (formato 5)"
+  },
+  {
+   "source": "2026-11-16-robo-inventou-uma-regra",
+   "target": "tema:historia do processo"
+  },
+  {
+   "source": "2026-11-16-robo-inventou-uma-regra",
+   "target": "tema:robô que inventou uma regra (Moffatt v. Air Canada, 2024)"
+  },
+  {
+   "source": "2026-11-16-robo-inventou-uma-regra",
+   "target": "fonte:https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do"
+  },
+  {
+   "source": "2026-11-16-robo-inventou-uma-regra",
+   "target": "fonte:https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/"
+  },
+  {
+   "source": "2026-11-16-robo-inventou-uma-regra",
+   "target": "fonte:https://www.timescolonist.com/local-news/air-canada-responsible-for-errors-by-chatbot-civil-resolution-tribunal-rules-8320420"
   },
   {
    "source": "2026-11-16-serie-app-01-app",
@@ -13564,6 +14919,10 @@
   },
   {
    "source": "2026-11-16-tv-sem-propaganda-lg-samsung",
+   "target": "formato:reel v7 (2 vozes)"
+  },
+  {
+   "source": "2026-11-16-tv-sem-propaganda-lg-samsung",
    "target": "cta:TELA"
   },
   {
@@ -13607,6 +14966,10 @@
    "target": "fonte:https://github.com/pengchujin/aerial-tv"
   },
   {
+   "source": "formato:reel v7 (2 vozes)",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
    "source": "tema:projetos",
    "target": "2026-11-17-ias-que-trabalham-por-voce"
   },
@@ -13631,12 +14994,116 @@
    "target": "2026-11-19-5-coisas-ia-contas-da-casa"
   },
   {
+   "source": "tema:assistente",
+   "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
+  },
+  {
+   "source": "tema:kit",
+   "target": "2026-11-18-5-coisas-ia-faz-mensagens"
+  },
+  {
+   "source": "tema:kit",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
    "source": "tema:kit",
    "target": "2026-11-19-5-coisas-ia-contas-da-casa"
   },
   {
+   "source": "tema:kit",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "tema:kit",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
+  },
+  {
    "source": "tema:golpe",
    "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
+   "target": "tema:github"
+  },
+  {
+   "source": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
+   "target": "tema:editar vídeo"
+  },
+  {
+   "source": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
+   "target": "fonte:https://github.com/mltframework/shotcut"
+  },
+  {
+   "source": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
+   "target": "fonte:https://github.com/HandBrake/HandBrake"
+  },
+  {
+   "source": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
+   "target": "fonte:https://github.com/mifi/lossless-cut"
+  },
+  {
+   "source": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
+   "target": "fonte:https://github.com/obsproject/obs-studio"
+  },
+  {
+   "source": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
+   "target": "fonte:https://github.com/WyattBlue/auto-editor"
+  },
+  {
+   "source": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
+   "target": "fonte:https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-18-windows-11-sem-propaganda"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/mltframework/shotcut",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "fonte:https://github.com/HandBrake/HandBrake",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "fonte:https://github.com/mifi/lossless-cut",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "fonte:https://github.com/obsproject/obs-studio",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "fonte:https://github.com/WyattBlue/auto-editor",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "fonte:https://github.com/WyattBlue/auto-editor",
+   "target": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video"
+  },
+  {
+   "source": "fonte:https://github.com/WyattBlue/auto-editor",
+   "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "source": "fonte:https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "fonte:https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+   "target": "2026-11-17-por-que-o-gta6-tem-212-gb"
+  },
+  {
+   "source": "fonte:https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+   "target": "2026-11-19-ps5-grava-seu-gta-6"
   },
   {
    "source": "2026-11-17-a-ia-tem-um-chefe-invisivel",
@@ -13653,6 +15120,58 @@
   {
    "source": "2026-11-17-a-ia-tem-um-chefe-invisivel",
    "target": "fonte:https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts"
+  },
+  {
+   "source": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver",
+   "target": "tema:história da IA"
+  },
+  {
+   "source": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver",
+   "target": "tema:ImageNet"
+  },
+  {
+   "source": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver",
+   "target": "tema:2012"
+  },
+  {
+   "source": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver",
+   "target": "fonte:https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html"
+  },
+  {
+   "source": "tema:história da IA",
+   "target": "2026-11-18-openai-five-vence-os-campeoes-de-dota"
+  },
+  {
+   "source": "tema:história da IA",
+   "target": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso"
+  },
+  {
+   "source": "fonte:https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+   "target": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia"
+  },
+  {
+   "source": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia",
+   "target": "cta:CHIP"
+  },
+  {
+   "source": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia",
+   "target": "tema:como funciona"
+  },
+  {
+   "source": "2026-11-17-chip-de-videogame-virou-cerebro-da-ia",
+   "target": "fonte:https://developer.nvidia.com/about-cuda"
+  },
+  {
+   "source": "tema:como funciona",
+   "target": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video"
+  },
+  {
+   "source": "tema:como funciona",
+   "target": "2026-11-18-por-que-o-modo-pensar-custa-mais"
+  },
+  {
+   "source": "tema:como funciona",
+   "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
   },
   {
    "source": "2026-11-17-clipe-do-word",
@@ -13673,6 +15192,22 @@
   {
    "source": "2026-11-17-clipe-do-word",
    "target": "fonte:https://en.wikipedia.org/wiki/Clippy"
+  },
+  {
+   "source": "tema:Word",
+   "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
+  },
+  {
+   "source": "tema:Clippy",
+   "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
+  },
+  {
+   "source": "tema:Microsoft",
+   "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
+  },
+  {
+   "source": "fonte:https://en.wikipedia.org/wiki/Office_Assistant",
+   "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
   },
   {
    "source": "2026-11-17-eliza-o-primeiro-chatbot",
@@ -13716,6 +15251,22 @@
   },
   {
    "source": "tema:GTA 6",
+   "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "tema:GTA 6",
+   "target": "2026-11-17-por-que-o-gta6-tem-212-gb"
+  },
+  {
+   "source": "tema:GTA 6",
+   "target": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video"
+  },
+  {
+   "source": "tema:GTA 6",
+   "target": "2026-11-18-gta-v-800-milhoes-em-24-horas"
+  },
+  {
+   "source": "tema:GTA 6",
    "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
   },
   {
@@ -13751,6 +15302,22 @@
    "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
   },
   {
+   "source": "2026-11-17-gta6-5-programas-gratis-pra-clipar",
+   "target": "tema:clipes"
+  },
+  {
+   "source": "2026-11-17-gta6-5-programas-gratis-pra-clipar",
+   "target": "tema:editor de vídeo"
+  },
+  {
+   "source": "tema:clipes",
+   "target": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video"
+  },
+  {
+   "source": "tema:clipes",
+   "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
    "source": "2026-11-17-ias-que-trabalham-por-voce",
    "target": "cta:ROBO"
   },
@@ -13771,6 +15338,10 @@
    "target": "fonte:https://github.com/FrigadeHQ/yogurt"
   },
   {
+   "source": "fonte:https://github.com/FrigadeHQ/yogurt",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
    "source": "2026-11-17-jogos-no-celular-e-no-mac",
    "target": "cta:JOGOS"
   },
@@ -13789,6 +15360,22 @@
   {
    "source": "2026-11-17-jogos-no-celular-e-no-mac",
    "target": "fonte:https://github.com/jhaizhou-ops/S2Arm"
+  },
+  {
+   "source": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete",
+   "target": "cta:MESA"
+  },
+  {
+   "source": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete",
+   "target": "tema:1993"
+  },
+  {
+   "source": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete",
+   "target": "tema:chips"
+  },
+  {
+   "source": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete",
+   "target": "fonte:https://www.nbcmiami.com/news/business/money-report/jensen-huang-started-his-2-trillion-company-nvidia-at-a-dennys-breakfast-booth/3302554"
   },
   {
    "source": "2026-11-17-por-que-a-ia-erra-letras-de-morango",
@@ -13815,6 +15402,122 @@
    "target": "fonte:https://en.wikipedia.org/wiki/Large_language_model"
   },
   {
+   "source": "tema:tokens",
+   "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
+  },
+  {
+   "source": "fonte:https://platform.openai.com/tokenizer",
+   "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
+  },
+  {
+   "source": "2026-11-17-por-que-o-gta6-tem-212-gb",
+   "target": "cta:BAIXA"
+  },
+  {
+   "source": "2026-11-17-por-que-o-gta6-tem-212-gb",
+   "target": "tema:pré-carga"
+  },
+  {
+   "source": "2026-11-17-por-que-o-gta6-tem-212-gb",
+   "target": "tema:212 GB"
+  },
+  {
+   "source": "2026-11-17-por-que-o-gta6-tem-212-gb",
+   "target": "tema:download"
+  },
+  {
+   "source": "2026-11-17-por-que-o-gta6-tem-212-gb",
+   "target": "fonte:https://www.tweaktown.com/news/114473/rockstar-reveals-gta-6-pre-load-times-confirms-212gb-install-size/index.html"
+  },
+  {
+   "source": "2026-11-17-por-que-o-gta6-tem-212-gb",
+   "target": "fonte:https://primagames.com/news/gta-6-preload-date-and-file-size-confirmed-by-rockstar"
+  },
+  {
+   "source": "2026-11-18-5-coisas-ia-faz-mensagens",
+   "target": "tema:IA que trabalha por você"
+  },
+  {
+   "source": "2026-11-18-5-coisas-ia-faz-mensagens",
+   "target": "tema:Revisor de mensagens"
+  },
+  {
+   "source": "2026-11-18-5-coisas-ia-faz-mensagens",
+   "target": "fonte:https://github.com/Mintplex-Labs/anything-llm"
+  },
+  {
+   "source": "2026-11-18-5-coisas-ia-faz-mensagens",
+   "target": "fonte:https://github.com/ggml-org/whisper.cpp"
+  },
+  {
+   "source": "2026-11-18-5-coisas-ia-faz-mensagens",
+   "target": "fonte:https://github.com/n8n-io/n8n"
+  },
+  {
+   "source": "2026-11-18-5-coisas-ia-faz-mensagens",
+   "target": "fonte:https://github.com/open-webui/open-webui"
+  },
+  {
+   "source": "tema:IA que trabalha por você",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "tema:IA que trabalha por você",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "tema:IA que trabalha por você",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
+  },
+  {
+   "source": "fonte:https://github.com/Mintplex-Labs/anything-llm",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "fonte:https://github.com/ggml-org/whisper.cpp",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "fonte:https://github.com/n8n-io/n8n",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "fonte:https://github.com/open-webui/open-webui",
+   "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video",
+   "target": "cta:CORTE"
+  },
+  {
+   "source": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video",
+   "target": "tema:auto-editor"
+  },
+  {
+   "source": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video",
+   "target": "fonte:https://auto-editor.com"
+  },
+  {
+   "source": "2026-11-18-gta-v-800-milhoes-em-24-horas",
+   "target": "cta:RECORDE"
+  },
+  {
+   "source": "2026-11-18-gta-v-800-milhoes-em-24-horas",
+   "target": "tema:GTA V"
+  },
+  {
+   "source": "2026-11-18-gta-v-800-milhoes-em-24-horas",
+   "target": "tema:recorde"
+  },
+  {
+   "source": "2026-11-18-gta-v-800-milhoes-em-24-horas",
+   "target": "fonte:https://www.guinnessworldrecords.com/news/2013/10/confirmed-grand-theft--auto-breaks-six-sales-world-records-51900"
+  },
+  {
+   "source": "2026-11-18-gta-v-800-milhoes-em-24-horas",
+   "target": "fonte:https://www.engadget.com/2013-09-20-grand-theft-auto-5-sales-surpass-1-billion.html"
+  },
+  {
    "source": "2026-11-18-gta6-5-coisas-antes-da-meia-noite",
    "target": "tema:checklist"
   },
@@ -13835,6 +15538,66 @@
    "target": "fonte:https://metropoles.com/colunas/metropoles-games/gta-6-bate-recorde-historico-antes-do-lancamento"
   },
   {
+   "source": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce",
+   "target": "tema:Assistente de contas da casa"
+  },
+  {
+   "source": "2026-11-18-ia-no-pc-sem-placa-nvidia",
+   "target": "fonte:https://github.com/janhq/jan"
+  },
+  {
+   "source": "2026-11-18-ia-no-pc-sem-placa-nvidia",
+   "target": "fonte:https://github.com/nomic-ai/gpt4all"
+  },
+  {
+   "source": "2026-11-18-ia-no-pc-sem-placa-nvidia",
+   "target": "fonte:https://github.com/vosen/ZLUDA"
+  },
+  {
+   "source": "2026-11-18-ia-no-pc-sem-placa-nvidia",
+   "target": "fonte:https://github.com/ggml-org/llama.cpp"
+  },
+  {
+   "source": "2026-11-18-ia-no-pc-sem-placa-nvidia",
+   "target": "fonte:https://github.com/ollama/ollama"
+  },
+  {
+   "source": "2026-11-18-ia-no-pc-sem-placa-nvidia",
+   "target": "fonte:https://www.tomshardware.com/pc-components/gpus/nvidia-bans-using-translation-layers-for-cuda-software-to-run-on-other-chips-new-restriction-apparently-targets-zluda-and-some-chinese-gpu-makers"
+  },
+  {
+   "source": "fonte:https://github.com/janhq/jan",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "fonte:https://github.com/janhq/jan",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
+  },
+  {
+   "source": "fonte:https://github.com/nomic-ai/gpt4all",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "fonte:https://github.com/nomic-ai/gpt4all",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
+  },
+  {
+   "source": "fonte:https://github.com/ggml-org/llama.cpp",
+   "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
+  },
+  {
+   "source": "fonte:https://github.com/ollama/ollama",
+   "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
+  },
+  {
+   "source": "fonte:https://github.com/ollama/ollama",
+   "target": "2026-11-20-5-coisas-ia-faz-janta"
+  },
+  {
+   "source": "fonte:https://github.com/ollama/ollama",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
+  },
+  {
    "source": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota",
    "target": "cta:DOTA"
   },
@@ -13853,6 +15616,30 @@
   {
    "source": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota",
    "target": "fonte:https://en.wikipedia.org/wiki/OpenAI_Five"
+  },
+  {
+   "source": "cta:DOTA",
+   "target": "2026-11-18-openai-five-vence-os-campeoes-de-dota"
+  },
+  {
+   "source": "tema:Dota 2",
+   "target": "2026-11-18-openai-five-vence-os-campeoes-de-dota"
+  },
+  {
+   "source": "tema:OpenAI Five",
+   "target": "2026-11-18-openai-five-vence-os-campeoes-de-dota"
+  },
+  {
+   "source": "fonte:https://openai.com/index/openai-five-defeats-dota-2-world-champions/",
+   "target": "2026-11-18-openai-five-vence-os-campeoes-de-dota"
+  },
+  {
+   "source": "2026-11-18-openai-five-vence-os-campeoes-de-dota",
+   "target": "tema:2019"
+  },
+  {
+   "source": "2026-11-18-openai-five-vence-os-campeoes-de-dota",
+   "target": "fonte:https://openai.com/index/openai-five/"
   },
   {
    "source": "2026-11-18-por-que-a-ia-fica-lenta",
@@ -13887,6 +15674,62 @@
    "target": "fonte:https://en.wikipedia.org/wiki/Text-to-image_model"
   },
   {
+   "source": "2026-11-18-por-que-o-modo-pensar-custa-mais",
+   "target": "tema:modo pensar"
+  },
+  {
+   "source": "2026-11-18-por-que-o-modo-pensar-custa-mais",
+   "target": "tema:custo"
+  },
+  {
+   "source": "2026-11-18-por-que-o-modo-pensar-custa-mais",
+   "target": "fonte:https://www.anthropic.com/claude-fable-and-mythos-5-2"
+  },
+  {
+   "source": "tema:custo",
+   "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
+  },
+  {
+   "source": "2026-11-18-windows-11-sem-propaganda",
+   "target": "cta:LIMPA"
+  },
+  {
+   "source": "2026-11-18-windows-11-sem-propaganda",
+   "target": "tema:Windows"
+  },
+  {
+   "source": "2026-11-18-windows-11-sem-propaganda",
+   "target": "fonte:https://github.com/farag2/Sophia-Script-for-Windows"
+  },
+  {
+   "source": "2026-11-18-windows-11-sem-propaganda",
+   "target": "fonte:https://github.com/ntdevlabs/tiny11builder"
+  },
+  {
+   "source": "2026-11-18-windows-11-sem-propaganda",
+   "target": "fonte:https://github.com/valinet/ExplorerPatcher"
+  },
+  {
+   "source": "2026-11-18-windows-11-sem-propaganda",
+   "target": "fonte:https://github.com/Raphire/Win11Debloat"
+  },
+  {
+   "source": "2026-11-18-windows-11-sem-propaganda",
+   "target": "fonte:https://github.com/ChrisTitusTech/winutil"
+  },
+  {
+   "source": "tema:Windows",
+   "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
+  },
+  {
+   "source": "tema:Windows",
+   "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
+  },
+  {
+   "source": "tema:Windows",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
    "source": "2026-11-19-4-jogos-nintendo-no-pc",
    "target": "cta:RECOMP"
   },
@@ -13909,6 +15752,10 @@
   {
    "source": "2026-11-19-5-coisas-ia-contas-da-casa",
    "target": "tema:contas"
+  },
+  {
+   "source": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou",
+   "target": "fonte:https://support.microsoft.com/office"
   },
   {
    "source": "2026-11-19-fantasmas-do-pac-man",
@@ -13944,15 +15791,7 @@
   },
   {
    "source": "2026-11-19-ps5-grava-seu-gta-6",
-   "target": "tema:clipes"
-  },
-  {
-   "source": "2026-11-19-ps5-grava-seu-gta-6",
    "target": "tema:PS5"
-  },
-  {
-   "source": "2026-11-19-ps5-grava-seu-gta-6",
-   "target": "fonte:https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
   },
   {
    "source": "2026-11-19-ps5-grava-seu-gta-6",
@@ -13964,10 +15803,6 @@
   },
   {
    "source": "2026-11-19-ps5-grava-seu-gta-6",
-   "target": "fonte:https://github.com/WyattBlue/auto-editor"
-  },
-  {
-   "source": "2026-11-19-ps5-grava-seu-gta-6",
    "target": "fonte:https://github.com/RafaelGodoyEbert/ViralCutter"
   },
   {
@@ -13975,8 +15810,36 @@
    "target": "fonte:https://github.com/artbyjazi/autoclip"
   },
   {
-   "source": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter",
-   "target": "tema:Windows"
+   "source": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia",
+   "target": "tema:Ollama"
+  },
+  {
+   "source": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia",
+   "target": "tema:programas"
+  },
+  {
+   "source": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso",
+   "target": "tema:Siri"
+  },
+  {
+   "source": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso",
+   "target": "tema:assistente de voz"
+  },
+  {
+   "source": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso",
+   "target": "tema:2011"
+  },
+  {
+   "source": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso",
+   "target": "tema:iPhone"
+  },
+  {
+   "source": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso",
+   "target": "fonte:https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/"
+  },
+  {
+   "source": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso",
+   "target": "fonte:https://en.wikipedia.org/wiki/Siri"
   },
   {
    "source": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter",
@@ -13989,6 +15852,54 @@
   {
    "source": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter",
    "target": "fonte:https://github.com/anefzaoui/misterdownloadmanager"
+  },
+  {
+   "source": "fonte:https://github.com/shanselman/gputaskman",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/anefzaoui/misterdownloadmanager",
+   "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
+   "source": "2026-11-20-5-coisas-ia-faz-janta",
+   "target": "tema:Cardápio da semana"
+  },
+  {
+   "source": "2026-11-20-5-coisas-ia-faz-janta",
+   "target": "fonte:https://github.com/lllyasviel/Fooocus"
+  },
+  {
+   "source": "fonte:https://github.com/lllyasviel/Fooocus",
+   "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
+  },
+  {
+   "source": "2026-11-20-5-coisas-ia-faz-semana-organizada",
+   "target": "tema:Organizador da semana"
+  },
+  {
+   "source": "2026-11-20-5-programas-gratis-novos-pro-seu-pc",
+   "target": "tema:novidades"
+  },
+  {
+   "source": "2026-11-20-5-programas-gratis-novos-pro-seu-pc",
+   "target": "fonte:https://github.com/interplains/Zero-Breach-Toolkit"
+  },
+  {
+   "source": "2026-11-20-5-programas-gratis-novos-pro-seu-pc",
+   "target": "fonte:https://github.com/RoutineMiku/apkstart"
+  },
+  {
+   "source": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra",
+   "target": "cta:TOKEN"
+  },
+  {
+   "source": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra",
+   "target": "tema:limite"
+  },
+  {
+   "source": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra",
+   "target": "fonte:https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them"
   }
  ]
 }

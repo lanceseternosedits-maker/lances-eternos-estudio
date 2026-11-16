@@ -1,0 +1,32 @@
+{
+ "data": "2026-11-17",
+ "horario": "21:30",
+ "horarios": {
+  "instagram": "2026-11-17 21:30",
+  "tiktok": "2026-11-17 21:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "temas": [
+  "Nvidia",
+  "Jensen Huang",
+  "história",
+  "1993",
+  "chips"
+ ],
+ "fontes": [
+  "https://www.nbcmiami.com/news/business/money-report/jensen-huang-started-his-2-trillion-company-nvidia-at-a-dennys-breakfast-booth/3302554",
+  "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+ ],
+ "prova_viral": "CNBC (via NBC Miami): fundação da Nvidia em 1993 em um Denny's; comunicado oficial da Nvidia (\"NVIDIA Announces CEO Transition\", 11/11/2026). Balanço em 17/11 e pedido do Congresso para 18/11.",
+ "cta": "MESA",
+ "polemica": false,
+ "vaga": 3,
+ "candidato": "a",
+ "primeiro_comentario": "💬 Comenta MESA que eu te mando Link da matéria da CNBC e a linha do tempo de 1 página com fontes\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; métricas de 16/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 31%, abaixo do corte"
+}

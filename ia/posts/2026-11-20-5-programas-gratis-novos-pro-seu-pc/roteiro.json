@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "PC",
+ "tese": "5 PROGRAMAS GRÁTIS NOVOS PRO SEU PC · +26 MIL ESTRELAS NO GITHUB · E O Nº 1 BAIXA SEUS ARQUIVOS",
+ "conceito": "Mesa de trabalho de blocos com um PC que ganha 5 gavetas novas; cada programa vira um objeto: caderno, painel de medidores, escudo, celular que vira janela, caixa de downloads; nº 1: caixa que puxa arquivos em fila.",
+ "brinde": "Links dos 5 programas + aviso de segurança pra cada um",
+ "fontes": [
+  "https://github.com/FrigadeHQ/yogurt",
+  "https://github.com/shanselman/gputaskman",
+  "https://github.com/interplains/Zero-Breach-Toolkit",
+  "https://github.com/RoutineMiku/apkstart",
+  "https://github.com/anefzaoui/misterdownloadmanager"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 16/11/2026): yogurt 1.719, gputaskman 3.359, Zero-Breach-Toolkit 5.107, apkstart 5.777, misterdownloadmanager 10.731; total 26.693. Todos criados entre 25/10 e 10/11/2026 e atualizados em 16/11 (GitHub).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROGRAMAS GRÁTIS NOVOS PRO SEU PC",
+   "fala": "Esses cinco programas grátis pro seu PC nasceram no último mês e já têm muita estrela no GitHub.",
+   "legenda": "Esses cinco programas grátis pro seu PC nasceram no último mês e já têm muita estrela no GitHub.",
+   "visual": "",
+   "itens": "5",
+   "etiqueta": [
+    "5 PROGRAMAS GRÁTIS NOVOS PRO SEU PC",
+    "+26 MIL ESTRELAS NO GITHUB EM 1 MÊS",
+    "E O Nº 1 BAIXA SEUS ARQUIVOS"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "yogurt",
+   "fala": "Quinto: yogurt. Anota suas reuniões com IA, e as notas ficam no seu computador.",
+   "legenda": "5º yogurt: anota suas reuniões com IA, e as notas ficam no seu computador",
+   "visual": "anota suas reuniões com IA, e as notas ficam no seu computador",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "FrigadeHQ/yogurt",
+   "estrelas": 1719
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "gputaskman",
+   "fala": "Quarto: gputaskman. Mostra quanto da placa de vídeo cada programa usa.",
+   "legenda": "4º gputaskman: mostra quanto da placa de vídeo cada programa usa",
+   "visual": "mostra quanto da placa de vídeo cada programa usa",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "shanselman/gputaskman",
+   "estrelas": 3359
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Zero-Breach-Toolkit",
+   "fala": "Terceiro: Zero-Breach-Toolkit. Confere espionagem conhecida no aparelho, offline. Comenta PC e manda pra um amigo.",
+   "legenda": "3º Zero-Breach-Toolkit: confere espionagem conhecida no seu aparelho, sem internet",
+   "visual": "confere espionagem conhecida no seu aparelho, sem internet",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "interplains/Zero-Breach-Toolkit",
+   "estrelas": 5107
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "apkstart",
+   "fala": "Segundo: apkstart. Abre app de Android no Windows com duplo clique.",
+   "legenda": "2º apkstart: abre app de Android no Windows com duplo clique",
+   "visual": "abre app de Android no Windows com duplo clique",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "RoutineMiku/apkstart",
+   "estrelas": 5777
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "misterdownloadmanager",
+   "fala": "E o primeiro: misterdownloadmanager. Um gerenciador de downloads grátis, feito do zero.",
+   "legenda": "1º misterdownloadmanager: gerenciador de downloads grátis, feito do zero",
+   "visual": "gerenciador de downloads grátis, feito do zero",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "anefzaoui/misterdownloadmanager",
+   "estrelas": 10731
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta PC e me segue que eu te mando os links.",
+   "legenda": "Comenta PC",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "f) escrito à mão",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "d) órbita",
+  "fechamento": "d) tela CONTINUE?",
+  "mascote": "gravata + pasta, se escondendo",
+  "cenario": "oficina de bancada",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 92,
+ "duracao_estimada_s": 32.9
+}

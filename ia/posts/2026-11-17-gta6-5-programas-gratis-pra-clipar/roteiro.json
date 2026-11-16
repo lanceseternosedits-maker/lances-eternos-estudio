@@ -1,0 +1,141 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "GTA",
+ "tese": "5 PROGRAMAS GRÁTIS PRA CLIPAR O GTA 6 · +172 MIL ESTRELAS · E O Nº 1 CORTA SOZINHO",
+ "conceito": "Garagem de madrugada de blocos com TV de tubo mostrando uma avenida ao pôr do sol (genérica, sem arte da Rockstar); cada item vira uma ferramenta de bancada: tesoura gigante, prensa que encolhe o vídeo, fita cortada, câmera. Nº 1: tesoura que corta sozinha os silêncios.",
+ "brinde": "Links dos 5 programas + o comando pronto do auto-editor pra cortar as partes paradas",
+ "fontes": [
+  "https://github.com/mltframework/shotcut",
+  "https://github.com/HandBrake/HandBrake",
+  "https://github.com/mifi/lossless-cut",
+  "https://github.com/obsproject/obs-studio",
+  "https://github.com/WyattBlue/auto-editor",
+  "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 16/11/2026): Shotcut 15.699, HandBrake 25.019, LosslessCut 46.072, OBS Studio 79.612, auto-editor 5.928; total 172.330. GTA 6 lança em 19/11/2026 (Rockstar Newswire); semana de pico de busca.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "PARA DE PAGAR EDITOR PRO GTA 6",
+   "fala": "GTA 6 sai quinta e todo mundo vai clipar. Você não precisa pagar editor nenhum.",
+   "legenda": "GTA 6 sai quinta e todo mundo vai clipar. Você não precisa pagar editor nenhum.",
+   "visual": "",
+   "itens": "gta6",
+   "etiqueta": [
+    "PARA DE PAGAR EDITOR PRO GTA 6",
+    "+172 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 CORTA SOZINHO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Shotcut",
+   "fala": "Quinto: Shotcut. Editor de vídeo completo, grátis e de código aberto.",
+   "legenda": "5º Shotcut: editor de vídeo completo e grátis",
+   "visual": "editor de vídeo completo e grátis",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "mltframework/shotcut",
+   "estrelas": 15699
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "HandBrake",
+   "fala": "Quarto: HandBrake. Encolhe o vídeo gigante sem estragar a imagem.",
+   "legenda": "4º HandBrake: encolhe o vídeo gigante sem estragar a imagem",
+   "visual": "encolhe o vídeo gigante sem estragar a imagem",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "HandBrake/HandBrake",
+   "estrelas": 25019
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "LosslessCut",
+   "fala": "Terceiro: LosslessCut. Corta o clipe sem recodificar. Comenta GTA que eu te mando os cinco, e manda pra um amigo.",
+   "legenda": "3º LosslessCut: corta o clipe sem recodificar, na hora",
+   "visual": "corta o clipe sem recodificar, na hora",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "mifi/lossless-cut",
+   "estrelas": 46072
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "OBS Studio",
+   "fala": "Segundo: OBS Studio. Grava a tela do PC, ou do console com placa de captura.",
+   "legenda": "2º OBS Studio: grava a tela do PC (ou do console, com placa de captura)",
+   "visual": "grava a tela do PC (ou do console, com placa de captura)",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "obsproject/obs-studio",
+   "estrelas": 79612
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "auto-editor",
+   "fala": "E o primeiro: auto-editor. Corta sozinho as partes paradas do vídeo.",
+   "legenda": "1º auto-editor: corta sozinho as partes paradas do vídeo",
+   "visual": "corta sozinho as partes paradas do vídeo",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "WyattBlue/auto-editor",
+   "estrelas": 5928
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta GTA e me segue que eu te mando os links.",
+   "legenda": "Comenta GTA",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "a) caixa creme no topo",
+  "nome": "b) carimbo batendo",
+  "contador": "c) medidor circular",
+  "legenda": "d) balão de fala",
+  "transicao": "e) glitch RGB",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "mascote": "boné + fone, correndo",
+  "cenario": "garagem de madrugada",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 93,
+ "duracao_estimada_s": 33.2
+}
