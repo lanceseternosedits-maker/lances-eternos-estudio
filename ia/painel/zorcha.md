@@ -23,6 +23,22 @@ Passe o clipe do console pro PC por pendrive ou pelo app do PlayStation. Só use
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```
 
+## JOGOS · 17/11 19:30
+Post: `2026-11-17-jogos-no-celular-e-no-mac`
+
+```
+Tá aqui 👇 os links dos 5:
+5º bcd-games: https://github.com/thebcd69/bcd-games
+4º Bridgeplay: https://github.com/raymondchins/Bridgeplay
+3º nx2android: https://github.com/shirai91/nx2android
+2º coop-anything: https://github.com/cranebeaker/coop-anything
+1º S2Arm: https://github.com/jhaizhou-ops/S2Arm
+
+⚠️ Projetos de fãs: use só com jogos que são SEUS. Nada de ROM ou jogo baixado.
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
 ## TELA · 16/11 06:00
 Post: `2026-11-16-tv-sem-propaganda-lg-samsung`
 
@@ -154,6 +170,20 @@ Aqui está! 🎂
 1ª mensagem: "Quero [tarefa grande]. Antes de fazer, me mostre um plano em etapas."
 2ª: "Agora faça só a etapa 1." (repita para cada etapa)
 Última: "Junte tudo num resultado final e revise se faltou algo."
+
+P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
+```
+
+## MARKETING · 19/11 19:30
+Post: `2026-11-15-agencia-de-marketing-no-claude`
+
+```
+Aqui está! 📣
+
+🔗 https://github.com/coreyhaines31/marketingskills (grátis, MIT)
+Instalar: npx skills add coreyhaines31/marketingskills
+
+Comece por: product-marketing (a base do seu negócio), copywriting, ads, emails e marketing-plan.
 
 P.S.: quer que a IA já te conheça e trabalhe por você? O Super Assistente de IA custa R$ 17. Comenta KIT que eu te mando.
 ```

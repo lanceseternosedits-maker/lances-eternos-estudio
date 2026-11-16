@@ -1,6 +1,6 @@
 {
  "_fonte": "Metricool getScheduledPosts (blogId 7637900), uma linha por rede. Atualize a cada agendamento.",
- "lido_em": "2026-11-16 01:45",
+ "lido_em": "2026-11-16 05:16",
  "publicacoes": [
   {
    "data": "2026-11-01 11:45",
@@ -2749,6 +2749,66 @@
    "erro": "",
    "lido_em": "2026-11-16 01:45",
    "pasta": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "data": "2026-11-17 19:30",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "VIDEO",
+   "rascunho": false,
+   "texto": "Jogos no celular e no Mac",
+   "erro": "",
+   "lido_em": "2026-11-16 05:16",
+   "pasta": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "data": "2026-11-17 19:45",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "STORY",
+   "rascunho": false,
+   "texto": "",
+   "erro": "",
+   "lido_em": "2026-11-16 05:16",
+   "pasta": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "data": "2026-11-19 19:30",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "REEL",
+   "rascunho": false,
+   "texto": "Uma agência de marketing no Claude",
+   "erro": "",
+   "lido_em": "2026-11-16 05:16",
+   "pasta": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "data": "2026-11-19 19:30",
+   "rede": "tiktok",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "VIDEO",
+   "rascunho": false,
+   "texto": "Uma agência de marketing no Claude",
+   "erro": "",
+   "lido_em": "2026-11-16 05:16",
+   "pasta": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "data": "2026-11-19 19:45",
+   "rede": "instagram",
+   "status": "PENDING",
+   "url": "",
+   "tipo": "STORY",
+   "rascunho": false,
+   "texto": "",
+   "erro": "",
+   "lido_em": "2026-11-16 05:16",
+   "pasta": "2026-11-15-agencia-de-marketing-no-claude"
   }
  ]
 }

@@ -1,17 +1,6 @@
 {
- "gerado_em": "2026-11-16 05:10",
- "videos": [
-  {
-   "pasta": "2026-11-15-agencia-de-marketing-no-claude",
-   "titulo": "UMA AGÊNCIA DE MARKETING NO CLAUDE",
-   "quando": "2026-11-19 19:30"
-  },
-  {
-   "pasta": "2026-11-17-jogos-no-celular-e-no-mac",
-   "titulo": "5 JOGOS DE CONSOLE NO SEU CELULAR",
-   "quando": "2026-11-17 19:30"
-  }
- ],
+ "gerado_em": "2026-11-16 05:15",
+ "videos": [],
  "roteiros": [
   {
    "pasta": "2026-11-18-ia-no-pc-sem-placa-nvidia",
@@ -45,7 +34,8 @@
    "quando": "2026-11-17 19:30",
    "titulo": "5 JOGOS DE CONSOLE NO SEU CELULAR",
    "redes": [
-    "instagram"
+    "instagram",
+    "tiktok"
    ]
   },
   {

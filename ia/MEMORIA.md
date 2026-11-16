@@ -31,8 +31,8 @@ Toda sessão nova do painel lê este arquivo junto com o CLAUDE.md. Ele guarda o
 - Virou o **Formato 5** (AGENTE.md), mais um estilo para 📜/curiosidades, sem substituir os outros. Motor do zip do Vitor em `video/cena_arquivo/`, com o **nosso mascote** no lugar do apresentador.
 - 1º vídeo: `posts/2026-11-16-robo-inventou-uma-regra/` (Moffatt v. Air Canada), **vídeo aguardando aprovação**, vaga 16/11 21:30. Chance 53% (abaixo do corte de 56): foi como teste do formato, e o Vitor decide. Nada agendado.
 
-## Agendamento em andamento (16/11 01:45, turno da madrugada)
-- Confirmados no Metricool: TV 16/11 06:00 (IG 429593660, TikTok 429601061, story 429613453) e Jogos IG 17/11 19:30 (429690804). **Faltam** (conferir com getScheduledPosts antes, o worker caiu 3 vezes): Jogos TikTok 19:30 + story 19:45 (17/11); Agência IG + TikTok 19:30 + story 19:45 (19/11). Robô da regra (Arquivo Secreto) negado: voz, fundo escuro e poucos elementos.
+## Agendados em 16/11 (turno da madrugada)
+- TV 16/11 06:00, Jogos 17/11 19:30, Agência 19/11 19:30 (IG + TikTok + story +15 min), conferidos sem duplicata. Robô da regra (Arquivo Secreto) negado: voz, fundo escuro e poucos elementos.
 
 ## Depende do Vitor
 - **Robô do Insta (09/11):** o Vitor **quer o botão "Me Envie"** (webhook_ok = 1; ficou 0 só das 17:05 às 17:15). Problema: depois do toque, o envio do TEXTO do material falha em ~metade das vezes (cartões sempre passam), então quem segue fica sem nada (ex.: Paulo, Desterro). Correção pronta e commitada no `painel/worker.js` (se o texto falhar → cartão "Aqui está o seu material" com botão "Abrir material" → `/links#PALAVRA`; log com o erro real), **publicada em 09/11 ~19:05** (regra de permissão do curl PUT liberada pelo Vitor). Republicar com PUT na API do Cloudflare, metadata `{"main_module":"worker.js","compatibility_date":"2026-11-01","keep_bindings":["secret_text","d1","plain_text"]}`. Depois conferir `dm_eventos` (acao `material_link` e o erro real).
