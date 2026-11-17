@@ -1,70 +1,70 @@
 {
- "data": "2026-11-17",
- "horario": "06:00",
- "horarios": {
-  "instagram": "2026-11-17 06:00",
-  "tiktok": "2026-11-17 06:00"
- },
- "categoria": "novidade",
- "pilar": "reel",
- "formato": "reel formato 3 (contagem regressiva com mistério)",
- "temas": [
-  "programas grátis",
-  "github",
-  "editar vídeo",
-  "jogos",
-  "PC"
- ],
- "fontes": [
-  "https://github.com/mltframework/shotcut",
-  "https://github.com/HandBrake/HandBrake",
-  "https://github.com/mifi/lossless-cut",
-  "https://github.com/obsproject/obs-studio",
-  "https://github.com/WyattBlue/auto-editor",
-  "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
- ],
- "prova_viral": "Estrelas no GitHub (API, 16/11/2026): Shotcut 15.699, HandBrake 25.019, LosslessCut 46.072, OBS Studio 79.612, auto-editor 5.928; total 172.330. GTA 6 lança em 19/11/2026 (Rockstar Newswire); semana de pico de busca.",
- "cta": "CLIPE",
- "polemica": true,
- "vaga": 1,
- "candidato": "a",
- "primeiro_comentario": "💬 Comenta CLIPE que eu te mando os 5 links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
- "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; métricas de 16/11",
- "status": "roteiro aguardando aprovação",
- "revisao": {
-  "veredito": "ajustado",
-  "resumo": "gancho, fatos e clareza ajustados",
-  "pareceres": [
-   {
-    "revisor": "vitor",
-    "veredito": "ajustar",
-    "nota": "Programa grátis + GTA 6 agrada, mas o nº 1 é de linha de comando."
-   },
-   {
-    "revisor": "fatos",
-    "veredito": "ajustar",
-    "nota": "Estrelas e licenças batem; HandBrake sem \"sem estragar\"."
-   },
-   {
-    "revisor": "gancho",
-    "veredito": "ajustar",
-    "nota": "Gancho virou pergunta; ponte e pergunta final adicionadas."
-   },
-   {
-    "revisor": "clareza",
-    "veredito": "ajustar",
-    "nota": "Sem \"recodificar\" e \"placa de captura\"."
-   }
+  "data": "2026-11-17",
+  "horario": "06:00",
+  "horarios": {
+    "instagram": "2026-11-17 06:00",
+    "tiktok": "2026-11-17 06:00"
+  },
+  "categoria": "novidade",
+  "pilar": "reel",
+  "formato": "reel formato 3 (contagem regressiva com mistério)",
+  "temas": [
+    "programas grátis",
+    "github",
+    "editar vídeo",
+    "jogos",
+    "PC"
   ],
-  "ajustes": [
-   "gancho virou pergunta com 'grátis'",
-   "HandBrake: 'mantendo boa qualidade'",
-   "LosslessCut sem 'recodificar'",
-   "OBS: 'aparelho de captura'",
-   "frase-ponte + pergunta final",
-   "não aplicado: trocar o nº 1 (auto-editor) por pedido do revisor vitor"
+  "fontes": [
+    "https://github.com/mltframework/shotcut",
+    "https://github.com/HandBrake/HandBrake",
+    "https://github.com/mifi/lossless-cut",
+    "https://github.com/obsproject/obs-studio",
+    "https://github.com/WyattBlue/auto-editor",
+    "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
   ],
-  "em": "2026-11-16 05:10",
-  "obs": "2ª volta não rodada por economia de tokens; ajustes aplicados conforme os 4 pareceres"
- }
+  "prova_viral": "Estrelas no GitHub (API, 16/11/2026): Shotcut 15.699, HandBrake 25.019, LosslessCut 46.072, OBS Studio 79.612, auto-editor 5.928; total 172.330. GTA 6 lança em 19/11/2026 (Rockstar Newswire); semana de pico de busca.",
+  "cta": "CLIPE",
+  "polemica": true,
+  "vaga": 1,
+  "candidato": "a",
+  "primeiro_comentario": "💬 Comenta CLIPE que eu te mando os 5 links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+  "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; métricas de 16/11",
+  "status": "roteiro aprovado",
+  "revisao": {
+    "veredito": "ajustado",
+    "resumo": "gancho, fatos e clareza ajustados",
+    "pareceres": [
+      {
+        "revisor": "vitor",
+        "veredito": "ajustar",
+        "nota": "Programa grátis + GTA 6 agrada, mas o nº 1 é de linha de comando."
+      },
+      {
+        "revisor": "fatos",
+        "veredito": "ajustar",
+        "nota": "Estrelas e licenças batem; HandBrake sem \"sem estragar\"."
+      },
+      {
+        "revisor": "gancho",
+        "veredito": "ajustar",
+        "nota": "Gancho virou pergunta; ponte e pergunta final adicionadas."
+      },
+      {
+        "revisor": "clareza",
+        "veredito": "ajustar",
+        "nota": "Sem \"recodificar\" e \"placa de captura\"."
+      }
+    ],
+    "ajustes": [
+      "gancho virou pergunta com 'grátis'",
+      "HandBrake: 'mantendo boa qualidade'",
+      "LosslessCut sem 'recodificar'",
+      "OBS: 'aparelho de captura'",
+      "frase-ponte + pergunta final",
+      "não aplicado: trocar o nº 1 (auto-editor) por pedido do revisor vitor"
+    ],
+    "em": "2026-11-16 05:10",
+    "obs": "2ª volta não rodada por economia de tokens; ajustes aplicados conforme os 4 pareceres"
+  }
 }
