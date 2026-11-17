@@ -1,14 +1,14 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-17 07:46",
+ "em": "2026-11-17 19:42",
  "leitura": "metricool_2026-11-17.json",
- "resumo": "O Metricool voltou a atualizar: entraram o TELA (310 views em ~22 h, abaixo da mediana de 433) e o NVIDIA (160 em ~9 h), e os antigos quase pararam (APPLE 1.918→1.922, VOO 328→331). Com só 2 Reels desde 14/11 a conta esfriou; o plano de 3 contagens por dia é o que destrava, e TELA/NVIDIA ainda são cedo para regra.",
+ "resumo": "Em 12 h nada mudou: os 47 Reels têm exatamente os mesmos números da leitura das 07:44 (APPLE 1.922, TELA 310, NVIDIA 160), sinal de que o Metricool não sincronizou de novo, e nenhum Reel de 17/11 entrou ainda (o JOGOS das 19:30 acabou de sair). Os insights da manhã continuam valendo; a prioridade segue sendo publicar 3 contagens por dia e confirmar que saem.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "Conta parada: 2 Reels em 3 dias",
-   "evidencia": "S3 (15–16/11): 2 Reels, 470 views, mediana 235. S2 teve 34 Reels e 23.563 views. Os antigos cresceram quase nada em 12 h (APPLE +4, VOO +3, PLAY +1).",
-   "acao": "Prioridade é publicar: 3 contagens por dia no molde TV (06:00/12:00/19:30) e conferir no Metricool que nada ficou como rascunho."
+   "titulo": "Metricool parado e só 1 Reel em 17/11",
+   "evidencia": "Leitura 19:40 idêntica à de 07:44 em todos os 47 Reels e 50 TikToks (APPLE 1.922, VOO 331, TELA 310, NVIDIA 160). Na grade de publicações, 17/11 só tem o JOGOS (19:30); 06:00 e 12:00 ficaram vazios. S3 segue com 2 Reels e 470 views.",
+   "acao": "Conferir no app do Instagram se TELA/NVIDIA cresceram (se sim, é atraso do Metricool); garantir 06:00/12:00/19:30 preenchidos para 18/11 e que nada fique como rascunho."
   },
   {
    "tipo": "testar",
@@ -45,6 +45,6 @@
   "S1 (01–07/11): 14 Reels, 20.989 views, mediana 1.169. S2 (08–14/11): 34 Reels, 23.563 views, mediana 408.",
   "S3 (15/11 em diante): 2 Reels (TELA 310, NVIDIA 160), 470 views, mediana 235; 47,9% nos 3 s e 1,2% de salvar.",
   "Desde 16/11 19:39 os antigos quase não cresceram (APPLE +4, VOO +3): sem post novo, a conta esfria.",
-  "TikTok: TELA 0→56 e NVIDIA 46 views; o Metricool voltou a sincronizar."
+  "17/11 19:40: nenhum número mudou desde 07:44 (Metricool sem sincronizar); o JOGOS de 17/11 19:30 ainda não aparece."
  ]
 }
