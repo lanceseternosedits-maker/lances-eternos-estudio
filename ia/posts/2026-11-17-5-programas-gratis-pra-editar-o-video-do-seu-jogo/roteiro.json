@@ -22,10 +22,10 @@
   {
    "cena": "gancho",
    "tag": "PARA DE PAGAR EDITOR PRO SEU JOGO",
-   "fala": "Você paga editor pro seu jogo? Esses cinco programas são grátis.",
-   "legenda": "Você paga editor pro seu jogo? Esses cinco programas são grátis.",
+   "fala": "Você paga editor pro seu jogo? Esses cinco são grátis.",
+   "legenda": "Você paga editor pro seu jogo? Esses cinco são grátis.",
    "visual": "TV de tubo na garagem com a etiqueta PARA DE PAGAR EDITOR PRO SEU JOGO; ela racha e solta 5 ferramentas",
-   "itens": "5",
+   "itens": "clipe-jogo",
    "etiqueta": [
     "PARA DE PAGAR EDITOR PRO SEU JOGO",
     "+172 MIL ESTRELAS NO GITHUB",
@@ -36,8 +36,8 @@
    "cena": "n5",
    "tag": "5º",
    "item": "Shotcut",
-   "fala": "Quinto: Shotcut. Editor de vídeo completo, grátis e de código aberto.",
-   "legenda": "5º Shotcut: editor de vídeo completo e grátis",
+   "fala": "Quinto: Shotcut. Editor de vídeo completo.",
+   "legenda": "Quinto: Shotcut. Editor de vídeo completo.",
    "visual": "editor de vídeo completo e grátis",
    "sfx": [
     {
@@ -53,8 +53,8 @@
    "cena": "n4",
    "tag": "4º",
    "item": "HandBrake",
-   "fala": "Quarto: HandBrake. Encolhe o vídeo gigante, mantendo boa qualidade.",
-   "legenda": "4º HandBrake: encolhe o vídeo gigante, mantendo boa qualidade",
+   "fala": "Quarto: HandBrake. Encolhe o vídeo gigante sem estragar.",
+   "legenda": "Quarto: HandBrake. Encolhe o vídeo gigante sem estragar.",
    "visual": "encolhe o vídeo gigante sem estragar a imagem",
    "sfx": [
     {
@@ -70,8 +70,8 @@
    "cena": "n3",
    "tag": "3º",
    "item": "LosslessCut",
-   "fala": "Terceiro: LosslessCut. Corta o clipe sem perder qualidade. Essa é até legalzinha… comenta CLIPE que eu mando os cinco. Manda pra um amigo.",
-   "legenda": "3º LosslessCut: corta o clipe sem perder qualidade",
+   "fala": "Terceiro: LosslessCut. Corta o clipe sem perder qualidade. Essa é legalzinha… comenta CLIPE que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: LosslessCut. Corta o clipe sem perder qualidade. Essa é legalzinha… comenta CLIPE que eu mando os cinco. Manda pro amigo.",
    "visual": "corta o clipe sem recodificar, na hora",
    "sfx": [
     {
@@ -87,8 +87,8 @@
    "cena": "n2",
    "tag": "2º",
    "item": "OBS Studio",
-   "fala": "Segundo: OBS Studio. Grava a tela do PC, ou do videogame com um aparelho de captura.",
-   "legenda": "2º OBS Studio: grava a tela do PC (ou do videogame, com aparelho de captura)",
+   "fala": "Segundo: OBS Studio. Grava a tela do PC ou do videogame.",
+   "legenda": "Segundo: OBS Studio. Grava a tela do PC ou do videogame.",
    "visual": "grava a tela do PC (ou do console, com placa de captura)",
    "sfx": [
     {
@@ -104,8 +104,8 @@
    "cena": "n1",
    "tag": "1º",
    "item": "auto-editor",
-   "fala": "E o primeiro: auto-editor. Corta sozinho as partes paradas do vídeo.",
-   "legenda": "1º auto-editor: corta sozinho as partes paradas do vídeo",
+   "fala": "E o primeiro: auto-editor. Corta sozinho as partes paradas.",
+   "legenda": "E o primeiro: auto-editor. Corta sozinho as partes paradas.",
    "visual": "corta sozinho as partes paradas do vídeo",
    "sfx": [
     {
@@ -120,7 +120,7 @@
   {
    "cena": "cta",
    "fala": "Comenta CLIPE e me segue. Você edita no PC ou no celular?",
-   "legenda": "Comenta CLIPE",
+   "legenda": "Comenta CLIPE e me segue. Você edita no PC ou no celular?",
    "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
   }
  ],

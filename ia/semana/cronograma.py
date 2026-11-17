@@ -17,8 +17,10 @@ from pathlib import Path
 IA = Path(__file__).resolve().parent.parent
 POSTS = IA / "posts"
 # Vitor (13/11): 4 por dia = 2 🆕 (1º e 3º horário) + 1 ⚙️ (meio-dia) + 1 📜 (noite), intercalado
-UTEIS = [("06:00", "N"), ("12:00", "F"), ("19:30", "N"), ("21:30", "H")]
-FDS = [("09:00", "N"), ("13:00", "F"), ("19:00", "N"), ("20:30", "H")]
+# Vitor, 17/11 ("pode seguir com o que você propôs"): 3 por dia, só contagem (formato campeão) por 2 semanas, até 01/12.
+UTEIS = [("06:00", "N"), ("12:00", "N"), ("19:30", "N")]
+FDS = [("09:00", "N"), ("13:00", "N"), ("19:00", "N")]
+# grade de 13–16/11: úteis 06:00 🆕 · 12:00 ⚙️ · 19:30 🆕 · 21:30 📜; fds 09:00/13:00/19:00/20:30
 # grade antiga de 8/dia (07–12/11): úteis 06/08/10/12/14/17/19:30/21:30; fds 07/09/11/13/15/17/19/20:30
 FDS_08 = [("07:00", "N"), ("09:00", "F"), ("11:00", "N"), ("13:00", "N"), ("15:00", "H"), ("17:00", "N"), ("19:00", "H"), ("20:30", "N")]  # 08/11 já agendado, grade antiga
 HOJE_RESTO = [("15:00", "N"), ("17:00", "N"), ("19:00", "H"), ("21:00", "F")]  # sábado 07/11: 6 no total (Vitor, 07/11)
@@ -100,7 +102,7 @@ def main(aplicar: bool):
                 (p / "roteiro.json").write_text(json.dumps(r, ensure_ascii=False, indent=1), encoding="utf-8")
     (IA / "semana" / "cronograma.md").write_text(
         "# Cronograma por categoria (próximos 10 dias)\n\nGerado por `semana/cronograma.py`. 🆕 novidade · 📜 história · ⚙️ como funciona.\n"
-        "Regra (Vitor, 13/11): 4 por dia, intercalado = 2 🆕 (1º e 3º) + 1 ⚙️ + 1 📜; úteis 06:00/12:00/19:30/21:30, fim de semana 09:00/13:00/19:00/20:30.\n\n| Quando | Cat. | Post |\n|---|---|---|\n"
+        "Regra (Vitor, 17/11, até 01/12): 3 por dia, só contagem de 5 (formato campeão, 25–32 s); úteis 06:00/12:00/19:30, fim de semana 09:00/13:00/19:00.\n\n| Quando | Cat. | Post |\n|---|---|---|\n"
         + "\n".join(linhas) + f"\n\nVagas: {len(vagas)}. Novidades sem horário: {', '.join(novidades) or 'nenhuma'}.\n", encoding="utf-8")
 
 

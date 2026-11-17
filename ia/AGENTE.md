@@ -64,6 +64,15 @@ Como escolher: escreva 6 títulos em 3 arquétipos (paradoxo/contrário, mata-in
 ## Filtro de chance (Vitor, 12/11)
 **Filtro de chance (Vitor, 12/11; corte de 56% em 13/11):** a % é a 🔥 do `ia/painel/chance.py` (`CORTE_CHANCE = 56`). Todo roteiro calcula a chance ANTES do painel de revisão e da aprovação (`python3 painel/chance.py` filtra os "roteiro aguardando aprovação" **e os "roteiro aprovado"**; ou `chance.filtrar(pasta)`): abaixo de 56 grava `status: "descartado"` + `nota_filtro: "chance X%, abaixo do corte"` (+ `status_antes_filtro`) no `meta.json`, sem apagar nada, não entra na fila e não precisa de aprovação manual; o painel mostra só "X descartados pelo filtro". **Vale também para roteiros já aprovados (Vitor, 13/11: "Vale pros 11 também")**; não vale para vídeos prontos nem agendados. Calibração (12/11): com 70% nenhum dos 43 Reels medidos passava; com 55–56% passam 9 de 43. **Ritmo para sobrar 4 por dia (Vitor, 13/11):** só ~11% dos roteiros passaram (2 de 19 em 12–13/11), então a produção escreve **3 candidatos por vaga** no formato que a nota premia (contagem, tema perto dos campeões TV/PC/Windows/jogos, prova de +10 mil estrelas ou imprensa, ≤ 3,0 palavras/s e ≤ 35 s, "grátis" verdadeiro, brinde na DM), roda o `chance.py` primeiro (é de graça) e só manda ao painel de revisão os que passam de 56; o melhor de cada vaga vai para a aprovação.
 
+## Plano de recuperação (Vitor, 17/11: "muito infeliz com o resultado… pode seguir com o que você propôs") — vale até 01/12
+Diagnóstico: os 16 Reels de 14–15/11 ficaram como rascunho e não saíram; com 8/dia a mediana caiu de 1.169 para 408 views (as views só se dividiram); cada semana trouxe um estilo novo que nunca ficou redondo.
+1. **Um formato só:** contagem de 5 no molde do campeão "5 projetos pra TV e celular" (3.268 views): `video/cena_contagem` + `itens/_clean.js` (interface escura clean, mascote à esquerda, **uma tela grande que mostra cada item**, contador, legenda branca/dourada, lista final + "Comenta PALAVRA"). Modelos: `itens/clipe-jogo.js`, `itens/ia-sem-nvidia.js`. Nada de v6/v7, cidade, Arquivo Secreto ou estilo novo até a mediana voltar a passar de 1.000.
+2. **Tema:** objeto de casa, marca grande ou jogo, ≥ 10 mil estrelas (lidas na fonte) ou imprensa, "grátis" verdadeiro.
+3. **25–32 s** (máx. 35), 1 voz (Puck), ≤ 3,0 palavras/s; corte texto antes de acelerar (máx. 1,15).
+4. **3 por dia** (úteis 06:00/12:00/19:30; fds 09:00/13:00/19:00), só 🆕 contagem; `semana/cronograma.py` já está assim.
+5. **Régua antes de ir ao Vitor:** assistir a folha inteira e comparar lado a lado com `posts/2026-11-06-tv-celular/folha_reel.jpg`; se estiver abaixo (legenda ilegível, tela pequena, rosto cortado, quadro vazio), refaz antes.
+6. **Depois de agendar,** conferir no Metricool que nada ficou como rascunho (`draft`).
+
 ## Regras da rodada (Vitor, 08/11, a partir dos dados de `painel/resultados.json`)
 Valem para toda rodada de roteiros até o Vitor mudar; o painel de revisão (revisor **gancho**) confere estas 5.
 1. **Formato padrão: contagem (formato 3).** Mascote no palco (formato 1) só para 📜 história e ⚙️ como funciona.

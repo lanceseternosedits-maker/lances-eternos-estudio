@@ -22,10 +22,10 @@
   {
    "cena": "gancho",
    "tag": "SEM PLACA DA NVIDIA, SEM IA? MENTIRA",
-   "fala": "Dizem que IA grátis no PC exige placa da Nvidia. Esses cinco provam que não.",
-   "legenda": "Dizem que IA grátis no PC só roda com placa da Nvidia. Esses cinco projetos provam que não.",
+   "fala": "Dizem que IA no PC exige placa da Nvidia. Esses cinco provam que não.",
+   "legenda": "Dizem que IA no PC exige placa da Nvidia. Esses cinco provam que não.",
    "visual": "placa de vídeo verde de blocos, na bancada, com a etiqueta SEM PLACA DA NVIDIA, SEM IA? MENTIRA",
-   "itens": "ia",
+   "itens": "ia-sem-nvidia",
    "etiqueta": [
     "SEM PLACA DA NVIDIA, SEM IA? MENTIRA",
     "+460 MIL ESTRELAS NO GITHUB",
@@ -36,8 +36,8 @@
    "cena": "n5",
    "tag": "5º",
    "item": "Jan",
-   "fala": "Quinto: Jan. Um chat de IA que roda no seu PC, sem internet.",
-   "legenda": "5º Jan: chat de IA que roda no seu computador, sem internet",
+   "fala": "Quinto: Jan. Um chat de IA no seu PC, sem internet.",
+   "legenda": "Quinto: Jan. Um chat de IA no seu PC, sem internet.",
    "visual": "chat de IA que roda no seu computador, sem internet",
    "sfx": [
     {
@@ -53,8 +53,8 @@
    "cena": "n4",
    "tag": "4º",
    "item": "GPT4All",
-   "fala": "Quarto: GPT4All. Conversa com a IA, mesmo sem placa cara.",
-   "legenda": "4º GPT4All: conversa com a IA no PC, mesmo sem placa de vídeo cara",
+   "fala": "Quarto: GPT4All. Conversa com a IA sem placa cara.",
+   "legenda": "Quarto: GPT4All. Conversa com a IA sem placa cara.",
    "visual": "conversa com a IA no PC, mesmo sem placa de vídeo cara",
    "sfx": [
     {
@@ -70,8 +70,8 @@
    "cena": "n3",
    "tag": "3º",
    "item": "ZLUDA",
-   "fala": "Terceiro: ZLUDA. Tenta rodar programa da Nvidia em placa AMD. Comenta PLACA que eu te mando os cinco. Manda pra um amigo.",
-   "legenda": "3º ZLUDA: tenta rodar programa feito pra Nvidia numa placa AMD (em desenvolvimento)",
+   "fala": "Terceiro: ZLUDA. Tenta rodar programa da Nvidia em placa AMD. Comenta PLACA que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: ZLUDA. Tenta rodar programa da Nvidia em placa AMD. Comenta PLACA que eu mando os cinco. Manda pro amigo.",
    "visual": "roda programa feito pra Nvidia em placa AMD",
    "sfx": [
     {
@@ -87,8 +87,8 @@
    "cena": "n2",
    "tag": "2º",
    "item": "llama.cpp",
-   "fala": "Segundo: llama.cpp. Faz a IA rodar no seu PC, até no Mac.",
-   "legenda": "2º llama.cpp: faz a IA rodar no seu PC, até no Mac",
+   "fala": "Segundo: llama.cpp. Roda IA no PC e até no Mac.",
+   "legenda": "Segundo: llama.cpp. Roda IA no PC e até no Mac.",
    "visual": "motor de muita IA local; roda até no Mac",
    "sfx": [
     {
@@ -104,8 +104,8 @@
    "cena": "n1",
    "tag": "1º",
    "item": "Ollama",
-   "fala": "E o primeiro: Ollama. Roda IA no seu PC com um comando.",
-   "legenda": "1º Ollama: baixa e roda IA no seu PC com um comando",
+   "fala": "E o primeiro: Ollama. IA no seu PC com um comando.",
+   "legenda": "E o primeiro: Ollama. IA no seu PC com um comando.",
    "visual": "baixa e roda IA no seu PC com um comando",
    "sfx": [
     {
@@ -119,8 +119,8 @@
   },
   {
    "cena": "cta",
-   "fala": "Comenta PLACA e me segue. Qual placa de vídeo tem no seu PC?",
-   "legenda": "Comenta PLACA",
+   "fala": "Comenta PLACA e me segue. Qual placa tem no seu PC?",
+   "legenda": "Comenta PLACA e me segue. Qual placa tem no seu PC?",
    "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
   }
  ],
