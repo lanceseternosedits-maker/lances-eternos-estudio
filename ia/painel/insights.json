@@ -1,51 +1,50 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-16 19:41",
- "leitura": "metricool_2026-11-16.json",
- "resumo": "Leitura da noite idêntica à da manhã: nenhum dos 48 Reels mudou um número em 12 h (VOO 328, APPLE 1.918) e o TELA, no ar desde 06:00, ainda não entrou nas métricas do Instagram; o TikTok TELA segue com 0 views. Parece atraso de sincronização do Metricool, então as regras abaixo continuam valendo e o teste do TELA/NVIDIA fica para a próxima leitura.",
+ "em": "2026-11-17 07:46",
+ "leitura": "metricool_2026-11-17.json",
+ "resumo": "O Metricool voltou a atualizar: entraram o TELA (310 views em ~22 h, abaixo da mediana de 433) e o NVIDIA (160 em ~9 h), e os antigos quase pararam (APPLE 1.918→1.922, VOO 328→331). Com só 2 Reels desde 14/11 a conta esfriou; o plano de 3 contagens por dia é o que destrava, e TELA/NVIDIA ainda são cedo para regra.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "Métricas congeladas: Metricool sem atualizar há 12 h",
-   "evidencia": "Leituras de 07:43 e 19:39 de 16/11 com os mesmos valores em todos os 48 Reels e 57 TikToks (VOO 328 views, APPLE 1.918, PLAY 1.714). O Reel TELA (06:00) não aparece no Instagram; TikTok TELA com 0 views após ~13,5 h. NVIDIA (19:30) também ainda sem dado.",
-   "acao": "Chefe, vale abrir o Metricool e checar se a conexão do Instagram/TikTok precisa reconectar. Até lá, não tirar conclusão do TELA nem do NVIDIA; manter as regras atuais na próxima rodada de roteiros."
+   "titulo": "Conta parada: 2 Reels em 3 dias",
+   "evidencia": "S3 (15–16/11): 2 Reels, 470 views, mediana 235. S2 teve 34 Reels e 23.563 views. Os antigos cresceram quase nada em 12 h (APPLE +4, VOO +3, PLAY +1).",
+   "acao": "Prioridade é publicar: 3 contagens por dia no molde TV (06:00/12:00/19:30) e conferir no Metricool que nada ficou como rascunho."
+  },
+  {
+   "tipo": "testar",
+   "titulo": "TV de novo não repetiu o campeão (ainda)",
+   "evidencia": "TELA (5 projetos pra TV sem propaganda): 310 views, 47,7% nos 3 s, 5 salvamentos (1,8% do alcance), 0 envios em ~22 h. O campeão TV de 06/11 tem 3.276 views e 40 envios.",
+   "acao": "Reler o TELA em 24 h antes de concluir; nos próximos, o 1º quadro com a TV mostrando o anúncio e o nº 1 com número grande de estrelas (o campeão abria com 52 mil)."
   },
   {
    "tipo": "fazer_mais",
-   "titulo": "Marca conhecida + \"o que a X não queria\" segue no topo",
-   "evidencia": "Desde 09/11: APPLE 1.918 views (51,7% nos 3 s, 37 salvamentos, 22 comentários), PLAY 1.714 e CORTES/GTA 6 701. Sem marca no mesmo período: CELULAR 293, ZAP 252, MAC 269, BIZARRO 98.",
-   "acao": "1 contagem por dia com marca que todo mundo tem (Apple, PlayStation, Samsung, Google, Windows) e o inimigo no gancho; GTA 6 sai em 19/11: manter 1 de jogo por dia até lá. O TELA (LG/Samsung no texto) é o teste dessa regra: medir na leitura da noite."
-  },
-  {
-   "tipo": "corrigir",
-   "titulo": "📜 e ⚙️ prendem mas não salvam",
-   "evidencia": "🆕 novidade: mediana 558 views e 1,55% de salvar (36 Reels). 📜 história: 348 views e 0,0% de salvar (6), apesar de 46,8% nos 3 s (DOLAR 432 views, 57,4% nos 3 s, 0 salvamentos). ⚙️ como funciona: 258 views e 0,1% (6).",
-   "acao": "No máximo 1 📜 por dia, à noite, fechando com cartão legível da lição + \"salva\" na fala; ⚙️ só com objeto do dia a dia no palco e o truque em lista no fim."
+   "titulo": "Notícia com marca grande prende mais tempo",
+   "evidencia": "NVIDIA: 17,2 s de tempo médio (o maior dos 47 Reels; mediana ~7 s) e 48,2% nos 3 s, mas 160 views e 0 salvamentos em ~9 h. VOO, outra notícia, ficou em 331.",
+   "acao": "Notícia só como reforço (no máximo 1 por dia, fora das 3 contagens) e sempre fechando com lista útil + \"salva\"; não virar padrão com 2 casos."
   },
   {
    "tipo": "fazer_mais",
-   "titulo": "Contagem bate o mascote no palco 2,7×",
-   "evidencia": "Contagem (formato 3): mediana 737 views e 2,0% de salvar em 22 Reels. Mascote no palco (formato 1): 268 views e 0,3% em 24. Lista + demo: 1.430, mas só 2 Reels (cedo).",
-   "acao": "Manter a contagem como padrão das 🆕; mascote no palco só para 📜/notícia, e testar mais 2 lista + demo antes de virar regra."
+   "titulo": "Contagem segue 2,5× o mascote",
+   "evidencia": "Contagem (formato 3): mediana 738 views e 2,0% de salvar em 22. Mascote no palco: 290 e 0,3% em 24. 🆕 novidade 583 e 1,8% de salvar (35); 📜 349 e 0,0% (6); ⚙️ 258 e 0,1% (6).",
+   "acao": "Manter só 🆕 contagem como manda o plano de recuperação; 📜/⚙️ fora até a mediana voltar a 1.000."
   },
   {
    "tipo": "corrigir",
    "titulo": "Gancho: mais da metade sai antes dos 3 s",
-   "evidencia": "Mediana de 44,3% passa dos 3 s em 48 Reels; GRATIS 25,9%, ESTUDA 30,2%, DESIGN 32,0%. Os que mais seguram: MOBILE 59,0%, DESENHO 58,8%, DOLAR 57,4%.",
-   "acao": "1º quadro com o objeto conhecido já na tela (console, TV, app famoso) e a 1ª frase com conflito; nada de logo ou título parado no início."
+   "evidencia": "Mediana de 45,6% passa dos 3 s; retenção média de 21% do vídeo. Melhores: MOBILE 59,0%, DESENHO 58,8%, DOLAR 57,5%; piores GRATIS 25,9%, EDITA 29,2%.",
+   "acao": "1º quadro com o objeto conhecido já na tela grande e a 1ª frase com conflito; CTA na nº 3, onde ainda tem gente."
   },
   {
    "tipo": "testar",
-   "titulo": "TikTok: VOO cresceu devagar, resto parado",
-   "evidencia": "Mediana dos vídeos segue 3 views contra 431 no Instagram; fotos 10. VOO 126 views (parado desde a manhã) e TELA 0 views após ~13,5 h. Só o VOO passa de 100 desde 11/11.",
-   "acao": "Ainda é cedo para regra: reler o TELA e o NVIDIA no TikTok em 24 h antes de mudar algo."
+   "titulo": "TikTok: TELA e NVIDIA saíram do zero, mas fracos",
+   "evidencia": "TELA 56 views, NVIDIA 46, VOO 127 (era 126). Mediana dos vídeos 3,5 contra 433 no Instagram; posts de fotos 81.",
+   "acao": "Sem mudança ainda; se em mais 2 leituras nada passar de 100, testar no TikTok uma versão em fotos (carrossel) da mesma contagem."
   }
  ],
  "semanas": [
-  "S1 (01–07/11): 14 Reels, 20.955 views, mediana 1.169, 7 acima de 1.000. S2 (08–14/11): 34 Reels, 23.504 views (+12%), mediana 408 (−65%), 7 acima de 1.000.",
-  "Desde a leitura de 07:43 nenhum número mudou (S2 segue em 23.504 views): sem post novo, os antigos pararam de crescer.",
-  "Qualidade por Reel parecida: passa dos 3 s 45,7% → 43,9%; salvar 2,5% → 1,9%; comentar 1,0% → 0,9%. A distribuição por post caiu, o vídeo não piorou.",
-  "TikTok: S1 15 vídeos, 610 views, mediana 24; S2 34 vídeos, 621 views, mediana 1. O VOO (122) é o único sinal novo.",
-  "S3 (15/11 em diante) ainda sem Reel publicado: os 8 agendados de 15/11 ficaram como rascunho."
+  "S1 (01–07/11): 14 Reels, 20.989 views, mediana 1.169. S2 (08–14/11): 34 Reels, 23.563 views, mediana 408.",
+  "S3 (15/11 em diante): 2 Reels (TELA 310, NVIDIA 160), 470 views, mediana 235; 47,9% nos 3 s e 1,2% de salvar.",
+  "Desde 16/11 19:39 os antigos quase não cresceram (APPLE +4, VOO +3): sem post novo, a conta esfria.",
+  "TikTok: TELA 0→56 e NVIDIA 46 views; o Metricool voltou a sincronizar."
  ]
 }
