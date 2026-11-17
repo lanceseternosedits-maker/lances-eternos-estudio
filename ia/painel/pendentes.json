@@ -1,7 +1,6 @@
 {
- "gerado_em": "2026-11-16 19:42",
- "videos": [],
- "roteiros": [
+ "gerado_em": "2026-11-17 05:11",
+ "videos": [
   {
    "pasta": "2026-11-18-ia-no-pc-sem-placa-nvidia",
    "titulo": "SEM PLACA DA NVIDIA, SEM IA? MENTIRA",
@@ -10,9 +9,10 @@
   {
    "pasta": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
    "titulo": "PARA DE PAGAR EDITOR PRO SEU JOGO",
-   "quando": "2026-11-17 06:00"
+   "quando": "2026-11-18 12:00"
   }
  ],
+ "roteiros": [],
  "agenda_3_dias": [
   {
    "quando": "2026-11-17 19:30",

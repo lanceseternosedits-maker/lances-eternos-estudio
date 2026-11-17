@@ -61,8 +61,8 @@ const ui = Cx => { const { X, GH, SEGR, CHAVE, ITENS } = Cx; const GY3 = 620; le
     transicao(lt, s, nome) { if (nome === "gancho" || lt > .3) return; const u = eio(lt / .3); X.fillStyle = `rgba(20,24,33,${(1 - u) * .85})`; X.fillRect(0, 0, 1080, 1920); },
     fechamento(lt) { X.fillStyle = "rgba(15,18,24,.82)"; X.fillRect(0, 640, 1080, 860);
       const it = ITENS.slice().reverse(); it.slice(0, 5).forEach((s, i) => { const k = eo(lin(lt, .1 + i * .1, .45 + i * .1)), y = 760 + i * 104; X.save(); X.globalAlpha = k; X.translate(40 * (1 - k), 0);
-        X.fillStyle = i === 0 ? C.escuro : "#ffffff"; X.beginPath(); X.roundRect(90, y - 42, 830, 84, 20); X.fill(); txt((i + 1) + "º", 140, y + 2, 40, i === 0 ? C.ouro : C.destaque); txt(s.item, 200, y + 2, cabe(44, s.item, 460), i === 0 ? "#ffffff" : C.escuro, "left"); txt(fmtP(s.estrelas) + " ★", 900, y + 2, 30, i === 0 ? C.ouro : "#7a7f8c", "right"); X.restore(); });
-      const p = back(lin(lt, .7, 1.1)) * (1 + Math.sin(lt * 6) * .02); X.save(); X.translate(505, 1340); X.scale(p, p); X.fillStyle = C.ouro; X.beginPath(); X.roundRect(-290, -58, 580, 116, 58); X.fill(); txt("Comenta " + CHAVE, 0, 3, cabe(66, "Comenta " + CHAVE, 520), C.escuro); X.restore(); },
+        X.fillStyle = i === 0 ? C.ouro : "#ffffff"; X.beginPath(); X.roundRect(90, y - 42, 830, 84, 20); X.fill(); txt((i + 1) + "º", 140, y + 2, 40, i === 0 ? C.escuro : C.destaque); txt(s.item, 200, y + 2, cabe(44, s.item, 460), C.escuro, "left"); txt(fmtP(s.estrelas) + " ★", 900, y + 2, 30, i === 0 ? C.escuro : "#7a7f8c", "right"); X.restore(); });
+      const p = back(lin(lt, .7, 1.1)) * (1 + Math.sin(lt * 6) * .02); X.save(); X.translate(505, 1340); X.scale(p, p); X.fillStyle = C.destaque; X.beginPath(); X.roundRect(-290, -58, 580, 116, 58); X.fill(); txt("Comenta " + CHAVE, 0, 3, cabe(66, "Comenta " + CHAVE, 520), C.escuro); X.restore(); },
   }; return U; };
 const cores = { LAR: C.destaque, VERDE: C.ouro, FUNDO: C.fundo, CREME: "#ffffff", TINTA: C.escuro, BRILHO: "rgba(0,0,0,0)" };
 return { SHOTS, ACT, cores, semPalco: true, ui, camera };
