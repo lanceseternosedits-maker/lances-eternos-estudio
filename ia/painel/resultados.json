@@ -1,7 +1,7 @@
 {
- "gerado_em": "2026-11-18 10:41",
+ "gerado_em": "2026-11-18 22:43",
  "leitura": "metricool_2026-11-18.json",
- "lido_em": "2026-11-18 07:40",
+ "lido_em": "2026-11-18 19:45",
  "periodo": [
   "2026-11-04",
   "2026-11-18"
@@ -14,7 +14,7 @@
   "envios": 270,
   "comentarios": 352,
   "mediana_views_ig": 434,
-  "views_tiktok_video": 1118,
+  "views_tiktok_video": 1132,
   "mediana_tiktok_video": 3,
   "mediana_tiktok_fotos": null
  },
@@ -760,7 +760,7 @@
    "salvar_pct": 1.2,
    "enviar_pct": 0.0,
    "comentar_pct": 0.4,
-   "tiktok_views": 90,
+   "tiktok_views": 91,
    "vs_mediana": 0.7
   },
   {
@@ -784,7 +784,7 @@
    "salvar_pct": 0.0,
    "enviar_pct": 0.0,
    "comentar_pct": 0.4,
-   "tiktok_views": 46,
+   "tiktok_views": 49,
    "vs_mediana": 0.7
   },
   {
@@ -1144,7 +1144,7 @@
    "salvar_pct": 0.0,
    "enviar_pct": 0.0,
    "comentar_pct": 9.1,
-   "tiktok_views": null,
+   "tiktok_views": 2,
    "vs_mediana": 0.1
   }
  ],
@@ -1249,7 +1249,7 @@
     "enviar_pct": 0.9,
     "comentar_pct": 1.0,
     "passou_3s_pct": 45.650000000000006,
-    "idade_mediana_dias": 12.2,
+    "idade_mediana_dias": 12.7,
     "top": [
      {
       "titulo": "5 projetos pra TV e celular",
@@ -1301,7 +1301,7 @@
     "enviar_pct": 0.6,
     "comentar_pct": 0.9,
     "passou_3s_pct": 44.099999999999994,
-    "idade_mediana_dias": 7.9,
+    "idade_mediana_dias": 8.4,
     "top": [
      {
       "titulo": "10 estilos de animação",
@@ -1331,7 +1331,7 @@
      }
     },
     "tiktok_videos": 34,
-    "tiktok_views": 633,
+    "tiktok_views": 634,
     "tiktok_mediana": 2.0
    },
    {
@@ -1357,7 +1357,7 @@
     "enviar_pct": 0.0,
     "comentar_pct": 1.1,
     "passou_3s_pct": 46.8,
-    "idade_mediana_dias": 1.5,
+    "idade_mediana_dias": 2.0,
     "top": [
      {
       "titulo": "TV sem propaganda",
@@ -1378,9 +1378,9 @@
       "mediana_views": 293
      }
     },
-    "tiktok_videos": 2,
-    "tiktok_views": 102,
-    "tiktok_mediana": 51.0
+    "tiktok_videos": 4,
+    "tiktok_views": 115,
+    "tiktok_mediana": 28.5
    }
   ],
   "dias": [
@@ -1472,8 +1472,20 @@
  },
  "tiktok": [
   {
+   "titulo": "Estúdio de games no Claude",
+   "views": 8,
+   "foto": false,
+   "pasta": "2026-11-15-estudio-de-games-no-claude"
+  },
+  {
+   "titulo": "Jogos no celular e no Mac",
+   "views": 2,
+   "foto": false,
+   "pasta": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
    "titulo": "Nvidia perdeu o chefe",
-   "views": 46,
+   "views": 49,
    "foto": false,
    "pasta": "2026-11-16-nvidia-perdeu-o-chefe"
   },
@@ -1503,7 +1515,7 @@
   },
   {
    "titulo": "5 projetos pro celular",
-   "views": 90,
+   "views": 91,
    "foto": false,
    "pasta": "2026-11-10-projetos-celular"
   },

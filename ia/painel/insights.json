@@ -1,20 +1,20 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-18 07:45",
+ "em": "2026-11-18 19:45",
  "leitura": "metricool_2026-11-18.json",
- "resumo": "Desde ontem à noite o Metricool voltou a atualizar: NVIDIA quase dobrou (160 → 293) e o único Reel novo, JOGOS (17/11 19:31), fez só 26 views e 26,1% nos 3 s em ~12 h, um dos piores ganchos dos 47. Ele saiu fora do plano de recuperação (v7 com 2 vozes, 41,5 s); o post de 18/11 06:00 ainda não aparece, e a S3 tem 3 Reels com mediana de 293.",
+ "resumo": "Em 12 h o Instagram não mudou um número sequer (47 Reels, NVIDIA 293, JOGOS 26) e o Reel de 18/11 06:00 (estúdio de games) só apareceu no TikTok, com 8 views: ou o Metricool travou de novo no Instagram, ou o Reel não saiu. Sem dado novo de Reel, o plano de 17/11 segue igual: contagem clean, 1 voz, ≤ 32 s.",
  "itens": [
   {
    "tipo": "alerta",
    "titulo": "JOGOS saiu fora do plano e flopou",
-   "evidencia": "JOGOS (meta: \"reel v7 (2 vozes)\", 41,5 s): 26 views, alcance 22, 26,1% passa dos 3 s, 0 salvamentos em ~12 h. O plano de 17/11 pede contagem clean com 1 voz e 25–32 s; os campeões de jogo com formato certo fizeram PLAY 1.715 e MOBILE 1.723 (52–59% nos 3 s).",
+   "evidencia": "JOGOS (meta: \"reel v7 (2 vozes)\", 41,5 s): 26 views, alcance 22, 26,1% passa dos 3 s, 0 salvamentos em ~12 h (sem mudança até 19:40). O plano de 17/11 pede contagem clean com 1 voz e 25–32 s; os campeões de jogo com formato certo fizeram PLAY 1.715 e MOBILE 1.723 (52–59% nos 3 s).",
    "acao": "Nada de v7/2 vozes até 01/12: os próximos de jogo saem em cena_contagem + _clean.js, 1 voz (Puck), ≤ 32 s, com o jogo conhecido na tela grande no 1º quadro."
   },
   {
    "tipo": "alerta",
-   "titulo": "Só 3 Reels em 4 dias",
-   "evidencia": "S3 (15–17/11): 3 Reels, 634 views, mediana 293; S2 tinha 34 Reels e mediana 409. O de 18/11 06:00 ainda não aparece no Metricool às 07:40, e o TikTok do JOGOS também não.",
-   "acao": "Conferir no app se o post das 06:00 de hoje saiu ou ficou como rascunho; manter 12:00 e 19:30 de hoje preenchidos com contagem."
+   "titulo": "Reel das 06:00 de hoje não aparece no Instagram",
+   "evidencia": "O estúdio de games (pasta 2026-11-15-estudio-de-games-no-claude) saiu no TikTok às 06:02 (8 views, 37 s), mas não está no Instagram às 19:40. Os 47 Reels têm exatamente os mesmos números da leitura das 07:40 (TV 3.283, NVIDIA 293, TELA 315, JOGOS 26).",
+   "acao": "Conferir no app se o Reel de 06:00 está publicado ou preso como rascunho/erro; se estiver no ar, o problema é o sync do Metricool com o Instagram (reconectar a conta)."
   },
   {
    "tipo": "fazer_mais",
@@ -36,14 +36,14 @@
   },
   {
    "tipo": "testar",
-   "titulo": "TikTok segue travado",
-   "evidencia": "Mediana de 3 views por vídeo contra 434 no Instagram; maiores recentes VOO 127, BIZARRO 94, CHINA 91, CELULAR 90; TELA 56, NVIDIA 46. O JOGOS não apareceu no TikTok.",
-   "acao": "Mais 1 leitura sem nada acima de 100 → testar no TikTok a mesma contagem em post de fotos (carrossel)."
+   "titulo": "TikTok segue travado: hora do teste em fotos",
+   "evidencia": "Mediana de 3 views por vídeo contra 434 no Instagram. Novos: GAME 8 views e JOGOS 2 views; NVIDIA subiu só 46 → 49. Nada acima de 100 desde VOO (127), então a condição da leitura anterior foi cumprida.",
+   "acao": "Na próxima rodada, postar no TikTok 1 contagem em post de fotos (carrossel) em vez de vídeo e comparar com a mediana de 3."
   }
  ],
  "semanas": [
   "S1 (01–07/11): 14 Reels, 21.000 views, mediana 1.169. S2 (08–14/11): 34 Reels, 23.593 views, mediana 409.",
   "S3 (15–17/11): 3 Reels (TELA 315, NVIDIA 293, JOGOS 26), 634 views, mediana 293; 46,8% nos 3 s e 0,9% de salvar.",
-  "18/11 07:40: Metricool voltou a sincronizar (NVIDIA +133, TV campeão +7); JOGOS entrou com 26 views."
+  "18/11 19:40: Instagram congelado desde 07:40 (nenhum número mudou); TikTok com GAME 8 e JOGOS 2."
  ]
 }
