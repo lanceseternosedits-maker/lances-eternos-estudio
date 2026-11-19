@@ -1,26 +1,26 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-19 07:42",
+ "em": "2026-11-19 19:43",
  "leitura": "metricool_2026-11-19.json",
- "resumo": "O Instagram voltou a sincronizar: o estúdio de games (18/11) apareceu com 280 views, e desde 14/11 todo Reel parou na faixa de 280–337 (JOGOS ficou em 45). Os 5 Reels de 14–18/11 são mascote no palco com 37–48 s, fora do plano de 17/11; o primeiro do plano (GTA/PS5, contagem, 19/11 06:00) ainda não entrou no Instagram.",
+ "resumo": "Nada mudou desde as 07:42: o Metricool devolveu os mesmos números de manhã (GAME 280, JOGOS 45, TikTok GAME 81) e o GTA/PS5 de 06:00 segue sem aparecer no Instagram e com 0 views no TikTok, então a sincronização parece parada há ~12 h. Também não saiu nenhum Reel novo hoje: as 7 outras pastas de 19/11 caíram no filtro ou na revisão.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "Só 1 Reel por dia: o filtro está barrando quase tudo",
-   "evidencia": "Saíram 1 Reel em 17/11 (JOGOS), 1 em 18/11 (GAME) e 1 em 19/11 até agora (GTA, só no TikTok), contra 3 por dia no plano. Das 20 pastas de 18–19/11, 17 estão \"descartado\" pelo filtro, 2 \"reprovado na revisão\" e 1 \"vídeo aguardando aprovação\".",
-   "acao": "Na produção, 3 candidatos por vaga só no molde contagem clean (o que a nota premia) e rodar o chance.py antes de produzir; tema fora do molde (⚙️/📜, notícia) não vale o esforço agora."
+   "titulo": "Metricool sem atualizar desde a manhã",
+   "evidencia": "Leitura de 19:43 idêntica à de 07:42 em todos os 47 Reels e 51 TikToks (APPLE 1.930, TV 3.287, GAME 280/81). O GTA/PS5 (19/11 06:00) ainda não aparece no Instagram e marca 0 views no TikTok depois de ~14 h.",
+   "acao": "Conferir no app do Instagram se o GTA/PS5 saiu de fato; se saiu, é atraso do Metricool e a próxima leitura deve pegar. Se não saiu, reagendar antes de fazer roteiro novo."
+  },
+  {
+   "tipo": "alerta",
+   "titulo": "Zero Reel novo hoje além do GTA: o filtro barrou o dia todo",
+   "evidencia": "Das 8 pastas de 19/11, 5 estão \"descartado\" e 2 \"reprovado na revisão\"; das 11 de 20/11, 9 descartadas e 2 reprovadas; 21/11 vem tudo descartado. Só 1 Reel por dia desde 17/11, contra 3 no plano.",
+   "acao": "Na próxima rodada, priorizar só pautas que já passaram no corte (contagem de 5 com marca/jogo/objeto de casa e ≥10 mil estrelas) em vez de gerar muitas que caem; se nenhuma passa, revisar o corte do filtro com o Vitor."
   },
   {
    "tipo": "corrigir",
    "titulo": "Os Reels de 14–18/11 ainda saíram longos e no mascote",
    "evidencia": "TELA 44 s, NVIDIA 48 s, GAME 37 s, JOGOS 41,5 s, todos mascote no palco: 280–316 views, 16–28% assistido, 0–1,8% de salvar. Os campeões têm 25–35 s em contagem (TV 34 s, 3.287; SKILLS 35 s, 2.955).",
    "acao": "Corte duro em 32 s (máx. 35) e só cena_contagem + _clean.js; roteiro passou de 35 s, corta item ou frase antes de gravar a voz."
-  },
-  {
-   "tipo": "testar",
-   "titulo": "GTA/PS5 de hoje é o teste do plano",
-   "evidencia": "1ª contagem (formato 3) desde APPLE em 12/11 (1.930 views, 51,8% nos 3 s). No TikTok, às 06:05, ainda 0 views; no Instagram ainda não aparece na leitura das 07:42.",
-   "acao": "Comparar na leitura da noite com a faixa de 280–337 dos mascotes: se passar de 700, é a prova de que o formato (e não o tema) estava derrubando."
   },
   {
    "tipo": "fazer_mais",

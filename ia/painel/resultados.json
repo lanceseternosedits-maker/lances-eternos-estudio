@@ -1,7 +1,7 @@
 {
- "gerado_em": "2026-11-19 10:42",
+ "gerado_em": "2026-11-19 22:43",
  "leitura": "metricool_2026-11-19.json",
- "lido_em": "2026-11-19 07:42",
+ "lido_em": "2026-11-19 19:43",
  "periodo": [
   "2026-11-05",
   "2026-11-19"
@@ -1249,7 +1249,7 @@
     "enviar_pct": 0.9,
     "comentar_pct": 1.0,
     "passou_3s_pct": 45.650000000000006,
-    "idade_mediana_dias": 13.2,
+    "idade_mediana_dias": 13.7,
     "top": [
      {
       "titulo": "5 projetos pra TV e celular",
@@ -1301,7 +1301,7 @@
     "enviar_pct": 0.6,
     "comentar_pct": 0.9,
     "passou_3s_pct": 44.599999999999994,
-    "idade_mediana_dias": 8.9,
+    "idade_mediana_dias": 9.4,
     "top": [
      {
       "titulo": "10 estilos de animação",
@@ -1357,7 +1357,7 @@
     "enviar_pct": 0.0,
     "comentar_pct": 1.6,
     "passou_3s_pct": 45.2,
-    "idade_mediana_dias": 2.0,
+    "idade_mediana_dias": 2.5,
     "top": [
      {
       "titulo": "TV sem propaganda",

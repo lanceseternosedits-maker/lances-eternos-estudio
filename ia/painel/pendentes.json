@@ -1,37 +1,28 @@
 {
- "gerado_em": "2026-11-19 07:43",
+ "gerado_em": "2026-11-19 19:43",
  "videos": [
   {
    "pasta": "2026-11-18-ia-no-pc-sem-placa-nvidia",
-   "titulo": "Nvidia, placa de vídeo, IA local, jogos, PC, github",
+   "titulo": "SEM PLACA DA NVIDIA, SEM IA? MENTIRA",
    "quando": "2026-11-18 19:30"
   },
   {
    "pasta": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
-   "titulo": "programas grátis, github, editar vídeo, jogos, PC",
+   "titulo": "PARA DE PAGAR EDITOR PRO SEU JOGO",
    "quando": "2026-11-18 12:00"
   }
  ],
  "roteiros": [
   {
    "pasta": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido",
-   "titulo": "produtividade, Windows, PC, github, grátis",
+   "titulo": "PARA DE PERDER TEMPO NA SEGUNDA-FEIRA",
    "quando": "2026-11-23 06:00"
   },
   {
    "pasta": "2026-11-22-o-windows-esconde-5-programas-gratis",
-   "titulo": "Windows, PC, programas grátis, produtividade, github",
+   "titulo": "5 PROGRAMAS GRÁTIS PRO SEU WINDOWS",
    "quando": "2026-11-22 09:00"
   }
  ],
- "agenda_3_dias": [
-  {
-   "quando": "2026-11-19 19:30",
-   "titulo": "Uma agência de marketing no Claude",
-   "redes": [
-    "instagram",
-    "tiktok"
-   ]
-  }
- ]
+ "agenda_3_dias": []
 }
