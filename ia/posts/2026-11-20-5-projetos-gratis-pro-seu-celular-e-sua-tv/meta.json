@@ -1,0 +1,36 @@
+{
+ "data": "2026-11-20",
+ "horario": "19:30",
+ "horarios": {
+  "instagram": "2026-11-20 19:30",
+  "tiktok": "2026-11-20 19:30"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "TV",
+  "celular",
+  "PC",
+  "projetos",
+  "github",
+  "grátis"
+ ],
+ "fontes": [
+  "https://github.com/moonlight-stream/moonlight-qt",
+  "https://github.com/AdguardTeam/AdGuardHome",
+  "https://github.com/syncthing/syncthing",
+  "https://github.com/Genymobile/scrcpy",
+  "https://github.com/immich-app/immich"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Moonlight 19.593, AdGuard Home 38.569, Syncthing 90.584, scrcpy 155.178, Immich 119.602; total 423.526.",
+ "cta": "TELA",
+ "polemica": true,
+ "vaga": 1,
+ "candidato": "b",
+ "primeiro_comentario": "💬 Comenta TELA que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 55%, abaixo do corte"
+}

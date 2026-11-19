@@ -1,0 +1,35 @@
+{
+ "data": "2026-11-23",
+ "horario": "19:30",
+ "horarios": {
+  "instagram": "2026-11-23 19:30",
+  "tiktok": "2026-11-23 19:30"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "IA que trabalha por você",
+  "assistente",
+  "kit",
+  "produtividade"
+ ],
+ "fontes": [
+  "https://github.com/openai/whisper",
+  "https://github.com/microsoft/markitdown",
+  "https://github.com/zhayujie/CowAgent",
+  "https://github.com/ggml-org/llama.cpp",
+  "https://www.science.org/doi/10.1126/science.adh2586",
+  "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Whisper 113.052, MarkItDown 196.815, CowAgent 48.006, llama.cpp 135.651; total 493.524.",
+ "cta": "KIT",
+ "polemica": false,
+ "vaga": 13,
+ "candidato": "b",
+ "primeiro_comentario": "💬 Comenta KIT que eu te mando o kit com os 10 assistentes",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 44%, abaixo do corte"
+}

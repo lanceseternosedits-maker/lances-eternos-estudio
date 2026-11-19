@@ -1,0 +1,127 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "KIT",
+ "tese": "5 COISAS QUE A IA FAZ POR VOCÊ · 40% MENOS TEMPO (SCIENCE, 2023) · E A Nº 1 É BIZARRA",
+ "conceito": "novidade: contagem 5→1 com objeto reconhecível no 1º quadro (5 coisas que a ia faz por você); cenário garagem de madrugada, mascote mochila, lendo; nº1 revelada por último.",
+ "brinde": "Kit Super Assistente de IA: 10 assistentes prontos (DM com o link de compra)",
+ "fontes": [
+  "https://www.science.org/doi/10.1126/science.adh2586",
+  "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700"
+ ],
+ "prova_viral": "Estudos: profissionais com ChatGPT em escrita levaram 40% menos tempo e 18% mais qualidade (Science, 2023); consultores do BCG com GPT-4: 25% mais rápidos, 40% melhor nas tarefas certas (Harvard/BCG, 2023). Produto: Super Assistente de IA (R$ 17).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 COISAS QUE A IA FAZ POR VOCÊ",
+   "fala": "Cinco coisas que a IA faz por você. A número um organiza a sua semana.",
+   "legenda": "Cinco coisas que a IA faz por você. A número um organiza a sua semana.",
+   "visual": "5 COISAS QUE A IA FAZ POR VOCÊ",
+   "itens": "clean",
+   "etiqueta": [
+    "5 COISAS QUE A IA FAZ POR VOCÊ",
+    "40% MENOS TEMPO (SCIENCE, 2023)",
+    "E A Nº 1 É BIZARRA"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Resumo",
+   "fala": "Quinto: Resumo. Resume o contrato em 5 linhas.",
+   "legenda": "Quinto: Resumo. Resume o contrato em 5 linhas.",
+   "visual": "Resume o contrato em 5 linhas.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Cardápio",
+   "fala": "Quarto: Cardápio. Monta o cardápio e a lista de compras.",
+   "legenda": "Quarto: Cardápio. Monta o cardápio e a lista de compras.",
+   "visual": "Monta o cardápio e a lista de compras.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Contas",
+   "fala": "Terceiro: Contas. Separa as contas por vencimento. Essa é legalzinha… comenta KIT que eu te mando os dez assistentes. Manda pro amigo.",
+   "legenda": "Terceiro: Contas. Separa as contas por vencimento. Essa é legalzinha… comenta KIT que eu te mando os dez assistentes. Manda pro amigo.",
+   "visual": "Separa as contas por vencimento.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Estudo",
+   "fala": "Segundo: Estudo. Explica a matéria de um jeito fácil.",
+   "legenda": "Segundo: Estudo. Explica a matéria de um jeito fácil.",
+   "visual": "Explica a matéria de um jeito fácil.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Organizador da semana",
+   "fala": "E o primeiro: Organizador da semana. Monta sua agenda por prioridade, sem estresse.",
+   "legenda": "E o primeiro: Organizador da semana. Monta sua agenda por prioridade, sem estresse.",
+   "visual": "Monta sua agenda por prioridade, sem estresse.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta KIT e me segue. Sua semana costuma estourar na terça ou na quinta?",
+   "legenda": "Comenta KIT e me segue. Sua semana costuma estourar na terça ou na quinta?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "d) pote enchendo de estrelas",
+  "legenda": "e) tarja de TV",
+  "transicao": "d) virada de página",
+  "camera": "c) travelling lateral",
+  "fechamento": "e) página de caderno",
+  "mascote": "mochila, lendo",
+  "cenario": "garagem de madrugada",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 91,
+ "duracao_estimada_s": 31.9
+}

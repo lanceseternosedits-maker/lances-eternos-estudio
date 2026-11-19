@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º whisper.cpp: https://github.com/ggml-org/whisper.cpp
+4º MarkItDown: https://github.com/microsoft/markitdown
+3º Open WebUI: https://github.com/open-webui/open-webui
+2º Ollama: https://github.com/ollama/ollama
+1º n8n: https://github.com/n8n-io/n8n
+
+⚠️ Projetos independentes; rodam no seu computador.
+
+Brinde: Links dos 5 + o comando pronto pra transcrever um áudio.

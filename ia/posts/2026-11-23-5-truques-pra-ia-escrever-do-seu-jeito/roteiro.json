@@ -1,0 +1,125 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "como_funciona",
+ "chave": "JEITO",
+ "tese": "COMO FAZER A IA ESCREVER DO SEU JEITO · E O Nº 1 É O QUE MAIS PESA",
+ "conceito": "como_funciona: contagem 5→1 com objeto reconhecível no 1º quadro (como fazer a ia escrever do seu jeito); cenário varanda ao pôr do sol, mascote headset, pilotando; nº1 revelada por último.",
+ "brinde": "O modelo pronto pra IA copiar o seu estilo",
+ "fontes": [
+  "https://arxiv.org/abs/2005.14165"
+ ],
+ "prova_viral": "Brown et al., 2020 (arXiv 2005.14165): poucos exemplos no pedido bastam pro modelo fazer tarefas novas; guia oficial de prompts da Anthropic.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "COMO FAZER A IA ESCREVER DO SEU JEITO",
+   "fala": "A IA nunca escreve do seu jeito? Cinco truques resolvem.",
+   "legenda": "A IA nunca escreve do seu jeito? Cinco truques resolvem.",
+   "visual": "COMO FAZER A IA ESCREVER DO SEU JEITO",
+   "itens": "clean",
+   "etiqueta": [
+    "COMO FAZER A IA ESCREVER DO SEU JEITO",
+    "E O Nº 1 É O QUE MAIS PESA"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Tom",
+   "fala": "Quinto: Tom. Diga o tom: simples, direto, sem enrolação.",
+   "legenda": "Quinto: Tom. Diga o tom: simples, direto, sem enrolação.",
+   "visual": "Diga o tom: simples, direto, sem enrolação.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Proibido",
+   "fala": "Quarto: Proibido. Liste as palavras que você nunca usa.",
+   "legenda": "Quarto: Proibido. Liste as palavras que você nunca usa.",
+   "visual": "Liste as palavras que você nunca usa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Revise",
+   "fala": "Terceiro: Revise. Peça uma versão mais curta. Essa é legalzinha… comenta JEITO que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Revise. Peça uma versão mais curta. Essa é legalzinha… comenta JEITO que eu mando os cinco. Manda pro amigo.",
+   "visual": "Peça uma versão mais curta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Exemplo",
+   "fala": "Segundo: Exemplo. Cole 2 mensagens suas e peça a próxima.",
+   "legenda": "Segundo: Exemplo. Cole 2 mensagens suas e peça a próxima.",
+   "visual": "Cole 2 mensagens suas e peça a próxima.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Quem lê",
+   "fala": "E o primeiro: Quem lê. Diga pra quem é o texto.",
+   "legenda": "E o primeiro: Quem lê. Diga pra quem é o texto.",
+   "visual": "Diga pra quem é o texto.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta JEITO e me segue. Qual mensagem do trabalho você mais repete?",
+   "legenda": "Comenta JEITO e me segue. Qual mensagem do trabalho você mais repete?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "f) termômetro",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "mascote": "headset, pilotando",
+  "cenario": "varanda ao pôr do sol",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 81,
+ "duracao_estimada_s": 28.4
+}

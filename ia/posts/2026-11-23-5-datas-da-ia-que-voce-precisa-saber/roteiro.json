@@ -1,0 +1,126 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "historia",
+ "chave": "DATAS",
+ "tese": "5 DATAS DA IA QUE VOCÊ PRECISA SABER · E A Nº 1 É A MAIS LOUCA",
+ "conceito": "historia: contagem 5→1 com objeto reconhecível no 1º quadro (5 datas da ia que você precisa saber); cenário garagem de madrugada, mascote headset, pilotando; nº1 revelada por último.",
+ "brinde": "Os documentos originais",
+ "fontes": [
+  "https://academic.oup.com/mind/article/LIX/236/433/986238",
+  "https://openai.com/index/chatgpt/"
+ ],
+ "prova_viral": "Turing (Mind, 1950); proposta de Dartmouth (AI Magazine, 1955); Deep Blue (IEEE Spectrum, 1997); AlphaGo (DeepMind, 2016); ChatGPT (OpenAI, 30/11/2022). XADREZ/Deep Blue: 2.759 views.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 DATAS DA IA QUE VOCÊ PRECISA SABER",
+   "fala": "A IA tem história. Cinco datas que explicam como chegamos até aqui.",
+   "legenda": "A IA tem história. Cinco datas que explicam como chegamos até aqui.",
+   "visual": "5 DATAS DA IA QUE VOCÊ PRECISA SABER",
+   "itens": "clean",
+   "etiqueta": [
+    "5 DATAS DA IA QUE VOCÊ PRECISA SABER",
+    "E A Nº 1 É A MAIS LOUCA"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "1950",
+   "item": "1950",
+   "fala": "Quinto: 1950. Turing pergunta se as máquinas podem pensar.",
+   "legenda": "Quinto: 1950. Turing pergunta se as máquinas podem pensar.",
+   "visual": "Turing pergunta se as máquinas podem pensar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "1956",
+   "item": "1956",
+   "fala": "Quarto: 1956. Nasce o nome inteligência artificial, num verão.",
+   "legenda": "Quarto: 1956. Nasce o nome inteligência artificial, num verão.",
+   "visual": "Nasce o nome inteligência artificial, num verão.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "1997",
+   "item": "1997",
+   "fala": "Terceiro: 1997. O Deep Blue vence o campeão de xadrez. Essa vale salvar… comenta DATAS que eu mando as fontes. Manda pro amigo.",
+   "legenda": "Terceiro: 1997. O Deep Blue vence o campeão de xadrez. Essa vale salvar… comenta DATAS que eu mando as fontes. Manda pro amigo.",
+   "visual": "O Deep Blue vence o campeão de xadrez.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2016",
+   "item": "2016",
+   "fala": "Segundo: 2016. O AlphaGo vence o campeão de Go.",
+   "legenda": "Segundo: 2016. O AlphaGo vence o campeão de Go.",
+   "visual": "O AlphaGo vence o campeão de Go.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "2022",
+   "item": "2022",
+   "fala": "E o primeiro: 2022. O ChatGPT chega pra todo mundo.",
+   "legenda": "E o primeiro: 2022. O ChatGPT chega pra todo mundo.",
+   "visual": "O ChatGPT chega pra todo mundo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Salva pra contar pra alguém. Comenta DATAS e me segue. Qual dessas datas você mais conhecia?",
+   "legenda": "Salva pra contar pra alguém. Comenta DATAS e me segue. Qual dessas datas você mais conhecia?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "c) travelling lateral",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "mascote": "headset, pilotando",
+  "cenario": "garagem de madrugada",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 88,
+ "duracao_estimada_s": 30.9
+}

@@ -1648,5 +1648,86 @@
     "pct_3s": 11.1
    }
   }
+ },
+ "leitura_api_2026_11_19": {
+  "janela": "2026-11-05 a 2026-11-19 (Metricool até 17/11 22:31; Instagram Reels)",
+  "nota": "views, alcance, curtidas, comentarios, salvos, envios, tempo medio, pct_3s",
+  "instagram_reels": {
+   "TV": {
+    "views": 3283,
+    "comentarios": 31,
+    "salvos": 82,
+    "envios": 40,
+    "pct_3s": 44.6
+   },
+   "SKILLS": {
+    "views": 2955,
+    "salvos": 108,
+    "envios": 47,
+    "pct_3s": 46.9
+   },
+   "EDITA": {
+    "views": 2945,
+    "salvos": 100,
+    "envios": 39,
+    "pct_3s": 29.2
+   },
+   "XADREZ": {
+    "views": 2759,
+    "pct_3s": 55.1
+   },
+   "PC": {
+    "views": 2691,
+    "pct_3s": 35.5
+   },
+   "WINDOWS": {
+    "views": 2595,
+    "pct_3s": 54.1
+   },
+   "MOBILE": {
+    "views": 1723,
+    "comentarios": 27,
+    "pct_3s": 59.0
+   },
+   "PLAY": {
+    "views": 1715,
+    "pct_3s": 52.4
+   },
+   "APPLE": {
+    "views": 1925,
+    "pct_3s": 51.8
+   },
+   "CORTES": {
+    "views": 705,
+    "pct_3s": 44.9
+   },
+   "TELA": {
+    "views": 315,
+    "pct_3s": 46.8
+   },
+   "NVIDIA": {
+    "views": 293,
+    "pct_3s": 48.0
+   },
+   "VOO": {
+    "views": 337,
+    "pct_3s": 44.3
+   },
+   "JOGOS": {
+    "views": 26,
+    "pct_3s": 26.1,
+    "nota": "so ~1h no ar"
+   },
+   "PASSO": {
+    "views": 30,
+    "pct_3s": 52.2
+   },
+   "SYDNEY": {
+    "views": 27
+   },
+   "BIZARRO": {
+    "views": 99
+   }
+  }
  }
 }

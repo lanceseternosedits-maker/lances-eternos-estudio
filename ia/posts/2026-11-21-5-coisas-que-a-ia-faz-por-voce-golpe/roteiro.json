@@ -1,0 +1,127 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "KIT",
+ "tese": "5 COISAS QUE A IA FAZ POR VOCÊ · 40% MENOS TEMPO (SCIENCE, 2023) · E A Nº 1 É BIZARRA",
+ "conceito": "novidade: contagem 5→1 com objeto reconhecível no 1º quadro (5 coisas que a ia faz por você); cenário escritório vazio, mascote cachecol, carregando caixas; nº1 revelada por último.",
+ "brinde": "Kit Super Assistente de IA: 10 assistentes prontos (DM com o link de compra)",
+ "fontes": [
+  "https://www.science.org/doi/10.1126/science.adh2586",
+  "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700"
+ ],
+ "prova_viral": "Estudos: profissionais com ChatGPT em escrita levaram 40% menos tempo e 18% mais qualidade (Science, 2023); consultores do BCG com GPT-4: 25% mais rápidos, 40% melhor nas tarefas certas (Harvard/BCG, 2023). Produto: Super Assistente de IA (R$ 17).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 COISAS QUE A IA FAZ POR VOCÊ",
+   "fala": "Cinco coisas que a IA faz por você. A número um pega golpe antes de você cair.",
+   "legenda": "Cinco coisas que a IA faz por você. A número um pega golpe antes de você cair.",
+   "visual": "5 COISAS QUE A IA FAZ POR VOCÊ",
+   "itens": "clean",
+   "etiqueta": [
+    "5 COISAS QUE A IA FAZ POR VOCÊ",
+    "40% MENOS TEMPO (SCIENCE, 2023)",
+    "E A Nº 1 É BIZARRA"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Resumo",
+   "fala": "Quinto: Resumo. Resume a reunião em 5 pontos.",
+   "legenda": "Quinto: Resumo. Resume a reunião em 5 pontos.",
+   "visual": "Resume a reunião em 5 pontos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Receitas",
+   "fala": "Quarto: Receitas. Cria receita com o que tem na geladeira.",
+   "legenda": "Quarto: Receitas. Cria receita com o que tem na geladeira.",
+   "visual": "Cria receita com o que tem na geladeira.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Estudo",
+   "fala": "Terceiro: Estudo. Explica a matéria como se você tivesse 12 anos. Essa é legalzinha… comenta KIT que eu te mando os dez assistentes. Manda pro amigo.",
+   "legenda": "Terceiro: Estudo. Explica a matéria como se você tivesse 12 anos. Essa é legalzinha… comenta KIT que eu te mando os dez assistentes. Manda pro amigo.",
+   "visual": "Explica a matéria como se você tivesse 12 anos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Textos",
+   "fala": "Segundo: Textos. Escreve o texto do seu negócio.",
+   "legenda": "Segundo: Textos. Escreve o texto do seu negócio.",
+   "visual": "Escreve o texto do seu negócio.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Detector de golpe",
+   "fala": "E o primeiro: Detector de golpe. Lê a mensagem suspeita e avisa o que tem de errado.",
+   "legenda": "E o primeiro: Detector de golpe. Lê a mensagem suspeita e avisa o que tem de errado.",
+   "visual": "Lê a mensagem suspeita e avisa o que tem de errado.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta KIT e me segue. Você já recebeu mensagem de golpe no zap?",
+   "legenda": "Comenta KIT e me segue. Você já recebeu mensagem de golpe no zap?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "b) carimbo batendo",
+  "contador": "a) número + barra de blocos",
+  "legenda": "b) uma palavra gigante com pop",
+  "transicao": "a) flash branco",
+  "camera": "e) câmera na mão",
+  "fechamento": "b) pódio",
+  "mascote": "cachecol, carregando caixas",
+  "cenario": "escritório vazio",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 99,
+ "duracao_estimada_s": 34.7
+}

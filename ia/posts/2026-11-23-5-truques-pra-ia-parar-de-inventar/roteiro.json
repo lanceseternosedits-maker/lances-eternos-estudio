@@ -1,0 +1,126 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "como_funciona",
+ "chave": "FONTE",
+ "tese": "COMO FAZER A IA PARAR DE INVENTAR · E O Nº 1 É O QUE MAIS PESA",
+ "conceito": "como_funciona: contagem 5→1 com objeto reconhecível no 1º quadro (como fazer a ia parar de inventar); cenário escritório vazio, mascote capa, se escondendo; nº1 revelada por último.",
+ "brinde": "O prompt pronto pra IA parar de inventar",
+ "fontes": [
+  "https://arxiv.org/abs/2205.11916",
+  "https://www.bloomberglaw.com/"
+ ],
+ "prova_viral": "Kojima et al., 2022 (arXiv 2205.11916): 'pense passo a passo' levou o acerto de 17,7% para 78,7% (MultiArith); caso Mata x Avianca (22/06/2023, multa de US$ 5 mil, Bloomberg Law, Reuters).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "COMO FAZER A IA PARAR DE INVENTAR",
+   "fala": "A IA inventa coisa com a maior confiança. Cinco truques pra ela errar menos.",
+   "legenda": "A IA inventa coisa com a maior confiança. Cinco truques pra ela errar menos.",
+   "visual": "COMO FAZER A IA PARAR DE INVENTAR",
+   "itens": "clean",
+   "etiqueta": [
+    "COMO FAZER A IA PARAR DE INVENTAR",
+    "E O Nº 1 É O QUE MAIS PESA"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Confira",
+   "fala": "Quinto: Confira. Confira o link antes de usar a resposta.",
+   "legenda": "Quinto: Confira. Confira o link antes de usar a resposta.",
+   "visual": "Confira o link antes de usar a resposta.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Não sei",
+   "fala": "Quarto: Não sei. Peça: se não souber, diga que não sabe.",
+   "legenda": "Quarto: Não sei. Peça: se não souber, diga que não sabe.",
+   "visual": "Peça: se não souber, diga que não sabe.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Fonte",
+   "fala": "Terceiro: Fonte. Peça a fonte, com link, de tudo. Essa é legalzinha… comenta FONTE que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Fonte. Peça a fonte, com link, de tudo. Essa é legalzinha… comenta FONTE que eu mando os cinco. Manda pro amigo.",
+   "visual": "Peça a fonte, com link, de tudo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Contexto",
+   "fala": "Segundo: Contexto. Cole o texto e peça pra responder só com ele.",
+   "legenda": "Segundo: Contexto. Cole o texto e peça pra responder só com ele.",
+   "visual": "Cole o texto e peça pra responder só com ele.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Passo",
+   "fala": "E o primeiro: Passo. Peça pra pensar passo a passo, e a conta melhora.",
+   "legenda": "E o primeiro: Passo. Peça pra pensar passo a passo, e a conta melhora.",
+   "visual": "Peça pra pensar passo a passo, e a conta melhora.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta FONTE e me segue. Você já pegou a IA inventando alguma coisa?",
+   "legenda": "Comenta FONTE e me segue. Você já pegou a IA inventando alguma coisa?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "f) escrito à mão",
+  "contador": "e) placar 8-bit",
+  "legenda": "b) uma palavra gigante com pop",
+  "transicao": "e) glitch RGB",
+  "camera": "e) câmera na mão",
+  "fechamento": "f) cartões que viram",
+  "mascote": "capa, se escondendo",
+  "cenario": "escritório vazio",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 96,
+ "duracao_estimada_s": 33.7
+}

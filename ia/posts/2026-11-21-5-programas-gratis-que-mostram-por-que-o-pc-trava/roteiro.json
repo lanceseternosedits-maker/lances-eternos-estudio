@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "como_funciona",
+ "chave": "TRAVA",
+ "tese": "POR QUE O SEU PC COM WINDOWS TRAVA? 5 PROGRAMAS GRÁTIS MOSTRAM · +179 MIL ESTRELAS NO GITHUB · E O Nº 1 MOSTRA O VILÃO",
+ "conceito": "como_funciona: contagem 5→1 com objeto reconhecível no 1º quadro (por que o seu pc com windows trava? 5 programas grátis mostram); cenário mesa de trabalho, mascote cachecol, carregando caixas; nº1 revelada por último.",
+ "brinde": "Links dos 5 + o checklist de 5 passos pra destravar o PC",
+ "fontes": [
+  "https://github.com/windirstat/windirstat",
+  "https://github.com/bleachbit/bleachbit",
+  "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+  "https://github.com/winsiderss/systeminformer",
+  "https://github.com/microsoft/PowerToys"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): WinDirStat 4.567, BleachBit 7.542, Hardware Monitor 9.423, System Informer 16.527, PowerToys 141.156; total 179.215.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "POR QUE O SEU PC COM WINDOWS TRAVA? 5 PROGRAMAS GRÁTIS MOSTRAM",
+   "fala": "Seu PC com Windows trava e você não sabe por quê? Cinco programas grátis mostram o vilão.",
+   "legenda": "Seu PC com Windows trava e você não sabe por quê? Cinco programas grátis mostram o vilão.",
+   "visual": "POR QUE O SEU PC COM WINDOWS TRAVA? 5 PROGRAMAS GRÁTIS MOSTRAM",
+   "itens": "clean",
+   "etiqueta": [
+    "POR QUE O SEU PC COM WINDOWS TRAVA? 5 PROGRAMAS GRÁTIS MOSTRAM",
+    "+179 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 MOSTRA O VILÃO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "WinDirStat",
+   "fala": "Quinto: WinDirStat. Mostra o que lota o seu disco.",
+   "legenda": "Quinto: WinDirStat. Mostra o que lota o seu disco.",
+   "visual": "Mostra o que lota o seu disco.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "windirstat/windirstat",
+   "estrelas": 4567
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "BleachBit",
+   "fala": "Quarto: BleachBit. Limpa arquivos inúteis do PC.",
+   "legenda": "Quarto: BleachBit. Limpa arquivos inúteis do PC.",
+   "visual": "Limpa arquivos inúteis do PC.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "bleachbit/bleachbit",
+   "estrelas": 7542
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Hardware Monitor",
+   "fala": "Terceiro: Hardware Monitor. Mostra a temperatura de cada peça. Essa é legalzinha… comenta TRAVA que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Hardware Monitor. Mostra a temperatura de cada peça. Essa é legalzinha… comenta TRAVA que eu mando os cinco. Manda pro amigo.",
+   "visual": "Mostra a temperatura de cada peça.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+   "estrelas": 9423
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "System Informer",
+   "fala": "Segundo: System Informer. Mostra qual programa pesa mais.",
+   "legenda": "Segundo: System Informer. Mostra qual programa pesa mais.",
+   "visual": "Mostra qual programa pesa mais.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "winsiderss/systeminformer",
+   "estrelas": 16527
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "PowerToys",
+   "fala": "E o primeiro: PowerToys. Atalhos que poupam tempo no PC.",
+   "legenda": "E o primeiro: PowerToys. Atalhos que poupam tempo no PC.",
+   "visual": "Atalhos que poupam tempo no PC.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "microsoft/PowerToys",
+   "estrelas": 141156
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta TRAVA e me segue. Qual jogo trava mais no seu PC?",
+   "legenda": "Comenta TRAVA e me segue. Qual jogo trava mais no seu PC?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "b) carimbo batendo",
+  "contador": "a) número + barra de blocos",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "a) flash branco",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "b) pódio",
+  "mascote": "cachecol, carregando caixas",
+  "cenario": "mesa de trabalho",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 85,
+ "duracao_estimada_s": 29.8
+}

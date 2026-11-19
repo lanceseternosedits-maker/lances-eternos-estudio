@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "JEITO",
+ "tese": "5 SKILLS E PROJETOS GRÁTIS PRA ENSINAR A IA · +775 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1 com objeto reconhecível no 1º quadro (5 skills e projetos grátis pra ensinar a ia); cenário mesa de trabalho, mascote óculos + crachá, digitando; nº1 revelada por último.",
+ "brinde": "Links dos 5 + 3 pedidos prontos pra ensinar a IA o seu jeito",
+ "fontes": [
+  "https://github.com/open-webui/open-webui",
+  "https://github.com/zhayujie/CowAgent",
+  "https://github.com/sickn33/agentic-awesome-skills",
+  "https://github.com/obra/superpowers",
+  "https://github.com/anthropics/skills"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Open WebUI 159.065, CowAgent 48.006, Agentic Skills 49.974, superpowers 321.528, Skills oficiais 197.388; total 775.961.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 SKILLS E PROJETOS GRÁTIS PRA ENSINAR A IA",
+   "fala": "Ninguém quer aprender IA. Quer ensinar a IA com skills grátis, do seu jeito.",
+   "legenda": "Ninguém quer aprender IA. Quer ensinar a IA com skills grátis, do seu jeito.",
+   "visual": "5 SKILLS E PROJETOS GRÁTIS PRA ENSINAR A IA",
+   "itens": "clean",
+   "etiqueta": [
+    "5 SKILLS E PROJETOS GRÁTIS PRA ENSINAR A IA",
+    "+775 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Open WebUI",
+   "fala": "Quinto: Open WebUI. Chat de IA com a cara do ChatGPT.",
+   "legenda": "Quinto: Open WebUI. Chat de IA com a cara do ChatGPT.",
+   "visual": "Chat de IA com a cara do ChatGPT.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "open-webui/open-webui",
+   "estrelas": 159065
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "CowAgent",
+   "fala": "Quarto: CowAgent. Assistente pessoal de IA, aberto.",
+   "legenda": "Quarto: CowAgent. Assistente pessoal de IA, aberto.",
+   "visual": "Assistente pessoal de IA, aberto.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "zhayujie/CowAgent",
+   "estrelas": 48006
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Agentic Skills",
+   "fala": "Terceiro: Agentic Skills. Quase 3 mil skills prontas. Essa é legalzinha… comenta JEITO que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Agentic Skills. Quase 3 mil skills prontas. Essa é legalzinha… comenta JEITO que eu mando os cinco. Manda pro amigo.",
+   "visual": "Quase 3 mil skills prontas.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "sickn33/agentic-awesome-skills",
+   "estrelas": 49974
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "superpowers",
+   "fala": "Segundo: superpowers. Ensina o Claude a planejar e testar.",
+   "legenda": "Segundo: superpowers. Ensina o Claude a planejar e testar.",
+   "visual": "Ensina o Claude a planejar e testar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "obra/superpowers",
+   "estrelas": 321528
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Skills oficiais",
+   "fala": "E o primeiro: Skills oficiais. As skills da própria Anthropic.",
+   "legenda": "E o primeiro: Skills oficiais. As skills da própria Anthropic.",
+   "visual": "As skills da própria Anthropic.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "anthropics/skills",
+   "estrelas": 197388
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta JEITO e me segue. Que tarefa sua a IA já faz melhor que você?",
+   "legenda": "Comenta JEITO e me segue. Que tarefa sua a IA já faz melhor que você?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "d) letreiro split-flap",
+  "contador": "c) medidor circular",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "c) íris circular",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "d) tela CONTINUE?",
+  "mascote": "óculos + crachá, digitando",
+  "cenario": "mesa de trabalho",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 87,
+ "duracao_estimada_s": 30.5
+}

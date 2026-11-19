@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "GRAVA",
+ "tese": "PARA DE PAGAR PRA GRAVAR SEU JOGO · +229 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1 com objeto reconhecível no 1º quadro (para de pagar pra gravar seu jogo); cenário ilha de edição, mascote mochila, lendo; nº1 revelada por último.",
+ "brinde": "Links dos 5 + os atalhos pra gravar o seu jogo sem travar",
+ "fontes": [
+  "https://github.com/ShareX/ShareX",
+  "https://github.com/mltframework/shotcut",
+  "https://github.com/FFmpeg/FFmpeg",
+  "https://github.com/obsproject/obs-studio",
+  "https://github.com/HandBrake/HandBrake"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): ShareX 41.160, Shotcut 15.726, FFmpeg 67.580, OBS Studio 79.725, HandBrake 25.054; total 229.245.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "PARA DE PAGAR PRA GRAVAR SEU JOGO",
+   "fala": "Você grava o jogo com programa pago? Esses cinco são de graça.",
+   "legenda": "Você grava o jogo com programa pago? Esses cinco são de graça.",
+   "visual": "PARA DE PAGAR PRA GRAVAR SEU JOGO",
+   "itens": "clean",
+   "etiqueta": [
+    "PARA DE PAGAR PRA GRAVAR SEU JOGO",
+    "+229 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "ShareX",
+   "fala": "Quinto: ShareX. Tira print e grava a tela com um atalho.",
+   "legenda": "Quinto: ShareX. Tira print e grava a tela com um atalho.",
+   "visual": "Tira print e grava a tela com um atalho.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "ShareX/ShareX",
+   "estrelas": 41160
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Shotcut",
+   "fala": "Quarto: Shotcut. Edita o vídeo, sem marca d'água.",
+   "legenda": "Quarto: Shotcut. Edita o vídeo, sem marca d'água.",
+   "visual": "Edita o vídeo, sem marca d'água.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "mltframework/shotcut",
+   "estrelas": 15726
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "FFmpeg",
+   "fala": "Terceiro: FFmpeg. Converte qualquer vídeo e áudio. Essa é legalzinha… comenta GRAVA que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: FFmpeg. Converte qualquer vídeo e áudio. Essa é legalzinha… comenta GRAVA que eu mando os cinco. Manda pro amigo.",
+   "visual": "Converte qualquer vídeo e áudio.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "FFmpeg/FFmpeg",
+   "estrelas": 67580
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "OBS Studio",
+   "fala": "Segundo: OBS Studio. Grava o PC e transmite ao vivo.",
+   "legenda": "Segundo: OBS Studio. Grava o PC e transmite ao vivo.",
+   "visual": "Grava o PC e transmite ao vivo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "obsproject/obs-studio",
+   "estrelas": 79725
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "HandBrake",
+   "fala": "E o primeiro: HandBrake. Encolhe o vídeo gigante.",
+   "legenda": "E o primeiro: HandBrake. Encolhe o vídeo gigante.",
+   "visual": "Encolhe o vídeo gigante.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "HandBrake/HandBrake",
+   "estrelas": 25054
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta GRAVA e me segue. Qual foi o último jogo que você quis gravar?",
+   "legenda": "Comenta GRAVA e me segue. Qual foi o último jogo que você quis gravar?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "d) pote enchendo de estrelas",
+  "legenda": "b) uma palavra gigante com pop",
+  "transicao": "d) virada de página",
+  "camera": "e) câmera na mão",
+  "fechamento": "e) página de caderno",
+  "mascote": "mochila, lendo",
+  "cenario": "ilha de edição",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 83,
+ "duracao_estimada_s": 29.1
+}

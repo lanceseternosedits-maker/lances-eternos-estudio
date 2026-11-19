@@ -1,0 +1,31 @@
+{
+ "data": "2026-11-22",
+ "horario": "20:30",
+ "horarios": {
+  "instagram": "2026-11-22 20:30",
+  "tiktok": "2026-11-22 20:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "apps",
+  "história",
+  "WhatsApp",
+  "YouTube"
+ ],
+ "fontes": [
+  "https://abcnews.go.com/Technology/story?id=2539400",
+  "https://about.fb.com/news/2014/02/facebook-to-acquire-whatsapp/"
+ ],
+ "prova_viral": "Google compra o YouTube por US$ 1,65 bi (out/2006); Facebook compra o Instagram por ~US$ 1 bi (abr/2012); Facebook anuncia a compra do WhatsApp (fev/2014, ~US$ 19 bi).",
+ "cta": "APPS",
+ "polemica": false,
+ "vaga": 10,
+ "candidato": "c",
+ "primeiro_comentario": "💬 Comenta APPS que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 34%, abaixo do corte"
+}

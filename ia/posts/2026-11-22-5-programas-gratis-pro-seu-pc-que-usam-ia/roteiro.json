@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "PC",
+ "tese": "5 PROGRAMAS GRÁTIS PRO SEU PC COM WINDOWS QUE USAM IA · +810 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1 com objeto reconhecível no 1º quadro (5 programas grátis pro seu pc com windows que usam ia); cenário garagem de madrugada, mascote headset, pilotando; nº1 revelada por último.",
+ "brinde": "Links dos 5 + o comando pronto pra transcrever um áudio",
+ "fontes": [
+  "https://github.com/ggml-org/whisper.cpp",
+  "https://github.com/microsoft/markitdown",
+  "https://github.com/open-webui/open-webui",
+  "https://github.com/ollama/ollama",
+  "https://github.com/n8n-io/n8n"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): whisper.cpp 55.308, MarkItDown 196.815, Open WebUI 159.065, Ollama 187.576, n8n 211.284; total 810.048.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROGRAMAS GRÁTIS PRO SEU PC COM WINDOWS QUE USAM IA",
+   "fala": "Cinco programas grátis pro seu PC com Windows já usam IA. Você conhece algum?",
+   "legenda": "Cinco programas grátis pro seu PC com Windows já usam IA. Você conhece algum?",
+   "visual": "5 PROGRAMAS GRÁTIS PRO SEU PC COM WINDOWS QUE USAM IA",
+   "itens": "clean",
+   "etiqueta": [
+    "5 PROGRAMAS GRÁTIS PRO SEU PC COM WINDOWS QUE USAM IA",
+    "+810 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "whisper.cpp",
+   "fala": "Quinto: whisper.cpp. Transcreve áudio no seu próprio PC.",
+   "legenda": "Quinto: whisper.cpp. Transcreve áudio no seu próprio PC.",
+   "visual": "Transcreve áudio no seu próprio PC.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "ggml-org/whisper.cpp",
+   "estrelas": 55308
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "MarkItDown",
+   "fala": "Quarto: MarkItDown. Vira Word e PDF em texto pra IA ler.",
+   "legenda": "Quarto: MarkItDown. Vira Word e PDF em texto pra IA ler.",
+   "visual": "Vira Word e PDF em texto pra IA ler.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "microsoft/markitdown",
+   "estrelas": 196815
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Open WebUI",
+   "fala": "Terceiro: Open WebUI. Chat de IA com a cara do ChatGPT. Essa é legalzinha… comenta PC que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Open WebUI. Chat de IA com a cara do ChatGPT. Essa é legalzinha… comenta PC que eu mando os cinco. Manda pro amigo.",
+   "visual": "Chat de IA com a cara do ChatGPT.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "open-webui/open-webui",
+   "estrelas": 159065
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Ollama",
+   "fala": "Segundo: Ollama. Roda IA no seu PC, sem mensalidade.",
+   "legenda": "Segundo: Ollama. Roda IA no seu PC, sem mensalidade.",
+   "visual": "Roda IA no seu PC, sem mensalidade.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "ollama/ollama",
+   "estrelas": 187576
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "n8n",
+   "fala": "E o primeiro: n8n. Liga seus apps e a IA faz sozinha.",
+   "legenda": "E o primeiro: n8n. Liga seus apps e a IA faz sozinha.",
+   "visual": "Liga seus apps e a IA faz sozinha.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "n8n-io/n8n",
+   "estrelas": 211284
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta PC e me segue. Qual tarefa do seu PC você entregaria pra IA?",
+   "legenda": "Comenta PC e me segue. Qual tarefa do seu PC você entregaria pra IA?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "f) termômetro",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "c) travelling lateral",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "mascote": "headset, pilotando",
+  "cenario": "garagem de madrugada",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 92,
+ "duracao_estimada_s": 32.3
+}

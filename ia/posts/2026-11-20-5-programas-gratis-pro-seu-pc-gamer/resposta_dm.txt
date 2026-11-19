@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º Heroic: https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher
+4º RetroArch: https://github.com/libretro/RetroArch
+3º Moonlight: https://github.com/moonlight-stream/moonlight-qt
+2º OBS Studio: https://github.com/obsproject/obs-studio
+1º Battery Monitor: https://github.com/krisgfx9/Wireless-Device-Battery-Monitor
+
+⚠️ Use só com jogos que são SEUS. O Battery Monitor é só para Windows.
+
+Brinde: Links dos 5 + o passo a passo pra ver a bateria do controle sem abrir nada.

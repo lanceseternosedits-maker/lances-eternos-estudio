@@ -1,0 +1,60 @@
+{
+ "data": "2026-11-23",
+ "horario": "06:00",
+ "horarios": {
+  "instagram": "2026-11-23 06:00",
+  "tiktok": "2026-11-23 06:00"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "skills",
+  "claude code",
+  "github",
+  "grátis"
+ ],
+ "fontes": [
+  "https://github.com/zhayujie/CowAgent",
+  "https://github.com/sickn33/agentic-awesome-skills",
+  "https://github.com/JuliusBrussee/caveman",
+  "https://github.com/anthropics/skills",
+  "https://github.com/obra/superpowers"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): CowAgent 48.006, Agentic Skills 49.974, caveman 121.378, Skills oficiais 197.388, superpowers 321.528; total 738.274.",
+ "cta": "SKILL",
+ "polemica": false,
+ "vaga": 11,
+ "candidato": "a",
+ "primeiro_comentario": "💬 Comenta SKILL que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "reprovado na revisão",
+ "revisao": {
+  "veredito": "reprovado",
+  "resumo": "título falso: 2 itens abaixo de 50 mil",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "ajustar",
+    "nota": "Único com IA, mas jargão (skills, Claude Code) e itens de desenvolvedor."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "reprova",
+    "nota": "\"Passam de 50 mil\" é falso: CowAgent 48.006 e Agentic Skills 49.974; CowAgent não é skill."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Gancho sem conflito."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "Skills e Claude Code sem tradução."
+   }
+  ],
+  "ajustes": [],
+  "em": "2026-11-19 08:18"
+ }
+}

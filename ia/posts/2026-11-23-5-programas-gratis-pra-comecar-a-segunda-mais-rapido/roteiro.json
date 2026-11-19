@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "SEGUNDA",
+ "tese": "PARA DE PERDER TEMPO NA SEGUNDA-FEIRA · +330 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1 com objeto reconhecível no 1º quadro (para de perder tempo na segunda-feira); cenário biblioteca de manhã, mascote mochila, lendo; nº1 revelada por último.",
+ "brinde": "Links dos 5 + os atalhos que mais poupam tempo no PC",
+ "fontes": [
+  "https://github.com/notepad-plus-plus/notepad-plus-plus",
+  "https://github.com/files-community/Files",
+  "https://github.com/Flow-Launcher/Flow.Launcher",
+  "https://github.com/Stirling-Tools/Stirling-PDF",
+  "https://github.com/microsoft/PowerToys"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Notepad++ 29.924, Files 46.711, Flow Launcher 16.051, Stirling PDF 96.970, PowerToys 141.156; total 330.812.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "PARA DE PERDER TEMPO NA SEGUNDA-FEIRA",
+   "fala": "Você perde tempo toda segunda? Esses cinco programas grátis poupam horas.",
+   "legenda": "Você perde tempo toda segunda? Esses cinco programas grátis poupam horas.",
+   "visual": "PARA DE PERDER TEMPO NA SEGUNDA-FEIRA",
+   "itens": "clean",
+   "etiqueta": [
+    "PARA DE PERDER TEMPO NA SEGUNDA-FEIRA",
+    "+330 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Notepad++",
+   "fala": "Quinto: Notepad++. Bloco de notas turbinado.",
+   "legenda": "Quinto: Notepad++. Bloco de notas turbinado.",
+   "visual": "Bloco de notas turbinado.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "notepad-plus-plus/notepad-plus-plus",
+   "estrelas": 29924
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Files",
+   "fala": "Quarto: Files. Gerenciador de arquivos com abas.",
+   "legenda": "Quarto: Files. Gerenciador de arquivos com abas.",
+   "visual": "Gerenciador de arquivos com abas.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "files-community/Files",
+   "estrelas": 46711
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Flow Launcher",
+   "fala": "Terceiro: Flow Launcher. Abre qualquer coisa só digitando. Essa é legalzinha… comenta SEGUNDA que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Flow Launcher. Abre qualquer coisa só digitando. Essa é legalzinha… comenta SEGUNDA que eu mando os cinco. Manda pro amigo.",
+   "visual": "Abre qualquer coisa só digitando.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "Flow-Launcher/Flow.Launcher",
+   "estrelas": 16051
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Stirling PDF",
+   "fala": "Segundo: Stirling PDF. Edita e junta PDF, grátis.",
+   "legenda": "Segundo: Stirling PDF. Edita e junta PDF, grátis.",
+   "visual": "Edita e junta PDF, grátis.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "Stirling-Tools/Stirling-PDF",
+   "estrelas": 96970
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "PowerToys",
+   "fala": "E o primeiro: PowerToys. Dezenas de atalhos da Microsoft.",
+   "legenda": "E o primeiro: PowerToys. Dezenas de atalhos da Microsoft.",
+   "visual": "Dezenas de atalhos da Microsoft.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "microsoft/PowerToys",
+   "estrelas": 141156
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta SEGUNDA e me segue. Você perde mais tempo no PC ou no celular?",
+   "legenda": "Comenta SEGUNDA e me segue. Você perde mais tempo no PC ou no celular?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "d) pote enchendo de estrelas",
+  "legenda": "d) balão de fala",
+  "transicao": "d) virada de página",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "e) página de caderno",
+  "mascote": "mochila, lendo",
+  "cenario": "biblioteca de manhã",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 76,
+ "duracao_estimada_s": 26.7
+}

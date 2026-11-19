@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º CowAgent: https://github.com/zhayujie/CowAgent
+4º Agentic Skills: https://github.com/sickn33/agentic-awesome-skills
+3º caveman: https://github.com/JuliusBrussee/caveman
+2º Skills oficiais: https://github.com/anthropics/skills
+1º superpowers: https://github.com/obra/superpowers
+
+⚠️ Skills rodam no Claude Code (vem nos planos pagos do Claude); projetos independentes.
+
+Brinde: Links dos 5 + como instalar a primeira skill em 3 passos.

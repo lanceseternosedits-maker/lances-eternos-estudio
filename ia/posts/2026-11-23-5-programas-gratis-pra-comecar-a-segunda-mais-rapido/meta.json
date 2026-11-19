@@ -1,0 +1,44 @@
+{
+ "data": "2026-11-23",
+ "horario": "06:00",
+ "horarios": {
+  "instagram": "2026-11-23 06:00",
+  "tiktok": "2026-11-23 06:00"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "produtividade",
+  "Windows",
+  "PC",
+  "github",
+  "grátis"
+ ],
+ "fontes": [
+  "https://github.com/notepad-plus-plus/notepad-plus-plus",
+  "https://github.com/files-community/Files",
+  "https://github.com/Flow-Launcher/Flow.Launcher",
+  "https://github.com/Stirling-Tools/Stirling-PDF",
+  "https://github.com/microsoft/PowerToys"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Notepad++ 29.924, Files 46.711, Flow Launcher 16.051, Stirling PDF 96.970, PowerToys 141.156; total 330.812.",
+ "cta": "SEGUNDA",
+ "polemica": false,
+ "vaga": 11,
+ "candidato": "c",
+ "primeiro_comentario": "💬 Comenta SEGUNDA que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "roteiro aguardando aprovação",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "reserva promovida, sem painel completo",
+  "pareceres": [],
+  "ajustes": [
+   "pergunta final de 1 palavra"
+  ],
+  "em": "2026-11-19 08:18",
+  "obs": "Promovido após o 11a ser reprovado por fatos; não passou pelos 4 revisores (economia de tokens). Itens conferidos na API do GitHub em 19/11."
+ }
+}

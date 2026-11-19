@@ -1141,7 +1141,7 @@
    "tipo": "post",
    "label": "10-estilos",
    "data": "2026-11-08",
-   "score": 362.0
+   "score": 359.0
   },
   {
    "id": "formato:reel lista + demonstração (formato 2)",
@@ -1193,7 +1193,7 @@
    "tipo": "post",
    "label": "tv-celular",
    "data": "2026-11-06",
-   "score": 419.0
+   "score": 421.0
   },
   {
    "id": "pilar:lista",
@@ -1329,7 +1329,7 @@
    "tipo": "post",
    "label": "editar-video",
    "data": "2026-11-07",
-   "score": 434.0
+   "score": 438.0
   },
   {
    "id": "cta:EDITA",
@@ -2550,7 +2550,7 @@
    "tipo": "post",
    "label": "9-dias-pro-gta-6",
    "data": "2026-11-10",
-   "score": 77.0
+   "score": 80.0
   },
   {
    "id": "formato:cidade neon",
@@ -2661,7 +2661,7 @@
    "tipo": "post",
    "label": "apple-nao-queria",
    "data": "2026-11-12",
-   "score": 197.0
+   "score": 198.0
   },
   {
    "id": "cta:APPLE",
@@ -4919,7 +4919,7 @@
    "tipo": "post",
    "label": "nvidia-perdeu-o-chefe",
    "data": "2026-11-16",
-   "score": null
+   "score": 5.0
   },
   {
    "id": "formato:reel notícia (padrão perfil referência)",
@@ -5214,7 +5214,7 @@
    "tipo": "post",
    "label": "tv-sem-propaganda-lg-samsung",
    "data": "2026-11-16",
-   "score": null
+   "score": 24.0
   },
   {
    "id": "formato:reel v7 (2 vozes)",
@@ -5302,8 +5302,13 @@
    "id": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
    "tipo": "post",
    "label": "5-programas-gratis-pra-editar-o-video-do-seu-jogo",
-   "data": "2026-11-17",
+   "data": "2026-11-18",
    "score": null
+  },
+  {
+   "id": "formato:reel contagem (molde campeão, visual clean)",
+   "tipo": "formato",
+   "label": "reel contagem (molde campeão, visual clean)"
   },
   {
    "id": "tema:github",
@@ -5566,7 +5571,7 @@
    "tipo": "post",
    "label": "jogos-no-celular-e-no-mac",
    "data": "2026-11-17",
-   "score": null
+   "score": 5.0
   },
   {
    "id": "cta:JOGOS",
@@ -6288,6 +6293,23 @@
    "label": "Organizador da semana"
   },
   {
+   "id": "2026-11-20-5-numeros-do-gta-que-assustam",
+   "tipo": "post",
+   "label": "5-numeros-do-gta-que-assustam",
+   "data": "2026-11-20",
+   "score": null
+  },
+  {
+   "id": "fonte:https://gamesbeat.com/?p=66657",
+   "tipo": "fonte",
+   "label": "https://gamesbeat.com/?p=66657"
+  },
+  {
+   "id": "fonte:https://www.fox5ny.com/news/grand-theft-auto-6-already-1-billion-sales-week-before-launch",
+   "tipo": "fonte",
+   "label": "https://www.fox5ny.com/news/grand-theft-auto-6-already-1-billion-sales-week-before-launch"
+  },
+  {
    "id": "2026-11-20-5-programas-gratis-novos-pro-seu-pc",
    "tipo": "post",
    "label": "5-programas-gratis-novos-pro-seu-pc",
@@ -6310,6 +6332,131 @@
    "label": "https://github.com/RoutineMiku/apkstart"
   },
   {
+   "id": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo",
+   "tipo": "post",
+   "label": "5-programas-gratis-pra-gravar-e-salvar-seu-jogo",
+   "data": "2026-11-20",
+   "score": null
+  },
+  {
+   "id": "cta:GRAVA",
+   "tipo": "cta",
+   "label": "GRAVA"
+  },
+  {
+   "id": "tema:gravar jogo",
+   "tipo": "tema",
+   "label": "gravar jogo"
+  },
+  {
+   "id": "fonte:https://github.com/ShareX/ShareX",
+   "tipo": "fonte",
+   "label": "https://github.com/ShareX/ShareX"
+  },
+  {
+   "id": "fonte:https://github.com/FFmpeg/FFmpeg",
+   "tipo": "fonte",
+   "label": "https://github.com/FFmpeg/FFmpeg"
+  },
+  {
+   "id": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer",
+   "tipo": "post",
+   "label": "5-programas-gratis-pro-seu-pc-gamer",
+   "data": "2026-11-20",
+   "score": null
+  },
+  {
+   "id": "tema:PC gamer",
+   "tipo": "tema",
+   "label": "PC gamer"
+  },
+  {
+   "id": "fonte:https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
+   "tipo": "fonte",
+   "label": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher"
+  },
+  {
+   "id": "fonte:https://github.com/libretro/RetroArch",
+   "tipo": "fonte",
+   "label": "https://github.com/libretro/RetroArch"
+  },
+  {
+   "id": "fonte:https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+   "tipo": "fonte",
+   "label": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"
+  },
+  {
+   "id": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv",
+   "tipo": "post",
+   "label": "5-projetos-gratis-pro-seu-celular-e-sua-tv",
+   "data": "2026-11-20",
+   "score": null
+  },
+  {
+   "id": "tema:grátis",
+   "tipo": "tema",
+   "label": "grátis"
+  },
+  {
+   "id": "fonte:https://github.com/AdguardTeam/AdGuardHome",
+   "tipo": "fonte",
+   "label": "https://github.com/AdguardTeam/AdGuardHome"
+  },
+  {
+   "id": "fonte:https://github.com/syncthing/syncthing",
+   "tipo": "fonte",
+   "label": "https://github.com/syncthing/syncthing"
+  },
+  {
+   "id": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo",
+   "tipo": "post",
+   "label": "5-viradas-da-nvidia-da-lanchonete-ao-escandalo",
+   "data": "2026-11-20",
+   "score": null
+  },
+  {
+   "id": "fonte:https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+   "tipo": "fonte",
+   "label": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+  },
+  {
+   "id": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana",
+   "tipo": "post",
+   "label": "a-nvidia-sem-o-fundador-5-fatos-da-semana",
+   "data": "2026-11-20",
+   "score": null
+  },
+  {
+   "id": "cta:FOFOCA",
+   "tipo": "cta",
+   "label": "FOFOCA"
+  },
+  {
+   "id": "tema:notícia",
+   "tipo": "tema",
+   "label": "notícia"
+  },
+  {
+   "id": "tema:Congresso",
+   "tipo": "tema",
+   "label": "Congresso"
+  },
+  {
+   "id": "fonte:https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy",
+   "tipo": "fonte",
+   "label": "https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy"
+  },
+  {
+   "id": "fonte:https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates",
+   "tipo": "fonte",
+   "label": "https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates"
+  },
+  {
+   "id": "fonte:https://thehill.com/business/6226457-nvidia-q3-earnings-strong/",
+   "tipo": "fonte",
+   "label": "https://thehill.com/business/6226457-nvidia-q3-earnings-strong/"
+  },
+  {
    "id": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra",
    "tipo": "post",
    "label": "por-que-a-ia-cobra-por-pedaco-de-palavra",
@@ -6330,6 +6477,763 @@
    "id": "fonte:https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them",
    "tipo": "fonte",
    "label": "https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them"
+  },
+  {
+   "id": "2026-11-21-5-assistentes-que-todo-mundo-conheceu",
+   "tipo": "post",
+   "label": "5-assistentes-que-todo-mundo-conheceu",
+   "data": "2026-11-21",
+   "score": null
+  },
+  {
+   "id": "cta:CLIPPY",
+   "tipo": "cta",
+   "label": "CLIPPY"
+  },
+  {
+   "id": "tema:Alexa",
+   "tipo": "tema",
+   "label": "Alexa"
+  },
+  {
+   "id": "tema:ChatGPT",
+   "tipo": "tema",
+   "label": "ChatGPT"
+  },
+  {
+   "id": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia",
+   "tipo": "post",
+   "label": "5-coisas-pra-saber-antes-de-comprar-placa-pra-ia",
+   "data": "2026-11-21",
+   "score": null
+  },
+  {
+   "id": "tema:IA no PC",
+   "tipo": "tema",
+   "label": "IA no PC"
+  },
+  {
+   "id": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-golpe",
+   "data": "2026-11-21",
+   "score": null
+  },
+  {
+   "id": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal",
+   "data": "2026-11-21",
+   "score": null
+  },
+  {
+   "id": "fonte:https://github.com/microsoft/markitdown",
+   "tipo": "fonte",
+   "label": "https://github.com/microsoft/markitdown"
+  },
+  {
+   "id": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor",
+   "data": "2026-11-21",
+   "score": null
+  },
+  {
+   "id": "fonte:https://github.com/ocrmypdf/OCRmyPDF",
+   "tipo": "fonte",
+   "label": "https://github.com/ocrmypdf/OCRmyPDF"
+  },
+  {
+   "id": "fonte:https://github.com/openai/whisper",
+   "tipo": "fonte",
+   "label": "https://github.com/openai/whisper"
+  },
+  {
+   "id": "fonte:https://github.com/paperless-ngx/paperless-ngx",
+   "tipo": "fonte",
+   "label": "https://github.com/paperless-ngx/paperless-ngx"
+  },
+  {
+   "id": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo",
+   "tipo": "post",
+   "label": "5-programas-gratis-pra-ver-e-ouvir-tudo",
+   "data": "2026-11-21",
+   "score": null
+  },
+  {
+   "id": "cta:MIDIA",
+   "tipo": "cta",
+   "label": "MIDIA"
+  },
+  {
+   "id": "tema:VLC",
+   "tipo": "tema",
+   "label": "VLC"
+  },
+  {
+   "id": "tema:vídeo",
+   "tipo": "tema",
+   "label": "vídeo"
+  },
+  {
+   "id": "tema:player",
+   "tipo": "tema",
+   "label": "player"
+  },
+  {
+   "id": "fonte:https://github.com/videolan/vlc",
+   "tipo": "fonte",
+   "label": "https://github.com/videolan/vlc"
+  },
+  {
+   "id": "fonte:https://github.com/mpv-player/mpv",
+   "tipo": "fonte",
+   "label": "https://github.com/mpv-player/mpv"
+  },
+  {
+   "id": "fonte:https://github.com/xbmc/xbmc",
+   "tipo": "fonte",
+   "label": "https://github.com/xbmc/xbmc"
+  },
+  {
+   "id": "fonte:https://github.com/jellyfin/jellyfin",
+   "tipo": "fonte",
+   "label": "https://github.com/jellyfin/jellyfin"
+  },
+  {
+   "id": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava",
+   "tipo": "post",
+   "label": "5-programas-gratis-que-mostram-por-que-o-pc-trava",
+   "data": "2026-11-21",
+   "score": null
+  },
+  {
+   "id": "cta:TRAVA",
+   "tipo": "cta",
+   "label": "TRAVA"
+  },
+  {
+   "id": "tema:windows",
+   "tipo": "tema",
+   "label": "windows"
+  },
+  {
+   "id": "tema:PC lento",
+   "tipo": "tema",
+   "label": "PC lento"
+  },
+  {
+   "id": "fonte:https://github.com/windirstat/windirstat",
+   "tipo": "fonte",
+   "label": "https://github.com/windirstat/windirstat"
+  },
+  {
+   "id": "fonte:https://github.com/bleachbit/bleachbit",
+   "tipo": "fonte",
+   "label": "https://github.com/bleachbit/bleachbit"
+  },
+  {
+   "id": "fonte:https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+   "tipo": "fonte",
+   "label": "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor"
+  },
+  {
+   "id": "fonte:https://github.com/winsiderss/systeminformer",
+   "tipo": "fonte",
+   "label": "https://github.com/winsiderss/systeminformer"
+  },
+  {
+   "id": "fonte:https://github.com/microsoft/PowerToys",
+   "tipo": "fonte",
+   "label": "https://github.com/microsoft/PowerToys"
+  },
+  {
+   "id": "2026-11-21-5-programas-gratis-que-viraram-gigantes",
+   "tipo": "post",
+   "label": "5-programas-gratis-que-viraram-gigantes",
+   "data": "2026-11-21",
+   "score": null
+  },
+  {
+   "id": "cta:GIGANTES",
+   "tipo": "cta",
+   "label": "GIGANTES"
+  },
+  {
+   "id": "tema:código aberto",
+   "tipo": "tema",
+   "label": "código aberto"
+  },
+  {
+   "id": "fonte:https://www.videolan.org/press/vlc-gpl.html",
+   "tipo": "fonte",
+   "label": "https://www.videolan.org/press/vlc-gpl.html"
+  },
+  {
+   "id": "fonte:https://blog.documentfoundation.org/blog/2010/09/28/the-document-foundation-launches-with-libreoffice/",
+   "tipo": "fonte",
+   "label": "https://blog.documentfoundation.org/blog/2010/09/28/the-document-foundation-launches-with-libreoffice/"
+  },
+  {
+   "id": "fonte:https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git",
+   "tipo": "fonte",
+   "label": "https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git"
+  },
+  {
+   "id": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular",
+   "tipo": "post",
+   "label": "5-projetos-gratis-pra-sua-tv-e-seu-celular",
+   "data": "2026-11-21",
+   "score": null
+  },
+  {
+   "id": "fonte:https://github.com/home-assistant/core",
+   "tipo": "fonte",
+   "label": "https://github.com/home-assistant/core"
+  },
+  {
+   "id": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix",
+   "tipo": "post",
+   "label": "5-projetos-pra-parar-de-pagar-google-dropbox-netflix",
+   "data": "2026-11-21",
+   "score": null
+  },
+  {
+   "id": "cta:PARE",
+   "tipo": "cta",
+   "label": "PARE"
+  },
+  {
+   "id": "tema:assinatura",
+   "tipo": "tema",
+   "label": "assinatura"
+  },
+  {
+   "id": "tema:google fotos",
+   "tipo": "tema",
+   "label": "google fotos"
+  },
+  {
+   "id": "tema:dropbox",
+   "tipo": "tema",
+   "label": "dropbox"
+  },
+  {
+   "id": "tema:netflix",
+   "tipo": "tema",
+   "label": "netflix"
+  },
+  {
+   "id": "fonte:https://github.com/Stirling-Tools/Stirling-PDF",
+   "tipo": "fonte",
+   "label": "https://github.com/Stirling-Tools/Stirling-PDF"
+  },
+  {
+   "id": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso",
+   "tipo": "post",
+   "label": "5-sinais-de-que-o-vazamento-do-gta-6-e-falso",
+   "data": "2026-11-21",
+   "score": null
+  },
+  {
+   "id": "cta:FALSO",
+   "tipo": "cta",
+   "label": "FALSO"
+  },
+  {
+   "id": "tema:fake",
+   "tipo": "tema",
+   "label": "fake"
+  },
+  {
+   "id": "tema:vídeo falso",
+   "tipo": "tema",
+   "label": "vídeo falso"
+  },
+  {
+   "id": "fonte:https://www.gtaboom.com/the-gta-6-ai-fake-problem-just-got-its-latest-legal-takedown-779e",
+   "tipo": "fonte",
+   "label": "https://www.gtaboom.com/the-gta-6-ai-fake-problem-just-got-its-latest-legal-takedown-779e"
+  },
+  {
+   "id": "fonte:https://www.notebookcheck.net/GTA-6-trailer-3-release-anticipated-as-Take-Two-targets-fake-AI-generated-leaks.1351256.0.html",
+   "tipo": "fonte",
+   "label": "https://www.notebookcheck.net/GTA-6-trailer-3-release-anticipated-as-Take-Two-targets-fake-AI-generated-leaks.1351256.0.html"
+  },
+  {
+   "id": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao",
+   "tipo": "post",
+   "label": "5-vezes-que-a-maquina-venceu-o-campeao",
+   "data": "2026-11-21",
+   "score": null
+  },
+  {
+   "id": "cta:CAMPEAO",
+   "tipo": "cta",
+   "label": "CAMPEAO"
+  },
+  {
+   "id": "tema:Deep Blue",
+   "tipo": "tema",
+   "label": "Deep Blue"
+  },
+  {
+   "id": "tema:AlphaGo",
+   "tipo": "tema",
+   "label": "AlphaGo"
+  },
+  {
+   "id": "fonte:https://spectrum.ieee.org/how-ibms-deep-blue-beat-world-champion-chess-player-garry-kasparov",
+   "tipo": "fonte",
+   "label": "https://spectrum.ieee.org/how-ibms-deep-blue-beat-world-champion-chess-player-garry-kasparov"
+  },
+  {
+   "id": "2026-11-22-5-apps-que-nasceram-pequenos",
+   "tipo": "post",
+   "label": "5-apps-que-nasceram-pequenos",
+   "data": "2026-11-22",
+   "score": null
+  },
+  {
+   "id": "cta:APPS",
+   "tipo": "cta",
+   "label": "APPS"
+  },
+  {
+   "id": "tema:apps",
+   "tipo": "tema",
+   "label": "apps"
+  },
+  {
+   "id": "tema:WhatsApp",
+   "tipo": "tema",
+   "label": "WhatsApp"
+  },
+  {
+   "id": "tema:YouTube",
+   "tipo": "tema",
+   "label": "YouTube"
+  },
+  {
+   "id": "fonte:https://abcnews.go.com/Technology/story?id=2539400",
+   "tipo": "fonte",
+   "label": "https://abcnews.go.com/Technology/story?id=2539400"
+  },
+  {
+   "id": "fonte:https://about.fb.com/news/2014/02/facebook-to-acquire-whatsapp/",
+   "tipo": "fonte",
+   "label": "https://about.fb.com/news/2014/02/facebook-to-acquire-whatsapp/"
+  },
+  {
+   "id": "2026-11-22-5-celulares-que-mudaram-o-mundo",
+   "tipo": "post",
+   "label": "5-celulares-que-mudaram-o-mundo",
+   "data": "2026-11-22",
+   "score": null
+  },
+  {
+   "id": "cta:CELULA",
+   "tipo": "cta",
+   "label": "CELULA"
+  },
+  {
+   "id": "tema:Android",
+   "tipo": "tema",
+   "label": "Android"
+  },
+  {
+   "id": "fonte:https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
+   "tipo": "fonte",
+   "label": "https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/"
+  },
+  {
+   "id": "fonte:https://www.motorola.com/",
+   "tipo": "fonte",
+   "label": "https://www.motorola.com/"
+  },
+  {
+   "id": "2026-11-22-5-coisas-que-a-ia-ja-faz-no-seu-celular",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-ja-faz-no-seu-celular",
+   "data": "2026-11-22",
+   "score": null
+  },
+  {
+   "id": "tema:dicas",
+   "tipo": "tema",
+   "label": "dicas"
+  },
+  {
+   "id": "tema:tecnologia",
+   "tipo": "tema",
+   "label": "tecnologia"
+  },
+  {
+   "id": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows",
+   "tipo": "post",
+   "label": "5-ferramentas-gratis-pra-limpar-o-windows",
+   "data": "2026-11-22",
+   "score": null
+  },
+  {
+   "id": "tema:limpar",
+   "tipo": "tema",
+   "label": "limpar"
+  },
+  {
+   "id": "fonte:https://github.com/ventoy/Ventoy",
+   "tipo": "fonte",
+   "label": "https://github.com/ventoy/Ventoy"
+  },
+  {
+   "id": "fonte:https://github.com/pbatard/rufus",
+   "tipo": "fonte",
+   "label": "https://github.com/pbatard/rufus"
+  },
+  {
+   "id": "2026-11-22-5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia",
+   "tipo": "post",
+   "label": "5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia",
+   "data": "2026-11-22",
+   "score": null
+  },
+  {
+   "id": "cta:IMAGEM",
+   "tipo": "cta",
+   "label": "IMAGEM"
+  },
+  {
+   "id": "tema:imagem falsa",
+   "tipo": "tema",
+   "label": "imagem falsa"
+  },
+  {
+   "id": "tema:fake news",
+   "tipo": "tema",
+   "label": "fake news"
+  },
+  {
+   "id": "2026-11-22-5-motivos-do-celular-esquentar-jogando",
+   "tipo": "post",
+   "label": "5-motivos-do-celular-esquentar-jogando",
+   "data": "2026-11-22",
+   "score": null
+  },
+  {
+   "id": "cta:CALOR",
+   "tipo": "cta",
+   "label": "CALOR"
+  },
+  {
+   "id": "tema:esquentar",
+   "tipo": "tema",
+   "label": "esquentar"
+  },
+  {
+   "id": "2026-11-22-5-primeiras-vezes-da-internet",
+   "tipo": "post",
+   "label": "5-primeiras-vezes-da-internet",
+   "data": "2026-11-22",
+   "score": null
+  },
+  {
+   "id": "cta:PRIMEIRA",
+   "tipo": "cta",
+   "label": "PRIMEIRA"
+  },
+  {
+   "id": "tema:internet",
+   "tipo": "tema",
+   "label": "internet"
+  },
+  {
+   "id": "tema:e-mail",
+   "tipo": "tema",
+   "label": "e-mail"
+  },
+  {
+   "id": "fonte:https://info.cern.ch/",
+   "tipo": "fonte",
+   "label": "https://info.cern.ch/"
+  },
+  {
+   "id": "fonte:https://www.youtube.com/watch?v=jNQXAC9IVRw",
+   "tipo": "fonte",
+   "label": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+  },
+  {
+   "id": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf",
+   "tipo": "post",
+   "label": "5-programas-gratis-pra-nao-pagar-pdf",
+   "data": "2026-11-22",
+   "score": null
+  },
+  {
+   "id": "cta:PDF",
+   "tipo": "cta",
+   "label": "PDF"
+  },
+  {
+   "id": "tema:PDF",
+   "tipo": "tema",
+   "label": "PDF"
+  },
+  {
+   "id": "tema:escritório",
+   "tipo": "tema",
+   "label": "escritório"
+  },
+  {
+   "id": "fonte:https://github.com/notepad-plus-plus/notepad-plus-plus",
+   "tipo": "fonte",
+   "label": "https://github.com/notepad-plus-plus/notepad-plus-plus"
+  },
+  {
+   "id": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia",
+   "tipo": "post",
+   "label": "5-programas-gratis-pro-seu-pc-que-usam-ia",
+   "data": "2026-11-22",
+   "score": null
+  },
+  {
+   "id": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce",
+   "tipo": "post",
+   "label": "5-projetos-gratis-pra-ia-trabalhar-por-voce",
+   "data": "2026-11-22",
+   "score": null
+  },
+  {
+   "id": "cta:TRABALHA",
+   "tipo": "cta",
+   "label": "TRABALHA"
+  },
+  {
+   "id": "tema:IA que trabalha",
+   "tipo": "tema",
+   "label": "IA que trabalha"
+  },
+  {
+   "id": "fonte:https://github.com/zhayujie/CowAgent",
+   "tipo": "fonte",
+   "label": "https://github.com/zhayujie/CowAgent"
+  },
+  {
+   "id": "2026-11-22-o-windows-esconde-5-programas-gratis",
+   "tipo": "post",
+   "label": "o-windows-esconde-5-programas-gratis",
+   "data": "2026-11-22",
+   "score": null
+  },
+  {
+   "id": "cta:DEVIA",
+   "tipo": "cta",
+   "label": "DEVIA"
+  },
+  {
+   "id": "fonte:https://github.com/Flow-Launcher/Flow.Launcher",
+   "tipo": "fonte",
+   "label": "https://github.com/Flow-Launcher/Flow.Launcher"
+  },
+  {
+   "id": "fonte:https://github.com/files-community/Files",
+   "tipo": "fonte",
+   "label": "https://github.com/files-community/Files"
+  },
+  {
+   "id": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github",
+   "tipo": "post",
+   "label": "os-5-projetos-de-ia-mais-queridos-do-github",
+   "data": "2026-11-22",
+   "score": null
+  },
+  {
+   "id": "cta:MIL",
+   "tipo": "cta",
+   "label": "MIL"
+  },
+  {
+   "id": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-semana",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "2026-11-23-5-consoles-que-mudaram-o-jogo",
+   "tipo": "post",
+   "label": "5-consoles-que-mudaram-o-jogo",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "tema:videogame",
+   "tipo": "tema",
+   "label": "videogame"
+  },
+  {
+   "id": "tema:Nintendo",
+   "tipo": "tema",
+   "label": "Nintendo"
+  },
+  {
+   "id": "fonte:https://www.nintendo.com/",
+   "tipo": "fonte",
+   "label": "https://www.nintendo.com/"
+  },
+  {
+   "id": "fonte:https://www.playstation.com/",
+   "tipo": "fonte",
+   "label": "https://www.playstation.com/"
+  },
+  {
+   "id": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber",
+   "tipo": "post",
+   "label": "5-datas-da-ia-que-voce-precisa-saber",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "cta:DATAS",
+   "tipo": "cta",
+   "label": "DATAS"
+  },
+  {
+   "id": "tema:Turing",
+   "tipo": "tema",
+   "label": "Turing"
+  },
+  {
+   "id": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido",
+   "tipo": "post",
+   "label": "5-programas-gratis-pra-comecar-a-segunda-mais-rapido",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "cta:SEGUNDA",
+   "tipo": "cta",
+   "label": "SEGUNDA"
+  },
+  {
+   "id": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito",
+   "tipo": "post",
+   "label": "5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "cta:JEITO",
+   "tipo": "cta",
+   "label": "JEITO"
+  },
+  {
+   "id": "tema:claude code",
+   "tipo": "tema",
+   "label": "claude code"
+  },
+  {
+   "id": "fonte:https://github.com/sickn33/agentic-awesome-skills",
+   "tipo": "fonte",
+   "label": "https://github.com/sickn33/agentic-awesome-skills"
+  },
+  {
+   "id": "fonte:https://github.com/obra/superpowers",
+   "tipo": "fonte",
+   "label": "https://github.com/obra/superpowers"
+  },
+  {
+   "id": "fonte:https://github.com/anthropics/skills",
+   "tipo": "fonte",
+   "label": "https://github.com/anthropics/skills"
+  },
+  {
+   "id": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas",
+   "tipo": "post",
+   "label": "5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "fonte:https://github.com/JuliusBrussee/caveman",
+   "tipo": "fonte",
+   "label": "https://github.com/JuliusBrussee/caveman"
+  },
+  {
+   "id": "2026-11-23-5-truques-pra-ia-escrever-do-seu-jeito",
+   "tipo": "post",
+   "label": "5-truques-pra-ia-escrever-do-seu-jeito",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "tema:escrever",
+   "tipo": "tema",
+   "label": "escrever"
+  },
+  {
+   "id": "tema:prompt",
+   "tipo": "tema",
+   "label": "prompt"
+  },
+  {
+   "id": "2026-11-23-5-truques-pra-ia-nao-esquecer-o-que-voce-disse",
+   "tipo": "post",
+   "label": "5-truques-pra-ia-nao-esquecer-o-que-voce-disse",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "tema:memória",
+   "tipo": "tema",
+   "label": "memória"
+  },
+  {
+   "id": "2026-11-23-5-truques-pra-ia-parar-de-inventar",
+   "tipo": "post",
+   "label": "5-truques-pra-ia-parar-de-inventar",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "fonte:https://www.bloomberglaw.com/",
+   "tipo": "fonte",
+   "label": "https://www.bloomberglaw.com/"
+  },
+  {
+   "id": "2026-11-23-5-vexames-famosos-da-ia",
+   "tipo": "post",
+   "label": "5-vexames-famosos-da-ia",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "cta:VEXAME",
+   "tipo": "cta",
+   "label": "VEXAME"
+  },
+  {
+   "id": "tema:erro",
+   "tipo": "tema",
+   "label": "erro"
+  },
+  {
+   "id": "fonte:https://fortune.com/2016/03/25/microsoft-sorry-offensive-chat-bot/",
+   "tipo": "fonte",
+   "label": "https://fortune.com/2016/03/25/microsoft-sorry-offensive-chat-bot/"
   }
  ],
  "links": [
@@ -7311,11 +8215,179 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-20-5-numeros-do-gta-que-assustam"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-21-5-assistentes-que-todo-mundo-conheceu"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-21-5-programas-gratis-que-viraram-gigantes"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-22-5-apps-que-nasceram-pequenos"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-22-5-celulares-que-mudaram-o-mundo"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-22-5-coisas-que-a-ia-ja-faz-no-seu-celular"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-22-5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-22-5-motivos-do-celular-esquentar-jogando"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-22-5-primeiras-vezes-da-internet"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-5-consoles-que-mudaram-o-jogo"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-5-truques-pra-ia-escrever-do-seu-jeito"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-5-truques-pra-ia-nao-esquecer-o-que-voce-disse"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-5-truques-pra-ia-parar-de-inventar"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-5-vexames-famosos-da-ia"
   },
   {
    "source": "rede:tiktok",
@@ -8043,11 +9115,179 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-20-5-numeros-do-gta-que-assustam"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-21-5-assistentes-que-todo-mundo-conheceu"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-21-5-programas-gratis-que-viraram-gigantes"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-22-5-apps-que-nasceram-pequenos"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-22-5-celulares-que-mudaram-o-mundo"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-22-5-coisas-que-a-ia-ja-faz-no-seu-celular"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-22-5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-22-5-motivos-do-celular-esquentar-jogando"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-22-5-primeiras-vezes-da-internet"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-5-consoles-que-mudaram-o-jogo"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-5-truques-pra-ia-escrever-do-seu-jeito"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-5-truques-pra-ia-nao-esquecer-o-que-voce-disse"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-5-truques-pra-ia-parar-de-inventar"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-5-vexames-famosos-da-ia"
   },
   {
    "source": "rede:youtube",
@@ -8951,11 +10191,179 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-20-5-numeros-do-gta-que-assustam"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-21-5-assistentes-que-todo-mundo-conheceu"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-21-5-programas-gratis-que-viraram-gigantes"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-22-5-apps-que-nasceram-pequenos"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-22-5-celulares-que-mudaram-o-mundo"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-22-5-coisas-que-a-ia-ja-faz-no-seu-celular"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-22-5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-22-5-motivos-do-celular-esquentar-jogando"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-22-5-primeiras-vezes-da-internet"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-5-consoles-que-mudaram-o-jogo"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-5-truques-pra-ia-escrever-do-seu-jeito"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-5-truques-pra-ia-nao-esquecer-o-que-voce-disse"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-5-truques-pra-ia-parar-de-inventar"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-5-vexames-famosos-da-ia"
   },
   {
    "source": "2026-11-01-github-agentes",
@@ -9098,6 +10506,10 @@
    "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
   },
   {
+   "source": "tema:IA local",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
    "source": "tema:privacidade",
    "target": "2026-11-02-trend-esculacho"
   },
@@ -9218,6 +10630,38 @@
    "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
   },
   {
+   "source": "tema:produtividade",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
    "source": "2026-11-01-semana-em-ia",
    "target": "paleta:paleta 2"
   },
@@ -9300,6 +10744,18 @@
   {
    "source": "cta:SKILL",
    "target": "2026-11-02-reel-skills"
+  },
+  {
+   "source": "cta:SKILL",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "tema:skills",
+   "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "tema:skills",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
   },
   {
    "source": "horario:12h",
@@ -9528,6 +10984,18 @@
   {
    "source": "tema:jogos",
    "target": "2026-11-19-por-que-o-jogo-trava-no-lancamento"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-22-5-motivos-do-celular-esquentar-jogando"
   },
   {
    "source": "2026-11-02-gemini-carbon",
@@ -10631,11 +12099,179 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-20-5-numeros-do-gta-que-assustam"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-21-5-assistentes-que-todo-mundo-conheceu"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-21-5-programas-gratis-que-viraram-gigantes"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-22-5-apps-que-nasceram-pequenos"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-22-5-celulares-que-mudaram-o-mundo"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-22-5-coisas-que-a-ia-ja-faz-no-seu-celular"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-22-5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-22-5-motivos-do-celular-esquentar-jogando"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-22-5-primeiras-vezes-da-internet"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-consoles-que-mudaram-o-jogo"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-truques-pra-ia-escrever-do-seu-jeito"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-truques-pra-ia-nao-esquecer-o-que-voce-disse"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-truques-pra-ia-parar-de-inventar"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-vexames-famosos-da-ia"
   },
   {
    "source": "empresa:Anthropic (Claude)",
@@ -10735,10 +12371,6 @@
   },
   {
    "source": "formato:reel formato 3 (contagem regressiva com mistério)",
-   "target": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo"
-  },
-  {
-   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
    "target": "2026-11-17-alexnet-2012-a-ia-aprendeu-a-ver"
   },
   {
@@ -10772,10 +12404,6 @@
   {
    "source": "formato:reel formato 3 (contagem regressiva com mistério)",
    "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
-  },
-  {
-   "source": "formato:reel formato 3 (contagem regressiva com mistério)",
-   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
   },
   {
    "source": "formato:reel formato 3 (contagem regressiva com mistério)",
@@ -10820,6 +12448,10 @@
   {
    "source": "formato:reel formato 3 (contagem regressiva com mistério)",
    "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
+  },
+  {
+   "source": "cta:TV",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
   },
   {
    "source": "tema:GitHub em alta",
@@ -11539,11 +13171,179 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-20-5-numeros-do-gta-que-assustam"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-21-5-assistentes-que-todo-mundo-conheceu"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-21-5-programas-gratis-que-viraram-gigantes"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-22-5-apps-que-nasceram-pequenos"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-22-5-celulares-que-mudaram-o-mundo"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-22-5-coisas-que-a-ia-ja-faz-no-seu-celular"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-22-5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-22-5-motivos-do-celular-esquentar-jogando"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-22-5-primeiras-vezes-da-internet"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-consoles-que-mudaram-o-jogo"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-truques-pra-ia-escrever-do-seu-jeito"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-truques-pra-ia-nao-esquecer-o-que-voce-disse"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-truques-pra-ia-parar-de-inventar"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-vexames-famosos-da-ia"
   },
   {
    "source": "formato:palco",
@@ -11842,6 +13642,10 @@
    "target": "2026-11-16-treinar-custa-milhoes"
   },
   {
+   "source": "fonte:https://www.chessprogramming.org/Kasparov_versus_Deep_Blue_1997",
+   "target": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao"
+  },
+  {
    "source": "2026-11-07-editar-video",
    "target": "cta:EDITA"
   },
@@ -11914,6 +13718,10 @@
    "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
   },
   {
+   "source": "cta:PC",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
    "source": "tema:programas grátis",
    "target": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo"
   },
@@ -11934,6 +13742,34 @@
    "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
   },
   {
+   "source": "tema:programas grátis",
+   "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
+  },
+  {
+   "source": "tema:programas grátis",
+   "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
+  },
+  {
+   "source": "tema:programas grátis",
+   "target": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava"
+  },
+  {
+   "source": "tema:programas grátis",
+   "target": "2026-11-21-5-programas-gratis-que-viraram-gigantes"
+  },
+  {
+   "source": "tema:programas grátis",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "tema:programas grátis",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "tema:programas grátis",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
    "source": "2026-11-08-advogado-chatgpt",
    "target": "cta:FONTE"
   },
@@ -11944,6 +13780,10 @@
   {
    "source": "2026-11-08-advogado-chatgpt",
    "target": "fonte:https://news.bloomberglaw.com/litigation/chatgpt-phony-legal-filing-case-gets-lawyers-a-5-000-fine"
+  },
+  {
+   "source": "cta:FONTE",
+   "target": "2026-11-23-5-truques-pra-ia-parar-de-inventar"
   },
   {
    "source": "2026-11-08-alphago-lance-37",
@@ -11960,6 +13800,10 @@
   {
    "source": "2026-11-08-alphago-lance-37",
    "target": "fonte:https://gigaom.com/episode/gigaom-ai-minute-march-10/"
+  },
+  {
+   "source": "fonte:https://deepmind.google/research/breakthroughs/alphago/",
+   "target": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao"
   },
   {
    "source": "2026-11-08-apps-pra-quem-vive-no-chat",
@@ -12366,6 +14210,30 @@
    "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
   },
   {
+   "source": "cta:KIT",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
    "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
    "target": "2026-11-16-5-coisas-que-a-ia-faz-por-voce"
   },
@@ -12394,12 +14262,64 @@
    "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
   },
   {
+   "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe"
+  },
+  {
+   "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
+   "source": "fonte:https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe"
+  },
+  {
+   "source": "fonte:https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "fonte:https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "fonte:https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "fonte:https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "fonte:https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
    "source": "fonte:https://arxiv.org/abs/2205.11916",
    "target": "2026-11-10-pense-passo-a-passo"
   },
   {
    "source": "fonte:https://arxiv.org/abs/2205.11916",
    "target": "2026-11-18-por-que-o-modo-pensar-custa-mais"
+  },
+  {
+   "source": "fonte:https://arxiv.org/abs/2205.11916",
+   "target": "2026-11-23-5-truques-pra-ia-parar-de-inventar"
   },
   {
    "source": "2026-11-08-nintendo",
@@ -12440,6 +14360,10 @@
   {
    "source": "tema:games",
    "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "source": "tema:games",
+   "target": "2026-11-20-5-numeros-do-gta-que-assustam"
   },
   {
    "source": "fonte:https://github.com/valentderah/totk-pc-recomp",
@@ -12576,6 +14500,10 @@
   {
    "source": "2026-11-09-a-pergunta-de-turing",
    "target": "fonte:https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2441/2335"
+  },
+  {
+   "source": "fonte:https://academic.oup.com/mind/article/LIX/236/433/986238",
+   "target": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber"
   },
   {
    "source": "2026-11-09-apps-gratis-mac",
@@ -12736,6 +14664,14 @@
   {
    "source": "2026-11-09-ia-esquece-a-conversa",
    "target": "fonte:https://docs.claude.com/en/docs/build-with-claude/context-windows"
+  },
+  {
+   "source": "cta:RESUMO",
+   "target": "2026-11-23-5-truques-pra-ia-nao-esquecer-o-que-voce-disse"
+  },
+  {
+   "source": "fonte:https://arxiv.org/abs/2307.03172",
+   "target": "2026-11-23-5-truques-pra-ia-nao-esquecer-o-que-voce-disse"
   },
   {
    "source": "fonte:https://docs.claude.com/en/docs/build-with-claude/context-windows",
@@ -13086,6 +15022,10 @@
    "target": "fonte:https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"
   },
   {
+   "source": "fonte:https://arxiv.org/abs/2005.14165",
+   "target": "2026-11-23-5-truques-pra-ia-escrever-do-seu-jeito"
+  },
+  {
    "source": "fonte:https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
    "target": "2026-11-12-diz-pra-que-e"
   },
@@ -13148,6 +15088,10 @@
   {
    "source": "2026-11-10-projetos-celular",
    "target": "fonte:https://github.com/rddmwmddr/android-ad-cleaner"
+  },
+  {
+   "source": "cta:CELULAR",
+   "target": "2026-11-22-5-coisas-que-a-ia-ja-faz-no-seu-celular"
   },
   {
    "source": "2026-11-10-samsung-vazou-no-chatgpt",
@@ -13394,6 +15338,10 @@
    "target": "fonte:https://github.com/cranebeaker/coop-anything"
   },
   {
+   "source": "cta:GAMER",
+   "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
+  },
+  {
    "source": "fonte:https://github.com/thebcd69/bcd-games",
    "target": "2026-11-17-jogos-no-celular-e-no-mac"
   },
@@ -13524,6 +15472,10 @@
   {
    "source": "cta:GTA",
    "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "source": "cta:GTA",
+   "target": "2026-11-20-5-numeros-do-gta-que-assustam"
   },
   {
    "source": "2026-11-12-ia-esquece-o-comeco",
@@ -13702,6 +15654,10 @@
    "target": "fonte:https://github.com/Genymobile/scrcpy"
   },
   {
+   "source": "fonte:https://github.com/Genymobile/scrcpy",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
    "source": "2026-11-13-corrida-sem-motorista",
    "target": "cta:CARRO"
   },
@@ -13775,6 +15731,10 @@
   },
   {
    "source": "rede:story",
+   "target": "2026-11-15-agencia-de-marketing-no-claude"
+  },
+  {
+   "source": "rede:story",
    "target": "2026-11-15-estudio-de-games-no-claude"
   },
   {
@@ -13788,6 +15748,10 @@
   {
    "source": "rede:story",
    "target": "2026-11-16-tv-sem-propaganda-lg-samsung"
+  },
+  {
+   "source": "rede:story",
+   "target": "2026-11-17-jogos-no-celular-e-no-mac"
   },
   {
    "source": "rede:story",
@@ -13820,6 +15784,14 @@
   {
    "source": "2026-11-13-google-fotos-lotou",
    "target": "fonte:https://github.com/immich-app/immich"
+  },
+  {
+   "source": "fonte:https://github.com/immich-app/immich",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "fonte:https://github.com/immich-app/immich",
+   "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
   },
   {
    "source": "2026-11-13-ia-aprendeu-a-ver",
@@ -13926,6 +15898,18 @@
    "target": "fonte:https://github.com/SunshineStream/Sunshine"
   },
   {
+   "source": "cta:CONSOLE",
+   "target": "2026-11-23-5-consoles-que-mudaram-o-jogo"
+  },
+  {
+   "source": "fonte:https://github.com/moonlight-stream/moonlight-qt",
+   "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
+  },
+  {
+   "source": "fonte:https://github.com/moonlight-stream/moonlight-qt",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
    "source": "2026-11-13-linux-em-todo-lugar",
    "target": "cta:LINUX"
   },
@@ -13996,6 +15980,10 @@
   {
    "source": "cta:PLACA",
    "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
+   "source": "cta:PLACA",
+   "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
   },
   {
    "source": "2026-11-13-texto-com-cara-de-ia",
@@ -14084,6 +16072,14 @@
   {
    "source": "2026-11-14-chatgpt-1-milhao-em-5-dias",
    "target": "fonte:https://fortune.com/2022/12/09/ai-chatbot-chatgpt-could-disrupt-google-search-engines-business/"
+  },
+  {
+   "source": "fonte:https://openai.com/index/chatgpt/",
+   "target": "2026-11-21-5-assistentes-que-todo-mundo-conheceu"
+  },
+  {
+   "source": "fonte:https://openai.com/index/chatgpt/",
+   "target": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber"
   },
   {
    "source": "2026-11-14-comercial-com-trilha",
@@ -14502,6 +16498,26 @@
    "target": "2026-11-17-jogos-no-celular-e-no-mac"
   },
   {
+   "source": "tema:celular",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-22-5-celulares-que-mudaram-o-mundo"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-22-5-coisas-que-a-ia-ja-faz-no-seu-celular"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-22-5-motivos-do-celular-esquentar-jogando"
+  },
+  {
    "source": "tema:console",
    "target": "2026-11-17-jogos-no-celular-e-no-mac"
   },
@@ -14544,6 +16560,34 @@
   {
    "source": "tema:PC",
    "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
   },
   {
    "source": "fonte:https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
@@ -14638,6 +16682,18 @@
    "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
   },
   {
+   "source": "tema:Nvidia",
+   "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
+  },
+  {
    "source": "tema:história",
    "target": "2026-11-17-clipe-do-word"
   },
@@ -14666,8 +16722,48 @@
    "target": "2026-11-19-fantasmas-do-pac-man"
   },
   {
+   "source": "tema:história",
+   "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-21-5-programas-gratis-que-viraram-gigantes"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-22-5-apps-que-nasceram-pequenos"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-22-5-celulares-que-mudaram-o-mundo"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-22-5-primeiras-vezes-da-internet"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-23-5-consoles-que-mudaram-o-jogo"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber"
+  },
+  {
+   "source": "tema:história",
+   "target": "2026-11-23-5-vexames-famosos-da-ia"
+  },
+  {
    "source": "tema:GPU",
    "target": "2026-11-16-por-que-a-placa-de-video-roda-ia"
+  },
+  {
+   "source": "tema:GPU",
+   "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
   },
   {
    "source": "tema:AlexNet",
@@ -14714,6 +16810,10 @@
    "target": "fonte:https://www.usnews.com/news/top-news/articles/2026-11-12/us-justice-department-has-not-concluded-alice-huang-was-chinese-spy-blanche-says"
   },
   {
+   "source": "cta:NVIDIA",
+   "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
+  },
+  {
    "source": "tema:Jensen Huang",
    "target": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete"
   },
@@ -14724,6 +16824,18 @@
   {
    "source": "fonte:https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
    "target": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete"
+  },
+  {
+   "source": "fonte:https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
+  },
+  {
+   "source": "fonte:https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "target": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana"
+  },
+  {
+   "source": "fonte:https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+   "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
   },
   {
    "source": "2026-11-16-o-que-todo-site-sabe-de-voce",
@@ -14811,7 +16923,63 @@
   },
   {
    "source": "tema:IA",
+   "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana"
+  },
+  {
+   "source": "tema:IA",
    "target": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-22-5-coisas-que-a-ia-ja-faz-no-seu-celular"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-22-5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-23-5-truques-pra-ia-escrever-do-seu-jeito"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-23-5-truques-pra-ia-nao-esquecer-o-que-voce-disse"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-23-5-truques-pra-ia-parar-de-inventar"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-23-5-vexames-famosos-da-ia"
   },
   {
    "source": "2026-11-16-por-que-a-placa-de-video-roda-ia",
@@ -14836,6 +17004,10 @@
   {
    "source": "tema:placa de vídeo",
    "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
   },
   {
    "source": "2026-11-16-robo-inventou-uma-regra",
@@ -14970,12 +17142,44 @@
    "target": "2026-11-17-jogos-no-celular-e-no-mac"
   },
   {
+   "source": "cta:TELA",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "tema:TV",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "tema:TV",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
    "source": "tema:projetos",
    "target": "2026-11-17-ias-que-trabalham-por-voce"
   },
   {
    "source": "tema:projetos",
    "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "tema:projetos",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "tema:projetos",
+   "target": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava"
+  },
+  {
+   "source": "tema:projetos",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "tema:projetos",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "tema:projetos",
+   "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
   },
   {
    "source": "2026-11-17-5-coisas-ia-golpe",
@@ -14998,6 +17202,34 @@
    "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
   },
   {
+   "source": "tema:assistente",
+   "target": "2026-11-21-5-assistentes-que-todo-mundo-conheceu"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
    "source": "tema:kit",
    "target": "2026-11-18-5-coisas-ia-faz-mensagens"
   },
@@ -15018,8 +17250,40 @@
    "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
   },
   {
+   "source": "tema:kit",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe"
+  },
+  {
+   "source": "tema:kit",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "tema:kit",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "tema:kit",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "tema:kit",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "tema:kit",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
    "source": "tema:golpe",
    "target": "2026-11-18-gta6-5-coisas-antes-da-meia-noite"
+  },
+  {
+   "source": "tema:golpe",
+   "target": "2026-11-22-5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia"
+  },
+  {
+   "source": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
+   "target": "formato:reel contagem (molde campeão, visual clean)"
   },
   {
    "source": "2026-11-17-5-programas-gratis-pra-editar-o-video-do-seu-jogo",
@@ -15054,6 +17318,178 @@
    "target": "fonte:https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
   },
   {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-20-5-numeros-do-gta-que-assustam"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-21-5-assistentes-que-todo-mundo-conheceu"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-21-5-programas-gratis-que-viraram-gigantes"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-22-5-apps-que-nasceram-pequenos"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-22-5-celulares-que-mudaram-o-mundo"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-22-5-coisas-que-a-ia-ja-faz-no-seu-celular"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-22-5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-22-5-motivos-do-celular-esquentar-jogando"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-22-5-primeiras-vezes-da-internet"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-consoles-que-mudaram-o-jogo"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-truques-pra-ia-escrever-do-seu-jeito"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-truques-pra-ia-nao-esquecer-o-que-voce-disse"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-truques-pra-ia-parar-de-inventar"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-vexames-famosos-da-ia"
+  },
+  {
    "source": "tema:github",
    "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
   },
@@ -15066,12 +17502,84 @@
    "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
   },
   {
+   "source": "tema:github",
+   "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
    "source": "fonte:https://github.com/mltframework/shotcut",
    "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
   },
   {
+   "source": "fonte:https://github.com/mltframework/shotcut",
+   "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
+  },
+  {
    "source": "fonte:https://github.com/HandBrake/HandBrake",
    "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "fonte:https://github.com/HandBrake/HandBrake",
+   "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
   },
   {
    "source": "fonte:https://github.com/mifi/lossless-cut",
@@ -15080,6 +17588,14 @@
   {
    "source": "fonte:https://github.com/obsproject/obs-studio",
    "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "fonte:https://github.com/obsproject/obs-studio",
+   "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
+  },
+  {
+   "source": "fonte:https://github.com/obsproject/obs-studio",
+   "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
   },
   {
    "source": "fonte:https://github.com/WyattBlue/auto-editor",
@@ -15282,6 +17798,18 @@
    "target": "2026-11-19-ps5-grava-seu-gta-6"
   },
   {
+   "source": "tema:GTA 6",
+   "target": "2026-11-20-5-numeros-do-gta-que-assustam"
+  },
+  {
+   "source": "tema:GTA 6",
+   "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
+  },
+  {
+   "source": "tema:GTA 6",
+   "target": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso"
+  },
+  {
    "source": "tema:lançamento",
    "target": "2026-11-19-por-que-o-jogo-trava-no-lancamento"
   },
@@ -15338,6 +17866,10 @@
    "target": "fonte:https://github.com/FrigadeHQ/yogurt"
   },
   {
+   "source": "tema:automação",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
    "source": "fonte:https://github.com/FrigadeHQ/yogurt",
    "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
   },
@@ -15362,6 +17894,10 @@
    "target": "fonte:https://github.com/jhaizhou-ops/S2Arm"
   },
   {
+   "source": "tema:PlayStation",
+   "target": "2026-11-23-5-consoles-que-mudaram-o-jogo"
+  },
+  {
    "source": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete",
    "target": "cta:MESA"
   },
@@ -15376,6 +17912,14 @@
   {
    "source": "2026-11-17-nvidia-nasceu-numa-mesa-de-lanchonete",
    "target": "fonte:https://www.nbcmiami.com/news/business/money-report/jensen-huang-started-his-2-trillion-company-nvidia-at-a-dennys-breakfast-booth/3302554"
+  },
+  {
+   "source": "tema:chips",
+   "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
+  },
+  {
+   "source": "fonte:https://www.nbcmiami.com/news/business/money-report/jensen-huang-started-his-2-trillion-company-nvidia-at-a-dennys-breakfast-booth/3302554",
+   "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
   },
   {
    "source": "2026-11-17-por-que-a-ia-erra-letras-de-morango",
@@ -15470,6 +18014,30 @@
    "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
   },
   {
+   "source": "tema:IA que trabalha por você",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-golpe"
+  },
+  {
+   "source": "tema:IA que trabalha por você",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "tema:IA que trabalha por você",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "tema:IA que trabalha por você",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "tema:IA que trabalha por você",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "tema:IA que trabalha por você",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
    "source": "fonte:https://github.com/Mintplex-Labs/anything-llm",
    "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
   },
@@ -15478,12 +18046,60 @@
    "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
   },
   {
+   "source": "fonte:https://github.com/ggml-org/whisper.cpp",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "fonte:https://github.com/ggml-org/whisper.cpp",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
    "source": "fonte:https://github.com/n8n-io/n8n",
    "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
   },
   {
+   "source": "fonte:https://github.com/n8n-io/n8n",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "fonte:https://github.com/n8n-io/n8n",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "fonte:https://github.com/n8n-io/n8n",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
+   "source": "fonte:https://github.com/n8n-io/n8n",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
    "source": "fonte:https://github.com/open-webui/open-webui",
    "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
+  },
+  {
+   "source": "fonte:https://github.com/open-webui/open-webui",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal"
+  },
+  {
+   "source": "fonte:https://github.com/open-webui/open-webui",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "fonte:https://github.com/open-webui/open-webui",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
+   "source": "fonte:https://github.com/open-webui/open-webui",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "fonte:https://github.com/open-webui/open-webui",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "fonte:https://github.com/open-webui/open-webui",
+   "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
   },
   {
    "source": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video",
@@ -15516,6 +18132,18 @@
   {
    "source": "2026-11-18-gta-v-800-milhoes-em-24-horas",
    "target": "fonte:https://www.engadget.com/2013-09-20-grand-theft-auto-5-sales-surpass-1-billion.html"
+  },
+  {
+   "source": "tema:GTA V",
+   "target": "2026-11-20-5-numeros-do-gta-que-assustam"
+  },
+  {
+   "source": "tema:recorde",
+   "target": "2026-11-20-5-numeros-do-gta-que-assustam"
+  },
+  {
+   "source": "fonte:https://www.engadget.com/2013-09-20-grand-theft-auto-5-sales-surpass-1-billion.html",
+   "target": "2026-11-20-5-numeros-do-gta-que-assustam"
   },
   {
    "source": "2026-11-18-gta6-5-coisas-antes-da-meia-noite",
@@ -15586,6 +18214,14 @@
    "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
   },
   {
+   "source": "fonte:https://github.com/ggml-org/llama.cpp",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "fonte:https://github.com/ggml-org/llama.cpp",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
    "source": "fonte:https://github.com/ollama/ollama",
    "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
   },
@@ -15596,6 +18232,26 @@
   {
    "source": "fonte:https://github.com/ollama/ollama",
    "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
+  },
+  {
+   "source": "fonte:https://github.com/ollama/ollama",
+   "target": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor"
+  },
+  {
+   "source": "fonte:https://github.com/ollama/ollama",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "fonte:https://github.com/ollama/ollama",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
+   "source": "fonte:https://github.com/ollama/ollama",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "fonte:https://github.com/ollama/ollama",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
   },
   {
    "source": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota",
@@ -15718,6 +18374,10 @@
    "target": "fonte:https://github.com/ChrisTitusTech/winutil"
   },
   {
+   "source": "cta:LIMPA",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
    "source": "tema:Windows",
    "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
   },
@@ -15728,6 +18388,26 @@
   {
    "source": "tema:Windows",
    "target": "2026-11-20-5-programas-gratis-novos-pro-seu-pc"
+  },
+  {
+   "source": "tema:Windows",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "tema:Windows",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "tema:Windows",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "fonte:https://github.com/Raphire/Win11Debloat",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "fonte:https://github.com/ChrisTitusTech/winutil",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
   },
   {
    "source": "2026-11-19-4-jogos-nintendo-no-pc",
@@ -15818,6 +18498,10 @@
    "target": "tema:programas"
   },
   {
+   "source": "tema:programas",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
    "source": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso",
    "target": "tema:Siri"
   },
@@ -15840,6 +18524,18 @@
   {
    "source": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso",
    "target": "fonte:https://en.wikipedia.org/wiki/Siri"
+  },
+  {
+   "source": "tema:Siri",
+   "target": "2026-11-21-5-assistentes-que-todo-mundo-conheceu"
+  },
+  {
+   "source": "tema:iPhone",
+   "target": "2026-11-22-5-celulares-que-mudaram-o-mundo"
+  },
+  {
+   "source": "fonte:https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/",
+   "target": "2026-11-21-5-assistentes-que-todo-mundo-conheceu"
   },
   {
    "source": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter",
@@ -15878,6 +18574,14 @@
    "target": "tema:Organizador da semana"
   },
   {
+   "source": "2026-11-20-5-numeros-do-gta-que-assustam",
+   "target": "fonte:https://gamesbeat.com/?p=66657"
+  },
+  {
+   "source": "2026-11-20-5-numeros-do-gta-que-assustam",
+   "target": "fonte:https://www.fox5ny.com/news/grand-theft-auto-6-already-1-billion-sales-week-before-launch"
+  },
+  {
    "source": "2026-11-20-5-programas-gratis-novos-pro-seu-pc",
    "target": "tema:novidades"
   },
@@ -15890,6 +18594,126 @@
    "target": "fonte:https://github.com/RoutineMiku/apkstart"
   },
   {
+   "source": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo",
+   "target": "cta:GRAVA"
+  },
+  {
+   "source": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo",
+   "target": "tema:gravar jogo"
+  },
+  {
+   "source": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo",
+   "target": "fonte:https://github.com/ShareX/ShareX"
+  },
+  {
+   "source": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo",
+   "target": "fonte:https://github.com/FFmpeg/FFmpeg"
+  },
+  {
+   "source": "fonte:https://github.com/ShareX/ShareX",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/FFmpeg/FFmpeg",
+   "target": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo"
+  },
+  {
+   "source": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer",
+   "target": "tema:PC gamer"
+  },
+  {
+   "source": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer",
+   "target": "fonte:https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher"
+  },
+  {
+   "source": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer",
+   "target": "fonte:https://github.com/libretro/RetroArch"
+  },
+  {
+   "source": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer",
+   "target": "fonte:https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"
+  },
+  {
+   "source": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv",
+   "target": "tema:grátis"
+  },
+  {
+   "source": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv",
+   "target": "fonte:https://github.com/AdguardTeam/AdGuardHome"
+  },
+  {
+   "source": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv",
+   "target": "fonte:https://github.com/syncthing/syncthing"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "fonte:https://github.com/syncthing/syncthing",
+   "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
+  },
+  {
+   "source": "fonte:https://github.com/syncthing/syncthing",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo",
+   "target": "fonte:https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+  },
+  {
+   "source": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana",
+   "target": "cta:FOFOCA"
+  },
+  {
+   "source": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana",
+   "target": "tema:notícia"
+  },
+  {
+   "source": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana",
+   "target": "tema:Congresso"
+  },
+  {
+   "source": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana",
+   "target": "fonte:https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy"
+  },
+  {
+   "source": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana",
+   "target": "fonte:https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates"
+  },
+  {
+   "source": "2026-11-20-a-nvidia-sem-o-fundador-5-fatos-da-semana",
+   "target": "fonte:https://thehill.com/business/6226457-nvidia-q3-earnings-strong/"
+  },
+  {
    "source": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra",
    "target": "cta:TOKEN"
   },
@@ -15900,6 +18724,606 @@
   {
    "source": "2026-11-20-por-que-a-ia-cobra-por-pedaco-de-palavra",
    "target": "fonte:https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them"
+  },
+  {
+   "source": "2026-11-21-5-assistentes-que-todo-mundo-conheceu",
+   "target": "cta:CLIPPY"
+  },
+  {
+   "source": "2026-11-21-5-assistentes-que-todo-mundo-conheceu",
+   "target": "tema:Alexa"
+  },
+  {
+   "source": "2026-11-21-5-assistentes-que-todo-mundo-conheceu",
+   "target": "tema:ChatGPT"
+  },
+  {
+   "source": "tema:ChatGPT",
+   "target": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber"
+  },
+  {
+   "source": "tema:ChatGPT",
+   "target": "2026-11-23-5-truques-pra-ia-escrever-do-seu-jeito"
+  },
+  {
+   "source": "tema:ChatGPT",
+   "target": "2026-11-23-5-truques-pra-ia-nao-esquecer-o-que-voce-disse"
+  },
+  {
+   "source": "tema:ChatGPT",
+   "target": "2026-11-23-5-truques-pra-ia-parar-de-inventar"
+  },
+  {
+   "source": "tema:ChatGPT",
+   "target": "2026-11-23-5-vexames-famosos-da-ia"
+  },
+  {
+   "source": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia",
+   "target": "tema:IA no PC"
+  },
+  {
+   "source": "tema:IA no PC",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-personal",
+   "target": "fonte:https://github.com/microsoft/markitdown"
+  },
+  {
+   "source": "fonte:https://github.com/microsoft/markitdown",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "fonte:https://github.com/microsoft/markitdown",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "fonte:https://github.com/microsoft/markitdown",
+   "target": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce"
+  },
+  {
+   "source": "fonte:https://github.com/microsoft/markitdown",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor",
+   "target": "fonte:https://github.com/ocrmypdf/OCRmyPDF"
+  },
+  {
+   "source": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor",
+   "target": "fonte:https://github.com/openai/whisper"
+  },
+  {
+   "source": "2026-11-21-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-professor",
+   "target": "fonte:https://github.com/paperless-ngx/paperless-ngx"
+  },
+  {
+   "source": "fonte:https://github.com/ocrmypdf/OCRmyPDF",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "fonte:https://github.com/paperless-ngx/paperless-ngx",
+   "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
+  },
+  {
+   "source": "fonte:https://github.com/paperless-ngx/paperless-ngx",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo",
+   "target": "cta:MIDIA"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo",
+   "target": "tema:VLC"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo",
+   "target": "tema:vídeo"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo",
+   "target": "tema:player"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo",
+   "target": "fonte:https://github.com/videolan/vlc"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo",
+   "target": "fonte:https://github.com/mpv-player/mpv"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo",
+   "target": "fonte:https://github.com/xbmc/xbmc"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo",
+   "target": "fonte:https://github.com/jellyfin/jellyfin"
+  },
+  {
+   "source": "tema:VLC",
+   "target": "2026-11-21-5-programas-gratis-que-viraram-gigantes"
+  },
+  {
+   "source": "fonte:https://github.com/videolan/vlc",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "fonte:https://github.com/mpv-player/mpv",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "fonte:https://github.com/xbmc/xbmc",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "fonte:https://github.com/jellyfin/jellyfin",
+   "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "fonte:https://github.com/jellyfin/jellyfin",
+   "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava",
+   "target": "cta:TRAVA"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava",
+   "target": "tema:windows"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava",
+   "target": "tema:PC lento"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava",
+   "target": "fonte:https://github.com/windirstat/windirstat"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava",
+   "target": "fonte:https://github.com/bleachbit/bleachbit"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava",
+   "target": "fonte:https://github.com/LibreHardwareMonitor/LibreHardwareMonitor"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava",
+   "target": "fonte:https://github.com/winsiderss/systeminformer"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava",
+   "target": "fonte:https://github.com/microsoft/PowerToys"
+  },
+  {
+   "source": "tema:windows",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "tema:windows",
+   "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
+  },
+  {
+   "source": "tema:PC lento",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "fonte:https://github.com/microsoft/PowerToys",
+   "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "fonte:https://github.com/microsoft/PowerToys",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/microsoft/PowerToys",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-que-viraram-gigantes",
+   "target": "cta:GIGANTES"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-que-viraram-gigantes",
+   "target": "tema:código aberto"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-que-viraram-gigantes",
+   "target": "fonte:https://www.videolan.org/press/vlc-gpl.html"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-que-viraram-gigantes",
+   "target": "fonte:https://blog.documentfoundation.org/blog/2010/09/28/the-document-foundation-launches-with-libreoffice/"
+  },
+  {
+   "source": "2026-11-21-5-programas-gratis-que-viraram-gigantes",
+   "target": "fonte:https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git"
+  },
+  {
+   "source": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular",
+   "target": "fonte:https://github.com/home-assistant/core"
+  },
+  {
+   "source": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix",
+   "target": "cta:PARE"
+  },
+  {
+   "source": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix",
+   "target": "tema:assinatura"
+  },
+  {
+   "source": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix",
+   "target": "tema:google fotos"
+  },
+  {
+   "source": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix",
+   "target": "tema:dropbox"
+  },
+  {
+   "source": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix",
+   "target": "tema:netflix"
+  },
+  {
+   "source": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix",
+   "target": "fonte:https://github.com/Stirling-Tools/Stirling-PDF"
+  },
+  {
+   "source": "fonte:https://github.com/Stirling-Tools/Stirling-PDF",
+   "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "fonte:https://github.com/Stirling-Tools/Stirling-PDF",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "fonte:https://github.com/Stirling-Tools/Stirling-PDF",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso",
+   "target": "cta:FALSO"
+  },
+  {
+   "source": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso",
+   "target": "tema:fake"
+  },
+  {
+   "source": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso",
+   "target": "tema:vídeo falso"
+  },
+  {
+   "source": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso",
+   "target": "fonte:https://www.gtaboom.com/the-gta-6-ai-fake-problem-just-got-its-latest-legal-takedown-779e"
+  },
+  {
+   "source": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso",
+   "target": "fonte:https://www.notebookcheck.net/GTA-6-trailer-3-release-anticipated-as-Take-Two-targets-fake-AI-generated-leaks.1351256.0.html"
+  },
+  {
+   "source": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao",
+   "target": "cta:CAMPEAO"
+  },
+  {
+   "source": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao",
+   "target": "tema:Deep Blue"
+  },
+  {
+   "source": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao",
+   "target": "tema:AlphaGo"
+  },
+  {
+   "source": "2026-11-21-5-vezes-que-a-maquina-venceu-o-campeao",
+   "target": "fonte:https://spectrum.ieee.org/how-ibms-deep-blue-beat-world-champion-chess-player-garry-kasparov"
+  },
+  {
+   "source": "2026-11-22-5-apps-que-nasceram-pequenos",
+   "target": "cta:APPS"
+  },
+  {
+   "source": "2026-11-22-5-apps-que-nasceram-pequenos",
+   "target": "tema:apps"
+  },
+  {
+   "source": "2026-11-22-5-apps-que-nasceram-pequenos",
+   "target": "tema:WhatsApp"
+  },
+  {
+   "source": "2026-11-22-5-apps-que-nasceram-pequenos",
+   "target": "tema:YouTube"
+  },
+  {
+   "source": "2026-11-22-5-apps-que-nasceram-pequenos",
+   "target": "fonte:https://abcnews.go.com/Technology/story?id=2539400"
+  },
+  {
+   "source": "2026-11-22-5-apps-que-nasceram-pequenos",
+   "target": "fonte:https://about.fb.com/news/2014/02/facebook-to-acquire-whatsapp/"
+  },
+  {
+   "source": "tema:YouTube",
+   "target": "2026-11-22-5-primeiras-vezes-da-internet"
+  },
+  {
+   "source": "2026-11-22-5-celulares-que-mudaram-o-mundo",
+   "target": "cta:CELULA"
+  },
+  {
+   "source": "2026-11-22-5-celulares-que-mudaram-o-mundo",
+   "target": "tema:Android"
+  },
+  {
+   "source": "2026-11-22-5-celulares-que-mudaram-o-mundo",
+   "target": "fonte:https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/"
+  },
+  {
+   "source": "2026-11-22-5-celulares-que-mudaram-o-mundo",
+   "target": "fonte:https://www.motorola.com/"
+  },
+  {
+   "source": "fonte:https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
+   "target": "2026-11-22-5-primeiras-vezes-da-internet"
+  },
+  {
+   "source": "2026-11-22-5-coisas-que-a-ia-ja-faz-no-seu-celular",
+   "target": "tema:dicas"
+  },
+  {
+   "source": "2026-11-22-5-coisas-que-a-ia-ja-faz-no-seu-celular",
+   "target": "tema:tecnologia"
+  },
+  {
+   "source": "tema:dicas",
+   "target": "2026-11-22-5-motivos-do-celular-esquentar-jogando"
+  },
+  {
+   "source": "tema:dicas",
+   "target": "2026-11-23-5-truques-pra-ia-parar-de-inventar"
+  },
+  {
+   "source": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows",
+   "target": "tema:limpar"
+  },
+  {
+   "source": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows",
+   "target": "fonte:https://github.com/ventoy/Ventoy"
+  },
+  {
+   "source": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows",
+   "target": "fonte:https://github.com/pbatard/rufus"
+  },
+  {
+   "source": "fonte:https://github.com/pbatard/rufus",
+   "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "2026-11-22-5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia",
+   "target": "cta:IMAGEM"
+  },
+  {
+   "source": "2026-11-22-5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia",
+   "target": "tema:imagem falsa"
+  },
+  {
+   "source": "2026-11-22-5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia",
+   "target": "tema:fake news"
+  },
+  {
+   "source": "2026-11-22-5-motivos-do-celular-esquentar-jogando",
+   "target": "cta:CALOR"
+  },
+  {
+   "source": "2026-11-22-5-motivos-do-celular-esquentar-jogando",
+   "target": "tema:esquentar"
+  },
+  {
+   "source": "2026-11-22-5-primeiras-vezes-da-internet",
+   "target": "cta:PRIMEIRA"
+  },
+  {
+   "source": "2026-11-22-5-primeiras-vezes-da-internet",
+   "target": "tema:internet"
+  },
+  {
+   "source": "2026-11-22-5-primeiras-vezes-da-internet",
+   "target": "tema:e-mail"
+  },
+  {
+   "source": "2026-11-22-5-primeiras-vezes-da-internet",
+   "target": "fonte:https://info.cern.ch/"
+  },
+  {
+   "source": "2026-11-22-5-primeiras-vezes-da-internet",
+   "target": "fonte:https://www.youtube.com/watch?v=jNQXAC9IVRw"
+  },
+  {
+   "source": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf",
+   "target": "cta:PDF"
+  },
+  {
+   "source": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf",
+   "target": "tema:PDF"
+  },
+  {
+   "source": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf",
+   "target": "tema:escritório"
+  },
+  {
+   "source": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf",
+   "target": "fonte:https://github.com/notepad-plus-plus/notepad-plus-plus"
+  },
+  {
+   "source": "fonte:https://github.com/notepad-plus-plus/notepad-plus-plus",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce",
+   "target": "cta:TRABALHA"
+  },
+  {
+   "source": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce",
+   "target": "tema:IA que trabalha"
+  },
+  {
+   "source": "2026-11-22-5-projetos-gratis-pra-ia-trabalhar-por-voce",
+   "target": "fonte:https://github.com/zhayujie/CowAgent"
+  },
+  {
+   "source": "fonte:https://github.com/zhayujie/CowAgent",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "fonte:https://github.com/zhayujie/CowAgent",
+   "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "fonte:https://github.com/zhayujie/CowAgent",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "2026-11-22-o-windows-esconde-5-programas-gratis",
+   "target": "cta:DEVIA"
+  },
+  {
+   "source": "2026-11-22-o-windows-esconde-5-programas-gratis",
+   "target": "fonte:https://github.com/Flow-Launcher/Flow.Launcher"
+  },
+  {
+   "source": "2026-11-22-o-windows-esconde-5-programas-gratis",
+   "target": "fonte:https://github.com/files-community/Files"
+  },
+  {
+   "source": "fonte:https://github.com/Flow-Launcher/Flow.Launcher",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "fonte:https://github.com/files-community/Files",
+   "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github",
+   "target": "cta:MIL"
+  },
+  {
+   "source": "2026-11-23-5-consoles-que-mudaram-o-jogo",
+   "target": "tema:videogame"
+  },
+  {
+   "source": "2026-11-23-5-consoles-que-mudaram-o-jogo",
+   "target": "tema:Nintendo"
+  },
+  {
+   "source": "2026-11-23-5-consoles-que-mudaram-o-jogo",
+   "target": "fonte:https://www.nintendo.com/"
+  },
+  {
+   "source": "2026-11-23-5-consoles-que-mudaram-o-jogo",
+   "target": "fonte:https://www.playstation.com/"
+  },
+  {
+   "source": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber",
+   "target": "cta:DATAS"
+  },
+  {
+   "source": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber",
+   "target": "tema:Turing"
+  },
+  {
+   "source": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido",
+   "target": "cta:SEGUNDA"
+  },
+  {
+   "source": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito",
+   "target": "cta:JEITO"
+  },
+  {
+   "source": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito",
+   "target": "tema:claude code"
+  },
+  {
+   "source": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito",
+   "target": "fonte:https://github.com/sickn33/agentic-awesome-skills"
+  },
+  {
+   "source": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito",
+   "target": "fonte:https://github.com/obra/superpowers"
+  },
+  {
+   "source": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito",
+   "target": "fonte:https://github.com/anthropics/skills"
+  },
+  {
+   "source": "cta:JEITO",
+   "target": "2026-11-23-5-truques-pra-ia-escrever-do-seu-jeito"
+  },
+  {
+   "source": "tema:claude code",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "fonte:https://github.com/sickn33/agentic-awesome-skills",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "fonte:https://github.com/obra/superpowers",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "fonte:https://github.com/anthropics/skills",
+   "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas",
+   "target": "fonte:https://github.com/JuliusBrussee/caveman"
+  },
+  {
+   "source": "2026-11-23-5-truques-pra-ia-escrever-do-seu-jeito",
+   "target": "tema:escrever"
+  },
+  {
+   "source": "2026-11-23-5-truques-pra-ia-escrever-do-seu-jeito",
+   "target": "tema:prompt"
+  },
+  {
+   "source": "tema:prompt",
+   "target": "2026-11-23-5-truques-pra-ia-nao-esquecer-o-que-voce-disse"
+  },
+  {
+   "source": "tema:prompt",
+   "target": "2026-11-23-5-truques-pra-ia-parar-de-inventar"
+  },
+  {
+   "source": "2026-11-23-5-truques-pra-ia-nao-esquecer-o-que-voce-disse",
+   "target": "tema:memória"
+  },
+  {
+   "source": "2026-11-23-5-truques-pra-ia-parar-de-inventar",
+   "target": "fonte:https://www.bloomberglaw.com/"
+  },
+  {
+   "source": "fonte:https://www.bloomberglaw.com/",
+   "target": "2026-11-23-5-vexames-famosos-da-ia"
+  },
+  {
+   "source": "2026-11-23-5-vexames-famosos-da-ia",
+   "target": "cta:VEXAME"
+  },
+  {
+   "source": "2026-11-23-5-vexames-famosos-da-ia",
+   "target": "tema:erro"
+  },
+  {
+   "source": "2026-11-23-5-vexames-famosos-da-ia",
+   "target": "fonte:https://fortune.com/2016/03/25/microsoft-sorry-offensive-chat-bot/"
   }
  ]
 }

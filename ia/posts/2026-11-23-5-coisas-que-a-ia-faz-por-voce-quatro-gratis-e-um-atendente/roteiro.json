@@ -1,0 +1,139 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "KIT",
+ "tese": "5 COISAS QUE A IA FAZ POR VOCÊ · +534 MIL ESTRELAS NO GITHUB · E A Nº 1 É BIZARRA",
+ "conceito": "novidade: contagem 5→1 com objeto reconhecível no 1º quadro (5 coisas que a ia faz por você); cenário varanda ao pôr do sol, mascote boné + fone, correndo; nº1 revelada por último.",
+ "brinde": "Kit Super Assistente de IA: 10 assistentes prontos (DM com o link de compra)",
+ "fontes": [
+  "https://github.com/Stirling-Tools/Stirling-PDF",
+  "https://github.com/syncthing/syncthing",
+  "https://github.com/open-webui/open-webui",
+  "https://github.com/ollama/ollama",
+  "https://www.science.org/doi/10.1126/science.adh2586",
+  "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Stirling PDF 96.970, Syncthing 90.584, Open WebUI 159.065, Ollama 187.576; total 534.195.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 COISAS QUE A IA FAZ POR VOCÊ",
+   "fala": "Cinco coisas que a IA faz por você. Quatro são grátis, e a número um atende o seu cliente.",
+   "legenda": "Cinco coisas que a IA faz por você. Quatro são grátis, e a número um atende o seu cliente.",
+   "visual": "5 COISAS QUE A IA FAZ POR VOCÊ",
+   "itens": "clean",
+   "etiqueta": [
+    "5 COISAS QUE A IA FAZ POR VOCÊ",
+    "+534 MIL ESTRELAS NO GITHUB",
+    "E A Nº 1 É BIZARRA"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Stirling PDF",
+   "fala": "Quinto: Stirling PDF. Edita, junta e assina PDF.",
+   "legenda": "Quinto: Stirling PDF. Edita, junta e assina PDF.",
+   "visual": "Edita, junta e assina PDF.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "Stirling-Tools/Stirling-PDF",
+   "estrelas": 96970
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Syncthing",
+   "fala": "Quarto: Syncthing. Sincroniza arquivos entre seus aparelhos.",
+   "legenda": "Quarto: Syncthing. Sincroniza arquivos entre seus aparelhos.",
+   "visual": "Sincroniza arquivos entre seus aparelhos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "syncthing/syncthing",
+   "estrelas": 90584
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Open WebUI",
+   "fala": "Terceiro: Open WebUI. Chat de IA igual ao ChatGPT. Essa é legalzinha… comenta KIT que eu te mando os dez assistentes. Manda pro amigo.",
+   "legenda": "Terceiro: Open WebUI. Chat de IA igual ao ChatGPT. Essa é legalzinha… comenta KIT que eu te mando os dez assistentes. Manda pro amigo.",
+   "visual": "Chat de IA igual ao ChatGPT.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "open-webui/open-webui",
+   "estrelas": 159065
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Ollama",
+   "fala": "Segundo: Ollama. Roda IA no seu PC, sem mensalidade.",
+   "legenda": "Segundo: Ollama. Roda IA no seu PC, sem mensalidade.",
+   "visual": "Roda IA no seu PC, sem mensalidade.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "ollama/ollama",
+   "estrelas": 187576
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Atendente do negócio",
+   "fala": "E o primeiro: Atendente do negócio. Responde cliente com o tom da sua loja.",
+   "legenda": "E o primeiro: Atendente do negócio. Responde cliente com o tom da sua loja.",
+   "visual": "Responde cliente com o tom da sua loja.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta KIT e me segue. Você responde cliente pelo zap ou pelo Instagram?",
+   "legenda": "Comenta KIT e me segue. Você responde cliente pelo zap ou pelo Instagram?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "c) máquina de escrever",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "b) chicote de câmera",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "c) post-its na parede",
+  "mascote": "boné + fone, correndo",
+  "cenario": "varanda ao pôr do sol",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 94,
+ "duracao_estimada_s": 33.0
+}

@@ -1,0 +1,35 @@
+{
+ "data": "2026-11-23",
+ "horario": "19:30",
+ "horarios": {
+  "instagram": "2026-11-23 19:30",
+  "tiktok": "2026-11-23 19:30"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "IA que trabalha por você",
+  "assistente",
+  "kit",
+  "produtividade"
+ ],
+ "fontes": [
+  "https://github.com/Stirling-Tools/Stirling-PDF",
+  "https://github.com/syncthing/syncthing",
+  "https://github.com/open-webui/open-webui",
+  "https://github.com/ollama/ollama",
+  "https://www.science.org/doi/10.1126/science.adh2586",
+  "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Stirling PDF 96.970, Syncthing 90.584, Open WebUI 159.065, Ollama 187.576; total 534.195.",
+ "cta": "KIT",
+ "polemica": false,
+ "vaga": 13,
+ "candidato": "a",
+ "primeiro_comentario": "💬 Comenta KIT que eu te mando o kit com os 10 assistentes",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 44%, abaixo do corte"
+}

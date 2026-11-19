@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º Open WebUI: https://github.com/open-webui/open-webui
+4º Ollama: https://github.com/ollama/ollama
+3º CowAgent: https://github.com/zhayujie/CowAgent
+2º MarkItDown: https://github.com/microsoft/markitdown
+1º n8n: https://github.com/n8n-io/n8n
+
+⚠️ Projetos independentes; o n8n tem licença própria (grátis pra uso pessoal, confira).
+
+Brinde: Links dos 5 + 3 tarefas chatas pra pedir pra IA hoje.

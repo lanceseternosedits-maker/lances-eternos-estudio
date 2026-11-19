@@ -1,0 +1,129 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "historia",
+ "chave": "FOFOCA",
+ "tese": "A NVIDIA SEM O FUNDADOR · SEGUNDO REPORTAGENS · E A Nº 1 É A MAIS LOUCA",
+ "conceito": "historia: contagem 5→1 com objeto reconhecível no 1º quadro (a nvidia sem o fundador); cenário sala de estar à noite, mascote óculos + crachá, digitando; nº1 revelada por último.",
+ "brinde": "A linha do tempo da semana, com as fontes",
+ "fontes": [
+  "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+  "https://www.npr.org/2026/11/08/nx-s1-6034036/nvidia-launches-investigation-into-ceos-alleged-relationship-with-chinese-spy",
+  "https://axios.com/2026/11/17/nvidia-jensen-huang-congress-testify-dates",
+  "https://thehill.com/business/6226457-nvidia-q3-earnings-strong/"
+ ],
+ "prova_viral": "Manchetes de 08–19/11/2026: CNBC, NPR, NBC, CBS, Axios, The Hill; comunicado oficial 'CEO Transition' (nvidianews.nvidia.com). Só títulos lidos; alegações marcadas como 'segundo reportagens'.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A NVIDIA SEM O FUNDADOR",
+   "fala": "A empresa que faz os chips da IA ficou sem o fundador. Cinco fatos, segundo reportagens.",
+   "legenda": "A empresa que faz os chips da IA ficou sem o fundador. Cinco fatos, segundo reportagens.",
+   "visual": "A NVIDIA SEM O FUNDADOR",
+   "itens": "clean",
+   "etiqueta": [
+    "A NVIDIA SEM O FUNDADOR",
+    "SEGUNDO REPORTAGENS",
+    "E A Nº 1 É A MAIS LOUCA"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "Investigação",
+   "item": "Investigação",
+   "fala": "Quinto: Investigação. Em 8/11, a imprensa noticiou uma investigação interna na empresa.",
+   "legenda": "Quinto: Investigação. Em 8/11, a imprensa noticiou uma investigação interna na empresa.",
+   "visual": "Em 8/11, a imprensa noticiou uma investigação interna na empresa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "Comunicado",
+   "item": "Comunicado",
+   "fala": "Quarto: Comunicado. A Nvidia anunciou oficialmente a troca de CEO.",
+   "legenda": "Quarto: Comunicado. A Nvidia anunciou oficialmente a troca de CEO.",
+   "visual": "A Nvidia anunciou oficialmente a troca de CEO.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "Interina",
+   "item": "Interina",
+   "fala": "Terceiro: Interina. Colette Kress assumiu como CEO interina. Essa vale salvar… comenta FOFOCA que eu mando as fontes. Manda pro amigo.",
+   "legenda": "Terceiro: Interina. Colette Kress assumiu como CEO interina. Essa vale salvar… comenta FOFOCA que eu mando as fontes. Manda pro amigo.",
+   "visual": "Colette Kress assumiu como CEO interina.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "Balanço",
+   "item": "Balanço",
+   "fala": "Segundo: Balanço. Mesmo assim, o balanço de 17/11 saiu forte.",
+   "legenda": "Segundo: Balanço. Mesmo assim, o balanço de 17/11 saiu forte.",
+   "visual": "Mesmo assim, o balanço de 17/11 saiu forte.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "Congresso",
+   "item": "Congresso",
+   "fala": "E o primeiro: Congresso. Huang aceitou conversar com o Congresso dos EUA.",
+   "legenda": "E o primeiro: Congresso. Huang aceitou conversar com o Congresso dos EUA.",
+   "visual": "Huang aceitou conversar com o Congresso dos EUA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Salva pra contar pra alguém. Comenta FOFOCA e me segue. Você confia a sua vida a uma empresa só?",
+   "legenda": "Salva pra contar pra alguém. Comenta FOFOCA e me segue. Você confia a sua vida a uma empresa só?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "d) letreiro split-flap",
+  "contador": "c) medidor circular",
+  "legenda": "a) bloco de 4 palavras",
+  "transicao": "c) íris circular",
+  "camera": "d) órbita",
+  "fechamento": "d) tela CONTINUE?",
+  "mascote": "óculos + crachá, digitando",
+  "cenario": "sala de estar à noite",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 100,
+ "duracao_estimada_s": 35.1
+}

@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "DEVIA",
+ "tese": "5 PROGRAMAS GRÁTIS PRO SEU WINDOWS · +283 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1 com objeto reconhecível no 1º quadro (o windows esconde 5 programas grátis); cenário cozinha de manhã, mascote boné + fone, correndo; nº1 revelada por último.",
+ "brinde": "Links dos 5 + os atalhos do PowerToys que mais poupam tempo",
+ "fontes": [
+  "https://github.com/pbatard/rufus",
+  "https://github.com/Flow-Launcher/Flow.Launcher",
+  "https://github.com/files-community/Files",
+  "https://github.com/ShareX/ShareX",
+  "https://github.com/microsoft/PowerToys"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Rufus 38.412, Flow Launcher 16.051, Files 46.711, ShareX 41.160, PowerToys 141.156; total 283.490.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROGRAMAS GRÁTIS PRO SEU WINDOWS",
+   "fala": "Cinco programas grátis que valem ouro pro seu Windows.",
+   "legenda": "Cinco programas grátis que valem ouro pro seu Windows.",
+   "visual": "5 PROGRAMAS GRÁTIS PRO SEU WINDOWS",
+   "itens": "clean",
+   "etiqueta": [
+    "5 PROGRAMAS GRÁTIS PRO SEU WINDOWS",
+    "+283 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Rufus",
+   "fala": "Quinto: Rufus. Faz pendrive pra instalar o Windows.",
+   "legenda": "Quinto: Rufus. Faz pendrive pra instalar o Windows.",
+   "visual": "Faz pendrive pra instalar o Windows.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "pbatard/rufus",
+   "estrelas": 38412
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Flow Launcher",
+   "fala": "Quarto: Flow Launcher. Abre apps e arquivos só digitando.",
+   "legenda": "Quarto: Flow Launcher. Abre apps e arquivos só digitando.",
+   "visual": "Abre apps e arquivos só digitando.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "Flow-Launcher/Flow.Launcher",
+   "estrelas": 16051
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Files",
+   "fala": "Terceiro: Files. Gerenciador de arquivos com abas. Essa é legalzinha… comenta DEVIA que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Files. Gerenciador de arquivos com abas. Essa é legalzinha… comenta DEVIA que eu mando os cinco. Manda pro amigo.",
+   "visual": "Gerenciador de arquivos com abas.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "files-community/Files",
+   "estrelas": 46711
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "ShareX",
+   "fala": "Segundo: ShareX. Tira print e grava tela num atalho.",
+   "legenda": "Segundo: ShareX. Tira print e grava tela num atalho.",
+   "visual": "Tira print e grava tela num atalho.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "ShareX/ShareX",
+   "estrelas": 41160
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "PowerToys",
+   "fala": "E o primeiro: PowerToys. Dezenas de truques, da própria Microsoft.",
+   "legenda": "E o primeiro: PowerToys. Dezenas de truques, da própria Microsoft.",
+   "visual": "Dezenas de truques, da própria Microsoft.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "microsoft/PowerToys",
+   "estrelas": 141156
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta DEVIA e me segue. Você usa o PC mais pro trabalho ou pra estudo?",
+   "legenda": "Comenta DEVIA e me segue. Você usa o PC mais pro trabalho ou pra estudo?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "c) máquina de escrever",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "a) bloco de 4 palavras",
+  "transicao": "b) chicote de câmera",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its na parede",
+  "mascote": "boné + fone, correndo",
+  "cenario": "cozinha de manhã",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 80,
+ "duracao_estimada_s": 28.1
+}

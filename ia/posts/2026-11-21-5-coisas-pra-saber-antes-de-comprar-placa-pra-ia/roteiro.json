@@ -1,0 +1,125 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "como_funciona",
+ "chave": "PLACA",
+ "tese": "SUA PLACA DE VÍDEO TAMBÉM RODA IA · E O Nº 1 É O QUE MAIS PESA",
+ "conceito": "como_funciona: contagem 5→1 com objeto reconhecível no 1º quadro (sua placa de vídeo também roda ia); cenário sala de estar à noite, mascote capa, se escondendo; nº1 revelada por último.",
+ "brinde": "Checklist de 5 itens pra comprar placa de vídeo pra IA",
+ "fontes": [
+  "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+ ],
+ "prova_viral": "Conceito amplamente documentado (GPU = muitas unidades em paralelo; VRAM limita o modelo local); semana da Nvidia sem o fundador (nvidianews.nvidia.com, CNBC). Sem números.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "SUA PLACA DE VÍDEO TAMBÉM RODA IA",
+   "fala": "Sua placa de vídeo roda jogo. E roda IA também. Veja o que olhar antes de comprar.",
+   "legenda": "Sua placa de vídeo roda jogo. E roda IA também. Veja o que olhar antes de comprar.",
+   "visual": "SUA PLACA DE VÍDEO TAMBÉM RODA IA",
+   "itens": "clean",
+   "etiqueta": [
+    "SUA PLACA DE VÍDEO TAMBÉM RODA IA",
+    "E O Nº 1 É O QUE MAIS PESA"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Cozinheiros",
+   "fala": "Quinto: Cozinheiros. Placa tem milhares de cozinheiros; o processador, um chef.",
+   "legenda": "Quinto: Cozinheiros. Placa tem milhares de cozinheiros; o processador, um chef.",
+   "visual": "Placa tem milhares de cozinheiros; o processador, um chef.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Programas",
+   "fala": "Quarto: Programas. Quase todo programa de IA foi feito pra placa da Nvidia.",
+   "legenda": "Quarto: Programas. Quase todo programa de IA foi feito pra placa da Nvidia.",
+   "visual": "Quase todo programa de IA foi feito pra placa da Nvidia.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Preço",
+   "fala": "Terceiro: Preço. Placa mais cara nem sempre roda IA melhor. Essa é legalzinha… comenta PLACA que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Preço. Placa mais cara nem sempre roda IA melhor. Essa é legalzinha… comenta PLACA que eu mando os cinco. Manda pro amigo.",
+   "visual": "Placa mais cara nem sempre roda IA melhor.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Sem placa",
+   "fala": "Segundo: Sem placa. Dá pra rodar IA pequena no processador, mais devagar.",
+   "legenda": "Segundo: Sem placa. Dá pra rodar IA pequena no processador, mais devagar.",
+   "visual": "Dá pra rodar IA pequena no processador, mais devagar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Memória",
+   "fala": "E o primeiro: Memória. A memória de vídeo decide o tamanho da IA que cabe.",
+   "legenda": "E o primeiro: Memória. A memória de vídeo decide o tamanho da IA que cabe.",
+   "visual": "A memória de vídeo decide o tamanho da IA que cabe.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta PLACA e me segue. Seu PC tem placa de vídeo ou só o processador?",
+   "legenda": "Comenta PLACA e me segue. Seu PC tem placa de vídeo ou só o processador?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "f) escrito à mão",
+  "contador": "e) placar 8-bit",
+  "legenda": "a) bloco de 4 palavras",
+  "transicao": "e) glitch RGB",
+  "camera": "d) órbita",
+  "fechamento": "f) cartões que viram",
+  "mascote": "capa, se escondendo",
+  "cenario": "sala de estar à noite",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 106,
+ "duracao_estimada_s": 37.2
+}

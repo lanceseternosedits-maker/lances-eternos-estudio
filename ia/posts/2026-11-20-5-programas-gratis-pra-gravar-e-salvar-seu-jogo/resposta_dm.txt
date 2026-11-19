@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º ShareX: https://github.com/ShareX/ShareX
+4º Shotcut: https://github.com/mltframework/shotcut
+3º FFmpeg: https://github.com/FFmpeg/FFmpeg
+2º OBS Studio: https://github.com/obsproject/obs-studio
+1º HandBrake: https://github.com/HandBrake/HandBrake
+
+⚠️ Grave só o SEU jogo e respeite as regras da empresa do jogo.
+
+Brinde: Links dos 5 + os atalhos pra gravar o seu jogo sem travar.

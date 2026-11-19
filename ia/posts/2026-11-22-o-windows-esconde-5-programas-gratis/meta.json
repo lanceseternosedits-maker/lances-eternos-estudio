@@ -1,0 +1,66 @@
+{
+ "data": "2026-11-22",
+ "horario": "09:00",
+ "horarios": {
+  "instagram": "2026-11-22 09:00",
+  "tiktok": "2026-11-22 09:00"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "Windows",
+  "PC",
+  "programas grátis",
+  "produtividade",
+  "github"
+ ],
+ "fontes": [
+  "https://github.com/pbatard/rufus",
+  "https://github.com/Flow-Launcher/Flow.Launcher",
+  "https://github.com/files-community/Files",
+  "https://github.com/ShareX/ShareX",
+  "https://github.com/microsoft/PowerToys"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Rufus 38.412, Flow Launcher 16.051, Files 46.711, ShareX 41.160, PowerToys 141.156; total 283.490.",
+ "cta": "DEVIA",
+ "polemica": false,
+ "vaga": 7,
+ "candidato": "a",
+ "primeiro_comentario": "💬 Comenta DEVIA que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "roteiro aguardando aprovação",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "título honesto, pergunta de 1 palavra",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "ajustar",
+    "nota": "Tom de big tech agrada; Rufus/Flow/ShareX são jargão e não há IA. Não aplicado: troca de itens."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "\"O Windows esconde\" era enganoso; título virou \"pro seu Windows\"."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Pergunta final longa; virou trabalho ou estudo."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "Dois pedidos na fala do Files; mantido por regra do envio no meio."
+   }
+  ],
+  "ajustes": [
+   "título e gancho sem 'esconde'",
+   "pergunta final de 1 palavra",
+   "Flow Launcher: 'apps e arquivos'"
+  ],
+  "em": "2026-11-19 08:18",
+  "obs": "2ª volta não rodada por economia de tokens"
+ }
+}
