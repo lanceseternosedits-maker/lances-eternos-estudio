@@ -1,49 +1,49 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-18 19:45",
- "leitura": "metricool_2026-11-18.json",
- "resumo": "Em 12 h o Instagram não mudou um número sequer (47 Reels, NVIDIA 293, JOGOS 26) e o Reel de 18/11 06:00 (estúdio de games) só apareceu no TikTok, com 8 views: ou o Metricool travou de novo no Instagram, ou o Reel não saiu. Sem dado novo de Reel, o plano de 17/11 segue igual: contagem clean, 1 voz, ≤ 32 s.",
+ "em": "2026-11-19 07:42",
+ "leitura": "metricool_2026-11-19.json",
+ "resumo": "O Instagram voltou a sincronizar: o estúdio de games (18/11) apareceu com 280 views, e desde 14/11 todo Reel parou na faixa de 280–337 (JOGOS ficou em 45). Os 5 Reels de 14–18/11 são mascote no palco com 37–48 s, fora do plano de 17/11; o primeiro do plano (GTA/PS5, contagem, 19/11 06:00) ainda não entrou no Instagram.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "JOGOS saiu fora do plano e flopou",
-   "evidencia": "JOGOS (meta: \"reel v7 (2 vozes)\", 41,5 s): 26 views, alcance 22, 26,1% passa dos 3 s, 0 salvamentos em ~12 h (sem mudança até 19:40). O plano de 17/11 pede contagem clean com 1 voz e 25–32 s; os campeões de jogo com formato certo fizeram PLAY 1.715 e MOBILE 1.723 (52–59% nos 3 s).",
-   "acao": "Nada de v7/2 vozes até 01/12: os próximos de jogo saem em cena_contagem + _clean.js, 1 voz (Puck), ≤ 32 s, com o jogo conhecido na tela grande no 1º quadro."
+   "titulo": "Só 1 Reel por dia: o filtro está barrando quase tudo",
+   "evidencia": "Saíram 1 Reel em 17/11 (JOGOS), 1 em 18/11 (GAME) e 1 em 19/11 até agora (GTA, só no TikTok), contra 3 por dia no plano. Das 20 pastas de 18–19/11, 17 estão \"descartado\" pelo filtro, 2 \"reprovado na revisão\" e 1 \"vídeo aguardando aprovação\".",
+   "acao": "Na produção, 3 candidatos por vaga só no molde contagem clean (o que a nota premia) e rodar o chance.py antes de produzir; tema fora do molde (⚙️/📜, notícia) não vale o esforço agora."
+  },
+  {
+   "tipo": "corrigir",
+   "titulo": "Os Reels de 14–18/11 ainda saíram longos e no mascote",
+   "evidencia": "TELA 44 s, NVIDIA 48 s, GAME 37 s, JOGOS 41,5 s, todos mascote no palco: 280–316 views, 16–28% assistido, 0–1,8% de salvar. Os campeões têm 25–35 s em contagem (TV 34 s, 3.287; SKILLS 35 s, 2.955).",
+   "acao": "Corte duro em 32 s (máx. 35) e só cena_contagem + _clean.js; roteiro passou de 35 s, corta item ou frase antes de gravar a voz."
+  },
+  {
+   "tipo": "testar",
+   "titulo": "GTA/PS5 de hoje é o teste do plano",
+   "evidencia": "1ª contagem (formato 3) desde APPLE em 12/11 (1.930 views, 51,8% nos 3 s). No TikTok, às 06:05, ainda 0 views; no Instagram ainda não aparece na leitura das 07:42.",
+   "acao": "Comparar na leitura da noite com a faixa de 280–337 dos mascotes: se passar de 700, é a prova de que o formato (e não o tema) estava derrubando."
+  },
+  {
+   "tipo": "fazer_mais",
+   "titulo": "Contagem segue 2,6× o mascote",
+   "evidencia": "Contagem: mediana 740 views e 2,0% de salvar (22 Reels). Mascote no palco: 288 e 0,2% (24). 🆕 583 (35) · 📜 350 e 0,0% (6) · ⚙️ 258 e 0,1% (6). Tarde (12–17h) 615 contra 380 de manhã e 364 à noite.",
+   "acao": "Só 🆕 contagem; a melhor contagem do dia vai às 12:00/13:00."
   },
   {
    "tipo": "alerta",
-   "titulo": "Reel das 06:00 de hoje não aparece no Instagram",
-   "evidencia": "O estúdio de games (pasta 2026-11-15-estudio-de-games-no-claude) saiu no TikTok às 06:02 (8 views, 37 s), mas não está no Instagram às 19:40. Os 47 Reels têm exatamente os mesmos números da leitura das 07:40 (TV 3.283, NVIDIA 293, TELA 315, JOGOS 26).",
-   "acao": "Conferir no app se o Reel de 06:00 está publicado ou preso como rascunho/erro; se estiver no ar, o problema é o sync do Metricool com o Instagram (reconectar a conta)."
-  },
-  {
-   "tipo": "fazer_mais",
-   "titulo": "Notícia de marca grande cresce devagar, mas cresce",
-   "evidencia": "NVIDIA: 160 → 293 views desde ontem, 13,5 s de tempo médio (2º maior dos 47) e 48,0% nos 3 s, mas 0 salvamentos. VOO, a outra notícia, ficou em 337.",
-   "acao": "No máximo 1 notícia de marca grande por dia, fora das contagens, e fechando com lista útil + \"salva\" para gerar salvamento."
+   "titulo": "JOGOS confirmou o flop do v7",
+   "evidencia": "JOGOS (2 vozes, 41,5 s): 45 views depois de ~36 h (era 26), 28,9% nos 3 s, 0 salvamentos; no TikTok, 3 views. PLAY e MOBILE, jogos no formato certo, fizeram 1.715 e 1.723.",
+   "acao": "Tema de jogo continua bom; nada de v7/2 vozes até 01/12."
   },
   {
    "tipo": "testar",
-   "titulo": "TV sem propaganda não repetiu o campeão",
-   "evidencia": "TELA: 315 views (+5 em 12 h), 46,8% nos 3 s, 5 salvamentos, 0 envios em ~46 h. O campeão TV de 06/11 tem 3.283 e 40 envios.",
-   "acao": "Repetir tema só com número de impacto no 1º quadro (o campeão abria com 52 mil estrelas) e o nº 1 mostrado na TV, não só citado."
-  },
-  {
-   "tipo": "fazer_mais",
-   "titulo": "Contagem segue 2,4× o mascote",
-   "evidencia": "Contagem (formato 3): mediana 740 views e 2,0% de salvar (22 Reels). Mascote no palco: 304 e 0,2% (24). 🆕 583 (35) · 📜 350 e 0,0% de salvar (6) · ⚙️ 258 e 0,1% (6). Tarde (12–17h) 599 de mediana contra 364 à noite.",
-   "acao": "Só 🆕 contagem, como manda o plano; se houver espaço para escolher, a melhor contagem do dia vai às 12:00."
-  },
-  {
-   "tipo": "testar",
-   "titulo": "TikTok segue travado: hora do teste em fotos",
-   "evidencia": "Mediana de 3 views por vídeo contra 434 no Instagram. Novos: GAME 8 views e JOGOS 2 views; NVIDIA subiu só 46 → 49. Nada acima de 100 desde VOO (127), então a condição da leitura anterior foi cumprida.",
-   "acao": "Na próxima rodada, postar no TikTok 1 contagem em post de fotos (carrossel) em vez de vídeo e comparar com a mediana de 3."
+   "titulo": "TikTok: o estúdio de games foi o melhor desde 14/11",
+   "evidencia": "GAME foi de 8 para 81 views em 24 h (o melhor desde VOO, 127); TELA 56 e NVIDIA 50. A mediana dos vídeos ainda é 3 views, contra 431 no Instagram.",
+   "acao": "Manter o teste de 1 contagem em post de fotos no TikTok na próxima rodada, comparando com a mediana de 3 e com os 81 do GAME."
   }
  ],
  "semanas": [
-  "S1 (01–07/11): 14 Reels, 21.000 views, mediana 1.169. S2 (08–14/11): 34 Reels, 23.593 views, mediana 409.",
-  "S3 (15–17/11): 3 Reels (TELA 315, NVIDIA 293, JOGOS 26), 634 views, mediana 293; 46,8% nos 3 s e 0,9% de salvar.",
-  "18/11 19:40: Instagram congelado desde 07:40 (nenhum número mudou); TikTok com GAME 8 e JOGOS 2."
+  "S1 (01–07/11): 14 Reels, 21.009 views, mediana 1.169.",
+  "S2 (08–14/11): 34 Reels, 23.612 views, mediana 409.",
+  "S3 (15–19/11, parcial): 4 Reels no IG, 936 views, mediana 288 (TELA 316, NVIDIA 295, GAME 280, JOGOS 45), todos mascote de 37–48 s; GTA de 19/11 só no TikTok até 07:42."
  ]
 }
