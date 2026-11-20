@@ -1,26 +1,26 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-20 07:44",
+ "em": "2026-11-20 19:42",
  "leitura": "metricool_2026-11-20.json",
- "resumo": "O Metricool voltou a sincronizar: o GTA/PS5 apareceu no Instagram com o melhor gancho já medido (63,7% passam dos 3 s), mas só 270 views e 0 salvamentos; e saiu um Reel que não estava no plano, a Agência de marketing (mascote, 36 s, 19:32), que fez 8 views em 12 h, o pior da conta. Desde a última leitura, a S3 tem 6 Reels com mediana 277 e nenhum acima de 320.",
+ "resumo": "Em 12 h nada mudou: 0 Reel publicado em 20/11 e os números dos 47 Reels estão idênticos aos das 07:44 (último post: Agência de marketing, 19/11 19:32). E o Metricool não tem nada agendado de 20 a 22/11: a conta vai para o 2º dia seguido sem post, porque o filtro descartou 42 de 46 pastas de 20–23/11.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "Saiu um Reel de mascote fora do plano e flopou",
-   "evidencia": "Agência de marketing no Claude (pasta de 15/11, formato mascote no palco, 36 s) foi ao ar 19/11 19:32: 8 views e 7 de alcance em ~12 h, 14,3% nos 3 s, 2 s de tempo médio; no TikTok, 7 views. O plano até 01/12 é só contagem.",
-   "acao": "Conferir no Metricool quais rascunhos antigos de mascote (14–15/11) ainda estão agendados e tirar da fila antes de sair outro; só contagem no molde da TV."
-  },
-  {
-   "tipo": "testar",
-   "titulo": "GTA/PS5: gancho recorde, mas não virou view nem salvar",
-   "evidencia": "PS5 grava seu GTA 6 (contagem, 36,7 s, 19/11 06:06): 63,7% passam dos 3 s (melhor da conta; MOBILE 59,0, XADREZ 55,1), mas 270 views, 0 salvamentos, 0 envios e 21% assistido. A data do GTA puxou o clique, a lista não segurou.",
-   "acao": "Manter a abertura com data/jogo quente no 1º quadro; cortar para ≤32 s e deixar a lista útil (programas grátis com nome e uso) visível no fim para virar salvar."
+   "titulo": "Conta parada: 0 post hoje e nada agendado até 22/11",
+   "evidencia": "Último Reel no ar: 19/11 19:32. getScheduledPosts de 19/11 a 22/11 só traz os 3 já publicados de 19/11. Pastas: 20/11 9 descartadas + 2 reprovadas; 21/11 12 descartadas; 22/11 11 descartadas + 1 aguardando aprovação; 23/11 10 descartadas, 1 aguardando, 1 reprovada.",
+   "acao": "Vitor decide hoje: aprovar o roteiro que aguarda em 22/11 e o de 23/11, ou baixar o corte de 56 só até a fila voltar a ter 3 por dia. Sem isso, a S4 começa vazia."
   },
   {
    "tipo": "fazer_mais",
    "titulo": "Contagem segue 2,2× o mascote",
    "evidencia": "Contagem: mediana 637 views e 1,5% de salvar (22 Reels). Mascote no palco: 290 e 0,1% (24). 🆕 431 (35) · 📜 350 e 0,0% (6) · ⚙️ 258 e 0,1% (6). Tarde (12–17h) 599 contra 339 de manhã e 365 à noite.",
    "acao": "Só 🆕 contagem com objeto de casa/marca/jogo; a melhor contagem do dia vai às 12:00/13:00."
+  },
+  {
+   "tipo": "testar",
+   "titulo": "GTA/PS5: gancho recorde, mas não virou view nem salvar",
+   "evidencia": "PS5 grava seu GTA 6 (contagem, 36,7 s, 19/11 06:06): 63,7% passam dos 3 s (melhor da conta; MOBILE 59,0, XADREZ 55,1), mas 270 views, 0 salvamentos, 0 envios e 21% assistido. A data do GTA puxou o clique, a lista não segurou.",
+   "acao": "Manter a abertura com data/jogo quente no 1º quadro; cortar para ≤32 s e deixar a lista útil (programas grátis com nome e uso) visível no fim para virar salvar."
   },
   {
    "tipo": "corrigir",
@@ -30,14 +30,14 @@
   },
   {
    "tipo": "alerta",
-   "titulo": "Filtro segue barrando quase tudo: 0 Reel pronto pra 20/11",
-   "evidencia": "Das 11 pastas de 20/11, 9 estão descartadas e 2 reprovadas na revisão; 21/11 e 22/11 vêm quase todas descartadas (só 'O Windows esconde 5 programas grátis' aguarda aprovação). Saíram 2 Reels em 19/11, um deles fora do plano.",
-   "acao": "Na próxima rodada, escrever só no molde que já passou do corte (TV/PC/Windows/jogos com ≥10 mil estrelas) e priorizar aprovar o Windows de 22/11; se nada passa, rever o corte de 56 com o Vitor."
+   "titulo": "Saiu um Reel de mascote fora do plano e flopou",
+   "evidencia": "Agência de marketing (mascote, 36 s), 19/11 19:32: 8 views, 7 de alcance, 14,3% nos 3 s; mesmos números 24 h depois. TikTok: 7 views.",
+   "acao": "Antes de agendar de novo, conferir que nenhum rascunho de mascote de 14–15/11 voltou para a fila."
   },
   {
    "tipo": "alerta",
-   "titulo": "TikTok sem tração nos 2 novos",
-   "evidencia": "GTA 9 views e MARKETING 7 em 12–24 h; GAME estabilizou em 81. Mediana dos vídeos: 3,5 views contra 425 no Instagram.",
+   "titulo": "TikTok sem tração",
+   "evidencia": "GTA 9 views e MARKETING 7 em ~24 h; GAME parou em 81. Mediana de 3,5 views por vídeo contra 425 no Instagram.",
    "acao": "Manter o teste de 1 contagem em post de fotos no TikTok e comparar com a mediana de 3,5 e os 81 do GAME."
   }
  ],
