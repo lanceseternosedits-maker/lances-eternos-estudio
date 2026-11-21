@@ -1,6 +1,16 @@
 {
- "gerado_em": "2026-11-20 19:43",
+ "gerado_em": "2026-11-21 01:27",
  "videos": [
+  {
+   "pasta": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido",
+   "titulo": "PARA DE PERDER TEMPO NA SEGUNDA-FEIRA",
+   "quando": "2026-11-24 06:00"
+  },
+  {
+   "pasta": "2026-11-22-o-windows-esconde-5-programas-gratis",
+   "titulo": "5 PROGRAMAS GRÁTIS PRO SEU WINDOWS",
+   "quando": "2026-11-22 09:00"
+  },
   {
    "pasta": "2026-11-18-ia-no-pc-sem-placa-nvidia",
    "titulo": "SEM PLACA DA NVIDIA, SEM IA? MENTIRA",
@@ -12,17 +22,6 @@
    "quando": "2026-11-18 12:00"
   }
  ],
- "roteiros": [
-  {
-   "pasta": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido",
-   "titulo": "PARA DE PERDER TEMPO NA SEGUNDA-FEIRA",
-   "quando": "2026-11-23 06:00"
-  },
-  {
-   "pasta": "2026-11-22-o-windows-esconde-5-programas-gratis",
-   "titulo": "5 PROGRAMAS GRÁTIS PRO SEU WINDOWS",
-   "quando": "2026-11-22 09:00"
-  }
- ],
+ "roteiros": [],
  "agenda_3_dias": []
 }
