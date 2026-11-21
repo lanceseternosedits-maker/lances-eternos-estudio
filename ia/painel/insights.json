@@ -1,13 +1,13 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-21 07:50",
+ "em": "2026-11-21 19:50",
  "leitura": "metricool_2026-11-21.json",
- "resumo": "3º dia sem post: o último Reel saiu em 19/11 19:32 e o Metricool não tem nada agendado de 21 a 24/11, embora 2 vídeos já estejam prontos (22/11 Windows e 23/11 programas grátis). Fora isso nada mudou: a janela de 14 dias perdeu os posts de 06/11 (TV 3.291, SKILLS 2.955), por isso a mediana caiu de 425 para 394, e contagem segue 2,1× o mascote.",
+ "resumo": "Nada se mexeu em 12 h: os 45 Reels e os 46 TikToks têm exatamente os mesmos números da leitura das 07:47 (mediana 394, EDITA 2.947 no topo), e o Metricool segue sem nada agendado de 21 a 25/11. O último Reel saiu em 19/11 19:32; sem post novo não há aprendizado novo, e a prioridade continua sendo agendar os 2 vídeos prontos (22/11 Windows e 23/11 programas grátis).",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "3º dia sem post e 2 vídeos prontos parados",
-   "evidencia": "Último Reel: 19/11 19:32. getScheduledPosts de 21 a 24/11: vazio. Pastas de 21–24/11: 33 descartadas pelo filtro, 1 reprovada e 2 em 'vídeo' (2026-11-22-o-windows-esconde-5-programas-gratis e 2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido).",
+   "titulo": "2 dias sem post e nada agendado até 25/11",
+   "evidencia": "Último Reel: 19/11 19:32. getScheduledPosts de 21/11 19:00 a 25/11: vazio. Prontos em 'vídeo': 2026-11-22-o-windows-esconde-5-programas-gratis e 2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido.",
    "acao": "Vitor: revisar e agendar os 2 vídeos prontos (Windows é o tema da contagem WINDOWS, 2.601 views). Para a fila voltar a 3 por dia, decidir se baixa o corte de 56 até 01/12."
   },
   {
@@ -30,14 +30,14 @@
   },
   {
    "tipo": "alerta",
-   "titulo": "Mascote de 19/11 continua no fundo",
-   "evidencia": "Agência de marketing (mascote, 36 s): 22 views e 33,3% nos 3 s em 36 h (era 8 ontem). Mediana do mascote na janela: 292 views, 0,1% de salvar.",
+   "titulo": "Mascote de 19/11 parou em 22 views",
+   "evidencia": "Agência de marketing (mascote, 36 s): 22 views e 33,3% nos 3 s, igual às 07:47 (≈48 h no ar). Mediana do mascote na janela: 292 views, 0,1% de salvar.",
    "acao": "Nenhum mascote na fila até 01/12; ao agendar, conferir que nenhum rascunho de 14–15/11 voltou."
   },
   {
    "tipo": "alerta",
    "titulo": "TikTok sem tração",
-   "evidencia": "Mediana de 3,0 views por vídeo (46 vídeos, 1.064 views no total) contra 394 no Instagram; GTA 9 e MARKETING 7 em 36 h; melhor recente VOO 127.",
+   "evidencia": "Mediana de 3,0 views por vídeo (46 vídeos) contra 394 no Instagram; números idênticos aos da manhã; GTA 9 e MARKETING 7 em 48 h; melhor recente VOO 127.",
    "acao": "Manter o teste de 1 contagem em post de fotos no TikTok; sem post novo, não há leitura nova."
   }
  ],
