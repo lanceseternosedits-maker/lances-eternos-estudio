@@ -1,49 +1,49 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-20 19:42",
- "leitura": "metricool_2026-11-20.json",
- "resumo": "Em 12 h nada mudou: 0 Reel publicado em 20/11 e os números dos 47 Reels estão idênticos aos das 07:44 (último post: Agência de marketing, 19/11 19:32). E o Metricool não tem nada agendado de 20 a 22/11: a conta vai para o 2º dia seguido sem post, porque o filtro descartou 42 de 46 pastas de 20–23/11.",
+ "em": "2026-11-21 07:50",
+ "leitura": "metricool_2026-11-21.json",
+ "resumo": "3º dia sem post: o último Reel saiu em 19/11 19:32 e o Metricool não tem nada agendado de 21 a 24/11, embora 2 vídeos já estejam prontos (22/11 Windows e 23/11 programas grátis). Fora isso nada mudou: a janela de 14 dias perdeu os posts de 06/11 (TV 3.291, SKILLS 2.955), por isso a mediana caiu de 425 para 394, e contagem segue 2,1× o mascote.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "Conta parada: 0 post hoje e nada agendado até 22/11",
-   "evidencia": "Último Reel no ar: 19/11 19:32. getScheduledPosts de 19/11 a 22/11 só traz os 3 já publicados de 19/11. Pastas: 20/11 9 descartadas + 2 reprovadas; 21/11 12 descartadas; 22/11 11 descartadas + 1 aguardando aprovação; 23/11 10 descartadas, 1 aguardando, 1 reprovada.",
-   "acao": "Vitor decide hoje: aprovar o roteiro que aguarda em 22/11 e o de 23/11, ou baixar o corte de 56 só até a fila voltar a ter 3 por dia. Sem isso, a S4 começa vazia."
+   "titulo": "3º dia sem post e 2 vídeos prontos parados",
+   "evidencia": "Último Reel: 19/11 19:32. getScheduledPosts de 21 a 24/11: vazio. Pastas de 21–24/11: 33 descartadas pelo filtro, 1 reprovada e 2 em 'vídeo' (2026-11-22-o-windows-esconde-5-programas-gratis e 2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido).",
+   "acao": "Vitor: revisar e agendar os 2 vídeos prontos (Windows é o tema da contagem WINDOWS, 2.601 views). Para a fila voltar a 3 por dia, decidir se baixa o corte de 56 até 01/12."
   },
   {
    "tipo": "fazer_mais",
-   "titulo": "Contagem segue 2,2× o mascote",
-   "evidencia": "Contagem: mediana 637 views e 1,5% de salvar (22 Reels). Mascote no palco: 290 e 0,1% (24). 🆕 431 (35) · 📜 350 e 0,0% (6) · ⚙️ 258 e 0,1% (6). Tarde (12–17h) 599 contra 339 de manhã e 365 à noite.",
-   "acao": "Só 🆕 contagem com objeto de casa/marca/jogo; a melhor contagem do dia vai às 12:00/13:00."
-  },
-  {
-   "tipo": "testar",
-   "titulo": "GTA/PS5: gancho recorde, mas não virou view nem salvar",
-   "evidencia": "PS5 grava seu GTA 6 (contagem, 36,7 s, 19/11 06:06): 63,7% passam dos 3 s (melhor da conta; MOBILE 59,0, XADREZ 55,1), mas 270 views, 0 salvamentos, 0 envios e 21% assistido. A data do GTA puxou o clique, a lista não segurou.",
-   "acao": "Manter a abertura com data/jogo quente no 1º quadro; cortar para ≤32 s e deixar a lista útil (programas grátis com nome e uso) visível no fim para virar salvar."
+   "titulo": "Contagem segue 2,1× o mascote",
+   "evidencia": "Contagem: mediana 621 views e 1,5% de salvar (20 Reels). Mascote no palco: 292 e 0,1% (24). 🆕 425 (33) · 📜 350 e 0,0% (6) · ⚙️ 258 e 0,1% (6). Tarde (12–17h) 583 contra 340 de manhã e 296 à noite.",
+   "acao": "Só 🆕 contagem com objeto de casa/marca/jogo (Windows, PC, TV, PlayStation); a melhor do dia às 12:00/13:00."
   },
   {
    "tipo": "corrigir",
-   "titulo": "Os 6 Reels da S3 ficaram todos entre 8 e 320",
-   "evidencia": "S3 (15–19/11): 6 Reels, mediana 277, 1.225 views (S1: mediana 1.169; S2: 410). 5 dos 6 têm 36–48 s (TELA 44 s 320, NVIDIA 48 s 296, GAME 37 s 284, GTA 36,7 s 270, MARKETING 36 s 8). Os campeões têm 32–35 s (TV 34 s, 3.291).",
-   "acao": "Corte duro em 32 s (máx. 35) antes de gravar a voz; passou disso, corta item ou frase."
+   "titulo": "S3 fechou com 6 Reels e mediana 280",
+   "evidencia": "S3 (15–21/11): 6 Reels, 1.247 views, 0 envios, mediana 280, nenhum acima de 330 (S1: 1.169; S2: 410). 5 dos 6 com 36–48 s. Campeões da janela: EDITA 2.947, ESTILO 2.831, XADREZ 2.761, PC 2.691, WINDOWS 2.601.",
+   "acao": "Corte duro em 32 s (máx. 35) antes de gravar a voz; conferir a duração dos 2 vídeos prontos antes de agendar."
+  },
+  {
+   "tipo": "testar",
+   "titulo": "Gancho quente sem lista útil não vira salvar",
+   "evidencia": "PS5 grava seu GTA 6: 62,9% passam dos 3 s (melhor da conta), mas 274 views, 0 salvamentos e 0 envios. Salvar vem das listas úteis: EDITA 100 salvos/39 envios, ESTILO 76/28, VOZ 65/19, PC 55/9.",
+   "acao": "Abrir com data/jogo quente no 1º quadro e terminar com a lista de programas grátis legível na tela + \"salva\" na fala."
   },
   {
    "tipo": "alerta",
-   "titulo": "Saiu um Reel de mascote fora do plano e flopou",
-   "evidencia": "Agência de marketing (mascote, 36 s), 19/11 19:32: 8 views, 7 de alcance, 14,3% nos 3 s; mesmos números 24 h depois. TikTok: 7 views.",
-   "acao": "Antes de agendar de novo, conferir que nenhum rascunho de mascote de 14–15/11 voltou para a fila."
+   "titulo": "Mascote de 19/11 continua no fundo",
+   "evidencia": "Agência de marketing (mascote, 36 s): 22 views e 33,3% nos 3 s em 36 h (era 8 ontem). Mediana do mascote na janela: 292 views, 0,1% de salvar.",
+   "acao": "Nenhum mascote na fila até 01/12; ao agendar, conferir que nenhum rascunho de 14–15/11 voltou."
   },
   {
    "tipo": "alerta",
    "titulo": "TikTok sem tração",
-   "evidencia": "GTA 9 views e MARKETING 7 em ~24 h; GAME parou em 81. Mediana de 3,5 views por vídeo contra 425 no Instagram.",
-   "acao": "Manter o teste de 1 contagem em post de fotos no TikTok e comparar com a mediana de 3,5 e os 81 do GAME."
+   "evidencia": "Mediana de 3,0 views por vídeo (46 vídeos, 1.064 views no total) contra 394 no Instagram; GTA 9 e MARKETING 7 em 36 h; melhor recente VOO 127.",
+   "acao": "Manter o teste de 1 contagem em post de fotos no TikTok; sem post novo, não há leitura nova."
   }
  ],
  "semanas": [
-  "S1 (01–07/11): 14 Reels, 21.015 views, mediana 1.169.",
-  "S2 (08–14/11): 34 Reels, 23.626 views, mediana 410.",
-  "S3 (15–19/11, parcial): 6 Reels no IG, 1.225 views, mediana 277 (TELA 320, NVIDIA 296, GAME 284, GTA 270, JOGOS 47, MARKETING 8); nenhum acima de 320."
+  "S1 (01–07/11): 14 Reels, 21.018 views, mediana 1.169.",
+  "S2 (08–14/11): 34 Reels, 23.642 views, mediana 410.",
+  "S3 (15–21/11, parcial): 6 Reels no IG, 1.247 views, mediana 280 (TELA 321, NVIDIA 296, GAME 287, GTA 274, JOGOS 47, MARKETING 22); nenhum post em 20–21/11."
  ]
 }
