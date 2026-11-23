@@ -1,0 +1,20 @@
+Comenta VELHO que eu te mando os links. 💬
+
+Seu PC velho parado vale ouro. Cinco projetos grátis viram ele em algo útil.
+
+5º Syncthing: Sincroniza seus arquivos sem nuvem paga.
+4º Jellyfin: Vira a sua Netflix própria.
+3º Immich: Guarda suas fotos, estilo Google Fotos.
+2º Pi-hole: Bloqueia propaganda da casa inteira.
+1º Home Assistant: Controla a casa inteira pelo celular.
+
+⚠️ Rode só na sua casa e com os seus arquivos.
+
+💬 Comenta VELHO e me segue. Deixa o like e manda pra aquele amigo que guarda PC velho.
+
+Tem PC velho parado na sua casa? 👇
+
+Fonte: repositórios no GitHub (estrelas conferidas em 23/11/2026). Projetos independentes, sem ligação com as empresas citadas.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#pc #tecnologia #gratis #github #homeassistant

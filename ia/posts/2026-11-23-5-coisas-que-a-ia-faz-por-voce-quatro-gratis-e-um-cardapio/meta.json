@@ -1,0 +1,29 @@
+{
+ "data": "2026-11-23",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "IA",
+  "PC",
+  "TV",
+  "grátis",
+  "assistente",
+  "cardápio"
+ ],
+ "fontes": [
+  "https://github.com/cjpais/Handy",
+  "https://github.com/open-webui/open-webui",
+  "https://github.com/home-assistant/core",
+  "https://github.com/jellyfin/jellyfin"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): Handy 39.776, Open WebUI 159.309, Home Assistant 92.567, Jellyfin 59.657; total 351.309.",
+ "cta": "KIT",
+ "polemica": false,
+ "candidato": "k2",
+ "primeiro_comentario": "💬 Comenta KIT que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 45%, abaixo do corte"
+}

@@ -1774,5 +1774,53 @@
     "views": 99
    }
   }
+ },
+ "leitura_api_2026_11_23": {
+  "janela": "2026-11-09..2026-11-22 (Instagram Reels, Metricool; atraso ~1 dia)",
+  "top_views": {
+   "APPLE": 1938,
+   "PLAY": 1717,
+   "MAPA": 827,
+   "CORTES": 712,
+   "COPIA": 659,
+   "LEIS": 610,
+   "ESTUDA": 583
+  },
+  "piores_views": {
+   "SYDNEY": 28,
+   "PASSO": 30,
+   "JOGOS": 47,
+   "BIZARRO": 99,
+   "INTERNET": 152
+  },
+  "pct_3s_top": {
+   "GTA/PS5": 62.9,
+   "DOLAR": 57.3,
+   "PLAY": 52.4,
+   "PASSO": 52.2,
+   "APPLE": 51.8
+  },
+  "pct_3s_piores": {
+   "GRATIS/Office": 26.2,
+   "ESTUDA": 30.2,
+   "VERAO": 31.8,
+   "LOCAL": 32.1,
+   "AGENCIA": 32.2
+  },
+  "recentes_16_19_11": {
+   "VOO": 340,
+   "TELA": 323,
+   "NVIDIA": 296,
+   "GAME": 287,
+   "GTA/PS5": 274,
+   "JOGOS": 47
+  },
+  "salvar_enviar_comentar": {
+   "APPLE": "38 salvos/10 envios/23 comentários",
+   "COPIA": "19/4/7",
+   "CORTES": "11/4/15",
+   "LEIS": "10/6/11"
+  },
+  "obs": "MARKETING (19/11 22:32) só tinha horas no ar: 22 views."
  }
 }

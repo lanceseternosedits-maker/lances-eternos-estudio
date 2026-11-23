@@ -1141,7 +1141,7 @@
    "tipo": "post",
    "label": "10-estilos",
    "data": "2026-11-08",
-   "score": 359.0
+   "score": 360.0
   },
   {
    "id": "formato:reel lista + demonstração (formato 2)",
@@ -2048,7 +2048,7 @@
    "tipo": "post",
    "label": "windows-gratis",
    "data": "2026-11-07",
-   "score": 210.0
+   "score": 215.0
   },
   {
    "id": "cta:WINDOWS",
@@ -2661,7 +2661,7 @@
    "tipo": "post",
    "label": "apple-nao-queria",
    "data": "2026-11-12",
-   "score": 198.0
+   "score": 205.0
   },
   {
    "id": "cta:APPLE",
@@ -3061,7 +3061,7 @@
    "tipo": "post",
    "label": "copiar-qualquer-app",
    "data": "2026-11-12",
-   "score": 82.0
+   "score": 85.0
   },
   {
    "id": "cta:COPIA",
@@ -4481,7 +4481,7 @@
    "tipo": "post",
    "label": "agencia-de-marketing-no-claude",
    "data": "2026-11-19",
-   "score": null
+   "score": 4.0
   },
   {
    "id": "cta:MARKETING",
@@ -4530,7 +4530,7 @@
    "tipo": "post",
    "label": "estudio-de-games-no-claude",
    "data": "2026-11-18",
-   "score": null
+   "score": 24.0
   },
   {
    "id": "cta:GAME",
@@ -5571,7 +5571,7 @@
    "tipo": "post",
    "label": "jogos-no-celular-e-no-mac",
    "data": "2026-11-17",
-   "score": 5.0
+   "score": 11.0
   },
   {
    "id": "cta:JOGOS",
@@ -6160,7 +6160,7 @@
    "tipo": "post",
    "label": "ps5-grava-seu-gta-6",
    "data": "2026-11-19",
-   "score": null
+   "score": 11.0
   },
   {
    "id": "tema:PS5",
@@ -7052,9 +7052,57 @@
    "label": "MIL"
   },
   {
+   "id": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio",
+   "data": "2026-11-25",
+   "score": null
+  },
+  {
+   "id": "tema:computador",
+   "tipo": "tema",
+   "label": "computador"
+  },
+  {
+   "id": "tema:cardápio",
+   "tipo": "tema",
+   "label": "cardápio"
+  },
+  {
+   "id": "tema:bombando",
+   "tipo": "tema",
+   "label": "bombando"
+  },
+  {
+   "id": "fonte:https://github.com/cjpais/Handy",
+   "tipo": "fonte",
+   "label": "https://github.com/cjpais/Handy"
+  },
+  {
+   "id": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github",
+   "data": "2026-11-27",
+   "score": null
+  },
+  {
    "id": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente",
    "tipo": "post",
    "label": "5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa",
    "data": "2026-11-23",
    "score": null
   },
@@ -7120,7 +7168,7 @@
    "id": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido",
    "tipo": "post",
    "label": "5-programas-gratis-pra-comecar-a-segunda-mais-rapido",
-   "data": "2026-11-23",
+   "data": "2026-11-24",
    "score": null
   },
   {
@@ -7159,6 +7207,33 @@
    "id": "fonte:https://github.com/anthropics/skills",
    "tipo": "fonte",
    "label": "https://github.com/anthropics/skills"
+  },
+  {
+   "id": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia",
+   "tipo": "post",
+   "label": "5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia",
+   "data": "2026-11-25",
+   "score": null
+  },
+  {
+   "id": "tema:cinco",
+   "tipo": "tema",
+   "label": "cinco"
+  },
+  {
+   "id": "tema:agência",
+   "tipo": "tema",
+   "label": "agência"
+  },
+  {
+   "id": "fonte:https://github.com/ComposioHQ/awesome-claude-skills",
+   "tipo": "fonte",
+   "label": "https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+   "id": "fonte:https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+   "tipo": "fonte",
+   "label": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
   },
   {
    "id": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas",
@@ -7234,6 +7309,331 @@
    "id": "fonte:https://fortune.com/2016/03/25/microsoft-sorry-offensive-chat-bot/",
    "tipo": "fonte",
    "label": "https://fortune.com/2016/03/25/microsoft-sorry-offensive-chat-bot/"
+  },
+  {
+   "id": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis",
+   "tipo": "post",
+   "label": "a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "cta:LIXO",
+   "tipo": "cta",
+   "label": "LIXO"
+  },
+  {
+   "id": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows",
+   "tipo": "post",
+   "label": "a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows",
+   "data": "2026-11-24",
+   "score": null
+  },
+  {
+   "id": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade",
+   "tipo": "post",
+   "label": "cinco-programas-em-alta-no-github-pro-seu-computador-produtividade",
+   "data": "2026-11-25",
+   "score": null
+  },
+  {
+   "id": "cta:COMPUTADOR",
+   "tipo": "cta",
+   "label": "COMPUTADOR"
+  },
+  {
+   "id": "fonte:https://github.com/flameshot-org/flameshot",
+   "tipo": "fonte",
+   "label": "https://github.com/flameshot-org/flameshot"
+  },
+  {
+   "id": "fonte:https://github.com/logseq/logseq",
+   "tipo": "fonte",
+   "label": "https://github.com/logseq/logseq"
+  },
+  {
+   "id": "fonte:https://github.com/laurent22/joplin",
+   "tipo": "fonte",
+   "label": "https://github.com/laurent22/joplin"
+  },
+  {
+   "id": "fonte:https://github.com/AppFlowy-IO/AppFlowy",
+   "tipo": "fonte",
+   "label": "https://github.com/AppFlowy-IO/AppFlowy"
+  },
+  {
+   "id": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android",
+   "tipo": "post",
+   "label": "cinco-projetos-em-alta-no-github-pro-seu-celular-android",
+   "data": "2026-11-27",
+   "score": null
+  },
+  {
+   "id": "cta:ANDROID",
+   "tipo": "cta",
+   "label": "ANDROID"
+  },
+  {
+   "id": "tema:alta",
+   "tipo": "tema",
+   "label": "alta"
+  },
+  {
+   "id": "fonte:https://github.com/TeamNewPipe/NewPipe",
+   "tipo": "fonte",
+   "label": "https://github.com/TeamNewPipe/NewPipe"
+  },
+  {
+   "id": "fonte:https://github.com/termux/termux-app",
+   "tipo": "fonte",
+   "label": "https://github.com/termux/termux-app"
+  },
+  {
+   "id": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6",
+   "tipo": "post",
+   "label": "cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "fonte:https://github.com/Breakthrough/PySceneDetect",
+   "tipo": "fonte",
+   "label": "https://github.com/Breakthrough/PySceneDetect"
+  },
+  {
+   "id": "fonte:https://github.com/modelscope/FunClip",
+   "tipo": "fonte",
+   "label": "https://github.com/modelscope/FunClip"
+  },
+  {
+   "id": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github",
+   "tipo": "post",
+   "label": "editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github",
+   "data": "2026-11-24",
+   "score": null
+  },
+  {
+   "id": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github",
+   "tipo": "post",
+   "label": "editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia",
+   "tipo": "post",
+   "label": "esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia",
+   "data": "2026-11-26",
+   "score": null
+  },
+  {
+   "id": "fonte:https://github.com/hexgrad/kokoro",
+   "tipo": "fonte",
+   "label": "https://github.com/hexgrad/kokoro"
+  },
+  {
+   "id": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar",
+   "tipo": "post",
+   "label": "esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "tema:rodando",
+   "tipo": "tema",
+   "label": "rodando"
+  },
+  {
+   "id": "tema:fãs",
+   "tipo": "tema",
+   "label": "fãs"
+  },
+  {
+   "id": "tema:nunca",
+   "tipo": "tema",
+   "label": "nunca"
+  },
+  {
+   "id": "fonte:https://github.com/JosefNemec/Playnite",
+   "tipo": "fonte",
+   "label": "https://github.com/JosefNemec/Playnite"
+  },
+  {
+   "id": "fonte:https://github.com/brunodev85/winlator",
+   "tipo": "fonte",
+   "label": "https://github.com/brunodev85/winlator"
+  },
+  {
+   "id": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz",
+   "tipo": "post",
+   "label": "fale-e-o-pc-escreve-5-projetos-gratis-de-voz",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "tema:voz",
+   "tipo": "tema",
+   "label": "voz"
+  },
+  {
+   "id": "tema:estúdio de voz",
+   "tipo": "tema",
+   "label": "estúdio de voz"
+  },
+  {
+   "id": "fonte:https://github.com/rhasspy/piper",
+   "tipo": "fonte",
+   "label": "https://github.com/rhasspy/piper"
+  },
+  {
+   "id": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram",
+   "tipo": "post",
+   "label": "o-youtube-enche-de-propaganda-5-projetos-gratis-tiram",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "cta:YOUTUBE",
+   "tipo": "cta",
+   "label": "YOUTUBE"
+  },
+  {
+   "id": "fonte:https://github.com/ajayyy/SponsorBlock",
+   "tipo": "fonte",
+   "label": "https://github.com/ajayyy/SponsorBlock"
+  },
+  {
+   "id": "fonte:https://github.com/FreeTubeApp/FreeTube",
+   "tipo": "fonte",
+   "label": "https://github.com/FreeTubeApp/FreeTube"
+  },
+  {
+   "id": "fonte:https://github.com/pi-hole/pi-hole",
+   "tipo": "fonte",
+   "label": "https://github.com/pi-hole/pi-hole"
+  },
+  {
+   "id": "fonte:https://github.com/gorhill/uBlock",
+   "tipo": "fonte",
+   "label": "https://github.com/gorhill/uBlock"
+  },
+  {
+   "id": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular",
+   "tipo": "post",
+   "label": "o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando",
+   "tipo": "post",
+   "label": "seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis",
+   "tipo": "post",
+   "label": "seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "cta:VELHO",
+   "tipo": "cta",
+   "label": "VELHO"
+  },
+  {
+   "id": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar",
+   "tipo": "post",
+   "label": "seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "fonte:https://github.com/lutris/lutris",
+   "tipo": "fonte",
+   "label": "https://github.com/lutris/lutris"
+  },
+  {
+   "id": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos",
+   "tipo": "post",
+   "label": "sua-placa-nvidia-roda-ia-de-graca-5-projetos",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta",
+   "tipo": "post",
+   "label": "um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta",
+   "data": "2026-11-26",
+   "score": null
+  },
+  {
+   "id": "cta:ESTUDIO",
+   "tipo": "cta",
+   "label": "ESTUDIO"
+  },
+  {
+   "id": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github",
+   "tipo": "post",
+   "label": "um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video",
+   "tipo": "post",
+   "label": "voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video",
+   "data": "2026-11-23",
+   "score": null
+  },
+  {
+   "id": "cta:ADOBE",
+   "tipo": "cta",
+   "label": "ADOBE"
+  },
+  {
+   "id": "tema:Adobe",
+   "tipo": "tema",
+   "label": "Adobe"
+  },
+  {
+   "id": "tema:foto",
+   "tipo": "tema",
+   "label": "foto"
+  },
+  {
+   "id": "fonte:https://github.com/darktable-org/darktable",
+   "tipo": "fonte",
+   "label": "https://github.com/darktable-org/darktable"
+  },
+  {
+   "id": "fonte:https://github.com/penpot/penpot",
+   "tipo": "fonte",
+   "label": "https://github.com/penpot/penpot"
+  },
+  {
+   "id": "fonte:https://github.com/upscayl/upscayl",
+   "tipo": "fonte",
+   "label": "https://github.com/upscayl/upscayl"
+  },
+  {
+   "id": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github",
+   "tipo": "post",
+   "label": "voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github",
+   "data": "2026-11-26",
+   "score": null
+  },
+  {
+   "id": "cta:EDITAR",
+   "tipo": "cta",
+   "label": "EDITAR"
+  },
+  {
+   "id": "tema:edição",
+   "tipo": "tema",
+   "label": "edição"
   }
  ],
  "links": [
@@ -8343,6 +8743,14 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
   },
   {
@@ -8371,6 +8779,10 @@
   },
   {
    "source": "rede:instagram",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
+  },
+  {
+   "source": "rede:instagram",
    "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
   },
   {
@@ -8388,6 +8800,34 @@
   {
    "source": "rede:instagram",
    "target": "2026-11-23-5-vexames-famosos-da-ia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
    "source": "rede:tiktok",
@@ -9243,6 +9683,14 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
   },
   {
@@ -9271,6 +9719,10 @@
   },
   {
    "source": "rede:tiktok",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
+  },
+  {
+   "source": "rede:tiktok",
    "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
   },
   {
@@ -9288,6 +9740,34 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-23-5-vexames-famosos-da-ia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
    "source": "rede:youtube",
@@ -10319,6 +10799,14 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
   },
   {
@@ -10347,6 +10835,10 @@
   },
   {
    "source": "horario:20h",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
+  },
+  {
+   "source": "horario:20h",
    "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
   },
   {
@@ -10364,6 +10856,34 @@
   {
    "source": "horario:20h",
    "target": "2026-11-23-5-vexames-famosos-da-ia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
    "source": "2026-11-01-github-agentes",
@@ -10408,6 +10928,10 @@
   {
    "source": "tema:GitHub",
    "target": "2026-11-01-skills-claude-code"
+  },
+  {
+   "source": "tema:GitHub",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
   },
   {
    "source": "empresa:GitHub",
@@ -10647,6 +11171,10 @@
   },
   {
    "source": "tema:produtividade",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "tema:produtividade",
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
   },
   {
@@ -10660,6 +11188,14 @@
   {
    "source": "tema:produtividade",
    "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
   },
   {
    "source": "2026-11-01-semana-em-ia",
@@ -10750,8 +11286,16 @@
    "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
   },
   {
+   "source": "tema:Claude Code",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
+  },
+  {
    "source": "tema:skills",
    "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "tema:skills",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
   },
   {
    "source": "tema:skills",
@@ -10998,6 +11542,38 @@
    "target": "2026-11-22-5-motivos-do-celular-esquentar-jogando"
   },
   {
+   "source": "tema:jogos",
+   "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
+  },
+  {
    "source": "2026-11-02-gemini-carbon",
    "target": "cta:CARBON"
   },
@@ -11208,6 +11784,10 @@
   {
    "source": "cta:CLIPE",
    "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
+  },
+  {
+   "source": "cta:CLIPE",
+   "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
   },
   {
    "source": "tema:edição de vídeo",
@@ -12227,7 +12807,23 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
   },
   {
    "source": "paleta:paleta None",
@@ -12255,6 +12851,10 @@
   },
   {
    "source": "paleta:paleta None",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
+  },
+  {
+   "source": "paleta:paleta None",
    "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
   },
   {
@@ -12272,6 +12872,86 @@
   {
    "source": "paleta:paleta None",
    "target": "2026-11-23-5-vexames-famosos-da-ia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
    "source": "empresa:Anthropic (Claude)",
@@ -12500,6 +13180,10 @@
   {
    "source": "2026-11-07-5-skills",
    "target": "fonte:https://github.com/elvarofficial/teardown"
+  },
+  {
+   "source": "cta:SKILLS",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
   },
   {
    "source": "2026-11-07-deep-blue-kasparov",
@@ -13299,7 +13983,23 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
   },
   {
    "source": "pilar:reel",
@@ -13327,6 +14027,10 @@
   },
   {
    "source": "pilar:reel",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
+  },
+  {
+   "source": "pilar:reel",
    "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
   },
   {
@@ -13344,6 +14048,86 @@
   {
    "source": "pilar:reel",
    "target": "2026-11-23-5-vexames-famosos-da-ia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
    "source": "formato:palco",
@@ -14106,6 +14890,10 @@
    "target": "fonte:https://github.com/inclusionAI/Ming-3.0-tts"
   },
   {
+   "source": "cta:VOZ",
+   "target": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz"
+  },
+  {
    "source": "2026-11-08-figurinha-animada",
    "target": "cta:FIGURINHA"
   },
@@ -14223,7 +15011,23 @@
   },
   {
    "source": "cta:KIT",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "cta:KIT",
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
   },
   {
    "source": "cta:KIT",
@@ -14484,6 +15288,10 @@
   {
    "source": "cta:WINDOWS",
    "target": "2026-11-20-3-programas-gratis-que-o-windows-devia-ter"
+  },
+  {
+   "source": "cta:WINDOWS",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
   },
   {
    "source": "2026-11-09-a-pergunta-de-turing",
@@ -15094,6 +15902,14 @@
    "target": "2026-11-22-5-coisas-que-a-ia-ja-faz-no-seu-celular"
   },
   {
+   "source": "cta:CELULAR",
+   "target": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar"
+  },
+  {
+   "source": "cta:CELULAR",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
    "source": "2026-11-10-samsung-vazou-no-chatgpt",
    "target": "cta:SEGREDO"
   },
@@ -15478,6 +16294,14 @@
    "target": "2026-11-20-5-numeros-do-gta-que-assustam"
   },
   {
+   "source": "cta:GTA",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "cta:GTA",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
    "source": "2026-11-12-ia-esquece-o-comeco",
    "target": "cta:MOCHILA"
   },
@@ -15658,6 +16482,10 @@
    "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
   },
   {
+   "source": "fonte:https://github.com/Genymobile/scrcpy",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
    "source": "2026-11-13-corrida-sem-motorista",
    "target": "cta:CARRO"
   },
@@ -15794,6 +16622,22 @@
    "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
   },
   {
+   "source": "fonte:https://github.com/immich-app/immich",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "fonte:https://github.com/immich-app/immich",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
+  },
+  {
+   "source": "fonte:https://github.com/immich-app/immich",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "fonte:https://github.com/immich-app/immich",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
+  },
+  {
    "source": "2026-11-13-ia-aprendeu-a-ver",
    "target": "cta:VISAO"
   },
@@ -15902,12 +16746,36 @@
    "target": "2026-11-23-5-consoles-que-mudaram-o-jogo"
   },
   {
+   "source": "cta:CONSOLE",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
+  },
+  {
+   "source": "fonte:https://github.com/moonlight-stream/moonlight-android",
+   "target": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar"
+  },
+  {
+   "source": "fonte:https://github.com/moonlight-stream/moonlight-android",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
    "source": "fonte:https://github.com/moonlight-stream/moonlight-qt",
    "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
   },
   {
    "source": "fonte:https://github.com/moonlight-stream/moonlight-qt",
    "target": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv"
+  },
+  {
+   "source": "fonte:https://github.com/moonlight-stream/moonlight-qt",
+   "target": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar"
+  },
+  {
+   "source": "fonte:https://github.com/moonlight-stream/moonlight-qt",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
+   "source": "fonte:https://github.com/moonlight-stream/moonlight-qt",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
   },
   {
    "source": "2026-11-13-linux-em-todo-lugar",
@@ -15984,6 +16852,14 @@
   {
    "source": "cta:PLACA",
    "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
+  },
+  {
+   "source": "cta:PLACA",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "cta:PLACA",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
   },
   {
    "source": "2026-11-13-texto-com-cara-de-ia",
@@ -16184,6 +17060,10 @@
   {
    "source": "2026-11-15-agencia-de-marketing-no-claude",
    "target": "fonte:https://github.com/topics/claude-skills"
+  },
+  {
+   "source": "fonte:https://github.com/coreyhaines31/marketingskills",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
   },
   {
    "source": "2026-11-15-divide-a-tarefa",
@@ -16518,8 +17398,56 @@
    "target": "2026-11-22-5-motivos-do-celular-esquentar-jogando"
   },
   {
+   "source": "tema:celular",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
+  },
+  {
    "source": "tema:console",
    "target": "2026-11-17-jogos-no-celular-e-no-mac"
+  },
+  {
+   "source": "tema:console",
+   "target": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar"
+  },
+  {
+   "source": "tema:console",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
+   "source": "tema:console",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
   },
   {
    "source": "tema:PC",
@@ -16587,7 +17515,67 @@
   },
   {
    "source": "tema:PC",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
+  },
+  {
+   "source": "tema:PC",
    "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video"
   },
   {
    "source": "fonte:https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
@@ -16692,6 +17680,14 @@
   {
    "source": "tema:Nvidia",
    "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
   },
   {
    "source": "tema:história",
@@ -16959,6 +17955,22 @@
   },
   {
    "source": "tema:IA",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
+  },
+  {
+   "source": "tema:IA",
    "target": "2026-11-23-5-datas-da-ia-que-voce-precisa-saber"
   },
   {
@@ -16980,6 +17992,18 @@
   {
    "source": "tema:IA",
    "target": "2026-11-23-5-vexames-famosos-da-ia"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
   },
   {
    "source": "2026-11-16-por-que-a-placa-de-video-roda-ia",
@@ -17008,6 +18032,14 @@
   {
    "source": "tema:placa de vídeo",
    "target": "2026-11-21-5-coisas-pra-saber-antes-de-comprar-placa-pra-ia"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
   },
   {
    "source": "2026-11-16-robo-inventou-uma-regra",
@@ -17154,6 +18186,30 @@
    "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
   },
   {
+   "source": "tema:TV",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "tema:TV",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "tema:TV",
+   "target": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram"
+  },
+  {
+   "source": "tema:TV",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "tema:TV",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
+  },
+  {
+   "source": "tema:TV",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
+  },
+  {
    "source": "tema:projetos",
    "target": "2026-11-17-ias-que-trabalham-por-voce"
   },
@@ -17180,6 +18236,34 @@
   {
    "source": "tema:projetos",
    "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "tema:projetos",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "tema:projetos",
+   "target": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram"
+  },
+  {
+   "source": "tema:projetos",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "tema:propaganda",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
+   "source": "tema:propaganda",
+   "target": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram"
+  },
+  {
+   "source": "tema:propaganda",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "tema:propaganda",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
   },
   {
    "source": "2026-11-17-5-coisas-ia-golpe",
@@ -17219,7 +18303,23 @@
   },
   {
    "source": "tema:assistente",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "tema:assistente",
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
   },
   {
    "source": "tema:assistente",
@@ -17443,7 +18543,23 @@
   },
   {
    "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
   },
   {
    "source": "formato:reel contagem (molde campeão, visual clean)",
@@ -17471,6 +18587,10 @@
   },
   {
    "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
    "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
   },
   {
@@ -17488,6 +18608,86 @@
   {
    "source": "formato:reel contagem (molde campeão, visual clean)",
    "target": "2026-11-23-5-vexames-famosos-da-ia"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
    "source": "tema:github",
@@ -17555,6 +18755,14 @@
   },
   {
    "source": "tema:github",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "tema:github",
    "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
   },
   {
@@ -17563,9 +18771,77 @@
   },
   {
    "source": "tema:github",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
+  },
+  {
+   "source": "tema:github",
    "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
   },
   {
+   "source": "tema:github",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "tema:editar vídeo",
+   "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
+  },
+  {
+   "source": "tema:editar vídeo",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "tema:editar vídeo",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "tema:editar vídeo",
+   "target": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video"
+  },
+  {
+   "source": "tema:editar vídeo",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
+  },
+  {
    "source": "fonte:https://github.com/mltframework/shotcut",
    "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
   },
@@ -17574,16 +18850,52 @@
    "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
   },
   {
+   "source": "fonte:https://github.com/mltframework/shotcut",
+   "target": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video"
+  },
+  {
+   "source": "fonte:https://github.com/mltframework/shotcut",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
+  },
+  {
    "source": "fonte:https://github.com/HandBrake/HandBrake",
    "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
   },
   {
    "source": "fonte:https://github.com/HandBrake/HandBrake",
    "target": "2026-11-20-5-programas-gratis-pra-gravar-e-salvar-seu-jogo"
+  },
+  {
+   "source": "fonte:https://github.com/HandBrake/HandBrake",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "fonte:https://github.com/HandBrake/HandBrake",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
    "source": "fonte:https://github.com/mifi/lossless-cut",
    "target": "2026-11-17-gta6-5-programas-gratis-pra-clipar"
+  },
+  {
+   "source": "fonte:https://github.com/mifi/lossless-cut",
+   "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
+  },
+  {
+   "source": "fonte:https://github.com/mifi/lossless-cut",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "fonte:https://github.com/mifi/lossless-cut",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "fonte:https://github.com/mifi/lossless-cut",
+   "target": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video"
+  },
+  {
+   "source": "fonte:https://github.com/mifi/lossless-cut",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
    "source": "fonte:https://github.com/obsproject/obs-studio",
@@ -17596,6 +18908,18 @@
   {
    "source": "fonte:https://github.com/obsproject/obs-studio",
    "target": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer"
+  },
+  {
+   "source": "fonte:https://github.com/obsproject/obs-studio",
+   "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
+  },
+  {
+   "source": "fonte:https://github.com/obsproject/obs-studio",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "fonte:https://github.com/obsproject/obs-studio",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
    "source": "fonte:https://github.com/WyattBlue/auto-editor",
@@ -17722,6 +19046,10 @@
    "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
   },
   {
+   "source": "tema:Microsoft",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
    "source": "fonte:https://en.wikipedia.org/wiki/Office_Assistant",
    "target": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou"
   },
@@ -17810,6 +19138,18 @@
    "target": "2026-11-21-5-sinais-de-que-o-vazamento-do-gta-6-e-falso"
   },
   {
+   "source": "tema:GTA 6",
+   "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
+  },
+  {
+   "source": "tema:GTA 6",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "tema:GTA 6",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
    "source": "tema:lançamento",
    "target": "2026-11-19-por-que-o-jogo-trava-no-lancamento"
   },
@@ -17844,6 +19184,10 @@
   {
    "source": "tema:clipes",
    "target": "2026-11-19-ps5-grava-seu-gta-6"
+  },
+  {
+   "source": "tema:clipes",
+   "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
   },
   {
    "source": "2026-11-17-ias-que-trabalham-por-voce",
@@ -18054,6 +19398,26 @@
    "target": "2026-11-22-5-programas-gratis-pro-seu-pc-que-usam-ia"
   },
   {
+   "source": "fonte:https://github.com/ggml-org/whisper.cpp",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "fonte:https://github.com/ggml-org/whisper.cpp",
+   "target": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz"
+  },
+  {
+   "source": "fonte:https://github.com/ggml-org/whisper.cpp",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
+  },
+  {
+   "source": "fonte:https://github.com/ggml-org/whisper.cpp",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "fonte:https://github.com/ggml-org/whisper.cpp",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
    "source": "fonte:https://github.com/n8n-io/n8n",
    "target": "2026-11-18-gta6-amanha-5-coisas-ia-por-voce"
   },
@@ -18092,6 +19456,10 @@
   {
    "source": "fonte:https://github.com/open-webui/open-webui",
    "target": "2026-11-22-os-5-projetos-de-ia-mais-queridos-do-github"
+  },
+  {
+   "source": "fonte:https://github.com/open-webui/open-webui",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
   },
   {
    "source": "fonte:https://github.com/open-webui/open-webui",
@@ -18099,7 +19467,19 @@
   },
   {
    "source": "fonte:https://github.com/open-webui/open-webui",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "fonte:https://github.com/open-webui/open-webui",
    "target": "2026-11-23-5-projetos-gratis-pra-ensinar-a-ia-a-trabalhar-do-seu-jeito"
+  },
+  {
+   "source": "fonte:https://github.com/open-webui/open-webui",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "fonte:https://github.com/open-webui/open-webui",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
   },
   {
    "source": "2026-11-18-como-a-ia-acha-o-melhor-momento-do-video",
@@ -18222,6 +19602,14 @@
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
   },
   {
+   "source": "fonte:https://github.com/ggml-org/llama.cpp",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "fonte:https://github.com/ggml-org/llama.cpp",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
+  },
+  {
    "source": "fonte:https://github.com/ollama/ollama",
    "target": "2026-11-19-quanta-memoria-de-video-pra-rodar-ia"
   },
@@ -18251,7 +19639,23 @@
   },
   {
    "source": "fonte:https://github.com/ollama/ollama",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "fonte:https://github.com/ollama/ollama",
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "fonte:https://github.com/ollama/ollama",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
+  },
+  {
+   "source": "fonte:https://github.com/ollama/ollama",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "fonte:https://github.com/ollama/ollama",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
   },
   {
    "source": "2026-11-18-ia-que-ganhou-dos-campeoes-de-dota",
@@ -18402,12 +19806,60 @@
    "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
   },
   {
+   "source": "tema:Windows",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
+   "source": "tema:Windows",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "tema:Windows",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "tema:Windows",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "fonte:https://github.com/farag2/Sophia-Script-for-Windows",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/farag2/Sophia-Script-for-Windows",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "fonte:https://github.com/valinet/ExplorerPatcher",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/valinet/ExplorerPatcher",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
    "source": "fonte:https://github.com/Raphire/Win11Debloat",
    "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
   },
   {
+   "source": "fonte:https://github.com/Raphire/Win11Debloat",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/Raphire/Win11Debloat",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
    "source": "fonte:https://github.com/ChrisTitusTech/winutil",
    "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "fonte:https://github.com/ChrisTitusTech/winutil",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/ChrisTitusTech/winutil",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
   },
   {
    "source": "2026-11-19-4-jogos-nintendo-no-pc",
@@ -18432,6 +19884,14 @@
   {
    "source": "2026-11-19-5-coisas-ia-contas-da-casa",
    "target": "tema:contas"
+  },
+  {
+   "source": "tema:contas",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "tema:contas",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
   },
   {
    "source": "2026-11-19-clipe-do-word-o-assistente-que-todo-mundo-odiou",
@@ -18500,6 +19960,62 @@
   {
    "source": "tema:programas",
    "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
    "source": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso",
@@ -18614,6 +20130,10 @@
    "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
   },
   {
+   "source": "fonte:https://github.com/ShareX/ShareX",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
    "source": "fonte:https://github.com/FFmpeg/FFmpeg",
    "target": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo"
   },
@@ -18632,6 +20152,18 @@
   {
    "source": "2026-11-20-5-programas-gratis-pro-seu-pc-gamer",
    "target": "fonte:https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"
+  },
+  {
+   "source": "fonte:https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
+   "target": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar"
+  },
+  {
+   "source": "fonte:https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
+   "source": "fonte:https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
   },
   {
    "source": "2026-11-20-5-projetos-gratis-pro-seu-celular-e-sua-tv",
@@ -18667,6 +20199,22 @@
   },
   {
    "source": "tema:grátis",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
+  },
+  {
+   "source": "tema:grátis",
    "target": "2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido"
   },
   {
@@ -18675,7 +20223,83 @@
   },
   {
    "source": "tema:grátis",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
+  },
+  {
+   "source": "tema:grátis",
    "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
    "source": "fonte:https://github.com/syncthing/syncthing",
@@ -18683,7 +20307,23 @@
   },
   {
    "source": "fonte:https://github.com/syncthing/syncthing",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "fonte:https://github.com/syncthing/syncthing",
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-atendente"
+  },
+  {
+   "source": "fonte:https://github.com/syncthing/syncthing",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
+  },
+  {
+   "source": "fonte:https://github.com/syncthing/syncthing",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "fonte:https://github.com/syncthing/syncthing",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
   },
   {
    "source": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo",
@@ -18807,7 +20447,39 @@
   },
   {
    "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-contas-da-casa"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-detector-de-golpe"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
   },
   {
    "source": "fonte:https://github.com/paperless-ngx/paperless-ngx",
@@ -18854,6 +20526,26 @@
    "target": "2026-11-21-5-programas-gratis-que-viraram-gigantes"
   },
   {
+   "source": "tema:vídeo",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "tema:vídeo",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "tema:vídeo",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "tema:vídeo",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
+   "source": "tema:vídeo",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
+  },
+  {
    "source": "fonte:https://github.com/videolan/vlc",
    "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
   },
@@ -18872,6 +20564,18 @@
   {
    "source": "fonte:https://github.com/jellyfin/jellyfin",
    "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
+  },
+  {
+   "source": "fonte:https://github.com/jellyfin/jellyfin",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "fonte:https://github.com/jellyfin/jellyfin",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "fonte:https://github.com/jellyfin/jellyfin",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
   },
   {
    "source": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava",
@@ -18952,6 +20656,18 @@
   {
    "source": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular",
    "target": "fonte:https://github.com/home-assistant/core"
+  },
+  {
+   "source": "fonte:https://github.com/home-assistant/core",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio"
+  },
+  {
+   "source": "fonte:https://github.com/home-assistant/core",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "fonte:https://github.com/home-assistant/core",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
   },
   {
    "source": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix",
@@ -19054,6 +20770,14 @@
    "target": "2026-11-22-5-primeiras-vezes-da-internet"
   },
   {
+   "source": "tema:YouTube",
+   "target": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram"
+  },
+  {
+   "source": "tema:YouTube",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
    "source": "2026-11-22-5-celulares-que-mudaram-o-mundo",
    "target": "cta:CELULA"
   },
@@ -19068,6 +20792,22 @@
   {
    "source": "2026-11-22-5-celulares-que-mudaram-o-mundo",
    "target": "fonte:https://www.motorola.com/"
+  },
+  {
+   "source": "tema:Android",
+   "target": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android"
+  },
+  {
+   "source": "tema:Android",
+   "target": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar"
+  },
+  {
+   "source": "tema:Android",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "tema:Android",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
   },
   {
    "source": "fonte:https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
@@ -19104,6 +20844,14 @@
   {
    "source": "fonte:https://github.com/pbatard/rufus",
    "target": "2026-11-22-o-windows-esconde-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/pbatard/rufus",
+   "target": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/pbatard/rufus",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
   },
   {
    "source": "2026-11-22-5-jeitos-de-saber-se-uma-imagem-e-falsa-de-ia",
@@ -19214,6 +20962,70 @@
    "target": "cta:MIL"
   },
   {
+   "source": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio",
+   "target": "tema:computador"
+  },
+  {
+   "source": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio",
+   "target": "tema:cardápio"
+  },
+  {
+   "source": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio",
+   "target": "tema:bombando"
+  },
+  {
+   "source": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-em-alta-no-github-cardapio",
+   "target": "fonte:https://github.com/cjpais/Handy"
+  },
+  {
+   "source": "tema:computador",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-no-computador-contas-github"
+  },
+  {
+   "source": "tema:computador",
+   "target": "2026-11-23-a-microsoft-nao-queria-esses-5-programas-gratis-no-seu-windows"
+  },
+  {
+   "source": "tema:computador",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
+   "source": "tema:computador",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "tema:computador",
+   "target": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia"
+  },
+  {
+   "source": "tema:computador",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "tema:cardápio",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "tema:bombando",
+   "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
+   "source": "fonte:https://github.com/cjpais/Handy",
+   "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-quatro-gratis-e-um-cardapio"
+  },
+  {
+   "source": "fonte:https://github.com/cjpais/Handy",
+   "target": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz"
+  },
+  {
+   "source": "fonte:https://github.com/cjpais/Handy",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "fonte:https://github.com/cjpais/Handy",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
    "source": "2026-11-23-5-consoles-que-mudaram-o-jogo",
    "target": "tema:videogame"
   },
@@ -19275,11 +21087,35 @@
   },
   {
    "source": "fonte:https://github.com/obra/superpowers",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
+  },
+  {
+   "source": "fonte:https://github.com/obra/superpowers",
    "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
   },
   {
    "source": "fonte:https://github.com/anthropics/skills",
+   "target": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia"
+  },
+  {
+   "source": "fonte:https://github.com/anthropics/skills",
    "target": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas"
+  },
+  {
+   "source": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia",
+   "target": "tema:cinco"
+  },
+  {
+   "source": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia",
+   "target": "tema:agência"
+  },
+  {
+   "source": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia",
+   "target": "fonte:https://github.com/ComposioHQ/awesome-claude-skills"
+  },
+  {
+   "source": "2026-11-23-5-skills-gratis-do-claude-code-que-fazem-trabalho-de-agencia",
+   "target": "fonte:https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"
   },
   {
    "source": "2026-11-23-5-skills-gratis-pro-claude-que-passam-de-50-mil-estrelas",
@@ -19324,6 +21160,270 @@
   {
    "source": "2026-11-23-5-vexames-famosos-da-ia",
    "target": "fonte:https://fortune.com/2016/03/25/microsoft-sorry-offensive-chat-bot/"
+  },
+  {
+   "source": "2026-11-23-a-microsoft-enche-seu-windows-de-lixo-5-projetos-gratis",
+   "target": "cta:LIXO"
+  },
+  {
+   "source": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade",
+   "target": "cta:COMPUTADOR"
+  },
+  {
+   "source": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade",
+   "target": "fonte:https://github.com/flameshot-org/flameshot"
+  },
+  {
+   "source": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade",
+   "target": "fonte:https://github.com/logseq/logseq"
+  },
+  {
+   "source": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade",
+   "target": "fonte:https://github.com/laurent22/joplin"
+  },
+  {
+   "source": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade",
+   "target": "fonte:https://github.com/AppFlowy-IO/AppFlowy"
+  },
+  {
+   "source": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android",
+   "target": "cta:ANDROID"
+  },
+  {
+   "source": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android",
+   "target": "tema:alta"
+  },
+  {
+   "source": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android",
+   "target": "fonte:https://github.com/TeamNewPipe/NewPipe"
+  },
+  {
+   "source": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android",
+   "target": "fonte:https://github.com/termux/termux-app"
+  },
+  {
+   "source": "fonte:https://github.com/TeamNewPipe/NewPipe",
+   "target": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram"
+  },
+  {
+   "source": "fonte:https://github.com/TeamNewPipe/NewPipe",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6",
+   "target": "fonte:https://github.com/Breakthrough/PySceneDetect"
+  },
+  {
+   "source": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6",
+   "target": "fonte:https://github.com/modelscope/FunClip"
+  },
+  {
+   "source": "fonte:https://github.com/Breakthrough/PySceneDetect",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "fonte:https://github.com/Breakthrough/PySceneDetect",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "fonte:https://github.com/modelscope/FunClip",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "fonte:https://github.com/modelscope/FunClip",
+   "target": "2026-11-23-editar-video-do-gta-6-sozinho-cinco-programas-gratis-do-github"
+  },
+  {
+   "source": "2026-11-23-esses-5-projetos-gratis-em-alta-no-github-rodam-ia-na-sua-placa-nvidia",
+   "target": "fonte:https://github.com/hexgrad/kokoro"
+  },
+  {
+   "source": "fonte:https://github.com/hexgrad/kokoro",
+   "target": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz"
+  },
+  {
+   "source": "fonte:https://github.com/hexgrad/kokoro",
+   "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
+  },
+  {
+   "source": "fonte:https://github.com/hexgrad/kokoro",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "fonte:https://github.com/hexgrad/kokoro",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
+   "source": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar",
+   "target": "tema:rodando"
+  },
+  {
+   "source": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar",
+   "target": "tema:fãs"
+  },
+  {
+   "source": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar",
+   "target": "tema:nunca"
+  },
+  {
+   "source": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar",
+   "target": "fonte:https://github.com/JosefNemec/Playnite"
+  },
+  {
+   "source": "2026-11-23-esses-jogos-de-pc-nunca-sairam-no-celular-os-fas-fizeram-rodar",
+   "target": "fonte:https://github.com/brunodev85/winlator"
+  },
+  {
+   "source": "tema:rodando",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
+   "source": "fonte:https://github.com/JosefNemec/Playnite",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
+   "source": "fonte:https://github.com/JosefNemec/Playnite",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
+  },
+  {
+   "source": "fonte:https://github.com/brunodev85/winlator",
+   "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
+  },
+  {
+   "source": "fonte:https://github.com/brunodev85/winlator",
+   "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
+  },
+  {
+   "source": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz",
+   "target": "tema:voz"
+  },
+  {
+   "source": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz",
+   "target": "tema:estúdio de voz"
+  },
+  {
+   "source": "2026-11-23-fale-e-o-pc-escreve-5-projetos-gratis-de-voz",
+   "target": "fonte:https://github.com/rhasspy/piper"
+  },
+  {
+   "source": "tema:voz",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "tema:voz",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
+   "source": "tema:estúdio de voz",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "tema:estúdio de voz",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
+   "source": "fonte:https://github.com/rhasspy/piper",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta"
+  },
+  {
+   "source": "fonte:https://github.com/rhasspy/piper",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
+   "source": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram",
+   "target": "cta:YOUTUBE"
+  },
+  {
+   "source": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram",
+   "target": "fonte:https://github.com/ajayyy/SponsorBlock"
+  },
+  {
+   "source": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram",
+   "target": "fonte:https://github.com/FreeTubeApp/FreeTube"
+  },
+  {
+   "source": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram",
+   "target": "fonte:https://github.com/pi-hole/pi-hole"
+  },
+  {
+   "source": "2026-11-23-o-youtube-enche-de-propaganda-5-projetos-gratis-tiram",
+   "target": "fonte:https://github.com/gorhill/uBlock"
+  },
+  {
+   "source": "cta:YOUTUBE",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "fonte:https://github.com/ajayyy/SponsorBlock",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "fonte:https://github.com/FreeTubeApp/FreeTube",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "fonte:https://github.com/pi-hole/pi-hole",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "fonte:https://github.com/pi-hole/pi-hole",
+   "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/gorhill/uBlock",
+   "target": "2026-11-23-o-youtube-nao-queria-esses-5-projetos-gratis-na-sua-tv-e-no-seu-celular"
+  },
+  {
+   "source": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis",
+   "target": "cta:VELHO"
+  },
+  {
+   "source": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar",
+   "target": "fonte:https://github.com/lutris/lutris"
+  },
+  {
+   "source": "2026-11-23-um-estudio-de-voz-gratis-no-seu-computador-5-programas-em-alta",
+   "target": "cta:ESTUDIO"
+  },
+  {
+   "source": "cta:ESTUDIO",
+   "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
+  },
+  {
+   "source": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video",
+   "target": "cta:ADOBE"
+  },
+  {
+   "source": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video",
+   "target": "tema:Adobe"
+  },
+  {
+   "source": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video",
+   "target": "tema:foto"
+  },
+  {
+   "source": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video",
+   "target": "fonte:https://github.com/darktable-org/darktable"
+  },
+  {
+   "source": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video",
+   "target": "fonte:https://github.com/penpot/penpot"
+  },
+  {
+   "source": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video",
+   "target": "fonte:https://github.com/upscayl/upscayl"
+  },
+  {
+   "source": "fonte:https://github.com/darktable-org/darktable",
+   "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github",
+   "target": "cta:EDITAR"
+  },
+  {
+   "source": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github",
+   "target": "tema:edição"
   }
  ]
 }

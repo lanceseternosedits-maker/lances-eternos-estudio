@@ -1,0 +1,20 @@
+Comenta PLACA que eu te mando os links. 💬
+
+Você paga mensalidade de IA? Cinco projetos grátis rodam IA no seu PC, melhor com placa Nvidia.
+
+5º whisper.cpp: Transcreve áudio no seu PC.
+4º Open WebUI: Dá cara de ChatGPT pra IA do seu PC.
+3º llama.cpp: Roda IA direto na sua placa.
+2º Kokoro: Gera voz natural no seu PC.
+1º Ollama: Instala uma IA no PC com um comando.
+
+⚠️ Precisa de placa de vídeo razoável; projetos independentes, sem ligação com a Nvidia.
+
+💬 Comenta PLACA e me segue. Deixa o like e manda pra aquele amigo que tem PC gamer.
+
+Que placa de vídeo você tem no PC? 👇
+
+Fonte: repositórios no GitHub (estrelas conferidas em 23/11/2026). Projetos independentes, sem ligação com as empresas citadas.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#nvidia #ia #pc #gamer #gratis

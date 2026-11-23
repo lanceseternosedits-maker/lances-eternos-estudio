@@ -1,0 +1,30 @@
+{
+ "data": "2026-11-23",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "jogos",
+  "GTA 6",
+  "PC",
+  "editar vídeo",
+  "grátis",
+  "clipes"
+ ],
+ "fontes": [
+  "https://github.com/obsproject/obs-studio",
+  "https://github.com/Breakthrough/PySceneDetect",
+  "https://github.com/mifi/lossless-cut",
+  "https://github.com/modelscope/FunClip",
+  "https://github.com/openai/whisper"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): OBS Studio 80.065, PySceneDetect 5.624, LosslessCut 46.340, FunClip 6.622, Whisper 113.403; total 252.054.",
+ "cta": "CLIPE",
+ "polemica": false,
+ "candidato": "a7",
+ "primeiro_comentario": "💬 Comenta CLIPE que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 46%, abaixo do corte"
+}

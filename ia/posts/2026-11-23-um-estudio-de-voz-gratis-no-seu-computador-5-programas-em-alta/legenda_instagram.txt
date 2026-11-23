@@ -1,0 +1,20 @@
+Comenta ESTUDIO que eu te mando os links. 💬
+
+Você paga locutor? Cinco programas grátis em alta no GitHub narram vídeo e viram fala em texto.
+
+5º Piper: Narra qualquer texto em voz alta.
+4º Kokoro: Cria voz natural, grátis.
+3º whisper.cpp: Transcreve áudio rápido, no seu PC.
+2º Handy: Você fala num atalho e o texto aparece.
+1º Whisper: Transforma áudio em texto, em português.
+
+⚠️ Projetos independentes; baixe só do site oficial e confira a licença da voz escolhida.
+
+💬 Comenta ESTUDIO e me segue. Deixa o like e manda pra aquele amigo que só manda áudio.
+
+Quantos áudios de WhatsApp você ouve por dia? 👇
+
+Fonte: repositórios no GitHub (estrelas conferidas em 23/11/2026). Projetos independentes, sem ligação com as empresas citadas.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #voz #narracao #gratis #github

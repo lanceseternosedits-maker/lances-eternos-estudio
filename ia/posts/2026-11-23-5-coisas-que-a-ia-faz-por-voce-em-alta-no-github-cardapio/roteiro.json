@@ -1,0 +1,137 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "KIT",
+ "tese": "5 COISAS EM ALTA QUE A IA FAZ POR VOCÊ · +351 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1; 4 projetos + assistente do kit; home office com plantas, mascote de crachá",
+ "brinde": "Os dez assistentes prontos do Super Assistente de IA",
+ "fontes": [
+  "https://github.com/cjpais/Handy",
+  "https://github.com/open-webui/open-webui",
+  "https://github.com/home-assistant/core",
+  "https://github.com/jellyfin/jellyfin"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): Handy 39.776, Open WebUI 159.309, Home Assistant 92.567, Jellyfin 59.657; total 351.309.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 COISAS EM ALTA QUE A IA FAZ POR VOCÊ",
+   "fala": "Você ainda decide o cardápio na hora da fome? Quatro projetos grátis e um assistente ajudam.",
+   "legenda": "Você ainda decide o cardápio na hora da fome? Quatro projetos grátis e um assistente ajudam.",
+   "visual": "5 COISAS EM ALTA QUE A IA FAZ POR VOCÊ",
+   "itens": "ia-faz-por-voce-alta-cardapio",
+   "etiqueta": [
+    "5 COISAS EM ALTA QUE A IA FAZ POR VOCÊ",
+    "+351 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Handy",
+   "fala": "Quinto: Handy. Você fala e o texto aparece.",
+   "legenda": "Quinto: Handy. Você fala e o texto aparece.",
+   "visual": "Você fala e o texto aparece.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "cjpais/Handy",
+   "estrelas": 39776
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Open WebUI",
+   "fala": "Quarto: Open WebUI. Cria um chat estilo ChatGPT só seu.",
+   "legenda": "Quarto: Open WebUI. Cria um chat estilo ChatGPT só seu.",
+   "visual": "Cria um chat estilo ChatGPT só seu.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "open-webui/open-webui",
+   "estrelas": 159309
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Home Assistant",
+   "fala": "Terceiro: Home Assistant. Controla a casa pelo celular. Essa é legalzinha… comenta KIT que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Home Assistant. Controla a casa pelo celular. Essa é legalzinha… comenta KIT que eu mando os cinco. Manda pro amigo.",
+   "visual": "Controla a casa pelo celular.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "home-assistant/core",
+   "estrelas": 92567
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Jellyfin",
+   "fala": "Segundo: Jellyfin. Vira a sua Netflix, com os seus vídeos.",
+   "legenda": "Segundo: Jellyfin. Vira a sua Netflix, com os seus vídeos.",
+   "visual": "Vira a sua Netflix, com os seus vídeos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "jellyfin/jellyfin",
+   "estrelas": 59657
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Assistente de cardápio",
+   "fala": "E o primeiro: Assistente de cardápio. Monta o cardápio da semana e a lista do mercado.",
+   "legenda": "E o primeiro: Assistente de cardápio. Monta o cardápio da semana e a lista do mercado.",
+   "visual": "Monta o cardápio da semana e a lista do mercado.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta KIT e me segue. O que você mais come na semana?",
+   "legenda": "Comenta KIT e me segue. O que você mais come na semana?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "b) carimbo batendo",
+  "contador": "c) velocímetro circular",
+  "legenda": "a) bloco de 4 palavras",
+  "transicao": "e) glitch RGB",
+  "camera": "d) órbita",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "f) Bebas Neue",
+  "mascote": "crachá, organizando",
+  "cenario": "home office com plantas ao meio-dia"
+ },
+ "palavras": 93,
+ "duracao_estimada_s": 33.2
+}

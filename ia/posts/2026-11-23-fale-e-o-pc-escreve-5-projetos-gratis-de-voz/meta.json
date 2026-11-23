@@ -1,0 +1,30 @@
+{
+ "data": "2026-11-23",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "voz",
+  "estúdio de voz",
+  "grátis",
+  "PC",
+  "IA",
+  "programas"
+ ],
+ "fontes": [
+  "https://github.com/rhasspy/piper",
+  "https://github.com/hexgrad/kokoro",
+  "https://github.com/ggml-org/whisper.cpp",
+  "https://github.com/cjpais/Handy",
+  "https://github.com/openai/whisper"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): Piper 11.336, Kokoro 10.320, whisper.cpp 55.442, Handy 39.776, Whisper 113.403; total 230.277.",
+ "cta": "VOZ",
+ "polemica": false,
+ "candidato": "a6",
+ "primeiro_comentario": "💬 Comenta VOZ que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 51%, abaixo do corte"
+}

@@ -1,0 +1,68 @@
+{
+ "data": "2026-11-26",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "estúdio de voz",
+  "voz",
+  "vídeo",
+  "grátis",
+  "computador",
+  "programas",
+  "github",
+  "Windows"
+ ],
+ "fontes": [
+  "https://github.com/rhasspy/piper",
+  "https://github.com/hexgrad/kokoro",
+  "https://github.com/ggml-org/whisper.cpp",
+  "https://github.com/cjpais/Handy",
+  "https://github.com/openai/whisper"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): Piper 11.336, Kokoro 10.320, whisper.cpp 55.442, Handy 39.776, Whisper 113.403; total 230.277.",
+ "cta": "ESTUDIO",
+ "polemica": false,
+ "candidato": "b13",
+ "primeiro_comentario": "💬 Comenta ESTUDIO que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
+ "status": "roteiro aguardando aprovação",
+ "horario": "06:00",
+ "horarios": {
+  "instagram": "2026-11-26 06:00",
+  "tiktok": "2026-11-26 06:00"
+ },
+ "vaga": 6,
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "gancho com conflito, fatos conferidos",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "ajustar",
+    "nota": "Voz grátis e áudio em texto agradam; Whisper e whisper.cpp se repetem."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "passa",
+    "nota": "Estrelas ok; confirmar status do repositório do Piper e licença das vozes."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Gancho descritivo, sem tensão: troquei por pergunta de conflito/dor."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "Gancho longo e 'GitHub' sem tradução: encurtei e traduzi onde coube."
+   }
+  ],
+  "ajustes": [
+   "gancho reescrito com pergunta/conflito",
+   "falas e avisos corrigidos conforme fatos/clareza"
+  ],
+  "em": "2026-11-23 05:09",
+  "obs": "2ª volta dispensada por economia de tokens; sem reprovação. Estrelas lidas na API de busca do GitHub em 23/11/2026."
+ }
+}

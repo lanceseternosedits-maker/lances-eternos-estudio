@@ -1,0 +1,12 @@
+Tá aqui 👇 os links e as fontes:
+5º Handy: https://github.com/cjpais/Handy
+4º Open WebUI: https://github.com/open-webui/open-webui
+3º Home Assistant: https://github.com/home-assistant/core
+2º Jellyfin: https://github.com/jellyfin/jellyfin
+1º Assistente de cardápio
+
+⚠️ Projetos independentes; o assistente nº 1 é do kit.
+
+Brinde: Os dez assistentes prontos do Super Assistente de IA.
+
+Quer o kit com 10 assistentes prontos? Responda KIT que eu mando o link.
