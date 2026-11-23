@@ -1,44 +1,44 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-22 19:43",
- "leitura": "metricool_2026-11-22.json",
- "resumo": "Leitura das 19:41 idêntica à das 07:45: nenhum número dos 40 Reels e 41 TikToks mudou em 12 h, e o último post segue sendo de 19/11 19:32 (3 dias parados). Nada agendado até 29/11; a prioridade continua sendo agendar os 2 vídeos prontos (Windows e programas grátis).",
+ "em": "2026-11-23 07:46",
+ "leitura": "metricool_2026-11-23.json",
+ "resumo": "Leitura de 23/11 madrugada: nenhum Reel novo desde 19/11 19:32 (4 dias parados) e nada agendado até 30/11; os números dos Reels mudaram no máximo +1 view desde ontem. A janela de 14 dias agora tem 33 Reels (mediana 292, era 332), só porque os de 08/11 saíram dela.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "3 dias sem post e nada agendado até 29/11",
-   "evidencia": "Último Reel: 19/11 19:32. getScheduledPosts de 22/11 19:40 a 29/11: vazio (também vazio na leitura das 07:45). Views dos 40 Reels: 0 de variação em 12 h. Em 'vídeo aguardando aprovação': 2026-11-22-o-windows-esconde-5-programas-gratis e 2026-11-23-5-programas-gratis-pra-comecar-a-segunda-mais-rapido. 9 pastas de 20/11 caíram no filtro (descartado) e 3 foram reprovadas na revisão.",
-   "acao": "Vitor: aprovar e agendar os 2 vídeos prontos hoje (Windows é o tema da contagem WINDOWS, 2.601 views). Sem eles, a conta fica a semana inteira parada; decidir se baixa o corte de 56 até 01/12 para a fila voltar a 3 por dia."
+   "titulo": "4 dias sem post e agenda vazia até 30/11",
+   "evidencia": "Último Reel: 19/11 19:32. getScheduledPosts de 23/11 a 30/11: vazio. 2 vídeos prontos em 'vídeo aguardando aprovação' (o-windows-esconde-5-programas-gratis e 5-programas-gratis-pra-comecar-a-segunda) e 11 roteiros de 23/11 aguardando aprovação. Desde 20/11, 30 pastas caíram no filtro (descartado) ou na revisão.",
+   "acao": "Vitor: aprovar e agendar os 2 vídeos prontos hoje e julgar os 11 roteiros de 23/11 (Microsoft, YouTube, Adobe, voz, Nvidia). Sem isso a semana fica parada."
   },
   {
    "tipo": "fazer_mais",
-   "titulo": "Contagem segue acima do mascote",
-   "evidencia": "Contagem: mediana 402 views e 1,25% de salvar (16 Reels). Mascote no palco: 287 e 0,2% (23). 🆕 373 e 1,3% (29) · 📜 267 e 0,0% (5) · ⚙️ 258 e 0,1% (6). Tarde (12–17h) 384 contra 340 de manhã e 222 à noite.",
-   "acao": "Só 🆕 contagem com objeto de casa/marca/jogo (Windows, PC, TV, PlayStation); a melhor do dia no horário de 12:00/13:00, e a noite fica com a contagem menos arriscada."
+   "titulo": "Contagem com marca grande segue no topo",
+   "evidencia": "Contagem: mediana 357 views e 1,2% de salvar (14 Reels) contra 260 e 0,0% do mascote (19). Top da janela: APPLE 1.939 (38 salvos, 23 comentários), PLAY 1.717, MAPA 827, CORTES 712, COPIA 659, LEIS 610.",
+   "acao": "Priorizar na aprovação os roteiros 'o que a X não queria' com marca grande (Microsoft, YouTube, Adobe): é o padrão de APPLE e PLAY."
   },
   {
    "tipo": "corrigir",
-   "titulo": "S3 fechou com 6 Reels e mediana 280",
-   "evidencia": "S3 (15–21/11): 6 Reels, 1.249 views, mediana 280, nenhum acima de 1.000, 0,7% de salvar (S1: 14 Reels, mediana 1.169; S2: 34, mediana 410). 5 dos 6 com 36–48 s. Campeões que seguem na janela: ESTILO 2.834, VOZ 2.568, FONTE 2.124, APPLE 1.938, PLAY 1.717.",
-   "acao": "Corte duro em 32 s (máx. 35) antes de gravar a voz; conferir a duração dos 2 vídeos prontos antes de agendar."
+   "titulo": "S3 fechou com 6 Reels e mediana 281",
+   "evidencia": "S1: 14 Reels, mediana 1.169, 2,5% de salvar. S2: 34, mediana 410, 1,9%. S3 (15–19/11): 6 Reels, 1.252 views, mediana 281, 0,7%; 5 dos 6 com 36–48 s. S4 (desde 20/11): 0 Reels.",
+   "acao": "Conferir a duração dos 2 vídeos prontos (≤32 s) antes de agendar; não gravar roteiro acima de 35 s."
   },
   {
    "tipo": "testar",
-   "titulo": "Gancho quente sem lista útil não vira salvar",
-   "evidencia": "PS5 grava seu GTA 6: 62,9% passam dos 3 s (melhor da janela), mas 274 views, 0 salvamentos e 0 envios. Salvar vem das listas úteis: ESTILO 76 salvos/28 envios, VOZ 65/19, APPLE 38/10, DESIGN 37/9.",
-   "acao": "Abrir com marca/jogo quente no 1º quadro e fechar com a lista de programas grátis legível na tela + \"salva\" na fala."
+   "titulo": "Gancho quente sem lista útil não salva",
+   "evidencia": "PS5 grava seu GTA 6: 63,1% passam dos 3 s (melhor da janela), 275 views, 0 salvamentos. DOLAR (📜) 57,2% e 0 salvos. Quem salva é lista útil: APPLE 38, COPIA 19, ESTUDA 15, PLAY 12.",
+   "acao": "Manter a marca/jogo no 1º quadro, mas fechar sempre com a lista de 5 legível na tela + 'salva' na fala."
   },
   {
    "tipo": "alerta",
-   "titulo": "Mediana da janela caiu por saída de Reels antigos",
-   "evidencia": "Mediana IG 394 (21/11, 45 Reels) → 332 (22/11, 40 Reels). Os 5 que saíram são de 07/11 (EDITA 2.947 e outros da S1); os 40 que ficaram mudaram no máximo +6 views (ESTILO 2.831→2.834).",
-   "acao": "Não ler a queda como piora do conteúdo; a comparação justa é semana x semana. Sem post novo, a mediana vai continuar caindo a cada dia que um Reel forte da S2 sair da janela."
+   "titulo": "Noite e 📜/⚙️ ficam no fundo",
+   "evidencia": "Noite (18h+): mediana 152 e 0,0% de salvar (9 Reels) contra 332 à tarde e 311 de manhã. 📜 250 e ⚙️ 240 de mediana, 0,0% de salvar (4 cada) contra 324 e 1,2% de 🆕 (25).",
+   "acao": "Quando voltar a publicar, a melhor contagem vai no horário da tarde (12:00/13:00); seguir sem 📜/⚙️ até 01/12, como no plano de recuperação."
   },
   {
    "tipo": "alerta",
    "titulo": "TikTok sem tração",
-   "evidencia": "Mediana de 3 views por vídeo (41 vídeos, 854 views no total) contra 332 no Instagram; números idênticos aos de ontem; melhores recentes VOO 127, BIZARRO 94, CELULAR 92, GAME 81.",
-   "acao": "Manter o teste de 1 contagem em post de fotos no TikTok quando voltar a publicar; sem post novo, não há leitura nova."
+   "evidencia": "Mediana de 3 views por vídeo (33 vídeos, 828 views) contra 292 no Instagram; melhores: VOO 127, BIZARRO 94, CELULAR 92, CHINA 91, GAME 81. Sem mudança desde ontem.",
+   "acao": "Nada muda no TikTok por enquanto: o esforço vai para voltar a publicar no Instagram."
   }
  ],
  "semanas": [
