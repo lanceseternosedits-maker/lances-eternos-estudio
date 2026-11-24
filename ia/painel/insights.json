@@ -1,26 +1,26 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-23 19:42",
- "leitura": "metricool_2026-11-23.json",
- "resumo": "Leitura de 23/11 noite: nada mudou desde a de 07:46 — nenhum Reel novo desde 19/11 19:32 (4 dias e meio parados), nenhuma view a mais nos 33 Reels da janela e agenda do Metricool vazia até 30/11. Mediana segue 292 views; contagem com marca grande continua sendo o único padrão que passa de 600.",
+ "em": "2026-11-24 07:46",
+ "leitura": "metricool_2026-11-24.json",
+ "resumo": "Leitura de 24/11 manhã: o perfil está há 5 dias sem post (último Reel 19/11 19:32) e a agenda do Metricool segue vazia até 01/12; desde ontem à noite só o Reel da Agência de marketing ganhou 3 views (23→26). A janela de 14 dias agora tem 26 Reels (mediana 290) e a contagem com marca grande continua sendo o único padrão que passa de 600.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "4,5 dias sem post e agenda vazia até 30/11",
-   "evidencia": "Último Reel: 19/11 19:32. getScheduledPosts de 23/11 19:40 a 30/11: vazio. Os 33 Reels da janela não ganharam nenhuma view desde a leitura das 07:46 (APPLE parado em 1.939). Há 4 vídeos prontos em 'vídeo aguardando aprovação' (Windows esconde 5 programas, começar a segunda, IA no PC sem Nvidia, editar o vídeo do jogo) e 10 roteiros aguardando aprovação.",
-   "acao": "Vitor: aprovar e agendar hoje os 4 vídeos prontos (de preferência 12:00/13:00 de amanhã) e julgar os roteiros pendentes; sem post novo, o perfil não tem o que medir."
+   "titulo": "5 dias sem post e agenda vazia até 01/12",
+   "evidencia": "Último Reel: 19/11 19:32. getScheduledPosts de 24/11 07:45 a 01/12: vazio. Desde a leitura de 23/11 19:40 os 26 Reels da janela somaram só +8 views (Agência 23→26, GRATIS 292→294, COPIA 659→660, PS5 igual). Sem post novo, a janela de 14 dias vai encolhendo: saíram 7 Reels de 09/11.",
+   "acao": "Vitor: aprovar e agendar hoje os vídeos prontos em 'vídeo aguardando aprovação', começando por uma contagem com marca grande às 12:00; sem post novo, não há o que medir."
   },
   {
    "tipo": "fazer_mais",
    "titulo": "Contagem com marca grande segue no topo",
-   "evidencia": "Contagem: mediana 357 views e 1,2% de salvar (14 Reels) contra 260 e 0,0% do mascote (19). Top da janela: APPLE 1.939 (38 salvos, 23 comentários), PLAY 1.717, MAPA 827, CORTES 712, COPIA 659, LEIS 610.",
+   "evidencia": "Contagem: mediana 298 views e 1,2% de salvar (9 Reels) contra 267 e 0,0% do mascote (17). Top da janela: APPLE 1.939 (38 salvos, 23 comentários), PLAY 1.717, CORTES 712, COPIA 660, LEIS 610.",
    "acao": "Priorizar na aprovação os roteiros 'o que a X não queria' com marca grande (Microsoft, YouTube, Adobe): é o padrão de APPLE e PLAY."
   },
   {
    "tipo": "corrigir",
-   "titulo": "S3 fechou com 6 Reels e mediana 281",
-   "evidencia": "S1: 14 Reels, mediana 1.169, 2,5% de salvar. S2: 34, mediana 410, 1,9%. S3 (15–19/11): 6 Reels, 1.252 views, mediana 281, 0,7%; 5 dos 6 com 36–48 s. S4 (desde 20/11): 0 Reels.",
-   "acao": "Conferir a duração dos 2 vídeos prontos (≤32 s) antes de agendar; não gravar roteiro acima de 35 s."
+   "titulo": "S3 fechou com 6 Reels e mediana 281; S4 ainda zerada",
+   "evidencia": "S1: 14 Reels, mediana 1.169, 2,5% de salvar. S2: 34, mediana 410. S3 (15–19/11): 6 Reels, mediana 281, 0,7%; 5 dos 6 com 36–48 s. S4 (desde 20/11): 0 Reels em 5 dias.",
+   "acao": "Conferir a duração dos vídeos prontos (≤32 s) antes de agendar; não gravar roteiro acima de 35 s."
   },
   {
    "tipo": "testar",
@@ -31,13 +31,13 @@
   {
    "tipo": "alerta",
    "titulo": "Noite e 📜/⚙️ ficam no fundo",
-   "evidencia": "Noite (18h+): mediana 152 e 0,0% de salvar (9 Reels) contra 332 à tarde e 311 de manhã. 📜 250 e ⚙️ 240 de mediana, 0,0% de salvar (4 cada) contra 324 e 1,2% de 🆕 (25).",
+   "evidencia": "Noite (18h+): mediana 126 e 0,0% de salvar (8 Reels) contra 294 à tarde e 298 de manhã. 📜 250 (4) e ⚙️ 145 (2) de mediana, 0,0% de salvar, contra 297 e 1,2% de 🆕 (20).",
    "acao": "Quando voltar a publicar, a melhor contagem vai no horário da tarde (12:00/13:00); seguir sem 📜/⚙️ até 01/12, como no plano de recuperação."
   },
   {
    "tipo": "alerta",
    "titulo": "TikTok sem tração",
-   "evidencia": "Mediana de 3 views por vídeo (33 vídeos, 828 views) contra 292 no Instagram; melhores: VOO 127, BIZARRO 94, CELULAR 92, CHINA 91, GAME 81. Sem mudança desde a manhã.",
+   "evidencia": "Mediana de 5 views por vídeo (26 vídeos, 816 views) contra 290 no Instagram; melhores: VOO 127, BIZARRO 94, CELULAR 92, CHINA 91, GAME 81. Sem mudança desde ontem.",
    "acao": "Nada muda no TikTok por enquanto: o esforço vai para voltar a publicar no Instagram."
   }
  ],

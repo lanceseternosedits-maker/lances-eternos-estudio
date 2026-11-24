@@ -1,21 +1,21 @@
 {
- "gerado_em": "2026-11-23 19:42",
- "leitura": "metricool_2026-11-23.json",
- "lido_em": "2026-11-23 19:40",
+ "gerado_em": "2026-11-24 07:44",
+ "leitura": "metricool_2026-11-24.json",
+ "lido_em": "2026-11-24 07:45",
  "periodo": [
-  "2026-11-09",
-  "2026-11-23"
+  "2026-11-10",
+  "2026-11-24"
  ],
  "totais": {
-  "reels_medidos": 33,
-  "views_ig": 13588,
-  "alcance_ig": 11697,
-  "salvamentos": 163,
-  "envios": 42,
-  "comentarios": 124,
-  "mediana_views_ig": 292,
-  "views_tiktok_video": 828,
-  "mediana_tiktok_video": 3,
+  "reels_medidos": 26,
+  "views_ig": 10677,
+  "alcance_ig": 9229,
+  "salvamentos": 125,
+  "envios": 29,
+  "comentarios": 97,
+  "mediana_views_ig": 290,
+  "views_tiktok_video": 816,
+  "mediana_tiktok_video": 5.0,
   "mediana_tiktok_fotos": null
  },
  "reels": [
@@ -41,7 +41,7 @@
    "enviar_pct": 0.6,
    "comentar_pct": 1.4,
    "tiktok_views": 68,
-   "vs_mediana": 6.6
+   "vs_mediana": 6.7
   },
   {
    "pasta": "2026-11-09-playstation-no-pc",
@@ -68,30 +68,6 @@
    "vs_mediana": 5.9
   },
   {
-   "pasta": "2026-11-08-apps-pra-quem-vive-no-chat",
-   "titulo": "3 apps pra quem vive no chat",
-   "url": "https://www.instagram.com/reel/Dfg99gwj8ha/",
-   "quando": "2026-11-09 06:07",
-   "faixa": "manhã (6–11h)",
-   "categoria": "novidade",
-   "formato": "contagem (formato 3)",
-   "views": 827,
-   "alcance": 709,
-   "curtidas": 14,
-   "comentarios": 3,
-   "salvamentos": 7,
-   "envios": 2,
-   "tempo_medio_s": 6.744,
-   "duracao_s": 34.3,
-   "assistido_pct": 19.7,
-   "passou_3s_pct": 49.0,
-   "salvar_pct": 1.0,
-   "enviar_pct": 0.3,
-   "comentar_pct": 0.4,
-   "tiktok_views": 2,
-   "vs_mediana": 2.8
-  },
-  {
    "pasta": "2026-11-10-9-dias-pro-gta-6",
    "titulo": "Cortes do GTA 6",
    "url": "https://www.instagram.com/reel/DfkTPcMEyEd/",
@@ -113,7 +89,7 @@
    "enviar_pct": 0.7,
    "comentar_pct": 2.5,
    "tiktok_views": 6,
-   "vs_mediana": 2.4
+   "vs_mediana": 2.5
   },
   {
    "pasta": "2026-11-11-copiar-qualquer-app",
@@ -123,16 +99,16 @@
    "faixa": "tarde (12–17h)",
    "categoria": "novidade",
    "formato": "contagem (formato 3)",
-   "views": 659,
+   "views": 660,
    "alcance": 546,
    "curtidas": 14,
    "comentarios": 7,
    "salvamentos": 19,
    "envios": 4,
-   "tempo_medio_s": 7.004,
+   "tempo_medio_s": 6.993,
    "duracao_s": 34.6,
    "assistido_pct": 20.2,
-   "passou_3s_pct": 40.4,
+   "passou_3s_pct": 40.3,
    "salvar_pct": 3.5,
    "enviar_pct": 0.7,
    "comentar_pct": 1.3,
@@ -164,30 +140,6 @@
    "vs_mediana": 2.1
   },
   {
-   "pasta": "2026-11-08-estudar-ia",
-   "titulo": "5 projetos pra estudar",
-   "url": "https://www.instagram.com/reel/DfiJNqhEa3P/",
-   "quando": "2026-11-09 17:05",
-   "faixa": "tarde (12–17h)",
-   "categoria": "novidade",
-   "formato": "contagem (formato 3)",
-   "views": 583,
-   "alcance": 476,
-   "curtidas": 16,
-   "comentarios": 9,
-   "salvamentos": 15,
-   "envios": 5,
-   "tempo_medio_s": 6.636,
-   "duracao_s": 34.0,
-   "assistido_pct": 19.5,
-   "passou_3s_pct": 30.2,
-   "salvar_pct": 3.2,
-   "enviar_pct": 1.1,
-   "comentar_pct": 1.9,
-   "tiktok_views": 0,
-   "vs_mediana": 2.0
-  },
-  {
    "pasta": "2026-11-11-carro-por-1-dolar",
    "titulo": "Carro por 1 dólar",
    "url": "https://www.instagram.com/reel/Dfnxhfyiii0/",
@@ -209,30 +161,6 @@
    "enviar_pct": 0.0,
    "comentar_pct": 0.3,
    "tiktok_views": 69,
-   "vs_mediana": 1.5
-  },
-  {
-   "pasta": "2026-11-08-video-do-zero",
-   "titulo": "3 skills de vídeo do zero",
-   "url": "https://www.instagram.com/reel/DfhZUKpHNlt/",
-   "quando": "2026-11-09 10:04",
-   "faixa": "manhã (6–11h)",
-   "categoria": "novidade",
-   "formato": "contagem (formato 3)",
-   "views": 432,
-   "alcance": 360,
-   "curtidas": 9,
-   "comentarios": 7,
-   "salvamentos": 9,
-   "envios": 4,
-   "tempo_medio_s": 7.035,
-   "duracao_s": 32.0,
-   "assistido_pct": 22.0,
-   "passou_3s_pct": 47.1,
-   "salvar_pct": 2.5,
-   "enviar_pct": 1.1,
-   "comentar_pct": 1.9,
-   "tiktok_views": 1,
    "vs_mediana": 1.5
   },
   {
@@ -282,30 +210,6 @@
    "comentar_pct": 0.3,
    "tiktok_views": 91,
    "vs_mediana": 1.4
-  },
-  {
-   "pasta": "2026-11-08-ia-gigante-no-pc",
-   "titulo": "IA gigante no PC",
-   "url": "https://www.instagram.com/reel/Dfh1Tv9im2F/",
-   "quando": "2026-11-09 14:12",
-   "faixa": "tarde (12–17h)",
-   "categoria": "novidade",
-   "formato": "contagem (formato 3)",
-   "views": 373,
-   "alcance": 307,
-   "curtidas": 7,
-   "comentarios": 3,
-   "salvamentos": 4,
-   "envios": 2,
-   "tempo_medio_s": 6.366,
-   "duracao_s": 33.9,
-   "assistido_pct": 18.8,
-   "passou_3s_pct": 32.1,
-   "salvar_pct": 1.3,
-   "enviar_pct": 0.7,
-   "comentar_pct": 1.0,
-   "tiktok_views": 1,
-   "vs_mediana": 1.3
   },
   {
    "pasta": "2026-11-13-eua-pararam-os-voos",
@@ -411,16 +315,16 @@
    "faixa": "tarde (12–17h)",
    "categoria": "novidade",
    "formato": "contagem (formato 3)",
-   "views": 292,
-   "alcance": 248,
+   "views": 294,
+   "alcance": 249,
    "curtidas": 6,
    "comentarios": 3,
    "salvamentos": 3,
    "envios": 0,
-   "tempo_medio_s": 4.751,
+   "tempo_medio_s": 4.735,
    "duracao_s": 34.7,
-   "assistido_pct": 13.7,
-   "passou_3s_pct": 26.2,
+   "assistido_pct": 13.6,
+   "passou_3s_pct": 26.1,
    "salvar_pct": 1.2,
    "enviar_pct": 0.0,
    "comentar_pct": 1.2,
@@ -460,7 +364,7 @@
    "categoria": "novidade",
    "formato": "contagem (formato 3)",
    "views": 275,
-   "alcance": 253,
+   "alcance": 254,
    "curtidas": 9,
    "comentarios": 1,
    "salvamentos": 0,
@@ -548,30 +452,6 @@
    "vs_mediana": 0.9
   },
   {
-   "pasta": "2026-11-09-manda-print",
-   "titulo": "Manda print pra IA",
-   "url": "https://www.instagram.com/reel/DfhnSD1EwoO/",
-   "quando": "2026-11-09 12:06",
-   "faixa": "tarde (12–17h)",
-   "categoria": "como_funciona",
-   "formato": "mascote no palco (formato 1)",
-   "views": 257,
-   "alcance": 224,
-   "curtidas": 1,
-   "comentarios": 3,
-   "salvamentos": 1,
-   "envios": 0,
-   "tempo_medio_s": 8.148,
-   "duracao_s": 33.4,
-   "assistido_pct": 24.4,
-   "passou_3s_pct": 45.7,
-   "salvar_pct": 0.4,
-   "enviar_pct": 0.0,
-   "comentar_pct": 1.3,
-   "tiktok_views": 0,
-   "vs_mediana": 0.9
-  },
-  {
    "pasta": "2026-11-10-ia-le-whatsapp",
    "titulo": "IA lê seu WhatsApp",
    "url": "https://www.instagram.com/reel/Dfosh8Xiez3/",
@@ -617,54 +497,6 @@
    "enviar_pct": 0.0,
    "comentar_pct": 0.5,
    "tiktok_views": 50,
-   "vs_mediana": 0.8
-  },
-  {
-   "pasta": "2026-11-09-ia-esquece-a-conversa",
-   "titulo": "IA esquece a conversa",
-   "url": "https://www.instagram.com/reel/DfhLpMGAkGX/",
-   "quando": "2026-11-09 08:07",
-   "faixa": "manhã (6–11h)",
-   "categoria": "como_funciona",
-   "formato": "mascote no palco (formato 1)",
-   "views": 223,
-   "alcance": 197,
-   "curtidas": 3,
-   "comentarios": 1,
-   "salvamentos": 0,
-   "envios": 0,
-   "tempo_medio_s": 6.409,
-   "duracao_s": 33.4,
-   "assistido_pct": 19.2,
-   "passou_3s_pct": 36.9,
-   "salvar_pct": 0.0,
-   "enviar_pct": 0.0,
-   "comentar_pct": 0.5,
-   "tiktok_views": 7,
-   "vs_mediana": 0.8
-  },
-  {
-   "pasta": "2026-11-08-skills-chinesas-agencia",
-   "titulo": "3 skills chinesas de agência",
-   "url": "https://www.instagram.com/reel/DfiaPR5koQQ/",
-   "quando": "2026-11-09 19:32",
-   "faixa": "noite (18h+)",
-   "categoria": "novidade",
-   "formato": "contagem (formato 3)",
-   "views": 222,
-   "alcance": 199,
-   "curtidas": 5,
-   "comentarios": 1,
-   "salvamentos": 2,
-   "envios": 0,
-   "tempo_medio_s": 4.292,
-   "duracao_s": 34.1,
-   "assistido_pct": 12.6,
-   "passou_3s_pct": 32.2,
-   "salvar_pct": 1.0,
-   "enviar_pct": 0.0,
-   "comentar_pct": 0.5,
-   "tiktok_views": 1,
    "vs_mediana": 0.8
   },
   {
@@ -795,19 +627,19 @@
    "faixa": "noite (18h+)",
    "categoria": "novidade",
    "formato": "mascote no palco (formato 1)",
-   "views": 23,
-   "alcance": 24,
+   "views": 26,
+   "alcance": 26,
    "curtidas": 2,
    "comentarios": 1,
    "salvamentos": 0,
    "envios": 0,
-   "tempo_medio_s": 3.58,
+   "tempo_medio_s": 4.055,
    "duracao_s": 36.0,
-   "assistido_pct": 9.9,
-   "passou_3s_pct": 36.4,
+   "assistido_pct": 11.3,
+   "passou_3s_pct": 37.5,
    "salvar_pct": 0.0,
    "enviar_pct": 0.0,
-   "comentar_pct": 4.2,
+   "comentar_pct": 3.8,
    "tiktok_views": 7,
    "vs_mediana": 0.1
   }
@@ -815,15 +647,15 @@
  "por_formato": [
   {
    "nome": "contagem (formato 3)",
-   "n": 14,
-   "mediana_views": 357,
+   "n": 9,
+   "mediana_views": 298,
    "salvar_pct": 1.2,
-   "passou_3s_pct": 42.15
+   "passou_3s_pct": 43.9
   },
   {
    "nome": "mascote no palco (formato 1)",
-   "n": 19,
-   "mediana_views": 260,
+   "n": 17,
+   "mediana_views": 267,
    "salvar_pct": 0.0,
    "passou_3s_pct": 45.2
   }
@@ -831,10 +663,10 @@
  "por_categoria": [
   {
    "nome": "novidade",
-   "n": 25,
-   "mediana_views": 324,
+   "n": 20,
+   "mediana_views": 297,
    "salvar_pct": 1.2,
-   "passou_3s_pct": 44.7
+   "passou_3s_pct": 44.75
   },
   {
    "nome": "historia",
@@ -845,42 +677,41 @@
   },
   {
    "nome": "como_funciona",
-   "n": 4,
-   "mediana_views": 240,
+   "n": 2,
+   "mediana_views": 145,
    "salvar_pct": 0.0,
-   "passou_3s_pct": 43.45
+   "passou_3s_pct": 46.7
   }
  ],
  "por_faixa": [
   {
+   "nome": "manhã (6–11h)",
+   "n": 11,
+   "mediana_views": 298,
+   "salvar_pct": 0.9,
+   "passou_3s_pct": 45.5
+  },
+  {
    "nome": "tarde (12–17h)",
-   "n": 10,
-   "mediana_views": 332,
-   "salvar_pct": 1.25,
+   "n": 7,
+   "mediana_views": 294,
+   "salvar_pct": 1.2,
    "passou_3s_pct": 40.4
   },
   {
-   "nome": "manhã (6–11h)",
-   "n": 14,
-   "mediana_views": 311,
-   "salvar_pct": 0.95,
-   "passou_3s_pct": 46.3
-  },
-  {
    "nome": "noite (18h+)",
-   "n": 9,
-   "mediana_views": 152,
+   "n": 8,
+   "mediana_views": 126,
    "salvar_pct": 0.0,
-   "passou_3s_pct": 45.2
+   "passou_3s_pct": 45.35
   }
  ],
  "insights_auto": [
-  "Formato campeão: contagem (formato 3) (mediana 357 views em 14 Reels), 1,4× o 2º (mascote no palco (formato 1)).",
-  "Melhor Reel: 5 projetos que a Apple não queria com 1939 views (6,6× a mediana); salvamento 2,3% e envio 0,6% do alcance.",
-  "Gancho: só 44,7% (mediana) passa dos 3 primeiros segundos. Mais da metade sai antes do 1º item: o 1º quadro e a 1ª frase precisam de conflito.",
+  "Formato campeão: contagem (formato 3) (mediana 298 views em 9 Reels), 1,1× o 2º (mascote no palco (formato 1)).",
+  "Melhor Reel: 5 projetos que a Apple não queria com 1939 views (6,7× a mediana); salvamento 2,3% e envio 0,6% do alcance.",
+  "Gancho: só 44,75% (mediana) passa dos 3 primeiros segundos. Mais da metade sai antes do 1º item: o 1º quadro e a 1ª frase precisam de conflito.",
   "Retenção: quem fica assiste em média 20% do vídeo. O CTA do meio (na nº 3) pega mais gente que o do fim.",
-  "O público salva (0,9% do alcance) mais do que comenta (0,8%). Conteúdo útil funciona; o comentário ainda é o ponto fraco.",
-  "TikTok travado: mediana de 3 views por vídeo contra 292 no Instagram."
+  "TikTok travado: mediana de 5,0 views por vídeo contra 290 no Instagram."
  ],
  "semana_x_semana": {
   "semanas": [
@@ -907,7 +738,7 @@
     "enviar_pct": 0.9,
     "comentar_pct": 1.0,
     "passou_3s_pct": 45.6,
-    "idade_mediana_dias": 17.7,
+    "idade_mediana_dias": 18.2,
     "top": [
      {
       "titulo": "5 projetos pra TV e celular",
@@ -946,12 +777,12 @@
     "dias": 7,
     "reels": 34,
     "reels_por_dia": 4.9,
-    "views": 23660,
+    "views": 23663,
     "views_por_dia": 3380,
     "mediana_views": 410,
     "media_views": 696,
     "acima_1000": 7,
-    "alcance": 20168,
+    "alcance": 20169,
     "salvamentos": 374,
     "envios": 116,
     "comentarios": 178,
@@ -959,7 +790,7 @@
     "enviar_pct": 0.6,
     "comentar_pct": 0.9,
     "passou_3s_pct": 44.75,
-    "idade_mediana_dias": 13.4,
+    "idade_mediana_dias": 13.9,
     "top": [
      {
       "titulo": "10 estilos de animação",
@@ -1002,20 +833,20 @@
     "dias": 5,
     "reels": 6,
     "reels_por_dia": 1.2,
-    "views": 1252,
-    "views_por_dia": 250,
+    "views": 1255,
+    "views_por_dia": 251,
     "mediana_views": 281,
     "media_views": 209,
     "acima_1000": 0,
-    "alcance": 1109,
+    "alcance": 1112,
     "salvamentos": 8,
     "envios": 0,
     "comentarios": 15,
     "salvar_pct": 0.7,
     "enviar_pct": 0.0,
-    "comentar_pct": 1.4,
+    "comentar_pct": 1.3,
     "passou_3s_pct": 44.6,
-    "idade_mediana_dias": 5.8,
+    "idade_mediana_dias": 6.3,
     "top": [
      {
       "titulo": "TV sem propaganda",
@@ -1093,7 +924,7 @@
    {
     "data": "2026-11-10",
     "reels": 8,
-    "views": 2749,
+    "views": 2751,
     "mediana": 280
    },
    {
@@ -1105,8 +936,8 @@
    {
     "data": "2026-11-12",
     "reels": 4,
-    "views": 3151,
-    "mediana": 478
+    "views": 3152,
+    "mediana": 479
    },
    {
     "data": "2026-11-14",
@@ -1135,8 +966,8 @@
    {
     "data": "2026-11-19",
     "reels": 2,
-    "views": 298,
-    "mediana": 149
+    "views": 301,
+    "mediana": 150
    }
   ]
  },
@@ -1296,48 +1127,6 @@
    "views": 0,
    "foto": false,
    "pasta": "2026-11-09-bing-mandou-largar-a-esposa"
-  },
-  {
-   "titulo": "3 skills chinesas de agência",
-   "views": 1,
-   "foto": false,
-   "pasta": "2026-11-08-skills-chinesas-agencia"
-  },
-  {
-   "titulo": "5 projetos pra estudar",
-   "views": 0,
-   "foto": false,
-   "pasta": "2026-11-08-estudar-ia"
-  },
-  {
-   "titulo": "IA gigante no PC",
-   "views": 1,
-   "foto": false,
-   "pasta": "2026-11-08-ia-gigante-no-pc"
-  },
-  {
-   "titulo": "Manda print pra IA",
-   "views": 0,
-   "foto": false,
-   "pasta": "2026-11-09-manda-print"
-  },
-  {
-   "titulo": "3 skills de vídeo do zero",
-   "views": 1,
-   "foto": false,
-   "pasta": "2026-11-08-video-do-zero"
-  },
-  {
-   "titulo": "IA esquece a conversa",
-   "views": 7,
-   "foto": false,
-   "pasta": "2026-11-09-ia-esquece-a-conversa"
-  },
-  {
-   "titulo": "3 apps pra quem vive no chat",
-   "views": 2,
-   "foto": false,
-   "pasta": "2026-11-08-apps-pra-quem-vive-no-chat"
   }
  ]
 }
