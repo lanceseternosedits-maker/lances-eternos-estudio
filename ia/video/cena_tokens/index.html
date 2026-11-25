@@ -1,0 +1,212 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:AB;src:url(../cena_contagem/f/archivo-black-latin-400-normal.woff2)}
+@font-face{font-family:SG;src:url(../cena_contagem/f/space-grotesk-latin-700-normal.woff2)}
+@font-face{font-family:FR;src:url(../cena_contagem/f/fraunces-latin-700-normal.woff2)}
+*{margin:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+canvas{position:absolute;left:0;top:0;width:1080px;height:1920px}
+</style></head><body><canvas id="g" width="1080" height="1920"></canvas><canvas id="u" width="1080" height="1920"></canvas>
+<script type="module">
+// Referência 15 (@clubedasskills, "O problema dos tokens", 10/11): oficina 3D ao entardecer com o tanque de TOKENS, arquivo de pastas,
+// o mapa (grafo) que se forma no ar, dois personagens em diálogo (o mascote laranja e o colega menta de boné, nosso),
+// faixa de papel no topo com o título de cada fala, balões de pergunta, contador de tokens, selo GRÁTIS, odômetro 71x e comenta MAPA.
+// Interface igual à cena_gta: setTL, setT, eventos, capa. Render: CENA=cena_tokens/index.html node cena_quarto/render_quarto.js
+import * as THREE from '../cena_trend/three.module.min.js';
+for (const f of ['400 60px AB', '700 60px SG', '700 60px FR']) await document.fonts.load(f);
+const R = new THREE.WebGLRenderer({ canvas: document.getElementById('g'), antialias: true, preserveDrawingBuffer: true });
+R.setSize(1080, 1920, false); R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap; R.outputColorSpace = THREE.SRGBColorSpace;
+const S = new THREE.Scene(); const cam = new THREE.PerspectiveCamera(42, 1080 / 1920, .1, 300);
+S.fog = new THREE.Fog(0x2a1d3a, 30, 90);
+const hemi = new THREE.HemisphereLight(0xffd9b8, 0x2a1d3a, 1.0); S.add(hemi);
+const sol = new THREE.DirectionalLight(0xffa86a, 2.2); sol.position.set(-6, 9, -14); sol.castShadow = true; sol.shadow.mapSize.set(2048, 2048); sol.shadow.bias = -0.0006; sol.shadow.normalBias = .04;
+Object.assign(sol.shadow.camera, { left: -20, right: 20, top: 20, bottom: -20, near: 1, far: 60 }); S.add(sol, sol.target);
+const frente = new THREE.PointLight(0xffd7a8, 18, 30, 1.6); frente.position.set(2, 6, 9); S.add(frente);
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)), lin = (t, a, b) => cl((t - a) / (b - a)), eo = x => 1 - Math.pow(1 - cl(x), 3);
+const eio = x => { x = cl(x); return x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; }, back = x => { x = cl(x); const c = 1.7; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+let sd = 5; const rnd = () => (sd = (sd * 16807) % 2147483647) / 2147483647;
+const M = (c, o = {}) => new THREE.MeshStandardMaterial({ color: c, roughness: .7, ...o }), E = (c, k = 2) => new THREE.MeshStandardMaterial({ color: c, emissive: c, emissiveIntensity: k, roughness: .4 });
+function mesh(g, m, par = S, x = 0, y = 0, z = 0) { const o = new THREE.Mesh(g, m); o.position.set(x, y, z); o.castShadow = o.receiveShadow = true; par.add(o); return o; }
+const box = (w, h, d, m, par, x, y, z) => mesh(new THREE.BoxGeometry(w, h, d), m, par, x, y, z);
+function ctex(w, h, draw) { const c = document.createElement('canvas'); c.width = w; c.height = h; const g = c.getContext('2d'); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.draw = (...a) => { g.clearRect(0, 0, w, h); draw(g, w, h, ...a); t.needsUpdate = true; }; t.draw(); return t; }
+const V = (x, y, z) => new THREE.Vector3(x, y, z);
+const LAR = '#ff8a3d', CORAL = '#ff6f61', MENTA = '#3fd6a6', TINTA = '#2b1838', CREME = '#fff4e2', OURO = '#ffc84a';
+
+// ---------- sala: piso de madeira, parede do fundo com janelão ao entardecer, varal de luzinhas ----------
+const pisoT = ctex(512, 512, g => { for (let i = 0; i < 8; i++) { g.fillStyle = i % 2 ? '#8a5a3c' : '#7a4e34'; g.fillRect(0, i * 64, 512, 64); g.fillStyle = 'rgba(0,0,0,.18)'; g.fillRect(0, i * 64, 512, 2); } });
+pisoT.wrapS = pisoT.wrapT = THREE.RepeatWrapping; pisoT.repeat.set(6, 6);
+const piso = mesh(new THREE.PlaneGeometry(60, 60), M('#ffffff', { map: pisoT, roughness: .6 })); piso.rotation.x = -Math.PI / 2;
+const ceuT = ctex(64, 512, g => { const d = g.createLinearGradient(0, 0, 0, 512); d.addColorStop(0, '#3f4cb8'); d.addColorStop(.45, '#a65ab4'); d.addColorStop(.75, '#ff7f8a'); d.addColorStop(1, '#ffc070'); g.fillStyle = d; g.fillRect(0, 0, 64, 512); });
+S.background = new THREE.Color('#2a1d3a');
+box(40, 14, .4, M('#4a3248'), S, 0, 7, -10);
+const jan = mesh(new THREE.PlaneGeometry(22, 9), new THREE.MeshBasicMaterial({ map: ceuT, fog: false }), S, 0, 7, -9.7); jan.castShadow = false;
+const solT = ctex(256, 256, g => { const h = g.createRadialGradient(128, 128, 20, 128, 128, 128); h.addColorStop(0, 'rgba(255,246,214,1)'); h.addColorStop(.45, 'rgba(255,200,130,1)'); h.addColorStop(.5, 'rgba(255,180,120,.4)'); h.addColorStop(1, 'rgba(255,160,110,0)'); g.fillStyle = h; g.fillRect(0, 0, 256, 256); });
+mesh(new THREE.PlaneGeometry(7, 7), new THREE.MeshBasicMaterial({ map: solT, transparent: true, fog: false, depthWrite: false }), S, -4, 4.6, -9.65).castShadow = false;
+for (let i = 0; i < 5; i++) box(.25, 9, .3, M('#2b1838'), S, -11 + i * 5.5, 7, -9.6); box(22.4, .3, .3, M('#2b1838'), S, 0, 11.6, -9.6); box(22.4, .3, .3, M('#2b1838'), S, 0, 2.5, -9.6);
+// silhuetas de prédios na janela
+for (let i = 0; i < 14; i++) { const h = 1 + rnd() * 3; const p = mesh(new THREE.PlaneGeometry(1.2 + rnd(), h), new THREE.MeshBasicMaterial({ color: '#5a3a6a', fog: false }), S, -10 + i * 1.5, 2.5 + h / 2, -9.68); p.castShadow = false; }
+const NL = 40, luzes = new THREE.InstancedMesh(new THREE.SphereGeometry(.09, 8, 8), new THREE.MeshBasicMaterial({ color: '#ffd9a0', fog: false }), NL); S.add(luzes);
+const m4 = new THREE.Matrix4(); for (let i = 0; i < NL; i++) { const x = -12 + i * .62; m4.makeTranslation(x, 12.4 - Math.sin(i / NL * Math.PI) * 1.4 - (i % 2) * .05, -8.8); luzes.setMatrixAt(i, m4); }
+
+// ---------- tanque de TOKENS (centro-esquerda) ----------
+const TQ = new THREE.Group(); TQ.position.set(-2.6, 0, -2); S.add(TQ);
+mesh(new THREE.CylinderGeometry(1.25, 1.35, .4, 32), M('#3a2a3a', { metalness: .6, roughness: .3 }), TQ, 0, .2, 0);
+mesh(new THREE.CylinderGeometry(1.25, 1.25, .3, 32), M('#3a2a3a', { metalness: .6, roughness: .3 }), TQ, 0, 4.75, 0);
+const vidro = mesh(new THREE.CylinderGeometry(1.1, 1.1, 4.2, 32, 1, true), new THREE.MeshPhysicalMaterial({ color: '#ffffff', transparent: true, opacity: .18, roughness: .05, metalness: 0, side: THREE.DoubleSide }), TQ, 0, 2.5, 0); vidro.castShadow = false;
+const liqM = new THREE.MeshStandardMaterial({ color: MENTA, emissive: MENTA, emissiveIntensity: .7, transparent: true, opacity: .85 }); const LIQ = mesh(new THREE.CylinderGeometry(1.0, 1.0, 1, 32), liqM, TQ, 0, .9, 0); LIQ.castShadow = false;
+const rotT = ctex(512, 160, (g, w, h, pct = 67) => { g.fillStyle = '#2b1838'; g.beginPath(); g.roundRect(0, 0, w, h, 24); g.fill(); g.fillStyle = '#fff'; g.font = '400 54px AB'; g.textAlign = 'center'; g.fillText('TOKENS', w / 2, 62); g.fillStyle = pct < 20 ? '#ff6f61' : '#3fd6a6'; g.font = '400 70px AB'; g.fillText(pct + '%', w / 2, 140); });
+const ROT = mesh(new THREE.PlaneGeometry(2.2, .69), new THREE.MeshBasicMaterial({ map: rotT }), TQ, 0, 5.4, .2); ROT.castShadow = false;
+function nivel(p) { LIQ.scale.y = Math.max(.02, 4 * p); LIQ.position.y = .45 + 2 * p; liqM.color.set(p < .2 ? CORAL : MENTA); liqM.emissive.set(p < .2 ? CORAL : MENTA); rotT.draw(Math.round(p * 100)); }
+
+// ---------- arquivo de pastas (direita) ----------
+const ARQ = new THREE.Group(); ARQ.position.set(4.2, 0, -3); S.add(ARQ); const gavetas = [];
+for (let c = 0; c < 3; c++) { const g = new THREE.Group(); g.position.set((c - 1) * 1.6, 0, 0); ARQ.add(g); box(1.5, 3.6, 1.4, M('#c9b8a6', { metalness: .3, roughness: .5 }), g, 0, 1.8, 0);
+  for (let i = 0; i < 4; i++) { const gv = box(1.3, .74, .1, M('#e8dccb', { metalness: .2 }), g, 0, .55 + i * .85, .72); box(.4, .08, .06, M('#5a4a4a'), gv, 0, .18, .06); gavetas.push(gv); } }
+// folhas voando (arquivos lidos)
+const NF = 18, FOL = []; for (let i = 0; i < NF; i++) { const f = mesh(new THREE.PlaneGeometry(.5, .66), new THREE.MeshStandardMaterial({ color: '#fffaf0', side: THREE.DoubleSide }), S, 0, -5, 0); f.castShadow = false; FOL.push(f); }
+
+// ---------- mapa (grafo) no ar ----------
+const MAPA = new THREE.Group(); MAPA.position.set(.6, 6.2, -3); S.add(MAPA); const nos = [], arestas = [];
+for (let i = 0; i < 42; i++) { const r = 1.2 + rnd() * 3.2, a = rnd() * 6.283, b = (rnd() - .5) * 1.6; const p = V(Math.cos(a) * r, b * 1.8, Math.sin(a) * r * .6);
+  const big = i < 6; const n = mesh(new THREE.SphereGeometry(big ? .26 : .14, 16, 16), E(big ? LAR : ['#ffd36e', MENTA, '#ff9ad1'][i % 3], big ? 1.2 : .9), MAPA, p.x, p.y, p.z); n.castShadow = false; n.userData.p = p; nos.push(n); }
+const lmat = new THREE.LineBasicMaterial({ color: '#ffe6c0', transparent: true, opacity: .75 });
+for (let i = 6; i < 42; i++) { const j = i % 6; const g = new THREE.BufferGeometry().setFromPoints([nos[i].userData.p, nos[j].userData.p]); const l = new THREE.Line(g, lmat); MAPA.add(l); arestas.push(l);
+  if (i % 3 === 0) { const k = 6 + ((i * 7) % 36); const g2 = new THREE.BufferGeometry().setFromPoints([nos[i].userData.p, nos[k].userData.p]); const l2 = new THREE.Line(g2, lmat); MAPA.add(l2); arestas.push(l2); } }
+
+// ---------- personagens ----------
+function mascote(cor, esc = 1) { const g = new THREE.Group(); const c = M(cor, { roughness: .55 }); const corpo = box(1.6, 1.05, .9, c, g, 0, 1.0, 0); for (const x of [-.95, .95]) box(.32, .32, .4, c, g, x, 1.0, 0);
+  const olhos = []; for (const x of [-.32, .32]) olhos.push(box(.13, .3, .05, M('#111'), g, x, 1.1, .46)); for (let i = 0; i < 4; i++) box(.16, .4, .16, c, g, -.55 + i * .37, .25, 0); g.scale.setScalar(esc); g.userData.olhos = olhos; g.userData.alto = 1.6 * esc; S.add(g); return g; }
+const A = mascote('#d9774a', 1.15); A.position.set(-.2, 0, 1.4);
+const B = mascote(MENTA, 1.0); B.position.set(2.4, 0, 1.0); B.rotation.y = -.35;
+// boné do colega (nosso, não copia o personagem da referência)
+box(1.2, .22, 1.0, M('#2b5cff'), B, 0, 1.64, 0); box(1.0, .06, .6, M('#2b5cff'), B, 0, 1.55, .7);
+
+// ---------- camada 2D ----------
+const U = document.getElementById('u'), X = U.getContext('2d');
+const fnt = (s, f = 'AB') => `${f === 'AB' ? 400 : 700} ${s}px ${f}`;
+const pil = (x, y, w, h, r, c) => { X.fillStyle = c; X.beginPath(); X.roundRect(x, y, w, h, r); X.fill(); };
+function cabe(txt, f, mx, fam = 'AB') { while (f > 18) { X.font = fnt(f, fam); if (X.measureText(txt).width <= mx) break; f -= 2; } return f; }
+function titulo(t, f, cor = '#fff', x = 540, y = 960, al = 'center', fam = 'AB') { X.save(); X.font = fnt(f, fam); X.textAlign = al; X.textBaseline = 'middle'; X.lineJoin = 'round';
+  X.shadowColor = 'rgba(20,8,30,.5)'; X.shadowBlur = f * .1; X.shadowOffsetY = f * .06; X.lineWidth = f * .16; X.strokeStyle = TINTA; X.strokeText(t, x, y); X.shadowColor = 'transparent'; X.fillStyle = cor; X.fillText(t, x, y); X.restore(); }
+// faixa de papel no topo (título da fala): parte normal em AB, parte destacada em Fraunces itálico coral
+function faixa(a, b, lt) { const k = eo(lin(lt, 0, .3)); X.save(); X.globalAlpha = k; X.translate(540, 330); X.rotate(-.012);
+  X.font = fnt(50); const wa = X.measureText(a + ' ').width; X.font = 'italic 700 54px FR'; const wb = X.measureText(b).width; const W = Math.min(900, wa + wb + 80);
+  X.fillStyle = CREME; X.shadowColor = 'rgba(0,0,0,.35)'; X.shadowBlur = 18; X.shadowOffsetY = 8; X.beginPath(); X.moveTo(-W / 2, -48); for (let x = -W / 2; x <= W / 2; x += 30) X.lineTo(x, -48 + (Math.floor(x / 30) % 2) * 4); X.lineTo(W / 2, 48); for (let x = W / 2; x >= -W / 2; x -= 30) X.lineTo(x, 48 - (Math.floor(x / 30) % 2) * 4); X.closePath(); X.fill(); X.shadowColor = 'transparent';
+  X.fillStyle = 'rgba(255,214,120,.75)'; X.fillRect(-W / 2 - 20, -60, 90, 34); X.fillRect(W / 2 - 70, 26, 90, 34);
+  X.textBaseline = 'middle'; X.textAlign = 'left'; const x0 = -(wa + wb) / 2; X.fillStyle = TINTA; X.font = fnt(50); X.fillText(a + ' ', x0, 4); X.fillStyle = CORAL; X.font = 'italic 700 54px FR'; X.fillText(b, x0 + wa, 2); X.restore(); }
+const pv = new THREE.Vector3();
+function balao(obj, txt, lt, lado = 1) { obj.getWorldPosition(pv); pv.y += obj.userData.alto + .3; pv.project(cam); if (pv.z > 1) return; let x = cl((pv.x * .5 + .5) * 1080 + lado * 120, 220, 860), y = cl((-pv.y * .5 + .5) * 1920 - 120, 480, 1200);
+  const s = back(lin(lt, 0, .3)); X.save(); X.translate(x, y); X.scale(s, s); X.font = fnt(cabe(txt, 60, 460)); const w = X.measureText(txt).width + 70, h = 120;
+  X.fillStyle = '#fff'; X.strokeStyle = TINTA; X.lineWidth = 8; X.beginPath(); X.roundRect(-w / 2, -h / 2, w, h, 30); X.fill(); X.stroke(); X.beginPath(); X.moveTo(-lado * 40, h / 2 - 4); X.lineTo(-lado * 90, h / 2 + 50); X.lineTo(-lado * 5, h / 2 - 4); X.closePath(); X.fill(); X.stroke(); X.fillStyle = '#fff'; X.fillRect(-lado * 60 - 20, h / 2 - 12, 50, 12);
+  X.fillStyle = TINTA; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(txt, 0, 4); X.restore(); }
+function contador(n, rot, x = 540, y = 600) { const s = n.toLocaleString('pt-BR'); X.save(); X.font = fnt(96); const w = Math.max(X.measureText(s).width + 80, 360); pil(x - w / 2, y - 60, w, 150, 26, 'rgba(43,24,56,.92)'); X.strokeStyle = OURO; X.lineWidth = 5; X.beginPath(); X.roundRect(x - w / 2, y - 60, w, 150, 26); X.stroke();
+  X.fillStyle = OURO; X.font = fnt(30, 'SG'); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(rot, x, y - 28); X.fillStyle = '#fff'; X.font = fnt(84); X.fillText(s, x, y + 40); X.restore(); }
+function selo(txt, x, y, r, lt) { const s = back(lin(lt, 0, .35)); X.save(); X.translate(x, y); X.rotate(-.18 + Math.sin(lt * 2) * .03); X.scale(s, s); X.fillStyle = OURO; X.beginPath(); for (let i = 0; i < 32; i++) { const a = i / 32 * 6.283, rr = i % 2 ? r * .9 : r; X.lineTo(Math.cos(a) * rr, Math.sin(a) * rr); } X.closePath(); X.fill();
+  X.strokeStyle = TINTA; X.lineWidth = 6; X.stroke(); X.fillStyle = TINTA; X.font = fnt(r * .36); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(txt, 0, 4); X.restore(); }
+function flap(txt, cx, y, cw, ch, k) { const L = txt.length, AZ = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; const x0 = cx - (L * (cw + 8) - 8) / 2;
+  for (let i = 0; i < L; i++) { const ok = k > (i + 1) / (L + 2); const c = ok ? txt[i] : AZ[(Math.floor(k * 60) * 7 + i * 13) % AZ.length]; const x = x0 + i * (cw + 8); pil(x, y, cw, ch, 10, TINTA); X.fillStyle = 'rgba(255,255,255,.1)'; X.fillRect(x, y + ch / 2 - 1, cw, 2);
+    X.fillStyle = ok ? OURO : '#fff'; X.font = fnt(ch * .6); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(c, x + cw / 2, y + ch / 2 + 3); } }
+function cartao(x, y, w, h) { X.save(); X.shadowColor = 'rgba(0,0,0,.4)'; X.shadowBlur = 30; X.shadowOffsetY = 12; pil(x, y, w, h, 26, CREME); X.restore(); }
+function legenda(seg, t) { const ws = seg.palavras || []; const ch = []; let cur = []; for (const w of ws) { cur.push(w); if (/[.,:?!…]$/.test(w.w) || cur.length >= 3) { ch.push(cur); cur = []; } } if (cur.length) ch.push(cur);
+  let b = ch.findIndex(c => t < c[c.length - 1].t1 + .05); if (b < 0) b = ch.length - 1; const c = ch[b]; if (!c) return;
+  let f = 58; X.font = fnt(f); const tot = () => c.reduce((a, w) => a + X.measureText(w.w + ' ').width, 0); while (tot() > 820 && f > 34) { f -= 2; X.font = fnt(f); }
+  const W = tot(), y = 1400; let x = 540 - W / 2; X.textAlign = 'left'; X.textBaseline = 'middle'; X.lineJoin = 'round';
+  for (const w of c) { const on = t >= w.t0 - .03, at = on && t < w.t1 + .08; const ww = X.measureText(w.w).width; if (at) { pil(x - 10, y - f * .62, ww + 20, f * 1.24, 10, OURO); } X.lineWidth = 11; X.strokeStyle = TINTA; if (!at) X.strokeText(w.w, x, y); X.fillStyle = at ? TINTA : on ? '#fff' : 'rgba(255,255,255,.6)'; X.fillText(w.w, x, y); x += X.measureText(w.w + ' ').width; } }
+
+// ---------- cenas ----------
+const FAIXA = { gancho: ['o problema dos', 'tokens'], plano: ['US$ 20 ·', 'acaba em 2 dias'], problema: ['uma ferramenta', 'grátis'], porque: ['por que', 'acaba?'], sessao: ['a cada', 'sessão nova'],
+  le: ['abre, lê,', 'gasta'], solucao: ['qual é a', 'solução?'], graphify: ['grátis e', 'código aberto'], mapa: ['roda uma vez,', 'vira um mapa'], meucodigo: ['um mapa', 'do meu código?'],
+  exato: ['cada arquivo,', 'cada ligação'], proxima: ['na próxima', 'sessão'], quanto: ['quanto', 'economiza?'], economia: ['maior o projeto,', 'mais economia'], para: ['não paga', 'duas vezes'], cta: ['comenta', 'MAPA'] };
+const SHOT = {
+  gancho: lt => [V(-.6 + lt * .15, 3.8, 12 - lt * .3), V(-.6, 2.7, -1)],
+  plano: lt => [V(1.2 + lt * .1, 3, 9.5), V(1.4, 1.9, 0)],
+  problema: lt => [V(-.8, 4.4, 11 - lt * .25), V(-2.2, 3.2, -2)],
+  porque: lt => [V(1.6, 3, 9.2), V(1.4, 1.9, 0)],
+  sessao: lt => [V(1.8 + lt * .3, 3.6, 8.5), V(3.8, 2, -2.6)],
+  le: lt => [V(4.8 - lt * .3, 3, 6.5), V(3.8, 1.9, -2.4)],
+  solucao: lt => [V(1.4, 3, 9.2), V(1.4, 1.9, 0)],
+  graphify: lt => [V(0, 4.4, 11.5 - lt * .3), V(0, 3.4, -1)],
+  mapa: lt => [V(Math.sin(lt * .25) * 3, 6.5, 9.5 - lt * .2), V(.6, 6, -3)],
+  meucodigo: lt => [V(1.8, 3.2, 9.2), V(1.4, 2.1, 0)],
+  exato: lt => [V(-2 + lt * .5, 6.8, 6.5), V(.6, 6.2, -3)],
+  proxima: lt => [V(-.6, 3.8, 10.5), V(-.8, 2.7, -1.5)],
+  quanto: lt => [V(1.2, 3, 9.2), V(1.4, 1.9, 0)],
+  economia: lt => [V(0, 7.5 + lt * .2, 11), V(.6, 5.5, -3)],
+  para: lt => [V(-.2, 3.2, 9.5 - lt * .2), V(.8, 2, 0)],
+  cta: lt => [V(.6, 3.6, 11), V(.6, 2.8, -1)],
+};
+let TL = null; window.setTL = t => { TL = t; };
+window.eventos = () => { const ev = []; TL.segmentos.forEach((s, i) => { if (i) ev.push({ t: s.t0, som: s.quem === 'B' ? 'pop' : 'whoosh' });
+  if (s.cena === 'graphify') ev.push({ t: s.t0 + .2, som: 'stamp' }); if (s.cena === 'le' || s.cena === 'sessao') ev.push({ t: s.t0 + .3, som: 'paper' }); if (s.cena === 'mapa') ev.push({ t: s.t0 + .2, som: 'riser' });
+  if (s.cena === 'economia') ev.push({ t: s.t0 + .3, som: 'clock', dur: 1.4 }); if (s.cena === 'cta') ev.push({ t: s.t0 + .3, som: 'typing', dur: 1.0 }); if (s.cena === 'proxima') ev.push({ t: s.t0 + .4, som: 'ding' }); });
+  ev.push({ t: TL.total - .6, som: 'whoosh' }); return ev; };
+
+const ORDEM = Object.keys(SHOT);
+function mundo(cena, lt, d, t) {
+  const i = ORDEM.indexOf(cena);
+  // tanque: cai de 67% até ~5% (problema) e volta a encher depois do mapa
+  let p = .67; if (cena === 'plano') p = .67 - .45 * eio(lin(lt, .2, d)); else if (['problema', 'porque', 'sessao', 'le', 'solucao'].includes(cena)) p = cena === 'problema' ? .05 + .6 * eio(lin(lt, d * .45, d)) * 0 + .0 : .05;
+  if (cena === 'problema') p = lt < d * .45 ? .22 - .17 * eio(lin(lt, 0, d * .4)) : .05 + .3 * eio(lin(lt, d * .5, d)); if (['porque', 'sessao', 'le', 'solucao'].includes(cena)) p = .05 + .3 - .3 * eio(lin(i, 3, 6) * 1);
+  if (cena === 'sessao') p = .3 - .15 * eio(lin(lt, 0, d)); if (cena === 'le') p = .15 - .1 * eio(lin(lt, 0, d)); if (cena === 'solucao') p = .05;
+  if (i >= ORDEM.indexOf('graphify')) p = cena === 'graphify' ? .05 + .25 * eio(lin(lt, .3, d)) : cena === 'mapa' ? .3 + .25 * eio(lin(lt, 0, d)) : i >= ORDEM.indexOf('proxima') ? .95 : .55;
+  if (cena === 'proxima') p = .55 + .4 * eio(lin(lt, .3, d * .8)); nivel(p);
+  // gavetas abrindo e folhas voando quando o Claude "sai procurando"
+  const busca = cena === 'sessao' || cena === 'le'; gavetas.forEach((g, k) => { const o = busca ? Math.max(0, Math.sin(t * 5 + k * 1.3)) * .55 : 0; g.position.z = .72 + o; });
+  FOL.forEach((f, k) => { if (!busca) { f.position.y = -5; return; } const ph = ((t * .6 + k / NF) % 1); f.position.set(4.2 + Math.sin(k * 2.1) * 2 - ph * 5, 1.5 + ph * 4 + Math.sin(k) * .5, -1.6 + Math.cos(k) * .8); f.rotation.set(ph * 6 + k, ph * 4, k); });
+  // mapa: nasce no "mapa", completo depois; cresce no "economia"
+  const km = i < ORDEM.indexOf('mapa') ? 0 : cena === 'mapa' ? eio(lin(lt, .2, d)) : 1; MAPA.visible = km > 0;
+  nos.forEach((n, k) => { const s = cl(km * 42 - k) ; n.scale.setScalar(Math.max(.001, s * (1 + .15 * Math.sin(t * 3 + k)))); }); arestas.forEach((l, k) => { l.visible = km * arestas.length > k; });
+  MAPA.rotation.y = t * .15; MAPA.scale.setScalar(cena === 'economia' ? 1 + .35 * eio(lin(lt, .2, d)) : i > ORDEM.indexOf('economia') ? 1.35 : 1);
+  // personagens: A anima falando; B pula quando pergunta
+  const fala = TL ? (TL.segmentos.find(s => s.cena === cena) || {}).quem : 'A';
+  A.position.y = fala === 'A' ? Math.abs(Math.sin(t * 9)) * .08 : 0; A.rotation.y = fala === 'B' ? .45 : Math.sin(t * .8) * .1;
+  B.position.y = fala === 'B' ? Math.abs(Math.sin(t * 10)) * .14 + (lt < .3 ? back(lt / .3) * .3 - .3 + .3 : 0) : 0; B.rotation.z = fala === 'B' ? Math.sin(t * 14) * .05 : 0;
+  const pis = (Math.floor(t * 2.3) % 9 === 0) ? .15 : 1; A.userData.olhos.forEach(o => o.scale.y = pis); B.userData.olhos.forEach(o => o.scale.y = (Math.floor(t * 2.1 + 3) % 11 === 0) ? .15 : 1);
+}
+
+function ui(cena, lt, d, t, s) {
+  const F = FAIXA[cena]; if (F) faixa(F[0], F[1], lt);
+  if (cena === 'gancho') { titulo('RESOLVERAM', 92, '#fff', 540, 1050); titulo('O PROBLEMA DOS TOKENS', 70, OURO, 540, 1150); }
+  if (cena === 'plano') { balao(B, 'PERAÍ…', lt, -1); if (lt > .5) { const s2 = back(lin(lt, .5, .8)); X.save(); X.translate(540, 1080); X.rotate(.04); X.scale(s2, s2); cartao(-230, -80, 460, 160); titulo('PLANO US$ 20', 54, TINTA === '#000' ? '#000' : CORAL, 0, -15); X.fillStyle = TINTA; X.font = fnt(40, 'SG'); X.textAlign = 'center'; X.fillText('acaba no DIA 2', 0, 45); X.restore(); } }
+  if (cena === 'problema') { if (lt > d * .5) selo('GRÁTIS', 780, 900, 130, lt - d * .5); }
+  if (cena === 'porque') balao(B, 'POR QUÊ?', lt, -1);
+  if (cena === 'sessao') { const s2 = back(lin(lt, 0, .3)); X.save(); X.translate(540, 560); X.scale(s2, s2); pil(-330, -60, 660, 120, 20, TINTA); X.strokeStyle = MENTA; X.lineWidth = 5; X.beginPath(); X.roundRect(-330, -60, 660, 120, 20); X.stroke(); titulo('SESSÃO NOVA', 74, '#fff', 0, 4); X.restore();
+    contador(Math.round(5704 * eio(lin(lt, .3, d))), 'TOKENS GASTOS', 540, 760); }
+  if (cena === 'le') { contador(Math.round(5704 + 31014 * eio(lin(lt, 0, d * .9))), 'TOKENS GASTOS', 540, 600); const s2 = back(lin(lt, .2, .5)); X.save(); X.translate(330, 980); X.rotate(-.06); X.scale(s2, s2); cartao(-180, -70, 360, 140); X.fillStyle = TINTA; X.font = '600 52px monospace'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('função()', 0, 4); X.restore();
+    if (lt > d * .5) { const s3 = back(lin(lt, d * .5, d * .5 + .3)); X.save(); X.translate(720, 1100); X.scale(s3, s3); pil(-220, -45, 440, 90, 45, CORAL); X.fillStyle = '#fff'; X.font = fnt(36); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('E VOCÊ NEM PEDIU', 0, 3); X.restore(); } }
+  if (cena === 'solucao') balao(B, 'E A SOLUÇÃO?', lt, -1);
+  if (cena === 'graphify') { flap('GRAPHIFY', 540, 560, 96, 140, lin(lt, 0, 1.1)); if (lt > d * .45) selo('GRÁTIS', 300, 900, 120, lt - d * .45); if (lt > d * .6) { const s3 = back(lin(lt, d * .6, d * .6 + .3)); X.save(); X.translate(740, 930); X.scale(s3, s3); pil(-210, -45, 420, 90, 45, MENTA); X.fillStyle = TINTA; X.font = fnt(34); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('CÓDIGO ABERTO', 0, 3); X.restore(); } }
+  if (cena === 'mapa') { titulo('RODA 1 VEZ', 64, '#fff', 540, 1150); }
+  if (cena === 'meucodigo') balao(B, 'UM MAPA?', lt, -1);
+  if (cena === 'exato') { ['ARQUIVO', 'FUNÇÃO', 'LIGAÇÃO'].forEach((w, k) => { if (lt < .3 + k * .45) return; const s3 = back(lin(lt, .3 + k * .45, .6 + k * .45)); X.save(); X.translate([260, 540, 820][k], 1120 - (k % 2) * 60); X.rotate([-.06, .04, -.03][k]); X.scale(s3, s3); pil(-140, -40, 280, 80, 14, CREME); X.fillStyle = TINTA; X.font = fnt(34); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(w, 0, 3); X.restore(); }); }
+  if (cena === 'proxima') { const s2 = back(lin(lt, 0, .3)); X.save(); X.translate(540, 560); X.scale(s2, s2); pil(-330, -60, 660, 120, 20, TINTA); X.strokeStyle = MENTA; X.lineWidth = 5; X.beginPath(); X.roundRect(-330, -60, 660, 120, 20); X.stroke(); titulo('SESSÃO NOVA', 74, '#fff', 0, 4); X.restore();
+    if (lt > d * .4) { const s3 = back(lin(lt, d * .4, d * .4 + .3)); X.save(); X.translate(540, 1110); X.scale(s3, s3); pil(-300, -50, 600, 100, 50, MENTA); X.fillStyle = TINTA; X.font = fnt(40); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText('✓ SÓ CONSULTA O MAPA', 0, 3); X.restore(); } }
+  if (cena === 'quanto') balao(B, 'QUANTO?', lt, -1);
+  if (cena === 'economia') { const v = (71.5 * eio(lin(lt, .2, Math.min(d * .5, 2)))).toFixed(1).replace('.', ','); X.save(); const s2 = back(lin(lt, 0, .3)); X.translate(540, 1080); X.scale(s2, s2); cartao(-300, -120, 600, 240); titulo(v + 'x', 120, CORAL, 0, -20); X.fillStyle = TINTA; X.font = fnt(32, 'SG'); X.textAlign = 'center'; X.fillText('menos tokens por consulta*', 0, 75); X.restore();
+    X.fillStyle = 'rgba(255,255,255,.75)'; X.font = fnt(24, 'SG'); X.textAlign = 'center'; X.fillText('*teste do criador, 52 arquivos (README do Graphify)', 540, 1250); }
+  if (cena === 'para') { titulo('PARA DE PAGAR', 78, '#fff', 540, 1050); titulo('DUAS VEZES', 92, OURO, 540, 1150); }
+  if (cena === 'cta') { const k = eo(lin(lt, .05, .35)); X.globalAlpha = k; titulo('COMENTA', 76, '#fff', 540, 640); titulo('MAPA', 150, OURO, 540, 770);
+    pil(110, 880, 860, 92, 46, '#fff'); X.fillStyle = CORAL; X.beginPath(); X.arc(160, 926, 22, 0, 7); X.fill(); X.fillStyle = TINTA; X.font = fnt(40, 'SG'); X.textAlign = 'left'; X.textBaseline = 'middle';
+    X.fillText('MAPA'.slice(0, Math.ceil(4 * lin(lt, .3, 1.1))) + (Math.floor(t * 3) % 2 && lt < 1.2 ? '|' : ''), 200, 928);
+    if (lt > 1.3) { const b = back(lin(lt, 1.3, 1.65)); X.save(); X.translate(540, 1100); X.scale(b, b); cartao(-420, -90, 840, 180); X.fillStyle = TINTA; X.font = fnt(36); X.textAlign = 'center'; X.fillText('Tá aqui o link do Graphify 👇', 0, -28); X.font = fnt(28, 'SG'); X.fillStyle = '#5a4a6a'; X.fillText('+ o passo a passo pra instalar no Claude Code', 0, 20); X.fillStyle = '#2b5cff'; X.fillText('🔗 github.com/safishamsi/graphify', 0, 60); X.restore(); } X.globalAlpha = 1; }
+}
+
+window.setT = t => {
+  const SG = TL.segmentos; let k = SG.findIndex(s => t < s.fim); if (k < 0) k = SG.length - 1; const s = SG[k], lt = t - s.t0, d = s.fim - s.t0; let cena = s.cena;
+  const LOOP = .6, kl = lin(t, TL.total - LOOP, TL.total);
+  mundo(kl > .5 ? 'gancho' : cena, kl > .5 ? .2 : lt, kl > .5 ? SG[0].fim : d, t);
+  let [p, l] = SHOT[cena](lt); if (k > 0 && lt < .4) { const pv2 = SG[k - 1], [pp, ll] = SHOT[pv2.cena](pv2.fim - pv2.t0); if (pp.distanceTo(p) < 12) { const e = eio(lt / .4); p = pp.lerp(p, e); l = ll.lerp(l, e); } }
+  if (kl > 0) { const [p0, l0] = SHOT.gancho(0); p = p.clone().lerp(p0, eio(kl)); l = l.clone().lerp(l0, eio(kl)); }
+  cam.position.copy(p); cam.lookAt(l); cam.rotateZ(.03 * Math.sin(t * .6)); R.render(S, cam);
+  X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(20,8,30,.35)'); vg.addColorStop(.25, 'rgba(0,0,0,0)'); vg.addColorStop(.62, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(20,8,30,.55)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
+  if (kl > .5) { ui('gancho', 1, SG[0].fim, t, SG[0]); return; }
+  ui(cena, lt, d, t, s); legenda(s, t);
+};
+window.capa = () => {
+  mundo('gancho', .2, 2, 1); nivel(.08); MAPA.visible = true; nos.forEach(n => n.scale.setScalar(1)); arestas.forEach(l => l.visible = true);
+  cam.position.copy(V(.2, 3.4, 15)); cam.lookAt(V(.2, 3.8, -2)); cam.rotateZ(.03); R.render(S, cam);
+  X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(20,8,30,.3)'); vg.addColorStop(.35, 'rgba(20,8,30,.1)'); vg.addColorStop(.5, 'rgba(20,8,30,.45)'); vg.addColorStop(.72, 'rgba(20,8,30,.35)'); vg.addColorStop(1, 'rgba(20,8,30,.15)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
+  faixa('o problema dos', 'tokens', 1);
+  titulo('SEU PLANO', 96, '#fff', 540, 960); titulo('ACABA EM 2 DIAS?', 92, OURO, 540, 1070); titulo('RESOLVERAM.', 110, MENTA, 540, 1200);
+  X.font = fnt(40, 'SG'); const tx = '💬 Comenta MAPA'; const tw = X.measureText(tx).width + 60; X.lineWidth = 8; X.strokeStyle = TINTA; X.beginPath(); X.roundRect(540 - tw / 2, 1330, tw, 84, 42); X.stroke(); pil(540 - tw / 2, 1330, tw, 84, 42, '#fff'); X.fillStyle = TINTA; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(tx, 540, 1374);
+};
+window.pronto = true;
+</script></body></html>

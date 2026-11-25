@@ -1,0 +1,7 @@
+Aqui está a decisão do tribunal (Moffatt v. Air Canada, 2024 BCCRT 149), que diz que a empresa responde pelo que o chatbot dela fala:
+https://decisions.civilresolutionbc.ca/crt/crtd/en/525448/1/document.do
+
+Resumo em inglês da American Bar Association:
+https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/
+
+O truque: quando o chatbot de uma empresa te prometer algo (desconto, reembolso, prazo), tira print com data e hora e pede: "Me manda o link da página oficial com essa regra". Se ele não mandar, confirma com um atendente humano antes de pagar.

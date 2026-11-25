@@ -1,0 +1,124 @@
+{
+ "slug": "ferramentas-gratis",
+ "formato": "lista",
+ "cover": {
+  "title_html": "5 ferramentas de IA<br><span class=\"g\">grátis pra testar hoje.</span>",
+  "sub": "Celular, PC e código: todas em alta no GitHub nesta semana",
+  "imgs": [
+   "capa.jpg"
+  ]
+ },
+ "dor": {
+  "kick": "O PROBLEMA",
+  "title": "Todo dia sai ferramenta “revolucionária”.",
+  "body": "E a maioria é paga, fechada ou some em um mês. Separei 5 de código aberto, grátis e com muita gente usando, cada uma pra um uso diferente.",
+  "carimbo": "PAGO?"
+ },
+ "items": [
+  {
+   "n": "01",
+   "repo": "github.com/interplains/Zero-Breach-Toolkit",
+   "kick": "Segurança · Windows, Mac, Linux",
+   "title": "Vê se tem spyware no seu celular ou PC.",
+   "body": "Procura sinais de espiões como Pegasus e Predator no PC, no Android e no backup do iPhone. Só lê os arquivos e não manda nada pra internet.",
+   "quote": "Clicou, checou.",
+   "chips": [
+    [
+     "Estrelas no GitHub",
+     "4,2 mil"
+    ],
+    [
+     "Idiomas",
+     "27"
+    ]
+   ]
+  },
+  {
+   "n": "02",
+   "repo": "github.com/wangzan101/Mika",
+   "kick": "Android · agente no celular",
+   "title": "Uma IA que mexe nos apps por você.",
+   "body": "Você fala o que quer e ela abre o app, toca e preenche numa tela escondida. Usa a sua chave de IA, sem servidor no meio.",
+   "img": "mika.jpg",
+   "fit": "cover",
+   "pos": "50% 35%",
+   "chips": [
+    [
+     "Estrelas no GitHub",
+     "4,5 mil"
+    ],
+    [
+     "Android",
+     "11+"
+    ]
+   ]
+  },
+  {
+   "n": "03",
+   "repo": "github.com/haydenschmitty/floorplan",
+   "kick": "Plugin · Claude Code e Codex",
+   "title": "Um mapa do seu app, em linguagem simples.",
+   "body": "A IA lê o código e desenha um mapa interativo: cada parte com nome fácil e cada ligação entre elas. Bom pra quem herda projeto.",
+   "img": "floorplan.png",
+   "fit": "cover",
+   "pos": "50% 40%",
+   "chips": [
+    [
+     "Estrelas no GitHub",
+     "1,9 mil"
+    ],
+    [
+     "Licença",
+     "MIT"
+    ]
+   ]
+  },
+  {
+   "n": "04",
+   "repo": "github.com/patch-gg/pixelfx",
+   "kick": "Jogos · efeitos em pixel art",
+   "title": "244 efeitos de pixel art prontos.",
+   "body": "Fogo, explosão, magia, chuva. Dá pra recolorir e exportar, e vem com uma skill do Claude Code que cria efeitos novos.",
+   "img": "pixelfx.png",
+   "fit": "cover",
+   "pos": "50% 50%",
+   "chips": [
+    [
+     "Efeitos",
+     "244"
+    ],
+    [
+     "Licença",
+     "MIT"
+    ]
+   ]
+  },
+  {
+   "n": "05",
+   "repo": "github.com/deepseek-ai/dsh-superagent-prototype",
+   "kick": "DeepSeek · protótipo de pesquisa",
+   "title": "O agente que a DeepSeek usa no dia a dia.",
+   "body": "Fica de olho num repositório e, quando alguém pede, abre a tarefa e responde com o código pronto. É protótipo: revise antes de usar.",
+   "code": [
+    "escuta o GitHub",
+    "abre a tarefa",
+    "trabalha sozinho",
+    "responde com PR"
+   ],
+   "chips": [
+    [
+     "Estrelas no GitHub",
+     "10,1 mil"
+    ],
+    [
+     "Licença",
+     "MIT"
+    ]
+   ]
+  }
+ ],
+ "cta": {
+  "key": "GRATIS",
+  "promise": "Os 5 links e por qual começar no seu caso."
+ }
+}

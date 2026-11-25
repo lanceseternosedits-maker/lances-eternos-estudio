@@ -1,0 +1,127 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "historia",
+ "chave": "CLIPE",
+ "tese": "O CLIPE DO WORD VIROU PIADA MUNDIAL · 5 DATAS · E HOJE O WORD VOLTOU COM IA",
+ "conceito": "Janela de Word antiga em 3D: um clipe de papel de blocos aparece, dá dicas e vai ficando pequeno até sumir; nº 1: o clipe dá lugar a um balão de IA moderno. Sem logo da Microsoft.",
+ "brinde": "linha do tempo do assistente do Word + curiosidades",
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Office_Assistant",
+  "https://en.wikipedia.org/wiki/Clippy"
+ ],
+ "prova_viral": "Fonte histórica: Wikipedia (Office Assistant): Clippit no Office 97, desligado por padrão no Office XP, removido no Office 2007. Gancho do dia: Copilot dentro do Word.",
+ "obs": "Conferir ano do Office XP (2001) e Office 2007 na fonte antes de produzir.",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "O CLIPE DO WORD VIROU PIADA MUNDIAL",
+   "fala": "O Word já teve um assistente que virou piada no mundo todo. Era um clipe de papel.",
+   "legenda": "O Word já teve um assistente que virou piada no mundo todo. Era um clipe de papel.",
+   "visual": "janela do Word antiga com um clipe de papel de blocos piscando no canto",
+   "itens": "clipe-do-word",
+   "etiqueta": [
+    "O CLIPE DO WORD VIROU PIADA MUNDIAL",
+    "5 DATAS DE 1997 A HOJE",
+    "E O Nº 1 É A IA DE VOLTA"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "1997",
+   "fala": "Cinco: 1997. O Office 97 lança um assistente animado dentro do Word.",
+   "legenda": "5º 1997: Office 97 lança o assistente animado",
+   "visual": "Office 97 lança o assistente animado",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Clippit",
+   "fala": "Quatro: o nome dele era Clippit, um clipe de papel.",
+   "legenda": "4º Clippit: o nome era Clippit",
+   "visual": "o nome era Clippit",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "A frase",
+   "fala": "Três: a frase famosa. Parece que você está escrevendo uma carta. Comenta CLIPE e manda pra quem usava Word em 2000.",
+   "legenda": "3º A frase: \"Parece que você está escrevendo uma carta\"",
+   "visual": "\"Parece que você está escrevendo uma carta\"",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "2001",
+   "fala": "Dois: 2001. O Office XP já vem com ele desligado.",
+   "legenda": "2º 2001: Office XP vem com ele desligado",
+   "visual": "Office XP vem com ele desligado",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Hoje",
+   "fala": "E o um: o Office 2007 tira ele de vez. Hoje o Word tem o Copilot.",
+   "legenda": "1º Hoje: sai em 2007; hoje o Word tem o Copilot",
+   "visual": "sai em 2007; hoje o Word tem o Copilot",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "d) pote enchendo",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "e) glitch RGB",
+  "mascote": "capa + pilotando",
+  "camera": "c) travelling lateral",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 86,
+ "duracao_estimada_s": 30.7
+}

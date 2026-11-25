@@ -1,0 +1,27 @@
+{
+ "data": "2026-11-17",
+ "horario": "12:00",
+ "horarios": {
+  "instagram": "2026-11-17 12:00",
+  "tiktok": "2026-11-17 12:00"
+ },
+ "categoria": "como_funciona",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "prompt de sistema",
+  "papel",
+  "IA"
+ ],
+ "fontes": [
+  "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts"
+ ],
+ "prova_viral": "Explicação consolidada: guia oficial de prompts da Anthropic (system prompts) (imprensa técnica, sem estrelas).",
+ "cta": "CHEFE",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 5,
+ "primeiro_comentario": "💬 Comenta CHEFE que eu te mando 5 papéis prontos.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 32%, abaixo do corte"
+}

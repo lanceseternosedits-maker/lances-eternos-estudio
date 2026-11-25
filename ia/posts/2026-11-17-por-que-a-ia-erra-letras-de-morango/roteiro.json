@@ -1,0 +1,127 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "como_funciona",
+ "chave": "MORANGO",
+ "tese": "POR QUE A IA ERRA QUANTOS R TEM EM MORANGO · 5 PASSOS",
+ "conceito": "Bancada de Lego: a palavra morango é montada com peças grandes; cada peça esconde letras; nº 1: as peças se abrem e as letras aparecem uma por uma. Sem logo da Lego.",
+ "brinde": "o truque + 3 pedidos que a IA acerta melhor",
+ "fontes": [
+  "https://platform.openai.com/tokenizer",
+  "https://en.wikipedia.org/wiki/Large_language_model"
+ ],
+ "prova_viral": "Explicação consolidada: OpenAI Tokenizer (texto vira tokens) e Wikipedia (LLM) (imprensa técnica, sem estrelas).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "POR QUE A IA ERRA LETRAS",
+   "fala": "Por que a IA erra quantos erres tem na palavra morango? Cinco passos.",
+   "legenda": "Por que a IA erra quantos erres tem na palavra morango? Cinco passos.",
+   "visual": "bancada com peças de Lego formando a palavra morango",
+   "itens": "por-que-a-ia-erra-letras-de-morango",
+   "etiqueta": [
+    "POR QUE A IA ERRA LETRAS",
+    "5 PASSOS EM 30 SEGUNDOS",
+    "E O Nº 1 É O TRUQUE"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Tokens",
+   "fala": "Cinco: a IA não lê letra. Ela lê pedaços de palavra, chamados tokens.",
+   "legenda": "5º Tokens: a IA lê pedaços de palavra (tokens)",
+   "visual": "a IA lê pedaços de palavra (tokens)",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Pedaços",
+   "fala": "Quatro: morango pode virar dois ou três pedaços, e ela não vê o erre dentro.",
+   "legenda": "4º Pedaços: morango vira pedaços, sem ver as letras",
+   "visual": "morango vira pedaços, sem ver as letras",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Lego",
+   "fala": "Três: é como ler só as peças de Lego, sem ver as letrinhas de cada peça. Comenta MORANGO que eu te mando o truque, e manda pra um amigo.",
+   "legenda": "3º Lego: como ler só as peças de Lego",
+   "visual": "como ler só as peças de Lego",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Efeito",
+   "fala": "Dois: por isso ela erra contar letra, mas acerta o sentido.",
+   "legenda": "2º Efeito: erra contar letra, acerta o sentido",
+   "visual": "erra contar letra, acerta o sentido",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Truque",
+   "fala": "E o um, o truque: peça pra ela escrever letra por letra e só depois contar.",
+   "legenda": "1º Truque: peça pra escrever letra por letra",
+   "visual": "peça pra escrever letra por letra",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "f) termômetro",
+  "legenda": "a) bloco de 4 palavras",
+  "transicao": "b) whip pan",
+  "mascote": "crachá + carimbando",
+  "camera": "d) órbita",
+  "fechamento": "e) página de caderno",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 97,
+ "duracao_estimada_s": 34.6
+}

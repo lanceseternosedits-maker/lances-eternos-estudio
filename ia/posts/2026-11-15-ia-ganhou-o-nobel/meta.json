@@ -1,0 +1,96 @@
+{
+ "data": "2026-11-15",
+ "horario": "17:00",
+ "pilar": "reel",
+ "categoria": "historia",
+ "formato": "palco",
+ "temas": [
+  "ia-ganhou-o-nobel"
+ ],
+ "fontes": [
+  "https://www.nobelprize.org/prizes/chemistry/2024/press-release/",
+  "https://techcrunch.com/2024/10/09/deepminds-demis-hassabis-and-john-jumper-scoop-nobel-prize-in-chemistry-for-alphafold",
+  "https://alphafold.ebi.ac.uk/"
+ ],
+ "prova_viral": "Nobel de Química de 09/10/2024 (fonte oficial nobelprize.org) com cobertura mundial; 'IA ganhou Nobel' é gancho forte e positivo.",
+ "cta": "NOBEL",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-15 17:00",
+  "tiktok": "2026-11-15 17:00"
+ },
+ "checagem": {
+  "em": "2026-11-10 11:07",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "31.4 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.90 palavras/s (91 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-13.9 LUFS, pico -1.1 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "3 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "801 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "NOBEL",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ },
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "(sem contador: história)",
+  "legenda": "c) karaokê com marca-texto (trocado: a opção (a) está gasta)",
+  "transicao": "b) chicote de câmera (trocado: a opção (a) está gasta)",
+  "camera": "c) travelling lateral",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "c) Fraunces",
+  "som": "trilha 03 + vidro de laboratório",
+  "mascote": "jaleco e óculos de laboratório; ação principal: dobrar um colar de contas até virar proteína"
+ },
+ "obs_producao": "Produzido em 10/11 no motor da cena_contagem, módulo itens/ia-ganhou-o-nobel.js; voz Gemini (Puck), checar.py e qa_video.sh ok; capa e story gerados.",
+ "derrubado": "virou rascunho no Metricool em 12/11 (chance abaixo do corte de 55%)"
+}

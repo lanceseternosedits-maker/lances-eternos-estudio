@@ -1,0 +1,7 @@
+Aqui está! ❄️
+
+📄 Relatório Lighthill (1973): http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/contents.htm
+📄 Proposta de Dartmouth (1955): http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf
+📄 AlexNet (2012): https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html
+
+Curiosidade: a AlexNet foi treinada em 2 placas de vídeo de videogame (GTX 580) e venceu a competição ImageNet com folga.

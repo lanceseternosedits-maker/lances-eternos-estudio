@@ -1,0 +1,18 @@
+5 skills pra editar vídeo com o Claude estão bombando no GitHub. E a nº 1 é bizarra. 🎬
+
+5º VVV: troca as fotos e o texto, e o mesmo modelo vira um vídeo novo
+4º Rossark Motion: seu desenho respira, pisca e se mexe
+3º Video Effects: 51 efeitos com um comando (/effects)
+2º editonny: corta as pausas, põe legenda e arruma o áudio
+1º rea-video: descobre, cena por cena, como um vídeo foi feito. Até se foi IA
+
+Todas rodam no Claude Code (vem nos planos pagos do Claude).
+
+💬 Comenta EDITA e me segue que eu te mando o link das 5.
+
+Qual você usaria no seu próximo vídeo? 👇
+
+Fonte: estrelas no GitHub de cada projeto (lidas em 05/11).
+Animação e voz feitas com IA. Perfil independente, sem ligação com a Anthropic.
+
+#edicaodevideo #claude #inteligenciaartificial #criadordeconteudo #ia

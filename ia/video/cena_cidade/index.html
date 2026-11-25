@@ -1,0 +1,116 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:SG;src:url(../cena_contagem/f/space-grotesk-latin-700-normal.woff2)}
+@font-face{font-family:AB;src:url(../cena_contagem/f/archivo-black-latin-400-normal.woff2)}
+@font-face{font-family:FR;src:url(../cena_contagem/f/fraunces-latin-700-normal.woff2)}
+*{margin:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+canvas{position:absolute;left:0;top:0;width:1080px;height:1920px}
+</style></head><body><canvas id="g" width="1080" height="1920"></canvas><canvas id="u" width="1080" height="1920"></canvas>
+<script type="module">
+// Formato "cidade" (Referência 7, @lucassena, 09/11): cidade 3D de blocos com bonequinhos andando (instancing), trilha de 5 etapas
+// no topo, número grande da etapa, contador com selo "ilustrativo", etiqueta-alfinete presa num objeto, legenda karaokê
+// (palavra atual branca, próximas cinza) em pílula escura, cada etapa muda o mundo, frase final em 2 tempos e loop (o fim volta ao 1º quadro).
+// Motor comum + módulo por vídeo em itens/<nome>.js (paleta, objetos, câmera e mudanças de cada etapa): ?m=<nome>.
+// Interface igual à cena_quarto: setTL(timeline) e setT(t); window.eventos() devolve os efeitos sonoros para o mix_eventos.py.
+import * as THREE from '../cena_trend/three.module.min.js';
+const Q = new URLSearchParams(location.search), NOME = Q.get('m') || 'em-qual-nivel-de-ia';
+for (const f of ['700 60px SG', '400 60px AB', '700 60px FR']) await document.fonts.load(f);
+const R = new THREE.WebGLRenderer({ canvas: document.getElementById('g'), antialias: true, preserveDrawingBuffer: true });
+R.setSize(1080, 1920, false); R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap; R.outputColorSpace = THREE.SRGBColorSpace;
+const S = new THREE.Scene(); const cam = new THREE.PerspectiveCamera(38, 1080 / 1920, .1, 400);
+const hemi = new THREE.HemisphereLight(0xffffff, 0xb8a98f, 1.1); S.add(hemi);
+const sol = new THREE.DirectionalLight(0xfff2dd, 2.2); sol.position.set(18, 30, 14); sol.castShadow = true; sol.shadow.mapSize.set(2048, 2048);
+Object.assign(sol.shadow.camera, { left: -30, right: 30, top: 30, bottom: -30, near: 1, far: 90 }); S.add(sol, sol.target);
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)), lin = (t, a, b) => cl((t - a) / (b - a)), eo = x => 1 - Math.pow(1 - cl(x), 3);
+const eio = x => { x = cl(x); return x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; }, back = x => { x = cl(x); const c = 1.7; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+let sd = 7; const rnd = () => (sd = (sd * 16807) % 2147483647) / 2147483647;
+const M = (c, o = {}) => new THREE.MeshStandardMaterial({ color: c, roughness: .7, ...o }), E = (c, k = 2) => new THREE.MeshStandardMaterial({ color: c, emissive: c, emissiveIntensity: k, roughness: .4 });
+function mesh(g, m, par = S, x = 0, y = 0, z = 0) { const o = new THREE.Mesh(g, m); o.position.set(x, y, z); o.castShadow = o.receiveShadow = true; par.add(o); return o; }
+const box = (w, h, d, m, par, x, y, z) => mesh(new THREE.BoxGeometry(w, h, d), m, par, x, y, z);
+function ctex(w, h, draw) { const c = document.createElement('canvas'); c.width = w; c.height = h; const g = c.getContext('2d'); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.draw = (...a) => { draw(g, w, h, ...a); t.needsUpdate = true; }; t.draw(); return t; }
+const V = (x, y, z) => new THREE.Vector3(x, y, z);
+
+// ---------- cidade de blocos (quadras 4×4 em volta de uma praça central) ----------
+const CID = { predios: [], ruas: [], pessoas: null, chao: null, arvores: [] };
+function cidade(P) {
+  const ch = mesh(new THREE.PlaneGeometry(160, 160), M(P.chao, { roughness: 1 })); ch.rotation.x = -Math.PI / 2; CID.chao = ch;
+  const rua = M(P.rua, { roughness: .95 }); for (const k of [-9, 0, 9]) { const a = box(60, .02, 2.4, rua, S, 0, .01, k); const b = box(2.4, .02, 60, rua, S, k, .011, 0); CID.ruas.push(a, b); }
+  const geo = new THREE.BoxGeometry(1, 1, 1), N = 120, IM = new THREE.InstancedMesh(geo, M('#ffffff', { roughness: .8 }), N); IM.castShadow = IM.receiveShadow = true;
+  const m4 = new THREE.Matrix4(), col = new THREE.Color(); let n = 0;
+  for (let qx = -2; qx <= 1; qx++) for (let qz = -2; qz <= 1; qz++) { const cx = qx * 9 + 4.5, cz = qz * 9 + 4.5; if (Math.abs(cx) < 6 && Math.abs(cz) < 6) continue;   // praça central livre
+    for (let i = 0; i < 6 && n < N; i++) { const w = 1.6 + rnd() * 1.6, d = 1.6 + rnd() * 1.6, h = 1.2 + rnd() * (P.alto || 4); const x = cx + (rnd() - .5) * 4.2, z = cz + (rnd() - .5) * 4.2;
+      m4.compose(V(x, h / 2, z), new THREE.Quaternion(), V(w, h, d)); IM.setMatrixAt(n, m4); IM.setColorAt(n, col.set(P.predios[n % P.predios.length])); CID.predios.push({ x, z, h, w, d }); n++; } }
+  IM.count = n; S.add(IM); CID.im = IM;
+  const tr = new THREE.InstancedMesh(new THREE.ConeGeometry(.45, 1.3, 7), M(P.arvore || '#4caf6a'), 40); tr.castShadow = true; let k = 0;
+  for (let i = 0; i < 40; i++) { const lado = i % 4, s = -26 + (i >> 2) * 5.5, off = 1.9; const p = [[s, -9 - off], [s, 9 + off], [-9 - off, s], [9 + off, s]][lado]; if (Math.abs(p[0]) < 7 && Math.abs(p[1]) < 7) continue;
+    m4.compose(V(p[0], .9, p[1]), new THREE.Quaternion(), V(1, 1, 1)); tr.setMatrixAt(k++, m4); } tr.count = k; S.add(tr); CID.tr = tr;
+  // bonequinhos low-poly andando pelas ruas (instancing: corpo + cabeça)
+  const NP = 70, corpo = new THREE.InstancedMesh(new THREE.BoxGeometry(.32, .5, .22), M('#ffffff'), NP), cab = new THREE.InstancedMesh(new THREE.BoxGeometry(.26, .26, .26), M(P.pele || '#f2c9a0'), NP);
+  corpo.castShadow = cab.castShadow = true; S.add(corpo, cab); const ps = [];
+  for (let i = 0; i < NP; i++) { const eixo = i % 2, linha = [-9, 0, 9][i % 3] + (rnd() - .5) * 1.4, v = (.6 + rnd() * .8) * (rnd() < .5 ? -1 : 1), f = rnd() * 60; ps.push({ eixo, linha, v, f, c: P.roupas[i % P.roupas.length] }); corpo.setColorAt(i, col.set(ps[i].c)); }
+  CID.pessoas = { corpo, cab, ps, n: NP };
+}
+const mq = new THREE.Matrix4(), qq = new THREE.Quaternion();
+function andam(t, ativos = 1, foco = null) { const { corpo, cab, ps, n } = CID.pessoas; const vis = Math.round(n * cl(ativos));
+  for (let i = 0; i < n; i++) { const p = ps[i]; let s = ((p.f + t * p.v) % 56 + 56) % 56 - 28; let x = p.eixo ? s : p.linha, z = p.eixo ? p.linha : s;
+    if (foco && i < foco.n) { const k = foco.k; const a = i / foco.n * 6.283 + t * .3; x = x * (1 - k) + (foco.x + Math.cos(a) * foco.r * (1 + (i % 3) * .3)) * k; z = z * (1 - k) + (foco.z + Math.sin(a) * foco.r * (1 + (i % 3) * .3)) * k; }
+    const sc = i < vis ? 1 : .0001, bob = Math.abs(Math.sin(t * 8 + i)) * .06; qq.setFromAxisAngle(V(0, 1, 0), p.eixo ? (p.v > 0 ? Math.PI / 2 : -Math.PI / 2) : (p.v > 0 ? 0 : Math.PI));
+    mq.compose(V(x, .3 + bob, z), qq, V(sc, sc, sc)); corpo.setMatrixAt(i, mq); mq.compose(V(x, .7 + bob, z), qq, V(sc, sc, sc)); cab.setMatrixAt(i, mq); }
+  corpo.instanceMatrix.needsUpdate = cab.instanceMatrix.needsUpdate = true; }
+
+const K = { THREE, S, cam, R, hemi, sol, M, E, mesh, box, ctex, V, lin, eo, eio, back, cl, rnd, CID, andam, cidade };
+const MOD = (await import('./itens/' + NOME + '.js')).default(K);
+const P = MOD.paleta;
+
+// ---------- camada 2D ----------
+const U = document.getElementById('u'), X = U.getContext('2d'); const FT = P.fonte || 'SG', FW = FT === 'AB' ? 400 : 700;
+const fnt = (s) => `${FW} ${s}px ${FT}`;
+const pil = (x, y, w, h, r, c) => { X.fillStyle = c; X.beginPath(); X.roundRect(x, y, w, h, r); X.fill(); };
+function cabe(txt, f, mx) { while (f > 20) { X.font = fnt(f); if (X.measureText(txt).width <= mx) break; f -= 2; } return f; }
+function trilha(et, t) { // 5 etapas no topo, a atual acesa (entre y=290 e 360, a 130 px da direita)
+  const L = MOD.etapas, x0 = 60, W = 890, w = (W - 4 * 10) / 5;
+  L.forEach((nm, i) => { const on = i + 1 === et, feito = i + 1 < et, x = x0 + i * (w + 10); pil(x, 292, w, 64, 14, on ? P.destaque : feito ? P.feito : 'rgba(20,20,28,.55)');
+    X.fillStyle = on ? P.tintaDestaque || '#111' : '#fff'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.font = fnt(cabe(nm, 22, w - 14)); X.fillText(nm, x + w / 2, 312);
+    X.font = fnt(18); X.globalAlpha = .8; X.fillText(String(i + 1), x + w / 2, 340); X.globalAlpha = 1; if (on) { X.strokeStyle = '#fff'; X.lineWidth = 4; X.beginPath(); X.roundRect(x, 292, w, 64, 14); X.stroke(); } }); }
+function contador(txt, rot, t) { const y = 392; X.font = fnt(44); const w = Math.max(X.measureText(txt).width, 200) + 60; pil(60, y, w, 84, 20, 'rgba(20,20,28,.78)');
+  X.fillStyle = '#fff'; X.textAlign = 'left'; X.textBaseline = 'middle'; X.fillText(txt, 90, y + 36); X.font = fnt(18); X.fillStyle = 'rgba(255,255,255,.7)'; X.fillText(rot, 90, y + 70);
+  pil(60 + w + 10, y + 24, 140, 36, 18, '#ffffff'); X.fillStyle = '#333'; X.font = fnt(18); X.textAlign = 'center'; X.fillText('ILUSTRATIVO', 60 + w + 80, y + 43); }
+function numero(et, lt) { if (lt > 1.6) return; const a = lt < .25 ? back(lt / .25) : 1, s = lt > 1.2 ? 1 - (lt - 1.2) / .4 : 1; X.save(); X.globalAlpha = cl(s); X.translate(820, 470); X.scale(a, a);
+  X.font = fnt(170); X.textAlign = 'center'; X.textBaseline = 'middle'; X.lineWidth = 16; X.strokeStyle = 'rgba(0,0,0,.55)'; X.strokeText(String(et), 0, 0); X.fillStyle = P.destaque; X.fillText(String(et), 0, 0); X.restore(); }
+const pv = new THREE.Vector3();
+function alfinete(obj, txt, lt) { if (!obj || !txt) return; obj.getWorldPosition(pv); pv.y += (obj.userData.alto || 1.2); pv.project(cam); let x = (pv.x * .5 + .5) * 1080, y = (-pv.y * .5 + .5) * 1920;
+  if (pv.z > 1) return; x = cl(x, 160, 800); y = cl(y, 620, 1300); const a = eo(lin(lt, .2, .5)); if (a <= 0) return; X.save(); X.globalAlpha = a;
+  X.font = fnt(34); const w = X.measureText(txt).width + 44; pil(x - w / 2, y - 110, w, 62, 31, '#fff'); X.fillStyle = '#111'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(txt, x, y - 78);
+  X.strokeStyle = '#fff'; X.lineWidth = 5; X.beginPath(); X.moveTo(x, y - 48); X.lineTo(x, y - 6); X.stroke(); X.fillStyle = P.destaque; X.beginPath(); X.arc(x, y, 10, 0, 7); X.fill(); X.restore(); }
+function etiqueta(et, lt) { const L = et; const y0 = 640; L.forEach((txt, i) => { const a = i === 0 ? 1 : eo(lin(lt, .15 + i * .2, .45 + i * .2)), f = i === 0 ? 66 : 46; X.font = fnt(cabe(txt, f, 820)); const w = X.measureText(txt).width + 50, h = i === 0 ? 96 : 72, y = y0 + (i === 0 ? 0 : 108 + (i - 1) * 84);
+  X.globalAlpha = a; pil(505 - w / 2, y, w, h, 18, i === 0 ? 'rgba(20,20,28,.88)' : '#fff'); X.fillStyle = i === 0 ? '#fff' : i === 1 ? P.textoDestaque || P.destaque : '#222'; X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(txt, 505, y + h / 2 + 2); X.globalAlpha = 1; }); }
+function cartao(linhas, lt, y = 700) { const a = back(lin(lt, 0, .35)); X.save(); X.translate(505, y); X.scale(a, a); X.font = fnt(46); const w = 820, h = 90 + linhas.length * 74;
+  pil(-w / 2, -h / 2, w, h, 30, '#fff'); X.strokeStyle = '#111'; X.lineWidth = 5; X.beginPath(); X.roundRect(-w / 2, -h / 2, w, h, 30); X.stroke();
+  linhas.forEach(([t, c], i) => { X.fillStyle = c || '#111'; X.font = fnt(cabe(t, 46, w - 60)); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(t, 0, -h / 2 + 82 + i * 74); }); X.restore(); }
+function legenda(seg, t) { // karaokê: bloco de até 5 palavras, a atual branca, as próximas cinza, numa pílula escura
+  const ws = seg.palavras || []; const ch = []; let cur = []; for (const w of ws) { cur.push(w); if (/[.,:?!]$/.test(w.w) || cur.length >= 5) { ch.push(cur); cur = []; } } if (cur.length) ch.push(cur);
+  let b = ch.findIndex(c => t < c[c.length - 1].t1 + .05); if (b < 0) b = ch.length - 1; const c = ch[b]; if (!c) return;
+  let f = 58; X.font = fnt(f); const tot = () => c.reduce((a, w) => a + X.measureText(w.w + ' ').width, 0); while (tot() > 820 && f > 34) { f -= 2; X.font = fnt(f); }
+  const W = tot(), y = 1405; pil(505 - W / 2 - 34, y - f * .9, W + 56, f * 1.8, f * .9, 'rgba(14,14,20,.86)'); let x = 505 - W / 2;
+  X.textAlign = 'left'; X.textBaseline = 'middle'; for (const w of c) { const on = t >= w.t0 - .03; X.fillStyle = on ? '#fff' : 'rgba(255,255,255,.38)'; if (on && t < w.t1 + .1) { X.fillStyle = P.palavra || '#fff'; } X.fillText(w.w, x, y + 3); x += X.measureText(w.w + ' ').width; } }
+
+// ---------- linha do tempo ----------
+let TL = null; window.setTL = t => { TL = t; };
+const ETAPA = { gancho: 0, e1: 1, e2: 2, meio: 2, e3: 3, e4: 4, e5: 5, cta: 5 };
+window.eventos = () => { const ev = []; TL.segmentos.forEach(s => { if (/^e\d/.test(s.cena)) { ev.push({ t: s.t0, som: 'whoosh' }); ev.push({ t: s.t0 + .25, som: 'pop' }); } if (s.cena === 'meio') ev.push({ t: s.t0 + .1, som: 'ding' }); }); ev.push({ t: TL.total - .6, som: 'whoosh' }); return ev; };
+cidade(P); if (MOD.monta) MOD.monta();
+window.setT = t => {
+  const SG = TL.segmentos; let k = SG.findIndex(s => t < s.fim); if (k < 0) k = SG.length - 1; const s = SG[k], lt = t - s.t0, d = s.fim - s.t0, cena = s.cena, et = ETAPA[cena] ?? 0;
+  // loop: nos últimos 0,6 s o mundo volta ao estado do 1º quadro (câmera e etapa 0), para o fim emendar no começo
+  const LOOP = .6, fimT = TL.total, kl = lin(t, fimT - LOOP, fimT);
+  MOD.mundo(et, cena, lt, d, t, kl); andam(t, 1, MOD.foco ? MOD.foco(et, lt, t) : null);
+  const c0 = MOD.camera(0, 'gancho', 0, 1, 0), c1 = MOD.camera(et, cena, lt, d, t); const p = c1[0].clone().lerp(c0[0], eio(kl)), l = c1[1].clone().lerp(c0[1], eio(kl));
+  cam.position.copy(p); cam.lookAt(l); if (c1[2]) cam.rotateZ(c1[2] * (1 - kl)); R.render(S, cam);
+  X.clearRect(0, 0, 1080, 1920); const vg = X.createLinearGradient(0, 0, 0, 1920); vg.addColorStop(0, 'rgba(0,0,0,.18)'); vg.addColorStop(.25, 'rgba(0,0,0,0)'); vg.addColorStop(.7, 'rgba(0,0,0,0)'); vg.addColorStop(1, 'rgba(0,0,0,.25)'); X.fillStyle = vg; X.fillRect(0, 0, 1080, 1920);
+  if (cena === 'gancho' || kl > .5) etiqueta(SG[0].etiqueta, cena === 'gancho' ? lt : 9);
+  else { trilha(et, t); contador(MOD.contador(et, cena, lt, t), MOD.contadorRot, t); if (/^e\d/.test(cena)) { numero(et, lt); const al = MOD.alfinete(et); if (al) alfinete(al[0], al[1], lt); } }
+  if (cena === 'meio') cartao([['❤ Deixa o like', '#111'], ['➜ Manda pro amigo', '#111'], ['💬 Comenta ' + MOD.chave, P.textoDestaque || P.destaque]], lt);
+  if (cena === 'cta' && kl < .5) cartao(MOD.fim.map((x, i) => [x, i === MOD.fim.length - 1 ? P.textoDestaque || P.destaque : '#111']), lt, 760);
+  if (kl < .5) legenda(s, t);
+};
+window.pronto = true;
+</script></body></html>

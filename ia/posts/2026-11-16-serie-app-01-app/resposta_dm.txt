@@ -1,0 +1,11 @@
+Opa! Aqui está o mapa da série 🧩
+
+As 15 peças de um app de verdade:
+APP → DEPLOY → DOMÍNIO → BANCO DE DADOS → LOGIN → SENHA → 2FA → PAGAMENTO → WEBHOOK → E-MAIL → API → IA NO APP → BACKUP → ESCALA → MONITORAMENTO
+
+Você está na peça 1: APP.
+
+Prompt pra pedir pro Claude ou ChatGPT:
+"Faz um app web de agendamento simples: o cliente escolhe dia e horário, e eu vejo a lista de agendamentos. Me explica passo a passo como rodar no meu computador."
+
+Amanhã sai a próxima peça. Me segue pra não perder. 💜

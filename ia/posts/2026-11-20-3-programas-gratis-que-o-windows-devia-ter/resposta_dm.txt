@@ -1,0 +1,6 @@
+Tá aqui 👇 os links dos 3:
+3º oink: https://github.com/oinkvm/oink
+2º gputaskman: https://github.com/shanselman/gputaskman
+1º misterdownloadmanager: https://github.com/anefzaoui/misterdownloadmanager
+
+⚠️ Projetos independentes e abertos, sem ligação com a Microsoft: confira no README o que cada um exige.

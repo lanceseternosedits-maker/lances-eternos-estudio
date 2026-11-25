@@ -1,0 +1,11 @@
+Opa! Aqui está o mapa da série 🧩
+
+As 15 peças de um app de verdade:
+APP → DEPLOY → DOMÍNIO → BANCO DE DADOS → LOGIN → SENHA → 2FA → PAGAMENTO → WEBHOOK → E-MAIL → API → IA NO APP → BACKUP → ESCALA → MONITORAMENTO
+
+Você está na peça 3: DOMÍNIO.
+
+Prompt pra pedir pro Claude ou ChatGPT:
+"Comprei o domínio meuapp.com. Me explica passo a passo como apontar ele para o meu app que já está no ar, e quanto tempo demora pra funcionar."
+
+Amanhã sai a próxima peça. Me segue pra não perder. 💜

@@ -1,0 +1,9 @@
+{ "slug": "tutorial-projetos-claude", "formato": "tutorial",
+  "cover": { "title_html": "Pare de repetir contexto<br><span class=\"g\">pro Claude.</span>", "sub": "Como criar um Projeto em 5 passos (dá no plano grátis)", "imgs": [] },
+  "items": [
+    { "n": "01", "repo": "support.claude.com", "kick": "Passo 1 · criar", "title": "Abra os Projetos e crie um novo.", "body": "Em claude.ai/projects (ou “Projetos” na barra lateral), clique em “Novo projeto” e dê um nome e uma descrição.", "quote": "claude.ai/projects", "chips": [["Plano grátis", "até 5 projetos"]] },
+    { "n": "02", "repo": "support.claude.com", "kick": "Passo 2 · conhecimento", "title": "Suba o que ele precisa saber.", "body": "No conhecimento do projeto, do lado direito, use o “+” para adicionar PDFs, textos e arquivos. Tudo vale para todos os chats do projeto.", "quote": "Suba uma vez. Use em todo chat.", "chips": [["Onde", "lado direito"]] },
+    { "n": "03", "repo": "support.claude.com", "kick": "Passo 3 · instruções", "title": "Diga como ele deve trabalhar.", "body": "Clique em “Definir instruções do projeto”, escreva o papel, o tom e o formato e salve.", "prompt": "Você é meu revisor de TCC. Responda em português, aponte erros de ABNT e sugira melhorias em tópicos curtos.", "chips": [["Vale para", "todos os chats"]] },
+    { "n": "04", "repo": "support.claude.com", "kick": "Passo 4 · conversar", "title": "Converse dentro do projeto.", "body": "Todo chat novo já começa sabendo o conteúdo e as instruções. Um chat não lê outro: o que for importante, coloque no conhecimento.", "quote": "Cada chat começa já sabendo tudo.", "chips": [["Dica", "salve o essencial no conhecimento"]] }
+  ],
+  "cta": { "key": "PROJETO", "promise": "5 ideias de Projeto prontas, com as instruções pra copiar e colar." } }

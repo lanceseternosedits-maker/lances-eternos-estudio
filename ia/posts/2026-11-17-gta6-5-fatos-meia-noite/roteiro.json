@@ -1,0 +1,128 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "GTA6",
+ "tese": "GTA 6 SAI QUINTA À MEIA-NOITE · 5 FATOS DESSA SEMANA",
+ "conceito": "Quarto escuro de gamer: console de blocos e um relógio digital gigante 23:59 → 00:00; cada fato é uma peça que encaixa no console; nº 1: barra de download que não cabe na tela. Sem logos ou arte da Rockstar.",
+ "brinde": "checklist \"antes da meia-noite do GTA 6\" + links das fontes",
+ "fontes": [
+  "https://www.terra.com.br/byte/rockstar-define-horario-de-lancamento-de-gta-6-no-brasil,9c7a2350108c3b419e3b9195af134c642d7ssmyk.html",
+  "https://www.terra.com.br/byte/rockstar-finaliza-desenvolvimento-de-gta-6-dias-antes-do-lancamento,16a5a31a0e5fdb2ac7ee3db53d4ddcdc0qnh4ych.html",
+  "https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+ ],
+ "prova_viral": "Notícia do dia: Terra (13/11/2026) horário e pré-carga; Terra (09/11/2026) Take-Two confirma jogo pronto; Rockstar confirma 19/11/2026 (imprensa, sem estrelas).",
+ "obs": "Releia as fontes no dia (data/hora podem mudar). Sem prometer nada sobre PC.",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "GTA 6 SAI QUINTA À MEIA-NOITE",
+   "fala": "O GTA 6 sai quinta, à meia-noite. Cinco fatos que você precisa saber antes.",
+   "legenda": "O GTA 6 sai quinta, à meia-noite. Cinco fatos que você precisa saber antes.",
+   "visual": "console de blocos com relógio marcando 23:59 e uma barra de download enchendo",
+   "itens": "gta6-5-fatos-meia-noite",
+   "etiqueta": [
+    "GTA 6 SAI QUINTA À MEIA-NOITE",
+    "5 FATOS CONFIRMADOS ESSA SEMANA",
+    "E O Nº 1 É O TAMANHO"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "PC",
+   "fala": "Quinto: no PC não tem data. Por enquanto, só PS5 e Xbox Series.",
+   "legenda": "5º PC: só PS5 e Xbox Series; PC sem data",
+   "visual": "só PS5 e Xbox Series; PC sem data",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Pré-carga",
+   "fala": "Quarto: a pré-carga está liberada desde dez de novembro.",
+   "legenda": "4º Pré-carga: pré-carga liberada desde 10/11",
+   "visual": "pré-carga liberada desde 10/11",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Versão final",
+   "fala": "Terceiro: a Take-Two confirmou que o desenvolvimento acabou. O jogo está pronto. Comenta GTA6 e manda pra quem não dorme até quinta.",
+   "legenda": "3º Versão final: desenvolvimento concluído, segundo a Take-Two",
+   "visual": "desenvolvimento concluído, segundo a Take-Two",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Hora",
+   "fala": "Segundo: no Brasil, abre à meia-noite de quinta, horário de Brasília.",
+   "legenda": "2º Hora: 0h de quinta (19/11), horário de Brasília",
+   "visual": "0h de quinta (19/11), horário de Brasília",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Tamanho",
+   "fala": "E o um: o download antecipado pode pedir até duzentos e doze gigas.",
+   "legenda": "1º Tamanho: download antecipado de até 212 GB",
+   "visual": "download antecipado de até 212 GB",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "d) split-flap",
+  "contador": "f) termômetro",
+  "legenda": "a) bloco de 4 palavras",
+  "transicao": "b) whip pan",
+  "mascote": "mochila + lendo",
+  "camera": "d) órbita",
+  "fechamento": "e) página de caderno",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 82,
+ "duracao_estimada_s": 29.3
+}

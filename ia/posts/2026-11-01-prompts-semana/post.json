@@ -1,0 +1,9 @@
+{ "slug": "prompts-semana", "formato": "tutorial",
+  "cover": { "title_html": "Organize sua semana<br><span class=\"g\">em 4 prompts.</span>", "sub": "Funciona no Claude, no ChatGPT e no Gemini", "imgs": [] },
+  "items": [
+    { "n": "01", "repo": "IA em 60s", "kick": "Passo 1 · despejar", "title": "Tire tudo da cabeça.", "body": "Cole sua lista bagunçada, do jeito que estiver. A IA organiza por você.", "prompt": "Vou colar tudo o que tenho pra fazer esta semana. Agrupe por área (trabalho, estudo, casa) e remova o que estiver repetido: [cole aqui]", "chips": [["Tempo", "2 min"]] },
+    { "n": "02", "repo": "IA em 60s", "kick": "Passo 2 · priorizar", "title": "Descubra o que importa de verdade.", "body": "Peça para separar o urgente do importante, com o motivo de cada escolha.", "prompt": "Classifique cada tarefa em: urgente e importante, importante, urgente, ou pode cortar. Explique em uma linha cada decisão.", "chips": [["Método", "matriz de Eisenhower"]] },
+    { "n": "03", "repo": "IA em 60s", "kick": "Passo 3 · agendar", "title": "Transforme em agenda.", "body": "Diga seus horários livres e deixe a IA encaixar as tarefas com folga.", "prompt": "Tenho livre: [seus horários]. Monte uma agenda de segunda a sexta com as tarefas prioritárias, blocos de no máximo 90 min e 20% de folga.", "chips": [["Dica", "deixe folga"]] },
+    { "n": "04", "repo": "IA em 60s", "kick": "Passo 4 · revisar", "title": "Feche a semana em 5 minutos.", "body": "Na sexta, peça um balanço e já comece a próxima semana com o que ficou pendente.", "prompt": "Isto foi o que eu fiz e o que ficou pendente: [cole]. O que funcionou, o que travou e quais 3 tarefas devem abrir a próxima semana?", "chips": [["Quando", "sexta-feira"]] }
+  ],
+  "cta": { "key": "AGENDA", "promise": "Os 4 prompts em texto, prontos pra copiar." } }

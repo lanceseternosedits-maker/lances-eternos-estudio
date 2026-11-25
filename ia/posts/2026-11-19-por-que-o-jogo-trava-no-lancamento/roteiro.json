@@ -1,0 +1,127 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "como_funciona",
+ "chave": "SERVIDOR",
+ "tese": "POR QUE TODO JOGO TRAVA NO DIA DO LANÇAMENTO · 5 PASSOS",
+ "conceito": "Lanchonete lotada de jogadores com controles; o balcão é o servidor; nº 1: um cliente chega com o pedido já pronto (jogo baixado) e passa direto. Sem logos.",
+ "brinde": "checklist pra jogar no dia do lançamento sem dor de cabeça",
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Server_(computing)",
+  "https://www.terra.com.br/byte/rockstar-define-horario-de-lancamento-de-gta-6-no-brasil,9c7a2350108c3b419e3b9195af134c642d7ssmyk.html"
+ ],
+ "prova_viral": "Explicação consolidada de servidores de jogo (Wikipedia) + Terra (13/11/2026) sobre liberação por região no lançamento do GTA 6 (imprensa, sem estrelas).",
+ "obs": "Só publicar se o lançamento do GTA 6 em 19/11 se mantiver; senão trocar o gancho por \"lançamento de jogo\".",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "POR QUE O JOGO TRAVA NO LANÇAMENTO",
+   "fala": "O GTA 6 abriu à meia-noite. Por que todo jogo trava no dia do lançamento? Cinco passos.",
+   "legenda": "O GTA 6 abriu à meia-noite. Por que todo jogo trava no dia do lançamento? Cinco passos.",
+   "visual": "lanchonete lotada de jogadores com controles na mão",
+   "itens": "por-que-o-jogo-trava-no-lancamento",
+   "etiqueta": [
+    "POR QUE O JOGO TRAVA NO LANÇAMENTO",
+    "5 PASSOS EM 30 SEGUNDOS",
+    "E O Nº 1 É O TRUQUE"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "A fila",
+   "fala": "Cinco: milhões de pessoas tentam entrar no mesmo segundo.",
+   "legenda": "5º A fila: milhões tentam entrar ao mesmo tempo",
+   "visual": "milhões tentam entrar ao mesmo tempo",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "O servidor",
+   "fala": "Quatro: cada jogador pede dados ao servidor, como numa lanchonete lotada.",
+   "legenda": "4º O servidor: cada jogador pede dados ao servidor",
+   "visual": "cada jogador pede dados ao servidor",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "O limite",
+   "fala": "Três: o servidor tem um limite de gente, como o balcão tem de atendentes. Comenta SERVIDOR que eu te mando o checklist, e manda pra um amigo gamer.",
+   "legenda": "3º O limite: o servidor tem limite de gente",
+   "visual": "o servidor tem limite de gente",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Por região",
+   "fala": "Dois: as empresas liberam por região pra espalhar a fila.",
+   "legenda": "2º Por região: liberação por região espalha a fila",
+   "visual": "liberação por região espalha a fila",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Truque",
+   "fala": "E o um, o truque: baixe tudo antes, e jogue com cabo de rede.",
+   "legenda": "1º Truque: baixe antes e use cabo de rede",
+   "visual": "baixe antes e use cabo de rede",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "d) pote enchendo",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "e) glitch RGB",
+  "mascote": "boné + correndo",
+  "camera": "c) travelling lateral",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 89,
+ "duracao_estimada_s": 31.8
+}

@@ -1,0 +1,158 @@
+{
+ "voz": "Puck",
+ "modelo": "gemini-2.5-flash-preview-tts",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "cidade (Referência 7)",
+ "categoria": "historia",
+ "chave": "INVERNO",
+ "tese": "A IA QUASE MORREU DUAS VEZES",
+ "conceito": "A mesma cidade de blocos muda de estação: verão de 1956 (sol, campus, bandeirolas), inverno de 1973 (neve cai, prédios apagam, verba vira cofre trancado), volta nos anos 80 (luzes de escritório, caixas de computador entregues às empresas), 2º inverno de 1987 (neve de novo, caixas empilhadas no lixo), primavera de 2012 (flores, uma placa de videogame gigante acende a cidade). Contador = ano. Paleta muda por estação.",
+ "elementos": {
+  "trilha": "5 etapas no topo (estações com ano)",
+  "contador": "ano grande (1956 → 2012)",
+  "legenda": "karaokê (palavra atual branca, próximas cinza) em pílula escura",
+  "camera": "travelling lateral pela rua principal",
+  "paleta": "muda por estação (amarelo → azul-gelo → neon → cinza → rosa-flor)",
+  "objeto": "placa de videogame gigante que acende a cidade",
+  "fechamento": "\"salva pra contar\" + loop no verão",
+  "tipografia": "Fraunces"
+ },
+ "brinde": "a história completa dos dois invernos com os links (relatório Lighthill e artigo da AlexNet) + 1 curiosidade",
+ "fontes": [
+  "http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf",
+  "http://www.chilton-computing.org.uk/inf/literature/reports/lighthill_report/contents.htm",
+  "https://en.wikipedia.org/wiki/AI_winter",
+  "https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html"
+ ],
+ "prova_viral": "📜 Fontes históricas: proposta de Dartmouth (1955/1956), Relatório Lighthill (1973, cortes no Reino Unido), quebra do mercado de máquinas LISP (1987, verbete AI winter), AlexNet (NeurIPS 2012, treinada em 2 placas GTX 580). Rende agora: formato cidade da Referência 7 (@lucassena, 09/11: 1.176 comentários, 2.977 envios) e o debate \"IA é bolha?\".",
+ "obs": "Item \"O inverno da IA\" de pautas/categorias.md (marcado). Não dizer que a IA \"morreu\" literalmente: é o nome que os pesquisadores dão (inverno da IA). Cortes de 1973 = Reino Unido. Voz longa por causa dos anos: cortar se passar de 35 s.",
+ "polemica": false,
+ "agenda": null,
+ "palavras": 95,
+ "duracao_estimada_s": 33.9,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IA QUASE MORREU DUAS VEZES",
+   "fala": "A IA quase morreu duas vezes. Quase ninguém sabe.",
+   "legenda": "A IA quase morreu duas vezes. Quase ninguém sabe.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "A IA QUASE MORREU DUAS VEZES",
+    "1956 · 1973 · 1987 · 2012",
+    "E VOLTOU MAIS FORTE"
+   ],
+   "etapas": [
+    "VERÃO 1956",
+    "INVERNO 1973",
+    "VOLTA ANOS 80",
+    "2º INVERNO 1987",
+    "PRIMAVERA 2012"
+   ],
+   "contador": "ano (1956 → 2012)"
+  },
+  {
+   "cena": "e1",
+   "tag": "",
+   "fala": "Em 1956, cientistas acharam que dava pra avançar muito num verão.",
+   "legenda": "Em 1956, cientistas acharam que dava pra avançar muito num verão.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 1
+  },
+  {
+   "cena": "e2",
+   "tag": "",
+   "fala": "Não deu. Em 1973, o Reino Unido cortou a verba da IA. Primeiro inverno.",
+   "legenda": "Não deu. Em 1973, o Reino Unido cortou a verba da IA. Primeiro inverno.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 2
+  },
+  {
+   "cena": "meio",
+   "tag": "",
+   "fala": "Deixa o like e manda pro amigo que diz que IA é moda. Comenta INVERNO.",
+   "legenda": "Deixa o like e manda pro amigo que diz que IA é moda. Comenta INVERNO.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "e3",
+   "tag": "",
+   "fala": "Nos anos oitenta, ela voltou, em computadores vendidos pra empresas.",
+   "legenda": "Nos anos oitenta, ela voltou, em computadores vendidos pra empresas.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 3
+  },
+  {
+   "cena": "e4",
+   "tag": "",
+   "fala": "Em 1987, esse mercado quebrou. Segundo inverno.",
+   "legenda": "Em 1987, esse mercado quebrou. Segundo inverno.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 4
+  },
+  {
+   "cena": "e5",
+   "tag": "",
+   "fala": "Em 2012, uma IA aprendeu a ver imagens com placas de videogame. E não parou mais.",
+   "legenda": "Em 2012, uma IA aprendeu a ver imagens com placas de videogame. E não parou mais.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 5
+  },
+  {
+   "cena": "cta",
+   "tag": "",
+   "fala": "Salva pra contar pra alguém. Qual foi a primeira IA que você usou?",
+   "legenda": "Salva pra contar pra alguém. Qual foi a primeira IA que você usou?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "data": "2026-11-18",
+ "horario": "21:30",
+ "horarios": {
+  "instagram": "2026-11-18 21:30",
+  "tiktok": "2026-11-18 21:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "temas": [
+  "OpenAI Five",
+  "Dota 2",
+  "história da IA",
+  "jogos",
+  "2019"
+ ],
+ "fontes": [
+  "https://openai.com/index/openai-five-defeats-dota-2-world-champions/",
+  "https://openai.com/index/openai-five/"
+ ],
+ "prova_viral": "OpenAI (13/04/2019): OpenAI Five venceu o OG, campeão do The International, por 2 a 0; blog da OpenAI sobre o treino (~180 anos de partidas por dia).",
+ "cta": "DOTA",
+ "polemica": false,
+ "vaga": 6,
+ "candidato": "b",
+ "primeiro_comentario": "💬 Comenta DOTA que eu te mando Link da matéria da OpenAI e a linha do tempo da vitória\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; métricas de 16/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 31%, abaixo do corte"
+}

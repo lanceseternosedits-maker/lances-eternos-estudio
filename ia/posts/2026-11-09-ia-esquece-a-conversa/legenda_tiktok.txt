@@ -1,0 +1,2 @@
+Por que a IA esquece o que você falou no começo da conversa? Ela tem uma memória de tamanho fixo, a janela de contexto. O truque: peça um resumo em 10 linhas e cole numa conversa nova. Comenta RESUMO que eu te mando o prompt. Ela já esqueceu algo importante seu? 👇
+#ia #chatgpt #dicasdeia #prompt #inteligenciaartificial

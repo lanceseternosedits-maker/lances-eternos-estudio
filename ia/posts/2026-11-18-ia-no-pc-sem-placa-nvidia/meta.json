@@ -1,0 +1,136 @@
+{
+  "data": "2026-11-18",
+  "horario": "19:30",
+  "horarios": {
+    "instagram": "2026-11-18 19:30",
+    "tiktok": "2026-11-18 19:30"
+  },
+  "categoria": "novidade",
+  "pilar": "reel",
+  "formato": "reel contagem (molde campeão, visual clean)",
+  "temas": [
+    "Nvidia",
+    "placa de vídeo",
+    "IA local",
+    "jogos",
+    "PC",
+    "github"
+  ],
+  "fontes": [
+    "https://github.com/janhq/jan",
+    "https://github.com/nomic-ai/gpt4all",
+    "https://github.com/vosen/ZLUDA",
+    "https://github.com/ggml-org/llama.cpp",
+    "https://github.com/ollama/ollama",
+    "https://www.tomshardware.com/pc-components/gpus/nvidia-bans-using-translation-layers-for-cuda-software-to-run-on-other-chips-new-restriction-apparently-targets-zluda-and-some-chinese-gpu-makers"
+  ],
+  "prova_viral": "Estrelas no GitHub (API, 16/11/2026): Jan 45.736, GPT4All 77.345, ZLUDA 15.199, llama.cpp 135.261, Ollama 187.157; total 460.698. Contexto: a Nvidia proibiu, nos termos do CUDA, camadas de tradução como o ZLUDA (Tom's Hardware, 05/03/2024).",
+  "cta": "PLACA",
+  "polemica": true,
+  "vaga": 5,
+  "candidato": "b",
+  "primeiro_comentario": "💬 Comenta PLACA que eu te mando os 5 links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+  "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; métricas de 16/11",
+  "status": "vídeo aguardando aprovação",
+  "revisao": {
+    "veredito": "ajustado",
+    "resumo": "ressalva no ZLUDA, fonte corrigida",
+    "pareceres": [
+      {
+        "revisor": "vitor",
+        "veredito": "ajustar",
+        "nota": "Polêmica boa; ZLUDA e llama.cpp são jargão."
+      },
+      {
+        "revisor": "fatos",
+        "veredito": "ajustar",
+        "nota": "Estrelas batem; ZLUDA \"tenta rodar\"; sem afirmar comunicado de saída."
+      },
+      {
+        "revisor": "gancho",
+        "veredito": "ajustar",
+        "nota": "Faltavam objeto no 1º quadro e pergunta final."
+      },
+      {
+        "revisor": "clareza",
+        "veredito": "ajustar",
+        "nota": "\"Motor\" e \"IA local\" vagos."
+      }
+    ],
+    "ajustes": [
+      "etiqueta: 'RODA IA COM 1 COMANDO'",
+      "ZLUDA: 'tenta rodar… (em desenvolvimento)'",
+      "llama.cpp sem 'motor'",
+      "tirei a afirmação do comunicado da Nvidia",
+      "pergunta final sobre a placa do PC"
+    ],
+    "em": "2026-11-16 05:10",
+    "obs": "2ª volta não rodada por economia de tokens; ajustes aplicados conforme os 4 pareceres"
+  },
+  "checagem": {
+    "em": "2026-11-17 08:11",
+    "ok": true,
+    "itens": [
+      {
+        "nome": "Formato",
+        "valor": "1080×1920",
+        "ok": true,
+        "regra": "1080×1920"
+      },
+      {
+        "nome": "Duração",
+        "valor": "32.8 s",
+        "ok": true,
+        "regra": "até 35 s (corte texto se passar)"
+      },
+      {
+        "nome": "Velocidade da fala",
+        "valor": "2.65 palavras/s (87 palavras)",
+        "ok": true,
+        "regra": "máximo 3,0 palavras/s"
+      },
+      {
+        "nome": "Volume",
+        "valor": "-14.1 LUFS, pico -1.2 dB",
+        "ok": true,
+        "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+      },
+      {
+        "nome": "Fontes",
+        "valor": "6 fonte(s)",
+        "ok": true,
+        "regra": "todo fato com fonte"
+      },
+      {
+        "nome": "Prova viral",
+        "valor": "preenchida",
+        "ok": true,
+        "regra": "toda pauta com a prova de que viralizou"
+      },
+      {
+        "nome": "Legenda do Instagram",
+        "valor": "969 caracteres",
+        "ok": true,
+        "regra": "até 2.200 caracteres"
+      },
+      {
+        "nome": "CTA na legenda",
+        "valor": "PLACA",
+        "ok": true,
+        "regra": "a palavra do CTA aparece na legenda"
+      },
+      {
+        "nome": "Hashtags no Instagram",
+        "valor": "5",
+        "ok": true,
+        "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
+      },
+      {
+        "nome": "Resposta da DM",
+        "valor": "ok",
+        "ok": true,
+        "regra": "resposta_dm.txt com os links"
+      }
+    ]
+  }
+}

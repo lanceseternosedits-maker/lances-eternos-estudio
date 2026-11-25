@@ -1,0 +1,128 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "VICE",
+ "tese": "GTA 6 · 5 COISAS QUE JÁ SE SABE · E A Nº 1 É O MAPA",
+ "conceito": "Mapa de papel que se desdobra sobre uma mesa até virar uma cidade de blocos com palmeiras; cada fato é um marcador no mapa; nº 1: o mapa cobre a mesa inteira. Sem arte oficial.",
+ "brinde": "resumo das fontes e do que é confirmado x boato",
+ "fontes": [
+  "https://metropoles.com/colunas/metropoles-games/gta-6-bate-recorde-historico-antes-do-lancamento",
+  "https://www.terra.com.br/byte/rockstar-define-horario-de-lancamento-de-gta-6-no-brasil,9c7a2350108c3b419e3b9195af134c642d7ssmyk.html",
+  "https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+ ],
+ "prova_viral": "Notícia: Metrópoles (12/11/2026) pré-venda e mapa; Terra (13/11) data; Rockstar confirma 19/11/2026 (imprensa, sem estrelas).",
+ "obs": "Variante da vaga 9; deixar claro o que é relato. Tirar da fala qualquer número que não resista na releitura.",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "GTA 6: O QUE JÁ SE SABE",
+   "fala": "O GTA 6 sai em horas. Cinco coisas que já se sabe, e a número um é o mapa.",
+   "legenda": "O GTA 6 sai em horas. Cinco coisas que já se sabe, e a número um é o mapa.",
+   "visual": "cidade de blocos com palmeiras e neon, mapa se desdobrando como um papel",
+   "itens": "gta6-5-numeros-e-curiosidades",
+   "etiqueta": [
+    "GTA 6: O QUE JÁ SE SABE",
+    "5 FATOS A POUCAS HORAS",
+    "E O Nº 1 É O MAPA"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Dupla",
+   "fala": "Quinto: os dois protagonistas são Lucia e Jason.",
+   "legenda": "5º Dupla: Lucia e Jason, os protagonistas",
+   "visual": "Lucia e Jason, os protagonistas",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Cidade",
+   "fala": "Quarto: a história passa em Vice City, no estado de Leonida.",
+   "legenda": "4º Cidade: Vice City, no estado de Leonida",
+   "visual": "Vice City, no estado de Leonida",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Pré-venda",
+   "fala": "Terceiro: a pré-venda teria passado de um bilhão de dólares, diz o Metrópoles. Comenta VICE e manda pra quem espera esse jogo há anos.",
+   "legenda": "3º Pré-venda: pré-venda teria passado de US$ 1 bilhão",
+   "visual": "pré-venda teria passado de US$ 1 bilhão",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Detalhe",
+   "fala": "Segundo: teria onze vezes mais gente e carro por metro quadrado, diz um canal.",
+   "legenda": "2º Detalhe: 11x mais NPCs e veículos, segundo o Flow Games",
+   "visual": "11x mais NPCs e veículos, segundo o Flow Games",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Mapa",
+   "fala": "E o um: o mapa teria o dobro do tamanho do GTA 5.",
+   "legenda": "1º Mapa: mapa com o dobro do GTA 5, segundo o Flow Games",
+   "visual": "mapa com o dobro do GTA 5, segundo o Flow Games",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "a) caixa creme no topo",
+  "nome": "b) carimbo batendo",
+  "contador": "d) pote enchendo",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "e) glitch RGB",
+  "mascote": "óculos + digitando",
+  "camera": "c) travelling lateral",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 89,
+ "duracao_estimada_s": 31.8
+}

@@ -1,0 +1,127 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "historia",
+ "chave": "ELIZA",
+ "tese": "O 1º CHATBOT DA HISTÓRIA ASSUSTOU O PRÓPRIO CRIADOR · 5 FATOS DE 1966",
+ "conceito": "Terminal verde antigo e poltrona de terapeuta: as frases da ELIZA aparecem uma por uma; cada fato vira um cartão no divã; nº 1: uma porta se fecha com a silhueta do criador do lado de fora. Sem rosto de pessoa real.",
+ "brinde": "linha do tempo da ELIZA + o link do artigo original (1966)",
+ "fontes": [
+  "https://en.wikipedia.org/wiki/ELIZA",
+  "https://dl.acm.org/doi/10.1145/365153.365168"
+ ],
+ "prova_viral": "Fonte histórica: Weizenbaum (1966, Communications of the ACM) e Wikipedia (ELIZA); anedota da secretária relatada por Weizenbaum no livro de 1976 (Computer Power and Human Reason).",
+ "obs": "Conferir a anedota da secretária em 2 fontes (livro de 1976 e Wikipedia) e suavizar a fala se algo não bater.",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "O 1º CHATBOT ASSUSTOU O CRIADOR",
+   "fala": "Em 1966, um chatbot imitou um terapeuta. E assustou o próprio criador.",
+   "legenda": "Em 1966, um chatbot imitou um terapeuta. E assustou o próprio criador.",
+   "visual": "terminal verde antigo digitando em português, com uma poltrona de terapeuta ao lado",
+   "itens": "eliza-o-primeiro-chatbot",
+   "etiqueta": [
+    "O 1º CHATBOT ASSUSTOU O CRIADOR",
+    "5 FATOS DE 1966",
+    "E O Nº 1 ENVOLVE A SECRETÁRIA"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "1966",
+   "fala": "Cinco: 1966. Num laboratório do MIT, nasce a ELIZA.",
+   "legenda": "5º 1966: nasce a ELIZA, no MIT",
+   "visual": "nasce a ELIZA, no MIT",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "O criador",
+   "fala": "Quatro: o criador, Joseph Weizenbaum, queria mostrar como a conversa de uma máquina era rasa.",
+   "legenda": "4º O criador: Joseph Weizenbaum queria mostrar o quanto era rasa",
+   "visual": "Joseph Weizenbaum queria mostrar o quanto era rasa",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "O truque",
+   "fala": "Três: ela só devolvia perguntas, como um terapeuta. Fale mais sobre isso. Comenta ELIZA e manda pra quem fala com IA todo dia.",
+   "legenda": "3º O truque: devolvia perguntas, como um terapeuta",
+   "visual": "devolvia perguntas, como um terapeuta",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "A reação",
+   "fala": "Dois: mesmo sabendo que era máquina, as pessoas se abriam com ela.",
+   "legenda": "2º A reação: as pessoas se abriam mesmo sabendo",
+   "visual": "as pessoas se abriam mesmo sabendo",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "A secretária",
+   "fala": "E o um: a secretária dele pediu pra ele sair da sala, pra conversar em particular.",
+   "legenda": "1º A secretária: a secretária pediu pra ele sair da sala",
+   "visual": "a secretária pediu pra ele sair da sala",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "b) carimbo batendo",
+  "contador": "f) termômetro",
+  "legenda": "a) bloco de 4 palavras",
+  "transicao": "b) whip pan",
+  "mascote": "lanterna + procurando",
+  "camera": "d) órbita",
+  "fechamento": "e) página de caderno",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 87,
+ "duracao_estimada_s": 31.1
+}

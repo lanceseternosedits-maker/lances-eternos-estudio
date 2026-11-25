@@ -1,0 +1,13 @@
+{
+  "slug": "skills-claude-code",
+  "formato": "lista",
+  "cover": { "title_html": "O Claude Code<br><span class=\"g\">virou canivete suíço.</span>", "sub": "5 skills e repositórios grátis em alta no GitHub", "imgs": ["2.jpg", "1.webp", "5.webp"] },
+  "items": [
+    { "n": "01", "repo": "github.com/wheresryan22/anatomy", "kick": "Skill grátis · ilustração interativa", "title": "Explica qualquer máquina desenhando ela.", "body": "Você pede um motor de foguete e ele monta a peça em ilustração isométrica interativa, em SVG, WebGL e 3D.", "img": "1.webp", "fit": "cover", "pos": "50% 45%", "chips": [["Estrelas no GitHub", "23,6 mil"], ["Licença", "MIT"]] },
+    { "n": "02", "repo": "github.com/rehan-remade/universal-modder", "kick": "Agente · mods de jogos de PC", "title": "A IA cria mods pro seu jogo.", "body": "O agente descobre a engine, lê o código, monta o mod, gera arte e som e testa com o jogo rodando.", "img": "2.jpg", "fit": "cover", "pos": "50% 50%", "chips": [["Estrelas no GitHub", "9,3 mil"], ["Licença", "MIT"]] },
+    { "n": "03", "repo": "github.com/Jakeschincariol/replica-skill", "kick": "11 skills · clona qualquer app", "title": "Clona um app e conserta o que os usuários odeiam.", "body": "Uma skill faz a engenharia reversa, outra reconstrói, outra testa. Copia o que o app faz, nunca o código nem a marca.", "code": ["replica-recon", "replica-architect", "replica-design", "replica-backend", "replica-build", "replica-test", "replica-diff", "replica-brand", "replica-entrepreneur", "replica-launch", "replica-deploy"], "chips": [["Estrelas no GitHub", "6,9 mil"], ["Skills", "11"]] },
+    { "n": "04", "repo": "github.com/onehumanbeing/esp32-iphone-agent", "kick": "Hardware · placa de US$ 7", "title": "Uma IA usando um iPhone de verdade.", "body": "Uma placa ESP32 vira os olhos (espelho AirPlay) e as mãos (mouse) da IA. Sem computador e sem jailbreak.", "img": "4.png", "fit": "cover", "pos": "50% 50%", "chips": [["Estrelas no GitHub", "4,2 mil"], ["Placa", "US$ 7"]] },
+    { "n": "05", "repo": "github.com/heydamir/unslop", "kick": "Design · tira a cara de IA", "title": "Some com a cara de “feito por IA”.", "body": "Acha gradiente roxo, brilho exagerado e emoji no layout gerado por IA e redesenha a tela com personalidade própria.", "img": "5.webp", "fit": "cover", "pos": "50% 50%", "chips": [["Estrelas no GitHub", "4,4 mil"], ["Licença", "CC-BY 4.0"]] }
+  ],
+  "cta": { "key": "SKILL", "promise": "Os 5 links, como instalar cada um e por qual eu começaria." }
+}

@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º LosslessCut: https://github.com/mifi/lossless-cut
+4º darktable: https://github.com/darktable-org/darktable
+3º Shotcut: https://github.com/mltframework/shotcut
+2º Penpot: https://github.com/penpot/penpot
+1º Upscayl: https://github.com/upscayl/upscayl
+
+⚠️ Projetos independentes, sem ligação com a Adobe; baixe só do site oficial.
+
+Brinde: Links dos 5 + qual deles troca cada programa pago.

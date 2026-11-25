@@ -1,0 +1,11 @@
+Oi! Que bom que você comentou CONSOLE 🙌
+Os 5 projetos:
+• moonlight-web-stream: https://github.com/MrCreativ3001/moonlight-web-stream
+• Moonlight iOS: https://github.com/moonlight-stream/moonlight-ios
+• Moonlight Android: https://github.com/moonlight-stream/moonlight-android
+• Moonlight PC: https://github.com/moonlight-stream/moonlight-qt
+• Sunshine: https://github.com/SunshineStream/Sunshine
+
+Brinde: links dos 5 + passo a passo de 4 linhas (instala o Sunshine no PC, Moonlight no celular, mesma rede Wi-Fi, pareia com o PIN).
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜

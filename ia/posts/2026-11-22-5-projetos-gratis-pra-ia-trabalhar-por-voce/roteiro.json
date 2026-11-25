@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "TRABALHA",
+ "tese": "A IA PODE TRABALHAR POR VOCÊ, DE GRAÇA · +802 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1 com objeto reconhecível no 1º quadro (a ia pode trabalhar por você, de graça); cenário estação de trem, mascote capa, se escondendo; nº1 revelada por último.",
+ "brinde": "Links dos 5 + 3 tarefas chatas pra pedir pra IA hoje",
+ "fontes": [
+  "https://github.com/open-webui/open-webui",
+  "https://github.com/ollama/ollama",
+  "https://github.com/zhayujie/CowAgent",
+  "https://github.com/microsoft/markitdown",
+  "https://github.com/n8n-io/n8n"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Open WebUI 159.065, Ollama 187.576, CowAgent 48.006, MarkItDown 196.815, n8n 211.284; total 802.746.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IA PODE TRABALHAR POR VOCÊ, DE GRAÇA",
+   "fala": "E se a IA trabalhasse por você, de graça? Esses cinco projetos fazem.",
+   "legenda": "E se a IA trabalhasse por você, de graça? Esses cinco projetos fazem.",
+   "visual": "A IA PODE TRABALHAR POR VOCÊ, DE GRAÇA",
+   "itens": "clean",
+   "etiqueta": [
+    "A IA PODE TRABALHAR POR VOCÊ, DE GRAÇA",
+    "+802 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Open WebUI",
+   "fala": "Quinto: Open WebUI. Seu chat de IA com a cara do ChatGPT.",
+   "legenda": "Quinto: Open WebUI. Seu chat de IA com a cara do ChatGPT.",
+   "visual": "Seu chat de IA com a cara do ChatGPT.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "open-webui/open-webui",
+   "estrelas": 159065
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Ollama",
+   "fala": "Quarto: Ollama. Roda IA no seu PC, sem mensalidade.",
+   "legenda": "Quarto: Ollama. Roda IA no seu PC, sem mensalidade.",
+   "visual": "Roda IA no seu PC, sem mensalidade.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "ollama/ollama",
+   "estrelas": 187576
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "CowAgent",
+   "fala": "Terceiro: CowAgent. Um assistente pessoal de IA aberto. Essa é legalzinha… comenta TRABALHA que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: CowAgent. Um assistente pessoal de IA aberto. Essa é legalzinha… comenta TRABALHA que eu mando os cinco. Manda pro amigo.",
+   "visual": "Um assistente pessoal de IA aberto.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "zhayujie/CowAgent",
+   "estrelas": 48006
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "MarkItDown",
+   "fala": "Segundo: MarkItDown. Prepara seus arquivos pra IA ler.",
+   "legenda": "Segundo: MarkItDown. Prepara seus arquivos pra IA ler.",
+   "visual": "Prepara seus arquivos pra IA ler.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "microsoft/markitdown",
+   "estrelas": 196815
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "n8n",
+   "fala": "E o primeiro: n8n. Liga seus apps e a IA faz sozinha.",
+   "legenda": "E o primeiro: n8n. Liga seus apps e a IA faz sozinha.",
+   "visual": "Liga seus apps e a IA faz sozinha.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "n8n-io/n8n",
+   "estrelas": 211284
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta TRABALHA e me segue. Qual tarefa chata você entregaria pra IA hoje?",
+   "legenda": "Comenta TRABALHA e me segue. Qual tarefa chata você entregaria pra IA hoje?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "f) escrito à mão",
+  "contador": "e) placar 8-bit",
+  "legenda": "d) balão de fala",
+  "transicao": "e) glitch RGB",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "f) cartões que viram",
+  "mascote": "capa, se escondendo",
+  "cenario": "estação de trem",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 88,
+ "duracao_estimada_s": 30.9
+}

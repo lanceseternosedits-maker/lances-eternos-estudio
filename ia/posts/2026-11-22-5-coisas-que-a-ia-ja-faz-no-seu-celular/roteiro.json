@@ -1,0 +1,123 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "como_funciona",
+ "chave": "CELULAR",
+ "tese": "A IA JÁ TÁ NO SEU CELULAR · E O Nº 1 É O QUE MAIS PESA",
+ "conceito": "como_funciona: contagem 5→1 com objeto reconhecível no 1º quadro (a ia já tá no seu celular); cenário cozinha de manhã, mascote mochila, lendo; nº1 revelada por último.",
+ "brinde": "Os 5 recursos de IA do celular pra ligar hoje",
+ "fontes": [],
+ "prova_viral": "Recursos amplamente documentados nos principais celulares (teclado preditivo, fotos, mapas, voz, filtro de spam).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A IA JÁ TÁ NO SEU CELULAR",
+   "fala": "A IA já mora no seu celular e você nem percebeu. Veja cinco lugares.",
+   "legenda": "A IA já mora no seu celular e você nem percebeu. Veja cinco lugares.",
+   "visual": "A IA JÁ TÁ NO SEU CELULAR",
+   "itens": "clean",
+   "etiqueta": [
+    "A IA JÁ TÁ NO SEU CELULAR",
+    "E O Nº 1 É O QUE MAIS PESA"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Teclado",
+   "fala": "Quinto: Teclado. Sugere a próxima palavra enquanto você digita.",
+   "legenda": "Quinto: Teclado. Sugere a próxima palavra enquanto você digita.",
+   "visual": "Sugere a próxima palavra enquanto você digita.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Foto",
+   "fala": "Quarto: Foto. Separa rostos e lugares nas suas fotos.",
+   "legenda": "Quarto: Foto. Separa rostos e lugares nas suas fotos.",
+   "visual": "Separa rostos e lugares nas suas fotos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Mapa",
+   "fala": "Terceiro: Mapa. Escolhe a rota pelo trânsito de agora. Essa é legalzinha… comenta CELULAR que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Mapa. Escolhe a rota pelo trânsito de agora. Essa é legalzinha… comenta CELULAR que eu mando os cinco. Manda pro amigo.",
+   "visual": "Escolhe a rota pelo trânsito de agora.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Voz",
+   "fala": "Segundo: Voz. Entende o que você fala pro assistente.",
+   "legenda": "Segundo: Voz. Entende o que você fala pro assistente.",
+   "visual": "Entende o que você fala pro assistente.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Spam",
+   "fala": "E o primeiro: Spam. Separa e-mail de golpe do que é de verdade.",
+   "legenda": "E o primeiro: Spam. Separa e-mail de golpe do que é de verdade.",
+   "visual": "Separa e-mail de golpe do que é de verdade.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta CELULAR e me segue. Qual desses você mais usa sem pensar?",
+   "legenda": "Comenta CELULAR e me segue. Qual desses você mais usa sem pensar?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "d) pote enchendo de estrelas",
+  "legenda": "a) bloco de 4 palavras",
+  "transicao": "d) virada de página",
+  "camera": "d) órbita",
+  "fechamento": "e) página de caderno",
+  "mascote": "mochila, lendo",
+  "cenario": "cozinha de manhã",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 88,
+ "duracao_estimada_s": 30.9
+}

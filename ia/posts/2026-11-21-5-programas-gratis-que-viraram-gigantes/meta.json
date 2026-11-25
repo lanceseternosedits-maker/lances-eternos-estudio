@@ -1,0 +1,32 @@
+{
+ "data": "2026-11-21",
+ "horario": "20:30",
+ "horarios": {
+  "instagram": "2026-11-21 20:30",
+  "tiktok": "2026-11-21 20:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "programas grátis",
+  "história",
+  "código aberto",
+  "VLC"
+ ],
+ "fontes": [
+  "https://www.videolan.org/press/vlc-gpl.html",
+  "https://blog.documentfoundation.org/blog/2010/09/28/the-document-foundation-launches-with-libreoffice/",
+  "https://git-scm.com/book/en/v2/Getting-Started-A-Short-History-of-Git"
+ ],
+ "prova_viral": "VLC (videolan.org); LibreOffice (The Document Foundation, 28/09/2010); Firefox/Mozilla (código do Netscape aberto em 1998); Linux (anúncio de Torvalds, 1991); Git (git-scm.com, 2005). Estrelas no GitHub (API, 19/11/2026): VLC 20.504, Git 64.398, LibreOffice 4.664 (espelho); total 89.566.",
+ "cta": "GIGANTES",
+ "polemica": false,
+ "vaga": 6,
+ "candidato": "c",
+ "primeiro_comentario": "💬 Comenta GIGANTES que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 40%, abaixo do corte"
+}

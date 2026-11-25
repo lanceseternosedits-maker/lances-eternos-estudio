@@ -1,0 +1,9 @@
+Tá aqui 👇 os links e as fontes:
+5º VLC: https://github.com/videolan/vlc
+4º LibreOffice: https://github.com/LibreOffice/core
+3º Firefox: A Netscape abriu o código e ele nasceu.
+2º Linux: Um aluno anunciou: é só um hobby.
+1º Git: https://github.com/git/git
+
+
+Brinde: Os links dos 5.

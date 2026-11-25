@@ -1,0 +1,96 @@
+{
+ "slug": "riverside-agentes",
+ "formato": "lista",
+ "cover": {
+  "title_html": "4 IAs que editam<br><span class=\"g\">seu vídeo por você.</span>",
+  "sub": "Riverside Agents: lançado em 27/10 e 218 votos no Product Hunt",
+  "imgs": [
+   "capa.jpg",
+   "time.jpg",
+   "mobile.jpg"
+  ]
+ },
+ "dor": {
+  "kick": "O PROBLEMA",
+  "title": "Gravar é rápido. Cortar os clipes come a tarde.",
+  "body": "Achar o melhor trecho, legendar, escrever o post, agendar… É aí que o vídeo morre na gaveta.",
+  "carimbo": "TRAVADO"
+ },
+ "items": [
+  {
+   "n": "01",
+   "repo": "riverside.com/agents",
+   "kick": "Agente 1 · Produtor",
+   "title": "Prepara a gravação antes de você apertar REC.",
+   "body": "Monta perguntas, tópicos, cenas e a identidade visual. E te ajuda enquanto você grava.",
+   "img": "time.jpg",
+   "fit": "contain",
+   "pos": "50% 50%",
+   "chips": [
+    [
+     "Lançado",
+     "27/10/2026"
+    ],
+    [
+     "Funciona",
+     "web e celular"
+    ]
+   ]
+  },
+  {
+   "n": "02",
+   "repo": "riverside.com/agents",
+   "kick": "Agente 2 · Editor",
+   "title": "Monta o episódio a partir da gravação crua.",
+   "body": "Sugere onde enxugar, limpa pausas e vícios de fala e põe legenda e polimento de áudio.",
+   "quote": "Você grava. Ele monta o episódio.",
+   "chips": [
+    [
+     "Você",
+     "aprova cada corte"
+    ]
+   ]
+  },
+  {
+   "n": "03",
+   "repo": "riverside.com/agents",
+   "kick": "Agente 3 · Cortador",
+   "title": "Acha os melhores momentos e vira clipe vertical.",
+   "body": "Cada trecho bom sai pronto pra postar. Quando termina, ele te avisa no celular.",
+   "img": "mobile.jpg",
+   "fit": "cover",
+   "pos": "50% 60%",
+   "chips": [
+    [
+     "Formato",
+     "vertical, pronto pra rede"
+    ]
+   ]
+  },
+  {
+   "n": "04",
+   "repo": "riverside.com/agents · podnews.net",
+   "kick": "Agente 4 · Marketeiro",
+   "title": "Escreve a legenda e agenda os posts.",
+   "body": "Cria legenda e thumbnail e diz onde postar cada clipe. Nada sai sem você aprovar.",
+   "img": "capa.jpg",
+   "fit": "cover",
+   "pos": "50% 50%",
+   "credit": "ilustração gerada por IA",
+   "chips": [
+    [
+     "Product Hunt",
+     "218 votos"
+    ],
+    [
+     "Teste",
+     "14 dias"
+    ]
+   ]
+  }
+ ],
+ "cta": {
+  "key": "CLIPE",
+  "promise": "O link, como ligar os agentes e o passo a passo pra cortar seu 1º vídeo."
+ }
+}

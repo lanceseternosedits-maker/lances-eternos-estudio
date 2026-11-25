@@ -1,0 +1,86 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "palco",
+ "categoria": "como_funciona",
+ "objetivo": "validação do produto nº 2 (kit 'Super Assistente de IA'): medir comentários da palavra",
+ "chave": "CONFIGURA",
+ "tese": "A MESMA PERGUNTA, DUAS IAS",
+ "conceito": "Tela dividida de programa de culinária: duas bancadas iguais; à esquerda o mascote com roupa genérica tira da geladeira algo qualquer; à direita o mascote de avental com o nome do público abre a geladeira certa (marmita do dia, sem lactose, 20 minutos). Placar de jurados no fim. Paleta tomate + creme.",
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "(sem item)",
+  "contador": "f) termômetro (o quanto a resposta serve)",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "e) glitch RGB",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "d) tela CONTINUE? com contagem",
+  "tipografia": "a) Space Grotesk",
+  "som": "trilha 03 + panela, timer e campainha de prato pronto",
+  "mascote": "avental e chapéu de chef; ação principal: cozinhar"
+ },
+ "brinde": "passo a passo de 3 minutos para configurar a IA (onde clicar em cada uma) + modelo de texto",
+ "fontes": [
+  "https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions",
+  "https://support.claude.com/en/articles/9517075-what-are-projects",
+  "https://support.google.com/gemini/answer/15146780"
+ ],
+ "prova_viral": "Validação de produto (não é pauta de tendência): o formato 'IA que trabalha por você' é o que mais salva no perfil (5 skills 4,7% e TV 2,7% de salvamento, leitura de 07/11); configurar instruções/Projetos/Gems é recurso oficial das três IAs (fontes).",
+ "polemica": false,
+ "agenda": null,
+ "palavras": 92,
+ "duracao_estimada_s": 28.6,
+ "status": "roteiro aprovado",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "SUA IA RESPONDE IGUAL PRA TODO MUNDO",
+   "fala": "Pede pra IA o que fazer no jantar. Ela te dá a mesma resposta que dá pra todo mundo.",
+   "legenda": "Pede pra IA o que fazer no jantar. Ela te dá a mesma resposta que dá pra todo mundo.",
+   "sfx": [],
+   "etiqueta": [
+    "SUA IA RESPONDE IGUAL PRA TODO MUNDO",
+    "IA NORMAL × IA CONFIGURADA",
+    "E A DIFERENÇA É ABSURDA"
+   ],
+   "itens": "ia-configurada"
+  },
+  {
+   "cena": "s1",
+   "tag": "",
+   "fala": "Sem configurar, ela sugere uma lasanha com uma hora de forno.",
+   "legenda": "Sem configurar, ela sugere uma lasanha com uma hora de forno.",
+   "sfx": []
+  },
+  {
+   "cena": "s2",
+   "tag": "",
+   "fala": "Configurada, ela já sabe que você não come lactose e só tem vinte minutos.",
+   "legenda": "Configurada, ela já sabe que você não come lactose e só tem vinte minutos.",
+   "sfx": []
+  },
+  {
+   "cena": "s3",
+   "tag": "",
+   "fala": "Comenta CONFIGURA que eu te mando o passo a passo. E manda pra quem vive pedindo receita pra IA.",
+   "legenda": "Comenta CONFIGURA que eu te mando o passo a passo. E manda pra quem vive pedindo receita pra IA.",
+   "sfx": []
+  },
+  {
+   "cena": "s4",
+   "tag": "",
+   "fala": "Aí ela sugere um prato com o que você contou que tem em casa.",
+   "legenda": "Aí ela sugere um prato com o que você contou que tem em casa.",
+   "sfx": []
+  },
+  {
+   "cena": "cta",
+   "tag": "",
+   "fala": "São poucos minutos de configuração. Comenta CONFIGURA e me segue. Qual IA você mais usa?",
+   "legenda": "São poucos minutos de configuração. Comenta CONFIGURA e me segue. Qual IA você mais usa?",
+   "sfx": []
+  }
+ ],
+ "modelo": "gemini-2.5-flash-preview-tts",
+ "ajustes_producao": "08/11, pedido do Vitor (produzir apesar do veto): gancho com conflito sem dizer que testei duas IAs; a IA não vê a geladeira (só sabe o que você contou); CTA CONFIGURA + pedido de envio no meio; pergunta final de 1 palavra."
+}

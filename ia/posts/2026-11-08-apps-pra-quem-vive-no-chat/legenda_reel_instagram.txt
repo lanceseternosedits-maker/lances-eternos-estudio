@@ -1,0 +1,16 @@
+Comenta MAPA que eu te mando os 3 apps pra quem vive no ChatGPT. E o nº 1 desenha setas na sua tela. 🕵️
+
+3º ClipBoardLine: guarda tudo que você copia (texto, link e imagem) e acha de novo com busca, até dentro de imagem (Mac e Windows)
+2º KIKUmap: transforma suas conversas com o Claude e o ChatGPT num mapa mental, na barra do Mac (só Mac)
+1º Big Arrow: a IA desenha uma seta enorme na sua tela mostrando onde clicar (só Mac)
+
+Os 3 são grátis e de código aberto, e somam mais de 1,8 mil estrelas no GitHub em 1 mês.
+
+💬 Comenta MAPA e me segue que eu te mando o link dos 3.
+
+Qual você instalaria primeiro? 👇
+
+Fonte: páginas oficiais dos projetos no GitHub (estrelas lidas em 07/11).
+Animação e voz feitas com IA. Perfil independente, sem ligação com a OpenAI, a Apple nem a Anthropic.
+
+#chatgpt #claude #mac #produtividade #ia

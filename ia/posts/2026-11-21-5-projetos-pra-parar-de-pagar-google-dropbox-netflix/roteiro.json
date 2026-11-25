@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "PARE",
+ "tese": "PARE DE PAGAR GOOGLE, DROPBOX E NETFLIX · +415 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1 com objeto reconhecível no 1º quadro (pare de pagar google, dropbox e netflix); cenário biblioteca de manhã, mascote headset, pilotando; nº1 revelada por último.",
+ "brinde": "Links dos 5 + a lista do que cada um substitui e quanto custa o pago",
+ "fontes": [
+  "https://github.com/Stirling-Tools/Stirling-PDF",
+  "https://github.com/paperless-ngx/paperless-ngx",
+  "https://github.com/syncthing/syncthing",
+  "https://github.com/jellyfin/jellyfin",
+  "https://github.com/immich-app/immich"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Stirling PDF 96.970, Paperless-ngx 48.316, Syncthing 90.584, Jellyfin 59.531, Immich 119.602; total 415.003.",
+ "obs": "",
+ "polemica": true,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "PARE DE PAGAR GOOGLE, DROPBOX E NETFLIX",
+   "fala": "Você paga Google, Dropbox e Netflix? Cinco projetos grátis fazem o mesmo.",
+   "legenda": "Você paga Google, Dropbox e Netflix? Cinco projetos grátis fazem o mesmo.",
+   "visual": "PARE DE PAGAR GOOGLE, DROPBOX E NETFLIX",
+   "itens": "clean",
+   "etiqueta": [
+    "PARE DE PAGAR GOOGLE, DROPBOX E NETFLIX",
+    "+415 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Stirling PDF",
+   "fala": "Quinto: Stirling PDF. Edita, junta e assina PDF, grátis.",
+   "legenda": "Quinto: Stirling PDF. Edita, junta e assina PDF, grátis.",
+   "visual": "Edita, junta e assina PDF, grátis.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "Stirling-Tools/Stirling-PDF",
+   "estrelas": 96970
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Paperless-ngx",
+   "fala": "Quarto: Paperless-ngx. Vira seus papéis em arquivo pesquisável.",
+   "legenda": "Quarto: Paperless-ngx. Vira seus papéis em arquivo pesquisável.",
+   "visual": "Vira seus papéis em arquivo pesquisável.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "paperless-ngx/paperless-ngx",
+   "estrelas": 48316
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Syncthing",
+   "fala": "Terceiro: Syncthing. Sincroniza arquivos entre seus aparelhos. Essa é legalzinha… comenta PARE que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Syncthing. Sincroniza arquivos entre seus aparelhos. Essa é legalzinha… comenta PARE que eu mando os cinco. Manda pro amigo.",
+   "visual": "Sincroniza arquivos entre seus aparelhos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "syncthing/syncthing",
+   "estrelas": 90584
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Jellyfin",
+   "fala": "Segundo: Jellyfin. Streaming de filmes seus em casa.",
+   "legenda": "Segundo: Jellyfin. Streaming de filmes seus em casa.",
+   "visual": "Streaming de filmes seus em casa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "jellyfin/jellyfin",
+   "estrelas": 59531
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Immich",
+   "fala": "E o primeiro: Immich. Guarda suas fotos no seu PC.",
+   "legenda": "E o primeiro: Immich. Guarda suas fotos no seu PC.",
+   "visual": "Guarda suas fotos no seu PC.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "immich-app/immich",
+   "estrelas": 119602
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta PARE e me segue. Qual assinatura você pagaria a menos hoje?",
+   "legenda": "Comenta PARE e me segue. Qual assinatura você pagaria a menos hoje?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "f) termômetro",
+  "legenda": "d) balão de fala",
+  "transicao": "f) zoom atravessando tela",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "mascote": "headset, pilotando",
+  "cenario": "biblioteca de manhã",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 79,
+ "duracao_estimada_s": 27.7
+}

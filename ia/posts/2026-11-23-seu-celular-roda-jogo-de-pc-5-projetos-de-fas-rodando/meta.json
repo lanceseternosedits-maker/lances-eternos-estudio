@@ -1,0 +1,31 @@
+{
+ "data": "2026-11-23",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "celular",
+  "jogos",
+  "console",
+  "PC",
+  "Android",
+  "GitHub",
+  "rodando"
+ ],
+ "fontes": [
+  "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
+  "https://github.com/JosefNemec/Playnite",
+  "https://github.com/moonlight-stream/moonlight-qt",
+  "https://github.com/moonlight-stream/moonlight-android",
+  "https://github.com/brunodev85/winlator"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): Heroic 12.657, Playnite 14.571, Moonlight 19.704, Moonlight Android 7.583, Winlator 20.147; total 74.662.",
+ "cta": "CELULAR",
+ "polemica": false,
+ "candidato": "b5",
+ "primeiro_comentario": "💬 Comenta CELULAR que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 47%, abaixo do corte"
+}

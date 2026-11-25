@@ -1,0 +1,22 @@
+{
+  "pilar": "tutorial",
+  "formato": "tutorial",
+  "temas": [
+    "Claude Projects",
+    "produtividade"
+  ],
+  "empresas": [
+    "Anthropic"
+  ],
+  "fontes": [
+    "support.claude.com"
+  ],
+  "paleta": 2,
+  "horarios": {
+    "instagram": "21:45",
+    "tiktok": "21:45",
+    "youtube": "21:55"
+  },
+  "cta": "PROJETO",
+  "data": "2026-11-01"
+}

@@ -1,0 +1,17 @@
+Oi! Que bom que você comentou FOTOS 🙌
+Os 5 projetos:
+• Immich Kiosk: https://github.com/damongolding/immich-kiosk
+• ImmichFrame: https://github.com/immichFrame/ImmichFrame
+• immich-go: https://github.com/simulot/immich-go
+• PhotoPrism: https://github.com/photoprism/photoprism
+• Immich: https://github.com/immich-app/immich
+
+Como tirar suas fotos do Google:
+1) Entre em takeout.google.com
+2) Desmarque tudo e marque só Google Fotos
+3) Exporte e baixe os arquivos
+4) Importe no Immich com o immich-go
+
+⚠️ Precisa de um PC ligado em casa, espaço em disco e um backup seu.
+
+Se curtir, me segue pra mais IA que serve pra vida real. 💜

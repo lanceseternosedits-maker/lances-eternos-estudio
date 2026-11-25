@@ -1,0 +1,107 @@
+{
+ "voz": "Puck",
+ "estilo": "padrão perfil referência (mundo 3D pôr do sol)",
+ "formato": "reel notícia com cenas (novidade)",
+ "categoria": "novidade",
+ "chave": "NVIDIA",
+ "tese": "A NVIDIA PERDEU O CHEFE · US$ 1,6 TRILHÃO A MENOS · E AINDA TEM O CONGRESSO",
+ "polemica": true,
+ "conceito": "Avenida 3D ao pôr do sol com um chip gigante dourado no meio (a 'sede' da IA); a cadeira de chefe vazia gira em cima. Cada fato vira um objeto: split-flap 1993→2026, manchete-carimbo, envelope CONFIDENCIAL + carimbo NÃO COMPROVADO, torre de moedas caindo, crachá interina, Capitólio de blocos. Nunca rosto ou foto de pessoa real, nunca logo da Nvidia.",
+ "brinde": "Linha do tempo da semana (8/11 admissão → 12/11 renúncia → 17/11 balanço → 1º/12 depoimento) com os links das fontes.",
+ "fontes": [
+  "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+  "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html",
+  "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+  "https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout",
+  "https://www.usnews.com/news/top-news/articles/2026-11-12/us-justice-department-has-not-concluded-alice-huang-was-chinese-spy-blanche-says"
+ ],
+ "prova_viral": "Notícia do topo do mundo tech em 12–13/11: comunicado oficial da Nvidia (12/11, renúncia com efeito imediato, Colette Kress interina); CNBC (13/11): ação em 6ª semana seguida de queda, maior sequência desde 2012, ~US$ 1,6 trilhão a menos; CNN (11/11): ~US$ 1,76 trilhão e convocação para depor; US News/Reuters (12/11): Departamento de Justiça não concluiu se Alice Huang era espiã; China nega.",
+ "obs": "Fatos sensíveis sobre pessoa real: só o que está em 2 fontes; espionagem sempre como suspeita NÃO comprovada; nada de conselho de investimento; nada de rosto, foto ou nome da mulher no vídeo.",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "A NVIDIA PERDEU O CHEFE",
+   "fala": "A empresa que faz o cérebro da IA perdeu o chefe em uma semana.",
+   "legenda": "A empresa que faz o cérebro da IA perdeu o chefe em uma semana.",
+   "visual": "chip gigante dourado no centro de uma avenida ao pôr do sol; a cadeira de chefe em cima dele gira vazia",
+   "etiqueta": [
+    "A NVIDIA PERDEU O CHEFE",
+    "US$ 1,6 TRILHÃO A MENOS",
+    "E AINDA TEM O CONGRESSO"
+   ]
+  },
+  {
+   "cena": "chips",
+   "fala": "A Nvidia faz os chips de boa parte da IA que você usa.",
+   "legenda": "A Nvidia faz os chips de boa parte da IA que você usa.",
+   "visual": "chip abre e solta janelas de chat de IA voando"
+  },
+  {
+   "cena": "renuncia",
+   "fala": "No dia doze, o fundador Jensen Huang renunciou.",
+   "legenda": "12/11: Jensen Huang, fundador, renunciou depois de 33 anos.",
+   "visual": "letreiro split-flap: 1993 → 2026; jaqueta de couro pendurada num cabide"
+  },
+  {
+   "cena": "traicao",
+   "fala": "Dias antes, admitiu que traiu a esposa.",
+   "legenda": "Dias antes, admitiu que traiu a esposa.",
+   "visual": "manchete de jornal 3D batendo como carimbo (sem rosto)"
+  },
+  {
+   "cena": "espia",
+   "fala": "E surgiu a suspeita de que uma das mulheres trabalhava pra China.",
+   "legenda": "Suspeita na imprensa: uma delas trabalharia pra China.",
+   "visual": "envelope 'CONFIDENCIAL' com ponto de interrogação gigante"
+  },
+  {
+   "cena": "nada_provado",
+   "fala": "Os Estados Unidos não concluíram nada, e a China nega.",
+   "legenda": "EUA: nada concluído. China: nega.",
+   "visual": "carimbo 'NÃO COMPROVADO' batendo no envelope"
+  },
+  {
+   "cena": "cta_meio",
+   "fala": "Comenta NVIDIA que eu te mando as fontes. E manda pro amigo que vive falando de IA.",
+   "legenda": "Comenta NVIDIA: linha do tempo com as fontes.",
+   "visual": "caixa de comentário digitando NVIDIA"
+  },
+  {
+   "cena": "trilhao",
+   "fala": "A Nvidia já perdeu mais de um trilhão e meio de dólares em valor.",
+   "legenda": "Mais de US$ 1,6 trilhão a menos em valor.",
+   "visual": "torre de moedas desabando em câmera lenta; odômetro descendo"
+  },
+  {
+   "cena": "congresso",
+   "fala": "E o Congresso chamou ele pra depor.",
+   "legenda": "Congresso chamou Jensen pra depor em 1º/12.",
+   "visual": "cúpula do Capitólio de blocos com calendário 1 DEZ"
+  },
+  {
+   "cena": "pergunta",
+   "fala": "Quantas IAs você usa no dia sem perceber?",
+   "legenda": "Quantas IAs você usa no seu dia sem perceber?",
+   "visual": "celular mostrando 5 apps de IA acendendo"
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta NVIDIA e me segue.",
+   "legenda": "Comenta NVIDIA",
+   "visual": "cartão da DM chegando; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "d) split-flap",
+  "contador": "b) odômetro descendo",
+  "legenda": "b) uma palavra gigante por vez",
+  "transicao": "b) whip pan",
+  "mascote": "sem mascote (mundo 3D)",
+  "camera": "c) travelling lateral pela avenida",
+  "fechamento": "caixa de comentário + cartão da DM",
+  "tipografia": "b) Archivo Black"
+ },
+ "palavras": 115,
+ "duracao_estimada_s": 41.1
+}

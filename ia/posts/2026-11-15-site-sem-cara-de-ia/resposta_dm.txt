@@ -1,0 +1,5 @@
+Aqui está! 🧵
+
+🔗 https://github.com/Nutlope/hallmark (grátis, MIT)
+Instalar: npx skills add nutlope/hallmark -g
+Depois, no Claude Code: peça o site, ou use /hallmark redesign pra refazer o seu.

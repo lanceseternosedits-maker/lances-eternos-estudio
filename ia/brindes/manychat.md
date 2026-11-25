@@ -1,0 +1,66 @@
+# Automação de DM (ManyChat) do @iaem60s
+
+Uma automação por palavra. Gatilho: **comentário com a palavra** (sem diferenciar maiúsculas) no post indicado.
+Fluxo padrão: resposta pública → DM com botão → link do brinde.
+
+## Respostas públicas (sortear entre elas)
+- Te mandei no direct 📩
+- Enviado! Confere a DM 😉
+- Chegou no seu direct 🚀
+
+## DESENHO (Reel "Canal de desenho animado", 04/11)
+DM 1: Opa! Aqui está a skill grátis que faz o Claude criar desenho animado 🎬 Toca no botão 👇
+Botão "Quero o passo a passo" → DM 2:
+Aqui está: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/desenho.md
+Precisa do Claude Code (planos pagos do Claude). Me segue pra não perder os próximos 😉
+
+## POST (carrossel + Reel "Canva Craft", 04 e 05/11)
+DM 1: Opa! Separei 10 prompts prontos pra criar os posts da sua loja no Canva 🎨 Toca no botão 👇
+Botão "Quero os prompts" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/post.md
+Me segue pra receber os próximos 😉
+
+## ESTILO (Reel "10 estilos de animação", formato lista)
+DM 1: Opa! Separei o prompt de cada um dos 10 estilos de animação 🎨 Toca no botão 👇
+Botão "Quero os prompts" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/estilo.md
+Funciona no claude.ai. Me segue pra não perder os próximos 😉
+
+## SKILLS (Reel "5 skills do Claude", formato 3, 07/11)
+DM 1: Opa! Separei o link das 5 skills (e como instalar) 🧩 Toca no botão 👇
+Botão "Quero os links" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/skills.md
+Rodam no Claude Code (planos pagos do Claude). Me segue pra não perder os próximos 😉
+
+## TV (Reel "5 projetos pra sua TV e seu celular", formato 3, 06/11 19:30)
+DM 1: Opa! Separei o link dos 5 projetos pra você. Toca no botão 👇
+Botão "Quero os links" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/tv.md
+Projetos abertos (MIT e Apache); alguns pedem Claude Code ou chave de IA. Me segue pra não perder os próximos 😉
+
+## EDITA (Reel "5 skills pra editar vídeo com o Claude", formato 3, 07/11 13:00)
+DM 1: Opa! Separei o link das 5 skills de vídeo pra você. Toca no botão 👇
+Botão "Quero os links" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/edita.md
+Rodam no Claude Code (planos pagos do Claude). Me segue pra não perder os próximos 😉
+
+## PC (Reel "5 programas grátis pro seu PC", formato 3, 07/11 19:30)
+DM 1: Opa! Separei o link dos 5 programas grátis pra você. Toca no botão 👇
+Botão "Quero os links" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/pc.md
+Todos abertos e grátis. Me segue pra não perder os próximos 😉
+
+## ESTUDA (Reel "5 projetos grátis pra estudar com IA", formato 3, 08/11 13:00)
+DM 1: Opa! Separei o link dos 5 projetos pra estudar pra você. Toca no botão 👇
+Botão "Quero os links" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/estuda.md
+O Claudemy roda no Claude Code (planos pagos do Claude). Me segue pra não perder os próximos 😉
+
+## JOGO (Reel "5 projetos que a Nintendo não queria", formato 3, 08/11 19:30)
+DM 1: Opa! Separei o link dos 5 projetos pra você. Toca no botão 👇
+Botão "Quero os links" → DM 2:
+Aqui estão: https://github.com/lanceseternosedits-maker/lances-eternos-estudio/blob/midia-ia/ia/brindes/jogo.md
+⚠️ Só funcionam com a cópia dos SEUS jogos, tirada do seu console. Não compartilhe jogos. Me segue pra não perder os próximos 😉
+
+## Novo post
+Criar `brindes/<palavra>.md` a partir do `resposta_dm.txt` e uma automação nova aqui, com a mesma estrutura.

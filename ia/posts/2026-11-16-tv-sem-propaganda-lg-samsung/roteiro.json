@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "TELA",
+ "tese": "5 PROJETOS GRÁTIS PRA SUA TV E SEU CELULAR · A TV TEM PROPAGANDA ATÉ NA TELA INICIAL",
+ "conceito": "Sala de estar à noite: TV de tubo que vira TV plana; anúncios como post-its colados na tela, cada projeto descola um; nº 1: a tela vira um carrossel limpo. Sem logos de marcas de TV.",
+ "brinde": "links dos 5 + passo a passo de qual escolher pela marca da sua TV",
+ "fontes": [
+  "https://github.com/humblemuzzu/dumbtv",
+  "https://github.com/man15h/tellyscope",
+  "https://github.com/udhaykumarbala/cleanyourtv-app",
+  "https://github.com/simbasjungles/free-my-tv",
+  "https://github.com/pengchujin/aerial-tv"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 14/11/2026): dumbtv 2.056, tellyscope 2.021, cleanyourtv-app 2.139, free-my-tv 6.378, aerial-tv 11.815, total 24.409; projetos criados entre 16/10 e 08/11/2026.",
+ "obs": "Tema TV repete o campeão de 06/11 (outros projetos, foco em LG/Samsung/Fire TV). Conferir no README a compatibilidade de cada um antes de produzir.",
+ "polemica": true,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "SUA TV TEM PROPAGANDA NA TELA INICIAL",
+   "fala": "Muitas TVs mostram propaganda na tela inicial. Cinco projetos grátis tiram os anúncios.",
+   "legenda": "Muitas TVs mostram propaganda na tela inicial. Cinco projetos grátis tiram os anúncios.",
+   "visual": "sala de estar à noite, TV de tela cheia de anúncios que vão sumindo um por um",
+   "itens": "tv-sem-propaganda-lg-samsung",
+   "etiqueta": [
+    "SUA TV TEM PROPAGANDA NA TELA INICIAL",
+    "5 PROJETOS · +24 MIL ESTRELAS",
+    "E O Nº 1 TIRA O ANÚNCIO DA TELA"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "tellyscope",
+   "fala": "Quinto: tellyscope. Limpa a TV Android e instala app pelo celular.",
+   "legenda": "5º tellyscope: limpa a TV Android pelo celular",
+   "visual": "limpa a TV Android pelo celular",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "man15h/tellyscope",
+   "estrelas": 2021
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "dumbtv",
+   "fala": "Quarto: dumbtv. Tira anúncio e rastreio da Fire TV, sem desbloquear o aparelho.",
+   "legenda": "4º dumbtv: tira anúncio e rastreio da Fire TV",
+   "visual": "tira anúncio e rastreio da Fire TV",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "humblemuzzu/dumbtv",
+   "estrelas": 2056
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "cleanyourtv-app",
+   "fala": "Terceiro: app de celular que limpa a TV Android. Boa… comenta TELA e manda pra um amigo.",
+   "legenda": "3º cleanyourtv-app: app de celular que limpa a TV Android",
+   "visual": "app de celular que limpa a TV Android",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "udhaykumarbala/cleanyourtv-app",
+   "estrelas": 2139
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "free-my-tv",
+   "fala": "Segundo: free-my-tv. Tela inicial sem anúncio na Google TV, na LG e na Samsung.",
+   "legenda": "2º free-my-tv: tela sem anúncio na Google TV, LG e Samsung",
+   "visual": "tela sem anúncio na Google TV, LG e Samsung",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "simbasjungles/free-my-tv",
+   "estrelas": 6378
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "aerial-tv",
+   "fala": "E o um: aerial-tv. Uma tela inicial estilo Apple TV, sem anúncio.",
+   "legenda": "1º aerial-tv: tela inicial estilo Apple TV, sem anúncio",
+   "visual": "tela inicial estilo Apple TV, sem anúncio",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ],
+   "repo": "pengchujin/aerial-tv",
+   "estrelas": 11815
+  }
+ ],
+ "elementos": {
+  "etiqueta": "a) caixa creme no topo",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "d) virada de página",
+  "mascote": "óculos + digitando",
+  "camera": "e) câmera na mão",
+  "fechamento": "b) pódio",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 80,
+ "duracao_estimada_s": 28.6
+}

@@ -1,0 +1,157 @@
+{
+ "voz": "Puck",
+ "modelo": "gemini-2.5-flash-preview-tts",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "cidade (Referência 7)",
+ "categoria": "como_funciona",
+ "chave": "OBRIGADO",
+ "tese": "SEU OBRIGADO PRA IA CUSTA MILHÕES",
+ "conceito": "Cidade de blocos à noite com um caminho iluminado: o \"obrigado\" é uma bolinha de luz que sai do celular gigante de um bonequinho, corre pelos cabos da rua (internet), entra num prédio enorme de servidores (data center), passa por um chip que aquece e liga um forno de luz por 1 segundo (energia), e volta ao celular como \"de nada!\". Contador de mensagens (ilustrativo). Paleta azul-noite + âmbar.",
+ "elementos": {
+  "trilha": "5 etapas no topo (VOCÊ DIGITA · VIAGEM · DATA CENTER · ENERGIA · VOLTA)",
+  "contador": "mensagens (ilustrativo)",
+  "legenda": "karaokê (palavra atual branca, próximas cinza) em pílula escura",
+  "camera": "câmera que segue a bolinha de luz (seguidor)",
+  "paleta": "azul-noite + âmbar",
+  "objeto": "forno de luz ligado por 1 segundo",
+  "fechamento": "\"de nada!\" volta ao celular + loop",
+  "tipografia": "Archivo Black"
+ },
+ "brinde": "o truque de agradecer junto do próximo pedido + as 2 fontes (post do Altman e o texto com a conta de energia)",
+ "fontes": [
+  "https://www.techradar.com/computing/artificial-intelligence/chatgpt-spends-tens-of-millions-of-dollars-on-people-saying-please-and-thank-you-but-sam-altman-says-its-worth-it",
+  "https://www.entrepreneur.com/business-news/sam-altman-saying-please-and-thank-you-to-chatgpt-costs/490341",
+  "https://blog.samaltman.com/the-gentle-singularity"
+ ],
+ "prova_viral": "Sam Altman no X (16/04/2025): \"tens of millions of dollars well spent — you never know\" (TechRadar, Entrepreneur). \"The Gentle Singularity\" (10/06/2025): 0,34 Wh por pergunta, \"about what an oven would use in a little over one second\". Formato cidade da Referência 7 (@lucassena, 09/11).",
+ "obs": "Não dizer \"por ano\" nem dar período: Altman não disse. Polêmica leve. Contador ilustrativo (selo). Sem logo da OpenAI.",
+ "polemica": true,
+ "agenda": null,
+ "palavras": 91,
+ "duracao_estimada_s": 32.5,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "SEU OBRIGADO PRA IA CUSTA MILHÕES",
+   "fala": "Dizer obrigado pro ChatGPT custa milhões, diz o chefe da OpenAI. Olha o caminho.",
+   "legenda": "Dizer obrigado pro ChatGPT custa milhões, diz o chefe da OpenAI. Olha o caminho.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "SEU OBRIGADO PRA IA CUSTA MILHÕES",
+    "DEZENAS DE MILHÕES DE DÓLARES",
+    "DIZ O CHEFE DA OPENAI"
+   ],
+   "etapas": [
+    "VOCÊ DIGITA",
+    "VIAGEM",
+    "DATA CENTER",
+    "ENERGIA",
+    "VOLTA"
+   ],
+   "contador": "mensagens de \"obrigado\" no mundo (ilustrativo)"
+  },
+  {
+   "cena": "e1",
+   "tag": "",
+   "fala": "Você digita obrigado e aperta enviar.",
+   "legenda": "Você digita obrigado e aperta enviar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 1
+  },
+  {
+   "cena": "e2",
+   "tag": "",
+   "fala": "Ele viaja até um prédio gigante cheio de computadores.",
+   "legenda": "Ele viaja até um prédio gigante cheio de computadores.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 2
+  },
+  {
+   "cena": "e3",
+   "tag": "",
+   "fala": "Lá, um chip monta a resposta, palavra por palavra.",
+   "legenda": "Lá, um chip monta a resposta, palavra por palavra.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 3
+  },
+  {
+   "cena": "meio",
+   "tag": "",
+   "fala": "Deixa o like e manda pro amigo educado com a IA. Comenta OBRIGADO.",
+   "legenda": "Deixa o like e manda pro amigo educado com a IA. Comenta OBRIGADO.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "e4",
+   "tag": "",
+   "fala": "Uma pergunta média gasta a energia de um forno ligado por pouco mais de um segundo.",
+   "legenda": "Uma pergunta média gasta a energia de um forno ligado por pouco mais de um segundo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 4
+  },
+  {
+   "cena": "e5",
+   "tag": "",
+   "fala": "Agora multiplica por milhões de pessoas. Ele disse: dezenas de milhões de dólares.",
+   "legenda": "Agora multiplica por milhões de pessoas. Ele disse: dezenas de milhões de dólares.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 5
+  },
+  {
+   "cena": "cta",
+   "tag": "",
+   "fala": "Truque: agradece junto com o próximo pedido. Você agradece a IA?",
+   "legenda": "Truque: agradece junto com o próximo pedido. Você agradece a IA?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

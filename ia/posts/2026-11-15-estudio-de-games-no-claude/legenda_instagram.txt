@@ -1,0 +1,4 @@
+Comenta GAME que eu te mando o link e o passo a passo 🎮
+Tem gente montando um estúdio de games inteiro dentro do Claude: 49 agentes de IA, com diretor, líderes de equipe e especialistas. O Claude Code Game Studios é código aberto e já passou de 39 mil estrelas no GitHub. Funciona com Godot, Unity e Unreal, e toda decisão importante passa por você.
+Qual jogo você faria primeiro?
+#claudecode #games #gamedev #ia #inteligenciaartificial

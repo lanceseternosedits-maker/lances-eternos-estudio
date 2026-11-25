@@ -1,0 +1,23 @@
+{
+ "data": "2026-11-16",
+ "horario": "17:00",
+ "pilar": "reel",
+ "formato": "palco",
+ "temas": [
+  "ia-liga-pra-voce"
+ ],
+ "fontes": [
+  "https://github.com/mutonby/agentring"
+ ],
+ "cta": "LIGACAO",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-16 17:00",
+  "tiktok": "2026-11-16 17:00"
+ },
+ "status": "descartado",
+ "categoria": "novidade",
+ "horario_provisorio": "Vitor (07/11): grade intercalada (4 🆕 por dia em 09–15/11) tirou esta novidade da semana; horário provisório, a rodada de quinta (12/11) confirma",
+ "status_antes_filtro": "roteiro aprovado",
+ "nota_filtro": "chance 44%, abaixo do corte"
+}

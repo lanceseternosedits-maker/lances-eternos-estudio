@@ -1,0 +1,20 @@
+Comenta YOUTUBE que eu te mando os links. 💬
+
+O YouTube enche seu celular e sua TV de propaganda. Cinco projetos grátis cortam isso.
+
+5º SponsorBlock: Pula patrocínio dentro do vídeo.
+4º FreeTube: Assiste ao YouTube sem conta e sem rastreio.
+3º NewPipe: App leve de YouTube pro Android, sem anúncio.
+2º Pi-hole: Bloqueia propaganda da casa toda, até da TV.
+1º uBlock Origin: Bloqueia anúncio em qualquer site.
+
+⚠️ Use só no seu aparelho e na sua rede; nada de baixar o que não é seu.
+
+💬 Comenta YOUTUBE e me segue. Deixa o like e manda pra aquele amigo que reclama de propaganda.
+
+Qual propaganda mais te irrita na TV? 👇
+
+Fonte: repositórios no GitHub (estrelas conferidas em 23/11/2026). Projetos independentes, sem ligação com as empresas citadas.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#youtube #propaganda #celular #tv #github

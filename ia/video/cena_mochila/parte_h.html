@@ -1,0 +1,12 @@
+const U = document.getElementById('u'), X = U.getContext('2d');
+const fnt = (s, f = 'AB') => `${f === 'SG' || f === 'FR' ? 700 : 400} ${s * (f === 'PD' ? 1.18 : 1)}px ${f}`;
+const pil = (x, y, w, h, r, c) => { X.fillStyle = c; X.beginPath(); X.roundRect(x, y, w, h, r); X.fill(); };
+function cabe(txt, f, mx, fam = 'AB') { while (f > 18) { X.font = fnt(f, fam); if (X.measureText(txt).width <= mx) break; f -= 2; } return f; }
+function neon(txt, x, y, f, cor = '#fff', glow = ROSA, al = 'center', fam = 'PD') { X.save(); X.font = fnt(f, fam); X.textAlign = al; X.textBaseline = 'middle'; X.lineJoin = 'round';
+  if (cor === '#ffd36e' || cor === ROSA || cor === 'grad') { const g = X.createLinearGradient(0, y - f * .5, 0, y + f * .5); g.addColorStop(0, '#ff5fa8'); g.addColorStop(.55, '#ff8a6a'); g.addColorStop(1, '#ffb84a'); cor = g; }
+  X.shadowColor = 'rgba(30,8,50,.55)'; X.shadowBlur = f * .1; X.shadowOffsetY = f * .07; X.lineWidth = f * .16; X.strokeStyle = '#3a1458'; X.strokeText(txt, x, y); X.shadowColor = 'transparent'; X.fillStyle = cor; X.fillText(txt, x, y); X.restore(); }
+function estrelas(n, lt) { const w = 300, x = 505 - w / 2, y = 280; pil(x, y, w, 76, 38, 'rgba(58,28,40,.82)'); X.strokeStyle = ROSA; X.lineWidth = 3; X.beginPath(); X.roundRect(x, y, w, 76, 38); X.stroke();
+  for (let i = 0; i < 4; i++) { const on = i < n, nov = i === n - 1, s = nov ? back(lin(lt, .05, .4)) : 1; X.save(); X.translate(x + 48 + i * 46, y + 38); X.scale(s, s); X.fillStyle = on ? '#ffd36e' : 'rgba(255,255,255,.25)'; star(0, 0, 17); X.restore(); }
+  X.fillStyle = '#fff'; X.font = fnt(30, 'SG'); X.textAlign = 'left'; X.textBaseline = 'middle'; X.fillText(n + '/4', x + 232, y + 40); }
+function star(x, y, r) { X.beginPath(); for (let i = 0; i < 10; i++) { const a = -Math.PI / 2 + i * Math.PI / 5, rr = i % 2 ? r * .45 : r; X.lineTo(x + Math.cos(a) * rr, y + Math.sin(a) * rr); } X.closePath(); X.fill(); }
+function cartaoBranco(x, y, w, h) { X.save(); X.shadowColor = 'rgba(0,0,0,.4)'; X.shadowBlur = 30; X.shadowOffsetY = 12; pil(x, y, w, h, 28, CREME); X.restore(); }

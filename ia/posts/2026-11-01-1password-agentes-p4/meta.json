@@ -1,0 +1,29 @@
+{
+  "pilar": "novidade",
+  "formato": "noticia",
+  "temas": [
+    "agentes de IA",
+    "segurança",
+    "senhas"
+  ],
+  "empresas": [
+    "1Password",
+    "Anthropic",
+    "OpenAI",
+    "Meta"
+  ],
+  "fontes": [
+    "1Password",
+    "TechCrunch",
+    "PCWorld",
+    "The Next Web"
+  ],
+  "paleta": 4,
+  "horarios": {
+    "instagram": "19:45",
+    "tiktok": "19:45",
+    "youtube": "19:55"
+  },
+  "cta": null,
+  "data": "2026-11-01"
+}

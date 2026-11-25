@@ -1,0 +1,18 @@
+Comenta ESPELHO que eu te mando os 5 links.
+
+Cinco programas grátis colocam o seu celular inteiro na tela do PC. E o número um é bizarro.
+
+5) scrcpy-mask: scrcpy-mask. Joga os jogos do celular com mouse e teclado.
+4) ws-scrcpy: ws-scrcpy. Abre o celular dentro do navegador.
+3) scrcpy-gui: scrcpy-gui. Tudo com botão, sem digitar comando.
+2) QtScrcpy: QtScrcpy. Mostra e controla o celular em tempo real.
+1) scrcpy: scrcpy. Seu Android inteiro numa janela, controlado pelo mouse.
+
+💬 Comenta ESPELHO e me segue. Salva pra testar depois. Deixa o like e manda pra aquele amigo que precisa disso.
+
+Grátis e só pra Android. No trabalho, você usaria o celular pelo PC? 👇
+
+Fontes: repositórios no GitHub (estrelas em 13/11/2026: 195.452 somadas).
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#celular #android #pc #ia #tecnologia

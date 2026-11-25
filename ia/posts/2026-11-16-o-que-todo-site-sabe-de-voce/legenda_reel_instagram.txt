@@ -1,0 +1,20 @@
+Comenta RASTRO que eu te mando o teste pra ver o que os sites sabem de você. 🕵️
+
+Qualquer site consegue ver cinco coisas do seu navegador antes do primeiro clique:
+
+5) Seu idioma e seu fuso horário
+4) O tamanho da sua tela
+3) Qual navegador e sistema você usa
+2) Em alguns navegadores, até o modelo da sua placa de vídeo
+1) Tudo isso junto vira uma "impressão digital" que te reconhece sem cookie (num estudo da EFF, de 2010, 83,6% dos navegadores testados eram únicos; a amostra era de quem fez o teste)
+
+Não é invasão: é o que o seu próprio navegador entrega. Dá pra ver (e reduzir) com o teste grátis que eu vou te mandar. Um navegador com proteção contra rastreio já ajuda, mas nenhum promete anonimato total.
+
+💬 Comenta RASTRO e me segue. Deixa o like e manda pra aquele amigo que acha que está anônimo na internet.
+
+Qual navegador você usa no celular? 👇
+
+Fontes: EFF (Cover Your Tracks e estudo "How Unique Is Your Web Browser?", 2010), documentação MDN e o projeto aberto who-are-you no GitHub (MIT, 577 estrelas em 12/11/2026).
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#privacidade #internet #seguranca #tecnologia #ia

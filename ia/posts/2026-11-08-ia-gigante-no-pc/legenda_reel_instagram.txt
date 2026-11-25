@@ -1,0 +1,18 @@
+Comenta LOCAL que eu te mando os 3 projetos pra rodar IA gigante no seu próprio PC, sem mensalidade. E o nº 1 roda uma IA de 748 bilhões de parâmetros. 💻
+
+3º kapitsa: IA rápida em Mac com chip da Apple
+2º PolyStrata: instala vários modelos de IA no seu PC com um clique
+1º Project Maya: roda modelos de centenas de bilhões de parâmetros (até o DeepSeek de 748 bilhões) nas suas placas de vídeo
+
+Aviso honesto: o nº 1 é pra quem tem máquina forte (várias placas de vídeo). Os outros dois rodam em computador mais comum.
+
+Os 3 são de código aberto e somam mais de 4 mil estrelas no GitHub em 1 mês.
+
+💬 Comenta LOCAL e me segue que eu te mando os links + o hardware que cada um pede.
+
+Você pagaria mensalidade ou rodaria no seu PC? 👇
+
+Fonte: páginas oficiais dos projetos no GitHub (estrelas lidas em 07/11).
+Animação e voz feitas com IA. Perfil independente, sem ligação com a Apple, com a Anthropic nem com os projetos citados.
+
+#ia #inteligenciaartificial #pc #iagratis #tecnologia

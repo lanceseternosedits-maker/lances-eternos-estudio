@@ -1,0 +1,7 @@
+Aqui está! 🪜
+
+1) Conta: "[seu problema]. Vamos pensar passo a passo e só no fim dê a resposta."
+2) Orçamento: "Monte meu orçamento do mês passo a passo, mostrando cada conta."
+3) Decisão: "Quero decidir entre A e B. Pense passo a passo: prós, contras e riscos, e só depois recomende."
+
+📄 O estudo: https://arxiv.org/abs/2205.11916

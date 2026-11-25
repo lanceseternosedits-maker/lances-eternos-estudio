@@ -1,0 +1,32 @@
+{
+ "data": "2026-11-21",
+ "horario": "20:30",
+ "horarios": {
+  "instagram": "2026-11-21 20:30",
+  "tiktok": "2026-11-21 20:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "IA",
+  "Deep Blue",
+  "AlphaGo",
+  "história"
+ ],
+ "fontes": [
+  "https://www.chessprogramming.org/Kasparov_versus_Deep_Blue_1997",
+  "https://spectrum.ieee.org/how-ibms-deep-blue-beat-world-champion-chess-player-garry-kasparov",
+  "https://deepmind.google/research/breakthroughs/alphago/"
+ ],
+ "prova_viral": "Deep Blue 1997 (IEEE Spectrum, Chess Programming Wiki); Watson no Jeopardy (IBM, fev/2011); AlphaGo x Lee Sedol 4–1 (DeepMind, mar/2016); Libratus no pôquer (CMU, jan/2017); OpenAI Five x OG (OpenAI, abr/2019). XADREZ/Deep Blue teve 2.759 views em nossa conta.",
+ "cta": "CAMPEAO",
+ "polemica": false,
+ "vaga": 6,
+ "candidato": "a",
+ "primeiro_comentario": "💬 Comenta CAMPEAO que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 41%, abaixo do corte"
+}

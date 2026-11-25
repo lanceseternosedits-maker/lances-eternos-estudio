@@ -1,0 +1,18 @@
+Comenta MORANGO que eu te mando o truque e 3 pedidos prontos. 🍓
+
+Por que a IA erra quantos erres tem na palavra morango? Cinco passos.
+
+5º Tokens: a IA lê pedaços de palavra (tokens)
+4º Pedaços: morango vira pedaços, sem ver as letras
+3º Lego: como ler só as peças de Lego
+2º Efeito: erra contar letra, acerta o sentido
+1º Truque: peça pra escrever letra por letra
+
+💬 Comenta MORANGO e me segue. Deixa o like e manda pra aquele amigo que usa IA todo dia.
+
+Qual coisa simples a IA já errou pra você? 👇
+
+Fontes: OpenAI (tokenizer) e Wikipedia (LLM). Sem ligação com as empresas citadas.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #chatgpt #inteligenciaartificial #comofunciona #dicasdeia

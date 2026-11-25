@@ -1,0 +1,11 @@
+Opa! Aqui vai o resumo do acordo Apple + Alibaba:
+
+• Na China, o Qwen (IA da Alibaba) roda dentro da Siri, das Ferramentas de Escrita e da Inteligência Visual.
+• Beta do iOS 27.3 para desenvolvedores: 4 de novembro. Para o público: dezembro.
+• Chegam: Ferramentas de Escrita, Genmoji, Limpar, resumo e prioridade de notificações, Inteligência Visual e Tradução ao vivo com AirPods.
+• Ficam de fora: a nova Siri com IA e os recursos da WWDC 2026, além do Image Playground.
+• Aparelhos: iPhone 15 Pro em diante (inclui iPhone 16 e iPhone Air). Mac e iPad dependem de nova aprovação.
+
+E no Brasil? Nada muda: o acordo vale só para a Apple Intelligence na China. Seu iPhone aqui não passa a usar o Qwen.
+
+Fontes: Apple via MacRumors (30/10), CGTN (31/10).

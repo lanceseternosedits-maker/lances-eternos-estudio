@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º Rufus: https://github.com/pbatard/rufus
+4º Flow Launcher: https://github.com/Flow-Launcher/Flow.Launcher
+3º Files: https://github.com/files-community/Files
+2º ShareX: https://github.com/ShareX/ShareX
+1º PowerToys: https://github.com/microsoft/PowerToys
+
+⚠️ Programas de terceiros, exceto o PowerToys (da Microsoft); baixe só do site oficial.
+
+Brinde: Links dos 5 + os atalhos do PowerToys que mais poupam tempo.

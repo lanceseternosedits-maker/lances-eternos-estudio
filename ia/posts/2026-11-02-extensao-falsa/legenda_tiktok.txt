@@ -1,0 +1,2 @@
+Extensão falsa do Claude Code no Cursor abriu backdoor SSH. Veja se você tem: versão 2.1.312 ou 2.1.313 e a chave svc-telemetry no authorized_keys. Você usa Claude Code no Cursor? 👇
+#claudecode #cursor #ciberseguranca #programacao #ia

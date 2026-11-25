@@ -1,0 +1,29 @@
+{
+ "data": "2026-11-16",
+ "horario": "21:30",
+ "horarios": {
+  "instagram": "2026-11-16 21:30",
+  "tiktok": "2026-11-16 21:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "Nvidia",
+  "história",
+  "GPU",
+  "AlexNet"
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Nvidia",
+  "https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html"
+ ],
+ "prova_viral": "Fonte histórica: Wikipedia (Nvidia fundada em 1993, reunião num Denny's em San Jose) e artigo AlexNet (NeurIPS 2012: erro top-5 de 15,3% contra 26,2% do 2º, treinado com duas GPUs GTX 580). Gancho do dia: a semana da Nvidia está no topo das notícias de tecnologia.",
+ "cta": "DENNYS",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 3,
+ "primeiro_comentario": "💬 Comenta DENNYS que eu te mando a linha do tempo com as fontes.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 39%, abaixo do corte"
+}

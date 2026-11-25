@@ -1,0 +1,49 @@
+
+// ---------- estantes da biblioteca-estação (lombadas pastel) nos dois lados da praça ----------
+const LOMB = ['#e8a0a0', '#f2c078', '#9cc4a8', '#8fb4e0', '#d8b0e0', '#f5e0a0', '#c98a6a', '#b0d0d8'];
+for (const lado of [-1, 1]) { const E0 = new THREE.Group(); E0.position.set(lado * 11.5, 0, -10); S.add(E0);
+  box(1.4, 12.5, 15, M('#a8744c', { roughness: .8 }), E0, lado * .5, 6.25, 0);
+  const NB = 5 * 24, im = new THREE.InstancedMesh(new THREE.BoxGeometry(.35, 1.9, .5), M('#ffffff', { roughness: .8 }), NB); E0.add(im); const m = new THREE.Matrix4(); let k = 0;
+  for (let r = 0; r < 5; r++) { box(.2, .18, 14.6, M('#7a4c2c'), E0, -lado * .45, 1.2 + r * 2.2, 0);
+    for (let c = 0; c < 24; c++) { m.makeTranslation(-lado * 0.62 + 0, 2.3 + r * 2.2, -7 + .3 + c * .58); m.multiply(new THREE.Matrix4().makeScale(1, .85 + rnd() * .25, 1)); im.setMatrixAt(k, m); im.setColorAt(k++, new THREE.Color(LOMB[(rnd() * 8) | 0])); } } }
+// plataforma de madeira da estação
+const PLAT = mesh(new THREE.CylinderGeometry(9, 9.4, .3, 40), M('#d9a878', { roughness: .85 }), S, 0, .15, -6); box(22, .16, .5, M('#fff1d6'), S, 0, .32, 5);
+
+// ---------- mochila gigante (azul, aberta na frente para ver as caixas) ----------
+const BAG = new THREE.Group(); BAG.position.set(0, .3, -8); S.add(BAG);
+const BW = 5.6, PITCH = 1.95, Y0 = 1.35, AZ = M('#4a7fd4', { roughness: .75 }), AZ2 = M('#34609f', { roughness: .75 });
+box(BW + .3, .4, 3.2, AZ2, BAG, 0, .0, 0); box(BW, 9.4, .35, AZ, BAG, 0, 4.4, -1.3); box(.35, 8.6, 3, AZ, BAG, -BW / 2, 4.3, 0); box(.35, 6.0, 3, AZ, BAG, BW / 2, 5.6, 0);
+box(BW + .7, .35, 3.4, AZ2, BAG, 0, 8.7, -.05); // borda (rim)
+box(BW * .8, 1.2, .3, AZ2, BAG, 0, 9.4, -1.5); // aba traseira
+for (const x of [-1.9, 1.9]) { box(.5, 5.2, .25, AZ2, BAG, x, 3.0, -1.55); box(.34, .34, .3, M('#ffd36e', { metalness: .6, roughness: .35 }), BAG, x, 5.7, -1.5); } // alças + fivelas
+const ZIP = box(BW - .2, .16, .1, M('#ffd36e', { metalness: .5 }), BAG, 0, 7.9, 1.5); ZIP.visible = false;
+// crachá pendurado na lateral
+const crachaT = ctex(256, 320, g => { g.fillStyle = '#fff6e6'; g.fillRect(0, 0, 256, 320); g.fillStyle = '#34609f'; g.fillRect(0, 0, 256, 70); g.fillStyle = '#fff'; g.font = '400 36px AB'; g.textAlign = 'center'; g.fillText('MOCHILA', 128, 50);
+  g.fillStyle = '#d9774a'; g.fillRect(88, 100, 80, 70); g.fillStyle = '#111'; g.fillRect(104, 114, 12, 28); g.fillRect(140, 114, 12, 28); g.fillStyle = '#3b2010'; g.font = '400 32px AB'; g.fillText('TAMANHO', 128, 232); g.fillText('FIXO', 128, 276); });
+const CRACHA = new THREE.Group(); CRACHA.position.set(-BW / 2 - .1, 7.4, 1.4); BAG.add(CRACHA); box(.04, 1.3, .04, M('#fff'), CRACHA, 0, .9, 0);
+mesh(new THREE.BoxGeometry(1.5, 1.9, .1), [M('#fff6e6'), M('#fff6e6'), M('#fff6e6'), M('#fff6e6'), new THREE.MeshBasicMaterial({ map: crachaT }), M('#fff6e6')], CRACHA, 0, -.3, 0);
+// esteira
+const estT = ctex(128, 64, g => { g.fillStyle = '#4a3a2e'; g.fillRect(0, 0, 128, 64); g.fillStyle = '#6e5844'; for (let i = 0; i < 4; i++) g.fillRect(i * 32, 0, 14, 64); }); estT.wrapS = estT.wrapT = THREE.RepeatWrapping; estT.repeat.set(14, 1);
+const ESTEIRA = mesh(new THREE.BoxGeometry(14.2, .3, 2.6), [M('#3a2a1e'), M('#3a2a1e'), new THREE.MeshStandardMaterial({ map: estT, roughness: .8 }), M('#3a2a1e'), M('#3a2a1e'), M('#3a2a1e')], BAG, BW / 2 + 3.6, Y0 - .95, 0);
+for (const x of [4, 7, 10, 13]) box(.3, 1, 2.6, M('#3a2a1e'), BAG, x, Y0 - 1.5, 0);
+// caixas de texto (mensagens da conversa)
+const BOXES = [], ROT = ['1 · FORMATO', '2 · TOM', '3 · EVITE'], SUBR = ['curto ou passo a passo', 'simples, sem jargão', 'o que te irrita'];
+function mkBox(j) { const g = new THREE.Group(); const ouro = j === 0 || j >= 8;
+  box(4.3, 1.6, 2.2, M(ouro ? '#f3c04e' : '#f5e9d8', { roughness: .7 }), g, 0, 0, 0);
+  const tex = ctex(512, 192, (c, w, h) => { c.fillStyle = ouro ? '#f7d070' : '#fff3e6'; c.fillRect(0, 0, w, h);
+    if (j === 0) { c.fillStyle = '#3b2010'; c.font = '700 74px FR'; c.textAlign = 'center'; c.fillText('COMEÇO', 256, 100); c.font = '400 36px AB'; c.fillStyle = '#7a3a10'; c.fillText('SUAS 3 REGRAS', 256, 154); c.fillStyle = '#c4473a'; c.fillRect(0, 0, 36, h); }
+    else if (j >= 8) { c.fillStyle = '#3b2010'; c.font = '700 64px FR'; c.textAlign = 'center'; c.fillText(ROT[j - 8], 256, 96); c.font = '700 34px SG'; c.fillStyle = '#7a3a10'; c.fillText(SUBR[j - 8], 256, 150); c.fillStyle = '#c4473a'; c.fillRect(0, 0, 36, h); }
+    else { const eu = j % 2; c.fillStyle = eu ? '#4a7fd4' : '#d9774a'; c.beginPath(); c.arc(60, 56, 30, 0, 7); c.fill(); c.fillStyle = '#3b2010'; c.font = '700 34px SG'; c.textAlign = 'left'; c.fillText(eu ? 'VOCÊ' : 'IA', 112, 68);
+      c.fillStyle = '#d9c4b0'; for (let i = 0; i < 3; i++) { c.beginPath(); c.roundRect(40, 108 + i * 24, [420, 360, 250][(i + j) % 3], 14, 7); c.fill(); } } });
+  mesh(new THREE.PlaneGeometry(4.2, 1.5), new THREE.MeshBasicMaterial({ map: tex }), g, 0, 0, 1.11).castShadow = false; BAG.add(g); g.visible = false; return g; }
+for (let j = 0; j < 11; j++) BOXES.push(mkBox(j));
+const FAROL = mesh(new THREE.RingGeometry(1.6, 2.1, 40), new THREE.MeshBasicMaterial({ color: '#ffd36e', transparent: true, opacity: .8, side: THREE.DoubleSide }), S, -4.8, .62, -4.6); FAROL.rotation.x = -Math.PI / 2; FAROL.castShadow = false; FAROL.visible = false;
+const TAU = .95, GOLPE = V(0, 0, 0);
+function posBox(j, n) { const g = BOXES[j], p = n - j; g.visible = false; if (p <= 0) return 0; g.visible = true; g.scale.setScalar(1); g.rotation.set(0, 0, 0); let x = 0, y = Y0, z = 0, tau = -1;
+  if (p < 1) { x = 6 * (1 - eo(p)); }
+  else if (p < 5) { const f = Math.floor(p), pe = f + eio(p - f); y = Y0 + (pe - 1) * PITCH + Math.max(0, pe - 4) * .6; }
+  else { tau = (p - 5) * TAU; const u = cl(tau / 1.05); x = -4.8 * u; y = Y0 + 4 * PITCH + .6 - (Y0 + 4 * PITCH + .6 - 1.4) * u * u; z = 3.5 * u; g.rotation.z = .9 * Math.sin(u * Math.PI * .95) + .16 * u;
+    if (tau > 1.05) { const b = tau - 1.05; y += (j === 0 ? .22 : .1) * Math.abs(Math.sin(b * 9)) * Math.exp(-b * 4); if (j > 0) g.scale.setScalar(Math.max(.001, 1 - lin(tau, 1.2, 1.7))); } }
+  g.position.set(x, y, z); return tau; }
+
+// ---------- camada 2D ----------

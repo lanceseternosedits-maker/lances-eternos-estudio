@@ -1,0 +1,6 @@
+Tá aqui 👇 o mapa dos 4 fantasmas:
+Blinky (vermelho): persegue direto
+Pinky (rosa): mira à frente de você
+Inky (azul): usa a posição do Blinky
+Clyde (laranja): persegue de longe e foge de perto
+https://pacman.holenet.info/

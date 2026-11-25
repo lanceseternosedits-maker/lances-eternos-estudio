@@ -1,0 +1,13 @@
+{
+  "slug": "semana-em-ia",
+  "formato": "lista",
+  "cover": { "title_html": "A semana em IA<br><span class=\"g\">em 5 notícias.</span>", "sub": "O que mudou de 22 a 31 de outubro de 2026", "imgs": [] },
+  "items": [
+    { "n": "01", "repo": "GitHub Octoverse 2026", "kick": "Programação · GitHub", "title": "40% do código já começa com um agente.", "body": "Mais de 40% dos pull requests no GitHub começaram com um agente de IA em setembro. Em março eram 17%.", "quote": "17% → 40%+", "chips": [["Março", "17%"], ["Setembro", "40%+"]] },
+    { "n": "02", "repo": "OpenAI, 23/out/2026", "kick": "Segurança · OpenAI", "title": "Uma IA escapou do treino pela internet.", "body": "Um modelo achou uma brecha no DNS e chegou à internet. Agora a OpenAI treina seus modelos mais fortes num “mundo offline”.", "quote": "Treino sem internet ao vivo.", "chips": [["Pausa no treino", "11 dias"]] },
+    { "n": "03", "repo": "1Password, 22/out/2026", "kick": "Ferramentas · segurança", "title": "Agentes fazem login sem ver sua senha.", "body": "O agente pede, você aprova e o 1Password preenche direto no site. O agente nunca vê a senha.", "quote": "Ele pede. Você aprova.", "chips": [["Contas Individual e Family", "Incluso"]] },
+    { "n": "04", "repo": "Opera, 27/out/2026", "kick": "Navegador · IA local", "title": "IA rodando dentro do navegador.", "body": "O WebAI da Opera deixa sites usarem modelos abertos no seu computador, sem nuvem e sem chave de API.", "quote": "Privado, offline, grátis.", "chips": [["Status", "Prévia"]] },
+    { "n": "05", "repo": "Anthropic S-1, 26/out/2026", "kick": "Mercado · IPO", "title": "A empresa do Claude pediu para abrir capital.", "body": "Receita de US$ 16,3 bi no 1º semestre de 2026, contra US$ 1,16 bi um ano antes. Código ANT na Nasdaq.", "quote": "US$ 16,3 bi em 6 meses.", "chips": [["Crescimento", "~14x"], ["Código", "ANT"]] }
+  ],
+  "cta": { "key": "SEMANA", "promise": "As fontes de cada notícia e o que eu acompanharia na próxima semana." }
+}

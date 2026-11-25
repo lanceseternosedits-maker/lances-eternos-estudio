@@ -1,0 +1,7 @@
+Aqui está! 📰
+
+📄 "Attention Is All You Need" (2017): https://arxiv.org/abs/1706.03762
+
+Resumo fácil: antes a IA lia palavra por palavra; o Transformer lê a frase toda de uma vez e dá "atenção" às palavras que se ligam. GPT = Generative Pre-trained Transformer.
+
+Curiosidade: a ordem dos 8 autores foi sorteada; todos contribuíram igual.

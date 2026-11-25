@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "ADOBE",
+ "tese": "VOCÊ AINDA PAGA ADOBE? · +191 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1; ainda paga Adobe?; ateliê de design, mascote de boina desenhando",
+ "brinde": "Links dos 5 + qual deles troca cada programa pago",
+ "fontes": [
+  "https://github.com/mifi/lossless-cut",
+  "https://github.com/darktable-org/darktable",
+  "https://github.com/mltframework/shotcut",
+  "https://github.com/penpot/penpot",
+  "https://github.com/upscayl/upscayl"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): LosslessCut 46.340, darktable 13.494, Shotcut 15.770, Penpot 62.654, Upscayl 53.092; total 191.350.",
+ "obs": "",
+ "polemica": true,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "VOCÊ AINDA PAGA ADOBE?",
+   "fala": "Você ainda paga Adobe todo mês? Cinco programas grátis fazem foto, vídeo e design.",
+   "legenda": "Você ainda paga Adobe todo mês? Cinco programas grátis fazem foto, vídeo e design.",
+   "visual": "VOCÊ AINDA PAGA ADOBE?",
+   "itens": "ainda-paga-adobe",
+   "etiqueta": [
+    "VOCÊ AINDA PAGA ADOBE?",
+    "+191 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "LosslessCut",
+   "fala": "Quinto: LosslessCut. Corta vídeo sem perder qualidade.",
+   "legenda": "Quinto: LosslessCut. Corta vídeo sem perder qualidade.",
+   "visual": "Corta vídeo sem perder qualidade.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "mifi/lossless-cut",
+   "estrelas": 46340
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "darktable",
+   "fala": "Quarto: darktable. Revela foto profissional, estilo Lightroom.",
+   "legenda": "Quarto: darktable. Revela foto profissional, estilo Lightroom.",
+   "visual": "Revela foto profissional, estilo Lightroom.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "darktable-org/darktable",
+   "estrelas": 13494
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Shotcut",
+   "fala": "Terceiro: Shotcut. Edita vídeo de verdade, sem marca d'água. Essa é legalzinha… comenta ADOBE que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Shotcut. Edita vídeo de verdade, sem marca d'água. Essa é legalzinha… comenta ADOBE que eu mando os cinco. Manda pro amigo.",
+   "visual": "Edita vídeo de verdade, sem marca d'água.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "mltframework/shotcut",
+   "estrelas": 15770
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Penpot",
+   "fala": "Segundo: Penpot. Cria design de telas, estilo Figma.",
+   "legenda": "Segundo: Penpot. Cria design de telas, estilo Figma.",
+   "visual": "Cria design de telas, estilo Figma.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "penpot/penpot",
+   "estrelas": 62654
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Upscayl",
+   "fala": "E o primeiro: Upscayl. Aumenta a qualidade de qualquer foto com IA.",
+   "legenda": "E o primeiro: Upscayl. Aumenta a qualidade de qualquer foto com IA.",
+   "visual": "Aumenta a qualidade de qualquer foto com IA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "upscayl/upscayl",
+   "estrelas": 53092
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta ADOBE e me segue. Qual programa você paga todo mês no trabalho?",
+   "legenda": "Comenta ADOBE e me segue. Qual programa você paga todo mês no trabalho?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "f) termômetro",
+  "legenda": "b) uma palavra gigante com pop",
+  "transicao": "b) chicote de câmera",
+  "camera": "e) câmera na mão",
+  "fechamento": "d) tela CONTINUE?",
+  "tipografia": "a) Space Grotesk",
+  "mascote": "boina e óculos, desenhando",
+  "cenario": "ateliê de design com tablet e tinta"
+ },
+ "palavras": 83,
+ "duracao_estimada_s": 29.6
+}

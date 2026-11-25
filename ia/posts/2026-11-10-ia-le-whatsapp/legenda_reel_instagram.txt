@@ -1,0 +1,16 @@
+Comenta ZAP que eu te mando o passo a passo. 💬🔎
+
+Sabe aquela mensagem perdida no WhatsApp? Com o whatsapp-mcp, o Claude lê e busca as suas conversas por você.
+
+✅ Só leitura: ele não manda mensagem e não apaga nada.
+✅ Você pergunta em português: "qual era o endereço que a Ana mandou?"
+⚠️ Privacidade: os dados passam por um servidor. Se preferir, rode a sua própria cópia.
+
+💬 Comenta ZAP e me segue. Deixa o like e manda pra aquele amigo que vive perdendo mensagem.
+
+Qual conversa você mais procura no trabalho? 👇
+
+Fonte: github.com/finereli/whatsapp-mcp
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #whatsapp #claude #produtividade #inteligenciaartificial

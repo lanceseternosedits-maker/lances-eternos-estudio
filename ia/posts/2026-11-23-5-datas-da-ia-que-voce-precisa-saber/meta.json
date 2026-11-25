@@ -1,0 +1,31 @@
+{
+ "data": "2026-11-23",
+ "horario": "21:30",
+ "horarios": {
+  "instagram": "2026-11-23 21:30",
+  "tiktok": "2026-11-23 21:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "IA",
+  "história",
+  "Turing",
+  "ChatGPT"
+ ],
+ "fontes": [
+  "https://academic.oup.com/mind/article/LIX/236/433/986238",
+  "https://openai.com/index/chatgpt/"
+ ],
+ "prova_viral": "Turing (Mind, 1950); proposta de Dartmouth (AI Magazine, 1955); Deep Blue (IEEE Spectrum, 1997); AlphaGo (DeepMind, 2016); ChatGPT (OpenAI, 30/11/2022). XADREZ/Deep Blue: 2.759 views.",
+ "cta": "DATAS",
+ "polemica": false,
+ "vaga": 14,
+ "candidato": "b",
+ "primeiro_comentario": "💬 Comenta DATAS que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 39%, abaixo do corte"
+}

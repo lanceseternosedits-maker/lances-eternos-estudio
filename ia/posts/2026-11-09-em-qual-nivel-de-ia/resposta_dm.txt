@@ -1,0 +1,8 @@
+Aqui está! 🪜
+
+Nível 2 → conte quem você é no começo da conversa.
+Nível 3 → ChatGPT: Configurações → Personalização → Instruções personalizadas (texto pronto: "Sou [profissão], moro em [cidade], quero respostas curtas, com passo a passo e exemplos do meu dia a dia"). No Claude: crie um Projeto e cole o mesmo texto nas instruções.
+Nível 4 → ChatGPT: peça "me manda um resumo das notícias de [tema] todo dia às 7h" (Tarefas, conforme o seu plano).
+Nível 5 → ChatGPT agent: dê a tarefa inteira e acompanhe (planos pagos).
+
+Fontes: help.openai.com/en/articles/8096356 · help.openai.com/en/articles/10291617 · openai.com/index/introducing-chatgpt-agent

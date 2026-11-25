@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º Notepad++: https://github.com/notepad-plus-plus/notepad-plus-plus
+4º OCRmyPDF: https://github.com/ocrmypdf/OCRmyPDF
+3º Paperless-ngx: https://github.com/paperless-ngx/paperless-ngx
+2º MarkItDown: https://github.com/microsoft/markitdown
+1º Stirling PDF: https://github.com/Stirling-Tools/Stirling-PDF
+
+⚠️ Projetos independentes; confira o README antes de instalar.
+
+Brinde: Links dos 5 + o passo a passo pra editar PDF sem pagar.

@@ -1,0 +1,106 @@
+{
+ "voz": "Puck",
+ "estilo": "padrão perfil referência (mundo 3D pôr do sol)",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "GTA",
+ "tese": "SEU PS5 GRAVA SEU GTA 6 SOZINHO · +6 MIL ESTRELAS EM 3 PROJETOS GRÁTIS · E A Nº 1 É BIZARRA",
+ "conceito": "Sala de estar de blocos à noite de lançamento, com a janela mostrando uma avenida ao pôr do sol estilo cidade tropical; console e controle genéricos (sem logo da Sony/Rockstar, sem arte do jogo). Itens viram objetos: relógio de 60 min, claquete, tesoura gigante cortando fita, vídeo deitado que gira para celulares em pé, notebook que cospe clipes como bilhetes. Diferente do '9 dias pra clipar' (10/11, cortes de live de streamer com o Claude): aqui é a jogatina da própria pessoa.",
+ "brinde": "Passo a passo: configurar o botão Criar (Configurações > Capturas e transmissões > Capturas) + links e comando pronto de auto-editor, ViralCutter e autoclip.",
+ "fontes": [
+  "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+  "https://www.tweaktown.com/news/76220/ps5-can-capture-up-to-1-hour-of-4k-gameplay-video-with-create-button/index.html",
+  "https://www.digitaltrends.com/gaming/how-to-record-gameplay-on-a-ps5",
+  "https://github.com/WyattBlue/auto-editor",
+  "https://github.com/RafaelGodoyEbert/ViralCutter",
+  "https://github.com/artbyjazi/autoclip"
+ ],
+ "prova_viral": "GTA 6 sai em 19/11/2026 (Rockstar Newswire); Sony e Microsoft dizem que é o jogo mais pré-vendido das suas lojas. Estrelas no GitHub (API, 13/11/2026): auto-editor 5.870, ViralCutter 450, autoclip 284; total 6.604. PS5 guarda até 60 min de jogo recente e salva em 15 s a 60 min (TweakTown, Digital Trends).",
+ "obs": "Só gravar o próprio jogo; sem arte, logo ou música do GTA no vídeo. auto-editor, ViralCutter e autoclip rodam no PC: a pessoa passa o clipe do console pro PC (pendrive ou app do PlayStation). Reconferir estrelas no dia da produção.",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "SEU PS5 GRAVA SEU GTA 6 SOZINHO",
+   "fala": "Seu PS5 já grava a última hora do seu GTA 6. E dá pra virar Reel grátis.",
+   "legenda": "Seu PS5 já grava a última hora do seu GTA 6. E dá pra virar Reel grátis.",
+   "visual": "controle de videogame genérico em cima do sofá; o botão de criar acende e solta uma fita de vídeo",
+   "itens": "gta_clipes",
+   "etiqueta": [
+    "SEU PS5 GRAVA SEU GTA 6 SOZINHO",
+    "+6 MIL ESTRELAS EM 3 PROJETOS GRÁTIS",
+    "E A Nº 1 É BIZARRA"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Botão Criar",
+   "fala": "Quinto: o botão Criar guarda sozinho os últimos sessenta minutos.",
+   "legenda": "5º Botão Criar: o PS5 guarda os últimos 60 min.",
+   "visual": "relógio de 60 min enchendo atrás do console"
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Clipe rápido",
+   "fala": "Quarto: no modo clipe rápido, aperta duas vezes e salva.",
+   "legenda": "4º clipe rápido: aperta 2x e salva.",
+   "visual": "dedo apertando o botão duas vezes; claquete fechando"
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "auto-editor",
+   "repo": "WyattBlue/auto-editor",
+   "estrelas": 5870,
+   "fala": "Terceiro: auto-editor corta toda parte parada. Essa é legalzinha… comenta GTA que eu te mando as cinco. E manda pro amigo que vai jogar.",
+   "legenda": "3º auto-editor: corta sozinho a parte parada.",
+   "visual": "tesoura gigante cortando trechos cinza de uma fita"
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "ViralCutter",
+   "repo": "RafaelGodoyEbert/ViralCutter",
+   "estrelas": 450,
+   "fala": "Segundo: ViralCutter transforma vídeo longo em corte de TikTok.",
+   "legenda": "2º ViralCutter: vídeo longo vira cortes de TikTok.",
+   "visual": "vídeo deitado gira e vira 3 celulares em pé"
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "autoclip",
+   "repo": "artbyjazi/autoclip",
+   "estrelas": 284,
+   "fala": "E o primeiro: autoclip entrega os melhores trechos em pé, com legenda.",
+   "legenda": "1º autoclip: roda no PC e entrega em pé, com legenda.",
+   "visual": "notebook cospe clipes verticais com legenda queimada, como bilhetes"
+  },
+  {
+   "cena": "pergunta",
+   "fala": "Vai jogar dia dezenove ou vai esperar?",
+   "legenda": "Vai jogar dia 19 ou vai esperar?",
+   "visual": "calendário 19 NOV na parede da sala"
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta GTA e me segue que eu te mando as cinco.",
+   "legenda": "Comenta GTA",
+   "visual": "caixa de comentário digitando GTA + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "c) máquina de escrever",
+  "contador": "c) velocímetro",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "f) zoom atravessando a tela da TV",
+  "mascote": "boné + controle; come pipoca e pula do sofá",
+  "camera": "f) contra-plongée do sofá + c) travelling",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "f) Bebas Neue"
+ },
+ "palavras": 100,
+ "duracao_estimada_s": 35.7
+}

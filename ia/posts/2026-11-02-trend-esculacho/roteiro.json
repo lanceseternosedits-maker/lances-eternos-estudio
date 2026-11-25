@@ -1,0 +1,55 @@
+{
+ "titulo": "TREND DO ESCULACHO",
+ "chave": "ZOEIRA",
+ "segmentos": [
+  {
+   "cena": "hook",
+   "tag": "TREND DO ESCULACHO",
+   "fala": "Todo mundo tá pedindo pra inteligência artificial zoar a própria vida. Mas ela sabe mais de você do que parece!",
+   "legenda": "Todo mundo tá pedindo pra IA zoar a própria vida. Mas ela sabe mais de você do que parece!"
+  },
+  {
+   "cena": "prompt",
+   "tag": "O PROMPT",
+   "fala": "O prompt é: com base em tudo que você sabe sobre mim, pode me zoar sem dó.",
+   "legenda": "O prompt é: com base em tudo que você sabe sobre mim, pode me zoar sem dó."
+  },
+  {
+   "cena": "memoria",
+   "tag": "DE ONDE ELA TIRA",
+   "fala": "Ela usa a conversa e, dependendo do plano, suas memórias salvas e chats antigos.",
+   "legenda": "Ela usa a conversa e, dependendo do plano, suas memórias salvas e chats antigos."
+  },
+  {
+   "cena": "segura",
+   "tag": "VERSÃO SEGURA",
+   "fala": "Quer brincar sem se expor? Peça pra usar só os hábitos que você contar, sem dados pessoais.",
+   "legenda": "Quer brincar sem se expor? Peça pra usar só os hábitos que você contar, sem dados pessoais."
+  },
+  {
+   "cena": "ver",
+   "tag": "ONDE VER",
+   "fala": "Pra ver o que ela guardou: Configurações, Personalização, Memória.",
+   "legenda": "Pra ver o que ela guardou: Configurações › Personalização › Memória."
+  },
+  {
+   "cena": "apagar",
+   "tag": "APAGAR",
+   "fala": "Lá você apaga cada memória, ou desliga tudo de uma vez.",
+   "legenda": "Lá você apaga cada memória, ou desliga tudo de uma vez."
+  },
+  {
+   "cena": "print",
+   "tag": "ANTES DE POSTAR",
+   "fala": "E antes de postar o print, esconde seu nome e os títulos dos chats.",
+   "legenda": "E antes de postar o print, esconde seu nome e os títulos dos chats.",
+   "pausa": 0.25
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA ZOEIRA",
+   "fala": "Comenta zoeira que eu te mando os dois prompts prontos.",
+   "legenda": "Comenta ZOEIRA que eu te mando os dois prompts prontos."
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "CELULAR",
+ "tese": "ESSES JOGOS DE PC NUNCA SAÍRAM NO CELULAR. OS FÃS FIZERAM RODAR · +74 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1; PC no celular; quarto gamer roxo, mascote de headset jogando",
+ "brinde": "Links dos 5 + como ligar o PC no celular",
+ "fontes": [
+  "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
+  "https://github.com/JosefNemec/Playnite",
+  "https://github.com/moonlight-stream/moonlight-qt",
+  "https://github.com/moonlight-stream/moonlight-android",
+  "https://github.com/brunodev85/winlator"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): Heroic 12.657, Playnite 14.571, Moonlight 19.704, Moonlight Android 7.583, Winlator 20.147; total 74.662.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "ESSES JOGOS DE PC NUNCA SAÍRAM NO CELULAR. OS FÃS FIZERAM RODAR",
+   "fala": "Esses cinco projetos de fãs fazem jogos de PC rodarem no celular, mesmo sem terem saído pra ele.",
+   "legenda": "Esses cinco projetos de fãs fazem jogos de PC rodarem no celular, mesmo sem terem saído pra ele.",
+   "visual": "ESSES JOGOS DE PC NUNCA SAÍRAM NO CELULAR. OS FÃS FIZERAM RODAR",
+   "itens": "celular-roda-pc",
+   "etiqueta": [
+    "ESSES JOGOS DE PC NUNCA SAÍRAM NO CELULAR. OS FÃS FIZERAM RODAR",
+    "+74 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Heroic",
+   "fala": "Quinto: Heroic. Abre seus jogos da Epic e da GOG.",
+   "legenda": "Quinto: Heroic. Abre seus jogos da Epic e da GOG.",
+   "visual": "Abre seus jogos da Epic e da GOG.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "Heroic-Games-Launcher/HeroicGamesLauncher",
+   "estrelas": 12657
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Playnite",
+   "fala": "Quarto: Playnite. Junta todas as suas lojas de jogos num lugar.",
+   "legenda": "Quarto: Playnite. Junta todas as suas lojas de jogos num lugar.",
+   "visual": "Junta todas as suas lojas de jogos num lugar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "JosefNemec/Playnite",
+   "estrelas": 14571
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Moonlight",
+   "fala": "Terceiro: Moonlight. Joga o jogo do PC na TV e no celular. Essa é legalzinha… comenta CELULAR que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Moonlight. Joga o jogo do PC na TV e no celular. Essa é legalzinha… comenta CELULAR que eu mando os cinco. Manda pro amigo.",
+   "visual": "Joga o jogo do PC na TV e no celular.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "moonlight-stream/moonlight-qt",
+   "estrelas": 19704
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Moonlight Android",
+   "fala": "Segundo: Moonlight Android. Joga o PC no celular pelo Wi-Fi.",
+   "legenda": "Segundo: Moonlight Android. Joga o PC no celular pelo Wi-Fi.",
+   "visual": "Joga o PC no celular pelo Wi-Fi.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "moonlight-stream/moonlight-android",
+   "estrelas": 7583
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Winlator",
+   "fala": "E o primeiro: Winlator. Roda jogo de Windows direto no Android.",
+   "legenda": "E o primeiro: Winlator. Roda jogo de Windows direto no Android.",
+   "visual": "Roda jogo de Windows direto no Android.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "brunodev85/winlator",
+   "estrelas": 20147
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta CELULAR e me segue. Você jogaria no celular esperando o ônibus?",
+   "legenda": "Comenta CELULAR e me segue. Você jogaria no celular esperando o ônibus?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "b) carimbo batendo",
+  "contador": "c) velocímetro circular",
+  "legenda": "e) tarja de TV/arcade",
+  "transicao": "e) glitch RGB",
+  "camera": "c) travelling lateral",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "e) Caveat",
+  "mascote": "headset, jogando",
+  "cenario": "quarto gamer com RGB roxo"
+ },
+ "palavras": 97,
+ "duracao_estimada_s": 34.6
+}

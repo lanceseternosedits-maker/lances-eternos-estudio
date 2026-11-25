@@ -1,0 +1,97 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "historia",
+ "chave": "DOTA",
+ "tese": "EM 2019 UMA IA VENCEU OS CAMPEÕES MUNDIAIS DE UM JOGO · 3 FATOS DESSA HISTÓRIA · E O Nº 1 É O TREINO",
+ "conceito": "Linha do tempo: arena de e-sports de blocos, palco com 5 cadeiras humanas e 5 telas; placar 2 a 0; data grande.",
+ "brinde": "Link da matéria da OpenAI e a linha do tempo da vitória",
+ "fontes": [
+  "https://openai.com/index/openai-five-defeats-dota-2-world-champions/",
+  "https://openai.com/index/openai-five/"
+ ],
+ "prova_viral": "OpenAI (13/04/2019): OpenAI Five venceu o OG, campeão do The International, por 2 a 0; blog da OpenAI sobre o treino (~180 anos de partidas por dia).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "EM 2019 UMA IA VENCEU OS CAMPEÕES MUNDIAIS DE UM JOGO",
+   "fala": "Em 2019, uma IA venceu os campeões mundiais de um jogo de computador.",
+   "legenda": "Em 2019, uma IA venceu os campeões mundiais de um jogo de computador.",
+   "visual": "",
+   "itens": "openai",
+   "etiqueta": [
+    "EM 2019 UMA IA VENCEU OS CAMPEÕES MUNDIAIS DE UM JOGO",
+    "3 FATOS DESSA HISTÓRIA",
+    "E O Nº 1 É O TREINO"
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Dota 2",
+   "fala": "Terceiro: o jogo era Dota 2, e os humanos eram o time OG, campeões mundiais.",
+   "legenda": "3º Dota 2: o jogo era Dota 2 e os humanos eram o time OG, campeões mundiais",
+   "visual": "o jogo era Dota 2 e os humanos eram o time OG, campeões mundiais",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "2 a 0",
+   "fala": "Segundo: a OpenAI Five ganhou de dois a zero, em abril de 2019. Manda pra um amigo.",
+   "legenda": "2º 2 a 0: a OpenAI Five ganhou de 2 a 0 em abril de 2019",
+   "visual": "a OpenAI Five ganhou de 2 a 0 em abril de 2019",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Treino",
+   "fala": "Primeiro: ela treinou jogando contra si mesma, cerca de cento e oitenta anos de partidas por dia.",
+   "legenda": "1º Treino: treinou jogando contra si mesma, cerca de 180 anos de partidas por dia",
+   "visual": "treinou jogando contra si mesma, cerca de 180 anos de partidas por dia",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Salva pra contar pra alguém. Comenta DOTA e me segue.",
+   "legenda": "Comenta DOTA",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "f) escrito à mão",
+  "contador": "e) placar HI-SCORE",
+  "legenda": "e) tarja de TV",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "mascote": "mochila + crachá, carregando caixas",
+  "cenario": "garagem de madrugada",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 72,
+ "duracao_estimada_s": 25.7
+}

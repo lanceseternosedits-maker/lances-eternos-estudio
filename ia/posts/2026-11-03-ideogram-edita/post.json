@@ -1,0 +1,111 @@
+{
+ "slug": "ideogram-edita",
+ "formato": "tutorial",
+ "cover": {
+  "title_html": "Mude só a camiseta.<br><span class=\"g\">O resto fica igual.</span>",
+  "sub": "Passo a passo do Precise Edit, a edição cirúrgica do Ideogram",
+  "imgs": [
+   "capa.jpg",
+   "fbec57a434cbcf39.jpg"
+  ]
+ },
+ "dor": {
+  "kick": "O PROBLEMA",
+  "title": "Você pede pra trocar a cor da camiseta…",
+  "body": "…e a IA refaz a foto inteira: muda o rosto, o fundo e a luz. A foto do produto vira outra foto.",
+  "carimbo": "REFEZ TUDO"
+ },
+ "items": [
+  {
+   "n": "01",
+   "repo": "ideogram.ai/tools/precise-edit",
+   "kick": "Passo 1 · abra a ferramenta",
+   "title": "Entre no Precise Edit e suba sua foto.",
+   "body": "Fica no site do Ideogram e roda no modelo novo, o Ideogram 4.5. Aceita imagem de até 8K.",
+   "img": "fbec57a434cbcf39.jpg",
+   "fit": "contain",
+   "pos": "50% 50%",
+   "chips": [
+    [
+     "Resolução",
+     "até 8K"
+    ],
+    [
+     "Modelo",
+     "Ideogram 4.5"
+    ]
+   ]
+  },
+  {
+   "n": "02",
+   "repo": "ideogram.ai/tools/precise-edit",
+   "kick": "Passo 2 · pinte a área",
+   "title": "Marque só a parte que vai mudar.",
+   "body": "Essa marcação se chama máscara. O que fica fora dela volta igualzinho, pixel por pixel.",
+   "img": "capa.jpg",
+   "fit": "cover",
+   "pos": "50% 50%",
+   "credit": "ilustração gerada por IA",
+   "chips": [
+    [
+     "Fora da máscara",
+     "não muda"
+    ]
+   ]
+  },
+  {
+   "n": "03",
+   "repo": "ideogram.ai/tools/precise-edit",
+   "kick": "Passo 3 · diga o que muda",
+   "title": "Escreva a mudança em uma frase.",
+   "body": "Diga a cor, o material e o que deve ficar igual. Quanto mais claro, melhor.",
+   "prompt": "Troque a camiseta cinza por uma vermelha. Mantenha tecido, dobras, luz e sombra iguais.",
+   "chips": [
+    [
+     "Dica",
+     "diga o que NÃO muda"
+    ]
+   ]
+  },
+  {
+   "n": "04",
+   "repo": "ideogram.ai · digg.com/ai",
+   "kick": "Passo 4 · foto grande",
+   "title": "Use a janela de contexto em “auto”.",
+   "body": "A IA olha só em volta da área marcada e devolve a foto no tamanho original, sem perder qualidade.",
+   "quote": "Edita no tamanho original. Sem diminuir a foto.",
+   "chips": [
+    [
+     "Área editada",
+     "até 2K"
+    ],
+    [
+     "Novidade",
+     "29/10"
+    ]
+   ]
+  },
+  {
+   "n": "05",
+   "repo": "ideogram.ai/tools/precise-edit",
+   "kick": "Pra que serve",
+   "title": "Uma foto de produto vira várias.",
+   "body": "Troque a cor da peça ou corrija um detalhe sem refazer o ensaio inteiro.",
+   "quote": "Mesma foto. Cor nova. Zero ensaio novo.",
+   "chips": [
+    [
+     "API",
+     "desde US$ 0,008"
+    ],
+    [
+     "Product Hunt",
+     "143 votos"
+    ]
+   ]
+  }
+ ],
+ "cta": {
+  "key": "FOTO",
+  "promise": "O link e 5 prompts prontos pra editar foto de produto."
+ }
+}

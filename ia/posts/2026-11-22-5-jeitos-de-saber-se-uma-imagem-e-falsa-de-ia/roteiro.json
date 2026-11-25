@@ -1,0 +1,123 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "como_funciona",
+ "chave": "IMAGEM",
+ "tese": "COMO SABER SE UMA IMAGEM É FALSA DE IA · E O Nº 1 É O QUE MAIS PESA",
+ "conceito": "como_funciona: contagem 5→1 com objeto reconhecível no 1º quadro (como saber se uma imagem é falsa de ia); cenário biblioteca de manhã, mascote boné + fone, correndo; nº1 revelada por último.",
+ "brinde": "Os 5 passos pra conferir uma imagem antes de compartilhar",
+ "fontes": [],
+ "prova_viral": "Orientações gerais de verificação de imagens (checagem de origem e busca reversa).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "COMO SABER SE UMA IMAGEM É FALSA DE IA",
+   "fala": "Aquela foto é de verdade ou feita por IA? Cinco jeitos de conferir.",
+   "legenda": "Aquela foto é de verdade ou feita por IA? Cinco jeitos de conferir.",
+   "visual": "COMO SABER SE UMA IMAGEM É FALSA DE IA",
+   "itens": "clean",
+   "etiqueta": [
+    "COMO SABER SE UMA IMAGEM É FALSA DE IA",
+    "E O Nº 1 É O QUE MAIS PESA"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Origem",
+   "fala": "Quinto: Origem. Procure quem postou primeiro, não quem repostou.",
+   "legenda": "Quinto: Origem. Procure quem postou primeiro, não quem repostou.",
+   "visual": "Procure quem postou primeiro, não quem repostou.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Mãos",
+   "fala": "Quarto: Mãos. Mãos e dedos estranhos ainda denunciam.",
+   "legenda": "Quarto: Mãos. Mãos e dedos estranhos ainda denunciam.",
+   "visual": "Mãos e dedos estranhos ainda denunciam.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Texto",
+   "fala": "Terceiro: Texto. Letras tortas ou sem sentido no fundo. Essa é legalzinha… comenta IMAGEM que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Texto. Letras tortas ou sem sentido no fundo. Essa é legalzinha… comenta IMAGEM que eu mando os cinco. Manda pro amigo.",
+   "visual": "Letras tortas ou sem sentido no fundo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Busca",
+   "fala": "Segundo: Busca. Busca por imagem mostra de onde ela veio.",
+   "legenda": "Segundo: Busca. Busca por imagem mostra de onde ela veio.",
+   "visual": "Busca por imagem mostra de onde ela veio.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Fonte",
+   "fala": "E o primeiro: Fonte. Sem fonte oficial, não compartilhe.",
+   "legenda": "E o primeiro: Fonte. Sem fonte oficial, não compartilhe.",
+   "visual": "Sem fonte oficial, não compartilhe.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta IMAGEM e me segue. Você já caiu em uma foto falsa?",
+   "legenda": "Comenta IMAGEM e me segue. Você já caiu em uma foto falsa?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "c) máquina de escrever",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "d) balão de fala",
+  "transicao": "b) chicote de câmera",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "c) post-its na parede",
+  "mascote": "boné + fone, correndo",
+  "cenario": "biblioteca de manhã",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 83,
+ "duracao_estimada_s": 29.1
+}

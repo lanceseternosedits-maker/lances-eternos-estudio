@@ -1,0 +1,10 @@
+Opa! Aqui está 👇
+Link: https://ideogram.ai/tools/precise-edit/
+Como usar: suba a foto, pinte só a área que vai mudar, escreva a mudança e use a janela de contexto em "auto" se a foto for grande.
+5 prompts prontos (troque o que está entre colchetes):
+1. Troque a cor da [peça] para [cor]. Mantenha tecido, dobras, luz e sombra iguais.
+2. Remova a [mancha/etiqueta] da [peça] e reconstrua o tecido ao redor de forma natural.
+3. Troque o rótulo da embalagem pelo texto "[seu texto]", mesma fonte e mesma perspectiva.
+4. Substitua o [objeto] em cima da mesa por um [novo objeto], com a mesma luz da cena.
+5. Deixe só o fundo atrás do produto [cor/textura], sem alterar o produto.
+Dica: diga sempre o que NÃO deve mudar. 😉

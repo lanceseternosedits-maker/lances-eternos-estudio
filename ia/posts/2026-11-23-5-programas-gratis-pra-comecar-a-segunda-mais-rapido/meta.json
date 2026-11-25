@@ -1,0 +1,110 @@
+{
+  "data": "2026-11-24",
+  "horario": "06:00",
+  "horarios": {
+    "instagram": "2026-11-24 06:00",
+    "tiktok": "2026-11-24 06:00"
+  },
+  "categoria": "novidade",
+  "pilar": "reel",
+  "formato": "reel contagem (molde campeão, visual clean)",
+  "temas": [
+    "produtividade",
+    "Windows",
+    "PC",
+    "github",
+    "grátis"
+  ],
+  "fontes": [
+    "https://github.com/notepad-plus-plus/notepad-plus-plus",
+    "https://github.com/files-community/Files",
+    "https://github.com/Flow-Launcher/Flow.Launcher",
+    "https://github.com/Stirling-Tools/Stirling-PDF",
+    "https://github.com/microsoft/PowerToys"
+  ],
+  "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Notepad++ 29.924, Files 46.711, Flow Launcher 16.051, Stirling PDF 96.970, PowerToys 141.156; total 330.812.",
+  "cta": "SEGUNDA",
+  "polemica": false,
+  "vaga": 11,
+  "candidato": "c",
+  "primeiro_comentario": "💬 Comenta SEGUNDA que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+  "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+  "status": "vídeo aguardando aprovação",
+  "status_antes_filtro": "roteiro aguardando aprovação",
+  "revisao": {
+    "veredito": "ajustado",
+    "resumo": "reserva promovida, sem painel completo",
+    "pareceres": [],
+    "ajustes": [
+      "pergunta final de 1 palavra"
+    ],
+    "em": "2026-11-19 08:18",
+    "obs": "Promovido após o 11a ser reprovado por fatos; não passou pelos 4 revisores (economia de tokens). Itens conferidos na API do GitHub em 19/11."
+  },
+  "checagem": {
+    "em": "2026-11-21 04:27",
+    "ok": true,
+    "itens": [
+      {
+        "nome": "Formato",
+        "valor": "1080×1920",
+        "ok": true,
+        "regra": "1080×1920"
+      },
+      {
+        "nome": "Duração",
+        "valor": "33.9 s",
+        "ok": true,
+        "regra": "até 35 s (corte texto se passar)"
+      },
+      {
+        "nome": "Velocidade da fala",
+        "valor": "2.24 palavras/s (76 palavras)",
+        "ok": true,
+        "regra": "máximo 3,0 palavras/s"
+      },
+      {
+        "nome": "Volume",
+        "valor": "-14.0 LUFS, pico -1.4 dB",
+        "ok": true,
+        "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+      },
+      {
+        "nome": "Fontes",
+        "valor": "5 fonte(s)",
+        "ok": true,
+        "regra": "todo fato com fonte"
+      },
+      {
+        "nome": "Prova viral",
+        "valor": "preenchida",
+        "ok": true,
+        "regra": "toda pauta com a prova de que viralizou"
+      },
+      {
+        "nome": "Legenda do Instagram",
+        "valor": "710 caracteres",
+        "ok": true,
+        "regra": "até 2.200 caracteres"
+      },
+      {
+        "nome": "CTA na legenda",
+        "valor": "SEGUNDA",
+        "ok": true,
+        "regra": "a palavra do CTA aparece na legenda"
+      },
+      {
+        "nome": "Hashtags no Instagram",
+        "valor": "5",
+        "ok": true,
+        "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
+      },
+      {
+        "nome": "Resposta da DM",
+        "valor": "ok",
+        "ok": true,
+        "regra": "resposta_dm.txt com os links"
+      }
+    ]
+  }
+}

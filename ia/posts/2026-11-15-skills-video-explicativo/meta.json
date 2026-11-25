@@ -1,0 +1,25 @@
+{
+ "data": "2026-11-17",
+ "horario": "17:00",
+ "pilar": "reel",
+ "formato": "contagem",
+ "temas": [
+  "skills-video-explicativo"
+ ],
+ "fontes": [
+  "https://github.com/YIAN6557/eian-riso-broll",
+  "https://github.com/liangdabiao/whiteboard-teacher-video",
+  "https://github.com/HeyChengC/vibe-knowledge-film"
+ ],
+ "cta": "EXPLICA",
+ "polemica": false,
+ "horarios": {
+  "instagram": "2026-11-17 17:00",
+  "tiktok": "2026-11-17 17:00"
+ },
+ "status": "descartado",
+ "categoria": "novidade",
+ "horario_provisorio": "Vitor (07/11): grade intercalada (4 🆕 por dia em 09–15/11) tirou esta novidade da semana; horário provisório, a rodada de quinta (12/11) confirma",
+ "status_antes_filtro": "roteiro aprovado",
+ "nota_filtro": "chance 44%, abaixo do corte"
+}

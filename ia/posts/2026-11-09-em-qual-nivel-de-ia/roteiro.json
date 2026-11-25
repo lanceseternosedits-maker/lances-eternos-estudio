@@ -1,0 +1,158 @@
+{
+ "voz": "Puck",
+ "modelo": "gemini-2.5-flash-preview-tts",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "cidade (Referência 7)",
+ "categoria": "como_funciona",
+ "chave": "NIVEL",
+ "tese": "EM QUAL NÍVEL DE IA VOCÊ ESTÁ?",
+ "conceito": "Cidade clara de blocos com uma escada/torre de 5 andares no centro; cada nível acende um andar e muda a cidade: nível 1 um bonequinho sozinho na praça perguntando (balão some), nível 2 ganha crachá de quem é, nível 3 placa fixa na porta (instruções), nível 4 um carteiro-robô entrega um envelope de resumo toda manhã (sol nascendo), nível 5 um caminhãozinho-robô trabalha sozinho enquanto o bonequinho descansa numa rede. Contador \"horas livres na semana\" (ilustrativo). Paleta menta + coral.",
+ "elementos": {
+  "trilha": "5 etapas no topo (PERGUNTA · CONTEXTO · INSTRUÇÕES · TAREFAS · AGENTE)",
+  "contador": "horas livres na semana, selo ilustrativo",
+  "legenda": "karaokê (palavra atual branca, próximas cinza) em pílula escura",
+  "camera": "órbita alta lenta em volta da torre",
+  "paleta": "menta + coral",
+  "objeto": "torre de 5 andares que acende",
+  "fechamento": "frase em 2 tempos + loop no 1º quadro",
+  "tipografia": "Space Grotesk"
+ },
+ "brinde": "passo a passo pra subir do nível 1 ao 4 (instruções personalizadas, Projetos e tarefas agendadas), com texto pronto",
+ "fontes": [
+  "https://help.openai.com/en/articles/8096356-custom-instructions-for-chatgpt",
+  "https://help.openai.com/en/articles/10291617-tasks-in-chatgpt",
+  "https://openai.com/index/introducing-chatgpt-agent/",
+  "https://support.claude.com/en/articles/9517075-what-are-projects"
+ ],
+ "prova_viral": "Referência 7 (@lucassena, 09/11): formato cidade em 5 etapas, 10,4 mil curtidas, 1.176 comentários, 2.977 envios. Recursos oficiais: instruções personalizadas e Tarefas do ChatGPT, ChatGPT agent (jul/2025), Projetos do Claude. Ideia aprovada pelo Vitor (09/11, via sessão do painel).",
+ "obs": "Temas vizinhos: ia-configurada (11/11) e sua-ia-nao-te-conhece (12/11). Aqui o diferencial é a escada de 5 níveis (até tarefas e agente). Contador de horas livres é ilustrativo (selo na tela). Tarefas e agente dependem do plano/app: não prometer grátis.",
+ "polemica": false,
+ "agenda": null,
+ "palavras": 92,
+ "duracao_estimada_s": 32.9,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "EM QUAL NÍVEL DE IA VOCÊ ESTÁ?",
+   "fala": "Você usa IA todo dia, e na conversa nova ela começa do zero.",
+   "legenda": "Você usa IA todo dia, e na conversa nova ela começa do zero.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "EM QUAL NÍVEL DE IA VOCÊ ESTÁ?",
+    "5 NÍVEIS: DA PERGUNTA AO PILOTO AUTOMÁTICO",
+    "E O NÍVEL 5 TRABALHA POR VOCÊ"
+   ],
+   "etapas": [
+    "PERGUNTA",
+    "CONTEXTO",
+    "INSTRUÇÕES",
+    "TAREFAS",
+    "AGENTE"
+   ],
+   "contador": "horas livres na semana (ilustrativo)"
+  },
+  {
+   "cena": "e1",
+   "tag": "",
+   "fala": "Nível um: você pergunta, e ela nem sabe quem você é.",
+   "legenda": "Nível um: você pergunta, e ela nem sabe quem você é.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 1
+  },
+  {
+   "cena": "e2",
+   "tag": "",
+   "fala": "Nível dois: você conta quem é, e a resposta melhora.",
+   "legenda": "Nível dois: você conta quem é, e a resposta melhora.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 2
+  },
+  {
+   "cena": "meio",
+   "tag": "",
+   "fala": "Deixa o like, manda pro amigo do nível um e comenta NÍVEL.",
+   "legenda": "Deixa o like, manda pro amigo do nível um e comenta NÍVEL.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  },
+  {
+   "cena": "e3",
+   "tag": "",
+   "fala": "Nível três: você escreve uma vez, e ela segue em toda conversa nova.",
+   "legenda": "Nível três: você escreve uma vez, e ela segue em toda conversa nova.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 3
+  },
+  {
+   "cena": "e4",
+   "tag": "",
+   "fala": "Nível quatro: você agenda, e ela te manda um resumo toda manhã.",
+   "legenda": "Nível quatro: você agenda, e ela te manda um resumo toda manhã.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 4
+  },
+  {
+   "cena": "e5",
+   "tag": "",
+   "fala": "Nível cinco: ela faz o trabalho por você, com sua permissão.",
+   "legenda": "Nível cinco: ela faz o trabalho por você, com sua permissão.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etapa": 5
+  },
+  {
+   "cena": "cta",
+   "tag": "",
+   "fala": "Perguntar resolve. Configurar liberta. Comenta o número do seu nível.",
+   "legenda": "Perguntar resolve. Configurar liberta. Comenta o número do seu nível.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ]
+}

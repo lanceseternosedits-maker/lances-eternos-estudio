@@ -1,0 +1,76 @@
+{
+ "formato": "cidade",
+ "titulo": "Seu perfil vazio",
+ "palavra": "PRACA",
+ "perfil": "@seuperfil",
+ "brinde": "o checklist",
+ "contador": {
+  "rotulo": "PESSOAS NA PRAÇA",
+  "inicio": 0,
+  "ilustrativo": true
+ },
+ "mascote": {
+  "cor": "#3fa7ff",
+  "acessorio": "chapeu",
+  "corAcessorio": "#2b2247"
+ },
+ "cores": {
+  "ceu": "#a9dcff",
+  "chao": "#96cf78",
+  "destaque": "#ff5d73",
+  "pilula": "#2b2247",
+  "fita": "#fff1c9"
+ },
+ "trilha": {
+  "tom": -3,
+  "bpm": 104,
+  "clima": "tenso"
+ },
+ "segmentos": [
+  {
+   "tipo": "gancho",
+   "fala": "Essa praça é o seu perfil. E tá vazia."
+  },
+  {
+   "tipo": "etapa",
+   "nome": "Gancho",
+   "contador": 12,
+   "objeto": "lampada",
+   "fala": "Primeiro, um gancho que acende a curiosidade no 1º segundo."
+  },
+  {
+   "tipo": "etapa",
+   "nome": "Ritmo",
+   "contador": 35,
+   "objeto": "claquete",
+   "fala": "Depois, uma frase por cena. Ninguém espera."
+  },
+  {
+   "tipo": "etapa",
+   "nome": "Pergunta",
+   "contador": 80,
+   "objeto": "livro",
+   "fala": "Aí uma pergunta fácil. Comenta PRACA que eu te mando o checklist."
+  },
+  {
+   "tipo": "etapa",
+   "nome": "Envio",
+   "contador": 150,
+   "objeto": "celular",
+   "fala": "Quem gosta manda pro amigo. E o amigo chega na praça."
+  },
+  {
+   "tipo": "etapa",
+   "nome": "Constância",
+   "contador": 300,
+   "objeto": "trofeu",
+   "fala": "E todo dia um vídeo novo levanta mais um prédio."
+  },
+  {
+   "tipo": "cta",
+   "fala": "Comenta PRACA que eu te mando o checklist. Essa praça é o seu perfil."
+  }
+ ],
+ "legenda_post": "Comenta PRACA que eu te mando o checklist 👇\nQuantos vídeos você postou essa semana?",
+ "primeiro_comentario": "💬 Comenta PRACA que eu te mando o checklist"
+}

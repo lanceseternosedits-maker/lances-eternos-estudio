@@ -1,0 +1,10 @@
+Opa! Aqui estão os 5 links:
+
+1. Zero Breach Toolkit (checa spyware no PC, Android e backup do iPhone): github.com/interplains/Zero-Breach-Toolkit — baixe o app na aba Releases.
+2. Mika (IA que usa os apps do Android por você): github.com/wangzan101/Mika — APK na aba Releases, Android 11+. Precisa da sua chave de IA.
+3. Floorplan (mapa do seu código, plugin do Claude Code/Codex): github.com/haydenschmitty/floorplan
+4. pixelfx (244 efeitos de pixel art + skill do Claude Code): github.com/patch-gg/pixelfx — tem galeria online no README.
+5. DeepSeek super-agent (protótipo de pesquisa): github.com/deepseek-ai/dsh-superagent-prototype
+
+Por onde começar: se você só quer usar, vá de Zero Breach (PC) ou Mika (Android). Se você programa, Floorplan. Se faz jogo, pixelfx.
+Lembrete: a Mika manda o que está na tela pro provedor de IA que você escolher; use com cuidado em apps de banco.

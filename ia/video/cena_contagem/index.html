@@ -1,0 +1,190 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:SG;src:url(f/space-grotesk-latin-700-normal.woff2)}
+@font-face{font-family:IN;src:url(f/inter-latin-500-normal.woff2)}
+@font-face{font-family:JB;src:url(f/jetbrains-mono-latin-500-normal.woff2)}
+@font-face{font-family:AB;src:url(f/archivo-black-latin-400-normal.woff2)}
+@font-face{font-family:FR;src:url(f/fraunces-latin-700-normal.woff2)}
+@font-face{font-family:PS;src:url(f/press-start-2p-latin-400-normal.woff2)}
+@font-face{font-family:CV;src:url(f/caveat-latin-700-normal.woff2)}
+@font-face{font-family:BB;src:url(f/bebas-neue-latin-400-normal.woff2)}
+*{margin:0;padding:0}html,body{width:1080px;height:1920px;overflow:hidden;background:#0f0d0c}canvas#c{position:absolute;inset:0}
+</style>
+</head><body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<script type="module">
+// Formato 3 (contagem regressiva com mistério): etiqueta fixa de 3 camadas, nome decifrando de texto embaralhado,
+// contador de estrelas subindo com barra, mascote de blocos em 3D com o objeto de cada item, nº 1 só no fim.
+// Tudo desenhado aqui (compor.py roda com SEM_OVERLAY=1 só para o áudio).
+import * as THREE from "./three.module.min.js";
+const CFG = await (await fetch("cfg.json")).json();
+const SEG = CFG.timeline.segmentos, SEGR = CFG.segs, CHAVE = (CFG.chave || "SKILLS").toUpperCase();
+for (const f of ["700 60px SG", "500 30px IN", "500 40px JB", "400 60px AB", "700 60px FR", "400 40px PS", "700 60px CV", "400 60px BB"]) await document.fonts.load(f);
+
+const C = document.getElementById("c"), X = C.getContext("2d");
+let LAR = "#E8743B", CREME = "#f4ead8", TINTA = "#1b1712", VERDE = "#5fe0b2", FUNDO = "#0f0d0c", BRILHO = "rgba(232,116,59,.10)";
+const cl = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x)), lin = (t, a, b) => cl((t - a) / (b - a)), eo = x => 1 - Math.pow(1 - cl(x), 3);
+const eio = x => { x = cl(x); return x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; };
+const back = x => { x = cl(x); const c = 1.7; return 1 + (c + 1) * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+let sd = 3; const rnd = () => (sd = (sd * 16807) % 2147483647) / 2147483647;
+
+// ---------- 3D ----------
+const GW = 1080, GH = 860, GY = 700;
+const gl = document.createElement("canvas"); gl.width = GW; gl.height = GH;
+const R = new THREE.WebGLRenderer({ canvas: gl, antialias: true, preserveDrawingBuffer: true, alpha: true });
+R.setClearColor(0, 0); R.setPixelRatio(1); R.setSize(GW, GH, false); R.outputColorSpace = THREE.SRGBColorSpace; R.shadowMap.enabled = true; R.shadowMap.type = THREE.PCFSoftShadowMap;
+R.toneMapping = THREE.ACESFilmicToneMapping; R.toneMappingExposure = 1.0;
+const S = new THREE.Scene(); const cam = new THREE.PerspectiveCamera(40, GW / GH, .1, 60);
+S.add(new THREE.HemisphereLight(0xffe6d0, 0x201410, 1.0));
+const key = new THREE.SpotLight(0xffe2c4, 120, 25, .6, .6, 1.2); key.position.set(1.5, 8, 5); key.target.position.set(0, 1, 0); key.castShadow = true; key.shadow.mapSize.set(1024, 1024); S.add(key, key.target);
+const rim = new THREE.DirectionalLight(0xff8a4a, 1.6); rim.position.set(-4, 3, -5); S.add(rim);
+const M = (c, o = {}) => new THREE.MeshStandardMaterial({ color: c, roughness: .55, ...o });
+const E = (c, k = 2) => new THREE.MeshStandardMaterial({ color: c, emissive: c, emissiveIntensity: k, roughness: .4 });
+function mesh(g, m, par, x = 0, y = 0, z = 0) { const o = new THREE.Mesh(g, m); o.position.set(x, y, z); o.castShadow = o.receiveShadow = true; par.add(o); return o; }
+const box = (w, h, d, m, par, x, y, z) => mesh(new THREE.BoxGeometry(w, h, d), m, par, x, y, z);
+function rgeo(w, h, d, r) {
+  const s = new THREE.Shape(), a = w / 2 - r, b = h / 2 - r, q = r * .6;
+  s.moveTo(-a + q, -b); s.lineTo(a - q, -b); s.quadraticCurveTo(a, -b, a, -b + q); s.lineTo(a, b - q); s.quadraticCurveTo(a, b, a - q, b);
+  s.lineTo(-a + q, b); s.quadraticCurveTo(-a, b, -a, b - q); s.lineTo(-a, -b + q); s.quadraticCurveTo(-a, -b, -a + q, -b);
+  const g = new THREE.ExtrudeGeometry(s, { depth: d - 2 * r, bevelEnabled: true, bevelThickness: r, bevelSize: r, bevelSegments: 4, curveSegments: 6 });
+  g.translate(0, 0, -(d - 2 * r) / 2); g.computeVertexNormals(); return g;
+}
+function ctex(w, h, draw, nearest) { const c = document.createElement("canvas"); c.width = w; c.height = h; const g = c.getContext("2d"); const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace;
+  if (nearest) { t.magFilter = t.minFilter = THREE.NearestFilter; t.generateMipmaps = false; } t.draw = (...a) => { draw(g, w, h, ...a); t.needsUpdate = true; }; t.draw(0); return t; }
+
+// palco: disco escuro com aro laranja brilhando
+const palco = mesh(new THREE.CylinderGeometry(3.2, 3.3, .2, 64), M("#1c1714", { roughness: .7 }), S, 0, -.1, 0);
+const aro = mesh(new THREE.TorusGeometry(3.22, .025, 8, 96), E(LAR, 2.5), S, 0, .01, 0); aro.rotation.x = Math.PI / 2;
+
+// mascote (mesmo de sempre); dá para criar um "fantasma" com outro material
+function mascote(mat, preto) {
+  const g = new THREE.Group(); S.add(g); const corpo = new THREE.Group(); g.add(corpo);
+  mesh(rgeo(1.5, 1.08, 1.0, .1), mat, corpo, 0, .96, 0);
+  const olhos = [-.27, .27].map(x => mesh(new THREE.BoxGeometry(.12, .34, .05), preto, corpo, x, 1.04, .5));
+  const bracos = [-1, 1].map(s => { const p = new THREE.Group(); p.position.set(s * .75, 1.08, 0); corpo.add(p); mesh(rgeo(.34, .22, .3, .05), mat, p, s * .17, 0, 0); return p; });
+  const pernas = [-.48, -.16, .16, .48].map(x => mesh(rgeo(.17, .44, .24, .04), mat, g, x, .22, 0));
+  return { g, corpo, olhos, bracos, pernas };
+}
+const LARANJA = M("#D0623A", { roughness: .5, emissive: "#D0623A", emissiveIntensity: .1 }), PRETO = M("#141014", { roughness: .3 });
+const MAS = mascote(LARANJA, PRETO);
+function pose(m, { x = 0, y = 0, z = 0, ry = 0, sq = 0, braco = [0, 0], andar = 0, piscar = 1 }) {
+  m.g.position.set(x, y, z); m.g.rotation.y = ry; m.corpo.scale.set(1 + sq * .5, 1 - sq, 1 + sq * .5); m.corpo.position.y = -sq * .3;
+  m.bracos[0].rotation.z = -braco[0]; m.bracos[1].rotation.z = braco[1];
+  m.pernas.forEach((p, i) => p.position.y = .22 + Math.max(0, Math.sin(andar * Math.PI * 2 + i * Math.PI)) * .12);
+  m.olhos.forEach(o => o.scale.y = piscar);
+}
+const pisca = t => (t % 2.6) < .11 ? .15 : 1;
+const hop = (t, per, h) => Math.abs(Math.sin(t * Math.PI / per)) * h;
+
+const G = {}; const grupo = n => { if (G[n]) S.remove(G[n]); G[n] = new THREE.Group(); S.add(G[n]); return G[n]; };   // um módulo pode substituir gancho/cta
+
+// gancho: caixa-mistério "?" com bordas laranja, tremendo em glitch
+const misT = ctex(256, 256, (g, w, h, k = 0) => { g.fillStyle = "#16120f"; g.fillRect(0, 0, w, h); g.strokeStyle = LAR; g.lineWidth = 12; g.strokeRect(8, 8, w - 16, h - 16);
+  g.font = "700 190px SG"; g.textAlign = "center"; g.textBaseline = "middle"; const j = k % 3 === 0 ? 6 : 0;
+  g.fillStyle = "rgba(0,229,255,.7)"; g.fillText("?", w / 2 - j, h / 2 + 8); g.fillStyle = "rgba(255,40,90,.7)"; g.fillText("?", w / 2 + j, h / 2 + 8); g.fillStyle = "#ffcf5a"; g.fillText("?", w / 2, h / 2 + 8); });
+function caixaMisterio(par) { const b = mesh(new THREE.BoxGeometry(1.1, 1.1, 1.1), new THREE.MeshStandardMaterial({ map: misT, emissive: "#ffffff", emissiveMap: misT, emissiveIntensity: .9, roughness: .5 }), par, 1.15, 1.35, 0); return b; }
+const gG = grupo("gancho"); const mis = caixaMisterio(gG);
+
+
+// cta: confete laranja e creme
+const cG = grupo("cta"); const conf = [];
+for (let i = 0; i < 90; i++) { const c = mesh(new THREE.PlaneGeometry(.08, .15), M(i % 3 ? LAR : CREME, { side: THREE.DoubleSide, emissive: i % 3 ? LAR : CREME, emissiveIntensity: .5 }), cG); c.castShadow = false;
+  conf.push({ c, x: (rnd() - .5) * 7, z: -1.5 + rnd() * 3, y0: 5 + rnd() * 5, v: .8 + rnd() * .7, ph: rnd() * 6, w: 2 + rnd() * 4 }); }
+
+const V = (x, y, z) => new THREE.Vector3(x, y, z);
+const aponta = (lt) => ({ braco: [.25 + Math.sin(lt * 5) * .08, 1.25 + Math.sin(lt * 7) * .12], ry: .35 });
+const K = { palco, aro, key, rim, R, THREE, S, cam, mesh, box, M, E, ctex, grupo, pose, MAS, mascote, pisca, hop, eo, lin, eio, back, rnd, misT, caixaMisterio, LAR, CREME, aponta, V };
+const MOD = (await import("./itens/" + (SEGR[0].itens || "skills") + ".js")).default(K);
+// identidade própria de cada vídeo (Vitor, 05/11): o módulo pode trocar cores, cenário, gancho, nº 1 e fechamento
+if (MOD.cores) ({ LAR = LAR, CREME = CREME, TINTA = TINTA, VERDE = VERDE, FUNDO = FUNDO, BRILHO = BRILHO } = MOD.cores);
+if (MOD.semPalco) { palco.visible = false; aro.visible = false; }
+const SHOTS = {
+  gancho: [[V(.2, 2.1, 6.4), V(.15, 1.15, 0)], [V(.9, 1.8, 4.6), V(.6, 1.25, 0)]],
+  cta: [[V(0, 1.9, 6.6), V(0, 1.2, 0)], [V(.6, 1.7, 5.4), V(0, 1.2, 0)]],
+  ...MOD.SHOTS,
+};
+const ACT = {
+  gancho(lt, d) { const ent = eo(lin(lt, 0, .5));
+    pose(MAS, { x: -2.6 + ent * 1.65, y: lt < .5 ? hop(lt, .16, .3) : hop(lt, .6, .08), andar: lt < .5 ? lt * 3 : 0, piscar: pisca(lt), ...aponta(lt) });
+    const k = Math.floor(lt * 14); misT.draw(k); mis.position.set(1.15 + (k % 5 === 0 ? .05 : 0), 1.35 + Math.sin(lt * 2.4) * .1, 0); mis.rotation.set(Math.sin(lt) * .15, lt * .6, 0);
+    mis.scale.setScalar(back(lin(lt, .3, .9))); return k % 7 === 0 ? .03 : 0; },
+  cta(lt, d) { pose(MAS, { x: 0, y: hop(lt, .5, .15), braco: [.3, 1.9 + Math.sin(lt * 9) * .5], piscar: pisca(lt), sq: Math.max(0, Math.cos(lt * Math.PI / .5)) * .05 });
+    conf.forEach(C => { const y = ((C.y0 - lt * C.v * 2.2) % 7 + 7) % 7; C.c.position.set(C.x + Math.sin(lt * 2 + C.ph) * .3, y, C.z); C.c.rotation.set(lt * C.w, lt * C.w * .7, C.ph); }); },
+  ...MOD.ACT,
+};
+
+// ---------- camada 2D ----------
+const ITENS = SEGR.filter(s => s.item);
+const fmt = n => (n / 1000).toFixed(1).replace(".", ",") + " MIL";
+const TOTAL = ITENS.reduce((a, s) => a + s.estrelas, 0), MAXE = Math.max(...ITENS.map(s => s.estrelas));
+function pil(txt, x, y, fs, fundo, cor, font = "SG", al = "left", padx = .45) { X.font = `700 ${fs}px ${font}`; const w = X.measureText(txt).width + fs * padx * 2; const x0 = al === "center" ? x - w / 2 : x;
+  X.fillStyle = fundo; X.beginPath(); X.roundRect(x0, y - fs * .72, w, fs * 1.44, fs * .22); X.fill(); X.fillStyle = cor; X.textAlign = "left"; X.textBaseline = "middle"; X.fillText(txt, x0 + fs * padx, y + 2); return w; }
+function etiqueta() {
+  // camada 1 + 2 (caixa creme), camada 3 (promessa) abaixo; fixa o vídeo inteiro. Texto vem de segs[0].etiqueta.
+  const [l1, l2, l3] = SEGR[0].etiqueta || ["5 SKILLS DO CLAUDE", "+" + Math.floor(TOTAL / 1000) + " MIL ESTRELAS EM 10 DIAS", "E A Nº 1 É BIZARRA"];
+  const cabe = (txt, f0, max) => { let f = f0; X.font = `700 ${f}px SG`; while (X.measureText(txt).width > max && f > 30) { f -= 2; X.font = `700 ${f}px SG`; } return f; };
+  X.fillStyle = CREME; X.beginPath(); X.roundRect(60, 96, 960, 178, 18); X.fill();
+  X.textAlign = "left"; X.textBaseline = "alphabetic"; X.fillStyle = TINTA; cabe(l1, 70, 896); X.fillText(l1, 92, 172);
+  const p2 = l2.split(" "), n = p2.slice(0, 2).join(" "), r2 = p2.slice(2).join(" "); cabe(l2, 56, 896);
+  X.fillStyle = LAR; X.fillText(n, 92, 248); const w = X.measureText(n + " ").width; X.fillStyle = TINTA; X.fillText(r2, 92 + w, 248);
+  const p3 = l3.split(" "), ult = p3.pop(), ini = p3.join(" ") + " "; cabe(l3, 56, 948);
+  X.fillStyle = CREME; X.fillText(ini, 66, 352); const w2 = X.measureText(ini).width; X.fillStyle = LAR; X.fillText(ult, 66 + w2, 352);
+}
+const CHARS = "ABCDEFGHJKLMNPQRSTUVWXYZ0123456789#@$%&?!";
+function decifra(alvo, p, k) { let s = ""; for (let i = 0; i < alvo.length; i++) s += i < p * alvo.length ? alvo[i] : CHARS[(i * 31 + k * 17 + i * k) % CHARS.length]; return s; }
+function cabecalho(s, lt, t) {
+  const k = Math.floor(t * 22), p = eo(lin(lt, .1, .75)), y = 470;
+  const w1 = pil(s.tag, 60, y, 64, LAR, TINTA);
+  const nome = decifra(s.item, p, k); X.font = "500 60px JB"; const wn = X.measureText(s.item).width + 54;
+  X.fillStyle = CREME; X.beginPath(); X.roundRect(60 + w1 + 16, y - 46, wn, 92, 14); X.fill(); X.fillStyle = TINTA; X.textAlign = "left"; X.textBaseline = "middle"; X.fillText(nome, 60 + w1 + 43, y + 3);
+  // contador de estrelas subindo + barra
+  const v = s.estrelas * eio(lin(lt, .35, 1.8)); X.fillStyle = VERDE; X.font = "700 118px SG"; X.textAlign = "left"; X.textBaseline = "alphabetic"; X.fillText(fmt(v), 60, 640);
+  X.font = "700 30px SG"; X.fillStyle = "#8f8478"; X.fillText("ESTRELAS NO GITHUB", 64, 684);
+  const bx = 560, by = 600, bw = 460, n = 20, f = v / MAXE * n; for (let i = 0; i < n; i++) { X.fillStyle = i < Math.floor(f) ? VERDE : i < f ? "rgba(95,224,178,.5)" : "#2a2522"; X.beginPath(); X.roundRect(bx + i * (bw / n), by - 20, bw / n - 6, 40, 5); X.fill(); }
+}
+function blocos(seg) { const ch = []; let cur = []; for (const w of seg.palavras) { cur.push(w); if (/[.,:?!]$/.test(w.w) || cur.length >= 4) { ch.push(cur); cur = []; } } if (cur.length) ch.push(cur); return ch; }
+function legenda(seg, t) {
+  const ch = blocos(seg); let b = ch.findIndex(c => t < c[c.length - 1].t1 + .05); if (b < 0) b = ch.length - 1; const c = ch[b];
+  let fs = 66; X.font = `700 ${fs}px SG`; const tot = () => c.reduce((a, w) => a + X.measureText(w.w + " ").width, 0); while (tot() > 960 && fs > 40) { fs -= 2; X.font = `700 ${fs}px SG`; }
+  let x = 540 - tot() / 2; const y = 1655; X.textAlign = "left"; X.textBaseline = "middle";
+  for (const w of c) { const on = t >= w.t0 - .02; X.fillStyle = on && t < w.t1 + .25 ? LAR : on ? CREME : "rgba(244,234,216,.35)"; X.shadowColor = "rgba(0,0,0,.6)"; X.shadowBlur = 12; X.fillText(w.w, x, y); X.shadowBlur = 0; x += X.measureText(w.w + " ").width; }
+}
+function fundo(t) {
+  X.fillStyle = FUNDO; X.fillRect(0, 0, 1080, 1920); if (MOD.fundo2D) { MOD.fundo2D(X, t); }
+  const v = X.createRadialGradient(540, 1100, 100, 540, 1100, 1100); v.addColorStop(0, BRILHO); v.addColorStop(1, "rgba(0,0,0,0)"); X.fillStyle = v; X.fillRect(0, 0, 1080, 1920);
+  X.fillStyle = "rgba(244,234,216,.25)"; for (let i = 0; i < 9; i++) { const x = 80 + (i * 263) % 920, y = 760 + (i * 419) % 760, s = 8 + 4 * Math.sin(t * 2 + i); X.fillRect(x - s, y - 1.5, s * 2, 3); X.fillRect(x - 1.5, y - s, 3, s * 2); }
+}
+function fechamento(lt) {
+  ITENS.forEach((s, i) => { const y = 440 + i * 76, a = eo(lin(lt, i * .08, i * .08 + .35)); X.globalAlpha = a;
+    const w = pil(s.tag, 60 + (1 - a) * 40, y, 46, LAR, TINTA); X.font = "500 44px JB"; X.fillStyle = CREME; X.textAlign = "left"; X.textBaseline = "middle"; X.fillText(s.item, 60 + w + 22 + (1 - a) * 40, y + 2);
+    X.font = "700 42px SG"; X.fillStyle = VERDE; X.textAlign = "right"; X.fillText(fmt(s.estrelas), 1020, y + 2); X.globalAlpha = 1; });
+  const p = eo(lin(lt, .35, .8)); X.save(); X.translate(540, 1530); X.scale(.6 + .4 * p, .6 + .4 * p); X.globalAlpha = p;
+  X.font = "700 96px SG"; const w1 = X.measureText("COMENTA").width + 86, w2 = X.measureText(CHAVE).width + 86, x0 = -(w1 + w2 + 20) / 2;
+  X.shadowColor = "rgba(0,0,0,.5)"; X.shadowBlur = 30; pil("COMENTA", x0, 0, 96, LAR, "#fff"); pil(CHAVE, x0 + w1 + 20, 0, 96, "#ffd23f", TINTA); X.restore(); X.globalAlpha = 1;
+}
+
+let UIX = null;
+const C2 = () => ({ X, gl, GW, GH, GY, SEG, SEGR, ITENS, TOTAL, MAXE, CHAVE, fmt, pil, decifra, blocos, eo, lin, eio, back, cores: () => ({ LAR, CREME, TINTA, VERDE, FUNDO }) });
+window.setT = t => {
+  let k = SEG.findIndex(s => t < s.fim); if (k < 0) k = SEG.length - 1;
+  const s = SEG[k], sr = SEGR[k], lt = t - s.t0, d = s.fim - s.t0, nome = s.cena;
+  for (const n in G) G[n].visible = n === nome;
+  const sh = ACT[nome] ? ACT[nome](lt, d) || 0 : 0;
+  const [p, l] = (SHOTS[nome] || SHOTS.cta)[lt >= d / 2 ? 1 : 0]; const u = (lt >= d / 2 ? lt - d / 2 : lt) / (d / 2);
+  cam.position.copy(p.clone().lerp(l, .07 * eio(u))); cam.position.x += Math.sin(t * 61) * sh; cam.position.y += Math.cos(t * 47) * sh; cam.lookAt(l); if (MOD.camera) MOD.camera(cam, nome, lt, d, t, sh);
+  aro.material.emissiveIntensity = 2 + Math.sin(t * 3) * .6;
+  R.render(S, cam);
+  // elementos de tela: o módulo pode trocar cada um (Diversidade de elementos, Vitor 05/11)
+  const U = UIX || (UIX = Object.assign({ etiqueta, cabecalho, legenda, fechamento, fundo, desenha3D: null, transicao: null }, MOD.ui ? MOD.ui(C2()) : {}));
+  U.fundo(t); U.etiqueta(t, nome);
+  if (sr.item) U.cabecalho(sr, lt, t, d);
+  if (U.desenha3D) U.desenha3D(gl, nome, lt, t); else {
+  const gy = nome === "cta" ? 760 : GY; if (nome === "cta") { X.save(); X.beginPath(); X.roundRect(140, 820, GW * .74, GH * .74, 28); X.clip(); X.drawImage(gl, 140, 820, GW * .74, GH * .74); X.restore(); } else X.drawImage(gl, 0, gy);
+  if (nome !== "cta") { for (const [y0, y1] of [[gy, gy + 90], [gy + GH, gy + GH - 90]]) { const fg = X.createLinearGradient(0, y0, 0, y1); fg.addColorStop(0, FUNDO); fg.addColorStop(1, "rgba(0,0,0,0)"); X.fillStyle = fg; X.fillRect(0, Math.min(y0, y1), 1080, 90); } } }
+  if (nome === "cta") U.fechamento(lt, d); else U.legenda(s, t, sr);
+  if (U.transicao) U.transicao(lt, sr, nome, t);
+  else if (sr.item && lt < .07) { X.fillStyle = `rgba(255,255,255,${.35 * (1 - lt / .07)})`; X.fillRect(0, 0, 1080, 1920); }   // padrão: flash curto
+};
+setT(0); window.READY = true;
+</script></body></html>

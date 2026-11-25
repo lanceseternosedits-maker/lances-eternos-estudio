@@ -1,0 +1,29 @@
+{
+ "data": "2026-11-17",
+ "horario": "21:30",
+ "horarios": {
+  "instagram": "2026-11-17 21:30",
+  "tiktok": "2026-11-17 21:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "ELIZA",
+  "chatbot",
+  "história",
+  "MIT"
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/ELIZA",
+  "https://dl.acm.org/doi/10.1145/365153.365168"
+ ],
+ "prova_viral": "Fonte histórica: Weizenbaum (1966, Communications of the ACM) e Wikipedia (ELIZA); anedota da secretária relatada por Weizenbaum no livro de 1976 (Computer Power and Human Reason).",
+ "cta": "ELIZA",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 7,
+ "primeiro_comentario": "💬 Comenta ELIZA que eu te mando o artigo e a linha do tempo.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 43%, abaixo do corte"
+}

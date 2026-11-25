@@ -1,0 +1,8 @@
+Tá aqui 👇 os links dos 5:
+5º tellyscope: https://github.com/man15h/tellyscope
+4º dumbtv: https://github.com/humblemuzzu/dumbtv
+3º cleanyourtv-app: https://github.com/udhaykumarbala/cleanyourtv-app
+2º free-my-tv: https://github.com/simbasjungles/free-my-tv
+1º aerial-tv: https://github.com/pengchujin/aerial-tv
+
+⚠️ Mexer na TV é por sua conta: leia o README e use só na sua. Pode afetar a garantia.

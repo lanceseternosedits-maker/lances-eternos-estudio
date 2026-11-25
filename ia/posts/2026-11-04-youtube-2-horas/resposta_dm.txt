@@ -1,0 +1,15 @@
+Opa! Aqui está 👇
+
+📺 HackerTube (o YouTube sem algoritmo do Karpathy): https://hackertube.org
+São 6.454 vídeos que os programadores do Hacker News mais recomendaram em 20 anos, separados em 150 temas. Sem login.
+
+🛠️ Prompt pra criar o SEU app de vídeos no Claude (cole em claude.ai):
+
+"Crie um app de página única onde eu colo links de vídeos do YouTube que quero ver. Ele deve:
+1. separar os vídeos por tema (eu escolho ou crio o tema na hora);
+2. mostrar a miniatura e o título de cada vídeo;
+3. ter um botão 'já assisti' que move o vídeo para uma aba de assistidos;
+4. ter uma busca e um botão 'me sugere um' que sorteia um vídeo não assistido.
+Visual escuro, simples e bonito no celular."
+
+Depois é só pedir mudanças em português: "adiciona um campo de nota", "muda as cores"... 😉

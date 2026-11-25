@@ -1,0 +1,29 @@
+{
+ "data": "2026-11-23",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "IA",
+  "PC",
+  "celular",
+  "grátis",
+  "assistente",
+  "contas"
+ ],
+ "fontes": [
+  "https://github.com/syncthing/syncthing",
+  "https://github.com/immich-app/immich",
+  "https://github.com/openai/whisper",
+  "https://github.com/ollama/ollama"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): Syncthing 90.729, Immich 119.906, Whisper 113.403, Ollama 187.901; total 511.939.",
+ "cta": "KIT",
+ "polemica": false,
+ "candidato": "k1",
+ "primeiro_comentario": "💬 Comenta KIT que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 51%, abaixo do corte"
+}

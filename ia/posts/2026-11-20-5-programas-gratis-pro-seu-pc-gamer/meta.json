@@ -1,0 +1,61 @@
+{
+ "data": "2026-11-20",
+ "horario": "19:30",
+ "horarios": {
+  "instagram": "2026-11-20 19:30",
+  "tiktok": "2026-11-20 19:30"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "programas grátis",
+  "PC gamer",
+  "jogos",
+  "github",
+  "GTA 6"
+ ],
+ "fontes": [
+  "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
+  "https://github.com/libretro/RetroArch",
+  "https://github.com/moonlight-stream/moonlight-qt",
+  "https://github.com/obsproject/obs-studio",
+  "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Heroic 12.649, RetroArch 14.652, Moonlight 19.593, OBS Studio 79.725, Battery Monitor 4.195; total 130.814.",
+ "cta": "GAMER",
+ "polemica": true,
+ "vaga": 1,
+ "candidato": "a",
+ "primeiro_comentario": "💬 Comenta GAMER que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "reprovado na revisão",
+ "revisao": {
+  "veredito": "reprovado",
+  "resumo": "nichado, sem IA (revisor vitor)",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "reprova",
+    "nota": "Tema de nicho (PC gamer), sem IA; RetroArch, Moonlight e Battery Monitor obscuros para a pessoa comum."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "Moonlight precisa de PC host; RetroArch só com jogos próprios; nome real do Battery Monitor."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "passa",
+    "nota": "Gancho com tensão e pergunta de vida."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "Cena do Moonlight com 2 pedidos."
+   }
+  ],
+  "ajustes": [],
+  "em": "2026-11-19 08:18"
+ }
+}

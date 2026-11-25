@@ -1,0 +1,25 @@
+{
+  "pilar": "novidade",
+  "formato": "noticia",
+  "temas": [
+    "segurança de IA",
+    "treinamento de modelos"
+  ],
+  "empresas": [
+    "OpenAI"
+  ],
+  "fontes": [
+    "OpenAI",
+    "AI Weekly",
+    "Forkast",
+    "PTI"
+  ],
+  "paleta": 1,
+  "horarios": {
+    "instagram": "18:45",
+    "tiktok": "18:45",
+    "youtube": "18:55"
+  },
+  "cta": null,
+  "data": "2026-11-01"
+}

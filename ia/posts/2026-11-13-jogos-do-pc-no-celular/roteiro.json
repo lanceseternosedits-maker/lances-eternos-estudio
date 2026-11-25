@@ -1,0 +1,156 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "CONSOLE",
+ "tese": "5 PROGRAMAS GRÁTIS PRA JOGAR DO PC NO CELULAR · +72 MIL ESTRELAS · E O Nº 1 É BIZARRO",
+ "conceito": "avenida de cidade ao pôr do sol com um PC gamer gigante numa praça mandando raios de sinal para celular, TV e notebook em prédios",
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "d) letreiro split-flap",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "b) uma palavra gigante por vez com pop",
+  "transicao": "f) zoom atravessando uma tela",
+  "camera": "c) travelling lateral",
+  "fechamento": "b) pódio",
+  "tipografia": "b) Archivo Black",
+  "som": "trilha 02 + arcade",
+  "mascote": "fone gamer; ação principal: jogar deitado num sofá"
+ },
+ "brinde": "links dos 5 + passo a passo de 4 linhas (instala o Sunshine no PC, Moonlight no celular, mesma rede Wi-Fi, pareia com o PIN)",
+ "fontes": [
+  "https://github.com/MrCreativ3001/moonlight-web-stream",
+  "https://github.com/moonlight-stream/moonlight-ios",
+  "https://github.com/moonlight-stream/moonlight-android",
+  "https://github.com/moonlight-stream/moonlight-qt",
+  "https://github.com/SunshineStream/Sunshine"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 13/11/2026): moonlight-web-stream 748, Moonlight iOS 1.720, Moonlight Android 7.475, Moonlight PC 19.498, Sunshine 43.321; total 72.762",
+ "obs": "Descrições só das páginas oficiais (Sunshine: \"self-hosted game stream host for Moonlight\"; Moonlight: clientes GameStream para PC, Android, iOS/tvOS; moonlight-web-stream: jogo do Sunshine no navegador). Grátis e código aberto (GPL-3.0). Precisa de PC com placa de vídeo e rede boa; conferir requisitos no README no dia. Uso legal: os jogos são da pessoa. Steam Link: o Moonlight PC roda no Steam Link (descrição oficial).",
+ "polemica": false,
+ "palavras": 98,
+ "duracao_estimada_s": 35.0,
+ "status": "roteiro aguardando aprovação",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROGRAMAS GRÁTIS PRA JOGAR DO PC NO CELULAR",
+   "fala": "Cinco programas grátis levam os jogos do seu PC pro celular e pra TV. E o número um é bizarro.",
+   "legenda": "Cinco programas grátis levam os jogos do seu PC pro celular e pra TV. E o número um é bizarro.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "etiqueta": [
+    "5 PROGRAMAS GRÁTIS PRA JOGAR DO PC NO CELULAR",
+    "+72 MIL ESTRELAS",
+    "E O Nº 1 É BIZARRO"
+   ],
+   "itens": "jogos-do-pc-no-celular"
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "fala": "Quinto: Moonlight no navegador. O jogo abre numa aba.",
+   "legenda": "Quinto: Moonlight no navegador. O jogo abre numa aba.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "moonlight-web-stream",
+   "repo": "MrCreativ3001/moonlight-web-stream",
+   "estrelas": 748
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "fala": "Quarto: Moonlight pro iPhone e pra Apple TV.",
+   "legenda": "Quarto: Moonlight pro iPhone e pra Apple TV.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Moonlight iOS",
+   "repo": "moonlight-stream/moonlight-ios",
+   "estrelas": 1720
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "fala": "Terceiro: Moonlight pro Android. O jogo pesado roda no celular. Comenta CONSOLE que eu te mando os cinco. Manda pra aquele amigo gamer.",
+   "legenda": "Terceiro: Moonlight pro Android. O jogo pesado roda no celular. Comenta CONSOLE que eu te mando os cinco. Manda pra aquele amigo gamer.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Moonlight Android",
+   "repo": "moonlight-stream/moonlight-android",
+   "estrelas": 7475
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "fala": "Segundo: Moonlight pro notebook e pra TV com Steam Link.",
+   "legenda": "Segundo: Moonlight pro notebook e pra TV com Steam Link.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Moonlight PC",
+   "repo": "moonlight-stream/moonlight-qt",
+   "estrelas": 19498
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "fala": "E o primeiro: Sunshine. Seu PC vira um console que manda o jogo pra qualquer tela.",
+   "legenda": "E o primeiro: Sunshine. Seu PC vira um console que manda o jogo pra qualquer tela.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ],
+   "item": "Sunshine",
+   "repo": "SunshineStream/Sunshine",
+   "estrelas": 43321
+  },
+  {
+   "cena": "cta",
+   "tag": "COMENTA CONSOLE",
+   "fala": "Grátis, só com jogo que é seu. Você jogaria deitado na cama?",
+   "legenda": "Grátis, só com jogo que é seu. Você jogaria deitado na cama?",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "whoosh",
+     "g": 0.4
+    }
+   ]
+  }
+ ],
+ "producao": {
+  "padrao": "Padrão 'perfil referência' (AGENTE.md, 10/11) obrigatório: motor video/cena_gta (copiar index.html, helpers neon/flap/odometro/estrelas/cartaoBranco/SHOT); mundo 3D com profundidade (avenida, prédios dos dois lados, céu lilás→rosa→laranja→dourado, sol baixo, neblina); câmera viajando sem quadro parado; cada fala vira objeto/efeito (1 efeito forte por cena); prédios lisos pastel, sem textura de janelas nem neon, sem glow; texto/selo/pílula/legenda na linguagem do tema, branco com contorno escuro grosso e faixa escura atrás do texto; selo de progresso; fechamento com caixa de comentário digitando a palavra + cartão da DM e loop no 1º quadro; capa renderizada pela própria cena (node video/cena_gta/capa.js), nunca o capas.js genérico; área segura y 260–1500 e 130 px da direita; fala ≤ 3,0 palavras/s; superar o vídeo anterior em pelo menos um detalhe.",
+  "mundo": "avenida de cidade ao pôr do sol com um PC gamer gigante numa praça mandando raios de sinal para celular, TV e notebook em prédios",
+  "tipografia_tema": "Archivo Black + Space Grotesk; roxo-noite → laranja-sol, verde-controle",
+  "efeitos_chave": "sinal viajando do PC para cada tela, contador de estrelas, controle de videogame que acende",
+  "quando": "só depois do OK do Vitor no roteiro (e 2º OK no MP4)"
+ }
+}

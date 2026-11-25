@@ -1,0 +1,20 @@
+Comenta APPLE que eu te mando os 5 links. 🍎🧱
+
+A Apple só deixa o sistema dela rodar nos aparelhos dela. Esses 5 projetos do GitHub não ligaram (quase 9 mil estrelas somadas):
+
+5) Mac Subsystem for Android: apps de Android em janelas no Mac
+4) Snapintosh: o macOS ligando num notebook que não é da Apple
+3) UniXNU: iOS e macOS em aparelhos de outras marcas
+2) terminal-mac: um macOS inteiro dentro do terminal
+1) hakios: o coração do sistema da Apple num celular Android
+
+⚠️ São projetos experimentais: podem violar termos de uso. Nada de testar no seu aparelho principal.
+
+💬 Comenta APPLE e me segue. Deixa o like e manda pra aquele amigo que só usa Apple.
+
+Qual aparelho velho da sua casa você testaria? 👇
+
+Fontes: repositórios no GitHub (estrelas conferidas na produção).
+Animação e voz feitas com IA. Perfil independente, sem ligação com a Apple nem com as empresas citadas.
+
+#ia #apple #macos #android #github

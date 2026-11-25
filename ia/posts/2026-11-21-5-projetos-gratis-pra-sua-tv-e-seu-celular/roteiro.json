@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "TV",
+ "tese": "5 PROJETOS GRÁTIS PRA SUA TV E SEU CELULAR · +232 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1 com objeto reconhecível no 1º quadro (5 projetos grátis pra sua tv e seu celular); cenário mesa de trabalho, mascote capa, se escondendo; nº1 revelada por último.",
+ "brinde": "Links dos 5 + a lista do que precisa pra ligar o PC ou o celular na TV",
+ "fontes": [
+  "https://github.com/mpv-player/mpv",
+  "https://github.com/videolan/vlc",
+  "https://github.com/xbmc/xbmc",
+  "https://github.com/jellyfin/jellyfin",
+  "https://github.com/home-assistant/core"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): mpv 38.192, VLC 20.504, Kodi 21.511, Jellyfin 59.531, Home Assistant 92.357; total 232.095.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROJETOS GRÁTIS PRA SUA TV E SEU CELULAR",
+   "fala": "Vai gastar em TV nova? Cinco projetos grátis, num PC ligado nela, resolvem.",
+   "legenda": "Vai gastar em TV nova? Cinco projetos grátis, num PC ligado nela, resolvem.",
+   "visual": "5 PROJETOS GRÁTIS PRA SUA TV E SEU CELULAR",
+   "itens": "clean",
+   "etiqueta": [
+    "5 PROJETOS GRÁTIS PRA SUA TV E SEU CELULAR",
+    "+232 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "mpv",
+   "fala": "Quinto: mpv. Toca quase qualquer vídeo, leve e rápido.",
+   "legenda": "Quinto: mpv. Toca quase qualquer vídeo, leve e rápido.",
+   "visual": "Toca quase qualquer vídeo, leve e rápido.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "mpv-player/mpv",
+   "estrelas": 38192
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "VLC",
+   "fala": "Quarto: VLC. Abre quase qualquer formato, sem instalar codec.",
+   "legenda": "Quarto: VLC. Abre quase qualquer formato, sem instalar codec.",
+   "visual": "Abre quase qualquer formato, sem instalar codec.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "videolan/vlc",
+   "estrelas": 20504
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Kodi",
+   "fala": "Terceiro: Kodi. Vira central de filmes e músicas. Essa é legalzinha… comenta TV que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Kodi. Vira central de filmes e músicas. Essa é legalzinha… comenta TV que eu mando os cinco. Manda pro amigo.",
+   "visual": "Vira central de filmes e músicas.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "xbmc/xbmc",
+   "estrelas": 21511
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Jellyfin",
+   "fala": "Segundo: Jellyfin. Sua Netflix caseira, com os seus arquivos.",
+   "legenda": "Segundo: Jellyfin. Sua Netflix caseira, com os seus arquivos.",
+   "visual": "Sua Netflix caseira, com os seus arquivos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "jellyfin/jellyfin",
+   "estrelas": 59531
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Home Assistant",
+   "fala": "E o primeiro: Home Assistant. Controla luz e tomada de casa, com aparelhos compatíveis.",
+   "legenda": "E o primeiro: Home Assistant. Controla luz e tomada de casa, com aparelhos compatíveis.",
+   "visual": "Controla luz e tomada de casa, com aparelhos compatíveis.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "home-assistant/core",
+   "estrelas": 92357
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta TV e me segue. Quantas TVs tem na sua casa?",
+   "legenda": "Comenta TV e me segue. Quantas TVs tem na sua casa?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "f) escrito à mão",
+  "contador": "e) placar 8-bit",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "e) glitch RGB",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "mascote": "capa, se escondendo",
+  "cenario": "mesa de trabalho",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 86,
+ "duracao_estimada_s": 30.2
+}

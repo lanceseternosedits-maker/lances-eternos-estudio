@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º HandBrake: https://github.com/HandBrake/HandBrake
+4º PySceneDetect: https://github.com/Breakthrough/PySceneDetect
+3º LosslessCut: https://github.com/mifi/lossless-cut
+2º FunClip: https://github.com/modelscope/FunClip
+1º Whisper: https://github.com/openai/whisper
+
+⚠️ Só publique seu jogo onde a produtora libera clipes.
+
+Brinde: Links dos 5 + o passo a passo pra cortar clipe sozinho.

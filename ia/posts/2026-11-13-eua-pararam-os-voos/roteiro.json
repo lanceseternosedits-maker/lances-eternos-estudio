@@ -1,0 +1,59 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, com energia, ritmo ágil e fluido, sem pausas longas entre as frases (cerca de 2,8 palavras por segundo)",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "VOO",
+ "tese": "OS EUA PARARAM TODOS OS VOOS · MAIS DE 4 HORAS · QUASE 5 MIL CANCELADOS",
+ "conceito": "aeroporto ao pôr do sol: painel de partidas gigante com CANCELADO, dois aviões de blocos parados na pista, torre de controle sem sinal",
+ "brinde": "linha do tempo e as fontes (CNBC, ABC, NBC, CBS, Flightradar24) + o que fazer se o seu voo foi cancelado",
+ "fontes": [
+  "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+  "https://abcnews.com/US/live-updates/faa-ground-stop-live-updates-hundreds-flights-canceled/?id=138125140",
+  "https://www.nbcnews.com/news/us-news/live-blog/live-updates-flights-grounded-faa-communications-outage-rcna609268",
+  "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+  "https://www.flightradar24.com/blog/live/nationwide-ground-stop-issued-for-united-states/"
+ ],
+ "prova_viral": "Notícia nº 1 nos EUA em 13/11/2026: o FAA parou todas as decolagens do país por mais de 4 horas por pane de telecomunicação em vários centros de controle (CNBC, ABC News); quase 5 mil voos cancelados (FlightAware via ABC); primeira parada nacional desde jan/2023 (CNBC, NBC); DHS: sem sinal de ameaça à segurança (NBC, CBS).",
+ "elementos": {
+  "etiqueta": "g) placa de aeroporto",
+  "nome": "d) letreiro split-flap",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "b) uma palavra gigante por vez",
+  "transicao": "b) chicote de câmera",
+  "camera": "c) travelling lateral",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "b) Archivo Black",
+  "mascote": "boné de piloto; ação principal: esperar com a mala"
+ },
+ "pedido": "Vitor, 13/11 22:30: 'produza vídeos sobre o que está acontecendo nos EUA hoje… já aprova, já agenda, na próxima hora'",
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "fala": "Os Estados Unidos proibiram todo avião de decolar ontem. E a culpa foi de uma pane de comunicação.",
+   "legenda": "Os Estados Unidos proibiram todo avião de decolar ontem. E a culpa foi de uma pane de comunicação."
+  },
+  {
+   "cena": "n3",
+   "fala": "Terceiro: no fim da tarde, nenhum voo podia sair do país inteiro. Comenta VOO que eu te mando as fontes. Manda pra quem vai viajar.",
+   "legenda": "Terceiro: no fim da tarde, nenhum voo podia sair do país inteiro. Comenta VOO que eu te mando as fontes. Manda pra quem vai viajar."
+  },
+  {
+   "cena": "n2",
+   "fala": "Segundo: caiu a comunicação de vários centros de controle. O governo diz que não há sinal de ataque.",
+   "legenda": "Segundo: caiu a comunicação de vários centros de controle. O governo diz que não há sinal de ataque."
+  },
+  {
+   "cena": "n1",
+   "fala": "E o primeiro: foram mais de quatro horas parados. E quase cinco mil voos cancelados.",
+   "legenda": "E o primeiro: foram mais de quatro horas parados. E quase cinco mil voos cancelados."
+  },
+  {
+   "cena": "cta",
+   "fala": "Salva isso. Você tem viagem marcada pra esse fim de semana?",
+   "legenda": "Salva isso. Você tem viagem marcada pra esse fim de semana?"
+  }
+ ],
+ "palavras": 87,
+ "duracao_estimada_s": 31.1
+}

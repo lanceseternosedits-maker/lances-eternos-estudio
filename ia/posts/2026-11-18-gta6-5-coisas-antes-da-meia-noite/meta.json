@@ -1,0 +1,29 @@
+{
+ "data": "2026-11-18",
+ "horario": "19:30",
+ "horarios": {
+  "instagram": "2026-11-18 19:30",
+  "tiktok": "2026-11-18 19:30"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "GTA 6",
+  "checklist",
+  "golpe"
+ ],
+ "fontes": [
+  "https://www.terra.com.br/byte/rockstar-define-horario-de-lancamento-de-gta-6-no-brasil,9c7a2350108c3b419e3b9195af134c642d7ssmyk.html",
+  "https://www.terra.com.br/byte/rockstar-finaliza-desenvolvimento-de-gta-6-dias-antes-do-lancamento,16a5a31a0e5fdb2ac7ee3db53d4ddcdc0qnh4ych.html",
+  "https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+ ],
+ "prova_viral": "Notícia do dia: Terra (13/11/2026) horário, pré-carga e 212 GB; Terra (09/11) jogo pronto; Rockstar confirma 19/11/2026 (imprensa, sem estrelas).",
+ "cta": "GTA6",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 9,
+ "primeiro_comentario": "💬 Comenta GTA6 que eu te mando o checklist e os links.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 23%, abaixo do corte"
+}

@@ -1,0 +1,126 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "historia",
+ "chave": "APPS",
+ "tese": "5 APPS QUE NASCERAM PEQUENOS · E A Nº 1 É A MAIS LOUCA",
+ "conceito": "historia: contagem 5→1 com objeto reconhecível no 1º quadro (5 apps que nasceram pequenos); cenário varanda ao pôr do sol, mascote mochila, lendo; nº1 revelada por último.",
+ "brinde": "Os links das compras",
+ "fontes": [
+  "https://abcnews.go.com/Technology/story?id=2539400",
+  "https://about.fb.com/news/2014/02/facebook-to-acquire-whatsapp/"
+ ],
+ "prova_viral": "Google compra o YouTube por US$ 1,65 bi (out/2006); Facebook compra o Instagram por ~US$ 1 bi (abr/2012); Facebook anuncia a compra do WhatsApp (fev/2014, ~US$ 19 bi).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 APPS QUE NASCERAM PEQUENOS",
+   "fala": "Cinco apps que você usa todo dia nasceram pequenos. O último foi vendido por bilhões.",
+   "legenda": "Cinco apps que você usa todo dia nasceram pequenos. O último foi vendido por bilhões.",
+   "visual": "5 APPS QUE NASCERAM PEQUENOS",
+   "itens": "clean",
+   "etiqueta": [
+    "5 APPS QUE NASCERAM PEQUENOS",
+    "E A Nº 1 É A MAIS LOUCA"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "YouTube",
+   "item": "YouTube",
+   "fala": "Quinto: YouTube. Nasceu em 2005, e o Google comprou por 1,65 bilhão.",
+   "legenda": "Quinto: YouTube. Nasceu em 2005, e o Google comprou por 1,65 bilhão.",
+   "visual": "Nasceu em 2005, e o Google comprou por 1,65 bilhão.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "Instagram",
+   "item": "Instagram",
+   "fala": "Quarto: Instagram. Nasceu em 2010, e o Facebook comprou por 1 bilhão.",
+   "legenda": "Quarto: Instagram. Nasceu em 2010, e o Facebook comprou por 1 bilhão.",
+   "visual": "Nasceu em 2010, e o Facebook comprou por 1 bilhão.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "WhatsApp",
+   "item": "WhatsApp",
+   "fala": "Terceiro: WhatsApp. Nasceu em 2009, e foi vendido por 19 bilhões. Essa vale salvar… comenta APPS que eu mando as fontes. Manda pro amigo.",
+   "legenda": "Terceiro: WhatsApp. Nasceu em 2009, e foi vendido por 19 bilhões. Essa vale salvar… comenta APPS que eu mando as fontes. Manda pro amigo.",
+   "visual": "Nasceu em 2009, e foi vendido por 19 bilhões.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "TikTok",
+   "item": "TikTok",
+   "fala": "Segundo: TikTok. Nasceu na China e hoje o mundo todo usa.",
+   "legenda": "Segundo: TikTok. Nasceu na China e hoje o mundo todo usa.",
+   "visual": "Nasceu na China e hoje o mundo todo usa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "Nvidia",
+   "item": "Nvidia",
+   "fala": "E o primeiro: Nvidia. Nasceu numa lanchonete e hoje manda na IA.",
+   "legenda": "E o primeiro: Nvidia. Nasceu numa lanchonete e hoje manda na IA.",
+   "visual": "Nasceu numa lanchonete e hoje manda na IA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Salva pra contar pra alguém. Comenta APPS e me segue. Qual app você abre primeiro de manhã?",
+   "legenda": "Salva pra contar pra alguém. Comenta APPS e me segue. Qual app você abre primeiro de manhã?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "d) pote enchendo de estrelas",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "e) página de caderno",
+  "mascote": "mochila, lendo",
+  "cenario": "varanda ao pôr do sol",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 103,
+ "duracao_estimada_s": 36.1
+}

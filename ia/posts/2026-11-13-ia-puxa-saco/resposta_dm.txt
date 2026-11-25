@@ -1,0 +1,5 @@
+Aqui está! 🥊
+
+📝 Prompt: "Aja como um crítico exigente. Aponte os 3 maiores problemas de [sua ideia/texto/plano], sem elogios. Para cada um, diga como eu corrijo."
+
+📰 O caso: https://techcrunch.com/2025/04/29/openai-explains-why-chatgpt-became-too-sycophantic

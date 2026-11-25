@@ -1,0 +1,27 @@
+{
+ "data": "2026-11-18",
+ "horario": "12:00",
+ "horarios": {
+  "instagram": "2026-11-18 12:00",
+  "tiktok": "2026-11-18 12:00"
+ },
+ "categoria": "como_funciona",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "mão",
+  "imagem",
+  "IA"
+ ],
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Text-to-image_model"
+ ],
+ "prova_viral": "Explicação consolidada de modelos texto-imagem (Wikipedia); simplificada (imprensa técnica, sem estrelas). Hoje a falha diminuiu em muitos modelos.",
+ "cta": "MAO",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 8,
+ "primeiro_comentario": "💬 Comenta MAO que eu te mando o truque e 3 pedidos prontos.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 41%, abaixo do corte"
+}

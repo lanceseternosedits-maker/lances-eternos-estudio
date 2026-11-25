@@ -1,0 +1,6 @@
+Aqui está! 🛋️
+
+🎧 "The ELIZA Effect" (99% Invisible): https://99percentinvisible.org/episode/the-eliza-effect/
+📄 O artigo original de Weizenbaum (1966): https://dl.acm.org/doi/10.1145/365153.365168
+
+Curiosidade: o nome vem da Eliza Doolittle, personagem de "Pigmalião" que aprende a falar "como a elite".

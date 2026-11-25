@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º mpv: https://github.com/mpv-player/mpv
+4º VLC: https://github.com/videolan/vlc
+3º Kodi: https://github.com/xbmc/xbmc
+2º Jellyfin: https://github.com/jellyfin/jellyfin
+1º Home Assistant: https://github.com/home-assistant/core
+
+⚠️ Use só com filmes e músicas que são SEUS; no Kodi, nunca instale add-ons de streaming pirata.
+
+Brinde: Links dos 5 + a lista do que precisa pra ligar o PC ou o celular na TV.

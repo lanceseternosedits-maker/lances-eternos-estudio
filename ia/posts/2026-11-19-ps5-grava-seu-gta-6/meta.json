@@ -1,0 +1,106 @@
+{
+  "data": "2026-11-19",
+  "horario": "06:00",
+  "horarios": {
+    "instagram": "2026-11-19 06:00",
+    "tiktok": "2026-11-19 06:00",
+    "story": "2026-11-19 06:15"
+  },
+  "categoria": "novidade",
+  "pilar": "lista",
+  "formato": "reel formato 3 (contagem regressiva com mistério)",
+  "temas": [
+    "GTA 6",
+    "games",
+    "clipes",
+    "PS5"
+  ],
+  "empresas": [],
+  "fontes": [
+    "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
+    "https://www.tweaktown.com/news/76220/ps5-can-capture-up-to-1-hour-of-4k-gameplay-video-with-create-button/index.html",
+    "https://www.digitaltrends.com/gaming/how-to-record-gameplay-on-a-ps5",
+    "https://github.com/WyattBlue/auto-editor",
+    "https://github.com/RafaelGodoyEbert/ViralCutter",
+    "https://github.com/artbyjazi/autoclip"
+  ],
+  "prova_viral": "GTA 6 sai em 19/11/2026 (Rockstar Newswire); Sony e Microsoft dizem que é o jogo mais pré-vendido das suas lojas. Estrelas no GitHub (API, 13/11/2026): auto-editor 5.870, ViralCutter 450, autoclip 284; total 6.604. PS5 guarda até 60 min de jogo recente e salva em 15 s a 60 min (TweakTown, Digital Trends).",
+  "cta": "GTA",
+  "polemica": false,
+  "pedido": "Vitor, 13/11: foco em GTA 6 (como clipar as novidades do jogo)",
+  "status_antes_filtro": "roteiro aguardando aprovação",
+  "nota_filtro": "chance 48%, abaixo do corte",
+  "status_antes_excecao": "descartado",
+  "excecao_corte": "Vitor 13/11 (por voz): \"esses dois roteiros aí, da NVIDIA do GTA, eu vou passar eles como exceção. Pode mandar produzir.\"",
+  "checagem": {
+    "em": "2026-11-15 01:24",
+    "ok": false,
+    "itens": [
+      {
+        "nome": "Formato",
+        "valor": "1080×1920",
+        "ok": true,
+        "regra": "1080×1920"
+      },
+      {
+        "nome": "Duração",
+        "valor": "36.7 s",
+        "ok": false,
+        "regra": "até 35 s (corte texto se passar)"
+      },
+      {
+        "nome": "Velocidade da fala",
+        "valor": "2.75 palavras/s (101 palavras)",
+        "ok": true,
+        "regra": "máximo 3,0 palavras/s"
+      },
+      {
+        "nome": "Volume",
+        "valor": "-14.2 LUFS, pico -1.3 dB",
+        "ok": true,
+        "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+      },
+      {
+        "nome": "Fontes",
+        "valor": "6 fonte(s)",
+        "ok": true,
+        "regra": "todo fato com fonte"
+      },
+      {
+        "nome": "Prova viral",
+        "valor": "preenchida",
+        "ok": true,
+        "regra": "toda pauta com a prova de que viralizou"
+      },
+      {
+        "nome": "Legenda do Instagram",
+        "valor": "252 caracteres",
+        "ok": true,
+        "regra": "até 2.200 caracteres"
+      },
+      {
+        "nome": "CTA na legenda",
+        "valor": "GTA",
+        "ok": true,
+        "regra": "a palavra do CTA aparece na legenda"
+      },
+      {
+        "nome": "Hashtags no Instagram",
+        "valor": "5",
+        "ok": true,
+        "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
+      },
+      {
+        "nome": "Resposta da DM",
+        "valor": "ok",
+        "ok": true,
+        "regra": "resposta_dm.txt com os links"
+      }
+    ]
+  },
+  "producao": {
+    "motor": "v7 (video7.py + scene3.frag: cidade ao pôr do sol, câmera variando; Vitor 14/11)",
+    "render_min": 33,
+    "em": "2026-11-14"
+  }
+}

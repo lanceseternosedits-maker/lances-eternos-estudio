@@ -1,0 +1,20 @@
+{
+  "name": "estudio-de-reels",
+  "private": true,
+  "description": "Estúdio de Reels com IA: roteiro com gancho, cena 3D com mascote, legenda palavra por palavra e MP4 1080x1920",
+  "scripts": {
+    "estudio": "remotion studio src/index.jsx",
+    "render": "remotion render src/index.jsx"
+  },
+  "dependencies": {
+    "@fontsource/archivo-black": "^5.0.0",
+    "@fontsource/inter": "^5.0.0",
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/cli": "^4.0.541",
+    "@remotion/three": "^4.0.541",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.541",
+    "three": "^0.170.0"
+  }
+}

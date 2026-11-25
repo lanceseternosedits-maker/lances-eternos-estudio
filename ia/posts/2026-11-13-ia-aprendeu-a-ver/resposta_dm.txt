@@ -1,0 +1,8 @@
+Aqui está! 👁️
+
+📄 O artigo da AlexNet (NeurIPS 2012): https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf
+🏁 Resultado oficial da prova (ILSVRC 2012): https://image-net.org/challenges/LSVRC/2012/results.html
+
+Curiosidade: as duas placas eram GTX 580, placas pra jogar, lançadas em 2010. Depois disso, as placas de vídeo viraram o motor de quase toda IA.
+
+Se curtiu, me segue pra mais IA e tecnologia que serve pra vida real. 💜

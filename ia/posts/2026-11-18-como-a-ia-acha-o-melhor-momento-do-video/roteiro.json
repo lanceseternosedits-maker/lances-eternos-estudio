@@ -1,0 +1,99 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "como_funciona",
+ "chave": "CORTE",
+ "tese": "COMO A IA ACHA O MELHOR MOMENTO DO SEU VÍDEO · +5 MIL ESTRELAS NO AUTO-EDITOR · E O Nº 1 CORTA O QUE ESTÁ PARADO",
+ "conceito": "Fiscal de estádio de blocos com caderno: anota onde a torcida gritou (picos de áudio), o que o narrador falou e quando a bola parou; o vídeo vira uma linha do tempo com marcações.",
+ "brinde": "O prompt pronto pra pedir os melhores trechos + o comando do auto-editor",
+ "fontes": [
+  "https://github.com/WyattBlue/auto-editor",
+  "https://auto-editor.com"
+ ],
+ "prova_viral": "auto-editor: 5.928 estrelas no GitHub (API, 16/11/2026), licença Unlicense; edita por volume e movimento. Semana do lançamento do GTA 6 (19/11).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "COMO A IA ACHA O MELHOR MOMENTO DO SEU VÍDEO",
+   "fala": "Como o programa sabe onde cortar o seu vídeo? Ele escuta a torcida.",
+   "legenda": "Como o programa sabe onde cortar o seu vídeo? Ele escuta a torcida.",
+   "visual": "",
+   "itens": "como",
+   "etiqueta": [
+    "COMO A IA ACHA O MELHOR MOMENTO DO SEU VÍDEO",
+    "+5 MIL ESTRELAS NO AUTO-EDITOR",
+    "E O Nº 1 CORTA O QUE ESTÁ PARADO"
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Volume",
+   "fala": "Terceiro: o volume. Grito e risada viram picos no áudio. Manda pra um amigo.",
+   "legenda": "3º Volume: grito e risada viram picos no áudio",
+   "visual": "grito e risada viram picos no áudio",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Fala",
+   "fala": "Segundo: a fala. A IA transcreve e acha a frase com gancho.",
+   "legenda": "2º Fala: a IA transcreve e acha a frase com gancho",
+   "visual": "a IA transcreve e acha a frase com gancho",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "auto-editor",
+   "fala": "Primeiro: o auto-editor mede volume e movimento e corta o que está parado.",
+   "legenda": "1º auto-editor: mede volume e movimento e corta o que está parado",
+   "visual": "mede volume e movimento e corta o que está parado",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "WyattBlue/auto-editor",
+   "estrelas": 5928
+  },
+  {
+   "cena": "cta",
+   "fala": "Peça: me dê cinco trechos de vinte segundos. Comenta CORTE e me segue.",
+   "legenda": "Comenta CORTE",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "b) carimbo batendo",
+  "contador": "f) termômetro",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "b) chicote de câmera",
+  "camera": "d) órbita",
+  "fechamento": "d) tela CONTINUE?",
+  "mascote": "mochila + crachá, carregando caixas",
+  "cenario": "sala de estar à noite",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 65,
+ "duracao_estimada_s": 23.2
+}

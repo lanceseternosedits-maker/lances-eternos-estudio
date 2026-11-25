@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "JOGOS",
+ "tese": "5 JOGOS DE CONSOLE E PC QUE FÃS BOTARAM NO CELULAR · PROJETOS GRÁTIS",
+ "conceito": "Sala gamer cheia de telas pequenas (celular, tablet, notebook) em volta de um console; cada projeto leva um jogo de uma tela pra outra por um cabo de luz; nº 1: um joystick solitário ganha um segundo controle. Sem personagens ou logos de jogos.",
+ "brinde": "links dos 5 + o aviso de que só funcionam com jogos que são SEUS",
+ "fontes": [
+  "https://github.com/shirai91/nx2android",
+  "https://github.com/thebcd69/bcd-games",
+  "https://github.com/raymondchins/Bridgeplay",
+  "https://github.com/jhaizhou-ops/S2Arm",
+  "https://github.com/cranebeaker/coop-anything"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 14/11/2026): nx2android 1.601, bcd-games 549, Bridgeplay 966, S2Arm 2.947, coop-anything 2.117, total 8.180; projetos criados entre 16/10 e 08/11/2026.",
+ "obs": "Conferir no README o que cada um exige. Reler estrelas no dia. Sem ROM/pirataria.",
+ "polemica": true,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 JOGOS DE CONSOLE NO SEU CELULAR",
+   "fala": "Jogo de Windows no iPhone. Jogo de Switch no Mac. Fãs fizeram, de graça, pro seu jogo.",
+   "legenda": "Jogo de Windows no iPhone. Jogo de Switch no Mac. Fãs fizeram, de graça, pro seu jogo.",
+   "visual": "mesa de gamer com celular, notebook e portátil se conectando por fios de luz",
+   "itens": "jogos-no-celular-e-no-mac",
+   "etiqueta": [
+    "5 JOGOS DE CONSOLE NO SEU CELULAR",
+    "+8 MIL ESTRELAS",
+    "NENHUM É OFICIAL"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "bcd-games",
+   "fala": "Quinto: bcd-games. Jogos de Windows no iPhone e no iPad.",
+   "legenda": "5º bcd-games: jogos de Windows no iPhone e iPad",
+   "visual": "jogos de Windows no iPhone e iPad",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "thebcd69/bcd-games",
+   "estrelas": 549
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Bridgeplay",
+   "fala": "Quarto: Bridgeplay. Jogos do Steam pra Windows rodando no Mac.",
+   "legenda": "4º Bridgeplay: jogos do Steam pra Windows no Mac",
+   "visual": "jogos do Steam pra Windows no Mac",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "raymondchins/Bridgeplay",
+   "estrelas": 966
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "nx2android",
+   "fala": "Terceiro: nx2android. Jogos de Switch no Android, um por um. Só com jogo que é seu. Comenta JOGOS e manda pra um amigo.",
+   "legenda": "3º nx2android: jogos de Switch no Android",
+   "visual": "jogos de Switch no Android",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "shirai91/nx2android",
+   "estrelas": 1601
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "coop-anything",
+   "fala": "Segundo: coop-anything. A IA tenta deixar um jogo solo jogável com amigos.",
+   "legenda": "2º coop-anything: a IA transforma jogo solo em coop",
+   "visual": "a IA transforma jogo solo em coop",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "cranebeaker/coop-anything",
+   "estrelas": 2117
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "S2Arm",
+   "fala": "E o um: S2Arm. Jogos de Switch rodando direto no iPhone, iPad e Mac.",
+   "legenda": "1º S2Arm: jogos de Switch nativos no iPhone e Mac",
+   "visual": "jogos de Switch nativos no iPhone e Mac",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ],
+   "repo": "jhaizhou-ops/S2Arm",
+   "estrelas": 2947
+  }
+ ],
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "f) escrito à mão",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "d) virada de página",
+  "mascote": "capa + pilotando",
+  "camera": "e) câmera na mão",
+  "fechamento": "b) pódio",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 87,
+ "duracao_estimada_s": 31.1
+}

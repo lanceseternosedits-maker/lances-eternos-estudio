@@ -1,0 +1,97 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "historia",
+ "chave": "VISAO",
+ "tese": "EM 2012 UMA IA APRENDEU A VER COM PLACA DE JOGO · 3 FATOS DESSA HISTÓRIA · E O Nº 1 É A PLACA",
+ "conceito": "Linha do tempo: laboratório universitário de 2012 de blocos, placa de jogo genérica ligada a um computador; placar do concurso com duas barras de erro.",
+ "brinde": "Link do artigo original e a linha do tempo do dia em que a IA aprendeu a ver",
+ "fontes": [
+  "https://papers.nips.cc/paper_files/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html",
+  "https://image-net.org/challenges/LSVRC/2012/results.html"
+ ],
+ "prova_viral": "Artigo \"ImageNet Classification with Deep Convolutional Neural Networks\" (Krizhevsky, Sutskever e Hinton, NeurIPS 2012): 2 GPUs GTX 580; erro top-5 de 15,3% contra 26,2% do 2º lugar (ILSVRC 2012).",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "EM 2012 UMA IA APRENDEU A VER COM PLACA DE JOGO",
+   "fala": "Em 2012, uma IA aprendeu a ver. E foi treinada em placa de videogame.",
+   "legenda": "Em 2012, uma IA aprendeu a ver. E foi treinada em placa de videogame.",
+   "visual": "",
+   "itens": "alexnet",
+   "etiqueta": [
+    "EM 2012 UMA IA APRENDEU A VER COM PLACA DE JOGO",
+    "3 FATOS DESSA HISTÓRIA",
+    "E O Nº 1 É A PLACA"
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "15,3%",
+   "fala": "Terceiro: a AlexNet venceu o concurso ImageNet de 2012 errando só quinze vírgula três por cento.",
+   "legenda": "3º 15,3%: a AlexNet venceu o ImageNet 2012 errando 15,3%",
+   "visual": "a AlexNet venceu o ImageNet 2012 errando 15,3%",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "26,2%",
+   "fala": "Segundo: o segundo lugar errou vinte e seis vírgula dois por cento. Manda pra um amigo.",
+   "legenda": "2º 26,2%: o 2º lugar errou 26,2%",
+   "visual": "o 2º lugar errou 26,2%",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "GTX 580",
+   "fala": "Primeiro: ela treinou em duas placas de jogo da Nvidia, as GeForce GTX 580.",
+   "legenda": "1º GTX 580: treinou em duas placas de jogo GeForce GTX 580",
+   "visual": "treinou em duas placas de jogo GeForce GTX 580",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Salva pra contar pra alguém. Comenta VISAO e me segue.",
+   "legenda": "Comenta VISAO",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "a) caixa creme no topo",
+  "nome": "d) letreiro split-flap",
+  "contador": "a) número + barra de blocos",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "a) flash branco",
+  "camera": "d) órbita",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "mascote": "boné + fone, correndo",
+  "cenario": "cozinha de apartamento",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 70,
+ "duracao_estimada_s": 25.0
+}

@@ -1,0 +1,127 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "como_funciona",
+ "chave": "PLACA",
+ "tese": "POR QUE A MESMA PLACA DE VÍDEO ROLA O JOGO E A IA · 5 PASSOS",
+ "conceito": "Cozinha 3D: de um lado um chef genial com uma panela; do outro mil cozinheiros com uma torradeira cada; nº 1: uma placa de vídeo com um medidor de memória enchendo. Sem logos.",
+ "brinde": "o truque: como saber se o seu PC roda IA (memória da placa)",
+ "fontes": [
+  "https://en.wikipedia.org/wiki/Graphics_processing_unit",
+  "https://docs.nvidia.com/cuda/cuda-c-programming-guide/"
+ ],
+ "prova_viral": "Explicação consolidada (GPU faz muitas contas simples em paralelo): Wikipedia (GPU) e guia CUDA (imprensa técnica, sem estrelas). Gancho do dia: a semana da Nvidia e o lançamento do GTA 6.",
+ "obs": "Conferir na produção a regra de VRAM; sem prometer modelo específico.",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "POR QUE A PLACA DE VÍDEO ROLA JOGO E IA",
+   "fala": "Por que a mesma placa de vídeo roda o jogo e também a IA? Cinco passos.",
+   "legenda": "Por que a mesma placa de vídeo roda o jogo e também a IA? Cinco passos.",
+   "visual": "cozinha gigante: um cozinheiro de um lado e mil do outro",
+   "itens": "por-que-a-placa-de-video-roda-ia",
+   "etiqueta": [
+    "POR QUE A PLACA DE VÍDEO ROLA JOGO E IA",
+    "5 PASSOS EM 30 SEGUNDOS",
+    "E O Nº 1 É O TRUQUE"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "CPU",
+   "fala": "Cinco: o processador é um cozinheiro genial que faz um prato por vez.",
+   "legenda": "5º CPU: o processador faz um prato por vez",
+   "visual": "o processador faz um prato por vez",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "GPU",
+   "fala": "Quatro: a placa de vídeo são mil cozinheiros simples, cada um com um pedaço.",
+   "legenda": "4º GPU: a placa são mil cozinheiros simples",
+   "visual": "a placa são mil cozinheiros simples",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Jogo",
+   "fala": "Três: no jogo, cada pedaço é um pixel da tela, todos ao mesmo tempo. Comenta PLACA pro truque e manda pra um amigo gamer.",
+   "legenda": "3º Jogo: no jogo, cada pedaço é um pixel",
+   "visual": "no jogo, cada pedaço é um pixel",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "IA",
+   "fala": "Dois: na IA, são milhões de multiplicações iguais, ao mesmo tempo.",
+   "legenda": "2º IA: na IA, milhões de contas iguais",
+   "visual": "na IA, milhões de contas iguais",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Truque",
+   "fala": "E o um, o truque: pra rodar IA no PC, olhe a memória da placa antes da velocidade.",
+   "legenda": "1º Truque: olhe a memória da placa (VRAM)",
+   "visual": "olhe a memória da placa (VRAM)",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "c) velocímetro circular",
+  "legenda": "e) tarja de TV",
+  "transicao": "f) zoom atravessando uma tela",
+  "mascote": "fone + se escondendo",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 96,
+ "duracao_estimada_s": 34.3
+}

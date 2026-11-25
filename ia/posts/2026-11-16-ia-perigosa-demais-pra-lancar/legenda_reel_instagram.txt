@@ -1,0 +1,17 @@
+Comenta PERIGO que eu te mando o texto original da OpenAI. 🔒
+
+Em 2019, a OpenAI segurou uma IA por medo de ela ser usada pra espalhar mentira. A imprensa chamou de "perigosa demais pra lançar". E alguém disse que era só marketing.
+
+3 fatos dessa história:
+1) Em 14/02/2019 a OpenAI apresentou o GPT-2, mas não liberou o modelo completo: citou o risco de ele ser usado pra gerar textos falsos convincentes.
+2) Ela liberou o modelo aos poucos, em versões cada vez maiores ao longo de 2019.
+3) Em 05/11/2019 soltou a versão inteira, de 1,5 bilhão de parâmetros. Parte dos críticos achou que a cautela foi exagero ou propaganda; o debate continua.
+
+💬 Comenta PERIGO e me segue. Salva pra contar pra alguém. Deixa o like e manda pra aquele amigo que curte tecnologia.
+
+Quantos e-mails você escreve por semana? 👇
+
+Fontes: OpenAI ("Better Language Models and Their Implications", 14/02/2019) e The Next Web (05/11/2019).
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #inteligenciaartificial #historiadaia #openai #gpt2

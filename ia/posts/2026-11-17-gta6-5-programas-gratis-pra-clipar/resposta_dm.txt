@@ -1,0 +1,8 @@
+Tá aqui 👇 os links dos 5:
+5º Shotcut: https://github.com/mltframework/shotcut
+4º HandBrake: https://github.com/HandBrake/HandBrake
+3º LosslessCut: https://github.com/mifi/lossless-cut
+2º OBS Studio: https://github.com/obsproject/obs-studio
+1º auto-editor: https://github.com/WyattBlue/auto-editor
+
+⚠️ Clipe só o SEU jogo e respeite as regras de conteúdo da Rockstar. OBS grava a tela do PC; no console, só com placa de captura.

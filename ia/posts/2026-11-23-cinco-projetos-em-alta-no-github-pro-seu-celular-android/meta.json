@@ -1,0 +1,67 @@
+{
+ "data": "2026-11-27",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "celular",
+  "Android",
+  "TV",
+  "github",
+  "grátis",
+  "projetos",
+  "alta"
+ ],
+ "fontes": [
+  "https://github.com/TeamNewPipe/NewPipe",
+  "https://github.com/termux/termux-app",
+  "https://github.com/syncthing/syncthing",
+  "https://github.com/immich-app/immich",
+  "https://github.com/Genymobile/scrcpy"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): NewPipe 40.882, Termux 65.509, Syncthing 90.729, Immich 119.906, scrcpy 155.449; total 472.475.",
+ "cta": "ANDROID",
+ "polemica": false,
+ "candidato": "b7",
+ "primeiro_comentario": "💬 Comenta ANDROID que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
+ "status": "roteiro aguardando aprovação",
+ "horario": "06:00",
+ "horarios": {
+  "instagram": "2026-11-27 06:00",
+  "tiktok": "2026-11-27 06:00"
+ },
+ "vaga": 9,
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "gancho com conflito, fatos conferidos",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "ajustar",
+    "nota": "NewPipe e Immich são ótimos; Termux e scrcpy são nichados."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "NewPipe é zona cinza dos termos do YouTube; Immich exige servidor próprio."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Gancho descritivo, sem tensão: troquei por pergunta de conflito/dor."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "Gancho longo e 'GitHub' sem tradução: encurtei e traduzi onde coube."
+   }
+  ],
+  "ajustes": [
+   "gancho reescrito com pergunta/conflito",
+   "falas e avisos corrigidos conforme fatos/clareza"
+  ],
+  "em": "2026-11-23 05:09",
+  "obs": "2ª volta dispensada por economia de tokens; sem reprovação. Estrelas lidas na API de busca do GitHub em 23/11/2026."
+ }
+}

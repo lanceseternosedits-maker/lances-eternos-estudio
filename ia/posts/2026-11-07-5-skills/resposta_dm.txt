@@ -1,0 +1,10 @@
+Opa! Aqui estão as 5 skills 👇
+(Todas rodam no Claude Code, que vem nos planos pagos do Claude.)
+
+5º MotionSites: https://github.com/Motionsites-AI/claude-skill
+4º reanimate: https://github.com/NiazMorshed2007/reanimate
+3º pixelfx: https://github.com/patch-gg/pixelfx
+2º unslop: https://github.com/heydamir/unslop
+1º teardown: https://github.com/elvarofficial/teardown
+
+Como instalar: abra o link, siga o "Install" do README (geralmente é copiar a pasta da skill para ~/.claude/skills ou rodar o comando indicado) e peça ao Claude Code em português o que quer fazer. 😉

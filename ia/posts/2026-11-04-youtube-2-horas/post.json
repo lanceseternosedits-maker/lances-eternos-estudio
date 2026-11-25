@@ -1,0 +1,57 @@
+{
+ "slug": "youtube-2-horas",
+ "formato": "lista",
+ "cover": {
+  "title_html": "Ele odiou o YouTube.<br><span class=\"g\">E criou outro em 2h.</span>",
+  "sub": "Sem algoritmo. Com o Claude.",
+  "imgs": ["capa.jpg", "funil.jpg", "grade.jpg"]
+ },
+ "dor": {
+  "kick": "O PROBLEMA",
+  "title": "Você abre o YouTube pra ver 1 vídeo. Sai 1 hora depois.",
+  "body": "Quem escolhe o próximo vídeo é o algoritmo. E ele quer seu tempo, não o seu melhor.",
+  "carimbo": "+1 HORA"
+ },
+ "items": [
+  {
+   "n": "01",
+   "repo": "x.com/karpathy · 01/11 · tradução",
+   "kick": "Quem fez · Andrej Karpathy",
+   "title": "Um dos fundadores da OpenAI.",
+   "body": "Ex-chefe de IA da Tesla. No dia 1º ele postou que cansou das recomendações do YouTube.",
+   "quote": "“Projeto de fim de semana: HackerTube. Uma experiência MUITO melhor.”",
+   "chips": [["Post no X", "+3 mi views"], ["Feito em", "~2 horas"]]
+  },
+  {
+   "n": "02",
+   "repo": "x.com/karpathy",
+   "kick": "Como ele fez",
+   "title": "Mandou o Claude ler 20 anos de comentários.",
+   "body": "43 milhões de comentários do Hacker News, fórum de programadores. A IA achou os vídeos que eles mais indicam.",
+   "img": "funil.jpg", "fit": "cover", "pos": "50% 50%", "credit": "ilustração gerada por IA",
+   "chips": [["Comentários", "43 mi"], ["Período", "2007–2026"]]
+  },
+  {
+   "n": "03",
+   "repo": "hackertube.org",
+   "kick": "O resultado · hackertube.org",
+   "title": "6.454 vídeos. Zero algoritmo.",
+   "body": "Separados em 150 temas, sem login. Escolhidos por gente, não por máquina de prender você.",
+   "img": "grade.jpg", "fit": "cover", "pos": "50% 50%", "credit": "ilustração gerada por IA",
+   "chips": [["Vídeos", "6.454"], ["Temas", "150"]]
+  },
+  {
+   "n": "04",
+   "repo": "claude.ai",
+   "kick": "Faça o seu · sem programar",
+   "title": "Descreva o app. O Claude monta.",
+   "body": "Cole no Claude e ele cria uma página que roda ali mesmo. Depois peça mudanças em português.",
+   "prompt": "Crie um app de página única onde eu colo links de vídeos que quero ver, ele separa por tema e tem um botão “já assisti”. Visual escuro e simples.",
+   "chips": [["Código", "nenhum"], ["Onde", "claude.ai"]]
+  }
+ ],
+ "cta": {
+  "key": "TUBE",
+  "promise": "O link do HackerTube e o prompt pra você criar o seu próprio app."
+ }
+}

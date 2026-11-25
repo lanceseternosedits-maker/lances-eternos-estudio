@@ -1,0 +1,34 @@
+{
+ "data": "2026-11-16",
+ "horario": "06:00",
+ "horarios": {
+  "instagram": "2026-11-16 06:00",
+  "tiktok": "2026-11-16 06:00"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "GTA",
+  "celular",
+  "jogos",
+  "console",
+  "PC"
+ ],
+ "fontes": [
+  "https://github.com/mempage4k/glue5",
+  "https://github.com/SebasKitten/Grand-V",
+  "https://github.com/kevinerikjs/gta5-ios-port",
+  "https://github.com/gothamor/gta-vcs-recomp",
+  "https://github.com/c22dev/muguet",
+  "https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 14/11/2026): glue5 295, Grand-V 404, gta5-ios-port 605, gta-vcs-recomp 648, muguet 817, total 2.769; projetos criados entre 16/10 e 08/11/2026.",
+ "cta": "GTA",
+ "polemica": true,
+ "status": "descartado",
+ "vaga": 1,
+ "primeiro_comentario": "💬 Comenta GTA que eu te mando os links dos 5.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 49%, abaixo do corte"
+}

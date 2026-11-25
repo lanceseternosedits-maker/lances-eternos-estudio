@@ -1,0 +1,10 @@
+Uma versão envenenada da extensão do Claude Code abriu uma porta dos fundos (backdoor SSH) no PC de quem instalou pelo Cursor. Veja em 3 passos se você foi afetado.
+
+Comenta SEGURO que eu te mando o passo a passo completo, com o comando pra checar.
+
+Versões afetadas: 2.1.312 e 2.1.313, na loja de extensões do Cursor, em 29/out (macOS e Windows). Segundo o Cursor, a versão maliciosa não foi feita pela Anthropic.
+
+Fontes: aviso de segurança do Cursor (29–30/out/2026); Help Net Security (30/out); The Hacker News (out/2026).
+Narração com voz sintética.
+
+#claudecode #cursor #ciberseguranca #programacao #ia

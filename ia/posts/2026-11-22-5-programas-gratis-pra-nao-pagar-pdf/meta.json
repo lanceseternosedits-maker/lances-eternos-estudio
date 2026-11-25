@@ -1,0 +1,36 @@
+{
+ "data": "2026-11-22",
+ "horario": "09:00",
+ "horarios": {
+  "instagram": "2026-11-22 09:00",
+  "tiktok": "2026-11-22 09:00"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "PDF",
+  "PC",
+  "windows",
+  "programas grátis",
+  "github",
+  "escritório"
+ ],
+ "fontes": [
+  "https://github.com/notepad-plus-plus/notepad-plus-plus",
+  "https://github.com/ocrmypdf/OCRmyPDF",
+  "https://github.com/paperless-ngx/paperless-ngx",
+  "https://github.com/microsoft/markitdown",
+  "https://github.com/Stirling-Tools/Stirling-PDF"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Notepad++ 29.924, OCRmyPDF 35.350, Paperless-ngx 48.316, MarkItDown 196.815, Stirling PDF 96.970; total 407.375.",
+ "cta": "PDF",
+ "polemica": true,
+ "vaga": 7,
+ "candidato": "c",
+ "primeiro_comentario": "💬 Comenta PDF que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 55%, abaixo do corte"
+}

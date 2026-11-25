@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "ROBO",
+ "tese": "5 PROJETOS GRÁTIS DE IA QUE TRABALHAM POR VOCÊ NO CELULAR E NO PC · A Nº 1 SÓ TE CHAMA NA DÚVIDA",
+ "conceito": "Escritório vazio à noite com computadores acendendo um por um; uma mesa de café com um sino que toca só na dúvida; nº 1: uma pilha de tarefas que diminui sozinha. Mascote só reage.",
+ "brinde": "links dos 5 + 3 pedidos prontos pra testar o 1º",
+ "fontes": [
+  "https://github.com/FrigadeHQ/yogurt",
+  "https://github.com/DIYgod/pinky",
+  "https://github.com/sarpstar/cinecode",
+  "https://github.com/alchaincyf/huashu-motion",
+  "https://github.com/KKKKhazix/agent-autoloop"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 14/11/2026): yogurt 1.397, pinky 2.132, cinecode 2.484, huashu-motion 2.701, agent-autoloop 5.303, total 14.017; projetos criados entre 16/10 e 08/11/2026.",
+ "obs": "Reler no README o que cada um exige (chave, plano pago) e ajustar a fala do nº 5 ao 1.",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 IAS QUE TRABALHAM POR VOCÊ",
+   "fala": "Cinco IAs grátis que trabalham por você. A número um só te chama quando tem dúvida.",
+   "legenda": "Cinco IAs grátis que trabalham por você. A número um só te chama quando tem dúvida.",
+   "visual": "escritório vazio à noite; vários computadores trabalhando sozinhos, com luzes acesas",
+   "itens": "ias-que-trabalham-por-voce",
+   "etiqueta": [
+    "5 IAS QUE TRABALHAM POR VOCÊ",
+    "+14 MIL ESTRELAS EM 1 MÊS",
+    "E A Nº 1 SÓ TE CHAMA NA DÚVIDA"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "yogurt",
+   "fala": "Quinto: yogurt. Anota a sua reunião sozinho, e tudo fica no seu computador.",
+   "legenda": "5º yogurt: anota a reunião, tudo no seu computador",
+   "visual": "anota a reunião, tudo no seu computador",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "FrigadeHQ/yogurt",
+   "estrelas": 1397
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "pinky",
+   "fala": "Quarto: pinky. Uma IA mexe no seu celular, com você de olho.",
+   "legenda": "4º pinky: IA mexe no seu celular, com você de olho",
+   "visual": "IA mexe no seu celular, com você de olho",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "DIYgod/pinky",
+   "estrelas": 2132
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "cinecode",
+   "fala": "Terceiro: cinecode. A IA faz filme curto e vídeo explicativo só com código. Essa é boa… comenta ROBO e manda pra um amigo.",
+   "legenda": "3º cinecode: filme curto e vídeo explicativo com código",
+   "visual": "filme curto e vídeo explicativo com código",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "sarpstar/cinecode",
+   "estrelas": 2484
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "huashu-motion",
+   "fala": "Segundo: huashu-motion. Faz o vídeo de lançamento do seu produto.",
+   "legenda": "2º huashu-motion: vídeo de lançamento do seu produto",
+   "visual": "vídeo de lançamento do seu produto",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "alchaincyf/huashu-motion",
+   "estrelas": 2701
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "agent-autoloop",
+   "fala": "E o um: agent-autoloop. Trabalha sozinha em segundo plano e só te chama na dúvida.",
+   "legenda": "1º agent-autoloop: trabalha sozinha e só te chama na dúvida",
+   "visual": "trabalha sozinha e só te chama na dúvida",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ],
+   "repo": "KKKKhazix/agent-autoloop",
+   "estrelas": 5303
+  }
+ ],
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "f) escrito à mão",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "d) virada de página",
+  "mascote": "capa + pilotando",
+  "camera": "e) câmera na mão",
+  "fechamento": "b) pódio",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 89,
+ "duracao_estimada_s": 31.8
+}

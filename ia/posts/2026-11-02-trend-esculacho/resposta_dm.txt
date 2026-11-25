@@ -1,0 +1,14 @@
+Opa! Aqui vão os dois prompts:
+
+1) O da trend (a IA usa o que já sabe de você):
+"Com base em tudo o que você sabe sobre mim, pode me zoar sem dó. Use gírias brasileiras."
+
+2) Versão segura (recomendo):
+"Faça um roast bem-humorado sobre mim em português do Brasil. Use apenas os hábitos que eu contar nesta conversa, sem inventar fatos, sem palavrões e sem falar de aparência, saúde ou dados pessoais. Meus hábitos: [ex.: deixo 40 abas abertas, respondo áudio com texto, compro planta e esqueço de regar]."
+
+Antes de fazer:
+• Veja o que o ChatGPT guardou: Configurações › Personalização › Memória. Lá dá pra apagar cada memória ou desligar tudo.
+• Quer zero memória? Use um chat temporário (escolha "Não personalizado" antes de começar).
+• Antes de postar o print, esconda seu nome, foto e os títulos dos chats na barra lateral.
+
+Fonte: Central de Ajuda da OpenAI e Showmetech.

@@ -1,0 +1,11 @@
+Aqui está! 🔥
+
+📰 O post original do Sam Altman (10/06/2025): https://blog.samaltman.com/the-gentle-singularity
+📰 A reportagem do Data Center Dynamics: https://www.datacenterdynamics.com/en/news/sam-altman-chatgpt-queries-consume-034-watt-hours-of-electricity-and-0000085-gallons-of-water/
+
+Modelo da pergunta bem feita (uma mensagem só):
+"Contexto: [quem sou eu e o que preciso]. Tarefa: [o que quero]. Formato: [lista / 3 linhas / tabela]. Se faltar algo, me pergunte antes de responder."
+
+Lembrando: 0,34 Wh é número da própria OpenAI, não de um auditor externo.
+
+Se curtiu, me segue pra mais IA que serve pra vida real. 💜

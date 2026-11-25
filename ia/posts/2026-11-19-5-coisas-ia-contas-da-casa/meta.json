@@ -1,0 +1,28 @@
+{
+ "data": "2026-11-19",
+ "horario": "19:30",
+ "horarios": {
+  "instagram": "2026-11-19 19:30",
+  "tiktok": "2026-11-19 19:30"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "contagem (formato 3)",
+ "temas": [
+  "assistente",
+  "kit",
+  "contas",
+  "produtividade"
+ ],
+ "fontes": [
+  "https://www.science.org/doi/10.1126/science.adh2586"
+ ],
+ "prova_viral": "Science (2023): profissionais que usaram ChatGPT em tarefas de escrita levaram 40% menos tempo, com 18% mais qualidade (imprensa/estudo, sem estrelas).",
+ "cta": "KIT",
+ "polemica": false,
+ "status": "descartado",
+ "vaga": 12,
+ "primeiro_comentario": "💬 Comenta KIT que eu te mando o kit com os 10 assistentes prontos.\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 31%, abaixo do corte"
+}

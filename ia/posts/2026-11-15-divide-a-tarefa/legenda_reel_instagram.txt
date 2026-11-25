@@ -1,0 +1,16 @@
+Comenta PARTES que eu te mando o roteiro. 🎂
+
+Você pede tudo de uma vez pra IA e ela esquece metade? Normal:
+
+✅ Quanto mais coisa num pedido só, maior a chance de ela pular uma etapa.
+✅ Os guias da OpenAI e da Anthropic dão a mesma dica: quebre a tarefa em partes.
+✅ É tipo receita de bolo: primeiro peça o plano, depois uma parte por mensagem, e no fim mande ela juntar tudo.
+
+💬 Comenta PARTES e me segue. Deixa o like e manda pra aquele amigo que manda textão pra IA.
+
+Qual tarefa grande do trabalho você vai dividir? 👇
+
+Fontes: guia oficial da Anthropic (encadear prompts) e guia de prompts da OpenAI.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #chatgpt #claude #prompt #produtividade

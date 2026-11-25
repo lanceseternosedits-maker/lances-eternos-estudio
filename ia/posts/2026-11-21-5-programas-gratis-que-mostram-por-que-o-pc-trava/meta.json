@@ -1,0 +1,37 @@
+{
+ "data": "2026-11-21",
+ "horario": "13:00",
+ "horarios": {
+  "instagram": "2026-11-21 13:00",
+  "tiktok": "2026-11-21 13:00"
+ },
+ "categoria": "como_funciona",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "PC",
+  "windows",
+  "PC lento",
+  "programas grátis",
+  "jogos",
+  "github",
+  "projetos"
+ ],
+ "fontes": [
+  "https://github.com/windirstat/windirstat",
+  "https://github.com/bleachbit/bleachbit",
+  "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+  "https://github.com/winsiderss/systeminformer",
+  "https://github.com/microsoft/PowerToys"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): WinDirStat 4.567, BleachBit 7.542, Hardware Monitor 9.423, System Informer 16.527, PowerToys 141.156; total 179.215.",
+ "cta": "TRAVA",
+ "polemica": false,
+ "vaga": 4,
+ "candidato": "c",
+ "primeiro_comentario": "💬 Comenta TRAVA que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 51%, abaixo do corte"
+}

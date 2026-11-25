@@ -1,0 +1,17 @@
+Comenta VISAO que eu te mando o artigo original. 👁️
+
+Em 2012, uma IA treinada com duas placas de videogame humilhou o mundo todo numa prova de reconhecer imagens (e abriu caminho pro que reconhece o que tem nas fotos do seu celular).
+
+3 fatos dessa história:
+1) A prova era o ImageNet (ILSVRC 2012): dizer o que aparece em milhões de fotos. A AlexNet errou 15,3% (taxa "top-5", quando a resposta certa fica entre os 5 palpites da IA); o 2º colocado errou 26,2%.
+2) Ela foi treinada por cerca de 5 a 6 dias em duas placas de vídeo GTX 580, placas de jogo lançadas em 2010.
+3) Os autores foram Alex Krizhevsky, Ilya Sutskever e Geoffrey Hinton, da Universidade de Toronto.
+
+💬 Comenta VISAO e me segue. Salva pra contar pra alguém. Deixa o like e manda pra aquele amigo que curte tecnologia.
+
+Quantas fotos tem no seu celular? 👇
+
+Fontes: artigo "ImageNet Classification with Deep Convolutional Neural Networks" (NeurIPS 2012) e resultados oficiais do ILSVRC 2012.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as instituições citadas.
+
+#ia #inteligenciaartificial #historiadaia #alexnet #tecnologia

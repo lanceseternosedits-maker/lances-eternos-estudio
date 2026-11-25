@@ -1,0 +1,17 @@
+Comenta APP que eu te mando o passo a passo pra criar o seu próprio app de Mac sem escrever código. 🪵
+
+POV: você descreve o app que quer e o Claude entrega um app de Mac de verdade.
+
+O BAMA é um pacote de skills grátis (código aberto) pro Claude Code: ele pesquisa, desenha, programa e testa o app nativo de Mac pra você.
+Mais de 1.600 estrelas no GitHub em 2 semanas.
+
+Precisa do Claude Code (vem nos planos pagos do Claude) e de um Mac.
+
+💬 Comenta APP e me segue que eu te mando o link + 3 ideias de app pra começar.
+
+Que app você criaria primeiro? 👇
+
+Fonte: página oficial do projeto no GitHub (daveebbelaar/bama; estrelas lidas em 07/11).
+Animação e voz feitas com IA. Perfil independente, sem ligação com a Apple nem com a Anthropic.
+
+#mac #claudecode #claude #inteligenciaartificial #apps

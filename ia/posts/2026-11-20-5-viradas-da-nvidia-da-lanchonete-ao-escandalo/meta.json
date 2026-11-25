@@ -1,0 +1,32 @@
+{
+ "data": "2026-11-20",
+ "horario": "21:30",
+ "horarios": {
+  "instagram": "2026-11-20 21:30",
+  "tiktok": "2026-11-20 21:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "Nvidia",
+  "história",
+  "IA",
+  "chips"
+ ],
+ "fontes": [
+  "https://www.nbcmiami.com/news/business/money-report/jensen-huang-started-his-2-trillion-company-nvidia-at-a-dennys-breakfast-booth/3302554",
+  "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+  "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html"
+ ],
+ "prova_viral": "Fundação em 1993 num Denny's (CNBC/NBC, Fortune); GeForce 256 (Nvidia, 1999); CUDA (Nvidia, 2006); AlexNet (2012, Krizhevsky/Sutskever/Hinton); comunicado 'CEO Transition' (nvidianews.nvidia.com, nov/2026); 8–19/11 CNBC, NPR, Axios cobriram a investigação e o Congresso.",
+ "cta": "NVIDIA",
+ "polemica": false,
+ "vaga": 2,
+ "candidato": "a",
+ "primeiro_comentario": "💬 Comenta NVIDIA que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 35%, abaixo do corte"
+}

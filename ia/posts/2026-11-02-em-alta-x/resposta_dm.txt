@@ -1,0 +1,9 @@
+Opa! 5 cuidados antes de dar seu e-mail ou sua carteira pra uma IA:
+
+1. Não conecte a IA ao mesmo e-mail que recebe seus códigos de banco, pagamento ou troca de senha. Se precisar, crie um e-mail só pra ela.
+2. Prefira códigos por app autenticador ou aprovação no celular, não por e-mail.
+3. Dê o mínimo de permissão: só leitura quando der, e só nas pastas/contas necessárias.
+4. Coloque limite de gasto baixo e alerta de transação no banco/carteira.
+5. Desconfie de e-mail pedindo pra "aumentar limite" ou "pagar urgente": a IA pode cair nisso também (no teste, 5 de 10 caíram).
+
+Fontes: DigitalToday (29/10), AlphaSignal, CoinDesk (01/11). Não é recomendação de investimento.

@@ -1,0 +1,127 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "KIT",
+ "tese": "5 COISAS QUE A IA FAZ POR VOCÊ · A Nº 1 ECONOMIZA DINHEIRO",
+ "conceito": "Bancada de cozinha à noite com objetos reconhecíveis (celular, boleto, mala, halteres); nº 1: um cofrinho de porquinho com moedas que voltam da conta de luz. Mascote só reage.",
+ "brinde": "kit Super Assistente de IA (10 assistentes prontos) via DM de venda (KIT)",
+ "fontes": [
+  "https://www.science.org/doi/10.1126/science.adh2586"
+ ],
+ "prova_viral": "Science (2023): profissionais que usaram ChatGPT em tarefas de escrita levaram 40% menos tempo, com 18% mais qualidade (imprensa/estudo, sem estrelas).",
+ "obs": "VENDE O KIT (rodada: 2º de 2, segunda metade da semana). nº 1 = Contas da casa; o de 17/11 usa Detector de golpe. 1º comentário: \"Quer o kit com 10 assistentes prontos? Comenta KIT\".",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 COISAS QUE A IA FAZ POR VOCÊ",
+   "fala": "Cinco tarefas que você faz no braço, e a IA faz em segundos. A número um economiza dinheiro.",
+   "legenda": "Cinco tarefas que você faz no braço, e a IA faz em segundos. A número um economiza dinheiro.",
+   "visual": "bancada da cozinha com celular, boleto, mala e halteres; cada objeto acende com um ícone de IA",
+   "itens": "5-coisas-ia-contas-da-casa",
+   "etiqueta": [
+    "5 COISAS QUE A IA FAZ POR VOCÊ",
+    "40% MENOS TEMPO EM TAREFAS DE ESCRITA",
+    "E A Nº 1 ECONOMIZA DINHEIRO"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Revisor",
+   "fala": "Quinto: revisar aquela mensagem difícil antes de enviar.",
+   "legenda": "5º Revisor: revisa a mensagem difícil",
+   "visual": "revisa a mensagem difícil",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Treino",
+   "fala": "Quarto: montar o treino da semana pro seu objetivo.",
+   "legenda": "4º Treino: treino da semana pro seu objetivo",
+   "visual": "treino da semana pro seu objetivo",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Inglês",
+   "fala": "Terceiro: virar o seu professor de inglês, com aula do seu nível. Comenta KIT que eu te mando os dez assistentes prontos, e manda pra um amigo.",
+   "legenda": "3º Inglês: professor de inglês do seu nível",
+   "visual": "professor de inglês do seu nível",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Viagem",
+   "fala": "Segundo: planejar a viagem inteira, com roteiro e orçamento.",
+   "legenda": "2º Viagem: viagem com roteiro e orçamento",
+   "visual": "viagem com roteiro e orçamento",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Contas da casa",
+   "fala": "E o um: contas da casa. Cola os gastos, e ela mostra pra onde o dinheiro foi.",
+   "legenda": "1º Contas da casa: cola os gastos e vê pra onde o dinheiro foi",
+   "visual": "cola os gastos e vê pra onde o dinheiro foi",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ]
+  }
+ ],
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "c) máquina de escrever",
+  "contador": "f) termômetro",
+  "legenda": "a) bloco de 4 palavras",
+  "transicao": "b) whip pan",
+  "mascote": "boné + correndo",
+  "camera": "d) órbita",
+  "fechamento": "e) página de caderno",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 88,
+ "duracao_estimada_s": 31.4,
+ "kit": true
+}

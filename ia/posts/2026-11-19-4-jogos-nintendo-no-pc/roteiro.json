@@ -1,0 +1,122 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme e claro (até 3,0 palavras por segundo), como quem conta um segredo",
+ "formato": "contagem",
+ "categoria": "novidade",
+ "chave": "RECOMP",
+ "tese": "4 JOGOS DE CONSOLE QUE FÃS FIZERAM RODAR NO PC · SEM EMULADOR",
+ "conceito": "Estante gamer com cartuchos de blocos genéricos; cada projeto \"recompila\" um cartucho em janela de PC; nº 1: uma espada de blocos genérica atravessa a tela. Sem logos ou personagens da Nintendo.",
+ "brinde": "links dos 4 + o aviso de que só funcionam com o SEU jogo",
+ "fontes": [
+  "https://github.com/Dittobyte/Recompia",
+  "https://github.com/kuraeow/ultratears",
+  "https://github.com/Revivedx/SavageWindRecomp",
+  "https://github.com/valentderah/totk-pc-recomp"
+ ],
+ "prova_viral": "Estrelas no GitHub (API, 14/11/2026): Recompia 776, ultratears 915, SavageWindRecomp 4.327, totk-pc-recomp 7.186, total 13.204; projetos criados entre 16/10 e 08/11/2026.",
+ "obs": "Lista de 4 (só 4 projetos fortes); repete o tema da Nintendo de 07/11 com outros projetos. Pode cair no filtro.",
+ "polemica": true,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "4 JOGOS DE CONSOLE NO SEU PC",
+   "fala": "Jogo de console no PC, sem emulador. Fãs recompilaram quatro, e o número um tem sete mil estrelas.",
+   "legenda": "Jogo de console no PC, sem emulador. Fãs recompilaram quatro, e o número um tem sete mil estrelas.",
+   "visual": "PC gamer com luzes e um cartucho genérico que vira janela do jogo",
+   "itens": "4-jogos-nintendo-no-pc",
+   "etiqueta": [
+    "4 JOGOS DE CONSOLE NO SEU PC",
+    "+13 MIL ESTRELAS EM 1 MÊS",
+    "E O Nº 1 TEM 7 MIL ESTRELAS"
+   ],
+   "sfx": [
+    {
+     "t": 0.1,
+     "som": "whoosh",
+     "g": 0.6
+    }
+   ]
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Recompia",
+   "fala": "Quarto: Recompia. Pokémon Pokopia, do Switch 2, nativo no PC.",
+   "legenda": "4º Recompia: Pokémon Pokopia nativo no PC",
+   "visual": "Pokémon Pokopia nativo no PC",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "Dittobyte/Recompia",
+   "estrelas": 776
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "ultratears",
+   "fala": "Terceiro: ultratears. Zelda Tears of the Kingdom no PC e no Steam Deck. Essa é legalzinha… comenta RECOMP e manda pra um amigo gamer.",
+   "legenda": "3º ultratears: Zelda Tears of the Kingdom no PC e Steam Deck",
+   "visual": "Zelda Tears of the Kingdom no PC e Steam Deck",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "kuraeow/ultratears",
+   "estrelas": 915
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "SavageWindRecomp",
+   "fala": "Segundo: SavageWindRecomp. O Zelda Breath of the Wild, ainda em construção.",
+   "legenda": "2º SavageWindRecomp: Zelda Breath of the Wild, em construção",
+   "visual": "Zelda Breath of the Wild, em construção",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "Revivedx/SavageWindRecomp",
+   "estrelas": 4327
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "totk-pc-recomp",
+   "fala": "E o um: totk-pc-recomp. O Zelda Tears of the Kingdom nativo no Windows e no Linux.",
+   "legenda": "1º totk-pc-recomp: Zelda Tears of the Kingdom nativo no Windows e Linux",
+   "visual": "Zelda Tears of the Kingdom nativo no Windows e Linux",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "impact",
+     "g": 0.5
+    }
+   ],
+   "repo": "valentderah/totk-pc-recomp",
+   "estrelas": 7186
+  }
+ ],
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "d) split-flap",
+  "contador": "a) número + barra de blocos",
+  "legenda": "b) uma palavra gigante por vez",
+  "transicao": "c) íris circular",
+  "mascote": "fone + se escondendo",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 79,
+ "duracao_estimada_s": 28.2
+}

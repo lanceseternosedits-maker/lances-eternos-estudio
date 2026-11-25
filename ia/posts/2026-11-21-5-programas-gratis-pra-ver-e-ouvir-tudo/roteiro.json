@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "MIDIA",
+ "tese": "PARA DE BAIXAR PLAYER QUE NÃO ABRE O VÍDEO · +207 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1 com objeto reconhecível no 1º quadro (para de baixar player que não abre o vídeo); cenário fliperama, mascote cachecol, carregando caixas; nº1 revelada por último.",
+ "brinde": "Links dos 5 + o comando pronto pra converter vídeo que não abre",
+ "fontes": [
+  "https://github.com/videolan/vlc",
+  "https://github.com/mpv-player/mpv",
+  "https://github.com/xbmc/xbmc",
+  "https://github.com/jellyfin/jellyfin",
+  "https://github.com/FFmpeg/FFmpeg"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): VLC 20.504, mpv 38.192, Kodi 21.511, Jellyfin 59.531, FFmpeg 67.580; total 207.318.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "PARA DE BAIXAR PLAYER QUE NÃO ABRE O VÍDEO",
+   "fala": "Seu vídeo não abre? Esses cinco programas grátis abrem qualquer um.",
+   "legenda": "Seu vídeo não abre? Esses cinco programas grátis abrem qualquer um.",
+   "visual": "PARA DE BAIXAR PLAYER QUE NÃO ABRE O VÍDEO",
+   "itens": "clean",
+   "etiqueta": [
+    "PARA DE BAIXAR PLAYER QUE NÃO ABRE O VÍDEO",
+    "+207 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "VLC",
+   "fala": "Quinto: VLC. Abre qualquer formato de vídeo e áudio.",
+   "legenda": "Quinto: VLC. Abre qualquer formato de vídeo e áudio.",
+   "visual": "Abre qualquer formato de vídeo e áudio.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "videolan/vlc",
+   "estrelas": 20504
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "mpv",
+   "fala": "Quarto: mpv. Player leve, que não trava.",
+   "legenda": "Quarto: mpv. Player leve, que não trava.",
+   "visual": "Player leve, que não trava.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "mpv-player/mpv",
+   "estrelas": 38192
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Kodi",
+   "fala": "Terceiro: Kodi. Central de mídia pra TV e PC. Essa é legalzinha… comenta MIDIA que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Kodi. Central de mídia pra TV e PC. Essa é legalzinha… comenta MIDIA que eu mando os cinco. Manda pro amigo.",
+   "visual": "Central de mídia pra TV e PC.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "xbmc/xbmc",
+   "estrelas": 21511
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Jellyfin",
+   "fala": "Segundo: Jellyfin. Streaming caseiro, sem anúncio.",
+   "legenda": "Segundo: Jellyfin. Streaming caseiro, sem anúncio.",
+   "visual": "Streaming caseiro, sem anúncio.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "jellyfin/jellyfin",
+   "estrelas": 59531
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "FFmpeg",
+   "fala": "E o primeiro: FFmpeg. Converte qualquer arquivo de mídia.",
+   "legenda": "E o primeiro: FFmpeg. Converte qualquer arquivo de mídia.",
+   "visual": "Converte qualquer arquivo de mídia.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "FFmpeg/FFmpeg",
+   "estrelas": 67580
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta MIDIA e me segue. Qual foi o último vídeo que não abriu pra você?",
+   "legenda": "Comenta MIDIA e me segue. Qual foi o último vídeo que não abriu pra você?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "b) carimbo batendo",
+  "contador": "a) número + barra de blocos",
+  "legenda": "e) tarja de TV",
+  "transicao": "a) flash branco",
+  "camera": "c) travelling lateral",
+  "fechamento": "b) pódio",
+  "mascote": "cachecol, carregando caixas",
+  "cenario": "fliperama",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 79,
+ "duracao_estimada_s": 27.7
+}

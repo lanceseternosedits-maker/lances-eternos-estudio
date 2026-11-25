@@ -1,0 +1,32 @@
+{
+ "data": "2026-11-23",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "TV",
+  "celular",
+  "Android",
+  "propaganda",
+  "YouTube",
+  "github",
+  "projetos",
+  "grátis"
+ ],
+ "fontes": [
+  "https://github.com/ajayyy/SponsorBlock",
+  "https://github.com/FreeTubeApp/FreeTube",
+  "https://github.com/TeamNewPipe/NewPipe",
+  "https://github.com/pi-hole/pi-hole",
+  "https://github.com/gorhill/uBlock"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): SponsorBlock 14.146, FreeTube 22.522, NewPipe 40.882, Pi-hole 62.183, uBlock Origin 69.588; total 209.321.",
+ "cta": "YOUTUBE",
+ "polemica": true,
+ "candidato": "b10",
+ "primeiro_comentario": "💬 Comenta YOUTUBE que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 53%, abaixo do corte"
+}

@@ -1,0 +1,70 @@
+{
+ "data": "2026-11-21",
+ "horario": "09:00",
+ "horarios": {
+  "instagram": "2026-11-21 09:00",
+  "tiktok": "2026-11-21 09:00"
+ },
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "TV",
+  "celular",
+  "projetos",
+  "github",
+  "grátis",
+  "programas"
+ ],
+ "fontes": [
+  "https://github.com/mpv-player/mpv",
+  "https://github.com/videolan/vlc",
+  "https://github.com/xbmc/xbmc",
+  "https://github.com/jellyfin/jellyfin",
+  "https://github.com/home-assistant/core"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): mpv 38.192, VLC 20.504, Kodi 21.511, Jellyfin 59.531, Home Assistant 92.357; total 232.095.",
+ "cta": "TV",
+ "polemica": false,
+ "vaga": 3,
+ "candidato": "a",
+ "primeiro_comentario": "💬 Comenta TV que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "descartado",
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "gancho com conflito, fatos suavizados",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "ajustar",
+    "nota": "Jellyfin (Netflix caseira) tem apelo; mpv/Kodi são jargão e não há IA. Não aplicado: troca de itens."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "\"Qualquer formato\" e \"casa toda\" exagerados; aviso sobre add-ons piratas do Kodi."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Gancho era só contexto; virou pergunta de gasto."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "Dois pedidos na fala do Kodi; mantido por regra do envio no meio."
+   }
+  ],
+  "ajustes": [
+   "gancho: 'Vai gastar em TV nova?'",
+   "mpv/VLC: 'quase qualquer'",
+   "Home Assistant com 'aparelhos compatíveis'",
+   "aviso de add-ons piratas do Kodi"
+  ],
+  "em": "2026-11-19 08:18",
+  "obs": "2ª volta não rodada por economia de tokens"
+ },
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 55%, abaixo do corte"
+}

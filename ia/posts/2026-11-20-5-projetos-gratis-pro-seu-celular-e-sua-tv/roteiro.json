@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "TELA",
+ "tese": "5 PROJETOS GRÁTIS PRO SEU CELULAR, SUA TV E SEU PC · +423 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1 com objeto reconhecível no 1º quadro (5 projetos grátis pro seu celular, sua tv e seu pc); cenário sala de estar à noite, mascote óculos + crachá, digitando; nº1 revelada por último.",
+ "brinde": "Links dos 5 + um guia de 1 página: como tirar as fotos do celular sem pagar nuvem",
+ "fontes": [
+  "https://github.com/moonlight-stream/moonlight-qt",
+  "https://github.com/AdguardTeam/AdGuardHome",
+  "https://github.com/syncthing/syncthing",
+  "https://github.com/Genymobile/scrcpy",
+  "https://github.com/immich-app/immich"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 19/11/2026): Moonlight 19.593, AdGuard Home 38.569, Syncthing 90.584, scrcpy 155.178, Immich 119.602; total 423.526.",
+ "obs": "",
+ "polemica": true,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROJETOS GRÁTIS PRO SEU CELULAR, SUA TV E SEU PC",
+   "fala": "Cinco projetos grátis pro seu celular, sua TV e seu PC. Você paga por algum?",
+   "legenda": "Cinco projetos grátis pro seu celular, sua TV e seu PC. Você paga por algum?",
+   "visual": "5 PROJETOS GRÁTIS PRO SEU CELULAR, SUA TV E SEU PC",
+   "itens": "clean",
+   "etiqueta": [
+    "5 PROJETOS GRÁTIS PRO SEU CELULAR, SUA TV E SEU PC",
+    "+423 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Moonlight",
+   "fala": "Quinto: Moonlight. Joga o jogo do PC no celular.",
+   "legenda": "Quinto: Moonlight. Joga o jogo do PC no celular.",
+   "visual": "Joga o jogo do PC no celular.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "moonlight-stream/moonlight-qt",
+   "estrelas": 19593
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "AdGuard Home",
+   "fala": "Quarto: AdGuard Home. Tira anúncio de todos os aparelhos da casa.",
+   "legenda": "Quarto: AdGuard Home. Tira anúncio de todos os aparelhos da casa.",
+   "visual": "Tira anúncio de todos os aparelhos da casa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "AdguardTeam/AdGuardHome",
+   "estrelas": 38569
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Syncthing",
+   "fala": "Terceiro: Syncthing. Passa arquivo do celular pro PC, sem nuvem. Essa é legalzinha… comenta TELA que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Syncthing. Passa arquivo do celular pro PC, sem nuvem. Essa é legalzinha… comenta TELA que eu mando os cinco. Manda pro amigo.",
+   "visual": "Passa arquivo do celular pro PC, sem nuvem.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "syncthing/syncthing",
+   "estrelas": 90584
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "scrcpy",
+   "fala": "Segundo: scrcpy. Mostra a tela do celular no PC.",
+   "legenda": "Segundo: scrcpy. Mostra a tela do celular no PC.",
+   "visual": "Mostra a tela do celular no PC.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "Genymobile/scrcpy",
+   "estrelas": 155178
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Immich",
+   "fala": "E o primeiro: Immich. Guarda suas fotos sem pagar mensalidade.",
+   "legenda": "E o primeiro: Immich. Guarda suas fotos sem pagar mensalidade.",
+   "visual": "Guarda suas fotos sem pagar mensalidade.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "immich-app/immich",
+   "estrelas": 119602
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta TELA e me segue. Quantas fotos tem no seu celular agora?",
+   "legenda": "Comenta TELA e me segue. Quantas fotos tem no seu celular agora?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "a) caixa creme no topo",
+  "nome": "d) letreiro split-flap",
+  "contador": "c) medidor circular",
+  "legenda": "a) bloco de 4 palavras",
+  "transicao": "c) íris circular",
+  "camera": "d) órbita",
+  "fechamento": "d) tela CONTINUE?",
+  "mascote": "óculos + crachá, digitando",
+  "cenario": "sala de estar à noite",
+  "tipografia": "Archivo Black + Space Grotesk (visual clean)"
+ },
+ "palavras": 89,
+ "duracao_estimada_s": 31.2
+}

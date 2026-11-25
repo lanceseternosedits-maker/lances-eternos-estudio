@@ -1,0 +1,8 @@
+Aqui está! ✂️
+
+1) "Responda em no máximo 3 linhas."
+2) "Só uma lista de 5 itens, sem introdução e sem conclusão."
+3) "Resposta de sim ou não, e uma frase explicando."
+4) "Formato: tabela com 3 colunas."
+
+Dica: se ela enrolar de novo, responda só "mais curto".

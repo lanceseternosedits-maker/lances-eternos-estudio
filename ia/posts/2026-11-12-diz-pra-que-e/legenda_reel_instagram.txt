@@ -1,0 +1,16 @@
+Comenta CONTEXTO que eu te mando o modelo. 📝
+
+A resposta da IA sai genérica? O problema não é ela: é o que falta no seu pedido.
+
+O próprio guia oficial do Claude diz: trate a IA como um funcionário brilhante, mas novo. Ela não sabe pra quem é o texto, pra que serve nem como você gosta.
+
+O truque: comece assim 👉 "Isso é para [quem vai ler]. Eu quero [o resultado]. O tom é [direto/divertido/formal]."
+
+💬 Comenta CONTEXTO e me segue. Deixa o like e manda pra aquele amigo que acha que a IA é burra.
+
+Qual pedido do trabalho você vai refazer hoje? 👇
+
+Fonte: guia oficial de prompts da Anthropic (platform.claude.com).
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#ia #chatgpt #claude #prompt #dicasdeia

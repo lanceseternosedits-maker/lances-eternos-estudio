@@ -1,0 +1,216 @@
+{
+ "voz": "Puck",
+ "estilo": "Diga em português do Brasil, voz confiante de criador de Reels contando um segredo, ritmo natural",
+ "cauda": 0.9,
+ "musica": {
+  "MUS_PROG": "maior",
+  "MUS_TOM": "0"
+ },
+ "tema": 1,
+ "tema_cor": [
+  0.25,
+  0.55,
+  1.0
+ ],
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "Sua TV mostra propaganda até na tela inicial.",
+   "cab": [
+    "propaganda ",
+    "na tela inicial"
+   ],
+   "chave": [
+    "propaganda"
+   ],
+   "braco": 1,
+   "placa": "ANÚNCIO",
+   "cor": "vermelho"
+  },
+  {
+   "cena": "serio",
+   "quem": "B",
+   "tipo": "B",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, surpreso, pergunta curta",
+   "fala": "Na minha TV também?",
+   "cab": [
+    "na minha ",
+    "TV também?"
+   ],
+   "chave": [
+    "também?"
+   ],
+   "balao": "NA MINHA?"
+  },
+  {
+   "cena": "cinco",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "Em muitas, sim. E cinco projetos grátis tiram os anúncios.",
+   "cab": [
+    "5 projetos ",
+    "grátis"
+   ],
+   "chave": [
+    "grátis"
+   ],
+   "conta": [
+    0,
+    5,
+    "{} PROJETOS"
+   ],
+   "cor": "ouro"
+  },
+  {
+   "cena": "n5",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "Quinto: tellyscope. Limpa a TV Android e instala app pelo celular.",
+   "cab": [
+    "nº 5 · ",
+    "tellyscope"
+   ],
+   "chave": [
+    "tellyscope."
+   ],
+   "placa": "Nº 5",
+   "cor": "azul"
+  },
+  {
+   "cena": "n4",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "Quarto: dumbtv. Tira anúncio e rastreio da Fire TV.",
+   "cab": [
+    "nº 4 · ",
+    "dumbtv"
+   ],
+   "chave": [
+    "dumbtv.",
+    "rastreio"
+   ],
+   "placa": "Nº 4",
+   "cor": "azul"
+  },
+  {
+   "cena": "n3",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "Terceiro: um app de celular que limpa a TV Android.",
+   "cab": [
+    "nº 3 · ",
+    "pelo celular"
+   ],
+   "chave": [
+    "celular"
+   ],
+   "placa": "Nº 3",
+   "cor": "azul"
+  },
+  {
+   "cena": "cta_meio",
+   "quem": "A",
+   "tipo": "AB",
+   "fala": "Comenta TELA que eu te mando os cinco. E manda pra um amigo.",
+   "cab": [
+    "comenta ",
+    "TELA"
+   ],
+   "chave": [
+    "TELA"
+   ],
+   "braco": 1,
+   "placa": "TELA",
+   "cor": "ouro"
+  },
+  {
+   "cena": "n2",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "Segundo: free-my-tv. Google TV, LG e Samsung sem anúncio.",
+   "cab": [
+    "nº 2 · ",
+    "free-my-tv"
+   ],
+   "chave": [
+    "free-my-tv."
+   ],
+   "placa": "Nº 2",
+   "cor": "verde",
+   "medidor": [
+    90,
+    5,
+    "ANÚNCIOS"
+   ]
+  },
+  {
+   "cena": "e_o_um",
+   "quem": "B",
+   "tipo": "B",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, curioso, pergunta curta",
+   "fala": "E o número um?",
+   "cab": [
+    "e o ",
+    "número um?"
+   ],
+   "chave": [
+    "um?"
+   ],
+   "balao": "E O Nº 1?"
+  },
+  {
+   "cena": "n1",
+   "quem": "A",
+   "tipo": "AB",
+   "fala": "Aerial TV. Uma tela inicial estilo Apple TV, sem anúncio nenhum.",
+   "cab": [
+    "nº 1 · ",
+    "Aerial TV"
+   ],
+   "chave": [
+    "Aerial",
+    "nenhum."
+   ],
+   "placa": "Nº 1",
+   "cor": "ouro",
+   "grafo": "cresce"
+  },
+  {
+   "cena": "pergunta",
+   "quem": "B",
+   "tipo": "B",
+   "voz": "Fenrir",
+   "estilo": "Diga em português do Brasil, curioso e simpático, pergunta para quem assiste",
+   "fala": "Quantas propagandas você vê antes de achar o filme?",
+   "cab": [
+    "quantas ",
+    "propagandas?"
+   ],
+   "chave": [
+    "propagandas"
+   ],
+   "balao": "QUANTAS?"
+  },
+  {
+   "cena": "cta",
+   "quem": "A",
+   "tipo": "A",
+   "fala": "Comenta TELA e me segue.",
+   "cab": [
+    "comenta ",
+    "TELA"
+   ],
+   "chave": [
+    "TELA"
+   ],
+   "braco": 1,
+   "placa": "TELA",
+   "cor": "ouro",
+   "grafo": 1
+  }
+ ]
+}

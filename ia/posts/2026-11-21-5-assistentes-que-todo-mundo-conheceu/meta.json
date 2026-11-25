@@ -1,0 +1,31 @@
+{
+ "data": "2026-11-21",
+ "horario": "20:30",
+ "horarios": {
+  "instagram": "2026-11-21 20:30",
+  "tiktok": "2026-11-21 20:30"
+ },
+ "categoria": "historia",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "assistente",
+  "Siri",
+  "Alexa",
+  "ChatGPT"
+ ],
+ "fontes": [
+  "https://openai.com/index/chatgpt/",
+  "https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/"
+ ],
+ "prova_viral": "ELIZA (Weizenbaum, MIT, 1966); Clippy (Microsoft Office 97); Siri (Apple, 04/10/2011); Alexa (Amazon Echo, nov/2014); ChatGPT (OpenAI, 30/11/2022).",
+ "cta": "CLIPPY",
+ "polemica": false,
+ "vaga": 6,
+ "candidato": "b",
+ "primeiro_comentario": "💬 Comenta CLIPPY que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; 4 Reels por dia; rodada de quinta 19/11",
+ "status": "descartado",
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 30%, abaixo do corte"
+}

@@ -1,0 +1,464 @@
+{
+ "lido_em": "2026-11-09T14:32:49Z",
+ "sessoes": [
+  {
+   "id": "session_01Q8XwFpKK2btdx6maPCHfwS",
+   "grupo": "painel",
+   "titulo": "IAEM60S",
+   "criada": "2026-11-07T02:49:59.771399Z",
+   "atualizada": "2026-11-09T14:31:18.541651Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "working",
+   "usage": {
+    "input_tokens": 492458,
+    "output_tokens": 1234538,
+    "cache_read_tokens": 602664820,
+    "cache_write_tokens": 8509494,
+    "cost_usd": 210.10722939
+   }
+  },
+  {
+   "id": "session_01Q8XwFp4PbQRk1Sr59ew9Br",
+   "grupo": "producao",
+   "titulo": "IA em 60s – produção dos vídeos de 09 e 10/11",
+   "criada": "2026-11-08T19:25:01.587591Z",
+   "atualizada": "2026-11-09T07:30:47.988949Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "failed",
+   "usage": {
+    "input_tokens": 537619,
+    "output_tokens": 484656,
+    "cache_read_tokens": 127330140,
+    "cache_write_tokens": 2274926,
+    "cost_usd": 53.02484208
+   }
+  },
+  {
+   "id": "session_01Q8XwFq6sTDsX8SfXRBVPEE",
+   "grupo": "producao",
+   "titulo": "IA em 60s – produção 08/11: advogado do ChatGPT 09:00 + Tay 19:00",
+   "criada": "2026-11-07T18:38:55.796793Z",
+   "atualizada": "2026-11-07T18:57:43.785416Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 1142,
+    "output_tokens": 50324,
+    "cache_read_tokens": 11166275,
+    "cache_write_tokens": 166443,
+    "cost_usd": 4.57766932
+   }
+  },
+  {
+   "id": "session_01Q8XwFqyLYHQVhkY3ARBQsX",
+   "grupo": "producao",
+   "titulo": "IA em 60s – produção 07/11 noite: Deep Blue 19:00 + morango 21:00",
+   "criada": "2026-11-07T17:30:00.630140Z",
+   "atualizada": "2026-11-07T17:48:58.619077Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 103,
+    "output_tokens": 59597,
+    "cache_read_tokens": 10146834,
+    "cache_write_tokens": 182025,
+    "cost_usd": 4.67947866
+   }
+  },
+  {
+   "id": "session_01Q8XwFrR3sExgywN3JNUemA",
+   "grupo": "producao",
+   "titulo": "IA em 60s – produção 08/11 (E): apps pra quem vive no chat + vídeo do zero",
+   "criada": "2026-11-07T15:09:12.058062Z",
+   "atualizada": "2026-11-07T15:28:20.906797Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 99,
+    "output_tokens": 53114,
+    "cache_read_tokens": 9185895,
+    "cache_write_tokens": 168720,
+    "cost_usd": 4.2510892
+   }
+  },
+  {
+   "id": "session_01Q8XwFr6txzp28Gcq5UyNWZ",
+   "grupo": "producao",
+   "titulo": "IA em 60s – produção 08/11 (D): IA gigante no PC + skills chinesas de agência",
+   "criada": "2026-11-07T15:09:11.240353Z",
+   "atualizada": "2026-11-07T15:34:24.618631Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 623,
+    "output_tokens": 64349,
+    "cache_read_tokens": 11145559,
+    "cache_write_tokens": 183400,
+    "cost_usd": 4.98779476
+   }
+  },
+  {
+   "id": "session_01Q8XwFrmSDeqQvJi5RiCb59",
+   "grupo": "producao",
+   "titulo": "IA em 60s – produção 08/11 (C): skills de design 11:00 + estúdio de voz 15:00",
+   "criada": "2026-11-07T08:27:11.475467Z",
+   "atualizada": "2026-11-07T15:08:25.123563Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "blocked",
+   "usage": {
+    "input_tokens": 1150,
+    "output_tokens": 66050,
+    "cache_read_tokens": 13471358,
+    "cache_write_tokens": 253896,
+    "cost_usd": 6.05306646
+   }
+  },
+  {
+   "id": "session_01Q8XwFq1TmEDYimKKtrs1pp",
+   "grupo": "producao",
+   "titulo": "IA em 60s – produção 08/11 (B): console no celular 09:00 + captura de bicho 17:00",
+   "criada": "2026-11-07T08:27:10.651271Z",
+   "atualizada": "2026-11-07T15:21:25.403059Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 629,
+    "output_tokens": 61447,
+    "cache_read_tokens": 10853366,
+    "cache_write_tokens": 189251,
+    "cost_usd": 4.91796182
+   }
+  },
+  {
+   "id": "session_01Q8XwFnTcnoUT22N9osKiwN",
+   "grupo": "producao",
+   "titulo": "IA em 60s – produção 08/11 (A): Windows 07:00 + app de Mac 19:00",
+   "criada": "2026-11-07T08:27:09.600946Z",
+   "atualizada": "2026-11-07T17:36:45.910Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 150,
+    "output_tokens": 74829,
+    "cache_read_tokens": 15256696,
+    "cache_write_tokens": 407126,
+    "cost_usd": 7.8079481
+   }
+  },
+  {
+   "id": "session_01Q8XwFr7n3ySJkqURTrs94B",
+   "grupo": "roteiros",
+   "titulo": "IA em 60s – roteiros por categoria 09–15/11 (história, como funciona)",
+   "criada": "2026-11-07T17:29:44.196006Z",
+   "atualizada": "2026-11-07T19:19:34.173794Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 354589,
+    "output_tokens": 108020,
+    "cache_read_tokens": 8532005,
+    "cache_write_tokens": 626271,
+    "cost_usd": 7.36750067
+   }
+  },
+  {
+   "id": "session_01Q8XwFoaqQJd2NFNhsrcEXt",
+   "grupo": "produto",
+   "titulo": "IA em 60s – produto Estúdio de Reels (skill + landing)",
+   "criada": "2026-11-09T06:48:31.540854Z",
+   "atualizada": "2026-11-09T07:30:50.350803Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "failed",
+   "usage": {
+    "input_tokens": 113,
+    "output_tokens": 83056,
+    "cache_read_tokens": 10737779,
+    "cache_write_tokens": 194249,
+    "cost_usd": 5.36481792
+   }
+  },
+  {
+   "id": "session_01Q8XwFnQBBAwLjPpJcLpgWt",
+   "grupo": "setup",
+   "titulo": "Importar projeto IAEM60S",
+   "criada": "2026-11-04T05:35:47.759072Z",
+   "atualizada": "2026-11-05T03:32:42.373460Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 92542,
+    "output_tokens": 151502,
+    "cache_read_tokens": 55531562,
+    "cache_write_tokens": 1216607,
+    "cost_usd": 23.86244428
+   }
+  },
+  {
+   "id": "session_01Q8XwFnyUPfvH6bMJimpsyD",
+   "grupo": "setup",
+   "titulo": "Aprovação de conteúdos",
+   "criada": "2026-11-04T15:38:22.102035Z",
+   "atualizada": "2026-11-07T07:19:57.947029Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 55428,
+    "output_tokens": 485782,
+    "cache_read_tokens": 152411052,
+    "cache_write_tokens": 4999215,
+    "cost_usd": 80.28353436
+   }
+  },
+  {
+   "id": "session_01Q8XwFrVJMeHJndz4brEfYK",
+   "grupo": "setup",
+   "titulo": "Teste da chave GEMINI_API_KEY",
+   "criada": "2026-11-03T04:24:34.308403Z",
+   "atualizada": "2026-11-03T04:25:20.697453Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 8,
+    "output_tokens": 1062,
+    "cache_read_tokens": 263817,
+    "cache_write_tokens": 20886,
+    "cost_usd": 0.24143534
+   }
+  },
+  {
+   "id": "session_01Q8XwFrDHhFtCeQ7xiWh5SU",
+   "grupo": "rotina:redes",
+   "titulo": "⚡ IA em 60s – redes sociais",
+   "criada": "2026-11-09T00:37:38.378737Z",
+   "atualizada": "2026-11-09T00:39:41.517044Z",
+   "modelo": "claude-sonnet-5-5",
+   "ultimo_modelo_servido": "claude-sonnet-5-5",
+   "status": "review_ready",
+   "usage": {
+    "input_tokens": 6,
+    "output_tokens": 832,
+    "cache_read_tokens": 116042,
+    "cache_write_tokens": 11859,
+    "cost_usd": 0.0673722
+   }
+  },
+  {
+   "id": "session_01Q8XwFpgo7Fy5dyjsbfd7X3",
+   "grupo": "rotina:financeiro",
+   "titulo": "⚡ IA em 60s – financeiro",
+   "criada": "2026-11-09T00:08:25.619256Z",
+   "atualizada": "2026-11-09T00:10:57.888288Z",
+   "modelo": "claude-sonnet-5-5",
+   "ultimo_modelo_servido": "claude-sonnet-5-5",
+   "status": "review_ready",
+   "usage": {
+    "input_tokens": 12,
+    "output_tokens": 1496,
+    "cache_read_tokens": 198930,
+    "cache_write_tokens": 15745,
+    "cost_usd": 0.097857
+   }
+  },
+  {
+   "id": "session_01Q8XwFp2sKSdzJsJWmT34BA",
+   "grupo": "rotina:cobranca",
+   "titulo": "⚡ IA em 60s – cobrança de aprovações",
+   "criada": "2026-11-08T21:23:57.409906Z",
+   "atualizada": "2026-11-08T21:26:34.784727Z",
+   "modelo": "claude-sonnet-5-5",
+   "ultimo_modelo_servido": "claude-sonnet-5-5",
+   "status": "review_ready",
+   "usage": {
+    "input_tokens": 6,
+    "output_tokens": 1099,
+    "cache_read_tokens": 112507,
+    "cache_write_tokens": 24183,
+    "cost_usd": 0.1189847
+   }
+  },
+  {
+   "id": "session_01Q8XwFpYvL8zMGuzcVzBSqt",
+   "grupo": "rotina:cacador",
+   "titulo": "⚡ IA em 60s – caçador de referências",
+   "criada": "2026-11-09T06:56:08.436828Z",
+   "atualizada": "2026-11-09T07:03:41.387183Z",
+   "modelo": "claude-sonnet-5-5",
+   "ultimo_modelo_servido": "claude-sonnet-5-5",
+   "status": "review_ready",
+   "usage": {
+    "input_tokens": 26,
+    "output_tokens": 13339,
+    "cache_read_tokens": 1103999,
+    "cache_write_tokens": 85980,
+    "cost_usd": 0.538037675
+   }
+  },
+  {
+   "id": "session_01Q8XwFok143MV16LZ4K4kz8",
+   "grupo": "outros",
+   "titulo": "outro projeto",
+   "criada": "2026-11-08T15:52:12.239836Z",
+   "atualizada": "2026-11-09T14:32:08.734116Z",
+   "modelo": "claude-sonnet-5-5",
+   "ultimo_modelo_servido": "claude-sonnet-5-5",
+   "status": "blocked",
+   "usage": {
+    "input_tokens": 1067,
+    "output_tokens": 23270,
+    "cache_read_tokens": 5007860,
+    "cache_write_tokens": 483493,
+    "cost_usd": 2.67292558
+   }
+  },
+  {
+   "id": "session_01Q8XwFr8983amTr7U5NHCn6",
+   "grupo": "outros",
+   "titulo": "outro projeto",
+   "criada": "2026-11-08T04:20:51.402836Z",
+   "atualizada": "2026-11-08T18:01:36.793154Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 238670,
+    "output_tokens": 66684,
+    "cache_read_tokens": 23278110,
+    "cache_write_tokens": 1046353,
+    "cost_usd": 15.31607402
+   }
+  },
+  {
+   "id": "session_01Q8XwFoJGF3RiqtQ6dyMhp1",
+   "grupo": "outros",
+   "titulo": "outro projeto",
+   "criada": "2026-11-08T05:27:13.482235Z",
+   "atualizada": "2026-11-08T05:34:49.351253Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 2584,
+    "output_tokens": 6364,
+    "cache_read_tokens": 2340024,
+    "cache_write_tokens": 110426,
+    "cost_usd": 1.491575
+   }
+  },
+  {
+   "id": "session_01Q8XwFqiGBxetTEETcFszaG",
+   "grupo": "outros",
+   "titulo": "outro projeto",
+   "criada": "2026-11-08T15:47:41.994313Z",
+   "atualizada": "2026-11-08T16:01:47.973250Z",
+   "modelo": "claude-sonnet-5-5",
+   "ultimo_modelo_servido": "claude-sonnet-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 11,
+    "output_tokens": 6579,
+    "cache_read_tokens": 864677,
+    "cache_write_tokens": 34603,
+    "cost_usd": 0.29128904
+   }
+  },
+  {
+   "id": "session_01Q8XwFp7Ckuj7cYbqGu1Edd",
+   "grupo": "outros",
+   "titulo": "outro projeto",
+   "criada": "2026-11-05T22:19:27.464660Z",
+   "atualizada": "2026-11-07T08:07:36.969108Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 745706,
+    "output_tokens": 337964,
+    "cache_read_tokens": 75766397,
+    "cache_write_tokens": 2009231,
+    "cost_usd": 35.527856125
+   }
+  },
+  {
+   "id": "session_01Q8XwFpgUzxAVPabhMgn8Qx",
+   "grupo": "outros",
+   "titulo": "outro projeto",
+   "criada": "2026-11-07T07:09:33.980722Z",
+   "atualizada": "2026-11-07T07:28:23.234814Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 3837,
+    "output_tokens": 60841,
+    "cache_read_tokens": 8986306,
+    "cache_write_tokens": 197825,
+    "cost_usd": 4.61028136
+   }
+  },
+  {
+   "id": "session_01Q8XwFpmaLhriA4R2GftdKt",
+   "grupo": "outros",
+   "titulo": "outro projeto",
+   "criada": "2026-11-07T17:29:28.829422Z",
+   "atualizada": "2026-11-07T17:40:51.245488Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 1783,
+    "output_tokens": 26406,
+    "cache_read_tokens": 3134738,
+    "cache_write_tokens": 147233,
+    "cost_usd": 2.32862492
+   }
+  },
+  {
+   "id": "session_01Q8XwFqwfqYtBatDQQe433C",
+   "grupo": "outros",
+   "titulo": "outro projeto",
+   "criada": "2026-11-07T07:46:10.815107Z",
+   "atualizada": "2026-11-07T15:26:32.375130Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 126562,
+    "output_tokens": 31156,
+    "cache_read_tokens": 2924446,
+    "cache_write_tokens": 162447,
+    "cost_usd": 2.41434222
+   }
+  },
+  {
+   "id": "session_01Q8XwFqJWgeKvG6WS3SBw7u",
+   "grupo": "outros",
+   "titulo": "outro projeto",
+   "criada": "2026-11-07T06:57:44.224902Z",
+   "atualizada": "2026-11-07T06:58:18.087545Z",
+   "modelo": "claude-opus-5-5",
+   "ultimo_modelo_servido": "claude-opus-5-5",
+   "status": "completed",
+   "usage": {
+    "input_tokens": 1196,
+    "output_tokens": 1671,
+    "cache_read_tokens": 54530,
+    "cache_write_tokens": 26886,
+    "cost_usd": 0.2567798
+   }
+  }
+ ]
+}

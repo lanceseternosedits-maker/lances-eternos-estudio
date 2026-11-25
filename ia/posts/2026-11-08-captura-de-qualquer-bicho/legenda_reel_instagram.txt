@@ -1,0 +1,14 @@
+💬 Comenta BICHO: captura de movimento de um cavalo… a partir de um vídeo de IA. 🐴
+
+O anymove pega um vídeo e tira o esqueleto do bicho. Usa duas câmeras no mesmo quadro e entrega um modelo 3D animado, pronto pra jogo, animação e efeitos especiais.
+
+É do mesmo criador do pixelfx e passou de 500 estrelas no GitHub em 11 dias.
+
+💬 Comenta BICHO e me segue que eu te mando o link.
+
+Qual bicho você colocaria pra correr primeiro? 👇
+
+Fonte: página do anymove no GitHub (patch-gg/anymove, estrelas lidas em 07/11).
+Animação e voz feitas com IA. Perfil independente, sem ligação com a Anthropic.
+
+#animacao #3d #gamedev #inteligenciaartificial #ia
