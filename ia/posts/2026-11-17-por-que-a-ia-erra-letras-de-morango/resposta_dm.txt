@@ -1,3 +1,0 @@
-Tá aqui 👇 o truque:
-Peça: "escreva a palavra letra por letra, numere e só depois conte as letras X". Ela acerta bem mais.
-Por quê: ela lê pedaços de palavra (tokens), não letras.

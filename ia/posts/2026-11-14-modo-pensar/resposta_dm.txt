@@ -1,6 +1,0 @@
-Aqui está! 🔭
-
-🧠 Modo pensar: conta, planilha, plano de viagem, comparação de preço, decisão difícil, código.
-⚡ Modo rápido: texto curto, ideia, tradução, resumo, legenda.
-
-📚 Anúncio oficial: https://openai.com/index/learning-to-reason-with-llms/

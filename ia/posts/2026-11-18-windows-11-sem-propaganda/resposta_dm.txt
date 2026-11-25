@@ -1,8 +1,0 @@
-Tá aqui 👇 os links dos 5:
-5º Sophia Script: https://github.com/farag2/Sophia-Script-for-Windows
-4º tiny11builder: https://github.com/ntdevlabs/tiny11builder
-3º ExplorerPatcher: https://github.com/valinet/ExplorerPatcher
-2º Win11Debloat: https://github.com/Raphire/Win11Debloat
-1º winutil: https://github.com/ChrisTitusTech/winutil
-
-⚠️ Faça backup antes: esses projetos mexem no sistema e podem afetar o suporte. Baixe só das páginas oficiais do GitHub.

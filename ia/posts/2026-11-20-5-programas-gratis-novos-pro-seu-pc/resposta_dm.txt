@@ -1,8 +1,0 @@
-Tá aqui 👇 os links dos 5:
-5º yogurt: https://github.com/FrigadeHQ/yogurt
-4º gputaskman: https://github.com/shanselman/gputaskman
-3º Zero-Breach-Toolkit: https://github.com/interplains/Zero-Breach-Toolkit
-2º apkstart: https://github.com/RoutineMiku/apkstart
-1º misterdownloadmanager: https://github.com/anefzaoui/misterdownloadmanager
-
-⚠️ Projetos novos e independentes: leia o README e instale só das páginas oficiais do GitHub. Veja a licença de cada um.

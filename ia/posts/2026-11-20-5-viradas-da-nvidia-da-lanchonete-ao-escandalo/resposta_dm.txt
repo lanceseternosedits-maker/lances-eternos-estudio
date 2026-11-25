@@ -1,9 +1,0 @@
-Tá aqui 👇 os links e as fontes:
-5º 1993: Três amigos planejam a empresa numa mesa de lanchonete.
-4º 1999: Lança a GeForce 256, vendida como a primeira GPU.
-3º 2006: Cria o CUDA e abre a placa pra IA.
-2º 2012: Uma IA treinada em placas Nvidia vence um grande concurso de imagens.
-1º 2026: O fundador deixa o cargo, e o Congresso quer ouvi-lo.
-
-
-Brinde: A linha do tempo de 1 página da Nvidia, com as fontes.

@@ -1,8 +1,0 @@
-v2_*.mp4
-_v2_*
-_video.mp4
-concat.txt
-*.wav
-!vo/*.wav
-reel.mp4
-reel_sem_voz.mp4

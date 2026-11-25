@@ -1,8 +1,0 @@
-Tá aqui 👇 os links dos 5:
-5º Jan: https://github.com/janhq/jan
-4º GPT4All: https://github.com/nomic-ai/gpt4all
-3º ZLUDA: https://github.com/vosen/ZLUDA
-2º llama.cpp: https://github.com/ggml-org/llama.cpp
-1º Ollama: https://github.com/ollama/ollama
-
-⚠️ O ZLUDA é um projeto independente; a Nvidia mudou os termos do CUDA em 2024 contra camadas de tradução. Leia a licença antes de usar. Cada IA pede uma memória mínima.

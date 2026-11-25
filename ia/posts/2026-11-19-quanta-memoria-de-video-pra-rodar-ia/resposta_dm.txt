@@ -1,1 +1,0 @@
-Tá aqui 👇 a regra: tamanho da IA compactada + 2 GB de folga. IA de 7 bilhões ≈ 5 GB; de 13 bilhões ≈ 9 GB. https://github.com/ollama/ollama
