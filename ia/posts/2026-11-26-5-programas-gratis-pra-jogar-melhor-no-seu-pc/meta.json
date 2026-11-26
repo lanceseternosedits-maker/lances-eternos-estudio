@@ -1,0 +1,36 @@
+{
+ "data": "2026-11-28",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "jogos",
+  "PC",
+  "Nvidia",
+  "placa de vídeo",
+  "grátis",
+  "games"
+ ],
+ "fontes": [
+  "https://github.com/SpecialKO/SpecialK",
+  "https://github.com/crosire/reshade",
+  "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+  "https://github.com/JosefNemec/Playnite",
+  "https://github.com/Blinue/Magpie"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): Special K 2.174, ReShade 5.704, Libre Hardware Monitor 9.456, Playnite 14.609, Magpie 16.600; total 48.543.",
+ "cta": "JOGO",
+ "polemica": true,
+ "candidato": "jogo-melhor-c3",
+ "primeiro_comentario": "💬 Comenta JOGO que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6 / replicar o que funciona; rodada de quinta 26/11 (grade de 3 por dia, plano de recuperação)",
+ "status": "descartado",
+ "horario": "19:00",
+ "horarios": {
+  "instagram": "2026-11-28 19:00",
+  "tiktok": "2026-11-28 19:00"
+ },
+ "vaga": 4,
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 50%, abaixo do corte"
+}

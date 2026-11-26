@@ -1,0 +1,36 @@
+{
+ "data": "2026-11-27",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "jogos",
+  "clássicos",
+  "PC",
+  "retro",
+  "grátis",
+  "fãs"
+ ],
+ "fontes": [
+  "https://github.com/OpenMW/openmw",
+  "https://github.com/OpenTTD/OpenTTD",
+  "https://github.com/luanti-org/luanti",
+  "https://github.com/OpenRCT2/OpenRCT2",
+  "https://github.com/OpenRA/OpenRA"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): OpenMW 6.785, OpenTTD 8.534, Luanti 13.894, OpenRCT2 16.611, OpenRA 17.837; total 63.661.",
+ "cta": "CLASSICO",
+ "polemica": false,
+ "candidato": "jogos-c2",
+ "primeiro_comentario": "💬 Comenta CLASSICO que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6 / replicar o que funciona; rodada de quinta 26/11 (grade de 3 por dia, plano de recuperação)",
+ "status": "descartado",
+ "horario": "19:30",
+ "horarios": {
+  "instagram": "2026-11-27 19:30",
+  "tiktok": "2026-11-27 19:30"
+ },
+ "vaga": 1,
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 38%, abaixo do corte"
+}

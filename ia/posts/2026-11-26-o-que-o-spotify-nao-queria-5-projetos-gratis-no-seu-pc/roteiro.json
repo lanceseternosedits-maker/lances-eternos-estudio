@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "ASSINA",
+ "tese": "O QUE O SPOTIFY NÃO QUERIA: 5 PROJETOS GRÁTIS NO SEU PC · +140 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1; substitutos de assinaturas com os seus arquivos; sala de estar com caixas de som, mascote de roupão",
+ "brinde": "Links dos 5 + o que cada um substitui",
+ "fontes": [
+  "https://github.com/mealie-recipes/mealie",
+  "https://github.com/advplyr/audiobookshelf",
+  "https://github.com/navidrome/navidrome",
+  "https://github.com/kovidgoyal/calibre",
+  "https://github.com/jellyfin/jellyfin"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): Mealie 13.995, Audiobookshelf 15.122, Navidrome 24.963, Calibre 26.526, Jellyfin 59.770; total 140.376.",
+ "obs": "",
+ "polemica": true,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "O QUE O SPOTIFY NÃO QUERIA: 5 PROJETOS GRÁTIS NO SEU PC",
+   "fala": "O que o Spotify não queria: cinco projetos grátis tocam sua música e seus livros no PC.",
+   "legenda": "O que o Spotify não queria: cinco projetos grátis tocam sua música e seus livros no PC.",
+   "visual": "O QUE O SPOTIFY NÃO QUERIA: 5 PROJETOS GRÁTIS NO SEU PC",
+   "itens": "assinaturas-5",
+   "etiqueta": [
+    "O QUE O SPOTIFY NÃO QUERIA: 5 PROJETOS GRÁTIS NO SEU PC",
+    "+140 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Mealie",
+   "fala": "Quinto: Mealie. Guarda suas receitas e monta o cardápio.",
+   "legenda": "Quinto: Mealie. Guarda suas receitas e monta o cardápio.",
+   "visual": "Guarda suas receitas e monta o cardápio.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "mealie-recipes/mealie",
+   "estrelas": 13995
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Audiobookshelf",
+   "fala": "Quarto: Audiobookshelf. Seus audiolivros e podcasts, sem assinatura.",
+   "legenda": "Quarto: Audiobookshelf. Seus audiolivros e podcasts, sem assinatura.",
+   "visual": "Seus audiolivros e podcasts, sem assinatura.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "advplyr/audiobookshelf",
+   "estrelas": 15122
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Navidrome",
+   "fala": "Terceiro: Navidrome. Sua música em streaming, com os seus arquivos. Essa é legalzinha… comenta ASSINA que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Navidrome. Sua música em streaming, com os seus arquivos. Essa é legalzinha… comenta ASSINA que eu mando os cinco. Manda pro amigo.",
+   "visual": "Sua música em streaming, com os seus arquivos.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "navidrome/navidrome",
+   "estrelas": 24963
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Calibre",
+   "fala": "Segundo: Calibre. Organiza sua biblioteca de e-books.",
+   "legenda": "Segundo: Calibre. Organiza sua biblioteca de e-books.",
+   "visual": "Organiza sua biblioteca de e-books.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "kovidgoyal/calibre",
+   "estrelas": 26526
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Jellyfin",
+   "fala": "E o primeiro: Jellyfin. Seus filmes e séries numa tela de streaming.",
+   "legenda": "E o primeiro: Jellyfin. Seus filmes e séries numa tela de streaming.",
+   "visual": "Seus filmes e séries numa tela de streaming.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "jellyfin/jellyfin",
+   "estrelas": 59770
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta ASSINA e me segue. Qual assinatura você mais paga e menos usa?",
+   "legenda": "Comenta ASSINA e me segue. Qual assinatura você mais paga e menos usa?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "a) caixa creme no topo",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "a) número + barra de blocos",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "b) chicote de câmera",
+  "camera": "e) câmera na mão",
+  "fechamento": "d) tela CONTINUE?",
+  "tipografia": "d) Press Start 2P (só nos enfeites)",
+  "mascote": "roupão e óculos 3D de papel, no sofá",
+  "cenario": "sala de estar com caixas de som"
+ },
+ "palavras": 89,
+ "duracao_estimada_s": 31.8
+}

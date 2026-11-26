@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º Aegis: https://github.com/beemdevelopment/Aegis
+4º Organic Maps: https://github.com/organicmaps/organicmaps
+3º KeePassXC: https://github.com/keepassxreboot/keepassxc
+2º Syncthing: https://github.com/syncthing/syncthing
+1º Immich: https://github.com/immich-app/immich
+
+⚠️ Projetos independentes, sem ligação com o Google. Alguns pedem instalação; leia o README antes.
+
+Brinde: Links dos 5 + qual app do Google cada um substitui.

@@ -5214,7 +5214,7 @@
    "tipo": "post",
    "label": "tv-sem-propaganda-lg-samsung",
    "data": "2026-11-16",
-   "score": 24.0
+   "score": 25.0
   },
   {
    "id": "formato:reel v7 (2 vozes)",
@@ -7634,6 +7634,482 @@
    "id": "tema:edição",
    "tipo": "tema",
    "label": "edição"
+  },
+  {
+   "id": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa",
+   "tipo": "post",
+   "label": "5-ajudas-da-ia-que-voce-ainda-nao-usa",
+   "data": "2026-11-28",
+   "score": null
+  },
+  {
+   "id": "tema:estudo",
+   "tipo": "tema",
+   "label": "estudo"
+  },
+  {
+   "id": "fonte:https://github.com/LibreTranslate/LibreTranslate",
+   "tipo": "fonte",
+   "label": "https://github.com/LibreTranslate/LibreTranslate"
+  },
+  {
+   "id": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz",
+   "tipo": "post",
+   "label": "5-ajudas-pro-seu-negocio-que-a-ia-ja-faz",
+   "data": "2026-11-30",
+   "score": null
+  },
+  {
+   "id": "tema:negócio",
+   "tipo": "tema",
+   "label": "negócio"
+  },
+  {
+   "id": "tema:atendimento",
+   "tipo": "tema",
+   "label": "atendimento"
+  },
+  {
+   "id": "tema:clientes",
+   "tipo": "tema",
+   "label": "clientes"
+  },
+  {
+   "id": "fonte:https://github.com/firefly-iii/firefly-iii",
+   "tipo": "fonte",
+   "label": "https://github.com/firefly-iii/firefly-iii"
+  },
+  {
+   "id": "fonte:https://github.com/chatwoot/chatwoot",
+   "tipo": "fonte",
+   "label": "https://github.com/chatwoot/chatwoot"
+  },
+  {
+   "id": "fonte:https://github.com/actualbudget/actual",
+   "tipo": "fonte",
+   "label": "https://github.com/actualbudget/actual"
+  },
+  {
+   "id": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai",
+   "tipo": "post",
+   "label": "5-apps-gratis-pra-quando-o-wi-fi-cai",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "cta:OFFLINE",
+   "tipo": "cta",
+   "label": "OFFLINE"
+  },
+  {
+   "id": "tema:offline",
+   "tipo": "tema",
+   "label": "offline"
+  },
+  {
+   "id": "fonte:https://github.com/kiwix/kiwix-android",
+   "tipo": "fonte",
+   "label": "https://github.com/kiwix/kiwix-android"
+  },
+  {
+   "id": "fonte:https://github.com/Stellarium/stellarium",
+   "tipo": "fonte",
+   "label": "https://github.com/Stellarium/stellarium"
+  },
+  {
+   "id": "fonte:https://github.com/ankitects/anki",
+   "tipo": "fonte",
+   "label": "https://github.com/ankitects/anki"
+  },
+  {
+   "id": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca",
+   "tipo": "post",
+   "label": "5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca",
+   "data": "2026-11-27",
+   "score": null
+  },
+  {
+   "id": "cta:CLASSICO",
+   "tipo": "cta",
+   "label": "CLASSICO"
+  },
+  {
+   "id": "tema:clássicos",
+   "tipo": "tema",
+   "label": "clássicos"
+  },
+  {
+   "id": "tema:retro",
+   "tipo": "tema",
+   "label": "retro"
+  },
+  {
+   "id": "fonte:https://github.com/OpenMW/openmw",
+   "tipo": "fonte",
+   "label": "https://github.com/OpenMW/openmw"
+  },
+  {
+   "id": "fonte:https://github.com/OpenTTD/OpenTTD",
+   "tipo": "fonte",
+   "label": "https://github.com/OpenTTD/OpenTTD"
+  },
+  {
+   "id": "fonte:https://github.com/luanti-org/luanti",
+   "tipo": "fonte",
+   "label": "https://github.com/luanti-org/luanti"
+  },
+  {
+   "id": "fonte:https://github.com/OpenRCT2/OpenRCT2",
+   "tipo": "fonte",
+   "label": "https://github.com/OpenRCT2/OpenRCT2"
+  },
+  {
+   "id": "fonte:https://github.com/OpenRA/OpenRA",
+   "tipo": "fonte",
+   "label": "https://github.com/OpenRA/OpenRA"
+  },
+  {
+   "id": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc",
+   "data": "2026-11-28",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia",
+   "data": "2026-11-28",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc",
+   "data": "2026-11-30",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-no-seu-negocio",
+   "data": "2026-11-30",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc",
+   "tipo": "post",
+   "label": "5-coisas-que-a-ia-faz-por-voce-no-seu-pc",
+   "data": "2026-11-28",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google",
+   "tipo": "post",
+   "label": "5-jeitos-gratis-de-usar-menos-o-google",
+   "data": "2026-11-28",
+   "score": null
+  },
+  {
+   "id": "cta:GOOGLE",
+   "tipo": "cta",
+   "label": "GOOGLE"
+  },
+  {
+   "id": "tema:google",
+   "tipo": "tema",
+   "label": "google"
+  },
+  {
+   "id": "tema:fotos",
+   "tipo": "tema",
+   "label": "fotos"
+  },
+  {
+   "id": "tema:mapas",
+   "tipo": "tema",
+   "label": "mapas"
+  },
+  {
+   "id": "fonte:https://github.com/beemdevelopment/Aegis",
+   "tipo": "fonte",
+   "label": "https://github.com/beemdevelopment/Aegis"
+  },
+  {
+   "id": "fonte:https://github.com/organicmaps/organicmaps",
+   "tipo": "fonte",
+   "label": "https://github.com/organicmaps/organicmaps"
+  },
+  {
+   "id": "fonte:https://github.com/keepassxreboot/keepassxc",
+   "tipo": "fonte",
+   "label": "https://github.com/keepassxreboot/keepassxc"
+  },
+  {
+   "id": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje",
+   "tipo": "post",
+   "label": "5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje",
+   "data": "2026-11-27",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova",
+   "tipo": "post",
+   "label": "5-programas-gratis-melhoram-seu-jogo-sem-placa-nova",
+   "data": "2026-11-28",
+   "score": null
+  },
+  {
+   "id": "fonte:https://github.com/SpecialKO/SpecialK",
+   "tipo": "fonte",
+   "label": "https://github.com/SpecialKO/SpecialK"
+  },
+  {
+   "id": "fonte:https://github.com/crosire/reshade",
+   "tipo": "fonte",
+   "label": "https://github.com/crosire/reshade"
+  },
+  {
+   "id": "fonte:https://github.com/Blinue/Magpie",
+   "tipo": "fonte",
+   "label": "https://github.com/Blinue/Magpie"
+  },
+  {
+   "id": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc",
+   "tipo": "post",
+   "label": "5-programas-gratis-pra-jogar-melhor-no-seu-pc",
+   "data": "2026-11-28",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar",
+   "tipo": "post",
+   "label": "5-programas-gratis-que-colocam-sua-placa-pra-trabalhar",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "fonte:https://github.com/SYSTRAN/faster-whisper",
+   "tipo": "fonte",
+   "label": "https://github.com/SYSTRAN/faster-whisper"
+  },
+  {
+   "id": "fonte:https://github.com/Comfy-Org/ComfyUI",
+   "tipo": "fonte",
+   "label": "https://github.com/Comfy-Org/ComfyUI"
+  },
+  {
+   "id": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet",
+   "tipo": "post",
+   "label": "5-programas-gratis-que-funcionam-sem-internet",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi",
+   "tipo": "post",
+   "label": "5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio",
+   "tipo": "post",
+   "label": "5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio",
+   "data": "2026-11-30",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas",
+   "tipo": "post",
+   "label": "5-projetos-gratis-no-lugar-de-assinaturas",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "cta:ASSINA",
+   "tipo": "cta",
+   "label": "ASSINA"
+  },
+  {
+   "id": "tema:assinaturas",
+   "tipo": "tema",
+   "label": "assinaturas"
+  },
+  {
+   "id": "tema:spotify",
+   "tipo": "tema",
+   "label": "spotify"
+  },
+  {
+   "id": "tema:streaming",
+   "tipo": "tema",
+   "label": "streaming"
+  },
+  {
+   "id": "tema:economia",
+   "tipo": "tema",
+   "label": "economia"
+  },
+  {
+   "id": "fonte:https://github.com/mealie-recipes/mealie",
+   "tipo": "fonte",
+   "label": "https://github.com/mealie-recipes/mealie"
+  },
+  {
+   "id": "fonte:https://github.com/advplyr/audiobookshelf",
+   "tipo": "fonte",
+   "label": "https://github.com/advplyr/audiobookshelf"
+  },
+  {
+   "id": "fonte:https://github.com/navidrome/navidrome",
+   "tipo": "fonte",
+   "label": "https://github.com/navidrome/navidrome"
+  },
+  {
+   "id": "fonte:https://github.com/kovidgoyal/calibre",
+   "tipo": "fonte",
+   "label": "https://github.com/kovidgoyal/calibre"
+  },
+  {
+   "id": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google",
+   "tipo": "post",
+   "label": "5-projetos-gratis-que-substituem-apps-do-google",
+   "data": "2026-11-28",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume",
+   "tipo": "post",
+   "label": "5-tarefas-do-seu-negocio-que-a-ia-assume",
+   "data": "2026-11-30",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje",
+   "tipo": "post",
+   "label": "5-tarefas-que-a-ia-faz-por-voce-hoje",
+   "data": "2026-11-28",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis",
+   "tipo": "post",
+   "label": "a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos",
+   "tipo": "post",
+   "label": "a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo",
+   "tipo": "post",
+   "label": "a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo",
+   "data": "2026-11-28",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows",
+   "tipo": "post",
+   "label": "a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows",
+   "data": "2026-11-28",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-corte-assinaturas-com-5-projetos-gratis",
+   "tipo": "post",
+   "label": "corte-assinaturas-com-5-projetos-gratis",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas",
+   "tipo": "post",
+   "label": "esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas",
+   "data": "2026-11-27",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis",
+   "tipo": "post",
+   "label": "fas-refizeram-5-jogos-classicos-e-e-gratis",
+   "data": "2026-11-27",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc",
+   "tipo": "post",
+   "label": "fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc",
+   "data": "2026-11-27",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele",
+   "tipo": "post",
+   "label": "o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele",
+   "data": "2026-11-28",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc",
+   "tipo": "post",
+   "label": "o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc",
+   "data": "2026-11-28",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc",
+   "tipo": "post",
+   "label": "o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia",
+   "tipo": "post",
+   "label": "sem-internet-5-programas-gratis-salvam-seu-dia",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis",
+   "tipo": "post",
+   "label": "sem-internet-no-celular-ou-no-pc-5-programas-gratis",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca",
+   "tipo": "post",
+   "label": "sua-placa-de-video-pode-fazer-isso-de-graca",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis",
+   "tipo": "post",
+   "label": "sua-placa-faz-mais-que-jogar-5-programas-gratis",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis",
+   "tipo": "post",
+   "label": "sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis",
+   "data": "2026-11-29",
+   "score": null
+  },
+  {
+   "id": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github",
+   "tipo": "post",
+   "label": "sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github",
+   "data": "2026-11-29",
+   "score": null
   }
  ],
  "links": [
@@ -7800,6 +8276,18 @@
   {
    "source": "tema:segurança",
    "target": "2026-11-02-ferramentas-gratis"
+  },
+  {
+   "source": "tema:senhas",
+   "target": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google"
+  },
+  {
+   "source": "tema:senhas",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "tema:senhas",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
   },
   {
    "source": "empresa:1Password",
@@ -8830,6 +9318,158 @@
    "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "rede:instagram",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
+  },
+  {
    "source": "rede:tiktok",
    "target": "2026-11-01-anthropic-ipo-p3"
   },
@@ -9768,6 +10408,158 @@
   {
    "source": "rede:tiktok",
    "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "rede:tiktok",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
   },
   {
    "source": "rede:youtube",
@@ -10886,6 +11678,158 @@
    "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "horario:20h",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
+  },
+  {
    "source": "2026-11-01-github-agentes",
    "target": "tema:programação"
   },
@@ -11042,6 +11986,18 @@
    "target": "2026-11-06-tv-celular"
   },
   {
+   "source": "tema:privacidade",
+   "target": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google"
+  },
+  {
+   "source": "tema:privacidade",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "tema:privacidade",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
    "source": "empresa:Opera",
    "target": "2026-11-01-semana-em-ia"
   },
@@ -11196,6 +12152,46 @@
   {
    "source": "tema:produtividade",
    "target": "2026-11-23-cinco-programas-em-alta-no-github-pro-seu-computador-produtividade"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "tema:produtividade",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
   },
   {
    "source": "2026-11-01-semana-em-ia",
@@ -11572,6 +12568,46 @@
   {
    "source": "tema:jogos",
    "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "tema:jogos",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
   },
   {
    "source": "2026-11-02-gemini-carbon",
@@ -12954,6 +13990,158 @@
    "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "paleta:paleta None",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
+  },
+  {
    "source": "empresa:Anthropic (Claude)",
    "target": "2026-11-07-5-skills"
   },
@@ -14130,6 +15318,158 @@
    "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "pilar:reel",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
+  },
+  {
    "source": "formato:palco",
    "target": "2026-11-07-ia-erra-morango"
   },
@@ -14866,6 +16206,26 @@
    "target": "fonte:https://github.com/wquguru/cicada"
   },
   {
+   "source": "tema:inglês",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "tema:inglês",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "tema:inglês",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "tema:inglês",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "tema:inglês",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
    "source": "2026-11-08-estudio-de-voz-gratis",
    "target": "paleta:paleta vermelho NO AR + madeira + verde-válvula"
   },
@@ -15038,6 +16398,46 @@
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
   },
   {
+   "source": "cta:KIT",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "cta:KIT",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
    "source": "fonte:https://www.science.org/doi/10.1126/science.adh2586",
    "target": "2026-11-16-5-coisas-que-a-ia-faz-por-voce"
   },
@@ -15162,12 +16562,52 @@
    "target": "fonte:https://github.com/seedds/nxnative"
   },
   {
+   "source": "cta:JOGO",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "cta:JOGO",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "cta:JOGO",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "cta:JOGO",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "cta:JOGO",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
    "source": "tema:games",
    "target": "2026-11-19-ps5-grava-seu-gta-6"
   },
   {
    "source": "tema:games",
    "target": "2026-11-20-5-numeros-do-gta-que-assustam"
+  },
+  {
+   "source": "tema:games",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "tema:games",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "tema:games",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "tema:games",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "tema:games",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
   },
   {
    "source": "fonte:https://github.com/valentderah/totk-pc-recomp",
@@ -16638,6 +18078,18 @@
    "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
   },
   {
+   "source": "fonte:https://github.com/immich-app/immich",
+   "target": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google"
+  },
+  {
+   "source": "fonte:https://github.com/immich-app/immich",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "fonte:https://github.com/immich-app/immich",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
    "source": "2026-11-13-ia-aprendeu-a-ver",
    "target": "cta:VISAO"
   },
@@ -17434,6 +18886,26 @@
    "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
   },
   {
+   "source": "tema:celular",
+   "target": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "tema:celular",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
    "source": "tema:console",
    "target": "2026-11-17-jogos-no-celular-e-no-mac"
   },
@@ -17578,6 +19050,86 @@
    "target": "2026-11-23-voce-ainda-paga-adobe-5-programas-gratis-pra-foto-e-video"
   },
   {
+   "source": "tema:PC",
+   "target": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "tema:PC",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
+  },
+  {
    "source": "fonte:https://www.rockstargames.com/br/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026",
    "target": "2026-11-17-gta6-5-fatos-meia-noite"
   },
@@ -17688,6 +19240,46 @@
   {
    "source": "tema:Nvidia",
    "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "tema:Nvidia",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
   },
   {
    "source": "tema:história",
@@ -17808,6 +19400,26 @@
   {
    "source": "cta:NVIDIA",
    "target": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo"
+  },
+  {
+   "source": "cta:NVIDIA",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "cta:NVIDIA",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "cta:NVIDIA",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "cta:NVIDIA",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "cta:NVIDIA",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
   },
   {
    "source": "tema:Jensen Huang",
@@ -18006,6 +19618,66 @@
    "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
   },
   {
+   "source": "tema:IA",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "tema:IA",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
+  },
+  {
    "source": "2026-11-16-por-que-a-placa-de-video-roda-ia",
    "target": "tema:placa de vídeo"
   },
@@ -18040,6 +19712,46 @@
   {
    "source": "tema:placa de vídeo",
    "target": "2026-11-23-sua-placa-nvidia-roda-ia-de-graca-5-projetos"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "tema:placa de vídeo",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
   },
   {
    "source": "2026-11-16-robo-inventou-uma-regra",
@@ -18328,6 +20040,26 @@
   {
    "source": "tema:assistente",
    "target": "2026-11-23-5-coisas-que-a-ia-faz-por-voce-semana"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "tema:assistente",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
   },
   {
    "source": "tema:kit",
@@ -18690,6 +20422,158 @@
    "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "formato:reel contagem (molde campeão, visual clean)",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
+  },
+  {
    "source": "tema:github",
    "target": "2026-11-18-ia-no-pc-sem-placa-nvidia"
   },
@@ -18822,6 +20706,46 @@
    "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
+   "source": "tema:github",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "tema:github",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
    "source": "tema:editar vídeo",
    "target": "2026-11-23-cortar-clipe-de-jogo-sozinho-5-projetos-gratis-gta-6"
   },
@@ -18872,6 +20796,26 @@
   {
    "source": "fonte:https://github.com/HandBrake/HandBrake",
    "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "fonte:https://github.com/HandBrake/HandBrake",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "fonte:https://github.com/HandBrake/HandBrake",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "fonte:https://github.com/HandBrake/HandBrake",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/HandBrake/HandBrake",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/HandBrake/HandBrake",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
   },
   {
    "source": "fonte:https://github.com/mifi/lossless-cut",
@@ -18920,6 +20864,26 @@
   {
    "source": "fonte:https://github.com/obsproject/obs-studio",
    "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
+  },
+  {
+   "source": "fonte:https://github.com/obsproject/obs-studio",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "fonte:https://github.com/obsproject/obs-studio",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "fonte:https://github.com/obsproject/obs-studio",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/obsproject/obs-studio",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/obsproject/obs-studio",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
   },
   {
    "source": "fonte:https://github.com/WyattBlue/auto-editor",
@@ -19582,6 +21546,26 @@
    "target": "2026-11-20-5-coisas-ia-faz-semana-organizada"
   },
   {
+   "source": "fonte:https://github.com/janhq/jan",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "fonte:https://github.com/janhq/jan",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "fonte:https://github.com/janhq/jan",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "fonte:https://github.com/janhq/jan",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/janhq/jan",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
    "source": "fonte:https://github.com/nomic-ai/gpt4all",
    "target": "2026-11-20-5-coisas-ia-faz-janta"
   },
@@ -20018,6 +22002,26 @@
    "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
+   "source": "tema:programas",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "tema:programas",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
+  },
+  {
    "source": "2026-11-19-siri-2011-a-assistente-que-entrou-no-bolso",
    "target": "tema:Siri"
   },
@@ -20302,6 +22306,118 @@
    "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
+   "source": "tema:grátis",
+   "target": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "tema:grátis",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
+  },
+  {
    "source": "fonte:https://github.com/syncthing/syncthing",
    "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
   },
@@ -20324,6 +22440,18 @@
   {
    "source": "fonte:https://github.com/syncthing/syncthing",
    "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/syncthing/syncthing",
+   "target": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google"
+  },
+  {
+   "source": "fonte:https://github.com/syncthing/syncthing",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "fonte:https://github.com/syncthing/syncthing",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
   },
   {
    "source": "2026-11-20-5-viradas-da-nvidia-da-lanchonete-ao-escandalo",
@@ -20482,12 +22610,52 @@
    "target": "2026-11-23-um-estudio-de-voz-gratis-no-seu-pc-5-projetos-do-github"
   },
   {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/openai/whisper",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
    "source": "fonte:https://github.com/paperless-ngx/paperless-ngx",
    "target": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix"
   },
   {
    "source": "fonte:https://github.com/paperless-ngx/paperless-ngx",
    "target": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf"
+  },
+  {
+   "source": "fonte:https://github.com/paperless-ngx/paperless-ngx",
+   "target": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz"
+  },
+  {
+   "source": "fonte:https://github.com/paperless-ngx/paperless-ngx",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "fonte:https://github.com/paperless-ngx/paperless-ngx",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "fonte:https://github.com/paperless-ngx/paperless-ngx",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "fonte:https://github.com/paperless-ngx/paperless-ngx",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
   },
   {
    "source": "2026-11-21-5-programas-gratis-pra-ver-e-ouvir-tudo",
@@ -20550,6 +22718,26 @@
    "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
   },
   {
+   "source": "fonte:https://github.com/videolan/vlc",
+   "target": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai"
+  },
+  {
+   "source": "fonte:https://github.com/videolan/vlc",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "fonte:https://github.com/videolan/vlc",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "fonte:https://github.com/videolan/vlc",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "fonte:https://github.com/videolan/vlc",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
    "source": "fonte:https://github.com/mpv-player/mpv",
    "target": "2026-11-21-5-projetos-gratis-pra-sua-tv-e-seu-celular"
   },
@@ -20576,6 +22764,26 @@
   {
    "source": "fonte:https://github.com/jellyfin/jellyfin",
    "target": "2026-11-23-seu-pc-velho-na-gaveta-vale-ouro-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/jellyfin/jellyfin",
+   "target": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas"
+  },
+  {
+   "source": "fonte:https://github.com/jellyfin/jellyfin",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/jellyfin/jellyfin",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "fonte:https://github.com/jellyfin/jellyfin",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/jellyfin/jellyfin",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
   },
   {
    "source": "2026-11-21-5-programas-gratis-que-mostram-por-que-o-pc-trava",
@@ -20620,6 +22828,26 @@
   {
    "source": "tema:PC lento",
    "target": "2026-11-22-5-ferramentas-gratis-pra-limpar-o-windows"
+  },
+  {
+   "source": "fonte:https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "fonte:https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "fonte:https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "fonte:https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
   },
   {
    "source": "fonte:https://github.com/microsoft/PowerToys",
@@ -20692,6 +22920,26 @@
   {
    "source": "2026-11-21-5-projetos-pra-parar-de-pagar-google-dropbox-netflix",
    "target": "fonte:https://github.com/Stirling-Tools/Stirling-PDF"
+  },
+  {
+   "source": "tema:netflix",
+   "target": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas"
+  },
+  {
+   "source": "tema:netflix",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "tema:netflix",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "tema:netflix",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "tema:netflix",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
   },
   {
    "source": "fonte:https://github.com/Stirling-Tools/Stirling-PDF",
@@ -20892,6 +23140,26 @@
   {
    "source": "2026-11-22-5-primeiras-vezes-da-internet",
    "target": "fonte:https://www.youtube.com/watch?v=jNQXAC9IVRw"
+  },
+  {
+   "source": "tema:internet",
+   "target": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai"
+  },
+  {
+   "source": "tema:internet",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "tema:internet",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "tema:internet",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "tema:internet",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
   },
   {
    "source": "2026-11-22-5-programas-gratis-pra-nao-pagar-pdf",
@@ -21186,6 +23454,26 @@
    "target": "fonte:https://github.com/AppFlowy-IO/AppFlowy"
   },
   {
+   "source": "fonte:https://github.com/laurent22/joplin",
+   "target": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai"
+  },
+  {
+   "source": "fonte:https://github.com/laurent22/joplin",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "fonte:https://github.com/laurent22/joplin",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "fonte:https://github.com/laurent22/joplin",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "fonte:https://github.com/laurent22/joplin",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
    "source": "2026-11-23-cinco-projetos-em-alta-no-github-pro-seu-celular-android",
    "target": "cta:ANDROID"
   },
@@ -21278,12 +23566,52 @@
    "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
   },
   {
+   "source": "tema:fãs",
+   "target": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca"
+  },
+  {
+   "source": "tema:fãs",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "tema:fãs",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "tema:fãs",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "tema:fãs",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
    "source": "fonte:https://github.com/JosefNemec/Playnite",
    "target": "2026-11-23-seu-celular-roda-jogo-de-pc-5-projetos-de-fas-rodando"
   },
   {
    "source": "fonte:https://github.com/JosefNemec/Playnite",
    "target": "2026-11-23-seu-pc-vira-console-de-sala-5-projetos-gratis-pra-jogar"
+  },
+  {
+   "source": "fonte:https://github.com/JosefNemec/Playnite",
+   "target": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova"
+  },
+  {
+   "source": "fonte:https://github.com/JosefNemec/Playnite",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/JosefNemec/Playnite",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "fonte:https://github.com/JosefNemec/Playnite",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "fonte:https://github.com/JosefNemec/Playnite",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
   },
   {
    "source": "fonte:https://github.com/brunodev85/winlator",
@@ -21418,12 +23746,856 @@
    "target": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github"
   },
   {
+   "source": "fonte:https://github.com/upscayl/upscayl",
+   "target": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa"
+  },
+  {
+   "source": "fonte:https://github.com/upscayl/upscayl",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "fonte:https://github.com/upscayl/upscayl",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "fonte:https://github.com/upscayl/upscayl",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/upscayl/upscayl",
+   "target": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar"
+  },
+  {
+   "source": "fonte:https://github.com/upscayl/upscayl",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
+   "source": "fonte:https://github.com/upscayl/upscayl",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "fonte:https://github.com/upscayl/upscayl",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/upscayl/upscayl",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/upscayl/upscayl",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
+  },
+  {
    "source": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github",
    "target": "cta:EDITAR"
   },
   {
    "source": "2026-11-23-voce-paga-pra-editar-video-5-programas-gratis-em-alta-no-github",
    "target": "tema:edição"
+  },
+  {
+   "source": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa",
+   "target": "tema:estudo"
+  },
+  {
+   "source": "2026-11-26-5-ajudas-da-ia-que-voce-ainda-nao-usa",
+   "target": "fonte:https://github.com/LibreTranslate/LibreTranslate"
+  },
+  {
+   "source": "tema:estudo",
+   "target": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai"
+  },
+  {
+   "source": "tema:estudo",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "tema:estudo",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "tema:estudo",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "tema:estudo",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "tema:estudo",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "tema:estudo",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
+   "source": "tema:estudo",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "tema:estudo",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/LibreTranslate/LibreTranslate",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-celular-e-no-pc"
+  },
+  {
+   "source": "fonte:https://github.com/LibreTranslate/LibreTranslate",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-dia-a-dia"
+  },
+  {
+   "source": "fonte:https://github.com/LibreTranslate/LibreTranslate",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/LibreTranslate/LibreTranslate",
+   "target": "2026-11-26-5-tarefas-que-a-ia-faz-por-voce-hoje"
+  },
+  {
+   "source": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz",
+   "target": "tema:negócio"
+  },
+  {
+   "source": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz",
+   "target": "tema:atendimento"
+  },
+  {
+   "source": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz",
+   "target": "tema:clientes"
+  },
+  {
+   "source": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz",
+   "target": "fonte:https://github.com/firefly-iii/firefly-iii"
+  },
+  {
+   "source": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz",
+   "target": "fonte:https://github.com/chatwoot/chatwoot"
+  },
+  {
+   "source": "2026-11-26-5-ajudas-pro-seu-negocio-que-a-ia-ja-faz",
+   "target": "fonte:https://github.com/actualbudget/actual"
+  },
+  {
+   "source": "tema:negócio",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "tema:negócio",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "tema:negócio",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "tema:negócio",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "tema:atendimento",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "tema:atendimento",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "tema:atendimento",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "tema:atendimento",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "tema:clientes",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "tema:clientes",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "tema:clientes",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "tema:clientes",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "fonte:https://github.com/firefly-iii/firefly-iii",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "fonte:https://github.com/firefly-iii/firefly-iii",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "fonte:https://github.com/firefly-iii/firefly-iii",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "fonte:https://github.com/firefly-iii/firefly-iii",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "fonte:https://github.com/chatwoot/chatwoot",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "fonte:https://github.com/chatwoot/chatwoot",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "fonte:https://github.com/chatwoot/chatwoot",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "fonte:https://github.com/chatwoot/chatwoot",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "fonte:https://github.com/actualbudget/actual",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio-no-pc"
+  },
+  {
+   "source": "fonte:https://github.com/actualbudget/actual",
+   "target": "2026-11-26-5-coisas-que-a-ia-faz-por-voce-no-seu-negocio"
+  },
+  {
+   "source": "fonte:https://github.com/actualbudget/actual",
+   "target": "2026-11-26-5-projetos-gratis-e-1-assistente-que-cuidam-do-seu-negocio"
+  },
+  {
+   "source": "fonte:https://github.com/actualbudget/actual",
+   "target": "2026-11-26-5-tarefas-do-seu-negocio-que-a-ia-assume"
+  },
+  {
+   "source": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai",
+   "target": "cta:OFFLINE"
+  },
+  {
+   "source": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai",
+   "target": "tema:offline"
+  },
+  {
+   "source": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai",
+   "target": "fonte:https://github.com/kiwix/kiwix-android"
+  },
+  {
+   "source": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai",
+   "target": "fonte:https://github.com/Stellarium/stellarium"
+  },
+  {
+   "source": "2026-11-26-5-apps-gratis-pra-quando-o-wi-fi-cai",
+   "target": "fonte:https://github.com/ankitects/anki"
+  },
+  {
+   "source": "cta:OFFLINE",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "cta:OFFLINE",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "cta:OFFLINE",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "cta:OFFLINE",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "tema:offline",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "tema:offline",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "tema:offline",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "tema:offline",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/kiwix/kiwix-android",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "fonte:https://github.com/kiwix/kiwix-android",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "fonte:https://github.com/kiwix/kiwix-android",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "fonte:https://github.com/kiwix/kiwix-android",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/Stellarium/stellarium",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "fonte:https://github.com/Stellarium/stellarium",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "fonte:https://github.com/Stellarium/stellarium",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "fonte:https://github.com/Stellarium/stellarium",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/ankitects/anki",
+   "target": "2026-11-26-5-programas-gratis-que-funcionam-sem-internet"
+  },
+  {
+   "source": "fonte:https://github.com/ankitects/anki",
+   "target": "2026-11-26-5-programas-gratis-que-o-seu-pc-usa-sem-wi-fi"
+  },
+  {
+   "source": "fonte:https://github.com/ankitects/anki",
+   "target": "2026-11-26-sem-internet-5-programas-gratis-salvam-seu-dia"
+  },
+  {
+   "source": "fonte:https://github.com/ankitects/anki",
+   "target": "2026-11-26-sem-internet-no-celular-ou-no-pc-5-programas-gratis"
+  },
+  {
+   "source": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca",
+   "target": "cta:CLASSICO"
+  },
+  {
+   "source": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca",
+   "target": "tema:clássicos"
+  },
+  {
+   "source": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca",
+   "target": "tema:retro"
+  },
+  {
+   "source": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca",
+   "target": "fonte:https://github.com/OpenMW/openmw"
+  },
+  {
+   "source": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca",
+   "target": "fonte:https://github.com/OpenTTD/OpenTTD"
+  },
+  {
+   "source": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca",
+   "target": "fonte:https://github.com/luanti-org/luanti"
+  },
+  {
+   "source": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca",
+   "target": "fonte:https://github.com/OpenRCT2/OpenRCT2"
+  },
+  {
+   "source": "2026-11-26-5-classicos-do-pc-rodam-no-windows-de-hoje-de-graca",
+   "target": "fonte:https://github.com/OpenRA/OpenRA"
+  },
+  {
+   "source": "cta:CLASSICO",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "cta:CLASSICO",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "cta:CLASSICO",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "cta:CLASSICO",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "tema:clássicos",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "tema:clássicos",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "tema:clássicos",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "tema:clássicos",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "tema:retro",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "tema:retro",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "tema:retro",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "tema:retro",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/OpenMW/openmw",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "fonte:https://github.com/OpenMW/openmw",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "fonte:https://github.com/OpenMW/openmw",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/OpenMW/openmw",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/OpenTTD/OpenTTD",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "fonte:https://github.com/OpenTTD/OpenTTD",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "fonte:https://github.com/OpenTTD/OpenTTD",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/OpenTTD/OpenTTD",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/luanti-org/luanti",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "fonte:https://github.com/luanti-org/luanti",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "fonte:https://github.com/luanti-org/luanti",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/luanti-org/luanti",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/OpenRCT2/OpenRCT2",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "fonte:https://github.com/OpenRCT2/OpenRCT2",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "fonte:https://github.com/OpenRCT2/OpenRCT2",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/OpenRCT2/OpenRCT2",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/OpenRA/OpenRA",
+   "target": "2026-11-26-5-jogos-da-sua-infancia-rodam-de-graca-no-pc-de-hoje"
+  },
+  {
+   "source": "fonte:https://github.com/OpenRA/OpenRA",
+   "target": "2026-11-26-esses-5-jogos-classicos-foram-refeitos-de-graca-por-fas"
+  },
+  {
+   "source": "fonte:https://github.com/OpenRA/OpenRA",
+   "target": "2026-11-26-fas-refizeram-5-jogos-classicos-e-e-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/OpenRA/OpenRA",
+   "target": "2026-11-26-fas-refizeram-5-jogos-famosos-de-graca-pro-seu-pc"
+  },
+  {
+   "source": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google",
+   "target": "cta:GOOGLE"
+  },
+  {
+   "source": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google",
+   "target": "tema:google"
+  },
+  {
+   "source": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google",
+   "target": "tema:fotos"
+  },
+  {
+   "source": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google",
+   "target": "tema:mapas"
+  },
+  {
+   "source": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google",
+   "target": "fonte:https://github.com/beemdevelopment/Aegis"
+  },
+  {
+   "source": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google",
+   "target": "fonte:https://github.com/organicmaps/organicmaps"
+  },
+  {
+   "source": "2026-11-26-5-jeitos-gratis-de-usar-menos-o-google",
+   "target": "fonte:https://github.com/keepassxreboot/keepassxc"
+  },
+  {
+   "source": "cta:GOOGLE",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "cta:GOOGLE",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "tema:google",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "tema:google",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "tema:fotos",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "tema:fotos",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "tema:mapas",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "tema:mapas",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "fonte:https://github.com/beemdevelopment/Aegis",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "fonte:https://github.com/beemdevelopment/Aegis",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "fonte:https://github.com/organicmaps/organicmaps",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "fonte:https://github.com/organicmaps/organicmaps",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "fonte:https://github.com/keepassxreboot/keepassxc",
+   "target": "2026-11-26-5-projetos-gratis-que-substituem-apps-do-google"
+  },
+  {
+   "source": "fonte:https://github.com/keepassxreboot/keepassxc",
+   "target": "2026-11-26-o-google-nao-queria-5-projetos-gratis-no-lugar-dos-apps-dele"
+  },
+  {
+   "source": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova",
+   "target": "fonte:https://github.com/SpecialKO/SpecialK"
+  },
+  {
+   "source": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova",
+   "target": "fonte:https://github.com/crosire/reshade"
+  },
+  {
+   "source": "2026-11-26-5-programas-gratis-melhoram-seu-jogo-sem-placa-nova",
+   "target": "fonte:https://github.com/Blinue/Magpie"
+  },
+  {
+   "source": "fonte:https://github.com/SpecialKO/SpecialK",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/SpecialKO/SpecialK",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "fonte:https://github.com/SpecialKO/SpecialK",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "fonte:https://github.com/SpecialKO/SpecialK",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/crosire/reshade",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/crosire/reshade",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "fonte:https://github.com/crosire/reshade",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "fonte:https://github.com/crosire/reshade",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/Blinue/Magpie",
+   "target": "2026-11-26-5-programas-gratis-pra-jogar-melhor-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/Blinue/Magpie",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-programas-gratis-pro-seu-jogo"
+  },
+  {
+   "source": "fonte:https://github.com/Blinue/Magpie",
+   "target": "2026-11-26-a-nvidia-nao-queria-5-projetos-gratis-pro-seu-jogo-no-windows"
+  },
+  {
+   "source": "fonte:https://github.com/Blinue/Magpie",
+   "target": "2026-11-26-o-que-a-nvidia-nao-queria-5-programas-gratis-no-seu-pc"
+  },
+  {
+   "source": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar",
+   "target": "fonte:https://github.com/SYSTRAN/faster-whisper"
+  },
+  {
+   "source": "2026-11-26-5-programas-gratis-que-colocam-sua-placa-pra-trabalhar",
+   "target": "fonte:https://github.com/Comfy-Org/ComfyUI"
+  },
+  {
+   "source": "fonte:https://github.com/SYSTRAN/faster-whisper",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "fonte:https://github.com/SYSTRAN/faster-whisper",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/SYSTRAN/faster-whisper",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/SYSTRAN/faster-whisper",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
+  },
+  {
+   "source": "fonte:https://github.com/Comfy-Org/ComfyUI",
+   "target": "2026-11-26-sua-placa-de-video-pode-fazer-isso-de-graca"
+  },
+  {
+   "source": "fonte:https://github.com/Comfy-Org/ComfyUI",
+   "target": "2026-11-26-sua-placa-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/Comfy-Org/ComfyUI",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-programas-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/Comfy-Org/ComfyUI",
+   "target": "2026-11-26-sua-placa-nvidia-faz-mais-que-jogar-5-projetos-gratis-do-github"
+  },
+  {
+   "source": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas",
+   "target": "cta:ASSINA"
+  },
+  {
+   "source": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas",
+   "target": "tema:assinaturas"
+  },
+  {
+   "source": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas",
+   "target": "tema:spotify"
+  },
+  {
+   "source": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas",
+   "target": "tema:streaming"
+  },
+  {
+   "source": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas",
+   "target": "tema:economia"
+  },
+  {
+   "source": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas",
+   "target": "fonte:https://github.com/mealie-recipes/mealie"
+  },
+  {
+   "source": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas",
+   "target": "fonte:https://github.com/advplyr/audiobookshelf"
+  },
+  {
+   "source": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas",
+   "target": "fonte:https://github.com/navidrome/navidrome"
+  },
+  {
+   "source": "2026-11-26-5-projetos-gratis-no-lugar-de-assinaturas",
+   "target": "fonte:https://github.com/kovidgoyal/calibre"
+  },
+  {
+   "source": "cta:ASSINA",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "cta:ASSINA",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "cta:ASSINA",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "cta:ASSINA",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "tema:assinaturas",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "tema:assinaturas",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "tema:assinaturas",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "tema:assinaturas",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "tema:spotify",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "tema:spotify",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "tema:spotify",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "tema:spotify",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "tema:streaming",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "tema:streaming",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "tema:streaming",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "tema:streaming",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "tema:economia",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "tema:economia",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "tema:economia",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "tema:economia",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/mealie-recipes/mealie",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/mealie-recipes/mealie",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "fonte:https://github.com/mealie-recipes/mealie",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/mealie-recipes/mealie",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/advplyr/audiobookshelf",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/advplyr/audiobookshelf",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "fonte:https://github.com/advplyr/audiobookshelf",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/advplyr/audiobookshelf",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/navidrome/navidrome",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/navidrome/navidrome",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "fonte:https://github.com/navidrome/navidrome",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/navidrome/navidrome",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
+  },
+  {
+   "source": "fonte:https://github.com/kovidgoyal/calibre",
+   "target": "2026-11-26-a-netflix-e-o-spotify-nao-queriam-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/kovidgoyal/calibre",
+   "target": "2026-11-26-a-netflix-nao-queria-5-projetos-gratis-com-os-seus-arquivos"
+  },
+  {
+   "source": "fonte:https://github.com/kovidgoyal/calibre",
+   "target": "2026-11-26-corte-assinaturas-com-5-projetos-gratis"
+  },
+  {
+   "source": "fonte:https://github.com/kovidgoyal/calibre",
+   "target": "2026-11-26-o-que-o-spotify-nao-queria-5-projetos-gratis-no-seu-pc"
   }
  ]
 }

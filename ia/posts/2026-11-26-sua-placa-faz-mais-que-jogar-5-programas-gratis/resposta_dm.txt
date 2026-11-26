@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º HandBrake: https://github.com/HandBrake/HandBrake
+4º faster-whisper: https://github.com/SYSTRAN/faster-whisper
+3º Upscayl: https://github.com/upscayl/upscayl
+2º OBS Studio: https://github.com/obsproject/obs-studio
+1º ComfyUI: https://github.com/Comfy-Org/ComfyUI
+
+⚠️ Projetos independentes, sem ligação com a Nvidia. Alguns usam a placa Nvidia; Upscayl, HandBrake e OBS também rodam em outras marcas. O faster-whisper pede conhecimento técnico; leia o README de cada um.
+
+Brinde: Links dos 5 + o que cada um faz na placa.

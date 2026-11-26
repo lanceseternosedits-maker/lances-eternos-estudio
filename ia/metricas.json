@@ -1822,5 +1822,46 @@
    "LEIS": "10/6/11"
   },
   "obs": "MARKETING (19/11 22:32) só tinha horas no ar: 22 views."
+ },
+ "leitura_api_2026_11_26": {
+  "janela": "2026-11-12..2026-11-26 (Instagram Reels, Metricool; último Reel publicado em 19/11 22:32; nada saiu em 20–26/11)",
+  "top_views": {
+   "APPLE": 1940,
+   "COPIA": 660,
+   "DOLAR": 435,
+   "VOO": 343,
+   "TELA": 325,
+   "CELULAR": 298,
+   "NVIDIA": 296
+  },
+  "piores_views": {
+   "MARKETING": 28,
+   "JOGOS": 47,
+   "ZAP": 255,
+   "GTA/PS5": 275,
+   "GAME": 287
+  },
+  "pct_3s_top": {
+   "GTA/PS5": 63.1,
+   "DOLAR": 57.2,
+   "APPLE": 51.9,
+   "NVIDIA": 47.8,
+   "GAME": 43.7
+  },
+  "pct_3s_piores": {
+   "JOGOS": 32.5,
+   "ZAP": 37.4,
+   "CELULAR": 39.7,
+   "COPIA": 40.3,
+   "MARKETING": 42.3
+  },
+  "salvar_enviar_comentar": {
+   "APPLE": "38 salvos/10 envios/23 comentários",
+   "COPIA": "19/4/7",
+   "TELA": "5/0/3",
+   "CELULAR": "3/0/1"
+  },
+  "tiktok": "12 vídeos de 12–19/11: 1–127 views (melhor 127, 14/11); mediana ~50; segue sem tração",
+  "obs": "Sem Reel novo desde 19/11: 5 vídeos e 9 roteiros aguardam aprovação do Vitor; MARKETING (19/11 22:32) só tinha horas no ar."
  }
 }

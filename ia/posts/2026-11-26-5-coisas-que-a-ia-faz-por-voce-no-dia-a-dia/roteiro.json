@@ -1,0 +1,137 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "KIT",
+ "tese": "5 COISAS QUE A IA FAZ POR VOCÊ NO DIA A DIA · +230 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1; 4 projetos + assistente do kit; mesa de estudo à noite, mascote de fone e caderno",
+ "brinde": "Os dez assistentes prontos do Super Assistente de IA",
+ "fontes": [
+  "https://github.com/LibreTranslate/LibreTranslate",
+  "https://github.com/upscayl/upscayl",
+  "https://github.com/janhq/jan",
+  "https://github.com/openai/whisper"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): LibreTranslate 17.853, Upscayl 53.249, Jan 46.168, Whisper 113.560; total 230.830.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 COISAS QUE A IA FAZ POR VOCÊ NO DIA A DIA",
+   "fala": "Você paga curso de inglês e não aprende? Quatro projetos grátis e um assistente ajudam.",
+   "legenda": "Você paga curso de inglês e não aprende? Quatro projetos grátis e um assistente ajudam.",
+   "visual": "5 COISAS QUE A IA FAZ POR VOCÊ NO DIA A DIA",
+   "itens": "kit-ingles-1",
+   "etiqueta": [
+    "5 COISAS QUE A IA FAZ POR VOCÊ NO DIA A DIA",
+    "+230 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "LibreTranslate",
+   "fala": "Quinto: LibreTranslate. Traduz texto sem mandar pra ninguém.",
+   "legenda": "Quinto: LibreTranslate. Traduz texto sem mandar pra ninguém.",
+   "visual": "Traduz texto sem mandar pra ninguém.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "LibreTranslate/LibreTranslate",
+   "estrelas": 17853
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Upscayl",
+   "fala": "Quarto: Upscayl. Melhora foto antiga com IA.",
+   "legenda": "Quarto: Upscayl. Melhora foto antiga com IA.",
+   "visual": "Melhora foto antiga com IA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "upscayl/upscayl",
+   "estrelas": 53249
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Jan",
+   "fala": "Terceiro: Jan. Conversa com IA no seu PC, sem internet. Essa é legalzinha… comenta KIT que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Jan. Conversa com IA no seu PC, sem internet. Essa é legalzinha… comenta KIT que eu mando os cinco. Manda pro amigo.",
+   "visual": "Conversa com IA no seu PC, sem internet.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "janhq/jan",
+   "estrelas": 46168
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Whisper",
+   "fala": "Segundo: Whisper. Transforma áudio em texto, em português.",
+   "legenda": "Segundo: Whisper. Transforma áudio em texto, em português.",
+   "visual": "Transforma áudio em texto, em português.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "openai/whisper",
+   "estrelas": 113560
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Assistente professor de inglês",
+   "fala": "E o primeiro: Assistente professor de inglês. Corrige e treina seu inglês todo dia.",
+   "legenda": "E o primeiro: Assistente professor de inglês. Corrige e treina seu inglês todo dia.",
+   "visual": "Corrige e treina seu inglês todo dia.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta KIT e me segue. Que tarefa do seu dia você passaria pra IA?",
+   "legenda": "Comenta KIT e me segue. Que tarefa do seu dia você passaria pra IA?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "e) tela de terminal",
+  "nome": "b) carimbo batendo",
+  "contador": "c) velocímetro",
+  "legenda": "b) uma palavra gigante por vez",
+  "transicao": "d) virada de página",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "e) página de caderno",
+  "tipografia": "c) Fraunces",
+  "mascote": "fone de ouvido, escrevendo no caderno",
+  "cenario": "mesa de estudo à noite com abajur"
+ },
+ "palavras": 89,
+ "duracao_estimada_s": 31.8
+}

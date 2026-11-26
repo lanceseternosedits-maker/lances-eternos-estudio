@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º Mealie: https://github.com/mealie-recipes/mealie
+4º Audiobookshelf: https://github.com/advplyr/audiobookshelf
+3º Navidrome: https://github.com/navidrome/navidrome
+2º Calibre: https://github.com/kovidgoyal/calibre
+1º Jellyfin: https://github.com/jellyfin/jellyfin
+
+⚠️ Funcionam com os SEUS arquivos (nada de pirataria) e precisam de um computador ligado. Projetos independentes, sem ligação com Netflix, Spotify ou Amazon.
+
+Brinde: Links dos 5 + o que cada um substitui.

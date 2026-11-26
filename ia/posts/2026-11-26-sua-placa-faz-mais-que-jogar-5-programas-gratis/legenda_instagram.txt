@@ -1,0 +1,20 @@
+Comenta NVIDIA que eu te mando os links. 💬
+
+Sua placa faz mais que jogar: cinco programas grátis usam ela pra trabalhar.
+
+5º HandBrake: Muda o formato do vídeo; a placa acelera.
+4º faster-whisper: Transforma áudio em texto na placa; pede um pouco de código.
+3º Upscayl: Melhora foto antiga com IA.
+2º OBS Studio: Grava a tela do jogo; a placa ajuda a não pesar.
+1º ComfyUI: Cria imagens com IA, melhor com placa Nvidia.
+
+⚠️ Projetos independentes, sem ligação com a Nvidia. Alguns usam a placa Nvidia; Upscayl, HandBrake e OBS também rodam em outras marcas. O faster-whisper pede conhecimento técnico; leia o README de cada um.
+
+💬 Comenta NVIDIA e me segue. Deixa o like e manda pra aquele amigo que se interessa por isso.
+
+Qual placa de vídeo você tem? 👇
+
+Fonte: repositórios no GitHub (estrelas conferidas em 26/11/2026). Projetos independentes, sem ligação com as empresas citadas.
+Animação e voz feitas com IA. Perfil independente, sem ligação com as empresas citadas.
+
+#nvidia #pc #ia #tecnologia #gratis

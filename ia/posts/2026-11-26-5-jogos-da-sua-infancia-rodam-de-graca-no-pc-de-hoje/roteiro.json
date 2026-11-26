@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "CLASSICO",
+ "tese": "5 JOGOS DA SUA INFÂNCIA RODAM DE GRAÇA NO PC DE HOJE · +63 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1; clássicos de PC refeitos por fãs; quarto dos anos 2000 com monitor de tubo, mascote de boné com CD-ROM",
+ "brinde": "Links dos 5 + quais pedem o jogo original",
+ "fontes": [
+  "https://github.com/OpenMW/openmw",
+  "https://github.com/OpenTTD/OpenTTD",
+  "https://github.com/luanti-org/luanti",
+  "https://github.com/OpenRCT2/OpenRCT2",
+  "https://github.com/OpenRA/OpenRA"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): OpenMW 6.785, OpenTTD 8.534, Luanti 13.894, OpenRCT2 16.611, OpenRA 17.837; total 63.661.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 JOGOS DA SUA INFÂNCIA RODAM DE GRAÇA NO PC DE HOJE",
+   "fala": "Lembra do jogo que você amava e não roda mais? Fãs refizeram cinco, de graça.",
+   "legenda": "Lembra do jogo que você amava e não roda mais? Fãs refizeram cinco, de graça.",
+   "visual": "5 JOGOS DA SUA INFÂNCIA RODAM DE GRAÇA NO PC DE HOJE",
+   "itens": "jogos-3",
+   "etiqueta": [
+    "5 JOGOS DA SUA INFÂNCIA RODAM DE GRAÇA NO PC DE HOJE",
+    "+63 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "OpenMW",
+   "fala": "Quinto: OpenMW. Roda o Morrowind num motor novo, com o seu jogo.",
+   "legenda": "Quinto: OpenMW. Roda o Morrowind num motor novo, com o seu jogo.",
+   "visual": "Roda o Morrowind num motor novo, com o seu jogo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "OpenMW/openmw",
+   "estrelas": 6785
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "OpenTTD",
+   "fala": "Quarto: OpenTTD. Refaz o Transport Tycoon, o jogo de trens.",
+   "legenda": "Quarto: OpenTTD. Refaz o Transport Tycoon, o jogo de trens.",
+   "visual": "Refaz o Transport Tycoon, o jogo de trens.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "OpenTTD/OpenTTD",
+   "estrelas": 8534
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Luanti",
+   "fala": "Terceiro: Luanti. Jogo de blocos grátis, estilo Minecraft. Essa é legalzinha… comenta CLASSICO que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Luanti. Jogo de blocos grátis, estilo Minecraft. Essa é legalzinha… comenta CLASSICO que eu mando os cinco. Manda pro amigo.",
+   "visual": "Jogo de blocos grátis, estilo Minecraft.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "luanti-org/luanti",
+   "estrelas": 13894
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "OpenRCT2",
+   "fala": "Segundo: OpenRCT2. Refaz o RollerCoaster Tycoon 2, de parque.",
+   "legenda": "Segundo: OpenRCT2. Refaz o RollerCoaster Tycoon 2, de parque.",
+   "visual": "Refaz o RollerCoaster Tycoon 2, de parque.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "OpenRCT2/OpenRCT2",
+   "estrelas": 16611
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "OpenRA",
+   "fala": "E o primeiro: OpenRA. Roda Red Alert e outros Command & Conquer.",
+   "legenda": "E o primeiro: OpenRA. Roda Red Alert e outros Command & Conquer.",
+   "visual": "Roda Red Alert e outros Command & Conquer.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "OpenRA/OpenRA",
+   "estrelas": 17837
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta CLASSICO e me segue. Que jogo da sua infância você queria rodar de novo?",
+   "legenda": "Comenta CLASSICO e me segue. Que jogo da sua infância você queria rodar de novo?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "b) papel rasgado com fita",
+  "nome": "c) máquina de escrever",
+  "contador": "e) placar 8-bit HI-SCORE",
+  "legenda": "c) karaokê com marca-texto",
+  "transicao": "c) íris circular",
+  "camera": "e) câmera na mão",
+  "fechamento": "b) pódio",
+  "tipografia": "a) Space Grotesk",
+  "mascote": "boné de lado, segurando um CD-ROM",
+  "cenario": "quarto dos anos 2000 com monitor de tubo"
+ },
+ "palavras": 94,
+ "duracao_estimada_s": 33.6
+}

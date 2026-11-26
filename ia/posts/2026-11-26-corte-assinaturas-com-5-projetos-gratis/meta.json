@@ -1,0 +1,36 @@
+{
+ "data": "2026-11-29",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "assinaturas",
+  "netflix",
+  "spotify",
+  "streaming",
+  "economia",
+  "grátis"
+ ],
+ "fontes": [
+  "https://github.com/mealie-recipes/mealie",
+  "https://github.com/advplyr/audiobookshelf",
+  "https://github.com/navidrome/navidrome",
+  "https://github.com/kovidgoyal/calibre",
+  "https://github.com/jellyfin/jellyfin"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): Mealie 13.995, Audiobookshelf 15.122, Navidrome 24.963, Calibre 26.526, Jellyfin 59.770; total 140.376.",
+ "cta": "ASSINA",
+ "polemica": true,
+ "candidato": "assinaturas-c3",
+ "primeiro_comentario": "💬 Comenta ASSINA que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6 / replicar o que funciona; rodada de quinta 26/11 (grade de 3 por dia, plano de recuperação)",
+ "status": "descartado",
+ "horario": "13:00",
+ "horarios": {
+  "instagram": "2026-11-29 13:00",
+  "tiktok": "2026-11-29 13:00"
+ },
+ "vaga": 6,
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 49%, abaixo do corte"
+}

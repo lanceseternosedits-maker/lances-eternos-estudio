@@ -1,0 +1,137 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "KIT",
+ "tese": "5 AJUDAS PRO SEU NEGÓCIO QUE A IA JÁ FAZ · +145 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1; 4 projetos + assistente do kit; balcão de loja pequena, mascote de avental de lojista",
+ "brinde": "Os dez assistentes prontos do Super Assistente de IA",
+ "fontes": [
+  "https://github.com/firefly-iii/firefly-iii",
+  "https://github.com/chatwoot/chatwoot",
+  "https://github.com/paperless-ngx/paperless-ngx",
+  "https://github.com/actualbudget/actual"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): Firefly III 25.343, Chatwoot 40.586, Paperless-ngx 48.646, Actual 30.463; total 145.038.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 AJUDAS PRO SEU NEGÓCIO QUE A IA JÁ FAZ",
+   "fala": "Seu negócio perde tempo com papel e conta? Quatro projetos grátis e um assistente cuidam disso.",
+   "legenda": "Seu negócio perde tempo com papel e conta? Quatro projetos grátis e um assistente cuidam disso.",
+   "visual": "5 AJUDAS PRO SEU NEGÓCIO QUE A IA JÁ FAZ",
+   "itens": "kit-negocio-2",
+   "etiqueta": [
+    "5 AJUDAS PRO SEU NEGÓCIO QUE A IA JÁ FAZ",
+    "+145 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Firefly III",
+   "fala": "Quinto: Firefly III. Organiza seus gastos sozinho.",
+   "legenda": "Quinto: Firefly III. Organiza seus gastos sozinho.",
+   "visual": "Organiza seus gastos sozinho.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "firefly-iii/firefly-iii",
+   "estrelas": 25343
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Chatwoot",
+   "fala": "Quarto: Chatwoot. Junta as mensagens dos clientes numa tela só.",
+   "legenda": "Quarto: Chatwoot. Junta as mensagens dos clientes numa tela só.",
+   "visual": "Junta as mensagens dos clientes numa tela só.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "chatwoot/chatwoot",
+   "estrelas": 40586
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Paperless-ngx",
+   "fala": "Terceiro: Paperless-ngx. Guarda e acha seus documentos escaneados. Essa é legalzinha… comenta KIT que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Paperless-ngx. Guarda e acha seus documentos escaneados. Essa é legalzinha… comenta KIT que eu mando os cinco. Manda pro amigo.",
+   "visual": "Guarda e acha seus documentos escaneados.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "paperless-ngx/paperless-ngx",
+   "estrelas": 48646
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Actual",
+   "fala": "Segundo: Actual. Controla seu orçamento, sem mensalidade.",
+   "legenda": "Segundo: Actual. Controla seu orçamento, sem mensalidade.",
+   "visual": "Controla seu orçamento, sem mensalidade.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "actualbudget/actual",
+   "estrelas": 30463
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Assistente atendente do seu negócio",
+   "fala": "E o primeiro: Assistente atendente do seu negócio. Responde cliente do jeito que você responderia.",
+   "legenda": "E o primeiro: Assistente atendente do seu negócio. Responde cliente do jeito que você responderia.",
+   "visual": "Responde cliente do jeito que você responderia.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ]
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta KIT e me segue. O que mais toma o seu tempo no trabalho?",
+   "legenda": "Comenta KIT e me segue. O que mais toma o seu tempo no trabalho?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "c) máquina de escrever",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "e) glitch RGB",
+  "camera": "c) travelling lateral",
+  "fechamento": "c) post-its/cartazes na parede",
+  "tipografia": "b) Archivo Black",
+  "mascote": "avental de lojista e caneta atrás da orelha, atendendo",
+  "cenario": "balcão de loja pequena de manhã"
+ },
+ "palavras": 90,
+ "duracao_estimada_s": 32.1
+}

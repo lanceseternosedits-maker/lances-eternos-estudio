@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "GOOGLE",
+ "tese": "5 PROGRAMAS GRÁTIS QUE SUBSTITUEM APPS DO GOOGLE · +270 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1; substitutos de apps do Google; sala de arquivo com gavetas, mascote com chaves e cadeado",
+ "brinde": "Links dos 5 + qual app do Google cada um substitui",
+ "fontes": [
+  "https://github.com/beemdevelopment/Aegis",
+  "https://github.com/organicmaps/organicmaps",
+  "https://github.com/keepassxreboot/keepassxc",
+  "https://github.com/syncthing/syncthing",
+  "https://github.com/immich-app/immich"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): Aegis 13.632, Organic Maps 16.136, KeePassXC 30.178, Syncthing 90.846, Immich 120.142; total 270.934.",
+ "obs": "",
+ "polemica": true,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROGRAMAS GRÁTIS QUE SUBSTITUEM APPS DO GOOGLE",
+   "fala": "O que o Google não queria: cinco programas grátis trocam parte dos apps dele.",
+   "legenda": "O que o Google não queria: cinco programas grátis trocam parte dos apps dele.",
+   "visual": "5 PROGRAMAS GRÁTIS QUE SUBSTITUEM APPS DO GOOGLE",
+   "itens": "google-2",
+   "etiqueta": [
+    "5 PROGRAMAS GRÁTIS QUE SUBSTITUEM APPS DO GOOGLE",
+    "+270 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Aegis",
+   "fala": "Quinto: Aegis. Guarda seus códigos de verificação no Android.",
+   "legenda": "Quinto: Aegis. Guarda seus códigos de verificação no Android.",
+   "visual": "Guarda seus códigos de verificação no Android.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "beemdevelopment/Aegis",
+   "estrelas": 13632
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Organic Maps",
+   "fala": "Quarto: Organic Maps. Mapa que funciona sem internet.",
+   "legenda": "Quarto: Organic Maps. Mapa que funciona sem internet.",
+   "visual": "Mapa que funciona sem internet.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "organicmaps/organicmaps",
+   "estrelas": 16136
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "KeePassXC",
+   "fala": "Terceiro: KeePassXC. Cofre de senhas só seu, no computador. Essa é legalzinha… comenta GOOGLE que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: KeePassXC. Cofre de senhas só seu, no computador. Essa é legalzinha… comenta GOOGLE que eu mando os cinco. Manda pro amigo.",
+   "visual": "Cofre de senhas só seu, no computador.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "keepassxreboot/keepassxc",
+   "estrelas": 30178
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Syncthing",
+   "fala": "Segundo: Syncthing. Sincroniza arquivos entre seus aparelhos, sem nuvem.",
+   "legenda": "Segundo: Syncthing. Sincroniza arquivos entre seus aparelhos, sem nuvem.",
+   "visual": "Sincroniza arquivos entre seus aparelhos, sem nuvem.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "syncthing/syncthing",
+   "estrelas": 90846
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Immich",
+   "fala": "E o primeiro: Immich. Salva as fotos do celular, igual ao Google Fotos, no seu servidor.",
+   "legenda": "E o primeiro: Immich. Salva as fotos do celular, igual ao Google Fotos, no seu servidor.",
+   "visual": "Salva as fotos do celular, igual ao Google Fotos, no seu servidor.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "immich-app/immich",
+   "estrelas": 120142
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta GOOGLE e me segue. Qual app do Google você mais usa?",
+   "legenda": "Comenta GOOGLE e me segue. Qual app do Google você mais usa?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "d) faixa diagonal de aviso",
+  "nome": "d) letreiro split-flap",
+  "contador": "b) odômetro de rolinhos",
+  "legenda": "a) bloco de 4 palavras",
+  "transicao": "e) glitch RGB",
+  "camera": "d) órbita",
+  "fechamento": "c) post-its na parede",
+  "tipografia": "b) Archivo Black",
+  "mascote": "molho de chaves e cadeado, carregando uma caixa",
+  "cenario": "sala de arquivo com gavetas"
+ },
+ "palavras": 90,
+ "duracao_estimada_s": 32.1
+}

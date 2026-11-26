@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "OFFLINE",
+ "tese": "SEM INTERNET NO CELULAR OU NO PC? 5 PROGRAMAS GRÁTIS · +122 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1; programas que funcionam sem internet; ponto de ônibus de dia, mascote de mochila e lanterna",
+ "brinde": "Links dos 5 + o que baixar antes de ficar offline",
+ "fontes": [
+  "https://github.com/kiwix/kiwix-android",
+  "https://github.com/Stellarium/stellarium",
+  "https://github.com/videolan/vlc",
+  "https://github.com/ankitects/anki",
+  "https://github.com/laurent22/joplin"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): Kiwix 1.566, Stellarium 10.205, VLC 20.591, Anki 33.038, Joplin 57.365; total 122.765.",
+ "obs": "",
+ "polemica": false,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "SEM INTERNET NO CELULAR OU NO PC? 5 PROGRAMAS GRÁTIS",
+   "fala": "Sem internet? Cinco programas grátis funcionam, se você baixar antes.",
+   "legenda": "Sem internet? Cinco programas grátis funcionam, se você baixar antes.",
+   "visual": "SEM INTERNET NO CELULAR OU NO PC? 5 PROGRAMAS GRÁTIS",
+   "itens": "offline-4",
+   "etiqueta": [
+    "SEM INTERNET NO CELULAR OU NO PC? 5 PROGRAMAS GRÁTIS",
+    "+122 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Kiwix",
+   "fala": "Quinto: Kiwix. Wikipedia no Android, sem internet, depois de baixar.",
+   "legenda": "Quinto: Kiwix. Wikipedia no Android, sem internet, depois de baixar.",
+   "visual": "Wikipedia no Android, sem internet, depois de baixar.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "kiwix/kiwix-android",
+   "estrelas": 1566
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "Stellarium",
+   "fala": "Quarto: Stellarium. Mapa do céu no computador, sem internet.",
+   "legenda": "Quarto: Stellarium. Mapa do céu no computador, sem internet.",
+   "visual": "Mapa do céu no computador, sem internet.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "Stellarium/stellarium",
+   "estrelas": 10205
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "VLC",
+   "fala": "Terceiro: VLC. Toca quase qualquer vídeo, sem internet. Essa é legalzinha… comenta OFFLINE que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: VLC. Toca quase qualquer vídeo, sem internet. Essa é legalzinha… comenta OFFLINE que eu mando os cinco. Manda pro amigo.",
+   "visual": "Toca quase qualquer vídeo, sem internet.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "videolan/vlc",
+   "estrelas": 20591
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Anki",
+   "fala": "Segundo: Anki. Cartões de estudo que ajudam a memorizar, no PC e no Android.",
+   "legenda": "Segundo: Anki. Cartões de estudo que ajudam a memorizar, no PC e no Android.",
+   "visual": "Cartões de estudo que ajudam a memorizar, no PC e no Android.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "ankitects/anki",
+   "estrelas": 33038
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Joplin",
+   "fala": "E o primeiro: Joplin. Anotações no celular e no PC, sem internet.",
+   "legenda": "E o primeiro: Joplin. Anotações no celular e no PC, sem internet.",
+   "visual": "Anotações no celular e no PC, sem internet.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "laurent22/joplin",
+   "estrelas": 57365
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta OFFLINE e me segue. Qual lugar você mais fica sem internet?",
+   "legenda": "Comenta OFFLINE e me segue. Qual lugar você mais fica sem internet?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "f) página de caderno",
+  "nome": "f) escrito à mão",
+  "contador": "f) termômetro",
+  "legenda": "d) balão de fala do mascote",
+  "transicao": "f) zoom atravessando uma tela",
+  "camera": "a) 2 planos frontais",
+  "fechamento": "a) lista + pílulas COMENTA",
+  "tipografia": "e) Caveat",
+  "mascote": "mochila e lanterna, caminhando",
+  "cenario": "ponto de ônibus de dia"
+ },
+ "palavras": 88,
+ "duracao_estimada_s": 31.4
+}

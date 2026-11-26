@@ -1,0 +1,36 @@
+{
+ "data": "2026-11-28",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "google",
+  "privacidade",
+  "fotos",
+  "senhas",
+  "mapas",
+  "grátis"
+ ],
+ "fontes": [
+  "https://github.com/beemdevelopment/Aegis",
+  "https://github.com/organicmaps/organicmaps",
+  "https://github.com/keepassxreboot/keepassxc",
+  "https://github.com/syncthing/syncthing",
+  "https://github.com/immich-app/immich"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): Aegis 13.632, Organic Maps 16.136, KeePassXC 30.178, Syncthing 90.846, Immich 120.142; total 270.934.",
+ "cta": "GOOGLE",
+ "polemica": true,
+ "candidato": "google-c3",
+ "primeiro_comentario": "💬 Comenta GOOGLE que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6 / replicar o que funciona; rodada de quinta 26/11 (grade de 3 por dia, plano de recuperação)",
+ "status": "descartado",
+ "horario": "13:00",
+ "horarios": {
+  "instagram": "2026-11-28 13:00",
+  "tiktok": "2026-11-28 13:00"
+ },
+ "vaga": 3,
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 53%, abaixo do corte"
+}

@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º Special K: https://github.com/SpecialKO/SpecialK
+4º ReShade: https://github.com/crosire/reshade
+3º Libre Hardware Monitor: https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+2º Playnite: https://github.com/JosefNemec/Playnite
+1º Magpie: https://github.com/Blinue/Magpie
+
+⚠️ Projetos independentes, sem ligação com a Nvidia nem com os jogos. Em jogo online com anti-cheat, ReShade e Special K podem causar banimento; confira as regras antes. Magpie, Playnite e Libre Hardware Monitor são só para Windows.
+
+Brinde: Links dos 5 + o que cada um melhora no jogo.

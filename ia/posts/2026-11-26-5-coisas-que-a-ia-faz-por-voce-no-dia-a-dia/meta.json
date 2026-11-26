@@ -1,0 +1,35 @@
+{
+ "data": "2026-11-28",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "IA",
+  "assistente",
+  "inglês",
+  "estudo",
+  "github",
+  "produtividade"
+ ],
+ "fontes": [
+  "https://github.com/LibreTranslate/LibreTranslate",
+  "https://github.com/upscayl/upscayl",
+  "https://github.com/janhq/jan",
+  "https://github.com/openai/whisper"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): LibreTranslate 17.853, Upscayl 53.249, Jan 46.168, Whisper 113.560; total 230.830.",
+ "cta": "KIT",
+ "polemica": false,
+ "candidato": "kit-ingles-c1",
+ "primeiro_comentario": "💬 Comenta KIT que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6 / replicar o que funciona; rodada de quinta 26/11 (grade de 3 por dia, plano de recuperação)",
+ "status": "descartado",
+ "horario": "09:00",
+ "horarios": {
+  "instagram": "2026-11-28 09:00",
+  "tiktok": "2026-11-28 09:00"
+ },
+ "vaga": 2,
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 41%, abaixo do corte"
+}

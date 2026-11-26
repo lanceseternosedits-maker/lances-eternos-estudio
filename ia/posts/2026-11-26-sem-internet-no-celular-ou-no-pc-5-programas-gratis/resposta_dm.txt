@@ -1,0 +1,10 @@
+Tá aqui 👇 os links e as fontes:
+5º Kiwix: https://github.com/kiwix/kiwix-android
+4º Stellarium: https://github.com/Stellarium/stellarium
+3º VLC: https://github.com/videolan/vlc
+2º Anki: https://github.com/ankitects/anki
+1º Joplin: https://github.com/laurent22/joplin
+
+⚠️ Projetos independentes, sem ligação com as empresas citadas. Baixe o que precisa antes de ficar sem internet. O Joplin só sincroniza entre aparelhos com conexão; o app de iPhone do Anki é pago.
+
+Brinde: Links dos 5 + o que baixar antes de ficar offline.

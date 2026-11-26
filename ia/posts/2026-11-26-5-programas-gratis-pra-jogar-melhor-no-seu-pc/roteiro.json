@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "JOGO",
+ "tese": "5 PROGRAMAS GRÁTIS PRA JOGAR MELHOR NO SEU PC · +48 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1; ferramentas pra melhorar jogo de PC sem placa nova; mesa gamer clara, mascote de headset pilotando",
+ "brinde": "Links dos 5 + o que cada um melhora no jogo",
+ "fontes": [
+  "https://github.com/SpecialKO/SpecialK",
+  "https://github.com/crosire/reshade",
+  "https://github.com/LibreHardwareMonitor/LibreHardwareMonitor",
+  "https://github.com/JosefNemec/Playnite",
+  "https://github.com/Blinue/Magpie"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): Special K 2.174, ReShade 5.704, Libre Hardware Monitor 9.456, Playnite 14.609, Magpie 16.600; total 48.543.",
+ "obs": "",
+ "polemica": true,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "5 PROGRAMAS GRÁTIS PRA JOGAR MELHOR NO SEU PC",
+   "fala": "Quer jogar melhor sem gastar? Cinco programas grátis melhoram seus jogos.",
+   "legenda": "Quer jogar melhor sem gastar? Cinco programas grátis melhoram seus jogos.",
+   "visual": "5 PROGRAMAS GRÁTIS PRA JOGAR MELHOR NO SEU PC",
+   "itens": "jogo-melhor-3",
+   "etiqueta": [
+    "5 PROGRAMAS GRÁTIS PRA JOGAR MELHOR NO SEU PC",
+    "+48 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "Special K",
+   "fala": "Quinto: Special K. Caixa de ferramentas pra ajustar jogos de PC.",
+   "legenda": "Quinto: Special K. Caixa de ferramentas pra ajustar jogos de PC.",
+   "visual": "Caixa de ferramentas pra ajustar jogos de PC.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "SpecialKO/SpecialK",
+   "estrelas": 2174
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "ReShade",
+   "fala": "Quarto: ReShade. Filtros que deixam o jogo mais bonito.",
+   "legenda": "Quarto: ReShade. Filtros que deixam o jogo mais bonito.",
+   "visual": "Filtros que deixam o jogo mais bonito.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "crosire/reshade",
+   "estrelas": 5704
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Libre Hardware Monitor",
+   "fala": "Terceiro: Libre Hardware Monitor. Mostra a temperatura da placa de vídeo. Essa é legalzinha… comenta JOGO que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Libre Hardware Monitor. Mostra a temperatura da placa de vídeo. Essa é legalzinha… comenta JOGO que eu mando os cinco. Manda pro amigo.",
+   "visual": "Mostra a temperatura da placa de vídeo.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+   "estrelas": 9456
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "Playnite",
+   "fala": "Segundo: Playnite. Junta Steam, Epic e GOG numa tela só.",
+   "legenda": "Segundo: Playnite. Junta Steam, Epic e GOG numa tela só.",
+   "visual": "Junta Steam, Epic e GOG numa tela só.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "JosefNemec/Playnite",
+   "estrelas": 14609
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "Magpie",
+   "fala": "E o primeiro: Magpie. Amplia a imagem do jogo, com mais nitidez.",
+   "legenda": "E o primeiro: Magpie. Amplia a imagem do jogo, com mais nitidez.",
+   "visual": "Amplia a imagem do jogo, com mais nitidez.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "Blinue/Magpie",
+   "estrelas": 16600
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta JOGO e me segue. Que jogo do seu PC mais trava hoje?",
+   "legenda": "Comenta JOGO e me segue. Que jogo do seu PC mais trava hoje?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "c) letreiro neon piscando",
+  "nome": "a) texto embaralhado decifrando",
+  "contador": "d) pote enchendo de estrelas",
+  "legenda": "e) tarja de TV/arcade",
+  "transicao": "a) flash branco",
+  "camera": "c) travelling lateral",
+  "fechamento": "f) cartões que viram",
+  "tipografia": "f) Bebas Neue",
+  "mascote": "headset gamer, pilotando um joystick",
+  "cenario": "mesa gamer clara com dois monitores"
+ },
+ "palavras": 90,
+ "duracao_estimada_s": 32.1
+}

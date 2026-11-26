@@ -1,0 +1,140 @@
+{
+ "voz": "Puck",
+ "estilo": "narrador de Reels brasileiro, ritmo firme, 2,8 palavras por segundo",
+ "formato": "reel formato 3 (contagem regressiva com mistério)",
+ "categoria": "novidade",
+ "chave": "NVIDIA",
+ "tese": "SUA PLACA NVIDIA FAZ MAIS QUE JOGAR: 5 PROJETOS GRÁTIS DO GITHUB · +334 MIL ESTRELAS NO GITHUB · E O Nº 1 É BIZARRO",
+ "conceito": "novidade: contagem 5→1; programas que usam a placa Nvidia fora do jogo; bancada de laboratório com placa de vídeo gigante, mascote de capacete e régua",
+ "brinde": "Links dos 5 + o que cada um faz na placa",
+ "fontes": [
+  "https://github.com/HandBrake/HandBrake",
+  "https://github.com/SYSTRAN/faster-whisper",
+  "https://github.com/upscayl/upscayl",
+  "https://github.com/obsproject/obs-studio",
+  "https://github.com/Comfy-Org/ComfyUI"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): HandBrake 25.140, faster-whisper 27.025, Upscayl 53.249, OBS Studio 80.159, ComfyUI 148.664; total 334.237.",
+ "obs": "",
+ "polemica": true,
+ "segmentos": [
+  {
+   "cena": "gancho",
+   "tag": "SUA PLACA NVIDIA FAZ MAIS QUE JOGAR: 5 PROJETOS GRÁTIS DO GITHUB",
+   "fala": "Sua placa Nvidia só serve pra jogar? Cinco projetos grátis do GitHub usam ela pra mais coisa.",
+   "legenda": "Sua placa Nvidia só serve pra jogar? Cinco projetos grátis do GitHub usam ela pra mais coisa.",
+   "visual": "SUA PLACA NVIDIA FAZ MAIS QUE JOGAR: 5 PROJETOS GRÁTIS DO GITHUB",
+   "itens": "nvidia-trabalha-5",
+   "etiqueta": [
+    "SUA PLACA NVIDIA FAZ MAIS QUE JOGAR: 5 PROJETOS GRÁTIS DO GITHUB",
+    "+334 MIL ESTRELAS NO GITHUB",
+    "E O Nº 1 É BIZARRO"
+   ]
+  },
+  {
+   "cena": "n5",
+   "tag": "5º",
+   "item": "HandBrake",
+   "fala": "Quinto: HandBrake. Converte vídeo rápido, usando a placa.",
+   "legenda": "Quinto: HandBrake. Converte vídeo rápido, usando a placa.",
+   "visual": "Converte vídeo rápido, usando a placa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "HandBrake/HandBrake",
+   "estrelas": 25140
+  },
+  {
+   "cena": "n4",
+   "tag": "4º",
+   "item": "faster-whisper",
+   "fala": "Quarto: faster-whisper. Transforma áudio em texto, rodando na placa.",
+   "legenda": "Quarto: faster-whisper. Transforma áudio em texto, rodando na placa.",
+   "visual": "Transforma áudio em texto, rodando na placa.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "SYSTRAN/faster-whisper",
+   "estrelas": 27025
+  },
+  {
+   "cena": "n3",
+   "tag": "3º",
+   "item": "Upscayl",
+   "fala": "Terceiro: Upscayl. Melhora foto antiga com IA. Essa é legalzinha… comenta NVIDIA que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: Upscayl. Melhora foto antiga com IA. Essa é legalzinha… comenta NVIDIA que eu mando os cinco. Manda pro amigo.",
+   "visual": "Melhora foto antiga com IA.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "upscayl/upscayl",
+   "estrelas": 53249
+  },
+  {
+   "cena": "n2",
+   "tag": "2º",
+   "item": "OBS Studio",
+   "fala": "Segundo: OBS Studio. Grava a tela e o jogo, pesando menos no PC.",
+   "legenda": "Segundo: OBS Studio. Grava a tela e o jogo, pesando menos no PC.",
+   "visual": "Grava a tela e o jogo, pesando menos no PC.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "obsproject/obs-studio",
+   "estrelas": 80159
+  },
+  {
+   "cena": "n1",
+   "tag": "1º",
+   "item": "ComfyUI",
+   "fala": "E o primeiro: ComfyUI. Gera imagem com IA no seu PC, melhor com Nvidia.",
+   "legenda": "E o primeiro: ComfyUI. Gera imagem com IA no seu PC, melhor com Nvidia.",
+   "visual": "Gera imagem com IA no seu PC, melhor com Nvidia.",
+   "sfx": [
+    {
+     "t": 0.0,
+     "som": "glitch",
+     "g": 0.5
+    }
+   ],
+   "repo": "Comfy-Org/ComfyUI",
+   "estrelas": 148664
+  },
+  {
+   "cena": "cta",
+   "fala": "Comenta NVIDIA e me segue. Que placa de vídeo você tem no seu PC?",
+   "legenda": "Comenta NVIDIA e me segue. Que placa de vídeo você tem no seu PC?",
+   "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
+  }
+ ],
+ "elementos": {
+  "etiqueta": "g) placa de rua/aeroporto",
+  "nome": "e) letras caindo e encaixando",
+  "contador": "c) velocímetro/medidor circular",
+  "legenda": "b) uma palavra gigante por vez",
+  "transicao": "c) íris circular",
+  "camera": "f) plongée/contra-plongée",
+  "fechamento": "e) página de caderno",
+  "tipografia": "a) Space Grotesk",
+  "mascote": "capacete de obra e régua, medindo a placa",
+  "cenario": "bancada de laboratório com placa de vídeo gigante"
+ },
+ "palavras": 95,
+ "duracao_estimada_s": 33.9
+}

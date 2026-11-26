@@ -1,0 +1,35 @@
+{
+ "data": "2026-11-30",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "IA",
+  "negócio",
+  "atendimento",
+  "clientes",
+  "produtividade",
+  "github"
+ ],
+ "fontes": [
+  "https://github.com/firefly-iii/firefly-iii",
+  "https://github.com/chatwoot/chatwoot",
+  "https://github.com/paperless-ngx/paperless-ngx",
+  "https://github.com/actualbudget/actual"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): Firefly III 25.343, Chatwoot 40.586, Paperless-ngx 48.646, Actual 30.463; total 145.038.",
+ "cta": "KIT",
+ "polemica": false,
+ "candidato": "kit-negocio-c1",
+ "primeiro_comentario": "💬 Comenta KIT que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6 / replicar o que funciona; rodada de quinta 26/11 (grade de 3 por dia, plano de recuperação)",
+ "status": "descartado",
+ "horario": "12:00",
+ "horarios": {
+  "instagram": "2026-11-30 12:00",
+  "tiktok": "2026-11-30 12:00"
+ },
+ "vaga": 8,
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 45%, abaixo do corte"
+}

@@ -1,0 +1,69 @@
+{
+ "data": "2026-11-29",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "Nvidia",
+  "placa de vídeo",
+  "PC",
+  "IA",
+  "programas",
+  "grátis"
+ ],
+ "fontes": [
+  "https://github.com/HandBrake/HandBrake",
+  "https://github.com/SYSTRAN/faster-whisper",
+  "https://github.com/upscayl/upscayl",
+  "https://github.com/obsproject/obs-studio",
+  "https://github.com/Comfy-Org/ComfyUI"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 26/11/2026): HandBrake 25.140, faster-whisper 27.025, Upscayl 53.249, OBS Studio 80.159, ComfyUI 148.664; total 334.237.",
+ "cta": "NVIDIA",
+ "polemica": false,
+ "candidato": "nvidia-trabalha-c4",
+ "primeiro_comentario": "💬 Comenta NVIDIA que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6 / replicar o que funciona; rodada de quinta 26/11 (grade de 3 por dia, plano de recuperação)",
+ "status": "descartado",
+ "horario": "19:00",
+ "horarios": {
+  "instagram": "2026-11-29 19:00",
+  "tiktok": "2026-11-29 19:00"
+ },
+ "vaga": 7,
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "enquadramento falso trocado, fatos ok",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "passa",
+    "nota": "Programas reais (OBS, HandBrake, Upscayl, ComfyUI) com IA local; melhor dos quatro."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "'O que a Nvidia não queria' é falso na prática (vende placa): troquei o enquadramento; faster-whisper é biblioteca e HandBrake/OBS só aceleram se ligado."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "passa",
+    "nota": "Tensão e placa de vídeo como objeto reconhecível; +334 mil estrelas."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "Falas encurtadas, 'placa' com contexto, pergunta final mais curta."
+   }
+  ],
+  "ajustes": [
+   "gancho: 'Sua placa faz mais que jogar: cinco programas grátis usam ela pra trabalhar.'",
+   "faster-whisper: 'pede um pouco de código'; HandBrake/OBS: a placa acelera/ajuda",
+   "polêmica removida (enquadramento sem fonte); legenda avisa que Upscayl, HandBrake e OBS rodam em outras marcas"
+  ],
+  "em": "2026-11-26 21:00",
+  "obs": "2ª volta dispensada por economia de tokens; estrelas lidas na API de busca do GitHub em 26/11/2026."
+ },
+ "status_antes_filtro": "roteiro aguardando aprovação",
+ "nota_filtro": "chance 51%, abaixo do corte"
+}
