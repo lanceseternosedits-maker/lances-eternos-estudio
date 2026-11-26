@@ -1,21 +1,21 @@
 {
- "gerado_em": "2026-11-25 19:42",
- "leitura": "metricool_2026-11-25.json",
- "lido_em": "2026-11-25 19:40",
+ "gerado_em": "2026-11-26 07:42",
+ "leitura": "metricool_2026-11-26.json",
+ "lido_em": "2026-11-26 07:43",
  "periodo": [
-  "2026-11-11",
-  "2026-11-25"
+  "2026-11-12",
+  "2026-11-26"
  ],
  "totais": {
-  "reels_medidos": 17,
-  "views_ig": 7905,
-  "alcance_ig": 6859,
-  "salvamentos": 91,
-  "envios": 18,
-  "comentarios": 59,
-  "mediana_views_ig": 296,
-  "views_tiktok_video": 804,
-  "mediana_tiktok_video": 50,
+  "reels_medidos": 12,
+  "views_ig": 5190,
+  "alcance_ig": 4463,
+  "salvamentos": 70,
+  "envios": 15,
+  "comentarios": 50,
+  "mediana_views_ig": 297,
+  "views_tiktok_video": 565,
+  "mediana_tiktok_video": 53.0,
   "mediana_tiktok_fotos": null
  },
  "reels": [
@@ -41,31 +41,7 @@
    "enviar_pct": 0.6,
    "comentar_pct": 1.4,
    "tiktok_views": 68,
-   "vs_mediana": 6.6
-  },
-  {
-   "pasta": "2026-11-09-playstation-no-pc",
-   "titulo": "5 jogos de PlayStation no PC",
-   "url": "https://www.instagram.com/reel/DfmHgxeFHiq/",
-   "quando": "2026-11-11 06:06",
-   "faixa": "manhã (6–11h)",
-   "categoria": "novidade",
-   "formato": "contagem (formato 3)",
-   "views": 1717,
-   "alcance": 1537,
-   "curtidas": 37,
-   "comentarios": 5,
-   "salvamentos": 12,
-   "envios": 0,
-   "tempo_medio_s": 8.215,
-   "duracao_s": 33.2,
-   "assistido_pct": 24.7,
-   "passou_3s_pct": 52.4,
-   "salvar_pct": 0.8,
-   "enviar_pct": 0.0,
-   "comentar_pct": 0.3,
-   "tiktok_views": 0,
-   "vs_mediana": 5.8
+   "vs_mediana": 6.5
   },
   {
    "pasta": "2026-11-11-copiar-qualquer-app",
@@ -114,30 +90,6 @@
    "comentar_pct": 0.3,
    "tiktok_views": 69,
    "vs_mediana": 1.5
-  },
-  {
-   "pasta": "2026-11-09-ia-chinesa-no-bolso",
-   "titulo": "IA chinesa no bolso",
-   "url": "https://www.instagram.com/reel/Dfm_MaMgHcy/",
-   "quando": "2026-11-11 14:12",
-   "faixa": "tarde (12–17h)",
-   "categoria": "novidade",
-   "formato": "mascote no palco (formato 1)",
-   "views": 396,
-   "alcance": 348,
-   "curtidas": 6,
-   "comentarios": 1,
-   "salvamentos": 5,
-   "envios": 2,
-   "tempo_medio_s": 5.574,
-   "duracao_s": 26.8,
-   "assistido_pct": 20.8,
-   "passou_3s_pct": 47.8,
-   "salvar_pct": 1.4,
-   "enviar_pct": 0.6,
-   "comentar_pct": 0.3,
-   "tiktok_views": 91,
-   "vs_mediana": 1.3
   },
   {
    "pasta": "2026-11-13-eua-pararam-os-voos",
@@ -268,7 +220,7 @@
    "categoria": "novidade",
    "formato": "contagem (formato 3)",
    "views": 275,
-   "alcance": 254,
+   "alcance": 255,
    "curtidas": 9,
    "comentarios": 1,
    "salvamentos": 0,
@@ -281,30 +233,6 @@
    "enviar_pct": 0.0,
    "comentar_pct": 0.4,
    "tiktok_views": 9,
-   "vs_mediana": 0.9
-  },
-  {
-   "pasta": "2026-11-09-apps-gratis-mac",
-   "titulo": "3 apps grátis pro Mac",
-   "url": "https://www.instagram.com/reel/DfmjUR9DhV7/",
-   "quando": "2026-11-11 10:08",
-   "faixa": "manhã (6–11h)",
-   "categoria": "novidade",
-   "formato": "contagem (formato 3)",
-   "views": 269,
-   "alcance": 233,
-   "curtidas": 4,
-   "comentarios": 1,
-   "salvamentos": 2,
-   "envios": 1,
-   "tempo_medio_s": 5.156,
-   "duracao_s": 27.8,
-   "assistido_pct": 18.5,
-   "passou_3s_pct": 43.9,
-   "salvar_pct": 0.9,
-   "enviar_pct": 0.4,
-   "comentar_pct": 0.4,
-   "tiktok_views": 4,
    "vs_mediana": 0.9
   },
   {
@@ -330,54 +258,6 @@
    "comentar_pct": 0.4,
    "tiktok_views": 2,
    "vs_mediana": 0.9
-  },
-  {
-   "pasta": "2026-11-09-a-pergunta-de-turing",
-   "titulo": "A pergunta de Turing",
-   "url": "https://www.instagram.com/reel/DfnTB-AjCGw/",
-   "quando": "2026-11-11 17:05",
-   "faixa": "tarde (12–17h)",
-   "categoria": "historia",
-   "formato": "mascote no palco (formato 1)",
-   "views": 233,
-   "alcance": 198,
-   "curtidas": 6,
-   "comentarios": 1,
-   "salvamentos": 0,
-   "envios": 0,
-   "tempo_medio_s": 6.453,
-   "duracao_s": 31.5,
-   "assistido_pct": 20.5,
-   "passou_3s_pct": 40.4,
-   "salvar_pct": 0.0,
-   "enviar_pct": 0.0,
-   "comentar_pct": 0.5,
-   "tiktok_views": 50,
-   "vs_mediana": 0.8
-  },
-  {
-   "pasta": "2026-11-09-bizarros-github",
-   "titulo": "5 projetos bizarros",
-   "url": "https://www.instagram.com/reel/Dfnj3s4CPGH/",
-   "quando": "2026-11-11 19:33",
-   "faixa": "noite (18h+)",
-   "categoria": "novidade",
-   "formato": "contagem (formato 3)",
-   "views": 101,
-   "alcance": 81,
-   "curtidas": 4,
-   "comentarios": 1,
-   "salvamentos": 2,
-   "envios": 0,
-   "tempo_medio_s": 5.315,
-   "duracao_s": 34.4,
-   "assistido_pct": 15.5,
-   "passou_3s_pct": 40.0,
-   "salvar_pct": 2.5,
-   "enviar_pct": 0.0,
-   "comentar_pct": 1.2,
-   "tiktok_views": 94,
-   "vs_mediana": 0.3
   },
   {
    "pasta": "2026-11-17-jogos-no-celular-e-no-mac",
@@ -411,16 +291,16 @@
    "faixa": "noite (18h+)",
    "categoria": "novidade",
    "formato": "mascote no palco (formato 1)",
-   "views": 28,
+   "views": 29,
    "alcance": 28,
    "curtidas": 2,
    "comentarios": 1,
    "salvamentos": 0,
    "envios": 0,
-   "tempo_medio_s": 4.331,
+   "tempo_medio_s": 4.23,
    "duracao_s": 36.0,
-   "assistido_pct": 12.0,
-   "passou_3s_pct": 42.3,
+   "assistido_pct": 11.8,
+   "passou_3s_pct": 40.7,
    "salvar_pct": 0.0,
    "enviar_pct": 0.0,
    "comentar_pct": 3.6,
@@ -431,14 +311,14 @@
  "por_formato": [
   {
    "nome": "contagem (formato 3)",
-   "n": 8,
-   "mediana_views": 320,
-   "salvar_pct": 1.05,
-   "passou_3s_pct": 44.3
+   "n": 5,
+   "mediana_views": 343,
+   "salvar_pct": 1.2,
+   "passou_3s_pct": 44.7
   },
   {
    "nome": "mascote no palco (formato 1)",
-   "n": 9,
+   "n": 7,
    "mediana_views": 287,
    "salvar_pct": 0.0,
    "passou_3s_pct": 43.7
@@ -447,49 +327,48 @@
  "por_categoria": [
   {
    "nome": "historia",
-   "n": 2,
-   "mediana_views": 334,
+   "n": 1,
+   "mediana_views": 435,
    "salvar_pct": 0.0,
-   "passou_3s_pct": 48.8
+   "passou_3s_pct": 57.2
   },
   {
    "nome": "novidade",
-   "n": 15,
+   "n": 11,
    "mediana_views": 296,
-   "salvar_pct": 0.9,
-   "passou_3s_pct": 43.9
+   "salvar_pct": 0.4,
+   "passou_3s_pct": 43.7
   }
  ],
  "por_faixa": [
   {
    "nome": "tarde (12–17h)",
-   "n": 3,
-   "mediana_views": 396,
-   "salvar_pct": 1.4,
-   "passou_3s_pct": 40.4
-  },
-  {
-   "nome": "manhã (6–11h)",
-   "n": 8,
-   "mediana_views": 292,
-   "salvar_pct": 0.8500000000000001,
-   "passou_3s_pct": 44.3
+   "n": 1,
+   "mediana_views": 660,
+   "salvar_pct": 3.5,
+   "passou_3s_pct": 40.3
   },
   {
    "nome": "noite (18h+)",
-   "n": 6,
-   "mediana_views": 198,
+   "n": 5,
+   "mediana_views": 296,
    "salvar_pct": 0.0,
-   "passou_3s_pct": 45.05
+   "passou_3s_pct": 47.8
+  },
+  {
+   "nome": "manhã (6–11h)",
+   "n": 6,
+   "mediana_views": 292,
+   "salvar_pct": 0.8,
+   "passou_3s_pct": 44.2
   }
  ],
  "insights_auto": [
-  "Formato campeão: contagem (formato 3) (mediana 320 views em 8 Reels), 1,1× o 2º (mascote no palco (formato 1)).",
-  "Melhor Reel: 5 projetos que a Apple não queria com 1940 views (6,6× a mediana); salvamento 2,3% e envio 0,6% do alcance.",
-  "Gancho: só 43,9% (mediana) passa dos 3 primeiros segundos. Mais da metade sai antes do 1º item: o 1º quadro e a 1ª frase precisam de conflito.",
-  "Retenção: quem fica assiste em média 20% do vídeo. O CTA do meio (na nº 3) pega mais gente que o do fim.",
-  "O público salva (0,8% do alcance) mais do que comenta (0,5%). Conteúdo útil funciona; o comentário ainda é o ponto fraco.",
-  "TikTok travado: mediana de 50 views por vídeo contra 296 no Instagram."
+  "Formato campeão: contagem (formato 3) (mediana 343 views em 5 Reels), 1,2× o 2º (mascote no palco (formato 1)).",
+  "Melhor Reel: 5 projetos que a Apple não queria com 1940 views (6,5× a mediana); salvamento 2,3% e envio 0,6% do alcance.",
+  "Gancho: só 44,2% (mediana) passa dos 3 primeiros segundos. Mais da metade sai antes do 1º item: o 1º quadro e a 1ª frase precisam de conflito.",
+  "Retenção: quem fica assiste em média 21% do vídeo. O CTA do meio (na nº 3) pega mais gente que o do fim.",
+  "TikTok travado: mediana de 53,0 views por vídeo contra 297 no Instagram."
  ],
  "semana_x_semana": {
   "semanas": [
@@ -516,7 +395,7 @@
     "enviar_pct": 0.9,
     "comentar_pct": 1.0,
     "passou_3s_pct": 45.6,
-    "idade_mediana_dias": 19.7,
+    "idade_mediana_dias": 20.2,
     "top": [
      {
       "titulo": "5 projetos pra TV e celular",
@@ -568,7 +447,7 @@
     "enviar_pct": 0.6,
     "comentar_pct": 0.9,
     "passou_3s_pct": 44.7,
-    "idade_mediana_dias": 15.4,
+    "idade_mediana_dias": 15.9,
     "top": [
      {
       "titulo": "10 estilos de animação",
@@ -611,12 +490,12 @@
     "dias": 5,
     "reels": 6,
     "reels_por_dia": 1.2,
-    "views": 1258,
+    "views": 1259,
     "views_por_dia": 252,
     "mediana_views": 281,
     "media_views": 210,
     "acima_1000": 0,
-    "alcance": 1116,
+    "alcance": 1117,
     "salvamentos": 8,
     "envios": 0,
     "comentarios": 15,
@@ -624,7 +503,7 @@
     "enviar_pct": 0.0,
     "comentar_pct": 1.3,
     "passou_3s_pct": 44.55,
-    "idade_mediana_dias": 7.8,
+    "idade_mediana_dias": 8.3,
     "top": [
      {
       "titulo": "TV sem propaganda",
@@ -744,7 +623,7 @@
    {
     "data": "2026-11-19",
     "reels": 2,
-    "views": 303,
+    "views": 304,
     "mediana": 152
    }
   ]
@@ -821,36 +700,6 @@
    "views": 69,
    "foto": false,
    "pasta": "2026-11-11-carro-por-1-dolar"
-  },
-  {
-   "titulo": "5 projetos bizarros",
-   "views": 94,
-   "foto": false,
-   "pasta": "2026-11-09-bizarros-github"
-  },
-  {
-   "titulo": "A pergunta de Turing",
-   "views": 50,
-   "foto": false,
-   "pasta": "2026-11-09-a-pergunta-de-turing"
-  },
-  {
-   "titulo": "IA chinesa no bolso",
-   "views": 91,
-   "foto": false,
-   "pasta": "2026-11-09-ia-chinesa-no-bolso"
-  },
-  {
-   "titulo": "3 apps grátis pro Mac",
-   "views": 4,
-   "foto": false,
-   "pasta": "2026-11-09-apps-gratis-mac"
-  },
-  {
-   "titulo": "5 jogos de PlayStation no PC",
-   "views": 0,
-   "foto": false,
-   "pasta": "2026-11-09-playstation-no-pc"
   }
  ]
 }

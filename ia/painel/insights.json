@@ -1,43 +1,43 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-25 19:45",
- "leitura": "metricool_2026-11-25.json",
- "resumo": "Leitura de 25/11 noite: 6 dias sem post (último Reel 19/11 19:32) e a janela de 14 dias encolheu para 17 Reels, mediana 296; os números quase não se mexem (MARKETING 26→28 views). Há 4 vídeos e 10 roteiros esperando aprovação: o único aprendizado possível agora vem de voltar a publicar, começando por uma contagem com marca grande à tarde.",
+ "em": "2026-11-26 07:45",
+ "leitura": "metricool_2026-11-26.json",
+ "resumo": "Leitura de 26/11 manhã: 7 dias sem post (último Reel 19/11 19:32) e a janela de 14 dias caiu para 12 Reels (saíram PLAY 1.717 e os de 11/11), mediana 297; nada se mexeu desde ontem à noite (MARKETING 28→29). Ainda há 4 vídeos e 11 roteiros esperando aprovação: sem post novo não existe aprendizado novo, e o plano de recuperação acaba em 01/12.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "6 dias sem post; 4 vídeos prontos parados",
-   "evidencia": "Último Reel: 19/11 19:32. Em 24 h a janela inteira ganhou só +2 views no MARKETING (26→28). No repositório: 4 pastas em 'vídeo aguardando aprovação' e 10 em 'roteiro aguardando aprovação'. Saíram da janela LEIS 610 e CORTES 712 (10/11).",
-   "acao": "Vitor: aprovar no app os 4 MP4 prontos e agendar ainda esta semana; o plano de recuperação acaba em 01/12 sem nenhum dado novo desde 19/11."
+   "titulo": "7 dias sem post; 4 vídeos prontos parados",
+   "evidencia": "Último Reel: 19/11 19:32. Desde a leitura de 25/11 19:40 a janela ganhou +1 view (MARKETING 28→29) e o alcance do GTA/PS5 foi de 254 a 255. No repositório: 4 pastas em 'vídeo aguardando aprovação' e 11 em 'roteiro aguardando aprovação'.",
+   "acao": "Vitor: aprovar no app os 4 MP4 prontos e agendar a partir de hoje; faltam 5 dias para o fim do plano de recuperação (01/12) e ele ainda não tem nenhum dado depois de 19/11."
   },
   {
    "tipo": "fazer_mais",
-   "titulo": "Contagem com marca grande segue sendo a única que passa de 600",
-   "evidencia": "Contagem: mediana 320 e 1,05% de salvar (8 Reels) contra 287 e 0,0% do mascote (9). Top: APPLE 1.940 (38 salvos, 23 comentários), PLAY 1.717, COPIA 660; todo o resto fica entre 28 e 435.",
-   "acao": "Na aprovação, priorizar 'o que a X não queria' com marca grande (Adobe, Microsoft, YouTube), como os roteiros de 23/11 sobre Adobe e edição de vídeo grátis."
+   "titulo": "Marca grande + 'o que a X não queria' continua isolada no topo",
+   "evidencia": "APPLE 1.940 views (6,5× a mediana de 297), 38 salvos, 23 comentários e 10 envios; o 2º é COPIA 660 (19 salvos). Contagem: mediana 343 e 1,2% de salvar (5 Reels) contra 287 e 0,0% do mascote (7).",
+   "acao": "Na aprovação, colocar na frente o roteiro 'o que o Spotify não queria' de 26/11 e os de marca grande (Adobe, Microsoft, YouTube); contagem sem marca vai depois."
   },
   {
    "tipo": "corrigir",
-   "titulo": "Noite segue no fundo",
-   "evidencia": "Tarde (12–17h): mediana 396 e 1,4% de salvar (3 Reels); manhã 292 e 0,85% (8); noite (18h+) 198 e 0,0% (6).",
-   "acao": "Na volta, a melhor contagem vai no horário de 12:00 (13:00 no fim de semana); deixar a noite para a mais fraca das 3."
+   "titulo": "Noite segue sem salvar",
+   "evidencia": "Noite (18h+): mediana 296 e 0,0% de salvar (5 Reels); manhã 292 e 0,8% (6); tarde só 1 Reel nesta janela (COPIA 660, 3,5%), cedo demais para cravar a tarde.",
+   "acao": "Na volta, a melhor contagem com marca vai às 12:00 (13:00 no fim de semana) e a mais fraca à noite."
   },
   {
    "tipo": "testar",
    "titulo": "Gancho quente sem lista útil não vira salvar",
-   "evidencia": "GTA/PS5: 63,1% passam dos 3 s (melhor da janela), 275 views e 0 salvos. DOLAR (📜) 57,2% e 0 salvos. Quem salva é lista útil: APPLE 38, COPIA 19, PLAY 12.",
-   "acao": "Manter marca/jogo no 1º quadro e fechar com a lista de 5 legível na tela + 'salva' na fala."
+   "evidencia": "GTA/PS5: 63,1% passam dos 3 s (melhor da janela), 275 views e 0 salvos; DOLAR (📜) 57,2% e 0 salvos. Quem salva é lista útil: APPLE 38, COPIA 19, TELA 5. Mediana de gancho 44,2% e retenção média de 21% do vídeo.",
+   "acao": "Manter marca/jogo no 1º quadro e fechar com a lista de 5 legível na tela + 'salva' na fala; CTA na nº 3."
   },
   {
    "tipo": "alerta",
-   "titulo": "📜 sem salvamento e 🆕 só salva em lista",
-   "evidencia": "📜 história: mediana 334, 0,0% de salvar (2 Reels: DOLAR 435, TURING 233). 🆕: 296 e 0,9% (15). Sem ⚙️ na janela.",
+   "titulo": "Só 1 📜 na janela e nenhum ⚙️",
+   "evidencia": "📜 história: 1 Reel (DOLAR 435, 0 salvos). 🆕: mediana 296 e 0,4% de salvar (11). Sem ⚙️ desde a saída de 11/11.",
    "acao": "Seguir sem 📜/⚙️ até 01/12, como no plano de recuperação."
   },
   {
    "tipo": "alerta",
    "titulo": "TikTok sem tração e parado",
-   "evidencia": "17 vídeos na janela, mediana 50 views (melhores: VOO 127, BIZARRO 94, CELULAR 92, CHINA 91); nenhum vídeo novo desde 19/11.",
+   "evidencia": "12 vídeos na janela, mediana 53 views (melhores: VOO 127, CELULAR 92, GAME 81); os 2 últimos (19/11) ficaram com 7 e 9; nenhum vídeo novo desde 19/11.",
    "acao": "Nada muda no TikTok: o esforço é voltar a publicar no Instagram."
   }
  ],
