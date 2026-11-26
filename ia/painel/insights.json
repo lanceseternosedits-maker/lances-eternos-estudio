@@ -1,14 +1,14 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-26 07:45",
+ "em": "2026-11-26 19:45",
  "leitura": "metricool_2026-11-26.json",
- "resumo": "Leitura de 26/11 manhã: 7 dias sem post (último Reel 19/11 19:32) e a janela de 14 dias caiu para 12 Reels (saíram PLAY 1.717 e os de 11/11), mediana 297; nada se mexeu desde ontem à noite (MARKETING 28→29). Ainda há 4 vídeos e 11 roteiros esperando aprovação: sem post novo não existe aprendizado novo, e o plano de recuperação acaba em 01/12.",
+ "resumo": "Leitura de 26/11 noite: nenhum número mudou desde a manhã (12 Reels, mediana 297, mesmos 12 TikToks) e já são 7 dias sem post (último Reel 19/11 19:32). Sem post novo não há aprendizado novo: os 4 vídeos e 11 roteiros seguem aguardando aprovação e o plano de recuperação acaba em 01/12.",
  "itens": [
   {
    "tipo": "alerta",
    "titulo": "7 dias sem post; 4 vídeos prontos parados",
-   "evidencia": "Último Reel: 19/11 19:32. Desde a leitura de 25/11 19:40 a janela ganhou +1 view (MARKETING 28→29) e o alcance do GTA/PS5 foi de 254 a 255. No repositório: 4 pastas em 'vídeo aguardando aprovação' e 11 em 'roteiro aguardando aprovação'.",
-   "acao": "Vitor: aprovar no app os 4 MP4 prontos e agendar a partir de hoje; faltam 5 dias para o fim do plano de recuperação (01/12) e ele ainda não tem nenhum dado depois de 19/11."
+   "evidencia": "Último Reel: 19/11 19:32. Entre a leitura de 26/11 07:43 e a de 19:43 nenhuma métrica mudou (views, alcance, salvos e TikTok idênticos). No repositório: 4 pastas em 'vídeo aguardando aprovação' e 11 em 'roteiro aguardando aprovação'.",
+   "acao": "Vitor: aprovar no app os 4 MP4 prontos e agendar a partir de amanhã (27/11); faltam 5 dias para o fim do plano de recuperação (01/12) e ainda não há nenhum dado depois de 19/11."
   },
   {
    "tipo": "fazer_mais",
