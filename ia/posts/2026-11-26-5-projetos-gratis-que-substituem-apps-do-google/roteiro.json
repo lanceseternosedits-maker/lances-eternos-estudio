@@ -20,13 +20,13 @@
  "segmentos": [
   {
    "cena": "gancho",
-   "tag": "5 PROGRAMAS GRÁTIS QUE SUBSTITUEM APPS DO GOOGLE",
-   "fala": "O que o Google não queria: cinco programas grátis trocam parte dos apps dele.",
-   "legenda": "O que o Google não queria: cinco programas grátis trocam parte dos apps dele.",
-   "visual": "5 PROGRAMAS GRÁTIS QUE SUBSTITUEM APPS DO GOOGLE",
-   "itens": "google-2",
+   "tag": "5 APPS GRÁTIS NO LUGAR DO GOOGLE",
+   "fala": "O Google não queria: cinco programas grátis trocam apps dele.",
+   "legenda": "O Google não queria: cinco programas grátis trocam apps dele.",
+   "visual": "5 APPS GRÁTIS NO LUGAR DO GOOGLE",
+   "itens": "apps-do-google",
    "etiqueta": [
-    "5 PROGRAMAS GRÁTIS QUE SUBSTITUEM APPS DO GOOGLE",
+    "5 APPS GRÁTIS NO LUGAR DO GOOGLE",
     "+270 MIL ESTRELAS NO GITHUB",
     "E O Nº 1 É BIZARRO"
    ]
@@ -69,8 +69,8 @@
    "cena": "n3",
    "tag": "3º",
    "item": "KeePassXC",
-   "fala": "Terceiro: KeePassXC. Cofre de senhas só seu, no computador. Essa é legalzinha… comenta GOOGLE que eu mando os cinco. Manda pro amigo.",
-   "legenda": "Terceiro: KeePassXC. Cofre de senhas só seu, no computador. Essa é legalzinha… comenta GOOGLE que eu mando os cinco. Manda pro amigo.",
+   "fala": "Terceiro: KeePassXC. Cofre de senhas só seu,. Essa é legalzinha… comenta GOOGLE que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: KeePassXC. Cofre de senhas só seu,. Essa é legalzinha… comenta GOOGLE que eu mando os cinco. Manda pro amigo.",
    "visual": "Cofre de senhas só seu, no computador.",
    "sfx": [
     {
@@ -118,8 +118,8 @@
   },
   {
    "cena": "cta",
-   "fala": "Comenta GOOGLE e me segue. Qual app do Google você mais usa?",
-   "legenda": "Comenta GOOGLE e me segue. Qual app do Google você mais usa?",
+   "fala": "Comenta GOOGLE e me segue. Qual você mais usa?",
+   "legenda": "Comenta GOOGLE e me segue. Qual você mais usa?",
    "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
   }
  ],

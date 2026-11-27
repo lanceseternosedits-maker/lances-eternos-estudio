@@ -20,13 +20,13 @@
  "segmentos": [
   {
    "cena": "gancho",
-   "tag": "EDITAR CLIPE DO GTA 6 NO SEU COMPUTADOR, DE GRAÇA",
-   "fala": "Vai gravar GTA 6? Cinco programas grátis em alta no GitHub ajudam a editar seu vídeo.",
-   "legenda": "Vai gravar GTA 6? Cinco programas grátis em alta no GitHub ajudam a editar seu vídeo.",
-   "visual": "EDITAR CLIPE DO GTA 6 NO SEU COMPUTADOR, DE GRAÇA",
-   "itens": "editar-video-gta6",
+   "tag": "EDITE CLIPE DO GTA 6 DE GRAÇA",
+   "fala": "Vai gravar GTA 6? Cinco programas grátis ajudam a editar o clipe.",
+   "legenda": "Vai gravar GTA 6? Cinco programas grátis ajudam a editar o clipe.",
+   "visual": "EDITE CLIPE DO GTA 6 DE GRAÇA",
+   "itens": "clipe-gta-sozinho",
    "etiqueta": [
-    "EDITAR CLIPE DO GTA 6 NO SEU COMPUTADOR, DE GRAÇA",
+    "EDITE CLIPE DO GTA 6 DE GRAÇA",
     "+197 MIL ESTRELAS NO GITHUB",
     "E O Nº 1 É BIZARRO"
    ]
@@ -136,5 +136,6 @@
   "cenario": "cidade ensolarada de praia, sem logo"
  },
  "palavras": 85,
- "duracao_estimada_s": 30.4
+ "duracao_estimada_s": 30.4,
+ "modelo": "gemini-2.5-flash-preview-tts"
 }

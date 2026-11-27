@@ -20,13 +20,13 @@
  "segmentos": [
   {
    "cena": "gancho",
-   "tag": "VOCÊ PAGA PRA EDITAR VÍDEO E FOTO? CINCO PROGRAMAS GRÁTIS",
-   "fala": "Você paga Adobe pra editar vídeo e foto? Cinco programas grátis em alta fazem de graça.",
-   "legenda": "Você paga Adobe pra editar vídeo e foto? Cinco programas grátis em alta fazem de graça.",
-   "visual": "VOCÊ PAGA PRA EDITAR VÍDEO E FOTO? CINCO PROGRAMAS GRÁTIS",
-   "itens": "paga-pra-editar",
+   "tag": "PAGA PRA EDITAR VÍDEO? 5 GRÁTIS",
+   "fala": "Você paga Adobe pra editar vídeo? Cinco programas grátis fazem de graça.",
+   "legenda": "Você paga Adobe pra editar vídeo? Cinco programas grátis fazem de graça.",
+   "visual": "PAGA PRA EDITAR VÍDEO? 5 GRÁTIS",
+   "itens": "editar-video-gratis",
    "etiqueta": [
-    "VOCÊ PAGA PRA EDITAR VÍDEO E FOTO? CINCO PROGRAMAS GRÁTIS",
+    "PAGA PRA EDITAR VÍDEO? 5 GRÁTIS",
     "+180 MIL ESTRELAS NO GITHUB",
     "E O Nº 1 É BIZARRO"
    ]
@@ -69,8 +69,8 @@
    "cena": "n3",
    "tag": "3º",
    "item": "HandBrake",
-   "fala": "Terceiro: HandBrake. Converte vídeo pro formato do seu celular. Essa é legalzinha… comenta EDITAR que eu mando os cinco. Manda pro amigo.",
-   "legenda": "Terceiro: HandBrake. Converte vídeo pro formato do seu celular. Essa é legalzinha… comenta EDITAR que eu mando os cinco. Manda pro amigo.",
+   "fala": "Terceiro: HandBrake. Converte vídeo pro seu celular. Essa é legalzinha… comenta EDITAR que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: HandBrake. Converte vídeo pro seu celular. Essa é legalzinha… comenta EDITAR que eu mando os cinco. Manda pro amigo.",
    "visual": "Converte vídeo pro formato do seu celular.",
    "sfx": [
     {
@@ -118,8 +118,8 @@
   },
   {
    "cena": "cta",
-   "fala": "Comenta EDITAR e me segue. Que tipo de vídeo você mais edita hoje?",
-   "legenda": "Comenta EDITAR e me segue. Que tipo de vídeo você mais edita hoje?",
+   "fala": "Comenta EDITAR e me segue. Que vídeo você mais edita?",
+   "legenda": "Comenta EDITAR e me segue. Que vídeo você mais edita?",
    "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
   }
  ],
@@ -136,5 +136,6 @@
   "cenario": "estúdio de edição com janela grande e luz natural"
  },
  "palavras": 86,
- "duracao_estimada_s": 30.7
+ "duracao_estimada_s": 30.7,
+ "modelo": "gemini-2.5-flash-preview-tts"
 }

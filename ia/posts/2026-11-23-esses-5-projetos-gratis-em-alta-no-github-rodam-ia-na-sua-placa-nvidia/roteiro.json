@@ -20,13 +20,13 @@
  "segmentos": [
   {
    "cena": "gancho",
-   "tag": "CINCO PROJETOS EM ALTA RODAM IA NO SEU PC COM PLACA NVIDIA",
-   "fala": "Você paga mensalidade de IA? Cinco projetos grátis rodam IA no seu PC, melhor com placa Nvidia.",
-   "legenda": "Você paga mensalidade de IA? Cinco projetos grátis rodam IA no seu PC, melhor com placa Nvidia.",
-   "visual": "CINCO PROJETOS EM ALTA RODAM IA NO SEU PC COM PLACA NVIDIA",
-   "itens": "placa-nvidia-ia",
+   "tag": "IA NO SEU PC COM PLACA NVIDIA",
+   "fala": "Você paga mensalidade de IA? Cinco projetos grátis rodam IA no seu PC.",
+   "legenda": "Você paga mensalidade de IA? Cinco projetos grátis rodam IA no seu PC.",
+   "visual": "IA NO SEU PC COM PLACA NVIDIA",
+   "itens": "ia-na-placa-nvidia",
    "etiqueta": [
-    "CINCO PROJETOS EM ALTA RODAM IA NO SEU PC COM PLACA NVIDIA",
+    "IA NO SEU PC COM PLACA NVIDIA",
     "+549 MIL ESTRELAS NO GITHUB",
     "E O Nº 1 É BIZARRO"
    ]
@@ -52,8 +52,8 @@
    "cena": "n4",
    "tag": "4º",
    "item": "Open WebUI",
-   "fala": "Quarto: Open WebUI. Dá cara de ChatGPT pra IA do seu PC.",
-   "legenda": "Quarto: Open WebUI. Dá cara de ChatGPT pra IA do seu PC.",
+   "fala": "Quarto: Open WebUI. Dá cara de ChatGPT pra sua IA.",
+   "legenda": "Quarto: Open WebUI. Dá cara de ChatGPT pra sua IA.",
    "visual": "Dá cara de ChatGPT pra IA do seu PC.",
    "sfx": [
     {
@@ -118,8 +118,8 @@
   },
   {
    "cena": "cta",
-   "fala": "Comenta PLACA e me segue. Que placa de vídeo você tem no PC?",
-   "legenda": "Comenta PLACA e me segue. Que placa de vídeo você tem no PC?",
+   "fala": "Comenta PLACA e me segue. Que placa de vídeo você tem?",
+   "legenda": "Comenta PLACA e me segue. Que placa de vídeo você tem?",
    "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
   }
  ],
@@ -136,5 +136,6 @@
   "cenario": "laboratório com racks e luz verde"
  },
  "palavras": 90,
- "duracao_estimada_s": 32.1
+ "duracao_estimada_s": 32.1,
+ "modelo": "gemini-2.5-flash-preview-tts"
 }

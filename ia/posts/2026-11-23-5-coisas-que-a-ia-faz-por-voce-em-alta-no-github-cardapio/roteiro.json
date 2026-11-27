@@ -19,13 +19,13 @@
  "segmentos": [
   {
    "cena": "gancho",
-   "tag": "5 COISAS EM ALTA QUE A IA FAZ POR VOCÊ",
-   "fala": "Você ainda decide o cardápio na hora da fome? Quatro projetos grátis e um assistente ajudam.",
-   "legenda": "Você ainda decide o cardápio na hora da fome? Quatro projetos grátis e um assistente ajudam.",
-   "visual": "5 COISAS EM ALTA QUE A IA FAZ POR VOCÊ",
-   "itens": "ia-faz-por-voce-alta-cardapio",
+   "tag": "5 COISAS QUE A IA FAZ POR VOCÊ",
+   "fala": "Você decide o jantar na fome? Quatro grátis e um assistente ajudam.",
+   "legenda": "Você decide o jantar na fome? Quatro grátis e um assistente ajudam.",
+   "visual": "5 COISAS QUE A IA FAZ POR VOCÊ",
+   "itens": "cardapio-da-semana",
    "etiqueta": [
-    "5 COISAS EM ALTA QUE A IA FAZ POR VOCÊ",
+    "5 COISAS QUE A IA FAZ POR VOCÊ",
     "+351 MIL ESTRELAS NO GITHUB",
     "E O Nº 1 É BIZARRO"
    ]
@@ -51,8 +51,8 @@
    "cena": "n4",
    "tag": "4º",
    "item": "Open WebUI",
-   "fala": "Quarto: Open WebUI. Cria um chat estilo ChatGPT só seu.",
-   "legenda": "Quarto: Open WebUI. Cria um chat estilo ChatGPT só seu.",
+   "fala": "Quarto: Open WebUI. Cria seu chat estilo ChatGPT.",
+   "legenda": "Quarto: Open WebUI. Cria seu chat estilo ChatGPT.",
    "visual": "Cria um chat estilo ChatGPT só seu.",
    "sfx": [
     {
@@ -85,8 +85,8 @@
    "cena": "n2",
    "tag": "2º",
    "item": "Jellyfin",
-   "fala": "Segundo: Jellyfin. Vira a sua Netflix, com os seus vídeos.",
-   "legenda": "Segundo: Jellyfin. Vira a sua Netflix, com os seus vídeos.",
+   "fala": "Segundo: Jellyfin. Vira a sua Netflix caseira.",
+   "legenda": "Segundo: Jellyfin. Vira a sua Netflix caseira.",
    "visual": "Vira a sua Netflix, com os seus vídeos.",
    "sfx": [
     {
@@ -115,8 +115,8 @@
   },
   {
    "cena": "cta",
-   "fala": "Comenta KIT e me segue. O que você mais come na semana?",
-   "legenda": "Comenta KIT e me segue. O que você mais come na semana?",
+   "fala": "Comenta KIT e me segue. O que você come na semana?",
+   "legenda": "Comenta KIT e me segue. O que você come na semana?",
    "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
   }
  ],
@@ -133,5 +133,6 @@
   "cenario": "home office com plantas ao meio-dia"
  },
  "palavras": 93,
- "duracao_estimada_s": 33.2
+ "duracao_estimada_s": 33.2,
+ "modelo": "gemini-2.5-flash-preview-tts"
 }

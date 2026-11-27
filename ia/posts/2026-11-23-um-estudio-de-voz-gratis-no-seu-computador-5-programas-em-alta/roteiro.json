@@ -20,13 +20,13 @@
  "segmentos": [
   {
    "cena": "gancho",
-   "tag": "UM ESTÚDIO DE VOZ GRÁTIS NO SEU COMPUTADOR",
-   "fala": "Você paga locutor? Cinco programas grátis em alta no GitHub narram vídeo e viram fala em texto.",
-   "legenda": "Você paga locutor? Cinco programas grátis em alta no GitHub narram vídeo e viram fala em texto.",
-   "visual": "UM ESTÚDIO DE VOZ GRÁTIS NO SEU COMPUTADOR",
-   "itens": "estudio-voz-pc",
+   "tag": "ESTÚDIO DE VOZ GRÁTIS NO SEU PC",
+   "fala": "Você paga locutor? Cinco programas grátis narram e transcrevem sua voz.",
+   "legenda": "Você paga locutor? Cinco programas grátis narram e transcrevem sua voz.",
+   "visual": "ESTÚDIO DE VOZ GRÁTIS NO SEU PC",
+   "itens": "estudio-de-voz-gratis-pc",
    "etiqueta": [
-    "UM ESTÚDIO DE VOZ GRÁTIS NO SEU COMPUTADOR",
+    "ESTÚDIO DE VOZ GRÁTIS NO SEU PC",
     "+230 MIL ESTRELAS NO GITHUB",
     "E O Nº 1 É BIZARRO"
    ]
@@ -35,8 +35,8 @@
    "cena": "n5",
    "tag": "5º",
    "item": "Piper",
-   "fala": "Quinto: Piper. Narra qualquer texto em voz alta.",
-   "legenda": "Quinto: Piper. Narra qualquer texto em voz alta.",
+   "fala": "Quinto: Piper. Lê qualquer texto em voz alta.",
+   "legenda": "Quinto: Piper. Lê qualquer texto em voz alta.",
    "visual": "Narra qualquer texto em voz alta.",
    "sfx": [
     {
@@ -69,8 +69,8 @@
    "cena": "n3",
    "tag": "3º",
    "item": "whisper.cpp",
-   "fala": "Terceiro: whisper.cpp. Transcreve áudio rápido, no seu PC. Essa é legalzinha… comenta ESTUDIO que eu mando os cinco. Manda pro amigo.",
-   "legenda": "Terceiro: whisper.cpp. Transcreve áudio rápido, no seu PC. Essa é legalzinha… comenta ESTUDIO que eu mando os cinco. Manda pro amigo.",
+   "fala": "Terceiro: whisper.cpp. Transcreve áudio no seu PC. Essa é legalzinha… comenta ESTUDIO que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: whisper.cpp. Transcreve áudio no seu PC. Essa é legalzinha… comenta ESTUDIO que eu mando os cinco. Manda pro amigo.",
    "visual": "Transcreve áudio rápido, no seu PC.",
    "sfx": [
     {
@@ -86,8 +86,8 @@
    "cena": "n2",
    "tag": "2º",
    "item": "Handy",
-   "fala": "Segundo: Handy. Você fala num atalho e o texto aparece.",
-   "legenda": "Segundo: Handy. Você fala num atalho e o texto aparece.",
+   "fala": "Segundo: Handy. Você fala e o texto aparece.",
+   "legenda": "Segundo: Handy. Você fala e o texto aparece.",
    "visual": "Você fala num atalho e o texto aparece.",
    "sfx": [
     {
@@ -118,8 +118,8 @@
   },
   {
    "cena": "cta",
-   "fala": "Comenta ESTUDIO e me segue. Quantos áudios de WhatsApp você ouve por dia?",
-   "legenda": "Comenta ESTUDIO e me segue. Quantos áudios de WhatsApp você ouve por dia?",
+   "fala": "Comenta ESTUDIO e me segue. Quantos áudios você ouve por dia?",
+   "legenda": "Comenta ESTUDIO e me segue. Quantos áudios você ouve por dia?",
    "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
   }
  ],
@@ -136,5 +136,6 @@
   "cenario": "cabine de rádio com microfone"
  },
  "palavras": 85,
- "duracao_estimada_s": 30.4
+ "duracao_estimada_s": 30.4,
+ "modelo": "gemini-2.5-flash-preview-tts"
 }
