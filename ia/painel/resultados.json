@@ -1,96 +1,24 @@
 {
- "gerado_em": "2026-11-26 19:43",
- "leitura": "metricool_2026-11-26.json",
- "lido_em": "2026-11-26 19:43",
+ "gerado_em": "2026-11-27 07:43",
+ "leitura": "metricool_2026-11-27.json",
+ "lido_em": "2026-11-27 07:43",
  "periodo": [
-  "2026-11-12",
-  "2026-11-26"
+  "2026-11-13",
+  "2026-11-27"
  ],
  "totais": {
-  "reels_medidos": 12,
-  "views_ig": 5190,
-  "alcance_ig": 4463,
-  "salvamentos": 70,
-  "envios": 15,
-  "comentarios": 50,
-  "mediana_views_ig": 297,
-  "views_tiktok_video": 565,
-  "mediana_tiktok_video": 53.0,
+  "reels_medidos": 7,
+  "views_ig": 1611,
+  "alcance_ig": 1427,
+  "salvamentos": 9,
+  "envios": 1,
+  "comentarios": 17,
+  "mediana_views_ig": 290,
+  "views_tiktok_video": 333,
+  "mediana_tiktok_video": 50,
   "mediana_tiktok_fotos": null
  },
  "reels": [
-  {
-   "pasta": "2026-11-10-apple-nao-queria",
-   "titulo": "5 projetos que a Apple não queria",
-   "url": "https://www.instagram.com/reel/Dfp-r0HDbqY/",
-   "quando": "2026-11-12 18:07",
-   "faixa": "noite (18h+)",
-   "categoria": "novidade",
-   "formato": "contagem (formato 3)",
-   "views": 1940,
-   "alcance": 1652,
-   "curtidas": 45,
-   "comentarios": 23,
-   "salvamentos": 38,
-   "envios": 10,
-   "tempo_medio_s": 10.544,
-   "duracao_s": 34.6,
-   "assistido_pct": 30.5,
-   "passou_3s_pct": 51.9,
-   "salvar_pct": 2.3,
-   "enviar_pct": 0.6,
-   "comentar_pct": 1.4,
-   "tiktok_views": 68,
-   "vs_mediana": 6.5
-  },
-  {
-   "pasta": "2026-11-11-copiar-qualquer-app",
-   "titulo": "Copiar qualquer app",
-   "url": "https://www.instagram.com/reel/DfpWHTmCMe1/",
-   "quando": "2026-11-12 12:13",
-   "faixa": "tarde (12–17h)",
-   "categoria": "novidade",
-   "formato": "contagem (formato 3)",
-   "views": 660,
-   "alcance": 546,
-   "curtidas": 14,
-   "comentarios": 7,
-   "salvamentos": 19,
-   "envios": 4,
-   "tempo_medio_s": 6.993,
-   "duracao_s": 34.6,
-   "assistido_pct": 20.2,
-   "passou_3s_pct": 40.3,
-   "salvar_pct": 3.5,
-   "enviar_pct": 0.7,
-   "comentar_pct": 1.3,
-   "tiktok_views": 1,
-   "vs_mediana": 2.2
-  },
-  {
-   "pasta": "2026-11-11-carro-por-1-dolar",
-   "titulo": "Carro por 1 dólar",
-   "url": "https://www.instagram.com/reel/Dfnxhfyiii0/",
-   "quando": "2026-11-11 21:31",
-   "faixa": "noite (18h+)",
-   "categoria": "historia",
-   "formato": "mascote no palco (formato 1)",
-   "views": 435,
-   "alcance": 369,
-   "curtidas": 7,
-   "comentarios": 1,
-   "salvamentos": 0,
-   "envios": 0,
-   "tempo_medio_s": 13.362,
-   "duracao_s": 32.8,
-   "assistido_pct": 40.7,
-   "passou_3s_pct": 57.2,
-   "salvar_pct": 0.0,
-   "enviar_pct": 0.0,
-   "comentar_pct": 0.3,
-   "tiktok_views": 69,
-   "vs_mediana": 1.5
-  },
   {
    "pasta": "2026-11-13-eua-pararam-os-voos",
    "titulo": "EUA pararam os voos",
@@ -100,7 +28,7 @@
    "categoria": "novidade",
    "formato": "contagem (formato 3)",
    "views": 343,
-   "alcance": 301,
+   "alcance": 302,
    "curtidas": 5,
    "comentarios": 2,
    "salvamentos": 1,
@@ -123,45 +51,21 @@
    "faixa": "manhã (6–11h)",
    "categoria": "novidade",
    "formato": "mascote no palco (formato 1)",
-   "views": 325,
-   "alcance": 283,
+   "views": 326,
+   "alcance": 284,
    "curtidas": 4,
    "comentarios": 3,
    "salvamentos": 5,
    "envios": 0,
-   "tempo_medio_s": 7.11,
+   "tempo_medio_s": 7.132,
    "duracao_s": 44.2,
    "assistido_pct": 16.1,
-   "passou_3s_pct": 45.4,
+   "passou_3s_pct": 45.2,
    "salvar_pct": 1.8,
    "enviar_pct": 0.0,
    "comentar_pct": 1.1,
    "tiktok_views": 56,
    "vs_mediana": 1.1
-  },
-  {
-   "pasta": "2026-11-10-projetos-celular",
-   "titulo": "5 projetos pro celular",
-   "url": "https://www.instagram.com/reel/DfpHtefD29b/",
-   "quando": "2026-11-12 10:05",
-   "faixa": "manhã (6–11h)",
-   "categoria": "novidade",
-   "formato": "contagem (formato 3)",
-   "views": 298,
-   "alcance": 251,
-   "curtidas": 11,
-   "comentarios": 1,
-   "salvamentos": 3,
-   "envios": 0,
-   "tempo_medio_s": 7.207,
-   "duracao_s": 34.3,
-   "assistido_pct": 21.0,
-   "passou_3s_pct": 39.7,
-   "salvar_pct": 1.2,
-   "enviar_pct": 0.0,
-   "comentar_pct": 0.4,
-   "tiktok_views": 92,
-   "vs_mediana": 1.0
   },
   {
    "pasta": "2026-11-16-nvidia-perdeu-o-chefe",
@@ -171,16 +75,16 @@
    "faixa": "noite (18h+)",
    "categoria": "novidade",
    "formato": "mascote no palco (formato 1)",
-   "views": 296,
-   "alcance": 252,
+   "views": 297,
+   "alcance": 253,
    "curtidas": 3,
    "comentarios": 1,
    "salvamentos": 0,
    "envios": 0,
-   "tempo_medio_s": 13.33,
+   "tempo_medio_s": 13.41,
    "duracao_s": 47.7,
-   "assistido_pct": 27.9,
-   "passou_3s_pct": 47.8,
+   "assistido_pct": 28.1,
+   "passou_3s_pct": 48.0,
    "salvar_pct": 0.0,
    "enviar_pct": 0.0,
    "comentar_pct": 0.4,
@@ -195,17 +99,17 @@
    "faixa": "manhã (6–11h)",
    "categoria": "novidade",
    "formato": "mascote no palco (formato 1)",
-   "views": 287,
-   "alcance": 260,
+   "views": 290,
+   "alcance": 262,
    "curtidas": 5,
    "comentarios": 5,
    "salvamentos": 3,
    "envios": 0,
-   "tempo_medio_s": 6.24,
+   "tempo_medio_s": 6.343,
    "duracao_s": 37.2,
-   "assistido_pct": 16.8,
-   "passou_3s_pct": 43.7,
-   "salvar_pct": 1.2,
+   "assistido_pct": 17.1,
+   "passou_3s_pct": 43.8,
+   "salvar_pct": 1.1,
    "enviar_pct": 0.0,
    "comentar_pct": 1.9,
    "tiktok_views": 81,
@@ -219,45 +123,21 @@
    "faixa": "manhã (6–11h)",
    "categoria": "novidade",
    "formato": "contagem (formato 3)",
-   "views": 275,
-   "alcance": 255,
+   "views": 276,
+   "alcance": 256,
    "curtidas": 9,
    "comentarios": 1,
    "salvamentos": 0,
    "envios": 0,
-   "tempo_medio_s": 7.74,
+   "tempo_medio_s": 7.754,
    "duracao_s": 36.7,
    "assistido_pct": 21.1,
-   "passou_3s_pct": 63.1,
+   "passou_3s_pct": 63.2,
    "salvar_pct": 0.0,
    "enviar_pct": 0.0,
    "comentar_pct": 0.4,
    "tiktok_views": 9,
-   "vs_mediana": 0.9
-  },
-  {
-   "pasta": "2026-11-10-ia-le-whatsapp",
-   "titulo": "IA lê seu WhatsApp",
-   "url": "https://www.instagram.com/reel/Dfosh8Xiez3/",
-   "quando": "2026-11-12 06:08",
-   "faixa": "manhã (6–11h)",
-   "categoria": "novidade",
-   "formato": "mascote no palco (formato 1)",
-   "views": 255,
-   "alcance": 227,
-   "curtidas": 5,
-   "comentarios": 1,
-   "salvamentos": 1,
-   "envios": 0,
-   "tempo_medio_s": 5.113,
-   "duracao_s": 28.1,
-   "assistido_pct": 18.2,
-   "passou_3s_pct": 37.4,
-   "salvar_pct": 0.4,
-   "enviar_pct": 0.0,
-   "comentar_pct": 0.4,
-   "tiktok_views": 2,
-   "vs_mediana": 0.9
+   "vs_mediana": 1.0
   },
   {
    "pasta": "2026-11-17-jogos-no-celular-e-no-mac",
@@ -267,19 +147,19 @@
    "faixa": "noite (18h+)",
    "categoria": "novidade",
    "formato": "mascote no palco (formato 1)",
-   "views": 47,
-   "alcance": 39,
+   "views": 49,
+   "alcance": 41,
    "curtidas": 3,
    "comentarios": 4,
    "salvamentos": 0,
    "envios": 0,
-   "tempo_medio_s": 6.555,
+   "tempo_medio_s": 6.272,
    "duracao_s": 41.5,
-   "assistido_pct": 15.8,
-   "passou_3s_pct": 32.5,
+   "assistido_pct": 15.1,
+   "passou_3s_pct": 31.0,
    "salvar_pct": 0.0,
    "enviar_pct": 0.0,
-   "comentar_pct": 10.3,
+   "comentar_pct": 9.8,
    "tiktok_views": 3,
    "vs_mediana": 0.2
   },
@@ -291,19 +171,19 @@
    "faixa": "noite (18h+)",
    "categoria": "novidade",
    "formato": "mascote no palco (formato 1)",
-   "views": 29,
-   "alcance": 28,
+   "views": 30,
+   "alcance": 29,
    "curtidas": 2,
    "comentarios": 1,
    "salvamentos": 0,
    "envios": 0,
-   "tempo_medio_s": 4.23,
+   "tempo_medio_s": 4.168,
    "duracao_s": 36.0,
-   "assistido_pct": 11.8,
-   "passou_3s_pct": 40.7,
+   "assistido_pct": 11.6,
+   "passou_3s_pct": 39.3,
    "salvar_pct": 0.0,
    "enviar_pct": 0.0,
-   "comentar_pct": 3.6,
+   "comentar_pct": 3.4,
    "tiktok_views": 7,
    "vs_mediana": 0.1
   }
@@ -311,64 +191,50 @@
  "por_formato": [
   {
    "nome": "contagem (formato 3)",
-   "n": 5,
-   "mediana_views": 343,
-   "salvar_pct": 1.2,
-   "passou_3s_pct": 44.7
+   "n": 2,
+   "mediana_views": 310,
+   "salvar_pct": 0.15,
+   "passou_3s_pct": 53.95
   },
   {
    "nome": "mascote no palco (formato 1)",
-   "n": 7,
-   "mediana_views": 287,
+   "n": 5,
+   "mediana_views": 290,
    "salvar_pct": 0.0,
-   "passou_3s_pct": 43.7
+   "passou_3s_pct": 43.8
   }
  ],
  "por_categoria": [
   {
-   "nome": "historia",
-   "n": 1,
-   "mediana_views": 435,
-   "salvar_pct": 0.0,
-   "passou_3s_pct": 57.2
-  },
-  {
    "nome": "novidade",
-   "n": 11,
-   "mediana_views": 296,
-   "salvar_pct": 0.4,
-   "passou_3s_pct": 43.7
+   "n": 7,
+   "mediana_views": 290,
+   "salvar_pct": 0.0,
+   "passou_3s_pct": 44.7
   }
  ],
  "por_faixa": [
   {
-   "nome": "tarde (12–17h)",
-   "n": 1,
-   "mediana_views": 660,
-   "salvar_pct": 3.5,
-   "passou_3s_pct": 40.3
+   "nome": "manhã (6–11h)",
+   "n": 4,
+   "mediana_views": 308,
+   "salvar_pct": 0.7000000000000001,
+   "passou_3s_pct": 44.95
   },
   {
    "nome": "noite (18h+)",
-   "n": 5,
-   "mediana_views": 296,
+   "n": 3,
+   "mediana_views": 49,
    "salvar_pct": 0.0,
-   "passou_3s_pct": 47.8
-  },
-  {
-   "nome": "manhã (6–11h)",
-   "n": 6,
-   "mediana_views": 292,
-   "salvar_pct": 0.8,
-   "passou_3s_pct": 44.2
+   "passou_3s_pct": 39.3
   }
  ],
  "insights_auto": [
-  "Formato campeão: contagem (formato 3) (mediana 343 views em 5 Reels), 1,2× o 2º (mascote no palco (formato 1)).",
-  "Melhor Reel: 5 projetos que a Apple não queria com 1940 views (6,5× a mediana); salvamento 2,3% e envio 0,6% do alcance.",
-  "Gancho: só 44,2% (mediana) passa dos 3 primeiros segundos. Mais da metade sai antes do 1º item: o 1º quadro e a 1ª frase precisam de conflito.",
-  "Retenção: quem fica assiste em média 21% do vídeo. O CTA do meio (na nº 3) pega mais gente que o do fim.",
-  "TikTok travado: mediana de 53,0 views por vídeo contra 297 no Instagram."
+  "Formato campeão: contagem (formato 3) (mediana 310 views em 2 Reels), 1,1× o 2º (mascote no palco (formato 1)).",
+  "Melhor Reel: EUA pararam os voos com 343 views (1,2× a mediana); salvamento 0,3% e envio 0,3% do alcance.",
+  "Gancho: só 44,7% (mediana) passa dos 3 primeiros segundos. Mais da metade sai antes do 1º item: o 1º quadro e a 1ª frase precisam de conflito.",
+  "Retenção: quem fica assiste em média 17% do vídeo. O CTA do meio (na nº 3) pega mais gente que o do fim.",
+  "TikTok travado: mediana de 50 views por vídeo contra 290 no Instagram."
  ],
  "semana_x_semana": {
   "semanas": [
@@ -395,7 +261,7 @@
     "enviar_pct": 0.9,
     "comentar_pct": 1.0,
     "passou_3s_pct": 45.6,
-    "idade_mediana_dias": 20.7,
+    "idade_mediana_dias": 21.2,
     "top": [
      {
       "titulo": "5 projetos pra TV e celular",
@@ -439,7 +305,7 @@
     "mediana_views": 411,
     "media_views": 696,
     "acima_1000": 7,
-    "alcance": 20171,
+    "alcance": 20172,
     "salvamentos": 374,
     "envios": 116,
     "comentarios": 178,
@@ -447,7 +313,7 @@
     "enviar_pct": 0.6,
     "comentar_pct": 0.9,
     "passou_3s_pct": 44.7,
-    "idade_mediana_dias": 16.4,
+    "idade_mediana_dias": 16.9,
     "top": [
      {
       "titulo": "10 estilos de animação",
@@ -490,38 +356,38 @@
     "dias": 5,
     "reels": 6,
     "reels_por_dia": 1.2,
-    "views": 1259,
-    "views_por_dia": 252,
-    "mediana_views": 281,
-    "media_views": 210,
+    "views": 1268,
+    "views_por_dia": 254,
+    "mediana_views": 283,
+    "media_views": 211,
     "acima_1000": 0,
-    "alcance": 1117,
+    "alcance": 1125,
     "salvamentos": 8,
     "envios": 0,
     "comentarios": 15,
     "salvar_pct": 0.7,
     "enviar_pct": 0.0,
     "comentar_pct": 1.3,
-    "passou_3s_pct": 44.55,
-    "idade_mediana_dias": 8.8,
+    "passou_3s_pct": 44.5,
+    "idade_mediana_dias": 9.3,
     "top": [
      {
       "titulo": "TV sem propaganda",
-      "views": 325
+      "views": 326
      },
      {
       "titulo": "Nvidia perdeu o chefe",
-      "views": 296
+      "views": 297
      },
      {
       "titulo": "Estúdio de games no Claude",
-      "views": 287
+      "views": 290
      }
     ],
     "por_categoria": {
      "novidade": {
       "n": 6,
-      "mediana_views": 281
+      "mediana_views": 283
      }
     },
     "tiktok_videos": 6,
@@ -605,26 +471,26 @@
    {
     "data": "2026-11-16",
     "reels": 2,
-    "views": 621,
-    "mediana": 310
+    "views": 623,
+    "mediana": 312
    },
    {
     "data": "2026-11-17",
     "reels": 1,
-    "views": 47,
-    "mediana": 47
+    "views": 49,
+    "mediana": 49
    },
    {
     "data": "2026-11-18",
     "reels": 1,
-    "views": 287,
-    "mediana": 287
+    "views": 290,
+    "mediana": 290
    },
    {
     "data": "2026-11-19",
     "reels": 2,
-    "views": 304,
-    "mediana": 152
+    "views": 306,
+    "mediana": 153
    }
   ]
  },
@@ -670,36 +536,6 @@
    "views": 127,
    "foto": false,
    "pasta": "2026-11-13-eua-pararam-os-voos"
-  },
-  {
-   "titulo": "5 projetos que a Apple não queria",
-   "views": 68,
-   "foto": false,
-   "pasta": "2026-11-10-apple-nao-queria"
-  },
-  {
-   "titulo": "Copiar qualquer app",
-   "views": 1,
-   "foto": false,
-   "pasta": "2026-11-11-copiar-qualquer-app"
-  },
-  {
-   "titulo": "5 projetos pro celular",
-   "views": 92,
-   "foto": false,
-   "pasta": "2026-11-10-projetos-celular"
-  },
-  {
-   "titulo": "IA lê seu WhatsApp",
-   "views": 2,
-   "foto": false,
-   "pasta": "2026-11-10-ia-le-whatsapp"
-  },
-  {
-   "titulo": "Carro por 1 dólar",
-   "views": 69,
-   "foto": false,
-   "pasta": "2026-11-11-carro-por-1-dolar"
   }
  ]
 }

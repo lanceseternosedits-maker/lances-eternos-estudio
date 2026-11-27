@@ -1,51 +1,44 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-26 19:45",
- "leitura": "metricool_2026-11-26.json",
- "resumo": "Leitura de 26/11 noite: nenhum número mudou desde a manhã (12 Reels, mediana 297, mesmos 12 TikToks) e já são 7 dias sem post (último Reel 19/11 19:32). Sem post novo não há aprendizado novo: os 4 vídeos e 11 roteiros seguem aguardando aprovação e o plano de recuperação acaba em 01/12.",
+ "em": "2026-11-27 07:45",
+ "leitura": "metricool_2026-11-27.json",
+ "resumo": "Leitura de 27/11 manhã: 8 dias sem post (último Reel 19/11 19:32) e a janela de 14 dias já perdeu os Reels de 12/11, inclusive o APPLE (1.940); sobraram 7 Reels com mediana 290 e nenhum acima de 343. Os números dos 7 mudaram só ±1–2 views desde ontem, então não há aprendizado novo; 15 vídeos estão prontos aguardando aprovação e o plano de recuperação acaba em 01/12.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "7 dias sem post; 4 vídeos prontos parados",
-   "evidencia": "Último Reel: 19/11 19:32. Entre a leitura de 26/11 07:43 e a de 19:43 nenhuma métrica mudou (views, alcance, salvos e TikTok idênticos). No repositório: 4 pastas em 'vídeo aguardando aprovação' e 11 em 'roteiro aguardando aprovação'.",
-   "acao": "Vitor: aprovar no app os 4 MP4 prontos e agendar a partir de amanhã (27/11); faltam 5 dias para o fim do plano de recuperação (01/12) e ainda não há nenhum dado depois de 19/11."
+   "titulo": "8 dias sem post; 15 vídeos prontos parados",
+   "evidencia": "Último Reel no Metricool: 19/11 19:32. Desde a leitura de 26/11 19:43 os 7 Reels variaram de 0 a +3 views (ex.: TV 325→326, GAME 287→290). No repositório: 15 pastas em 'vídeo aguardando aprovação' e nenhum roteiro na fila.",
+   "acao": "Vitor: aprovar no app os melhores com marca grande e agendar hoje (27/11) 19:30; sem post novo até 01/12 o plano de recuperação termina sem nenhum dado para julgar."
   },
   {
    "tipo": "fazer_mais",
-   "titulo": "Marca grande + 'o que a X não queria' continua isolada no topo",
-   "evidencia": "APPLE 1.940 views (6,5× a mediana de 297), 38 salvos, 23 comentários e 10 envios; o 2º é COPIA 660 (19 salvos). Contagem: mediana 343 e 1,2% de salvar (5 Reels) contra 287 e 0,0% do mascote (7).",
-   "acao": "Na aprovação, colocar na frente o roteiro 'o que o Spotify não queria' de 26/11 e os de marca grande (Adobe, Microsoft, YouTube); contagem sem marca vai depois."
+   "titulo": "Marca grande + 'o que a X não queria' segue sendo a única aposta acima de 700",
+   "evidencia": "Na leitura anterior (antes de sair da janela): APPLE 1.940 views, 38 salvos, 23 comentários e 10 envios; COPIA 660. Os 7 Reels de 14–19/11 ficaram todos entre 30 e 343, nenhum com marca grande + polêmica legal.",
+   "acao": "Na aprovação, pôr na frente os vídeos de marca grande (Spotify, Adobe, Microsoft, YouTube, Google) e deixar contagem sem marca para depois."
   },
   {
    "tipo": "corrigir",
-   "titulo": "Noite segue sem salvar",
-   "evidencia": "Noite (18h+): mediana 296 e 0,0% de salvar (5 Reels); manhã 292 e 0,8% (6); tarde só 1 Reel nesta janela (COPIA 660, 3,5%), cedo demais para cravar a tarde.",
-   "acao": "Na volta, a melhor contagem com marca vai às 12:00 (13:00 no fim de semana) e a mais fraca à noite."
+   "titulo": "Noite segue fraca nesta janela",
+   "evidencia": "Manhã (6–11h): 4 Reels de 276 a 343 views; noite (18h+): 3 Reels com 297, 49 (JOGOS) e 30 (MARKETING). Salvar só saiu de manhã (TV 5, GAME 3, VOO 1).",
+   "acao": "Na volta, o vídeo mais forte vai às 12:00 (13:00 no fim de semana) e o mais fraco às 19:30."
   },
   {
    "tipo": "testar",
    "titulo": "Gancho quente sem lista útil não vira salvar",
-   "evidencia": "GTA/PS5: 63,1% passam dos 3 s (melhor da janela), 275 views e 0 salvos; DOLAR (📜) 57,2% e 0 salvos. Quem salva é lista útil: APPLE 38, COPIA 19, TELA 5. Mediana de gancho 44,2% e retenção média de 21% do vídeo.",
+   "evidencia": "GTA/PS5: 63,2% passam dos 3 s (melhor da janela), 276 views e 0 salvos. Mediana de gancho 44,7% e retenção média de 17% do vídeo; quem salva é lista útil (TV 1,8%, GAME 1,1%).",
    "acao": "Manter marca/jogo no 1º quadro e fechar com a lista de 5 legível na tela + 'salva' na fala; CTA na nº 3."
   },
   {
    "tipo": "alerta",
-   "titulo": "Só 1 📜 na janela e nenhum ⚙️",
-   "evidencia": "📜 história: 1 Reel (DOLAR 435, 0 salvos). 🆕: mediana 296 e 0,4% de salvar (11). Sem ⚙️ desde a saída de 11/11.",
-   "acao": "Seguir sem 📜/⚙️ até 01/12, como no plano de recuperação."
+   "titulo": "Vídeos de 37–48 s seguem abaixo de 330",
+   "evidencia": "TV 44 s (326), NVIDIA 48 s (297), GAME 37 s (290), GTA/PS5 37 s (276): 17–28% assistido. O único de 29 s (VOO) é o maior da janela, 343.",
+   "acao": "Na fila aprovada, priorizar os de 25–32 s; acima de 35 s, cortar texto antes de agendar."
   },
   {
    "tipo": "alerta",
-   "titulo": "TikTok sem tração e parado",
-   "evidencia": "12 vídeos na janela, mediana 53 views (melhores: VOO 127, CELULAR 92, GAME 81); os 2 últimos (19/11) ficaram com 7 e 9; nenhum vídeo novo desde 19/11.",
-   "acao": "Nada muda no TikTok: o esforço é voltar a publicar no Instagram."
+   "titulo": "TikTok parado e sem tração",
+   "evidencia": "7 vídeos na janela, mediana 50 views (VOO 127, GAME 81, TV 56); os 2 últimos (19/11) ficaram com 7 e 9; nenhum envio.",
+   "acao": "Manter o TikTok como espelho, sem esforço extra, até o Instagram voltar a postar."
   }
- ],
- "semanas": [
-  "S3 (15–21/11): 6 Reels no IG, 1.258 views, mediana 281, nenhum acima de 1.000, 0,7% de salvar; nenhum post em 20–21/11.",
-  "S2 (08–14/11): 34 Reels, 23.667 views, mediana 411, 1,9% de salvar.",
-  "S4 (22–28/11): até 25/11 nenhum Reel publicado.",
-  "De S2 para S3: −82% de Reels e −95% de views; o gancho ficou igual (44,7% → 44,6% nos 3 s), o que caiu foi volume e salvar.",
-  "Desde a leitura de 24/11: nenhum número relevante mudou; só a janela de 14 dias encolheu (26 → 17 Reels)."
  ]
 }
