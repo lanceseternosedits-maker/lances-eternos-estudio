@@ -1,67 +1,67 @@
 {
- "data": "2026-11-24",
- "categoria": "novidade",
- "pilar": "reel",
- "formato": "reel contagem (molde campeão, visual clean)",
- "temas": [
-  "Windows",
-  "programas",
-  "PC",
-  "computador",
-  "produtividade",
-  "github",
-  "grátis"
- ],
- "fontes": [
-  "https://github.com/farag2/Sophia-Script-for-Windows",
-  "https://github.com/valinet/ExplorerPatcher",
-  "https://github.com/pbatard/rufus",
-  "https://github.com/Raphire/Win11Debloat",
-  "https://github.com/ChrisTitusTech/winutil"
- ],
- "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): Sophia Script 9.976, ExplorerPatcher 34.393, Rufus 38.466, Win11Debloat 63.570, WinUtil 66.543; total 212.948.",
- "cta": "WINDOWS",
- "polemica": true,
- "candidato": "b1",
- "primeiro_comentario": "💬 Comenta WINDOWS que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
- "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
- "status": "roteiro aguardando aprovação",
- "horario": "12:00",
- "horarios": {
-  "instagram": "2026-11-24 12:00",
-  "tiktok": "2026-11-24 12:00"
- },
- "vaga": 2,
- "revisao": {
-  "veredito": "ajustado",
-  "resumo": "gancho com conflito, fatos conferidos",
-  "pareceres": [
-   {
-    "revisor": "vitor",
-    "veredito": "passa",
-    "nota": "Polêmica legal e programa grátis que limpa o Windows: gosto dele."
-   },
-   {
-    "revisor": "fatos",
-    "veredito": "ajustar",
-    "nota": "Estrelas ok; não afirmar intenção da Microsoft; Rufus só cria o pendrive."
-   },
-   {
-    "revisor": "gancho",
-    "veredito": "ajustar",
-    "nota": "Gancho descritivo, sem tensão: troquei por pergunta de conflito/dor."
-   },
-   {
-    "revisor": "clareza",
-    "veredito": "ajustar",
-    "nota": "Gancho longo e 'GitHub' sem tradução: encurtei e traduzi onde coube."
-   }
+  "data": "2026-11-24",
+  "categoria": "novidade",
+  "pilar": "reel",
+  "formato": "reel contagem (molde campeão, visual clean)",
+  "temas": [
+    "Windows",
+    "programas",
+    "PC",
+    "computador",
+    "produtividade",
+    "github",
+    "grátis"
   ],
-  "ajustes": [
-   "gancho reescrito com pergunta/conflito",
-   "falas e avisos corrigidos conforme fatos/clareza"
+  "fontes": [
+    "https://github.com/farag2/Sophia-Script-for-Windows",
+    "https://github.com/valinet/ExplorerPatcher",
+    "https://github.com/pbatard/rufus",
+    "https://github.com/Raphire/Win11Debloat",
+    "https://github.com/ChrisTitusTech/winutil"
   ],
-  "em": "2026-11-23 05:09",
-  "obs": "2ª volta dispensada por economia de tokens; sem reprovação. Estrelas lidas na API de busca do GitHub em 23/11/2026."
- }
+  "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): Sophia Script 9.976, ExplorerPatcher 34.393, Rufus 38.466, Win11Debloat 63.570, WinUtil 66.543; total 212.948.",
+  "cta": "WINDOWS",
+  "polemica": true,
+  "candidato": "b1",
+  "primeiro_comentario": "💬 Comenta WINDOWS que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+  "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
+  "status": "roteiro aprovado",
+  "horario": "12:00",
+  "horarios": {
+    "instagram": "2026-11-24 12:00",
+    "tiktok": "2026-11-24 12:00"
+  },
+  "vaga": 2,
+  "revisao": {
+    "veredito": "ajustado",
+    "resumo": "gancho com conflito, fatos conferidos",
+    "pareceres": [
+      {
+        "revisor": "vitor",
+        "veredito": "passa",
+        "nota": "Polêmica legal e programa grátis que limpa o Windows: gosto dele."
+      },
+      {
+        "revisor": "fatos",
+        "veredito": "ajustar",
+        "nota": "Estrelas ok; não afirmar intenção da Microsoft; Rufus só cria o pendrive."
+      },
+      {
+        "revisor": "gancho",
+        "veredito": "ajustar",
+        "nota": "Gancho descritivo, sem tensão: troquei por pergunta de conflito/dor."
+      },
+      {
+        "revisor": "clareza",
+        "veredito": "ajustar",
+        "nota": "Gancho longo e 'GitHub' sem tradução: encurtei e traduzi onde coube."
+      }
+    ],
+    "ajustes": [
+      "gancho reescrito com pergunta/conflito",
+      "falas e avisos corrigidos conforme fatos/clareza"
+    ],
+    "em": "2026-11-23 05:09",
+    "obs": "2ª volta dispensada por economia de tokens; sem reprovação. Estrelas lidas na API de busca do GitHub em 23/11/2026."
+  }
 }

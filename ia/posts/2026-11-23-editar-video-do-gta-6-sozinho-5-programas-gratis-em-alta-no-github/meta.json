@@ -1,69 +1,69 @@
 {
- "data": "2026-11-24",
- "categoria": "novidade",
- "pilar": "reel",
- "formato": "reel contagem (molde campeão, visual clean)",
- "temas": [
-  "editar vídeo",
-  "jogos",
-  "GTA 6",
-  "programas",
-  "computador",
-  "github",
-  "grátis",
-  "vídeo",
-  "Windows"
- ],
- "fontes": [
-  "https://github.com/HandBrake/HandBrake",
-  "https://github.com/Breakthrough/PySceneDetect",
-  "https://github.com/mifi/lossless-cut",
-  "https://github.com/modelscope/FunClip",
-  "https://github.com/openai/whisper"
- ],
- "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): HandBrake 25.100, PySceneDetect 5.624, LosslessCut 46.340, FunClip 6.622, Whisper 113.403; total 197.089.",
- "cta": "GTA",
- "polemica": false,
- "candidato": "b12",
- "primeiro_comentario": "💬 Comenta GTA que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
- "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
- "status": "roteiro aguardando aprovação",
- "horario": "19:30",
- "horarios": {
-  "instagram": "2026-11-24 19:30",
-  "tiktok": "2026-11-24 19:30"
- },
- "vaga": 3,
- "revisao": {
-  "veredito": "ajustado",
-  "resumo": "gancho com conflito, fatos conferidos",
-  "pareceres": [
-   {
-    "revisor": "vitor",
-    "veredito": "ajustar",
-    "nota": "GTA 6 é gancho forte; PySceneDetect é nichado."
-   },
-   {
-    "revisor": "fatos",
-    "veredito": "ajustar",
-    "nota": "Whisper gera arquivo de legenda; 'sozinho' exagera."
-   },
-   {
-    "revisor": "gancho",
-    "veredito": "ajustar",
-    "nota": "Gancho descritivo, sem tensão: troquei por pergunta de conflito/dor."
-   },
-   {
-    "revisor": "clareza",
-    "veredito": "ajustar",
-    "nota": "Gancho longo e 'GitHub' sem tradução: encurtei e traduzi onde coube."
-   }
+  "data": "2026-11-24",
+  "categoria": "novidade",
+  "pilar": "reel",
+  "formato": "reel contagem (molde campeão, visual clean)",
+  "temas": [
+    "editar vídeo",
+    "jogos",
+    "GTA 6",
+    "programas",
+    "computador",
+    "github",
+    "grátis",
+    "vídeo",
+    "Windows"
   ],
-  "ajustes": [
-   "gancho reescrito com pergunta/conflito",
-   "falas e avisos corrigidos conforme fatos/clareza"
+  "fontes": [
+    "https://github.com/HandBrake/HandBrake",
+    "https://github.com/Breakthrough/PySceneDetect",
+    "https://github.com/mifi/lossless-cut",
+    "https://github.com/modelscope/FunClip",
+    "https://github.com/openai/whisper"
   ],
-  "em": "2026-11-23 05:09",
-  "obs": "2ª volta dispensada por economia de tokens; sem reprovação. Estrelas lidas na API de busca do GitHub em 23/11/2026."
- }
+  "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): HandBrake 25.100, PySceneDetect 5.624, LosslessCut 46.340, FunClip 6.622, Whisper 113.403; total 197.089.",
+  "cta": "GTA",
+  "polemica": false,
+  "candidato": "b12",
+  "primeiro_comentario": "💬 Comenta GTA que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+  "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
+  "status": "roteiro aprovado",
+  "horario": "19:30",
+  "horarios": {
+    "instagram": "2026-11-24 19:30",
+    "tiktok": "2026-11-24 19:30"
+  },
+  "vaga": 3,
+  "revisao": {
+    "veredito": "ajustado",
+    "resumo": "gancho com conflito, fatos conferidos",
+    "pareceres": [
+      {
+        "revisor": "vitor",
+        "veredito": "ajustar",
+        "nota": "GTA 6 é gancho forte; PySceneDetect é nichado."
+      },
+      {
+        "revisor": "fatos",
+        "veredito": "ajustar",
+        "nota": "Whisper gera arquivo de legenda; 'sozinho' exagera."
+      },
+      {
+        "revisor": "gancho",
+        "veredito": "ajustar",
+        "nota": "Gancho descritivo, sem tensão: troquei por pergunta de conflito/dor."
+      },
+      {
+        "revisor": "clareza",
+        "veredito": "ajustar",
+        "nota": "Gancho longo e 'GitHub' sem tradução: encurtei e traduzi onde coube."
+      }
+    ],
+    "ajustes": [
+      "gancho reescrito com pergunta/conflito",
+      "falas e avisos corrigidos conforme fatos/clareza"
+    ],
+    "em": "2026-11-23 05:09",
+    "obs": "2ª volta dispensada por economia de tokens; sem reprovação. Estrelas lidas na API de busca do GitHub em 23/11/2026."
+  }
 }

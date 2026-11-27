@@ -1,68 +1,68 @@
 {
- "data": "2026-11-25",
- "categoria": "novidade",
- "pilar": "reel",
- "formato": "reel contagem (molde campeão, visual clean)",
- "temas": [
-  "IA",
-  "programas",
-  "computador",
-  "celular",
-  "github",
-  "grátis",
-  "assistente",
-  "cardápio",
-  "bombando"
- ],
- "fontes": [
-  "https://github.com/cjpais/Handy",
-  "https://github.com/open-webui/open-webui",
-  "https://github.com/home-assistant/core",
-  "https://github.com/jellyfin/jellyfin"
- ],
- "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): Handy 39.776, Open WebUI 159.309, Home Assistant 92.567, Jellyfin 59.657; total 351.309.",
- "cta": "KIT",
- "polemica": false,
- "candidato": "k4",
- "primeiro_comentario": "💬 Comenta KIT que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
- "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
- "status": "roteiro aguardando aprovação",
- "horario": "19:30",
- "horarios": {
-  "instagram": "2026-11-25 19:30",
-  "tiktok": "2026-11-25 19:30"
- },
- "vaga": 5,
- "revisao": {
-  "veredito": "ajustado",
-  "resumo": "gancho com conflito, fatos conferidos",
-  "pareceres": [
-   {
-    "revisor": "vitor",
-    "veredito": "ajustar",
-    "nota": "Mistura projetos que não são IA com o assistente do kit; cardápio é útil."
-   },
-   {
-    "revisor": "fatos",
-    "veredito": "ajustar",
-    "nota": "Estrelas ok; o nº 1 é do kit, não do GitHub."
-   },
-   {
-    "revisor": "gancho",
-    "veredito": "ajustar",
-    "nota": "Gancho descritivo, sem tensão: troquei por pergunta de conflito/dor."
-   },
-   {
-    "revisor": "clareza",
-    "veredito": "ajustar",
-    "nota": "Gancho longo e 'GitHub' sem tradução: encurtei e traduzi onde coube."
-   }
+  "data": "2026-11-25",
+  "categoria": "novidade",
+  "pilar": "reel",
+  "formato": "reel contagem (molde campeão, visual clean)",
+  "temas": [
+    "IA",
+    "programas",
+    "computador",
+    "celular",
+    "github",
+    "grátis",
+    "assistente",
+    "cardápio",
+    "bombando"
   ],
-  "ajustes": [
-   "gancho reescrito com pergunta/conflito",
-   "falas e avisos corrigidos conforme fatos/clareza"
+  "fontes": [
+    "https://github.com/cjpais/Handy",
+    "https://github.com/open-webui/open-webui",
+    "https://github.com/home-assistant/core",
+    "https://github.com/jellyfin/jellyfin"
   ],
-  "em": "2026-11-23 05:09",
-  "obs": "2ª volta dispensada por economia de tokens; sem reprovação. Estrelas lidas na API de busca do GitHub em 23/11/2026."
- }
+  "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): Handy 39.776, Open WebUI 159.309, Home Assistant 92.567, Jellyfin 59.657; total 351.309.",
+  "cta": "KIT",
+  "polemica": false,
+  "candidato": "k4",
+  "primeiro_comentario": "💬 Comenta KIT que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+  "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
+  "status": "roteiro aprovado",
+  "horario": "19:30",
+  "horarios": {
+    "instagram": "2026-11-25 19:30",
+    "tiktok": "2026-11-25 19:30"
+  },
+  "vaga": 5,
+  "revisao": {
+    "veredito": "ajustado",
+    "resumo": "gancho com conflito, fatos conferidos",
+    "pareceres": [
+      {
+        "revisor": "vitor",
+        "veredito": "ajustar",
+        "nota": "Mistura projetos que não são IA com o assistente do kit; cardápio é útil."
+      },
+      {
+        "revisor": "fatos",
+        "veredito": "ajustar",
+        "nota": "Estrelas ok; o nº 1 é do kit, não do GitHub."
+      },
+      {
+        "revisor": "gancho",
+        "veredito": "ajustar",
+        "nota": "Gancho descritivo, sem tensão: troquei por pergunta de conflito/dor."
+      },
+      {
+        "revisor": "clareza",
+        "veredito": "ajustar",
+        "nota": "Gancho longo e 'GitHub' sem tradução: encurtei e traduzi onde coube."
+      }
+    ],
+    "ajustes": [
+      "gancho reescrito com pergunta/conflito",
+      "falas e avisos corrigidos conforme fatos/clareza"
+    ],
+    "em": "2026-11-23 05:09",
+    "obs": "2ª volta dispensada por economia de tokens; sem reprovação. Estrelas lidas na API de busca do GitHub em 23/11/2026."
+  }
 }

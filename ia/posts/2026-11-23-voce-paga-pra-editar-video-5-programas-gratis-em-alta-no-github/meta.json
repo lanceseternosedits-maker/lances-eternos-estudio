@@ -1,66 +1,66 @@
 {
- "data": "2026-11-26",
- "categoria": "novidade",
- "pilar": "reel",
- "formato": "reel contagem (molde campeão, visual clean)",
- "temas": [
-  "editar vídeo",
-  "edição",
-  "programas",
-  "github",
-  "grátis",
-  "vídeo"
- ],
- "fontes": [
-  "https://github.com/darktable-org/darktable",
-  "https://github.com/mltframework/shotcut",
-  "https://github.com/HandBrake/HandBrake",
-  "https://github.com/mifi/lossless-cut",
-  "https://github.com/obsproject/obs-studio"
- ],
- "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): darktable 13.494, Shotcut 15.770, HandBrake 25.100, LosslessCut 46.340, OBS Studio 80.065; total 180.769.",
- "cta": "EDITAR",
- "polemica": true,
- "candidato": "b2",
- "primeiro_comentario": "💬 Comenta EDITAR que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
- "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
- "status": "roteiro aguardando aprovação",
- "horario": "12:00",
- "horarios": {
-  "instagram": "2026-11-26 12:00",
-  "tiktok": "2026-11-26 12:00"
- },
- "vaga": 7,
- "revisao": {
-  "veredito": "ajustado",
-  "resumo": "gancho com conflito, fatos conferidos",
-  "pareceres": [
-   {
-    "revisor": "vitor",
-    "veredito": "passa",
-    "nota": "Pergunta direta e programa grátis no lugar de pago; só o OBS destoa."
-   },
-   {
-    "revisor": "fatos",
-    "veredito": "ajustar",
-    "nota": "darktable é de foto, não de vídeo."
-   },
-   {
-    "revisor": "gancho",
-    "veredito": "ajustar",
-    "nota": "Gancho descritivo, sem tensão: troquei por pergunta de conflito/dor."
-   },
-   {
-    "revisor": "clareza",
-    "veredito": "ajustar",
-    "nota": "Gancho longo e 'GitHub' sem tradução: encurtei e traduzi onde coube."
-   }
+  "data": "2026-11-26",
+  "categoria": "novidade",
+  "pilar": "reel",
+  "formato": "reel contagem (molde campeão, visual clean)",
+  "temas": [
+    "editar vídeo",
+    "edição",
+    "programas",
+    "github",
+    "grátis",
+    "vídeo"
   ],
-  "ajustes": [
-   "gancho reescrito com pergunta/conflito",
-   "falas e avisos corrigidos conforme fatos/clareza"
+  "fontes": [
+    "https://github.com/darktable-org/darktable",
+    "https://github.com/mltframework/shotcut",
+    "https://github.com/HandBrake/HandBrake",
+    "https://github.com/mifi/lossless-cut",
+    "https://github.com/obsproject/obs-studio"
   ],
-  "em": "2026-11-23 05:09",
-  "obs": "2ª volta dispensada por economia de tokens; sem reprovação. Estrelas lidas na API de busca do GitHub em 23/11/2026."
- }
+  "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): darktable 13.494, Shotcut 15.770, HandBrake 25.100, LosslessCut 46.340, OBS Studio 80.065; total 180.769.",
+  "cta": "EDITAR",
+  "polemica": true,
+  "candidato": "b2",
+  "primeiro_comentario": "💬 Comenta EDITAR que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+  "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
+  "status": "roteiro aprovado",
+  "horario": "12:00",
+  "horarios": {
+    "instagram": "2026-11-26 12:00",
+    "tiktok": "2026-11-26 12:00"
+  },
+  "vaga": 7,
+  "revisao": {
+    "veredito": "ajustado",
+    "resumo": "gancho com conflito, fatos conferidos",
+    "pareceres": [
+      {
+        "revisor": "vitor",
+        "veredito": "passa",
+        "nota": "Pergunta direta e programa grátis no lugar de pago; só o OBS destoa."
+      },
+      {
+        "revisor": "fatos",
+        "veredito": "ajustar",
+        "nota": "darktable é de foto, não de vídeo."
+      },
+      {
+        "revisor": "gancho",
+        "veredito": "ajustar",
+        "nota": "Gancho descritivo, sem tensão: troquei por pergunta de conflito/dor."
+      },
+      {
+        "revisor": "clareza",
+        "veredito": "ajustar",
+        "nota": "Gancho longo e 'GitHub' sem tradução: encurtei e traduzi onde coube."
+      }
+    ],
+    "ajustes": [
+      "gancho reescrito com pergunta/conflito",
+      "falas e avisos corrigidos conforme fatos/clareza"
+    ],
+    "em": "2026-11-23 05:09",
+    "obs": "2ª volta dispensada por economia de tokens; sem reprovação. Estrelas lidas na API de busca do GitHub em 23/11/2026."
+  }
 }
