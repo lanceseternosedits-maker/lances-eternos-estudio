@@ -1,14 +1,14 @@
 {
  "_como_preencher": "o agente analista reescreve a cada leitura (2x por dia): no máximo 6 itens, cada um com o número que prova e uma ação concreta para a produção. tipo: fazer_mais | corrigir | testar | alerta",
- "em": "2026-11-27 07:45",
+ "em": "2026-11-27 19:45",
  "leitura": "metricool_2026-11-27.json",
- "resumo": "Leitura de 27/11 manhã: 8 dias sem post (último Reel 19/11 19:32) e a janela de 14 dias já perdeu os Reels de 12/11, inclusive o APPLE (1.940); sobraram 7 Reels com mediana 290 e nenhum acima de 343. Os números dos 7 mudaram só ±1–2 views desde ontem, então não há aprendizado novo; 15 vídeos estão prontos aguardando aprovação e o plano de recuperação acaba em 01/12.",
+ "resumo": "Leitura de 27/11 noite: 8 dias sem post (último Reel 19/11 19:32) e os 7 Reels da janela estão exatamente com os mesmos números da leitura das 07:43 (mediana 290, nenhum acima de 343). Nada mudou desde a manhã: sem post novo não há aprendizado; 15 vídeos seguem aguardando aprovação e o plano de recuperação acaba em 01/12.",
  "itens": [
   {
    "tipo": "alerta",
-   "titulo": "8 dias sem post; 15 vídeos prontos parados",
-   "evidencia": "Último Reel no Metricool: 19/11 19:32. Desde a leitura de 26/11 19:43 os 7 Reels variaram de 0 a +3 views (ex.: TV 325→326, GAME 287→290). No repositório: 15 pastas em 'vídeo aguardando aprovação' e nenhum roteiro na fila.",
-   "acao": "Vitor: aprovar no app os melhores com marca grande e agendar hoje (27/11) 19:30; sem post novo até 01/12 o plano de recuperação termina sem nenhum dado para julgar."
+   "titulo": "8 dias sem post; nada mudou desde a manhã",
+   "evidencia": "Último Reel no Metricool: 19/11 19:32. Entre as leituras de 27/11 07:43 e 19:42 os 7 Reels ficaram iguais (TV 326, GAME 290, GTA/PS5 276, VOO 343) e o TikTok também (VOO 127, GAME 81). No repositório: 15 pastas em 'vídeo aguardando aprovação' e nenhum commit novo desde 07:44.",
+   "acao": "Vitor: aprovar no app os melhores com marca grande e agendar amanhã (sáb 28/11) 13:00; restam 4 dias do plano de recuperação (até 01/12) e hoje ainda não há nenhum dado para julgá-lo."
   },
   {
    "tipo": "fazer_mais",
