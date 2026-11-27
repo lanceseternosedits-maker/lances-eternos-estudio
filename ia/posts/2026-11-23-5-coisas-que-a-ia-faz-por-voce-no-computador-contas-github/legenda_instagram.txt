@@ -6,7 +6,7 @@ Você esquece conta vencendo? Quatro projetos grátis e um assistente cuidam dis
 4º Immich: Organiza suas fotos sozinho.
 3º Whisper: Transforma áudio em texto, em português.
 2º Ollama: Roda IA no seu PC, sem mensalidade.
-1º Assistente de contas da casa: Organiza gastos e avisa quais contas vencem.
+1º Assistente de contas da casa: Avisa as contas que vencem.
 
 ⚠️ Projetos independentes; o assistente nº 1 é do kit.
 

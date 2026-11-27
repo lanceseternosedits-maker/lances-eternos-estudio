@@ -21,10 +21,10 @@
   {
    "cena": "gancho",
    "tag": "CINCO PROGRAMAS BOMBANDO PRO SEU COMPUTADOR",
-   "fala": "Você ainda paga por programa? Cinco grátis estão bombando no GitHub, o site dos programadores.",
-   "legenda": "Você ainda paga por programa? Cinco grátis estão bombando no GitHub, o site dos programadores.",
+   "fala": "Você ainda paga por programa? Cinco grátis estão bombando no GitHub.",
+   "legenda": "Você ainda paga por programa? Cinco grátis estão bombando no GitHub.",
    "visual": "CINCO PROGRAMAS BOMBANDO PRO SEU COMPUTADOR",
-   "itens": "computador-bombando",
+   "itens": "pc-produtividade-grelha",
    "etiqueta": [
     "CINCO PROGRAMAS BOMBANDO PRO SEU COMPUTADOR",
     "+255 MIL ESTRELAS NO GITHUB",

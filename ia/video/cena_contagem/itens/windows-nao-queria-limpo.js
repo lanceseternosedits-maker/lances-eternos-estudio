@@ -1,0 +1,21 @@
+// Reel 🆕 contagem "a Microsoft não queria esses 5 programas grátis no seu Windows" (Sophia Script, ExplorerPatcher, Rufus, Win11Debloat, WinUtil; molde campeão clean, 23/11).
+// Identidade: sala de tecnologia com tela grande; janelas genéricas sem logo; rosa + dourado sobre grafite-vinho. Mascote de bandana. Nº 1: painel que limpa tudo.
+import make from "./_clean.js";
+const T = (g, s, x, y, f, c) => { g.font = `900 ${f}px sans-serif`; g.fillStyle = c; g.fillText(s, x, y); };
+const jan = (g, t) => { g.fillStyle = "#f6e9ec"; g.fillRect(14, 14, 228, 132); g.fillStyle = "#e6cfd5"; g.fillRect(14, 14, 228, 16); g.fillStyle = "#2a1218"; g.font = "bold 11px sans-serif"; g.textAlign = "left"; g.fillText(t, 20, 23); g.textAlign = "center"; };
+export default function (K) {
+  const { THREE, S, box, mesh, M, MAS } = K;
+  return make(K, {
+    cores: { parede: "#2a1d24", piso: "#3a2a32", destaque: "#fb7185", escuro: "#170e12", ouro: "#ffc93c", selo: "WINDOWS" },
+    cenario: () => { for (let i = 0; i < 3; i++) box(.7, .5, .06, M(["#3b82f6", "#ffc93c", "#fb7185"][i], { roughness: .6 }), S, -3.0 + i * .2, 1.9 + i * .18, -2.74 + i * .01); },
+    telas: {
+      gancho: (g, C, k) => { T(g, "SEU WINDOWS", 128, 40, 28, "#fff"); ["PROPAGANDA", "APPS INÚTEIS", "CONFIG CHATA"].forEach((t, i) => { const v = Math.max(0, 1 - Math.max(0, k * 3.2 - i - .3)); g.globalAlpha = v; g.fillStyle = "#4a2c36"; g.fillRect(40 + i * 8 - (1 - v) * 40, 60 + i * 26, 160, 20); T(g, t, 120 + i * 8, 70 + i * 26, 12, "#fff"); g.globalAlpha = 1; }); if (k > .9) T(g, "LIMPO", 128, 140, 22, "#ffc93c"); },
+      n5: (g, C, k) => { jan(g, "Sophia Script"); ["Telemetria", "Sugestões", "Anúncios"].forEach((t, i) => { const on = k < (i + 1) / 4 + .1; g.fillStyle = "#fff"; g.fillRect(24, 40 + i * 32, 208, 26); g.textAlign = "left"; T(g, t, 34, 54 + i * 32, 14, "#2a1218"); g.textAlign = "center"; g.fillStyle = on ? "#fb7185" : "#c9b5ba"; g.beginPath(); g.roundRect(186, 44 + i * 32, 36, 18, 9); g.fill(); g.fillStyle = "#fff"; g.beginPath(); g.arc(on ? 213 : 195, 53 + i * 32, 7, 0, 7); g.fill(); }); },
+      n4: (g, C, k) => { g.fillStyle = "#3a2a32"; g.fillRect(14, 120, 228, 26); g.fillStyle = "#fb7185"; g.fillRect(20 + 100 * (1 - Math.min(1, k * 2)), 124, 18, 18); [60, 84, 108].forEach(x => { g.fillStyle = "#fff"; g.fillRect(x + 100 * (1 - Math.min(1, k * 2)) * 0 + 20 * (1 - Math.min(1, k * 2)), 126, 12, 12); }); if (k > .5) { g.fillStyle = "#f6e9ec"; g.fillRect(20, 34, 96, 80 * Math.min(1, (k - .4) * 2.4)); g.fillStyle = "#e6cfd5"; for (let i = 0; i < 4; i++) g.fillRect(28, 42 + i * 18, 80, 10); } T(g, "CLÁSSICO", 180, 70, 15, "#ffc93c"); },
+      n3: (g, C, k) => { jan(g, "Rufus"); g.fillStyle = "#2a1218"; g.fillRect(34, 50, 52, 24); g.fillStyle = "#fb7185"; g.fillRect(86, 56, 16, 12); g.fillStyle = "#cdb6bc"; g.fillRect(34, 92, 188, 16); g.fillStyle = "#fb7185"; g.fillRect(34, 92, 188 * k, 16); T(g, "PENDRIVE PRONTO" + (k > .9 ? " ✓" : ""), 128, 128, 13, "#2a1218"); T(g, "SEM CONTA", 160, 62, 14, "#2a1218"); },
+      n2: (g, C, k) => { jan(g, "Apps inúteis"); ["Jogo extra", "App de sugestão", "Anúncio fixo", "Widget"].forEach((t, i) => { const gone = k > (i + 1) / 5; g.globalAlpha = gone ? Math.max(0, 1 - (k - (i + 1) / 5) * 6) : 1; g.fillStyle = "#fff"; g.fillRect(24, 38 + i * 24, 208, 20); g.textAlign = "left"; T(g, t, 32, 49 + i * 24, 12, "#2a1218"); g.textAlign = "right"; T(g, gone ? "✕" : "▢", 224, 49 + i * 24, 14, "#fb7185"); g.textAlign = "center"; g.globalAlpha = 1; }); if (k > .75) T(g, "TUDO LIMPO ✓", 128, 92, 20, "#fb7185"); },
+      n1: (g, C, k) => { T(g, "WINUTIL", 128, 24, 22, "#ffc93c"); ["Tirar lixo", "Ajustar desempenho", "Privacidade", "Atualizações"].forEach((t, i) => { const v = Math.max(0, Math.min(1, k * 4.4 - i)); g.globalAlpha = v; g.fillStyle = "#2c1a21"; g.fillRect(28, 42 + i * 26, 200, 22); g.textAlign = "left"; T(g, t, 38, 54 + i * 26, 13, "#fff"); g.textAlign = "right"; T(g, "✓", 218, 54 + i * 26, 16, "#fb7185"); g.textAlign = "center"; g.globalAlpha = 1; }); },
+    },
+    acessorio: () => { const B = new THREE.Group(); MAS.corpo.add(B); box(1.56, .14, 1.06, M("#fb7185", { roughness: .8 }), B, 0, 1.42, 0); const n = box(.22, .22, .12, M("#e11d48"), B, .8, 1.42, .1); n.rotation.z = .7; box(.1, .28, .06, M("#e11d48"), B, .9, 1.22, .1); },
+  });
+}

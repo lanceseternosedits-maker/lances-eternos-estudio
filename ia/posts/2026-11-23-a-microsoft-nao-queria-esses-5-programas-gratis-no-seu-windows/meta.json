@@ -1,67 +1,133 @@
 {
-  "data": "2026-11-24",
-  "categoria": "novidade",
-  "pilar": "reel",
-  "formato": "reel contagem (molde campeão, visual clean)",
-  "temas": [
-    "Windows",
-    "programas",
-    "PC",
-    "computador",
-    "produtividade",
-    "github",
-    "grátis"
+ "data": "2026-11-24",
+ "categoria": "novidade",
+ "pilar": "reel",
+ "formato": "reel contagem (molde campeão, visual clean)",
+ "temas": [
+  "Windows",
+  "programas",
+  "PC",
+  "computador",
+  "produtividade",
+  "github",
+  "grátis"
+ ],
+ "fontes": [
+  "https://github.com/farag2/Sophia-Script-for-Windows",
+  "https://github.com/valinet/ExplorerPatcher",
+  "https://github.com/pbatard/rufus",
+  "https://github.com/Raphire/Win11Debloat",
+  "https://github.com/ChrisTitusTech/winutil"
+ ],
+ "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): Sophia Script 9.976, ExplorerPatcher 34.393, Rufus 38.466, Win11Debloat 63.570, WinUtil 66.543; total 212.948.",
+ "cta": "WINDOWS",
+ "polemica": true,
+ "candidato": "b1",
+ "primeiro_comentario": "💬 Comenta WINDOWS que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
+ "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
+ "status": "vídeo aguardando aprovação",
+ "horario": "12:00",
+ "horarios": {
+  "instagram": "2026-11-24 12:00",
+  "tiktok": "2026-11-24 12:00"
+ },
+ "vaga": 2,
+ "revisao": {
+  "veredito": "ajustado",
+  "resumo": "gancho com conflito, fatos conferidos",
+  "pareceres": [
+   {
+    "revisor": "vitor",
+    "veredito": "passa",
+    "nota": "Polêmica legal e programa grátis que limpa o Windows: gosto dele."
+   },
+   {
+    "revisor": "fatos",
+    "veredito": "ajustar",
+    "nota": "Estrelas ok; não afirmar intenção da Microsoft; Rufus só cria o pendrive."
+   },
+   {
+    "revisor": "gancho",
+    "veredito": "ajustar",
+    "nota": "Gancho descritivo, sem tensão: troquei por pergunta de conflito/dor."
+   },
+   {
+    "revisor": "clareza",
+    "veredito": "ajustar",
+    "nota": "Gancho longo e 'GitHub' sem tradução: encurtei e traduzi onde coube."
+   }
   ],
-  "fontes": [
-    "https://github.com/farag2/Sophia-Script-for-Windows",
-    "https://github.com/valinet/ExplorerPatcher",
-    "https://github.com/pbatard/rufus",
-    "https://github.com/Raphire/Win11Debloat",
-    "https://github.com/ChrisTitusTech/winutil"
+  "ajustes": [
+   "gancho reescrito com pergunta/conflito",
+   "falas e avisos corrigidos conforme fatos/clareza"
   ],
-  "prova_viral": "Estrelas no GitHub (API de busca, 23/11/2026): Sophia Script 9.976, ExplorerPatcher 34.393, Rufus 38.466, Win11Debloat 63.570, WinUtil 66.543; total 212.948.",
-  "cta": "WINDOWS",
-  "polemica": true,
-  "candidato": "b1",
-  "primeiro_comentario": "💬 Comenta WINDOWS que eu te mando os links\nQuer o kit com 10 assistentes prontos? Comenta KIT",
-  "pedido": "Vitor, 13/11: foco Nvidia + GTA 6; rodada de segunda 23/11",
-  "status": "roteiro aprovado",
-  "horario": "12:00",
-  "horarios": {
-    "instagram": "2026-11-24 12:00",
-    "tiktok": "2026-11-24 12:00"
-  },
-  "vaga": 2,
-  "revisao": {
-    "veredito": "ajustado",
-    "resumo": "gancho com conflito, fatos conferidos",
-    "pareceres": [
-      {
-        "revisor": "vitor",
-        "veredito": "passa",
-        "nota": "Polêmica legal e programa grátis que limpa o Windows: gosto dele."
-      },
-      {
-        "revisor": "fatos",
-        "veredito": "ajustar",
-        "nota": "Estrelas ok; não afirmar intenção da Microsoft; Rufus só cria o pendrive."
-      },
-      {
-        "revisor": "gancho",
-        "veredito": "ajustar",
-        "nota": "Gancho descritivo, sem tensão: troquei por pergunta de conflito/dor."
-      },
-      {
-        "revisor": "clareza",
-        "veredito": "ajustar",
-        "nota": "Gancho longo e 'GitHub' sem tradução: encurtei e traduzi onde coube."
-      }
-    ],
-    "ajustes": [
-      "gancho reescrito com pergunta/conflito",
-      "falas e avisos corrigidos conforme fatos/clareza"
-    ],
-    "em": "2026-11-23 05:09",
-    "obs": "2ª volta dispensada por economia de tokens; sem reprovação. Estrelas lidas na API de busca do GitHub em 23/11/2026."
-  }
+  "em": "2026-11-23 05:09",
+  "obs": "2ª volta dispensada por economia de tokens; sem reprovação. Estrelas lidas na API de busca do GitHub em 23/11/2026."
+ },
+ "checagem": {
+  "em": "2026-11-27 05:20",
+  "ok": true,
+  "itens": [
+   {
+    "nome": "Formato",
+    "valor": "1080×1920",
+    "ok": true,
+    "regra": "1080×1920"
+   },
+   {
+    "nome": "Duração",
+    "valor": "33.7 s",
+    "ok": true,
+    "regra": "até 35 s (corte texto se passar)"
+   },
+   {
+    "nome": "Velocidade da fala",
+    "valor": "2.55 palavras/s (86 palavras)",
+    "ok": true,
+    "regra": "máximo 3,0 palavras/s"
+   },
+   {
+    "nome": "Volume",
+    "valor": "-13.8 LUFS, pico -1.4 dB",
+    "ok": true,
+    "regra": "entre -16 e -12 LUFS, pico até -1 dB"
+   },
+   {
+    "nome": "Fontes",
+    "valor": "5 fonte(s)",
+    "ok": true,
+    "regra": "todo fato com fonte"
+   },
+   {
+    "nome": "Prova viral",
+    "valor": "preenchida",
+    "ok": true,
+    "regra": "toda pauta com a prova de que viralizou"
+   },
+   {
+    "nome": "Legenda do Instagram",
+    "valor": "912 caracteres",
+    "ok": true,
+    "regra": "até 2.200 caracteres"
+   },
+   {
+    "nome": "CTA na legenda",
+    "valor": "WINDOWS",
+    "ok": true,
+    "regra": "a palavra do CTA aparece na legenda"
+   },
+   {
+    "nome": "Hashtags no Instagram",
+    "valor": "5",
+    "ok": true,
+    "regra": "de 3 a 5 hashtags (o Instagram limita a 5)"
+   },
+   {
+    "nome": "Resposta da DM",
+    "valor": "ok",
+    "ok": true,
+    "regra": "resposta_dm.txt com os links"
+   }
+  ]
+ }
 }

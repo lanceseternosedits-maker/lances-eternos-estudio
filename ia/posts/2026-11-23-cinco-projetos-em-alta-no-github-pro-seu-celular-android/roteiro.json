@@ -21,10 +21,10 @@
   {
    "cena": "gancho",
    "tag": "CINCO PROJETOS EM ALTA PRO SEU CELULAR ANDROID",
-   "fala": "YouTube sem anúncio e fotos fora do Google? Cinco projetos grátis em alta fazem no seu Android.",
-   "legenda": "YouTube sem anúncio e fotos fora do Google? Cinco projetos grátis em alta fazem no seu Android.",
+   "fala": "YouTube sem anúncio e fotos fora do Google? Cinco projetos grátis fazem isso no Android.",
+   "legenda": "YouTube sem anúncio e fotos fora do Google? Cinco projetos grátis fazem isso no Android.",
    "visual": "CINCO PROJETOS EM ALTA PRO SEU CELULAR ANDROID",
-   "itens": "celular-android-alta",
+   "itens": "android-em-alta",
    "etiqueta": [
     "CINCO PROJETOS EM ALTA PRO SEU CELULAR ANDROID",
     "+472 MIL ESTRELAS NO GITHUB",
@@ -35,8 +35,8 @@
    "cena": "n5",
    "tag": "5º",
    "item": "NewPipe",
-   "fala": "Quinto: NewPipe. App leve pra assistir YouTube, sem anúncio e sem login.",
-   "legenda": "Quinto: NewPipe. App leve pra assistir YouTube, sem anúncio e sem login.",
+   "fala": "Quinto: NewPipe. Assiste YouTube sem anúncio e sem login.",
+   "legenda": "Quinto: NewPipe. Assiste YouTube sem anúncio e sem login.",
    "visual": "App leve pra assistir YouTube, sem anúncio e sem login.",
    "sfx": [
     {
@@ -86,8 +86,8 @@
    "cena": "n2",
    "tag": "2º",
    "item": "Immich",
-   "fala": "Segundo: Immich. Guarda suas fotos no seu servidor, estilo Google Fotos.",
-   "legenda": "Segundo: Immich. Guarda suas fotos no seu servidor, estilo Google Fotos.",
+   "fala": "Segundo: Immich. Suas fotos no seu servidor, estilo Google Fotos.",
+   "legenda": "Segundo: Immich. Suas fotos no seu servidor, estilo Google Fotos.",
    "visual": "Guarda suas fotos no seu servidor, estilo Google Fotos.",
    "sfx": [
     {
@@ -103,8 +103,8 @@
    "cena": "n1",
    "tag": "1º",
    "item": "scrcpy",
-   "fala": "E o primeiro: scrcpy. Mostra e controla o celular na tela do PC.",
-   "legenda": "E o primeiro: scrcpy. Mostra e controla o celular na tela do PC.",
+   "fala": "E o primeiro: scrcpy. Controla o celular pela tela do PC.",
+   "legenda": "E o primeiro: scrcpy. Controla o celular pela tela do PC.",
    "visual": "Mostra e controla o celular na tela do PC.",
    "sfx": [
     {
@@ -136,5 +136,6 @@
   "cenario": "varanda de tarde com plantas"
  },
  "palavras": 94,
- "duracao_estimada_s": 33.6
+ "duracao_estimada_s": 33.6,
+ "modelo": "gemini-2.5-flash-preview-tts"
 }

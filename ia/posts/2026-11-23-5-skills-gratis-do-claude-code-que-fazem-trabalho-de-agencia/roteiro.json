@@ -21,10 +21,10 @@
   {
    "cena": "gancho",
    "tag": "O CLAUDE CODE FAZENDO TRABALHO DE AGÊNCIA: 5 SKILLS GRÁTIS EM ALTA",
-   "fala": "Dá pra ensinar o Claude Code a fazer trabalho de agência. São cinco skills em alta no GitHub, grátis.",
-   "legenda": "Dá pra ensinar o Claude Code a fazer trabalho de agência. São cinco skills em alta no GitHub, grátis.",
+   "fala": "Ensine o Claude Code a fazer trabalho de agência. Cinco skills grátis em alta no GitHub.",
+   "legenda": "Ensine o Claude Code a fazer trabalho de agência. Cinco skills grátis em alta no GitHub.",
    "visual": "O CLAUDE CODE FAZENDO TRABALHO DE AGÊNCIA: 5 SKILLS GRÁTIS EM ALTA",
-   "itens": "skills-agencia",
+   "itens": "skills-claude-agencia",
    "etiqueta": [
     "O CLAUDE CODE FAZENDO TRABALHO DE AGÊNCIA: 5 SKILLS GRÁTIS EM ALTA",
     "+818 MIL ESTRELAS NO GITHUB",
@@ -35,8 +35,8 @@
    "cena": "n5",
    "tag": "5º",
    "item": "Skills da Anthropic",
-   "fala": "Quinto: Skills da Anthropic. Faz Word, Excel, PowerPoint e PDF.",
-   "legenda": "Quinto: Skills da Anthropic. Faz Word, Excel, PowerPoint e PDF.",
+   "fala": "Quinto: Skills da Anthropic. Faz Word, Excel e PDF.",
+   "legenda": "Quinto: Skills da Anthropic. Faz Word, Excel e PDF.",
    "visual": "Faz Word, Excel, PowerPoint e PDF.",
    "sfx": [
     {
@@ -69,8 +69,8 @@
    "cena": "n3",
    "tag": "3º",
    "item": "ComposioHQ Skills",
-   "fala": "Terceiro: ComposioHQ Skills. Reúne centenas de skills prontas. Essa é legalzinha… comenta SKILLS que eu mando os cinco. Manda pro amigo.",
-   "legenda": "Terceiro: ComposioHQ Skills. Reúne centenas de skills prontas. Essa é legalzinha… comenta SKILLS que eu mando os cinco. Manda pro amigo.",
+   "fala": "Terceiro: ComposioHQ. Reúne centenas de skills. Comenta SKILLS que eu mando os cinco. Manda pro amigo.",
+   "legenda": "Terceiro: ComposioHQ. Reúne centenas de skills. Comenta SKILLS que eu mando os cinco. Manda pro amigo.",
    "visual": "Reúne centenas de skills prontas.",
    "sfx": [
     {
@@ -118,8 +118,8 @@
   },
   {
    "cena": "cta",
-   "fala": "Comenta SKILLS e me segue. Que tarefa do seu trabalho você ainda faz na mão?",
-   "legenda": "Comenta SKILLS e me segue. Que tarefa do seu trabalho você ainda faz na mão?",
+   "fala": "Comenta SKILLS e me segue. Que tarefa você ainda faz na mão?",
+   "legenda": "Comenta SKILLS e me segue. Que tarefa você ainda faz na mão?",
    "visual": "caixa de comentário digitando a palavra + cartão da DM; loop para o 1º quadro"
   }
  ],
@@ -136,5 +136,6 @@
   "cenario": "biblioteca de manhã com luz quente"
  },
  "palavras": 96,
- "duracao_estimada_s": 34.3
+ "duracao_estimada_s": 34.3,
+ "modelo": "gemini-2.5-flash-preview-tts"
 }

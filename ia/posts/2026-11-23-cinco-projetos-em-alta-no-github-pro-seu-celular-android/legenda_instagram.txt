@@ -2,11 +2,11 @@ Comenta ANDROID que eu te mando os links. 💬
 
 YouTube sem anúncio e fotos fora do Google? Cinco projetos grátis em alta fazem no seu Android.
 
-5º NewPipe: App leve pra assistir YouTube, sem anúncio e sem login.
+5º NewPipe: Assiste YouTube sem anúncio e sem login.
 4º Termux: Vira um mini computador no celular.
 3º Syncthing: Passa arquivos pro PC sem nuvem.
-2º Immich: Guarda suas fotos no seu servidor, estilo Google Fotos.
-1º scrcpy: Mostra e controla o celular na tela do PC.
+2º Immich: Suas fotos no seu servidor, estilo Google Fotos.
+1º scrcpy: Controla o celular pela tela do PC.
 
 ⚠️ Projetos independentes, sem ligação com Google/YouTube; NewPipe não é o app oficial do YouTube; baixe só do site oficial.
 

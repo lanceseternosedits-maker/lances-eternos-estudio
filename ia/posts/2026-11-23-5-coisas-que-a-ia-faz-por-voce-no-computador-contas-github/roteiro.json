@@ -23,7 +23,7 @@
    "fala": "Você esquece conta vencendo? Quatro projetos grátis e um assistente cuidam disso.",
    "legenda": "Você esquece conta vencendo? Quatro projetos grátis e um assistente cuidam disso.",
    "visual": "5 COISAS QUE A IA FAZ POR VOCÊ NO COMPUTADOR",
-   "itens": "ia-faz-por-voce-pc-contas",
+   "itens": "ia-contas-da-casa",
    "etiqueta": [
     "5 COISAS QUE A IA FAZ POR VOCÊ NO COMPUTADOR",
     "+511 MIL ESTRELAS NO GITHUB",
@@ -102,8 +102,8 @@
    "cena": "n1",
    "tag": "1º",
    "item": "Assistente de contas da casa",
-   "fala": "E o primeiro: Assistente de contas da casa. Organiza gastos e avisa quais contas vencem.",
-   "legenda": "E o primeiro: Assistente de contas da casa. Organiza gastos e avisa quais contas vencem.",
+   "fala": "E o primeiro: Assistente de contas da casa. Avisa as contas que vencem.",
+   "legenda": "E o primeiro: Assistente de contas da casa. Avisa as contas que vencem.",
    "visual": "Organiza gastos e avisa quais contas vencem.",
    "sfx": [
     {
@@ -111,7 +111,9 @@
      "som": "glitch",
      "g": 0.5
     }
-   ]
+   ],
+   "estrelas": 0,
+   "kit": true
   },
   {
    "cena": "cta",
@@ -133,5 +135,6 @@
   "cenario": "cozinha de manhã com café"
  },
  "palavras": 84,
- "duracao_estimada_s": 30.0
+ "duracao_estimada_s": 30.0,
+ "modelo": "gemini-2.5-flash-preview-tts"
 }
