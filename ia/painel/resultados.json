@@ -1,14 +1,14 @@
 {
- "gerado_em": "2026-11-27 19:41",
- "leitura": "metricool_2026-11-27.json",
- "lido_em": "2026-11-27 19:42",
+ "gerado_em": "2026-11-28 07:43",
+ "leitura": "metricool_2026-11-28.json",
+ "lido_em": "2026-11-28 07:43",
  "periodo": [
-  "2026-11-13",
-  "2026-11-27"
+  "2026-11-14",
+  "2026-11-28"
  ],
  "totais": {
   "reels_medidos": 7,
-  "views_ig": 1611,
+  "views_ig": 1612,
   "alcance_ig": 1427,
   "salvamentos": 9,
   "envios": 1,
@@ -123,16 +123,16 @@
    "faixa": "manhã (6–11h)",
    "categoria": "novidade",
    "formato": "contagem (formato 3)",
-   "views": 276,
+   "views": 277,
    "alcance": 256,
    "curtidas": 9,
    "comentarios": 1,
    "salvamentos": 0,
    "envios": 0,
-   "tempo_medio_s": 7.754,
+   "tempo_medio_s": 7.736,
    "duracao_s": 36.7,
    "assistido_pct": 21.1,
-   "passou_3s_pct": 63.2,
+   "passou_3s_pct": 63.4,
    "salvar_pct": 0.0,
    "enviar_pct": 0.0,
    "comentar_pct": 0.4,
@@ -194,7 +194,7 @@
    "n": 2,
    "mediana_views": 310,
    "salvar_pct": 0.15,
-   "passou_3s_pct": 53.95
+   "passou_3s_pct": 54.05
   },
   {
    "nome": "mascote no palco (formato 1)",
@@ -261,7 +261,7 @@
     "enviar_pct": 0.9,
     "comentar_pct": 1.0,
     "passou_3s_pct": 45.6,
-    "idade_mediana_dias": 21.7,
+    "idade_mediana_dias": 22.2,
     "top": [
      {
       "titulo": "5 projetos pra TV e celular",
@@ -313,7 +313,7 @@
     "enviar_pct": 0.6,
     "comentar_pct": 0.9,
     "passou_3s_pct": 44.7,
-    "idade_mediana_dias": 17.4,
+    "idade_mediana_dias": 17.9,
     "top": [
      {
       "titulo": "10 estilos de animação",
@@ -356,10 +356,10 @@
     "dias": 5,
     "reels": 6,
     "reels_por_dia": 1.2,
-    "views": 1268,
+    "views": 1269,
     "views_por_dia": 254,
-    "mediana_views": 283,
-    "media_views": 211,
+    "mediana_views": 284,
+    "media_views": 212,
     "acima_1000": 0,
     "alcance": 1125,
     "salvamentos": 8,
@@ -369,7 +369,7 @@
     "enviar_pct": 0.0,
     "comentar_pct": 1.3,
     "passou_3s_pct": 44.5,
-    "idade_mediana_dias": 9.8,
+    "idade_mediana_dias": 10.3,
     "top": [
      {
       "titulo": "TV sem propaganda",
@@ -387,7 +387,7 @@
     "por_categoria": {
      "novidade": {
       "n": 6,
-      "mediana_views": 283
+      "mediana_views": 284
      }
     },
     "tiktok_videos": 6,
@@ -489,8 +489,8 @@
    {
     "data": "2026-11-19",
     "reels": 2,
-    "views": 306,
-    "mediana": 153
+    "views": 307,
+    "mediana": 154
    }
   ]
  },

@@ -1,0 +1,211 @@
+{
+ "lido_em": "2026-11-28 07:43",
+ "periodo": [
+  "2026-11-14",
+  "2026-11-28"
+ ],
+ "instagram_campos": [
+  "data_utc",
+  "url",
+  "views",
+  "alcance",
+  "curtidas",
+  "comentarios",
+  "salvamentos",
+  "envios",
+  "tempo_medio_s",
+  "taxa_3s",
+  "titulo",
+  "pasta"
+ ],
+ "instagram": [
+  [
+   "20261119223237",
+   "https://www.instagram.com/reel/Df8KH2IAlO2/",
+   30,
+   29,
+   2,
+   1,
+   0,
+   0,
+   4.168,
+   39.3,
+   "Agência de marketing no Claude",
+   "2026-11-15-agencia-de-marketing-no-claude"
+  ],
+  [
+   "20261119090647",
+   "https://www.instagram.com/reel/Df6t5eLmfAm/",
+   277,
+   256,
+   9,
+   1,
+   0,
+   0,
+   7.736,
+   63.4,
+   "PS5 grava seu GTA 6",
+   "2026-11-19-ps5-grava-seu-gta-6"
+  ],
+  [
+   "20261118090604",
+   "https://www.instagram.com/reel/Df4JG1xgu70/",
+   290,
+   262,
+   5,
+   5,
+   3,
+   0,
+   6.343,
+   43.8,
+   "Estúdio de games no Claude",
+   "2026-11-15-estudio-de-games-no-claude"
+  ],
+  [
+   "20261117223128",
+   "https://www.instagram.com/reel/Df3AhO1lIb4/",
+   49,
+   41,
+   3,
+   4,
+   0,
+   0,
+   6.272,
+   31.0,
+   "Jogos no celular e no Mac",
+   "2026-11-17-jogos-no-celular-e-no-mac"
+  ],
+  [
+   "20261116223229",
+   "https://www.instagram.com/reel/Df0buzojYkD/",
+   297,
+   253,
+   3,
+   1,
+   0,
+   0,
+   13.41,
+   48.0,
+   "Nvidia perdeu o chefe",
+   "2026-11-16-nvidia-perdeu-o-chefe"
+  ],
+  [
+   "20261116090655",
+   "https://www.instagram.com/reel/Dfy_hiiEjVe/",
+   326,
+   284,
+   4,
+   3,
+   5,
+   0,
+   7.132,
+   45.2,
+   "TV sem propaganda",
+   "2026-11-16-tv-sem-propaganda-lg-samsung"
+  ],
+  [
+   "20261114031113",
+   "https://www.instagram.com/reel/DftNW0oiVtU/",
+   343,
+   302,
+   5,
+   2,
+   1,
+   1,
+   6.285,
+   44.7,
+   "EUA pararam os voos",
+   "2026-11-13-eua-pararam-os-voos"
+  ]
+ ],
+ "tiktok_campos": [
+  "data_utc",
+  "url",
+  "duracao_s",
+  "views",
+  "curtidas",
+  "comentarios",
+  "envios",
+  "titulo",
+  "pasta"
+ ],
+ "tiktok": [
+  [
+   "20261119223054",
+   "https://www.tiktok.com/@lanceseternoss/video/7710013692443626765",
+   36,
+   7,
+   0,
+   0,
+   0,
+   "Agência de marketing no Claude",
+   "2026-11-15-agencia-de-marketing-no-claude"
+  ],
+  [
+   "20261119090537",
+   "https://www.tiktok.com/@lanceseternoss/video/7709805848532372749",
+   36,
+   9,
+   0,
+   0,
+   0,
+   "PS5 grava seu GTA 6",
+   "2026-11-19-ps5-grava-seu-gta-6"
+  ],
+  [
+   "20261118090203",
+   "https://www.tiktok.com/@lanceseternoss/video/7709434009381637390",
+   37,
+   81,
+   0,
+   0,
+   0,
+   "Estúdio de games no Claude",
+   "2026-11-15-estudio-de-games-no-claude"
+  ],
+  [
+   "20261117223038",
+   "https://www.tiktok.com/@lanceseternoss/video/7709271375801896205",
+   41,
+   3,
+   1,
+   0,
+   0,
+   "Jogos no celular e no Mac",
+   "2026-11-17-jogos-no-celular-e-no-mac"
+  ],
+  [
+   "20261116223045",
+   "https://www.tiktok.com/@lanceseternoss/video/7708900390443502862",
+   47,
+   50,
+   0,
+   0,
+   0,
+   "Nvidia perdeu o chefe",
+   "2026-11-16-nvidia-perdeu-o-chefe"
+  ],
+  [
+   "20261116090634",
+   "https://www.tiktok.com/@lanceseternoss/video/7708692667747667214",
+   44,
+   56,
+   0,
+   0,
+   0,
+   "TV sem propaganda",
+   "2026-11-16-tv-sem-propaganda-lg-samsung"
+  ],
+  [
+   "20261114060519",
+   "https://www.tiktok.com/@lanceseternoss/video/7707904135504432397",
+   29,
+   127,
+   2,
+   0,
+   0,
+   "EUA pararam os voos",
+   "2026-11-13-eua-pararam-os-voos"
+  ]
+ ]
+}
